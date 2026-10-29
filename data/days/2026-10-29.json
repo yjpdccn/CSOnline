@@ -566,18 +566,18 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 31,
+      "score": 31.2,
       "metrics": {
-        "points": 339,
-        "comments": 103
+        "points": 346,
+        "comments": 104
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50284255",
       "ai": {
-        "title": "Claude Code regularly sends each backgr…",
-        "summary": "Claude Code 会将后台代理的对话记录发送给模型。",
+        "title": "Claude Code 将背景代理的对话记录发送给模型",
+        "summary": "Claude Code 功能更新，将背景代理的对话记录发送给模型。",
         "category": "agent",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T08:16:57.279Z"
+        "at": "2026-10-29T09:12:04.699Z"
       }
     },
     {
@@ -651,15 +651,15 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 307788,
+        "stars": 307791,
         "starsToday": 1095
       },
       "ai": {
-        "title": "obra/superpowers",
-        "summary": "一个基于代理技能框架的软件开发方法论。",
+        "title": "obra/superpowers：代理技能框架与开发方法论",
+        "summary": "obra/superpowers 提供开箱即用的代理技能框架与开发方法。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T08:16:57.279Z"
+        "at": "2026-10-29T09:12:04.699Z"
       }
     },
     {
@@ -682,8 +682,15 @@
       ],
       "score": 16.7,
       "metrics": {
-        "stars": 5598,
+        "stars": 5599,
         "starsToday": 117
+      },
+      "ai": {
+        "title": "macro-inc/macro：统一团队工作空间",
+        "summary": "macro-inc/macro 是一个统一团队工作空间。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
       }
     },
     {
@@ -706,7 +713,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 41253,
+        "stars": 41262,
         "starsToday": 2110
       },
       "ai": {
@@ -738,7 +745,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 93796,
+        "stars": 93817,
         "starsToday": 1472
       },
       "ai": {
@@ -769,8 +776,15 @@
       ],
       "score": 28.3,
       "metrics": {
-        "stars": 8389,
+        "stars": 8394,
         "starsToday": 728
+      },
+      "ai": {
+        "title": "makecindy/cindy：开源 AI Agent",
+        "summary": "makecindy/cindy 是一个开源、开箱即用的 AI Agent。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
       }
     },
     {
@@ -794,7 +808,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 3513,
+        "stars": 3516,
         "starsToday": 1054
       },
       "ai": {
@@ -827,6 +841,13 @@
       "metrics": {
         "stars": 3711,
         "starsToday": 90
+      },
+      "ai": {
+        "title": "expo/skills：Expo 项目 AI 代理技能集合",
+        "summary": "expo/skills 是 Expo 项目 AI 代理技能集合。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
       }
     },
     {
@@ -1460,14 +1481,14 @@
       "score": 30.2,
       "metrics": {
         "upvotes": 256,
-        "comments": 3
+        "comments": 4
       },
       "ai": {
-        "title": "DTCA: Denoising Token Credit Assignment…",
-        "summary": "DTCA 通过置信度提升和熵校准改进扩散语言模型的强化学习。",
+        "title": "DTCA：扩散语言模型强化学习的去噪令牌信用分配",
+        "summary": "DTCA 通过置信度提升和熵校准提升扩散语言模型的强化学习。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T08:16:57.279Z"
+        "at": "2026-10-29T09:12:04.699Z"
       }
     },
     {
@@ -1489,6 +1510,13 @@
       "metrics": {
         "upvotes": 144,
         "comments": 1
+      },
+      "ai": {
+        "title": "Falcon：高效流式音频视觉目标说话人提取",
+        "summary": "Falcon 是一种轻量级因果音频视觉目标说话人提取方法。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
       }
     },
     {
@@ -1589,7 +1617,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Adam Mosseri 称 AI 负面情绪将恶化",
+        "summary": "Adam Mosseri 称 AI 负面情绪将恶化。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
+      }
     },
     {
       "id": "i6yw8w76ks",
@@ -1605,7 +1640,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "微软披露 Azure 实际收入为 332 亿美元",
+        "summary": "微软首次披露 Azure 季度美元收入。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
+      }
     },
     {
       "id": "sx64ploh0c",
@@ -1621,7 +1663,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Google 扩展 AI 搜索广告全球覆盖",
+        "summary": "Google 扩展 AI 搜索广告全球覆盖。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
+      }
     },
     {
       "id": "by1y3p2e8n",
@@ -1637,7 +1686,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "微软从 OpenAI 获得收入 100 亿美元",
+        "summary": "微软从 OpenAI 获得收入 100 亿美元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
+      }
     },
     {
       "id": "6esje1d8oe",
@@ -1652,11 +1708,18 @@
       "publishedAt": "2026-10-28T21:34:04.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "opensource",
+      "category": "industry",
       "keywords": [
         "AI 编程"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Akai 接受 vibe-coded mods 开源 MPC",
+        "summary": "Akai 接受 vibe-coded mods 开源 MPC。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
+      }
     },
     {
       "id": "1bc0yf4rwmx",
@@ -1672,7 +1735,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "微软连续 10 个季度创纪录收入",
+        "summary": "微软连续 10 个季度创纪录收入。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
+      }
     },
     {
       "id": "khh1vufhap",
@@ -1692,7 +1762,14 @@
         "points": 151,
         "comments": 69
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50280178"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50280178",
+      "ai": {
+        "title": "Google AI 被问及 2020 年大选结果时含糊其辞",
+        "summary": "Google AI 在被问及 2020 年大选结果时含糊其辞。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
+      }
     },
     {
       "id": "uqgvijgiom",
@@ -1727,8 +1804,15 @@
       "publishedAt": "2026-10-28T19:19:58.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "agent",
-      "score": 19
+      "category": "industry",
+      "score": 19,
+      "ai": {
+        "title": "Anthropic 发布工具展示公司 AI 支出情况",
+        "summary": "Anthropic 发布工具展示公司 AI 支出情况。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
+      }
     },
     {
       "id": "8sq1bkexsa",
@@ -1798,6 +1882,13 @@
           "techcrunch-ai"
         ],
         "firstPublishedAt": "2026-10-28T18:50:39.000Z"
+      },
+      "ai": {
+        "title": "Wiz CTO 称‘Vulnpocalypse’即将来临",
+        "summary": "Wiz CTO 称‘Vulnpocalypse’即将来临。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
       }
     },
     {
@@ -1813,11 +1904,18 @@
       "publishedAt": "2026-10-28T18:36:26.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "AI 编程"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "微软结束 Copilot 在智能电视上的支持",
+        "summary": "微软结束 Copilot 在智能电视上的支持。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
+      }
     },
     {
       "id": "nww6jvidje",
@@ -1914,11 +2012,11 @@
         }
       ],
       "ai": {
-        "title": "Gemini 4 Carbon: Our next frontier model",
-        "summary": "Google DeepMind 发布下一代前沿模型 Gemini 4 Carbon。",
+        "title": "Gemini 4 Carbon：下一代前沿模型",
+        "summary": "Google DeepMind 发布 Gemini 4 Carbon，探索模型新边界。",
         "category": "model",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T08:15:39.297Z"
+        "at": "2026-10-29T09:12:04.699Z"
       },
       "related": [
         {
@@ -2020,6 +2118,13 @@
           "verge-ai"
         ],
         "firstPublishedAt": "2026-10-28T17:00:00.000Z"
+      },
+      "ai": {
+        "title": "Chrome AI 自动填充功能可读取 Gmail 填写表单",
+        "summary": "Chrome AI 自动填充功能可读取 Gmail 填写表单。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
       }
     },
     {
@@ -2071,12 +2176,19 @@
       "publishedAt": "2026-10-28T16:59:59.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent",
         "AI 编程"
       ],
-      "score": 19
+      "score": 19,
+      "ai": {
+        "title": "Google 开放 Android 开发给第三方 AI 代理",
+        "summary": "Google 开放 Android Studio 给第三方 AI 代理。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T09:12:04.699Z"
+      }
     },
     {
       "id": "8uqhtox1he",
