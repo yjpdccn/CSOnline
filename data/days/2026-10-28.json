@@ -52,10 +52,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 28.3,
+      "score": 28.7,
       "metrics": {
-        "points": 216,
-        "comments": 139
+        "points": 226,
+        "comments": 147
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50275626"
     },
@@ -159,10 +159,10 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "multimodal",
-      "score": 49.3,
+      "score": 49.5,
       "metrics": {
-        "points": 116,
-        "comments": 18
+        "points": 119,
+        "comments": 20
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50275128",
       "alsoOn": [
@@ -314,10 +314,10 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 35.8,
+      "score": 36,
       "metrics": {
-        "points": 445,
-        "comments": 491
+        "points": 456,
+        "comments": 500
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50273396"
     },
@@ -557,6 +557,22 @@
       "score": 15
     },
     {
+      "id": "28hg2j2s4go",
+      "key": "url:qbitai.com/2026/10/506194.html",
+      "title": "【图片中转测试，未发布】工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
+      "url": "https://www.qbitai.com/2026/10/506194.html",
+      "excerpt": "让基建作为常驻buff",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-28T11:09:10.000Z",
+      "firstSeenAt": "2026-10-29T07:54:34.040Z",
+      "day": "2026-10-28",
+      "category": "industry",
+      "score": 22
+    },
+    {
       "id": "24funokqi2v",
       "key": "url:infoq.cn/article/r1ibrq9kmZ1qFAWAtzJf",
       "title": "Meta 利用私有处理技术将机密计算扩展至 AI 眼镜",
@@ -589,6 +605,22 @@
         "Agent"
       ],
       "score": 15
+    },
+    {
+      "id": "10srw7fch1n",
+      "key": "url:qbitai.com/2026/10/506098.html",
+      "title": "工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
+      "url": "https://www.qbitai.com/2026/10/506098.html",
+      "excerpt": "让基建作为常驻buff",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-28T10:32:39.000Z",
+      "firstSeenAt": "2026-10-29T07:54:34.040Z",
+      "day": "2026-10-28",
+      "category": "industry",
+      "score": 18
     },
     {
       "id": "lq8fdhaqoe",
@@ -888,6 +920,60 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1fxy6r8269e",
+      "key": "url:qbitai.com/2026/10/506063.html",
+      "title": "威卡：用数据集链接具身智能和工程机械",
+      "url": "https://www.qbitai.com/2026/10/506063.html",
+      "excerpt": "威卡：为工程机械的智能化与少人化，提供一条被验证的路径",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-28T09:01:27.000Z",
+      "firstSeenAt": "2026-10-29T07:54:34.040Z",
+      "day": "2026-10-28",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "q954hgi1fe",
+      "key": "url:qbitai.com/2026/10/506055.html",
+      "title": "19个项目18个成功，6个GPCR靶点全获命中！国产AI制药再破技术天花板",
+      "url": "https://www.qbitai.com/2026/10/506055.html",
+      "excerpt": "精度达AlphaFold 3两倍，分子之心拿下高难度抗体设计",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-28T08:59:00.000Z",
+      "firstSeenAt": "2026-10-29T07:54:34.040Z",
+      "day": "2026-10-28",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "tg1d8gqjkb",
+      "key": "url:qbitai.com/2026/10/506042.html",
+      "title": "0营收估值200亿美元，具身版OpenAI又融10亿美元",
+      "url": "https://www.qbitai.com/2026/10/506042.html",
+      "excerpt": "斯坦福伯克利宗师组团，贝索斯红杉抢着送钱",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-28T08:55:26.000Z",
+      "firstSeenAt": "2026-10-29T07:54:34.040Z",
+      "day": "2026-10-28",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
       "score": 18
     },
     {
@@ -1240,7 +1326,7 @@
       ],
       "score": 30.2,
       "metrics": {
-        "upvotes": 375,
+        "upvotes": 376,
         "comments": 4
       }
     },
@@ -1310,7 +1396,7 @@
       ],
       "score": 28.3,
       "metrics": {
-        "upvotes": 143,
+        "upvotes": 144,
         "comments": 2
       }
     },
@@ -1334,7 +1420,7 @@
       ],
       "score": 30.2,
       "metrics": {
-        "upvotes": 535,
+        "upvotes": 539,
         "comments": 3
       }
     },
@@ -1357,9 +1443,9 @@
         "Agent",
         "RAG"
       ],
-      "score": 28.5,
+      "score": 28.6,
       "metrics": {
-        "upvotes": 146,
+        "upvotes": 147,
         "comments": 4
       }
     },
@@ -1381,9 +1467,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.2,
+      "score": 24.3,
       "metrics": {
-        "upvotes": 79,
+        "upvotes": 80,
         "comments": 6
       }
     },
@@ -1423,9 +1509,9 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 26.1,
+      "score": 26.2,
       "metrics": {
-        "upvotes": 107,
+        "upvotes": 108,
         "comments": 2
       }
     },
@@ -1446,7 +1532,7 @@
       "categoryLocked": true,
       "score": 30.1,
       "metrics": {
-        "upvotes": 347,
+        "upvotes": 366,
         "comments": 2
       }
     },
@@ -1465,9 +1551,30 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22,
+      "score": 22.7,
       "metrics": {
-        "upvotes": 59,
+        "upvotes": 66,
+        "comments": 2
+      }
+    },
+    {
+      "id": "1umn6g6yf21",
+      "key": "arxiv:2610.37666",
+      "title": "ThinkWorld: World Imagination Reinforces Chain-of-Dynamics Reasoning",
+      "url": "https://huggingface.co/papers/2610.37666",
+      "excerpt": "ThinkWorld improves robotic generalization by representing actions as dynamics chains and using world imagination to learn from unlabeled human videos.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "firstSeenAt": "2026-10-29T07:54:34.040Z",
+      "day": "2026-10-28",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 21.1,
+      "metrics": {
+        "upvotes": 51,
         "comments": 2
       }
     },
@@ -1553,8 +1660,8 @@
       "category": "industry",
       "score": 33.3,
       "metrics": {
-        "points": 322,
-        "comments": 336
+        "points": 323,
+        "comments": 337
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50265609"
     },
@@ -1589,8 +1696,8 @@
       "category": "agent",
       "score": 34.6,
       "metrics": {
-        "points": 525,
-        "comments": 194
+        "points": 526,
+        "comments": 195
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50264853"
     },
@@ -1730,8 +1837,8 @@
       "category": "industry",
       "score": 34.6,
       "metrics": {
-        "points": 393,
-        "comments": 311
+        "points": 395,
+        "comments": 312
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50261819"
     },
@@ -1748,9 +1855,9 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 33.9,
+      "score": 34,
       "metrics": {
-        "points": 372,
+        "points": 374,
         "comments": 284
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50261589"
