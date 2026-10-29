@@ -2,7 +2,7 @@ import { ENABLED_SOURCES } from "@/config/sources";
 import { SITE } from "@/config/site";
 import { applyClusters } from "./cluster";
 import { Deduper, mergeDuplicate } from "./dedupe";
-import { buildFallbackDigest, rankLatestPeriod } from "./digest";
+import { AI_DIGEST_CANDIDATES, buildFallbackDigest, followsRanking, rankLatestPeriod } from "./digest";
 import { FETCHERS } from "./fetchers";
 import { normalizeError } from "./http";
 import { generateAiDigest, getLlmConfig, LlmClient, LlmStop, pendingSummaries, summarizeItems, summaryProgress } from "./llm";
@@ -46,9 +46,6 @@ const DEFAULT_SOURCE_LIMIT = 40;
 /** Parts of the run's AI time budget kept back from the summaries for the steps after them. */
 const DIGEST_RESERVE_MS = 150_000;
 const DEDUPE_RESERVE_MS = 90_000;
-/** Top-ranked stories the model may draw 今日要点 from. */
-const AI_DIGEST_CANDIDATES = 12;
-
 async function mapLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promise<R>): Promise<R[]> {
   const results = new Array<R>(items.length);
   let next = 0;
@@ -170,8 +167,11 @@ async function refreshLocked(opts: RefreshOptions): Promise<RunSummary> {
 
   progress({ stage: "digest", done: 0, total: 1, message: "生成今日要点" });
   const digest = await buildDigest(store, now, llm, client, aiDeadline);
-  // An AI-written 今日要点 from an earlier run today beats an automatic one from a run where the model was busy.
-  if (digest && !(digest.mode === "fallback" && store.digests[digest.day]?.mode === "ai")) store.digests[digest.day] = digest;
+  // An AI-written 今日要点 from an earlier run today beats an automatic one from a run where the model was busy,
+  // as long as the stories it cites still top the ranking the page shows.
+  const kept = digest ? store.digests[digest.day] : undefined;
+  const keepAi = digest?.mode === "fallback" && kept?.mode === "ai" && followsRanking(kept, [...store.days.values()].flat(), now);
+  if (digest && !keepAi) store.digests[digest.day] = digest;
 
   const finishedAt = new Date();
   const summary: RunSummary = {

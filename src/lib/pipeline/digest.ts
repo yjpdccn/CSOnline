@@ -2,7 +2,7 @@ import { CATEGORIES, CATEGORY_MAP } from "@/config/site";
 import { periodStart, rankStories, REPO_SOURCES } from "@/lib/rank";
 import { storyFirstAt, storyWeight } from "./importance";
 import { translatedTitle } from "./text";
-import type { DigestPoint, NewsItem } from "@/lib/types";
+import type { Digest, DigestPoint, NewsItem } from "@/lib/types";
 
 export function displayTitle(item: NewsItem): string {
   return translatedTitle(item) ?? item.title;
@@ -24,6 +24,16 @@ export function rankLatestPeriod(cards: NewsItem[], now: Date): LatestPeriod {
     .map((item) => ({ item, sourceId: item.sourceId, weight: storyWeight(item), publishedAt: item.publishedAt, firstAt: storyFirstAt(item) }));
   const hours = Math.round((now.getTime() - start) / 3_600_000);
   return { hours, period, ranked: rankStories(rankable, now.getTime()).map((r) => r.item) };
+}
+
+/** Top-ranked stories an AI 今日要点 is written from, and may cite while it is kept. */
+export const AI_DIGEST_CANDIDATES = 12;
+
+/** Whether every story a 今日要点 cites is still near the top of the ranking (reports count as their card). */
+export function followsRanking(digest: Pick<Digest, "points">, items: NewsItem[], now: Date): boolean {
+  const byId = new Map(items.map((i) => [i.id, i]));
+  const top = new Set(rankLatestPeriod(items.filter((i) => !i.dupOf), now).ranked.slice(0, AI_DIGEST_CANDIDATES).map((i) => i.id));
+  return digest.points.every((p) => p.refs.every((id) => top.has(byId.get(id)?.dupOf ?? id)));
 }
 
 /** Automatic 今日要点: the top of the importance ranking the page shows. */

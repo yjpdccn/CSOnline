@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { applyClusters } from "@/lib/pipeline/cluster";
-import { buildFallbackDigest, rankLatestPeriod } from "@/lib/pipeline/digest";
+import { buildFallbackDigest, followsRanking, rankLatestPeriod } from "@/lib/pipeline/digest";
 import { importanceParts, storyWeight } from "@/lib/pipeline/importance";
 import { periodStart, rankStories, recency, type Rankable } from "@/lib/rank";
 import { toClientItem } from "@/lib/view";
@@ -124,6 +124,37 @@ describe("importance", () => {
     const plainHn = item("hackernews", "Brown student maps the hidden global labor powering AI", 3);
     expect(importanceParts(viaHn).authority).toBe(20);
     expect(importanceParts(plainHn).authority).toBe(10);
+  });
+});
+
+describe("keeping an earlier AI 今日要点", () => {
+  it("only while the stories it cites still top the ranking", () => {
+    const launch = item("deepmind", "Gemini 4 Carbon: Our next frontier model", 8, { category: "model", metrics: { points: 800 } });
+    const report = item("qbitai", "刚刚，Gemini 4 Carbon全面超越Opus 5.5！首发Token半价", 2);
+    const fillerTitles = [
+      "OpenAI expands Codex to enterprise teams",
+      "Anthropic opens Claude Duet to all users",
+      "Google ships agent mode in Android Studio",
+      "Meta tests Muse in Singapore",
+      "Microsoft hits record Azure revenue",
+      "NVIDIA unveils RTX Spark laptops",
+      "Apple delays its Siri overhaul",
+      "Amazon cuts its Alexa team",
+      "DeepSeek V5 code spotted in a repository",
+      "阿里云大模型市场份额达到46.6%",
+      "腾讯推出跨应用 AI 协同体系",
+      "字节豆包上线电脑操作技能",
+      "百度文心上线超长文档解析",
+      "华为发布新一代昇腾芯片",
+    ];
+    const rotation = ["techcrunch-ai", "verge-ai", "the-decoder", "qbitai", "jiqizhixin", "36kr-ai"];
+    const filler = fillerTitles.map((title, i) => item(rotation[i % rotation.length], title, 3 + i / 10));
+    const minor = item("geekpark", "AI 漫剧越做越快，赚钱却没那么容易了", 20);
+    const items = [launch, report, ...filler, minor];
+    applyClusters(items);
+    const now = new Date(NOW);
+    expect(followsRanking({ points: [{ text: "Gemini", refs: [report.id] }] }, items, now)).toBe(true);
+    expect(followsRanking({ points: [{ text: "Gemini", refs: [launch.id] }, { text: "漫剧", refs: [minor.id] }] }, items, now)).toBe(false);
   });
 });
 
