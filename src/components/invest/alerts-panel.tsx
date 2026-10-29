@@ -1,8 +1,8 @@
 "use client";
 
 import { BellRing, CalendarClock, CheckCircle2, Info, TriangleAlert, XCircle } from "lucide-react";
-import type { AlertItem, WatchRow } from "@/lib/invest/page-data";
-import type { AlertSeverity } from "@/lib/invest/types";
+import type { AlertItem, PremiumRow, WatchRow } from "@/lib/invest/page-data";
+import type { AlertSeverity, PremiumBand } from "@/lib/invest/types";
 import { dayKey, formatDateTime } from "@/lib/time";
 import { cn } from "@/lib/utils";
 import { useNow } from "../news/hooks";
@@ -71,7 +71,54 @@ function AlertRow({ alert, now }: { alert: AlertItem; now: Date }) {
 
 const RANK_DOT = ["bg-red-500", "bg-amber-500", "bg-emerald-500"];
 
-export function AlertsPanel({ alerts, watch, asOf }: { alerts: AlertItem[]; watch: WatchRow[]; asOf: string }) {
+const BAND: Record<PremiumBand, { label: string; className: string }> = {
+  low: { label: "2% 以内", className: "text-emerald-600 dark:text-emerald-400" },
+  mid: { label: "不买", className: "text-amber-600 dark:text-amber-400" },
+  high: { label: "不买", className: "text-red-600 dark:text-red-400" },
+  normal: { label: "正常", className: "text-foreground" },
+  unusual: { label: "偏离较大", className: "text-amber-600 dark:text-amber-400" },
+};
+
+function WatchList({ rows }: { rows: WatchRow[] }) {
+  return (
+    <ul className="mt-2 grid gap-x-6 gap-y-1.5 text-sm sm:grid-cols-2">
+      {rows.map((row) => (
+        <li key={row.code} className="flex min-w-0 items-center gap-2">
+          <span className={cn("size-2 shrink-0 rounded-full", RANK_DOT[row.rank] ?? "bg-muted-foreground/40")} />
+          <span className="min-w-0 truncate" title={row.name}>
+            {row.name}
+          </span>
+          <span className="shrink-0 text-xs text-muted-foreground tabular-nums">{row.code}</span>
+          <span className="ml-auto shrink-0 text-xs font-medium">{row.status}</span>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function PremiumList({ rows }: { rows: PremiumRow[] }) {
+  return (
+    <ul className="mt-2 grid gap-x-6 gap-y-1.5 text-sm sm:grid-cols-2">
+      {rows.map(({ code, name, premium }) => {
+        const band = BAND[premium.band];
+        return (
+          <li key={code} className="flex min-w-0 items-center gap-2">
+            <span className="min-w-0 truncate" title={name}>
+              {name}
+            </span>
+            <span className="shrink-0 text-xs text-muted-foreground tabular-nums">{code}</span>
+            <span className={cn("ml-auto shrink-0 text-xs font-medium tabular-nums", band.className)}>
+              {premium.value > 0 ? "+" : ""}
+              {premium.value.toFixed(2)}%{premium.estimated ? "（估算）" : ""} · {band.label}
+            </span>
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
+export function AlertsPanel({ alerts, watch, premiums, asOf }: { alerts: AlertItem[]; watch: WatchRow[]; premiums: PremiumRow[]; asOf: string }) {
   const now = useNow() ?? new Date(asOf);
   const sorted = [...alerts].sort((a, b) => ORDER[a.severity] - ORDER[b.severity] || (b.at ?? "").localeCompare(a.at ?? ""));
   return (
@@ -93,19 +140,16 @@ export function AlertsPanel({ alerts, watch, asOf }: { alerts: AlertItem[]; watc
       </ul>
       {watch.length > 0 && (
         <div className="mt-4 border-t pt-3">
-          <h3 className="text-xs font-semibold text-muted-foreground">申购额度（每次更新检查，额度变化会出现在上方）</h3>
-          <ul className="mt-2 grid gap-1.5 text-sm sm:grid-cols-2">
-            {watch.map((row) => (
-              <li key={row.code} className="flex min-w-0 items-center gap-2">
-                <span className={cn("size-2 shrink-0 rounded-full", RANK_DOT[row.rank] ?? "bg-muted-foreground/40")} />
-                <span className="min-w-0 truncate" title={row.name}>
-                  {row.name}
-                </span>
-                <span className="shrink-0 text-xs text-muted-foreground tabular-nums">{row.code}</span>
-                <span className="ml-auto shrink-0 text-xs font-medium">{row.status}</span>
-              </li>
-            ))}
-          </ul>
+          <h3 className="text-xs font-semibold text-muted-foreground">场外基金申购额度（每次更新检查，状态或日限额变化会出现在上方）</h3>
+          <WatchList rows={[...watch].sort((a, b) => Number(b.qdii) - Number(a.qdii))} />
+        </div>
+      )}
+      {premiums.length > 0 && (
+        <div className="mt-4 border-t pt-3">
+          <h3 className="text-xs font-semibold text-muted-foreground">
+            场内 ETF 溢价（QDII 超过 2% 不买，降到 2% 以内提醒；境内 ETF 偏离净值 1% 以上才提醒）
+          </h3>
+          <PremiumList rows={premiums} />
         </div>
       )}
       <div className="mt-4 border-t pt-3">

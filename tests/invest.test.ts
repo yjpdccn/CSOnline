@@ -2,7 +2,7 @@ import { describe, expect, it, vi } from "vitest";
 import { FUNDS } from "@/config/invest";
 import { INVEST_SOURCES } from "@/config/invest-news";
 import { compareStatus, diffAlerts } from "@/lib/invest/alerts";
-import { checkFeeRule, computePremium, premiumBand, weekChange } from "@/lib/invest/funds";
+import { checkFeeRule, computeDomesticPremium, computePremium, domesticBand, premiumBand, weekChange } from "@/lib/invest/funds";
 import { INVEST_CLUSTER_WINDOW_MS, mergeNews, rankNews, toInvestItem } from "@/lib/invest/news";
 import { buildAutoOverview, generateAiOverview, translateHeadlines } from "@/lib/invest/overview";
 import { investTopics, isCompanyFiling } from "@/lib/invest/topics";
@@ -50,7 +50,15 @@ describe("topics", () => {
 describe("premium and fees", () => {
   it("compares the close with the NAV at the last US close before it", () => {
     const p = computePremium([["2026-10-28", 2.702], ["2026-10-29", 2.688]], [{ date: "2026-10-28", nav: 2.4597 }], [["2026-10-27", 7722.6], ["2026-10-28", 7743.98]]);
-    expect(p).toMatchObject({ value: 9.28, band: "high", navDate: "2026-10-28", estimated: false });
+    expect(p).toMatchObject({ kind: "qdii", value: 9.28, band: "high", navDate: "2026-10-28", estimated: false });
+  });
+
+  it("compares a domestic ETF's close and NAV of the same day, the previous day before its NAV is out", () => {
+    const prices: [string, number][] = [["2026-10-28", 4.152], ["2026-10-29", 4.111]];
+    expect(computeDomesticPremium(prices, [{ date: "2026-10-28", nav: 4.1603 }])).toMatchObject({ kind: "domestic", value: -0.2, band: "normal", priceDate: "2026-10-28" });
+    expect(computeDomesticPremium(prices, [{ date: "2026-10-29", nav: 4.05 }, { date: "2026-10-28", nav: 4.1603 }])).toMatchObject({ value: 1.51, band: "unusual", priceDate: "2026-10-29" });
+    expect(computeDomesticPremium([["2026-10-29", 4.111]], [{ date: "2026-10-28", nav: 4.1603 }])).toBeUndefined();
+    expect([domesticBand(0.4), domesticBand(-1.2)]).toEqual(["normal", "unusual"]);
   });
 
   it("moves an older NAV forward by the index and exchange-rate change", () => {
@@ -127,9 +135,30 @@ describe("alerts", () => {
     expect(back.events).toEqual([]);
   });
 
+  it("flags a domestic ETF only when it moves unusually far from NAV", () => {
+    const etf = (value: number) =>
+      view("510300", {
+        watchLimit: false,
+        watchPremium: true,
+        etf: true,
+        index: "csi300",
+        premium: { kind: "domestic", value, band: domesticBand(value), price: 1, priceDate: "", nav: 1, navDate: "", estimated: false },
+      });
+    const a = diffAlerts(null, [etf(0.1)], NOW);
+    const b = diffAlerts(a, [etf(-1.4)], new Date(NOW.getTime() + 3600_000));
+    expect(b.events.map((e) => [e.kind, e.to])).toEqual([["premium-unusual", "-1.4%"]]);
+    const c = diffAlerts(b, [etf(0.2)], new Date(NOW.getTime() + 7200_000));
+    expect(c.events).toHaveLength(1);
+  });
+
   it("alerts when an ETF premium crosses 2% in either direction", () => {
     const etf = (value: number) =>
-      view("513500", { watchLimit: false, watchPremium: true, etf: true, premium: { value, band: premiumBand(value), price: 1, priceDate: "", nav: 1, navDate: "", estimated: false } });
+      view("513500", {
+        watchLimit: false,
+        watchPremium: true,
+        etf: true,
+        premium: { kind: "qdii", value, band: premiumBand(value), price: 1, priceDate: "", nav: 1, navDate: "", estimated: false },
+      });
     const a = diffAlerts(null, [etf(9.3)], NOW);
     const b = diffAlerts(a, [etf(2.5)], new Date(NOW.getTime() + 3600_000));
     expect(b.events).toEqual([]);

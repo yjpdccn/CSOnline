@@ -16,6 +16,7 @@ import type {
   InvestRunSummary,
   NewsRef,
   OverviewFile,
+  Premium,
   QuoteView,
 } from "./types";
 
@@ -35,7 +36,14 @@ export interface WatchRow {
   status: string;
   /** 0 paused, 1 limited, 2 open. */
   rank: number;
+  qdii: boolean;
   changedAt?: string;
+}
+
+export interface PremiumRow {
+  code: string;
+  name: string;
+  premium: Premium;
 }
 
 export interface InvestNewsCard {
@@ -60,6 +68,7 @@ export interface InvestPageData {
   asOf: string;
   alerts: AlertItem[];
   watch: WatchRow[];
+  premiums: PremiumRow[];
   overview: (Omit<OverviewFile, "points"> & { points: { text: string; refs: NewsRef[] }[] }) | null;
   groups: { id: FundGroup; label: string; hint: string; funds: (FundView & { news?: NewsRef })[] }[];
   indices: IndexView[];
@@ -71,6 +80,15 @@ export interface InvestPageData {
 }
 
 const fundName = (code: string, views: FundView[]) => views.find((v) => v.code === code)?.name ?? FUNDS.find((f) => f.code === code)?.name ?? code;
+
+const isQdii = (code: string) => INDICES.find((i) => i.id === FUNDS.find((f) => f.code === code)?.index)?.market === "us";
+
+/** "按 10月28日净值" for a premium, with how it was estimated. */
+function premiumBasis(p: Premium): string {
+  const day = `${Number(p.navDate.slice(5, 7))}月${Number(p.navDate.slice(8))}日`;
+  if (p.kind === "domestic") return `按 ${day}收盘价和净值`;
+  return `按 ${day}净值${p.estimated ? "和此后的指数涨跌估算" : ""}`;
+}
 
 function eventItem(event: AlertEvent, views: FundView[]): AlertItem {
   const fund = FUNDS.find((f) => f.code === event.code);
@@ -84,13 +102,19 @@ function eventItem(event: AlertEvent, views: FundView[]): AlertItem {
         detail: `${event.from} → ${event.to}。${fund?.group === "dca" ? "记得调整定投金额，避免扣款失败。" : "暂时买不了或只能少买。"}`,
       };
     case "limit-up":
-      return { ...base, title: `${name} 申购额度放开`, detail: `${event.from} → ${event.to}。海外部分有加大投入的空间。` };
+      return {
+        ...base,
+        title: `${name} 申购额度放开`,
+        detail: `${event.from} → ${event.to}。${isQdii(event.code) ? "海外部分有加大投入的空间。" : "可以正常申购了。"}`,
+      };
     case "fee-change":
       return { ...base, title: `${name} 费率调整`, detail: `${event.from} → ${event.to}` };
     case "premium-low":
       return { ...base, title: `${name} 溢价降到 ${INVEST_RULES.premium.low}% 以内`, detail: `溢价从 ${event.from} 降到 ${event.to}。` };
     case "premium-high":
       return { ...base, title: `${name} 溢价回升`, detail: `溢价从 ${event.from} 升到 ${event.to}，超过 ${INVEST_RULES.premium.low}% 不买。` };
+    case "premium-unusual":
+      return { ...base, title: `${name} 溢价偏离较大`, detail: `从${event.from}变为 ${event.to}，境内 ETF 通常只在净值上下零点几个百分点。` };
   }
 }
 
@@ -102,15 +126,24 @@ function buildAlerts(events: AlertEvent[], views: FundView[], asOf: Date): Alert
   for (const view of views) {
     const p = view.premium;
     if (!p) continue;
-    const basis = `按 ${Number(p.navDate.slice(5, 7))}月${Number(p.navDate.slice(8))}日净值${p.estimated ? "和此后的指数涨跌估算" : ""}`;
+    const basis = premiumBasis(p);
+    const id = `premium-${view.code}`;
+    const title = `${view.name}（${view.code}）${p.value < 0 ? `折价 ${Math.abs(p.value)}%` : `溢价 ${p.value}%`}`;
+    if (p.kind === "domestic") {
+      // Domestic ETFs are flagged only when unusually far from NAV; the premium strip shows the rest.
+      if (p.band === "unusual") {
+        items.push({ id, severity: "warn", code: view.code, title, detail: `偏离净值超过 ${INVEST_RULES.domesticPremium.unusual}%，买卖前留意（${basis}）。` });
+      }
+      continue;
+    }
     items.push(
       p.band === "low"
-        ? { id: `premium-${view.code}`, severity: "good", code: view.code, title: `${view.name}（${view.code}）溢价 ${p.value}%`, detail: `已在 ${low}% 以内（${basis}）。` }
+        ? { id, severity: "good", code: view.code, title, detail: `已在 ${low}% 以内（${basis}）。` }
         : {
-            id: `premium-${view.code}`,
+            id,
             severity: p.band === "high" ? "bad" : "warn",
             code: view.code,
-            title: `${view.name}（${view.code}）溢价 ${p.value}%`,
+            title,
             detail: `${p.band === "high" ? `超过 ${high}%` : `在 ${low}%–${high}% 之间`}，按规则不买（${basis}）。`,
           },
     );
@@ -146,10 +179,14 @@ function watchRows(views: FundView[], events: AlertEvent[]): WatchRow[] {
     .filter((v) => v.watchLimit && v.status)
     .map((v) => {
       const change = events.find((e) => e.code === v.code && (e.kind === "limit-down" || e.kind === "limit-up"));
-      const row: WatchRow = { code: v.code, name: v.name, status: describeStatus(v.status!), rank: statusRank(v.status!.purchase) };
+      const row: WatchRow = { code: v.code, name: v.name, status: describeStatus(v.status!), rank: statusRank(v.status!.purchase), qdii: isQdii(v.code) };
       if (change) row.changedAt = change.at;
       return row;
     });
+}
+
+function premiumRows(views: FundView[]): PremiumRow[] {
+  return views.filter((v) => v.watchPremium && v.premium).map((v) => ({ code: v.code, name: v.name, premium: v.premium! }));
 }
 
 function toCard({ item, topics }: RankedCard): InvestNewsCard {
@@ -235,6 +272,7 @@ export async function loadInvestPageData(): Promise<InvestPageData> {
     asOf: asOf.toISOString(),
     alerts: buildAlerts(events, views, asOf),
     watch: watchRows(views, events.filter((e) => asOf.getTime() - Date.parse(e.at) <= INVEST_SITE.alertDays * 86_400_000)),
+    premiums: premiumRows(views),
     overview,
     groups,
     indices,

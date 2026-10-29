@@ -46,7 +46,8 @@ const FEE_LABELS: [keyof FundFees, string][] = [
   ["service", "销售服务费"],
 ];
 
-const BAND_LABEL: Record<PremiumBand, string> = { low: "2% 以内", mid: "2%–3%", high: "3% 以上" };
+const BAND_LABEL: Record<PremiumBand, string> = { low: "2% 以内", mid: "2%–3%", high: "3% 以上", normal: "正常范围", unusual: "偏离较大" };
+const QDII_BANDS = new Set<PremiumBand>(["low", "mid", "high"]);
 
 /**
  * Compares this run's fund data with what the last run saw and records the changes. Values a run could
@@ -98,14 +99,19 @@ export function diffAlerts(prev: AlertsFile | null, views: FundView[], now: Date
     if (view.watchPremium && view.premium) {
       const band = view.premium.band;
       const old = seen?.premiumBand;
-      if (old && old !== band && (band === "low" || old === "low")) {
-        push({
-          kind: band === "low" ? "premium-low" : "premium-high",
-          code: view.code,
-          from: BAND_LABEL[old],
-          to: `${view.premium.value}%`,
-          severity: band === "low" ? "good" : "warn",
-        });
+      const comparable = old !== undefined && QDII_BANDS.has(old) === QDII_BANDS.has(band);
+      if (comparable && old !== band) {
+        if (view.premium.kind === "qdii" && (band === "low" || old === "low")) {
+          push({
+            kind: band === "low" ? "premium-low" : "premium-high",
+            code: view.code,
+            from: BAND_LABEL[old],
+            to: `${view.premium.value}%`,
+            severity: band === "low" ? "good" : "warn",
+          });
+        } else if (view.premium.kind === "domestic" && band === "unusual") {
+          push({ kind: "premium-unusual", code: view.code, from: BAND_LABEL[old], to: `${view.premium.value}%`, severity: "warn" });
+        }
       }
       next.premiumBand = band;
     }

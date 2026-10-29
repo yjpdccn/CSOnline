@@ -115,7 +115,7 @@ export interface CalendarFile {
 
 export type AlertSeverity = "bad" | "warn" | "good" | "info";
 
-export type AlertKind = "limit-down" | "limit-up" | "fee-change" | "premium-low" | "premium-high";
+export type AlertKind = "limit-down" | "limit-up" | "fee-change" | "premium-low" | "premium-high" | "premium-unusual";
 
 /** A change seen between two runs; kept for a while so it stays visible. */
 export interface AlertEvent {
@@ -128,7 +128,8 @@ export interface AlertEvent {
   severity: AlertSeverity;
 }
 
-export type PremiumBand = "low" | "mid" | "high";
+/** QDII ETFs: under 2% / 2–3% / over 3%. Domestic ETFs: normal or unusually far from NAV. */
+export type PremiumBand = "low" | "mid" | "high" | "normal" | "unusual";
 
 export interface LastSeen {
   purchase?: string;
@@ -217,7 +218,8 @@ export interface FundView {
 }
 
 export interface Premium {
-  /** Percent over NAV. */
+  kind: "qdii" | "domestic";
+  /** Percent over NAV; negative is a discount. */
   value: number;
   band: PremiumBand;
   price: number;

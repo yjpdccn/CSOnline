@@ -26,6 +26,27 @@ export async function fetchKlines(secid: string, limit = 120): Promise<{ name: s
   return parseKlines(await fetchJson<KlineResponse>(url, { headers: { Referer: "https://quote.eastmoney.com/" }, retries: 2 }));
 }
 
+interface TencentKlineResponse {
+  data?: Record<string, { day?: string[][]; qfqday?: string[][] } | string | undefined> | string;
+}
+
+/** 腾讯行情 daily K lines: rows of [date, open, close, high, low, volume]. */
+export function parseTencentKlines(body: TencentKlineResponse, symbol: string): { name: string; closes: Close[] } {
+  const entry = typeof body.data === "object" ? body.data?.[symbol] : undefined;
+  const rows = typeof entry === "object" ? (entry.day ?? entry.qfqday ?? []) : [];
+  const closes = rows
+    .map((row) => [row[0], Number(row[2])] as Close)
+    .filter(([date, close]) => /^\d{4}-\d{2}-\d{2}$/.test(date) && Number.isFinite(close) && close > 0);
+  if (!closes.length) throw new Error("没有返回行情");
+  return { name: symbol, closes };
+}
+
+/** Fallback for ETFs and the main indices when 东方财富 does not answer (it throttles some IPs). */
+export async function fetchTencentKlines(symbol: string, limit = 120): Promise<{ name: string; closes: Close[] }> {
+  const url = `https://web.ifzq.gtimg.cn/appstock/app/fqkline/get?param=${encodeURIComponent(symbol)},day,,,${limit},`;
+  return parseTencentKlines(await fetchJson<TencentKlineResponse>(url, { headers: { Referer: "https://gu.qq.com/" } }), symbol);
+}
+
 const TREASURY_URL = (year: number) =>
   `https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/${year}/all?type=daily_treasury_real_yield_curve&field_tdr_date_value=${year}&page&_format=csv`;
 

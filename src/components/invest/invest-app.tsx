@@ -95,7 +95,7 @@ export function InvestApp({ data, error }: { data: InvestPageData | null; error:
             )}
             {data && (
               <>
-                <AlertsPanel alerts={data.alerts} watch={data.watch} asOf={data.asOf} />
+                <AlertsPanel alerts={data.alerts} watch={data.watch} premiums={data.premiums} asOf={data.asOf} />
                 {data.overview && <OverviewCard overview={data.overview} />}
                 <FundGroups groups={data.groups} />
                 <MarketCards indices={data.indices} gold={data.gold} />

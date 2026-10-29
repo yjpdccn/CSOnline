@@ -7,6 +7,10 @@ export function premiumBand(value: number): PremiumBand {
   return value < low ? "low" : value < high ? "mid" : "high";
 }
 
+export function domesticBand(value: number): PremiumBand {
+  return Math.abs(value) >= INVEST_RULES.domesticPremium.unusual ? "unusual" : "normal";
+}
+
 /** Last close on or before `date`. */
 export function closeOnOrBefore(closes: Close[], date: string): Close | undefined {
   for (let i = closes.length - 1; i >= 0; i--) if (closes[i][0] <= date) return closes[i];
@@ -37,7 +41,20 @@ export function computePremium(prices: Close[], navs: NavPoint[], index?: Close[
     }
   }
   const value = Math.round((price / fair - 1) * 10_000) / 100;
-  return { value, band: premiumBand(value), price, priceDate, nav: nav.nav, navDate: nav.date, estimated };
+  return { kind: "qdii", value, band: premiumBand(value), price, priceDate, nav: nav.nav, navDate: nav.date, estimated };
+}
+
+/**
+ * Premium of a domestic ETF: the close and the NAV of the same trading day. Its NAV comes out in the
+ * evening, so a run before that compares the previous day's pair rather than today's close with an old NAV.
+ */
+export function computeDomesticPremium(prices: Close[], navs: NavPoint[]): Premium | undefined {
+  const byDate = new Map(prices);
+  const nav = navs.find((n) => byDate.has(n.date));
+  if (!nav) return undefined;
+  const price = byDate.get(nav.date)!;
+  const value = Math.round((price / nav.nav - 1) * 10_000) / 100;
+  return { kind: "domestic", value, band: domesticBand(value), price, priceDate: nav.date, nav: nav.nav, navDate: nav.date, estimated: false };
 }
 
 /** Section 五, rule 4: index funds keep management + custody near 0.2% a year (A shares, gold) or within 1% (QDII). */
@@ -88,8 +105,10 @@ export function buildFundViews(funds: Record<string, FundData>, market: MarketFi
       view.price = { close, date, changePct: prev ? Math.round((close / prev[1] - 1) * 10_000) / 100 : undefined };
       view.weekPct = weekChange(data.prices.map(([d, v]) => ({ date: d, value: v })));
       if (fund.watchPremium && navs.length) {
-        const fx = market.series.usdcnh?.closes;
-        const premium = computePremium(data.prices, navs, market.series[fund.index]?.closes, index.market === "us" ? fx : undefined);
+        const premium =
+          index.market === "us"
+            ? computePremium(data.prices, navs, market.series[fund.index]?.closes, market.series.usdcnh?.closes)
+            : computeDomesticPremium(data.prices, navs);
         if (premium) view.premium = premium;
       }
     } else if (navs.length) {

@@ -10,7 +10,7 @@ import { buildAutoOverview, generateAiOverview, stopReason, translateHeadlines, 
 import { indexQuote, macroQuote } from "./quotes";
 import { fetchFomcCalendar, fetchWscnCalendar } from "./sources/calendar";
 import { fetchFeePage, fetchNavHistory, fetchProfilePage, type FeePage, type ProfilePage } from "./sources/funds";
-import { fetchCsindexPe, fetchDanjuan, fetchKlines, fetchTreasuryRealYields } from "./sources/market";
+import { fetchCsindexPe, fetchDanjuan, fetchKlines, fetchTencentKlines, fetchTreasuryRealYields } from "./sources/market";
 import { INVEST_FETCHERS, type RawFinanceItem } from "./sources/news";
 import { loadInvestStore, saveInvestStore, type InvestStore } from "./store";
 import type {
@@ -74,6 +74,17 @@ export interface InvestFetch {
 }
 
 const etfSecid = (code: string) => (/^[56]/.test(code) ? `1.${code}` : `0.${code}`);
+const etfTencent = (code: string) => (/^[56]/.test(code) ? `sh${code}` : `sz${code}`);
+
+/** 东方财富 first; 腾讯行情 for the series it also carries when 东方财富 fails. */
+async function fetchDaily(secid: string, tencent: string | undefined, limit: number): Promise<Settled<{ closes: Close[]; name: string; source: string }>> {
+  const primary = await settle(() => fetchKlines(secid, limit));
+  if (primary.ok) return { ...primary, value: { ...primary.value, source: "东方财富" } };
+  if (!tencent) return primary;
+  const fallback = await settle(() => fetchTencentKlines(tencent, limit));
+  if (!fallback.ok) return { ...primary, error: `${primary.error}；腾讯行情：${fallback.error}` };
+  return { ok: true, ms: primary.ms + fallback.ms, value: { ...fallback.value, source: "腾讯行情" } };
+}
 
 /** One status row for a group of similar requests (one per fund or series). */
 function groupResult(id: string, name: string, kind: string, settled: Settled<unknown>[], labels: string[]): InvestSourceResult {
@@ -97,10 +108,11 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
   const store = await loadInvestStore();
   const out: InvestFetch = { store, startedAt, results: [], series: {}, valuations: {}, navs: {}, feePages: {}, profiles: {}, prices: {}, news: [] };
 
-  const eastmoney = [
-    ...INDICES.map((i) => ({ id: i.id as IndexId | MacroId, secid: i.secid, label: i.name })),
-    ...MACRO.flatMap((m) => (m.source.kind === "eastmoney" ? [{ id: m.id as IndexId | MacroId, secid: m.source.secid, label: m.name }] : [])),
+  const eastmoney: { id: IndexId | MacroId; secid: string; tencent?: string; label: string }[] = [
+    ...INDICES.map((i) => ({ id: i.id, secid: i.secid, tencent: i.tencent, label: i.name })),
+    ...MACRO.flatMap((m) => (m.source.kind === "eastmoney" ? [{ id: m.id, secid: m.source.secid, label: m.name }] : [])),
   ];
+  const fallbacks: string[] = [];
   const etfs = FUNDS.filter((f) => f.etf);
   const profileDue = FUNDS.filter((f) => {
     const asOf = store.funds.funds[f.code]?.tracking?.asOf;
@@ -112,16 +124,20 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
   const quoteSettled: Settled<unknown>[] = new Array(eastmoney.length + etfs.length);
   eastmoney.forEach((s, i) =>
     tasks.push(async () => {
-      const r = await settle(() => fetchKlines(s.secid));
+      const r = await fetchDaily(s.secid, s.tencent, 120);
       quoteSettled[i] = r;
-      if (r.ok) out.series[s.id] = { name: r.value.name, closes: r.value.closes, source: "东方财富", fetchedAt: new Date().toISOString() };
+      if (!r.ok) return;
+      out.series[s.id] = { name: r.value.name, closes: r.value.closes, source: r.value.source, fetchedAt: new Date().toISOString() };
+      if (r.value.source !== "东方财富") fallbacks.push(s.label);
     }),
   );
   etfs.forEach((f, i) =>
     tasks.push(async () => {
-      const r = await settle(() => fetchKlines(etfSecid(f.code), 60));
+      const r = await fetchDaily(etfSecid(f.code), etfTencent(f.code), 60);
       quoteSettled[eastmoney.length + i] = r;
-      if (r.ok) out.prices[f.code] = r.value.closes;
+      if (!r.ok) return;
+      out.prices[f.code] = r.value.closes;
+      if (r.value.source !== "东方财富") fallbacks.push(f.code);
     }),
   );
   let treasury: Settled<Close[]> | undefined;
@@ -190,8 +206,11 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
   const single = (id: string, name: string, kind: string, s: Settled<unknown> | undefined, count: number): InvestSourceResult =>
     s?.ok ? { id, name, kind, ok: true, count, ms: s.ms } : { id, name, kind, ok: false, count: 0, ms: s?.ms ?? 0, error: s && !s.ok ? s.error : "未运行" };
 
+  out.results.push(groupResult("eastmoney-quotes", "东方财富行情", "行情", quoteSettled, [...eastmoney.map((s) => s.label), ...etfs.map((f) => f.code)]));
+  if (fallbacks.length) {
+    out.results.push({ id: "tencent-quotes", name: "腾讯行情（备用）", kind: "行情", ok: true, count: fallbacks.length, ms: 0, error: `东方财富未响应，改用腾讯行情：${fallbacks.join("、")}` });
+  }
   out.results.push(
-    groupResult("eastmoney-quotes", "东方财富行情", "行情", quoteSettled, [...eastmoney.map((s) => s.label), ...etfs.map((f) => f.code)]),
     single("treasury", "美国财政部实际利率", "行情", treasury, treasury?.ok ? treasury.value.length : 0),
     single("danjuan", "蛋卷基金估值", "估值", danjuan, danjuan?.ok ? danjuan.value.size : 0),
   );

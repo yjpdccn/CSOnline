@@ -100,8 +100,18 @@ function FundRow({ fund }: { fund: Fund }) {
           </span>
         )}
         {fund.premium && (
-          <span className={cn("font-medium tabular-nums", fund.premium.band === "low" ? "text-emerald-600 dark:text-emerald-400" : "text-red-600 dark:text-red-400")}>
-            溢价 {fund.premium.value}%{fund.premium.estimated ? "（估算）" : ""}
+          <span
+            className={cn(
+              "font-medium tabular-nums",
+              fund.premium.band === "low" && "text-emerald-600 dark:text-emerald-400",
+              (fund.premium.band === "mid" || fund.premium.band === "high") && "text-red-600 dark:text-red-400",
+              fund.premium.band === "unusual" && "text-amber-600 dark:text-amber-400",
+            )}
+            title={`收盘价 ${fund.premium.price}，净值 ${fund.premium.nav}（${fund.premium.navDate}）`}
+          >
+            {fund.premium.value < 0 ? `折价 ${Math.abs(fund.premium.value).toFixed(2)}%` : `溢价 ${fund.premium.value.toFixed(2)}%`}
+            {fund.premium.estimated ? "（估算）" : ""}
+            {fund.premium.kind === "domestic" && `（${shortDate(fund.premium.navDate)}）`}
           </span>
         )}
         <a href={`#index-${fund.index}`} className="underline decoration-muted-foreground/30 underline-offset-2 hover:text-foreground">

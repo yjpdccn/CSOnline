@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { parseFomcCalendar, selectCalendarEvents, type WscnCalendarItem } from "@/lib/invest/sources/calendar";
 import { parseFeePage, parseLimit, parseNavHistory, parseProfilePage } from "@/lib/invest/sources/funds";
-import { parseCsindexPe, parseDanjuan, parseKlines, parseTreasuryRealYields } from "@/lib/invest/sources/market";
+import { parseCsindexPe, parseDanjuan, parseKlines, parseTencentKlines, parseTreasuryRealYields } from "@/lib/invest/sources/market";
 import { clsSign, parseNbsList, splitFlash } from "@/lib/invest/sources/news";
 
 describe("market sources", () => {
@@ -9,6 +9,12 @@ describe("market sources", () => {
     const parsed = parseKlines({ data: { name: "纳斯达克100", klines: ["2026-10-27,29651.44", "2026-10-28,29813.16", "bad,line"] } });
     expect(parsed).toEqual({ name: "纳斯达克100", closes: [["2026-10-27", 29651.44], ["2026-10-28", 29813.16]] });
     expect(() => parseKlines({ data: null })).toThrow();
+  });
+
+  it("reads 腾讯行情 daily closes, the fallback for ETFs and the main indices", () => {
+    const body = { data: { sh510300: { day: [["2026-10-28", "4.155", "4.152", "4.166", "4.132", "10986237.000"], ["2026-10-29", "4.145", "4.111", "4.146", "4.103", "21619193.000"]] } } };
+    expect(parseTencentKlines(body, "sh510300").closes).toEqual([["2026-10-28", 4.152], ["2026-10-29", 4.111]]);
+    expect(() => parseTencentKlines({ data: {} }, "sh510300")).toThrow();
   });
 
   it("reads the 10-year column of the Treasury real yield CSV, oldest first", () => {
