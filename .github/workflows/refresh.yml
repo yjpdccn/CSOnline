@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       skip_fetch:
-        description: "只重新构建并部署页面，不抓取新数据"
+        description: "只重新部署页面：跳过抓取和 AI 摘要（平时不要勾选）"
         type: boolean
         default: false
   push:
