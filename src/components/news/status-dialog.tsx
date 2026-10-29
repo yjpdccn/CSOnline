@@ -21,7 +21,8 @@ export function LlmStatus({ run }: { run: RunInfo }) {
   }
   return (
     <span>
-      {llm.provider} · {llm.model}：本次生成 {llm.summarized} 条，失败 {llm.failed} 条，今日要点
+      {llm.provider} · {llm.model}：本次生成 {llm.summarized} 条，失败 {llm.failed} 条，
+      {llm.merged ? `AI 判断合并重复 ${llm.merged} 条，` : ""}今日要点
       {llm.digest === "ai" ? "由 AI 生成" : "为自动摘录"}
       {llm.error && <span className="block text-amber-600 dark:text-amber-400">提示：{llm.error}</span>}
     </span>

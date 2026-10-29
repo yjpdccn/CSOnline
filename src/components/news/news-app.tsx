@@ -19,10 +19,22 @@ import { Sidebar } from "./sidebar";
 import { SiteHeader } from "./site-header";
 
 function haystack(item: ClientItem): string {
-  return [item.title, item.originalTitle, item.summary, item.sourceName, ...(item.topics ?? [])]
+  return [
+    item.title,
+    item.originalTitle,
+    item.summary,
+    item.sourceName,
+    ...(item.topics ?? []),
+    ...(item.alsoOn ?? []).flatMap((a) => [a.name, a.title]),
+  ]
     .filter(Boolean)
     .join(" \n ")
     .toLowerCase();
+}
+
+/** A merged card belongs to every source that reported the story. */
+function cardSources(item: ClientItem): string[] {
+  return [...new Set([item.sourceId, ...(item.alsoOn ?? []).map((a) => a.sourceId)])];
 }
 
 export function NewsApp({ data, error }: { data: HomeData | null; error: string | null }) {
@@ -38,7 +50,11 @@ export function NewsApp({ data, error }: { data: HomeData | null; error: string 
   }, [data, extraDays]);
 
   const indexed = useMemo(
-    () => days.map((d) => ({ day: d.day, items: d.items.map((item) => ({ item, text: haystack(item) })) })),
+    () =>
+      days.map((d) => ({
+        day: d.day,
+        items: d.items.map((item) => ({ item, text: haystack(item), sources: cardSources(item) })),
+      })),
     [days],
   );
 
@@ -52,16 +68,16 @@ export function NewsApp({ data, error }: { data: HomeData | null; error: string 
     let totalShown = 0;
     for (const day of indexed) {
       const shown: ClientItem[] = [];
-      for (const { item, text } of day.items) {
+      for (const { item, text, sources } of day.items) {
         const matchesQuery = terms.every((t) => text.includes(t));
         if (!matchesQuery) continue;
-        const matchesSource = sourceSet.size === 0 || sourceSet.has(item.sourceId);
+        const matchesSource = sourceSet.size === 0 || sources.some((s) => sourceSet.has(s));
         const matchesCategory = filters.category === "all" || item.category === filters.category;
         if (matchesSource) {
           categoryCounts.set("all", (categoryCounts.get("all") ?? 0) + 1);
           categoryCounts.set(item.category, (categoryCounts.get(item.category) ?? 0) + 1);
         }
-        if (matchesCategory) sourceCounts.set(item.sourceId, (sourceCounts.get(item.sourceId) ?? 0) + 1);
+        if (matchesCategory) for (const s of sources) sourceCounts.set(s, (sourceCounts.get(s) ?? 0) + 1);
         if (matchesSource && matchesCategory) shown.push(item);
       }
       shown.sort((a, b) =>

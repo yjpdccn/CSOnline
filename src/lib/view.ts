@@ -5,10 +5,12 @@ import type {
   LlmRunResult,
   Metrics,
   NewsItem,
+  RelatedStory,
   RunSummary,
   SourceGroup,
   SourceRunResult,
 } from "@/lib/types";
+import { translatedTitle } from "@/lib/pipeline/text";
 
 /** Trimmed item shape sent to the browser. */
 export interface ClientItem {
@@ -29,8 +31,18 @@ export interface ClientItem {
   score: number;
   metrics?: Metrics;
   discussionUrl?: string;
-  alsoOn?: { name: string; url: string }[];
+  /** Other reports of the same event, shown as 也见于 links. */
+  alsoOn?: ClientAlsoOn[];
   topics?: string[];
+}
+
+export interface ClientAlsoOn {
+  sourceId: string;
+  name: string;
+  url: string;
+  /** Headline of that report; absent for bare discussion links. */
+  title?: string;
+  publishedAt?: string;
 }
 
 export interface ClientDay {
@@ -95,8 +107,23 @@ function clip(text: string | undefined, max: number): string | undefined {
   return chars.length <= max ? text : chars.slice(0, max - 1).join("") + "…";
 }
 
+function alsoOnLinks(item: NewsItem): ClientAlsoOn[] | undefined {
+  const entries: RelatedStory[] = [...(item.related ?? []), ...(item.alsoOn ?? [])];
+  const links: ClientAlsoOn[] = [];
+  const seen = new Set([item.url]);
+  for (const a of entries) {
+    if (seen.has(a.url)) continue;
+    seen.add(a.url);
+    const link: ClientAlsoOn = { sourceId: a.sourceId, name: a.sourceName, url: a.url };
+    if (a.title) link.title = clip(a.title, 120);
+    if (a.publishedAt) link.publishedAt = a.publishedAt;
+    links.push(link);
+  }
+  return links.length ? links : undefined;
+}
+
 export function toClientItem(item: NewsItem): ClientItem {
-  const aiTitle = item.lang === "en" ? item.ai?.title : undefined;
+  const aiTitle = translatedTitle(item);
   const client: ClientItem = {
     id: item.id,
     url: item.url,
@@ -114,7 +141,7 @@ export function toClientItem(item: NewsItem): ClientItem {
     score: item.score,
     metrics: item.metrics,
     discussionUrl: item.discussionUrl,
-    alsoOn: item.alsoOn?.map((a) => ({ name: a.sourceName, url: a.url })),
+    alsoOn: alsoOnLinks(item),
     topics: item.keywords,
   };
   for (const key of Object.keys(client) as (keyof ClientItem)[]) {

@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { compareItems } from "@/lib/pipeline/cluster";
 import { Deduper, mergeDuplicate } from "@/lib/pipeline/dedupe";
 import { keyFromUrl, normalizeUrl } from "@/lib/pipeline/url";
 import { titleFingerprint, titleSimilarity } from "@/lib/pipeline/text";
@@ -51,14 +52,26 @@ describe("title similarity", () => {
   });
 });
 
+describe("near-identical headlines", () => {
+  it("merge reposts across sources and test reposts within one source", () => {
+    const stored = item({ id: "a", key: "url:a/1", title: "清华27岁助理教授杀入AI自进化赛道！首个35B模型刚刚亮相", sourceId: "jiqizhixin" });
+    const otherSource = item({ id: "b", key: "url:b/1", title: "清华27岁助理教授杀入AI自进化赛道，首个35B模型刚刚亮相", sourceId: "36kr-ai" });
+    const testPost = item({ id: "c", key: "url:a/2", title: `【图片中转测试，未发布】${stored.title}`, sourceId: "jiqizhixin" });
+    expect(compareItems(stored, otherSource).same).toBe(true);
+    expect(compareItems(stored, testPost).same).toBe(true);
+  });
+
+  it("never merge different model versions", () => {
+    const a = item({ id: "a", title: "GLM-5.3 正式发布，编程能力大幅提升", sourceId: "jiqizhixin" });
+    const b = item({ id: "b", title: "GLM-5.5 正式发布，编程能力大幅提升", sourceId: "qbitai" });
+    expect(compareItems(a, b).same).toBe(false);
+  });
+});
+
 describe("Deduper", () => {
-  it("finds similar titles from other sources only", () => {
-    const stored = item({ key: "url:a/1", title: "清华27岁助理教授杀入AI自进化赛道！首个35B模型刚刚亮相", sourceId: "jiqizhixin" });
-    const deduper = new Deduper([stored]);
-    const sameSource = item({ key: "url:a/2", title: stored.title, sourceId: "jiqizhixin" });
-    const otherSource = item({ key: "url:b/1", title: "清华27岁助理教授杀入AI自进化赛道，首个35B模型刚刚亮相", sourceId: "36kr-ai" });
-    expect(deduper.findSimilar(sameSource)).toBeUndefined();
-    expect(deduper.findSimilar(otherSource)).toBe(stored);
+  it("finds stored items by key", () => {
+    const stored = item({ key: "gh:obra/superpowers" });
+    expect(new Deduper([stored]).findByKey("gh:obra/superpowers")).toBe(stored);
   });
 
   it("merges discussion links and engagement into the primary item", () => {

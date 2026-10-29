@@ -1,10 +1,12 @@
 import { ENABLED_SOURCES } from "@/config/sources";
 import { SITE } from "@/config/site";
+import { applyClusters } from "./cluster";
 import { Deduper, mergeDuplicate } from "./dedupe";
 import { buildFallbackDigest } from "./digest";
 import { FETCHERS } from "./fetchers";
 import { normalizeError } from "./http";
 import { generateAiDigest, getLlmConfig, LlmClient, summarizeItems } from "./llm";
+import { findSameEventPairs } from "./llm-dedupe";
 import { isRelevant, parsePublished, toNewsItem } from "./normalize";
 import { acquireLock, loadStore, readDay, saveStore, type Store } from "./store";
 import { dayKey } from "@/lib/time";
@@ -131,13 +133,7 @@ async function refreshLocked(opts: RefreshOptions): Promise<RunSummary> {
         continue;
       }
       if (store.seen[candidate.key]) continue;
-      const similar = deduper.findSimilar(candidate);
-      if (similar) {
-        if (mergeDuplicate(similar, candidate)) store.dirtyDays.add(similar.day);
-        store.seen[candidate.key] = similar.day;
-        merged++;
-        continue;
-      }
+      // Other reports of the same event are kept and grouped by clusterStore below.
       const dayItems = await ensureDay(store, candidate.day);
       dayItems.push(candidate);
       deduper.add(candidate);
@@ -149,7 +145,15 @@ async function refreshLocked(opts: RefreshOptions): Promise<RunSummary> {
     sourceResults.push(result);
   }
 
+  merged += clusterStore(store).newlyMerged;
+
   const { llm, client } = await summarize(store, now, opts, progress);
+  if (client) {
+    progress({ stage: "summarizing", done: 0, total: 1, message: "AI 合并跨语言重复报道" });
+    merged += await llmDedupe(store, client, now, llm);
+  } else if (llm.summarized) {
+    merged += clusterStore(store).newlyMerged;
+  }
 
   progress({ stage: "digest", done: 0, total: 1, message: "生成今日要点" });
   const digest = await buildDigest(store, now, llm, client);
@@ -176,6 +180,28 @@ async function refreshLocked(opts: RefreshOptions): Promise<RunSummary> {
   return summary;
 }
 
+/** Re-groups every loaded item into stories and marks the days whose items changed. */
+export function clusterStore(store: Store) {
+  const items = [...store.days.values()].flat();
+  const outcome = applyClusters(items, new Set(Object.keys(store.sameEvent)));
+  for (const item of outcome.changed) store.dirtyDays.add(item.day);
+  return outcome;
+}
+
+/** Fresh AI titles can link more reports, then the model is asked about the rest. Returns newly merged items. */
+async function llmDedupe(store: Store, client: LlmClient, now: Date, llm: LlmRunResult): Promise<number> {
+  const regrouped = clusterStore(store);
+  const outcome = await findSameEventPairs(client, regrouped.clusters, now);
+  llm.requests = client.requests;
+  if (outcome.fatal || outcome.error) llm.error = llm.error ?? outcome.fatal ?? outcome.error;
+  if (!outcome.pairs.length) return regrouped.newlyMerged;
+  const day = dayKey(now);
+  for (const pair of outcome.pairs) store.sameEvent[pair] = day;
+  const confirmed = clusterStore(store).newlyMerged;
+  llm.merged = confirmed;
+  return regrouped.newlyMerged + confirmed;
+}
+
 function historyEntry(summary: RunSummary): Omit<RunSummary, "sources"> {
   const entry: Partial<RunSummary> = { ...summary };
   delete entry.sources;
@@ -199,7 +225,7 @@ async function summarize(
   const cutoff = now.getTime() - LLM_BACKFILL_DAYS * 86_400_000;
   const pending = [...store.days.values()]
     .flat()
-    .filter((i) => !i.ai && !i.skipLlm && (i.aiAttempts ?? 0) < MAX_AI_ATTEMPTS && Date.parse(i.publishedAt) >= cutoff)
+    .filter((i) => !i.dupOf && !i.ai && !i.skipLlm && (i.aiAttempts ?? 0) < MAX_AI_ATTEMPTS && Date.parse(i.publishedAt) >= cutoff)
     .sort((a, b) => (a.lang === b.lang ? b.score - a.score : a.lang === "en" ? -1 : 1));
 
   const outcome = await summarizeItems(client, pending, (done, total) =>
@@ -228,7 +254,7 @@ async function buildDigest(
   llm: LlmRunResult,
   client: LlmClient | null,
 ): Promise<Digest | null> {
-  const all = [...store.days.values()].flat();
+  const all = [...store.days.values()].flat().filter((i) => !i.dupOf);
   let window = all.filter((i) => now.getTime() - Date.parse(i.publishedAt) <= 24 * 3_600_000);
   if (window.length < 5) window = all.filter((i) => now.getTime() - Date.parse(i.publishedAt) <= 48 * 3_600_000);
   if (window.length === 0) return null;

@@ -1,9 +1,9 @@
 import { CATEGORIES, CATEGORY_MAP } from "@/config/site";
-import { titleFingerprint } from "./text";
+import { titleFingerprint, translatedTitle } from "./text";
 import type { DigestPoint, NewsItem } from "@/lib/types";
 
 export function displayTitle(item: NewsItem): string {
-  return item.ai?.title || item.title;
+  return translatedTitle(item) ?? item.title;
 }
 
 function longestCommonSubstring(a: string, b: string): number {

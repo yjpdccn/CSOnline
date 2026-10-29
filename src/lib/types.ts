@@ -89,6 +89,25 @@ export interface AlsoOn {
   url: string;
 }
 
+export interface StorySignals {
+  /** Reports on the card, the primary and discussion links included. */
+  reports: number;
+  /** Distinct source ids, the primary's first. */
+  sources: string[];
+  /** Earliest publication among the reports. */
+  firstPublishedAt: string;
+  /** Highest engagement seen on any report (points, stars, upvotes…). */
+  metrics?: Metrics;
+}
+
+/** Another report of the same event, folded into the primary item's card. */
+export interface RelatedStory extends AlsoOn {
+  /** Set when the report is a stored item (it carries `dupOf` pointing back here). */
+  id?: string;
+  title?: string;
+  publishedAt?: string;
+}
+
 export interface AiSummary {
   title?: string;
   summary?: string;
@@ -119,7 +138,14 @@ export interface NewsItem {
   score: number;
   metrics?: Metrics;
   discussionUrl?: string;
+  /** Links from duplicates that were discarded on arrival (same URL, repo or paper). */
   alsoOn?: AlsoOn[];
+  /** Other stored reports of the same event, recomputed on every refresh. */
+  related?: RelatedStory[];
+  /** Whole-story signals, set on the primary when other stored reports were merged into its card. */
+  story?: StorySignals;
+  /** Id of the item whose card shows this report; hidden from lists, counts and digests. */
+  dupOf?: string;
   ai?: AiSummary;
   aiAttempts?: number;
   skipLlm?: boolean;
@@ -164,6 +190,8 @@ export interface LlmRunResult {
   summarized: number;
   failed: number;
   digest: "ai" | "fallback" | "skipped";
+  /** Reports merged because the model judged them the same event. */
+  merged?: number;
   error?: string;
 }
 

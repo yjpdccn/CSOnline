@@ -11,10 +11,13 @@ import {
   type SourceOption,
 } from "@/lib/view";
 
+/** Reports folded into another story's card (`dupOf`) appear only as 也见于 links on that card. */
+const visible = (items: NewsItem[]) => items.filter((i) => !i.dupOf);
+
 export async function loadClientDay(day: string): Promise<ClientDay | null> {
   const file = await readDay(day);
   if (!file) return null;
-  return { day: file.day, items: file.items.map(toClientItem) };
+  return { day: file.day, items: visible(file.items).map(toClientItem) };
 }
 
 export async function loadHomeData(): Promise<HomeData> {
@@ -36,15 +39,21 @@ export async function loadHomeData(): Promise<HomeData> {
       model: rawDigest.model,
       overview: rawDigest.overview,
       itemCount: rawDigest.itemCount,
-      points: rawDigest.points.map((p) => ({
-        text: p.text,
-        refs: p.refs.flatMap((id) => {
-          const item = loadedItems.get(id);
-          if (!item) return [];
-          const view = toClientItem(item);
-          return [{ id, title: view.title, url: view.url, sourceName: view.sourceName }];
-        }),
-      })),
+      points: rawDigest.points.map((p) => {
+        const seen = new Set<string>();
+        return {
+          text: p.text,
+          refs: p.refs.flatMap((id) => {
+            let item = loadedItems.get(id);
+            // A digest written before a merge may point at a report that now lives on another card.
+            if (item?.dupOf) item = loadedItems.get(item.dupOf) ?? item;
+            if (!item || seen.has(item.id)) return [];
+            seen.add(item.id);
+            const view = toClientItem(item);
+            return [{ id: item.id, title: view.title, url: view.url, sourceName: view.sourceName }];
+          }),
+        };
+      }),
     };
   }
 
@@ -57,7 +66,7 @@ export async function loadHomeData(): Promise<HomeData> {
   }
 
   return {
-    days: files.map((f) => ({ day: f.day, items: f.items.map(toClientItem) })),
+    days: files.map((f) => ({ day: f.day, items: visible(f.items).map(toClientItem) })),
     dayIndex: index,
     digest,
     lastRun: toRunInfo(meta.lastRun),

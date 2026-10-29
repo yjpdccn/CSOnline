@@ -1,5 +1,11 @@
 import { load } from "cheerio";
-import type { Lang } from "@/lib/types";
+import type { Lang, NewsItem } from "@/lib/types";
+
+/** The AI title of an English item, only when it really is a Chinese translation. */
+export function translatedTitle(item: Pick<NewsItem, "lang" | "ai">): string | undefined {
+  const title = item.lang === "en" ? item.ai?.title : undefined;
+  return title && /[\u3400-\u9fff]/.test(title) ? title : undefined;
+}
 
 export function htmlToText(html: string | undefined | null): string {
   if (!html) return "";

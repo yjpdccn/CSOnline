@@ -50,9 +50,15 @@ export async function readIndex(): Promise<DayIndexEntry[]> {
   }
   for (const name of names.filter((n) => /^\d{4}-\d{2}-\d{2}\.json$/.test(n))) {
     const dayFile = await readDay(name.slice(0, 10));
-    if (dayFile?.items.length) entries.push({ day: dayFile.day, count: dayFile.items.length });
+    const count = dayFile ? visibleCount(dayFile.items) : 0;
+    if (dayFile && count) entries.push({ day: dayFile.day, count });
   }
   return entries.sort((a, b) => b.day.localeCompare(a.day));
+}
+
+/** Reports folded into another item's card are not counted on their own. */
+export function visibleCount(items: NewsItem[]): number {
+  return items.filter((i) => !i.dupOf).length;
 }
 
 export const readMeta = () => readJson<MetaFile>(file("meta.json"), { history: [] });
@@ -64,6 +70,8 @@ export interface Store {
   digests: Record<string, Digest>;
   meta: MetaFile;
   index: DayIndexEntry[];
+  /** Same-event pairs confirmed by the optional LLM pass (`pairKey` → day it was found). */
+  sameEvent: Record<string, string>;
   dirtyDays: Set<string>;
 }
 
@@ -82,11 +90,13 @@ export async function loadStore(windowDays: number, now = new Date()): Promise<S
     digests: await readDigests(),
     meta: await readMeta(),
     index: await readIndex(),
+    sameEvent: await readJson<Record<string, string>>(file("same-event.json"), {}),
     dirtyDays: new Set(),
   };
 }
 
 const SEEN_RETENTION_DAYS = 180;
+const SAME_EVENT_RETENTION_DAYS = 30;
 const HISTORY_LENGTH = 60;
 
 export async function saveStore(store: Store, now = new Date()): Promise<void> {
@@ -97,11 +107,21 @@ export async function saveStore(store: Store, now = new Date()): Promise<void> {
   }
 
   const counts = new Map(store.index.map((e) => [e.day, e.count]));
-  for (const [day, items] of store.days) if (items.length) counts.set(day, items.length);
+  for (const [day, items] of store.days) {
+    const count = visibleCount(items);
+    if (count) counts.set(day, count);
+    else counts.delete(day);
+  }
   store.index = [...counts]
     .map(([day, count]) => ({ day, count }))
     .sort((a, b) => b.day.localeCompare(a.day));
   await writeJson(file("index.json"), store.index);
+
+  const sameEventCutoff = shiftDay(dayKey(now), -SAME_EVENT_RETENTION_DAYS);
+  const sameEvent = Object.fromEntries(Object.entries(store.sameEvent).filter(([, day]) => day >= sameEventCutoff).sort());
+  if (Object.keys(sameEvent).length || (await fs.stat(file("same-event.json")).catch(() => null))) {
+    await writeJson(file("same-event.json"), sameEvent);
+  }
 
   const cutoff = shiftDay(dayKey(now), -SEEN_RETENTION_DAYS);
   const seen = Object.fromEntries(
