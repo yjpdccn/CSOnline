@@ -14,11 +14,12 @@ export interface LlmConfig {
   extraBody: Record<string, unknown>;
 }
 
-const GITHUB_MODELS_URL = "https://models.github.ai/inference";
+/** Used when only LLM_API_KEY is set: glm-4.7-flash is free and reachable from GitHub's runners. */
+const DEFAULT_BASE_URL = "https://open.bigmodel.cn/api/paas/v4";
+/** GitHub Models was retired on 2026-07-30; its hosts now answer every request with a plain-text "OK". */
+const RETIRED_HOSTS = /models\.github\.ai|models\.inference\.ai\.azure\.com/;
 
 const PROVIDERS: { match: RegExp; name: string; model?: string; minIntervalMs: number; extraBody?: Record<string, unknown> }[] = [
-  // Free tier: 15 requests/minute, 150/day, 8k input + 4k output tokens per request for gpt-4.1-mini.
-  { match: /models\.github\.ai|models\.inference\.ai\.azure\.com/, name: "GitHub Models", model: "openai/gpt-4.1-mini", minIntervalMs: 4500 },
   { match: /bigmodel\.cn|z\.ai/, name: "智谱 GLM", model: "glm-4.7-flash", minIntervalMs: 1500, extraBody: { thinking: { type: "disabled" } } },
   { match: /deepseek\.com/, name: "DeepSeek", model: "deepseek-chat", minIntervalMs: 500 },
   { match: /dashscope/, name: "通义千问", minIntervalMs: 500 },
@@ -33,10 +34,10 @@ export interface LlmConfigResult {
 
 export function getLlmConfig(env: NodeJS.ProcessEnv = process.env): LlmConfigResult {
   if (env.LLM_DISABLED === "1" || env.LLM_DISABLED === "true") return { config: null, reason: "已通过 LLM_DISABLED 关闭" };
-  const baseUrl = (env.LLM_BASE_URL || GITHUB_MODELS_URL).replace(/\/+$/, "").replace(/\/chat\/completions$/, "");
+  const baseUrl = (env.LLM_BASE_URL || DEFAULT_BASE_URL).replace(/\/+$/, "").replace(/\/chat\/completions$/, "");
+  if (RETIRED_HOSTS.test(baseUrl)) return { config: null, reason: "GitHub Models 已于 2026-07-30 停止服务，请改用其他接口（见 README）" };
   const provider = PROVIDERS.find((p) => p.match.test(baseUrl));
-  const isGithubModels = provider?.name === "GitHub Models";
-  const apiKey = env.LLM_API_KEY || (isGithubModels ? env.GITHUB_TOKEN || "" : "");
+  const apiKey = env.LLM_API_KEY;
   if (!apiKey) return { config: null, reason: "未配置 LLM_API_KEY" };
   const model = env.LLM_MODEL || provider?.model;
   if (!model) return { config: null, reason: "未配置 LLM_MODEL" };
@@ -122,16 +123,21 @@ export class LlmClient {
         continue;
       }
       const text = await res.text();
+      const detail = text.slice(0, 200).replace(/\s+/g, " ").trim();
       if (res.ok) {
+        let body: { choices?: { message?: { content?: string } }[] };
         try {
-          const content: string = JSON.parse(text).choices?.[0]?.message?.content ?? "";
-          return parseJsonContent<T>(content);
+          body = JSON.parse(text);
+        } catch {
+          throw new FatalLlmError(`接口返回的不是 JSON（${detail || "空响应"}），请检查 LLM_BASE_URL`);
+        }
+        try {
+          return parseJsonContent<T>(body.choices?.[0]?.message?.content ?? "");
         } catch (err) {
           lastError = new Error(`无法解析模型输出：${(err as Error).message}`);
           continue;
         }
       }
-      const detail = text.slice(0, 200).replace(/\s+/g, " ");
       if (res.status === 400 && this.jsonMode && /response_format|json/i.test(text)) {
         this.jsonMode = false;
         continue;
@@ -236,12 +242,13 @@ export async function summarizeItems(
         outcome.summarized++;
       }
     } catch (err) {
-      for (const item of batch) item.aiAttempts = (item.aiAttempts ?? 0) + 1;
       outcome.failed += batch.length;
+      // A fatal error says nothing about these items, so it must not use up their attempts.
       if (err instanceof FatalLlmError) {
         outcome.fatal = err.message;
         break;
       }
+      for (const item of batch) item.aiAttempts = (item.aiAttempts ?? 0) + 1;
       outcome.error = (err as Error).message;
     }
   }

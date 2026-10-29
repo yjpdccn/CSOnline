@@ -51,11 +51,17 @@ function echoFetch() {
 }
 
 describe("getLlmConfig", () => {
-  it("defaults to GitHub Models with GITHUB_TOKEN", () => {
-    const { config } = getLlmConfig(env({ GITHUB_TOKEN: "ghs_x" }));
-    expect(config?.baseUrl).toBe("https://models.github.ai/inference");
-    expect(config?.model).toBe("openai/gpt-4.1-mini");
-    expect(config?.minIntervalMs).toBeGreaterThanOrEqual(4000);
+  it("defaults to the free GLM model when only LLM_API_KEY is set", () => {
+    const { config } = getLlmConfig(env({ LLM_API_KEY: "k" }));
+    expect(config?.baseUrl).toBe("https://open.bigmodel.cn/api/paas/v4");
+    expect(config?.model).toBe("glm-4.7-flash");
+  });
+
+  it("no longer falls back to GITHUB_TOKEN and explains that GitHub Models is retired", () => {
+    expect(getLlmConfig(env({ GITHUB_TOKEN: "ghs_x" })).config).toBeNull();
+    const retired = getLlmConfig(env({ LLM_API_KEY: "k", LLM_BASE_URL: "https://models.github.ai/inference" }));
+    expect(retired.config).toBeNull();
+    expect(retired.reason).toContain("停止服务");
   });
 
   it("knows the free GLM model and disables thinking", () => {
@@ -107,8 +113,18 @@ describe("summarizeItems", () => {
     const outcome = await summarizeItems(client, items);
     expect(fetchMock).toHaveBeenCalledTimes(1);
     expect(outcome.fatal).toContain("鉴权失败");
-    expect(items[0].aiAttempts).toBe(1);
+    expect(items[0].aiAttempts).toBeUndefined();
     expect(items[29].ai).toBeUndefined();
+  });
+
+  it("stops at once when the endpoint does not answer with JSON", async () => {
+    const fetchMock = vi.fn(async () => new Response("OK\r\n", { status: 200, headers: { "content-type": "text/plain" } }));
+    const client = new LlmClient(baseConfig, fetchMock as unknown as typeof fetch);
+    const items = makeItems(30);
+    const outcome = await summarizeItems(client, items);
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+    expect(outcome.fatal).toContain("不是 JSON");
+    expect(items[0].aiAttempts).toBeUndefined();
   });
 
   it("treats a long Retry-After as an exhausted daily quota", async () => {

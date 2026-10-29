@@ -11,7 +11,7 @@ AI 日报自动抓取官方博客、Hugging Face、Hacker News、GitHub、Reddit
 - **自动更新**：部署到 GitHub Pages 后，GitHub Actions 每 12 小时抓取一次（北京时间 08:00、20:00 前完成）。本地运行时有「立即更新」按钮，开发服务器也会每 12 小时自动更新。
 - **历史累积**：数据以 JSON 存在 `data/`，每次更新由工作流提交回仓库，旧内容不会丢失，页面底部可以逐天加载更早的内容。
 - **国内可访问**：纯静态页面，不使用 Google 字体、CDN、统计脚本等境外依赖，也不依赖 Vercel 域名。
-- **AI 摘要可选**：默认在 GitHub Actions 中用内置 `GITHUB_TOKEN` 免费调用 GitHub Models，也可以换成智谱 GLM 等任意 OpenAI 兼容接口。没有配置时自动回退为原标题和原摘要，不影响使用。
+- **AI 摘要可选**：在仓库里添加一个 `LLM_API_KEY` 密钥即可开启，默认用智谱免费模型 `glm-4.7-flash`，也可以换成 DeepSeek、通义千问等任意 OpenAI 兼容接口。没有配置时自动回退为原标题和原摘要，不影响使用。
 
 ## 本地运行
 
@@ -40,12 +40,12 @@ npm run dev
 
 | 环境变量 | 说明 | 默认值 |
 | --- | --- | --- |
-| `LLM_API_KEY` | 接口密钥。使用 GitHub Models 且未设置时会读取 `GITHUB_TOKEN` | 无（不配置就是回退模式） |
-| `LLM_BASE_URL` | 接口地址，不含 `/chat/completions` | `https://models.github.ai/inference` |
-| `LLM_MODEL` | 模型名。GitHub Models 默认 `openai/gpt-4.1-mini`，智谱默认 `glm-4.7-flash`，其他服务需要填写 | 见左 |
+| `LLM_API_KEY` | 接口密钥 | 无（不配置就是回退模式） |
+| `LLM_BASE_URL` | 接口地址，不含 `/chat/completions` | `https://open.bigmodel.cn/api/paas/v4`（智谱） |
+| `LLM_MODEL` | 模型名。智谱默认 `glm-4.7-flash`，其他服务需要填写 | 见左 |
 | `LLM_BATCH_SIZE` | 每次请求包含的条数 | `12` |
 | `LLM_MAX_REQUESTS` | 每次运行最多发起的摘要请求数 | `20` |
-| `LLM_MIN_INTERVAL_MS` | 两次请求的最小间隔 | GitHub Models 为 `4500`（免费额度每分钟 15 次） |
+| `LLM_MIN_INTERVAL_MS` | 两次请求的最小间隔 | 智谱为 `1500`，其他服务 `500`～`1000` |
 | `LLM_EXTRA_BODY` | 额外请求参数（JSON），例如 `{"thinking":{"type":"disabled"}}` | 智谱默认关闭思考模式 |
 | `LLM_DISABLED` | 设为 `1` 时强制不用 AI 摘要 | — |
 
@@ -53,13 +53,14 @@ npm run dev
 
 | 服务 | `LLM_BASE_URL` | `LLM_MODEL` | 说明 |
 | --- | --- | --- | --- |
-| GitHub Models | `https://models.github.ai/inference` | `openai/gpt-4.1-mini` | 工作流里零配置；本地需要一个勾选了 **Models: Read** 的细粒度 PAT |
-| 智谱 GLM | `https://open.bigmodel.cn/api/paas/v4` | `glm-4.7-flash` | 免费模型，国内直连 |
+| 智谱 GLM（默认） | `https://open.bigmodel.cn/api/paas/v4` | `glm-4.7-flash` | 免费模型，国内直连，GitHub Actions 也能访问；只需设置 `LLM_API_KEY` |
 | DeepSeek | `https://api.deepseek.com` | `deepseek-chat` | 付费 |
 | 通义千问 | `https://dashscope.aliyuncs.com/compatible-mode/v1` | 如 `qwen-plus` | 付费，有免费额度 |
 | Kimi | `https://api.moonshot.cn/v1` | 按控制台填写 | 付费 |
 
-**免费额度够用吗？** GitHub Models 的 `openai/gpt-4.1-mini` 免费额度是每天 150 次请求、每分钟 15 次、每次输入 8000 / 输出 4000 token。每天两次更新通常各需要 5～15 次请求（首次运行会补齐最近 3 天，约 20 次），远低于上限。额度用完或密钥错误时，本次运行自动回退，错误原因会显示在页面的「数据状态」里。
+GitHub Models 已于 2026 年 7 月 30 日[停止服务](https://github.blog/changelog/2026-07-30-github-models-is-now-retired/)，不能再用内置的 `GITHUB_TOKEN` 免费调用模型；仍指向它的配置会被跳过，并在「数据状态」里提示改用其他接口。
+
+**免费额度够用吗？** 智谱 `glm-4.7-flash` 的输入和输出都免费，只限制并发数，本项目逐批顺序请求。每天两次更新通常各需要 5～15 次请求（首次运行会补齐最近 3 天，约 20 次）。额度用完或密钥错误时，本次运行自动回退，错误原因会显示在页面的「数据状态」里。
 
 ## 部署到 GitHub Pages（免费，定时更新）
 
@@ -75,9 +76,7 @@ npm run dev
 
 1. **启用 Pages**：**Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
 2. **允许工作流写入仓库**：**Settings → Actions → General → Workflow permissions** 选择 **Read and write permissions** 并保存。工作流需要把新数据提交回 `main`。
-3. **（可选）换成你自己的大模型**：不做任何设置时，工作流用内置的 `GITHUB_TOKEN` 调用 GitHub Models（工作流已声明 `permissions: models: read`）。要换成智谱等服务，在 **Settings → Secrets and variables → Actions** 中：
-   - **Secrets** 新建 `LLM_API_KEY`（你的密钥）
-   - **Variables** 新建 `LLM_BASE_URL`（如 `https://open.bigmodel.cn/api/paas/v4`）和 `LLM_MODEL`（如 `glm-4.7-flash`）
+3. **（推荐）开启 AI 中文摘要**：在 <https://open.bigmodel.cn> 注册智谱开放平台并创建一个 API Key，然后在 **Settings → Secrets and variables → Actions → Secrets → New repository secret** 新建 `LLM_API_KEY`，值填这个密钥。只设置这一项就会使用免费的 `glm-4.7-flash`。要换成其他服务，再在同一页面的 **Variables** 中新建 `LLM_BASE_URL` 和 `LLM_MODEL`（见上文表格）。不设置也能正常运行，只是英文资讯显示原标题。
 4. **把代码推到 `main`**：
    ```bash
    git push https://github.com/yjpdccn/CSOnline.git HEAD:main

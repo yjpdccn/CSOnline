@@ -21,7 +21,6 @@ permissions:
   contents: write # 把 data/ 提交回仓库，历史数据得以累积
   pages: write # 部署到 GitHub Pages
   id-token: write # deploy-pages 需要
-  models: read # 用内置 GITHUB_TOKEN 调用 GitHub Models 生成中文摘要
 
 concurrency:
   group: refresh-and-deploy
@@ -50,10 +49,11 @@ jobs:
           REFRESH_TRIGGER: ${{ github.event_name }}
           # GitHub 搜索 API 用它提高限额
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # 默认用 GitHub Models（免费额度）；配置了 LLM_API_KEY 密钥时改用你自己的服务（如智谱 GLM）
-          LLM_API_KEY: ${{ secrets.LLM_API_KEY || secrets.GITHUB_TOKEN }}
-          LLM_BASE_URL: ${{ vars.LLM_BASE_URL || 'https://models.github.ai/inference' }}
-          LLM_MODEL: ${{ vars.LLM_MODEL || 'openai/gpt-4.1-mini' }}
+          # AI 中文摘要：添加 LLM_API_KEY 密钥后启用，默认用智谱免费模型 glm-4.7-flash；
+          # 换其他服务时再设置 LLM_BASE_URL、LLM_MODEL 变量。未配置时显示原标题与原摘要。
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
 
       - name: 提交数据
         if: env.FETCH == 'true'
