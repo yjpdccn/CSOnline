@@ -1,39 +1,40 @@
 {
   "2026-10-29": {
     "day": "2026-10-29",
-    "generatedAt": "2026-10-29T08:50:36.768Z",
-    "itemCount": 153,
-    "mode": "fallback",
-    "overview": "过去 24 小时共收录 153 条 AI 资讯：产品与行业 92 条、Agent 与工具 25 条、多模态与视频 10 条、开源项目 10 条、模型发布 8 条、论文 8 条。以下为按热度自动摘录的重点。",
+    "generatedAt": "2026-10-29T08:54:36.619Z",
+    "itemCount": 154,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "Google DeepMind发布Gemini 4 Carbon，多模态与Agent工具持续演进。",
     "points": [
       {
-        "text": "【模型】Gemini 4 Carbon: Our next frontier model",
+        "text": "Google DeepMind发布下一代前沿模型Gemini 4 Carbon。",
         "refs": [
           "28rb304yi2a"
         ]
       },
       {
-        "text": "【模型】NVIDIA Nemotron 3.5 Transcribe and Granary v2: Intelligent Multilingual Transcription You Can Prompt and Adapt",
-        "refs": [
-          "uoxdxfwzyy"
-        ]
-      },
-      {
-        "text": "【行业】Kentucky man becomes the first humanist granted religious exemption from AI",
-        "refs": [
-          "11tgj2w9szl"
-        ]
-      },
-      {
-        "text": "【论文】DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models",
-        "refs": [
-          "1l2r4lyln7g"
-        ]
-      },
-      {
-        "text": "【行业】Anthropic 扩展 AI for Science 计划",
+        "text": "Anthropic扩展AI for Science计划，与20个机构建立合作。",
         "refs": [
           "1gtbujz8rhc"
+        ]
+      },
+      {
+        "text": "OpenAI与ServiceNow扩展企业工作流合作，整合模型与Agent。",
+        "refs": [
+          "io9bjph6zl"
+        ]
+      },
+      {
+        "text": "Chrome AI自动填充功能升级，可读取Gmail信息填表。",
+        "refs": [
+          "2689j9kel5z"
+        ]
+      },
+      {
+        "text": "开源项目E0.5开源原生4D世界动作模型，真机大幅超越π0.5。",
+        "refs": [
+          "1irehng59ch"
         ]
       }
     ]
