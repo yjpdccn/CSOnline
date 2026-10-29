@@ -1,0 +1,345 @@
+{
+  "day": "2026-10-26",
+  "items": [
+    {
+      "id": "dzabtqk0a8",
+      "key": "url:magazine.sebastianraschka.com/p/building-reasoning-models",
+      "title": "Sebastian Raschka's from-scratch video course on building reasoning models",
+      "url": "https://magazine.sebastianraschka.com/p/building-reasoning-models",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-26T15:11:59.000Z",
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "model",
+      "keywords": [
+        "推理模型"
+      ],
+      "score": 39.4,
+      "metrics": {
+        "points": 843,
+        "comments": 115
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50245138"
+    },
+    {
+      "id": "2bcupea9mh2",
+      "key": "url:openai.com/index/building-scientific-understanding-with-academic-communities",
+      "title": "Working with academic communities to build scientific understanding",
+      "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities",
+      "excerpt": "OpenAI shares model results on the Kakeya conjecture, Exponential Time Hypothesis, and quantum chromodynamics—and how researchers can verify and build on them.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-26T14:30:00.000Z",
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "industry",
+      "score": 30
+    },
+    {
+      "id": "1mviuy0jr0k",
+      "key": "url:openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "title": "GPT-6.1 Sol helps CodeRabbit strengthen security across complex codebases",
+      "url": "https://openai.com/index/gpt-6-1-sol-coderabbit-code-security",
+      "excerpt": "CodeRabbit uses GPT-6.1 Sol to investigate security risks across complex codebases. Its security agent helps developers review findings and proposed fixes.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-26T13:45:00.000Z",
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "model",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 36
+    },
+    {
+      "id": "7jlc15ysbc",
+      "key": "url:sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "title": "Anthropic S-1",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-26T13:04:50.000Z",
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "industry",
+      "score": 36,
+      "metrics": {
+        "points": 1701,
+        "comments": 1673
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50242939"
+    },
+    {
+      "id": "1o713qgz9eg",
+      "key": "url:ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+      "title": "Fixing Tool-Call Accuracy in vLLM",
+      "url": "https://www.ubicloud.com/blog/fixing-tool-call-accuracy-in-vllm",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-26T12:59:48.000Z",
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "agent",
+      "keywords": [
+        "本地部署"
+      ],
+      "score": 25.5,
+      "metrics": {
+        "points": 172,
+        "comments": 73
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50242870"
+    },
+    {
+      "id": "29tqql5n56n",
+      "key": "url:brown.edu/news/2026-10-26/ai-data-workers",
+      "title": "Brown student maps the hidden global labor powering AI",
+      "url": "https://www.brown.edu/news/2026-10-26/ai-data-workers",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-26T12:58:27.000Z",
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "industry",
+      "score": 27.7,
+      "metrics": {
+        "points": 182,
+        "comments": 177
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50242843"
+    },
+    {
+      "id": "1uyu45y1t3t",
+      "key": "url:geekpark.net/news/372943",
+      "title": "Kimi 发布 K3.1 Pro，加量降价挑战 Opus 5.5",
+      "url": "http://www.geekpark.net/news/372943",
+      "excerpt": "作者｜宇航猿 编辑｜靖宇 10 月 23 日上午，Kimi 官方在 X 和视频号上发了一段 24 秒的视频。 画面里是一台复古风格的老式电脑，屏幕上开着 Kimi Code，终端里一行行地写着 Three.js 代码，在生成一个复杂的 3D 场景。眼尖的网友很快在左上角的模型栏里找到了答案——「Model: Kimi K3.1」。 Kimi 官方发布的 K3.1 预热视频｜图片来源：X @Kimi_Moonshot 用一台老古董般的机器，跑一段今天最前沿的 3D 代码，这个反差本身就是月之暗面想说的话。 十几个小时后，10 月 24 日零点刚过，卡着程…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-26T10:16:08.000Z",
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "model",
+      "score": 28
+    },
+    {
+      "id": "18l3nu77x39",
+      "key": "url:openai.com/index/chatgpt-expanding-world-of-work",
+      "title": "ChatGPT’s expanding world of work",
+      "url": "https://openai.com/index/chatgpt-expanding-world-of-work",
+      "excerpt": "Explore OpenAI Signals data on 165 work activities across nearly 100 countries, revealing how people use ChatGPT for work and how usage changes over time.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-26T10:00:00.000Z",
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "industry",
+      "score": 30
+    },
+    {
+      "id": "2135q38astn",
+      "key": "url:openai.com/index/fanatics-streamline-fan-experience",
+      "title": "How Fanatics and OpenAI streamline the fan experience",
+      "url": "https://openai.com/index/fanatics-streamline-fan-experience",
+      "excerpt": "Fanatics uses OpenAI to help fans complete their game-day outfits with Shop the Look. Testing across roughly 30,000 MLB products showed 10% higher engagement.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-26T07:00:00.000Z",
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "industry",
+      "score": 30
+    },
+    {
+      "id": "1phei96go1c",
+      "key": "url:openai.com/index/openai-cut-incident-investigation",
+      "title": "How Ultrafast cut incident investigation from hours to minutes at OpenAI",
+      "url": "https://openai.com/index/openai-cut-incident-investigation",
+      "excerpt": "See how OpenAI engineers use Codex Ultrafast to investigate incidents in minutes. Explore faster security analysis, code refactoring, and daily workflows.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-26T07:00:00.000Z",
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 30
+    },
+    {
+      "id": "24s4ja7g2wl",
+      "key": "gh:motionsites-ai/claude-skill",
+      "title": "Motionsites-AI/claude-skill",
+      "url": "https://github.com/Motionsites-AI/claude-skill",
+      "excerpt": "Free Claude skill: make Claude build award-level, cinematic landing pages. By MotionSites.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-26T06:58:45.000Z",
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 20.1,
+      "metrics": {
+        "stars": 920
+      }
+    },
+    {
+      "id": "il7itqpvaf",
+      "key": "gh:andyhuo520/digital-human-koubo",
+      "title": "andyhuo520/digital-human-koubo",
+      "url": "https://github.com/andyhuo520/digital-human-koubo",
+      "excerpt": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-26T04:34:09.000Z",
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "MCP",
+        "AI 编程"
+      ],
+      "score": 22.2,
+      "metrics": {
+        "stars": 1327
+      }
+    },
+    {
+      "id": "2b971ysr9us",
+      "key": "hf:baidu/unlimited-ocr-2",
+      "title": "baidu/Unlimited-OCR-2",
+      "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+      "excerpt": "Hugging Face 趋势榜第 9 名 · 图文理解 · 340 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-26T03:57:46.000Z",
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "model",
+      "categoryLocked": true,
+      "score": 26.7,
+      "metrics": {
+        "likes": 340
+      },
+      "skipLlm": true
+    },
+    {
+      "id": "168tcvhi9p7",
+      "key": "gh:yaojingang/geoinflow",
+      "title": "yaojingang/GEOInflow",
+      "url": "https://github.com/yaojingang/GEOInflow",
+      "excerpt": "Self-hosted web and AI crawler analytics for Generative Engine Optimization (GEO). Track visitors, AI search referrals, crawl logs, content coverage, and conversions. Jointly published by 猎看科技 · 北京日报社智源GEO. MIT licensed.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-26T03:12:45.000Z",
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 18.6,
+      "metrics": {
+        "stars": 694
+      }
+    },
+    {
+      "id": "253u9xnsl3e",
+      "key": "url:openai.com/index/introducing-gpt-6-1-terra",
+      "title": "Introducing GPT-6.1 Terra",
+      "url": "https://openai.com/index/introducing-gpt-6-1-terra",
+      "excerpt": "Bringing fast and capable computer use to everyone",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "model",
+      "score": 74,
+      "metrics": {
+        "points": 633,
+        "comments": 426
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50248124",
+      "alsoOn": [
+        {
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50248124"
+        }
+      ]
+    },
+    {
+      "id": "1rjjznv6wr8",
+      "key": "url:machinelearning.apple.com/research/gharp-head-animation",
+      "title": "GHARP: Real-Time Gaussian Head Animation from Large-Scale Reconstruction Prior",
+      "url": "https://machinelearning.apple.com/research/gharp-head-animation",
+      "excerpt": "We present GHARP (Real-time Gaussian Head Animation from Large-scale Reconstruction Prior), a method that animates 3D human heads in real time from a few input images of a subject and a driving expression signal. We decouple the problem into an identity stage that builds a repre…",
+      "lang": "en",
+      "sourceId": "apple-ml",
+      "sourceName": "Apple 机器学习研究",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-26T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "multimodal",
+      "score": 30
+    },
+    {
+      "id": "2ccdl0py4ke",
+      "key": "gh:stormydayy/halo-overlay",
+      "title": "stormydayy/halo-overlay",
+      "url": "https://github.com/stormydayy/halo-overlay",
+      "excerpt": "Lightweight opensource AI overlay for live conversations. Hears, sees, suggests.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-25T17:33:04.000Z",
+      "firstSeenAt": "2026-10-29T03:23:55.158Z",
+      "day": "2026-10-26",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 17.2,
+      "metrics": {
+        "stars": 516
+      }
+    }
+  ]
+}
