@@ -125,6 +125,12 @@ describe("distinct stories stay apart", () => {
     expect(same(glm55, glm53)).toBe(false);
   });
 
+  it("headlines that only share a quarter like Q3 in the lead", () => {
+    const holder = item("36kr-flash", "中国诚通Q3新进成为中金黄金第七大股东", "2026-10-29T08:39:00Z");
+    const results = item("jiqizhixin", "谷歌Q3营收1276亿美元 AI烧钱更猛了", "2026-10-29T00:50:00Z");
+    expect(same(holder, results)).toBe(false);
+  });
+
   it("two launches from the same company on the same day", () => {
     const buddy = item("jiqizhixin", "刚刚，腾讯Buddy One发布，办公大一统要来了！混元Hy4也将亮相", "2026-10-29T06:41:00Z");
     const hy4 = item("36kr-flash", "腾讯混元Hy4 、Hy4 flash即将发布，首次引入视觉理解能力", "2026-10-29T02:28:00Z");

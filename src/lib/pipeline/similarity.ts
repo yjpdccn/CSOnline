@@ -412,7 +412,10 @@ export function nearIdentical(a: Pick<StoryFeatures, "print">, b: Pick<StoryFeat
   return Array.from(shorter).length >= minLength && (longer.startsWith(shorter) || longer.endsWith(shorter));
 }
 
-const isModelKey = (name: string) => MODEL_TOKEN.test(name.split("+")[0]);
+const isModelKey = (name: string) => {
+  const base = name.split("+")[0];
+  return MODEL_TOKEN.test(base) && !NOT_A_MODEL.test(base);
+};
 
 /**
  * Both headlines lead with a name and one of those names is missing from the other headline:
