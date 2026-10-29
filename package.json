@@ -11,6 +11,7 @@
     "dedupe": "tsx scripts/dedupe.ts",
     "rank": "tsx scripts/rank-report.ts",
     "sources:check": "tsx scripts/check-sources.ts",
+    "invest:check": "tsx scripts/check-invest.ts",
     "test": "vitest run",
     "build:static": "cross-env STATIC_EXPORT=1 next build && tsx scripts/export-static-data.ts out",
     "typecheck": "tsc --noEmit"

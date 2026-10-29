@@ -43,7 +43,7 @@ interface StoryRef {
   excerptPrint?: string;
 }
 
-function prepare(item: NewsItem): StoryRef {
+function prepare(item: NewsItem, generic?: ReadonlySet<string>): StoryRef {
   const artifact = ARTIFACT_SOURCES.has(item.sourceId);
   const description = artifact ? item.excerpt : undefined;
   const aiTitle = translatedTitle(item);
@@ -51,8 +51,8 @@ function prepare(item: NewsItem): StoryRef {
   return {
     item,
     time: Date.parse(item.publishedAt),
-    features: storyFeatures(item.title, { description }),
-    translated: aiTitle ? storyFeatures(aiTitle) : undefined,
+    features: storyFeatures(item.title, { description, generic }),
+    translated: aiTitle ? storyFeatures(aiTitle, { generic }) : undefined,
     roundup: isRoundup(item),
     artifact,
     excerptPrint,
@@ -71,11 +71,18 @@ export interface PairDecision extends MatchResult {
   same: boolean;
 }
 
-function decide(a: StoryRef, b: StoryRef, hints?: SameEventHints): PairDecision {
+export interface ClusterOptions {
+  /** Reports further apart are never the same event; defaults to 72 hours. Daily recurring headlines need less. */
+  windowMs?: number;
+  /** Domain words that say little about which event a headline reports (see FeatureOptions.generic). */
+  generic?: ReadonlySet<string>;
+}
+
+function decide(a: StoryRef, b: StoryRef, hints?: SameEventHints, windowMs = WINDOW_MS): PairDecision {
   const none = (reason: string): PairDecision => ({ same: false, strength: "none", score: 0, reason });
   if (a.roundup || b.roundup) return none("汇总类文章");
   const gap = Math.abs(a.time - b.time);
-  if (gap > (a.artifact || b.artifact ? ARTIFACT_WINDOW_MS : WINDOW_MS)) return none("时间相隔太远");
+  if (gap > (a.artifact || b.artifact ? ARTIFACT_WINDOW_MS : windowMs)) return none("时间相隔太远");
   const sameSource = a.item.sourceId === b.item.sourceId;
 
   const veto = conflictReason(a.features, b.features);
@@ -99,8 +106,8 @@ function decide(a: StoryRef, b: StoryRef, hints?: SameEventHints): PairDecision 
 }
 
 /** Exposed for tests and the tuning script: would these two items be merged? */
-export function compareItems(a: NewsItem, b: NewsItem, hints?: SameEventHints): PairDecision {
-  return decide(prepare(a), prepare(b), hints);
+export function compareItems(a: NewsItem, b: NewsItem, hints?: SameEventHints, options: ClusterOptions = {}): PairDecision {
+  return decide(prepare(a, options.generic), prepare(b, options.generic), hints, options.windowMs);
 }
 
 export function isOfficial(item: Pick<NewsItem, "sourceGroup" | "url">): boolean {
@@ -153,20 +160,21 @@ export interface Cluster {
  * Groups items about the same event. Items are taken in time order and join the cluster holding
  * their best match (single link), so each cluster is anchored on the earliest reports.
  */
-export function clusterItems(items: NewsItem[], hints?: SameEventHints): Cluster[] {
-  const refs = items.map(prepare).sort((a, b) => a.time - b.time || a.item.id.localeCompare(b.item.id));
+export function clusterItems(items: NewsItem[], hints?: SameEventHints, options: ClusterOptions = {}): Cluster[] {
+  const refs = items.map((item) => prepare(item, options.generic)).sort((a, b) => a.time - b.time || a.item.id.localeCompare(b.item.id));
   const clusters: { members: StoryRef[]; latest: number; scores: Map<string, number> }[] = [];
+  const reach = refs.some((r) => r.artifact) ? ARTIFACT_WINDOW_MS : (options.windowMs ?? ARTIFACT_WINDOW_MS);
   for (const ref of refs) {
     let best: (typeof clusters)[number] | undefined;
     let bestScore = -1;
     const pairScores: [StoryRef, number][] = [];
     if (!ref.roundup) {
       for (const cluster of clusters) {
-        if (ref.time - cluster.latest > ARTIFACT_WINDOW_MS) continue;
+        if (ref.time - cluster.latest > reach) continue;
         let clusterBest = -1;
         const local: [StoryRef, number][] = [];
         for (const member of cluster.members) {
-          const d = decide(ref, member, hints);
+          const d = decide(ref, member, hints, options.windowMs);
           if (!d.same) continue;
           local.push([member, d.score]);
           clusterBest = Math.max(clusterBest, d.score);
@@ -250,12 +258,12 @@ function storySignals(primary: NewsItem, members: NewsItem[], related: RelatedSt
  * gets `related` and a score that reflects how widely the story was covered. Items that point at a
  * primary outside `items` are left alone.
  */
-export function applyClusters(items: NewsItem[], hints?: SameEventHints): ClusterOutcome {
+export function applyClusters(items: NewsItem[], hints?: SameEventHints, options?: ClusterOptions): ClusterOutcome {
   const ids = new Set(items.map((i) => i.id));
   const pool = items.filter((i) => !i.dupOf || ids.has(i.dupOf));
   const before = new Map(pool.map((i) => [i.id, snapshot(i)]));
   const wasMember = new Set(pool.filter((i) => i.dupOf).map((i) => i.id));
-  const clusters = clusterItems(pool, hints);
+  const clusters = clusterItems(pool, hints, options);
   let newlyMerged = 0;
   for (const { primary, members } of clusters) {
     delete primary.dupOf;

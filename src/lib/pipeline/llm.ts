@@ -39,7 +39,7 @@ export const LLM_BACKFILL_DAYS = 3;
 export const MAX_AI_ATTEMPTS = 2;
 const MAX_TRIES = 3;
 /** Requests summaries leave for what follows them: one same-event check and up to three tries for 今日要点. */
-const FOLLOW_UP_REQUESTS = 4;
+export const FOLLOW_UP_REQUESTS = 4;
 /** No request is started with less than this left before the deadline. */
 const MIN_REQUEST_MS = 30_000;
 /** A Retry-After longer than this is a quota window rather than a burst limit. */
@@ -364,7 +364,11 @@ function applySummaries(batch: NewsItem[], result: SummaryResult, model: string,
 export async function summarizeItems(
   client: LlmClient,
   items: NewsItem[],
-  { deadline, onBatch }: { deadline: number; onBatch?: (done: number, total: number) => void },
+  {
+    deadline,
+    onBatch,
+    followUps = FOLLOW_UP_REQUESTS,
+  }: { deadline: number; onBatch?: (done: number, total: number) => void; followUps?: number },
 ): Promise<SummarizeOutcome> {
   const { batchSize, maxItems, maxRequests, model } = client.config;
   const selected = items.slice(0, maxItems);
@@ -373,7 +377,7 @@ export async function summarizeItems(
   const outcome: SummarizeOutcome = { summarized: 0, failed: 0 };
   let done = 0;
   while (queue.length > 0) {
-    if (client.requests >= maxRequests - FOLLOW_UP_REQUESTS) {
+    if (client.requests >= maxRequests - followUps) {
       outcome.stop = new LlmStop("limit", "已达到本次运行的请求上限");
       break;
     }

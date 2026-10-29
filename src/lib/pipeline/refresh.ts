@@ -5,10 +5,21 @@ import { Deduper, mergeDuplicate } from "./dedupe";
 import { AI_DIGEST_CANDIDATES, buildFallbackDigest, followsRanking, rankLatestPeriod } from "./digest";
 import { FETCHERS } from "./fetchers";
 import { normalizeError } from "./http";
-import { generateAiDigest, getLlmConfig, LlmClient, LlmStop, pendingSummaries, summarizeItems, summaryProgress } from "./llm";
+import {
+  FOLLOW_UP_REQUESTS,
+  generateAiDigest,
+  getLlmConfig,
+  LlmClient,
+  LlmStop,
+  pendingSummaries,
+  summarizeItems,
+  summaryProgress,
+} from "./llm";
 import { findSameEventPairs } from "./llm-dedupe";
 import { isRelevant, parsePublished, toNewsItem } from "./normalize";
 import { acquireLock, loadStore, readDay, saveStore, type Store } from "./store";
+import { fetchInvest, processInvest } from "@/lib/invest/refresh";
+import type { InvestRunSummary } from "@/lib/invest/types";
 import { dayKey } from "@/lib/time";
 import type {
   Digest,
@@ -31,7 +42,11 @@ export interface RefreshOptions {
   noLlm?: boolean;
   /** Receives AI retry notices such as rate-limit codes. */
   log?: (message: string) => void;
+  /** Also refresh the 投资日报 (default true). */
+  invest?: boolean;
 }
+
+export type RefreshResult = RunSummary & { invest?: InvestRunSummary; investError?: string };
 
 const GROUP_PRIORITY: Record<SourceGroup, number> = {
   official: 0,
@@ -46,6 +61,9 @@ const DEFAULT_SOURCE_LIMIT = 40;
 /** Parts of the run's AI time budget kept back from the summaries for the steps after them. */
 const DIGEST_RESERVE_MS = 150_000;
 const DEDUPE_RESERVE_MS = 90_000;
+/** The 投资日报's share of the same budget: Chinese titles for English stories (one try), then its overview (two). */
+const INVEST_RESERVE_MS = 75_000;
+const INVEST_REQUESTS = 3;
 async function mapLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promise<R>): Promise<R[]> {
   const results = new Array<R>(items.length);
   let next = 0;
@@ -68,7 +86,7 @@ async function ensureDay(store: Store, day: string): Promise<NewsItem[]> {
   return items;
 }
 
-export async function runRefresh(opts: RefreshOptions = {}): Promise<RunSummary> {
+export async function runRefresh(opts: RefreshOptions = {}): Promise<RefreshResult> {
   const release = await acquireLock();
   try {
     return await refreshLocked(opts);
@@ -77,13 +95,16 @@ export async function runRefresh(opts: RefreshOptions = {}): Promise<RunSummary>
   }
 }
 
-async function refreshLocked(opts: RefreshOptions): Promise<RunSummary> {
+async function refreshLocked(opts: RefreshOptions): Promise<RefreshResult> {
   const now = opts.now ?? new Date();
   const startedAt = new Date();
   const progress = (p: RefreshProgress) => opts.onProgress?.(p);
   const sources = [...(opts.sources ?? ENABLED_SOURCES)].sort(
     (a, b) => GROUP_PRIORITY[a.group] - GROUP_PRIORITY[b.group],
   );
+  // Market data and finance news download alongside the AI sources; fetchInvest never throws.
+  const investFetch = opts.invest === false ? null : fetchInvest(now);
+  const investReserve = investFetch ? INVEST_RESERVE_MS : 0;
 
   progress({ stage: "starting", done: 0, total: sources.length, message: "读取已有数据" });
   const windowDays = Math.max(14, SITE.maxItemAgeDays + 2);
@@ -152,7 +173,7 @@ async function refreshLocked(opts: RefreshOptions): Promise<RunSummary> {
   let client: LlmClient | null = null;
   let aiDeadline = 0;
   try {
-    ({ llm, client, deadline: aiDeadline } = await summarize(store, now, opts, progress));
+    ({ llm, client, deadline: aiDeadline } = await summarize(store, now, opts, progress, investReserve));
   } catch (err) {
     // A bug in the AI step must not cost the run its news or the deploy.
     llm = { enabled: true, requests: 0, summarized: 0, failed: 0, digest: "fallback", notice: "AI 摘要出错，本次已跳过", error: (err as Error).message };
@@ -160,18 +181,32 @@ async function refreshLocked(opts: RefreshOptions): Promise<RunSummary> {
   // The same-event check is optional, so an overloaded model leaves its time to the 今日要点.
   if (client && llm.paused !== "busy") {
     progress({ stage: "summarizing", done: 0, total: 1, message: "AI 合并跨语言重复报道" });
-    merged += await llmDedupe(store, client, now, llm, aiDeadline - DIGEST_RESERVE_MS);
+    merged += await llmDedupe(store, client, now, llm, aiDeadline - DIGEST_RESERVE_MS - investReserve);
   } else if (llm.summarized) {
     merged += clusterStore(store).newlyMerged;
   }
 
   progress({ stage: "digest", done: 0, total: 1, message: "生成今日要点" });
-  const digest = await buildDigest(store, now, llm, client, aiDeadline);
+  const digest = await buildDigest(store, now, llm, client, aiDeadline - investReserve);
   // An AI-written 今日要点 from an earlier run today beats an automatic one from a run where the model was busy,
   // as long as the stories it cites still top the ranking the page shows.
   const kept = digest ? store.digests[digest.day] : undefined;
   const keepAi = digest?.mode === "fallback" && kept?.mode === "ai" && followsRanking(kept, [...store.days.values()].flat(), now);
   if (digest && !keepAi) store.digests[digest.day] = digest;
+
+  let invest: InvestRunSummary | undefined;
+  let investError: string | undefined;
+  if (investFetch) {
+    progress({ stage: "digest", done: 0, total: 1, message: "更新投资日报" });
+    try {
+      invest = await processInvest(await investFetch, { client, deadline: aiDeadline, now, trigger: opts.trigger, log: opts.log });
+    } catch (err) {
+      // The 投资日报 must never cost AI 日报 its update.
+      investError = (err as Error).message;
+      console.error("[invest] failed:", err);
+    }
+    if (client) llm.requests = client.requests;
+  }
 
   const finishedAt = new Date();
   const summary: RunSummary = {
@@ -191,7 +226,7 @@ async function refreshLocked(opts: RefreshOptions): Promise<RunSummary> {
   store.meta.history = [historyEntry(summary), ...store.meta.history];
   await saveStore(store, now);
   progress({ stage: "done", done: 1, total: 1, message: `完成，新增 ${added} 条` });
-  return summary;
+  return { ...summary, invest, investError };
 }
 
 /** Re-groups every loaded item into stories and marks the days whose items changed. */
@@ -228,6 +263,7 @@ async function summarize(
   now: Date,
   opts: RefreshOptions,
   progress: (p: RefreshProgress) => void,
+  investReserve: number,
 ): Promise<{ llm: LlmRunResult; client: LlmClient | null; deadline: number }> {
   const { config, reason } = getLlmConfig();
   if (!config || opts.noLlm) {
@@ -242,7 +278,8 @@ async function summarize(
   const all = [...store.days.values()].flat();
   const pending = pendingSummaries(all, now);
   const outcome = await summarizeItems(client, pending, {
-    deadline: deadline - DEDUPE_RESERVE_MS - DIGEST_RESERVE_MS,
+    deadline: deadline - DEDUPE_RESERVE_MS - DIGEST_RESERVE_MS - investReserve,
+    followUps: FOLLOW_UP_REQUESTS + (investReserve ? INVEST_REQUESTS : 0),
     onBatch: (done, total) => progress({ stage: "summarizing", done, total, message: `生成 AI 摘要 ${done}/${total} 批` }),
   });
   for (const day of new Set(pending.filter((i) => i.ai || i.aiAttempts).map((i) => i.day))) store.dirtyDays.add(day);

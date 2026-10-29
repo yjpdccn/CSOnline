@@ -277,6 +277,8 @@ function latinTokens(text: string): Token[] {
 export interface FeatureOptions {
   /** Repo or model description; artifact ids like "owner/name" say little on their own. */
   description?: string;
+  /** Extra low-weight bigrams and words for another domain, e.g. 美联储/利率 in finance news. */
+  generic?: ReadonlySet<string>;
 }
 
 export function storyFeatures(title: string, opts: FeatureOptions = {}): StoryFeatures {
@@ -303,7 +305,7 @@ export function storyFeatures(title: string, opts: FeatureOptions = {}): StoryFe
     const chars = Array.from(run);
     for (let i = 0; i < chars.length - 1; i++) {
       const gram = chars[i] + chars[i + 1];
-      addTerm(terms, gram, GENERIC_BIGRAMS.has(gram) ? 0.3 : 1);
+      addTerm(terms, gram, GENERIC_BIGRAMS.has(gram) || opts.generic?.has(gram) ? 0.3 : 1);
     }
   }
 
@@ -331,7 +333,7 @@ export function storyFeatures(title: string, opts: FeatureOptions = {}): StoryFe
       return;
     }
     if (STOP.has(low) || low.length < 2) return;
-    if (GENERIC_WORDS.has(low)) {
+    if (GENERIC_WORDS.has(low) || opts.generic?.has(low)) {
       addTerm(terms, stem(low), 0.3);
       return;
     }

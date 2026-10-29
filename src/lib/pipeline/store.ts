@@ -16,7 +16,7 @@ export interface DayIndexEntry {
   count: number;
 }
 
-async function readJson<T>(filePath: string, fallback: T): Promise<T> {
+export async function readJson<T>(filePath: string, fallback: T): Promise<T> {
   try {
     return JSON.parse(await fs.readFile(filePath, "utf8")) as T;
   } catch (err) {
@@ -25,7 +25,7 @@ async function readJson<T>(filePath: string, fallback: T): Promise<T> {
   }
 }
 
-async function writeJson(filePath: string, data: unknown): Promise<void> {
+export async function writeJson(filePath: string, data: unknown): Promise<void> {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
   const tmp = `${filePath}.${process.pid}.tmp`;
   await fs.writeFile(tmp, JSON.stringify(data, null, 2) + "\n", "utf8");

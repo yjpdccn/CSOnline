@@ -1,37 +1,66 @@
 /**
- * Fetch, filter, summarize and persist news into data/.
- *   npm run refresh                     # all enabled sources
+ * Fetch, filter, summarize and persist news into data/, then update the 投资日报 in data/invest/.
+ *   npm run refresh                     # all enabled sources and the 投资日报
  *   npm run refresh -- --no-llm         # skip AI summaries
- *   npm run refresh -- --only=openai,qwen
+ *   npm run refresh -- --only=openai,qwen   # only these AI sources (skips the 投资日报)
+ *   npm run refresh -- --skip-invest    # AI 日报 only
+ *   npm run refresh -- --invest-only    # 投资日报 only
  */
 import "./load-env";
 import { ENABLED_SOURCES, SOURCES } from "@/config/sources";
+import { runInvestRefresh } from "@/lib/invest/refresh";
+import type { InvestRunSummary } from "@/lib/invest/types";
 import { runRefresh } from "@/lib/pipeline/refresh";
 import { getLlmConfig } from "@/lib/pipeline/llm";
 
 const args = process.argv.slice(2);
 const only = args.find((a) => a.startsWith("--only="))?.slice(7).split(",").filter(Boolean);
 const noLlm = args.includes("--no-llm");
+const investOnly = args.includes("--invest-only");
+const skipInvest = args.includes("--skip-invest") || Boolean(only);
+
+function printInvest(invest: InvestRunSummary) {
+  console.log("");
+  console.log("投资日报：");
+  for (const s of invest.sources) {
+    const status = s.ok ? (s.error ? "!" : "✓") : "✗";
+    const count = s.total ? `${s.count}/${s.total}` : `${s.count} 条`;
+    console.log(`${status} ${s.name.padEnd(16)} ${String(s.ms).padStart(6)}ms  ${s.ok ? count : ""}${s.error ? `  ${s.error}` : ""}`);
+  }
+  const ai = invest.ai;
+  console.log(
+    `新闻：抓取 ${invest.news.fetched} 条，相关 ${invest.news.relevant} 条，新增 ${invest.news.added} 条；概览：${ai.overview === "ai" ? "AI 撰写" : "自动生成"}` +
+      (ai.enabled ? `（AI 请求 ${ai.requests} 次，英文标题 ${ai.titles} 条${ai.error ? `；${ai.error}` : ""}）` : ""),
+  );
+}
 
 async function main() {
-  const sources = only ? SOURCES.filter((s) => only.includes(s.id)) : ENABLED_SOURCES;
-  if (only && sources.length === 0) {
-    console.error(`未找到来源：${only.join(", ")}`);
-    process.exit(1);
-  }
   const { config, reason } = getLlmConfig();
   console.log(
     noLlm || !config
       ? `AI 摘要：关闭（${noLlm ? "--no-llm" : reason}），使用原文标题与摘要`
       : `AI 摘要：${config.provider} · ${config.model}（每批 ${config.batchSize} 条，每次最多 ${config.maxItems} 条；AI 部分最长 ${Math.round(config.budgetMs / 60_000)} 分钟、${config.maxRequests} 次请求）`,
   );
+  const log = (message: string) => console.log(`  ${message}`);
+
+  if (investOnly) {
+    printInvest(await runInvestRefresh({ trigger: process.env.REFRESH_TRIGGER || "cli", noLlm, log }));
+    return;
+  }
+
+  const sources = only ? SOURCES.filter((s) => only.includes(s.id)) : ENABLED_SOURCES;
+  if (only && sources.length === 0) {
+    console.error(`未找到来源：${only.join(", ")}`);
+    process.exit(1);
+  }
 
   let lastStage = "";
   const summary = await runRefresh({
     trigger: process.env.REFRESH_TRIGGER || "cli",
     sources,
     noLlm,
-    log: (message) => console.log(`  ${message}`),
+    invest: !skipInvest,
+    log,
     onProgress: (p) => {
       if (p.stage !== lastStage || p.stage === "summarizing") console.log(`· ${p.message}`);
       lastStage = p.stage;
@@ -58,6 +87,8 @@ async function main() {
   } else if (llm.error) {
     console.log(`AI 摘要提示：${llm.error}`);
   }
+  if (summary.invest) printInvest(summary.invest);
+  if (summary.investError) console.log(`投资日报更新失败（不影响 AI 日报）：${summary.investError}`);
   if (!summary.ok) {
     console.error(summary.error);
     process.exit(1);

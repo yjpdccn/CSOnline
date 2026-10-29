@@ -2,6 +2,7 @@
 
 import { Activity } from "lucide-react";
 import { useState } from "react";
+import { SiteNav } from "@/components/site-nav";
 import { SITE } from "@/config/site";
 import { formatDateTime, formatRelative } from "@/lib/time";
 import { cn } from "@/lib/utils";
@@ -49,13 +50,13 @@ export function SiteHeader({ lastRun }: { lastRun: RunInfo | null }) {
   return (
     <header className="sticky top-0 z-30 h-14 border-b bg-background/85 backdrop-blur-md supports-[backdrop-filter]:bg-background/70">
       <div className="mx-auto flex h-full max-w-6xl items-center gap-3 px-4 sm:px-6">
-        <a href="#" className="flex min-w-0 items-center gap-2.5" aria-label={SITE.name}>
-          <Logo />
-          <div className="min-w-0 leading-tight">
-            <div className="text-[15px] font-semibold">{SITE.name}</div>
-            <div className="hidden truncate text-xs text-muted-foreground md:block">{SITE.tagline}</div>
-          </div>
-        </a>
+        <div className="flex min-w-0 items-center gap-2.5">
+          <a href="#" aria-label={`${SITE.name}，回到顶部`}>
+            <Logo />
+          </a>
+          <SiteNav current="ai" />
+          <div className="hidden min-w-0 truncate text-xs text-muted-foreground lg:block">{SITE.tagline}</div>
+        </div>
 
         <div className="ml-auto flex min-w-0 items-center gap-1.5 sm:gap-2">
           <StatusDialog run={lastRun}>
