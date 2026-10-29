@@ -2,6 +2,26 @@
   "day": "2026-10-24",
   "items": [
     {
+      "id": "36mjbhpoxt",
+      "key": "gh:routerhubsi/glm-5.3-abliterated",
+      "title": "routerhubSI/glm-5.3-abliterated",
+      "url": "https://github.com/routerhubSI/glm-5.3-abliterated",
+      "excerpt": "GLM 5.3 abliterated or uncensored API access with RouterHub. Browse 35 jailbreak prompt links, compare GLM models, and find SDK examples, coding-tool setup, pricing, and evaluation guides.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-24T13:51:36.000Z",
+      "firstSeenAt": "2026-10-29T08:14:40.293Z",
+      "day": "2026-10-24",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.1,
+      "metrics": {
+        "stars": 396
+      }
+    },
+    {
       "id": "1cdrbzq798u",
       "key": "gh:daveebbelaar/bama",
       "title": "daveebbelaar/bama",
@@ -68,7 +88,30 @@
       ],
       "score": 25.6,
       "metrics": {
-        "stars": 2300
+        "stars": 2302
+      }
+    },
+    {
+      "id": "r1en28qi2g",
+      "key": "gh:zgx949/ai-pojia",
+      "title": "zgx949/ai-pojia",
+      "url": "https://github.com/zgx949/ai-pojia",
+      "excerpt": "破甲CodeX。面向小白的实用 Skills 与插件，可直接破甲CodeX发挥出模型最大的潜能，附完整教程和示例。",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-24T03:17:43.000Z",
+      "firstSeenAt": "2026-10-29T08:14:40.293Z",
+      "day": "2026-10-24",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 16.4,
+      "metrics": {
+        "stars": 427
       }
     },
     {
@@ -127,9 +170,9 @@
       "day": "2026-10-24",
       "category": "model",
       "categoryLocked": true,
-      "score": 27.9,
+      "score": 28,
       "metrics": {
-        "likes": 424
+        "likes": 426
       },
       "skipLlm": true
     },

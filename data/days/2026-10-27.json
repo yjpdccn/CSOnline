@@ -15,7 +15,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "agent",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "2fo15n9e2st",
@@ -32,10 +33,17 @@
       "category": "industry",
       "score": 35.6,
       "metrics": {
-        "points": 579,
+        "points": 580,
         "comments": 294
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50260814"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50260814",
+      "ai": {
+        "title": "Anthropic trained Claude on illegally o…",
+        "summary": "Anthropic 被指使用非法获取的斯坦福教授书籍训练 Claude。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:15:39.297Z"
+      }
     },
     {
       "id": "1o9oxnwumoz",
@@ -51,7 +59,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "1vjtjvvjupu",
@@ -72,7 +81,8 @@
         "AI 编程",
         "语音"
       ],
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "1sownfzvqrw",
@@ -128,9 +138,9 @@
       "day": "2026-10-27",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 25.6,
+      "score": 25.7,
       "metrics": {
-        "stars": 2321
+        "stars": 2340
       }
     },
     {
@@ -151,7 +161,14 @@
         "points": 503,
         "comments": 237
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50257326"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50257326",
+      "ai": {
+        "title": "Wikipedia's Cleanup of AI-Generated Con…",
+        "summary": "维基百科清理 AI 生成内容。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:15:39.297Z"
+      }
     },
     {
       "id": "1e29nsmxe3w",
@@ -171,7 +188,14 @@
         "points": 670,
         "comments": 655
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50257325"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50257325",
+      "ai": {
+        "title": "AI promised less work. I've never worke…",
+        "summary": "AI 承诺减少工作量，但实际工作并未减少。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:15:39.297Z"
+      }
     },
     {
       "id": "ni0biecohc",
@@ -424,6 +448,26 @@
       "score": 28
     },
     {
+      "id": "w0qxxk2ubn",
+      "key": "gh:patch-gg/anymove",
+      "title": "patch-gg/anymove",
+      "url": "https://github.com/patch-gg/anymove",
+      "excerpt": "Motion capture for any creature from one AI video: two cameras in one frame, a DINOv2 joint reader, the rig fitted in both views, a GLB out.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-27T08:00:42.000Z",
+      "firstSeenAt": "2026-10-29T08:14:40.293Z",
+      "day": "2026-10-27",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16,
+      "metrics": {
+        "stars": 391
+      }
+    },
+    {
       "id": "12t0m8ohwvv",
       "key": "url:geekpark.net/news/372939",
       "title": "左手开源模型，右手创作 Agent，Hi3D 的 AI 3D 下半场",
@@ -511,7 +555,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "1xfwihulwcv",
@@ -525,13 +570,20 @@
       "publishedAt": "2026-10-27T06:25:37.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
-      "category": "industry",
+      "category": "paper",
       "score": 36,
       "metrics": {
-        "points": 479,
+        "points": 480,
         "comments": 353
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50255298"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50255298",
+      "ai": {
+        "title": "The Mythical Man-Month in the Age of AI",
+        "summary": "探讨 AI 时代下的软件工程效率问题。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:15:39.297Z"
+      }
     },
     {
       "id": "1e2gdwalwad",
@@ -618,7 +670,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "15mv1zmw1ol",
@@ -705,6 +758,13 @@
       "metrics": {
         "upvotes": 204,
         "comments": 3
+      },
+      "ai": {
+        "title": "DynaFlow: Learning Free-Form Multi-Agen…",
+        "summary": "DynaFlow 允许主代理合成工作流以协调子代理。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:16:57.279Z"
       }
     },
     {
@@ -735,13 +795,20 @@
       "publishedAt": "2026-10-26T22:41:48.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
-      "category": "model",
+      "category": "paper",
       "score": 32,
       "metrics": {
         "points": 181,
         "comments": 79
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50252159"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50252159",
+      "ai": {
+        "title": "Cross-request KV cache exposure in the…",
+        "summary": "GLM-5.3 Workers AI 模型存在跨请求 KV 缓存泄露漏洞。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:16:57.279Z"
+      }
     },
     {
       "id": "1ch6141ivhh",
@@ -756,11 +823,18 @@
       "publishedAt": "2026-10-26T22:00:00.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
-      "category": "model",
+      "category": "agent",
       "keywords": [
         "AI 编程"
       ],
-      "score": 36
+      "score": 36,
+      "ai": {
+        "title": "Greptile takes bug detection beyond cod…",
+        "summary": "Greptile 利用 GPT-6 Astra 等模型增强代码审查。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:15:39.297Z"
+      }
     },
     {
       "id": "26y1aozdkfm",
@@ -794,7 +868,7 @@
       "publishedAt": "2026-10-26T16:35:44.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
-      "category": "model",
+      "category": "industry",
       "keywords": [
         "开源模型"
       ],
@@ -803,7 +877,14 @@
         "points": 329,
         "comments": 130
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50246658"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50246658",
+      "ai": {
+        "title": "Concerning behavior from a popular open…",
+        "summary": "热门开源模型出现令人担忧的行为。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:15:39.297Z"
+      }
     },
     {
       "id": "1cm0zi7mpd5",
@@ -864,7 +945,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "7ybu29pzpx",
@@ -881,7 +963,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "1v5bktp0lh5",

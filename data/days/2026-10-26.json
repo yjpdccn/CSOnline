@@ -13,16 +13,23 @@
       "publishedAt": "2026-10-26T15:11:59.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-26",
-      "category": "model",
+      "category": "paper",
       "keywords": [
         "推理模型"
       ],
       "score": 39.4,
       "metrics": {
-        "points": 846,
+        "points": 847,
         "comments": 115
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50245138"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50245138",
+      "ai": {
+        "title": "Sebastian Raschka's from-scratch video…",
+        "summary": "Sebastian Raschka 推出从零构建推理模型的视频课程。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:15:39.297Z"
+      }
     },
     {
       "id": "2bcupea9mh2",
@@ -53,11 +60,18 @@
       "publishedAt": "2026-10-26T13:45:00.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-26",
-      "category": "model",
+      "category": "agent",
       "keywords": [
         "Agent"
       ],
-      "score": 36
+      "score": 36,
+      "ai": {
+        "title": "GPT-6.1 Sol helps CodeRabbit strengthen…",
+        "summary": "CodeRabbit 使用 GPT-6.1 Sol 加强代码库安全审查。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:15:39.297Z"
+      }
     },
     {
       "id": "7jlc15ysbc",
@@ -71,13 +85,20 @@
       "publishedAt": "2026-10-26T13:04:50.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-26",
-      "category": "industry",
+      "category": "model",
       "score": 36,
       "metrics": {
         "points": 1701,
-        "comments": 1673
+        "comments": 1674
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50242939"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50242939",
+      "ai": {
+        "title": "Anthropic S-1",
+        "summary": "Anthropic 发布 S-1 模型。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:15:39.297Z"
+      }
     },
     {
       "id": "1o713qgz9eg",
@@ -155,6 +176,29 @@
       "score": 30
     },
     {
+      "id": "7sibbiuyws",
+      "key": "gh:konlu/story-studio",
+      "title": "konlu/story-studio",
+      "url": "https://github.com/konlu/story-studio",
+      "excerpt": "从选题到剪映草稿的一站式 AI 短视频内容创作 Agent Skill",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-26T09:20:06.000Z",
+      "firstSeenAt": "2026-10-29T08:14:40.293Z",
+      "day": "2026-10-26",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 16.6,
+      "metrics": {
+        "stars": 444
+      }
+    },
+    {
       "id": "2135q38astn",
       "key": "url:openai.com/index/fanatics-streamline-fan-experience",
       "title": "How Fanatics and OpenAI streamline the fan experience",
@@ -206,7 +250,7 @@
       "categoryLocked": true,
       "score": 20.5,
       "metrics": {
-        "stars": 989
+        "stars": 992
       }
     },
     {
@@ -272,7 +316,7 @@
       "categoryLocked": true,
       "score": 18.7,
       "metrics": {
-        "stars": 699
+        "stars": 702
       }
     },
     {

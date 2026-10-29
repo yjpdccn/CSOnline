@@ -121,11 +121,18 @@
       "publishedAt": "2026-10-28T15:00:46.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "NVIDIA RTX Spark 笔记本电脑发布新机型",
+        "summary": "搭载 Blackwell RTX GPU 和 Grace CPU，面向开发者与创作者。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:18:53.541Z"
+      }
     },
     {
       "id": "1cvcxrcsps5",
@@ -158,10 +165,10 @@
       "publishedAt": "2026-10-28T14:58:17.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "multimodal",
-      "score": 49.5,
+      "category": "model",
+      "score": 49.6,
       "metrics": {
-        "points": 119,
+        "points": 120,
         "comments": 20
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50275128",
@@ -171,7 +178,14 @@
           "sourceName": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50275128"
         }
-      ]
+      ],
+      "ai": {
+        "title": "NVIDIA Nemotron 3.5 Transcribe and Gran…",
+        "summary": "Hugging Face 介绍 NVIDIA Nemotron 3.5 Transcribe 和 Granary v2。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:15:39.297Z"
+      }
     },
     {
       "id": "1hzqwjk3rub",
@@ -317,9 +331,16 @@
       "score": 36,
       "metrics": {
         "points": 456,
-        "comments": 500
+        "comments": 501
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50273396"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50273396",
+      "ai": {
+        "title": "Kentucky man becomes the first humanist…",
+        "summary": "肯塔基男子成为首位获得宗教豁免权的 AI 用户。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:15:39.297Z"
+      }
     },
     {
       "id": "2ddjxs0zqmj",
@@ -352,12 +373,19 @@
       "publishedAt": "2026-10-28T13:15:00.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent",
         "AI 编程"
       ],
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "OpenAI 与 ServiceNow 扩展企业工作流合作",
+        "summary": "将 OpenAI 模型和 Agent 整合到 ServiceNow 及 ChatGPT 中。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:18:53.541Z"
+      }
     },
     {
       "id": "l027zly5ba",
@@ -756,8 +784,15 @@
       "publishedAt": "2026-10-28T10:00:00.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "industry",
-      "score": 30
+      "category": "paper",
+      "score": 30,
+      "ai": {
+        "title": "AI 如何进入组织架构",
+        "summary": "探讨 AI 在组织层级中的潜在角色。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:18:53.541Z"
+      }
     },
     {
       "id": "1t62hr5oqx0",
@@ -864,12 +899,19 @@
       "publishedAt": "2026-10-28T09:30:00.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent",
         "AI 编程"
       ],
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "Legora 构建 AI 驱动的法律操作系统",
+        "summary": "利用 OpenAI 模型加速法律工作流并分析合同。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:18:53.541Z"
+      }
     },
     {
       "id": "r3oh2nyrki",
@@ -1304,7 +1346,14 @@
       "keywords": [
         "Agent"
       ],
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "Meta 在新加坡推出 Muse 个人 AI Agent",
+        "summary": "面向所有人的首个个人 AI Agent。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:18:53.541Z"
+      }
     },
     {
       "id": "1pt6eq5ujiq",
@@ -1328,6 +1377,13 @@
       "metrics": {
         "upvotes": 376,
         "comments": 4
+      },
+      "ai": {
+        "title": "Multiscale Policy Optimization for Long…",
+        "summary": "多尺度策略优化通过调整回合尺度对齐信用分配与策略更新。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:16:57.279Z"
       }
     },
     {
@@ -1420,8 +1476,15 @@
       ],
       "score": 30.2,
       "metrics": {
-        "upvotes": 539,
+        "upvotes": 540,
         "comments": 3
+      },
+      "ai": {
+        "title": "The Trinity: Capability-Driven Recursiv…",
+        "summary": "The Trinity 框架通过能力树和模拟训练世界提升多模态 Agent 性能。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:16:57.279Z"
       }
     },
     {
@@ -1532,8 +1595,15 @@
       "categoryLocked": true,
       "score": 30.1,
       "metrics": {
-        "upvotes": 366,
+        "upvotes": 367,
         "comments": 2
+      },
+      "ai": {
+        "title": "ChronoReplay: One Answer Interface Is N…",
+        "summary": "ChronoReplay 通过时间顺序回放改善空间视觉语言模型的跨任务迁移。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:16:57.279Z"
       }
     },
     {
@@ -1657,13 +1727,20 @@
       "publishedAt": "2026-10-27T20:50:42.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "industry",
+      "category": "model",
       "score": 33.3,
       "metrics": {
         "points": 323,
         "comments": 337
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50265609"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50265609",
+      "ai": {
+        "title": "Early progress on accelerating drug dev…",
+        "summary": "利用 Claude 加速药物研发取得早期进展。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:16:57.279Z"
+      }
     },
     {
       "id": "248rfwn8c1x",
@@ -1693,13 +1770,20 @@
       "publishedAt": "2026-10-27T19:55:06.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "agent",
+      "category": "opensource",
       "score": 34.6,
       "metrics": {
         "points": 526,
         "comments": 195
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50264853"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50264853",
+      "ai": {
+        "title": "Survival LLM: 本地运行的 AI 助手与应急库",
+        "summary": "一款可在本地运行的 AI 助手与应急库，保障离线可用性。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:16:57.279Z"
+      }
     },
     {
       "id": "qbwrgfyoic",
@@ -1770,7 +1854,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "paper",
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "LLM 持续学习新框架 The sleep framework",
+        "summary": "为 LLM 提供在持续学习中保留知识的新方法。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:18:53.541Z"
+      }
     },
     {
       "id": "2fmk6c7rfle",
@@ -1803,8 +1894,15 @@
       "publishedAt": "2026-10-27T17:16:52.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "multimodal",
-      "score": 30
+      "category": "opensource",
+      "score": 30,
+      "ai": {
+        "title": "使用 LFM3 构建专用多模态模型",
+        "summary": "介绍如何利用 LFM3 构建特定领域的多模态模型。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:18:53.541Z"
+      }
     },
     {
       "id": "jw78igfk9z",
@@ -1840,7 +1938,14 @@
         "points": 395,
         "comments": 312
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50261819"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50261819",
+      "ai": {
+        "title": "Police are using AI to pull over driver…",
+        "summary": "警方利用 AI 识别可疑驾驶行为进行拦截，引发隐私担忧。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:16:57.279Z"
+      }
     },
     {
       "id": "19wwepkquzj",
@@ -1860,7 +1965,14 @@
         "points": 374,
         "comments": 284
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50261589"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50261589",
+      "ai": {
+        "title": "Amazon Is Gutting Its AI Division After…",
+        "summary": "亚马逊 AI 部门因持续失败被大幅裁员重组。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:16:57.279Z"
+      }
     },
     {
       "id": "2e07453oysb",
@@ -1875,7 +1987,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "fs5cvusow2",
@@ -1891,7 +2004,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "multimodal",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "49jpydm9uc",
@@ -1908,7 +2022,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "1oik4ypl7gi",
@@ -1929,7 +2044,8 @@
         "Agent",
         "A2UI"
       ],
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "2aywti1jtlr",
@@ -1949,7 +2065,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     }
   ]
 }

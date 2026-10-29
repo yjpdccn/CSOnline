@@ -2,6 +2,44 @@
   "day": "2026-10-29",
   "items": [
     {
+      "id": "11vcz0eu6ck",
+      "key": "url:jiqizhixin.com/articles/2026-10-29-15",
+      "title": "智能体能给化学反应「算笔账」吗？CMU、圣母大学等提出化学采购成本推理基准 ChemCost，入选 NeurIPS 2026",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-29-15",
+      "excerpt": "让目前最强的大模型智能体去估算一个化学反应的原料采购成本，误差控制在 25% 以内an的成功率只有一半左右；一旦输入换成真实文献里常见的自然语言段落和 OCR 扫描文本，这个数字还会进一步大幅下滑。近日，来自卡内基梅隆大学（CMU）、圣母大学、北卡罗来纳大学教堂山分校和匹兹堡大学的研究团队提出...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T08:04:00.000Z",
+      "firstSeenAt": "2026-10-29T08:14:40.293Z",
+      "day": "2026-10-29",
+      "category": "paper",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "277ftcqas2m",
+      "key": "url:36kr.com/p/4046468608201858",
+      "title": "宇树股价反弹，具身故事翻篇",
+      "url": "https://36kr.com/p/4046468608201858",
+      "excerpt": "收入在涨，赚钱能力在降。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T07:58:36.915Z",
+      "firstSeenAt": "2026-10-29T08:14:40.293Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
       "id": "29w424kan1r",
       "key": "url:36kr.com/p/4046438393435009",
       "title": "想让 AI 好好干活，光靠骂能行吗？",
@@ -162,6 +200,22 @@
       "sourceGroup": "media-zh",
       "publishedAt": "2026-10-29T06:06:06.418Z",
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1dx3664jboo",
+      "key": "url:leiphone.com/category/industrynews/fk4nWrM8On84S6FB.html",
+      "title": "20人9个月，《不问凡尘》用AI搓出26万玩家买单的超写实互动作品",
+      "url": "https://www.leiphone.com/category/industrynews/fk4nWrM8On84S6FB.html",
+      "excerpt": "上线仅三周，《不问凡尘》就在 Steam 拿到87%的好评率，预估近千万流水，超26万玩家走进这个AI生成的修仙世界。支撑这款超写实互动作品研发与上线的，是一支约20人的团队。 AI在这里不是简单的提效工具，而是贯穿游戏资产生产、研发协作和交互实现的核心生产力。依托火山引擎的模型和云服务，《不问凡尘》用9个月完成开发上线，整体制作成本约是传统制作的1/3。 它的成绩至少验证了两件事：一是AI正在把游戏制作从“大厂专属”变成“小团队可及”，二是越来越多玩家愿意为AI游戏付费。 一座由AI“长”出来的修仙世界 《不问凡尘》是一款“真人”超写实互动作品：玩家…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T06:01:00.000Z",
+      "firstSeenAt": "2026-10-29T08:14:40.293Z",
       "day": "2026-10-29",
       "category": "industry",
       "score": 18
@@ -445,12 +499,19 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 29.9,
+      "score": 30.3,
       "metrics": {
-        "points": 303,
-        "comments": 92
+        "points": 313,
+        "comments": 98
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50284255"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50284255",
+      "ai": {
+        "title": "Claude Code regularly sends each backgr…",
+        "summary": "Claude Code 会将后台代理的对话记录发送给模型。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:16:57.279Z"
+      }
     },
     {
       "id": "t91de2xhqh",
@@ -523,8 +584,15 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 307725,
+        "stars": 307738,
         "starsToday": 1095
+      },
+      "ai": {
+        "title": "obra/superpowers",
+        "summary": "一个基于代理技能框架的软件开发方法论。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:16:57.279Z"
       }
     },
     {
@@ -547,7 +615,7 @@
       ],
       "score": 16.7,
       "metrics": {
-        "stars": 5580,
+        "stars": 5584,
         "starsToday": 117
       }
     },
@@ -571,8 +639,15 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 41159,
+        "stars": 41186,
         "starsToday": 2110
+      },
+      "ai": {
+        "title": "Claude Code 等工具的防 AI 糟粕设计技能",
+        "summary": "提供设计技能以避免 AI 生成低质量代码。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:18:53.541Z"
       }
     },
     {
@@ -596,8 +671,15 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 93615,
+        "stars": 93666,
         "starsToday": 1472
+      },
+      "ai": {
+        "title": "为编码 Agent 打造的设计词汇库",
+        "summary": "通过批评和审计功能，在代码发布前捕获 AI 糟粕。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:18:53.541Z"
       }
     },
     {
@@ -620,7 +702,7 @@
       ],
       "score": 28.3,
       "metrics": {
-        "stars": 8351,
+        "stars": 8357,
         "starsToday": 728
       }
     },
@@ -645,8 +727,15 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 3474,
+        "stars": 3481,
         "starsToday": 1054
+      },
+      "ai": {
+        "title": "本地优先的桌面 AI 团队工作空间",
+        "summary": "支持 Codex、Claude 和 Grok 的协作与任务管理。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:18:53.541Z"
       }
     },
     {
@@ -669,7 +758,7 @@
       ],
       "score": 15.6,
       "metrics": {
-        "stars": 3687,
+        "stars": 3694,
         "starsToday": 90
       }
     },
@@ -1300,6 +1389,13 @@
       "metrics": {
         "upvotes": 256,
         "comments": 3
+      },
+      "ai": {
+        "title": "DTCA: Denoising Token Credit Assignment…",
+        "summary": "DTCA 通过置信度提升和熵校准改进扩散语言模型的强化学习。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:16:57.279Z"
       }
     },
     {
@@ -1724,7 +1820,14 @@
           "sourceName": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50276792"
         }
-      ]
+      ],
+      "ai": {
+        "title": "Gemini 4 Carbon: Our next frontier model",
+        "summary": "Google DeepMind 发布下一代前沿模型 Gemini 4 Carbon。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:15:39.297Z"
+      }
     },
     {
       "id": "2689j9kel5z",
@@ -1914,7 +2017,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "Anthropic 扩展 AI for Science 计划",
+        "summary": "与全球 20 个科学基金会和研究机构建立合作伙伴关系。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:18:53.541Z"
+      }
     },
     {
       "id": "4ibzy9ckyc",
@@ -1931,7 +2041,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "LiteRT 在 Google Play 服务中提供 GPU 推理",
+        "summary": "性能提升 1.4 倍，并减少约 8 MB 的应用体积。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T08:18:53.541Z"
+      }
     }
   ]
 }
