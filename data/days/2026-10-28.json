@@ -34,7 +34,8 @@
       "keywords": [
         "语音"
       ],
-      "score": 15
+      "score": 15,
+      "dupOf": "uoxdxfwzyy"
     },
     {
       "id": "xcparzwino",
@@ -52,10 +53,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 28.7,
+      "score": 28.9,
       "metrics": {
-        "points": 226,
-        "comments": 147
+        "points": 229,
+        "comments": 148
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50275626"
     },
@@ -90,7 +91,8 @@
       "day": "2026-10-28",
       "category": "multimodal",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhqy12/nvidianvidianemotron35transcribe30ba4b_hugging/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhqy12/nvidianvidianemotron35transcribe30ba4b_hugging/",
+      "dupOf": "uoxdxfwzyy"
     },
     {
       "id": "1sjjc57hfz6",
@@ -166,9 +168,9 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "model",
-      "score": 49.6,
+      "score": 71.6,
       "metrics": {
-        "points": 120,
+        "points": 121,
         "comments": 20
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50275128",
@@ -185,6 +187,38 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:15:39.297Z"
+      },
+      "related": [
+        {
+          "id": "6wiriwkwz3",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhqy12/nvidianvidianemotron35transcribe30ba4b_hugging/",
+          "title": "nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B · Hugging Face",
+          "publishedAt": "2026-10-28T15:19:10.000Z"
+        },
+        {
+          "id": "qqfhrnxy63",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/",
+          "title": "Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition",
+          "publishedAt": "2026-10-28T15:49:39.000Z"
+        }
+      ],
+      "story": {
+        "reports": 4,
+        "sources": [
+          "hf-blog",
+          "hackernews",
+          "reddit-localllama",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-10-28T14:58:17.000Z",
+        "metrics": {
+          "points": 121,
+          "comments": 20
+        }
       }
     },
     {
@@ -203,7 +237,25 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "fy4s9qbxre",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/10/505934.html",
+          "title": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
+          "publishedAt": "2026-10-29T02:18:28.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "infoq-cn",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-10-28T14:53:53.000Z"
+      }
     },
     {
       "id": "1b4gq8zdaoh",
@@ -242,7 +294,25 @@
           "sourceName": "36氪 AI",
           "url": "https://36kr.com/p/4045581402526851"
         }
-      ]
+      ],
+      "related": [
+        {
+          "id": "25xdlmndgtr",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4046371565769602",
+          "title": "海淀又投出一匹AI黑马：27岁清华教授，交出首个RSI模型",
+          "publishedAt": "2026-10-29T03:46:58.735Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-10-28T14:33:00.000Z"
+      }
     },
     {
       "id": "qdjr4u31df",
@@ -330,8 +400,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 456,
-        "comments": 501
+        "points": 458,
+        "comments": 503
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50273396",
       "ai": {
@@ -359,6 +429,23 @@
         "Agent"
       ],
       "score": 18
+    },
+    {
+      "id": "16imyj3lo3f",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xhny7x/i_took_embeddinggemma2_577m_from_rank_26_to_1_on",
+      "title": "I took EmbeddingGemma-2 (577M) from Rank #26 to #1 on the MTEB Audio leaderboard (MAEB), beating 9B models by adding a 2.4 MB PCA head with zero training",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhny7x/i_took_embeddinggemma2_577m_from_rank_26_to_1_on/",
+      "excerpt": "Model & weights: BrunoHays/embeddinggemma-2-nullspace-audio MAEB (Massive Audio Embedding Benchmark) is the main MTEB leaderboard benchmark for audio and text-to-audio embeddings, currently dominated by 8B-9B multimodal models. I took Google's edge-sized google/embeddinggemma-2…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-28T13:23:06.000Z",
+      "firstSeenAt": "2026-10-29T08:48:46.992Z",
+      "day": "2026-10-28",
+      "category": "multimodal",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhny7x/i_took_embeddinggemma2_577m_from_rank_26_to_1_on/"
     },
     {
       "id": "io9bjph6zl",
@@ -449,7 +536,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "dupOf": "tg1d8gqjkb"
     },
     {
       "id": "6w9pnf0u7",
@@ -598,7 +686,8 @@
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 22
+      "score": 22,
+      "dupOf": "10srw7fch1n"
     },
     {
       "id": "24funokqi2v",
@@ -648,7 +737,24 @@
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "related": [
+        {
+          "id": "28hg2j2s4go",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/10/506194.html",
+          "title": "【图片中转测试，未发布】工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
+          "publishedAt": "2026-10-28T11:09:10.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-10-28T10:32:39.000Z"
+      }
     },
     {
       "id": "lq8fdhaqoe",
@@ -866,7 +972,24 @@
       "day": "2026-10-28",
       "category": "model",
       "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhjn9d/gemma_5_models_soon/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhjn9d/gemma_5_models_soon/",
+      "related": [
+        {
+          "id": "8uqhtox1he",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhtg61/list_of_suggestions_for_gemma_5/",
+          "title": "List of suggestions for Gemma 5.",
+          "publishedAt": "2026-10-28T16:48:46.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-10-28T09:45:18.000Z"
+      }
     },
     {
       "id": "10pvcngut9a",
@@ -1016,7 +1139,25 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "wf6fczsd5b",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4045441160303750",
+          "title": "估值逼近200亿美元，资本看中了Physical Intelligence什么？",
+          "publishedAt": "2026-10-28T12:11:06.308Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "qbitai",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-10-28T08:55:26.000Z"
+      }
     },
     {
       "id": "iemognm4h3",
@@ -1279,7 +1420,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "multimodal",
-      "score": 22
+      "score": 22,
+      "dupOf": "fs5cvusow2"
     },
     {
       "id": "1z686qlc3lw",
@@ -1426,9 +1568,9 @@
         "Agent",
         "视频生成"
       ],
-      "score": 29.7,
+      "score": 29.8,
       "metrics": {
-        "upvotes": 173,
+        "upvotes": 174,
         "comments": 2
       }
     },
@@ -1595,7 +1737,7 @@
       "categoryLocked": true,
       "score": 30.1,
       "metrics": {
-        "upvotes": 367,
+        "upvotes": 373,
         "comments": 2
       },
       "ai": {
@@ -1621,9 +1763,9 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.7,
+      "score": 22.8,
       "metrics": {
-        "upvotes": 66,
+        "upvotes": 67,
         "comments": 2
       }
     },
@@ -1728,7 +1870,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "model",
-      "score": 33.3,
+      "score": 39.3,
       "metrics": {
         "points": 323,
         "comments": 337
@@ -1771,7 +1913,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "opensource",
-      "score": 34.6,
+      "score": 51,
       "metrics": {
         "points": 526,
         "comments": 195
@@ -1783,6 +1925,29 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:16:57.279Z"
+      },
+      "related": [
+        {
+          "id": "2dxumm9cmi4",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/anonnerdfrenzy/survival-llm",
+          "title": "anonnerdfrenzy/survival-llm",
+          "publishedAt": "2026-10-24T19:12:41.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "hackernews",
+          "github-new"
+        ],
+        "firstPublishedAt": "2026-10-24T19:12:41.000Z",
+        "metrics": {
+          "points": 526,
+          "comments": 195,
+          "stars": 659
+        }
       }
     },
     {
@@ -1880,7 +2045,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "dupOf": "fs5cvusow2"
     },
     {
       "id": "125enwtuvbn",
@@ -1895,13 +2061,34 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "opensource",
-      "score": 30,
+      "score": 50,
       "ai": {
         "title": "使用 LFM3 构建专用多模态模型",
         "summary": "介绍如何利用 LFM3 构建特定领域的多模态模型。",
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:18:53.541Z"
+      },
+      "related": [
+        {
+          "id": "1irm70gvhf1",
+          "sourceId": "hf-models",
+          "sourceName": "HF 热门模型",
+          "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
+          "title": "LiquidAI/LFM3-1.7B",
+          "publishedAt": "2026-10-23T21:35:42.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "hf-blog",
+          "hf-models"
+        ],
+        "firstPublishedAt": "2026-10-23T21:35:42.000Z",
+        "metrics": {
+          "likes": 426
+        }
       }
     },
     {
@@ -1962,7 +2149,7 @@
       "category": "industry",
       "score": 34,
       "metrics": {
-        "points": 374,
+        "points": 375,
         "comments": 284
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50261589",
@@ -2004,8 +2191,35 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "multimodal",
-      "score": 30,
-      "aiAttempts": 1
+      "score": 46,
+      "aiAttempts": 1,
+      "related": [
+        {
+          "id": "2fmk6c7rfle",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/google-deepminds-genie-4-puts-a-modern-spin-on-agent-designs-that-predate-llms/",
+          "title": "Google Deepmind's Genie 4 puts a modern spin on agent designs that predate LLMs",
+          "publishedAt": "2026-10-27T17:25:09.000Z"
+        },
+        {
+          "id": "gltgmq3cnk",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-10-28-2",
+          "title": "游戏引擎已死？谷歌Genie 4刚刚发布，实时操控整个世界",
+          "publishedAt": "2026-10-28T02:34:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "deepmind",
+          "the-decoder",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-10-27T16:01:38.000Z"
+      }
     },
     {
       "id": "49jpydm9uc",

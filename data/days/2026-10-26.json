@@ -17,9 +17,9 @@
       "keywords": [
         "推理模型"
       ],
-      "score": 39.4,
+      "score": 33.4,
       "metrics": {
-        "points": 847,
+        "points": 848,
         "comments": 115
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50245138",
@@ -64,7 +64,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 36,
+      "score": 30,
       "ai": {
         "title": "GPT-6.1 Sol helps CodeRabbit strengthen…",
         "summary": "CodeRabbit 使用 GPT-6.1 Sol 加强代码库安全审查。",
@@ -86,7 +86,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-26",
       "category": "model",
-      "score": 36,
+      "score": 42,
       "metrics": {
         "points": 1701,
         "comments": 1674
@@ -98,7 +98,8 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:15:39.297Z"
-      }
+      },
+      "dupOf": "7ybu29pzpx"
     },
     {
       "id": "1o713qgz9eg",
@@ -157,7 +158,25 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-26",
       "category": "model",
-      "score": 28
+      "score": 36,
+      "related": [
+        {
+          "id": "fr9s935ni1",
+          "sourceId": "simonw",
+          "sourceName": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+          "title": "Introducing Kimi K3.1 Pro",
+          "publishedAt": "2026-10-23T19:40:54.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "geekpark",
+          "simonw"
+        ],
+        "firstPublishedAt": "2026-10-23T19:40:54.000Z"
+      }
     },
     {
       "id": "18l3nu77x39",
@@ -248,9 +267,9 @@
       "day": "2026-10-26",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 20.5,
+      "score": 20.6,
       "metrics": {
-        "stars": 992
+        "stars": 996
       }
     },
     {
@@ -275,7 +294,7 @@
       ],
       "score": 22.4,
       "metrics": {
-        "stars": 1365
+        "stars": 1380
       }
     },
     {
@@ -293,11 +312,12 @@
       "day": "2026-10-26",
       "category": "model",
       "categoryLocked": true,
-      "score": 26.8,
+      "score": 26.9,
       "metrics": {
-        "likes": 350
+        "likes": 351
       },
-      "skipLlm": true
+      "skipLlm": true,
+      "dupOf": "1e2gdwalwad"
     },
     {
       "id": "168tcvhi9p7",
@@ -316,7 +336,7 @@
       "categoryLocked": true,
       "score": 18.7,
       "metrics": {
-        "stars": 702
+        "stars": 704
       }
     },
     {
@@ -334,7 +354,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-26",
       "category": "model",
-      "score": 74,
+      "score": 90,
       "metrics": {
         "points": 633,
         "comments": 426
@@ -346,7 +366,39 @@
           "sourceName": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50248124"
         }
-      ]
+      ],
+      "related": [
+        {
+          "id": "298jbv064lv",
+          "sourceId": "simonw",
+          "sourceName": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Oct/26/gpt-61-terra/",
+          "title": "GPT-6.1 Terra",
+          "publishedAt": "2026-10-26T23:53:07.000Z"
+        },
+        {
+          "id": "20g5quq15gs",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/10/505719.html",
+          "title": "GPT-6.1 Terra首批网友实测来了！1折价格获得Astra级电脑操作能力",
+          "publishedAt": "2026-10-27T08:27:46.000Z"
+        }
+      ],
+      "story": {
+        "reports": 4,
+        "sources": [
+          "openai",
+          "hackernews",
+          "simonw",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-10-26T00:00:00.000Z",
+        "metrics": {
+          "points": 633,
+          "comments": 426
+        }
+      }
     },
     {
       "id": "1rjjznv6wr8",

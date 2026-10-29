@@ -97,9 +97,9 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 28.2,
+      "score": 28.3,
       "metrics": {
-        "points": 224,
+        "points": 225,
         "comments": 118
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50259406"
@@ -138,9 +138,9 @@
       "day": "2026-10-27",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 25.7,
+      "score": 25.8,
       "metrics": {
-        "stars": 2340
+        "stars": 2386
       }
     },
     {
@@ -158,7 +158,7 @@
       "category": "industry",
       "score": 35,
       "metrics": {
-        "points": 503,
+        "points": 504,
         "comments": 237
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50257326",
@@ -185,7 +185,7 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 670,
+        "points": 671,
         "comments": 655
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50257325",
@@ -429,7 +429,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "model",
-      "score": 24
+      "score": 24,
+      "dupOf": "253u9xnsl3e"
     },
     {
       "id": "14x37ypummv",
@@ -445,7 +446,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "model",
-      "score": 28
+      "score": 28,
+      "dupOf": "12t0m8ohwvv"
     },
     {
       "id": "w0qxxk2ubn",
@@ -485,7 +487,25 @@
         "Agent",
         "开源模型"
       ],
-      "score": 28
+      "score": 36,
+      "related": [
+        {
+          "id": "14x37ypummv",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/10/505694.html",
+          "title": "国产AI 3D大模型Hi3D来了！开源可商用，PK干掉GPT-6",
+          "publishedAt": "2026-10-27T08:18:59.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "geekpark",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-10-27T07:59:20.000Z"
+      }
     },
     {
       "id": "166hhe67iuv",
@@ -599,7 +619,28 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "model",
-      "score": 28
+      "score": 46.9,
+      "related": [
+        {
+          "id": "2b971ysr9us",
+          "sourceId": "hf-models",
+          "sourceName": "HF 热门模型",
+          "url": "https://huggingface.co/baidu/Unlimited-OCR-2",
+          "title": "baidu/Unlimited-OCR-2",
+          "publishedAt": "2026-10-26T03:57:46.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "leiphone",
+          "hf-models"
+        ],
+        "firstPublishedAt": "2026-10-26T03:57:46.000Z",
+        "metrics": {
+          "likes": 351
+        }
+      }
     },
     {
       "id": "2ddyog04353",
@@ -781,7 +822,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "model",
-      "score": 20
+      "score": 20,
+      "dupOf": "253u9xnsl3e"
     },
     {
       "id": "274hmz4k81j",
@@ -796,7 +838,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "paper",
-      "score": 32,
+      "score": 26,
       "metrics": {
         "points": 181,
         "comments": 79
@@ -827,7 +869,7 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 36,
+      "score": 30,
       "ai": {
         "title": "Greptile takes bug detection beyond cod…",
         "summary": "Greptile 利用 GPT-6 Astra 等模型增强代码审查。",
@@ -835,6 +877,29 @@
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:15:39.297Z"
       }
+    },
+    {
+      "id": "rm5ojrw3zw",
+      "key": "url:the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache",
+      "title": "OpenAI's agents talked to each other through the CPU Cache",
+      "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-26T21:24:18.000Z",
+      "firstSeenAt": "2026-10-29T08:48:46.992Z",
+      "day": "2026-10-27",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 21.8,
+      "metrics": {
+        "points": 109,
+        "comments": 43
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50251200"
     },
     {
       "id": "26y1aozdkfm",
@@ -872,7 +937,7 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 37.2,
+      "score": 31.2,
       "metrics": {
         "points": 329,
         "comments": 130
@@ -963,8 +1028,30 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 30,
-      "aiAttempts": 1
+      "score": 64,
+      "aiAttempts": 1,
+      "related": [
+        {
+          "id": "7jlc15ysbc",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50242939",
+          "title": "Anthropic S-1",
+          "publishedAt": "2026-10-26T13:04:50.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "anthropic",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-10-26T13:04:50.000Z",
+        "metrics": {
+          "points": 1701,
+          "comments": 1674
+        }
+      }
     },
     {
       "id": "1v5bktp0lh5",

@@ -22,7 +22,7 @@
       ],
       "score": 21.6,
       "metrics": {
-        "stars": 1195
+        "stars": 1198
       }
     },
     {
@@ -46,7 +46,7 @@
       ],
       "score": 19.7,
       "metrics": {
-        "stars": 850
+        "stars": 859
       }
     },
     {
@@ -107,7 +107,7 @@
       ],
       "score": 16.6,
       "metrics": {
-        "stars": 449
+        "stars": 450
       }
     },
     {
@@ -125,10 +125,11 @@
       "day": "2026-10-25",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 18.3,
+      "score": 18.4,
       "metrics": {
-        "stars": 651
-      }
+        "stars": 659
+      },
+      "dupOf": "14542rok3oi"
     }
   ]
 }

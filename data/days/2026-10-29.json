@@ -445,7 +445,8 @@
       "firstSeenAt": "2026-10-29T04:10:03.533Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "dupOf": "25j4r9d9v2"
     },
     {
       "id": "2dvaxikc3ew",
@@ -499,10 +500,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 30.3,
+      "score": 30.8,
       "metrics": {
-        "points": 313,
-        "comments": 98
+        "points": 333,
+        "comments": 102
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50284255",
       "ai": {
@@ -584,7 +585,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 307738,
+        "stars": 307770,
         "starsToday": 1095
       },
       "ai": {
@@ -615,7 +616,7 @@
       ],
       "score": 16.7,
       "metrics": {
-        "stars": 5584,
+        "stars": 5593,
         "starsToday": 117
       }
     },
@@ -639,7 +640,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 41186,
+        "stars": 41235,
         "starsToday": 2110
       },
       "ai": {
@@ -671,7 +672,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 93666,
+        "stars": 93756,
         "starsToday": 1472
       },
       "ai": {
@@ -702,7 +703,7 @@
       ],
       "score": 28.3,
       "metrics": {
-        "stars": 8357,
+        "stars": 8385,
         "starsToday": 728
       }
     },
@@ -727,7 +728,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 3481,
+        "stars": 3504,
         "starsToday": 1054
       },
       "ai": {
@@ -758,7 +759,7 @@
       ],
       "score": 15.6,
       "metrics": {
-        "stars": 3694,
+        "stars": 3707,
         "starsToday": 90
       }
     },
@@ -949,7 +950,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "model",
-      "score": 28
+      "score": 28,
+      "dupOf": "28rb304yi2a"
     },
     {
       "id": "2byfozuij3g",
@@ -1053,7 +1055,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "dupOf": "1hzqwjk3rub"
     },
     {
       "id": "esz7qkvcab",
@@ -1069,7 +1072,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "model",
-      "score": 24
+      "score": 24,
+      "dupOf": "28rb304yi2a"
     },
     {
       "id": "74ralxnst2",
@@ -1317,7 +1321,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "model",
-      "score": 28
+      "score": 28,
+      "dupOf": "28rb304yi2a"
     },
     {
       "id": "1dhtqcjb9g8",
@@ -1349,7 +1354,8 @@
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
       "category": "model",
-      "score": 24
+      "score": 24,
+      "dupOf": "28rb304yi2a"
     },
     {
       "id": "61y3w4ddgx",
@@ -1415,7 +1421,7 @@
       "categoryLocked": true,
       "score": 28.2,
       "metrics": {
-        "upvotes": 142,
+        "upvotes": 143,
         "comments": 1
       }
     },
@@ -1617,7 +1623,7 @@
       "category": "industry",
       "score": 24.5,
       "metrics": {
-        "points": 149,
+        "points": 151,
         "comments": 69
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50280178"
@@ -1639,7 +1645,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25
+      "score": 25,
+      "dupOf": "28rb304yi2a"
     },
     {
       "id": "20tn7ka5w83",
@@ -1674,7 +1681,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25
+      "score": 25,
+      "dupOf": "28rb304yi2a"
     },
     {
       "id": "14dfpnxe97b",
@@ -1690,7 +1698,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "dupOf": "1yno0xgl3fu"
     },
     {
       "id": "1yno0xgl3fu",
@@ -1706,7 +1715,24 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "related": [
+        {
+          "id": "14dfpnxe97b",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/video/wizs-cto-on-php2shell-and-the-coming-vulnpocalypse/",
+          "title": "Wiz’s CTO on PHP2Shell and the coming ‘vulnpocalypse’",
+          "publishedAt": "2026-10-28T19:05:46.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "techcrunch-ai"
+        ],
+        "firstPublishedAt": "2026-10-28T18:50:39.000Z"
+      }
     },
     {
       "id": "1yqdf1zc5ur",
@@ -1808,7 +1834,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "model",
-      "score": 70,
+      "score": 86,
       "metrics": {
         "points": 833,
         "comments": 695
@@ -1827,6 +1853,73 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:15:39.297Z"
+      },
+      "related": [
+        {
+          "id": "8sq1bkexsa",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
+          "title": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board",
+          "publishedAt": "2026-10-28T19:17:58.000Z"
+        },
+        {
+          "id": "uqgvijgiom",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1021339/google-gemini-4-carbon-cybersecurity-frontier",
+          "title": "Google launches Gemini 4 Carbon with a ‘significant leap’ in cybersecurity",
+          "publishedAt": "2026-10-28T20:03:00.000Z"
+        },
+        {
+          "id": "1vt1v074awg",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/10/506227.html",
+          "title": "刚刚，Gemini 4 Carbon全面超越Opus 5.5！首发Token半价",
+          "publishedAt": "2026-10-29T00:03:58.000Z"
+        },
+        {
+          "id": "15nmtpg9nsg",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4046154482078599",
+          "title": "刚刚，Gemini 4 Carbon发布，谷歌重回世界第一",
+          "publishedAt": "2026-10-29T00:17:23.303Z"
+        },
+        {
+          "id": "esz7qkvcab",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4046230101006213",
+          "title": "Gemini 4 Carbon能给谷歌挽尊吗？",
+          "publishedAt": "2026-10-29T02:16:09.302Z"
+        },
+        {
+          "id": "73346wbnpo",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-10-29-2",
+          "title": "刚刚，谷歌发布最强模型Gemini 4 Carbon！荣登榜首",
+          "publishedAt": "2026-10-29T02:42:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 8,
+        "sources": [
+          "deepmind",
+          "hackernews",
+          "the-decoder",
+          "verge-ai",
+          "qbitai",
+          "36kr-ai",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-10-28T17:00:58.000Z",
+        "metrics": {
+          "points": 833,
+          "comments": 695
+        }
       }
     },
     {
@@ -1843,7 +1936,25 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 15
+      "score": 23,
+      "related": [
+        {
+          "id": "ad9i3v8tmy",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1020626/chrome-enhanced-autofill-gmail-forms-gemini-personal-intelligence",
+          "title": "Chrome’s enhanced autofill can now pull info from Gmail to help you fill out forms",
+          "publishedAt": "2026-10-28T17:00:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "techcrunch-ai",
+          "verge-ai"
+        ],
+        "firstPublishedAt": "2026-10-28T17:00:00.000Z"
+      }
     },
     {
       "id": "b9hsd9btzc",
@@ -1878,7 +1989,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "dupOf": "2689j9kel5z"
     },
     {
       "id": "hgavaq21ay",
@@ -1915,7 +2027,8 @@
       "day": "2026-10-29",
       "category": "model",
       "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhtg61/list_of_suggestions_for_gemma_5/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhtg61/list_of_suggestions_for_gemma_5/",
+      "dupOf": "1zkcwsj0xuy"
     },
     {
       "id": "v41eg7guhu",

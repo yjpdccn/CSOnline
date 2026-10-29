@@ -41,7 +41,7 @@
       ],
       "score": 18.4,
       "metrics": {
-        "stars": 655
+        "stars": 666
       }
     },
     {
@@ -64,7 +64,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 4508
+        "stars": 4533
       }
     },
     {
@@ -88,7 +88,7 @@
       ],
       "score": 25.6,
       "metrics": {
-        "stars": 2302
+        "stars": 2304
       }
     },
     {
@@ -131,7 +131,7 @@
       "categoryLocked": true,
       "score": 31.4,
       "metrics": {
-        "likes": 743
+        "likes": 746
       },
       "skipLlm": true
     },
@@ -174,7 +174,8 @@
       "metrics": {
         "likes": 426
       },
-      "skipLlm": true
+      "skipLlm": true,
+      "dupOf": "125enwtuvbn"
     },
     {
       "id": "fr9s935ni1",
@@ -193,7 +194,8 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 24
+      "score": 24,
+      "dupOf": "1uyu45y1t3t"
     },
     {
       "id": "2gev8i67gmi",
