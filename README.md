@@ -63,18 +63,18 @@ npm run dev
 
 项目已经包含工作流 [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml)：每 12 小时抓取资讯、生成摘要、把 `data/` 提交回仓库，再构建静态站点并发布到 GitHub Pages。一次性设置如下：
 
-1. **把代码推到一个公开的 GitHub 仓库**（目前仓库托管在 Cursor 自己的 Git 服务上）：
-   ```bash
-   git remote add github https://github.com/<你的用户名>/<仓库名>.git
-   git push github main
-   ```
-   公开仓库的 Actions 分钟数免费。
+1. **在 GitHub 新建一个空的公开仓库**（不要勾选添加 README）。公开仓库的 Actions 分钟数免费。
 2. **启用 Pages**：仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
 3. **允许工作流写入仓库**：**Settings → Actions → General → Workflow permissions** 选择 **Read and write permissions** 并保存。工作流需要把新数据提交回 `main`。
 4. **（可选）换成你自己的大模型**：不做任何设置时，工作流用内置的 `GITHUB_TOKEN` 调用 GitHub Models（工作流已声明 `permissions: models: read`）。要换成智谱等服务，在 **Settings → Secrets and variables → Actions** 中：
    - **Secrets** 新建 `LLM_API_KEY`（你的密钥）
    - **Variables** 新建 `LLM_BASE_URL`（如 `https://open.bigmodel.cn/api/paas/v4`）和 `LLM_MODEL`（如 `glm-4.7-flash`）
-5. **手动运行一次**：**Actions → 更新资讯并部署 → Run workflow**。约 3～5 分钟后访问 `https://<你的用户名>.github.io/<仓库名>/`。
+5. **推送代码**（目前仓库托管在 Cursor 自己的 Git 服务上）：
+   ```bash
+   git remote add github https://github.com/<你的用户名>/<仓库名>.git
+   git push github main
+   ```
+   推送会自动触发一次工作流（**Actions → 更新资讯并部署**），约 3～5 分钟后访问 `https://<你的用户名>.github.io/<仓库名>/`。如果推送时还没完成第 2、3 步，那次运行会失败，补上设置后在 Actions 页面点 **Run workflow** 重跑即可。
 
 之后它会按计划自动运行，也可以随时在 Actions 页面手动运行。网站右上角的「手动更新」按钮会直接打开这个工作流页面（静态站点没有服务器，不能在页面里直接刷新）。
 
