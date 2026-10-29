@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { CATEGORIES } from "@/config/site";
 import type { CategoryId } from "@/lib/types";
 
-export type SortMode = "latest" | "hot";
+export type SortMode = "importance" | "latest";
 
 export interface Filters {
   category: CategoryId | "all";
@@ -13,7 +13,7 @@ export interface Filters {
   sort: SortMode;
 }
 
-export const DEFAULT_FILTERS: Filters = { category: "all", sources: [], query: "", sort: "latest" };
+export const DEFAULT_FILTERS: Filters = { category: "all", sources: [], query: "", sort: "importance" };
 
 function readFiltersFromUrl(): Filters {
   const p = new URLSearchParams(window.location.search);
@@ -22,7 +22,8 @@ function readFiltersFromUrl(): Filters {
     category: CATEGORIES.some((c) => c.id === cat) ? (cat as CategoryId) : "all",
     sources: p.get("src")?.split(",").filter(Boolean) ?? [],
     query: p.get("q") ?? "",
-    sort: p.get("sort") === "hot" ? "hot" : "latest",
+    // Importance is the default; old ?sort=hot links land there too.
+    sort: p.get("sort") === "latest" ? "latest" : "importance",
   };
 }
 
@@ -47,7 +48,7 @@ export function useNewsFilters() {
     set("cat", filters.category === "all" ? "" : filters.category);
     set("src", filters.sources.join(","));
     set("q", filters.query.trim());
-    set("sort", filters.sort === "hot" ? "hot" : "");
+    set("sort", filters.sort === "latest" ? "latest" : "");
     const qs = p.toString();
     window.history.replaceState(window.history.state, "", qs ? `?${qs}` : window.location.pathname);
   }, [filters]);

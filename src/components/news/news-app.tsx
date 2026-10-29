@@ -6,6 +6,8 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { SITE } from "@/config/site";
 import { dayDataUrl, IS_STATIC, WORKFLOW_URL } from "@/lib/env";
+import { periodStart, rankStories, REPO_SOURCES } from "@/lib/rank";
+import { zonedTimeToUtc } from "@/lib/time";
 import type { CategoryId } from "@/lib/types";
 import type { ClientDay, ClientItem, HomeData } from "@/lib/view";
 import { DigestCard } from "./digest-card";
@@ -13,7 +15,7 @@ import { EmptyState } from "./empty-state";
 import { FilterBar } from "./filter-bar";
 import { searchTerms } from "./format";
 import { DEFAULT_FILTERS, useNewsFilters } from "./hooks";
-import { DaySection, LoadMore, type DayGroup } from "./news-feed";
+import { DaySection, ImportanceFeed, LoadMore, type DayGroup, type PeriodGroup } from "./news-feed";
 import { RefreshControl } from "./refresh-control";
 import { Sidebar } from "./sidebar";
 import { SiteHeader } from "./site-header";
@@ -59,16 +61,35 @@ export function NewsApp({ data, error }: { data: HomeData | null; error: string 
   );
 
   const terms = useMemo(() => searchTerms(filters.query), [filters.query]);
+  const [expanded, setExpanded] = useState(false);
 
-  const { groups, categoryCounts, sourceCounts, totalShown } = useMemo(() => {
+  // The update's start time, the same reference 今日要点 was ranked with, so the order does not drift.
+  const rankedAt = useMemo(() => {
+    if (data?.rankedAt) return Date.parse(data.rankedAt);
+    return days.flatMap((d) => d.items).reduce((t, i) => Math.max(t, Date.parse(i.publishedAt)), 0);
+  }, [data, days]);
+
+  const { byTime, period, older, categoryCounts, sourceCounts, totalShown } = useMemo(() => {
     const categoryCounts = new Map<CategoryId | "all", number>();
     const sourceCounts = new Map<string, number>();
     const sourceSet = new Set(filters.sources);
-    const groups: DayGroup[] = [];
+    const compactRepos = filters.category !== "opensource";
+    const isRepo = (item: ClientItem) => compactRepos && REPO_SOURCES.has(item.sourceId);
+    const byWeight = (items: ClientItem[]) => [...items].sort((a, b) => b.weight - a.weight);
+    const start = periodStart(days.flatMap((d) => d.items), rankedAt);
+    const inPeriod = (item: ClientItem) => Date.parse(item.publishedAt) >= start;
+
+    const byTime: DayGroup[] = [];
+    const older: DayGroup[] = [];
+    const periodItems: ClientItem[] = [];
+    let periodTotal = 0;
     let totalShown = 0;
     for (const day of indexed) {
       const shown: ClientItem[] = [];
+      let olderTotal = 0;
       for (const { item, text, sources } of day.items) {
+        if (inPeriod(item)) periodTotal++;
+        else olderTotal++;
         const matchesQuery = terms.every((t) => text.includes(t));
         if (!matchesQuery) continue;
         const matchesSource = sourceSet.size === 0 || sources.some((s) => sourceSet.has(s));
@@ -80,14 +101,34 @@ export function NewsApp({ data, error }: { data: HomeData | null; error: string 
         if (matchesCategory) for (const s of sources) sourceCounts.set(s, (sourceCounts.get(s) ?? 0) + 1);
         if (matchesSource && matchesCategory) shown.push(item);
       }
-      shown.sort((a, b) =>
-        filters.sort === "hot" ? b.score - a.score : b.publishedAt.localeCompare(a.publishedAt),
-      );
       totalShown += shown.length;
-      if (shown.length) groups.push({ day: day.day, items: shown, total: day.items.length });
+
+      const latest = [...shown].sort((a, b) => b.publishedAt.localeCompare(a.publishedAt));
+      if (latest.length) {
+        byTime.push({ day: day.day, news: latest.filter((i) => !isRepo(i)), repos: latest.filter(isRepo), total: day.items.length });
+      }
+      periodItems.push(...shown.filter(inPeriod));
+      const earlier = shown.filter((i) => !inPeriod(i));
+      if (earlier.length) {
+        // Within a past day, recency counts from that day's end so the time of day barely matters.
+        const [y, m, d] = day.day.split("-").map(Number);
+        const dayEnd = Math.min(rankedAt, zonedTimeToUtc(y, m, d + 1).getTime());
+        older.push({
+          day: day.day,
+          news: rankStories(earlier.filter((i) => !isRepo(i)), dayEnd),
+          repos: byWeight(earlier.filter(isRepo)),
+          total: olderTotal,
+        });
+      }
     }
-    return { groups, categoryCounts, sourceCounts, totalShown };
-  }, [indexed, terms, filters.category, filters.sources, filters.sort]);
+    const period: PeriodGroup = {
+      hours: Math.round((rankedAt - start) / 3_600_000),
+      news: rankStories(periodItems.filter((i) => !isRepo(i)), rankedAt),
+      repos: byWeight(periodItems.filter(isRepo)),
+      total: periodTotal,
+    };
+    return { byTime, period, older, categoryCounts, sourceCounts, totalShown };
+  }, [days, indexed, rankedAt, terms, filters.category, filters.sources]);
 
   const loadedDays = new Set(days.map((d) => d.day));
   const oldest = days.at(-1)?.day;
@@ -150,18 +191,25 @@ export function NewsApp({ data, error }: { data: HomeData | null; error: string 
                     {nextDay ? "，更早的日期可在页面底部继续加载" : ""}
                   </p>
                 )}
-                {groups.length > 0 ? (
+                {totalShown === 0 ? null : filters.sort === "importance" ? (
+                  <ImportanceFeed
+                    period={period}
+                    older={older}
+                    terms={terms}
+                    limit={SITE.topStories}
+                    expanded={expanded || terms.length > 0}
+                    collapsible={terms.length === 0}
+                    onExpandedChange={setExpanded}
+                    after={<LoadMore next={nextDay} loading={loadingMore} error={loadError} onLoad={loadMore} />}
+                  />
+                ) : (
                   <div className="space-y-7">
-                    {groups.map((group) => (
-                      <DaySection
-                        key={group.day}
-                        group={group}
-                        terms={terms}
-                        compactRepos={filters.category !== "opensource"}
-                      />
+                    {byTime.map((group) => (
+                      <DaySection key={group.day} group={group} terms={terms} />
                     ))}
                   </div>
-                ) : (
+                )}
+                {totalShown === 0 && (
                   <EmptyState
                     icon={SearchX}
                     title="没有符合条件的资讯"
@@ -173,7 +221,9 @@ export function NewsApp({ data, error }: { data: HomeData | null; error: string 
                     }
                   />
                 )}
-                <LoadMore next={nextDay} loading={loadingMore} error={loadError} onLoad={loadMore} />
+                {(filters.sort === "latest" || totalShown === 0) && (
+                  <LoadMore next={nextDay} loading={loadingMore} error={loadError} onLoad={loadMore} />
+                )}
               </>
             ) : (
               !error && (

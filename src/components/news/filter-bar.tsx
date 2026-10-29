@@ -64,13 +64,13 @@ export function FilterBar({ filters, onChange, categoryCounts, sourceCounts, sou
           aria-label="排序方式"
           className="shrink-0"
         >
+          <ToggleGroupItem value="importance" aria-label="按重要性排序" className="h-9 px-2.5 data-[state=on]:bg-muted">
+            <Flame />
+            <span className="hidden sm:inline">重要</span>
+          </ToggleGroupItem>
           <ToggleGroupItem value="latest" aria-label="按时间排序" className="h-9 px-2.5 data-[state=on]:bg-muted">
             <Clock />
             <span className="hidden sm:inline">最新</span>
-          </ToggleGroupItem>
-          <ToggleGroupItem value="hot" aria-label="按热度排序" className="h-9 px-2.5 data-[state=on]:bg-muted">
-            <Flame />
-            <span className="hidden sm:inline">热门</span>
           </ToggleGroupItem>
         </ToggleGroup>
       </div>

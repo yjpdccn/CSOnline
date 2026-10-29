@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { applyClusters, clusterItems, compareItems, pairKey } from "@/lib/pipeline/cluster";
-import { buildFallbackDigest } from "@/lib/pipeline/digest";
+import { buildFallbackDigest, rankLatestPeriod } from "@/lib/pipeline/digest";
 import { visibleCount } from "@/lib/pipeline/store";
 import { toClientItem } from "@/lib/view";
 import type { NewsItem, SourceGroup } from "@/lib/types";
@@ -100,7 +100,7 @@ describe("Gemini 4 Carbon acceptance", () => {
     expect(official.story).toMatchObject({ reports: 1 + 1 + reports.length, firstPublishedAt: "2026-10-29T01:00:00Z" });
     expect(official.story?.sources).toEqual(expect.arrayContaining(["deepmind", "hackernews", "google-ai", "jiqizhixin"]));
 
-    const digest = buildFallbackDigest(all.filter((i) => !i.dupOf));
+    const digest = buildFallbackDigest(rankLatestPeriod(all.filter((i) => !i.dupOf), new Date("2026-10-29T12:00:00Z")));
     expect(digest.points.filter((p) => p.text.includes("Gemini 4 Carbon"))).toHaveLength(1);
     expect(digest.points.flatMap((p) => p.refs)).not.toEqual(expect.arrayContaining(reports.map((r) => r.id)));
   });

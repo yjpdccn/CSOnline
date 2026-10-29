@@ -14,7 +14,7 @@ function fallbackNote(llm: LlmRunResult | undefined): string {
     return "尚未配置 AI 摘要：英文资讯显示原标题。配置后会自动生成中文标题、一句话摘要和 AI 版今日要点，设置方法见 README。";
   }
   if (llm.notice) return `AI 摘要已暂停：${llm.notice}`;
-  return "这次模型较忙，今日要点先按热度摘录，下次更新时会再请 AI 撰写。";
+  return "这次模型较忙，今日要点先按重要性摘录，下次更新时会再请 AI 撰写。";
 }
 
 export function DigestCard({ digest, llm }: { digest: ClientDigest; llm?: LlmRunResult }) {
@@ -36,7 +36,7 @@ export function DigestCard({ digest, llm }: { digest: ClientDigest; llm?: LlmRun
           今日要点
         </h2>
         <p className="text-xs text-muted-foreground">
-          {isAi ? `AI 生成${digest.model ? ` · ${digest.model}` : ""}` : "按热度自动摘录"} · {formatDateTime(digest.generatedAt)} 更新 · 覆盖{" "}
+          {isAi ? `AI 生成${digest.model ? ` · ${digest.model}` : ""}` : "按重要性自动摘录"} · {formatDateTime(digest.generatedAt)} 更新 · 覆盖{" "}
           {digest.itemCount} 条
         </p>
       </div>

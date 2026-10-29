@@ -1,35 +1,53 @@
 "use client";
 
-import { ChevronDown, Loader2, RotateCcw } from "lucide-react";
+import { ChevronDown, ChevronUp, Loader2, RotateCcw } from "lucide-react";
+import type { ReactNode } from "react";
 import { Button } from "@/components/ui/button";
 import { Skeleton } from "@/components/ui/skeleton";
 import { formatDay, relativeDayLabel } from "@/lib/time";
 import type { ClientItem } from "@/lib/view";
 import { useNow } from "./hooks";
 import { NewsCard } from "./news-card";
-import { REPO_SOURCES, RepoList } from "./repo-list";
+import { RepoList } from "./repo-list";
 
 export interface DayGroup {
   day: string;
-  items: ClientItem[];
+  /** Cards, already in display order. */
+  news: ClientItem[];
+  /** Repo listings, shown as one compact block. */
+  repos: ClientItem[];
+  /** Items of this group before filtering. */
   total: number;
 }
 
-export function DaySection({ group, terms, compactRepos }: { group: DayGroup; terms: string[]; compactRepos: boolean }) {
-  const now = useNow();
-  const relative = now ? relativeDayLabel(group.day, now) : null;
-  const repos = compactRepos ? group.items.filter((i) => REPO_SOURCES.has(i.sourceId)) : [];
-  const news = repos.length ? group.items.filter((i) => !REPO_SOURCES.has(i.sourceId)) : group.items;
+function countLabel(shown: number, total: number): string {
+  return shown === total ? `${total} 条` : `${shown} / ${total} 条`;
+}
+
+function FeedSection({
+  id,
+  heading,
+  count,
+  news,
+  repos,
+  terms,
+  footer,
+}: {
+  id: string;
+  heading: ReactNode;
+  count: string;
+  news: ClientItem[];
+  repos: ClientItem[];
+  terms: string[];
+  footer?: ReactNode;
+}) {
   return (
-    <section aria-labelledby={`day-${group.day}`} className="scroll-mt-32">
+    <section aria-labelledby={id} className="scroll-mt-32">
       <div className="mb-3 flex items-baseline gap-2 px-1">
-        <h2 id={`day-${group.day}`} className="text-sm font-semibold">
-          {relative && <span className="mr-1.5 text-foreground">{relative}</span>}
-          <span className={relative ? "text-muted-foreground" : ""}>{formatDay(group.day)}</span>
+        <h2 id={id} className="text-sm font-semibold">
+          {heading}
         </h2>
-        <span className="text-xs text-muted-foreground tabular-nums">
-          {group.items.length === group.total ? `${group.total} 条` : `${group.items.length} / ${group.total} 条`}
-        </span>
+        <span className="text-xs text-muted-foreground tabular-nums">{count}</span>
         <div className="h-px flex-1 self-center bg-border" />
       </div>
       <div className="space-y-2.5">
@@ -37,8 +55,119 @@ export function DaySection({ group, terms, compactRepos }: { group: DayGroup; te
           <NewsCard key={item.id} item={item} terms={terms} />
         ))}
         {repos.length > 0 && <RepoList items={repos} terms={terms} />}
+        {footer}
       </div>
     </section>
+  );
+}
+
+export function DaySection({ group, terms, label }: { group: DayGroup; terms: string[]; label?: string }) {
+  const now = useNow();
+  const relative = now ? relativeDayLabel(group.day, now) : null;
+  return (
+    <FeedSection
+      id={`day-${group.day}`}
+      heading={
+        <>
+          {relative && <span className="mr-1.5 text-foreground">{relative}</span>}
+          <span className={relative ? "text-muted-foreground" : ""}>{formatDay(group.day)}</span>
+          {label && <span className="ml-1.5 font-normal text-muted-foreground">{label}</span>}
+        </>
+      }
+      count={countLabel(group.news.length + group.repos.length, group.total)}
+      news={group.news}
+      repos={group.repos}
+      terms={terms}
+    />
+  );
+}
+
+export interface PeriodGroup {
+  hours: number;
+  news: ClientItem[];
+  repos: ClientItem[];
+  total: number;
+}
+
+/**
+ * Default view: the top stories of the latest period by importance. The rest of the period, its repo
+ * listings and earlier days fold under 更多.
+ */
+export function ImportanceFeed({
+  period,
+  older,
+  terms,
+  limit,
+  expanded,
+  collapsible,
+  onExpandedChange,
+  after,
+}: {
+  period: PeriodGroup;
+  older: DayGroup[];
+  terms: string[];
+  limit: number;
+  expanded: boolean;
+  /** False while searching: every match is shown. */
+  collapsible: boolean;
+  onExpandedChange: (expanded: boolean) => void;
+  /** Rendered after the earlier days once expanded (the load-more control). */
+  after?: ReactNode;
+}) {
+  const shown = expanded ? period.news : period.news.slice(0, limit);
+  const folded = period.news.length - shown.length + (expanded ? 0 : period.repos.length);
+  const earlier = older.reduce((n, g) => n + g.news.length + g.repos.length, 0);
+  const hidden = folded + (expanded ? 0 : earlier);
+  const periodCount = period.news.length + period.repos.length;
+
+  const toggle = (
+    <button
+      type="button"
+      onClick={() => onExpandedChange(!expanded)}
+      aria-expanded={expanded}
+      className="flex w-full items-center justify-center gap-1.5 rounded-xl border border-dashed bg-card/60 px-4 py-3 text-sm text-muted-foreground transition-colors hover:border-foreground/30 hover:text-foreground"
+    >
+      {expanded ? (
+        <>
+          收起，只看前 {Math.min(limit, period.news.length)} 条
+          <ChevronUp className="size-4" />
+        </>
+      ) : (
+        <>
+          更多（还有 {hidden} 条{earlier > 0 ? "，含更早的日期" : ""}）
+          <ChevronDown className="size-4" />
+        </>
+      )}
+    </button>
+  );
+
+  return (
+    <div className="space-y-7">
+      {periodCount > 0 && (
+        <FeedSection
+          id="period-latest"
+          heading={
+            <>
+              过去 {period.hours} 小时
+              <span className="ml-1.5 font-normal text-muted-foreground">按重要性排序</span>
+            </>
+          }
+          count={countLabel(periodCount, period.total)}
+          news={shown}
+          repos={expanded ? period.repos : []}
+          terms={terms}
+          footer={collapsible && (hidden > 0 || (expanded && period.news.length > limit)) ? toggle : undefined}
+        />
+      )}
+      {(expanded || periodCount === 0) && (
+        <>
+          {older.map((group) => (
+            <DaySection key={group.day} group={group} terms={terms} label={group.day === older[0]?.day && periodCount ? "更早" : undefined} />
+          ))}
+          {after}
+        </>
+      )}
+    </div>
   );
 }
 

@@ -71,5 +71,6 @@ export async function loadHomeData(): Promise<HomeData> {
     digest,
     lastRun: toRunInfo(meta.lastRun),
     sources,
+    rankedAt: meta.lastRun?.startedAt ?? null,
   };
 }

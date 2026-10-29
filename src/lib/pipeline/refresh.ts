@@ -2,7 +2,7 @@ import { ENABLED_SOURCES } from "@/config/sources";
 import { SITE } from "@/config/site";
 import { applyClusters } from "./cluster";
 import { Deduper, mergeDuplicate } from "./dedupe";
-import { buildFallbackDigest } from "./digest";
+import { buildFallbackDigest, rankLatestPeriod } from "./digest";
 import { FETCHERS } from "./fetchers";
 import { normalizeError } from "./http";
 import { generateAiDigest, getLlmConfig, LlmClient, LlmStop, pendingSummaries, summarizeItems, summaryProgress } from "./llm";
@@ -46,6 +46,8 @@ const DEFAULT_SOURCE_LIMIT = 40;
 /** Parts of the run's AI time budget kept back from the summaries for the steps after them. */
 const DIGEST_RESERVE_MS = 150_000;
 const DEDUPE_RESERVE_MS = 90_000;
+/** Top-ranked stories the model may draw 今日要点 from. */
+const AI_DIGEST_CANDIDATES = 12;
 
 async function mapLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promise<R>): Promise<R[]> {
   const results = new Array<R>(items.length);
@@ -278,12 +280,11 @@ async function buildDigest(
   client: LlmClient | null,
   deadline: number,
 ): Promise<Digest | null> {
-  const all = [...store.days.values()].flat().filter((i) => !i.dupOf);
-  let window = all.filter((i) => now.getTime() - Date.parse(i.publishedAt) <= 24 * 3_600_000);
-  if (window.length < 5) window = all.filter((i) => now.getTime() - Date.parse(i.publishedAt) <= 48 * 3_600_000);
-  if (window.length === 0) return null;
-  const top = [...window].sort((a, b) => b.score - a.score).slice(0, 30);
-  const base = { day: dayKey(now), generatedAt: new Date().toISOString(), itemCount: window.length };
+  const latest = rankLatestPeriod([...store.days.values()].flat().filter((i) => !i.dupOf), now);
+  if (latest.period.length === 0) return null;
+  // The model writes 今日要点 from the top of the ranking the page shows, in that order.
+  const top = latest.ranked.slice(0, AI_DIGEST_CANDIDATES);
+  const base = { day: dayKey(now), generatedAt: new Date().toISOString(), itemCount: latest.period.length };
 
   if (client) {
     try {
@@ -301,5 +302,5 @@ async function buildDigest(
     }
   }
   llm.digest = "fallback";
-  return { ...base, mode: "fallback", ...buildFallbackDigest(window) };
+  return { ...base, mode: "fallback", ...buildFallbackDigest(latest) };
 }

@@ -3,9 +3,7 @@ import type { ClientItem } from "@/lib/view";
 import { formatCount } from "./format";
 import { Highlight } from "./highlight";
 
-/** Repos are discovered in batches at refresh time, so they get a dense block instead of flooding the timeline. */
-export const REPO_SOURCES = new Set(["github-trending", "github-new"]);
-
+/** Repos (REPO_SOURCES in lib/rank) are discovered in batches, so they get a dense block instead of flooding the feed. */
 export function RepoList({ items, terms }: { items: ClientItem[]; terms: string[] }) {
   return (
     <section className="rounded-xl border bg-card">

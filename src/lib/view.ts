@@ -10,6 +10,7 @@ import type {
   SourceGroup,
   SourceRunResult,
 } from "@/lib/types";
+import { storyFirstAt, storyWeight } from "@/lib/pipeline/importance";
 import { translatedTitle } from "@/lib/pipeline/text";
 
 /** Trimmed item shape sent to the browser. */
@@ -29,6 +30,10 @@ export interface ClientItem {
   publishedAt: string;
   dateOnly?: boolean;
   score: number;
+  /** Time-independent importance; the page ranks by it after recency (lib/rank.ts). */
+  weight: number;
+  /** Earliest report of the story when it predates `publishedAt`; recency counts from here. */
+  firstAt?: string;
   metrics?: Metrics;
   discussionUrl?: string;
   /** Other reports of the same event, shown as 也见于 links. */
@@ -90,6 +95,8 @@ export interface HomeData {
   digest: ClientDigest | null;
   lastRun: RunInfo | null;
   sources: SourceOption[];
+  /** Start of the last update: the reference time for ranking, the same one 今日要点 used. */
+  rankedAt: string | null;
 }
 
 export interface RefreshStatus {
@@ -139,6 +146,8 @@ export function toClientItem(item: NewsItem): ClientItem {
     publishedAt: item.publishedAt,
     dateOnly: item.dateOnly,
     score: item.score,
+    weight: storyWeight(item),
+    firstAt: storyFirstAt(item),
     metrics: item.metrics,
     discussionUrl: item.discussionUrl,
     alsoOn: alsoOnLinks(item),

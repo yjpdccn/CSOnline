@@ -12,6 +12,8 @@ export const SITE = {
   scheduleLabel: "每天北京时间 08:00、20:00 前后自动更新",
   /** Days rendered on first load; older days load on demand. */
   initialDays: 3,
+  /** Stories shown by default in the importance view; the rest fold under 更多. */
+  topStories: 20,
   /** Items published earlier than this are ignored when fetching. */
   maxItemAgeDays: 7,
   workflowFile: "refresh.yml",

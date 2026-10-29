@@ -20,7 +20,7 @@ export function coverage(item: Pick<NewsItem, "sourceId" | "alsoOn" | "related">
   return sources.size;
 }
 
-/** Importance used for "热门" sorting and the fallback 今日要点. */
+/** Stored per item; orders the AI summary queue. The page ranks by pipeline/importance.ts instead. */
 export function computeScore(
   item: Pick<NewsItem, "sourceId" | "sourceGroup" | "metrics" | "alsoOn" | "related" | "category" | "title">,
 ): number {
