@@ -2,6 +2,38 @@
   "day": "2026-10-29",
   "items": [
     {
+      "id": "1cxa02qtnp7",
+      "key": "url:36kr.com/p/4046620190069634",
+      "title": "宇树杀入VC",
+      "url": "https://36kr.com/p/4046620190069634",
+      "excerpt": "新产投时代。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T08:56:52.091Z",
+      "firstSeenAt": "2026-10-29T08:57:04.221Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1cgo49tqjk8",
+      "key": "url:jiqizhixin.com/articles/2026-10-29-16",
+      "title": "豆包工作向企业客户开放配置三方模型",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-29-16",
+      "excerpt": "为支持企业需求，豆包工作今日向客户开放三方大模型服务，首批将接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等系列模型。本次更新面向团队订阅版和企业订阅版客户开放。功能上线后默认直接开启，企业无需另行向模型厂商采购，也无需额外申请，后续按照用量扣除企业已...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T08:53:00.000Z",
+      "firstSeenAt": "2026-10-29T08:57:04.221Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
       "id": "1hndc3zae8g",
       "key": "url:infoq.cn/article/EQTckj5GQQymiQES22Bo",
       "title": "Anthropic 取消编程面试：新人第一次有机会直接和资深工程师竞争",
@@ -153,6 +185,25 @@
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
       "category": "agent",
+      "score": 18
+    },
+    {
+      "id": "6a9il9xwrz",
+      "key": "url:leiphone.com/category/ai/wmSBFfeSyB0dOjqO.html",
+      "title": "百望股份：企业AI最大的误区，是把所有流程都用AI重做一遍",
+      "url": "https://www.leiphone.com/category/ai/wmSBFfeSyB0dOjqO.html",
+      "excerpt": "如果要给过去两年企业AI应用的热潮找一句最有代表性的口号，“用AI把所有事情重新做一遍”，大概会是其中之一。 从客服、营销、研发，到财务、人力、采购，几乎每一个传统软件赛道都在寻找自己的AI版本：过去由人填写的表格变成AI生成，由人阅读的材料变成AI识别，由人点击的按钮变成Agent调用，那些已经被数字化、自动化改造过很多次的企业流程，也开始被重新包装成“AI流程”。 这种变化当然有价值。以审核为例，报销、供应商准入、合同检查、人事材料核验，都属于高频、重复、规则相对明确又不能轻易出错的工作，用OCR读取信息、用大模型理解语义、再用规则引擎进行判断，确…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T06:54:00.000Z",
+      "firstSeenAt": "2026-10-29T08:57:04.221Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
       "score": 18
     },
     {
@@ -515,10 +566,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 30.8,
+      "score": 30.9,
       "metrics": {
-        "points": 333,
-        "comments": 102
+        "points": 335,
+        "comments": 103
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50284255",
       "ai": {
@@ -600,7 +651,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 307774,
+        "stars": 307780,
         "starsToday": 1095
       },
       "ai": {
@@ -631,7 +682,7 @@
       ],
       "score": 16.7,
       "metrics": {
-        "stars": 5596,
+        "stars": 5597,
         "starsToday": 117
       }
     },
@@ -655,7 +706,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 41237,
+        "stars": 41239,
         "starsToday": 2110
       },
       "ai": {
@@ -687,7 +738,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 93773,
+        "stars": 93784,
         "starsToday": 1472
       },
       "ai": {
@@ -718,7 +769,7 @@
       ],
       "score": 28.3,
       "metrics": {
-        "stars": 8386,
+        "stars": 8387,
         "starsToday": 728
       }
     },
@@ -743,7 +794,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 3505,
+        "stars": 3508,
         "starsToday": 1054
       },
       "ai": {
@@ -1434,9 +1485,9 @@
       "day": "2026-10-29",
       "category": "paper",
       "categoryLocked": true,
-      "score": 28.2,
+      "score": 28.3,
       "metrics": {
-        "upvotes": 143,
+        "upvotes": 144,
         "comments": 1
       }
     },
