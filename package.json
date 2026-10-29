@@ -8,6 +8,7 @@
     "start": "next start -p 4826",
     "lint": "eslint",
     "refresh": "tsx scripts/refresh.ts",
+    "dedupe": "tsx scripts/dedupe.ts",
     "sources:check": "tsx scripts/check-sources.ts",
     "test": "vitest run",
     "build:static": "cross-env STATIC_EXPORT=1 next build && tsx scripts/export-static-data.ts out",
