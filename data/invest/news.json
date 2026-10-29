@@ -1,6 +1,2727 @@
 {
-  "updatedAt": "2026-10-29T10:16:43.590Z",
+  "updatedAt": "2026-10-29T17:29:35.979Z",
   "items": [
+    {
+      "id": "jla7xt2zet",
+      "key": "url:cnbc.com/2026/10/29/midterm-elections-stock-market-history.html",
+      "title": "Some investors have midterm election jitters. Here’s what history shows about stocks",
+      "url": "https://www.cnbc.com/2026/10/29/midterm-elections-stock-market-history.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T17:27:10.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us",
+        "us-stocks"
+      ],
+      "excerpt": "Investors are anxious about the 2026 midterms. Here's what historical S&P 500 data shows happened before and after past elections.",
+      "ai": {
+        "title": "投资者对中期选举感到紧张，历史数据揭示股市走势",
+        "summary": "投资者担忧2026年中期选举，历史数据显示股市表现。",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:27.622Z"
+      }
+    },
+    {
+      "id": "1tnbpx46nuc",
+      "key": "sina:5180447",
+      "title": "特朗普：美联储不愿降息",
+      "url": "https://finance.sina.cn/7x24/2026-10-30/detail-iniwxqyp5002345.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T17:22:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "policy-us"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "1hyv1ho0xm2",
+      "key": "sina:5180442",
+      "title": "周四（10月29日），美联储隔夜逆回购协议（RRP）使用规模为3.53亿美元（交易对手4家），上个交易日（美联储宣布按兵不动当天）报1.76亿美元",
+      "url": "https://finance.sina.cn/7x24/2026-10-30/detail-iniwxksk5928820.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T17:16:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "pboc"
+      ]
+    },
+    {
+      "id": "4m7q2v02zj",
+      "key": "url:cnbc.com/2026/10/29/stocks-making-the-biggest-moves-midday-adt-googl-cat-lly-cmg.html",
+      "title": "Stocks making the biggest moves midday: ADT, Alphabet, Caterpillar, Eli Lilly, Chipotle & more",
+      "url": "https://www.cnbc.com/2026/10/29/stocks-making-the-biggest-moves-midday-adt-googl-cat-lly-cmg.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T17:10:32.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "These are the stocks posting the largest moves midday.",
+      "ai": {
+        "title": "午盘涨幅最大股票：ADT、Alphabet、Caterpillar等",
+        "summary": "ADT、Alphabet等股票午盘涨幅最大。",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:27.622Z"
+      }
+    },
+    {
+      "id": "iv41fcdybn",
+      "key": "url:cnbc.com/2026/10/28/stock-market-today-live-updates.html",
+      "title": "S&P 500 heads for first loss in four days as Alphabet, Caterpillar crack after earnings: Live updates",
+      "url": "https://www.cnbc.com/2026/10/28/stock-market-today-live-updates.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T17:07:07.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Alphabet reported a disappointing third quarter, and shares tumbled."
+    },
+    {
+      "id": "27p2a4ajrad",
+      "key": "sina:5180423",
+      "title": "美联储数据显示，截至10月28日当周，美国非季节性调整的外国金融商业票据未偿余额减少20亿美元。美国未经季节性调整的商业票据未偿余额减少41亿美元",
+      "url": "https://finance.sina.cn/7x24/2026-10-30/detail-iniwxksk5922090.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T17:00:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "2dpy8meefcf",
+      "key": "sina:5180422",
+      "title": "美联储数据显示，经季节性调整，截至10月28日当周，美国商业票据未偿余额减少36亿美元",
+      "url": "https://finance.sina.cn/7x24/2026-10-30/detail-iniwxksr5124102.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T17:00:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "lm97unpnw8",
+      "key": "url:ft.com/content/b6fe5be5-b508-4fe5-b705-955ae77f208b?syn-25a6b1a6=1",
+      "title": "NYSE owner’s tokenised stock plan hits hurdle as big companies object",
+      "url": "https://www.ft.com/content/b6fe5be5-b508-4fe5-b705-955ae77f208b?syn-25a6b1a6=1",
+      "lang": "en",
+      "sourceId": "ft-markets",
+      "sourceName": "FT",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T16:42:40.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Alphabet, Oracle and Microsoft among 38 groups of a proposed 62 saying they do not want their stocks included",
+      "ai": {
+        "title": "纽交所代币化股票计划遇阻，大公司反对",
+        "summary": "纽交所代币化股票计划遭38家公司反对。",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:27.622Z"
+      }
+    },
+    {
+      "id": "2ehn7loankq",
+      "key": "url:ft.com/content/3d9ac5af-d6c7-48f8-a5b4-7b3b22cc243d?syn-25a6b1a6=1",
+      "title": "New Jersey governor threatens to block delivery of Russian diesel cargoes",
+      "url": "https://www.ft.com/content/3d9ac5af-d6c7-48f8-a5b4-7b3b22cc243d?syn-25a6b1a6=1",
+      "lang": "en",
+      "sourceId": "ft-markets",
+      "sourceName": "FT",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T16:37:04.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "Mikie Sherrill calls Trump’s deal with Putin ‘corrupt and illegal’ as she weighs moves to stop shipment to east coast port"
+    },
+    {
+      "id": "1i6gx5soh7d",
+      "key": "url:marketwatch.com/story/you-cant-rely-on-the-s-p-500-as-much-as-you-may-think-a3ac0cb7?mod=mw_rss_topstories",
+      "title": "You can’t rely on the S&P 500 as much as you may think",
+      "url": "https://www.marketwatch.com/story/you-cant-rely-on-the-s-p-500-as-much-as-you-may-think-a3ac0cb7?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T16:26:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "The index’s weakness may surprise a generation of investors raised on the cult of “stocks always go up.”"
+    },
+    {
+      "id": "mw0h3b2arv",
+      "key": "url:cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
+      "title": "Alphabet earnings miss reflects first real sign that AI is taking a bite out of search",
+      "url": "https://www.cnbc.com/2026/10/29/alphabet-google-search-ai-earnings.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T16:25:40.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Wall Street hammered Alphabet for an earnings miss that included weaker-than-expected revenue out of the company's core business."
+    },
+    {
+      "id": "1dgxmpurd98",
+      "key": "sina:5180405",
+      "title": "王毅同冰岛外长贡纳尔斯多蒂尔会谈",
+      "url": "https://finance.sina.com.cn/7x24/",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T16:23:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "中共中央政治局委员、外交部长王毅29日在北京同冰岛外长贡纳尔斯多蒂尔举行会谈。王毅表示，今年是中冰建交55周年。去年习近平主席同托马斯多蒂尔总统会见，为两国关系发展注入重要动力。中方赞赏冰岛始终奉行一个中国政策，愿同冰方共享发展机遇。双方要加强协作，推动构建更加公正合理的全球治理体系。王毅还简要介绍了中共二十届五中全会的情况。贡纳尔斯多蒂尔表示，中国的成功对世界有重大意义。习近平主席治国理政著作的思想使人深受启发。冰岛高度重视冰中关系，愿同中方加强协作。（央视新闻）",
+      "dupOf": "cvg9osfawz"
+    },
+    {
+      "id": "nk3fcuy2mw",
+      "key": "url:cnbc.com/2026/10/29/trump-accounts-frank-bisignano-brooklyn.html",
+      "title": "IRS CEO Bisignano donates to Trump Accounts in his childhood Brooklyn ZIP code",
+      "url": "https://www.cnbc.com/2026/10/29/trump-accounts-frank-bisignano-brooklyn.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T16:06:02.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "IRS CEO Frank Bisignano has donated to Trump Accounts for Brooklyn kids from his hometown ZIP code. Here's what families need to know."
+    },
+    {
+      "id": "1kkdevt8ldp",
+      "key": "url:cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+      "title": "Amazon to report Q3 earnings after the bell with AI spend under scrutiny",
+      "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T16:00:01.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Amazon Web Services sales are projected to grow 38%, marking a fifth consecutive quarter of revenue expansion."
+    },
+    {
+      "id": "2eg077i5p43",
+      "key": "url:cnbc.com/2026/10/29/general-motors-nasdaq-listing.html",
+      "title": "GM is shifting gears to the Nasdaq, trying to draft behind Walmart’s lead",
+      "url": "https://www.cnbc.com/2026/10/29/general-motors-nasdaq-listing.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T15:57:27.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "GM plans to move its stock listing to Nasdaq on Nov. 17, opening the door to possible Nasdaq-100 inclusion and an improved valuation."
+    },
+    {
+      "id": "2bv1tjduyow",
+      "key": "url:cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html",
+      "title": "ServiceNow shares plunge 25% after earnings revive AI disruption fears",
+      "url": "https://www.cnbc.com/2026/10/29/servicenow-now-earnings-q3-2026.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T15:54:12.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "ServiceNow's stock headed its worst day ever on underwhelming third-quarter results."
+    },
+    {
+      "id": "1r5t0audlpa",
+      "key": "url:marketwatch.com/story/looking-for-income-these-dividend-stocks-have-high-yields-that-seem-well-supported-81093bdf?mod=mw_rss_topstories",
+      "title": "Looking for income? These dividend stocks have high yields that seem well supported.",
+      "url": "https://www.marketwatch.com/story/looking-for-income-these-dividend-stocks-have-high-yields-that-seem-well-supported-81093bdf?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T15:54:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Ford, Pfizer and Verizon are among 11 stocks that passed a screen of the S&P 500 for high dividend yields that are expected to be well covered by the companies’ free cash flow."
+    },
+    {
+      "id": "1fdhc26sjya",
+      "key": "em:202610293915024147",
+      "title": "据报道：欧洲央行官员准备在12月加息",
+      "url": "https://finance.eastmoney.com/a/202610293915024147.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T15:38:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "据报道，欧洲央行官员准备在12月加息。",
+      "flag": 1,
+      "dupOf": "1xrgj5zfive"
+    },
+    {
+      "id": "111ed4r6gp8",
+      "key": "cls:2519841",
+      "title": "据报道，欧洲央行官员准备在12月加息",
+      "url": "https://www.cls.cn/detail/2519841",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T15:37:02.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "flag": 1,
+      "dupOf": "1xrgj5zfive"
+    },
+    {
+      "id": "bg6equy7kg",
+      "key": "wscn:3190643",
+      "title": "报道：欧洲央行做好了在12月加息的准备",
+      "url": "https://wallstreetcn.com/livenews/3190643",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T15:35:28.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "据知情人士透露，欧洲央行官员做好了通胀前景不改善的情况下在12月份加息的准备。鉴于当前数据以及中东战争对经济造成的影响，可能还需要再加息25个基点，以遏制价格上涨。他们强调，目前尚未作出任何决定，形势可能迅速变化，尤其是由于中东局势的发展难以预测。 欧洲央行行长拉加德表示，本周曾讨论过加息，但她和同事最终决定将存款利率维持在2.5%不变。这一水平处于货币政策被认为对经济产生中性影响区间的上限。 对此，知情人士表示，本周的讨论非常激烈。（彭博）",
+      "flag": 1,
+      "dupOf": "1xrgj5zfive"
+    },
+    {
+      "id": "1xrgj5zfive",
+      "key": "sina:5180375",
+      "title": "欧洲央行官员预期 12 月加息后暂停紧缩",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxksp8641216.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T15:35:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 42,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "援引三位消息人士称，欧洲央行政策官员预计在 12 月 17 日加息 25 个基点，将存款利率从 2.50% 上调至 2.75%。除非能源价格大幅下跌，否则本次加息几乎已成定局。 但官员预计加息之后将停止进一步收紧政策，原因是走高的债券收益率可能在 2027 至 2028 年间令欧元区经济增速降低 1 个百分点、通胀回落 0.9 个百分点。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "bg6equy7kg",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3190643",
+          "title": "报道：欧洲央行做好了在12月加息的准备",
+          "publishedAt": "2026-10-29T15:35:28.000Z"
+        },
+        {
+          "id": "111ed4r6gp8",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2519841",
+          "title": "据报道，欧洲央行官员准备在12月加息",
+          "publishedAt": "2026-10-29T15:37:02.000Z"
+        },
+        {
+          "id": "1fdhc26sjya",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202610293915024147.html",
+          "title": "据报道：欧洲央行官员准备在12月加息",
+          "publishedAt": "2026-10-29T15:38:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 4,
+        "sources": [
+          "sina",
+          "wscn-global",
+          "cls",
+          "em-commodity"
+        ],
+        "firstPublishedAt": "2026-10-29T15:35:00.000Z"
+      }
+    },
+    {
+      "id": "1vv8aoxg3wj",
+      "key": "sina:5180373",
+      "title": "美国财政部拍卖四周期国债，得标利率3.910%，投标倍数3.10。拍卖八周期国债，得标利率4.020%，投标倍数2.63",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxksk5888698.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T15:32:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ]
+    },
+    {
+      "id": "plskk6ic4r",
+      "key": "sina:5180369",
+      "title": "欧洲央行消息人士：欧洲央行政策制定者计划在 12 月加息，随后暂停加息",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxksr5088876.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T15:28:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ]
+    },
+    {
+      "id": "1n93j399zf9",
+      "key": "sina:5180368",
+      "title": "欧洲央行消息人士称，欧洲央行工作人员最新预测显示，与9月基线情景相比，债券收益率上升将在2027至2028年累计使经济增长减少100个基点，使通胀降低90个基点",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxksr5088548.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T15:28:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "欧洲央行消息人士称，欧洲央行工作人员最新预测显示，与9月基线情景相比，债券收益率上升将在2027至2028年累计使经济增长减少100个基点，使通胀降低90个基点。",
+      "flag": 1
+    },
+    {
+      "id": "26wvi0w60v9",
+      "key": "url:marketwatch.com/story/caterpillars-stock-heads-for-worst-day-in-7-years-and-what-that-means-for-the-dow-d67f1fb7?mod=mw_rss_topstories",
+      "title": "Caterpillar’s stock is sinking. Here’s what that means for the Dow.",
+      "url": "https://www.marketwatch.com/story/caterpillars-stock-heads-for-worst-day-in-7-years-and-what-that-means-for-the-dow-d67f1fb7?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T15:12:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Caterpillar’s data-center business is fine, but other areas disappointed. The stock was heading for its biggest loss in years."
+    },
+    {
+      "id": "l9frec2y23",
+      "key": "url:cnbc.com/2026/10/29/okta-stock-pullback-josh-brown.html",
+      "title": "There's a cybersecurity stock on Josh Brown's list that's pulling back. How he's trading it",
+      "url": "https://www.cnbc.com/2026/10/29/okta-stock-pullback-josh-brown.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T15:07:43.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Last night, security play Fortinet (FTNT) disappointed the Street, and its peer group of stocks is paying for it."
+    },
+    {
+      "id": "i3nud9n68t",
+      "key": "sina:5180340",
+      "title": "国际货币基金组织：正致力于加强与伊拉克的伙伴关系，预计伊拉克2026年GDP将大幅萎缩，并于明年回升",
+      "url": "https://finance.sina.com.cn/7x24/",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T15:02:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "excerpt": "国际货币基金组织：正致力于加强与伊拉克的伙伴关系，预计伊拉克2026年GDP将大幅萎缩，并于明年回升。美国应继续扩大技术收益的共享范围，这一点很重要。尽管油价和通胀上升，但在私人消费和投资的推动下，美国经济增长迄今仍具韧性。美联储和欧洲央行均在高度不确定的环境下采取行动，未来需密切关注数据。完全支持美联储主席沃什关于聚焦物价稳定的表态；美联储密切关注数据是恰当之举。预计将在未来几周内开始与乌克兰就第二轮和第三轮合并审查展开讨论。"
+    },
+    {
+      "id": "odsj5sxyhb",
+      "key": "url:ft.com/content/08dea965-63c8-4e63-a69d-b2c2a8e909eb?syn-25a6b1a6=1",
+      "title": "Druckenmiller backs push to bring risky crypto-style bets to Wall Street",
+      "url": "https://www.ft.com/content/08dea965-63c8-4e63-a69d-b2c2a8e909eb?syn-25a6b1a6=1",
+      "lang": "en",
+      "sourceId": "ft-markets",
+      "sourceName": "FT",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T14:54:48.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Hedge fund billionaire says he has invested in little-known CME Group rival tradeXYZ"
+    },
+    {
+      "id": "oqox5xt2lt",
+      "key": "wscn:3190620",
+      "title": "埃及央行加息至20%，接受彭博采访的七名分析师一致预期会持稳于19%",
+      "url": "https://wallstreetcn.com/livenews/3190620",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:51:38.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "pboc"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "lp0hermhy9",
+      "key": "em:202610293914986792",
+      "title": "白宫经济顾问哈塞特表示：10月份CPI和PCE数据应该能明确美联储应采取什么行动",
+      "url": "https://finance.eastmoney.com/a/202610293914986792.html",
+      "lang": "zh",
+      "sourceId": "em-cb",
+      "sourceName": "东方财富·全球央行",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:46:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "fed",
+        "policy-us",
+        "macro-us"
+      ],
+      "excerpt": "白宫经济顾问哈塞特表示，10月份CPI和PCE数据应该能明确美联储应采取什么行动。",
+      "related": [
+        {
+          "id": "d9mfa5pwgt",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2771239.d.html",
+          "title": "哈塞特：10月CPI和PCE数据应能明确美联储应采取何种行动",
+          "publishedAt": "2026-10-29T14:45:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "em-cb",
+          "sina"
+        ],
+        "firstPublishedAt": "2026-10-29T14:45:00.000Z"
+      }
+    },
+    {
+      "id": "d9mfa5pwgt",
+      "key": "sina:5180312",
+      "title": "哈塞特：10月CPI和PCE数据应能明确美联储应采取何种行动",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2771239.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:45:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "dupOf": "lp0hermhy9"
+    },
+    {
+      "id": "1v5ex9eswjg",
+      "key": "sina:5180308",
+      "title": "哈塞特：沃什在允许美联储内部存在“正常”异议方面做得很好",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2770237.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:43:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "qe8y8x8v58",
+      "key": "sina:5180306",
+      "title": "哈塞特：对美联储的莉萨·库克不予置评",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2769117.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:41:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "xy9pl5mu3z",
+      "key": "wscn:3190613",
+      "title": "白宫顾问哈塞特：如果美国10月通胀数据真的很高，美联储可能会采取行动",
+      "url": "https://wallstreetcn.com/livenews/3190613",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:40:29.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 34,
+      "topics": [
+        "fed",
+        "policy-us",
+        "macro-us"
+      ],
+      "excerpt": "白宫顾问哈塞特：如果美国10月通胀数据真的很高，美联储可能会采取行动。 10月CPI、PCE通胀数据应该会表明美联储应该如何做。 美联储主席沃什在允许美联储内部存在“正常”异议方面做得很好。 拒绝谈论（再次被美国总统特朗普盯上的）美联储理事库克。 并不担心联邦公开市场委员会（FOMC）的现状。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "1fs3bgki364",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2767334.d.html",
+          "title": "哈塞特：如果10月通胀数据确实很高，美联储可能要采取行动",
+          "publishedAt": "2026-10-29T14:38:00.000Z"
+        },
+        {
+          "id": "20e1g1hhgkl",
+          "sourceId": "em-cb",
+          "sourceName": "东方财富·全球央行",
+          "url": "https://finance.eastmoney.com/a/202610293914977864.html",
+          "title": "白宫经济顾问哈塞特表示：面对10月高通胀数据 美联储大概率将采取适当行动",
+          "publishedAt": "2026-10-29T14:39:00.000Z"
+        },
+        {
+          "id": "szh0dhd1ad",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2767556.d.html",
+          "title": "哈塞特：面对10月高通胀数据，美联储大概率将采取适当行动",
+          "publishedAt": "2026-10-29T14:39:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 4,
+        "sources": [
+          "wscn-global",
+          "sina",
+          "em-cb"
+        ],
+        "firstPublishedAt": "2026-10-29T14:38:00.000Z"
+      }
+    },
+    {
+      "id": "20e1g1hhgkl",
+      "key": "em:202610293914977864",
+      "title": "白宫经济顾问哈塞特表示：面对10月高通胀数据 美联储大概率将采取适当行动",
+      "url": "https://finance.eastmoney.com/a/202610293914977864.html",
+      "lang": "zh",
+      "sourceId": "em-cb",
+      "sourceName": "东方财富·全球央行",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:39:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "policy-us",
+        "macro-us"
+      ],
+      "excerpt": "白宫经济顾问哈塞特表示，面对10月高通胀数据，美联储大概率将采取适当行动。",
+      "dupOf": "xy9pl5mu3z"
+    },
+    {
+      "id": "szh0dhd1ad",
+      "key": "sina:5180301",
+      "title": "哈塞特：面对10月高通胀数据，美联储大概率将采取适当行动",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2767556.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:39:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "flag": 1,
+      "dupOf": "xy9pl5mu3z"
+    },
+    {
+      "id": "1fs3bgki364",
+      "key": "sina:5180299",
+      "title": "哈塞特：如果10月通胀数据确实很高，美联储可能要采取行动",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2767334.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:38:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "flag": 1,
+      "dupOf": "xy9pl5mu3z"
+    },
+    {
+      "id": "28f1a9yanip",
+      "key": "sina:5180289",
+      "title": "欧洲央行行长拉加德：有很多比我更优秀的候选人",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2764505.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:32:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "qqcykn4yfh",
+      "key": "sina:5180285",
+      "title": "欧洲央行行长拉加德：我的声音有助于推动我所珍视的原则",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2763522.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:30:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "2yxiftsdgm",
+      "key": "sina:5180284",
+      "title": "欧洲央行行长拉加德：作为欧洲央行行长，我们有保持中立的义务",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5987352.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:30:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "wqtbh4iry8",
+      "key": "sina:5180283",
+      "title": "欧洲央行行长拉加德：我提前卸任是为了能对非货币政策事务自由表达意见",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2763235.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:30:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "1o7l66aj4sq",
+      "key": "sina:5180277",
+      "title": "欧洲央行行长拉加德：任何时候都不是离开的好时机",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekt5192338.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:29:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "1q3tg8o800a",
+      "key": "sina:5180276",
+      "title": "欧洲央行行长拉加德：今年剩余时间协商工资涨幅预计为2.5%至2.8%",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5986587.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:29:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "s3dbo288s4",
+      "key": "sina:5180275",
+      "title": "欧洲央行行长拉加德：我们不会改变债券赎回政策",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2762485.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:28:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "zrdzfgiolc",
+      "key": "sina:5180274",
+      "title": "欧洲央行行长拉加德：没有进行再平衡的安排",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5986429.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:28:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "j4ton9dflz",
+      "key": "sina:5180257",
+      "title": "欧洲央行行长拉加德：在2月7日之前，我将继续负责并专注于工作",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5980948.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:19:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "2aulzm2s3bh",
+      "key": "sina:5180254",
+      "title": "欧洲央行行长拉加德：欧洲央行的业务连续性从未中断，我相信这种情况会持续下去",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekr8735856.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:18:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "1mbilh2y6wy",
+      "key": "sina:5180253",
+      "title": "欧洲央行行长拉加德：欧洲央行治理在过去已证明其稳健性",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5980595.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:18:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "wrk8bpuq8p",
+      "key": "sina:5180251",
+      "title": "欧洲央行行长拉加德：我们没有限制会议次数的计划",
+      "url": "https://finance.sina.com.cn/7x24/",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:17:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "flag": 1,
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "cgh9si8krf",
+      "key": "sina:5180249",
+      "title": "欧洲央行行长拉加德：除非出现意外，欧洲央行的政策方向相当明确",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5979918.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:17:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "2aq8roushvh",
+      "key": "sina:5180248",
+      "title": "欧洲央行行长拉加德：我们没有限制会议次数的计划",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2755742.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:16:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "8n0f2kqd9k",
+      "key": "sina:5180247",
+      "title": "欧洲央行行长拉加德：利率的走向非常明确",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5979387.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:16:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "16es3qoqh3s",
+      "key": "sina:5180237",
+      "title": "欧洲央行行长拉加德：欧洲央行有工具应对传导中断问题",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5978338.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:14:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "psqsz4422f",
+      "key": "sina:5180235",
+      "title": "欧洲央行行长拉加德：财政计划必须符合欧盟财政框架",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2753944.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:14:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "kkctks7n62",
+      "key": "sina:5180233",
+      "title": "欧洲央行行长拉加德：高负债国家在制定财政政策时必须考虑到利率上升且可能将维持在高位这一因素",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5977774.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:13:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "16s66n2c6hx",
+      "key": "sina:5180232",
+      "title": "欧洲央行行长拉加德：超大规模企业发债是推高收益率的因素之一",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekt5183506.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:13:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "2bj3xdalppe",
+      "key": "sina:5180230",
+      "title": "欧洲央行行长拉加德：我们不仅关注10年期债券，还关注整个债券收益率曲线",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekt5183037.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:12:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "gvm0ax2fet",
+      "key": "sina:5180229",
+      "title": "欧洲央行行长拉加德：全球范围内长端收益率曲线已上行",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5976959.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:12:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "1oyg52jv07u",
+      "key": "url:cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
+      "title": "Third-quarter U.S. GDP increases a better-than-expected 3.4% as September inflation accelerates",
+      "url": "https://www.cnbc.com/2026/10/29/pce-inflation-report-september-2026-.html",
+      "lang": "en",
+      "sourceId": "cnbc-economy",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T14:11:31.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "macro-us"
+      ],
+      "excerpt": "The personal consumption expenditures price index was projected to increase 0.5% in September for an annual rate of 3.7%, according to the Dow Jones consensus.",
+      "ai": {
+        "title": "三季度美国GDP增长3.4%超预期，9月通胀加速",
+        "summary": "三季度美国GDP增长3.4%，9月通胀加速。",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:27.622Z"
+      }
+    },
+    {
+      "id": "143h8ibhydj",
+      "key": "sina:5180226",
+      "title": "欧洲央行行长拉加德：潜在通胀可能在决策中占据特殊地位",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5976002.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:10:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "nmxncedc5l",
+      "key": "sina:5180225",
+      "title": "欧洲央行行长拉加德：欧洲央行12月很可能给出多种情景预测",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5975893.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:10:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "263zxpgrzz3",
+      "key": "sina:5180223",
+      "title": "欧洲央行行长拉加德：六周的额外信息将让我们获得更多信息",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2751658.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:10:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "1u0kpiweogs",
+      "key": "sina:5180218",
+      "title": "欧洲央行行长拉加德：未来一段时间将信息密集",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekr8730476.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:08:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "1vjuf2gui88",
+      "key": "sina:5180215",
+      "title": "欧洲央行行长拉加德：当前处境足以等待更多数据",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekr8730133.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:08:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "1ixezpmbxmj",
+      "key": "sina:5180214",
+      "title": "欧洲央行行长拉加德：一致决定，欧洲央行已处于足够有利的位置",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2749135.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:06:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "1ge3xqom61r",
+      "key": "wscn:3190584",
+      "title": "欧洲央行行长拉加德：委员会讨论了加息（这个选项）是否适宜",
+      "url": "https://wallstreetcn.com/livenews/3190584",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:05:49.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "欧洲央行行长拉加德：委员会讨论了加息（这个选项）是否适宜。 官员们一致决定，欧洲央行（在采取货币政策行动方面）显然已经准备就绪。 我们准备就绪，等待掌握更多数据。 未来一段时期将掌握大量信息。 审慎、渐进的方式仍然是合适的。",
+      "flag": 1,
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "29mvfv5vi0n",
+      "key": "sina:5180213",
+      "title": "欧洲央行行长拉加德：目前采取审慎的措施仍然是合适的",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2748822.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:05:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "1o9k7wy7y39",
+      "key": "sina:5180212",
+      "title": "欧洲央行行长拉加德：基于不确定性、潜在通胀未变，管委会一致决定维持利率不变",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5972659.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:05:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "lf97ltf9yt",
+      "key": "sina:5180210",
+      "title": "欧洲央行行长拉加德：管委会讨论了此次加息是否合适",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5972320.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:05:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "2bruyi9hyuh",
+      "key": "em:202610293914932995",
+      "title": "拉加德：目前未看到第二轮效应的实质性风险",
+      "url": "https://finance.eastmoney.com/a/202610293914932995.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:04:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "拉加德称，目前未看到第二轮效应的实质性风险。并表示，委员会讨论了加息这个选项是否适宜；自9月份以来，长期融资的成本已经上涨。",
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "1pwe6cgt4ch",
+      "key": "sina:5180209",
+      "title": "欧洲央行行长拉加德：自9月以来，长期融资成本已上升",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2748032.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:04:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "f1imkvmn8g",
+      "key": "wscn:3190582",
+      "title": "拉加德：欧洲央行还没有看到实质性的第二轮效应",
+      "url": "https://wallstreetcn.com/livenews/3190582",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:02:54.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "欧洲央行行长拉加德：尤其留意第二轮效应。 除了（所给）预期所覆盖的内容，还没有看到其他的实质性风险。",
+      "flag": 1,
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "pwb37d0png",
+      "key": "sina:5180205",
+      "title": "欧洲央行行长拉加德：未看到预测所涵盖风险之外的其他风险",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2746808.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:02:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "19xbo7y4ovd",
+      "key": "sina:5180204",
+      "title": "欧洲央行行长拉加德：已特别关注第二轮效应的风险",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekr8726496.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:02:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "xm8stzijdg",
+      "key": "url:ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
+      "title": "Christine Lagarde, Boris Vujčić: Monetary policy statement",
+      "url": "https://www.ecb.europa.eu//press/press_conference/monetary-policy-statement/2026/html/ecb.is261029~5c5ffe99e5.en.html",
+      "lang": "en",
+      "sourceId": "ecb",
+      "sourceName": "欧洲央行",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-29T14:00:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 30,
+      "topics": [
+        "cb"
+      ]
+    },
+    {
+      "id": "cvg9osfawz",
+      "key": "sina:5180199",
+      "title": "王毅同冰岛外长贡纳尔斯多蒂尔会谈",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekt5175058.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:59:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "2026年10月29日，中共中央政治局委员、外交部长王毅在北京同冰岛外长贡纳尔斯多蒂尔举行会谈。王毅表示，中冰关系发展的成功经验是坚持大小国家一律平等，尊重彼此自主选择的发展道路，在相互信任的基础上实现合作共赢。中方赞赏冰岛始终奉行一个中国政策，双方要继续巩固友好互信，支持彼此捍卫主权、安全和发展利益。中国市场巨大，并将继续坚持高水平对外开放。中方愿同冰方共享发展机遇，挖掘合作潜力，加强经贸、地热、绿色转型、海洋、北极等领域合作，增进旅游、联合科研、人才培养等方面交流，大力促进两国民心相通。面对当前动荡的国际形势，双方要加强协作，共同维护多边主义、国际…",
+      "related": [
+        {
+          "id": "1dgxmpurd98",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.com.cn/7x24/",
+          "title": "王毅同冰岛外长贡纳尔斯多蒂尔会谈",
+          "publishedAt": "2026-10-29T16:23:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "sina"
+        ],
+        "firstPublishedAt": "2026-10-29T13:59:00.000Z"
+      }
+    },
+    {
+      "id": "97ksxchu55",
+      "key": "sina:5180196",
+      "title": "欧洲央行行长拉加德：自上次会议以来，金融环境已收紧",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5967624.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:58:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "o7l9tltj4m",
+      "key": "sina:5180194",
+      "title": "欧洲央行行长拉加德：通胀前景面临的风险偏向上行",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2743171.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:57:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "9l54p2thjn",
+      "key": "sina:5180192",
+      "title": "欧洲央行行长拉加德：财政不确定性可能会打击信心",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5966176.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:55:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "h2x8vpc058",
+      "key": "sina:5180191",
+      "title": "欧洲央行行长拉加德：市场情绪恶化可能会收紧融资条件，抑制需求",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekr8722468.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:55:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "1p0xi9r2j99",
+      "key": "em:202610293914897227",
+      "title": "白宫国家经济委员会主任哈塞特：特朗普尊重美联储的独立性 认为利率可以更低",
+      "url": "https://finance.eastmoney.com/a/202610293914897227.html",
+      "lang": "zh",
+      "sourceId": "em-cb",
+      "sourceName": "东方财富·全球央行",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:52:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "policy-us"
+      ],
+      "excerpt": "白宫国家经济委员会主任哈塞特表示，特朗普尊重美联储的独立性，认为利率可以更低。",
+      "dupOf": "tz04j7swpr"
+    },
+    {
+      "id": "11g7vs0ip4d",
+      "key": "em:202610293914892314",
+      "title": "白宫国家经济委员会主任哈塞特：通胀基本符合预期 美国经济有望实现4%的增长",
+      "url": "https://finance.eastmoney.com/a/202610293914892314.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:48:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us",
+        "macro-us"
+      ],
+      "excerpt": "白宫国家经济委员会主任哈塞特表示，通胀基本符合预期，美国经济有望实现4%的增长。",
+      "dupOf": "tz04j7swpr"
+    },
+    {
+      "id": "tz04j7swpr",
+      "key": "wscn:3190571",
+      "title": "白宫国家经济委员会主任哈塞特：通胀基本符合预期",
+      "url": "https://wallstreetcn.com/livenews/3190571",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:46:33.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 34,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "白宫国家经济委员会主任哈塞特：通胀基本符合预期。 GDP有望实现4%的增长。 供给侧繁荣正在对物价形成下行压力。 特朗普对沃什评价很高。 特朗普认为利率可以更低。 特朗普尊重美联储的独立性。 我们在数据中心融资方面看到了良好的机会。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "11g7vs0ip4d",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202610293914892314.html",
+          "title": "白宫国家经济委员会主任哈塞特：通胀基本符合预期 美国经济有望实现4%的增长",
+          "publishedAt": "2026-10-29T13:48:00.000Z"
+        },
+        {
+          "id": "1p0xi9r2j99",
+          "sourceId": "em-cb",
+          "sourceName": "东方财富·全球央行",
+          "url": "https://finance.eastmoney.com/a/202610293914897227.html",
+          "title": "白宫国家经济委员会主任哈塞特：特朗普尊重美联储的独立性 认为利率可以更低",
+          "publishedAt": "2026-10-29T13:52:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "wscn-global",
+          "em-commodity",
+          "em-cb"
+        ],
+        "firstPublishedAt": "2026-10-29T13:46:33.000Z"
+      }
+    },
+    {
+      "id": "1646tpfkd6p",
+      "key": "cls:2519725",
+      "title": "谷歌盘初大跌超13% 创其纪录最大跌幅 总市值蒸发5000亿美元",
+      "url": "https://www.cls.cn/detail/2519725",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:33:08.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "谷歌母公司Alphabet美股开盘大跌，现将跌幅扩大至13%，报283美元，市值较前一交易日收盘减少逾5000亿美元。如果Alphabet周四收盘跌幅超过10%，将创下谷歌2004年上市以来的最大财报后单日跌幅。公司第三季度营收1275.8亿美元，同比增长25%，低于市场预期的1279.1亿美元；调整后每股收益2.67美元，低于预期的2.97美元。谷歌云营收同比增长103%至307.1亿美元，但核心广告业务表现不及预期，自由现金流录得净流出90.7亿美元。市场担忧AI投入持续攀升之际，搜索广告增长放缓或进一步加大盈",
+      "flag": 1
+    },
+    {
+      "id": "26fcas4hnk5",
+      "key": "wscn:3190561",
+      "title": "美股三大股指集体低开，道指跌0.45%，标普500指数跌0.5%，纳指跌1.35%",
+      "url": "https://wallstreetcn.com/livenews/3190561",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:31:06.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "美股三大股指集体低开，道指跌0.45%，标普500指数跌0.5%，纳指跌1.35%。Alphabet大跌超11%拖累AI软件股走低，其Q3营收不及预期，现金消耗加剧。Lumentum涨超3%，迈威尔科技跌超11%，报道称迈威尔科技洽谈收购数据中心光模块厂商Lumentum，预计最快下周宣布。Caterpillar开盘下跌12%，较6月高点已跌40%。ServiceNow大跌22%，创2016年以来最大盘中跌幅。",
+      "flag": 1,
+      "dupOf": "13khw49rb11"
+    },
+    {
+      "id": "7ab8xr4x7w",
+      "key": "cls:2519722",
+      "title": "美股三大指数集体低开 谷歌跌逾11%、市值蒸发超4000亿美元",
+      "url": "https://www.cls.cn/detail/2519722",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:30:39.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "美股三大指数集体低开，道琼斯指数跌0.65%，标普500指数跌0.53%，纳斯达克综合指数跌1.32%。谷歌跌逾11%，市值蒸发超4000亿美元；微软涨超1%，飞塔信息跌超26%，ServiceNow跌超18%，卡特彼勒跌超11%；礼来、eBay涨超3%，以上公司均公布财报。Lumentum涨超3%，迈威尔科技跌超11%；迈威尔科技据悉正就收购光学器件制造商Lumentum进行深入谈判。",
+      "flag": 1,
+      "dupOf": "13khw49rb11"
+    },
+    {
+      "id": "1sjckqn13ko",
+      "key": "wscn:3190552",
+      "title": "交易员削减欧洲央行加息押注，2027年底前定价68个基点",
+      "url": "https://wallstreetcn.com/livenews/3190552",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:19:18.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "jjx9qaotjr",
+      "key": "wscn:3190549",
+      "title": "欧洲央行：能源价格持续上涨，对通胀前景构成上行风险，对增长前景构成下行风险",
+      "url": "https://wallstreetcn.com/livenews/3190549",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:16:50.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "欧洲央行：能源价格持续上涨，对通胀前景构成上行风险，对增长前景构成下行风险。 仍有能力应对当前高企的不确定性。 尽管能源冲击的全部影响仍在显现，但核心通胀至今大致保持稳定，工资目前尚未出现明显反应。 管理委员会的利率决策将基于对通胀前景及其风险的评估，结合最新经济金融数据以及核心通胀的动态。 能源冲击的幅度和持续时间增加，以及间接效应和二阶效应的影响，可能推高通胀并抑制增长。 自管理委员会上次会议以来，融资条件已收紧，这可能对通胀和增长构成压力。",
+      "flag": 1
+    },
+    {
+      "id": "16qbicc27cg",
+      "key": "em:202610293914840696",
+      "title": "欧洲央行承诺将通胀率稳定在2%的中期目标水平",
+      "url": "https://finance.eastmoney.com/a/202610293914840696.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:16:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "欧洲央行承诺将通胀率稳定在2%的中期目标水平，会随时准备调整所有工具。"
+    },
+    {
+      "id": "2gmi5p2r5vk",
+      "key": "cls:2519695",
+      "title": "欧央行维持三大关键利率不变 符合市场预期",
+      "url": "https://www.cls.cn/detail/2519695",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:15:11.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "欧洲央行分别将存款机制利率、主要再融资利率、边际贷款利率维持在2.50%、2.65%、2.90%不变，符合市场预期。",
+      "flag": 1,
+      "dupOf": "1hcrmwzwfiv"
+    },
+    {
+      "id": "uyw88ze8wg",
+      "key": "wscn:3190547",
+      "title": "欧元区欧洲央行主要再融资利率 2.65%，预期 2.65%，前值 2.65%",
+      "url": "https://wallstreetcn.com/livenews/3190547",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:15:02.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "flag": 2
+    },
+    {
+      "id": "1wxjavs1ip6",
+      "key": "wscn:3190546",
+      "title": "欧元区欧洲央行存款便利利率 2.5%，预期 2.5%，前值 2.5%",
+      "url": "https://wallstreetcn.com/livenews/3190546",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:15:02.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "flag": 2
+    },
+    {
+      "id": "2bokwo1dx7v",
+      "key": "wscn:3190545",
+      "title": "欧元区欧洲央行边际贷款利率 2.9%，预期 2.9%，前值 2.9%",
+      "url": "https://wallstreetcn.com/livenews/3190545",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:15:02.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "flag": 2
+    },
+    {
+      "id": "1hcrmwzwfiv",
+      "key": "em:202610293914836746",
+      "title": "欧洲央行维持三大关键利率不变 符合市场预期",
+      "url": "https://finance.eastmoney.com/a/202610293914836746.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:15:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "欧洲央行分别将存款机制利率、主要再融资利率、边际贷款利率维持在2.50%、2.65%、2.90%不变，符合市场预期。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "2gmi5p2r5vk",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2519695",
+          "title": "欧央行维持三大关键利率不变 符合市场预期",
+          "publishedAt": "2026-10-29T13:15:11.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "em-focus",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-10-29T13:15:00.000Z"
+      }
+    },
+    {
+      "id": "1b7hcdkf98g",
+      "key": "url:ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+      "title": "Monetary policy decisions",
+      "url": "https://www.ecb.europa.eu//press/pr/date/2026/html/ecb.mp261029~9a493adf17.en.html",
+      "lang": "en",
+      "sourceId": "ecb",
+      "sourceName": "欧洲央行",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-29T13:15:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 30,
+      "topics": [
+        "cb"
+      ],
+      "ai": {
+        "title": "货币政策决定",
+        "summary": "央行公布最新货币政策决定。",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:27.622Z"
+      }
+    },
+    {
+      "id": "3yo5kzmf2u",
+      "key": "wscn:3190539",
+      "title": "周四美股盘前你需要了解的全球要闻",
+      "url": "https://wallstreetcn.com/livenews/3190539",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:01:48.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks",
+        "macro-us"
+      ],
+      "excerpt": "美国三季度GDP年化增长3.4%，为一年来最快，但通胀压力重燃。 美国9月PCE物价指数同比3.6%，为5月以来最高，核心指数同比加速至3.1%。 欧洲央行确认，行长拉加德将提前8个月卸任。 三星电子提高资本支出计划规模，但第三季度芯片利润不及预期，且延后公布股东回报具体计划。 三星电话会：存储短缺或至2028年，AI需求从HBM扩展至SSD，内存商业模式正彻底重塑。 微软时隔逾九年重返美国高评级债市，拟筹资至少250亿美元。 礼来Q3营收同比增长39%大超预期，GLP-1贡献逾六成营收，年内第三次上调全年指引。 报道：DoorDash收购Instac…",
+      "flag": 2
+    },
+    {
+      "id": "vdfi0il5yr",
+      "key": "em:202610293914786485",
+      "title": "“新美联储通讯社”：若核心商品价格持续上涨 服务价格须更明显放缓",
+      "url": "https://finance.eastmoney.com/a/202610293914786485.html",
+      "lang": "zh",
+      "sourceId": "em-cb",
+      "sourceName": "东方财富·全球央行",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T13:01:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "excerpt": "“新美联储通讯社”NickTimiraos：9月核心PCE服务价格（不含住房）上涨0.37%，推动12个月同比涨幅升至3.6%，与2024年以来最高读数持平。核心商品价格也表现坚挺，上涨0.20%。2024年期间，核心商品价格曾出现同比下跌（这与疫情前的趋势一致），但目前其涨幅已达到2%。如果未来核心商品价格持续以此速度上涨，那么服务价格必须出现更明显的放缓，美联储才有可能实现其2%的通胀目标。"
+    },
+    {
+      "id": "ih0yefpd8c",
+      "key": "wscn:3190528",
+      "title": "美国三季度GDP数据速评",
+      "url": "https://wallstreetcn.com/livenews/3190528",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:37:33.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "excerpt": "美国经济第三季度增长3.4%，超预期且为一年最快增速。经济继续受到企业支出强劲的推动，这主要与人工智能相关投资有关。第三季度设备支出对GDP的贡献，是2011年以来除疫情反弹期之外的最大幅度。尽管消费者因生活成本担忧而导致的情绪处于历史低位，但家庭支出依然强劲，已连续两个季度按年化增长3.8%。",
+      "flag": 1
+    },
+    {
+      "id": "29uvimmbfes",
+      "key": "em:202610293914735690",
+      "title": "美国9月核心PCE同比上涨3.1% 美联储12月或加息25个基点",
+      "url": "https://finance.eastmoney.com/a/202610293914735690.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:37:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "excerpt": "美国商务部公布的数据显示，9月美国个人消费支出价格指数同比上涨3.6%，剔除食品和能源价格后的核心个人消费支出价格指数同比上涨3.1%。分析认为，受中东地缘冲突推升国际油价影响，能源价格上涨带动9月整体通胀反弹，市场关注企业是否将燃油成本转嫁给消费者。核心PCE是美联储最看重的通胀指标，其服务业分项反映国内价格压力是否顽固，一旦该细分项数据进一步走高，金融市场将更多押注美联储在今年12月举行的议息会议上加息25个基点。",
+      "flag": 1,
+      "dupOf": "7w4jxior5d"
+    },
+    {
+      "id": "7w4jxior5d",
+      "key": "cls:2519627",
+      "title": "美国9月核心PCE同比上涨3.1% 美联储12月或加息25个基点",
+      "url": "https://www.cls.cn/detail/2519627",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:36:42.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 34,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "excerpt": "美国商务部公布的数据显示，9月美国个人消费支出价格指数同比上涨3.6%，剔除食品和能源价格后的核心个人消费支出价格指数同比上涨3.1%。分析认为，受中东地缘冲突推升国际油价影响，能源价格上涨带动9月整体通胀反弹，市场关注企业是否将燃油成本转嫁给消费者。核心PCE是美联储最看重的通胀指标，其服务业分项反映国内价格压力是否顽固，一旦该细分项数据进一步走高，金融市场将更多押注美联储在今年12月举行的议息会议上加息25个基点。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "1c6d2keil6d",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3190513",
+          "title": "美国9月核心PCE物价指数同比 3.12%，预期 3.1%，前值 3%",
+          "publishedAt": "2026-10-29T12:30:08.000Z"
+        },
+        {
+          "id": "29uvimmbfes",
+          "sourceId": "em-focus",
+          "sourceName": "东方财富",
+          "url": "https://finance.eastmoney.com/a/202610293914735690.html",
+          "title": "美国9月核心PCE同比上涨3.1% 美联储12月或加息25个基点",
+          "publishedAt": "2026-10-29T12:37:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "cls",
+          "wscn-global",
+          "em-focus"
+        ],
+        "firstPublishedAt": "2026-10-29T12:30:08.000Z"
+      }
+    },
+    {
+      "id": "2ergrdj3qz8",
+      "key": "wscn:3190523",
+      "title": "欧洲央行利率决议看点前瞻",
+      "url": "https://wallstreetcn.com/livenews/3190523",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:33:45.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "①市场普遍预计欧洲央行本周将维持利率在2.5%不变。 ②市场关注焦点转向欧洲央行是否会在12月进行今年第三次加息，以及对2028年通胀路径的指引。 ③重点关注欧洲央行对法国主权债券收益率飙升、能源价格上涨以及中东局势对通胀影响的表态。 ④投资者将密切关注欧洲央行是否暗示可能暂停量化紧缩（QT），或使用传导保护工具（TPI）来应对法国市场压力。 ⑤欧洲央行行长拉加德将在新闻发布会上回应本人即将提前卸任等问题。",
+      "flag": 1
+    },
+    {
+      "id": "1t3ivyxhq6u",
+      "key": "cls:2519618",
+      "title": "美国第三季度GDP季调后环比折年率初值为3.4% 预估为3.2%",
+      "url": "https://www.cls.cn/detail/2519618",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:31:15.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 34,
+      "topics": [
+        "macro-us"
+      ],
+      "excerpt": "美国第三季度GDP季调后环比折年率初值为3.4%，预估为3.2%，前值为2.2%。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "1im4cdn6eno",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3190519",
+          "title": "美国三季度实际GDP年化季环比初值 3.4%，预期 3.2%，前值 2.2%",
+          "publishedAt": "2026-10-29T12:30:10.000Z"
+        },
+        {
+          "id": "1jufqrvys1c",
+          "sourceId": "em-focus",
+          "sourceName": "东方财富",
+          "url": "https://finance.eastmoney.com/a/202610293914707332.html",
+          "title": "美国第三季度GDP季调后环比折年率初值为3.4% 预估为3.2%",
+          "publishedAt": "2026-10-29T12:31:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "cls",
+          "wscn-global",
+          "em-focus"
+        ],
+        "firstPublishedAt": "2026-10-29T12:30:10.000Z"
+      }
+    },
+    {
+      "id": "1spuyuhvy4u",
+      "key": "cls:2519617",
+      "title": "美国9月PCE物价指数环比上涨0.5%，同比上涨3.6%，均符合预期",
+      "url": "https://www.cls.cn/detail/2519617",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:31:01.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 1,
+      "dupOf": "5ppba8p14a"
+    },
+    {
+      "id": "1jufqrvys1c",
+      "key": "em:202610293914707332",
+      "title": "美国第三季度GDP季调后环比折年率初值为3.4% 预估为3.2%",
+      "url": "https://finance.eastmoney.com/a/202610293914707332.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:31:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "excerpt": "美国第三季度GDP季调后环比折年率初值为3.4%，预估为3.2%。",
+      "flag": 1,
+      "dupOf": "1t3ivyxhq6u"
+    },
+    {
+      "id": "1rz0mobyjuh",
+      "key": "cls:2519615",
+      "title": "美国9月核心PCE价格指数环比增长0.3% 符合市场预期",
+      "url": "https://www.cls.cn/detail/2519615",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:30:24.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "macro-us"
+      ],
+      "excerpt": "美国9月核心个人消费支出价格指数环比增长0.3%，预估为0.3%，前值为0.2%。同比增长3.1%，预估3.1%。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "1214dvk2ni0",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3190517",
+          "title": "美国9月核心PCE物价指数环比 0.3%，预期 0.3%，前值 0.2%",
+          "publishedAt": "2026-10-29T12:30:08.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "cls",
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-10-29T12:30:08.000Z"
+      }
+    },
+    {
+      "id": "7bkkfnlpni",
+      "key": "cls:2519614",
+      "title": "美国上周首次申领失业救济人数为19.4万人 低于市场预期",
+      "url": "https://www.cls.cn/detail/2519614",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:30:18.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "macro-us"
+      ],
+      "excerpt": "美国上周首次申领失业救济人数为19.4万人，预估为19.8万人，前值为19.4万人。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "21owstauw3y",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3190509",
+          "title": "美国10月24日当周首次申请失业救济人数 19.4万人，预期 19.8万人，前值 19.4万人",
+          "publishedAt": "2026-10-29T12:30:02.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "cls",
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-10-29T12:30:02.000Z"
+      }
+    },
+    {
+      "id": "f5k8aqhgjy",
+      "key": "wscn:3190520",
+      "title": "美国9月PCE物价指数同比 3.6%，预期 3.6%，前值 3.4%",
+      "url": "https://wallstreetcn.com/livenews/3190520",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:30:10.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "1im4cdn6eno",
+      "key": "wscn:3190519",
+      "title": "美国三季度实际GDP年化季环比初值 3.4%，预期 3.2%，前值 2.2%",
+      "url": "https://wallstreetcn.com/livenews/3190519",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:30:10.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 2,
+      "dupOf": "1t3ivyxhq6u"
+    },
+    {
+      "id": "1xagesyc29v",
+      "key": "wscn:3190518",
+      "title": "美国三季度核心个人消费支出(PCE)物价指数年化季环比初值 2.5%，预期 2.4%，前值 3.3%",
+      "url": "https://wallstreetcn.com/livenews/3190518",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:30:08.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "1214dvk2ni0",
+      "key": "wscn:3190517",
+      "title": "美国9月核心PCE物价指数环比 0.3%，预期 0.3%，前值 0.2%",
+      "url": "https://wallstreetcn.com/livenews/3190517",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:30:08.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 2,
+      "dupOf": "1rz0mobyjuh"
+    },
+    {
+      "id": "niij45w5c5",
+      "key": "wscn:3190516",
+      "title": "美国9月个人消费支出(PCE)环比 0.5%，预期 0.6%，前值 0.9%",
+      "url": "https://wallstreetcn.com/livenews/3190516",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:30:08.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "1ovttq47yzu",
+      "key": "wscn:3190514",
+      "title": "美国9月实际个人消费支出(PCE)环比 0%，预期 0.1%，前值 0.6%",
+      "url": "https://wallstreetcn.com/livenews/3190514",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:30:08.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "1c6d2keil6d",
+      "key": "wscn:3190513",
+      "title": "美国9月核心PCE物价指数同比 3.12%，预期 3.1%，前值 3%",
+      "url": "https://wallstreetcn.com/livenews/3190513",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:30:08.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 1,
+      "dupOf": "7w4jxior5d"
+    },
+    {
+      "id": "5ppba8p14a",
+      "key": "wscn:3190512",
+      "title": "美国9月PCE物价指数环比 0.5%，预期 0.5%，前值 0.3%",
+      "url": "https://wallstreetcn.com/livenews/3190512",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:30:08.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 1,
+      "related": [
+        {
+          "id": "1spuyuhvy4u",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2519617",
+          "title": "美国9月PCE物价指数环比上涨0.5%，同比上涨3.6%，均符合预期",
+          "publishedAt": "2026-10-29T12:31:01.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "wscn-global",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-10-29T12:30:08.000Z"
+      }
+    },
+    {
+      "id": "rgkjrfa42q",
+      "key": "wscn:3190511",
+      "title": "美国三季度个人消费支出(PCE)年化季环比初值 3.8%，预期 3.4%，前值 3.8%",
+      "url": "https://wallstreetcn.com/livenews/3190511",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:30:08.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "4vyscn4z80",
+      "key": "wscn:3190510",
+      "title": "美国三季度GDP平减指数年化季环比初值 2.3，预期 3.2，前值 6.1",
+      "url": "https://wallstreetcn.com/livenews/3190510",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:30:08.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "21owstauw3y",
+      "key": "wscn:3190509",
+      "title": "美国10月24日当周首次申请失业救济人数 19.4万人，预期 19.8万人，前值 19.4万人",
+      "url": "https://wallstreetcn.com/livenews/3190509",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:30:02.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 2,
+      "dupOf": "7bkkfnlpni"
+    },
+    {
+      "id": "j9mympbnau",
+      "key": "wscn:3190508",
+      "title": "美国10月17日当周续请失业救济人数 170.1万人，预期 172万人，前值 172.8万人",
+      "url": "https://wallstreetcn.com/livenews/3190508",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:30:02.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "hntspe6rzx",
+      "key": "cls:2519609",
+      "title": "美股盘前要闻一览：微软拟发行美元债募资250亿美元；迈威尔科技拟收购Lumentum；苹果发布首款触控屏MacBook Pro",
+      "url": "https://www.cls.cn/detail/2519609",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:17:45.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 22,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "投资者需重点关注的美股市场财经要闻如下： 1、美三大股指期货集体下挫。道琼斯指数期货跌0.33%，标普500指数期货跌0.44%，纳斯达克100指数期货跌1.28%。 2、国际油价集体走低。WTI原油期货价格跌0.78%，报101.979美元/桶；布伦特原油期货价格跌0.90%，报110.632美元/桶。 3、国际金银现货双双下跌。现货黄金价格跌0.91%，报4030.21美元/盎司；现货白银价格跌2.43%，报52.63美元/盎司。 4、欧洲",
+      "flag": 1
+    },
+    {
+      "id": "ix1f2e8i3u",
+      "key": "url:ft.com/content/54c236ef-af7a-40df-9f0f-abf3d6c825d2?syn-25a6b1a6=1",
+      "title": "Crypto exchange HTX agrees to exit UK after being sued by watchdog",
+      "url": "https://www.ft.com/content/54c236ef-af7a-40df-9f0f-abf3d6c825d2?syn-25a6b1a6=1",
+      "lang": "en",
+      "sourceId": "ft-markets",
+      "sourceName": "FT",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T12:12:38.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "Venture linked to billionaire Trump backer Justin Sun sued by FCA for ‘unlawfully promoting crypto asset services’"
+    },
+    {
+      "id": "2491pou7p0",
+      "key": "wscn:3190471",
+      "title": "超8500亿“闲钱”！上市公司理财生变：券商信托产品升温，银行理财占比回落",
+      "url": "https://wallstreetcn.com/livenews/3190471",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T11:54:12.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "近日，记者根据Wind数据统计梳理，2026年前三季度，已有1141家A股上市公司发布认购各类理财产品公告（含存款），累计认购规模突破8520亿元，持有产品数量接近1.3万只。 受公告披露相对滞后因素影响，后续认购总规模仍有可能出现小幅变动，但产品配置结构已经出现明显变化：存款类产品（尤其是结构性存款）依旧稳居首位，占比达到76.6%；银行理财认购占比有所回落，券商理财、信托及各类资管产品占比逆势上行。",
+      "flag": 1
+    },
+    {
+      "id": "188mf9lkxih",
+      "key": "em:202610293914639057",
+      "title": "精选 | 夜盘盘前要闻汇总 10月29日 周四",
+      "url": "https://finance.eastmoney.com/a/202610293914639057.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T11:50:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "伊朗军方：在伊方条件满足前霍尔木兹海峡不会开放；美军最高层战略规划官员遭解职，特朗普淡化美伊和谈预期；欧盟石油进口账单飙升！二季度月均多花近100亿欧元。",
+      "flag": 1
+    },
+    {
+      "id": "2g3uhhvubho",
+      "key": "em:202610293914496986",
+      "title": "美军最高层战略规划官员遭解职 特朗普淡化美伊和谈预期",
+      "url": "https://finance.eastmoney.com/a/202610293914496986.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:43:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "据相关媒体报道，美国国防部长赫格塞思已将五角大楼一名最高层军事规划官员解职。此举正值外界担忧，美国可能在中期选举结束后恢复对伊朗发动军事打击。"
+    },
+    {
+      "id": "25w3jlkfuxm",
+      "key": "em:202610293914467543",
+      "title": "美银全球研究预计美联储将在2026年12月和2027年3月各加息25个基点",
+      "url": "https://finance.eastmoney.com/a/202610293914467543.html",
+      "lang": "zh",
+      "sourceId": "em-cb",
+      "sourceName": "东方财富·全球央行",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:32:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "美银全球研究预计，美联储将在2026年12月和2027年3月各加息25个基点。"
+    },
+    {
+      "id": "10golvowzyd",
+      "key": "sina:5179542",
+      "title": "德国财政部长：德国将就欧洲央行领导层继任问题发表意见",
+      "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwwtux5311238.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:24:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ]
+    },
     {
       "id": "12feh3imnbd",
       "key": "url:cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
@@ -18,6 +2739,46 @@
       "topics": [
         "cb"
       ]
+    },
+    {
+      "id": "72wu45fjpa",
+      "key": "em:202610293914397353",
+      "title": "欧洲央行行长拉加德将于2027年2月7日卸任",
+      "url": "https://finance.eastmoney.com/a/202610293914397353.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:01:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "10月29日消息，据报道，欧洲央行行长拉加德将提前卸任。",
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "2c5zqil4kup",
+      "key": "url:ft.com/content/e48bfc16-c7ab-4185-bb61-44491830a5cb?syn-25a6b1a6=1",
+      "title": "Any stock dips after the midterms are likely to be opportunities",
+      "url": "https://www.ft.com/content/e48bfc16-c7ab-4185-bb61-44491830a5cb?syn-25a6b1a6=1",
+      "lang": "en",
+      "sourceId": "ft-markets",
+      "sourceName": "FT",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T10:00:01.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us",
+        "us-stocks"
+      ],
+      "excerpt": "The US economy’s resilience is expected to continue driving US earnings and shares higher even if there is gridlock"
     },
     {
       "id": "2c8qqhwvm40",
@@ -71,7 +2832,7 @@
       "firstSeenAt": "2026-10-29T10:04:27.819Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 34,
+      "score": 42,
       "topics": [
         "cb"
       ],
@@ -101,14 +2862,343 @@
           "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwwtuv8845006.d.html",
           "title": "欧洲央行表示，欧洲理事会将任命欧洲央行行长拉加德的继任者",
           "publishedAt": "2026-10-29T10:00:00.000Z"
+        },
+        {
+          "id": "72wu45fjpa",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202610293914397353.html",
+          "title": "欧洲央行行长拉加德将于2027年2月7日卸任",
+          "publishedAt": "2026-10-29T10:01:00.000Z"
+        },
+        {
+          "id": "9l54p2thjn",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5966176.d.html",
+          "title": "欧洲央行行长拉加德：财政不确定性可能会打击信心",
+          "publishedAt": "2026-10-29T13:55:00.000Z"
+        },
+        {
+          "id": "h2x8vpc058",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekr8722468.d.html",
+          "title": "欧洲央行行长拉加德：市场情绪恶化可能会收紧融资条件，抑制需求",
+          "publishedAt": "2026-10-29T13:55:00.000Z"
+        },
+        {
+          "id": "o7l9tltj4m",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2743171.d.html",
+          "title": "欧洲央行行长拉加德：通胀前景面临的风险偏向上行",
+          "publishedAt": "2026-10-29T13:57:00.000Z"
+        },
+        {
+          "id": "97ksxchu55",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5967624.d.html",
+          "title": "欧洲央行行长拉加德：自上次会议以来，金融环境已收紧",
+          "publishedAt": "2026-10-29T13:58:00.000Z"
+        },
+        {
+          "id": "19xbo7y4ovd",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekr8726496.d.html",
+          "title": "欧洲央行行长拉加德：已特别关注第二轮效应的风险",
+          "publishedAt": "2026-10-29T14:02:00.000Z"
+        },
+        {
+          "id": "pwb37d0png",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2746808.d.html",
+          "title": "欧洲央行行长拉加德：未看到预测所涵盖风险之外的其他风险",
+          "publishedAt": "2026-10-29T14:02:00.000Z"
+        },
+        {
+          "id": "f1imkvmn8g",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3190582",
+          "title": "拉加德：欧洲央行还没有看到实质性的第二轮效应",
+          "publishedAt": "2026-10-29T14:02:54.000Z"
+        },
+        {
+          "id": "1pwe6cgt4ch",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2748032.d.html",
+          "title": "欧洲央行行长拉加德：自9月以来，长期融资成本已上升",
+          "publishedAt": "2026-10-29T14:04:00.000Z"
+        },
+        {
+          "id": "2bruyi9hyuh",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202610293914932995.html",
+          "title": "拉加德：目前未看到第二轮效应的实质性风险",
+          "publishedAt": "2026-10-29T14:04:00.000Z"
+        },
+        {
+          "id": "1o9k7wy7y39",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5972659.d.html",
+          "title": "欧洲央行行长拉加德：基于不确定性、潜在通胀未变，管委会一致决定维持利率不变",
+          "publishedAt": "2026-10-29T14:05:00.000Z"
+        },
+        {
+          "id": "29mvfv5vi0n",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2748822.d.html",
+          "title": "欧洲央行行长拉加德：目前采取审慎的措施仍然是合适的",
+          "publishedAt": "2026-10-29T14:05:00.000Z"
+        },
+        {
+          "id": "lf97ltf9yt",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5972320.d.html",
+          "title": "欧洲央行行长拉加德：管委会讨论了此次加息是否合适",
+          "publishedAt": "2026-10-29T14:05:00.000Z"
+        },
+        {
+          "id": "1ge3xqom61r",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3190584",
+          "title": "欧洲央行行长拉加德：委员会讨论了加息（这个选项）是否适宜",
+          "publishedAt": "2026-10-29T14:05:49.000Z"
+        },
+        {
+          "id": "1ixezpmbxmj",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2749135.d.html",
+          "title": "欧洲央行行长拉加德：一致决定，欧洲央行已处于足够有利的位置",
+          "publishedAt": "2026-10-29T14:06:00.000Z"
+        },
+        {
+          "id": "1u0kpiweogs",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekr8730476.d.html",
+          "title": "欧洲央行行长拉加德：未来一段时间将信息密集",
+          "publishedAt": "2026-10-29T14:08:00.000Z"
+        },
+        {
+          "id": "1vjuf2gui88",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekr8730133.d.html",
+          "title": "欧洲央行行长拉加德：当前处境足以等待更多数据",
+          "publishedAt": "2026-10-29T14:08:00.000Z"
+        },
+        {
+          "id": "143h8ibhydj",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5976002.d.html",
+          "title": "欧洲央行行长拉加德：潜在通胀可能在决策中占据特殊地位",
+          "publishedAt": "2026-10-29T14:10:00.000Z"
+        },
+        {
+          "id": "263zxpgrzz3",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2751658.d.html",
+          "title": "欧洲央行行长拉加德：六周的额外信息将让我们获得更多信息",
+          "publishedAt": "2026-10-29T14:10:00.000Z"
+        },
+        {
+          "id": "nmxncedc5l",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5975893.d.html",
+          "title": "欧洲央行行长拉加德：欧洲央行12月很可能给出多种情景预测",
+          "publishedAt": "2026-10-29T14:10:00.000Z"
+        },
+        {
+          "id": "2bj3xdalppe",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekt5183037.d.html",
+          "title": "欧洲央行行长拉加德：我们不仅关注10年期债券，还关注整个债券收益率曲线",
+          "publishedAt": "2026-10-29T14:12:00.000Z"
+        },
+        {
+          "id": "gvm0ax2fet",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5976959.d.html",
+          "title": "欧洲央行行长拉加德：全球范围内长端收益率曲线已上行",
+          "publishedAt": "2026-10-29T14:12:00.000Z"
+        },
+        {
+          "id": "16s66n2c6hx",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekt5183506.d.html",
+          "title": "欧洲央行行长拉加德：超大规模企业发债是推高收益率的因素之一",
+          "publishedAt": "2026-10-29T14:13:00.000Z"
+        },
+        {
+          "id": "kkctks7n62",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5977774.d.html",
+          "title": "欧洲央行行长拉加德：高负债国家在制定财政政策时必须考虑到利率上升且可能将维持在高位这一因素",
+          "publishedAt": "2026-10-29T14:13:00.000Z"
+        },
+        {
+          "id": "16es3qoqh3s",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5978338.d.html",
+          "title": "欧洲央行行长拉加德：欧洲央行有工具应对传导中断问题",
+          "publishedAt": "2026-10-29T14:14:00.000Z"
+        },
+        {
+          "id": "psqsz4422f",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2753944.d.html",
+          "title": "欧洲央行行长拉加德：财政计划必须符合欧盟财政框架",
+          "publishedAt": "2026-10-29T14:14:00.000Z"
+        },
+        {
+          "id": "2aq8roushvh",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2755742.d.html",
+          "title": "欧洲央行行长拉加德：我们没有限制会议次数的计划",
+          "publishedAt": "2026-10-29T14:16:00.000Z"
+        },
+        {
+          "id": "8n0f2kqd9k",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5979387.d.html",
+          "title": "欧洲央行行长拉加德：利率的走向非常明确",
+          "publishedAt": "2026-10-29T14:16:00.000Z"
+        },
+        {
+          "id": "cgh9si8krf",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5979918.d.html",
+          "title": "欧洲央行行长拉加德：除非出现意外，欧洲央行的政策方向相当明确",
+          "publishedAt": "2026-10-29T14:17:00.000Z"
+        },
+        {
+          "id": "wrk8bpuq8p",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.com.cn/7x24/",
+          "title": "欧洲央行行长拉加德：我们没有限制会议次数的计划",
+          "publishedAt": "2026-10-29T14:17:00.000Z"
+        },
+        {
+          "id": "1mbilh2y6wy",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5980595.d.html",
+          "title": "欧洲央行行长拉加德：欧洲央行治理在过去已证明其稳健性",
+          "publishedAt": "2026-10-29T14:18:00.000Z"
+        },
+        {
+          "id": "2aulzm2s3bh",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekr8735856.d.html",
+          "title": "欧洲央行行长拉加德：欧洲央行的业务连续性从未中断，我相信这种情况会持续下去",
+          "publishedAt": "2026-10-29T14:18:00.000Z"
+        },
+        {
+          "id": "j4ton9dflz",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5980948.d.html",
+          "title": "欧洲央行行长拉加德：在2月7日之前，我将继续负责并专注于工作",
+          "publishedAt": "2026-10-29T14:19:00.000Z"
+        },
+        {
+          "id": "s3dbo288s4",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2762485.d.html",
+          "title": "欧洲央行行长拉加德：我们不会改变债券赎回政策",
+          "publishedAt": "2026-10-29T14:28:00.000Z"
+        },
+        {
+          "id": "zrdzfgiolc",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5986429.d.html",
+          "title": "欧洲央行行长拉加德：没有进行再平衡的安排",
+          "publishedAt": "2026-10-29T14:28:00.000Z"
+        },
+        {
+          "id": "1o7l66aj4sq",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekt5192338.d.html",
+          "title": "欧洲央行行长拉加德：任何时候都不是离开的好时机",
+          "publishedAt": "2026-10-29T14:29:00.000Z"
+        },
+        {
+          "id": "1q3tg8o800a",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5986587.d.html",
+          "title": "欧洲央行行长拉加德：今年剩余时间协商工资涨幅预计为2.5%至2.8%",
+          "publishedAt": "2026-10-29T14:29:00.000Z"
+        },
+        {
+          "id": "2yxiftsdgm",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekn5987352.d.html",
+          "title": "欧洲央行行长拉加德：作为欧洲央行行长，我们有保持中立的义务",
+          "publishedAt": "2026-10-29T14:30:00.000Z"
+        },
+        {
+          "id": "qqcykn4yfh",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2763522.d.html",
+          "title": "欧洲央行行长拉加德：我的声音有助于推动我所珍视的原则",
+          "publishedAt": "2026-10-29T14:30:00.000Z"
+        },
+        {
+          "id": "wqtbh4iry8",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2763235.d.html",
+          "title": "欧洲央行行长拉加德：我提前卸任是为了能对非货币政策事务自由表达意见",
+          "publishedAt": "2026-10-29T14:30:00.000Z"
+        },
+        {
+          "id": "28f1a9yanip",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-29/detail-iniwxekq2764505.d.html",
+          "title": "欧洲央行行长拉加德：有很多比我更优秀的候选人",
+          "publishedAt": "2026-10-29T14:32:00.000Z"
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 45,
         "sources": [
           "cls",
           "sina",
-          "wscn-global"
+          "wscn-global",
+          "em-commodity"
         ],
         "firstPublishedAt": "2026-10-29T09:57:00.000Z"
       }
@@ -257,7 +3347,8 @@
       "category": "industry",
       "score": 15,
       "topics": [
-        "fed"
+        "fed",
+        "us-stocks"
       ],
       "excerpt": "The new chairman made clear he leans toward higher interest rates, but left himself options depending on how the data comes in.",
       "ai": {
@@ -1485,7 +4576,7 @@
       "firstSeenAt": "2026-10-29T10:04:27.819Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 26,
+      "score": 34,
       "topics": [
         "a-shares"
       ],
@@ -1499,13 +4590,30 @@
           "url": "https://finance.eastmoney.com/a/202610293913948829.html",
           "title": "A股三大指数集体收跌 银行板块逆市走强",
           "publishedAt": "2026-10-29T07:00:00.000Z"
+        },
+        {
+          "id": "7ab8xr4x7w",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2519722",
+          "title": "美股三大指数集体低开 谷歌跌逾11%、市值蒸发超4000亿美元",
+          "publishedAt": "2026-10-29T13:30:39.000Z"
+        },
+        {
+          "id": "26fcas4hnk5",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3190561",
+          "title": "美股三大股指集体低开，道指跌0.45%，标普500指数跌0.5%，纳指跌1.35%",
+          "publishedAt": "2026-10-29T13:31:06.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 4,
         "sources": [
           "cls",
-          "em-focus"
+          "em-focus",
+          "wscn-global"
         ],
         "firstPublishedAt": "2026-10-29T01:26:17.000Z"
       }
@@ -3529,6 +6637,27 @@
       }
     },
     {
+      "id": "pl170val4s",
+      "key": "sina:5175076",
+      "title": "A股收评：创业板指高开高走涨3.4%，人形机器人、半导体、光刻机板块涨幅居前",
+      "url": "https://finance.sina.com.cn/7x24/",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-28T07:01:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-28",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "A股三大指数今日集体上涨，截至收盘，上证指数涨0.91%，深证成指涨2.02%，创业板指涨3.4%，北证50涨1.63%，科创50指数涨2.45%。全市场成交额16421亿元，较上日放量1692亿元，全市场超4100只个股上涨。板块题材上，光刻机、减速器、半导体、人形机器人、影视院线板块涨幅居前；白酒、青蒿素、大豆、猪肉、证券板块跌幅居前。盘面上，人形机器人板块全天强势，恒工精密、宁波东力、五洲新春、万向钱潮、大丰实业等十余股涨停，伟创电气、上纬新材、超捷股份等多股涨超10%。半导体板块表现活跃，富瀚微、必易微、金海通涨停，君正股份、灿芯股份、联动科技…",
+      "flag": 1,
+      "dupOf": "1w5llh8gt6c"
+    },
+    {
       "id": "1w5llh8gt6c",
       "key": "em:202610283911792487",
       "title": "A股三大指数反弹 创业板指大涨3.4% 逾4100只股上涨",
@@ -3541,12 +6670,30 @@
       "firstSeenAt": "2026-10-29T10:04:27.819Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "topics": [
         "a-shares"
       ],
       "excerpt": "沪指涨0.91%，深证成指涨2.02%，创业板指涨3.40%。成交额超1.6万亿，航天装备、半导体、非金属材料、医疗服务、电子化学品、元件板块涨幅居前，白酒板块逆市走弱。",
-      "flag": 1
+      "flag": 1,
+      "related": [
+        {
+          "id": "pl170val4s",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.com.cn/7x24/",
+          "title": "A股收评：创业板指高开高走涨3.4%，人形机器人、半导体、光刻机板块涨幅居前",
+          "publishedAt": "2026-10-28T07:01:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "em-focus",
+          "sina"
+        ],
+        "firstPublishedAt": "2026-10-28T07:00:00.000Z"
+      }
     },
     {
       "id": "1ra2uasb92o",
@@ -3566,7 +6713,45 @@
         "a-shares"
       ],
       "excerpt": "A股中际旭创尾盘涨超10%，现报635.86元。",
-      "flag": 1
+      "flag": 1,
+      "dupOf": "59cjadx2fu"
+    },
+    {
+      "id": "59cjadx2fu",
+      "key": "sina:5175029",
+      "title": "中际旭创A股成交额达200亿元",
+      "url": "https://finance.sina.cn/7x24/2026-10-28/detail-iniwuefw6647540.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-28T06:36:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-28",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "10月28日下午，中际旭创A股成交额达200亿元，现涨8.8%。",
+      "related": [
+        {
+          "id": "1ra2uasb92o",
+          "sourceId": "em-focus",
+          "sourceName": "东方财富",
+          "url": "https://finance.eastmoney.com/a/202610283911786625.html",
+          "title": "A股中际旭创尾盘涨超10%",
+          "publishedAt": "2026-10-28T06:54:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "sina",
+          "em-focus"
+        ],
+        "firstPublishedAt": "2026-10-28T06:36:00.000Z"
+      }
     },
     {
       "id": "1jl68kntmyg",
@@ -3686,6 +6871,26 @@
         "us-stocks"
       ],
       "excerpt": "‘National team’ of funds and brokers buy stocks after CSI 300 index enters technical bear market"
+    },
+    {
+      "id": "wn8r7ysp67",
+      "key": "sina:5174788",
+      "title": "午评：创业板指震荡走高涨3%，人形机器人概念股爆发",
+      "url": "https://finance.sina.com.cn/7x24/",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-28T03:31:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-28",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "A股三大指数早盘集体上涨，截至午盘，上证指数涨0.72%，深证成指涨1.99%，创业板指涨3%，北证50涨1.32%，科创50指数涨2.51%。全市场成交额10220亿元，较上日放量1446亿元，全市场近4500只个股上涨。板块题材上，减速器、人形机器人、半导体、电机、PEEK材料板块涨幅居前；白酒、青蒿素、猪肉、保险、银行板块跌幅居前。盘面上，人形机器人板块爆发，安培龙、恒工精密、五洲新春、兆威机电、浙江荣泰等二十余股涨停，上纬新材、长盛轴承、斯菱智驱等多股涨超10%。半导体板块亦表现活跃，富瀚微、必易微触及涨停，君正股份、灿芯股份、思瑞浦涨幅居前。…",
+      "flag": 1
     },
     {
       "id": "vln3je2jv0",
@@ -4001,6 +7206,104 @@
       "flag": 1
     },
     {
+      "id": "hef3v1qrue",
+      "key": "sina:5172013",
+      "title": "陈果：今天的下跌是资金面的因素为主，外部的宏观不确定性也有一些",
+      "url": "https://finance.sina.cn/7x24/2026-10-27/detail-iniwrzhw7080644.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-27T08:13:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-27",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us",
+        "a-shares",
+        "cn-bonds"
+      ],
+      "excerpt": "东方财富策略师陈果表示：“今天的下跌是资金面的因素为主，外部的宏观不确定性也有一些，但是例如美国中期选举这个事情A股没必要比美股更敏感。目前大家觉得没有什么资金是要进场的，反而是担心逢反弹就有减仓，所以如果有像上周五这样强力的ETF净流入就会好一些，如果没有强力的ETF净流入的话，内生性自发加仓资金的意愿还是比较少一些。”（中国基金报）"
+    },
+    {
+      "id": "1muoox4byo9",
+      "key": "sina:5171715",
+      "title": "A股收评：科创50指数高开低走跌4.81%，军工装备、软件开发板块跌幅居前",
+      "url": "https://finance.sina.com.cn/7x24/",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-27T07:01:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-27",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "A股三大指数今日集体下跌，截至收盘，上证指数跌1.33%，深证成指跌2.5%，创业板指跌3.41%，北证50跌3.35%，科创50指数跌4.81%。全市场成交额14729亿元，较上日缩量1502亿元，全市场超4900只个股下跌。板块题材上，电机、银行、港口航运、零售板块涨幅居前；软件开发、军工装备、数字货币、生物制品、CRO概念板块跌幅居前。盘面上，电机板块全天强势，凯中精密、大洋电机、华新清科、八方股份涨停，方正电机、安乃达、通达动力涨幅居前。银行板块逆势走高，沪农商行、重庆银行、北京银行涨幅居前。零售板块冲高回落，局部强势，茂业商业、深赛格、广百股…",
+      "flag": 1
+    },
+    {
+      "id": "1qd2fl22vvw",
+      "key": "sina:5171656",
+      "title": "联讯仪器跌近5%，退出千元股行列，A股千元股仅剩贵州茅台一家",
+      "url": "https://finance.sina.cn/7x24/2026-10-27/detail-iniwrzhq2030983.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-27T06:38:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-27",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "1qx3uqatowb",
+      "key": "sina:5171412",
+      "title": "午评：创业板指高开低走跌0.45%，电机、零售、银行板块涨幅居前",
+      "url": "https://finance.sina.cn/7x24/2026-10-27/detail-iniwrqsv8929515.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-27T03:31:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-27",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "A股三大指数早盘集体下跌，截至午盘，上证指数跌0.13%，深证成指跌0.33%，创业板指跌0.45%，北证50跌0.09%，科创50指数跌1.5%。全市场成交额8775亿元，较上日缩量1381亿元，全市场超3700只个股下跌。板块题材上，电机、零售、银行、港口航运、减速器板块涨幅居前；生物制品、军工装备、CRO概念、软件开发、创新药板块跌幅居前。盘面上，电机板块低开高走，方正电机、凯中精密、大洋电机、华新清科涨停，安乃达、通达动力、奕帆传动涨幅居前。零售板块表现活跃，茂业商业、深赛格、广百股份、上海九百涨停，百大集团、新华百货、国芳集团涨幅居前。银行板…"
+    },
+    {
+      "id": "8lp2dkmk3n",
+      "key": "sina:5171317",
+      "title": "三大指数集体翻绿，沪指跌0.19%，深证成指跌0.05%，创业板指跌0.14%",
+      "url": "https://finance.sina.cn/7x24/2026-10-27/detail-iniwrqsv8849672.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-27T02:01:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-27",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "flag": 1
+    },
+    {
       "id": "18hx8u7nvr4",
       "key": "url:stats.gov.cn/sj/zxfb/202610/t20261027_1965697.html",
       "title": "2026年1—9月份全国规模以上工业企业利润增长15.5%",
@@ -4253,6 +7556,27 @@
         "cb"
       ],
       "excerpt": "美联储及欧洲央行将陆续于本周举行货币政策会议，瑞士嘉盛银行首席经济师兼经济研究分析部主管Karsten Junius认为，欧美央行无须急于在十月加息，尽管通胀风险犹存，但两大央行均须权衡能源价格带来的通胀压力，以及金融状况收紧的影响，料欧洲央行将维持利率不变。"
+    },
+    {
+      "id": "xue4dia9pb",
+      "key": "sina:5169219",
+      "title": "A股收评：创业板指缩量跌1.71% AI硬件、贵金属板块大幅下挫",
+      "url": "https://finance.sina.cn/7x24/2026-10-26/detail-iniwprzs2505942.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-26T07:02:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares",
+        "gold"
+      ],
+      "excerpt": "截至收盘，上证指数涨0.19%报3697.52点，深证成指跌1.19%报11534.38点，创业板指跌1.71%报2638.23点，北证50跌2.13%报963.95点。三市成交额16230亿元，较上日缩量3497亿元。全市场超3100只个股下跌。板块题材上，医药商业、游戏、白酒板块涨幅居前；元件、贵金属、CPO板块跌幅居前。盘面上，医药商业板块逆势大涨，英特集团、塞力医疗涨停，漱玉平民、九州通、大参林、上海医药、健之佳跟涨。游戏板块震荡上扬，电魂网络涨停，盛天网络涨超10%，姚记科技、冰川网络、掌趣科技、富春股份、凯撒文化跟涨。白酒板块低开高走，皇台…",
+      "flag": 1
     },
     {
       "id": "19rjvutvole",
@@ -4526,6 +7850,45 @@
       "flag": 1
     },
     {
+      "id": "1zcmop438j",
+      "key": "sina:5163730",
+      "title": "瑞银：近期回调改善风险回报 A股仍具吸引力",
+      "url": "https://finance.sina.cn/7x24/2026-10-23/detail-iniweywn8200221.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-23T07:52:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-23",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "瑞银最新研报维持A股“具吸引力”观点，认为近期市场走弱改善了风险回报，未实质改变其对盈利前景的积极判断。美国债券收益率上升及地缘政治担忧再起，虽压制部分科技股和材料股，但迄今对基本面的影响有限。沪深300信息技术板块2027年盈利预测持续上修，增强了瑞银在三季度财报季前的信心。配置上，瑞银偏好精选科技及先进制造龙头、创新医疗保健企业和具有全球竞争力的出口企业，同时看好优质派息企业，尤其是中国大型银行。"
+    },
+    {
+      "id": "29bv0ecafmn",
+      "key": "sina:5163598",
+      "title": "A股收评：创业板指午后大幅反弹涨4.16%，人形机器人、减速器板块涨幅居前",
+      "url": "https://finance.sina.com.cn/7x24/",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-23T07:01:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-23",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "A股三大指数今日集体上涨，截至收盘，上证指数涨0.89%，深证成指涨2.79%，创业板指涨4.16%，北证50涨1.88%，科创50指数涨3.04%。全市场成交额19728亿元，较上日放量4310亿元，全市场超4500只个股上涨。板块题材上，电机、自动化设备、软件开发、减速器、人形机器人板块涨幅居前；兵装重组概念、可燃冰、银行、电力、元件板块跌幅居前。盘面上，人形机器人板块午后爆发，宇树科技、利亚德、海天瑞声等二十余股触及涨停，崧盛股份、利元亨、长盈精密等多股涨超10%。互联网金融亦午后冲高，世纪恒通、汇金科技、大智慧、华林证券涨停，格灵深瞳、同花顺、…",
+      "flag": 1
+    },
+    {
       "id": "1g7xrzer7k",
       "key": "em:202610233906158396",
       "title": "互联网泡沫惨痛回忆！AI动荡“拷问”美联储：今年还敢加息吗？",
@@ -4548,6 +7911,63 @@
       "flag": 1
     },
     {
+      "id": "213dxykvgrk",
+      "key": "sina:5163255",
+      "title": "午评：沪指探底回升跌1.2%，算力硬件股集体下跌",
+      "url": "https://finance.sina.cn/7x24/2026-10-23/detail-iniweqhu4935460.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-23T03:31:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-23",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "A股三大指数早盘集体下跌，截至午盘，上证指数跌1.2%，深证成指跌1.6%，创业板指跌2.14%，北证50跌1.99%，科创50指数跌3.07%。全市场成交额10768亿元，较上日放量1490亿元，全市场超4800只个股下跌。板块题材上，保险、白酒、证金持股、银行板块上涨；元件、电子化学品、PCB概念、CPO、光纤概念板块跌幅居前。盘面上，白酒板块震荡走高，迎驾贡酒、金徽酒、古井贡酒涨幅居前。保险板块低开高走，中国太保、中国人保、新华保险涨幅居前。银行板块探底回升，渝农商行、苏州银行、沪农商行涨幅居前。元件板块表现低迷，中京电子、奥士康、天津普林等股盘…"
+    },
+    {
+      "id": "ykrsfly8dn",
+      "key": "sina:5163192",
+      "title": "创业板指跌幅收窄至不到2%，此前一度跌超3%",
+      "url": "https://finance.sina.cn/7x24/2026-10-23/detail-iniweqhu4877596.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-23T02:46:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-23",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ]
+    },
+    {
+      "id": "1y3ltkhlvle",
+      "key": "sina:5163080",
+      "title": "沪指跌破3600点，现跌1.67%，元件、贵金属、通信设备板块跌幅居前",
+      "url": "https://finance.sina.cn/7x24/2026-10-23/detail-iniweiyw4923205.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-23T01:49:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-23",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares",
+        "gold"
+      ],
+      "flag": 1
+    },
+    {
       "id": "1usgfyeniq9",
       "key": "em:202610233904964641",
       "title": "国家外汇管理局局长朱鹤新会见渣打集团主席罗睿思",
@@ -4565,64 +7985,6 @@
         "pboc"
       ],
       "excerpt": "2026年10月21日，中国人民银行副行长、国家外汇管理局局长朱鹤新会见来访的渣打集团主席罗睿思（MariaRamos）。双方就国际经济金融形势、中国经济发展等议题进行了交流。国家外汇管理局副局长李红燕陪同会见。"
-    },
-    {
-      "id": "7aa3jm0m0i",
-      "key": "em:202610233904638856",
-      "title": "美联储周四隔夜逆回购协议（RRP）使用规模为3.51亿美元",
-      "url": "https://finance.eastmoney.com/a/202610233904638856.html",
-      "lang": "zh",
-      "sourceId": "em-cb",
-      "sourceName": "东方财富·全球央行",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-10-22T17:16:00.000Z",
-      "firstSeenAt": "2026-10-29T10:04:27.819Z",
-      "day": "2026-10-23",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed",
-        "pboc"
-      ],
-      "excerpt": "美联储周四隔夜逆回购协议（RRP）使用规模为3.51亿美元。"
-    },
-    {
-      "id": "1e6kcv3lwjz",
-      "key": "url:cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html",
-      "title": "Jobless claims near the lowest since the 1960s as low-fire trend continues",
-      "url": "https://www.cnbc.com/2026/10/22/jobless-claims-record-low-weekly.html",
-      "lang": "en",
-      "sourceId": "cnbc-economy",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-10-22T16:40:09.000Z",
-      "firstSeenAt": "2026-10-29T10:04:27.819Z",
-      "day": "2026-10-23",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "macro-us"
-      ],
-      "excerpt": "Initial filings for unemployment insurance slipped to a seasonally adjusted 194,000."
-    },
-    {
-      "id": "1cygjk88jxk",
-      "key": "em:202610223904472464",
-      "title": "美联储加息时点难料 美国国库券市场交易愈发棘手",
-      "url": "https://finance.eastmoney.com/a/202610223904472464.html",
-      "lang": "zh",
-      "sourceId": "em-cb",
-      "sourceName": "东方财富·全球央行",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-10-22T13:50:00.000Z",
-      "firstSeenAt": "2026-10-29T10:04:27.819Z",
-      "day": "2026-10-22",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed"
-      ],
-      "excerpt": "在美联储政策路径和国债供应增加均充满不确定性的背景下，投资者对希望持有的美国国库券变得越来越挑剔，而且这种局面短期内可能不会改变。"
     }
   ]
 }

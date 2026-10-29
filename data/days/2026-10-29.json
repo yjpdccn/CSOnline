@@ -2,6 +2,972 @@
   "day": "2026-10-29",
   "items": [
     {
+      "id": "2elyk0v3w0q",
+      "key": "url:the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall",
+      "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
+      "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
+      "excerpt": "Mistral has released the weights for Large 4, aka \"Le Chonk,\" a trillion-parameter model trained entirely in Europe. Mistral says it beats its open rivals at coding, and independent testing shows it's fast and fairly cheap. It still can't match China's top models, scoring 26 poi…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T15:25:27.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 19,
+      "dupOf": "1lx07897zso"
+    },
+    {
+      "id": "bv3a2jhg2s",
+      "key": "url:theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+      "title": "The NYT Cooking app is testing AI recipe modifications",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
+      "excerpt": "The AI tool provides recommendations and adjusts the recipe accordingly. | Image: The New York Times The New York Times is testing a new AI feature for its Cooking app that helps users to modify recipes, and it has sparked some drama among users. Last Friday, NYT Cooking senior…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T14:39:37.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "NYT Cooking 测试 AI 菜谱修改",
+        "summary": "NYT Cooking 测试 AI 功能，允许用户修改菜谱。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:12.395Z"
+      }
+    },
+    {
+      "id": "7x75yin2f0",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xils4t/i_think_local_ai_cost_me_a_job",
+      "title": "I think local AI cost me a job",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xils4t/i_think_local_ai_cost_me_a_job/",
+      "excerpt": "Got headhunted by a VC-backed AI-focused company, ended up skipping past two levels of their application/interview process because of that. Got 15 minute call with the co-founder, hit it off well, but it all seemed to go sour when he asked about my AI setup and I told him I run…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T14:38:02.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xils4t/i_think_local_ai_cost_me_a_job/",
+      "ai": {
+        "title": "本地 AI 导致我失去工作机会",
+        "summary": "因透露使用本地 AI，在面试中错失了 AI 公司的工作机会。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:47.134Z"
+      }
+    },
+    {
+      "id": "2d7i5topa1g",
+      "key": "url:techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round",
+      "title": "Wabi, the AI agent that builds mini apps, now valued at $1.25B after latest round",
+      "url": "https://techcrunch.com/2026/10/29/wabi-the-ai-agent-that-builds-mini-apps-now-valued-at-1-25b-after-latest-round/",
+      "excerpt": "On Thursday, AI app Wabi, now describing itself as a \"personal agent,\" said it has raised $55 million at a $1.25 billion valuation.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T14:35:26.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "AI 应用 Wabi 估值达 12.5 亿美元",
+        "summary": "AI 应用 Wabi 完成新一轮融资，估值达 12.5 亿美元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:12.395Z"
+      }
+    },
+    {
+      "id": "19ulbitoyna",
+      "key": "url:36kr.com/p/4047032889800965",
+      "title": "部署态加速，智元要打通物理AI全链路",
+      "url": "https://36kr.com/p/4047032889800965",
+      "excerpt": "“万台下线，只是制造业的胜利，万台上岗，才是物理AI的胜利”。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:25:57.653Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1s8ctwl8n4d",
+      "key": "url:leiphone.com/category/ai/t2cIBqBZVfpYPhPg.html",
+      "title": "别再盯着 800 亿美元亏损了，Anthropic 的 AI 造 AI 已推进到 26%！",
+      "url": "https://www.leiphone.com/category/ai/t2cIBqBZVfpYPhPg.html",
+      "excerpt": "AI 已接管 90% 代码编写，甚至为了完成任务开始“越狱”。 作者丨郑佳美 编辑丨岑 峰 刚刚，Anthropic 在 IPO 招股书中披露了四起此前未公开的 Agent 安全事故。 其中一次，模型在网络安全测试中迟迟无法完成任务，便继续寻找其他路径，随后从本应断网的测试环境中找到保存的密码，获得第三方系统的管理员权限，又获取其他凭证、修改系统设置并访问外部数据，整个过程持续了 10 至 34 小时。 同期披露的另一项安排是，下一代前沿基础模型的预训练推迟了一个多月。 除此之外，这份招股书还有一组关于内部研发的数据：2026 年 9 月，Claude…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:23:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "9kzb8305eg",
+      "key": "url:leiphone.com/category/yanxishe/F3FpQlhpT7u7ekyU.html",
+      "title": "拉爆游戏引擎？深度拆解 Genie 4，从视频生成到世界控制，Google 要跨越什么？",
+      "url": "https://www.leiphone.com/category/yanxishe/F3FpQlhpT7u7ekyU.html",
+      "excerpt": "动态条件注入、因果核验与异步协作的三大技术挑战，暴露出哪些致命的技术死角？ 作者丨郑佳美 编辑丨岑 峰 刚刚，Google DeepMind 正式发布了新一代世界模型 Genie 4。 除了实时生成可交互环境，这次还有一个有意思的设计：Genie 4 负责生成世界，Gemini 3.8 Flash 负责观察画面、拆解任务，并根据执行情况调整计划。 DeepMind 还展示了 Gemini 4 Argon 与 Genie 4 的组合，让模拟环境中的 Apollo 人形机器人完成跳棋任务。在整个过程中，新的任务指令可以持续加入，并改变后续发生的事件。 这给…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:22:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "multimodal",
+      "keywords": [
+        "视频生成",
+        "具身智能"
+      ],
+      "score": 18,
+      "dupOf": "fs5cvusow2"
+    },
+    {
+      "id": "21zj2zvoulb",
+      "key": "url:leiphone.com/category/ai/HecXToP0EHbPjPd0.html",
+      "title": "DeepSeek 又一开源重器！深挖 DeepInfer 究竟藏着多少技术狠活？",
+      "url": "https://www.leiphone.com/category/ai/HecXToP0EHbPjPd0.html",
+      "excerpt": "单集群日处理约 155 万亿 Token，推理优化争夺毫秒。 作者丨郑佳美 编辑丨岑 峰 昨天，DeepSeek 又在 GitHub 上开源了一个大项目，叫 DeepInfer。 这次没有发布新模型，放出来的是 DeepSeek-V4.1-Flash 背后的推理引擎，包含 MoE 专家并行、异步 Batch 调度、定制 Kernel 和推测解码等核心技术。 DeepSeek 还披露了一组数据：单个集群每天需要处理约 155 万亿个 Token。如此庞大的流量，GPU 哪怕在每轮计算中浪费一点资源，累积起来也相当可观。 目前 DeepInfer 开放的是…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T14:14:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "model",
+      "score": 28
+    },
+    {
+      "id": "1ze0qmbc7y0",
+      "key": "hf:mistralai/mistral-large-4-1t-a52b",
+      "title": "mistralai/Mistral-Large-4-1T-A52B · Hugging Face",
+      "url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+      "excerpt": "https://huggingface.co/ggml-org/Mistral-Large-4-1T-A52B-GGUF https://huggingface.co/ggml-org/Mistral-Large-4-1T-A52B-NVFP4-GGUF https://huggingface.co/unsloth/Mistral-Large-4-1T-A52B-GGUF from Mistral: Mistral Large 4 - Le Chonk Mistral Large 4 is our largest and most capable mo…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T14:13:14.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "model",
+      "keywords": [
+        "开源模型"
+      ],
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xil58b/mistralaimistrallarge41ta52b_hugging_face/",
+      "ai": {
+        "title": "Mistral-Large-4-1T-A52B 模型发布",
+        "summary": "Mistral 发布其最大且能力最强的模型 Mistral Large 4。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:47.134Z"
+      }
+    },
+    {
+      "id": "1rahpkhwdho",
+      "key": "url:the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices",
+      "title": "US antitrust regulators are scrutinizing Nvidia's Hugging Face deal and sales practices",
+      "url": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices/",
+      "excerpt": "The US Justice Department is looking into Nvidia's planned acquisition of open-source platform Hugging Face. The article US antitrust regulators are scrutinizing Nvidia's Hugging Face deal and sales practices appeared first on The Decoder.",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T14:07:49.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "美国反垄断机构审查 Nvidia 的 Hugging Face 交易",
+        "summary": "美国司法部正在调查 Nvidia 收购 Hugging Face 的计划。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:12.395Z"
+      }
+    },
+    {
+      "id": "czu2unxmyr",
+      "key": "url:techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity",
+      "title": "Mistral releases weights for its trillion-parameter AI model, targeting cybersecurity",
+      "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
+      "excerpt": "Mistral says its new model can afford organizations a kind of control over its cyber defenses that closed models can't.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T14:00:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "opensource",
+      "score": 19,
+      "ai": {
+        "title": "Mistral 开源万亿参数模型，瞄准网络安全",
+        "summary": "Mistral 开源其万亿参数模型，旨在为网络安全提供更好的控制。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:29:59.731Z"
+      }
+    },
+    {
+      "id": "1jn7etvnlzr",
+      "key": "url:theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+      "title": "Anthropic is asking Wall Street to believe in AGI",
+      "url": "https://www.theverge.com/podcast/1021322/anthropic-ipo-filing-s-1-claude-semianalysis-joey-brookhart-interview",
+      "excerpt": "Today on Decoder, I’m joined by Joey Brookhart, an analyst at the chip and AI research firm SemiAnalysis, to help me dig into the story inside the numbers of the Anthropic IPO filing — a document known as an S-1. Anthropic just filed its S-1 to go public on the Nasdaq, and it co…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T14:00:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Anthropic 请求华尔街相信 AGI",
+        "summary": "Anthropic 在 IPO 文件中强调其 AGI 路线图。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:12.395Z"
+      }
+    },
+    {
+      "id": "1ep98cfqzq0",
+      "key": "url:the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times",
+      "title": "Chinese spies targeted Nvidia CEO Jensen Huang, according to The New York Times",
+      "url": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
+      "excerpt": "US intelligence agencies believe an executive in Nvidia CEO Jensen Huang's circle is an informant for China. The article Chinese spies targeted Nvidia CEO Jensen Huang, according to The New York Times appeared first on The Decoder.",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T13:42:38.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 23,
+      "related": [
+        {
+          "id": "bl8xvna7ng",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/29/u-s-investigated-chinese-spy-plot-aimed-at-nvidia-ceo/",
+          "title": "US investigated Chinese spy plot aimed at Nvidia CEO",
+          "publishedAt": "2026-10-29T16:42:32.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "the-decoder",
+          "techcrunch-ai"
+        ],
+        "firstPublishedAt": "2026-10-29T13:42:38.000Z"
+      },
+      "ai": {
+        "title": "中国间谍瞄准英伟达 CEO 黄仁勋",
+        "summary": "据纽约时报报道，中国间谍试图接触英伟达 CEO 黄仁勋。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:29:59.731Z"
+      }
+    },
+    {
+      "id": "amym17392h",
+      "key": "url:huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "title": "Granite Switch 4.1.1 — Update models like you update software",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-29T13:37:07.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "opensource",
+      "score": 30,
+      "ai": {
+        "title": "Granite Switch 4.1.1：像更新软件一样更新模型",
+        "summary": "Granite Switch 4.1.1 提供了一种更新模型的新方式。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:29:59.731Z"
+      }
+    },
+    {
+      "id": "1gwtagmjg1p",
+      "key": "url:theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "title": "Anthropic’s business plan: Build God or die trying",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1021476/anthropic-s-1-compute-recursive",
+      "excerpt": "The Anthropic S-1 seems to have provided the financial justification for the company to spend as much as it possibly can on compute. If you are the kind of person who wonders if Anthropic is doing its level best to build a machine god while convincing Wall Street it's in the bus…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T13:30:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Anthropic 的商业计划：要么构建神，要么失败",
+        "summary": "Anthropic 的 S-1 文件显示其正全力投入计算资源以构建 AGI。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:12.395Z"
+      }
+    },
+    {
+      "id": "ws28yae34k",
+      "key": "url:the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses",
+      "title": "OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses",
+      "url": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/",
+      "excerpt": "Chinese AI labs are now mainly tapping OpenAI's most powerful model, GPT-6 Astra, instead of Anthropic's Claude. The article OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses appeared first on The Decoder.",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T13:20:14.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "model",
+      "score": 21,
+      "ai": {
+        "title": "OpenAI 的 Astra 成为中国 AI 实验室主要目标",
+        "summary": "Anthropic 加强防御后，中国 AI 实验室转向使用 OpenAI 的 GPT-6 Astra。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:12.395Z"
+      }
+    },
+    {
+      "id": "1vrvzt7a8yq",
+      "key": "url:techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure",
+      "title": "Deepgram acquires Pipecat-maker Daily to bolster its voice AI infrastructure",
+      "url": "https://techcrunch.com/2026/10/29/deepgram-acquires-pipecat-maker-daily-to-bolster-its-voice-ai-infrastructure/",
+      "excerpt": "With Pipecat, Deepgram will likely gain a deeper understanding of real-time voice and video infrastructure.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T13:00:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "agent",
+      "keywords": [
+        "语音"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Deepgram 收购 Pipecat-maker Daily",
+        "summary": "Deepgram 收购 Daily，加强实时语音和视频基础设施。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:12.395Z"
+      }
+    },
+    {
+      "id": "puf52j7f7",
+      "key": "url:techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions",
+      "title": "Amazon updates Alexa to help you manage shopping lists and subscriptions and update delivery instructions",
+      "url": "https://techcrunch.com/2026/10/29/amazon-updates-alexa-to-help-you-manage-shopping-lists-and-subscriptions-and-update-delivery-instructions/",
+      "excerpt": "The update allows you to use Alexa to create lists, register them, see what's on them, and add or edit items. You can also manage subscriptions.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T13:00:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "agent",
+      "score": 15,
+      "ai": {
+        "title": "Alexa 更新购物和订阅管理功能",
+        "summary": "Alexa 新增购物清单、订阅管理和配送说明功能。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:12.395Z"
+      }
+    },
+    {
+      "id": "1xclamy6zgm",
+      "key": "url:36kr.com/newsflashes/4046954407213315",
+      "title": "XHEART正式发布大模型芯片X7 Ultra",
+      "url": "https://36kr.com/newsflashes/4046954407213315",
+      "excerpt": "36氪获悉，XHEART正式发布大模型芯片X7 Ultra，截至目前，X7系列已量产8个月，累计出货超过20万颗，搭载10款量产车型，获得超过40款车型订单。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:54:54.580Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "model",
+      "score": 28
+    },
+    {
+      "id": "29n6keji76k",
+      "key": "url:artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+      "url": "https://artificialanalysis.ai/articles/gemini-4-carbon-new-number-1",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T12:41:56.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "model",
+      "score": 37.9,
+      "metrics": {
+        "points": 304,
+        "comments": 225
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50288019",
+      "dupOf": "28rb304yi2a"
+    },
+    {
+      "id": "117vs8npakm",
+      "key": "url:36kr.com/p/4046866715154050",
+      "title": "OpenAI健康板块负责人：AI医疗健康的上限和下限",
+      "url": "https://36kr.com/p/4046866715154050",
+      "excerpt": "从救人到越界，只有一步之遥。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:39:18.979Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "6xxxpmraqn",
+      "key": "url:36kr.com/newsflashes/4046930726566153",
+      "title": "Shopify采用维萨、万事达卡的智能体支付技术",
+      "url": "https://36kr.com/newsflashes/4046930726566153",
+      "excerpt": "Shopify宣布，已经在自家结账功能Shop Pay中接入由维萨、万事达卡以及美国运通开发的智能体支付技术。这一选择与Stripe处理智能体购物与信用卡业务的主流方案形成鲜明反差。维萨、万事达卡、美国运通推出了智能体支付令牌。该令牌代表用户的银行卡信息，授权后的AI智能体可以直接从用户银行卡完成扣款。智能体无法获取用户真实卡号，同时还可以保留信用卡积分权益与防欺诈保护机制。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:38:40.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "odzjfypsy4",
+      "key": "url:infoq.cn/article/dXwHCW7kjGX1kjPqtla9",
+      "title": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
+      "url": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:13:07.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "model",
+      "score": 24,
+      "dupOf": "28rb304yi2a"
+    },
+    {
+      "id": "nb816rzlok",
+      "key": "url:36kr.com/newsflashes/4046910409456136",
+      "title": "昆仑万维：前三季度营收近90亿元，AI短剧单月流水近1亿美元",
+      "url": "https://36kr.com/newsflashes/4046910409456136",
+      "excerpt": "10月29日，昆仑万维发布2026年第三季度报告。报告期内，得益于AI技术商业化进程加速，公司主营业务持续保持强劲增长态势。2026年前三季度，公司实现营业收入89.37亿元，同比增长53.96%；净利润实现扭亏。其中，海外收入87.06亿元，同比增长60.78%；天工AI业务收入43.21亿元，同比增长168.29%，已成为公司重要增长引擎，带动公司第三季度毛利率提升至74.41%。AI短剧平台业务是本季度商业化进展最为突出的板块，2026年9月，公司AI短剧平台业务单月流水近1亿美元。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:10:09.170Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "multimodal",
+      "keywords": [
+        "AI 短剧"
+      ],
+      "score": 18
+    },
+    {
+      "id": "17hsmlcku5x",
+      "key": "url:36kr.com/p/4046889002826243",
+      "title": "双十一，要囤就囤Token？",
+      "url": "https://36kr.com/p/4046889002826243",
+      "excerpt": "“AI消费”还不是明白账",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:09:53.438Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "g6v9zbmiwi",
+      "key": "url:36kr.com/p/4046826443871112",
+      "title": "谷歌一夜跌去 10%：AI 烧钱周期里，它还值不值得拿？",
+      "url": "https://36kr.com/p/4046826443871112",
+      "excerpt": "谷歌的生意没有变差，但市场的耐心已经不多。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T12:07:00.126Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "20ss2ih8l1h",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xii45s/safeagents_an_opensource_proxy_that_checks_every",
+      "title": "SafeAgents: an open-source proxy that checks every tool call your coding agent makes before it runs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xii45s/safeagents_an_opensource_proxy_that_checks_every/",
+      "excerpt": "SafeAgents is a small local proxy that sits between a coding agent and its model server. It checks each tool call in the model's response before the harness receives it. A call it flags is replaced with a short text notice, so the harness gets a plain text reply and runs nothing…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T12:05:14.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xii45s/safeagents_an_opensource_proxy_that_checks_every/",
+      "ai": {
+        "title": "SafeAgents：开源代理保护编码 Agent",
+        "summary": "SafeAgents 是一个开源代理，用于检查编码 Agent 的工具调用。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:47.134Z"
+      }
+    },
+    {
+      "id": "29nd2v3ad9p",
+      "key": "url:mistral.ai/news/mistral-large-4-oss",
+      "title": "Le Chonk: Built for Coders, Trusted by Defenders.",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/",
+      "excerpt": "The weights of Mistral Large 4 (Le Chonk) are now open. A 1T parameter multimodal model, and best open-weight model for coding, trained in Europe.",
+      "lang": "en",
+      "sourceId": "mistral",
+      "sourceName": "Mistral AI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-29T12:00:07.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "opensource",
+      "keywords": [
+        "开源模型"
+      ],
+      "score": 70.2,
+      "metrics": {
+        "points": 644,
+        "comments": 164
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50289418",
+      "alsoOn": [
+        {
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50289418"
+        },
+        {
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xil3qy/mistral_large_4_le_chonk_is_now_open_weight/"
+        }
+      ],
+      "ai": {
+        "title": "Mistral Large 4 权重开源，专注代码与安全",
+        "summary": "Mistral Large 4 权重开源，是一个 1T 参数的多模态模型，专注于代码和安全。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:29:59.731Z"
+      }
+    },
+    {
+      "id": "24wsfpeslrw",
+      "key": "url:leiphone.com/category/zaobao/ZWf8n2mgF0X5Rkfj.html",
+      "title": "31岁女工程师猝死，其生前按ChatGPT指示减药，还被告知「完全没必要担心」；美国一公司招人遛机器狗：时薪20美元，不用铲屎但得扛狗回来",
+      "url": "https://www.leiphone.com/category/zaobao/ZWf8n2mgF0X5Rkfj.html",
+      "excerpt": "要闻提示 1.31岁女工程师猝死，其生前按ChatGPT指示减药，还被告知“完全没有必要担心” 2.网友发视频称“医生用豆包开药”，涉事医院回应 3.米哈游通告：游戏泄密人员被判赔100万元 4.三家车企拟入选国家级名单：小米汽车位列第一 5.云鲸智能迎来品牌十周年：定位全球AI智能清洁专家，服务超600万家庭 6.阮瑜轮岗担任小度科技负责人，百度智能云事业群组进行组织调整 7.美国一公司招人遛机器狗：时薪 20 美元，不用铲屎但可能要扛狗回来 8.特朗普：将“正式禁用”AI一词 今日头条 31岁女工程师猝死，其生前按ChatGPT指示减药，还被告知“…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T11:38:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1i9xi46v5xl",
+      "key": "url:36kr.com/newsflashes/4046856143780098",
+      "title": "澳大利亚部分投资主管对Anthropic的IPO计划持谨慎态度",
+      "url": "https://36kr.com/newsflashes/4046856143780098",
+      "excerpt": "Anthropic PBC即将进行的重磅首次公开募股（IPO），为澳大利亚市场带来一个新的人工智能投资标的，不过当地部分投资主管对此持谨慎态度。“这是一家了不起的公司，”澳大利亚养老基金UniSuper首席投资官John Pearce周四在墨尔本举行的CFA澳大利亚投资大会小组讨论中表示。至于这“能否转化为一项绝佳的投资，那就是另一回事了”。Pearce表示，Anthropic估值达到约2万亿美元可能“有些勉强”。他还说，该公司目前仍处于巨额亏损状态，要在三四年内实现正现金流并创造可观利润，将是一个“艰巨的目标”。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T11:33:47.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "19vl4zhrw8h",
+      "key": "url:36kr.com/p/4046782652306562",
+      "title": "超20家机器人军团集体“下海”捞金",
+      "url": "https://36kr.com/p/4046782652306562",
+      "excerpt": "机器人“下海”捞到的金，比岸上的多",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T11:30:16.033Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "25lfjwfp1ki",
+      "key": "url:sonidoselva.com/perspectiva-kogui",
+      "title": "Perspectiva Kogui: A message on artificial intelligence from the Kogui people",
+      "url": "https://sonidoselva.com/perspectiva-kogui",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T11:29:49.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "paper",
+      "score": 23.6,
+      "metrics": {
+        "points": 117,
+        "comments": 99
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50287359",
+      "ai": {
+        "title": "Perspectiva Kogui：来自 Kogui 人的 AI 信息",
+        "summary": "Perspectiva Kogui 是来自 Kogui 人的关于人工智能的信息。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:29:59.731Z"
+      }
+    },
+    {
+      "id": "1ah3igeoq1g",
+      "key": "url:36kr.com/p/4046813256062080",
+      "title": "谷歌Q3营收1276亿美元，AI烧钱更猛了 ，现金流亮红灯",
+      "url": "https://36kr.com/p/4046813256062080",
+      "excerpt": "赚了不少，花得更多。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T11:19:00.661Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2b8cm8kc30u",
+      "key": "url:36kr.com/p/4046761437156489",
+      "title": "获10亿美元A轮融资，Flapping Airplanes要破解AI的“数据饥渴”",
+      "url": "https://36kr.com/p/4046761437156489",
+      "excerpt": "下一代AI，从改变学习机制开始",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T11:09:17.385Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1zszoii0ly5",
+      "key": "url:36kr.com/p/4046755496941448",
+      "title": "AI引发影视大迁徙：李世民下山、马景涛飞天、张艺兴远赴美国",
+      "url": "https://36kr.com/p/4046755496941448",
+      "excerpt": "凛冬已至，各谋生路。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:58:32.238Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "16btz0vn3g4",
+      "key": "url:jiqizhixin.com/articles/2026-10-29-19",
+      "title": "刚刚，机器人学习进入「全链路Scaling」时代",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-29-19",
+      "excerpt": "编辑｜Clio如果把具身智能看作一款养成游戏，2026 年的版本更新，重点落在了「成长系统」上。这一年，世界模型持续进化，让机器人能够在虚拟环境中预演动作、探索未来；RSI（递归自我改进）研究也日渐活跃，尝试将交互中的成败转化为学习经验。从看视频学技能，到虚实环境中反复练手，再到真实工作场景中...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:46:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "multimodal",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 26,
+      "related": [
+        {
+          "id": "15gtzchbrn3",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4046793427866502",
+          "title": "刚刚，机器人学习进入“全链路Scaling”时代",
+          "publishedAt": "2026-10-29T10:39:44.670Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-10-29T10:39:44.670Z"
+      }
+    },
+    {
+      "id": "1p9m667af5z",
+      "key": "url:jiqizhixin.com/articles/2026-10-29-18",
+      "title": "NeurIPS 2026 Spotlight｜机器人探索未知世界，为什么不能只认一条路？天大团队提出FAME",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-29-18",
+      "excerpt": "该论文第一作者为李阳，天津大学人工智能学院2026级博士生，师从韩亚洪教授，主要研究方向为具身智能，相关研究成果发表于 CVPR、NeurIPS、TPAMI 等国际顶级会议及期刊。本研究由天津大学与合肥工业大学团队合作完成。实验室主页：https://tjumm.github.io/想象一下，...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:42:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "paper",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "15gtzchbrn3",
+      "key": "url:36kr.com/p/4046793427866502",
+      "title": "刚刚，机器人学习进入“全链路Scaling”时代",
+      "url": "https://36kr.com/p/4046793427866502",
+      "excerpt": "预训练、后训练、部署后实现全链路规模化学习的具身模型 GO-3 Preview",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:39:44.670Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18,
+      "dupOf": "16btz0vn3g4"
+    },
+    {
+      "id": "15uiusbiaqt",
+      "key": "url:36kr.com/p/4046787920156297",
+      "title": "只有一个人的制药公司，被Anthropic在 IPO前收购了",
+      "url": "https://36kr.com/p/4046787920156297",
+      "excerpt": "Anthropic也开始自己做药了。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:39:10.978Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2aqey93cw2n",
+      "key": "url:36kr.com/p/4046762825946245",
+      "title": "AI云大厂股价剧烈分化，市场正在奖励克制、惩罚开支？",
+      "url": "https://36kr.com/p/4046762825946245",
+      "excerpt": "​AI云厂的资本开支与股价，正在逐渐走向分化。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:38:22.334Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2boopvtva31",
+      "key": "url:36kr.com/p/4046729338705542",
+      "title": "云厂商“三兄弟”业绩放榜，AI吞金兽继续发威",
+      "url": "https://36kr.com/p/4046729338705542",
+      "excerpt": "市场反倒“奖励”克制的投入",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:36:34.734Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1ayk2hqrvwx",
+      "key": "url:36kr.com/p/4046713681990529",
+      "title": "攻克千禧年难题之后：斯坦福推出After42，让AI学会提出“值得研究”的问题",
+      "url": "https://36kr.com/p/4046713681990529",
+      "excerpt": "从回答问题，转向寻找值得研究的问题。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:35:56.857Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "paper",
+      "score": 22
+    },
+    {
+      "id": "1g4g4h2xoid",
+      "key": "url:36kr.com/p/4046709773505408",
+      "title": "月流水仅2万元，王祖贤、戚薇带火的“AI卖脸”生意，没那么好赚",
+      "url": "https://36kr.com/p/4046709773505408",
+      "excerpt": "短剧不想掏钱，品牌才是最大金主",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:33:20.029Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "keywords": [
+        "AI 短剧"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1ipi9hh3udk",
+      "key": "url:36kr.com/p/4046774031078537",
+      "title": "预制数据中心，突然火了",
+      "url": "https://36kr.com/p/4046774031078537",
+      "excerpt": "数据中心早就开始预制了。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:31:43.323Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1xv9xrq2g7k",
+      "key": "url:36kr.com/p/4046784076305283",
+      "title": "刚刚，国产模型拿下三大榜单第一，年底全面开源",
+      "url": "https://36kr.com/p/4046784076305283",
+      "excerpt": "2026年的具身智能：所有人都在找自己的「Scaling Law」",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:30:10.941Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "model",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 28
+    },
+    {
+      "id": "27lfdywxmqt",
+      "key": "url:the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe",
+      "title": "Google's AI search problem finally shows up in the earnings report, some investors believe",
+      "url": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe/",
+      "excerpt": "Google's stock dropped as much as ten percent after its quarterly earnings. Cloud revenue more than doubled to $30.7 billion, but search revenue grew just 12 percent, slower than expected. Google acknowledged that its fast-growing AI mode brings in less revenue than traditional…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T10:16:34.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Google 的 AI 搜索问题在财报中显现",
+        "summary": "Google 搜索收入增长放缓，AI 模式收入低于传统搜索。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:12.395Z"
+      }
+    },
+    {
       "id": "9oi38oqbxu",
       "key": "url:36kr.com/p/4046769826354050",
       "title": "AI王座，一夜两度易主，神秘模型Obsidian 3泄露",
@@ -49,10 +1015,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "AI数据中心消耗大量水资源，引发对环境影响的关注。",
+        "title": "AI 正在消耗亚利桑那州的水资源",
+        "summary": "AI 数据中心的建设导致亚利桑那州水资源紧张。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:05:58.074Z"
+        "at": "2026-10-29T17:30:12.395Z"
       }
     },
     {
@@ -158,6 +1125,57 @@
       "score": 18
     },
     {
+      "id": "ak9ubh755w",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license",
+      "title": "Worried about Qwen 4 License",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license/",
+      "excerpt": "After Alibaba moved from Permissive OSS licenses to its own custom license with IMO ambiguous terms in models like Qwen3.8-Flash-Next, is there any indication this will carry forward into Qwen4? While that license at first reads permissive for local/internal use, fine-tuning and…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T09:48:21.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "担忧 Qwen 4 继承 Qwen3.8 的自定义许可条款。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:12.395Z"
+      }
+    },
+    {
+      "id": "2k9fbd6xw",
+      "key": "hf:hemmingwayai/hemmingway-1.5",
+      "title": "HemmingwayAI/Hemmingway-1.5 (Qwen finetune)",
+      "url": "https://huggingface.co/HemmingwayAI/Hemmingway-1.5",
+      "excerpt": "https://huggingface.co/bartowski/HemmingwayAI_Hemmingway-1.5-GGUF from hemmingwayAI: Hemmingway-1.5 The undetectable AI. Writing indistinguishable from a human's. 27B parameters, open weights, free for non-commercial use. hemmingway.io → · Model card → · Try it → · API → · API d…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T09:27:19.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "opensource",
+      "keywords": [
+        "开源模型"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xif7hy/hemmingwayaihemmingway15_qwen_finetune/",
+      "ai": {
+        "title": "Hemmingway-1.5：Qwen 微调的不可检测 AI",
+        "summary": "Hemmingway-1.5 是一个 27B 参数的 Qwen 微调模型，写作难以被检测。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:29:59.731Z"
+      }
+    },
+    {
       "id": "2fx4306wvhk",
       "key": "url:reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week",
       "title": "Apsara conference: Qwen4 next week",
@@ -175,10 +1193,73 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "阿里云CTO称Qwen4下周发布，Apsara大会在阿姆斯特丹举行。",
+        "title": "Apsara 会议：Qwen4 将于下周发布",
+        "summary": "Apsara 会议期间，阿里云 CTO 宣布 Qwen4 将于下周发布。",
         "category": "model",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:05:58.074Z"
+        "at": "2026-10-29T17:29:59.731Z"
+      }
+    },
+    {
+      "id": "1wsz1rl5g8",
+      "key": "url:leiphone.com/category/industrynews/tZQilZ5sagKCk1Sm.html",
+      "title": "国家超算互联网调价：降低AI研发、调试成本",
+      "url": "https://www.leiphone.com/category/industrynews/tZQilZ5sagKCk1Sm.html",
+      "excerpt": "近日，国家超算互联网宣布最新价格调整，新用户可享DeepSeek-V4.1-Flash-1017、GLM-5.3-Flash两款前沿模型0.1元5000万tokens限时秒杀特惠；同时，多款新主流模型已纳入TokenPlan套餐池。此外，订阅TokenPlan用户还可享限时夜间免费模型权益：10月21日至30日，每晚21:00至次日09:00，Auto模型可免费调用。 据悉，此次推出的“MaaS（智能体）特惠活动”是国家超算互联网为降低大模型与智能体调用门槛、扩容AI生产力供给推出的算力普惠活动。活动自今年8月上线以来，已有大量用户参与，并获得中科星图…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T09:03:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "model",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 24
+    },
+    {
+      "id": "rc2d41ac3w",
+      "key": "url:leiphone.com/category/industrynews/bMidAUlVn5zmruyD.html",
+      "title": "豆包工作向企业客户开放配置三方模型",
+      "url": "https://www.leiphone.com/category/industrynews/bMidAUlVn5zmruyD.html",
+      "excerpt": "为支持企业需求，豆包工作今日向客户开放三方大模型服务，首批将接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等系列模型。 本次更新面向团队订阅版和企业订阅版客户开放。功能上线后默认直接开启，企业无需另行向模型厂商采购，也无需额外申请，后续按照用量扣除企业已有的 AI 点数，真正实现开箱即用。 在使用人群上，企业可以按照成员、部门、群组或全员灵活划定可用范围，按模型厂商一键批量启用，或针对单一模型进行单独配置。 在使用场景上，企业也可指定模型在豆包电脑端、豆包工作电脑端、豆包移动端、豆包网页端及飞书内豆包工作等不同…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T09:01:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "1cgo49tqjk8"
+    },
+    {
+      "id": "1qx1qucfuly",
+      "key": "url:openai.com/index/how-we-detect-frontier-model-misalignment",
+      "title": "How we detect frontier model misalignment",
+      "url": "https://openai.com/index/how-we-detect-frontier-model-misalignment",
+      "excerpt": "OpenAI uses layered monitoring to detect frontier model misalignment and unauthorized agent behavior so responders can intervene before incidents escalate.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-29T09:00:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "paper",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "OpenAI 如何检测前沿模型的不对齐行为",
+        "summary": "OpenAI 使用分层监控来检测前沿模型的不对齐行为。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:29:59.731Z"
       }
     },
     {
@@ -211,7 +1292,25 @@
       "firstSeenAt": "2026-10-29T08:57:04.221Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "rc2d41ac3w",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/bMidAUlVn5zmruyD.html",
+          "title": "豆包工作向企业客户开放配置三方模型",
+          "publishedAt": "2026-10-29T09:01:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "leiphone"
+        ],
+        "firstPublishedAt": "2026-10-29T08:53:00.000Z"
+      }
     },
     {
       "id": "bu7vqdplmd",
@@ -436,10 +1535,11 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xid3i8/researchers_discover_a_way_to_reduce_llm_training/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "研究人员提出LIMe方法，可在不牺牲质量的情况下减少15%的LLM训练计算量。",
+        "title": "研究人员发现减少 LLM 训练计算量的方法",
+        "summary": "研究人员提出 LIMe 方法，可在不牺牲质量的情况下减少 15% 的训练计算量。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:05:58.074Z"
+        "at": "2026-10-29T17:30:12.395Z"
       }
     },
     {
@@ -806,6 +1906,30 @@
       "score": 18
     },
     {
+      "id": "ky8t9dxigq",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xi9sfl/update_benchmark_basalts_new_prs_strata_fork_new",
+      "title": "[Update Benchmark] Basalt's new PRs (Strata fork) new record IQ3_S Qwen3.8 Flash Next on single RTX 5080 and 51 GB RAM with 5500 tok/s prompt processing and up to 275 tok/s peak generation (during opencode coding live session)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi9sfl/update_benchmark_basalts_new_prs_strata_fork_new/",
+      "excerpt": "Code and tool calls can peak up to 275 tok/s - Reasoning traces up to 190 tok/s Hardware: 5080 16GB PCIe gen5x16, 64 DDR5 6400, Core Ultra 9 285K https://github.com/jesdga95/basalt Some PRs for the optimizations under my name are still pending (xyehya) but upstream already have…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T03:57:02.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xi9sfl/update_benchmark_basalts_new_prs_strata_fork_new/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Basalt 在 RTX 5080 上创下 Qwen3.8 Flash Next 的新基准记录。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:12.395Z"
+      }
+    },
+    {
       "id": "r2plbq022q",
       "key": "url:36kr.com/p/4046394725045122",
       "title": "EMNLP'26：GPT也不会「读空气」，狼人杀基准测出社交盲区",
@@ -890,10 +2014,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 32.2,
+      "score": 34.8,
       "metrics": {
-        "points": 376,
-        "comments": 129
+        "points": 530,
+        "comments": 215
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50284255",
       "ai": {
@@ -975,7 +2099,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 307833,
+        "stars": 308227,
         "starsToday": 1095
       },
       "ai": {
@@ -1069,8 +2193,8 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 93984,
-        "starsToday": 1472
+        "stars": 94849,
+        "starsToday": 2881
       },
       "ai": {
         "title": "为编码 Agent 打造的设计词汇库",
@@ -1132,7 +2256,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 3547,
+        "stars": 3727,
         "starsToday": 1054
       },
       "ai": {
@@ -1141,6 +2265,27 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:18:53.541Z"
+      },
+      "related": [
+        {
+          "id": "1cf29l2xa6w",
+          "sourceId": "github-trending",
+          "sourceName": "GitHub Trending",
+          "url": "https://github.com/CopilotKit/OpenBot",
+          "title": "CopilotKit/OpenBot",
+          "publishedAt": "2026-10-29T17:29:41.567Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "github-trending"
+        ],
+        "firstPublishedAt": "2026-10-29T03:24:01.011Z",
+        "metrics": {
+          "stars": 7955,
+          "starsToday": 1054
+        }
       }
     },
     {
@@ -1614,10 +2759,11 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "Qwen4模型将拥有100万上下文窗口，Qwen4-max发布日期为11月1日。",
+        "title": "Qwen4 1M 上下文窗口",
+        "summary": "Qwen4 模型将拥有 100 万上下文窗口。",
         "category": "model",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:05:58.074Z"
+        "at": "2026-10-29T17:29:59.731Z"
       }
     },
     {
@@ -1837,9 +2983,9 @@
       "day": "2026-10-29",
       "category": "paper",
       "categoryLocked": true,
-      "score": 28.3,
+      "score": 28.4,
       "metrics": {
-        "upvotes": 145,
+        "upvotes": 146,
         "comments": 1
       },
       "ai": {
@@ -1848,6 +2994,96 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T09:12:04.699Z"
+      }
+    },
+    {
+      "id": "bl7ge3sir",
+      "key": "url:huggingface.co/blog/announcing-project-protostar",
+      "title": "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
+      "url": "https://huggingface.co/blog/announcing-project-protostar",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "opensource",
+      "score": 34,
+      "ai": {
+        "title": "Project ProtoStar：让公共资助的科学研究 AI 就绪",
+        "summary": "Project ProtoStar 旨在将公共资助的科学研究转化为 AI 可用模型。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:29:59.731Z"
+      }
+    },
+    {
+      "id": "1lx07897zso",
+      "key": "url:huggingface.co/blog/mistral-large4",
+      "title": "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
+      "url": "https://huggingface.co/blog/mistral-large4",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "opensource",
+      "score": 38,
+      "related": [
+        {
+          "id": "2elyk0v3w0q",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall/",
+          "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
+          "publishedAt": "2026-10-29T15:25:27.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "hf-blog",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-10-29T00:00:00.000Z"
+      },
+      "ai": {
+        "title": "Hugging Face 欢迎 Le Chonk：Mistral Large 4",
+        "summary": "Hugging Face 上线了 Mistral Large 4 模型。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:29:59.731Z"
+      }
+    },
+    {
+      "id": "y6rnkra8pz",
+      "key": "url:huggingface.co/blog/anydecisionmodel",
+      "title": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
+      "url": "https://huggingface.co/blog/anydecisionmodel",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "opensource",
+      "keywords": [
+        "语音"
+      ],
+      "score": 34,
+      "ai": {
+        "title": "AnySpeechRecognizer 和 AnyDecisionModel：…",
+        "summary": "Hugging Face 推出 AnySpeechRecognizer 和 AnyDecisionModel，用于语音和决策。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:29:59.731Z"
       }
     },
     {
@@ -1930,15 +3166,16 @@
       "publishedAt": "2026-10-28T23:08:15.000Z",
       "firstSeenAt": "2026-10-29T04:10:03.533Z",
       "day": "2026-10-29",
-      "category": "opensource",
+      "category": "industry",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xi3l9r/electronics_hobbyist_converts_120_ddr5_sodimm_kit/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "电子爱好者将DDR5内存改装为高性能桌面内存，降低LLM硬件升级成本。",
-        "category": "opensource",
+        "title": "电子爱好者将 DDR5 内存改装为高性能桌面内存",
+        "summary": "爱好者将 DDR5-5600 内存改装为 DDR5-7800，以降低 LLM 硬件成本。",
+        "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:05:58.074Z"
+        "at": "2026-10-29T17:30:12.395Z"
       }
     },
     {
@@ -1962,6 +3199,54 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T09:12:04.699Z"
+      }
+    },
+    {
+      "id": "ska5blv12c",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xi2jfm/i_ran_doom_inside_the_qwen_model_weights",
+      "title": "I ran Doom inside the Qwen model weights!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi2jfm/i_ran_doom_inside_the_qwen_model_weights/",
+      "excerpt": "Inspired by the qwenputer project posted in this sub earlier today, I managed to get a basic version of Doom running on the virtual machine created in the post. It's quite slow, but here we are. Doom running on an LLM. Project repo: https://github.com/mapestree/qwenputer-doom [留…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-28T22:24:32.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xi2jfm/i_ran_doom_inside_the_qwen_model_weights/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "在 Qwen 模型权重中运行 Doom 游戏。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:12.395Z"
+      }
+    },
+    {
+      "id": "28twt0qvjmu",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xi25sk/singleneuron_identity_shifts",
+      "title": "Single-Neuron Identity Shifts",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xi25sk/singleneuron_identity_shifts/",
+      "excerpt": "These guys are running a pretty interesting experiment: https://neuronpersonas.com/ Credit where it's due, I came across it here: https://news.ycombinator.com/item?id=50266910 Basically, they're tweaking one single neuron at a time during inference, systematically going through…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-28T22:09:19.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "paper",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xi25sk/singleneuron_identity_shifts/",
+      "ai": {
+        "title": "单神经元身份偏移实验",
+        "summary": "研究人员通过调整单个神经元来探索模型行为。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:47.134Z"
       }
     },
     {
@@ -2095,10 +3380,10 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 24.7,
+      "score": 25,
       "metrics": {
-        "points": 155,
-        "comments": 69
+        "points": 160,
+        "comments": 74
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50280178",
       "ai": {
@@ -2128,6 +3413,30 @@
       ],
       "score": 25,
       "dupOf": "28rb304yi2a"
+    },
+    {
+      "id": "vf2amceevc",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xhydgj/models_are_chasing_unrealistic_benchmarks_but_the",
+      "title": "Models are chasing unrealistic benchmarks but the working-level intelligence is already achieved",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xhydgj/models_are_chasing_unrealistic_benchmarks_but_the/",
+      "excerpt": "I have a feeling that recent benchmarks are unrealistically pushing the bar into areas a normal developer rarely encounters, like binary reverse engineering or one-shotting a complex application, with some strictly chosen design patterns. What we actually want is an accurate mod…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-28T19:44:18.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-29",
+      "category": "paper",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhydgj/models_are_chasing_unrealistic_benchmarks_but_the/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "模型追逐不切实际的基准测试，实际应用能力已达标。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:30:12.395Z"
+      }
     },
     {
       "id": "20tn7ka5w83",
@@ -2273,10 +3582,11 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhw2l0/a_4b_model_made_me_a_netherite_ingot_from_bare/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "4B模型通过自然语言指令生成游戏物品，展示Agent理解能力。",
+        "title": "4B 模型仅凭一句话指令就帮我合成了 Minecraft 原石锭",
+        "summary": "4B 模型通过自然语言理解，成功执行了 Minecraft 中的复杂合成任务。",
         "category": "agent",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:05:58.074Z"
+        "at": "2026-10-29T17:30:47.134Z"
       }
     },
     {
@@ -2297,10 +3607,11 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhvf1z/theory_local_is_going_to_explode_at_enterprises/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "企业倾向于使用本地AI模型，以保护数据隐私并满足多数任务需求。",
+        "title": "企业级本地 AI 市场即将爆发",
+        "summary": "企业对数据隐私的需求推动本地 AI 市场快速增长。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:05:58.074Z"
+        "at": "2026-10-29T17:30:47.134Z"
       }
     },
     {
@@ -2321,10 +3632,11 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhubiw/a_small_step_for_man_a_giant_step_for_local_ai/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "Unsloth AI团队推动本地AI发展，提升入门级AI爱好者的可访问性。",
+        "title": "Unsloth AI 推动本地 AI 发展",
+        "summary": "Unsloth AI 致力于提升本地 AI 的易用性和可访问性。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:05:58.074Z"
+        "at": "2026-10-29T17:30:47.134Z"
       }
     },
     {
@@ -2345,10 +3657,11 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhu3b0/mac_studio_m5_ultra_512gb_starts_at_2229900_usd/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "Mac Studio M5 Ultra 512GB起售价为22,299美元。",
+        "title": "Mac Studio M5 Ultra 512GB 起售价 22299 美元",
+        "summary": "苹果发布新款 Mac Studio，起售价高达 22299 美元。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:05:58.074Z"
+        "at": "2026-10-29T17:30:47.134Z"
       }
     },
     {
@@ -2432,10 +3745,26 @@
           "url": "https://www.jiqizhixin.com/articles/2026-10-29-2",
           "title": "刚刚，谷歌发布最强模型Gemini 4 Carbon！荣登榜首",
           "publishedAt": "2026-10-29T02:42:00.000Z"
+        },
+        {
+          "id": "odzjfypsy4",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article",
+          "title": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
+          "publishedAt": "2026-10-29T12:13:07.000Z"
+        },
+        {
+          "id": "29n6keji76k",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50288019",
+          "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
+          "publishedAt": "2026-10-29T12:41:56.000Z"
         }
       ],
       "story": {
-        "reports": 8,
+        "reports": 10,
         "sources": [
           "deepmind",
           "hackernews",
@@ -2443,7 +3772,8 @@
           "verge-ai",
           "qbitai",
           "36kr-ai",
-          "jiqizhixin"
+          "jiqizhixin",
+          "infoq-cn"
         ],
         "firstPublishedAt": "2026-10-28T17:00:58.000Z",
         "metrics": {
@@ -2513,10 +3843,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "谷歌开放Gemini和搜索给更多应用，改变消费者发现和使用应用的方式。",
+        "title": "Google 向更多应用开放 Gemini 和搜索",
+        "summary": "Google 推出开发者平台，将服务接入 AI 体验。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:05:58.074Z"
+        "at": "2026-10-29T17:30:12.395Z"
       }
     },
     {
@@ -2599,10 +3930,11 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhsvmy/it_vendor_lists_massive_60_million_ai/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "IT供应商在eBay上出售包含9600块Nvidia A100 GPU的AI超级计算机。",
+        "title": "eBay 上出现 6000 万美元的 AI 超级计算机",
+        "summary": "eBay 上出现包含 9600 张 Nvidia A100 GPU 的 AI 超级计算机。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:05:58.074Z"
+        "at": "2026-10-29T17:30:47.134Z"
       }
     },
     {
@@ -2618,17 +3950,18 @@
       "publishedAt": "2026-10-28T16:25:02.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "AI 编程"
       ],
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "OpenAI在柏林DevDay分享新细节，Dots助手将在几周内更广泛地推出。",
-        "category": "agent",
+        "title": "OpenAI 在柏林 DevDay 上强调构建平台",
+        "summary": "OpenAI 在柏林 DevDay 上宣布 Dots 将在欧洲推出。",
+        "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:05:58.074Z"
+        "at": "2026-10-29T17:30:12.395Z"
       }
     },
     {
@@ -2648,10 +3981,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "Anthropic为Claude for Legal添加模板，简化法律团队工作流程。",
+        "title": "Claude for Legal 自动验证来源",
+        "summary": "Anthropic 为 Claude for Legal 添加模板，简化合同审查。",
         "category": "agent",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:05:58.074Z"
+        "at": "2026-10-29T17:30:12.395Z"
       }
     },
     {
@@ -2671,10 +4005,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "Meta可能再次推迟实施新的商业条款，因出版商对AI训练表示反对。",
+        "title": "Meta 可能再次推迟新的商业条款",
+        "summary": "Meta 因出版商反对，推迟实施新的 AI 训练商业条款。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:05:58.074Z"
+        "at": "2026-10-29T17:30:12.395Z"
       }
     },
     {
@@ -2695,10 +4030,11 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhse0l/alternatives_to_artificial_analysis/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "用户讨论Artificial Analysis指标变化，寻求开源模型评测替代方案。",
+        "title": "Artificial Analysis 的替代方案",
+        "summary": "用户质疑 Artificial Analysis 的评测指标，寻求替代方案。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:05:58.074Z"
+        "at": "2026-10-29T17:30:47.134Z"
       }
     },
     {

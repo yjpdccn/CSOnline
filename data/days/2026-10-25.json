@@ -20,9 +20,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 21.6,
+      "score": 21.8,
       "metrics": {
-        "stars": 1206
+        "stars": 1240
       }
     },
     {
@@ -46,7 +46,7 @@
       ],
       "score": 19.8,
       "metrics": {
-        "stars": 861
+        "stars": 872
       }
     },
     {
@@ -64,11 +64,34 @@
       "day": "2026-10-25",
       "category": "model",
       "categoryLocked": true,
-      "score": 24.8,
+      "score": 25.4,
       "metrics": {
-        "likes": 239
+        "likes": 267
       },
       "skipLlm": true
+    },
+    {
+      "id": "1tx1xqmsc2v",
+      "key": "gh:qybaihe/bla",
+      "title": "qybaihe/bla",
+      "url": "https://github.com/qybaihe/bla",
+      "excerpt": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-25T05:25:45.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-25",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 17.4,
+      "metrics": {
+        "stars": 539
+      }
     },
     {
       "id": "1fn96ytffyk",
@@ -105,9 +128,9 @@
         "Agent",
         "MCP"
       ],
-      "score": 16.6,
+      "score": 16.7,
       "metrics": {
-        "stars": 450
+        "stars": 462
       }
     },
     {
@@ -125,9 +148,9 @@
       "day": "2026-10-25",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 18.5,
+      "score": 18.9,
       "metrics": {
-        "stars": 674
+        "stars": 731
       },
       "dupOf": "14542rok3oi"
     }

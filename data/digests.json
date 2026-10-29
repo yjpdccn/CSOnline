@@ -32,5 +32,45 @@
         ]
       }
     ]
+  },
+  "2026-10-30": {
+    "day": "2026-10-30",
+    "generatedAt": "2026-10-29T17:31:18.400Z",
+    "itemCount": 167,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "Mistral Large 4 权重开源，豆包开放三方模型，腾讯混元 Hy4 引入视觉能力。",
+    "points": [
+      {
+        "text": "Mistral Large 4 权重开源，专注代码与安全。",
+        "refs": [
+          "29nd2v3ad9p"
+        ]
+      },
+      {
+        "text": "豆包工作向企业客户开放配置 Kimi、GLM 等三方模型。",
+        "refs": [
+          "1cgo49tqjk8"
+        ]
+      },
+      {
+        "text": "腾讯混元 Hy4 即将发布，首次引入视觉理解能力。",
+        "refs": [
+          "28wuvh564r5"
+        ]
+      },
+      {
+        "text": "Claude Code 将背景代理的对话记录发送给模型。",
+        "refs": [
+          "1j7e9927nup"
+        ]
+      },
+      {
+        "text": "Dream 是基于物理和建筑标准的 AI 世界模型。",
+        "refs": [
+          "22u9qxsa9pz"
+        ]
+      }
+    ]
   }
 }

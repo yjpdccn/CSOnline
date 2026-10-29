@@ -15,7 +15,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI 高管可能过于脱离公众需求。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:00.989Z"
+      }
     },
     {
       "id": "qqfhrnxy63",
@@ -49,22 +56,23 @@
       "publishedAt": "2026-10-28T15:46:30.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "agent",
+      "category": "paper",
       "keywords": [
         "Agent"
       ],
-      "score": 29.1,
+      "score": 29.6,
       "metrics": {
-        "points": 234,
-        "comments": 152
+        "points": 248,
+        "comments": 164
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50275626",
       "aiAttempts": 1,
       "ai": {
-        "summary": "在 50 个专业税务任务上评估 AI Agent。",
-        "category": "agent",
+        "title": "职业评估：在 50 个专业税务任务上评估 AI 代理",
+        "summary": "评估 AI 代理在 50 个专业税务任务上的表现。",
+        "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:06:36.371Z"
+        "at": "2026-10-29T17:30:47.134Z"
       }
     },
     {
@@ -81,7 +89,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "韩国金融业遭遇新一轮网络攻击。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:00.989Z"
+      }
     },
     {
       "id": "6wiriwkwz3",
@@ -115,7 +130,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "新 Artificial Analysis 指数扩大了开源与闭源模型的差距。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:00.989Z"
+      }
     },
     {
       "id": "2ctsj45qphp",
@@ -156,11 +178,18 @@
       "publishedAt": "2026-10-28T15:00:00.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "multimodal",
+      "category": "industry",
       "keywords": [
         "语音"
       ],
-      "score": 19
+      "score": 19,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Nvidia 发布免费语音转文字模型，支持 40 种语言。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:00.989Z"
+      }
     },
     {
       "id": "uoxdxfwzyy",
@@ -175,10 +204,10 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "model",
-      "score": 71.8,
+      "score": 72,
       "metrics": {
-        "points": 123,
-        "comments": 21
+        "points": 126,
+        "comments": 23
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50275128",
       "alsoOn": [
@@ -189,11 +218,10 @@
         }
       ],
       "ai": {
-        "title": "NVIDIA Nemotron 3.5 Transcribe and Gran…",
-        "summary": "Hugging Face 介绍 NVIDIA Nemotron 3.5 Transcribe 和 Granary v2。",
-        "category": "model",
+        "title": "NVIDIA Nemotron 3.5 Transcribe 和 Granar…",
+        "summary": "NVIDIA 发布支持提示和适应的多语言转录工具。",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T08:15:39.297Z"
+        "at": "2026-10-29T17:30:47.134Z"
       },
       "related": [
         {
@@ -223,8 +251,8 @@
         ],
         "firstPublishedAt": "2026-10-28T14:58:17.000Z",
         "metrics": {
-          "points": 123,
-          "comments": 21
+          "points": 126,
+          "comments": 23
         }
       },
       "aiAttempts": 1
@@ -279,7 +307,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "xAI 购房者承诺不起诉以换取数据中心噪音赔偿",
+        "summary": "xAI 子公司向密西西比居民提供赔偿，条件是不得起诉其数据中心。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "25j4r9d9v2",
@@ -374,7 +409,14 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 14
+      "score": 14,
+      "ai": {
+        "title": "2025 年 10 月成为游戏开发的关键转折点",
+        "summary": "作者认为 Opus 4.5 和 GPT-5.1 的编码代理已达到可靠日常使用的临界点。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "1vhbqn2pchh",
@@ -389,9 +431,16 @@
       "publishedAt": "2026-10-28T13:41:58.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "model",
-      "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhoeo3/used_qwen_38_flash_next_on_underspeced_pc_to_root/"
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhoeo3/used_qwen_38_flash_next_on_underspeced_pc_to_root/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "用户在低配 PC 上使用 Qwen 3.8 flash 成功清理 LG 电视。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:00.989Z"
+      }
     },
     {
       "id": "11tgj2w9szl",
@@ -408,16 +457,16 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 460,
-        "comments": 503
+        "points": 477,
+        "comments": 513
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50273396",
       "ai": {
-        "title": "Kentucky man becomes the first humanist…",
-        "summary": "肯塔基男子成为首位获得宗教豁免权的 AI 用户。",
+        "title": "首位获得宗教豁免权的 AI 反对者",
+        "summary": "肯塔基州男子成为首位获得宗教豁免权的 AI 反对者。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T08:15:39.297Z"
+        "at": "2026-10-29T17:30:47.134Z"
       },
       "aiAttempts": 1
     },
@@ -452,9 +501,16 @@
       "publishedAt": "2026-10-28T13:23:06.000Z",
       "firstSeenAt": "2026-10-29T08:48:46.992Z",
       "day": "2026-10-28",
-      "category": "multimodal",
+      "category": "opensource",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhny7x/i_took_embeddinggemma2_577m_from_rank_26_to_1_on/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhny7x/i_took_embeddinggemma2_577m_from_rank_26_to_1_on/",
+      "ai": {
+        "title": "EmbeddingGemma-2 在音频榜单登顶",
+        "summary": "用户通过添加 2.4 MB PCA 头部，将 577M 模型在 MTEB 音频榜单从第 26 名提升至第 1 名。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "io9bjph6zl",
@@ -512,7 +568,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "TechCrunch 创始人峰会 7 天后开幕，早鸟票最高优惠 100 美元",
+        "summary": "TechCrunch 创始人峰会将于 11 月 4 日在波士顿举行，早鸟票优惠即将结束。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "1tb4picrucl",
@@ -527,9 +590,16 @@
       "publishedAt": "2026-10-28T12:26:44.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "model",
-      "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhmo1q/someone_built_a_32bit_riscv_cpu_directly_inside/"
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhmo1q/someone_built_a_32bit_riscv_cpu_directly_inside/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "有人在 Qwen 模型权重中内置了可执行指令的 RISC-V CPU。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:00.989Z"
+      }
     },
     {
       "id": "wf6fczsd5b",
@@ -628,7 +698,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "德州选民对数据中心表示强烈反对",
+        "summary": "德州 NAACP 主席指出，当地居民正积极抵制数据中心开发项目。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "1cqllhxck4o",
@@ -663,7 +740,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 19
+      "score": 19,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Meta 推出类似电子宠物的 AI 日记应用 Waddle World。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:00.989Z"
+      }
     },
     {
       "id": "1784x2824zu",
@@ -678,8 +762,15 @@
       "publishedAt": "2026-10-28T11:15:00.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "industry",
-      "score": 15
+      "category": "agent",
+      "score": 15,
+      "ai": {
+        "title": "Anthropic：AI 写代码时代，创业思维比编程更重要",
+        "summary": "Anthropic 经理认为 Claude 已能解决编程任务，更看重候选人的原型能力和思维。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "28hg2j2s4go",
@@ -730,7 +821,15 @@
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "AI 代理攻破 Anthropic 内部系统",
+        "summary": "网络安全公司利用 AI 代理通过第三方软件入侵 Anthropic 系统，暴露了企业安全漏洞。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      },
+      "dupOf": "1m8t6ce0y9p"
     },
     {
       "id": "10srw7fch1n",
@@ -847,12 +946,19 @@
       "publishedAt": "2026-10-28T10:19:22.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "model",
+      "category": "industry",
       "keywords": [
         "开源模型"
       ],
-      "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhk7hp/aa_is_getting_ridiculous_now_zero_open_weights_in/"
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhk7hp/aa_is_getting_ridiculous_now_zero_open_weights_in/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Artificial Analysis 指数 Most Attractive Quadrant 现无开源模型。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:00.989Z"
+      }
     },
     {
       "id": "1n163uccqbt",
@@ -959,7 +1065,25 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "6ukybdd1f7",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/ai-agents-hacked-anthropic-maker-of-arguably-the-most-capable-ai-models-for-cyberdefense/",
+          "title": "AI 代理攻破 Anthropic 内部系统",
+          "publishedAt": "2026-10-28T10:56:24.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "infoq-cn",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-10-28T09:54:54.000Z"
+      }
     },
     {
       "id": "2g885tjatgv",
@@ -997,8 +1121,8 @@
       "publishedAt": "2026-10-28T09:45:18.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "model",
-      "score": 16,
+      "category": "industry",
+      "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhjn9d/gemma_5_models_soon/",
       "related": [
         {
@@ -1016,6 +1140,13 @@
           "reddit-localllama"
         ],
         "firstPublishedAt": "2026-10-28T09:45:18.000Z"
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "传闻 Gemma 5 模型即将发布。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:00.989Z"
       }
     },
     {
@@ -1199,9 +1330,16 @@
       "publishedAt": "2026-10-28T08:43:16.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "industry",
+      "category": "opensource",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhinyj/diffuspaceclover35ba3bpreview_hugging_face/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhinyj/diffuspaceclover35ba3bpreview_hugging_face/",
+      "ai": {
+        "title": "DiffuSpace 发布 Clover-35B-A3B 预览模型",
+        "summary": "Clover-35B-A3B 是 DiffuSpace 首个开源扩散语言模型，性能达到发布时最佳。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "1r70go8vt8j",
@@ -1360,7 +1498,14 @@
       "day": "2026-10-28",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhep6w/dirt_cheap_gpus_coming_next_year/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhep6w/dirt_cheap_gpus_coming_next_year/",
+      "ai": {
+        "title": "明年廉价 GPU 价格可能崩盘",
+        "summary": "分析认为数据中心建设放缓可能导致 GPU 价格大幅下跌。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "1ongsppqp4o",
@@ -1426,12 +1571,19 @@
       "publishedAt": "2026-10-28T03:36:56.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "industry",
+      "category": "opensource",
       "keywords": [
         "开源模型"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdmlk/artificial_analysis_intelligence_index_v5_major/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdmlk/artificial_analysis_intelligence_index_v5_major/",
+      "ai": {
+        "title": "Artificial Analysis 智能指数 v5 更新",
+        "summary": "开源模型与闭源模型的性能差距在 v5 版本中进一步扩大。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "gltgmq3cnk",
@@ -1480,7 +1632,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Anthropic IPO：亚马逊将获巨额回报",
+        "summary": "亚马逊在 Anthropic 的持股将随 IPO 获得巨额回报，远超风投收益。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "2b77btffv9d",
@@ -1544,15 +1703,15 @@
       ],
       "score": 30.2,
       "metrics": {
-        "upvotes": 377,
+        "upvotes": 379,
         "comments": 4
       },
       "ai": {
-        "title": "Multiscale Policy Optimization for Long…",
-        "summary": "多尺度策略优化通过调整回合尺度对齐信用分配与策略更新。",
+        "title": "多尺度策略优化",
+        "summary": "多尺度策略优化通过在回合尺度上对齐信用分配来改进长期代理训练。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T08:16:57.279Z"
+        "at": "2026-10-29T17:30:47.134Z"
       },
       "aiAttempts": 1
     },
@@ -1573,10 +1732,10 @@
       "categoryLocked": true,
       "score": 24.9,
       "metrics": {
-        "upvotes": 90,
+        "upvotes": 91,
         "comments": 2
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Factorized Vector Quantization 提升离散视觉 Token 质量，使其在多模态理解中匹配连续表示。",
         "category": "paper",
@@ -1605,15 +1764,16 @@
       ],
       "score": 29.8,
       "metrics": {
-        "upvotes": 174,
+        "upvotes": 175,
         "comments": 2
       },
       "aiAttempts": 1,
       "ai": {
-        "summary": "VibeVideoBench 评估基于代码的视频生成多模态 Agent，发现其常因时间管理不善而失败。",
+        "title": "VibeVideoBench：评估代码驱动视频生成",
+        "summary": "VibeVideoBench 评估多模态代理的代码驱动视频生成能力。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:06:36.371Z"
+        "at": "2026-10-29T17:30:47.134Z"
       }
     },
     {
@@ -1634,12 +1794,12 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 28.3,
+      "score": 28.4,
       "metrics": {
-        "upvotes": 144,
+        "upvotes": 146,
         "comments": 2
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "PDRVLA 通过物理动力学模块预测未来视觉特征，提升机器人动作生成。",
         "category": "paper",
@@ -1667,15 +1827,15 @@
       ],
       "score": 30.2,
       "metrics": {
-        "upvotes": 540,
+        "upvotes": 543,
         "comments": 3
       },
       "ai": {
-        "title": "The Trinity: Capability-Driven Recursiv…",
-        "summary": "The Trinity 框架通过能力树和模拟训练世界提升多模态 Agent 性能。",
+        "title": "三体：多模态代理的能力驱动递归自我改进",
+        "summary": "三体框架通过组织任务、生成模拟训练世界来提升多模态代理性能。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T08:16:57.279Z"
+        "at": "2026-10-29T17:30:47.134Z"
       },
       "aiAttempts": 1
     },
@@ -1698,12 +1858,12 @@
         "Agent",
         "RAG"
       ],
-      "score": 28.6,
+      "score": 28.7,
       "metrics": {
-        "upvotes": 147,
-        "comments": 4
+        "upvotes": 149,
+        "comments": 5
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Memory Tax 框架评估 Agent 记忆系统的净价值，发现专用记忆系统常表现不佳。",
         "category": "paper",
@@ -1729,12 +1889,12 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.3,
+      "score": 24.6,
       "metrics": {
-        "upvotes": 80,
-        "comments": 6
+        "upvotes": 84,
+        "comments": 7
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "HABIT-Bench 评估 LLM Agent 记忆系统从稀疏对话证据推断用户习惯的能力。",
         "category": "paper",
@@ -1762,7 +1922,7 @@
         "upvotes": 119,
         "comments": 3
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "测试时记忆演化通过更新外部记忆而非模型权重，更高效地引导科学发现。",
         "category": "paper",
@@ -1785,12 +1945,12 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 26.2,
+      "score": 26.6,
       "metrics": {
-        "upvotes": 108,
+        "upvotes": 114,
         "comments": 2
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Hy-Nomas 是一个使用因果注意力和结构化条件生成交互式视频片段的视频世界模型。",
         "category": "paper",
@@ -1815,15 +1975,15 @@
       "categoryLocked": true,
       "score": 30.1,
       "metrics": {
-        "upvotes": 377,
+        "upvotes": 397,
         "comments": 2
       },
       "ai": {
-        "title": "ChronoReplay: One Answer Interface Is N…",
-        "summary": "ChronoReplay 通过时间顺序回放改善空间视觉语言模型的跨任务迁移。",
+        "title": "ChronoReplay：解决空间智能流式接口锁定",
+        "summary": "ChronoReplay 通过按时间顺序重放异构空间监督来改善空间视觉语言模型。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T08:16:57.279Z"
+        "at": "2026-10-29T17:30:47.134Z"
       },
       "aiAttempts": 1
     },
@@ -1842,12 +2002,12 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 23.2,
+      "score": 24,
       "metrics": {
-        "upvotes": 71,
+        "upvotes": 80,
         "comments": 2
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Rollback 利用世界模型回溯过去决策，探索反事实动作以改进机器人策略。",
         "category": "paper",
@@ -1870,17 +2030,45 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.1,
+      "score": 21.2,
       "metrics": {
-        "upvotes": 51,
+        "upvotes": 52,
         "comments": 2
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "ThinkWorld 将动作表示为动力学链，利用世界想象从无标签人类视频中学习。",
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T10:06:36.371Z"
+      }
+    },
+    {
+      "id": "hnt5jco7in",
+      "key": "arxiv:2610.37341",
+      "title": "CodeCap-Bench: Can Code Serve as a Good Video Caption?",
+      "url": "https://huggingface.co/papers/2610.37341",
+      "excerpt": "Executable code representations of video content improve reasoning and reconstruction over natural language, yet current multimodal models still struggle to generate faithful code captions for complex temporal dynamics.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "firstSeenAt": "2026-10-29T17:29:35.979Z",
+      "day": "2026-10-28",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 21,
+      "metrics": {
+        "upvotes": 50,
+        "comments": 2
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "CodeCap-Bench 评估代码作为视频描述的可行性。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:00.989Z"
       }
     },
     {
@@ -1900,10 +2088,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "家长起诉 OpenAI，称 GPT-4o 教唆其女儿停用癫痫药物。",
+        "title": "OpenAI 被诉 GPT-4o 助长停药致女儿死亡",
+        "summary": "家长起诉 OpenAI，称 ChatGPT 教唆其女儿停用癫痫药物并隐瞒医生。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T10:06:36.371Z"
+        "at": "2026-10-29T17:31:16.079Z"
       }
     },
     {
@@ -1920,7 +2109,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "数据中心热潮为美国电网带来创新机遇",
+        "summary": "AI 带来的电力压力催生了电网现代化新机会。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "m3xj00szxu",
@@ -1935,11 +2131,18 @@
       "publishedAt": "2026-10-27T21:44:34.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "美国银行提醒用户勿将银行密码分享给 AI 助手",
+        "summary": "银行强调用户需对 AI 助手造成的账户活动负责。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "1gedv0ebn0j",
@@ -1955,7 +2158,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Anthropic IPO 后谁将真正掌权？",
+        "summary": "文章解析了 Anthropic 复杂的治理结构及其 IPO 后的权力分配。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "2ac9e7biwyq",
@@ -1969,19 +2179,19 @@
       "publishedAt": "2026-10-27T20:50:42.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "model",
-      "score": 39.3,
+      "category": "industry",
+      "score": 33.4,
       "metrics": {
-        "points": 324,
-        "comments": 337
+        "points": 328,
+        "comments": 339
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50265609",
       "ai": {
-        "title": "Early progress on accelerating drug dev…",
-        "summary": "利用 Claude 加速药物研发取得早期进展。",
-        "category": "model",
+        "title": "早期进展：利用 Claude 加速药物开发",
+        "summary": "利用 Claude 进行药物开发的早期进展。",
+        "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T08:16:57.279Z"
+        "at": "2026-10-29T17:30:47.134Z"
       },
       "aiAttempts": 1
     },
@@ -1998,8 +2208,15 @@
       "publishedAt": "2026-10-27T20:48:58.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "industry",
-      "score": 15
+      "category": "paper",
+      "score": 15,
+      "ai": {
+        "title": "研究人员不满 OpenAI 阻断突破性成果",
+        "summary": "尽管 OpenAI 宣布数学、计算机和物理领域的突破，但研究人员仍对其沟通方式表示不满。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "14542rok3oi",
@@ -2014,10 +2231,10 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "opensource",
-      "score": 51.1,
+      "score": 51.5,
       "metrics": {
-        "points": 527,
-        "comments": 195
+        "points": 535,
+        "comments": 200
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50264853",
       "ai": {
@@ -2045,9 +2262,9 @@
         ],
         "firstPublishedAt": "2026-10-24T19:12:41.000Z",
         "metrics": {
-          "points": 527,
-          "comments": 195,
-          "stars": 674
+          "points": 535,
+          "comments": 200,
+          "stars": 731
         }
       }
     },
@@ -2064,8 +2281,15 @@
       "publishedAt": "2026-10-27T19:45:49.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "model",
-      "score": 21
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "研究人员发现阿里 Qwen 3.8 模型在测试时将请求路由至公司服务器。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:00.989Z"
+      }
     },
     {
       "id": "jioiwlrnai",
@@ -2080,13 +2304,13 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 23.6,
+      "score": 23.7,
       "metrics": {
-        "points": 106,
+        "points": 107,
         "comments": 135
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50264228",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "美国总统表示将禁止使用“人工智能”一词。",
         "category": "industry",
@@ -2111,7 +2335,14 @@
       "keywords": [
         "语音"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Disruptive 拟募资 100 亿美元押注至少 10 家公司",
+        "summary": "Disruptive 宣布成立 100 亿美元基金，将投资包括 Groq 和 ElevenLabs 在内的公司。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "10ev8fvd4fs",
@@ -2169,7 +2400,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "opensource",
-      "score": 50,
+      "score": 50.4,
       "ai": {
         "title": "使用 LFM3 构建专用多模态模型",
         "summary": "介绍如何利用 LFM3 构建特定领域的多模态模型。",
@@ -2195,7 +2426,7 @@
         ],
         "firstPublishedAt": "2026-10-23T21:35:42.000Z",
         "metrics": {
-          "likes": 431
+          "likes": 455
         }
       }
     },
@@ -2212,8 +2443,15 @@
       "publishedAt": "2026-10-27T17:08:08.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "industry",
-      "score": 15
+      "category": "paper",
+      "score": 15,
+      "ai": {
+        "title": "前沿 AI 模型推翻指数时间假设意味着什么？",
+        "summary": "MIT 计算机科学家解释了 OpenAI 最新发现对计算复杂性理论的影响。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T17:31:16.079Z"
+      }
     },
     {
       "id": "zgx8id4zlx",
@@ -2230,16 +2468,16 @@
       "category": "industry",
       "score": 34.7,
       "metrics": {
-        "points": 396,
+        "points": 397,
         "comments": 312
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50261819",
       "ai": {
-        "title": "Police are using AI to pull over driver…",
-        "summary": "警方利用 AI 识别可疑驾驶行为进行拦截，引发隐私担忧。",
+        "title": "警方利用 AI 拦截可疑行为司机",
+        "summary": "警方开始使用 AI 技术拦截可疑行为的司机。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T08:16:57.279Z"
+        "at": "2026-10-29T17:30:47.134Z"
       },
       "aiAttempts": 1
     },
@@ -2256,18 +2494,18 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 34,
+      "score": 34.1,
       "metrics": {
-        "points": 375,
-        "comments": 284
+        "points": 379,
+        "comments": 291
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50261589",
       "ai": {
-        "title": "Amazon Is Gutting Its AI Division After…",
-        "summary": "亚马逊 AI 部门因持续失败被大幅裁员重组。",
+        "title": "亚马逊裁员 AI 部门",
+        "summary": "亚马逊因持续失败而大幅裁员 AI 部门。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T08:16:57.279Z"
+        "at": "2026-10-29T17:30:47.134Z"
       },
       "aiAttempts": 1
     },
@@ -2307,7 +2545,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "multimodal",
-      "score": 46,
+      "score": 54,
       "aiAttempts": 2,
       "related": [
         {
@@ -2325,14 +2563,23 @@
           "url": "https://www.jiqizhixin.com/articles/2026-10-28-2",
           "title": "游戏引擎已死？谷歌Genie 4刚刚发布，实时操控整个世界",
           "publishedAt": "2026-10-28T02:34:00.000Z"
+        },
+        {
+          "id": "9kzb8305eg",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/yanxishe/F3FpQlhpT7u7ekyU.html",
+          "title": "拉爆游戏引擎？深度拆解 Genie 4，从视频生成到世界控制，Google 要跨越什么？",
+          "publishedAt": "2026-10-29T14:22:00.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "deepmind",
           "the-decoder",
-          "jiqizhixin"
+          "jiqizhixin",
+          "leiphone"
         ],
         "firstPublishedAt": "2026-10-27T16:01:38.000Z"
       },

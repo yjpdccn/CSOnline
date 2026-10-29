@@ -33,8 +33,8 @@
       "category": "industry",
       "score": 35.6,
       "metrics": {
-        "points": 581,
-        "comments": 294
+        "points": 593,
+        "comments": 295
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50260814",
       "ai": {
@@ -100,7 +100,7 @@
       "score": 28.3,
       "metrics": {
         "points": 225,
-        "comments": 118
+        "comments": 121
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50259406"
     },
@@ -138,9 +138,9 @@
       "day": "2026-10-27",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 26.1,
+      "score": 27.3,
       "metrics": {
-        "stars": 2486
+        "stars": 3005
       }
     },
     {
@@ -156,10 +156,10 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 35,
+      "score": 35.1,
       "metrics": {
-        "points": 506,
-        "comments": 237
+        "points": 513,
+        "comments": 240
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50257326",
       "ai": {
@@ -185,16 +185,16 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 673,
-        "comments": 656
+        "points": 675,
+        "comments": 659
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50257325",
       "ai": {
-        "title": "AI promised less work. I've never worke…",
-        "summary": "AI 承诺减少工作量，但实际工作并未减少。",
+        "title": "AI 承诺减少工作，我却更忙了",
+        "summary": "用户分享 AI 并未减少工作负担，反而增加了工作量的真实体验。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T08:15:39.297Z"
+        "at": "2026-10-29T17:31:16.079Z"
       }
     },
     {
@@ -593,16 +593,16 @@
       "category": "paper",
       "score": 36,
       "metrics": {
-        "points": 480,
-        "comments": 354
+        "points": 485,
+        "comments": 357
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50255298",
       "ai": {
-        "title": "The Mythical Man-Month in the Age of AI",
-        "summary": "探讨 AI 时代下的软件工程效率问题。",
+        "title": "AI 时代的《人月神话》",
+        "summary": "文章探讨 AI 对软件工程和项目管理的影响，呼应经典著作主题。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T08:15:39.297Z"
+        "at": "2026-10-29T17:31:16.079Z"
       }
     },
     {
@@ -619,7 +619,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "model",
-      "score": 46.9,
+      "score": 47.2,
       "related": [
         {
           "id": "2b971ysr9us",
@@ -638,7 +638,7 @@
         ],
         "firstPublishedAt": "2026-10-26T03:57:46.000Z",
         "metrics": {
-          "likes": 353
+          "likes": 370
         }
       }
     },
@@ -729,9 +729,9 @@
       "day": "2026-10-27",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22,
+      "score": 22.2,
       "metrics": {
-        "upvotes": 59,
+        "upvotes": 61,
         "comments": 2
       }
     },
@@ -894,10 +894,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.7,
+      "score": 33,
       "metrics": {
-        "points": 156,
-        "comments": 65
+        "points": 346,
+        "comments": 241
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50251200"
     },
@@ -993,7 +993,7 @@
       ],
       "score": 17.7,
       "metrics": {
-        "stars": 571
+        "stars": 573
       }
     },
     {
