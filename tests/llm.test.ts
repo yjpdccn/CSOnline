@@ -134,6 +134,28 @@ describe("summarizeItems", () => {
     expect(outcome.fatal).toContain("调用上限");
   });
 
+  it("gives up for the run when rate limiting outlasts the retries", async () => {
+    const fetchMock = vi.fn(async () => jsonResponse({ error: { code: "1302", message: "并发数过高" } }, 429, { "retry-after": "0" }));
+    const client = new LlmClient(baseConfig, fetchMock as unknown as typeof fetch);
+    const items = makeItems(30);
+    const outcome = await summarizeItems(client, items);
+    expect(fetchMock).toHaveBeenCalledTimes(4);
+    expect(outcome.fatal).toContain("1302");
+    expect(items[0].aiAttempts).toBeUndefined();
+  });
+
+  it("recovers when a rate limit clears on retry", async () => {
+    const echo = echoFetch();
+    let calls = 0;
+    const fetchMock = vi.fn(async (url: string | URL | Request, init?: RequestInit) =>
+      ++calls === 1 ? jsonResponse({ error: "busy" }, 429, { "retry-after": "0" }) : echo(url, init),
+    );
+    const client = new LlmClient(baseConfig, fetchMock as unknown as typeof fetch);
+    const outcome = await summarizeItems(client, makeItems(3));
+    expect(outcome).toMatchObject({ summarized: 3, failed: 0 });
+    expect(outcome.fatal).toBeUndefined();
+  });
+
   it("retries without response_format when the provider rejects it", async () => {
     const echo = echoFetch();
     let first = true;

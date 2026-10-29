@@ -147,7 +147,8 @@ export class LlmClient {
       if (res.status === 429) {
         const retryAfter = Number(res.headers.get("retry-after") ?? NaN);
         if (Number.isFinite(retryAfter) && retryAfter > 90) throw new FatalLlmError(`已达到调用上限，约 ${Math.ceil(retryAfter / 60)} 分钟后恢复`);
-        lastError = new Error(`触发限流（HTTP 429）：${detail}`);
+        // Fatal once retries run out: backing off on every batch would outlast the job's 30-minute timeout.
+        lastError = new FatalLlmError(`触发限流（HTTP 429），重试后仍未恢复：${detail}`);
         await sleep((Number.isFinite(retryAfter) ? retryAfter : 10 * (attempt + 1)) * 1000);
         continue;
       }
