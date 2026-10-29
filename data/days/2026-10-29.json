@@ -2,6 +2,76 @@
   "day": "2026-10-29",
   "items": [
     {
+      "id": "1gswxw3zafh",
+      "key": "url:36kr.com/p/4046427575605128",
+      "title": "“世界” 等待张一鸣",
+      "url": "https://36kr.com/p/4046427575605128",
+      "excerpt": "Genie 4发布，字节的世界模型还远吗？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T04:18:15.942Z",
+      "firstSeenAt": "2026-10-29T04:21:12.432Z",
+      "day": "2026-10-29",
+      "category": "multimodal",
+      "score": 18
+    },
+    {
+      "id": "1ejcv7w6i49",
+      "key": "url:36kr.com/p/4046438303372937",
+      "title": "留给具身智能的时间不多了",
+      "url": "https://36kr.com/p/4046438303372937",
+      "excerpt": "具身智能陷叙事内卷死局，需转向真实落地。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T04:17:27.427Z",
+      "firstSeenAt": "2026-10-29T04:21:12.432Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "3e5lr2syih",
+      "key": "url:36kr.com/p/4046412359603328",
+      "title": "这届中产父母的AI焦虑，标价13800元",
+      "url": "https://36kr.com/p/4046412359603328",
+      "excerpt": "一个母亲的职场危机，换来一张被捏卷边的结业证书。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T04:14:25.758Z",
+      "firstSeenAt": "2026-10-29T04:21:12.432Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "27h9syzc766",
+      "key": "url:36kr.com/p/4046427132744579",
+      "title": "最后一天赶紧蹬，Codex 200刀额度砍半，ChatGPT入口大更新",
+      "url": "https://36kr.com/p/4046427132744579",
+      "excerpt": "OpenAI砍Pro额度，合并聊天工作，开发者热议",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T04:13:56.068Z",
+      "firstSeenAt": "2026-10-29T04:21:12.432Z",
+      "day": "2026-10-29",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 18
+    },
+    {
       "id": "1ln2q4onhpn",
       "key": "url:36kr.com/newsflashes/4046431438656641",
       "title": "微软CFO：预计2027财年Q2“智能体与基础设施”业务收入为801亿美元至807亿美元，同比增长24%至25%",
@@ -158,7 +228,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 307569,
+        "stars": 307575,
         "starsToday": 1095
       }
     },
@@ -182,7 +252,7 @@
       ],
       "score": 16.7,
       "metrics": {
-        "stars": 5497,
+        "stars": 5499,
         "starsToday": 117
       }
     },
@@ -206,7 +276,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 40921,
+        "stars": 40930,
         "starsToday": 2110
       }
     },
@@ -231,7 +301,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 93131,
+        "stars": 93154,
         "starsToday": 1472
       }
     },
@@ -255,7 +325,7 @@
       ],
       "score": 28.3,
       "metrics": {
-        "stars": 8222,
+        "stars": 8227,
         "starsToday": 728
       }
     },
@@ -280,7 +350,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 3368,
+        "stars": 3375,
         "starsToday": 1054
       }
     },
@@ -304,7 +374,7 @@
       ],
       "score": 15.6,
       "metrics": {
-        "stars": 3636,
+        "stars": 3637,
         "starsToday": 90
       }
     },
@@ -1065,7 +1135,7 @@
       "category": "industry",
       "score": 23.8,
       "metrics": {
-        "points": 136,
+        "points": 137,
         "comments": 65
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50280178"
