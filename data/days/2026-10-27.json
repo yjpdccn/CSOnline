@@ -15,7 +15,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "agent",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "2fo15n9e2st",
@@ -32,10 +33,11 @@
       "category": "industry",
       "score": 35.5,
       "metrics": {
-        "points": 572,
-        "comments": 291
+        "points": 573,
+        "comments": 292
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50260814"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50260814",
+      "aiAttempts": 1
     },
     {
       "id": "1o9oxnwumoz",
@@ -51,7 +53,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "1vjtjvvjupu",
@@ -72,7 +75,8 @@
         "AI 编程",
         "语音"
       ],
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "1sownfzvqrw",
@@ -92,7 +96,8 @@
         "points": 224,
         "comments": 117
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50259406"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50259406",
+      "aiAttempts": 1
     },
     {
       "id": "1b20bd9hjpa",
@@ -111,7 +116,8 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 22
+      "score": 22,
+      "aiAttempts": 1
     },
     {
       "id": "7f3l28yvfx",
@@ -128,10 +134,11 @@
       "day": "2026-10-27",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 24.8,
+      "score": 25,
       "metrics": {
-        "stars": 2050
-      }
+        "stars": 2094
+      },
+      "aiAttempts": 1
     },
     {
       "id": "27rax37xok9",
@@ -151,7 +158,8 @@
         "points": 499,
         "comments": 237
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50257326"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50257326",
+      "aiAttempts": 1
     },
     {
       "id": "1e29nsmxe3w",
@@ -168,10 +176,11 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 666,
+        "points": 667,
         "comments": 654
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50257325"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50257325",
+      "aiAttempts": 1
     },
     {
       "id": "ni0biecohc",
@@ -187,7 +196,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "w9d0qcnezc",
@@ -206,7 +216,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "oo2e5dac3h",
@@ -222,7 +233,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "161dafpdk2q",
@@ -241,7 +253,8 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "2azv4mlv6ew",
@@ -261,7 +274,8 @@
         "Agent",
         "语音"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1dspa2x947i",
@@ -277,7 +291,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "9fq9mi558f",
@@ -296,7 +311,8 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 22
+      "score": 22,
+      "aiAttempts": 1
     },
     {
       "id": "vcxxxudh0h",
@@ -312,7 +328,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "v97g41d3lh",
@@ -328,7 +345,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "fxc9io3m14",
@@ -347,7 +365,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1cvrt014ddh",
@@ -373,7 +392,8 @@
           "sourceName": "雷峰网",
           "url": "https://www.leiphone.com/category/industrynews/g4nk653U5p12RMpR.html"
         }
-      ]
+      ],
+      "aiAttempts": 1
     },
     {
       "id": "1l5n85w0uwy",
@@ -389,7 +409,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "multimodal",
-      "score": 22
+      "score": 22,
+      "aiAttempts": 1
     },
     {
       "id": "20g5quq15gs",
@@ -405,7 +426,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "model",
-      "score": 24
+      "score": 24,
+      "aiAttempts": 1
     },
     {
       "id": "14x37ypummv",
@@ -421,7 +443,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "model",
-      "score": 28
+      "score": 28,
+      "aiAttempts": 1
     },
     {
       "id": "12t0m8ohwvv",
@@ -441,7 +464,8 @@
         "Agent",
         "开源模型"
       ],
-      "score": 28
+      "score": 28,
+      "aiAttempts": 1
     },
     {
       "id": "166hhe67iuv",
@@ -457,7 +481,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "10rq0skhw2r",
@@ -492,7 +517,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "opensource",
-      "score": 22
+      "score": 22,
+      "aiAttempts": 1
     },
     {
       "id": "1tf1di7vlgh",
@@ -511,7 +537,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "1xfwihulwcv",
@@ -531,7 +558,8 @@
         "points": 476,
         "comments": 353
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50255298"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50255298",
+      "aiAttempts": 1
     },
     {
       "id": "1e2gdwalwad",
@@ -547,7 +575,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "model",
-      "score": 28
+      "score": 28,
+      "aiAttempts": 1
     },
     {
       "id": "2ddyog04353",
@@ -618,7 +647,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "15mv1zmw1ol",
@@ -635,11 +665,12 @@
       "day": "2026-10-27",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.8,
+      "score": 21.9,
       "metrics": {
-        "upvotes": 57,
+        "upvotes": 58,
         "comments": 2
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "1yn6kmyyrql",
@@ -660,7 +691,8 @@
       "metrics": {
         "upvotes": 56,
         "comments": 2
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "serod2zo6d",
@@ -681,7 +713,8 @@
       "metrics": {
         "upvotes": 50,
         "comments": 2
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "1x91c6wqg3c",
@@ -705,7 +738,8 @@
       "metrics": {
         "upvotes": 204,
         "comments": 3
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "298jbv064lv",
@@ -721,7 +755,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "model",
-      "score": 20
+      "score": 20,
+      "aiAttempts": 1
     },
     {
       "id": "274hmz4k81j",
@@ -741,7 +776,8 @@
         "points": 181,
         "comments": 79
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50252159"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50252159",
+      "aiAttempts": 1
     },
     {
       "id": "1ch6141ivhh",
@@ -760,7 +796,8 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 36
+      "score": 36,
+      "aiAttempts": 1
     },
     {
       "id": "26y1aozdkfm",
@@ -780,7 +817,8 @@
         "points": 262,
         "comments": 95
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50247630"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50247630",
+      "aiAttempts": 1
     },
     {
       "id": "nmeqsy0j5w",
@@ -803,7 +841,8 @@
         "points": 329,
         "comments": 130
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50246658"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50246658",
+      "aiAttempts": 1
     },
     {
       "id": "1cm0zi7mpd5",
@@ -824,7 +863,8 @@
         "points": 172,
         "comments": 42
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50246238"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50246238",
+      "aiAttempts": 1
     },
     {
       "id": "2gm5gtc4du9",
@@ -848,7 +888,8 @@
       "score": 17.6,
       "metrics": {
         "stars": 565
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "1l2nww32tj5",
@@ -864,7 +905,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "7ybu29pzpx",
@@ -881,7 +923,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "1v5bktp0lh5",
@@ -897,7 +940,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "no75g3ullm",
@@ -917,7 +961,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     }
   ]
 }

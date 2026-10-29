@@ -15,7 +15,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "qqfhrnxy63",
@@ -34,7 +35,8 @@
       "keywords": [
         "语音"
       ],
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "xcparzwino",
@@ -52,12 +54,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 28.2,
+      "score": 28.3,
       "metrics": {
-        "points": 213,
-        "comments": 136
+        "points": 216,
+        "comments": 139
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50275626"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50275626",
+      "aiAttempts": 1
     },
     {
       "id": "1qcnwc8tbs5",
@@ -73,7 +76,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "6wiriwkwz3",
@@ -90,7 +94,8 @@
       "day": "2026-10-28",
       "category": "multimodal",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhqy12/nvidianvidianemotron35transcribe30ba4b_hugging/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhqy12/nvidianvidianemotron35transcribe30ba4b_hugging/",
+      "aiAttempts": 1
     },
     {
       "id": "1sjjc57hfz6",
@@ -106,7 +111,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "2ctsj45qphp",
@@ -125,7 +131,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "1cvcxrcsps5",
@@ -144,7 +151,8 @@
       "keywords": [
         "语音"
       ],
-      "score": 19
+      "score": 19,
+      "aiAttempts": 1
     },
     {
       "id": "uoxdxfwzyy",
@@ -171,7 +179,8 @@
           "sourceName": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50275128"
         }
-      ]
+      ],
+      "aiAttempts": 1
     },
     {
       "id": "1hzqwjk3rub",
@@ -189,7 +198,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1b4gq8zdaoh",
@@ -205,7 +215,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "25j4r9d9v2",
@@ -228,7 +239,8 @@
           "sourceName": "36氪 AI",
           "url": "https://36kr.com/p/4045581402526851"
         }
-      ]
+      ],
+      "aiAttempts": 1
     },
     {
       "id": "qdjr4u31df",
@@ -244,7 +256,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "paper",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "rve6q7ktez",
@@ -262,7 +275,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "3wq2fkv29y",
@@ -282,7 +296,8 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 14
+      "score": 14,
+      "aiAttempts": 1
     },
     {
       "id": "1vhbqn2pchh",
@@ -299,7 +314,8 @@
       "day": "2026-10-28",
       "category": "model",
       "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhoeo3/used_qwen_38_flash_next_on_underspeced_pc_to_root/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhoeo3/used_qwen_38_flash_next_on_underspeced_pc_to_root/",
+      "aiAttempts": 1
     },
     {
       "id": "11tgj2w9szl",
@@ -316,10 +332,11 @@
       "category": "industry",
       "score": 35.8,
       "metrics": {
-        "points": 441,
-        "comments": 489
+        "points": 445,
+        "comments": 491
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50273396"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50273396",
+      "aiAttempts": 1
     },
     {
       "id": "2ddjxs0zqmj",
@@ -337,7 +354,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "io9bjph6zl",
@@ -357,7 +375,8 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "l027zly5ba",
@@ -372,7 +391,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1bkpjkma9vc",
@@ -388,7 +408,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "1tb4picrucl",
@@ -405,7 +426,8 @@
       "day": "2026-10-28",
       "category": "model",
       "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhmo1q/someone_built_a_32bit_riscv_cpu_directly_inside/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhmo1q/someone_built_a_32bit_riscv_cpu_directly_inside/",
+      "aiAttempts": 1
     },
     {
       "id": "wf6fczsd5b",
@@ -421,7 +443,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "6w9pnf0u7",
@@ -440,7 +463,8 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1wmvs3bn6qw",
@@ -456,7 +480,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "vnb6o2i074",
@@ -472,7 +497,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "19k7e52be27",
@@ -487,7 +513,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "agent",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "2c3y08ds743",
@@ -503,7 +530,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "1cqllhxck4o",
@@ -522,7 +550,8 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1t4bn4vrzaf",
@@ -538,7 +567,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 19
+      "score": 19,
+      "aiAttempts": 1
     },
     {
       "id": "1784x2824zu",
@@ -554,7 +584,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "24funokqi2v",
@@ -569,7 +600,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "6ukybdd1f7",
@@ -588,7 +620,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "lq8fdhaqoe",
@@ -604,7 +637,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "txh3zmv4e0",
@@ -620,7 +654,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1lzy77twye",
@@ -639,7 +674,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "nn49lo0q8a",
@@ -659,7 +695,8 @@
         "开源模型"
       ],
       "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhk7hp/aa_is_getting_ridiculous_now_zero_open_weights_in/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhk7hp/aa_is_getting_ridiculous_now_zero_open_weights_in/",
+      "aiAttempts": 1
     },
     {
       "id": "1n163uccqbt",
@@ -678,7 +715,8 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "wwsumk7hjr",
@@ -693,7 +731,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1qdnbcc7352",
@@ -709,7 +748,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "24bafwyn4zw",
@@ -725,7 +765,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "1t62hr5oqx0",
@@ -741,7 +782,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1m8t6ce0y9p",
@@ -759,7 +801,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "2g885tjatgv",
@@ -782,7 +825,8 @@
           "sourceName": "雷峰网",
           "url": "https://www.leiphone.com/category/industrynews/MYDTBZqQkhfVtkte.html"
         }
-      ]
+      ],
+      "aiAttempts": 1
     },
     {
       "id": "1zkcwsj0xuy",
@@ -799,7 +843,8 @@
       "day": "2026-10-28",
       "category": "model",
       "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhjn9d/gemma_5_models_soon/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhjn9d/gemma_5_models_soon/",
+      "aiAttempts": 1
     },
     {
       "id": "10pvcngut9a",
@@ -817,7 +862,8 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "6diudrvv3w",
@@ -837,7 +883,8 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "r3oh2nyrki",
@@ -853,7 +900,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "bjl6cnnoq5",
@@ -872,7 +920,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1gr9ypf7545",
@@ -888,7 +937,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "iemognm4h3",
@@ -905,7 +955,8 @@
       "day": "2026-10-28",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhinyj/diffuspaceclover35ba3bpreview_hugging_face/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhinyj/diffuspaceclover35ba3bpreview_hugging_face/",
+      "aiAttempts": 1
     },
     {
       "id": "1r70go8vt8j",
@@ -924,7 +975,8 @@
       "keywords": [
         "图像生成"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1xfo358cycf",
@@ -944,7 +996,8 @@
         "视频生成",
         "AI 短剧"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1jtatzxhviu",
@@ -964,7 +1017,8 @@
         "语音",
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "12fe27pqlqz",
@@ -980,7 +1034,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "gpxo7rj0t3",
@@ -996,7 +1051,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "bj1hinxuh8",
@@ -1012,7 +1068,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "paper",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "29pqiyg6f9",
@@ -1031,7 +1088,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "81b73zg98x",
@@ -1047,7 +1105,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1pjw67mm557",
@@ -1064,7 +1123,8 @@
       "day": "2026-10-28",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhep6w/dirt_cheap_gpus_coming_next_year/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhep6w/dirt_cheap_gpus_coming_next_year/",
+      "aiAttempts": 1
     },
     {
       "id": "1ongsppqp4o",
@@ -1080,7 +1140,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "kjenj35yzn",
@@ -1099,7 +1160,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22
+      "score": 22,
+      "aiAttempts": 1
     },
     {
       "id": "lrlq2hmrov",
@@ -1115,7 +1177,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "h5nu1z9c8f",
@@ -1135,7 +1198,8 @@
         "开源模型"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdmlk/artificial_analysis_intelligence_index_v5_major/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhdmlk/artificial_analysis_intelligence_index_v5_major/",
+      "aiAttempts": 1
     },
     {
       "id": "gltgmq3cnk",
@@ -1151,7 +1215,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "multimodal",
-      "score": 22
+      "score": 22,
+      "aiAttempts": 1
     },
     {
       "id": "1z686qlc3lw",
@@ -1167,7 +1232,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "multimodal",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "80rqw3fob9",
@@ -1183,7 +1249,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "2b77btffv9d",
@@ -1199,7 +1266,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "model",
-      "score": 24
+      "score": 24,
+      "aiAttempts": 1
     },
     {
       "id": "1tb4sbqc1rx",
@@ -1218,7 +1286,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "1pt6eq5ujiq",
@@ -1242,7 +1311,8 @@
       "metrics": {
         "upvotes": 375,
         "comments": 4
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "daol5zr5qh",
@@ -1259,11 +1329,12 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 24.8,
+      "score": 24.9,
       "metrics": {
-        "upvotes": 89,
+        "upvotes": 90,
         "comments": 2
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "1zy7xfuee0a",
@@ -1288,7 +1359,8 @@
       "metrics": {
         "upvotes": 173,
         "comments": 2
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "1f92t087k4s",
@@ -1312,7 +1384,8 @@
       "metrics": {
         "upvotes": 143,
         "comments": 2
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "1wj6xu26hns",
@@ -1334,9 +1407,10 @@
       ],
       "score": 30.2,
       "metrics": {
-        "upvotes": 534,
+        "upvotes": 535,
         "comments": 3
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "1tjw82q436q",
@@ -1361,7 +1435,8 @@
       "metrics": {
         "upvotes": 146,
         "comments": 4
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "v68gzm22s4",
@@ -1385,7 +1460,8 @@
       "metrics": {
         "upvotes": 79,
         "comments": 6
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "ldt4kp593i",
@@ -1402,11 +1478,12 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 26.4,
+      "score": 27,
       "metrics": {
-        "upvotes": 110,
+        "upvotes": 119,
         "comments": 3
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "hehpymxmhp",
@@ -1427,7 +1504,8 @@
       "metrics": {
         "upvotes": 107,
         "comments": 2
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "2eim95s9izm",
@@ -1448,7 +1526,8 @@
       "metrics": {
         "upvotes": 347,
         "comments": 2
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "1p5uz60x4pt",
@@ -1465,11 +1544,12 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.8,
+      "score": 22,
       "metrics": {
-        "upvotes": 57,
+        "upvotes": 59,
         "comments": 2
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "14xli5gtvo9",
@@ -1485,7 +1565,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "model",
-      "score": 21
+      "score": 21,
+      "aiAttempts": 1
     },
     {
       "id": "25wftroyis",
@@ -1501,7 +1582,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "m3xj00szxu",
@@ -1520,7 +1602,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "1gedv0ebn0j",
@@ -1536,7 +1619,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "2ac9e7biwyq",
@@ -1554,9 +1638,10 @@
       "score": 33.3,
       "metrics": {
         "points": 322,
-        "comments": 335
+        "comments": 336
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50265609"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50265609",
+      "aiAttempts": 1
     },
     {
       "id": "248rfwn8c1x",
@@ -1572,7 +1657,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "14542rok3oi",
@@ -1589,10 +1675,11 @@
       "category": "agent",
       "score": 34.6,
       "metrics": {
-        "points": 523,
+        "points": 524,
         "comments": 194
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50264853"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50264853",
+      "aiAttempts": 1
     },
     {
       "id": "qbwrgfyoic",
@@ -1608,7 +1695,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "model",
-      "score": 21
+      "score": 21,
+      "aiAttempts": 1
     },
     {
       "id": "jioiwlrnai",
@@ -1628,7 +1716,8 @@
         "points": 106,
         "comments": 135
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50264228"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50264228",
+      "aiAttempts": 1
     },
     {
       "id": "2430sva4phu",
@@ -1647,7 +1736,8 @@
       "keywords": [
         "语音"
       ],
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "10ev8fvd4fs",
@@ -1663,7 +1753,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "paper",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "2fmk6c7rfle",
@@ -1682,7 +1773,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "125enwtuvbn",
@@ -1697,7 +1789,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "multimodal",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "jw78igfk9z",
@@ -1713,7 +1806,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "zgx8id4zlx",
@@ -1730,10 +1824,11 @@
       "category": "industry",
       "score": 34.6,
       "metrics": {
-        "points": 392,
-        "comments": 310
+        "points": 393,
+        "comments": 311
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50261819"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50261819",
+      "aiAttempts": 1
     },
     {
       "id": "19wwepkquzj",
@@ -1753,7 +1848,8 @@
         "points": 372,
         "comments": 284
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50261589"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50261589",
+      "aiAttempts": 1
     },
     {
       "id": "2e07453oysb",
@@ -1768,7 +1864,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "fs5cvusow2",
@@ -1784,7 +1881,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "multimodal",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "49jpydm9uc",
@@ -1801,7 +1899,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "1oik4ypl7gi",
@@ -1822,7 +1921,8 @@
         "Agent",
         "A2UI"
       ],
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "2aywti1jtlr",
@@ -1842,7 +1942,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1
     }
   ]
 }

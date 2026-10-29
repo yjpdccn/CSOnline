@@ -46,7 +46,7 @@
       ],
       "score": 19.5,
       "metrics": {
-        "stars": 818
+        "stars": 826
       }
     },
     {
@@ -87,6 +87,30 @@
       "score": 18
     },
     {
+      "id": "18fhirym6is",
+      "key": "gh:hevnsnt/cvengine",
+      "title": "hevnsnt/CVEngine",
+      "url": "https://github.com/hevnsnt/CVEngine",
+      "excerpt": "AI-first external attack surface assessment with continuous discovery, evidence-based vulnerability validation, and developer-agent MCP integration.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-24T22:34:43.000Z",
+      "firstSeenAt": "2026-10-29T04:10:03.533Z",
+      "day": "2026-10-25",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "MCP"
+      ],
+      "score": 16.6,
+      "metrics": {
+        "stars": 448
+      }
+    },
+    {
       "id": "2dxumm9cmi4",
       "key": "gh:anonnerdfrenzy/survival-llm",
       "title": "anonnerdfrenzy/survival-llm",
@@ -101,9 +125,9 @@
       "day": "2026-10-25",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 17.9,
+      "score": 18,
       "metrics": {
-        "stars": 599
+        "stars": 609
       }
     }
   ]
