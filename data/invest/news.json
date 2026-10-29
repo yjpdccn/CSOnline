@@ -1,6 +1,24 @@
 {
-  "updatedAt": "2026-10-29T10:04:27.819Z",
+  "updatedAt": "2026-10-29T10:16:43.590Z",
   "items": [
+    {
+      "id": "12feh3imnbd",
+      "key": "url:cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
+      "title": "European Central Bank President Lagarde to stand down in Februrary",
+      "url": "https://www.cnbc.com/2026/10/29/lagarde-ecb-stand-down.html",
+      "lang": "en",
+      "sourceId": "cnbc-economy",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T10:12:28.000Z",
+      "firstSeenAt": "2026-10-29T10:16:43.590Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "cb"
+      ]
+    },
     {
       "id": "2c8qqhwvm40",
       "key": "sina:5179466",
@@ -2177,7 +2195,8 @@
         "summary": "美联储维持利率不变，影响信用卡、房贷等借贷成本。",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T10:07:53.042Z"
-      }
+      },
+      "dupOf": "17g0ta2l2hl"
     },
     {
       "id": "1wbraylt2sl",
@@ -2830,6 +2849,14 @@
           "publishedAt": "2026-10-28T18:00:24.000Z"
         },
         {
+          "id": "1er76x67ct4",
+          "sourceId": "cnbc-top",
+          "sourceName": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/28/fed-rate-decision-consumer-borrowing-costs.html",
+          "title": "美联储维持利率不变的影响",
+          "publishedAt": "2026-10-28T20:59:23.000Z"
+        },
+        {
           "id": "1q5jcuqt1yy",
           "sourceId": "em-commodity",
           "sourceName": "东方财富·商品",
@@ -2847,10 +2874,11 @@
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 5,
         "sources": [
           "em-cb",
           "cls",
+          "cnbc-top",
           "em-commodity",
           "sina"
         ],
