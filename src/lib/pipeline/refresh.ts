@@ -5,7 +5,7 @@ import { Deduper, mergeDuplicate } from "./dedupe";
 import { buildFallbackDigest } from "./digest";
 import { FETCHERS } from "./fetchers";
 import { normalizeError } from "./http";
-import { generateAiDigest, getLlmConfig, LlmClient, summarizeItems } from "./llm";
+import { generateAiDigest, getLlmConfig, LlmClient, LlmStop, pendingSummaries, summarizeItems, summaryProgress } from "./llm";
 import { findSameEventPairs } from "./llm-dedupe";
 import { isRelevant, parsePublished, toNewsItem } from "./normalize";
 import { acquireLock, loadStore, readDay, saveStore, type Store } from "./store";
@@ -29,6 +29,8 @@ export interface RefreshOptions {
   now?: Date;
   /** Skip AI summaries even when a key is configured. */
   noLlm?: boolean;
+  /** Receives AI retry notices such as rate-limit codes. */
+  log?: (message: string) => void;
 }
 
 const GROUP_PRIORITY: Record<SourceGroup, number> = {
@@ -41,9 +43,10 @@ const GROUP_PRIORITY: Record<SourceGroup, number> = {
 
 const FETCH_CONCURRENCY = 6;
 const DEFAULT_SOURCE_LIMIT = 40;
-/** Items without an AI summary from this many recent days are eligible for summarization. */
-const LLM_BACKFILL_DAYS = 3;
-const MAX_AI_ATTEMPTS = 2;
+/** Time the 今日要点 request gets after the summaries, including its own retries. */
+const DIGEST_BUDGET_MS = 150_000;
+/** Time the optional same-event check gets, including its own retries. */
+const DEDUPE_BUDGET_MS = 120_000;
 
 async function mapLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promise<R>): Promise<R[]> {
   const results = new Array<R>(items.length);
@@ -147,8 +150,16 @@ async function refreshLocked(opts: RefreshOptions): Promise<RunSummary> {
 
   merged += clusterStore(store).newlyMerged;
 
-  const { llm, client } = await summarize(store, now, opts, progress);
-  if (client) {
+  let llm: LlmRunResult;
+  let client: LlmClient | null = null;
+  try {
+    ({ llm, client } = await summarize(store, now, opts, progress));
+  } catch (err) {
+    // A bug in the AI step must not cost the run its news or the deploy.
+    llm = { enabled: true, requests: 0, summarized: 0, failed: 0, digest: "fallback", notice: "AI 摘要出错，本次已跳过", error: (err as Error).message };
+  }
+  // The same-event check is optional, so an overloaded model leaves its time to the 今日要点.
+  if (client && llm.paused !== "busy") {
     progress({ stage: "summarizing", done: 0, total: 1, message: "AI 合并跨语言重复报道" });
     merged += await llmDedupe(store, client, now, llm);
   } else if (llm.summarized) {
@@ -157,7 +168,8 @@ async function refreshLocked(opts: RefreshOptions): Promise<RunSummary> {
 
   progress({ stage: "digest", done: 0, total: 1, message: "生成今日要点" });
   const digest = await buildDigest(store, now, llm, client);
-  if (digest) store.digests[digest.day] = digest;
+  // An AI-written 今日要点 from an earlier run today beats an automatic one from a run where the model was busy.
+  if (digest && !(digest.mode === "fallback" && store.digests[digest.day]?.mode === "ai")) store.digests[digest.day] = digest;
 
   const finishedAt = new Date();
   const summary: RunSummary = {
@@ -191,7 +203,7 @@ export function clusterStore(store: Store) {
 /** Fresh AI titles can link more reports, then the model is asked about the rest. Returns newly merged items. */
 async function llmDedupe(store: Store, client: LlmClient, now: Date, llm: LlmRunResult): Promise<number> {
   const regrouped = clusterStore(store);
-  const outcome = await findSameEventPairs(client, regrouped.clusters, now);
+  const outcome = await findSameEventPairs(client, regrouped.clusters, now, Date.now() + DEDUPE_BUDGET_MS);
   llm.requests = client.requests;
   if (outcome.fatal || outcome.error) llm.error = llm.error ?? outcome.fatal ?? outcome.error;
   if (!outcome.pairs.length) return regrouped.newlyMerged;
@@ -221,18 +233,17 @@ async function summarize(
       client: null,
     };
   }
-  const client = new LlmClient(config);
-  const cutoff = now.getTime() - LLM_BACKFILL_DAYS * 86_400_000;
-  const pending = [...store.days.values()]
-    .flat()
-    .filter((i) => !i.dupOf && !i.ai && !i.skipLlm && (i.aiAttempts ?? 0) < MAX_AI_ATTEMPTS && Date.parse(i.publishedAt) >= cutoff)
-    .sort((a, b) => (a.lang === b.lang ? b.score - a.score : a.lang === "en" ? -1 : 1));
-
-  const outcome = await summarizeItems(client, pending, (done, total) =>
-    progress({ stage: "summarizing", done, total, message: `生成 AI 摘要 ${done}/${total} 批` }),
-  );
-  const touched = new Set(pending.filter((i) => i.ai || i.aiAttempts).map((i) => i.day));
-  for (const day of touched) store.dirtyDays.add(day);
+  const client = new LlmClient(config, fetch, { log: opts.log });
+  const all = [...store.days.values()].flat();
+  const pending = pendingSummaries(all, now);
+  const outcome = await summarizeItems(client, pending, {
+    deadline: Date.now() + config.budgetMs,
+    onBatch: (done, total) => progress({ stage: "summarizing", done, total, message: `生成 AI 摘要 ${done}/${total} 批` }),
+  });
+  for (const day of new Set(pending.filter((i) => i.ai || i.aiAttempts).map((i) => i.day))) store.dirtyDays.add(day);
+  const { done, pending: waiting } = summaryProgress(all, now);
+  const stop = outcome.stop;
+  const blocked = stop?.kind === "quota" || stop?.kind === "config";
   return {
     llm: {
       enabled: true,
@@ -242,10 +253,18 @@ async function summarize(
       summarized: outcome.summarized,
       failed: outcome.failed,
       digest: "fallback",
-      error: outcome.fatal ?? outcome.error,
+      done,
+      pending: waiting,
+      paused: stop?.kind ?? (waiting > 0 ? "limit" : undefined),
+      notice: blocked ? stop.message : undefined,
+      error: stop ? stopDetail(stop) : outcome.error,
     },
-    client: outcome.fatal ? null : client,
+    client: blocked ? null : client,
   };
+}
+
+function stopDetail(stop: LlmStop): string {
+  return stop.detail ? `${stop.message}：${stop.detail}` : stop.message;
 }
 
 async function buildDigest(
@@ -263,13 +282,17 @@ async function buildDigest(
 
   if (client) {
     try {
-      const result = await generateAiDigest(client, top);
+      const result = await generateAiDigest(client, top, Date.now() + DIGEST_BUDGET_MS);
       llm.digest = "ai";
       llm.requests = client.requests;
       return { ...base, mode: "ai", model: client.config.model, ...result };
     } catch (err) {
       llm.requests = client.requests;
-      llm.error = llm.error ?? `今日要点生成失败：${(err as Error).message}`;
+      llm.error = llm.error ?? `今日要点：${err instanceof LlmStop ? stopDetail(err) : (err as Error).message}`;
+      if (err instanceof LlmStop) {
+        llm.paused ??= err.kind;
+        if (err.kind === "quota" || err.kind === "config") llm.notice ??= err.message;
+      }
     }
   }
   llm.digest = "fallback";

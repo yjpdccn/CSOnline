@@ -19,12 +19,21 @@ export function LlmStatus({ run }: { run: RunInfo }) {
       </span>
     );
   }
+  // Runs saved before progress was tracked only know this run's count.
+  if (llm.done === undefined) {
+    return (
+      <span>
+        {llm.provider} · {llm.model}：本次生成 {llm.summarized} 条
+      </span>
+    );
+  }
   return (
     <span>
-      {llm.provider} · {llm.model}：本次生成 {llm.summarized} 条，失败 {llm.failed} 条，
-      {llm.merged ? `AI 判断合并重复 ${llm.merged} 条，` : ""}今日要点
-      {llm.digest === "ai" ? "由 AI 生成" : "为自动摘录"}
-      {llm.error && <span className="block text-amber-600 dark:text-amber-400">提示：{llm.error}</span>}
+      {llm.provider} · {llm.model}：近期 {llm.done} 条资讯已有中文摘要
+      {llm.summarized > 0 && `（本次新增 ${llm.summarized} 条）`}
+      {llm.pending ? `，另有 ${llm.pending} 条会在之后的更新中陆续生成` : ""}
+      {llm.merged ? `；AI 判断合并重复 ${llm.merged} 条` : ""}
+      {llm.notice && <span className="block text-amber-600 dark:text-amber-400">{llm.notice}</span>}
     </span>
   );
 }

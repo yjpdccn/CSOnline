@@ -3,12 +3,21 @@
 import { ChevronDown, ExternalLink, Sparkles, Wand2 } from "lucide-react";
 import { useState } from "react";
 import { formatDateTime } from "@/lib/time";
+import type { LlmRunResult } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import type { ClientDigest } from "@/lib/view";
 
 const MOBILE_VISIBLE = 3;
 
-export function DigestCard({ digest }: { digest: ClientDigest }) {
+function fallbackNote(llm: LlmRunResult | undefined): string {
+  if (!llm?.enabled) {
+    return "尚未配置 AI 摘要：英文资讯显示原标题。配置后会自动生成中文标题、一句话摘要和 AI 版今日要点，设置方法见 README。";
+  }
+  if (llm.notice) return `AI 摘要已暂停：${llm.notice}`;
+  return "这次模型较忙，今日要点先按热度摘录，下次更新时会再请 AI 撰写。";
+}
+
+export function DigestCard({ digest, llm }: { digest: ClientDigest; llm?: LlmRunResult }) {
   const [expanded, setExpanded] = useState(false);
   const isAi = digest.mode === "ai";
   const hidden = digest.points.length - MOBILE_VISIBLE;
@@ -74,11 +83,7 @@ export function DigestCard({ digest }: { digest: ClientDigest }) {
           <ChevronDown className="size-3.5" />
         </button>
       )}
-      {!isAi && (
-        <p className="relative mt-3 border-t pt-3 text-xs text-muted-foreground">
-          尚未配置 AI 摘要：英文资讯显示原标题。配置后会自动生成中文标题、一句话摘要和 AI 版今日要点，设置方法见 README。
-        </p>
-      )}
+      {!isAi && <p className="relative mt-3 border-t pt-3 text-xs text-muted-foreground">{fallbackNote(llm)}</p>}
     </section>
   );
 }

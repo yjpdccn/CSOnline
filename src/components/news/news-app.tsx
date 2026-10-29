@@ -133,7 +133,7 @@ export function NewsApp({ data, error }: { data: HomeData | null; error: string 
               </Alert>
             )}
 
-            {data?.digest && <DigestCard digest={data.digest} />}
+            {data?.digest && <DigestCard digest={data.digest} llm={data.lastRun?.llm} />}
 
             {hasData ? (
               <>

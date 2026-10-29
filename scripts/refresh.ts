@@ -23,7 +23,7 @@ async function main() {
   console.log(
     noLlm || !config
       ? `AI 摘要：关闭（${noLlm ? "--no-llm" : reason}），使用原文标题与摘要`
-      : `AI 摘要：${config.provider} · ${config.model}（每批 ${config.batchSize} 条，最多 ${config.maxRequests} 批）`,
+      : `AI 摘要：${config.provider} · ${config.model}（每批 ${config.batchSize} 条，每次最多 ${config.maxItems} 条、${Math.round(config.budgetMs / 60_000)} 分钟）`,
   );
 
   let lastStage = "";
@@ -31,6 +31,7 @@ async function main() {
     trigger: process.env.REFRESH_TRIGGER || "cli",
     sources,
     noLlm,
+    log: (message) => console.log(`  ${message}`),
     onProgress: (p) => {
       if (p.stage !== lastStage || p.stage === "summarizing") console.log(`· ${p.message}`);
       lastStage = p.stage;
@@ -50,9 +51,13 @@ async function main() {
   );
   const llm = summary.llm;
   if (llm.enabled) {
-    console.log(`AI 摘要：${llm.summarized} 条成功，${llm.failed} 条失败，${llm.requests} 次请求，今日要点：${llm.digest === "ai" ? "AI 生成" : "自动摘录"}`);
+    console.log(
+      `AI 摘要：本次新增 ${llm.summarized} 条（${llm.requests} 次请求，${llm.failed} 条未成功），近期已有 ${llm.done ?? "?"} 条，待生成 ${llm.pending ?? "?"} 条；今日要点：${llm.digest === "ai" ? "AI 生成" : "自动摘录"}`,
+    );
+    if (llm.paused) console.log(`AI 摘要提前结束（${llm.paused}）：${llm.error ?? "已达到本次上限"}`);
+  } else if (llm.error) {
+    console.log(`AI 摘要提示：${llm.error}`);
   }
-  if (llm.error) console.log(`AI 摘要提示：${llm.error}`);
   if (!summary.ok) {
     console.error(summary.error);
     process.exit(1);

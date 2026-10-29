@@ -1,7 +1,7 @@
 import { dayKey, formatClock } from "@/lib/time";
 import type { NewsItem } from "@/lib/types";
 import { pairKey, type Cluster } from "./cluster";
-import { FatalLlmError, type LlmClient } from "./llm";
+import { LlmStop, type LlmClient } from "./llm";
 import { isRoundup, storyFeatures, termOverlap } from "./similarity";
 import { translatedTitle, truncate } from "./text";
 
@@ -53,7 +53,12 @@ export interface LlmDedupeOutcome {
  * English reports with no shared names. Returned pairs only add merges, and the heuristic rules
  * (time window, model versions, amounts, same source) still veto them in `applyClusters`.
  */
-export async function findSameEventPairs(client: LlmClient, clusters: Cluster[], now: Date): Promise<LlmDedupeOutcome> {
+export async function findSameEventPairs(
+  client: LlmClient,
+  clusters: Cluster[],
+  now: Date,
+  deadline = Date.now() + 120_000,
+): Promise<LlmDedupeOutcome> {
   const clusterOf = new Map<string, number>();
   clusters.forEach((c, index) => {
     clusterOf.set(c.primary.id, index);
@@ -85,11 +90,12 @@ export async function findSameEventPairs(client: LlmClient, clusters: Cluster[],
         { role: "system", content: DEDUPE_SYSTEM },
         { role: "user", content: JSON.stringify({ items: payload }) },
       ],
-      1500,
+      { maxTokens: 1500, deadline },
     );
   } catch (err) {
-    const message = `AI 合并重复失败：${(err as Error).message}`;
-    return err instanceof FatalLlmError ? { pairs: [], fatal: message } : { pairs: [], error: message };
+    const stop = err instanceof LlmStop ? err : undefined;
+    const message = `AI 合并重复失败：${stop?.detail ? `${stop.message}：${stop.detail}` : (err as Error).message}`;
+    return stop?.kind === "quota" || stop?.kind === "config" ? { pairs: [], fatal: message } : { pairs: [], error: message };
   }
 
   const known = new Set(candidates.map((i) => i.id));

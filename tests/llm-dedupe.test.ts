@@ -10,9 +10,11 @@ const config: LlmConfig = {
   model: "test-model",
   provider: "test",
   batchSize: 12,
+  maxItems: 100,
   maxRequests: 20,
   minIntervalMs: 0,
   timeoutMs: 5000,
+  budgetMs: 360_000,
   extraBody: {},
 };
 
@@ -72,6 +74,6 @@ describe("findSameEventPairs", () => {
     const auth = vi.fn(async () => new Response(JSON.stringify({ error: "bad key" }), { status: 401 }));
     const outcome = await findSameEventPairs(new LlmClient(config, auth as unknown as typeof fetch), clusterItems([hackZh, hackEn]), now);
     expect(outcome.pairs).toEqual([]);
-    expect(outcome.fatal).toContain("鉴权失败");
+    expect(outcome.fatal).toContain("LLM_API_KEY");
   });
 });

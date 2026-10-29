@@ -192,6 +192,15 @@ export interface LlmRunResult {
   digest: "ai" | "fallback" | "skipped";
   /** Reports merged because the model judged them the same event. */
   merged?: number;
+  /** Recent items that have a summary after this run. */
+  done?: number;
+  /** Recent items still waiting for a summary; later runs pick them up. */
+  pending?: number;
+  /** Why this run did less than it could; see LlmPause. */
+  paused?: "busy" | "limit" | "quota" | "config";
+  /** Shown on the site when the owner has to act (quota or configuration). */
+  notice?: string;
+  /** Why AI is off when disabled; otherwise the technical detail for logs, never shown on the site. */
   error?: string;
 }
 
