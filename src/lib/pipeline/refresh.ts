@@ -43,10 +43,9 @@ const GROUP_PRIORITY: Record<SourceGroup, number> = {
 
 const FETCH_CONCURRENCY = 6;
 const DEFAULT_SOURCE_LIMIT = 40;
-/** Time the 今日要点 request gets after the summaries, including its own retries. */
-const DIGEST_BUDGET_MS = 150_000;
-/** Time the optional same-event check gets, including its own retries. */
-const DEDUPE_BUDGET_MS = 120_000;
+/** Parts of the run's AI time budget kept back from the summaries for the steps after them. */
+const DIGEST_RESERVE_MS = 150_000;
+const DEDUPE_RESERVE_MS = 90_000;
 
 async function mapLimit<T, R>(items: T[], limit: number, fn: (item: T) => Promise<R>): Promise<R[]> {
   const results = new Array<R>(items.length);
@@ -152,8 +151,9 @@ async function refreshLocked(opts: RefreshOptions): Promise<RunSummary> {
 
   let llm: LlmRunResult;
   let client: LlmClient | null = null;
+  let aiDeadline = 0;
   try {
-    ({ llm, client } = await summarize(store, now, opts, progress));
+    ({ llm, client, deadline: aiDeadline } = await summarize(store, now, opts, progress));
   } catch (err) {
     // A bug in the AI step must not cost the run its news or the deploy.
     llm = { enabled: true, requests: 0, summarized: 0, failed: 0, digest: "fallback", notice: "AI 摘要出错，本次已跳过", error: (err as Error).message };
@@ -161,13 +161,13 @@ async function refreshLocked(opts: RefreshOptions): Promise<RunSummary> {
   // The same-event check is optional, so an overloaded model leaves its time to the 今日要点.
   if (client && llm.paused !== "busy") {
     progress({ stage: "summarizing", done: 0, total: 1, message: "AI 合并跨语言重复报道" });
-    merged += await llmDedupe(store, client, now, llm);
+    merged += await llmDedupe(store, client, now, llm, aiDeadline - DIGEST_RESERVE_MS);
   } else if (llm.summarized) {
     merged += clusterStore(store).newlyMerged;
   }
 
   progress({ stage: "digest", done: 0, total: 1, message: "生成今日要点" });
-  const digest = await buildDigest(store, now, llm, client);
+  const digest = await buildDigest(store, now, llm, client, aiDeadline);
   // An AI-written 今日要点 from an earlier run today beats an automatic one from a run where the model was busy.
   if (digest && !(digest.mode === "fallback" && store.digests[digest.day]?.mode === "ai")) store.digests[digest.day] = digest;
 
@@ -201,9 +201,9 @@ export function clusterStore(store: Store) {
 }
 
 /** Fresh AI titles can link more reports, then the model is asked about the rest. Returns newly merged items. */
-async function llmDedupe(store: Store, client: LlmClient, now: Date, llm: LlmRunResult): Promise<number> {
+async function llmDedupe(store: Store, client: LlmClient, now: Date, llm: LlmRunResult, deadline: number): Promise<number> {
   const regrouped = clusterStore(store);
-  const outcome = await findSameEventPairs(client, regrouped.clusters, now, Date.now() + DEDUPE_BUDGET_MS);
+  const outcome = await findSameEventPairs(client, regrouped.clusters, now, deadline);
   llm.requests = client.requests;
   if (outcome.fatal || outcome.error) llm.error = llm.error ?? outcome.fatal ?? outcome.error;
   if (!outcome.pairs.length) return regrouped.newlyMerged;
@@ -220,24 +220,27 @@ function historyEntry(summary: RunSummary): Omit<RunSummary, "sources"> {
   return entry as Omit<RunSummary, "sources">;
 }
 
+/** Runs the summaries and returns the client with `deadline`, the end of this run's AI time budget. */
 async function summarize(
   store: Store,
   now: Date,
   opts: RefreshOptions,
   progress: (p: RefreshProgress) => void,
-): Promise<{ llm: LlmRunResult; client: LlmClient | null }> {
+): Promise<{ llm: LlmRunResult; client: LlmClient | null; deadline: number }> {
   const { config, reason } = getLlmConfig();
   if (!config || opts.noLlm) {
     return {
       llm: { enabled: false, requests: 0, summarized: 0, failed: 0, digest: "fallback", error: opts.noLlm ? "本次运行跳过 AI 摘要" : reason },
       client: null,
+      deadline: 0,
     };
   }
+  const deadline = Date.now() + config.budgetMs;
   const client = new LlmClient(config, fetch, { log: opts.log });
   const all = [...store.days.values()].flat();
   const pending = pendingSummaries(all, now);
   const outcome = await summarizeItems(client, pending, {
-    deadline: Date.now() + config.budgetMs,
+    deadline: deadline - DEDUPE_RESERVE_MS - DIGEST_RESERVE_MS,
     onBatch: (done, total) => progress({ stage: "summarizing", done, total, message: `生成 AI 摘要 ${done}/${total} 批` }),
   });
   for (const day of new Set(pending.filter((i) => i.ai || i.aiAttempts).map((i) => i.day))) store.dirtyDays.add(day);
@@ -260,6 +263,7 @@ async function summarize(
       error: stop ? stopDetail(stop) : outcome.error,
     },
     client: blocked ? null : client,
+    deadline,
   };
 }
 
@@ -272,6 +276,7 @@ async function buildDigest(
   now: Date,
   llm: LlmRunResult,
   client: LlmClient | null,
+  deadline: number,
 ): Promise<Digest | null> {
   const all = [...store.days.values()].flat().filter((i) => !i.dupOf);
   let window = all.filter((i) => now.getTime() - Date.parse(i.publishedAt) <= 24 * 3_600_000);
@@ -282,7 +287,7 @@ async function buildDigest(
 
   if (client) {
     try {
-      const result = await generateAiDigest(client, top, Date.now() + DIGEST_BUDGET_MS);
+      const result = await generateAiDigest(client, top, deadline);
       llm.digest = "ai";
       llm.requests = client.requests;
       return { ...base, mode: "ai", model: client.config.model, ...result };

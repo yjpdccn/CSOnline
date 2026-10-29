@@ -76,4 +76,19 @@ describe("findSameEventPairs", () => {
     expect(outcome.pairs).toEqual([]);
     expect(outcome.fatal).toContain("LLM_API_KEY");
   });
+
+  it("tries only once when the model is overloaded and leaves no fatal error", async () => {
+    const busy = vi.fn(
+      async () =>
+        new Response(JSON.stringify({ error: { code: "1305", message: "该模型当前访问量过大，请您稍后再试" } }), {
+          status: 429,
+          headers: { "content-type": "application/json" },
+        }),
+    );
+    const outcome = await findSameEventPairs(new LlmClient(config, busy as unknown as typeof fetch), clusterItems([hackZh, hackEn]), now);
+    expect(busy).toHaveBeenCalledTimes(1);
+    expect(outcome).toMatchObject({ pairs: [] });
+    expect(outcome.error).toContain("1305");
+    expect(outcome.fatal).toBeUndefined();
+  });
 });

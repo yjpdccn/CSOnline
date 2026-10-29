@@ -23,7 +23,7 @@ async function main() {
   console.log(
     noLlm || !config
       ? `AI 摘要：关闭（${noLlm ? "--no-llm" : reason}），使用原文标题与摘要`
-      : `AI 摘要：${config.provider} · ${config.model}（每批 ${config.batchSize} 条，每次最多 ${config.maxItems} 条、${Math.round(config.budgetMs / 60_000)} 分钟）`,
+      : `AI 摘要：${config.provider} · ${config.model}（每批 ${config.batchSize} 条，每次最多 ${config.maxItems} 条；AI 部分最长 ${Math.round(config.budgetMs / 60_000)} 分钟、${config.maxRequests} 次请求）`,
   );
 
   let lastStage = "";

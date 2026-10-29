@@ -10,11 +10,11 @@ export interface LlmConfig {
   batchSize: number;
   /** Items summarized per run at most; the rest of the backlog waits for the next scheduled run. */
   maxItems: number;
-  /** Summary requests per run at most, retries included. */
+  /** AI requests per run at most: summaries, the same-event check and 今日要点, retries included. */
   maxRequests: number;
   minIntervalMs: number;
   timeoutMs: number;
-  /** Time allowed for summaries in one run, so a slow or overloaded provider cannot hold up the deploy. */
+  /** Time for all AI work in one run, so a slow or overloaded provider cannot hold up the deploy. */
   budgetMs: number;
   extraBody: Record<string, unknown>;
 }
@@ -38,6 +38,8 @@ export const LLM_BACKFILL_DAYS = 3;
 /** Answers without a usable summary allowed per item before it is left as is. */
 export const MAX_AI_ATTEMPTS = 2;
 const MAX_TRIES = 3;
+/** Requests summaries leave for what follows them: one same-event check and up to three tries for 今日要点. */
+const FOLLOW_UP_REQUESTS = 4;
 /** No request is started with less than this left before the deadline. */
 const MIN_REQUEST_MS = 30_000;
 /** A Retry-After longer than this is a quota window rather than a burst limit. */
@@ -77,7 +79,7 @@ export function getLlmConfig(env: NodeJS.ProcessEnv = process.env): LlmConfigRes
       maxRequests: Math.max(0, int(env.LLM_MAX_REQUESTS, 20)),
       minIntervalMs: int(env.LLM_MIN_INTERVAL_MS, provider?.minIntervalMs ?? 1000),
       timeoutMs: int(env.LLM_TIMEOUT_MS, 150_000),
-      budgetMs: int(env.LLM_TIME_BUDGET_MS, 6 * 60_000),
+      budgetMs: int(env.LLM_TIME_BUDGET_MS, 10 * 60_000),
       extraBody,
     },
   };
@@ -162,12 +164,19 @@ export class LlmClient {
     this.log = opts.log ?? (() => {});
   }
 
-  /** One request at a time, spaced by minIntervalMs; rate limits, overload and timeouts are retried until `deadline`. */
-  async chatJson<T>(messages: ChatMessage[], { maxTokens, deadline }: { maxTokens: number; deadline: number }): Promise<T> {
-    const { baseUrl, apiKey, model, timeoutMs, minIntervalMs, extraBody } = this.config;
+  /**
+   * One request at a time, spaced by minIntervalMs and counted against maxRequests; rate limits, overload and
+   * timeouts are retried up to `tries` times while `deadline` allows.
+   */
+  async chatJson<T>(
+    messages: ChatMessage[],
+    { maxTokens, deadline, tries = MAX_TRIES }: { maxTokens: number; deadline: number; tries?: number },
+  ): Promise<T> {
+    const { baseUrl, apiKey, model, timeoutMs, minIntervalMs, maxRequests, extraBody } = this.config;
     let lastDetail = "";
     let badOutput = false;
-    for (let attempt = 0; attempt < MAX_TRIES; attempt++) {
+    for (let attempt = 0; attempt < tries; attempt++) {
+      if (this.requests >= maxRequests) throw new LlmStop("limit", "已达到本次运行的请求上限", lastDetail || undefined);
       const wait = Math.max(0, this.lastRequestAt + minIntervalMs - this.now());
       if (this.now() + wait + MIN_REQUEST_MS > deadline) {
         throw new LlmStop("limit", "本次运行的 AI 摘要时间已用完", lastDetail || undefined);
@@ -194,7 +203,7 @@ export class LlmClient {
       } catch (err) {
         badOutput = false;
         lastDetail = (err as Error).name === "TimeoutError" ? `${Math.round(timeout / 1000)} 秒内没有响应` : `网络错误：${(err as Error).message}`;
-        if (await this.backoff(attempt, undefined, undefined, lastDetail, deadline)) continue;
+        if (await this.backoff(attempt, tries, undefined, undefined, lastDetail, deadline)) continue;
         break;
       }
       const text = await res.text();
@@ -232,7 +241,7 @@ export class LlmClient {
       if (after !== undefined && after > MAX_RETRY_AFTER_MS) {
         throw new LlmStop("quota", `接口要求约 ${Math.ceil(after / 60_000)} 分钟后再试，之后的更新会继续生成`, detail);
       }
-      if (await this.backoff(attempt, code, after, detail, deadline)) continue;
+      if (await this.backoff(attempt, tries, code, after, detail, deadline)) continue;
       break;
     }
     if (badOutput) throw new Error(lastDetail);
@@ -240,8 +249,15 @@ export class LlmClient {
   }
 
   /** Waits before the next try; false when no tries or time are left. */
-  private async backoff(attempt: number, code: string | undefined, retryAfter: number | undefined, detail: string, deadline: number) {
-    if (attempt + 1 >= MAX_TRIES) return false;
+  private async backoff(
+    attempt: number,
+    tries: number,
+    code: string | undefined,
+    retryAfter: number | undefined,
+    detail: string,
+    deadline: number,
+  ) {
+    if (attempt + 1 >= tries) return false;
     const delay = retryAfter ?? backoffMs(attempt, code);
     if (this.now() + delay + MIN_REQUEST_MS > deadline) return false;
     this.log(`${detail}，${Math.round(delay / 1000)} 秒后重试`);
@@ -357,7 +373,7 @@ export async function summarizeItems(
   const outcome: SummarizeOutcome = { summarized: 0, failed: 0 };
   let done = 0;
   while (queue.length > 0) {
-    if (client.requests >= maxRequests) {
+    if (client.requests >= maxRequests - FOLLOW_UP_REQUESTS) {
       outcome.stop = new LlmStop("limit", "已达到本次运行的请求上限");
       break;
     }

@@ -57,7 +57,7 @@ export async function findSameEventPairs(
   client: LlmClient,
   clusters: Cluster[],
   now: Date,
-  deadline = Date.now() + 120_000,
+  deadline = Date.now() + 90_000,
 ): Promise<LlmDedupeOutcome> {
   const clusterOf = new Map<string, number>();
   clusters.forEach((c, index) => {
@@ -90,7 +90,8 @@ export async function findSameEventPairs(
         { role: "system", content: DEDUPE_SYSTEM },
         { role: "user", content: JSON.stringify({ items: payload }) },
       ],
-      { maxTokens: 1500, deadline },
+      // One try: the pass is optional and its pairs are kept, so a busy model leaves its time to 今日要点.
+      { maxTokens: 1500, deadline, tries: 1 },
     );
   } catch (err) {
     const stop = err instanceof LlmStop ? err : undefined;

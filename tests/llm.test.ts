@@ -97,7 +97,7 @@ describe("getLlmConfig", () => {
       batchSize: 20,
       maxItems: 100,
       minIntervalMs: 3000,
-      budgetMs: 360_000,
+      budgetMs: 600_000,
     });
   });
 
@@ -364,6 +364,41 @@ describe("summarizeItems", () => {
     const { client, deadline } = setup(fetchMock);
     const outcome = await summarizeItems(client, makeItems(2), { deadline });
     expect(outcome.summarized).toBe(2);
+  });
+});
+
+describe("per-run request cap", () => {
+  const overloaded = () => vi.fn(async () => zhipuError(429, "1305", "该模型当前访问量过大，请您稍后再试"));
+
+  it("counts every request, retries included, against maxRequests", async () => {
+    const fetchMock = overloaded();
+    const { client, deadline } = setup(fetchMock, { maxRequests: 1 });
+    await expect(generateAiDigest(client, makeItems(3), deadline)).rejects.toMatchObject({ kind: "limit" });
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+  });
+
+  it("gives a single-try request up on the first rate limit without waiting", async () => {
+    const fetchMock = overloaded();
+    const { client, time, deadline } = setup(fetchMock);
+    await expect(client.chatJson([{ role: "user", content: "x" }], { maxTokens: 10, deadline, tries: 1 })).rejects.toMatchObject({
+      kind: "busy",
+    });
+    expect(fetchMock).toHaveBeenCalledTimes(1);
+    expect(time.sleeps).toEqual([]);
+  });
+
+  it("stops summaries early enough to leave requests for the same-event check and 今日要点", async () => {
+    const fetchMock = vi.fn(async (url: string | URL | Request, init?: RequestInit) => {
+      const system = JSON.parse(String(init?.body)).messages[0].content as string;
+      if (!system.includes("日报主编")) return echoFetch()(url, init);
+      return jsonResponse({ choices: [{ message: { content: JSON.stringify({ overview: "总览", points: [{ text: "要点", refs: [] }] }) } }] });
+    });
+    const { client, deadline } = setup(fetchMock, { batchSize: 1, maxRequests: 6 });
+    const outcome = await summarizeItems(client, makeItems(10), { deadline });
+    expect(outcome.summarized).toBe(2);
+    expect(outcome.stop?.kind).toBe("limit");
+    await expect(generateAiDigest(client, makeItems(3), deadline)).resolves.toMatchObject({ overview: "总览" });
+    expect(client.requests).toBe(3);
   });
 });
 
