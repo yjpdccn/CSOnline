@@ -2,6 +2,170 @@
   "day": "2026-10-29",
   "items": [
     {
+      "id": "a4ifk0s8o1",
+      "key": "url:infoq.cn/article/aK6ADSkIvwf265yc8PuT",
+      "title": "AI+增长：员工提效了，企业为什么没多赚钱？｜上海鲸阙AI联合创始人 沈涛分享",
+      "url": "https://www.infoq.cn/article/aK6ADSkIvwf265yc8PuT?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T10:00:23.000Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "4rxruc5dhd",
+      "key": "url:theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+      "title": "AI has come for Arizona’s water",
+      "url": "https://www.theverge.com/cs/features/1016650/arizona-water-data-center-tsmc",
+      "excerpt": "A hulking gray giant rises from the desert. Inside, engineers create the force behind our phones and computers and appliances, our streaming services and search engines and chatbots and vibe-coded apps and websites. The complex is simultaneously massive and squat, dwarfed by the…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T10:00:04.000Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI数据中心消耗大量水资源，引发对环境影响的关注。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
+      }
+    },
+    {
+      "id": "zke6w749uu",
+      "key": "url:36kr.com/p/4046710270989193",
+      "title": "Astra冲击波与具身行业的50天",
+      "url": "https://36kr.com/p/4046710270989193",
+      "excerpt": "通用大模型能直接操作机器人，具身行业的逻辑变了？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T09:56:43.545Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1wmr0vsre6w",
+      "key": "url:36kr.com/p/4046712869672835",
+      "title": "谷歌新模型拳打GPT脚踢Claude，却没打算让我们用",
+      "url": "https://36kr.com/p/4046712869672835",
+      "excerpt": "Gemini 4 Carbon登顶，谷歌因安全暂不放全量开放",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T09:56:21.346Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
+      "day": "2026-10-29",
+      "category": "model",
+      "score": 24
+    },
+    {
+      "id": "hxbxo4nhkl",
+      "key": "url:36kr.com/p/4046750431318918",
+      "title": "中国大模型训练如何突破算力瓶颈",
+      "url": "https://36kr.com/p/4046750431318918",
+      "excerpt": "如何突破训练算力的瓶颈",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T09:53:22.381Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1uv8fbg9a8a",
+      "key": "url:qbitai.com/2026/10/506550.html",
+      "title": "中国MaaS市场TOP2，商汤大装置再度蝉联",
+      "url": "https://www.qbitai.com/2026/10/506550.html",
+      "excerpt": "在大模型私有化市场，商汤大装置以9.4%的市场份额，再次稳居第二位",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T09:52:05.000Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1kyz40cv97b",
+      "key": "url:jiqizhixin.com/articles/2026-10-29-17",
+      "title": "AnySearch 推出 Pro 付费版：覆盖 20+ 专业领域，最高支持 20 QPS",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-29-17",
+      "excerpt": "近日，面向 AI Agent 的搜索基础设施产品 AnySearch 正式上线 Pro 付费版，进一步增强专业数据覆盖、搜索性能及并发处理能力，为高频调用和复杂搜索任务提供支持。在数据覆盖方面，AnySearch 基于自建通用搜索引擎及 100 亿高质量网页索引，提供通用网页和 20 余个垂直...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T09:52:00.000Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
+      "day": "2026-10-29",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22
+    },
+    {
+      "id": "254xniryg4e",
+      "key": "url:36kr.com/p/4046772355617924",
+      "title": "一家1800人的公司，为什么会有8000个AI员工？",
+      "url": "https://36kr.com/p/4046772355617924",
+      "excerpt": "组织如何真正地与AI一起工作，这笔账到底怎么算。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T09:51:42.816Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2fx4306wvhk",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week",
+      "title": "Apsara conference: Qwen4 next week",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/",
+      "excerpt": "The Apsara conference is taking place right now in Amsterdam. According to a participant, the CTO of Alibaba Cloud said Qwen4 would be launching next week. [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T09:25:47.000Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
+      "day": "2026-10-29",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xif6lf/apsara_conference_qwen4_next_week/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "阿里云CTO称Qwen4下周发布，Apsara大会在阿姆斯特丹举行。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
+      }
+    },
+    {
       "id": "1cxa02qtnp7",
       "key": "url:36kr.com/p/4046620190069634",
       "title": "宇树杀入VC",
@@ -29,6 +193,22 @@
       "sourceGroup": "media-zh",
       "publishedAt": "2026-10-29T08:53:00.000Z",
       "firstSeenAt": "2026-10-29T08:57:04.221Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "bu7vqdplmd",
+      "key": "url:qbitai.com/2026/10/506544.html",
+      "title": "AI安全是AI规模化应用“加速器”",
+      "url": "https://www.qbitai.com/2026/10/506544.html",
+      "excerpt": "AI安全不是AI发展的“刹车片”，而是AI高质量发展的“加速器”。",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T08:50:14.000Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
       "day": "2026-10-29",
       "category": "industry",
       "score": 18
@@ -169,7 +349,42 @@
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "dupOf": "kl4gud3zm1"
+    },
+    {
+      "id": "kl4gud3zm1",
+      "key": "url:leiphone.com/category/industrynews/VsFzLhOgbV95UM6v.html",
+      "title": "大语言模型“收入榜”出炉，阿里云以46.6%份额居首",
+      "url": "https://www.leiphone.com/category/industrynews/VsFzLhOgbV95UM6v.html",
+      "excerpt": "10月29日，国际数据公司（IDC）最新发布的《中国AI软件市场半年度追踪，26H1》显示，2026年上半年，阿里云在中国大语言模型MaaS市场的份额为46.6%，智谱、火山引擎分别以10.6%、10.2%位列第二、第三。",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T07:13:00.000Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 26,
+      "related": [
+        {
+          "id": "sacx6hjvmc",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4046614204650627",
+          "title": "IDC：今年上半年阿里云在中国大语言模型MaaS市场的份额为46.6%",
+          "publishedAt": "2026-10-29T07:14:41.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "leiphone",
+          "36kr-flash"
+        ],
+        "firstPublishedAt": "2026-10-29T07:13:00.000Z"
+      }
     },
     {
       "id": "10ektn7irj7",
@@ -186,6 +401,30 @@
       "day": "2026-10-29",
       "category": "agent",
       "score": 18
+    },
+    {
+      "id": "1tf2nulo190",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xid3i8/researchers_discover_a_way_to_reduce_llm_training",
+      "title": "Researchers Discover a Way to Reduce LLM Training Compute by 15% Without Sacrificing Quality",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xid3i8/researchers_discover_a_way_to_reduce_llm_training/",
+      "excerpt": "At EMNLP 2026, an A* conference currently taking place in Hungary, researchers from T-Tech presented LIMe, a method that makes it possible to train language models with approximately 15% less compute without compromising quality. In traditional Transformers, each layer relies so…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T07:11:57.000Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
+      "day": "2026-10-29",
+      "category": "paper",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xid3i8/researchers_discover_a_way_to_reduce_llm_training/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "研究人员提出LIMe方法，可在不牺牲质量的情况下减少15%的LLM训练计算量。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
+      }
     },
     {
       "id": "6a9il9xwrz",
@@ -205,6 +444,43 @@
         "Agent"
       ],
       "score": 18
+    },
+    {
+      "id": "1nvstu1hpc4",
+      "key": "url:qbitai.com/2026/10/506478.html",
+      "title": "奥特曼和Dario同台唱rap！Genspark新视频Agent上线，零基础也能拍短剧",
+      "url": "https://www.qbitai.com/2026/10/506478.html",
+      "excerpt": "All in one、任何人都能用",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T06:53:19.000Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
+      "day": "2026-10-29",
+      "category": "multimodal",
+      "keywords": [
+        "Agent",
+        "AI 短剧"
+      ],
+      "score": 22
+    },
+    {
+      "id": "237ysb7acpf",
+      "key": "url:qbitai.com/2026/10/506477.html",
+      "title": "物理学也要被AI攻陷了？5道20多年量子公开问题被突破",
+      "url": "https://www.qbitai.com/2026/10/506477.html",
+      "excerpt": "MIT最后一位三学位天才出手了。",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T06:51:51.000Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "lq8fdhaqoe"
     },
     {
       "id": "1ddux4qfff1",
@@ -255,6 +531,22 @@
       "score": 18
     },
     {
+      "id": "aas36th186",
+      "key": "url:qbitai.com/2026/10/506468.html",
+      "title": "IDC最新报告：MaaS市场分化，PPIO拿下独立服务商首位",
+      "url": "https://www.qbitai.com/2026/10/506468.html",
+      "excerpt": "百亿MaaS市场格局生变",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T06:13:05.000Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
       "id": "63s1h8pe8",
       "key": "url:36kr.com/newsflashes/4046552537797504",
       "title": "亚马逊加码智能家居",
@@ -282,6 +574,22 @@
       "sourceGroup": "media-zh",
       "publishedAt": "2026-10-29T06:01:00.000Z",
       "firstSeenAt": "2026-10-29T08:14:40.293Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "4zx0s00clu",
+      "key": "url:qbitai.com/2026/10/506376.html",
+      "title": "敢和英伟达现场PK的国产GPU，我是服的",
+      "url": "https://www.qbitai.com/2026/10/506376.html",
+      "excerpt": "跟H200和Thor T5000硬碰硬",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-29T05:57:33.000Z",
+      "firstSeenAt": "2026-10-29T10:04:27.819Z",
       "day": "2026-10-29",
       "category": "industry",
       "score": 18
@@ -566,10 +874,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 31.2,
+      "score": 32.1,
       "metrics": {
-        "points": 346,
-        "comments": 104
+        "points": 372,
+        "comments": 125
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50284255",
       "ai": {
@@ -651,7 +959,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 307791,
+        "stars": 307827,
         "starsToday": 1095
       },
       "ai": {
@@ -682,7 +990,7 @@
       ],
       "score": 16.7,
       "metrics": {
-        "stars": 5599,
+        "stars": 5616,
         "starsToday": 117
       },
       "ai": {
@@ -713,7 +1021,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 41262,
+        "stars": 41334,
         "starsToday": 2110
       },
       "ai": {
@@ -745,7 +1053,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 93817,
+        "stars": 93960,
         "starsToday": 1472
       },
       "ai": {
@@ -776,7 +1084,7 @@
       ],
       "score": 28.3,
       "metrics": {
-        "stars": 8394,
+        "stars": 8430,
         "starsToday": 728
       },
       "ai": {
@@ -808,7 +1116,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 3516,
+        "stars": 3545,
         "starsToday": 1054
       },
       "ai": {
@@ -839,7 +1147,7 @@
       ],
       "score": 15.6,
       "metrics": {
-        "stars": 3711,
+        "stars": 3726,
         "starsToday": 90
       },
       "ai": {
@@ -1285,9 +1593,16 @@
       "publishedAt": "2026-10-29T01:42:55.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "opensource",
-      "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/"
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xi7390/qwen4_1m_context_window/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Qwen4模型将拥有100万上下文窗口，Qwen4-max发布日期为11月1日。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
+      }
     },
     {
       "id": "cy396ff8ep",
@@ -1508,7 +1823,7 @@
       "categoryLocked": true,
       "score": 28.3,
       "metrics": {
-        "upvotes": 144,
+        "upvotes": 145,
         "comments": 1
       },
       "ai": {
@@ -1599,9 +1914,16 @@
       "publishedAt": "2026-10-28T23:08:15.000Z",
       "firstSeenAt": "2026-10-29T04:10:03.533Z",
       "day": "2026-10-29",
-      "category": "industry",
+      "category": "opensource",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xi3l9r/electronics_hobbyist_converts_120_ddr5_sodimm_kit/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xi3l9r/electronics_hobbyist_converts_120_ddr5_sodimm_kit/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "电子爱好者将DDR5内存改装为高性能桌面内存，降低LLM硬件升级成本。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
+      }
     },
     {
       "id": "nl10y2a5gs",
@@ -1757,9 +2079,9 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 24.5,
+      "score": 24.7,
       "metrics": {
-        "points": 151,
+        "points": 155,
         "comments": 69
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50280178",
@@ -1930,9 +2252,16 @@
       "publishedAt": "2026-10-28T18:21:25.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "industry",
+      "category": "agent",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhw2l0/a_4b_model_made_me_a_netherite_ingot_from_bare/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhw2l0/a_4b_model_made_me_a_netherite_ingot_from_bare/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "4B模型通过自然语言指令生成游戏物品，展示Agent理解能力。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
+      }
     },
     {
       "id": "2a5862kqi4r",
@@ -1947,9 +2276,16 @@
       "publishedAt": "2026-10-28T17:58:04.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "paper",
+      "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhvf1z/theory_local_is_going_to_explode_at_enterprises/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhvf1z/theory_local_is_going_to_explode_at_enterprises/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "企业倾向于使用本地AI模型，以保护数据隐私并满足多数任务需求。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
+      }
     },
     {
       "id": "1aq5clqsvo8",
@@ -1964,9 +2300,16 @@
       "publishedAt": "2026-10-28T17:19:05.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "industry",
+      "category": "opensource",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhubiw/a_small_step_for_man_a_giant_step_for_local_ai/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhubiw/a_small_step_for_man_a_giant_step_for_local_ai/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Unsloth AI团队推动本地AI发展，提升入门级AI爱好者的可访问性。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
+      }
     },
     {
       "id": "10z7ycphq82",
@@ -1983,7 +2326,14 @@
       "day": "2026-10-29",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhu3b0/mac_studio_m5_ultra_512gb_starts_at_2229900_usd/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhu3b0/mac_studio_m5_ultra_512gb_starts_at_2229900_usd/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Mac Studio M5 Ultra 512GB起售价为22,299美元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
+      }
     },
     {
       "id": "28rb304yi2a",
@@ -2140,11 +2490,18 @@
       "publishedAt": "2026-10-28T17:00:00.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "谷歌开放Gemini和搜索给更多应用，改变消费者发现和使用应用的方式。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
+      }
     },
     {
       "id": "ad9i3v8tmy",
@@ -2223,7 +2580,14 @@
       "day": "2026-10-29",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhsvmy/it_vendor_lists_massive_60_million_ai/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhsvmy/it_vendor_lists_massive_60_million_ai/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "IT供应商在eBay上出售包含9600块Nvidia A100 GPU的AI超级计算机。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
+      }
     },
     {
       "id": "29tx7fbaq0t",
@@ -2242,7 +2606,14 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI在柏林DevDay分享新细节，Dots助手将在几周内更广泛地推出。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
+      }
     },
     {
       "id": "159imnxxepn",
@@ -2257,8 +2628,15 @@
       "publishedAt": "2026-10-28T16:20:03.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "industry",
-      "score": 15
+      "category": "agent",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Anthropic为Claude for Legal添加模板，简化法律团队工作流程。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
+      }
     },
     {
       "id": "1d10q0eiqc3",
@@ -2274,7 +2652,14 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Meta可能再次推迟实施新的商业条款，因出版商对AI训练表示反对。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
+      }
     },
     {
       "id": "slk7gi05la",
@@ -2289,9 +2674,16 @@
       "publishedAt": "2026-10-28T16:10:30.000Z",
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
-      "category": "industry",
+      "category": "opensource",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhse0l/alternatives_to_artificial_analysis/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhse0l/alternatives_to_artificial_analysis/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "用户讨论Artificial Analysis指标变化，寻求开源模型评测替代方案。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
+      }
     },
     {
       "id": "1gtbujz8rhc",

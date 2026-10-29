@@ -1,0 +1,246 @@
+{
+  "history": [
+    {
+      "startedAt": "2026-10-29T10:04:27.819Z",
+      "finishedAt": "2026-10-29T10:08:18.003Z",
+      "durationMs": 230184,
+      "trigger": "push",
+      "news": {
+        "fetched": 729,
+        "relevant": 293,
+        "added": 200
+      },
+      "ai": {
+        "enabled": true,
+        "titles": 11,
+        "overview": "ai",
+        "requests": 3
+      }
+    }
+  ],
+  "lastRun": {
+    "startedAt": "2026-10-29T10:04:27.819Z",
+    "finishedAt": "2026-10-29T10:08:18.003Z",
+    "durationMs": 230184,
+    "trigger": "push",
+    "sources": [
+      {
+        "id": "eastmoney-quotes",
+        "name": "东方财富行情",
+        "kind": "行情",
+        "ok": true,
+        "count": 18,
+        "total": 18,
+        "ms": 2700
+      },
+      {
+        "id": "treasury",
+        "name": "美国财政部实际利率",
+        "kind": "行情",
+        "ok": true,
+        "count": 207,
+        "ms": 549
+      },
+      {
+        "id": "danjuan",
+        "name": "蛋卷基金估值",
+        "kind": "估值",
+        "ok": true,
+        "count": 63,
+        "ms": 889
+      },
+      {
+        "id": "csindex",
+        "name": "中证指数市盈率",
+        "kind": "估值",
+        "ok": true,
+        "count": 1,
+        "total": 1,
+        "ms": 1255
+      },
+      {
+        "id": "fund-nav",
+        "name": "天天基金净值",
+        "kind": "基金",
+        "ok": true,
+        "count": 19,
+        "total": 19,
+        "ms": 2194
+      },
+      {
+        "id": "fund-fees",
+        "name": "天天基金费率与申购状态",
+        "kind": "基金",
+        "ok": true,
+        "count": 19,
+        "total": 19,
+        "ms": 14285
+      },
+      {
+        "id": "fund-profile",
+        "name": "天天基金基金概况",
+        "kind": "基金",
+        "ok": true,
+        "count": 18,
+        "total": 19,
+        "ms": 31699,
+        "error": "096001：网络错误（UND_ERR_CONNECT_TIMEOUT）"
+      },
+      {
+        "id": "wscn-global",
+        "name": "华尔街见闻",
+        "kind": "新闻",
+        "ok": true,
+        "count": 119,
+        "ms": 6459
+      },
+      {
+        "id": "wscn-gold",
+        "name": "华尔街见闻·黄金",
+        "kind": "新闻",
+        "ok": true,
+        "count": 100,
+        "ms": 1284
+      },
+      {
+        "id": "wscn-us",
+        "name": "华尔街见闻·美股",
+        "kind": "新闻",
+        "ok": true,
+        "count": 19,
+        "ms": 1173
+      },
+      {
+        "id": "cls",
+        "name": "财联社",
+        "kind": "新闻",
+        "ok": true,
+        "count": 100,
+        "ms": 1970
+      },
+      {
+        "id": "em-focus",
+        "name": "东方财富",
+        "kind": "新闻",
+        "ok": true,
+        "count": 100,
+        "ms": 1412
+      },
+      {
+        "id": "em-pboc",
+        "name": "东方财富·中国央行",
+        "kind": "新闻",
+        "ok": true,
+        "count": 50,
+        "ms": 1149
+      },
+      {
+        "id": "em-cb",
+        "name": "东方财富·全球央行",
+        "kind": "新闻",
+        "ok": true,
+        "count": 50,
+        "ms": 486
+      },
+      {
+        "id": "em-commodity",
+        "name": "东方财富·商品",
+        "kind": "新闻",
+        "ok": true,
+        "count": 50,
+        "ms": 1763
+      },
+      {
+        "id": "sina",
+        "name": "新浪财经",
+        "kind": "新闻",
+        "ok": true,
+        "count": 16,
+        "ms": 1883
+      },
+      {
+        "id": "cnbc-economy",
+        "name": "CNBC",
+        "kind": "新闻",
+        "ok": true,
+        "count": 30,
+        "ms": 227
+      },
+      {
+        "id": "cnbc-top",
+        "name": "CNBC",
+        "kind": "新闻",
+        "ok": true,
+        "count": 30,
+        "ms": 145
+      },
+      {
+        "id": "ft-markets",
+        "name": "FT",
+        "kind": "新闻",
+        "ok": true,
+        "count": 25,
+        "ms": 303
+      },
+      {
+        "id": "marketwatch",
+        "name": "MarketWatch",
+        "kind": "新闻",
+        "ok": true,
+        "count": 10,
+        "ms": 92
+      },
+      {
+        "id": "fed",
+        "name": "美联储",
+        "kind": "新闻",
+        "ok": true,
+        "count": 15,
+        "ms": 91
+      },
+      {
+        "id": "ecb",
+        "name": "欧洲央行",
+        "kind": "新闻",
+        "ok": true,
+        "count": 0,
+        "ms": 379
+      },
+      {
+        "id": "nbs",
+        "name": "国家统计局",
+        "kind": "新闻",
+        "ok": true,
+        "count": 15,
+        "ms": 2731
+      },
+      {
+        "id": "wscn-calendar",
+        "name": "华尔街见闻财经日历",
+        "kind": "日历",
+        "ok": true,
+        "count": 21,
+        "ms": 1010
+      },
+      {
+        "id": "fomc",
+        "name": "美联储议息日程",
+        "kind": "日历",
+        "ok": true,
+        "count": 4,
+        "ms": 84
+      }
+    ],
+    "news": {
+      "fetched": 729,
+      "relevant": 293,
+      "added": 200
+    },
+    "ai": {
+      "enabled": true,
+      "titles": 11,
+      "overview": "ai",
+      "requests": 3
+    }
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "updatedAt": "2026-10-29T10:04:27.819Z",
+  "lastSeen": {
+    "110020": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "fees": {
+        "management": 0.15,
+        "custody": 0.05,
+        "service": 0
+      }
+    },
+    "110051": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "fees": {
+        "management": 0.2,
+        "custody": 0.05,
+        "service": 0
+      }
+    },
+    "510300": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "fees": {
+        "management": 0.15,
+        "custody": 0.05
+      }
+    },
+    "512890": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "fees": {
+        "management": 0.5,
+        "custody": 0.1
+      }
+    },
+    "513100": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "fees": {
+        "management": 0.6,
+        "custody": 0.2
+      },
+      "premiumBand": "high"
+    },
+    "513500": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "fees": {
+        "management": 0.6,
+        "custody": 0.2
+      },
+      "premiumBand": "high"
+    },
+    "518850": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "fees": {
+        "management": 0.15,
+        "custody": 0.05
+      }
+    },
+    "019172": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "purchase": "限大额",
+      "limit": 10,
+      "dca": "支持",
+      "fees": {
+        "management": 0.5,
+        "custody": 0.1,
+        "service": 0
+      }
+    },
+    "016452": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "purchase": "限大额",
+      "limit": 10,
+      "dca": "支持",
+      "fees": {
+        "management": 0.5,
+        "custody": 0.15,
+        "service": 0
+      }
+    },
+    "096001": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "purchase": "限大额",
+      "limit": 50,
+      "dca": "支持",
+      "fees": {
+        "management": 1,
+        "custody": 0.2,
+        "service": 0
+      }
+    },
+    "008701": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "fees": {
+        "management": 0.15,
+        "custody": 0.05,
+        "service": 0
+      }
+    },
+    "008702": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "fees": {
+        "management": 0.15,
+        "custody": 0.05,
+        "service": 0.35
+      }
+    },
+    "022930": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "fees": {
+        "management": 0.15,
+        "custody": 0.05,
+        "service": 0
+      }
+    },
+    "022918": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "fees": {
+        "management": 0.15,
+        "custody": 0.05,
+        "service": 0
+      }
+    },
+    "022928": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "fees": {
+        "management": 0.15,
+        "custody": 0.05,
+        "service": 0
+      }
+    },
+    "022459": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "fees": {
+        "management": 0.15,
+        "custody": 0.05,
+        "service": 0
+      }
+    },
+    "022434": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "fees": {
+        "management": 0.15,
+        "custody": 0.05,
+        "service": 0
+      }
+    },
+    "007466": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "fees": {
+        "management": 0.5,
+        "custody": 0.1,
+        "service": 0
+      }
+    },
+    "050025": {
+      "at": "2026-10-29T10:04:27.819Z",
+      "purchase": "暂停申购",
+      "limit": 100,
+      "dca": "不支持",
+      "fees": {
+        "management": 0.6,
+        "custody": 0.2,
+        "service": 0
+      }
+    }
+  },
+  "events": []
+}

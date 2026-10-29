@@ -53,12 +53,19 @@
       "keywords": [
         "Agent"
       ],
-      "score": 28.9,
+      "score": 29,
       "metrics": {
-        "points": 230,
-        "comments": 150
+        "points": 232,
+        "comments": 151
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50275626"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50275626",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "在 50 个专业税务任务上评估 AI Agent。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
+      }
     },
     {
       "id": "1qcnwc8tbs5",
@@ -168,9 +175,9 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "model",
-      "score": 71.6,
+      "score": 71.7,
       "metrics": {
-        "points": 121,
+        "points": 123,
         "comments": 20
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50275128",
@@ -216,10 +223,11 @@
         ],
         "firstPublishedAt": "2026-10-28T14:58:17.000Z",
         "metrics": {
-          "points": 121,
+          "points": 123,
           "comments": 20
         }
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "1hzqwjk3rub",
@@ -400,7 +408,7 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 458,
+        "points": 460,
         "comments": 503
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50273396",
@@ -410,7 +418,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:15:39.297Z"
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "2ddjxs0zqmj",
@@ -770,7 +779,25 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "237ysb7acpf",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/10/506477.html",
+          "title": "物理学也要被AI攻陷了？5道20多年量子公开问题被突破",
+          "publishedAt": "2026-10-29T06:51:51.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-10-28T10:23:42.923Z"
+      }
     },
     {
       "id": "txh3zmv4e0",
@@ -1526,7 +1553,8 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:16:57.279Z"
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "daol5zr5qh",
@@ -1547,6 +1575,13 @@
       "metrics": {
         "upvotes": 90,
         "comments": 2
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Factorized Vector Quantization 提升离散视觉 Token 质量，使其在多模态理解中匹配连续表示。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
       }
     },
     {
@@ -1572,6 +1607,13 @@
       "metrics": {
         "upvotes": 174,
         "comments": 2
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "VibeVideoBench 评估基于代码的视频生成多模态 Agent，发现其常因时间管理不善而失败。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
       }
     },
     {
@@ -1596,6 +1638,13 @@
       "metrics": {
         "upvotes": 144,
         "comments": 2
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "PDRVLA 通过物理动力学模块预测未来视觉特征，提升机器人动作生成。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
       }
     },
     {
@@ -1627,7 +1676,8 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:16:57.279Z"
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "1tjw82q436q",
@@ -1652,6 +1702,13 @@
       "metrics": {
         "upvotes": 147,
         "comments": 4
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Memory Tax 框架评估 Agent 记忆系统的净价值，发现专用记忆系统常表现不佳。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
       }
     },
     {
@@ -1676,6 +1733,13 @@
       "metrics": {
         "upvotes": 80,
         "comments": 6
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "HABIT-Bench 评估 LLM Agent 记忆系统从稀疏对话证据推断用户习惯的能力。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
       }
     },
     {
@@ -1697,6 +1761,13 @@
       "metrics": {
         "upvotes": 119,
         "comments": 3
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "测试时记忆演化通过更新外部记忆而非模型权重，更高效地引导科学发现。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
       }
     },
     {
@@ -1718,6 +1789,13 @@
       "metrics": {
         "upvotes": 108,
         "comments": 2
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Hy-Nomas 是一个使用因果注意力和结构化条件生成交互式视频片段的视频世界模型。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
       }
     },
     {
@@ -1737,7 +1815,7 @@
       "categoryLocked": true,
       "score": 30.1,
       "metrics": {
-        "upvotes": 375,
+        "upvotes": 377,
         "comments": 2
       },
       "ai": {
@@ -1746,7 +1824,8 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:16:57.279Z"
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "1p5uz60x4pt",
@@ -1763,10 +1842,17 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.8,
+      "score": 23.2,
       "metrics": {
-        "upvotes": 67,
+        "upvotes": 71,
         "comments": 2
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Rollback 利用世界模型回溯过去决策，探索反事实动作以改进机器人策略。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
       }
     },
     {
@@ -1788,6 +1874,13 @@
       "metrics": {
         "upvotes": 51,
         "comments": 2
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "ThinkWorld 将动作表示为动力学链，利用世界想象从无标签人类视频中学习。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
       }
     },
     {
@@ -1803,8 +1896,15 @@
       "publishedAt": "2026-10-27T23:34:27.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "model",
-      "score": 21
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "家长起诉 OpenAI，称 GPT-4o 教唆其女儿停用癫痫药物。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
+      }
     },
     {
       "id": "25wftroyis",
@@ -1872,7 +1972,7 @@
       "category": "model",
       "score": 39.3,
       "metrics": {
-        "points": 323,
+        "points": 324,
         "comments": 337
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50265609",
@@ -1882,7 +1982,8 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:16:57.279Z"
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "248rfwn8c1x",
@@ -1913,7 +2014,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "opensource",
-      "score": 51,
+      "score": 51.1,
       "metrics": {
         "points": 527,
         "comments": 195
@@ -1946,7 +2047,7 @@
         "metrics": {
           "points": 527,
           "comments": 195,
-          "stars": 662
+          "stars": 672
         }
       }
     },
@@ -1984,7 +2085,14 @@
         "points": 106,
         "comments": 135
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50264228"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50264228",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "美国总统表示将禁止使用“人工智能”一词。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
+      }
     },
     {
       "id": "2430sva4phu",
@@ -2087,7 +2195,7 @@
         ],
         "firstPublishedAt": "2026-10-23T21:35:42.000Z",
         "metrics": {
-          "likes": 426
+          "likes": 431
         }
       }
     },
@@ -2132,7 +2240,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:16:57.279Z"
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "19wwepkquzj",
@@ -2159,7 +2268,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:16:57.279Z"
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "2e07453oysb",
@@ -2173,9 +2283,15 @@
       "publishedAt": "2026-10-27T16:12:42.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "industry",
+      "category": "paper",
       "score": 30,
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "探讨 LLM 在判断研究想法新颖性方面的可信度。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
+      }
     },
     {
       "id": "fs5cvusow2",
@@ -2192,7 +2308,7 @@
       "day": "2026-10-28",
       "category": "multimodal",
       "score": 46,
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "related": [
         {
           "id": "2fmk6c7rfle",
@@ -2219,6 +2335,12 @@
           "jiqizhixin"
         ],
         "firstPublishedAt": "2026-10-27T16:01:38.000Z"
+      },
+      "ai": {
+        "summary": "Google DeepMind发布Genie 4，实现更逼真的实时世界模拟。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:05:58.074Z"
       }
     },
     {
@@ -2237,7 +2359,14 @@
       "day": "2026-10-28",
       "category": "industry",
       "score": 30,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "Anthropic 扩大与 GSA 合作，为政府提供 Claude 折扣",
+        "summary": "Anthropic 与 GSA 签署新协议，为政府合作伙伴提供 Claude Enterprise 等产品 40% 折扣。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
+      }
     },
     {
       "id": "1oik4ypl7gi",
@@ -2253,13 +2382,19 @@
       "dateOnly": true,
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent",
         "A2UI"
       ],
       "score": 30,
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "A2UI 引入 A2UI Express，通过编译 Python 语法减少 Token 并降低延迟。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
+      }
     },
     {
       "id": "2aywti1jtlr",
@@ -2275,12 +2410,18 @@
       "dateOnly": true,
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
       "score": 30,
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "文档提供在 GCP 上构建多智能体群对话商业界面的技术博客模板。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-29T10:06:36.371Z"
+      }
     }
   ]
 }
