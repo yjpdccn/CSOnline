@@ -4,6 +4,8 @@
 
 AI 日报自动抓取官方博客、Hugging Face、Hacker News、GitHub、Reddit 和中英文科技媒体，筛出与 AI 相关的内容，去重、分类后按天展示。如果配置了大模型接口，还会为英文资讯生成中文标题和一句话摘要，并写一段「今日要点」。
 
+线上地址：<https://yjpdccn.github.io/CSOnline/>（部署方法见下文）
+
 - **一个页面看全**：按天分组的资讯流，顶部是今日要点，支持按分类（模型发布 / Agent 与工具 / 多模态与视频 / 开源项目 / 论文 / 产品与行业）、按来源筛选和全文搜索，筛选条件会写进网址，方便收藏。
 - **35 个已验证可用的公开来源**：无需登录。来源都在 [`src/config/sources.ts`](src/config/sources.ts) 里，新增一个来源只要加一行。
 - **自动更新**：部署到 GitHub Pages 后，GitHub Actions 每 12 小时抓取一次（北京时间 08:00、20:00 前完成）。本地运行时有「立即更新」按钮，开发服务器也会每 12 小时自动更新。
@@ -30,7 +32,7 @@ npm run dev
 | `npm run build:static` | 构建 GitHub Pages 用的静态站点到 `out/` |
 | `npm test` / `npm run lint` / `npm run typecheck` | 单元测试 / 代码检查 / 类型检查 |
 
-想在本地预览静态站点：`npm run build:static`，然后用任意静态服务器打开 `out/`（例如 `npx serve out`）。
+想在本地预览静态站点：`npm run build:static`，然后用任意静态服务器打开 `out/`（例如 `npx serve out`）。按线上子路径 `/CSOnline/` 预览的方法见「部署到 GitHub Pages」。
 
 ## AI 中文摘要（可选）
 
@@ -61,22 +63,30 @@ npm run dev
 
 ## 部署到 GitHub Pages（免费，定时更新）
 
-项目已经包含工作流 [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml)：每 12 小时抓取资讯、生成摘要、把 `data/` 提交回仓库，再构建静态站点并发布到 GitHub Pages。一次性设置如下：
+| | 地址 |
+| --- | --- |
+| 仓库 | <https://github.com/yjpdccn/CSOnline> |
+| 网站 | <https://yjpdccn.github.io/CSOnline/> |
+| 手动运行更新 | <https://github.com/yjpdccn/CSOnline/actions/workflows/refresh.yml> |
 
-1. **在 GitHub 新建一个空的公开仓库**（不要勾选添加 README）。公开仓库的 Actions 分钟数免费。
-2. **启用 Pages**：仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
-3. **允许工作流写入仓库**：**Settings → Actions → General → Workflow permissions** 选择 **Read and write permissions** 并保存。工作流需要把新数据提交回 `main`。
-4. **（可选）换成你自己的大模型**：不做任何设置时，工作流用内置的 `GITHUB_TOKEN` 调用 GitHub Models（工作流已声明 `permissions: models: read`）。要换成智谱等服务，在 **Settings → Secrets and variables → Actions** 中：
+项目已经包含工作流 [`.github/workflows/refresh.yml`](.github/workflows/refresh.yml)：每 12 小时抓取资讯、生成摘要、把 `data/` 提交回仓库，再构建静态站点并发布到 GitHub Pages。站点挂在子路径 `/CSOnline/` 下，这个路径由 `actions/configure-pages` 输出的 `base_path` 传给构建（`PAGES_BASE_PATH`），以后改仓库名或绑定自定义域名都不用改代码。
+
+一次性设置（在 GitHub 仓库页面操作）：
+
+1. **启用 Pages**：**Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
+2. **允许工作流写入仓库**：**Settings → Actions → General → Workflow permissions** 选择 **Read and write permissions** 并保存。工作流需要把新数据提交回 `main`。
+3. **（可选）换成你自己的大模型**：不做任何设置时，工作流用内置的 `GITHUB_TOKEN` 调用 GitHub Models（工作流已声明 `permissions: models: read`）。要换成智谱等服务，在 **Settings → Secrets and variables → Actions** 中：
    - **Secrets** 新建 `LLM_API_KEY`（你的密钥）
    - **Variables** 新建 `LLM_BASE_URL`（如 `https://open.bigmodel.cn/api/paas/v4`）和 `LLM_MODEL`（如 `glm-4.7-flash`）
-5. **推送代码**（目前仓库托管在 Cursor 自己的 Git 服务上）：
+4. **把代码推到 `main`**：
    ```bash
-   git remote add github https://github.com/<你的用户名>/<仓库名>.git
-   git push github main
+   git push https://github.com/yjpdccn/CSOnline.git HEAD:main
    ```
-   推送会自动触发一次工作流（**Actions → 更新资讯并部署**），约 3～5 分钟后访问 `https://<你的用户名>.github.io/<仓库名>/`。如果推送时还没完成第 2、3 步，那次运行会失败，补上设置后在 Actions 页面点 **Run workflow** 重跑即可。
+   推送会自动触发一次工作流（**Actions → 更新资讯并部署**），约 3～5 分钟后打开 <https://yjpdccn.github.io/CSOnline/>。如果推送时还没完成第 1、2 步，那次运行会失败，补上设置后在 Actions 页面点 **Run workflow** 重跑即可。
 
 之后它会按计划自动运行，也可以随时在 Actions 页面手动运行。网站右上角的「手动更新」按钮会直接打开这个工作流页面（静态站点没有服务器，不能在页面里直接刷新）。
+
+在本地按线上路径预览：`PAGES_BASE_PATH=/CSOnline npm run build:static`，把 `out/` 复制到任意目录下的 `CSOnline/` 子目录，再用静态服务器打开该目录，访问 `/CSOnline/`。
 
 ### 调整更新时间
 

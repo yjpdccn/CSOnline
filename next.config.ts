@@ -1,7 +1,20 @@
 import type { NextConfig } from "next";
 
 const isStaticExport = process.env.STATIC_EXPORT === "1";
-const basePath = isStaticExport ? (process.env.PAGES_BASE_PATH ?? "").replace(/\/+$/, "") : "";
+
+/**
+ * Subpath the static site is served from, e.g. "/CSOnline" for https://yjpdccn.github.io/CSOnline/.
+ * The workflow passes actions/configure-pages' base_path output (empty for a custom domain); without it,
+ * a GitHub Actions build falls back to the repository name.
+ */
+function pagesBasePath(): string {
+  const explicit = process.env.PAGES_BASE_PATH;
+  if (explicit !== undefined) return explicit.replace(/\/+$/, "");
+  const repo = process.env.GITHUB_REPOSITORY?.split("/")[1];
+  return repo && !/\.github\.io$/i.test(repo) ? `/${repo}` : "";
+}
+
+const basePath = isStaticExport ? pagesBasePath() : "";
 
 const nextConfig: NextConfig = {
   ...(isStaticExport && {

@@ -79,6 +79,7 @@ jobs:
       - name: 构建静态站点
         run: npm run build:static
         env:
+          # 例如 /CSOnline，对应 https://yjpdccn.github.io/CSOnline/；绑定自定义域名后为空
           PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
       - uses: actions/upload-pages-artifact@v5
