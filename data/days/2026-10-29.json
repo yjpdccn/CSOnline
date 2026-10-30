@@ -19,6 +19,63 @@
       "dupOf": "1lx07897zso"
     },
     {
+      "id": "1rsdlcn69pg",
+      "key": "url:trakkr.ai/trakkr-research/zombie-stats",
+      "title": "Zombie stats: Where the numbers AI quotes come from",
+      "url": "https://trakkr.ai/trakkr-research/zombie-stats",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T15:06:17.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-29",
+      "category": "paper",
+      "score": 24.3,
+      "metrics": {
+        "points": 148,
+        "comments": 63
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50290283",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "探讨 AI 引用的数据来源及其可靠性。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:46.884Z"
+      }
+    },
+    {
+      "id": "9ypij9qklz",
+      "key": "url:martinfowler.com/bliki/LLM-Voice.html",
+      "title": "LLM Voice",
+      "url": "https://martinfowler.com/bliki/LLM-Voice.html",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T14:57:55.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-29",
+      "category": "agent",
+      "keywords": [
+        "语音"
+      ],
+      "score": 32.7,
+      "metrics": {
+        "points": 362,
+        "comments": 183
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50290177",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "关于 LLM 语音功能的讨论。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:46.884Z"
+      }
+    },
+    {
       "id": "bv3a2jhg2s",
       "key": "url:theverge.com/ai-artificial-intelligence/1022193/nyt-cooking-app-ai-recipe-modification-tool",
       "title": "The NYT Cooking app is testing AI recipe modifications",
@@ -92,6 +149,33 @@
       }
     },
     {
+      "id": "gydzom0rv7",
+      "key": "url:404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning",
+      "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
+      "url": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T14:29:06.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 23.7,
+      "metrics": {
+        "points": 142,
+        "comments": 51
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50289692",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Proton 公司在 AI 领域面临的挑战与反思。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:46.884Z"
+      }
+    },
+    {
       "id": "19ulbitoyna",
       "key": "url:36kr.com/p/4047032889800965",
       "title": "部署态加速，智元要打通物理AI全链路",
@@ -160,8 +244,14 @@
       "publishedAt": "2026-10-29T14:14:00.000Z",
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
-      "category": "model",
-      "score": 28
+      "category": "opensource",
+      "score": 22,
+      "ai": {
+        "summary": "DeepSeek开源推理引擎DeepInfer，优化MoE专家并行等技术。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
     },
     {
       "id": "1ze0qmbc7y0",
@@ -430,8 +520,14 @@
       "publishedAt": "2026-10-29T12:54:54.580Z",
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
-      "category": "model",
-      "score": 28
+      "category": "industry",
+      "score": 22,
+      "ai": {
+        "summary": "XHEART发布大模型芯片X7 Ultra，累计出货超20万颗。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
     },
     {
       "id": "29n6keji76k",
@@ -446,10 +542,10 @@
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
       "category": "model",
-      "score": 37.9,
+      "score": 38.6,
       "metrics": {
-        "points": 304,
-        "comments": 225
+        "points": 328,
+        "comments": 240
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50288019",
       "dupOf": "28rb304yi2a"
@@ -601,10 +697,10 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 70.2,
+      "score": 71.9,
       "metrics": {
-        "points": 644,
-        "comments": 164
+        "points": 1229,
+        "comments": 343
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50289418",
       "alsoOn": [
@@ -688,10 +784,10 @@
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
       "category": "paper",
-      "score": 23.6,
+      "score": 24,
       "metrics": {
-        "points": 117,
-        "comments": 99
+        "points": 124,
+        "comments": 102
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50287359",
       "ai": {
@@ -763,11 +859,11 @@
       "publishedAt": "2026-10-29T10:46:00.000Z",
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
-      "category": "multimodal",
+      "category": "model",
       "keywords": [
         "具身智能"
       ],
-      "score": 26,
+      "score": 32,
       "related": [
         {
           "id": "15gtzchbrn3",
@@ -785,6 +881,12 @@
           "36kr-ai"
         ],
         "firstPublishedAt": "2026-10-29T10:39:44.670Z"
+      },
+      "ai": {
+        "summary": "机器人学习进入全链路Scaling时代，虚实结合加速进化。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
       }
     },
     {
@@ -942,7 +1044,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 28
+      "score": 28,
+      "ai": {
+        "summary": "国产模型在三大榜单夺冠，年底将全面开源。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
     },
     {
       "id": "27lfdywxmqt",
@@ -1055,7 +1163,13 @@
       "firstSeenAt": "2026-10-29T10:04:27.819Z",
       "day": "2026-10-29",
       "category": "model",
-      "score": 24
+      "score": 24,
+      "ai": {
+        "summary": "谷歌Gemini 4 Carbon登顶，因安全暂不放全量开放。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
     },
     {
       "id": "hxbxo4nhkl",
@@ -1137,15 +1251,16 @@
       "publishedAt": "2026-10-29T09:48:21.000Z",
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
-      "category": "industry",
+      "category": "opensource",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xifjn2/worried_about_qwen_4_license/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "担忧 Qwen 4 继承 Qwen3.8 的自定义许可条款。",
-        "category": "industry",
+        "title": "Qwen 4 许可担忧",
+        "summary": "用户担忧 Qwen 4 可能继承 Qwen3.8 的自定义许可条款。",
+        "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T17:30:12.395Z"
+        "at": "2026-10-30T02:46:46.884Z"
       }
     },
     {
@@ -1213,11 +1328,17 @@
       "publishedAt": "2026-10-29T09:03:00.000Z",
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
-      "category": "model",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 24
+      "score": 18,
+      "ai": {
+        "summary": "国家超算互联网调价，降低AI研发与调试成本。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
     },
     {
       "id": "rc2d41ac3w",
@@ -1310,6 +1431,12 @@
           "leiphone"
         ],
         "firstPublishedAt": "2026-10-29T08:53:00.000Z"
+      },
+      "ai": {
+        "summary": "豆包工作向企业客户开放接入三方大模型。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
       }
     },
     {
@@ -1499,6 +1626,12 @@
           "36kr-flash"
         ],
         "firstPublishedAt": "2026-10-29T07:13:00.000Z"
+      },
+      "ai": {
+        "summary": "阿里云以46.6%份额居首，智谱、火山引擎紧随其后。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
       }
     },
     {
@@ -1540,6 +1673,29 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T17:30:12.395Z"
+      }
+    },
+    {
+      "id": "2bg5c5dtw9r",
+      "key": "url:openai.com/index/ropes-gray-ai-diligence",
+      "title": "How Ropes & Gray is developing AI for transactional diligence",
+      "url": "https://openai.com/index/ropes-gray-ai-diligence",
+      "excerpt": "Ropes & Gray is developing AI for transactional diligence with OpenAI. Lawyers review grouped documents, summaries, and reports before advising clients.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-29T07:00:00.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 30,
+      "ai": {
+        "title": "Ropes & Gray 与 OpenAI 合作开发交易尽职调查 AI",
+        "summary": "律所 Ropes & Gray 与 OpenAI 合作，利用 AI 辅助律师进行文档审查和尽职调查。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:46.884Z"
       }
     },
     {
@@ -1739,7 +1895,7 @@
       "publishedAt": "2026-10-29T05:31:00.000Z",
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
-      "category": "agent",
+      "category": "industry",
       "score": 26,
       "alsoOn": [
         {
@@ -1747,7 +1903,13 @@
           "sourceName": "36氪 AI",
           "url": "https://36kr.com/p/4046433485493125"
         }
-      ]
+      ],
+      "ai": {
+        "summary": "OpenAI为Pro和Business用户提供每月最高500美元API额度。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
     },
     {
       "id": "28306tx4i7q",
@@ -1918,15 +2080,16 @@
       "publishedAt": "2026-10-29T03:57:02.000Z",
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
-      "category": "model",
-      "score": 16,
+      "category": "opensource",
+      "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xi9sfl/update_benchmark_basalts_new_prs_strata_fork_new/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "Basalt 在 RTX 5080 上创下 Qwen3.8 Flash Next 的新基准记录。",
-        "category": "model",
+        "title": "Basalt 新基准测试：Qwen3.8 Flash Next 达到 5500…",
+        "summary": "Basalt 项目在单张 RTX 5080 上实现 Qwen3.8 Flash Next 的高性能推理。",
+        "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T17:30:12.395Z"
+        "at": "2026-10-30T02:46:46.884Z"
       }
     },
     {
@@ -2014,10 +2177,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 34.8,
+      "score": 34.9,
       "metrics": {
-        "points": 530,
-        "comments": 215
+        "points": 562,
+        "comments": 226
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50284255",
       "ai": {
@@ -2058,7 +2221,8 @@
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "dupOf": "ds3hs5kuj2"
     },
     {
       "id": "uhgvjcfeyg",
@@ -2099,7 +2263,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 308227,
+        "stars": 308651,
         "starsToday": 1095
       },
       "ai": {
@@ -2193,7 +2357,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 94849,
+        "stars": 95535,
         "starsToday": 2881
       },
       "ai": {
@@ -2256,7 +2420,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 3727,
+        "stars": 3930,
         "starsToday": 1054
       },
       "ai": {
@@ -2283,7 +2447,7 @@
         ],
         "firstPublishedAt": "2026-10-29T03:24:01.011Z",
         "metrics": {
-          "stars": 7955,
+          "stars": 8210,
           "starsToday": 1054
         }
       }
@@ -2348,7 +2512,7 @@
       "publishedAt": "2026-10-29T03:05:00.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "industry",
+      "category": "agent",
       "score": 26,
       "alsoOn": [
         {
@@ -2356,7 +2520,13 @@
           "sourceName": "雷峰网",
           "url": "https://www.leiphone.com/category/ai/TKr0YQ085uv1ME7X.html"
         }
-      ]
+      ],
+      "ai": {
+        "summary": "智源SoulAgent拓展教育应用，赋能创新人才培养。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
     },
     {
       "id": "290xpiz9jr1",
@@ -2371,8 +2541,14 @@
       "publishedAt": "2026-10-29T03:01:13.118Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "model",
-      "score": 24
+      "category": "multimodal",
+      "score": 18,
+      "ai": {
+        "summary": "外媒用谷歌新模型在GTA 6中驾驶车辆。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
     },
     {
       "id": "249iqza6mlj",
@@ -2983,10 +3159,10 @@
       "day": "2026-10-29",
       "category": "paper",
       "categoryLocked": true,
-      "score": 28.4,
+      "score": 28.6,
       "metrics": {
-        "upvotes": 146,
-        "comments": 1
+        "upvotes": 150,
+        "comments": 2
       },
       "ai": {
         "title": "Falcon：高效流式音频视觉目标说话人提取",
@@ -3219,10 +3395,11 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xi2jfm/i_ran_doom_inside_the_qwen_model_weights/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "在 Qwen 模型权重中运行 Doom 游戏。",
+        "title": "在 Qwen 模型权重中运行 Doom",
+        "summary": "用户成功在 Qwen 模型虚拟机中运行 Doom 游戏，展示了 LLM 的潜力。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T17:30:12.395Z"
+        "at": "2026-10-30T02:46:46.884Z"
       }
     },
     {
@@ -3380,10 +3557,10 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 25,
+      "score": 25.3,
       "metrics": {
-        "points": 160,
-        "comments": 74
+        "points": 165,
+        "comments": 76
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50280178",
       "ai": {
@@ -3432,10 +3609,11 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhydgj/models_are_chasing_unrealistic_benchmarks_but_the/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "模型追逐不切实际的基准测试，实际应用能力已达标。",
+        "title": "模型追逐不切实际的基准，工作级智能已实现",
+        "summary": "批评当前基准测试脱离实际，强调工作级智能已足够。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T17:30:12.395Z"
+        "at": "2026-10-30T02:46:46.884Z"
       }
     },
     {

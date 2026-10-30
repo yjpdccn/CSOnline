@@ -16,7 +16,7 @@
       "day": "2026-10-27",
       "category": "agent",
       "score": 30,
-      "aiAttempts": 1
+      "aiAttempts": 2
     },
     {
       "id": "2fo15n9e2st",
@@ -33,8 +33,8 @@
       "category": "industry",
       "score": 35.6,
       "metrics": {
-        "points": 593,
-        "comments": 295
+        "points": 597,
+        "comments": 296
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50260814",
       "ai": {
@@ -43,7 +43,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:15:39.297Z"
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "1o9oxnwumoz",
@@ -60,7 +61,7 @@
       "day": "2026-10-27",
       "category": "industry",
       "score": 30,
-      "aiAttempts": 1
+      "aiAttempts": 2
     },
     {
       "id": "1vjtjvvjupu",
@@ -75,14 +76,21 @@
       "publishedAt": "2026-10-27T15:00:00.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent",
         "AI 编程",
         "语音"
       ],
       "score": 30,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "Retell 使用 OpenAI 模型支撑 1 亿月调用量",
+        "summary": "Retell 利用 OpenAI 模型实现月调用量破亿，并达到高营收。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:47:06.691Z"
+      }
     },
     {
       "id": "1sownfzvqrw",
@@ -102,7 +110,8 @@
         "points": 225,
         "comments": 121
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50259406"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50259406",
+      "aiAttempts": 1
     },
     {
       "id": "1b20bd9hjpa",
@@ -138,10 +147,11 @@
       "day": "2026-10-27",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 27.3,
+      "score": 27.8,
       "metrics": {
-        "stars": 3005
-      }
+        "stars": 3249
+      },
+      "aiAttempts": 1
     },
     {
       "id": "27rax37xok9",
@@ -158,8 +168,8 @@
       "category": "industry",
       "score": 35.1,
       "metrics": {
-        "points": 513,
-        "comments": 240
+        "points": 514,
+        "comments": 241
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50257326",
       "ai": {
@@ -168,7 +178,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:15:39.297Z"
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "1e29nsmxe3w",
@@ -185,8 +196,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 675,
-        "comments": 659
+        "points": 677,
+        "comments": 660
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50257325",
       "ai": {
@@ -467,7 +478,8 @@
       "score": 16,
       "metrics": {
         "stars": 391
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "12t0m8ohwvv",
@@ -576,7 +588,14 @@
         "Agent"
       ],
       "score": 30,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "OpenAI 扩大与 Oracle 合作，将应用引入 ChatGPT",
+        "summary": "OpenAI 与 Oracle 扩展合作，将业务应用和 AI 智能体引入 ChatGPT。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:47:06.691Z"
+      }
     },
     {
       "id": "1xfwihulwcv",
@@ -619,7 +638,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "model",
-      "score": 47.2,
+      "score": 47.6,
       "related": [
         {
           "id": "2b971ysr9us",
@@ -638,7 +657,7 @@
         ],
         "firstPublishedAt": "2026-10-26T03:57:46.000Z",
         "metrics": {
-          "likes": 370
+          "likes": 402
         }
       }
     },
@@ -991,9 +1010,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 17.7,
+      "score": 17.8,
       "metrics": {
-        "stars": 573
+        "stars": 579
       }
     },
     {

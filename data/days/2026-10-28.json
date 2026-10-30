@@ -18,10 +18,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "AI 高管可能过于脱离公众需求。",
+        "title": "AI 执行层与公众脱节",
+        "summary": "批评 AI 领导者过度炫耀 AI 的家庭应用，忽视普通用户需求。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T17:31:00.989Z"
+        "at": "2026-10-30T02:46:46.884Z"
       }
     },
     {
@@ -60,10 +61,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 29.6,
+      "score": 29.9,
       "metrics": {
-        "points": 248,
-        "comments": 164
+        "points": 254,
+        "comments": 172
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50275626",
       "aiAttempts": 1,
@@ -92,10 +93,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "韩国金融业遭遇新一轮网络攻击。",
+        "title": "韩国金融业遭遇新一轮网络攻击",
+        "summary": "韩国金融机构遭受 AI 驱动的网络攻击，凸显 AI 安全风险。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T17:31:00.989Z"
+        "at": "2026-10-30T02:46:46.884Z"
       }
     },
     {
@@ -129,14 +131,15 @@
       "publishedAt": "2026-10-28T15:04:43.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "industry",
+      "category": "paper",
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "新 Artificial Analysis 指数扩大了开源与闭源模型的差距。",
-        "category": "industry",
+        "title": "新 Artificial Analysis 指数拉大开源与闭源模型差距",
+        "summary": "Artificial Analysis 更新指数，导致 Kimi K3.1 Pro 排名下降。",
+        "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T17:31:00.989Z"
+        "at": "2026-10-30T02:46:46.884Z"
       }
     },
     {
@@ -178,17 +181,18 @@
       "publishedAt": "2026-10-28T15:00:00.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "industry",
+      "category": "opensource",
       "keywords": [
         "语音"
       ],
       "score": 19,
       "aiAttempts": 1,
       "ai": {
-        "summary": "Nvidia 发布免费语音转文字模型，支持 40 种语言。",
-        "category": "industry",
+        "title": "Nvidia 发布新开源语音转录模型",
+        "summary": "Nvidia 推出支持 40 种语言的免费语音转文本模型，适用于会议和医疗转录。",
+        "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T17:31:00.989Z"
+        "at": "2026-10-30T02:46:46.884Z"
       }
     },
     {
@@ -204,10 +208,10 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "model",
-      "score": 72,
+      "score": 72.2,
       "metrics": {
-        "points": 126,
-        "comments": 23
+        "points": 130,
+        "comments": 24
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50275128",
       "alsoOn": [
@@ -251,8 +255,8 @@
         ],
         "firstPublishedAt": "2026-10-28T14:58:17.000Z",
         "metrics": {
-          "points": 126,
-          "comments": 23
+          "points": 130,
+          "comments": 24
         }
       },
       "aiAttempts": 1
@@ -431,15 +435,16 @@
       "publishedAt": "2026-10-28T13:41:58.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "opensource",
+      "category": "agent",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhoeo3/used_qwen_38_flash_next_on_underspeced_pc_to_root/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "用户在低配 PC 上使用 Qwen 3.8 flash 成功清理 LG 电视。",
-        "category": "opensource",
+        "title": "在低配 PC 上使用 Qwen 3.8 Flash Next 清除电视广告",
+        "summary": "用户利用 Qwen 3.8 Flash Next 在低配 PC 上成功清除智能电视的间谍软件和广告。",
+        "category": "agent",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T17:31:00.989Z"
+        "at": "2026-10-30T02:46:46.884Z"
       }
     },
     {
@@ -457,8 +462,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 477,
-        "comments": 513
+        "points": 482,
+        "comments": 520
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50273396",
       "ai": {
@@ -590,15 +595,16 @@
       "publishedAt": "2026-10-28T12:26:44.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "opensource",
+      "category": "agent",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhmo1q/someone_built_a_32bit_riscv_cpu_directly_inside/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "有人在 Qwen 模型权重中内置了可执行指令的 RISC-V CPU。",
-        "category": "opensource",
+        "title": "在 Qwen 模型权重中嵌入 32 位 RISC-V CPU",
+        "summary": "有人在 Qwen 模型权重中嵌入 CPU，实现内部指令执行。",
+        "category": "agent",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T17:31:00.989Z"
+        "at": "2026-10-30T02:47:06.691Z"
       }
     },
     {
@@ -743,10 +749,11 @@
       "score": 19,
       "aiAttempts": 1,
       "ai": {
-        "summary": "Meta 推出类似电子宠物的 AI 日记应用 Waddle World。",
+        "title": "Meta 推出 AI 宠物日记应用 Waddle World",
+        "summary": "Meta 发布类似电子宠物的 AI 应用，支持虚拟生物聊天和绘图。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T17:31:00.989Z"
+        "at": "2026-10-30T02:46:46.884Z"
       }
     },
     {
@@ -952,7 +959,7 @@
       ],
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xhk7hp/aa_is_getting_ridiculous_now_zero_open_weights_in/",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Artificial Analysis 指数 Most Attractive Quadrant 现无开源模型。",
         "category": "industry",
@@ -1141,7 +1148,7 @@
         ],
         "firstPublishedAt": "2026-10-28T09:45:18.000Z"
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "传闻 Gemma 5 模型即将发布。",
         "category": "industry",
@@ -1703,7 +1710,7 @@
       ],
       "score": 30.2,
       "metrics": {
-        "upvotes": 379,
+        "upvotes": 380,
         "comments": 4
       },
       "ai": {
@@ -1794,9 +1801,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 28.4,
+      "score": 28.5,
       "metrics": {
-        "upvotes": 146,
+        "upvotes": 148,
         "comments": 2
       },
       "aiAttempts": 2,
@@ -1858,9 +1865,9 @@
         "Agent",
         "RAG"
       ],
-      "score": 28.7,
+      "score": 28.9,
       "metrics": {
-        "upvotes": 149,
+        "upvotes": 152,
         "comments": 5
       },
       "aiAttempts": 2,
@@ -1889,9 +1896,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.6,
+      "score": 25.1,
       "metrics": {
-        "upvotes": 84,
+        "upvotes": 90,
         "comments": 7
       },
       "aiAttempts": 2,
@@ -1917,9 +1924,9 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 27,
+      "score": 27.6,
       "metrics": {
-        "upvotes": 119,
+        "upvotes": 130,
         "comments": 3
       },
       "aiAttempts": 2,
@@ -1945,9 +1952,9 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 26.6,
+      "score": 27.3,
       "metrics": {
-        "upvotes": 114,
+        "upvotes": 126,
         "comments": 2
       },
       "aiAttempts": 2,
@@ -1975,7 +1982,7 @@
       "categoryLocked": true,
       "score": 30.1,
       "metrics": {
-        "upvotes": 397,
+        "upvotes": 414,
         "comments": 2
       },
       "ai": {
@@ -2002,9 +2009,9 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 24,
+      "score": 24.6,
       "metrics": {
-        "upvotes": 80,
+        "upvotes": 87,
         "comments": 2
       },
       "aiAttempts": 2,
@@ -2030,9 +2037,9 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.2,
+      "score": 21.4,
       "metrics": {
-        "upvotes": 52,
+        "upvotes": 54,
         "comments": 2
       },
       "aiAttempts": 2,
@@ -2058,17 +2065,46 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21,
+      "score": 21.1,
       "metrics": {
-        "upvotes": 50,
+        "upvotes": 51,
         "comments": 2
       },
       "aiAttempts": 1,
       "ai": {
-        "summary": "CodeCap-Bench 评估代码作为视频描述的可行性。",
+        "title": "CodeCap-Bench：代码能否作为视频描述？",
+        "summary": "研究探讨代码表示在视频描述中的潜力与挑战。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T17:31:00.989Z"
+        "at": "2026-10-30T02:46:46.884Z"
+      }
+    },
+    {
+      "id": "7653teg3ia",
+      "key": "arxiv:2610.36456",
+      "title": "LociArt: A Unified Paradigm for Free-Style Local Video Stylization",
+      "url": "https://huggingface.co/papers/2610.36456",
+      "excerpt": "LociArt enables precise local video stylization with region-style control and temporal consistency via a generative refinement network, automated dataset construction, and a dedicated benchmark.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-28T00:00:00.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-28",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 21.1,
+      "metrics": {
+        "upvotes": 51,
+        "comments": 2
+      },
+      "ai": {
+        "title": "LociArt：统一风格化视频处理范式",
+        "summary": "LociArt 提供精确的区域风格控制和时间一致性视频风格化。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:46.884Z"
       }
     },
     {
@@ -2180,10 +2216,10 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 33.4,
+      "score": 33.5,
       "metrics": {
         "points": 328,
-        "comments": 339
+        "comments": 343
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50265609",
       "ai": {
@@ -2231,10 +2267,10 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "opensource",
-      "score": 51.5,
+      "score": 51.8,
       "metrics": {
-        "points": 535,
-        "comments": 200
+        "points": 538,
+        "comments": 202
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50264853",
       "ai": {
@@ -2262,9 +2298,9 @@
         ],
         "firstPublishedAt": "2026-10-24T19:12:41.000Z",
         "metrics": {
-          "points": 535,
-          "comments": 200,
-          "stars": 731
+          "points": 538,
+          "comments": 202,
+          "stars": 770
         }
       }
     },
@@ -2281,14 +2317,15 @@
       "publishedAt": "2026-10-27T19:45:49.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
-      "category": "industry",
+      "category": "opensource",
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "研究人员发现阿里 Qwen 3.8 模型在测试时将请求路由至公司服务器。",
-        "category": "industry",
+        "title": "Alibaba Qwen 模型被指路由请求至公司服务器",
+        "summary": "研究发现 Qwen 3.8 模型在测试时将请求路由至阿里云服务器。",
+        "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-10-29T17:31:00.989Z"
+        "at": "2026-10-30T02:46:46.884Z"
       }
     },
     {
@@ -2400,7 +2437,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "opensource",
-      "score": 50.4,
+      "score": 50.8,
       "ai": {
         "title": "使用 LFM3 构建专用多模态模型",
         "summary": "介绍如何利用 LFM3 构建特定领域的多模态模型。",
@@ -2426,7 +2463,7 @@
         ],
         "firstPublishedAt": "2026-10-23T21:35:42.000Z",
         "metrics": {
-          "likes": 455
+          "likes": 487
         }
       }
     },
@@ -2494,9 +2531,9 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "industry",
-      "score": 34.1,
+      "score": 34.2,
       "metrics": {
-        "points": 379,
+        "points": 383,
         "comments": 291
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50261589",

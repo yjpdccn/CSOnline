@@ -2,6 +2,917 @@
   "day": "2026-10-30",
   "items": [
     {
+      "id": "j8zd3m3sko",
+      "key": "url:36kr.com/newsflashes/4047761364367620",
+      "title": "闪迪CEO：预计2027年数据中心将占据超过55%的存储市场份额",
+      "url": "https://36kr.com/newsflashes/4047761364367620",
+      "excerpt": "闪迪董事长兼首席执行官David Goeckeler美东时间周四在2027财年第一财季电话会议上表示，数据中心业务已从十年前约占行业总量的20%增长到如今的近一半。面向未来，预计2027年数据中心将占据超过55%的市场份额，投标需求将同比增长约40%。Goeckeler甚至大胆预测：“到本十年末，键值缓存（KV Cache）将占据人工智能数据中心闪存市场约三分之一的份额，而人工智能数据中心的市场规模将接近如今的NAND闪存市场。”（财联社）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T02:36:45.708Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "闪迪CEO预测2027年数据中心将占存储市场超55%。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
+    },
+    {
+      "id": "oqnpk9myg2",
+      "key": "url:jiqizhixin.com/articles/2026-10-30-5",
+      "title": "刚刚，破壳机器人发布RoboAPI！具身模型也能「开箱即用」了",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-30-5",
+      "excerpt": "10 月 30 日凌晨，今年 4 月成立的破壳机器人（PokeBot），发布了第一款模型产品 RoboAPI ，他们的世界模型 Poke-Aurora 也首次亮相。不同于其他具身模型发布 Demo，破壳发布的 RoboAPI 是一个面向真实物理世界、可公开访问、开箱即用的具身 API，亮相的同...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T02:16:00.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "agent",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 22,
+      "ai": {
+        "summary": "破壳机器人发布 RoboAPI，提供面向真实物理世界的具身 API。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:47:06.691Z"
+      }
+    },
+    {
+      "id": "29wa0cg9wka",
+      "key": "url:jiqizhixin.com/articles/2026-10-30-4",
+      "title": "报名｜具身数据，规模之外拼什么？11月5日张江这场技术沙龙见！",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-30-4",
+      "excerpt": "具身智能正在探索更大规模的模型训练，但一个核心问题仍待回答：数据规模的增长，如何真正转化为机器人能力的提升？随着 VLA、世界模型与机器人基础模型持续演进，从人类第一视角视频、遥操作示范到真实机器人交互，不同技术路线正探索规模化获取训练数据的可能性。但数据规模的扩张，并不必然带来机器人能力的同...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T02:13:00.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "技术沙龙探讨具身智能中数据规模如何转化为机器人能力。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:47:06.691Z"
+      }
+    },
+    {
+      "id": "2b04anmigne",
+      "key": "url:jiqizhixin.com/articles/2026-10-30-3",
+      "title": "大道至简！复旦×南洋理工提出SimpleVLN，用原生MLLM刷新导航SOTA",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-30-3",
+      "excerpt": "设想这样一个场景：给机器人下达一句自然语言指令，让它穿过走廊、接连转弯，最终走进指定房间。视觉语言导航（VLN），需要让机器人结合沿途看到的画面，把人类的语言指令转化为一连串连续行动。现有多数 VLN 方法会引入专门的空间推理模块、图结构建模或分层决策系统来增强导航能力，但多模态大模型本身自带...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T02:10:00.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "model",
+      "score": 24,
+      "ai": {
+        "summary": "复旦与南洋理工提出 SimpleVLN，用原生 MLLM 提升导航能力。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:47:06.691Z"
+      }
+    },
+    {
+      "id": "17ny926ylaj",
+      "key": "url:36kr.com/newsflashes/4047724532578565",
+      "title": "心言机器人发布具身家庭智能体“巴布”",
+      "url": "https://36kr.com/newsflashes/4047724532578565",
+      "excerpt": "36氪获悉，心言机器人正式发布具身家庭智能体“巴布（Bubbo 1）”，其基于心言自研的Bubbo OS，从“外部”视角构建起一套“Family Agent”，可识别家庭中的每位成员并关注成员之间的关系。巴布共搭载了13类、26个传感器；输出层面包含6个自由度和两块表情屏，能够理解复杂情感。此外，巴布还内置了基于摄像头的心率检测，具备非医疗级的提示作用，分析检测对象的心率变化，当前已同测测智能戒指达成合作，可实现设备间的数据共享，时刻感应用户的情绪变化。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T02:09:05.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "具身智能"
+      ],
+      "score": 22,
+      "ai": {
+        "summary": "心言机器人发布家庭智能体“巴布”，具备情感识别与心率检测功能。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:47:06.691Z"
+      }
+    },
+    {
+      "id": "1t6q6cddspi",
+      "key": "url:infoq.cn/article/u23wUVUDcFqL7hLBWXuW",
+      "title": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+      "url": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T02:04:10.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "腾讯AI Lab核心骨干叶德珩加入字节 Seed。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
+    },
+    {
+      "id": "11vjakz1vrx",
+      "key": "url:36kr.com/p/4046842478171782",
+      "title": "字节GenAI研发负责人投奔具身智能，三大核心四个月内全离职",
+      "url": "https://36kr.com/p/4046842478171782",
+      "excerpt": "字节商业化GenAI三核心离职，业务线已实质解散",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T02:02:30.935Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "字节GenAI研发负责人离职，三大核心团队解散，业务线实质解散。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
+    },
+    {
+      "id": "7lcl8t3rou",
+      "key": "url:36kr.com/newsflashes/4047700803434759",
+      "title": "英伟达将于下周完成对Naver的10亿美元投资，成为第三大股东",
+      "url": "https://36kr.com/newsflashes/4047700803434759",
+      "excerpt": "根据韩国门户网站巨头Naver周五提交的监管文件，英伟达计划于下周五完成对Naver总额10亿美元的投资。此举将使这家美国芯片巨头成为Naver的第三大股东。文件显示，此次增资是在Naver已落实至少90亿美元计算基础设施资金的背景下进行的。Naver将于下周二通过配股方式，确定英伟达将认购的普通股数量。此次投资是Naver与英伟达于7月份宣布建立战略合作伙伴关系的一部分，双方旨在共同打造一个大规模的全球人工智能（AI）工厂。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T01:58:59.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "英伟达将完成对Naver 10亿美元投资，成为其第三大股东。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
+    },
+    {
+      "id": "15rtvo0vcu9",
+      "key": "url:jiqizhixin.com/articles/2026-10-30-2",
+      "title": "即日起，ChatGPT Pro使用额度翻倍",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-30-2",
+      "excerpt": "OpenAI 终于做了件正确的事。北京时间 10 月 30 日凌晨，Tibo（Thibault Sottiaux）宣布了一个好消息，所有 Pro 和 Business Premium 用户的限额翻倍，立即生效。这是 OpenAI 「28 天持续改进」的一部分。昨天 OpenAI 还在给 Cha...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T01:56:00.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 26,
+      "related": [
+        {
+          "id": "j11ux8t8k1",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4047560652405000",
+          "title": "即日起，ChatGPT Pro使用额度翻倍",
+          "publishedAt": "2026-10-30T00:09:05.816Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-10-30T00:09:05.816Z"
+      },
+      "ai": {
+        "summary": "OpenAI 为 Pro 和 Business Premium 用户翻倍使用额度。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:47:06.691Z"
+      }
+    },
+    {
+      "id": "ds3hs5kuj2",
+      "key": "url:36kr.com/newsflashes/4047699249871111",
+      "title": "“Green Voltis”宣布完成数千万美元A轮融资",
+      "url": "https://36kr.com/newsflashes/4047699249871111",
+      "excerpt": "36氪获悉，总部位于瑞典的AI原生电力资产运营商Green Voltis近日宣布完成数千万美元A轮融资，由宁德时代支持设立的美元基金Lochpine Capital 独家投资。本轮融资资金将主要用于三个方面：继续加大Aether AI电力交易智能体与Chronos并网控制系统的研发投入、欧洲重点市场的业务拓展，以及AI基础设施领域的布局。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T01:54:25.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 26,
+      "related": [
+        {
+          "id": "2dvbulsmtj2",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/10/506281.html",
+          "title": "文远知行001号员工带队，景烁科技首轮融资数千万美元",
+          "publishedAt": "2026-10-29T03:27:50.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-10-29T03:27:50.000Z"
+      },
+      "ai": {
+        "summary": "AI 原生电力资产运营商 Green Voltis 获得数千万美元融资。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:47:06.691Z"
+      }
+    },
+    {
+      "id": "zpzgf28rxg",
+      "key": "url:jiqizhixin.com/articles/2026-10-30",
+      "title": "新国立x可灵AI提出DiffusionART：超高效稳定可扩展的Diffusion RL算法，让视频后训练提速10倍以上",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-30",
+      "excerpt": "来自新加坡国立大学、可灵 AI 和香港科技大学的研究团队提出了 DiffusionART，一种面向图像和视频生成的在线 Diffusion RL 算法。该方法支持采用 ODE 采样，不要求奖励模型可微，也无需额外调参，可自然适配标量奖励、二值偏好奖励等多种奖励形式，具有极高的样本效率。在 Hu...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T01:54:00.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "paper",
+      "keywords": [
+        "视频生成"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "新国立与可灵AI提出DiffusionART算法，大幅提升视频后训练效率。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
+    },
+    {
+      "id": "a6539ewu78",
+      "key": "url:theverge.com/tech/1022571/reddit-login-requirement-q3-2026-earnings",
+      "title": "Reddit will force everyone to log in",
+      "url": "https://www.theverge.com/tech/1022571/reddit-login-requirement-q3-2026-earnings",
+      "excerpt": "Recently, CEO Steve Huffman disclosed that Reddit will transition to a \"logged-in-only\" experience. This means that Reddit posts will no longer be searchable via internet browsers, significantly impacting local AIs that search the internet via tool calling. [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T01:45:51.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xj2pnp/reddit_will_force_everyone_to_log_in/",
+      "ai": {
+        "title": "Reddit 将强制用户登录，影响本地 AI 网络搜索",
+        "summary": "Reddit 转向仅登录体验，不再允许通过浏览器搜索，阻碍本地 AI 的网络搜索能力。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:46.884Z"
+      }
+    },
+    {
+      "id": "1zkwa9mfked",
+      "key": "url:infoq.cn/article/UNli8x0wc8XUNjI5ETya",
+      "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "url": "https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T01:23:00.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22,
+      "ai": {
+        "summary": "Chainguard 推出面向 AI 编码智能体的安全工作区与校验能力。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:47:06.691Z"
+      }
+    },
+    {
+      "id": "1dytds13sks",
+      "key": "url:techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work",
+      "title": "You don’t need to believe in a god to get a religious exemption from using AI at work",
+      "url": "https://techcrunch.com/2026/10/29/you-dont-need-to-believe-in-a-god-to-get-a-religious-exemption-from-using-ai-at-work/",
+      "excerpt": "David Durman, a University of Kentucky administrator, recently earned a religious exemption from using AI in the workplace.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T01:20:48.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "肯塔基大学管理员因宗教信仰获得在职场使用 AI 的豁免。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "xuxyvddedu",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xj1qzw/right_now_you_can_get_an_rtx_6000_pro_workstation",
+      "title": "Right now you can get an RTX 6000 Pro Workstation For 12k from Dell",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xj1qzw/right_now_you_can_get_an_rtx_6000_pro_workstation/",
+      "excerpt": "https://preview.redd.it/zyt9r7so6iyh1.png?width=603&format=png&auto=webp&s=a05c577256c365749f90e69bfa8436a67959c8b2 Not sure if this is allowed, but I just got some. Figured if anyone was like me and didn't want to pay an absurd price, this might be our only chance lol Figured m…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T01:00:36.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xj1qzw/right_now_you_can_get_an_rtx_6000_pro_workstation/",
+      "ai": {
+        "title": "Dell RTX 6000 Pro 工作站 12k 促销",
+        "summary": "Dell 提供 RTX 6000 Pro 工作站优惠，价格低至 12k，适合高性能计算需求。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:46.884Z"
+      }
+    },
+    {
+      "id": "1v25xmd7sqa",
+      "key": "url:36kr.com/p/4046972364421635",
+      "title": "龙虾尸骸，SaaS残梦，大厂焦虑：AI办公究竟是什么？",
+      "url": "https://36kr.com/p/4046972364421635",
+      "excerpt": "龙虾蜕下的壳，已经被大厂穿上了",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T00:29:14.964Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "AI办公软件被大厂焦虑裹挟，SaaS市场面临挑战。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
+    },
+    {
+      "id": "hrjw4ltmd4",
+      "key": "url:36kr.com/newsflashes/4047617340717318",
+      "title": "Kalshi最新一轮融资后估值升至400亿美元",
+      "url": "https://36kr.com/newsflashes/4047617340717318",
+      "excerpt": "Kalshi周四宣布，已完成10亿美元融资，本轮交易对这家事件合约交易所的估值定为400亿美元。 该公司上一轮融资在5月完成，当时估值为220亿美元。本轮由红杉资本与惠灵顿管理联合领投。Kalshi在融资公告博客中写道：预测市场仅仅是起点，公司目标是搭建一个综合性金融交易所。公司计划用新资金开发杠杆交易、个股永续期货，以及围绕AI算力这一可交易商品的相关合约市场。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T00:26:07.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "Kalshi完成10亿美元融资，估值升至400亿美元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
+    },
+    {
+      "id": "26rhtr0p774",
+      "key": "url:36kr.com/p/4046995399677829",
+      "title": "阿里AI双线战：阿里云守B端底仓，千问赌C端入口",
+      "url": "https://36kr.com/p/4046995399677829",
+      "excerpt": "阿里云MaaS近半份额，以B端利润养C端千问抢入口",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T00:25:26.179Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "阿里云稳居MaaS市场首位，千问争夺C端入口。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
+    },
+    {
+      "id": "2bxrhgvcht7",
+      "key": "url:36kr.com/p/4047012606671104",
+      "title": "AGI 时代，中产全都完蛋了",
+      "url": "https://36kr.com/p/4047012606671104",
+      "excerpt": "AI 让世界更富，可我的那一份呢？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T00:25:06.866Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "AGI时代中产面临失业焦虑，AI红利分配不均。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:48:44.870Z"
+      }
+    },
+    {
+      "id": "1k9zq9mqlyy",
+      "key": "url:36kr.com/p/4047595233098247",
+      "title": "刚刚，奥特曼自曝OpenAI新模型：让我兴奋到两晚没睡",
+      "url": "https://36kr.com/p/4047595233098247",
+      "excerpt": "什么内部新模型，让奥特曼如此上头",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T00:18:48.605Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "model",
+      "score": 24,
+      "ai": {
+        "summary": "奥特曼透露 OpenAI 新模型，并表示其令人兴奋。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:47:06.691Z"
+      }
+    },
+    {
+      "id": "j11ux8t8k1",
+      "key": "url:36kr.com/p/4047560652405000",
+      "title": "即日起，ChatGPT Pro使用额度翻倍",
+      "url": "https://36kr.com/p/4047560652405000",
+      "excerpt": "Plus用户没变化。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T00:09:05.816Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "15rtvo0vcu9"
+    },
+    {
+      "id": "lbkuf34qd6",
+      "key": "url:techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big",
+      "title": "AWS will be a $1T business, Jassy says. But first, it will spend big.",
+      "url": "https://techcrunch.com/2026/10/29/aws-will-be-a-1t-business-jassy-says-but-first-it-will-spend-big/",
+      "excerpt": "Amazon wants to be the king of AI cloud computing and become the first $1 trillion revenue business. But to do that it will have to continue on its capex spending spree, its CEO said Thursday.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T23:42:22.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AWS CEO 称 AWS 将成为首个营收千亿美元的业务，但需持续大额资本支出。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "c4cyzbgsqa",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible",
+      "title": "Sam Altman: “Local inference is a terrible allocation of scarce resources”",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/",
+      "excerpt": "Sam Altman: “Local inference is a terrible allocation of scarce resources. A lot of people want local inference, and somehow they assume that the problem is solved now because we have open-source models, we're going to be able to run them on our computers, and so we're not going…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T23:11:52.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Sam Altman 称本地推理是稀缺资源的糟糕分配方式。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "1vcozgxc9be",
+      "key": "url:simonwillison.net/2026/Oct/29/api-credits",
+      "title": "API credits benefit for eligible ChatGPT subscriptions",
+      "url": "https://simonwillison.net/2026/Oct/29/api-credits/",
+      "excerpt": "API credits benefit for eligible ChatGPT subscriptions Earlier this month Anthropic announced a generous new benefit for their Max and Team subscriptions: $100, $200, and $500 per month subscribers would get the equivalent quantity of (expiring) credits to use with the Anthropic…",
+      "lang": "en",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "sourceGroup": "blogger",
+      "publishedAt": "2026-10-29T22:48:29.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 14,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "符合条件的 ChatGPT 订阅用户将获得 API 信用额度。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "2uffs39itb",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xix61q/arguably_unethical_behavior_from_cohere",
+      "title": "Arguably unethical behavior from Cohere",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xix61q/arguably_unethical_behavior_from_cohere/",
+      "excerpt": "3 days ago, u/Cohere generated a huge amount of media attention and many fear-mongering headlines by publishing a largely unscientific blog post about an \"experiment\" where they used extensive pre-filling and prompt engineering to force Qwen 3.8 Flash Next to complete partial cU…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T21:43:11.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xix61q/arguably_unethical_behavior_from_cohere/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Cohere 发布未经科学验证的博客文章，引发对 Qwen 模型的争议。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "11nfcdh9caf",
+      "key": "url:labs.ycombinator.com/projects/games/index.html",
+      "title": "We ran AI agent swarms in Minecraft and Mindustry",
+      "url": "https://labs.ycombinator.com/projects/games/index.html",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T21:40:28.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 25.7,
+      "metrics": {
+        "points": 182,
+        "comments": 66
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50296486",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "在 Minecraft 和 Mindustry 中运行 AI 代理群。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "1is10138o7h",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xix35p/release_swift_15_flash_next_heretic_v2",
+      "title": "Release: Swift 1.5 Flash Next - Heretic v2 - ReverseEngineer",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xix35p/release_swift_15_flash_next_heretic_v2/",
+      "excerpt": "This model was made in collaboration with u/jeffpeng3 (on huggingface) who developed the v2 heretic weights for this quant. He managed to preserve both reasoning ability and output length. Great work, and a big step up from his v1 weights. I made the quantization recipe and the…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T21:40:04.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "opensource",
+      "score": 14,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xix35p/release_swift_15_flash_next_heretic_v2/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Swift 1.5 Flash Next - Heretic v2 模型发布，保留推理能力和输出长度。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "1h30rvil51c",
+      "key": "url:techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience",
+      "title": "As search traffic dries up, Reddit announces it’s shifting to a logged-in experience",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/",
+      "excerpt": "As AI transforms how people find information online, Reddit is rethinking its open-web roots to protect its audience and business.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T20:08:31.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 19,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Reddit 因 AI 转变信息获取方式，宣布转向登录体验。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "mab22yyibp",
+      "key": "url:techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant",
+      "title": "Rivian expands joint venture with VW to include AI assistant",
+      "url": "https://techcrunch.com/2026/10/29/rivian-expands-joint-venture-with-vw-to-include-ai-assistant/",
+      "excerpt": "Rivian doesn't disclose if the value of its $5.8 billion joint venture will expand as a result.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T20:05:47.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Rivian 扩大与大众汽车合资企业，增加 AI 助手功能。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "2ixage6v68",
+      "key": "url:the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up",
+      "title": "OpenAI doubles usage limits on Pro plans as competition with Anthropic heats up",
+      "url": "https://the-decoder.com/openai-doubles-usage-limits-on-pro-plans-as-competition-with-anthropic-heats-up/",
+      "excerpt": "OpenAI is doubling usage limits across its paid plans, from Pro 100 to Pro 500. A planned cut to the Pro 200 quota was reversed after user pushback. More efficient models like Terra and Sol should push usable capacity even higher. The move comes just ahead of Anthropic's IPO, as…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T20:01:27.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI 为付费计划增加使用额度，以应对 Anthropic 的竞争。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "1raurd5c02j",
+      "key": "url:techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt",
+      "title": "OpenAI-backed Thrive Holdings acquires ADT",
+      "url": "https://techcrunch.com/2026/10/29/openai-backed-thrive-holdings-acquires-adt/",
+      "excerpt": "OpenAI-backed Thrive Holdings is buying ADT in a $15.3 billion deal, with plans to bring AI to the home security business.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T19:56:19.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI 背景的 Thrive Holdings 以 153 亿美元收购 ADT，将 AI 引入家庭安防。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "1l88ksjxeug",
+      "key": "url:the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds",
+      "title": "Experts adopt AI agent's random opinions and think they're their own, Anthropic study finds",
+      "url": "https://the-decoder.com/experts-adopt-ai-agents-random-opinions-and-think-theyre-their-own-anthropic-study-finds/",
+      "excerpt": "Anthropic gave 50 experts an AI agent whose preferences were set by coin toss. The experts followed the agent's view up to 86 percent of the time on judgment calls, and most believed the conclusions were their own. The article Experts adopt AI agent's random opinions and think t…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T19:33:37.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "paper",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Anthropic 研究发现专家会采纳 AI 代理的随机观点并误认为是自己的。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "225x57ivpoh",
+      "key": "url:microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97",
+      "title": "Microsoft Research Focus – Edition #97",
+      "url": "https://www.microsoft.com/en-us/research/podcast/microsoft-research-focus-edition-97/",
+      "excerpt": "Host Sowbhagya Suresh shares some of the latest news and cutting-edge research from across Microsoft—from understanding the challenges facing coding agents to uncovering how people use AI at work and improving extended-range weather forecasting. The post Microsoft Research Focus…",
+      "lang": "en",
+      "sourceId": "microsoft-research",
+      "sourceName": "Microsoft Research",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-29T19:19:16.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 30,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "微软研究聚焦第 97 期，涵盖编码代理挑战、AI 工作使用及天气预测。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "1yd84u07qnq",
+      "key": "url:techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch",
+      "title": "Meta quietly launches an AI fashion app called Style Sketch",
+      "url": "https://techcrunch.com/2026/10/29/meta-quietly-launches-an-ai-fashion-app-called-style-sketch/",
+      "excerpt": "The app connects to Instagram to build a virtual closet from photos you’ve already shared, or lets you add items manually by snapping a photo, recording a quick video, or uploading images from your camera roll.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T19:14:36.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 19,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Meta 推出 AI 时尚应用 Style Sketch，连接 Instagram 建立虚拟衣橱。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "lwjd37nx6s",
+      "key": "url:theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "title": "You can generate and edit Google Docs files directly in Gemini chats now",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1022519/google-gemini-file-editing-documents-pdfs",
+      "excerpt": "Now you can generate, preview, and edit PDFs, Google Docs, Google Sheets, slide decks, Markdown files, TXT files, and code directly within Google Gemini. The new file editing capabilities are available starting today for all Gemini users, and while PDF previews/editing works on…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T18:45:31.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "multimodal",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Gemini 现可直接生成和编辑 Google Docs 等多种文件。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "2e02x0x9dnt",
+      "key": "url:techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr",
+      "title": "Granola crunches up a dictation feature to compete with Wispr",
+      "url": "https://techcrunch.com/2026/10/29/granola-crunches-up-a-dictation-feature-to-compete-with-wispr/",
+      "excerpt": "Uno reverse! After Wispr added meeting notes to its dictation app, Granola is adding dictation to its meeting notetaker. The voice AI wars are getting interesting.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-29T17:54:38.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "agent",
+      "keywords": [
+        "语音"
+      ],
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Granola 添加语音转写功能，与 Wispr 展开语音 AI 竞争。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "5nfqo9gu5f",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xiqw9i/why_you_cant_trust_cloud_api_endpoints_40_days_of",
+      "title": "Why you can't trust cloud API endpoints: 40 days of coding-agent telemetry showing the exact day providers silently overwrote deepseek-v4.1-flash with -1017 (\"faster execution, shorter answers\" = 3x more swearing and 6.7x more model switches)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xiqw9i/why_you_cant_trust_cloud_api_endpoints_40_days_of/",
+      "excerpt": "Around mid-October deepseek-v4.1-flash suddenly started feeling much dumber in my coding agent, so I parsed my local session logs to see when it broke. Before the update it had a funny quirk where it would randomly reply in Chinese while being 100% convinced it was speaking Engl…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T17:46:05.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xiqw9i/why_you_cant_trust_cloud_api_endpoints_40_days_of/",
+      "ai": {
+        "title": "云 API 端点不可信：40 天编码代理遥测显示 deepseek-v4.1-…",
+        "summary": "用户发现云 API 模型被静默覆盖，导致性能下降，引发对云服务可靠性的担忧。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:46.884Z"
+      }
+    },
+    {
       "id": "w83qwk4qib",
       "key": "gh:milind-soni/openmausbot",
       "title": "milind-soni/OpenMausBot",
@@ -18,8 +929,8 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 7268,
-        "starsToday": 1190
+        "stars": 7560,
+        "starsToday": 1199
       },
       "ai": {
         "title": "OpenMausBot：开源 Grok Bot 替代方案",
@@ -50,7 +961,7 @@
       ],
       "score": 24.9,
       "metrics": {
-        "stars": 104468,
+        "stars": 104885,
         "starsToday": 459
       },
       "ai": {
@@ -80,10 +991,10 @@
         "Agent",
         "A2UI"
       ],
-      "score": 20.6,
+      "score": 20.8,
       "metrics": {
-        "stars": 7955,
-        "starsToday": 240
+        "stars": 8210,
+        "starsToday": 247
       },
       "dupOf": "1zg0212pemm"
     },
@@ -108,7 +1019,7 @@
       ],
       "score": 26,
       "metrics": {
-        "stars": 28898,
+        "stars": 29328,
         "starsToday": 538
       },
       "ai": {
@@ -117,6 +1028,33 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T17:29:59.731Z"
+      }
+    },
+    {
+      "id": "ckd6j88yv5",
+      "key": "url:fig.blue/posts/duet-is-the-future",
+      "title": "Claude Duet is the first personal-assistant-type harness that feels useful",
+      "url": "https://fig.blue/posts/duet-is-the-future/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T17:24:25.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "agent",
+      "score": 23.2,
+      "metrics": {
+        "points": 110,
+        "comments": 97
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50292727",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Claude Duet 是首个感觉有用的个人助手型工具。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
       }
     },
     {
@@ -143,6 +1081,56 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T17:29:59.731Z"
+      }
+    },
+    {
+      "id": "p3ykstsxnr",
+      "key": "url:openai.com/index/updated-model-spec",
+      "title": "An updated Model Spec for more capable and beneficial AI",
+      "url": "https://openai.com/index/updated-model-spec",
+      "excerpt": "OpenAI’s updated Model Spec outlines five core values to guide more capable AI toward sound judgment, human agency, and faithfulness to human intent.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-29T17:00:00.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "model",
+      "score": 36,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI 更新了模型规范，强调五个核心价值以引导更强大的 AI。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
+      }
+    },
+    {
+      "id": "11iptrjf89v",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xiplj7/kokoro_can_now_clone_any_voice_with_just_600_mb",
+      "title": "Kokoro can now clone any voice with just ~600 MB of extra VRAM!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xiplj7/kokoro_can_now_clone_any_voice_with_just_600_mb/",
+      "excerpt": "While looking for audio models, I came across OpenVoice. It's getting pretty old, but surprisingly still ranks high on TTS leaderboards. What caught my attention was its design: essentially TTS + voice conversion. The ToneColorConverter can run independently of the TTS model. Th…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T16:59:08.000Z",
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "multimodal",
+      "keywords": [
+        "语音"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xiplj7/kokoro_can_now_clone_any_voice_with_just_600_mb/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Kokoro 现在只需约 600 MB 额外显存即可克隆任何声音。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
       }
     },
     {
@@ -255,6 +1243,34 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T17:29:59.731Z"
+      }
+    },
+    {
+      "id": "1w1odibwtuw",
+      "key": "url:developers.googleblog.com/build-generative-ui-apps-with-a2ui-copilotkit-agents",
+      "title": "Build Generative UI Apps with A2UI & CopilotKit Agents",
+      "url": "https://developers.googleblog.com/build-generative-ui-apps-with-a2ui-copilotkit-agents/",
+      "excerpt": "See Google A2Ui in action! Learn how to natively render agentic UIs across Langchain, AWS Strands, Microsoft agents, and Google ADK using CopilotKit SDKs for A2UI.",
+      "lang": "en",
+      "sourceId": "google-dev",
+      "sourceName": "Google 开发者博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-29T16:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-10-30T02:45:24.843Z",
+      "day": "2026-10-30",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "A2UI"
+      ],
+      "score": 30,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Google 推出 A2UI 与 CopilotKit Agents，帮助在多平台原生渲染智能体 UI。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T02:46:05.738Z"
       }
     }
   ]
