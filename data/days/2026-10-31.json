@@ -1,0 +1,83 @@
+{
+  "day": "2026-10-31",
+  "items": [
+    {
+      "id": "282knkqz9ki",
+      "key": "gh:lightpanda-io/browser",
+      "title": "lightpanda-io/browser",
+      "url": "https://github.com/lightpanda-io/browser",
+      "excerpt": "Lightpanda: the headless browser designed for AI and automation",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T17:05:43.001Z",
+      "firstSeenAt": "2026-10-30T17:05:35.764Z",
+      "day": "2026-10-31",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 26.3,
+      "metrics": {
+        "stars": 38075,
+        "starsToday": 559
+      },
+      "ai": {
+        "title": "Lightpanda：专为 AI 和自动化设计的无头浏览器",
+        "summary": "GitHub 热门项目 Lightpanda 是一款面向 AI 的无头浏览器。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T17:07:25.839Z"
+      }
+    },
+    {
+      "id": "1yoad3umjm",
+      "key": "url:techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people",
+      "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+      "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+      "excerpt": "The cautionary Theranos tale takes on a new significance in the AI era, when companies that have never turned a profit are raising capital at trillion-dollar valuations.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T16:03:45.000Z",
+      "firstSeenAt": "2026-10-30T17:05:35.764Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Theranos 吹哨人警告 AI 繁荣是欺骗良机",
+        "summary": "Theranos 吹哨人警告，AI 繁荣期可能成为欺骗公众的良机。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T17:07:25.839Z"
+      }
+    },
+    {
+      "id": "bnjf8cj8jl",
+      "key": "url:developers.googleblog.com/devfest-is-back",
+      "title": "DevFest is back!",
+      "url": "https://developers.googleblog.com/devfest-is-back/",
+      "excerpt": "DevFest 2026 runs from October 1 to December 31, bringing together nearly a million developers across more than 800 global events centered on the agentic AI era. Under the theme \"Build, Secure, Scale,\" participants gain hands-on experience with Google’s developer stack—including…",
+      "lang": "en",
+      "sourceId": "google-dev",
+      "sourceName": "Google 开发者博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-30T16:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-10-30T17:05:35.764Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "DevFest 2026 重启，聚焦 Agentic AI 时代",
+        "summary": "Google DevFest 2026 重启，主题为 Build, Secure, Scale。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T17:07:25.839Z"
+      }
+    }
+  ]
+}

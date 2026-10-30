@@ -2,6 +2,27 @@
   "day": "2026-10-29",
   "items": [
     {
+      "id": "xb21tvpgkl",
+      "key": "gh:heydamir/unslop",
+      "title": "heydamir/unslop",
+      "url": "https://github.com/heydamir/unslop",
+      "excerpt": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T15:41:21.000Z",
+      "firstSeenAt": "2026-10-30T17:05:35.764Z",
+      "day": "2026-10-29",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 18.1,
+      "metrics": {
+        "stars": 616
+      },
+      "aiAttempts": 1
+    },
+    {
       "id": "2elyk0v3w0q",
       "key": "url:the-decoder.com/paris-based-mistral-releases-le-chonk-a-strong-coding-model-that-still-trails-china-overall",
       "title": "Paris-based Mistral releases \"Le Chonk,\" a strong coding model that still trails China overall",
@@ -31,18 +52,19 @@
       "firstSeenAt": "2026-10-30T02:45:24.843Z",
       "day": "2026-10-29",
       "category": "paper",
-      "score": 24.3,
+      "score": 25.4,
       "metrics": {
-        "points": 148,
-        "comments": 63
+        "points": 173,
+        "comments": 69
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50290283",
       "aiAttempts": 1,
       "ai": {
-        "summary": "探讨 AI 引用的数据来源及其可靠性。",
+        "title": "AI 引用的僵尸数据来源分析",
+        "summary": "探讨 AI 引用数据的真实来源与可靠性问题。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-10-30T02:46:46.884Z"
+        "at": "2026-10-30T17:09:47.291Z"
       }
     },
     {
@@ -61,13 +83,13 @@
       "keywords": [
         "语音"
       ],
-      "score": 32.7,
+      "score": 35.7,
       "metrics": {
-        "points": 362,
-        "comments": 183
+        "points": 569,
+        "comments": 305
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50290177",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "关于 LLM 语音功能的讨论。",
         "category": "agent",
@@ -149,6 +171,36 @@
       }
     },
     {
+      "id": "yqgtoprz0y",
+      "key": "gh:wangzan101/mika",
+      "title": "wangzan101/Mika",
+      "url": "https://github.com/wangzan101/Mika",
+      "excerpt": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T14:34:07.000Z",
+      "firstSeenAt": "2026-10-30T17:05:35.764Z",
+      "day": "2026-10-29",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 19.8,
+      "metrics": {
+        "stars": 866
+      },
+      "ai": {
+        "title": "Mika：手机上的私人 AI 助理",
+        "summary": "Mika 是一款在设备上运行的 Android AI 代理，可操作应用和网页。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T17:09:47.291Z"
+      }
+    },
+    {
       "id": "gydzom0rv7",
       "key": "url:404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning",
       "title": "Manifestos, Fear, and 'Loser Thinking': Inside Proton's AI Reckoning",
@@ -161,18 +213,19 @@
       "firstSeenAt": "2026-10-30T02:45:24.843Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 23.7,
+      "score": 26.4,
       "metrics": {
-        "points": 142,
-        "comments": 51
+        "points": 200,
+        "comments": 67
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50289692",
       "aiAttempts": 1,
       "ai": {
-        "summary": "Proton 公司在 AI 领域面临的挑战与反思。",
+        "title": "Proton 的 AI 转折：宣言、恐惧与“失败者思维”",
+        "summary": "Proton 内部讨论 AI 战略，反思恐惧与失败心态。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-10-30T02:46:46.884Z"
+        "at": "2026-10-30T17:09:47.291Z"
       }
     },
     {
@@ -324,7 +377,8 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T17:29:59.731Z"
-      }
+      },
+      "dupOf": "27ebx3v4tm5"
     },
     {
       "id": "1jn7etvnlzr",
@@ -348,6 +402,37 @@
         "model": "glm-4.7-flash",
         "at": "2026-10-29T17:30:12.395Z"
       }
+    },
+    {
+      "id": "1dyb1cipg5z",
+      "key": "url:martinfowler.com/rachels-ramblings/good-devs-wary.html",
+      "title": "Why are good developers so wary of agentic development?",
+      "url": "https://martinfowler.com/rachels-ramblings/good-devs-wary.html",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T13:58:41.000Z",
+      "firstSeenAt": "2026-10-30T17:05:35.764Z",
+      "day": "2026-10-29",
+      "category": "paper",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 23.4,
+      "metrics": {
+        "points": 101,
+        "comments": 138
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50289162",
+      "ai": {
+        "title": "为何开发者对代理开发持谨慎态度",
+        "summary": "分析开发者对代理式开发模式存在的担忧。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T17:09:47.291Z"
+      },
+      "dupOf": "1i9xi46v5xl"
     },
     {
       "id": "1ep98cfqzq0",
@@ -542,10 +627,10 @@
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
       "category": "model",
-      "score": 38.6,
+      "score": 38.8,
       "metrics": {
-        "points": 328,
-        "comments": 240
+        "points": 336,
+        "comments": 245
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50288019",
       "dupOf": "28rb304yi2a"
@@ -697,10 +782,10 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 71.9,
+      "score": 72,
       "metrics": {
-        "points": 1229,
-        "comments": 343
+        "points": 1649,
+        "comments": 426
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50289418",
       "alsoOn": [
@@ -753,7 +838,29 @@
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 39.4,
+      "related": [
+        {
+          "id": "1dyb1cipg5z",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50289162",
+          "title": "为何开发者对代理开发持谨慎态度",
+          "publishedAt": "2026-10-29T13:58:41.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-10-29T11:33:47.000Z",
+        "metrics": {
+          "points": 101,
+          "comments": 138
+        }
+      }
     },
     {
       "id": "19vl4zhrw8h",
@@ -784,10 +891,10 @@
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
       "category": "paper",
-      "score": 24,
+      "score": 24.1,
       "metrics": {
-        "points": 124,
-        "comments": 102
+        "points": 126,
+        "comments": 104
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50287359",
       "ai": {
@@ -1819,6 +1926,33 @@
       "score": 18
     },
     {
+      "id": "j3sfivff56",
+      "key": "gh:paipiange/nvzhuang",
+      "title": "paipiange/nvzhuang",
+      "url": "https://github.com/paipiange/nvzhuang",
+      "excerpt": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T06:08:00.000Z",
+      "firstSeenAt": "2026-10-30T17:05:35.764Z",
+      "day": "2026-10-29",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 20.9,
+      "metrics": {
+        "stars": 1066
+      },
+      "ai": {
+        "title": "nvzhuang：AI 女装参考图集与虚拟试穿网站",
+        "summary": "支持中英检索的 AI 女装图集，集成多种 AI 模型接口。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T17:09:47.291Z"
+      }
+    },
+    {
       "id": "63s1h8pe8",
       "key": "url:36kr.com/newsflashes/4046552537797504",
       "title": "亚马逊加码智能家居",
@@ -2177,10 +2311,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 34.9,
+      "score": 35,
       "metrics": {
-        "points": 562,
-        "comments": 226
+        "points": 573,
+        "comments": 233
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50284255",
       "ai": {
@@ -2263,8 +2397,8 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 308651,
-        "starsToday": 1095
+        "stars": 309253,
+        "starsToday": 1255
       },
       "ai": {
         "title": "obra/superpowers：代理技能框架与开发方法论",
@@ -2294,7 +2428,7 @@
       ],
       "score": 16.7,
       "metrics": {
-        "stars": 5617,
+        "stars": 5768,
         "starsToday": 117
       },
       "ai": {
@@ -2357,7 +2491,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 95535,
+        "stars": 96715,
         "starsToday": 2881
       },
       "ai": {
@@ -2447,7 +2581,7 @@
         ],
         "firstPublishedAt": "2026-10-29T03:24:01.011Z",
         "metrics": {
-          "stars": 8210,
+          "stars": 8597,
           "starsToday": 1054
         }
       }
@@ -2470,10 +2604,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 15.6,
+      "score": 20.4,
       "metrics": {
-        "stars": 3728,
-        "starsToday": 90
+        "stars": 3829,
+        "starsToday": 233
       },
       "ai": {
         "title": "expo/skills：Expo 项目 AI 代理技能集合",
@@ -3159,9 +3293,9 @@
       "day": "2026-10-29",
       "category": "paper",
       "categoryLocked": true,
-      "score": 28.6,
+      "score": 29.3,
       "metrics": {
-        "upvotes": 150,
+        "upvotes": 163,
         "comments": 2
       },
       "ai": {
@@ -3260,6 +3394,61 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T17:29:59.731Z"
+      }
+    },
+    {
+      "id": "e7e32zilzb",
+      "key": "url:openai.com/index/credit-saison",
+      "title": "Credit Saison achieves 954% ROI in a ChatGPT Enterprise pilot",
+      "url": "https://openai.com/index/credit-saison",
+      "excerpt": "Credit Saison’s ChatGPT Enterprise pilot delivered 954% ROI. See how leaders and employees helped turn the results into companywide adoption.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-10-30T17:05:35.764Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 30,
+      "ai": {
+        "title": "Credit Saison 在 ChatGPT Enterprise 试点中实…",
+        "summary": "Credit Saison 通过 ChatGPT Enterprise 实现了极高的投资回报率。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T17:09:47.291Z"
+      }
+    },
+    {
+      "id": "2g7gwi3dqha",
+      "key": "arxiv:2610.35684",
+      "title": "OmniShowcase: Omnidirectional Subject-Consistent Video Generation from Multi-View Images",
+      "url": "https://huggingface.co/papers/2610.35684",
+      "excerpt": "OmniShowcase improves subject-to-video generation by using geometry-driven training data and surface-normal conditioning to maintain 3D consistency across novel viewpoints.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "firstSeenAt": "2026-10-30T17:05:35.764Z",
+      "day": "2026-10-29",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "视频生成"
+      ],
+      "score": 22,
+      "metrics": {
+        "upvotes": 59,
+        "comments": 2
+      },
+      "ai": {
+        "title": "OmniShowcase：多视角图像生成一致视频",
+        "summary": "OmniShowcase 利用几何驱动训练数据生成视角一致的视频。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T17:09:47.291Z"
       }
     },
     {
@@ -3557,9 +3746,9 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 25.3,
+      "score": 25.5,
       "metrics": {
-        "points": 165,
+        "points": 169,
         "comments": 76
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50280178",

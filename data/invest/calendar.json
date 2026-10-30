@@ -1,24 +1,6 @@
 {
-  "updatedAt": "2026-10-30T02:45:24.843Z",
+  "updatedAt": "2026-10-30T17:05:35.764Z",
   "events": [
-    {
-      "id": "wscn-15583",
-      "at": "2026-10-30T03:30:00.000Z",
-      "country": "日本",
-      "title": "日本央行公布利率决议",
-      "importance": 4,
-      "kind": "event",
-      "source": "华尔街见闻"
-    },
-    {
-      "id": "wscn-15574",
-      "at": "2026-10-30T06:30:00.000Z",
-      "country": "日本",
-      "title": "日本央行行长植田和男召开货币政策新闻发布会",
-      "importance": 4,
-      "kind": "event",
-      "source": "华尔街见闻"
-    },
     {
       "id": "wscn-1596605",
       "at": "2026-10-31T01:30:00.000Z",
@@ -77,6 +59,18 @@
       "importance": 4,
       "kind": "event",
       "source": "华尔街见闻"
+    },
+    {
+      "id": "wscn-1596975",
+      "at": "2026-11-03T03:30:00.000Z",
+      "country": "澳大利亚",
+      "title": "政策利率",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "4.6",
+      "forecast": "4.85",
+      "unit": "%"
     },
     {
       "id": "wscn-1597442",

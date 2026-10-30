@@ -71,5 +71,47 @@
         ]
       }
     ]
+  },
+  "2026-10-31": {
+    "day": "2026-10-31",
+    "generatedAt": "2026-10-30T17:10:42.236Z",
+    "itemCount": 135,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "Anthropic Claude Code 扩展被植后门，OpenAI Pro额度翻倍，百度搜索实现递归进化。",
+    "points": [
+      {
+        "text": "Anthropic Claude Code 扩展被植持久 SSH 后门。",
+        "refs": [
+          "1ymrj42u6ci",
+          "5ej0wjlsrk"
+        ]
+      },
+      {
+        "text": "OpenAI 将 Pro 计划使用限额翻倍至 500。",
+        "refs": [
+          "15rtvo0vcu9",
+          "2ixage6v68"
+        ]
+      },
+      {
+        "text": "百度 APP 搜索实现递归自我进化，API 价格低于 DeepSeek。",
+        "refs": [
+          "joup5pr4ds"
+        ]
+      },
+      {
+        "text": "英伟达开源基于 MiniMax H3 的 4K 视频增强方案。",
+        "refs": [
+          "1egv1bh2tq8"
+        ]
+      },
+      {
+        "text": "Google DevFest 2026 重启，聚焦 Agentic AI 时代。",
+        "refs": [
+          "bnjf8cj8jl"
+        ]
+      }
+    ]
   }
 }

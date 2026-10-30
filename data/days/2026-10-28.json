@@ -61,10 +61,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 29.9,
+      "score": 30.1,
       "metrics": {
-        "points": 254,
-        "comments": 172
+        "points": 260,
+        "comments": 174
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50275626",
       "aiAttempts": 1,
@@ -208,10 +208,10 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "model",
-      "score": 72.2,
+      "score": 72.4,
       "metrics": {
-        "points": 130,
-        "comments": 24
+        "points": 133,
+        "comments": 25
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50275128",
       "alsoOn": [
@@ -255,8 +255,8 @@
         ],
         "firstPublishedAt": "2026-10-28T14:58:17.000Z",
         "metrics": {
-          "points": 130,
-          "comments": 24
+          "points": 133,
+          "comments": 25
         }
       },
       "aiAttempts": 1
@@ -393,7 +393,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "dupOf": "1g36whrmm3g"
     },
     {
       "id": "3wq2fkv29y",
@@ -462,8 +463,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 482,
-        "comments": 520
+        "points": 490,
+        "comments": 539
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50273396",
       "ai": {
@@ -1710,7 +1711,7 @@
       ],
       "score": 30.2,
       "metrics": {
-        "upvotes": 380,
+        "upvotes": 382,
         "comments": 4
       },
       "ai": {
@@ -1801,9 +1802,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 28.5,
+      "score": 28.6,
       "metrics": {
-        "upvotes": 148,
+        "upvotes": 150,
         "comments": 2
       },
       "aiAttempts": 2,
@@ -1865,9 +1866,9 @@
         "Agent",
         "RAG"
       ],
-      "score": 28.9,
+      "score": 29.1,
       "metrics": {
-        "upvotes": 152,
+        "upvotes": 157,
         "comments": 5
       },
       "aiAttempts": 2,
@@ -1896,9 +1897,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25.1,
+      "score": 25.2,
       "metrics": {
-        "upvotes": 90,
+        "upvotes": 91,
         "comments": 7
       },
       "aiAttempts": 2,
@@ -1924,9 +1925,9 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 27.6,
+      "score": 27.7,
       "metrics": {
-        "upvotes": 130,
+        "upvotes": 132,
         "comments": 3
       },
       "aiAttempts": 2,
@@ -1982,7 +1983,7 @@
       "categoryLocked": true,
       "score": 30.1,
       "metrics": {
-        "upvotes": 414,
+        "upvotes": 418,
         "comments": 2
       },
       "ai": {
@@ -2037,9 +2038,9 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.4,
+      "score": 21.6,
       "metrics": {
-        "upvotes": 54,
+        "upvotes": 55,
         "comments": 2
       },
       "aiAttempts": 2,
@@ -2065,9 +2066,9 @@
       "day": "2026-10-28",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.1,
+      "score": 21.3,
       "metrics": {
-        "upvotes": 51,
+        "upvotes": 53,
         "comments": 2
       },
       "aiAttempts": 1,
@@ -2219,7 +2220,7 @@
       "score": 33.5,
       "metrics": {
         "points": 328,
-        "comments": 343
+        "comments": 347
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50265609",
       "ai": {
@@ -2267,10 +2268,10 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "opensource",
-      "score": 51.8,
+      "score": 52.6,
       "metrics": {
-        "points": 538,
-        "comments": 202
+        "points": 539,
+        "comments": 203
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50264853",
       "ai": {
@@ -2298,9 +2299,9 @@
         ],
         "firstPublishedAt": "2026-10-24T19:12:41.000Z",
         "metrics": {
-          "points": 538,
-          "comments": 202,
-          "stars": 770
+          "points": 539,
+          "comments": 203,
+          "stars": 895
         }
       }
     },
@@ -2437,7 +2438,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "opensource",
-      "score": 50.8,
+      "score": 51.3,
       "ai": {
         "title": "使用 LFM3 构建专用多模态模型",
         "summary": "介绍如何利用 LFM3 构建特定领域的多模态模型。",
@@ -2463,7 +2464,7 @@
         ],
         "firstPublishedAt": "2026-10-23T21:35:42.000Z",
         "metrics": {
-          "likes": 487
+          "likes": 536
         }
       }
     },
