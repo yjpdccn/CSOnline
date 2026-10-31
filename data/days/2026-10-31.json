@@ -15,7 +15,8 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "pgmqaov5i4",
@@ -31,7 +32,13 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "OpenAI下调融资目标，估值达1.25万亿美元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "1whjzvuukom",
@@ -64,7 +71,13 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "苹果股价反弹，市值反超英伟达重回全球第一。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "2elsovzymws",
@@ -80,7 +93,14 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Nvidia 考虑为 Nscale 数据中心提供担保",
+        "summary": "Nvidia 考虑为 Nscale 数据中心提供担保，缓解投资者担忧。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "1erwif2jluy",
@@ -95,8 +115,14 @@
       "publishedAt": "2026-10-31T01:15:58.004Z",
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
-      "category": "industry",
-      "score": 18
+      "category": "model",
+      "score": 24,
+      "ai": {
+        "summary": "Claude套餐升级，Max 20x升级为Ultra并取消5小时限额。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "184ho55gzi9",
@@ -113,7 +139,8 @@
       "day": "2026-10-31",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjwtrv/fable_5gguf_when/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjwtrv/fable_5gguf_when/",
+      "aiAttempts": 1
     },
     {
       "id": "29v1xp9uljy",
@@ -129,7 +156,13 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "国行Apple智能接入阿里千问，11月开放测试。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "iiezgv1htm",
@@ -144,8 +177,14 @@
       "dateOnly": true,
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
-      "category": "agent",
-      "score": 18
+      "category": "opensource",
+      "score": 18,
+      "ai": {
+        "summary": "Lambda直接运行Express，探讨API Gateway的必要性。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "15zw0wzivo0",
@@ -160,8 +199,15 @@
       "publishedAt": "2026-10-30T22:56:13.000Z",
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
-      "category": "agent",
-      "score": 15
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "隐私导向 AI 助手 Ollie 将关闭",
+        "summary": "隐私导向 AI 助手 Ollie 将关闭，因市场竞争加剧。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "29dlqbs1y0d",
@@ -195,7 +241,8 @@
           "36kr-flash"
         ],
         "firstPublishedAt": "2026-10-30T22:52:00.000Z"
-      }
+      },
+      "aiAttempts": 1
     },
     {
       "id": "13hche88v6k",
@@ -211,7 +258,14 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Apple Intelligence 将登陆中国",
+        "summary": "Apple Intelligence 将通过 iOS 27.3 登陆中国。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "1aezs8qutpb",
@@ -227,7 +281,8 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 22
+      "score": 22,
+      "aiAttempts": 1
     },
     {
       "id": "1ywxpxfmu5n",
@@ -243,7 +298,14 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Intel 股价暴跌，政府持股缩水 120 亿美元",
+        "summary": "Intel 股价暴跌，政府持股缩水 120 亿美元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "dj1817na0k",
@@ -278,9 +340,16 @@
         ],
         "firstPublishedAt": "2026-10-30T17:27:25.000Z",
         "metrics": {
-          "points": 285,
-          "comments": 232
+          "points": 286,
+          "comments": 233
         }
+      },
+      "ai": {
+        "title": "Anthropic IPO 后或获高垃圾评级",
+        "summary": "Anthropic IPO 后可能获高垃圾评级，融资难度和成本增加。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
       }
     },
     {
@@ -296,11 +365,18 @@
       "publishedAt": "2026-10-30T21:26:59.000Z",
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "科技极客的万圣节服装灵感",
+        "summary": "提供科技极客的万圣节服装灵感。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "p166pcmsuo",
@@ -316,7 +392,14 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "AI 支出繁荣出现裂痕",
+        "summary": "AI 支出繁荣出现裂痕，投资者质疑可持续性。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "25psqqobvgt",
@@ -333,7 +416,8 @@
       "day": "2026-10-31",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjrery/amd_reportedly_plans_another_radeon_gpu_price/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjrery/amd_reportedly_plans_another_radeon_gpu_price/",
+      "aiAttempts": 1
     },
     {
       "id": "22961rlhrr",
@@ -366,7 +450,14 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "AI 巨头支持新的反抓取退出标准",
+        "summary": "OpenAI、Google、Microsoft 和 Anthropic 支持新的反抓取退出标准。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "mlnsyy3h0y",
@@ -383,7 +474,14 @@
       "day": "2026-10-31",
       "category": "model",
       "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjpfvi/qwen27b_vs_gpt_6/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjpfvi/qwen27b_vs_gpt_6/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Qwen27b 与 GPT 6 的对比讨论。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "20jnsza1r37",
@@ -403,7 +501,8 @@
         "本地部署"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjpbcg/vllm_now_has_ple_disk_offload_support_on_nightly/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjpbcg/vllm_now_has_ple_disk_offload_support_on_nightly/",
+      "aiAttempts": 1
     },
     {
       "id": "il2vwoejk0",
@@ -422,7 +521,14 @@
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Claude 模型自主完成小鼠脑部手术",
+        "summary": "Claude 模型自主选择基因疗法并完成小鼠脑部手术。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "bzbdzdg61i",
@@ -439,7 +545,8 @@
       "day": "2026-10-31",
       "category": "multimodal",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjn911/so_uhwhere_are_we_on_uncensored_nsfw_audio_models/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjn911/so_uhwhere_are_we_on_uncensored_nsfw_audio_models/",
+      "aiAttempts": 1
     },
     {
       "id": "2cnykx68nk4",
@@ -454,8 +561,15 @@
       "publishedAt": "2026-10-30T18:21:38.000Z",
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
-      "category": "industry",
-      "score": 15
+      "category": "multimodal",
+      "score": 15,
+      "ai": {
+        "title": "Google 卫星 AI 服务器首次向地球发送响应",
+        "summary": "Google 卫星 AI 服务器首次向地球发送响应。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "1v888p6obl6",
@@ -501,9 +615,16 @@
         ],
         "firstPublishedAt": "2026-10-30T07:09:12.000Z",
         "metrics": {
-          "points": 789,
-          "comments": 493
+          "points": 790,
+          "comments": 494
         }
+      },
+      "ai": {
+        "title": "Cursor 市场出现恶意 Claude Code 扩展",
+        "summary": "Cursor 市场出现恶意 Claude Code 扩展，窃取用户数据并尝试远程访问。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
       }
     },
     {
@@ -518,8 +639,15 @@
       "publishedAt": "2026-10-30T17:57:24.000Z",
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
-      "category": "model",
-      "score": 36
+      "category": "opensource",
+      "score": 30,
+      "ai": {
+        "title": "Hugging Face 发布 nemotron-halloween",
+        "summary": "Hugging Face 发布名为 nemotron-halloween 的项目。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "1fkc1ep6loq",
@@ -538,7 +666,14 @@
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Zest AI 代理通过文本预订餐厅",
+        "summary": "Zest AI 代理通过文本预订餐厅，解决用餐选择问题。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "1jstwqnry20",
@@ -553,8 +688,15 @@
       "publishedAt": "2026-10-30T17:44:59.000Z",
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
-      "category": "industry",
-      "score": 15
+      "category": "model",
+      "score": 21,
+      "ai": {
+        "title": "OpenAI 更新模型行为准则",
+        "summary": "OpenAI 更新模型行为准则，强调忠实性和可更正性。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "xlhfafk014",
@@ -570,7 +712,14 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "星巴克计划在 drive-thru 展示个性化菜单",
+        "summary": "星巴克计划在 drive-thru 展示个性化数字菜单。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "204ajf00qj7",
@@ -590,7 +739,8 @@
         "开源模型"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjltn3/do_you_have_any_opinions_that_generally_go/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjltn3/do_you_have_any_opinions_that_generally_go/",
+      "aiAttempts": 1
     },
     {
       "id": "19c4e97e0g0",
@@ -607,8 +757,8 @@
       "category": "industry",
       "score": 31.5,
       "metrics": {
-        "points": 285,
-        "comments": 232
+        "points": 286,
+        "comments": 233
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50307219",
       "dupOf": "dj1817na0k"
@@ -626,12 +776,19 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 30.7,
+      "score": 30.8,
       "metrics": {
         "points": 263,
-        "comments": 220
+        "comments": 221
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50307183"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50307183",
+      "ai": {
+        "title": "Proton CEO 取消 AI 重新面试",
+        "summary": "Proton CEO 取消 AI 重新面试，引发关注。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "qxac1cyeax",
@@ -651,7 +808,8 @@
         "本地部署"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjlgm4/psa_upgrade_flash_next_to_dflash2_if_you_havent/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjlgm4/psa_upgrade_flash_next_to_dflash2_if_you_havent/",
+      "aiAttempts": 1
     },
     {
       "id": "1kvzm68rmp2",
@@ -667,7 +825,14 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Google AI Mode 未带来流量",
+        "summary": "Google AI Mode 未带来流量，Reddit CEO 警告全网。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "282knkqz9ki",
@@ -686,7 +851,7 @@
       "categoryLocked": true,
       "score": 27.2,
       "metrics": {
-        "stars": 38454,
+        "stars": 38457,
         "starsToday": 626
       },
       "ai": {
@@ -710,8 +875,15 @@
       "publishedAt": "2026-10-30T17:00:00.000Z",
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
-      "category": "industry",
-      "score": 15
+      "category": "model",
+      "score": 21,
+      "ai": {
+        "title": "Google 首颗数据中心卫星上线并写诗",
+        "summary": "Google 首颗搭载 TPU 的卫星上线，运行 Gemma 4 模型并创作诗歌。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:33:01.089Z"
+      }
     },
     {
       "id": "vyfdbegtqd",
@@ -743,13 +915,20 @@
       "publishedAt": "2026-10-30T16:40:22.000Z",
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
-      "category": "model",
-      "score": 33.2,
+      "category": "opensource",
+      "score": 27.3,
       "metrics": {
-        "points": 197,
+        "points": 198,
         "comments": 113
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50306442"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50306442",
+      "ai": {
+        "title": "Qwen 权重实现约 1GB 的任天堂模拟",
+        "summary": "Qwen 权重实现约 1GB 的任天堂模拟，展示模型压缩能力。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "188pqilf7e5",
@@ -769,7 +948,14 @@
         "points": 242,
         "comments": 266
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50306008"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50306008",
+      "ai": {
+        "title": "AI 成本担忧致美股科技股大跌",
+        "summary": "AI 成本担忧导致美股科技股大幅下跌。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:32:50.916Z"
+      }
     },
     {
       "id": "1yoad3umjm",

@@ -74,39 +74,42 @@
   },
   "2026-10-31": {
     "day": "2026-10-31",
-    "generatedAt": "2026-10-31T02:26:58.025Z",
+    "generatedAt": "2026-10-31T02:35:42.921Z",
     "itemCount": 128,
-    "mode": "fallback",
-    "overview": "过去 24 小时共收录 128 条 AI 资讯：产品与行业 87 条、Agent 与工具 18 条、模型发布 10 条、开源项目 5 条、论文 5 条、多模态与视频 3 条。以下为按重要性排序的前 5 条。",
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "Anthropic IPO 预期评级下调，Claude 套餐升级，Apple Intelligence 登陆中国。",
     "points": [
       {
-        "text": "【行业】Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+        "text": "Anthropic IPO 后或获高垃圾评级，融资难度和成本增加。",
         "refs": [
-          "dj1817na0k"
+          "dj1817na0k",
+          "2dirksjb1ae"
         ]
       },
       {
-        "text": "【Agent】Malicious Claude Code extension in Cursor's marketplace attempted remote access and data theft",
+        "text": "Claude 套餐大升级，Max 20x 升级为 Ultra，取消 5 小时限额。",
         "refs": [
-          "1v888p6obl6"
+          "1erwif2jluy"
         ]
       },
       {
-        "text": "【Agent】Claude Code VS Code 扩展被植入持久 SSH 后门",
+        "text": "Apple Intelligence 将登陆中国，千问集成至 Apple 智能。",
+        "refs": [
+          "29dlqbs1y0d",
+          "13hche88v6k"
+        ]
+      },
+      {
+        "text": "Anthropic 官方 Claude Code 扩展被植入持久 SSH 后门。",
         "refs": [
           "1ymrj42u6ci"
         ]
       },
       {
-        "text": "【行业】阿里巴巴与 Apple 达成合作，将千问集成至 Apple 智能",
+        "text": "Google 首颗数据中心卫星上线，运行 Gemma 4 模型并创作诗歌。",
         "refs": [
-          "29dlqbs1y0d"
-        ]
-      },
-      {
-        "text": "【模型】Show HN: A working Nintendo in ~1GB of Qwen weights",
-        "refs": [
-          "axlbztlzpo"
+          "1jpsj715yqq"
         ]
       }
     ]

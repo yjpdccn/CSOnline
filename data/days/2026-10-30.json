@@ -16,8 +16,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 512,
-        "comments": 385
+        "points": 516,
+        "comments": 386
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50305693",
       "ai": {
@@ -43,7 +43,8 @@
       "day": "2026-10-30",
       "category": "model",
       "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/",
+      "aiAttempts": 1
     },
     {
       "id": "17w28ui7xti",
@@ -163,7 +164,8 @@
         "points": 102,
         "comments": 101
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50304358"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50304358",
+      "aiAttempts": 1
     },
     {
       "id": "pd8l57ot15",
@@ -204,10 +206,11 @@
       "category": "industry",
       "score": 24,
       "metrics": {
-        "points": 114,
+        "points": 115,
         "comments": 129
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50304122"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50304122",
+      "aiAttempts": 1
     },
     {
       "id": "h3wasw44e9",
@@ -602,8 +605,14 @@
       "publishedAt": "2026-10-30T12:55:23.556Z",
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "探讨AI离开人类是否能独立生存，从图灵测试到鲁滨逊测试。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "kjrzxu0rks",
@@ -635,8 +644,14 @@
       "publishedAt": "2026-10-30T12:55:02.574Z",
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "AI补全人类史上最大数学证明，耗时24天。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "g78gg1ijya",
@@ -652,7 +667,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "27岁程序员获无限Token，挑战重写思科遗留代码。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "xutiz3j9u6",
@@ -782,11 +803,17 @@
       "publishedAt": "2026-10-30T11:50:12.625Z",
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
-      "category": "industry",
+      "category": "agent",
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "宇树王兴兴担忧大模型颠覆具身智能。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "1unjz2f6o4o",
@@ -825,7 +852,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "伯克利团队提出Agent Teams，实现持续自进化。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "e7c07rotpk",
@@ -841,7 +874,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI硬件发展必须正视隐私问题。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "27zi58hgjp9",
@@ -861,7 +900,13 @@
         "Agent",
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "桌面机器人兴起，具身智能厂商发力新赛道。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "1hli7441yiz",
@@ -876,8 +921,14 @@
       "publishedAt": "2026-10-30T11:32:08.975Z",
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
-      "category": "industry",
-      "score": 18
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "记者实测双十一算账，AI先于人类崩溃。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "an5q1j9qce",
@@ -892,11 +943,17 @@
       "publishedAt": "2026-10-30T11:29:53.175Z",
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "AI 编程"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Cursor工程师月烧1.5万亿token，引发对AI代码质量的讨论。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "29vekxt08rx",
@@ -911,8 +968,14 @@
       "publishedAt": "2026-10-30T11:27:08.686Z",
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
-      "category": "industry",
-      "score": 18
+      "category": "model",
+      "score": 24,
+      "ai": {
+        "summary": "OpenAI重写大模型法则，第一条强调忠于人类。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "1jamm3qieqr",
@@ -930,7 +993,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "贝联珠贯创始人分享AI+垂类Agent的长期竞争力。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "hxeeqair75",
@@ -946,7 +1015,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "科翔股份拟投资35亿元建设AI算力印制电路板项目。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "26ls1qhpmlu",
@@ -962,7 +1037,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "英伟达拟为云服务商Anthropic项目提供担保。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "1ymrj42u6ci",
@@ -1026,8 +1107,14 @@
       "publishedAt": "2026-10-30T11:12:00.000Z",
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
-      "category": "multimodal",
-      "score": 18
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "AMD以82亿美元收购李飞飞创立的World Labs。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "1gfgcnulx5x",
@@ -1046,7 +1133,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "影溯想建成全国首个具身仿真数采中心，大幅提升数据生产效率。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:20.930Z"
+      }
     },
     {
       "id": "1vclv0ub2h5",
@@ -1086,7 +1179,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI数据中心像黑洞耗尽内存，手机和PC可能被抛弃。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "4qbjeahymc",
@@ -1101,8 +1200,14 @@
       "publishedAt": "2026-10-30T11:05:06.000Z",
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
-      "category": "industry",
-      "score": 18
+      "category": "model",
+      "score": 24,
+      "ai": {
+        "summary": "AI零帧起手写算子，性能反超人类手写巅峰。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "uog7naxae",
@@ -1162,7 +1267,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "「模力工场」连接AI供需，补上信任缺口。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "2f61o5drrsn",
@@ -1200,7 +1311,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "联想天禧AI 4.5全端升级，打造职场超能搭档。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "1lzglvv5ne",
@@ -1244,7 +1361,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "沙钢接入千问办公，Agent落地核心业务场景。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "1i779bqgtfr",
@@ -1259,8 +1382,14 @@
       "publishedAt": "2026-10-30T10:27:43.873Z",
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
-      "category": "industry",
-      "score": 18
+      "category": "model",
+      "score": 24,
+      "ai": {
+        "summary": "OpenAI数学大模型引发争议，陶哲轩担忧掠夺式开采。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "42pxz777p7",
@@ -1300,7 +1429,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "MaaS成为模型与云计算转换的关键时刻。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "2abqa4w97r7",
@@ -1316,7 +1451,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "王兴兴联手红杉中国，宇树科技投资布局。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "f6i9rk0eg1",
@@ -1349,7 +1490,14 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "OpenAI 将遵守 robots.txt 信号",
+        "summary": "OpenAI 将尊重网站的 robots.txt 信号，以帮助网站表达 AI 训练偏好。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:33:01.089Z"
+      }
     },
     {
       "id": "us6of0r8gy",
@@ -1368,7 +1516,7 @@
       "score": 25.5,
       "metrics": {
         "points": 142,
-        "comments": 138
+        "comments": 139
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50301479",
       "ai": {
@@ -1464,7 +1612,13 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "单人用AI重制游戏，分享研发干货。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "1t9vbpso641",
@@ -1520,7 +1674,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "WTCC 2026落幕，为AI融生活写下城市级注脚。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "tnnd0x7ggs",
@@ -1536,7 +1696,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Claude母公司调侃AI灭绝人类会影响股价。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "14n34ravb0x",
@@ -1552,7 +1718,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI红利究竟被谁吃了？探讨回报去向。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "x342szaab",
@@ -1607,8 +1779,14 @@
       "publishedAt": "2026-10-30T08:12:08.149Z",
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
-      "category": "industry",
-      "score": 18
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "首批使用WorkBuddy的乙方已提前下班。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "21p6h4lrxx1",
@@ -1623,7 +1801,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "超节点火了一年后，算力扩张逻辑被改写。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "2fwy88ng522",
@@ -1639,7 +1823,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "坚持101年不裁员的公司用AI，但不拿老员工开刀。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "1st2skzvp67",
@@ -1655,7 +1845,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "谷歌暴跌因AI烧穿现金流，面临回报考验。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "1hvlmvhp6fv",
@@ -1670,8 +1866,14 @@
       "publishedAt": "2026-10-30T07:43:08.721Z",
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
-      "category": "industry",
-      "score": 18
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "马斯克脑机接口升级，Grok接入大脑实现意念操控。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "1l7vi8x69dd",
@@ -1790,7 +1992,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "宇树上市后营收增长，重金投入研发与具身大模型。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "5ej0wjlsrk",
@@ -1811,8 +2019,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 789,
-        "comments": 493
+        "points": 790,
+        "comments": 494
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50300683",
       "ai": {
@@ -1879,8 +2087,14 @@
       "publishedAt": "2026-10-30T06:41:36.000Z",
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "2026年AI技术演进与2027年趋势前瞻报告。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "16mnhb8x4br",
@@ -1963,7 +2177,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "agent",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "TRAE开发者个人助理，打响AI Coding下半场。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:34:30.337Z"
+      }
     },
     {
       "id": "20ngnlmain6",
@@ -2896,7 +3116,14 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "OpenAI 分享关于合理使用的观点",
+        "summary": "OpenAI 分享了创作者、学者等关于合理使用如何支持 AI 训练和创新的观点。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:33:01.089Z"
+      }
     },
     {
       "id": "oaqwleh7yl",
@@ -2917,6 +3144,13 @@
       "metrics": {
         "upvotes": 54,
         "comments": 4
+      },
+      "ai": {
+        "title": "JEPAs 证明并改进柏拉图表示假设",
+        "summary": "联合嵌入预测架构在多模态观察上训练，能以更高效率收敛到共享表示。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:33:01.089Z"
       }
     },
     {
@@ -2938,6 +3172,13 @@
       "metrics": {
         "upvotes": 56,
         "comments": 3
+      },
+      "ai": {
+        "title": "Youtu-Parsing-Omni：统一多模态解析器",
+        "summary": "Youtu-Parsing-Omni 是一个统一的多模态解析器，能将文档、图像、音频和视频编码为结构化时空记录。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:33:01.089Z"
       }
     },
     {
@@ -3028,10 +3269,11 @@
       "category": "industry",
       "score": 24.1,
       "metrics": {
-        "points": 110,
-        "comments": 149
+        "points": 111,
+        "comments": 151
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50296730"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50296730",
+      "aiAttempts": 1
     },
     {
       "id": "1k136hb2i4r",
@@ -3052,7 +3294,7 @@
         "comments": 113
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50296602",
-      "aiAttempts": 1
+      "aiAttempts": 2
     },
     {
       "id": "2uffs39itb",
@@ -3473,7 +3715,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 8720,
+        "stars": 8725,
         "starsToday": 1199
       },
       "ai": {
@@ -3505,7 +3747,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 106351,
+        "stars": 106357,
         "starsToday": 1145
       },
       "ai": {
@@ -3537,7 +3779,7 @@
       ],
       "score": 28.1,
       "metrics": {
-        "stars": 8836,
+        "stars": 8837,
         "starsToday": 707
       },
       "dupOf": "1zg0212pemm"

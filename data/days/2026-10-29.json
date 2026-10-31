@@ -18,9 +18,16 @@
       "categoryLocked": true,
       "score": 22.4,
       "metrics": {
-        "stars": 1370
+        "stars": 1372
       },
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "unslop：Claude 技能，将 AI 风格 UI 转为设计界面",
+        "summary": "unslop 是一个 Claude 技能，可将 AI 生成的 UI 转换为设计精美的界面。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:33:01.089Z"
+      }
     },
     {
       "id": "2elyk0v3w0q",
@@ -85,7 +92,7 @@
       ],
       "score": 35.8,
       "metrics": {
-        "points": 588,
+        "points": 589,
         "comments": 327
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50290177",
@@ -188,9 +195,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22.7,
+      "score": 22.8,
       "metrics": {
-        "stars": 1455
+        "stars": 1467
       },
       "ai": {
         "title": "Mika：手机上的私人 AI 助理",
@@ -1961,7 +1968,7 @@
       "categoryLocked": true,
       "score": 21.8,
       "metrics": {
-        "stars": 1245
+        "stars": 1247
       },
       "ai": {
         "title": "nvzhuang：AI 女装参考图集与虚拟试穿网站",
@@ -2416,7 +2423,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 309472,
+        "stars": 309478,
         "starsToday": 1259
       },
       "ai": {
@@ -2447,7 +2454,7 @@
       ],
       "score": 16.7,
       "metrics": {
-        "stars": 5888,
+        "stars": 5889,
         "starsToday": 117
       },
       "ai": {
@@ -2510,7 +2517,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 97150,
+        "stars": 97156,
         "starsToday": 2881
       },
       "ai": {
@@ -2600,7 +2607,7 @@
         ],
         "firstPublishedAt": "2026-10-29T03:24:01.011Z",
         "metrics": {
-          "stars": 8836,
+          "stars": 8837,
           "starsToday": 1054
         }
       }
@@ -2625,7 +2632,7 @@
       ],
       "score": 20.4,
       "metrics": {
-        "stars": 3909,
+        "stars": 3911,
         "starsToday": 233
       },
       "ai": {
