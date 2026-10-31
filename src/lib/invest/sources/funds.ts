@@ -27,7 +27,27 @@ export function parseNavHistory(body: LsjzResponse): NavPoint[] {
 
 export async function fetchNavHistory(code: string, size = 30): Promise<NavPoint[]> {
   const url = `https://api.fund.eastmoney.com/f10/lsjz?fundCode=${code}&pageIndex=1&pageSize=${size}`;
-  return parseNavHistory(await fetchJson<LsjzResponse>(url, { headers: F10_HEADERS }));
+  return parseNavHistory(await fetchJson<LsjzResponse>(url, { headers: F10_HEADERS, retries: 2 }));
+}
+
+interface MobileBaseResponse {
+  Datas?: { FSRQ?: string; DWJZ?: string; RZDF?: string } | null;
+}
+
+/** 天天基金's app API: the latest NAV only, on another host, for when the history API times out. */
+export function parseMobileNav(body: MobileBaseResponse): NavPoint {
+  const d = body.Datas;
+  const nav = Number(d?.DWJZ);
+  if (!d?.FSRQ || !/^\d{4}-\d{2}-\d{2}$/.test(d.FSRQ) || !Number.isFinite(nav) || nav <= 0) throw new Error("没有返回净值");
+  const point: NavPoint = { date: d.FSRQ, nav };
+  const change = Number(d.RZDF);
+  if (d.RZDF !== undefined && d.RZDF !== "" && Number.isFinite(change)) point.changePct = change;
+  return point;
+}
+
+export async function fetchMobileNav(code: string): Promise<NavPoint> {
+  const url = `https://fundmobapi.eastmoney.com/FundMApi/FundBaseTypeInformation.ashx?FCODE=${code}&deviceid=Wap&plat=Wap&product=EFund&version=2.0.0`;
+  return parseMobileNav(await fetchJson<MobileBaseResponse>(url));
 }
 
 /** Label/value cells of a 天天基金 F10 page: `<td class="th">label</td><td>value</td>` or `<th>label</th><td>value</td>`. */

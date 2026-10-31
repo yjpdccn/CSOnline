@@ -9,7 +9,7 @@ import { mergeNews, rankNews, toInvestItem } from "./news";
 import { buildAutoOverview, generateAiOverview, stopReason, translateHeadlines, type OverviewQuotes } from "./overview";
 import { indexQuote, macroQuote } from "./quotes";
 import { fetchFomcCalendar, fetchWscnCalendar } from "./sources/calendar";
-import { fetchFeePage, fetchNavHistory, fetchProfilePage, type FeePage, type ProfilePage } from "./sources/funds";
+import { fetchFeePage, fetchMobileNav, fetchNavHistory, fetchProfilePage, type FeePage, type ProfilePage } from "./sources/funds";
 import {
   fetchCsindex,
   fetchDanjuan,
@@ -182,12 +182,23 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
     }),
   );
   const navSettled: Settled<unknown>[] = new Array(FUNDS.length);
+  const navFallbacks: string[] = [];
   const feeSettled: Settled<unknown>[] = new Array(FUNDS.length);
   FUNDS.forEach((f, i) => {
     tasks.push(async () => {
       const r = await settle(() => fetchNavHistory(f.code));
       navSettled[i] = r;
-      if (r.ok) out.navs[f.code] = r.value;
+      if (r.ok) {
+        out.navs[f.code] = r.value;
+        return;
+      }
+      // The latest NAV from the app API keeps the card current; the stored history fills in the rest.
+      const latest = await settle(() => fetchMobileNav(f.code));
+      if (!latest.ok) return;
+      const stored = (store.funds.funds[f.code]?.navs ?? []).filter((n) => n.date !== latest.value.date);
+      out.navs[f.code] = [latest.value, ...stored].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 30);
+      navSettled[i] = { ok: true, value: out.navs[f.code], ms: r.ms + latest.ms };
+      navFallbacks.push(f.code);
     });
     tasks.push(async () => {
       const r = await settle(() => fetchFeePage(f.code));
@@ -297,10 +308,11 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
     single("danjuan", "蛋卷基金估值", "估值", danjuan, danjuan?.ok ? danjuan.value.size : 0),
   );
   if (csindex.length) out.results.push(groupResult("csindex", "中证指数市盈率与行情", "估值", csindexSettled, csindex.map((i) => i.name)));
-  out.results.push(
-    groupResult("fund-nav", "天天基金净值", "基金", navSettled, FUNDS.map((f) => f.code)),
-    groupResult("fund-fees", "天天基金费率与申购状态", "基金", feeSettled, FUNDS.map((f) => f.code)),
-  );
+  out.results.push(groupResult("fund-nav", "天天基金净值", "基金", navSettled, FUNDS.map((f) => f.code)));
+  if (navFallbacks.length) {
+    out.results.push({ id: "fund-nav-app", name: "天天基金净值（备用）", kind: "基金", ok: true, count: navFallbacks.length, ms: 0, error: `净值接口超时，改用 App 接口的最新净值：${navFallbacks.join("、")}` });
+  }
+  out.results.push(groupResult("fund-fees", "天天基金费率与申购状态", "基金", feeSettled, FUNDS.map((f) => f.code)));
   if (profileDue.length) out.results.push(groupResult("fund-profile", "天天基金基金概况", "基金", profileSettled, profileDue.map((f) => f.code)));
   ENABLED_INVEST_SOURCES.forEach((source, i) => {
     const s = newsSettled[i];

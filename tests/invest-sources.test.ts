@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { parseFomcCalendar, selectCalendarEvents, type WscnCalendarItem } from "@/lib/invest/sources/calendar";
-import { parseFeePage, parseLimit, parseNavHistory, parseProfilePage } from "@/lib/invest/sources/funds";
+import { parseFeePage, parseLimit, parseMobileNav, parseNavHistory, parseProfilePage } from "@/lib/invest/sources/funds";
 import {
   parseCsindex,
   parseDanjuan,
@@ -102,6 +102,11 @@ describe("天天基金", () => {
   it("reads NAV history latest first", () => {
     const navs = parseNavHistory({ Data: { LSJZList: [{ FSRQ: "2026-10-27", DWJZ: "1.7454", JZZZL: "1.22" }, { FSRQ: "2026-10-26", DWJZ: "1.7243", JZZZL: "" }] } });
     expect(navs).toEqual([{ date: "2026-10-27", nav: 1.7454, changePct: 1.22 }, { date: "2026-10-26", nav: 1.7243 }]);
+  });
+
+  it("reads the latest NAV from the app API", () => {
+    expect(parseMobileNav({ Datas: { FSRQ: "2026-10-27", DWJZ: "1.7454", RZDF: "1.22" } })).toEqual({ date: "2026-10-27", nav: 1.7454, changePct: 1.22 });
+    expect(() => parseMobileNav({ Datas: null })).toThrow();
   });
 
   it("parses daily purchase limits", () => {
