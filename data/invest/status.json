@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-31T06:03:03.162Z",
+  "generatedAt": "2026-10-31T10:39:25.583Z",
   "since": "2026-10-31T06:03:03.162Z",
   "page": "https://yjpdccn.github.io/CSOnline/invest/",
   "ok": true,
@@ -8,7 +8,7 @@
     "indices": {
       "label": "指数行情",
       "ok": true,
-      "lastSuccess": "2026-10-31T06:03:03.162Z",
+      "lastSuccess": "2026-10-31T10:39:25.583Z",
       "items": [
         {
           "key": "ndx",
@@ -71,7 +71,7 @@
     "gold": {
       "label": "黄金",
       "ok": true,
-      "lastSuccess": "2026-10-31T06:03:03.162Z",
+      "lastSuccess": "2026-10-31T10:39:25.583Z",
       "items": [
         {
           "key": "gold",
@@ -102,7 +102,7 @@
     "macro": {
       "label": "利率与汇率",
       "ok": true,
-      "lastSuccess": "2026-10-31T06:03:03.162Z",
+      "lastSuccess": "2026-10-31T10:39:25.583Z",
       "items": [
         {
           "key": "cnbond",
@@ -149,7 +149,7 @@
     "etf": {
       "label": "场内价格",
       "ok": true,
-      "lastSuccess": "2026-10-31T06:03:03.162Z",
+      "lastSuccess": "2026-10-31T10:39:25.583Z",
       "items": [
         {
           "key": "price:510300",
@@ -212,7 +212,7 @@
     "nav": {
       "label": "基金净值",
       "ok": true,
-      "lastSuccess": "2026-10-31T06:03:03.162Z",
+      "lastSuccess": "2026-10-31T10:39:25.583Z",
       "items": [
         {
           "key": "nav:019172",
@@ -427,187 +427,187 @@
     "fundInfo": {
       "label": "申购状态与费率",
       "ok": true,
-      "lastSuccess": "2026-10-31T06:03:03.162Z",
+      "lastSuccess": "2026-10-31T10:39:25.583Z",
       "items": [
         {
           "key": "info:019172",
           "name": "019172 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:016452",
           "name": "016452 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:096001",
           "name": "096001 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:008701",
           "name": "008701 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:008702",
           "name": "008702 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022930",
           "name": "022930 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022918",
           "name": "022918 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022928",
           "name": "022928 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022459",
           "name": "022459 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022434",
           "name": "022434 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:110020",
           "name": "110020 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:007466",
           "name": "007466 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:110051",
           "name": "110051 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:050025",
           "name": "050025 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:510300",
           "name": "510300 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:512890",
           "name": "512890 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:518850",
           "name": "518850 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:518880",
           "name": "518880 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:513500",
           "name": "513500 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:513100",
           "name": "513100 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:006672",
           "name": "006672 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:501060",
           "name": "501060 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022502",
           "name": "022502 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:015530",
           "name": "015530 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:021277",
           "name": "021277 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:000218",
           "name": "000218 申购状态与费率",
-          "latest": "2026-10-31T06:03:03.162Z",
+          "latest": "2026-10-31T10:39:25.583Z",
           "refreshed": true,
           "stale": false
         }
@@ -616,7 +616,7 @@
     "valuation": {
       "label": "估值",
       "ok": true,
-      "lastSuccess": "2026-10-31T06:03:03.162Z",
+      "lastSuccess": "2026-10-31T10:39:25.583Z",
       "items": [
         {
           "key": "valuation:ndx",
@@ -671,7 +671,7 @@
     "news": {
       "label": "新闻",
       "ok": true,
-      "lastSuccess": "2026-10-31T06:03:03.162Z",
+      "lastSuccess": "2026-10-31T10:39:25.583Z",
       "items": [
         {
           "key": "source:wscn-global",
@@ -774,7 +774,7 @@
     "calendar": {
       "label": "财经日历",
       "ok": true,
-      "lastSuccess": "2026-10-31T06:03:03.162Z",
+      "lastSuccess": "2026-10-31T10:39:25.583Z",
       "items": [
         {
           "key": "source:wscn-calendar",
@@ -789,9 +789,52 @@
           "stale": false
         }
       ]
+    },
+    "strategy": {
+      "label": "同类基金比较与公告",
+      "ok": true,
+      "items": [
+        {
+          "key": "peers",
+          "name": "同类基金比较",
+          "latest": "2026-10-31T10:39:25.583Z",
+          "refreshed": true,
+          "stale": false
+        },
+        {
+          "key": "notices",
+          "name": "基金公告",
+          "latest": "2026-10-31T10:39:25.583Z",
+          "refreshed": true,
+          "stale": false
+        }
+      ]
     }
   },
-  "dataIssues": [],
+  "dataIssues": [
+    {
+      "key": "failed:source:fund-peers",
+      "group": "strategy",
+      "kind": "failed",
+      "severity": "minor",
+      "message": "同类基金比较（每周）部分没有读到：1 项没有读到：022442：HTTP 514 Frequency Capped",
+      "items": [
+        "同类基金比较（每周）"
+      ],
+      "firstSeen": "2026-10-31T10:39:25.583Z"
+    },
+    {
+      "key": "failed:source:peer-status",
+      "group": "strategy",
+      "kind": "failed",
+      "severity": "minor",
+      "message": "同类 QDII 基金申购状态部分没有读到：015299：网络错误（UND_ERR_CONNECT_TIMEOUT）",
+      "items": [
+        "同类 QDII 基金申购状态"
+      ],
+      "firstSeen": "2026-10-31T10:39:25.583Z"
+    }
+  ],
   "alerts": [
     {
       "key": "rule4:096001",
@@ -912,11 +955,127 @@
       "title": "国泰黄金ETF联接A（000218） 费率 0.60%/年",
       "detail": "管理费加托管费高于 A 股和黄金指数基金约 0.2% 的线。",
       "firstSeen": "2026-10-31T06:03:03.162Z"
+    },
+    {
+      "key": "replace:008702:008701",
+      "kind": "suggestion",
+      "action": "replace",
+      "severity": "warn",
+      "title": "华夏黄金ETF联接C（008702）",
+      "detail": "可以考虑换成华夏黄金ETF联接A（008701），是同一只基金的 A 类份额，每年费用 0.20%，比现在的 0.55%（含销售服务费 0.35%）低 0.35%；日限额 7500 万元，规模 86.8 亿元，成立 6 年。已持有的份额卖出前留意赎回费。仅供参考，不构成投资建议。",
+      "code": "008702",
+      "target": {
+        "code": "008701",
+        "name": "华夏黄金ETF联接A"
+      },
+      "firstSeen": "2026-10-31T10:39:25.583Z"
+    },
+    {
+      "key": "replace:007466:020602",
+      "kind": "suggestion",
+      "action": "replace",
+      "severity": "warn",
+      "title": "华泰柏瑞中证红利低波ETF联接A（007466）",
+      "detail": "可以考虑改选易方达中证红利低波动ETF联接发起式A（020602），同样跟踪中证红利低波动，每年费用 0.20%，比现在的 0.60% 低 0.40%；开放申购，规模 51.9 亿元，成立 2 年。仅供参考，不构成投资建议。",
+      "code": "007466",
+      "target": {
+        "code": "020602",
+        "name": "易方达中证红利低波动ETF联接发起式A"
+      },
+      "firstSeen": "2026-10-31T10:39:25.583Z"
+    },
+    {
+      "key": "replace:050025:017641",
+      "kind": "suggestion",
+      "action": "replace",
+      "severity": "warn",
+      "title": "博时标普500ETF联接A（050025）",
+      "detail": "可以考虑改选摩根标普500指数(QDII)人民币A（017641），同样跟踪标普500，每年费用 0.65%，比现在的 0.80% 低 0.15%；日限额 10 元（现在这只暂停申购），规模 197.8 亿元，成立 3 年。仅供参考，不构成投资建议。",
+      "code": "050025",
+      "target": {
+        "code": "017641",
+        "name": "摩根标普500指数(QDII)人民币A"
+      },
+      "firstSeen": "2026-10-31T10:39:25.583Z"
+    },
+    {
+      "key": "stop:premium:513500",
+      "kind": "suggestion",
+      "action": "stop",
+      "severity": "bad",
+      "title": "场内 标普500ETF博时（513500） 溢价 8.40%",
+      "detail": "高于规则三的 2%–3%（按 10月29日净值）。可以考虑暂缓场内买入，改用场外的摩根标普500指数(QDII)人民币A（017641），同样跟踪标普500，每年费用 0.65%，日限额 10 元，规模 197.8 亿元，成立 3 年。仅供参考，不构成投资建议。",
+      "code": "513500",
+      "target": {
+        "code": "017641",
+        "name": "摩根标普500指数(QDII)人民币A"
+      },
+      "firstSeen": "2026-10-31T10:39:25.583Z"
+    },
+    {
+      "key": "stop:premium:513100",
+      "kind": "suggestion",
+      "action": "stop",
+      "severity": "bad",
+      "title": "场内 纳指ETF国泰（513100） 溢价 13.87%",
+      "detail": "高于规则三的 2%–3%（按 10月29日净值）。可以考虑暂缓场内买入，改用场外的宝盈纳斯达克100指数发起(QDII)A人民币（019736），同样跟踪纳斯达克100，每年费用 0.65%，日限额 10 元，规模 40.0 亿元，成立 2 年。仅供参考，不构成投资建议。",
+      "code": "513100",
+      "target": {
+        "code": "019736",
+        "name": "宝盈纳斯达克100指数发起(QDII)A人民币"
+      },
+      "firstSeen": "2026-10-31T10:39:25.583Z"
+    },
+    {
+      "key": "replace:022502:008701",
+      "kind": "suggestion",
+      "action": "replace",
+      "severity": "warn",
+      "title": "A组 · 国泰黄金ETF联接E（022502）",
+      "detail": "可以考虑换成华夏黄金ETF联接A（008701），同样投资黄金（跟踪上金所 Au99.99），每年费用 0.20%，比现在的 0.90%（含销售服务费 0.30%）低 0.70%；日限额 7500 万元，规模 86.8 亿元，成立 6 年。已持有的份额卖出前留意赎回费。仅供参考，不构成投资建议。",
+      "code": "022502",
+      "target": {
+        "code": "008701",
+        "name": "华夏黄金ETF联接A"
+      },
+      "firstSeen": "2026-10-31T10:39:25.583Z"
+    },
+    {
+      "key": "replace:021277:270023",
+      "kind": "suggestion",
+      "action": "replace",
+      "severity": "warn",
+      "title": "B组 · 广发全球精选股票(QDII)人民币C（021277）",
+      "detail": "可以考虑换成广发全球精选股票(QDII)人民币A（270023），是同一只基金的 A 类份额，每年费用 1.40%，比现在的 2.00%（含销售服务费 0.60%）低 0.60%；日限额 2000 元，规模 389.3 亿元，成立 16 年。已持有的份额卖出前留意赎回费。仅供参考，不构成投资建议。",
+      "code": "021277",
+      "target": {
+        "code": "270023",
+        "name": "广发全球精选股票(QDII)人民币A"
+      },
+      "firstSeen": "2026-10-31T10:39:25.583Z"
+    },
+    {
+      "key": "replace:000218:008701",
+      "kind": "suggestion",
+      "action": "replace",
+      "severity": "warn",
+      "title": "B组 · 国泰黄金ETF联接A（000218）",
+      "detail": "可以考虑换成华夏黄金ETF联接A（008701），同样投资黄金（跟踪上金所 Au99.99），每年费用 0.20%，比现在的 0.60% 低 0.40%；日限额 7500 万元，规模 86.8 亿元，成立 6 年。已持有的份额卖出前留意赎回费。仅供参考，不构成投资建议。",
+      "code": "000218",
+      "target": {
+        "code": "008701",
+        "name": "华夏黄金ETF联接A"
+      },
+      "firstSeen": "2026-10-31T10:39:25.583Z"
     }
   ],
+  "strategy": {
+    "checkedAt": "2026-10-31T10:39:25.583Z",
+    "compared": 346
+  },
   "notifications": {
-    "channel": "github-issue",
-    "lastSentAt": "2026-10-31T06:03:03.162Z",
+    "channel": "serverchan",
+    "lastSentAt": "2026-10-31T10:39:25.583Z",
     "issueUrl": "https://github.com/yjpdccn/CSOnline/issues/1"
   }
 }

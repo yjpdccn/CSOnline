@@ -16,8 +16,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 549,
-        "comments": 410
+        "points": 601,
+        "comments": 452
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50305693",
       "ai": {
@@ -166,9 +166,9 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 23.1,
+      "score": 23.2,
       "metrics": {
-        "points": 106,
+        "points": 107,
         "comments": 104
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50304358",
@@ -218,10 +218,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 26.2,
+      "score": 28.8,
       "metrics": {
-        "points": 144,
-        "comments": 184
+        "points": 197,
+        "comments": 228
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50304122",
       "aiAttempts": 1,
@@ -689,7 +689,7 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 42.2,
+      "score": 44.8,
       "ai": {
         "summary": "27岁程序员获无限Token，挑战重写思科遗留代码。",
         "category": "industry",
@@ -714,8 +714,8 @@
         ],
         "firstPublishedAt": "2026-10-30T12:34:34.116Z",
         "metrics": {
-          "points": 144,
-          "comments": 184
+          "points": 197,
+          "comments": 228
         }
       }
     },
@@ -732,18 +732,19 @@
       "publishedAt": "2026-10-30T12:34:31.000Z",
       "firstSeenAt": "2026-10-31T06:03:03.162Z",
       "day": "2026-10-30",
-      "category": "opensource",
+      "category": "model",
       "keywords": [
         "Agent"
       ],
-      "score": 10,
+      "score": 16,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xje5oo/sensenovasensenovaloop9bpreview_hugging_face/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "SenseNova-Loop-9B-Preview 是一款支持长上下文和多模态的 Agent 模型。",
-        "category": "opensource",
+        "title": "SenseNova-Loop-9B-Preview：长上下文与智能体工作流模型",
+        "summary": "SenseNova-Loop-9B-Preview 是支持长上下文和智能体工作流的多模态语言模型。",
+        "category": "model",
         "model": "glm-4.7-flash",
-        "at": "2026-10-31T06:04:55.920Z"
+        "at": "2026-10-31T10:41:14.285Z"
       }
     },
     {
@@ -1321,10 +1322,11 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjc8q3/paper_multitoken_prediction_done_right_softmtp/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "Soft-MTP 论文提出改进多 Token 预测的训练方法。",
+        "title": "Soft-MTP：改进多 Token 预测训练方法",
+        "summary": "Soft-MTP 论文指出了标准 MTP 训练中的缺陷并提出了改进方法。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-10-31T06:04:55.920Z"
+        "at": "2026-10-31T10:41:14.285Z"
       }
     },
     {
@@ -2114,8 +2116,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 857,
-        "comments": 512
+        "points": 900,
+        "comments": 532
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50300683",
       "ai": {
@@ -2168,6 +2170,36 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-10-30T17:10:05.274Z"
+      }
+    },
+    {
+      "id": "1ocso3bdf13",
+      "key": "gh:patch-gg/pixelfx",
+      "title": "patch-gg/pixelfx",
+      "url": "https://github.com/patch-gg/pixelfx",
+      "excerpt": "232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T06:43:25.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-30",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 18.1,
+      "metrics": {
+        "stars": 616
+      },
+      "ai": {
+        "title": "pixelfx：232 个像素艺术效果与 Claude Code 技能",
+        "summary": "patch-gg/pixelfx 项目提供 232 个像素艺术效果及 Claude Code 技能。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
       }
     },
     {
@@ -3162,9 +3194,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 29.1,
+      "score": 29.2,
       "metrics": {
-        "upvotes": 158,
+        "upvotes": 159,
         "comments": 4
       },
       "ai": {
@@ -3190,9 +3222,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 25,
+      "score": 25.2,
       "metrics": {
-        "upvotes": 91,
+        "upvotes": 94,
         "comments": 3
       },
       "ai": {
@@ -3249,9 +3281,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 28.3,
+      "score": 28.4,
       "metrics": {
-        "upvotes": 143,
+        "upvotes": 144,
         "comments": 3
       },
       "ai": {
@@ -3301,9 +3333,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.5,
+      "score": 21.7,
       "metrics": {
-        "upvotes": 54,
+        "upvotes": 55,
         "comments": 4
       },
       "ai": {
@@ -3329,9 +3361,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 27.1,
+      "score": 27.8,
       "metrics": {
-        "upvotes": 121,
+        "upvotes": 134,
         "comments": 3
       },
       "ai": {
@@ -3428,10 +3460,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 25.4,
+      "score": 26.7,
       "metrics": {
-        "points": 131,
-        "comments": 168
+        "points": 156,
+        "comments": 181
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50296730",
       "aiAttempts": 1,
@@ -3456,9 +3488,9 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 23.8,
+      "score": 23.9,
       "metrics": {
-        "points": 115,
+        "points": 117,
         "comments": 114
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50296602",
@@ -3505,10 +3537,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 33.2,
+      "score": 33.3,
       "metrics": {
-        "points": 400,
-        "comments": 165
+        "points": 402,
+        "comments": 166
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50296486",
       "aiAttempts": 1,
@@ -3883,7 +3915,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 8904,
+        "stars": 9157,
         "starsToday": 1199
       },
       "ai": {
@@ -3915,7 +3947,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 106610,
+        "stars": 106918,
         "starsToday": 1145
       },
       "ai": {
@@ -3947,7 +3979,7 @@
       ],
       "score": 28.1,
       "metrics": {
-        "stars": 8910,
+        "stars": 9029,
         "starsToday": 707
       },
       "dupOf": "1zg0212pemm"

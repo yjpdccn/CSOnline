@@ -74,39 +74,40 @@
   },
   "2026-10-31": {
     "day": "2026-10-31",
-    "generatedAt": "2026-10-31T06:07:24.929Z",
-    "itemCount": 123,
-    "mode": "fallback",
-    "overview": "过去 24 小时共收录 123 条 AI 资讯：产品与行业 79 条、Agent 与工具 14 条、模型发布 12 条、开源项目 8 条、论文 8 条、多模态与视频 2 条。以下为按重要性排序的前 5 条。",
+    "generatedAt": "2026-10-31T10:42:27.906Z",
+    "itemCount": 112,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "Claude套餐大升级，阿里千问集成Apple智能，OpenAI融资未达预期。",
     "points": [
       {
-        "text": "【行业】Anthropic IPO 后或获高垃圾评级",
+        "text": "Claude Max 20x升级为Ultra并取消5小时限额。",
         "refs": [
-          "dj1817na0k"
+          "1erwif2jluy"
         ]
       },
       {
-        "text": "【行业】27 岁程序员获无限 Token，挑战两个月重写思科 98% 的遗留代码",
+        "text": "阿里千问集成至Apple智能，中国用户可直接调用。",
         "refs": [
-          "g78gg1ijya"
+          "29dlqbs1y0d"
         ]
       },
       {
-        "text": "【行业】OpenAI raises less than half of $30B target",
-        "refs": [
-          "2e6t3fr5b1d"
-        ]
-      },
-      {
-        "text": "【Agent】Cursor 市场出现恶意 Claude Code 扩展",
-        "refs": [
-          "1v888p6obl6"
-        ]
-      },
-      {
-        "text": "【Agent】Claude Code VS Code 扩展被植入持久 SSH 后门",
+        "text": "Anthropic官方Claude Code扩展被植入SSH后门。",
         "refs": [
           "1ymrj42u6ci"
+        ]
+      },
+      {
+        "text": "Qwen权重实现约1GB的任天堂模拟。",
+        "refs": [
+          "axlbztlzpo"
+        ]
+      },
+      {
+        "text": "OpenAI融资110亿美元未达300亿目标，大投资者撤资。",
+        "refs": [
+          "1t637gck37m"
         ]
       }
     ]

@@ -2,6 +2,350 @@
   "day": "2026-10-31",
   "items": [
     {
+      "id": "11f4821oo2v",
+      "key": "url:jiqizhixin.com/articles/2026-10-31-7",
+      "title": "AI for AI 的下一关：能否自主规划实验，发现 Scaling Law？",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-31-7",
+      "excerpt": "作者丨论文团队编辑丨ScienceAI近来，AI for AI（用 AI 研发 AI）备受关注，但相关工作大多停留在小规模实验：少量 GPU、数小时即可得出结论，例如训练算法设计、数据筛选方法对比。真正决定大模型能力走向的预训练量级实验，单次就要消耗数百乃至上千 GPU 小时，AI 还很少参与...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T10:31:00.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "探讨 AI for AI 能否自主规划实验并发现 Scaling Law。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
+      "id": "n6ibbpfqld",
+      "key": "url:jiqizhixin.com/articles/2026-10-31-6",
+      "title": "奥特曼：PC上装内存太浪费，最好留给AI数据中心",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-31-6",
+      "excerpt": "编辑｜泽南「从全球资源配置的角度来看，让每个人把紧缺的 DRAM 囤在自己电脑里大部分时间闲置，是『相当糟糕』（quite terrible）的安排，内存应该集中到云端数据中心去。」话都说到这份上了。本周四在接受 YouTube 频道 Cheeky Pint 的采访时，OpenAI CEO 山...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T10:28:00.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 26,
+      "related": [
+        {
+          "id": "1ci96kcb6nj",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4049467472493065",
+          "title": "奥特曼：PC上装内存太浪费，最好留给AI数据中心",
+          "publishedAt": "2026-10-31T08:07:24.664Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-10-31T08:07:24.664Z"
+      },
+      "ai": {
+        "summary": "OpenAI CEO 奥特曼认为将 DRAM 集中在数据中心比分散在个人电脑中更高效。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
+      "id": "20szkfqhew7",
+      "key": "url:jiqizhixin.com/articles/2026-10-31-5",
+      "title": "刚刚，Claude每月200美元套餐取消5小时限制",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-31-5",
+      "excerpt": "刚刚，Anthropic 宣布对 Claude 订阅套餐进行更名。原来的 Max 5x 更名为 Max，每月仍为 100 美元；Max 20x 则更名为 Ultra，每月仍为 200 美元。现有订阅用户无需任何操作，价格与权益不变，名称自动切换。完成更名后，Claude 的个人订阅套餐形成了 ...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T10:24:00.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "1erwif2jluy"
+    },
+    {
+      "id": "1en0a8tv0ot",
+      "key": "url:jiqizhixin.com/articles/2026-10-31-4",
+      "title": "NeurIPS 2026 ED Oral丨Benchmark也有保质期？我们给158个评测基准打了分",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-31-4",
+      "excerpt": "伴随模型能力提升，模型评测也面临着新的挑战。部分评测基准已接近饱和，模型分数越来越难拉开差距，跑分的参考价值也随之下降。哪些基准仍然有效，测出的分数还能说明什么？针对这一现状，来自阿里数据的研究团队在论文《Benchmark Health Index: A Systematic Framewo...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T10:21:00.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "NeurIPS 2026 论文评估 158 个基准的“健康指数”，探讨基准有效性。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
+      "id": "1vn9j4tkkvs",
+      "key": "url:the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai",
+      "title": "Google Deepmind creates a global map of forests with satellite data and AI",
+      "url": "https://the-decoder.com/google-deepmind-creates-a-global-map-of-forests-with-satellite-data-and-ai/",
+      "excerpt": "Google Deepmind and the World Resources Institute have released ForTy, a global map that classifies forests and other land into six categories, including primary forest, plantations, and tree crops. The map could help track deforestation under EU rules, but it identifies only ab…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-31T10:15:45.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "multimodal",
+      "score": 15,
+      "ai": {
+        "title": "DeepMind 利用卫星数据与 AI 绘制全球森林地图",
+        "summary": "DeepMind 与 WRI 发布 ForTy 全球森林地图，用于追踪森林砍伐。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
+      "id": "1t637gck37m",
+      "key": "url:the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite",
+      "title": "OpenAI raises just $11 billion of its $30 billion target as big investors lose their AI appetite",
+      "url": "https://the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite/",
+      "excerpt": "OpenAI raised only about $11 billion in its latest funding round, less than half of the $30 billion it was targeting. At $1.25 trillion, the valuation falls short of expectations, and major investors appear to be pulling back amid the recent tech sell-off. Meanwhile, rival Anthr…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-31T09:22:52.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 39,
+      "related": [
+        {
+          "id": "2e6t3fr5b1d",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50312922",
+          "title": "OpenAI raises less than half of $30B target",
+          "publishedAt": "2026-10-31T03:22:44.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "the-decoder",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-10-31T03:22:44.000Z",
+        "metrics": {
+          "points": 153,
+          "comments": 141
+        }
+      },
+      "ai": {
+        "title": "OpenAI 融资未达预期，大投资者撤资",
+        "summary": "OpenAI 融资 110 亿美元，未达 300 亿美元目标，大投资者因科技股抛售而撤资。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
+      "id": "1t2yqqd8g2h",
+      "key": "url:36kr.com/newsflashes/4049556312118405",
+      "title": "禄达技术集团收购亚洲算力算网与量子计算科技有限公司55%股权",
+      "url": "https://36kr.com/newsflashes/4049556312118405",
+      "excerpt": "美股上市公司禄达技术集团（LUD.US）宣布，正式收购亚洲算力算网与量子计算科技有限公司（简称“亚洲算力”）55%的股权，后者的业务涵盖数据中心规划建设的运营管理、高性能算力租赁，以及量子计算托管与运营。为支持亚洲算力业务发展，禄达技术集团与华智未来科技有限公司签署战略谅解备忘录，双方将在海外算力输出、液冷技术及金融合作三大方向探索合作机会。（财联社）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T09:01:42.253Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "禄达技术集团收购亚洲算力算网与量子计算科技 55% 股权。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
+      "id": "2b5m4d9vfsq",
+      "key": "url:36kr.com/newsflashes/4049541789750153",
+      "title": "三星高管会见OpenAI首席执行官，探讨人工智能转型",
+      "url": "https://36kr.com/newsflashes/4049541789750153",
+      "excerpt": "三星表示，公司旗下主要子公司的多位高管于周六会见了OpenAI联合创始人兼CEO萨姆·奥特曼，共同探讨了人工智能转型方面的未来战略。三星相关负责人透露，此次交流活动在位于首尔以南龙仁市的一处三星人力资源中心举行。这是三星为推动公司AI转型而举办的一系列领导力研讨会的一部分。会议重点围绕AI技术的未来发展方向、潜在应用场景，以及相关领域所带来的商业机遇交换了意见。据三星方面介绍，双方特别探讨了AI将如何重塑企业的决策与运营模式，以及在瞬息万变的商业环境中，企业领导者需要具备哪些核心能力。奥特曼强调，企业能否获得竞争优势，并不取决于是否采用了AI技术，而在…",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T08:46:55.878Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "三星高管会见 OpenAI CEO 奥特曼，探讨人工智能转型战略。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
+      "id": "1565m7ha67r",
+      "key": "url:36kr.com/newsflashes/4049538395739272",
+      "title": "OpenAI奥特曼谈内存短缺：全球DRAM应优先供给数据中心，闲置在玩家PC里是浪费",
+      "url": "https://36kr.com/newsflashes/4049538395739272",
+      "excerpt": "OpenAI首席执行官萨姆・奥特曼周五在一次播客访谈中表示，在 DRAM 存储芯片供应紧张的情况下，将内存集中部署在数据中心并提高利用率，才能够更有效地利用有限的资源。奥特曼表示，从全球资源配置的角度来看，让每个人在个人电脑（PC）里配备大量有限的DRAM，而这些内存可能只有 5% 的时间在被使用，是一种“相当糟糕”的资源浪费。他主张，在全球供应链极度受限的环境下，应该将内存资源最大化地集中在云端数据中心，以实现更高的利用率。（新浪科技）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T08:43:28.724Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "OpenAI CEO 奥特曼呼吁将 DRAM 资源集中到数据中心以提高利用率。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
+      "id": "1dhq7sbf4v5",
+      "key": "url:infoq.cn/video/4qjamMQLVIoZvytUQwpI",
+      "title": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
+      "url": "https://www.infoq.cn/video/4qjamMQLVIoZvytUQwpI?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T08:15:46.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "Agent Sandbox 成为新算力形态，每天上千万次创建。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
+      "id": "1ci96kcb6nj",
+      "key": "url:36kr.com/p/4049467472493065",
+      "title": "奥特曼：PC上装内存太浪费，最好留给AI数据中心",
+      "url": "https://36kr.com/p/4049467472493065",
+      "excerpt": "「你根本不会用内存。」",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T08:07:24.664Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "n6ibbpfqld"
+    },
+    {
+      "id": "qafd0dsfv1",
+      "key": "url:36kr.com/newsflashes/4049496357557384",
+      "title": "豆包：新用户可免费领取30天体验套餐",
+      "url": "https://36kr.com/newsflashes/4049496357557384",
+      "excerpt": "10月31日，豆包向用户推出福利活动：下载豆包电脑版，新用户限时领取30天免费体验套餐，每个用户最多领取1次。所有用户每日签到即可获取更多额度，累计签到30天可得8800额度。（每日经济新闻）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T08:00:42.918Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "豆包向新用户推出 30 天免费体验套餐。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
+      "id": "oqwglsbctw",
+      "key": "url:36kr.com/newsflashes/4049488103838595",
+      "title": "ChatGPT网页端及移动端上线多账户切换功能，最多可同时登录两个账号",
+      "url": "https://36kr.com/newsflashes/4049488103838595",
+      "excerpt": "10月31日消息，OpenAI更新帮助文档称，ChatGPT网页端及iOS、Android应用现已支持账户切换，用户最多可同时登录两个账号，无需退出当前账号即可切换使用。切换后，对话记录、记忆、文件、设置、订阅及工作区均与所选账号对应，彼此独立，不会自动迁移或合并。移动端该功能正在逐步推出，若用户尚未在设置中看到入口，可能尚未获得开放。文档还提醒，两个账号的订阅和账单相互独立，购买前应确认当前使用的账号。（界面新闻）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T07:52:19.151Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 22,
+      "ai": {
+        "summary": "ChatGPT 网页端及移动端上线多账户切换功能，用户可同时登录两个账号。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
+      "id": "11ij9l1bnda",
+      "key": "url:infoq.cn/article/acC46slIVKJg1O0ac8w4",
+      "title": "当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
+      "url": "https://www.infoq.cn/article/acC46slIVKJg1O0ac8w4?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T06:49:01.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "腾讯云与英特尔共筑 Agentic AI 执行新底座。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
       "id": "1jz6v4j1yt",
       "key": "url:36kr.com/p/4049275928106881",
       "title": "AI 混进学术圈，人类第一反应是“叫家长”",
@@ -16,7 +360,98 @@
       "day": "2026-10-31",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI 混进学术圈引发人类“叫家长”的反应。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
+      "id": "1rhl27aulnk",
+      "key": "url:qbitai.com/2026/10/506884.html",
+      "title": "你的8G iPad里有12G内存！库克走了但他的刀法追着我砍",
+      "url": "https://www.qbitai.com/2026/10/506884.html",
+      "excerpt": "苹果“牛奶倒河里”式操作翻红",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T05:17:50.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "苹果 iPad 内存利用率高达 150%，引发用户吐槽。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
+      "id": "21tjxfcgos3",
+      "key": "url:qbitai.com/2026/10/506866.html",
+      "title": "世界模型首次指导设计芯片！超大核NPU700TOPS，99%算力可用",
+      "url": "https://www.qbitai.com/2026/10/506866.html",
+      "excerpt": "AI算力利用“九九成”",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T05:11:19.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "世界模型首次指导设计芯片，NPU 算力利用率达 99%。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
+      "id": "20rz4xx7y2o",
+      "key": "url:qbitai.com/2026/10/506855.html",
+      "title": "刚刚，Claude宣布取消5小时限制！首批Ultra用户已「解封」",
+      "url": "https://www.qbitai.com/2026/10/506855.html",
+      "excerpt": "200美元Ultra用户先用",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T05:05:29.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "1erwif2jluy"
+    },
+    {
+      "id": "23ri8xvj1f4",
+      "key": "url:wccftech.com/ai-boom-triggers-massive-pcb-shortage-with-orders-booked-until-2030",
+      "title": "First memory, storage, and now PCBsss: AI Boom Triggers Massive PCB Shortage With Orders Booked Until 2030, Posing Big Challenges For Consumer Hardware Vendors",
+      "url": "https://wccftech.com/ai-boom-triggers-massive-pcb-shortage-with-orders-booked-until-2030/",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-31T04:45:10.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xk17m0/first_memory_storage_and_now_pcbsss_ai_boom/",
+      "ai": {
+        "title": "AI 繁荣引发 PCB 严重短缺，订单排至 2030 年",
+        "summary": "AI 繁荣导致 PCB 严重短缺，订单已排至 2030 年，给消费硬件厂商带来挑战。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
+      }
     },
     {
       "id": "1orvwbs3htv",
@@ -75,10 +510,10 @@
       "firstSeenAt": "2026-10-31T06:03:03.162Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 22.6,
+      "score": 26,
       "metrics": {
-        "points": 113,
-        "comments": 63
+        "points": 153,
+        "comments": 141
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50312922",
       "aiAttempts": 1,
@@ -87,7 +522,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-10-31T06:04:55.920Z"
-      }
+      },
+      "dupOf": "1t637gck37m"
     },
     {
       "id": "u09jbvxaof",
@@ -342,12 +778,39 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "model",
-      "score": 24,
+      "score": 40,
       "ai": {
         "summary": "Claude套餐升级，Max 20x升级为Ultra并取消5小时限额。",
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-10-31T02:34:20.930Z"
+      },
+      "related": [
+        {
+          "id": "20rz4xx7y2o",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/10/506855.html",
+          "title": "刚刚，Claude宣布取消5小时限制！首批Ultra用户已「解封」",
+          "publishedAt": "2026-10-31T05:05:29.000Z"
+        },
+        {
+          "id": "20szkfqhew7",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-10-31-5",
+          "title": "刚刚，Claude每月200美元套餐取消5小时限制",
+          "publishedAt": "2026-10-31T10:24:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "36kr-ai",
+          "qbitai",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-10-31T01:15:58.004Z"
       }
     },
     {
@@ -547,7 +1010,7 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 45,
+      "score": 45.3,
       "related": [
         {
           "id": "19c4e97e0g0",
@@ -566,8 +1029,8 @@
         ],
         "firstPublishedAt": "2026-10-30T17:27:25.000Z",
         "metrics": {
-          "points": 301,
-          "comments": 248
+          "points": 310,
+          "comments": 257
         }
       },
       "ai": {
@@ -841,8 +1304,8 @@
         ],
         "firstPublishedAt": "2026-10-30T07:09:12.000Z",
         "metrics": {
-          "points": 857,
-          "comments": 512
+          "points": 900,
+          "comments": 532
         }
       },
       "ai": {
@@ -981,10 +1444,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 32,
+      "score": 32.3,
       "metrics": {
-        "points": 301,
-        "comments": 248
+        "points": 310,
+        "comments": 257
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50307219",
       "dupOf": "dj1817na0k"
@@ -1002,10 +1465,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 30.9,
+      "score": 31.2,
       "metrics": {
-        "points": 268,
-        "comments": 221
+        "points": 275,
+        "comments": 231
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50307183",
       "ai": {
@@ -1077,7 +1540,7 @@
       "categoryLocked": true,
       "score": 27.2,
       "metrics": {
-        "stars": 38591,
+        "stars": 38740,
         "starsToday": 626
       },
       "ai": {
@@ -1142,10 +1605,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "opensource",
-      "score": 28.3,
+      "score": 29.2,
       "metrics": {
-        "points": 227,
-        "comments": 118
+        "points": 255,
+        "comments": 122
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50306442",
       "ai": {
@@ -1169,10 +1632,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 30.9,
+      "score": 31.1,
       "metrics": {
-        "points": 248,
-        "comments": 280
+        "points": 255,
+        "comments": 283
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50306008",
       "ai": {

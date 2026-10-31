@@ -1,6 +1,123 @@
 {
-  "updatedAt": "2026-10-31T06:03:03.162Z",
+  "updatedAt": "2026-10-31T10:39:25.583Z",
   "items": [
+    {
+      "id": "1z0fgsuno1u",
+      "key": "wscn:3191946",
+      "title": "国新、诚通出手，三季度加仓名单曝光",
+      "url": "https://wallstreetcn.com/livenews/3191946",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T09:10:28.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "随着2026年A股三季报披露收官，中国国新与中国诚通两大国有资本运营平台三季度持仓动向浮出水面。中国国新旗下国新投资以及中国诚通控股集团有限公司，在电力、能源、军工电子、通信、半导体等多个重点赛道，展开新进布局与增持动作。",
+      "flag": 1
+    },
+    {
+      "id": "1r7vrrdy8m5",
+      "key": "cls:2521561",
+      "title": "近40家A股上市公司三季度获中国国新、中国诚通新进或增仓",
+      "url": "https://www.cls.cn/detail/2521561",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T09:03:37.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "据财联社不完全统计，截至发稿，云路股份、中材国际、国博电子、华大九天、国睿科技、中国动力、华能蒙电、时代电气、中瓷电子、中航光电、中金黄金、云铝股份、国电南瑞、国机精工、光迅科技、有研新材、东方钽业、福能股份、中国神华、海光信息、五矿发展、烽火通信、中航沈飞、华能水电、中国船舶、中国电信、中国中车、中远海控、中国卫通、中国石化、中国石油、中国铝业、中国巨石、中国联通、招商轮船、华润微、长电科技、中煤能源、中船特气在内的多家上市公司三季度A股获中国国新、中国诚通两大国有资本运营公司新进或增仓。其中，国新投资Q3新进",
+      "flag": 1
+    },
+    {
+      "id": "1xkmh63xxfm",
+      "key": "em:202610313917595180",
+      "title": "标普下调Meta信用展望！巨额资本支出和负自由现金流为主要担忧",
+      "url": "https://finance.eastmoney.com/a/202610313917595180.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T06:57:00.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "人工智能领域的高额资本支出正在让投资者退却，并引发了科技股的抛售。周五，美股全线收跌，纳斯达克指数下跌2.8%，标准普尔500指数下跌2%。市场抛售并非危机的全部。标普全球评级周五将Meta的信用评级从AA-稳定下调至AA-负面，理由是该公司在人工智能方面的巨额支出正给其资产负债表带来越来越大的压力。",
+      "flag": 1,
+      "dupOf": "y0x85pcra9"
+    },
+    {
+      "id": "18r8k2w8oyj",
+      "key": "em:202610313917595046",
+      "title": "消息人士透露美计划在中期选举后恢复对伊朗打击",
+      "url": "https://finance.eastmoney.com/a/202610313917595046.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T06:49:00.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "据美国MS Now新闻频道30日报道，美国总统特朗普正计划在美国中期选举之后恢复对伊朗的打击。3名海湾阿拉伯高级官员透露，美国政府已向海湾盟友通报，需要为一轮“短暂但密集的”打击行动做准备，打击最快可能会发生在11月4日。消息称，美国的海湾盟友正在努力缓和局势，他们担心伊朗可能将采取的报复措施。",
+      "related": [
+        {
+          "id": "217vu9a6qqa",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2521397",
+          "title": "据报道，特朗普计划在中期选举次日恢复对伊朗的打击。美国通报海湾国家要求其做好最早11月4日发动打击的准备",
+          "publishedAt": "2026-10-30T21:28:36.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "em-commodity",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-10-30T21:28:36.000Z"
+      }
+    },
+    {
+      "id": "3p4dwwd7xt",
+      "key": "url:cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
+      "title": "Trump called out Big Oil profits. Here’s how much their refining earnings have surged since",
+      "url": "https://www.cnbc.com/2026/10/31/trump-big-oil-refining-profits.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-31T06:00:02.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "Trump criticized Big Oil for making “too much money,” but oil majors have since reported surging refining earnings as fuel supplies tightened."
+    },
     {
       "id": "f404y05oxl",
       "key": "sina:5184474",
@@ -706,7 +823,8 @@
       "topics": [
         "policy-us"
       ],
-      "flag": 1
+      "flag": 1,
+      "dupOf": "18r8k2w8oyj"
     },
     {
       "id": "5ly8vwa9rz",
@@ -746,12 +864,30 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "topics": [
         "us-stocks"
       ],
       "excerpt": "标普：将Meta Platforms评级展望从稳定下调至负面，因资本支出和自由运营现金流面临重大不确定性。 我们预计Meta在2028年将仅通过债务来弥补其预期的自由现金流缺口。 负面展望反映出资本支出可能维持高位的时间长度，以及自由运营现金流将维持负值的时间长度，均存在不确定性。 Meta将其人工智能（AI）投资变现的能力弱于同业。 还认为资本支出居高不下，可能导致自由运营现金流在 2028 年之后仍为负值。 预计Meta将仅通过举债来弥补2028年预期的自由运营现金流缺口。 鉴于Meta未来资本支出及其雄心勃勃的多年期AI投资计划缺乏清晰度，其能否…",
-      "flag": 1
+      "flag": 1,
+      "related": [
+        {
+          "id": "1xkmh63xxfm",
+          "sourceId": "em-focus",
+          "sourceName": "东方财富",
+          "url": "https://finance.eastmoney.com/a/202610313917595180.html",
+          "title": "标普下调Meta信用展望！巨额资本支出和负自由现金流为主要担忧",
+          "publishedAt": "2026-10-31T06:57:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "wscn-global",
+          "em-focus"
+        ],
+        "firstPublishedAt": "2026-10-30T21:05:17.000Z"
+      }
     },
     {
       "id": "1bzlz09jcyx",
@@ -16065,25 +16201,6 @@
         "pboc"
       ],
       "excerpt": "为保持银行体系流动性充裕，今天，中国人民银行将以固定数量、利率招标、多重价位中标方式开展7000亿元中期借贷便利（MLF）操作，期限为1年期。中期借贷便利是中央银行提供中期基础货币的货币政策工具，可通过招标方式开展。"
-    },
-    {
-      "id": "t6fzn0nqn1",
-      "key": "em:202610243907095140",
-      "title": "加息大消息！美联储 重磅来袭",
-      "url": "https://finance.eastmoney.com/a/202610243907095140.html",
-      "lang": "zh",
-      "sourceId": "em-cb",
-      "sourceName": "东方财富·全球央行",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-10-24T08:13:00.000Z",
-      "firstSeenAt": "2026-10-29T10:04:27.819Z",
-      "day": "2026-10-24",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed"
-      ],
-      "excerpt": "美联储的动向备受市场关注！美联储将于10月27日至28日召开议息会议。随着会议临近，市场焦点已转向美联储是否会进一步加息，以及本次会议将为12月政策路径释放何种信号。美联储曾在9月进行自2023年以来的首次加息，以应对高于目标的通胀。但根据LSEG数据，联邦基金期货显示，美联储在10月28日（下周三）发布政策声明时再次加息的可能性不到10%。"
     }
   ]
 }

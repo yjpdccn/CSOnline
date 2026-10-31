@@ -1,0 +1,1947 @@
+{
+  "peers": {
+    "纳斯达克100指数": [
+      {
+        "code": "000834",
+        "name": "大成纳斯达克100ETF联接(QDII)A",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.8,
+          "custody": 0.2,
+          "service": 0
+        },
+        "established": "2014-11-13",
+        "size": 6073000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "限大额",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": 10,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      },
+      {
+        "code": "015299",
+        "name": "华夏纳斯达克100ETF发起式联接(QDII)A",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.6,
+          "custody": 0.2,
+          "service": 0
+        },
+        "established": "2022-04-14",
+        "size": 816000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "暂停申购",
+          "redeem": "开放赎回",
+          "dca": "不支持",
+          "limit": 100,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "016055",
+        "name": "博时纳斯达克100ETF发起式联接(QDII)A人民币",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.5,
+          "custody": 0.15,
+          "service": 0
+        },
+        "established": "2022-07-26",
+        "size": 4415000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "暂停申购",
+          "redeem": "开放赎回",
+          "dca": "不支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      },
+      {
+        "code": "016452",
+        "name": "南方纳斯达克100指数发起(QDII)A",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.5,
+          "custody": 0.15,
+          "service": 0
+        },
+        "established": "2022-11-29",
+        "size": 15460000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "限大额",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": 10,
+          "asOf": "2026-10-31T10:39:25.583Z"
+        }
+      },
+      {
+        "code": "016532",
+        "name": "嘉实纳斯达克100ETF发起联接(QDII)A人民币",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.5,
+          "custody": 0.1,
+          "service": 0
+        },
+        "established": "2022-09-15",
+        "size": 3552000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "暂停申购",
+          "redeem": "开放赎回",
+          "dca": "不支持",
+          "limit": 100,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      },
+      {
+        "code": "018043",
+        "name": "天弘纳斯达克100指数发起(QDII)A",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.5,
+          "custody": 0.1,
+          "service": 0
+        },
+        "established": "2023-04-11",
+        "size": 6576000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "暂停申购",
+          "redeem": "开放赎回",
+          "dca": "不支持",
+          "limit": 100,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      },
+      {
+        "code": "018966",
+        "name": "汇添富纳斯达克100ETF发起式联接(QDII)人民币A",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.5,
+          "custody": 0.15,
+          "service": 0
+        },
+        "established": "2023-08-02",
+        "size": 3659000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "暂停申购",
+          "redeem": "开放赎回",
+          "dca": "不支持",
+          "limit": 10,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      },
+      {
+        "code": "019172",
+        "name": "摩根纳斯达克100指数(QDII)人民币A",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.5,
+          "custody": 0.1,
+          "service": 0
+        },
+        "established": "2023-09-25",
+        "size": 4342000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "限大额",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": 10,
+          "asOf": "2026-10-31T10:39:25.583Z"
+        }
+      },
+      {
+        "code": "019441",
+        "name": "万家纳斯达克100指数发起式(QDII)A",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.5,
+          "custody": 0.15,
+          "service": 0
+        },
+        "established": "2023-09-27",
+        "size": 2183000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "限大额",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": 5,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      },
+      {
+        "code": "019524",
+        "name": "华泰柏瑞纳斯达克100ETF发起式联接(QDII)A",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.5,
+          "custody": 0.15,
+          "service": 0
+        },
+        "established": "2023-10-19",
+        "size": 1477000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "限大额",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": 5,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      },
+      {
+        "code": "019547",
+        "name": "招商纳斯达克100ETF发起式联接(QDII)A",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.5,
+          "custody": 0.15,
+          "service": 0
+        },
+        "established": "2023-11-29",
+        "size": 3769000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "暂停申购",
+          "redeem": "开放赎回",
+          "dca": "不支持",
+          "limit": 10,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      },
+      {
+        "code": "019736",
+        "name": "宝盈纳斯达克100指数发起(QDII)A人民币",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.5,
+          "custody": 0.15,
+          "service": 0
+        },
+        "established": "2024-03-22",
+        "size": 3996000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "限大额",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": 10,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      },
+      {
+        "code": "040046",
+        "name": "华安纳斯达克100ETF联接(QDII)A",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.6,
+          "custody": 0.2,
+          "service": 0
+        },
+        "established": "2013-08-02",
+        "size": 20531000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "暂停申购",
+          "redeem": "开放赎回",
+          "dca": "不支持",
+          "limit": 5,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      },
+      {
+        "code": "160213",
+        "name": "国泰纳斯达克100指数",
+        "cls": "",
+        "qdii": true,
+        "fees": {
+          "management": 0.8,
+          "custody": 0.2
+        },
+        "established": "2010-04-29",
+        "size": 2882000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "暂停申购",
+          "redeem": "开放赎回",
+          "dca": "不支持",
+          "limit": 100,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      },
+      {
+        "code": "161130",
+        "name": "易方达纳斯达克100ETF联接(QDII-LOF)A(人民币)",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.5,
+          "custody": 0.1,
+          "service": 0
+        },
+        "established": "2017-06-23",
+        "size": 1906000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "暂停申购",
+          "redeem": "开放赎回",
+          "dca": "不支持",
+          "limit": 10,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      },
+      {
+        "code": "270042",
+        "name": "广发纳斯达克100ETF联接人民币(QDII)A",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.8,
+          "custody": 0.2,
+          "service": 0
+        },
+        "established": "2012-08-15",
+        "size": 37488000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "暂停申购",
+          "redeem": "开放赎回",
+          "dca": "不支持",
+          "limit": 10,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      },
+      {
+        "code": "539001",
+        "name": "建信纳斯达克100指数(QDII)A人民币",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.8,
+          "custody": 0.2,
+          "service": 0
+        },
+        "established": "2010-09-14",
+        "size": 13585000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "限大额",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": 10,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      }
+    ],
+    "S&P 500 EQUAL WEIGHTED TOTAL RETURN": [],
+    "黄金9999": [
+      {
+        "code": "008142",
+        "name": "工银黄金ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2020-05-21",
+        "size": 6413000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "008701",
+        "name": "华夏黄金ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2020-07-16",
+        "size": 8675000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "限大额",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": 75000000,
+          "asOf": "2026-10-31T10:39:25.583Z"
+        }
+      }
+    ],
+    "中证A500指数": [
+      {
+        "code": "019510",
+        "name": "华宝中证A500ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2025-01-09",
+        "size": 226000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022421",
+        "name": "大成中证A500ETF发起式联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-12",
+        "size": 482000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022424",
+        "name": "广发中证A500ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-05",
+        "size": 4218000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022426",
+        "name": "泰康中证A500ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-10-29",
+        "size": 1371000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022428",
+        "name": "天弘中证A500ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-07",
+        "size": 1386000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022430",
+        "name": "华夏中证A500ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-10-31",
+        "size": 6919000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022434",
+        "name": "南方中证A500ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-12",
+        "size": 5137000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:39:25.583Z"
+        }
+      },
+      {
+        "code": "022436",
+        "name": "摩根中证A500ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-11",
+        "size": 1152000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022438",
+        "name": "华泰柏瑞中证A500ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-12",
+        "size": 1894000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022440",
+        "name": "万家中证A500ETF发起式联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-12",
+        "size": 472000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022444",
+        "name": "景顺长城中证A500ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-06",
+        "size": 1518000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022448",
+        "name": "国泰中证A500ETF发起联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-08",
+        "size": 1490000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022450",
+        "name": "银华中证A500ETF发起式联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-13",
+        "size": 449000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022453",
+        "name": "嘉实中证A500ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-12",
+        "size": 1496000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022455",
+        "name": "招商中证A500ETF发起式联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-05",
+        "size": 3185000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022457",
+        "name": "博时中证A500ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-10-30",
+        "size": 1107000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022459",
+        "name": "易方达中证A500ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-11",
+        "size": 7011000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:39:25.583Z"
+        }
+      },
+      {
+        "code": "022463",
+        "name": "富国中证A500ETF发起式联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-11",
+        "size": 1946000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022465",
+        "name": "华安中证A500ETF发起式联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-12",
+        "size": 553000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022469",
+        "name": "汇添富中证A500ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-10",
+        "size": 608000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022665",
+        "name": "鹏华中证A500ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-30",
+        "size": 517000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022894",
+        "name": "景顺长城中证A500ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 1518000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022902",
+        "name": "富国中证A500ETF发起式联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 1946000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022904",
+        "name": "大成中证A500ETF发起式联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 482000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022905",
+        "name": "嘉实中证A500ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 1496000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022911",
+        "name": "摩根中证A500ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 1152000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022916",
+        "name": "博时中证A500ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 1107000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022918",
+        "name": "南方中证A500ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 5137000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:39:25.583Z"
+        }
+      },
+      {
+        "code": "022930",
+        "name": "易方达中证A500ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 7011000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:39:25.583Z"
+        }
+      },
+      {
+        "code": "022931",
+        "name": "华安中证A500ETF发起式联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 553000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022938",
+        "name": "招商中证A500ETF发起式联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 3185000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022942",
+        "name": "泰康中证A500ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 1371000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022944",
+        "name": "银华中证A500ETF发起式联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 449000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022947",
+        "name": "华泰柏瑞中证A500ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 1894000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022966",
+        "name": "天弘中证A500ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 1386000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022967",
+        "name": "万家中证A500ETF发起式联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 472000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022971",
+        "name": "广发中证A500ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 4218000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022979",
+        "name": "华夏中证A500ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 6919000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022982",
+        "name": "工银中证A500ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 1795000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "023022",
+        "name": "交银中证A500指数A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2025-01-22",
+        "size": 232000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "023184",
+        "name": "平安中证A500ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2025-02-28",
+        "size": 213000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "026615",
+        "name": "国泰中证A500ETF发起联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2026-01-06",
+        "size": 1490000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      }
+    ],
+    "沪深300指数": [
+      {
+        "code": "000051",
+        "name": "华夏沪深300ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2009-07-10",
+        "size": 13953000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "007538",
+        "name": "永赢沪深300ETF发起联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2019-07-09",
+        "size": 401000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "008776",
+        "name": "华安沪深300ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2020-08-03",
+        "size": 475000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": 100000000000,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022890",
+        "name": "嘉实沪深300ETF联接(LOF)Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-18",
+        "size": 1241000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022924",
+        "name": "南方沪深300ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 1623000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "不支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022928",
+        "name": "易方达沪深300ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 25165000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:39:25.583Z"
+        }
+      },
+      {
+        "code": "022948",
+        "name": "华泰柏瑞沪深300ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 6997000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022955",
+        "name": "天弘沪深300ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 8243000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022964",
+        "name": "广发沪深300ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 2209000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "022983",
+        "name": "华夏沪深300ETF联接Y",
+        "cls": "Y",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-12-13",
+        "size": 13953000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "110020",
+        "name": "易方达沪深300ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2009-08-26",
+        "size": 25165000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:39:25.583Z"
+        }
+      },
+      {
+        "code": "160615",
+        "name": "鹏华沪深300ETF联接(LOF)A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2009-04-03",
+        "size": 1382000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "160706",
+        "name": "嘉实沪深300ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2005-08-29",
+        "size": 7374000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "460300",
+        "name": "华泰柏瑞沪深300ETF联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2012-05-29",
+        "size": 6997000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      }
+    ],
+    "中证红利低波动指数": [
+      {
+        "code": "020602",
+        "name": "易方达中证红利低波动ETF联接发起式A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-03-12",
+        "size": 5191000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "021482",
+        "name": "华夏中证红利低波动ETF发起式联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-07-02",
+        "size": 1107000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      },
+      {
+        "code": "021707",
+        "name": "富国中证红利低波动ETF发起式联接A",
+        "cls": "A",
+        "qdii": false,
+        "fees": {
+          "management": 0.15,
+          "custody": 0.05,
+          "service": 0
+        },
+        "established": "2024-11-01",
+        "size": 266000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "开放申购",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": null,
+          "asOf": "2026-10-31T10:40:12.249Z"
+        }
+      }
+    ],
+    "标准普尔500指数": [
+      {
+        "code": "017641",
+        "name": "摩根标普500指数(QDII)人民币A",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.5,
+          "custody": 0.15,
+          "service": 0
+        },
+        "established": "2023-04-06",
+        "size": 19781000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "限大额",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": 10,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      },
+      {
+        "code": "018064",
+        "name": "华夏标普500ETF发起式联接(QDII)A(人民币)",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.6,
+          "custody": 0.15,
+          "service": 0
+        },
+        "established": "2023-05-10",
+        "size": 819000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "暂停申购",
+          "redeem": "开放赎回",
+          "dca": "不支持",
+          "limit": 100,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      },
+      {
+        "code": "050025",
+        "name": "博时标普500ETF联接A",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.6,
+          "custody": 0.2,
+          "service": 0
+        },
+        "established": "2012-06-14",
+        "size": 10034000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "暂停申购",
+          "redeem": "开放赎回",
+          "dca": "不支持",
+          "limit": 100,
+          "asOf": "2026-10-31T10:39:25.583Z"
+        }
+      },
+      {
+        "code": "161125",
+        "name": "易方达标普500指数人民币A",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 0.8,
+          "custody": 0.2,
+          "service": 0
+        },
+        "established": "2016-12-02",
+        "size": 1641000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "暂停申购",
+          "redeem": "开放赎回",
+          "dca": "不支持",
+          "limit": 10,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      }
+    ],
+    "中证中金优选300指数": [],
+    "same:021277": [
+      {
+        "code": "270023",
+        "name": "广发全球精选股票(QDII)人民币A",
+        "cls": "A",
+        "qdii": true,
+        "fees": {
+          "management": 1.2,
+          "custody": 0.2,
+          "service": 0
+        },
+        "established": "2010-08-18",
+        "size": 38930000000,
+        "sizeDate": "2026-09-30",
+        "status": {
+          "purchase": "限大额",
+          "redeem": "开放赎回",
+          "dca": "支持",
+          "limit": 2000,
+          "asOf": "2026-10-31T10:40:27.117Z"
+        }
+      }
+    ]
+  },
+  "tracked": {
+    "110020": {
+      "size": 25165000000,
+      "sizeDate": "2026-09-30",
+      "established": "2009-08-26",
+      "trackingError": 1.07
+    },
+    "110051": {
+      "size": 16089000000,
+      "sizeDate": "2026-09-30",
+      "established": "2012-11-26"
+    },
+    "501060": {
+      "size": 947000000,
+      "sizeDate": "2026-09-30",
+      "established": "2018-08-30",
+      "trackingError": 0.98
+    },
+    "510300": {
+      "size": 106879000000,
+      "sizeDate": "2026-09-30",
+      "established": "2012-05-04",
+      "trackingError": 0.35
+    },
+    "512890": {
+      "size": 31287000000,
+      "sizeDate": "2026-09-30",
+      "established": "2018-12-19",
+      "trackingError": 1.15
+    },
+    "513100": {
+      "size": 19766000000,
+      "sizeDate": "2026-09-30",
+      "established": "2013-04-25",
+      "trackingError": 1.01
+    },
+    "513500": {
+      "size": 25181000000,
+      "sizeDate": "2026-09-30",
+      "established": "2013-12-05",
+      "trackingError": 1.08
+    },
+    "518850": {
+      "size": 17675000000,
+      "sizeDate": "2026-09-30",
+      "established": "2020-04-13",
+      "trackingError": 0.12
+    },
+    "518880": {
+      "size": 102616000000,
+      "sizeDate": "2026-09-30",
+      "established": "2013-07-18",
+      "trackingError": 0.07
+    },
+    "019172": {
+      "size": 4342000000,
+      "sizeDate": "2026-09-30",
+      "established": "2023-09-25",
+      "trackingError": 2.29
+    },
+    "016452": {
+      "size": 15460000000,
+      "sizeDate": "2026-09-30",
+      "established": "2022-11-29",
+      "trackingError": 1.42
+    },
+    "096001": {
+      "size": 2328000000,
+      "sizeDate": "2026-09-30",
+      "established": "2011-03-23",
+      "trackingError": 1.43
+    },
+    "008701": {
+      "size": 8675000000,
+      "sizeDate": "2026-09-30",
+      "established": "2020-07-16",
+      "trackingError": 1.09
+    },
+    "008702": {
+      "size": 8675000000,
+      "sizeDate": "2026-09-30",
+      "established": "2020-07-16",
+      "trackingError": 1.1
+    },
+    "022930": {
+      "size": 7011000000,
+      "sizeDate": "2026-09-30",
+      "established": "2024-12-13",
+      "trackingError": 1.18
+    },
+    "022918": {
+      "size": 5137000000,
+      "sizeDate": "2026-09-30",
+      "established": "2024-12-13",
+      "trackingError": 1.17
+    },
+    "022928": {
+      "size": 25165000000,
+      "sizeDate": "2026-09-30",
+      "established": "2024-12-13",
+      "trackingError": 1.07
+    },
+    "022459": {
+      "size": 7011000000,
+      "sizeDate": "2026-09-30",
+      "established": "2024-11-11",
+      "trackingError": 1.19
+    },
+    "022434": {
+      "size": 5137000000,
+      "sizeDate": "2026-09-30",
+      "established": "2024-11-12",
+      "trackingError": 1.17
+    },
+    "007466": {
+      "size": 13996000000,
+      "sizeDate": "2026-09-30",
+      "established": "2019-07-15",
+      "trackingError": 1.57
+    },
+    "050025": {
+      "size": 10034000000,
+      "sizeDate": "2026-09-30",
+      "established": "2012-06-14",
+      "trackingError": 1.22
+    },
+    "006672": {
+      "size": 2205000000,
+      "sizeDate": "2026-09-30",
+      "established": "2019-01-18"
+    },
+    "022502": {
+      "size": 31361000000,
+      "sizeDate": "2026-09-30",
+      "established": "2024-11-21",
+      "trackingError": 0.85
+    },
+    "015530": {
+      "size": 1959000000,
+      "sizeDate": "2026-09-30",
+      "established": "2022-11-01"
+    },
+    "021277": {
+      "size": 38930000000,
+      "sizeDate": "2026-09-30",
+      "established": "2024-04-18"
+    },
+    "000218": {
+      "size": 31361000000,
+      "sizeDate": "2026-09-30",
+      "established": "2016-04-13",
+      "trackingError": 0.85
+    }
+  },
+  "notices": {
+    "110020": [],
+    "110051": [],
+    "501060": [],
+    "510300": [],
+    "512890": [],
+    "513100": [],
+    "513500": [],
+    "518850": [],
+    "518880": [],
+    "022930": [],
+    "016452": [],
+    "096001": [],
+    "019172": [],
+    "008701": [],
+    "022928": [],
+    "022459": [],
+    "007466": [],
+    "008702": [],
+    "022434": [],
+    "006672": [],
+    "022918": [],
+    "022502": [],
+    "015530": [],
+    "021277": [],
+    "050025": [],
+    "000218": []
+  },
+  "checkedAt": "2026-10-31T10:39:25.583Z",
+  "compared": 346,
+  "noticesAt": "2026-10-31T10:39:25.583Z"
+}

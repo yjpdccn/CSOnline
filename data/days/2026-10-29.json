@@ -16,9 +16,9 @@
       "day": "2026-10-29",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 23.2,
+      "score": 25.2,
       "metrics": {
-        "stars": 1563
+        "stars": 2160
       },
       "aiAttempts": 1,
       "ai": {
@@ -61,7 +61,7 @@
       "category": "paper",
       "score": 25.7,
       "metrics": {
-        "points": 177,
+        "points": 178,
         "comments": 72
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50290283",
@@ -92,8 +92,8 @@
       ],
       "score": 35.8,
       "metrics": {
-        "points": 593,
-        "comments": 328
+        "points": 594,
+        "comments": 329
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50290177",
       "aiAttempts": 2,
@@ -195,9 +195,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 23.8,
+      "score": 24.9,
       "metrics": {
-        "stars": 1746
+        "stars": 2064
       },
       "ai": {
         "title": "Mika：手机上的私人 AI 助理",
@@ -220,10 +220,10 @@
       "firstSeenAt": "2026-10-30T02:45:24.843Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 27.5,
+      "score": 27.6,
       "metrics": {
-        "points": 223,
-        "comments": 80
+        "points": 228,
+        "comments": 81
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50289692",
       "aiAttempts": 1,
@@ -833,8 +833,8 @@
       ],
       "score": 72,
       "metrics": {
-        "points": 1688,
-        "comments": 435
+        "points": 1694,
+        "comments": 436
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50289418",
       "alsoOn": [
@@ -955,7 +955,7 @@
       "score": 24.2,
       "metrics": {
         "points": 127,
-        "comments": 105
+        "comments": 106
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50287359",
       "ai": {
@@ -2050,9 +2050,9 @@
       "day": "2026-10-29",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 22.4,
+      "score": 22.9,
       "metrics": {
-        "stars": 1364
+        "stars": 1493
       },
       "ai": {
         "title": "nvzhuang：AI 女装参考图集与虚拟试穿网站",
@@ -2429,7 +2429,7 @@
       ],
       "score": 35,
       "metrics": {
-        "points": 582,
+        "points": 583,
         "comments": 235
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50284255",
@@ -2513,7 +2513,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 309549,
+        "stars": 309673,
         "starsToday": 1259
       },
       "ai": {
@@ -2544,7 +2544,7 @@
       ],
       "score": 16.7,
       "metrics": {
-        "stars": 5931,
+        "stars": 5989,
         "starsToday": 117
       },
       "ai": {
@@ -2607,7 +2607,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 97325,
+        "stars": 97597,
         "starsToday": 2881
       },
       "ai": {
@@ -2697,7 +2697,7 @@
         ],
         "firstPublishedAt": "2026-10-29T03:24:01.011Z",
         "metrics": {
-          "stars": 8910,
+          "stars": 9029,
           "starsToday": 1054
         }
       }
@@ -2722,7 +2722,7 @@
       ],
       "score": 20.4,
       "metrics": {
-        "stars": 3926,
+        "stars": 3966,
         "starsToday": 233
       },
       "ai": {
@@ -3429,7 +3429,7 @@
       "categoryLocked": true,
       "score": 30.1,
       "metrics": {
-        "upvotes": 216,
+        "upvotes": 223,
         "comments": 2
       },
       "ai": {
@@ -3572,9 +3572,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 24.4,
+      "score": 25.2,
       "metrics": {
-        "upvotes": 84,
+        "upvotes": 94,
         "comments": 2
       },
       "ai": {
@@ -3583,6 +3583,37 @@
         "category": "multimodal",
         "model": "glm-4.7-flash",
         "at": "2026-10-30T17:09:47.291Z"
+      }
+    },
+    {
+      "id": "d5z6ajxrf8",
+      "key": "arxiv:2610.37230",
+      "title": "TAO: Tool-Aware Joint Scheduling for LLM-Based Agentic Serving",
+      "url": "https://huggingface.co/papers/2610.37230",
+      "excerpt": "TAO improves scheduling for LLM agent services by considering tool readiness and using dynamic programming to place sessions, reducing latency and increasing throughput.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "firstSeenAt": "2026-10-31T10:39:25.583Z",
+      "day": "2026-10-29",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 21.3,
+      "metrics": {
+        "upvotes": 52,
+        "comments": 4
+      },
+      "ai": {
+        "title": "TAO：LLM 智能体服务工具感知联合调度",
+        "summary": "TAO 通过动态规划优化 LLM 智能体服务调度，降低延迟并提高吞吐量。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:41:14.285Z"
       }
     },
     {
@@ -3882,7 +3913,7 @@
       "category": "industry",
       "score": 25.5,
       "metrics": {
-        "points": 170,
+        "points": 171,
         "comments": 76
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50280178",
