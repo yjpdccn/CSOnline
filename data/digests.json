@@ -74,42 +74,39 @@
   },
   "2026-10-31": {
     "day": "2026-10-31",
-    "generatedAt": "2026-10-30T17:10:42.236Z",
-    "itemCount": 135,
-    "mode": "ai",
-    "model": "glm-4.7-flash",
-    "overview": "Anthropic Claude Code 扩展被植后门，OpenAI Pro额度翻倍，百度搜索实现递归进化。",
+    "generatedAt": "2026-10-31T02:26:58.025Z",
+    "itemCount": 128,
+    "mode": "fallback",
+    "overview": "过去 24 小时共收录 128 条 AI 资讯：产品与行业 87 条、Agent 与工具 18 条、模型发布 10 条、开源项目 5 条、论文 5 条、多模态与视频 3 条。以下为按重要性排序的前 5 条。",
     "points": [
       {
-        "text": "Anthropic Claude Code 扩展被植持久 SSH 后门。",
+        "text": "【行业】Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
         "refs": [
-          "1ymrj42u6ci",
-          "5ej0wjlsrk"
+          "dj1817na0k"
         ]
       },
       {
-        "text": "OpenAI 将 Pro 计划使用限额翻倍至 500。",
+        "text": "【Agent】Malicious Claude Code extension in Cursor's marketplace attempted remote access and data theft",
         "refs": [
-          "15rtvo0vcu9",
-          "2ixage6v68"
+          "1v888p6obl6"
         ]
       },
       {
-        "text": "百度 APP 搜索实现递归自我进化，API 价格低于 DeepSeek。",
+        "text": "【Agent】Claude Code VS Code 扩展被植入持久 SSH 后门",
         "refs": [
-          "joup5pr4ds"
+          "1ymrj42u6ci"
         ]
       },
       {
-        "text": "英伟达开源基于 MiniMax H3 的 4K 视频增强方案。",
+        "text": "【行业】阿里巴巴与 Apple 达成合作，将千问集成至 Apple 智能",
         "refs": [
-          "1egv1bh2tq8"
+          "29dlqbs1y0d"
         ]
       },
       {
-        "text": "Google DevFest 2026 重启，聚焦 Agentic AI 时代。",
+        "text": "【模型】Show HN: A working Nintendo in ~1GB of Qwen weights",
         "refs": [
-          "bnjf8cj8jl"
+          "axlbztlzpo"
         ]
       }
     ]

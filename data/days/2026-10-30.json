@@ -14,10 +14,10 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 26.2,
+      "score": 36,
       "metrics": {
-        "points": 163,
-        "comments": 126
+        "points": 512,
+        "comments": 385
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50305693",
       "ai": {
@@ -27,6 +27,23 @@
         "model": "glm-4.7-flash",
         "at": "2026-10-30T17:07:25.839Z"
       }
+    },
+    {
+      "id": "5sta9tr7d4",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs",
+      "title": "Copium Prediction: Google and other major labs will drop new local models over the next few days so they can lead on benchmarks until Qwen 4 sweeps them next week.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/",
+      "excerpt": "We saw this earlier when Gemma 4 dropped just a few days before a previous Qwen release. I feel like a few other labs did the same. Everybody wants that moment in the spotlight where they can lead the benchmarks for at least a day or two before the next Qwen comes in and mops th…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T15:29:46.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-30",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/"
     },
     {
       "id": "17w28ui7xti",
@@ -129,6 +146,26 @@
       }
     },
     {
+      "id": "1r1xhr1xpuo",
+      "key": "url:twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
+      "title": "Anthropic Cracking Down on Video Game Rewrites",
+      "url": "https://twitter.com/chasmmmmmmmmmmm/status/2116062991686721968",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T14:22:52.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-30",
+      "category": "multimodal",
+      "score": 22.8,
+      "metrics": {
+        "points": 102,
+        "comments": 101
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50304358"
+    },
+    {
       "id": "pd8l57ot15",
       "key": "url:reddit.com/r/LocalLLaMA/comments/1xjgfuv/another_reason_to_own_your_own_compute_your",
       "title": "Another reason to own your own compute. Your account may get banned in a sneaky update.",
@@ -151,6 +188,26 @@
         "model": "glm-4.7-flash",
         "at": "2026-10-30T17:09:47.291Z"
       }
+    },
+    {
+      "id": "13qwor5dqh2",
+      "key": "url:fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs",
+      "title": "Cisco gives engineer unlimited AI tokens to rewrite legacy code",
+      "url": "https://fortune.com/2026/10/30/cisco-president-jeetu-patel-gen-z-27-year-old-unlimited-ai-tokens-rewrite-legacy-code-entry-level-jobs/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T14:08:20.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 24,
+      "metrics": {
+        "points": 114,
+        "comments": 129
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50304122"
     },
     {
       "id": "h3wasw44e9",
@@ -438,10 +495,18 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xizbq1/sam_altman_local_inference_is_a_terrible/",
           "title": "Sam Altman: “Local inference is a terrible allocation of scarce resources”",
           "publishedAt": "2026-10-29T23:11:52.000Z"
+        },
+        {
+          "id": "22961rlhrr",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1023820/sam-altman-ram-shortage-cloud-servers",
+          "title": "Sam Altman says it’s better for RAM to be in a data center than on your desk",
+          "publishedAt": "2026-10-30T20:48:43.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "verge-ai",
           "reddit-localllama"
@@ -936,7 +1001,7 @@
         ],
         "firstPublishedAt": "2026-10-30T11:05:53.000Z",
         "metrics": {
-          "points": 645,
+          "points": 652,
           "comments": 17
         }
       },
@@ -1001,7 +1066,7 @@
       ],
       "score": 30.8,
       "metrics": {
-        "points": 645,
+        "points": 652,
         "comments": 17
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50302334",
@@ -1213,13 +1278,13 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 33,
+      "score": 33.1,
       "metrics": {
-        "points": 396,
+        "points": 399,
         "comments": 1
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50301983",
-      "dupOf": "5ej0wjlsrk"
+      "dupOf": "1v888p6obl6"
     },
     {
       "id": "7w1twugbzt",
@@ -1271,6 +1336,22 @@
       "dupOf": "x342szaab"
     },
     {
+      "id": "1mt0cystd6z",
+      "key": "url:openai.com/index/helping-websites-express-ai-training-preferences",
+      "title": "Making it easier for websites to express AI training preferences",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
+      "excerpt": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-30T09:30:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 30
+    },
+    {
       "id": "us6of0r8gy",
       "key": "hn:50301479",
       "title": "Ask HN: Are you tired too in this AI era?",
@@ -1284,10 +1365,10 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 24.7,
+      "score": 25.5,
       "metrics": {
-        "points": 131,
-        "comments": 124
+        "points": 142,
+        "comments": 138
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50301479",
       "ai": {
@@ -1728,40 +1809,20 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 34.9,
+      "score": 36,
       "metrics": {
-        "points": 375,
-        "comments": 361
+        "points": 789,
+        "comments": 493
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50300683",
-      "related": [
-        {
-          "id": "42pxz777p7",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50301983",
-          "title": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
-          "publishedAt": "2026-10-30T10:22:51.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "hackernews"
-        ],
-        "firstPublishedAt": "2026-10-30T07:09:12.000Z",
-        "metrics": {
-          "points": 396,
-          "comments": 361
-        }
-      },
       "ai": {
         "title": "Claude Code VS Code 扩展被植入后门",
         "summary": "Cursor 市场上 Anthropic 官方 Claude Code 扩展被植入后门。",
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-10-30T17:07:25.839Z"
-      }
+      },
+      "dupOf": "1v888p6obl6"
     },
     {
       "id": "1egv1bh2tq8",
@@ -2635,6 +2696,22 @@
       }
     },
     {
+      "id": "15z0pq8rq6s",
+      "key": "url:qbitai.com/2026/10/506569.html",
+      "title": "买车送终身AI？智己LS8纯电版25万起！全系线控底盘宁德时代标配",
+      "url": "https://www.qbitai.com/2026/10/506569.html",
+      "excerpt": "Momenta世界模型上车",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T00:19:06.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 18
+    },
+    {
       "id": "1k9zq9mqlyy",
       "key": "url:36kr.com/p/4047595233098247",
       "title": "刚刚，奥特曼自曝OpenAI新模型：让我兴奋到两晚没睡",
@@ -2704,10 +2781,10 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 28.8,
+      "score": 29.1,
       "metrics": {
-        "upvotes": 152,
-        "comments": 3
+        "upvotes": 157,
+        "comments": 4
       },
       "ai": {
         "title": "A-RSI：零数据多模态自改进",
@@ -2732,10 +2809,10 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 24.8,
+      "score": 25,
       "metrics": {
-        "upvotes": 89,
-        "comments": 2
+        "upvotes": 91,
+        "comments": 3
       },
       "ai": {
         "title": "仅需时才查看：证书引导的视觉路由",
@@ -2763,10 +2840,10 @@
       "keywords": [
         "图像生成"
       ],
-      "score": 30.1,
+      "score": 30.2,
       "metrics": {
-        "upvotes": 234,
-        "comments": 2
+        "upvotes": 238,
+        "comments": 3
       },
       "ai": {
         "title": "Intrinsic Distribution Matching 提升少步文本生成",
@@ -2791,10 +2868,10 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 28.1,
+      "score": 28.3,
       "metrics": {
-        "upvotes": 139,
-        "comments": 2
+        "upvotes": 143,
+        "comments": 3
       },
       "ai": {
         "title": "基准测试是困难程度的经验测量",
@@ -2802,6 +2879,65 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-10-30T17:07:25.839Z"
+      }
+    },
+    {
+      "id": "197nu976usj",
+      "key": "url:openai.com/index/fair-use-benefits-everyone",
+      "title": "Fair use benefits everyone",
+      "url": "https://openai.com/index/fair-use-benefits-everyone",
+      "excerpt": "OpenAI shares excerpts from court briefs by creators, academics, accessibility advocates, and legal experts, among others, on how fair use supports AI training and innovation.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 30
+    },
+    {
+      "id": "oaqwleh7yl",
+      "key": "arxiv:2610.39302",
+      "title": "Proving and Improving the Platonic Representation Hypothesis with JEPAs",
+      "url": "https://huggingface.co/papers/2610.39302",
+      "excerpt": "Joint-embedding predictive architectures trained on aligned multi-modal observations converge to shared representations with far greater efficiency than next-token prediction, demonstrating that positive view design—not scale alone—drives cross-modal alignment.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-30",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 21.5,
+      "metrics": {
+        "upvotes": 54,
+        "comments": 4
+      }
+    },
+    {
+      "id": "zaa7ohes6q",
+      "key": "arxiv:2610.39301",
+      "title": "Youtu-Parsing-Omni: One Encoder, One Schema, All Modalities",
+      "url": "https://huggingface.co/papers/2610.39301",
+      "excerpt": "Youtu-Parsing-Omni is a unified multi-modal parser that encodes documents, images, audio, and video into structured spatiotemporal records using shared weights and cross-modal fusion, achieving state-of-the-art results across parsing benchmarks through a self-evolving on-policy…",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-30",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 21.7,
+      "metrics": {
+        "upvotes": 56,
+        "comments": 3
       }
     },
     {
@@ -2878,6 +3014,26 @@
       }
     },
     {
+      "id": "1smu2sd90xl",
+      "key": "url:twitter.com/sgondala2/status/2115832070274723875",
+      "title": "Building an AI-native engineering org",
+      "url": "https://twitter.com/sgondala2/status/2115832070274723875",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T21:58:34.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 24.1,
+      "metrics": {
+        "points": 110,
+        "comments": 149
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50296730"
+    },
+    {
       "id": "1k136hb2i4r",
       "key": "url:convo.casa/@b/117525936178835007",
       "title": "Proton goes all in on using AI",
@@ -2890,10 +3046,10 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 23.2,
+      "score": 23.7,
       "metrics": {
-        "points": 106,
-        "comments": 110
+        "points": 115,
+        "comments": 113
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50296602",
       "aiAttempts": 1
@@ -2939,10 +3095,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 32.5,
+      "score": 33.1,
       "metrics": {
-        "points": 372,
-        "comments": 153
+        "points": 397,
+        "comments": 163
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50296486",
       "aiAttempts": 1,
@@ -3282,10 +3438,18 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjfuqh/introducing_deepseekv41flash1017_dynamic_v31/",
           "title": "Introducing DeepSeek-V4.1-Flash-1017 Dynamic v3.1 Unsloth GGUFs",
           "publishedAt": "2026-10-30T13:48:01.000Z"
+        },
+        {
+          "id": "vyfdbegtqd",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjkjla/ista_deepseekv41flash1017_gsqrco_quants_comparison/",
+          "title": "ISTA DeepSeek-V4.1-Flash-1017 GSQ-RCO quants comparison",
+          "publishedAt": "2026-10-30T16:46:21.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "reddit-localllama"
         ],
@@ -3309,7 +3473,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 8251,
+        "stars": 8720,
         "starsToday": 1199
       },
       "ai": {
@@ -3341,7 +3505,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 105761,
+        "stars": 106351,
         "starsToday": 1145
       },
       "ai": {
@@ -3373,7 +3537,7 @@
       ],
       "score": 28.1,
       "metrics": {
-        "stars": 8597,
+        "stars": 8836,
         "starsToday": 707
       },
       "dupOf": "1zg0212pemm"
@@ -3423,10 +3587,10 @@
       "firstSeenAt": "2026-10-30T02:45:24.843Z",
       "day": "2026-10-30",
       "category": "agent",
-      "score": 24.5,
+      "score": 24.6,
       "metrics": {
-        "points": 122,
-        "comments": 136
+        "points": 124,
+        "comments": 139
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50292727",
       "aiAttempts": 1,

@@ -1,6 +1,1450 @@
 {
-  "updatedAt": "2026-10-30T17:05:35.764Z",
+  "updatedAt": "2026-10-31T02:25:20.490Z",
   "items": [
+    {
+      "id": "1hpxfm9uzw",
+      "key": "em:202610313917525595",
+      "title": "总值21亿美元、盟友“买单” 美国批准对乌500枚“爱国者”导弹军售",
+      "url": "https://finance.eastmoney.com/a/202610313917525595.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T02:02:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "据英国广播公司(BBC)报道，美国国务院当地时间10月30日发表声明称，已决定批准向乌克兰出售500枚“爱国者”导弹及相关设备，价值总额达21亿美元，费用“完全由合作伙伴和盟友承担”。",
+      "related": [
+        {
+          "id": "fj13akxwam",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwzyfi7873809.d.html",
+          "title": "美国国务院批准向乌克兰出售“爱国者先进能力-3”（PAC-3）导弹分段增强（MSE）导弹，估计价值21亿美元",
+          "publishedAt": "2026-10-30T18:55:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "em-commodity",
+          "sina"
+        ],
+        "firstPublishedAt": "2026-10-30T18:55:00.000Z"
+      }
+    },
+    {
+      "id": "1s9kg3usx2q",
+      "key": "url:stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html",
+      "title": "2026年10月中国采购经理指数运行情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html",
+      "lang": "zh",
+      "sourceId": "nbs",
+      "sourceName": "国家统计局",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-31T02:00:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 54,
+      "topics": [
+        "macro-cn"
+      ],
+      "dateOnly": true,
+      "related": [
+        {
+          "id": "1wy6gjp537y",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202610313917521468.html",
+          "title": "国家统计局：10月官方制造业PMI为49.3%",
+          "publishedAt": "2026-10-31T01:30:00.000Z"
+        },
+        {
+          "id": "oevwud0qbt",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2521439",
+          "title": "国家统计局：10月份制造业采购经理指数（PMI）为49.3%",
+          "publishedAt": "2026-10-31T01:31:28.000Z"
+        },
+        {
+          "id": "1b1jynzld7c",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-31/detail-inixarcc4061360.d.html",
+          "title": "国家统计局：10月份，综合PMI产出指数为49.7%，比上月下降1.0个百分点，我国企业生产经营活动总体有所放缓",
+          "publishedAt": "2026-10-31T01:32:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 4,
+        "sources": [
+          "nbs",
+          "em-commodity",
+          "cls",
+          "sina"
+        ],
+        "firstPublishedAt": "2026-10-31T01:30:00.000Z"
+      }
+    },
+    {
+      "id": "1b1jynzld7c",
+      "key": "sina:5184220",
+      "title": "国家统计局：10月份，综合PMI产出指数为49.7%，比上月下降1.0个百分点，我国企业生产经营活动总体有所放缓",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-inixarcc4061360.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T01:32:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "flag": 1,
+      "dupOf": "1s9kg3usx2q"
+    },
+    {
+      "id": "oevwud0qbt",
+      "key": "cls:2521439",
+      "title": "国家统计局：10月份制造业采购经理指数（PMI）为49.3%",
+      "url": "https://www.cls.cn/detail/2521439",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T01:31:28.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "excerpt": "国家统计局数据显示，10月份，制造业采购经理指数（PMI）为49.3%，比上月下降0.8个百分点，制造业景气水平有所回落。",
+      "flag": 1,
+      "dupOf": "1s9kg3usx2q"
+    },
+    {
+      "id": "llbkpge79m",
+      "key": "wscn:3191909",
+      "title": "中国10月官方制造业PMI 49.3，前值 50.1",
+      "url": "https://wallstreetcn.com/livenews/3191909",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T01:30:22.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "excerpt": "中国10月官方制造业PMI 49.3，前值 50.1。 中国10月官方非制造业PMI 49.7，前值 50.2。 中国10月官方综合PMI 49.7，前值 50.7。",
+      "flag": 2
+    },
+    {
+      "id": "1wy6gjp537y",
+      "key": "em:202610313917521468",
+      "title": "国家统计局：10月官方制造业PMI为49.3%",
+      "url": "https://finance.eastmoney.com/a/202610313917521468.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T01:30:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "excerpt": "10月份，制造业采购经理指数（PMI）为49.3%，比上月下降0.8个百分点，制造业景气水平有所回落。",
+      "dupOf": "1s9kg3usx2q"
+    },
+    {
+      "id": "1ftqnokopng",
+      "key": "em:202610303917021282",
+      "title": "债市突现大幅调整 发生了什么？",
+      "url": "https://finance.eastmoney.com/a/202610303917021282.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T00:59:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cn-bonds"
+      ],
+      "excerpt": "10月30日，国债期货超长端品种率先走弱，30年期主力合约收跌0.73%，创下3月9日以来最大单日跌幅；现券同步走弱，超长特别国债“26超长特别国债04”收益率上行3个基点，报2.083%。市场传出某地方国企信用风险消息，持仓机构出于风控考量提前抛售，这让市场也“弯了一下腰”，恐慌情绪出现外溢，从城投品种向整个债市蔓延，利率债也未能幸免。"
+    },
+    {
+      "id": "13k6569d6hy",
+      "key": "em:202610313917516565",
+      "title": "特朗普：房利美和房地美将向佛罗里达州抵押贷款投资400亿美元",
+      "url": "https://finance.eastmoney.com/a/202610313917516565.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T00:47:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "美国总统特朗普表示，房利美和房地美将向佛罗里达州抵押贷款投资400亿美元。"
+    },
+    {
+      "id": "1oin1kepbid",
+      "key": "sina:5183878",
+      "title": "避险资金转投美债 金价短期或难改颓势",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-inixakuy5042967.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T00:13:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold",
+        "rates-fx"
+      ],
+      "excerpt": "经过短暂反弹后，国际金价重返弱势，再度跌破4000美元/盎司。10月30日，伦敦现货黄金一度跌至3970美元/盎司下方，较8月25日盘中高点累计跌超15%。与此同时，国内沪金期货主力合约也延续弱势，盘中创下2026年以来最低价854.72元/克。业内人士表示，部分避险资金流向美债而非黄金、高油价推升通胀预期以及美联储货币政策维持偏鹰立场，共同构成当前黄金市场的主要压力。此外，黄金ETF资金流向变化也加剧了市场对短期走势的担忧。短期来看，金价或维持弱势震荡，未来价格能否企稳仍需观察地缘局势、国际油价、美国通胀数据及实际利率变化。（中国证券报）",
+      "dupOf": "th5n7geh7h"
+    },
+    {
+      "id": "12jwx3fy0av",
+      "key": "em:202610303917171947",
+      "title": "日本央行维持利率不变并加快缩表 政策目标开始转向？",
+      "url": "https://finance.eastmoney.com/a/202610303917171947.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T00:08:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "10月30日，日本央行结束为期两天的货币政策会议，决定将政策利率维持在1.25%，该利率仍为1995年以来最高水平。9月日本央行议息会议以7票赞成、2票反对通过加息决定，当时的反对票主要来自倾向于进一步收紧的委员。本次日本央行决议投票结果为8比1，一位委员主张将政策利率上调至1.5%，但该提议被委员会否决。",
+      "dupOf": "1h10061h73o"
+    },
+    {
+      "id": "pi56vdrwqg",
+      "key": "em:202610313917464411",
+      "title": "金价跌至一年来新低",
+      "url": "https://finance.eastmoney.com/a/202610313917464411.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T23:53:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "gold",
+        "macro-us"
+      ],
+      "excerpt": "受国际原油价格上涨、美国通胀压力加剧以及市场对美联储进一步加息的预期升温等因素影响，国际金价30日跌至一年来新低。截至收盘，纽商所12月交割的黄金期货价格报每盎司3898.9美元，跌幅为3.29%；12月交割的白银期价收于每盎司49.276美元，跌幅为5.93%。这是白银期货价格自2025年11月以来首次跌破每盎司50美元关口。"
+    },
+    {
+      "id": "1iszoeyn3ms",
+      "key": "em:202610313917324529",
+      "title": "政策利率“换锚”迎来关键一步 央行：隔夜逆回购操作将于每个工作日开展",
+      "url": "https://finance.eastmoney.com/a/202610313917324529.html",
+      "lang": "zh",
+      "sourceId": "em-pboc",
+      "sourceName": "东方财富·中国央行",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T23:16:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "pboc"
+      ],
+      "excerpt": "政策利率“换锚”迎来关键一步。中国人民银行10月30日发布公开市场业务公告称，为进一步优化短端利率调控机制，从2026年11月2日起，公开市场操作进行三项调整。"
+    },
+    {
+      "id": "1peof1vpqwn",
+      "key": "url:marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
+      "title": "Has the tech bubble burst? Why the Nasdaq’s rough ride looks eerily like 2000.",
+      "url": "https://www.marketwatch.com/story/has-the-tech-bubble-burst-why-the-nasdaqs-rough-ride-looks-eerily-like-2000-5bcefcb2?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T23:14:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Friday’s big plunge raises disturbing parallels with the top of the dot-com bubble",
+      "ai": {
+        "title": "科技泡沫破裂了吗？纳斯达克走势似2000年",
+        "summary": "纳斯达克暴跌，让人联想到2000年互联网泡沫。",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:28:19.443Z"
+      }
+    },
+    {
+      "id": "weppml6cke",
+      "key": "url:cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html",
+      "title": "Jim Cramer says it's time to look beyond tech. Here are 4 consumer stocks he likes",
+      "url": "https://www.cnbc.com/2026/10/30/jim-cramer-consumer-staples-stocks.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T22:52:04.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Cramer said investors looking to diversify beyond the struggling AI trade should consider consumer staples.",
+      "ai": {
+        "title": "克拉默建议关注科技股以外的消费股",
+        "summary": "克拉默建议投资者关注消费必需品股票。",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:28:19.443Z"
+      }
+    },
+    {
+      "id": "th5n7geh7h",
+      "key": "em:202610313917333869",
+      "title": "避险资金转投美债 金价短期或难改颓势",
+      "url": "https://finance.eastmoney.com/a/202610313917333869.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T22:52:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "gold",
+        "rates-fx"
+      ],
+      "excerpt": "经过短暂反弹后，国际金价重返弱势，再度跌破4000美元/盎司。10月30日，伦敦现货黄金一度跌至3970美元/盎司下方，较8月25日盘中高点累计跌超15%。与此同时，国内沪金期货主力合约也延续弱势，盘中创下2026年以来最低价854.72元/克。",
+      "related": [
+        {
+          "id": "1oin1kepbid",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-31/detail-inixakuy5042967.d.html",
+          "title": "避险资金转投美债 金价短期或难改颓势",
+          "publishedAt": "2026-10-31T00:13:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "em-commodity",
+          "sina"
+        ],
+        "firstPublishedAt": "2026-10-30T22:52:00.000Z"
+      }
+    },
+    {
+      "id": "2g3hx5gralg",
+      "key": "em:202610313917333231",
+      "title": "特朗普再称伊朗战事将“很快结束” 多架美军机飞抵以色列",
+      "url": "https://finance.eastmoney.com/a/202610313917333231.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T22:48:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "随着美国11月中期选举的临近，有关美国或将于选举后恢复对伊军事打击的消息也被不断曝出。有美官员及知情人士就在29日透露称，美国中央司令部司令布拉德·库珀于当日向美国总统特朗普汇报了针对伊朗的军事行动选项。不过特朗普尚未就是否对伊动武作出最终决定。",
+      "flag": 1,
+      "dupOf": "273bf7qalpj"
+    },
+    {
+      "id": "1bvigj86l8m",
+      "key": "url:cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+      "title": "Meta outlook revised downward by S&P on cash flow and capex concerns",
+      "url": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T22:42:26.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Meta has been given a negative outlook by S&P Global Ratings due to the company's hefty capital expenditures and concerns about free cash flow."
+    },
+    {
+      "id": "cjajqach3n",
+      "key": "sina:5183690",
+      "title": "10月31日隔夜要闻一览",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-inixakva1796468.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T22:41:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "1、三位美联储官员重申有必要进一步加息，同时主张采取渐进的紧缩方式，尽量减少对金融市场和经济的冲击。 2、股市剧烈震荡，纳指跌2.86%，创下6月以来最差单日表现；纳斯达克100指数下跌3.5%，创2025年3月以来最差单月表现，盘中一度下跌4.45%，短暂跌破技术性回调门槛。 3、苹果公司周五重新夺回全球市值最高公司的头衔，从英伟达手中接过这一位置。在人工智能支出引发担忧之际，投资者寻求苹果所带来的相对安全感。 4、英特尔股价大跌超28%，盘中创1982年以来最大跌幅；公司公布的最新业绩指引不及预期，预计明年难以实现正向自由现金流。 5、三名海湾国家…",
+      "flag": 1
+    },
+    {
+      "id": "b450467ess",
+      "key": "url:marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
+      "title": "This cybersecurity stock will be the next to join the S&P 500",
+      "url": "https://www.marketwatch.com/story/this-cybersecurity-stock-will-be-the-next-to-join-the-s-p-500-dc976803?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T22:20:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Okta is slated to join the index on Wednesday, replacing Kenvue."
+    },
+    {
+      "id": "1kblwhft8ah",
+      "key": "url:cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html",
+      "title": "Cramer’s week ahead: Expect more volatility as tech earnings, midterms loom",
+      "url": "https://www.cnbc.com/2026/10/30/jim-cramer-week-ahead-apple-amd-jobs-report.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T22:17:13.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "Investors await earnings from Apple, AMD, and other major companies, as well as the midterm elections and the monthly jobs report."
+    },
+    {
+      "id": "qyohzofmqb",
+      "key": "sina:5183687",
+      "title": "美国国务院：国务卿鲁比奥与沙特外交大臣今日讨论了伊朗、苏丹和也门问题",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-inixaepe1902445.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T22:17:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ]
+    },
+    {
+      "id": "113ahg8xaaj",
+      "key": "em:202610313917317282",
+      "title": "全球市场：纳指跌近3% 费城半导体指数跌超7% 英特尔重挫逾28%",
+      "url": "https://finance.eastmoney.com/a/202610313917317282.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T22:15:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "1、纳指跌2.86%，道指跌1.09%，标普跌1.82%。2、英特尔暴跌超28%。3、费城半导体指数跌7.2%创6月以来最大跌幅，闪迪跌超13%，高通跌超11%，英伟达跌超4%。4、国际贵金属大跌，现货黄金跌超3%，现货白银跌超5%。",
+      "flag": 1,
+      "dupOf": "cwaqnm7ocq"
+    },
+    {
+      "id": "1p27v9582ix",
+      "key": "sina:5183684",
+      "title": "美国国务院：国务卿鲁比奥今日会见了土耳其外长菲丹",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-inixaepi4236256.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T22:11:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ]
+    },
+    {
+      "id": "1dcltap44w0",
+      "key": "sina:5183680",
+      "title": "美联储12月加息的概率为72%",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-inixaepa5117624.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T22:00:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "据CME“美联储观察”：美联储12月维持利率不变的概率为28%，加息25个基点的概率为72%。美联储到明年1月维持利率不变的概率19.3%，累计加息25个基点的概率58.4%，累计加息50个基点的概率为22.3%。"
+    },
+    {
+      "id": "pd69e0zxhx",
+      "key": "url:marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
+      "title": "Why gold plunged to its lowest price in a year despite renewed Iran jitters",
+      "url": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T21:30:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "Safe-haven gold fell to its lowest price in a year, despite jitters around the potential for fresh Middle East attacks following the U.S. midterm elections on Tuesday"
+    },
+    {
+      "id": "217vu9a6qqa",
+      "key": "cls:2521397",
+      "title": "据报道，特朗普计划在中期选举次日恢复对伊朗的打击。美国通报海湾国家要求其做好最早11月4日发动打击的准备",
+      "url": "https://www.cls.cn/detail/2521397",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T21:28:36.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "5ly8vwa9rz",
+      "key": "url:marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
+      "title": "Warsh wants the Fed to say less. Two officials are pushing for more transparency.",
+      "url": "https://www.marketwatch.com/story/the-fed-held-interest-rates-steady-but-these-officials-see-more-hikes-coming-soon-2098bbd8?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T21:23:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "More interest-rate hikes are needed to fight inflation, Fed officials say.",
+      "ai": {
+        "title": "沃什希望美联储少说话，两名官员推动更多透明度",
+        "summary": "沃什希望美联储少说话，两名官员推动更多透明度。",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:28:19.443Z"
+      }
+    },
+    {
+      "id": "y0x85pcra9",
+      "key": "wscn:3191871",
+      "title": "标普：因AI支出和现金流担忧将Meta评级展望下调至“负面”",
+      "url": "https://wallstreetcn.com/livenews/3191871",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T21:05:17.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "标普：将Meta Platforms评级展望从稳定下调至负面，因资本支出和自由运营现金流面临重大不确定性。 我们预计Meta在2028年将仅通过债务来弥补其预期的自由现金流缺口。 负面展望反映出资本支出可能维持高位的时间长度，以及自由运营现金流将维持负值的时间长度，均存在不确定性。 Meta将其人工智能（AI）投资变现的能力弱于同业。 还认为资本支出居高不下，可能导致自由运营现金流在 2028 年之后仍为负值。 预计Meta将仅通过举债来弥补2028年预期的自由运营现金流缺口。 鉴于Meta未来资本支出及其雄心勃勃的多年期AI投资计划缺乏清晰度，其能否…",
+      "flag": 1
+    },
+    {
+      "id": "1bzlz09jcyx",
+      "key": "url:cnbc.com/2026/10/30/trump-california-counting-alleged-noncitizen-votes.html",
+      "title": "Trump admin again loses bid to block California from counting alleged noncitizen votes",
+      "url": "https://www.cnbc.com/2026/10/30/trump-california-counting-alleged-noncitizen-votes.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T20:43:57.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "A US appeals court on Friday rejected the Trump admin's request that it temporarily block the state from counting mail ballots from more than 20,000 registered voters."
+    },
+    {
+      "id": "1uiigv30fvd",
+      "key": "url:marketwatch.com/story/reddit-shares-on-track-for-largest-ever-one-day-drop-and-analysts-say-the-bad-news-hasnt-ended-25d46284?mod=mw_rss_topstories",
+      "title": "Reddit’s stock logs its biggest one-day drop ever. It’s not the last of the bad news, analysts say.",
+      "url": "https://www.marketwatch.com/story/reddit-shares-on-track-for-largest-ever-one-day-drop-and-analysts-say-the-bad-news-hasnt-ended-25d46284?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T20:42:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Reddit’s stock plunged on Friday after the community-discussion forum said its search referral traffic was down significantly in the third quarter."
+    },
+    {
+      "id": "kkspfiqkyr",
+      "key": "url:marketwatch.com/story/microsoft-is-winning-the-cloud-wars-and-becoming-wall-streets-new-golden-child-62eecbbd?mod=mw_rss_topstories",
+      "title": "Microsoft is winning the cloud wars and becoming Wall Street’s new golden child",
+      "url": "https://www.marketwatch.com/story/microsoft-is-winning-the-cloud-wars-and-becoming-wall-streets-new-golden-child-62eecbbd?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T20:29:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Various factors indicate that Microsoft is in a better financial position than its cloud rivals, analysts say."
+    },
+    {
+      "id": "1fnvku11ud5",
+      "key": "url:marketwatch.com/story/amds-stock-slides-after-intel-earnings-reveal-two-big-issues-d3afed91?mod=mw_rss_topstories",
+      "title": "AMD’s stock slides after Intel earnings reveal two big issues",
+      "url": "https://www.marketwatch.com/story/amds-stock-slides-after-intel-earnings-reveal-two-big-issues-d3afed91?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T20:28:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Intel is struggling to make enough AI server chips and dealing with a weak PC market. Investors will soon find out the degree to which AMD may be suffering from the same problems."
+    },
+    {
+      "id": "2npfv78r0o",
+      "key": "url:marketwatch.com/story/the-selloff-in-tech-stocks-is-shifting-into-overdrive-afb50975?mod=mw_rss_topstories",
+      "title": "The selloff in tech stocks is shifting into overdrive",
+      "url": "https://www.marketwatch.com/story/the-selloff-in-tech-stocks-is-shifting-into-overdrive-afb50975?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T20:26:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Technology stocks had been priced for perfection. They are now getting hammered."
+    },
+    {
+      "id": "fry6ysgwam",
+      "key": "url:cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html",
+      "title": "Midterms, Apple earnings, jobs report. Wall Street faces a big week ahead just as investors dump tech",
+      "url": "https://www.cnbc.com/2026/10/30/stock-market-next-week-outlook-for-nov-2-6-2026.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T20:25:58.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us",
+        "us-stocks",
+        "macro-us"
+      ],
+      "excerpt": "Next week is shaping up to be a potentially shaky one amid rumblings in the artificial intelligence trade.",
+      "ai": {
+        "title": "中期选举、苹果财报、就业报告，华尔街面临动荡一周",
+        "summary": "投资者抛售科技股，下周可能动荡。",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:28:19.443Z"
+      }
+    },
+    {
+      "id": "1oj5fazneul",
+      "key": "sina:5183608",
+      "title": "美国批准向乌克兰出售500枚“爱国者”导弹",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwzyfh1990079.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T20:18:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "当地时间10月30日获悉，美国国务院当日表示，已批准向乌克兰出售500枚“爱国者”PAC-3型导弹，交易总额预计为21亿美元。美国国务院在声明中指出，乌克兰将利用加拿大、德国和挪威提供的捐款，并结合欧盟“乌克兰支持贷款”所筹措的资金，来支付这批防御性拦截导弹的费用。（央视新闻）"
+    },
+    {
+      "id": "1z4aq9uryfq",
+      "key": "wscn:3191873",
+      "title": "美股存储芯片指数10月份累跌将近25%",
+      "url": "https://wallstreetcn.com/livenews/3191873",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T20:13:39.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "周五（10月30日），美股存储芯片与硬件供应链指数跌8.04%，报162.69点，10月份累计下跌24.77%，10月6-16日平滑地持续下跌，15-29日大致持稳于170点一线。 周五当天，成分股全线溃败，闪迪收跌13.47%，希捷科技、SK海力士ADR、应用材料、西部数据、泰瑞达跌7.98%-7.38%，Rambus、拉姆研究、美光科技也至少跌5.3%。",
+      "flag": 1,
+      "dupOf": "1lwij4ccg3u"
+    },
+    {
+      "id": "c8e1us933l",
+      "key": "cls:2521381",
+      "title": "纳指收跌2.9% 芯片股重挫 英特尔跌28%",
+      "url": "https://www.cls.cn/detail/2521381",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T20:02:31.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "美股三大指数集体收跌，道琼斯指数跌1.09%，标普500指数跌1.82%，纳斯达克综合指数跌2.86%。芯片股遭重挫，费城半导体指数跌7.2%，英特尔跌28.58%，闪迪跌超13%，高通跌超11%，AMD跌超10%，ARM跌超9%，希捷科技、西部数据、应用材料跌超7%，阿斯麦、拉姆研究跌超6%，台积电、博通跌超5%。",
+      "flag": 1
+    },
+    {
+      "id": "odcecx5hot",
+      "key": "wscn:3191884",
+      "title": "英特尔收跌29%，至少创最近40年来最差单日表现。 美股费城半导体指数跌7.2%，创6月份以来最大单日跌幅",
+      "url": "https://wallstreetcn.com/livenews/3191884",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T20:01:47.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "flag": 1,
+      "dupOf": "cwaqnm7ocq"
+    },
+    {
+      "id": "rgwtqh7qjj",
+      "key": "url:cnbc.com/2026/10/30/mutual-fund-capital-gains-distributions-2026.html",
+      "title": "Beware these stock funds for big capital gains distributions this year. How to manage the tax bill",
+      "url": "https://www.cnbc.com/2026/10/30/mutual-fund-capital-gains-distributions-2026.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T20:01:02.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Mutual fund families are preparing to roll out large capital gains to shareholders."
+    },
+    {
+      "id": "w6tbyd43u6",
+      "key": "wscn:3191879",
+      "title": "纳指科技指数收跌超4.2%，半导体指数重挫7.2%、10月份累跌超15%",
+      "url": "https://wallstreetcn.com/livenews/3191879",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T20:00:27.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "标普500指数收跌140.32点，跌幅1.82%，报7580.07点，本周累计下跌0.57%，10月份累计下跌0.93%，绝大部分时间处于上涨状态。标普500相等权重指数涨1.21%，报8912.96点，本周累涨0.8%，10月份累涨4.94%、整体持续上行。 道琼斯工业平均指数收跌572.25点，跌幅1.09%，报51770.31点，本周累跌0.85%，10月份累涨1.70%，10月1-22日持续走高。 纳斯达克综合指数（纳指）收跌747.726点，跌幅2.86%，报25436.999点，本周累跌2%，10月份累跌5.30%。 纳斯达克100指数收跌…",
+      "flag": 1,
+      "dupOf": "cwaqnm7ocq"
+    },
+    {
+      "id": "4o1gdep5w7",
+      "key": "sina:5183568",
+      "title": "美国国务院表示，已批准一项可能的外国军售，允许乌克兰购买500枚PAC-3 MSE拦截弹",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwzyfe5204244.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T19:08:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ]
+    },
+    {
+      "id": "emv380ma6x",
+      "key": "wscn:3191847",
+      "title": "纳斯达克100指数较10月高位回撤10%，料将进入回调阶段",
+      "url": "https://wallstreetcn.com/livenews/3191847",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T18:59:06.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "18qli2mc8l2",
+      "key": "url:cnbc.com/investingclub/2026/10/30/tech-gets-crushed-defensive-stocks-shine-how-were-making-sense-of-it-all.html",
+      "title": "Tech gets crushed, defensive stocks shine. How we're making sense of it all",
+      "url": "https://www.cnbc.com/investingclub/2026/10/30/tech-gets-crushed-defensive-stocks-shine-how-were-making-sense-of-it-all.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-30T18:55:44.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading."
+    },
+    {
+      "id": "fj13akxwam",
+      "key": "sina:5183559",
+      "title": "美国国务院批准向乌克兰出售“爱国者先进能力-3”（PAC-3）导弹分段增强（MSE）导弹，估计价值21亿美元",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwzyfi7873809.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T18:55:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "dupOf": "1hpxfm9uzw"
+    },
+    {
+      "id": "1eucq9j87w7",
+      "key": "em:202610313917308768",
+      "title": "上期所原油期货2612合约夜盘收涨4.25% 沪金夜盘收跌3.51%",
+      "url": "https://finance.eastmoney.com/a/202610313917308768.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T18:51:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "上期所原油期货2612合约夜盘收涨4.25%，报758.50元人民币/桶。沪金夜盘收跌3.51%，沪银收跌6.8%。"
+    },
+    {
+      "id": "1nckzwjhke0",
+      "key": "em:202610313917305460",
+      "title": "美使馆称美国务院已要求非紧急岗位人员离开沙特",
+      "url": "https://finance.eastmoney.com/a/202610313917305460.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T18:41:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "当地时间10月30日，美国驻沙特大使馆表示，美国国务院下令非紧急岗位工作人员及其家属离开沙特阿拉伯，该命令自10月23日起生效。大使馆称，此举是出于安全风险。",
+      "dupOf": "1nds5w93ih6"
+    },
+    {
+      "id": "1nds5w93ih6",
+      "key": "sina:5183544",
+      "title": "美使馆称美国务院已要求非紧急岗位人员离开沙特",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwzyfh1975712.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T18:40:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "当地时间10月30日，美国驻沙特大使馆表示，美国国务院下令非紧急岗位工作人员及其家属离开沙特阿拉伯，该命令自10月23日起生效。大使馆称，此举是出于安全风险。（央视新闻）",
+      "related": [
+        {
+          "id": "1nckzwjhke0",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202610313917305460.html",
+          "title": "美使馆称美国务院已要求非紧急岗位人员离开沙特",
+          "publishedAt": "2026-10-30T18:41:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "sina",
+          "em-commodity"
+        ],
+        "firstPublishedAt": "2026-10-30T18:40:00.000Z"
+      }
+    },
+    {
+      "id": "t6p68c14qi",
+      "key": "wscn:3191844",
+      "title": "美股恐慌指数VIX波动率日内涨幅达36.5%，报23.52，创4月份以来盘中新高",
+      "url": "https://wallstreetcn.com/livenews/3191844",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T18:39:20.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "美股恐慌指数VIX波动率日内涨幅达36.5%，报23.52，创4月份以来盘中新高；标普500指数目前跌2.4%。 道指跌737点，跌幅1.4%；纳指跌968.73点，跌幅3.7%，纳斯达克100指数狂泄1270点，跌幅4.3%，费城半导体指数跌1053.994点，跌幅9.15%。",
+      "flag": 1,
+      "dupOf": "zbovmsacfe"
+    },
+    {
+      "id": "14ayxh2r91x",
+      "key": "em:202610313917304170",
+      "title": "多赚3900亿！A股三季报全榜单来了",
+      "url": "https://finance.eastmoney.com/a/202610313917304170.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T18:30:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "A股2026年三季报披露收官。截至10月31日，A股公司中已有5572家披露了2026年三季报，合计实现营收56.66万亿元，同比上涨5.66%，增速较中报有所回落，中报同比上涨7.63%；归母净利润5.10万亿元，比上年同期增加3906.46亿元，同比上涨8.30%，中报同比上涨19.40%。",
+      "flag": 1
+    },
+    {
+      "id": "1fzjn6nbmf5",
+      "key": "sina:5183525",
+      "title": "美国驻利雅得大使馆：美国国务院命令非紧急工作人员及其家属于10月23日起离开沙特阿拉伯",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxk2103396.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T18:19:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ]
+    },
+    {
+      "id": "i3i010nlqg",
+      "key": "wscn:3191838",
+      "title": "纳斯达克100指数跌幅扩大至4%，成分股英特尔目前跌31%，闪迪跌15.1%，ALAB跌13.6%，迈威尔科技、高通、Arm控股、Data…",
+      "url": "https://wallstreetcn.com/livenews/3191838",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T18:04:17.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "纳斯达克100指数跌幅扩大至4%，成分股英特尔目前跌31%，闪迪跌15.1%，ALAB跌13.6%，迈威尔科技、高通、Arm控股、Datadog、AMD、Nebius、CoreWeave、Lumentum跌超10%。",
+      "flag": 1,
+      "dupOf": "cwaqnm7ocq"
+    },
+    {
+      "id": "15rf33jjvav",
+      "key": "cls:2521367",
+      "title": "纳斯达克100指数跌幅扩大至4% 费城半导体指数跌8.7%",
+      "url": "https://www.cls.cn/detail/2521367",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T18:03:33.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "纳斯达克100指数跌幅扩大至4%，刷新日低。费城半导体指数跌8.7%，英特尔现跌30.8%，闪迪跌15%，AMD、高通、ARM跌12%，希捷科技跌超9%，西部数据、应用材料跌超8%，Cerebras、阿斯麦、拉姆研究跌超7%，台积电、博通跌超6%。",
+      "flag": 1,
+      "dupOf": "cwaqnm7ocq"
+    },
+    {
+      "id": "2edwnowim1j",
+      "key": "sina:5183514",
+      "title": "美联储传声筒：目前看来，多位委员会成员正一如既往地频繁发声，以确保市场理解其综合反应函数",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxk2097266.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:55:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "hhzp0hy19o",
+      "key": "sina:5183487",
+      "title": "达拉斯联储行长洛里·洛根重申她认为美联储还需再加息两次",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxk2094429.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:35:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "“跳过一次会议不会改变货币政策的终点。事实上，通过明确终点，FOMC可以更好地帮助经济适应并实现跳过一次会议所承诺的好处。”“金融市场对科技投资前景和地缘政治动态的消息反应波动。在这种环境下，更渐进地调整政策可以帮助家庭、企业和市场参与者适应更高的利率，并降低经济活动比必要程度更急剧恶化的风险。此外，只要市场参与者理解FOMC的政策计划，每次加息的确切时机对大多数借款人支付的长期利率影响不大。”"
+    },
+    {
+      "id": "1zv9ic4xaih",
+      "key": "wscn:3191826",
+      "title": "美联储票委Logan：仍然预计还需加息两次，但节奏可循序渐进",
+      "url": "https://wallstreetcn.com/livenews/3191826",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:33:47.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "美国达拉斯联储主席Logan（2026年FOMC票委）表示，她仍认为至少需要再加息两次，每次25个基点，但美联储可以循序渐进地推进，以帮助家庭、企业和市场适应利率上升。 Logan为在北卡罗来纳州戴维森举行的活动准备的发言稿显示：“跳过一次会议并不会改变货币政策的终点。” 她称：“在我看来，鉴于当前前景，联邦公开市场委员会（FOMC）仍需至少实施两次25个基点的加息。” Logan表示，在她预计的两次加息之后，美联储应暂停行动，评估经济和金融发展情况，并判断是否需要进一步加息。她说：“最终目标应是使政策处于适度限制性水平，以便我们能够可持续地实现充分就…",
+      "flag": 1
+    },
+    {
+      "id": "wbz65ovk3b",
+      "key": "sina:5183486",
+      "title": "美联储洛根：市场利率上升表明投资者认为货币政策仍有工作要做",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxh5317694.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:32:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "1lzklbwqp9d",
+      "key": "sina:5183485",
+      "title": "美联储洛根：长期利率已经上升，但对经济的拖累并不像预期的那么大",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxh5317662.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:32:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "13w9rdiyz0m",
+      "key": "sina:5183484",
+      "title": "美联储洛根：经济增长强劲，消费者支出稳健",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxh5317649.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:32:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "8u1c6ccfvq",
+      "key": "sina:5183483",
+      "title": "美联储洛根：劳动力市场已趋于平衡，或许略有收紧",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxh5317632.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:32:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "1x7oxs7vcgh",
+      "key": "sina:5183482",
+      "title": "美联储洛根：跳过一次会议不会改变政策目标",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxm7988953.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:31:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "2bgfi4xxe60",
+      "key": "sina:5183481",
+      "title": "美联储洛根：逐步调整政策可以降低经济急剧恶化的风险",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxk2093636.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:31:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "158mu3lgsx5",
+      "key": "sina:5183480",
+      "title": "美联储洛根：渐进式政策调整有助于家庭、企业、投资者适应更高利率",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxk2093610.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:31:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "1uzhrl462k9",
+      "key": "sina:5183479",
+      "title": "美联储洛根：最终目标是让政策适度收紧",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxh5317550.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:31:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "1ir3lx48lvr",
+      "key": "sina:5183478",
+      "title": "美联储洛根：明确政策利率目标有助于经济适应，并获得跳过加息的好处",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxm7988891.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:31:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "1hd9kdugk3z",
+      "key": "sina:5183477",
+      "title": "美联储洛根：通胀未能回落至美联储2%的目标是“不可接受的”",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxh5317497.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:31:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "dupOf": "ygeb78bc6d"
+    },
+    {
+      "id": "aucah2vnqp",
+      "key": "sina:5183476",
+      "title": "美联储洛根：在加息50个基点之后，暂停加息将有助于确定下一步的适当行动",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxh5317477.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:31:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "1jwrca7a952",
+      "key": "sina:5183475",
+      "title": "美联储洛根：金融环境正在为经济提供顺风",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxk2093500.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:30:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "p736tuzise",
+      "key": "sina:5183474",
+      "title": "美联储洛根：美联储需要至少再加息两次，每次25个基点",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxm7988786.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:30:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "29shgnrag32",
+      "key": "sina:5183473",
+      "title": "美联储洛根：更渐进地调整政策有助于家庭、企业和市场参与者适应",
+      "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxm7988761.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-30T17:30:00.000Z",
+      "firstSeenAt": "2026-10-31T02:25:20.490Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
     {
       "id": "45oovn0us6",
       "key": "sina:5183441",
@@ -44,7 +1488,8 @@
         "summary": "联储官员暗示可能很快再次加息。",
         "model": "glm-4.7-flash",
         "at": "2026-10-30T17:10:55.260Z"
-      }
+      },
+      "dupOf": "1320qg5dvcf"
     },
     {
       "id": "igazgcgdii",
@@ -351,11 +1796,29 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "topics": [
         "fed"
       ],
-      "flag": 1
+      "flag": 1,
+      "related": [
+        {
+          "id": "o47mdfvoo2",
+          "sourceId": "cnbc-top",
+          "sourceName": "CNBC",
+          "url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html",
+          "title": "圣路易斯联储：需要很快再次加息",
+          "publishedAt": "2026-10-30T16:54:37.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "sina",
+          "cnbc-top"
+        ],
+        "firstPublishedAt": "2026-10-30T16:31:00.000Z"
+      }
     },
     {
       "id": "11sab351ykg",
@@ -642,6 +2105,12 @@
         "policy-us"
       ],
       "excerpt": "The American Federation of Teachers sued the Trump administration, alleging it unlawfully blocked student loan forgiveness for tens of thousands of borrowers.",
+      "ai": {
+        "title": "集体诉讼指控特朗普官员拖延学生贷款减免",
+        "summary": "教师工会起诉特朗普政府非法阻碍贷款减免。",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-30T17:10:55.260Z"
+      },
       "related": [
         {
           "id": "mfxz92sclb",
@@ -659,12 +2128,6 @@
           "marketwatch"
         ],
         "firstPublishedAt": "2026-10-30T16:04:59.000Z"
-      },
-      "ai": {
-        "title": "集体诉讼指控特朗普官员拖延学生贷款减免",
-        "summary": "教师工会起诉特朗普政府非法阻碍贷款减免。",
-        "model": "glm-4.7-flash",
-        "at": "2026-10-30T17:10:55.260Z"
       }
     },
     {
@@ -756,12 +2219,30 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "topics": [
         "us-stocks"
       ],
       "excerpt": "随着美股市场遭遇抛售，投资者避险情绪明显升温，标普500波动率指数（VIX）上涨3个点，报20.17，盘中一度触及22.31，创近期高位。VIX指数重新升破20关口，显示市场对短期股市波动的担忧明显增加。",
-      "flag": 1
+      "flag": 1,
+      "related": [
+        {
+          "id": "t6p68c14qi",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3191844",
+          "title": "美股恐慌指数VIX波动率日内涨幅达36.5%，报23.52，创4月份以来盘中新高",
+          "publishedAt": "2026-10-30T18:39:20.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "cls",
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-10-30T15:48:41.000Z"
+      }
     },
     {
       "id": "1cvlz8dtlxl",
@@ -1056,46 +2537,11 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 34,
+      "score": 18,
       "topics": [
         "gold"
       ],
-      "excerpt": "10月30日消息，沪金期货主力合约跌2.85%，报837元/克；沪银期货主力合约跌6.13%，报11615元/千克。",
-      "related": [
-        {
-          "id": "29btfjrxnzr",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3191034",
-          "title": "中国30年期国债期货下跌近1%，创3月以来最大跌幅",
-          "publishedAt": "2026-10-30T06:30:17.000Z"
-        },
-        {
-          "id": "17sj49tgut8",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2520481",
-          "title": "中国30年期国债期货主力合约日内跌1%，现报117.34元",
-          "publishedAt": "2026-10-30T07:03:25.000Z"
-        },
-        {
-          "id": "qi36s2w1md",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3191083",
-          "title": "国债期货收盘，30年期主力合约跌0.94%，10年期主力合约跌0.21%，5年期主力合约跌0.17%，2年期主力合约跌0.06%",
-          "publishedAt": "2026-10-30T07:15:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 4,
-        "sources": [
-          "em-commodity",
-          "wscn-global",
-          "cls"
-        ],
-        "firstPublishedAt": "2026-10-30T06:30:17.000Z"
-      }
+      "excerpt": "10月30日消息，沪金期货主力合约跌2.85%，报837元/克；沪银期货主力合约跌6.13%，报11615元/千克。"
     },
     {
       "id": "1770mbgig3h",
@@ -1445,7 +2891,7 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 26,
+      "score": 34,
       "topics": [
         "us-stocks"
       ],
@@ -1507,13 +2953,54 @@
           "url": "https://www.cls.cn/detail/2521350",
           "title": "纳斯达克100指数跌幅扩大至3.5% 费城半导体指数跌8%",
           "publishedAt": "2026-10-30T16:51:00.000Z"
+        },
+        {
+          "id": "15rf33jjvav",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2521367",
+          "title": "纳斯达克100指数跌幅扩大至4% 费城半导体指数跌8.7%",
+          "publishedAt": "2026-10-30T18:03:33.000Z"
+        },
+        {
+          "id": "i3i010nlqg",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3191838",
+          "title": "纳斯达克100指数跌幅扩大至4%，成分股英特尔目前跌31%，闪迪跌15.1%，ALAB跌13.6%，迈威尔科技、高通、Arm控股、Data…",
+          "publishedAt": "2026-10-30T18:04:17.000Z"
+        },
+        {
+          "id": "w6tbyd43u6",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3191879",
+          "title": "纳指科技指数收跌超4.2%，半导体指数重挫7.2%、10月份累跌超15%",
+          "publishedAt": "2026-10-30T20:00:27.000Z"
+        },
+        {
+          "id": "odcecx5hot",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3191884",
+          "title": "英特尔收跌29%，至少创最近40年来最差单日表现。 美股费城半导体指数跌7.2%，创6月份以来最大单日跌幅",
+          "publishedAt": "2026-10-30T20:01:47.000Z"
+        },
+        {
+          "id": "113ahg8xaaj",
+          "sourceId": "em-focus",
+          "sourceName": "东方财富",
+          "url": "https://finance.eastmoney.com/a/202610313917317282.html",
+          "title": "全球市场：纳指跌近3% 费城半导体指数跌超7% 英特尔重挫逾28%",
+          "publishedAt": "2026-10-30T22:15:00.000Z"
         }
       ],
       "story": {
-        "reports": 8,
+        "reports": 13,
         "sources": [
           "cls",
-          "wscn-global"
+          "wscn-global",
+          "em-focus"
         ],
         "firstPublishedAt": "2026-10-30T13:31:33.000Z"
       }
@@ -2015,7 +3502,7 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 26,
+      "score": 34,
       "topics": [
         "policy-us"
       ],
@@ -2044,13 +3531,22 @@
           "url": "https://finance.eastmoney.com/a/202610303917241815.html",
           "title": "特朗普再次表示伊朗战事将“很快结束”",
           "publishedAt": "2026-10-30T14:44:00.000Z"
+        },
+        {
+          "id": "2g3hx5gralg",
+          "sourceId": "em-focus",
+          "sourceName": "东方财富",
+          "url": "https://finance.eastmoney.com/a/202610313917333231.html",
+          "title": "特朗普再称伊朗战事将“很快结束” 多架美军机飞抵以色列",
+          "publishedAt": "2026-10-30T22:48:00.000Z"
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 5,
         "sources": [
           "em-commodity",
-          "wscn-global"
+          "wscn-global",
+          "em-focus"
         ],
         "firstPublishedAt": "2026-10-30T11:38:47.000Z"
       }
@@ -2351,12 +3847,30 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "topics": [
         "us-stocks"
       ],
       "excerpt": "美股盘前，存储芯片及硬盘股普遍走低。闪迪跌9.70%，西部数据跌8.07%，SK海力士跌7.90%，希捷科技跌7.35%，美光科技跌5.92%。",
-      "flag": 1
+      "flag": 1,
+      "related": [
+        {
+          "id": "1z4aq9uryfq",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3191873",
+          "title": "美股存储芯片指数10月份累跌将近25%",
+          "publishedAt": "2026-10-30T20:13:39.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "cls",
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-10-30T11:07:22.000Z"
+      }
     },
     {
       "id": "1j3rkf8r9di",
@@ -3331,8 +4845,7 @@
       "topics": [
         "cn-bonds"
       ],
-      "flag": 1,
-      "dupOf": "24734nmzq00"
+      "flag": 1
     },
     {
       "id": "1l3s5oxr2kk",
@@ -3456,7 +4969,7 @@
         "cn-bonds"
       ],
       "flag": 1,
-      "dupOf": "24734nmzq00"
+      "dupOf": "29btfjrxnzr"
     },
     {
       "id": "86si6eoafd",
@@ -3793,12 +5306,29 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "topics": [
         "cn-bonds"
       ],
       "flag": 1,
-      "dupOf": "24734nmzq00"
+      "related": [
+        {
+          "id": "17sj49tgut8",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2520481",
+          "title": "中国30年期国债期货主力合约日内跌1%，现报117.34元",
+          "publishedAt": "2026-10-30T07:03:25.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "wscn-global",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-10-30T06:30:17.000Z"
+      }
     },
     {
       "id": "19tufvdho60",
@@ -4693,15 +6223,24 @@
           "url": "https://wallstreetcn.com/livenews/3191062",
           "title": "日本央行行长植田和男：稳定、可持续的通胀目标尚未实现",
           "publishedAt": "2026-10-30T06:59:13.000Z"
+        },
+        {
+          "id": "1hd9kdugk3z",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-10-31/detail-iniwztxh5317497.d.html",
+          "title": "美联储洛根：通胀未能回落至美联储2%的目标是“不可接受的”",
+          "publishedAt": "2026-10-30T17:31:00.000Z"
         }
       ],
       "story": {
-        "reports": 7,
+        "reports": 8,
         "sources": [
           "cls",
           "em-commodity",
           "wscn-global",
-          "em-focus"
+          "em-focus",
+          "sina"
         ],
         "firstPublishedAt": "2026-10-29T13:16:00.000Z"
       }
@@ -9787,10 +11326,18 @@
           "url": "https://finance.sina.cn/7x24/2026-10-30/detail-iniwziin5410508.d.html",
           "title": "马赫卢夫：维持利率不变并不表明欧洲央行已完成加息",
           "publishedAt": "2026-10-30T11:39:00.000Z"
+        },
+        {
+          "id": "12jwx3fy0av",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202610303917171947.html",
+          "title": "日本央行维持利率不变并加快缩表 政策目标开始转向？",
+          "publishedAt": "2026-10-31T00:08:00.000Z"
         }
       ],
       "story": {
-        "reports": 48,
+        "reports": 49,
         "sources": [
           "cls",
           "sina",
@@ -14404,25 +15951,6 @@
         "fed"
       ],
       "excerpt": "美联储的动向备受市场关注！美联储将于10月27日至28日召开议息会议。随着会议临近，市场焦点已转向美联储是否会进一步加息，以及本次会议将为12月政策路径释放何种信号。美联储曾在9月进行自2023年以来的首次加息，以应对高于目标的通胀。但根据LSEG数据，联邦基金期货显示，美联储在10月28日（下周三）发布政策声明时再次加息的可能性不到10%。"
-    },
-    {
-      "id": "azko4hb9lu",
-      "key": "url:cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html",
-      "title": "Trump's approval rating on economy hits all-time low as midterm looms: CNBC survey",
-      "url": "https://www.cnbc.com/2026/10/22/trump-economic-approval-rating-midterms-poll.html",
-      "lang": "en",
-      "sourceId": "cnbc-economy",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-10-23T20:49:42.000Z",
-      "firstSeenAt": "2026-10-29T10:04:27.819Z",
-      "day": "2026-10-24",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "Eight out of 10 Americans now rate the economy as fair or poor, one of several findings in a CNBC poll that show why Republican candidates face uphill battles."
     }
   ]
 }
