@@ -1,33 +1,18 @@
-import { FUND_GROUPS, FUNDS, INDICES, INVEST_RULES, INVEST_SITE, MACRO, PLAN_GROUPS, type FundGroup, type MacroId } from "@/config/invest";
+import { FUND_GROUPS, FUNDS, INDICES, INVEST_SITE, MACRO, type FundGroup, type MacroId } from "@/config/invest";
 import type { InvestTopic } from "@/config/invest-news";
 import { translatedTitle, truncate } from "@/lib/pipeline/text";
-import { zonedParts } from "@/lib/time";
 import { describeStatus, statusRank } from "./alerts";
 import { buildFundViews } from "./funds";
 import { marketNews, newsRef, rankNews, type RankedCard } from "./news";
+import { buildObservations, RULES, type Observation } from "./observations";
 import { indexQuote, macroQuote } from "./quotes";
+import type { StatusNotifications } from "./status";
 import { loadInvestStore } from "./store";
-import type {
-  AlertEvent,
-  AlertSeverity,
-  CalendarEvent,
-  FundView,
-  IndexView,
-  InvestRunSummary,
-  NewsRef,
-  OverviewFile,
-  Premium,
-  QuoteView,
-} from "./types";
+import type { AlertEvent, CalendarEvent, DataIssue, FundView, IndexView, InvestRunSummary, NewsRef, OverviewFile, Premium, QuoteView } from "./types";
 
-export interface AlertItem {
-  id: string;
-  severity: AlertSeverity;
-  /** Change events carry the time they were seen. */
-  at?: string;
-  code?: string;
-  title: string;
-  detail: string;
+export interface PageAlert extends Observation {
+  /** The update that first showed it. */
+  firstSeen?: string;
 }
 
 export interface WatchRow {
@@ -62,16 +47,31 @@ export interface InvestNewsCard {
   alsoOn?: { name: string; url: string; title?: string }[];
 }
 
+export interface PageHealth {
+  checkedAt: string;
+  /** First check; alerts first seen then are the baseline rather than news. */
+  since: string;
+  issues: (DataIssue & { firstSeen?: string })[];
+  notifications: StatusNotifications;
+}
+
+export type PageFund = FundView & { news?: NewsRef; navStale?: boolean; priceStale?: boolean };
+
 export interface InvestPageData {
   /** End of the last update; null before the first one. */
   updatedAt: string | null;
   /** Reference time of the data (start of the last update). */
   asOf: string;
-  alerts: AlertItem[];
+  /** Changes seen between updates, and reminders. */
+  alerts: PageAlert[];
+  /** Section 五 rules 1–4 checked against every tracked fund. */
+  rules: { rule: 1 | 2 | 3 | 4; label: string; scope: string; items: PageAlert[] }[];
+  /** Data health from the last update; null before the first one that checked it. */
+  health: PageHealth | null;
   watch: WatchRow[];
   premiums: PremiumRow[];
   overview: (Omit<OverviewFile, "points"> & { points: { text: string; refs: NewsRef[] }[] }) | null;
-  groups: { id: FundGroup; label: string; hint: string; funds: (FundView & { news?: NewsRef })[] }[];
+  groups: { id: FundGroup; label: string; hint: string; funds: PageFund[] }[];
   indices: IndexView[];
   gold: { spot?: QuoteView; shanghai?: QuoteView; drivers: QuoteView[]; centralBanks: NewsRef[] };
   macro: QuoteView[];
@@ -80,111 +80,7 @@ export interface InvestPageData {
   run: InvestRunSummary | null;
 }
 
-const fundName = (code: string, views: FundView[]) => views.find((v) => v.code === code)?.name ?? FUNDS.find((f) => f.code === code)?.name ?? code;
-
 const isQdii = (code: string) => INDICES.find((i) => i.id === FUNDS.find((f) => f.code === code)?.index)?.market === "us";
-
-/** "按 10月28日净值" for a premium, with how it was estimated. */
-function premiumBasis(p: Premium): string {
-  const day = `${Number(p.navDate.slice(5, 7))}月${Number(p.navDate.slice(8))}日`;
-  if (p.kind === "domestic") return `按 ${day}收盘价和净值`;
-  return `按 ${day}净值${p.estimated ? "和此后的指数涨跌估算" : ""}`;
-}
-
-function eventItem(event: AlertEvent, views: FundView[]): AlertItem {
-  const fund = FUNDS.find((f) => f.code === event.code);
-  const name = `${fundName(event.code, views)}（${event.code}）`;
-  const base = { id: event.id, severity: event.severity, at: event.at, code: event.code };
-  switch (event.kind) {
-    case "limit-down":
-      return {
-        ...base,
-        title: `${name} 申购额度收紧`,
-        detail: `${event.from} → ${event.to}。${fund?.group === "dca" ? "记得调整定投金额，避免扣款失败。" : "暂时买不了或只能少买。"}`,
-      };
-    case "limit-up": {
-      const plan = fund && PLAN_GROUPS.includes(fund.group);
-      return {
-        ...base,
-        title: `${name} 申购额度放开`,
-        detail: `${event.from} → ${event.to}。${plan && isQdii(event.code) ? "海外部分有加大投入的空间。" : "可以正常申购了。"}`,
-      };
-    }
-    case "fee-change":
-      return { ...base, title: `${name} 费率调整`, detail: `${event.from} → ${event.to}` };
-    case "premium-low":
-      return { ...base, title: `${name} 溢价降到 ${INVEST_RULES.premium.low}% 以内`, detail: `溢价从 ${event.from} 降到 ${event.to}。` };
-    case "premium-high":
-      return { ...base, title: `${name} 溢价回升`, detail: `溢价从 ${event.from} 升到 ${event.to}，超过 ${INVEST_RULES.premium.low}% 不买。` };
-    case "premium-unusual":
-      return { ...base, title: `${name} 溢价偏离较大`, detail: `从${event.from}变为 ${event.to}，境内 ETF 通常只在净值上下零点几个百分点。` };
-  }
-}
-
-/** Alerts at the top of the page: recent changes, then states that need attention now. */
-function buildAlerts(events: AlertEvent[], views: FundView[], asOf: Date): AlertItem[] {
-  const recent = events.filter((e) => asOf.getTime() - Date.parse(e.at) <= INVEST_SITE.alertDays * 86_400_000);
-  const items = recent.map((e) => eventItem(e, views));
-  const { low, high } = INVEST_RULES.premium;
-  for (const view of views) {
-    const p = view.premium;
-    if (!p) continue;
-    const basis = premiumBasis(p);
-    const id = `premium-${view.code}`;
-    const title = `${view.name}（${view.code}）${p.value < 0 ? `折价 ${Math.abs(p.value)}%` : `溢价 ${p.value}%`}`;
-    if (p.kind === "domestic") {
-      // Domestic ETFs are flagged only when unusually far from NAV; the premium strip shows the rest.
-      if (p.band === "unusual") {
-        items.push({ id, severity: "warn", code: view.code, title, detail: `偏离净值超过 ${INVEST_RULES.domesticPremium.unusual}%，买卖前留意（${basis}）。` });
-      }
-      continue;
-    }
-    items.push(
-      p.band === "low"
-        ? { id, severity: "good", code: view.code, title, detail: `已在 ${low}% 以内（${basis}）。` }
-        : {
-            id,
-            severity: p.band === "high" ? "bad" : "warn",
-            code: view.code,
-            title,
-            detail: `${p.band === "high" ? `超过 ${high}%` : `在 ${low}%–${high}% 之间`}，按规则不买（${basis}）。`,
-          },
-    );
-  }
-  // Fee-rule breaks are standing facts rather than news, so they share one item.
-  const expensive = views.filter((v) => v.feeRule && !v.feeRule.ok);
-  if (expensive.length) {
-    const list = (kind: "qdii" | "domestic") =>
-      expensive
-        .filter((v) => v.feeRule!.kind === kind)
-        .map((v) => `${v.code} ${v.feeRule!.total.toFixed(2)}%`)
-        .join("、");
-    const qdii = list("qdii");
-    const domestic = list("domestic");
-    const { domestic: domesticCap, qdii: qdiiCap } = INVEST_RULES.feeCap;
-    items.push({
-      id: "fee-rule",
-      severity: "warn",
-      title: `${expensive.length} 只指数基金费率高于规则`,
-      detail: [
-        qdii && `QDII 管理费加托管费超过 ${qdiiCap}%/年：${qdii}`,
-        domestic && `A 股和黄金指数基金高于约 ${domesticCap}%/年：${domestic}`,
-      ]
-        .filter(Boolean)
-        .join("；") + "。",
-    });
-  }
-  if (zonedParts(asOf).day <= INVEST_RULES.monthlyCheckDays) {
-    const month = zonedParts(asOf).month;
-    items.push({
-      id: `monthly-${month}`,
-      severity: "info",
-      title: `${month}月定投扣款核对`,
-      detail: "到购买平台确认本月各项定投都已扣款成功（本站看不到账户，只能自己核对）。",
-    });
-  }
-  return items;
-}
 
 function watchRows(views: FundView[], events: AlertEvent[]): WatchRow[] {
   return views
@@ -234,12 +130,16 @@ function toCard({ item, topics }: RankedCard): InvestNewsCard {
 export async function loadInvestPageData(): Promise<InvestPageData> {
   const store = await loadInvestStore();
   const run = store.meta.lastRun ?? null;
+  const status = store.status;
   const asOf = new Date(run?.startedAt ?? store.news.updatedAt ?? Date.now());
   const views = buildFundViews(store.funds.funds, store.market);
   const ranked = rankNews(store.news.items, asOf);
   const recentMs = asOf.getTime() - 72 * 3600_000;
   const recent = ranked.filter((c) => Date.parse(c.item.publishedAt) >= recentMs);
   const events = store.alerts?.events ?? [];
+
+  const stale = new Set(Object.values(status?.groups ?? {}).flatMap((g) => g.items.filter((i) => i.stale).map((i) => i.key)));
+  const mark = <T extends QuoteView>(quote: T | undefined, key: string): T | undefined => (quote && stale.has(key) ? { ...quote, stale: true } : quote);
 
   const indexNews = new Map<string, NewsRef[]>();
   const indices: IndexView[] = INDICES.filter((index) => FUNDS.some((f) => f.index === index.id)).map((index) => {
@@ -250,16 +150,24 @@ export async function loadInvestPageData(): Promise<InvestPageData> {
       .filter((v) => v.index === index.id && (v.tracking || index.proxy))
       .map((v) => ({ code: v.code, name: v.name, role: v.tracking ? ("tracks" as const) : ("reference" as const) }));
     const view: IndexView = { id: index.id, name: index.name, market: index.market, funds, news };
-    const quote = indexQuote(store.market, index.id);
+    const quote = mark(indexQuote(store.market, index.id), index.id);
     if (quote) view.quote = quote;
     const valuation = store.market.valuations[index.id];
     if (valuation) view.valuation = valuation;
+    if (valuation && stale.has(`valuation:${index.id}`)) view.valuationStale = true;
     return view;
   });
 
   const groups = FUND_GROUPS.map((group) => ({
     ...group,
-    funds: views.filter((v) => v.group === group.id).map((v) => ({ ...v, news: indexNews.get(v.index)?.[0] })),
+    funds: views
+      .filter((v) => v.group === group.id)
+      .map((v): PageFund => {
+        const fund: PageFund = { ...v, news: indexNews.get(v.index)?.[0] };
+        if (stale.has(`nav:${v.code}`)) fund.navStale = true;
+        if (stale.has(`price:${v.code}`)) fund.priceStale = true;
+        return fund;
+      }),
   }));
 
   let overview: InvestPageData["overview"] = null;
@@ -278,22 +186,35 @@ export async function loadInvestPageData(): Promise<InvestPageData> {
     };
   }
 
-  const macro = (ids: MacroId[]) => ids.map((id) => macroQuote(store.market, id)).filter(Boolean) as QuoteView[];
+  const macro = (ids: MacroId[]) => ids.map((id) => mark(macroQuote(store.market, id), id)).filter(Boolean) as QuoteView[];
   const centralBanks = (recent.length ? ranked.filter((c) => Date.parse(c.item.publishedAt) >= asOf.getTime() - 7 * 86_400_000) : ranked)
     .filter((c) => c.topics.includes("cb-gold"))
     .slice(0, 2)
     .map((c) => newsRef(c.item));
 
+  const firstSeen = new Map((status?.alerts ?? []).map((a) => [a.key, a.firstSeen]));
+  const observations: PageAlert[] = buildObservations(events, views, asOf).map((o) => {
+    const seen = firstSeen.get(o.key) ?? o.at;
+    return seen ? { ...o, firstSeen: seen } : o;
+  });
+
   return {
     updatedAt: run?.finishedAt ?? null,
     asOf: asOf.toISOString(),
-    alerts: buildAlerts(events, views, asOf),
+    alerts: observations.filter((o) => o.kind !== "rule"),
+    rules: RULES.map((r) => ({ ...r, items: observations.filter((o) => o.kind === "rule" && o.rule === r.rule) })),
+    health: status ? { checkedAt: status.generatedAt, since: status.since, issues: status.dataIssues, notifications: status.notifications } : null,
     watch: watchRows(views, events.filter((e) => asOf.getTime() - Date.parse(e.at) <= INVEST_SITE.alertDays * 86_400_000)),
     premiums: premiumRows(views),
     overview,
     groups,
     indices,
-    gold: { spot: macroQuote(store.market, "xau"), shanghai: macroQuote(store.market, "shau"), drivers: macro(["real10y", "dxy", "us10y"]), centralBanks },
+    gold: {
+      spot: mark(macroQuote(store.market, "xau"), "xau"),
+      shanghai: mark(macroQuote(store.market, "shau"), "shau"),
+      drivers: macro(["real10y", "dxy", "us10y"]),
+      centralBanks,
+    },
     macro: macro(MACRO.filter((m) => m.id !== "xau" && m.id !== "shau").map((m) => m.id)),
     news: (recent.length ? recent : ranked).slice(0, 60).map(toCard),
     calendar: {

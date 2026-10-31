@@ -32,6 +32,21 @@ function printInvest(invest: InvestRunSummary) {
     `新闻：抓取 ${invest.news.fetched} 条，相关 ${invest.news.relevant} 条，新增 ${invest.news.added} 条；概览：${ai.overview === "ai" ? "AI 撰写" : "自动生成"}` +
       (ai.enabled ? `（AI 请求 ${ai.requests} 次，英文标题 ${ai.titles} 条${ai.error ? `；${ai.error}` : ""}）` : ""),
   );
+  if (invest.health) {
+    const { warn, minor } = invest.health;
+    console.log(`数据检查：${warn ? `${warn} 项异常` : "正常"}${minor ? `，${minor} 项次要问题` : ""}；提醒与规则观察 ${invest.alerts ?? 0} 条`);
+  }
+  const notify = invest.notify;
+  if (notify) {
+    const channel = notify.channel === "serverchan" ? "微信" : "GitHub issue";
+    const text = {
+      sent: `已发送（${channel}）：${notify.title}`,
+      "nothing-new": "没有新内容，不发送",
+      skipped: `有新内容（${notify.title}），本地运行或未配置渠道，不发送`,
+      failed: `发送失败，下次重试：${notify.error}`,
+    }[notify.result];
+    console.log(`通知：${text}`);
+  }
 }
 
 async function main() {

@@ -3,11 +3,13 @@ import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { INVEST_SITE } from "@/config/invest";
 import { SITE } from "@/config/site";
-import { WORKFLOW_URL } from "@/lib/env";
+import { INVEST_STATUS_URL, WORKFLOW_URL } from "@/lib/env";
 import type { InvestPageData } from "@/lib/invest/page-data";
+import type { StatusNotifications } from "@/lib/invest/status";
 import { formatDateTime } from "@/lib/time";
 import { AlertsPanel } from "./alerts-panel";
 import { CalendarPanel } from "./calendar-panel";
+import { DataHealthBanner } from "./data-health";
 import { FundGroups } from "./fund-groups";
 import { InvestHeader } from "./invest-header";
 import { MacroList, MarketCards } from "./market-cards";
@@ -24,9 +26,18 @@ function Panel({ title, children, className }: { title: string; children: React.
   );
 }
 
-function StatusPanel({ run }: { run: InvestPageData["run"] }) {
+const CHANNEL: Record<StatusNotifications["channel"], string> = {
+  serverchan: "微信（Server酱）",
+  "github-issue": "GitHub issue 留言",
+  none: "未配置",
+};
+
+function StatusPanel({ run, health }: { run: InvestPageData["run"]; health: InvestPageData["health"] }) {
   if (!run) return <p className="text-sm text-muted-foreground">还没有更新记录。</p>;
   const failed = run.sources.filter((s) => !s.ok);
+  const warn = health?.issues.filter((i) => i.severity === "warn") ?? [];
+  const minor = health?.issues.filter((i) => i.severity === "minor") ?? [];
+  const notify = health?.notifications;
   return (
     <div className="space-y-2 text-sm">
       <p>
@@ -34,10 +45,34 @@ function StatusPanel({ run }: { run: InvestPageData["run"] }) {
         {formatDateTime(run.finishedAt)}
       </p>
       <p>
+        <span className="text-muted-foreground">数据检查：</span>
+        {!health ? "尚未检查" : warn.length ? <span className="text-destructive">{warn.length} 项异常，见页面顶部</span> : "正常"}
+      </p>
+      {minor.length > 0 && (
+        <ul className="space-y-1 text-xs leading-relaxed text-muted-foreground">
+          {minor.map((i) => (
+            <li key={i.key}>· {i.message}</li>
+          ))}
+        </ul>
+      )}
+      <p>
         <span className="text-muted-foreground">来源：</span>
         {run.sources.length - failed.length}/{run.sources.length} 正常
         {failed.length > 0 && <span className="text-destructive">（{failed.map((f) => f.name).join("、")} 失败，沿用上次数据）</span>}
       </p>
+      {notify && (
+        <p>
+          <span className="text-muted-foreground">提醒推送：</span>
+          {notify.channel === "github-issue" && notify.issueUrl ? (
+            <a href={notify.issueUrl} target="_blank" rel="noopener noreferrer" className="underline underline-offset-2">
+              {CHANNEL[notify.channel]}
+            </a>
+          ) : (
+            CHANNEL[notify.channel]
+          )}
+          {notify.lastSentAt && <span className="text-xs text-muted-foreground">（上次 {formatDateTime(notify.lastSentAt)}）</span>}
+        </p>
+      )}
       <p className="text-xs leading-relaxed text-muted-foreground">
         <AiLine run={run} />
       </p>
@@ -46,6 +81,11 @@ function StatusPanel({ run }: { run: InvestPageData["run"] }) {
           查看全部来源状态
         </Button>
       </InvestStatusDialog>
+      {health && (
+        <a href={INVEST_STATUS_URL} className="block text-center text-xs text-muted-foreground underline-offset-2 hover:underline">
+          status.json：机器可读的数据状态和提醒
+        </a>
+      )}
     </div>
   );
 }
@@ -68,7 +108,7 @@ export function InvestApp({ data, error }: { data: InvestPageData | null; error:
   const calendar = data ? <CalendarPanel events={data.calendar.events} nextFomc={data.calendar.nextFomc} /> : null;
   return (
     <div className="flex min-h-screen flex-col">
-      <InvestHeader run={data?.run ?? null} />
+      <InvestHeader run={data?.run ?? null} health={data?.health ?? null} />
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 pt-5 pb-16 sm:px-6 sm:pt-6">
         <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_17.5rem] lg:gap-8">
           <div className="min-w-0 space-y-5">
@@ -95,7 +135,8 @@ export function InvestApp({ data, error }: { data: InvestPageData | null; error:
             )}
             {data && (
               <>
-                <AlertsPanel alerts={data.alerts} watch={data.watch} premiums={data.premiums} asOf={data.asOf} />
+                <DataHealthBanner health={data.health} />
+                <AlertsPanel alerts={data.alerts} rules={data.rules} watch={data.watch} premiums={data.premiums} asOf={data.asOf} since={data.health?.since} />
                 {data.overview && <OverviewCard overview={data.overview} />}
                 <FundGroups groups={data.groups} />
                 <MarketCards indices={data.indices} gold={data.gold} />
@@ -108,7 +149,7 @@ export function InvestApp({ data, error }: { data: InvestPageData | null; error:
                     <MacroList quotes={data.macro} />
                   </Panel>
                   <Panel title="数据状态">
-                    <StatusPanel run={data.run} />
+                    <StatusPanel run={data.run} health={data.health} />
                   </Panel>
                 </div>
               </>
@@ -121,7 +162,7 @@ export function InvestApp({ data, error }: { data: InvestPageData | null; error:
                 <MacroList quotes={data.macro} />
               </Panel>
               <Panel title="数据状态">
-                <StatusPanel run={data.run} />
+                <StatusPanel run={data.run} health={data.health} />
               </Panel>
               <Panel title="关于">
                 <About />

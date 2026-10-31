@@ -3,6 +3,7 @@
 import { Activity } from "lucide-react";
 import { SiteNav } from "@/components/site-nav";
 import { INVEST_SITE } from "@/config/invest";
+import type { PageHealth } from "@/lib/invest/page-data";
 import type { InvestRunSummary } from "@/lib/invest/types";
 import { formatDateTime, formatRelative } from "@/lib/time";
 import { cn } from "@/lib/utils";
@@ -19,9 +20,11 @@ function Logo() {
   );
 }
 
-export function InvestHeader({ run }: { run: InvestRunSummary | null }) {
+export function InvestHeader({ run, health }: { run: InvestRunSummary | null; health: PageHealth | null }) {
   const now = useNow();
   const failed = run?.sources.filter((s) => !s.ok).length ?? 0;
+  const warn = health?.issues.some((i) => i.severity === "warn");
+  const minor = health?.issues.some((i) => i.severity === "minor");
   return (
     <header className="sticky top-0 z-30 h-14 border-b bg-background/85 backdrop-blur-md supports-[backdrop-filter]:bg-background/70">
       <div className="mx-auto flex h-full max-w-6xl items-center gap-3 px-4 sm:px-6">
@@ -39,7 +42,9 @@ export function InvestHeader({ run }: { run: InvestRunSummary | null }) {
               className="flex min-w-0 items-center gap-1.5 rounded-lg px-2 py-1.5 text-xs text-muted-foreground transition-colors hover:bg-muted hover:text-foreground"
               aria-label="查看数据来源与更新状态"
             >
-              <span className={cn("size-2 shrink-0 rounded-full", !run ? "bg-muted-foreground/40" : failed ? "bg-amber-500" : "bg-emerald-500")} />
+              <span
+                className={cn("size-2 shrink-0 rounded-full", !run ? "bg-muted-foreground/40" : warn ? "bg-red-500" : failed || minor ? "bg-amber-500" : "bg-emerald-500")}
+              />
               <Activity className="size-3.5 sm:hidden" />
               <span className="hidden truncate sm:inline">
                 {run ? `更新于 ${now ? formatRelative(run.finishedAt, now) : formatDateTime(run.finishedAt)}` : "尚未更新"}

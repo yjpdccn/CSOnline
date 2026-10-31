@@ -3,6 +3,7 @@ import type { InvestPageData } from "@/lib/invest/page-data";
 import type { IndexView, NewsRef, QuoteView, Valuation } from "@/lib/invest/types";
 import { formatDateTime } from "@/lib/time";
 import { cn } from "@/lib/utils";
+import { StaleTag } from "./data-health";
 import { fmt, moveClass, percentile, shortDate, signedBp, signedPct } from "./format";
 import { Sparkline } from "./sparkline";
 
@@ -33,7 +34,7 @@ function QuoteLine({ quote, compact = false }: { quote: QuoteView; compact?: boo
   );
 }
 
-function ValuationLine({ valuation }: { valuation: Valuation }) {
+function ValuationLine({ valuation, stale }: { valuation: Valuation; stale?: boolean }) {
   const parts: string[] = [];
   if (valuation.pe) parts.push(`PE ${valuation.pe.toFixed(1)}${valuation.pePercentile !== undefined ? `（${percentile(valuation.pePercentile)} 分位）` : ""}`);
   if (valuation.pb) parts.push(`PB ${valuation.pb.toFixed(2)}${valuation.pbPercentile !== undefined ? `（${percentile(valuation.pbPercentile)} 分位）` : ""}`);
@@ -45,6 +46,7 @@ function ValuationLine({ valuation }: { valuation: Valuation }) {
         {valuation.pePercentile !== undefined || valuation.pbPercentile !== undefined ? `分位按 ${since}，` : `${since}，`}
         {valuation.source} {shortDate(valuation.date)}
       </span>
+      {stale && <StaleTag className="ml-1.5 align-[1px]" />}
     </div>
   );
 }
@@ -98,7 +100,12 @@ function IndexCard({ index }: { index: IndexView }) {
     <article id={`index-${index.id}`} className="scroll-mt-20 rounded-2xl border bg-card p-4">
       <div className="flex items-baseline justify-between gap-2">
         <h3 className="font-semibold">{index.name}</h3>
-        {q && <span className="text-xs text-muted-foreground">{shortDate(q.date)} 收盘</span>}
+        {q && (
+          <span className="inline-flex items-center gap-1 text-xs text-muted-foreground">
+            {q.stale && <StaleTag />}
+            {shortDate(q.date)} 收盘
+          </span>
+        )}
       </div>
       {q ? (
         <>
@@ -111,7 +118,7 @@ function IndexCard({ index }: { index: IndexView }) {
       ) : (
         <p className="mt-2 text-sm text-muted-foreground">暂无行情</p>
       )}
-      {index.valuation && <ValuationLine valuation={index.valuation} />}
+      {index.valuation && <ValuationLine valuation={index.valuation} stale={index.valuationStale} />}
       <FundList funds={index.funds} />
       <NewsLinks news={index.news} />
     </article>
@@ -128,14 +135,18 @@ function GoldCard({ gold, index }: { gold: InvestPageData["gold"]; index?: Index
       <div className="mt-2 grid gap-3 sm:grid-cols-2">
         {gold.spot && (
           <div>
-            <div className="text-xs text-muted-foreground">现货黄金（伦敦金）</div>
+            <div className="flex items-center gap-1 text-xs text-muted-foreground">
+              现货黄金（伦敦金）{gold.spot.stale && <StaleTag />}
+            </div>
             <QuoteLine quote={gold.spot} />
             <Sparkline values={gold.spot.history} label="现货黄金近 30 个交易日走势" />
           </div>
         )}
         {gold.shanghai && (
           <div>
-            <div className="text-xs text-muted-foreground">上海金（上海黄金交易所基准价）</div>
+            <div className="flex items-center gap-1 text-xs text-muted-foreground">
+              上海金（上海黄金交易所基准价，{shortDate(gold.shanghai.date)}）{gold.shanghai.stale && <StaleTag />}
+            </div>
             <QuoteLine quote={gold.shanghai} />
             <Sparkline values={gold.shanghai.history} label="上海金近 30 个交易日走势" />
           </div>
@@ -144,6 +155,7 @@ function GoldCard({ gold, index }: { gold: InvestPageData["gold"]; index?: Index
       {index?.quote && (
         <p className="mt-1 text-xs text-muted-foreground">
           黄金联接基金跟踪的 Au99.99：{fmt(index.quote.last, index.quote.decimals)} 元/克 <Change quote={index.quote} />
+          {index.quote.stale && <StaleTag className="ml-1.5 align-[1px]" />}
         </p>
       )}
       {index && <FundList funds={index.funds} />}
@@ -156,8 +168,9 @@ function GoldCard({ gold, index }: { gold: InvestPageData["gold"]; index?: Index
                 {fmt(d.last, d.decimals)}
                 {d.unit === "%" ? "%" : ""} <span className="text-xs font-medium">{<Change quote={d} />}</span>
               </div>
-              <div className="text-[11px] text-muted-foreground">
+              <div className="flex items-center gap-1 text-[11px] text-muted-foreground">
                 {d.source} · {shortDate(d.date)}
+                {d.stale && <StaleTag />}
               </div>
             </div>
           ))}
@@ -211,7 +224,10 @@ export function MacroList({ quotes }: { quotes: QuoteView[] }) {
     <ul className="space-y-2 text-sm">
       {quotes.map((q) => (
         <li key={q.id} className="flex items-baseline justify-between gap-2">
-          <span className="text-muted-foreground">{q.name}</span>
+          <span className="inline-flex items-center gap-1 text-muted-foreground">
+            {q.name}
+            {q.stale && <StaleTag />}
+          </span>
           <span className="text-right tabular-nums">
             <span className="font-medium">
               {fmt(q.last, q.decimals)}

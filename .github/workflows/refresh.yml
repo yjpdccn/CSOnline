@@ -21,6 +21,7 @@ permissions:
   contents: write # 把 data/ 提交回仓库，历史数据得以累积
   pages: write # 部署到 GitHub Pages
   id-token: write # deploy-pages 需要
+  issues: write # 投资日报提醒：没有配置微信推送时，在「投资日报提醒」issue 下留言
 
 concurrency:
   group: refresh-and-deploy
@@ -54,6 +55,9 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
           LLM_MODEL: ${{ vars.LLM_MODEL }}
+          # 投资日报有新提醒或数据异常时推送到微信：添加 SERVERCHAN_SENDKEY 密钥（Server酱的 SendKey）后启用；
+          # 未配置时改为在「投资日报提醒」issue 下留言，GitHub 会发邮件。
+          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
 
       - name: 提交数据
         if: env.FETCH == 'true'

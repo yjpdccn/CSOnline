@@ -8,6 +8,9 @@ export const REPO = process.env.NEXT_PUBLIC_REPO ?? "";
 export const REPO_URL = REPO ? `https://github.com/${REPO}` : "";
 export const WORKFLOW_URL = REPO ? `${REPO_URL}/actions/workflows/${SITE.workflowFile}` : "";
 
+/** The 投资日报's machine-readable status, written by every update. */
+export const INVEST_STATUS_URL = `${BASE_PATH}/invest/status.json`;
+
 export function dayDataUrl(day: string): string {
   return IS_STATIC ? `${BASE_PATH}/data/days/${day}.json` : `/api/days/${day}`;
 }

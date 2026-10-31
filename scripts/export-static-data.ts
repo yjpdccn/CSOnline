@@ -1,11 +1,12 @@
 /**
  * Runs after `next build` in static mode: writes every day as JSON into out/data/days/ so the
- * GitHub Pages site can load older days on demand.
+ * GitHub Pages site can load older days on demand, and publishes the 投资日报's out/invest/status.json.
  */
 import "./load-env";
 import { promises as fs } from "node:fs";
 import path from "node:path";
 import { loadClientDay } from "@/lib/data";
+import { readInvestStatus } from "@/lib/invest/store";
 import { readIndex } from "@/lib/pipeline/store";
 
 async function main() {
@@ -28,6 +29,13 @@ async function main() {
   }
   await fs.writeFile(path.join(outDir, "data", "index.json"), JSON.stringify(index));
   console.log(`已导出 ${written} 天的数据到 ${path.relative(process.cwd(), daysDir)}`);
+
+  const status = await readInvestStatus();
+  if (status) {
+    await fs.mkdir(path.join(outDir, "invest"), { recursive: true });
+    await fs.writeFile(path.join(outDir, "invest", "status.json"), JSON.stringify(status, null, 2));
+    console.log(`已导出投资日报状态到 ${path.relative(process.cwd(), path.join(outDir, "invest", "status.json"))}`);
+  }
 }
 
 main().catch((err) => {

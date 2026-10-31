@@ -3,6 +3,7 @@ import { formatLimit, statusRank } from "@/lib/invest/alerts";
 import type { InvestPageData } from "@/lib/invest/page-data";
 import { formatClock } from "@/lib/time";
 import { cn } from "@/lib/utils";
+import { StaleTag } from "./data-health";
 import { fmt, moveClass, shortDate, signedPct } from "./format";
 
 type Fund = InvestPageData["groups"][number]["funds"][number];
@@ -86,7 +87,12 @@ function IndexLink({ fund }: { fund: Fund }) {
 }
 
 function FundRow({ fund }: { fund: Fund }) {
-  const latest = fund.etf && fund.price ? { value: fund.price.close, date: fund.price.date, change: fund.price.changePct, label: "收盘价" } : fund.nav ? { value: fund.nav.nav, date: fund.nav.date, change: fund.nav.changePct, label: "净值" } : null;
+  const latest =
+    fund.etf && fund.price
+      ? { value: fund.price.close, date: fund.price.date, change: fund.price.changePct, label: "收盘价", stale: fund.priceStale }
+      : fund.nav
+        ? { value: fund.nav.nav, date: fund.nav.date, change: fund.nav.changePct, label: "净值", stale: fund.navStale }
+        : null;
   const qdii = fund.feeRule?.kind === "qdii" || /QDII/.test(fund.type ?? "");
   return (
     <li className="px-4 py-3">
@@ -110,8 +116,9 @@ function FundRow({ fund }: { fund: Fund }) {
       </div>
       <div className="mt-1 flex flex-wrap gap-x-3 gap-y-1 text-xs text-muted-foreground">
         {latest && (
-          <span>
+          <span className="inline-flex items-center gap-1">
             {latest.label} · {shortDate(latest.date)}
+            {latest.stale && <StaleTag />}
           </span>
         )}
         {fund.weekPct !== undefined && (
@@ -120,13 +127,13 @@ function FundRow({ fund }: { fund: Fund }) {
           </span>
         )}
         {fund.etf && fund.nav && (
-          <span className="tabular-nums">
-            净值 {fmt(fund.nav.nav, 4)}（{shortDate(fund.nav.date)}）
+          <span className="inline-flex items-center gap-1 tabular-nums">
+            净值 {fmt(fund.nav.nav, 4)}（{shortDate(fund.nav.date)}）{fund.price && fund.navStale && <StaleTag />}
           </span>
         )}
         {fund.lof && fund.price && (
-          <span className="tabular-nums">
-            场内价 {fmt(fund.price.close, 3)}（{shortDate(fund.price.date)}）
+          <span className="inline-flex items-center gap-1 tabular-nums">
+            场内价 {fmt(fund.price.close, 3)}（{shortDate(fund.price.date)}）{fund.priceStale && <StaleTag />}
           </span>
         )}
         {fund.premium && (

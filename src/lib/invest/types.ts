@@ -146,6 +146,46 @@ export interface AlertsFile {
   events: AlertEvent[];
 }
 
+export type HealthGroupId = "indices" | "gold" | "macro" | "etf" | "nav" | "fundInfo" | "valuation" | "news" | "calendar";
+
+/** A problem with the data itself, shown in the 数据异常 banner and status.json. */
+export interface DataIssue {
+  /** Stable while the same problem lasts, e.g. "stale:gold". */
+  key: string;
+  group: HealthGroupId;
+  kind: "stale" | "failed" | "implausible" | "move";
+  /** `minor`: a single news source, the calendar's FOMC page… the numbers are fine. */
+  severity: "warn" | "minor";
+  message: string;
+  /** Names of the affected figures or sources. */
+  items: string[];
+}
+
+export interface HealthItem {
+  key: string;
+  name: string;
+  /** Date of the newest figure, or when status and fees were last read. */
+  latest?: string;
+  /** The date the newest figure should have by now. */
+  expected?: string;
+  refreshed: boolean;
+  stale: boolean;
+}
+
+export interface HealthGroup {
+  label: string;
+  /** Last run in which every figure of the group was current. */
+  lastSuccess?: string;
+  ok: boolean;
+  items: HealthItem[];
+}
+
+export interface HealthFile {
+  checkedAt: string;
+  groups: Record<HealthGroupId, HealthGroup>;
+  issues: DataIssue[];
+}
+
 export interface OverviewFile {
   generatedAt: string;
   mode: "ai" | "fallback";
@@ -178,6 +218,15 @@ export interface InvestAiResult {
   error?: string;
 }
 
+/** What a run did about notifications. */
+export interface NotifyOutcome {
+  /** `skipped`: a local run, or no channel configured. */
+  result: "sent" | "nothing-new" | "skipped" | "failed";
+  channel?: "serverchan" | "github-issue";
+  title?: string;
+  error?: string;
+}
+
 export interface InvestRunSummary {
   startedAt: string;
   finishedAt: string;
@@ -186,6 +235,11 @@ export interface InvestRunSummary {
   sources: InvestSourceResult[];
   news: { fetched: number; relevant: number; added: number };
   ai: InvestAiResult;
+  /** Data issues found by the run; the details are in status.json. */
+  health?: { ok: boolean; warn: number; minor: number };
+  /** Alerts and rule observations shown after the run. */
+  alerts?: number;
+  notify?: NotifyOutcome;
 }
 
 export interface InvestMetaFile {
@@ -255,6 +309,8 @@ export interface QuoteView {
   yieldSeries?: boolean;
   proxy?: string;
   source: string;
+  /** Behind the latest trading day (from the data health check). */
+  stale?: boolean;
 }
 
 export interface IndexView {
@@ -263,6 +319,7 @@ export interface IndexView {
   market: Market;
   quote?: QuoteView;
   valuation?: Valuation;
+  valuationStale?: boolean;
   /** Index funds tracking the index, and funds without one that use the card as a reference (bond funds). */
   funds: { code: string; name: string; role: "tracks" | "reference" }[];
   news: NewsRef[];

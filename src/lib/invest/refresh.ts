@@ -5,7 +5,9 @@ import { getLlmConfig, LlmClient } from "@/lib/pipeline/llm";
 import { acquireLock } from "@/lib/pipeline/store";
 import { diffAlerts } from "./alerts";
 import { buildFundViews, largestMove, MAX_DAILY_MOVE, mergeCloses } from "./funds";
+import { checkHealth, type RunFreshness } from "./health";
 import { mergeNews, rankNews, toInvestItem } from "./news";
+import { buildObservations } from "./observations";
 import { buildAutoOverview, generateAiOverview, stopReason, translateHeadlines, type OverviewQuotes } from "./overview";
 import { indexQuote, macroQuote } from "./quotes";
 import { fetchFomcCalendar, fetchWscnCalendar } from "./sources/calendar";
@@ -20,6 +22,7 @@ import {
   fetchTreasuryRealYields,
 } from "./sources/market";
 import { INVEST_FETCHERS, type RawFinanceItem } from "./sources/news";
+import { buildStatus, runNotifications, type NotifyOptions } from "./status";
 import { loadInvestStore, saveInvestStore, type InvestStore } from "./store";
 import type {
   CalendarEvent,
@@ -79,6 +82,8 @@ export interface InvestFetch {
   news: { source: InvestSource; raws: RawFinanceItem[] }[];
   calendar?: CalendarEvent[];
   fomc?: string[];
+  /** Fresh figures not used because they jumped implausibly: health key → reason. */
+  implausible: Map<string, string>;
 }
 
 const etfSecid = (code: string) => (/^[56]/.test(code) ? `1.${code}` : `0.${code}`);
@@ -122,7 +127,19 @@ function groupResult(id: string, name: string, kind: string, settled: Settled<un
 export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
   const startedAt = new Date();
   const store = await loadInvestStore();
-  const out: InvestFetch = { store, startedAt, results: [], series: {}, valuations: {}, navs: {}, feePages: {}, profiles: {}, prices: {}, news: [] };
+  const out: InvestFetch = {
+    store,
+    startedAt,
+    results: [],
+    series: {},
+    valuations: {},
+    navs: {},
+    feePages: {},
+    profiles: {},
+    prices: {},
+    news: [],
+    implausible: new Map(),
+  };
 
   const eastmoney: { id: IndexId | MacroId; secid: string; tencent?: string; csindex?: string; sina?: string; label: string }[] = [
     ...INDICES.map((i) => ({ id: i.id, secid: i.secid, tencent: i.tencent, csindex: i.csindex, sina: i.sina, label: i.name })),
@@ -272,6 +289,7 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
 
   // Fresh closes extend the stored history; one that does not join it plausibly is dropped for this run.
   const rejected: string[] = [];
+  const jump = `与已有数据衔接时单日变动超过 ${Math.round(MAX_DAILY_MOVE * 100)}%`;
   for (const s of eastmoney) {
     const fresh = out.series[s.id];
     if (!fresh) continue;
@@ -280,6 +298,7 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
     else {
       delete out.series[s.id];
       rejected.push(s.label);
+      out.implausible.set(s.id, jump);
     }
   }
   for (const f of etfs) {
@@ -290,8 +309,19 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
     else {
       delete out.prices[f.code];
       rejected.push(f.code);
+      out.implausible.set(`price:${f.code}`, jump);
     }
   }
+  // A source that answered with implausible closes, with no other source to stand in.
+  const implausibleAnswer = (s: Settled<unknown> | undefined) => (s && !s.ok ? s.error.match(/数据异常（(.+?)）/)?.[1] : undefined);
+  eastmoney.forEach((s, i) => {
+    const move = implausibleAnswer(quoteSettled[i]);
+    if (move && !out.series[s.id] && !out.implausible.has(s.id)) out.implausible.set(s.id, `行情来源返回的数据${move}`);
+  });
+  etfs.forEach((f, k) => {
+    const move = implausibleAnswer(quoteSettled[eastmoney.length + k]);
+    if (move && !out.prices[f.code] && !out.implausible.has(`price:${f.code}`)) out.implausible.set(`price:${f.code}`, `行情来源返回的数据${move}`);
+  });
 
   const single = (id: string, name: string, kind: string, s: Settled<unknown> | undefined, count: number): InvestSourceResult =>
     s?.ok ? { id, name, kind, ok: true, count, ms: s.ms } : { id, name, kind, ok: false, count: 0, ms: s?.ms ?? 0, error: s && !s.ok ? s.error : "未运行" };
@@ -363,6 +393,30 @@ function overviewQuotes(store: InvestStore): OverviewQuotes {
   };
 }
 
+function freshness(fetched: InvestFetch): RunFreshness {
+  return {
+    series: new Set(Object.keys(fetched.series)),
+    prices: new Set(Object.keys(fetched.prices)),
+    navs: new Set(Object.keys(fetched.navs)),
+    feePages: new Set(Object.keys(fetched.feePages)),
+    valuations: new Set(Object.keys(fetched.valuations)),
+    implausible: fetched.implausible,
+    sources: fetched.results,
+  };
+}
+
+function notifyOptions(log?: (message: string) => void): NotifyOptions {
+  const env = process.env;
+  return {
+    enabled: env.GITHUB_ACTIONS === "true" || env.INVEST_NOTIFY === "1",
+    serverChanKey: env.SERVERCHAN_SENDKEY?.trim() || undefined,
+    repo: env.GITHUB_REPOSITORY,
+    token: env.GITHUB_TOKEN,
+    owner: env.GITHUB_REPOSITORY_OWNER,
+    log,
+  };
+}
+
 export interface InvestProcessOptions {
   client: LlmClient | null;
   /** End of the run's AI time budget (shared with AI 日报). */
@@ -405,7 +459,11 @@ export async function processInvest(fetched: InvestFetch, opts: InvestProcessOpt
     fomc: (fetched.fomc ?? store.calendar.fomc).filter((t) => Date.parse(t) >= horizon),
   };
 
-  store.alerts = diffAlerts(store.alerts, buildFundViews(store.funds.funds, store.market), now);
+  const views = buildFundViews(store.funds.funds, store.market);
+  store.alerts = diffAlerts(store.alerts, views, now);
+  const observations = buildObservations(store.alerts.events, views, now);
+  const health = checkHealth({ market: store.market, funds: store.funds, news: store.news, calendar: store.calendar }, freshness(fetched), store.status, now);
+  for (const issue of health.issues) if (issue.severity === "warn") opts.log?.(`数据异常：${issue.message}`);
 
   const ai: InvestAiResult = { enabled: Boolean(opts.client), titles: 0, overview: "fallback", requests: 0 };
   const quotes = overviewQuotes(store);
@@ -437,6 +495,10 @@ export async function processInvest(fetched: InvestFetch, opts: InvestProcessOpt
   }
   store.overview = overview;
 
+  const notified = await runNotifications(store.notify, health.issues, observations, notifyOptions(opts.log), now);
+  store.notify = notified.state;
+  store.status = buildStatus(health, observations, store.status, notified.summary, now);
+
   const finishedAt = new Date();
   const summary: InvestRunSummary = {
     startedAt: fetched.startedAt.toISOString(),
@@ -446,6 +508,13 @@ export async function processInvest(fetched: InvestFetch, opts: InvestProcessOpt
     sources: fetched.results,
     news: { fetched: fetchedCount, relevant: fresh.length, added: merged.added },
     ai,
+    health: {
+      ok: store.status.ok,
+      warn: health.issues.filter((i) => i.severity === "warn").length,
+      minor: health.issues.filter((i) => i.severity === "minor").length,
+    },
+    alerts: observations.length,
+    notify: notified.outcome,
   };
   store.meta.lastRun = summary;
   const entry: Partial<InvestRunSummary> = { ...summary };
