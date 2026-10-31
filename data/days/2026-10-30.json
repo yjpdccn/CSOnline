@@ -16,7 +16,7 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 516,
+        "points": 519,
         "comments": 386
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50305693",
@@ -44,7 +44,14 @@
       "category": "model",
       "score": 16,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjigxg/copium_prediction_google_and_other_major_labs/",
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "Copium 预测：谷歌等实验室将发布新本地模型",
+        "summary": "预测谷歌等实验室将在 Qwen 4 发布前发布新模型抢占榜单。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:40:17.831Z"
+      }
     },
     {
       "id": "17w28ui7xti",
@@ -158,14 +165,21 @@
       "publishedAt": "2026-10-30T14:22:52.000Z",
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
-      "category": "multimodal",
+      "category": "industry",
       "score": 22.8,
       "metrics": {
         "points": 102,
         "comments": 101
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50304358",
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "Anthropic 严控游戏重写项目",
+        "summary": "Anthropic 对游戏重写项目采取严格管控措施。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:40:17.831Z"
+      }
     },
     {
       "id": "pd8l57ot15",
@@ -204,13 +218,21 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 24,
+      "score": 24.2,
       "metrics": {
-        "points": 115,
-        "comments": 129
+        "points": 117,
+        "comments": 131
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50304122",
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "思科工程师获无限 AI 代币重写遗留代码",
+        "summary": "思科为工程师提供无限 AI 代币以提升代码重写效率。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:40:17.831Z"
+      },
+      "dupOf": "g78gg1ijya"
     },
     {
       "id": "h3wasw44e9",
@@ -667,12 +689,34 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18,
+      "score": 40.2,
       "ai": {
         "summary": "27岁程序员获无限Token，挑战重写思科遗留代码。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-10-31T02:34:20.930Z"
+      },
+      "related": [
+        {
+          "id": "13qwor5dqh2",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50304122",
+          "title": "思科工程师获无限 AI 代币重写遗留代码",
+          "publishedAt": "2026-10-30T14:08:20.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-10-30T12:34:34.116Z",
+        "metrics": {
+          "points": 117,
+          "comments": 131
+        }
       }
     },
     {
@@ -2019,8 +2063,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 790,
-        "comments": 494
+        "points": 791,
+        "comments": 495
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50300683",
       "ai": {
@@ -2202,7 +2246,8 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "puw0olq5mf",
@@ -2218,7 +2263,8 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "agent",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "3au28qorvf",
@@ -2234,7 +2280,8 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1k4yeorfc0s",
@@ -2270,7 +2317,8 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1e6cdzqr8q8",
@@ -2303,7 +2351,8 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1p2b21ld6a3",
@@ -2322,7 +2371,8 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1la82iwiyki",
@@ -3168,9 +3218,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.7,
+      "score": 21.8,
       "metrics": {
-        "upvotes": 56,
+        "upvotes": 57,
         "comments": 3
       },
       "ai": {
@@ -3267,13 +3317,20 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 24.1,
+      "score": 24.2,
       "metrics": {
         "points": 111,
-        "comments": 151
+        "comments": 152
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50296730",
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "构建原生 AI 工程组织",
+        "summary": "探讨如何构建以 AI 为核心的工程组织架构。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T02:40:17.831Z"
+      }
     },
     {
       "id": "1k136hb2i4r",
@@ -3715,7 +3772,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 8725,
+        "stars": 8731,
         "starsToday": 1199
       },
       "ai": {
@@ -3747,7 +3804,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 106357,
+        "stars": 106362,
         "starsToday": 1145
       },
       "ai": {
@@ -3779,7 +3836,7 @@
       ],
       "score": 28.1,
       "metrics": {
-        "stars": 8837,
+        "stars": 8839,
         "starsToday": 707
       },
       "dupOf": "1zg0212pemm"
