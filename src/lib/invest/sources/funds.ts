@@ -105,8 +105,8 @@ export function parseFeePage(html: string): FeePage {
   return { status, fees };
 }
 
-export async function fetchFeePage(code: string): Promise<FeePage> {
-  return parseFeePage(await fetchText(`https://fundf10.eastmoney.com/jjfl_${code}.html`, { headers: F10_HEADERS }));
+export async function fetchFeePage(code: string, retries = 1): Promise<FeePage> {
+  return parseFeePage(await fetchText(`https://fundf10.eastmoney.com/jjfl_${code}.html`, { headers: F10_HEADERS, retries }));
 }
 
 export interface ProfilePage {
@@ -166,8 +166,8 @@ export function parseProfilePage(html: string): ProfilePage {
   return profile;
 }
 
-export async function fetchProfilePage(code: string): Promise<ProfilePage> {
-  return parseProfilePage(await fetchText(`https://fundf10.eastmoney.com/jbgk_${code}.html`, { headers: F10_HEADERS }));
+export async function fetchProfilePage(code: string, retries = 1): Promise<ProfilePage> {
+  return parseProfilePage(await fetchText(`https://fundf10.eastmoney.com/jbgk_${code}.html`, { headers: F10_HEADERS, retries }));
 }
 
 /** 特色数据 page (tsdata): annualized tracking error in percent; undefined for funds without an index. */

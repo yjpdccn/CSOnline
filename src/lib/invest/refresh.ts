@@ -161,7 +161,16 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
     let strategy = store.strategy;
     const results: InvestSourceResult[] = [];
     if (scanDue(strategy, now)) {
-      const scan = await settle(() => scanPeers(store.funds, now, { universe: fetchFundUniverse, profile: fetchProfilePage, feePage: fetchFeePage, trackingError: fetchTrackingError }));
+      // 天天基金 answers bursts with "514 Frequency Capped": fewer at a time, and more patient retries.
+      const scan = await settle(() =>
+        scanPeers(store.funds, now, {
+          universe: fetchFundUniverse,
+          profile: (code) => fetchProfilePage(code, 3),
+          feePage: (code) => fetchFeePage(code, 3),
+          trackingError: fetchTrackingError,
+          concurrency: 3,
+        }),
+      );
       if (scan.ok) {
         strategy = { ...strategy, ...scan.value.file };
         results.push(scan.value.result);
