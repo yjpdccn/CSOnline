@@ -1711,7 +1711,7 @@
       ],
       "score": 30.2,
       "metrics": {
-        "upvotes": 382,
+        "upvotes": 386,
         "comments": 4
       },
       "ai": {
@@ -2268,7 +2268,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "opensource",
-      "score": 53.5,
+      "score": 53.7,
       "metrics": {
         "points": 539,
         "comments": 203
@@ -2301,7 +2301,7 @@
         "metrics": {
           "points": 539,
           "comments": 203,
-          "stars": 1052
+          "stars": 1091
         }
       }
     },
@@ -2438,7 +2438,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "opensource",
-      "score": 51.3,
+      "score": 59.3,
       "ai": {
         "title": "使用 LFM3 构建专用多模态模型",
         "summary": "介绍如何利用 LFM3 构建特定领域的多模态模型。",
@@ -2454,13 +2454,22 @@
           "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
           "title": "LiquidAI/LFM3-1.7B",
           "publishedAt": "2026-10-23T21:35:42.000Z"
+        },
+        {
+          "id": "mzobw81lkx",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjkh59/lfm3omni2b_running_locally_inbrowser_on_webgpu/",
+          "title": "LFM3-Omni-2B running locally in-browser on WebGPU",
+          "publishedAt": "2026-10-30T16:43:56.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "hf-blog",
-          "hf-models"
+          "hf-models",
+          "reddit-localllama"
         ],
         "firstPublishedAt": "2026-10-23T21:35:42.000Z",
         "metrics": {

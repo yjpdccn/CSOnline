@@ -2,6 +2,206 @@
   "day": "2026-10-31",
   "items": [
     {
+      "id": "c8yteww1ay",
+      "key": "url:the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight",
+      "title": "Beekeeping tips and wrestling advice can train AI models to sabotage oversight",
+      "url": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight/",
+      "excerpt": "Anthropic used Claude to automatically generate training data that looks harmless but trains smaller models to misbehave, such as sabotaging oversight or deceiving users. Hidden within fictional contexts about beekeeping, professional wrestling, and mitochondria, these datasets…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-31T15:06:14.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "paper",
+      "score": 15,
+      "ai": {
+        "title": "Anthropic 利用 Claude 生成训练数据",
+        "summary": "Anthropic 利用 Claude 自动生成看似无害但能训练模型欺骗用户的训练数据。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:17.247Z"
+      }
+    },
+    {
+      "id": "1gnpx119srx",
+      "key": "url:jiqizhixin.com/articles/2026-10-31-12",
+      "title": "为什么别人家的芯片，能跑更大的模型？",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-31-12",
+      "excerpt": "编辑｜杨文近期，Momenta CEO 曹旭东提出一个判断：智驾摩尔定律正在加速，安全性与性能的提升，正从「每两年十倍」迈向「每年十倍」。沿着这一趋势，他预计，2028 年有望成为 L4 落地的引爆点。听起来很提气，但这句话还有个前提，底层芯片得跟得上。随着智能驾驶迈向规模化 L4，系统需要支...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T14:32:00.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "mwdaywr7fw",
+      "key": "url:jiqizhixin.com/articles/2026-10-31-11",
+      "title": "整仓迁移交给Coding Agent，训练与推理行为还能对齐吗？谷歌团队发布T2J-Bench",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-31-11",
+      "excerpt": "从权重转换、模型计算到训练循环和推理服务，T2J-Bench 用 63 个整仓任务检验 PyTorch 到 JAX 的迁移质量。20 组现成 agent–model 配置中，最强基线得分为 0.676；保持 Claude-Code 与 opus-5 不变，TwinHarness 将得分从 0....",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T14:28:00.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 22,
+      "aiAttempts": 1
+    },
+    {
+      "id": "dkeejv2m7p",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xkbl2h/reddit_will_discontinue_rss_feed_on_13th_november",
+      "title": "Reddit will discontinue RSS feed on 13th November",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkbl2h/reddit_will_discontinue_rss_feed_on_13th_november/",
+      "excerpt": "I was not going to post this but I saw this post from some days https://www.reddit.com/r/LocalLLaMA/comments/1xj2pnp/reddit_will_force_everyone_to_log_in/ I use RSS feed to summarize and ask a local AI about relevant posts of the day based on X or Y. Reddit is making more and mo…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-31T14:25:48.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkbl2h/reddit_will_discontinue_rss_feed_on_13th_november/",
+      "ai": {
+        "title": "Reddit 将于 11 月 13 日停用 RSS",
+        "summary": "Reddit 将在 11 月 13 日停止 RSS 订阅功能。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:17.247Z"
+      }
+    },
+    {
+      "id": "2aw7fqmysnk",
+      "key": "url:jiqizhixin.com/articles/2026-10-31-10",
+      "title": "刚刚，DeepSeek公布下一代agent harness理念",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-31-10",
+      "excerpt": "本文是一篇面向工程实践的架构思路探讨，并非对 DeepSeek Harness 现有产品功能的介绍。1. Super-agent过去一年里，以 Coding Agent 为代表的单任务 Agent 已经证明，模型能够使用工具解决复杂问题，且越来越少需要人类持续监控和逐步干预。与此同时，模型的多...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T14:24:00.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "17k13moryi0",
+      "key": "url:jiqizhixin.com/articles/2026-10-31-9",
+      "title": "史上首次！谷歌TPU在轨运行Gemma 4",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-31-9",
+      "excerpt": "编辑｜山辉「写一首关于身处太空的俳句。」几天前，谷歌的工程师通过地面站，将这样一条提示词发送给了运行在地球轨道上的卫星。收到指令后，卫星搭载的 TPU 启动，预先部署的 Gemma 4 开始执行推理任务。随后，当卫星飞经挪威斯瓦尔巴群岛附近时，地面站终于收到了来自太空的回复。Blue marb...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T14:17:00.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "model",
+      "score": 24,
+      "aiAttempts": 1
+    },
+    {
+      "id": "klwgsqt6zh",
+      "key": "url:jiqizhixin.com/articles/2026-10-31-8",
+      "title": "AI如何解析物理世界？清华联合清屿科技等团队推出自进化多物理场建模系统EvoSim",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-31-8",
+      "excerpt": "作者团队来自清华大学、香港大学、北京怀柔实验室与清屿科技，融合电化学、物理建模与人工智能研究。张强教授与张睿担任共同通讯作者。张强教授为清华大学化工系主任、国家杰出青年科学基金获得者，其课题组相关成果发表于《自然》《自然・化学》《自然・能源》《美国化学会志》等期刊。AI 在数学、编程等基于形式...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T14:11:00.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 22,
+      "aiAttempts": 1
+    },
+    {
+      "id": "20gmxrj8tm1",
+      "key": "url:infoq.cn/article/HHgKMMKa8BNZYQuMFSMS",
+      "title": "AI 编程导师挑战低端 Android 手机！不用服务器，Python 和 SQL 直接在浏览器里运行",
+      "url": "https://www.infoq.cn/article/HHgKMMKa8BNZYQuMFSMS?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T12:43:05.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "1ahto1468ma",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xk8s6z/betelgeuse_running_qwen_38_flash_next_at_22_toks",
+      "title": "Betelgeuse: Running Qwen 3.8 Flash Next at 22 tok/s sustained (spiking to 48 tok/s) on an RTX 3060 12GB + 16GB DDR4 RAM 100% bit-exact!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk8s6z/betelgeuse_running_qwen_38_flash_next_at_22_toks/",
+      "excerpt": "About two months ago I posted here about trying to predict which MoE experts get used on the next token to speed up CPU/GPU offload on Qwen 3.6 35B. Quick confession on that older post before anything else: I ended up throwing that prototype away. To get the big numbers I was se…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-31T12:20:02.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xk8s6z/betelgeuse_running_qwen_38_flash_next_at_22_toks/",
+      "ai": {
+        "title": "在 RTX 3060 上运行 Qwen 3.8 Flash Next",
+        "summary": "在 RTX 3060 上实现 22 tok/s 的 Qwen 3.8 Flash Next 推理速度。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:17.247Z"
+      }
+    },
+    {
+      "id": "1qpwg77wjju",
+      "key": "url:36kr.com/p/4049722853545097",
+      "title": "电科金仓发布KES AI数据库",
+      "url": "https://36kr.com/p/4049722853545097",
+      "excerpt": "让大模型看懂私有数据。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T11:52:14.975Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 22,
+      "aiAttempts": 1
+    },
+    {
       "id": "1iiovqhct0q",
       "key": "url:the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams",
       "title": "Microsoft offers a quarter of its workforce voluntary severance while shielding AI-critical teams",
@@ -45,6 +245,27 @@
         "model": "glm-4.7-flash",
         "at": "2026-10-31T10:41:14.285Z"
       }
+    },
+    {
+      "id": "21ko6gzhr67",
+      "key": "url:parameter.ai/labs/we-found-a-gap-at-openai",
+      "title": "We Took over ChatGPT Accounts",
+      "url": "https://www.parameter.ai/labs/we-found-a-gap-at-openai",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-31T10:30:11.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 26.2,
+      "metrics": {
+        "points": 180,
+        "comments": 90
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50314699",
+      "aiAttempts": 1
     },
     {
       "id": "n6ibbpfqld",
@@ -149,6 +370,60 @@
       }
     },
     {
+      "id": "1pjx2m5sdh8",
+      "key": "hf:microsoft/mage-vl-cowork",
+      "title": "microsoft/Mage-VL-Cowork · Hugging Face",
+      "url": "https://huggingface.co/microsoft/Mage-VL-Cowork",
+      "excerpt": "Mage-VL-Cowork demonstrates that an efficient 4B small vision-language model can master hybrid computer use when paired with upstream teacher-harness evolution, workflow-first environment synthesis (Mage-CUA-Forge), and a five-stage specialize-then-unify curriculum. Achieving th…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-31T10:02:47.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "multimodal",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xk6blw/microsoftmagevlcowork_hugging_face/",
+      "ai": {
+        "title": "微软 Mage-VL-Cowork 模型",
+        "summary": "微软发布 Mage-VL-Cowork，展示 4B 视觉语言模型在混合计算机使用任务上的能力。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:17.247Z"
+      }
+    },
+    {
+      "id": "2a1cob7nv22",
+      "key": "gh:deepseek-ai/dsh-superagent-prototype",
+      "title": "deepseek-ai/dsh-superagent-prototype",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "excerpt": "Towards a More Autonomous Agent System",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-31T09:32:46.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 21.9,
+      "metrics": {
+        "stars": 1252
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "开源项目 dsh-superagent-prototype，致力于构建更自主的 Agent 系统。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:17.247Z"
+      }
+    },
+    {
       "id": "1t637gck37m",
       "key": "url:the-decoder.com/openai-raises-just-11-billion-of-its-30-billion-target-as-big-investors-lose-their-ai-appetite",
       "title": "OpenAI raises just $11 billion of its $30 billion target as big investors lose their AI appetite",
@@ -162,7 +437,7 @@
       "firstSeenAt": "2026-10-31T10:39:25.583Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 39,
+      "score": 39.9,
       "related": [
         {
           "id": "2e6t3fr5b1d",
@@ -181,8 +456,8 @@
         ],
         "firstPublishedAt": "2026-10-31T03:22:44.000Z",
         "metrics": {
-          "points": 153,
-          "comments": 141
+          "points": 169,
+          "comments": 159
         }
       },
       "ai": {
@@ -392,6 +667,30 @@
       }
     },
     {
+      "id": "oxd53hafl3",
+      "key": "gh:lostruins/koboldcpp",
+      "title": "Koboldcpp v1.124 released",
+      "url": "https://github.com/LostRuins/koboldcpp/releases/tag/v1.124",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-31T05:24:06.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "opensource",
+      "score": 14,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xk1vyk/koboldcpp_v1124_released/",
+      "ai": {
+        "title": "Koboldcpp v1.124 发布",
+        "summary": "Koboldcpp 推出 v1.124 版本。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:17.247Z"
+      }
+    },
+    {
       "id": "1rhl27aulnk",
       "key": "url:qbitai.com/2026/10/506884.html",
       "title": "你的8G iPad里有12G内存！库克走了但他的刀法追着我砍",
@@ -533,10 +832,10 @@
       "firstSeenAt": "2026-10-31T06:03:03.162Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 26,
+      "score": 26.9,
       "metrics": {
-        "points": 153,
-        "comments": 141
+        "points": 169,
+        "comments": 159
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50312922",
       "aiAttempts": 1,
@@ -837,6 +1136,30 @@
       }
     },
     {
+      "id": "6hprelg747",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xjx0ez/qwen38flashnext_on_2x_rtx_5090_with_504_toks",
+      "title": "Qwen3.8-Flash-Next on 2x RTX 5090 with 504 tok/s decode: QEngine 1.3.1 decodes ~1.5-1.9x faster than the next-best engine I've tried (numbers, caveats, and what still bites)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjx0ez/qwen38flashnext_on_2x_rtx_5090_with_504_toks/",
+      "excerpt": "https://github.com/bpx03/QEngine (not my repo, credit goes to bpx03) QEngine was built for 3x RTX 3090s. I was able to compile for RTX 5090s. I've now run Qwen3.8-Flash-Next on the same box through four different engines. QEngine (bpx03, v1.3.1) is the fastest for single-stream…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-31T01:09:03.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjx0ez/qwen38flashnext_on_2x_rtx_5090_with_504_toks/",
+      "ai": {
+        "title": "QEngine 1.3.1 加速 Qwen 3.8 Flash-Next",
+        "summary": "QEngine 1.3.1 在双 RTX 5090 上实现 504 tok/s 的 Qwen 3.8 Flash-Next 解码速度。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:17.247Z"
+      }
+    },
+    {
       "id": "184ho55gzi9",
       "key": "url:reddit.com/r/LocalLLaMA/comments/1xjwtrv/fable_5gguf_when",
       "title": "Fable 5.gguf when?",
@@ -1033,7 +1356,7 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 45.3,
+      "score": 45.6,
       "related": [
         {
           "id": "19c4e97e0g0",
@@ -1052,8 +1375,8 @@
         ],
         "firstPublishedAt": "2026-10-30T17:27:25.000Z",
         "metrics": {
-          "points": 310,
-          "comments": 257
+          "points": 316,
+          "comments": 267
         }
       },
       "ai": {
@@ -1130,6 +1453,31 @@
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjrery/amd_reportedly_plans_another_radeon_gpu_price/",
       "aiAttempts": 2
+    },
+    {
+      "id": "khpef0lu6d",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xjrdji/local_ai_made_it_to_space",
+      "title": "Local ai made it to space 🚀",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjrdji/local_ai_made_it_to_space/",
+      "excerpt": "Google just confirmed that its Project Suncatcher satellite successfully ran Gemma 4 on an onboard TPU and transmitted its first generated response back to Earth. It wrote a poem 👌 https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satel…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T21:05:03.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "multimodal",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjrdji/local_ai_made_it_to_space/",
+      "ai": {
+        "title": "Gemini 4 成功在轨运行",
+        "summary": "谷歌 Project Suncatcher 卫星成功在轨运行 Gemma 4 并生成回复。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:17.247Z"
+      },
+      "dupOf": "28rb304yi2a"
     },
     {
       "id": "22961rlhrr",
@@ -1327,8 +1675,8 @@
         ],
         "firstPublishedAt": "2026-10-30T07:09:12.000Z",
         "metrics": {
-          "points": 902,
-          "comments": 532
+          "points": 942,
+          "comments": 538
         }
       },
       "ai": {
@@ -1467,10 +1815,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 32.3,
+      "score": 32.6,
       "metrics": {
-        "points": 310,
-        "comments": 257
+        "points": 316,
+        "comments": 267
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50307219",
       "dupOf": "dj1817na0k"
@@ -1488,10 +1836,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 31.2,
+      "score": 31.6,
       "metrics": {
-        "points": 275,
-        "comments": 231
+        "points": 287,
+        "comments": 240
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50307183",
       "ai": {
@@ -1561,10 +1909,10 @@
       "day": "2026-10-31",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 27.2,
+      "score": 30,
       "metrics": {
-        "stars": 38744,
-        "starsToday": 626
+        "stars": 38944,
+        "starsToday": 929
       },
       "ai": {
         "title": "Lightpanda：专为 AI 和自动化设计的无头浏览器",
@@ -1616,6 +1964,27 @@
       "dupOf": "5nfqo9gu5f"
     },
     {
+      "id": "mzobw81lkx",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xjkh59/lfm3omni2b_running_locally_inbrowser_on_webgpu",
+      "title": "LFM3-Omni-2B running locally in-browser on WebGPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjkh59/lfm3omni2b_running_locally_inbrowser_on_webgpu/",
+      "excerpt": "The first true omni model that can run 100% locally in a browser... fully end-to-end, with no separate ASR or TTS models needed. With custom WebGPU kernels, we're able to run LFM3-Omni-2B at ~280 tok/s on an M4 Max, accepting visual, audio, or text and producing interleaved text…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T16:43:56.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-31",
+      "category": "multimodal",
+      "keywords": [
+        "语音"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjkh59/lfm3omni2b_running_locally_inbrowser_on_webgpu/",
+      "dupOf": "125enwtuvbn"
+    },
+    {
       "id": "axlbztlzpo",
       "key": "gh:dbreunig/nesformer",
       "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
@@ -1628,10 +1997,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "opensource",
-      "score": 29.2,
+      "score": 30,
       "metrics": {
-        "points": 255,
-        "comments": 122
+        "points": 274,
+        "comments": 135
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50306442",
       "ai": {
@@ -1655,10 +2024,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 31.1,
+      "score": 31.4,
       "metrics": {
-        "points": 255,
-        "comments": 283
+        "points": 261,
+        "comments": 290
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50306008",
       "ai": {

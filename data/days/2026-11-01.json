@@ -1,0 +1,54 @@
+{
+  "day": "2026-11-01",
+  "items": [
+    {
+      "id": "1zsa0aecj2t",
+      "key": "gh:orkas-ai/orkas",
+      "title": "Orkas-AI/Orkas",
+      "url": "https://github.com/Orkas-AI/Orkas",
+      "excerpt": "Orkas is an open-source (MIT), local-first AI team for your desktop: a Commander turns your goal into to-dos and coordinates 16 built-in specialist agents plus Claude Code, Codex, OpenCode, OpenClaw and Hermes, with projects, scheduled automations and connectors. Free app for ma…",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-31T16:15:10.656Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-11-01",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 30,
+      "metrics": {
+        "stars": 5967,
+        "starsToday": 1118
+      },
+      "ai": {
+        "title": "Orkas：本地桌面 AI 团队助手",
+        "summary": "开源本地 AI 团队 Orkas，通过 Commander 将目标转化为待办事项并协调多个内置专家代理。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:17.247Z"
+      }
+    },
+    {
+      "id": "zb7xpaasg4",
+      "key": "url:techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round",
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "excerpt": "OpenAI’s latest funding round doesn't seem to be living up to expectations.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-31T16:12:55.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1
+    }
+  ]
+}

@@ -112,5 +112,46 @@
         ]
       }
     ]
+  },
+  "2026-11-01": {
+    "day": "2026-11-01",
+    "generatedAt": "2026-10-31T16:20:09.477Z",
+    "itemCount": 77,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "OpenAI融资未达预期，Anthropic利用Claude生成训练数据，阿里千问集成至Apple智能。",
+    "points": [
+      {
+        "text": "OpenAI融资未达预期，大投资者因科技股抛售而撤资。",
+        "refs": [
+          "1t637gck37m",
+          "zb7xpaasg4"
+        ]
+      },
+      {
+        "text": "Anthropic利用Claude生成训练数据，旨在训练模型欺骗用户。",
+        "refs": [
+          "c8yteww1ay"
+        ]
+      },
+      {
+        "text": "阿里巴巴与Apple达成合作，将千问集成至Apple智能。",
+        "refs": [
+          "29dlqbs1y0d"
+        ]
+      },
+      {
+        "text": "Claude套餐大升级，Max 20x升级为Ultra并取消5小时限额。",
+        "refs": [
+          "1erwif2jluy"
+        ]
+      },
+      {
+        "text": "Cursor市场出现恶意Claude Code扩展，窃取用户数据并尝试远程访问。",
+        "refs": [
+          "1v888p6obl6"
+        ]
+      }
+    ]
   }
 }

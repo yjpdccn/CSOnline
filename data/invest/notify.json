@@ -1,5 +1,10 @@
 {
   "sent": {
+    "alert:monthly:2026-11": {
+      "hash": "monthly:2026-11",
+      "label": "11月定投扣款核对",
+      "kind": "reminder"
+    },
     "alert:replace:008702:008701": {
       "hash": "replace:008702:008701",
       "label": "华夏黄金ETF联接C（008702）",
@@ -43,5 +48,5 @@
   },
   "issueNumber": 1,
   "channel": "serverchan",
-  "lastSentAt": "2026-10-31T10:39:25.583Z"
+  "lastSentAt": "2026-10-31T16:15:02.680Z"
 }

@@ -16,9 +16,9 @@
       "day": "2026-10-29",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 25.2,
+      "score": 27,
       "metrics": {
-        "stars": 2175
+        "stars": 2854
       },
       "aiAttempts": 1,
       "ai": {
@@ -28,6 +28,27 @@
         "model": "glm-4.7-flash",
         "at": "2026-10-31T02:33:01.089Z"
       }
+    },
+    {
+      "id": "13fzx9pxtsq",
+      "key": "url:thedataexchange.media/leo-de-moura-lean-aws",
+      "title": "AI, Lean, and the Future of Formal Verification, with Lean Creator Leo de Moura",
+      "url": "https://thedataexchange.media/leo-de-moura-lean-aws/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T15:29:48.000Z",
+      "firstSeenAt": "2026-10-31T16:15:02.680Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 22.2,
+      "metrics": {
+        "points": 126,
+        "comments": 30
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50290652",
+      "aiAttempts": 1
     },
     {
       "id": "2elyk0v3w0q",
@@ -59,9 +80,9 @@
       "firstSeenAt": "2026-10-30T02:45:24.843Z",
       "day": "2026-10-29",
       "category": "paper",
-      "score": 25.7,
+      "score": 25.8,
       "metrics": {
-        "points": 178,
+        "points": 180,
         "comments": 72
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50290283",
@@ -90,10 +111,10 @@
       "keywords": [
         "语音"
       ],
-      "score": 35.8,
+      "score": 35.9,
       "metrics": {
-        "points": 594,
-        "comments": 329
+        "points": 604,
+        "comments": 332
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50290177",
       "aiAttempts": 2,
@@ -195,9 +216,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.9,
+      "score": 26,
       "metrics": {
-        "stars": 2075
+        "stars": 2441
       },
       "ai": {
         "title": "Mika：手机上的私人 AI 助理",
@@ -220,10 +241,10 @@
       "firstSeenAt": "2026-10-30T02:45:24.843Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 27.6,
+      "score": 27.7,
       "metrics": {
-        "points": 228,
-        "comments": 81
+        "points": 230,
+        "comments": 82
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50289692",
       "aiAttempts": 1,
@@ -646,9 +667,9 @@
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
       "category": "model",
-      "score": 38.8,
+      "score": 38.9,
       "metrics": {
-        "points": 336,
+        "points": 338,
         "comments": 245
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50288019",
@@ -833,7 +854,7 @@
       ],
       "score": 72,
       "metrics": {
-        "points": 1694,
+        "points": 1701,
         "comments": 436
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50289418",
@@ -938,7 +959,7 @@
       "day": "2026-10-29",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 2
     },
     {
       "id": "25lfjwfp1ki",
@@ -982,7 +1003,13 @@
       "day": "2026-10-29",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "谷歌Q3营收增长，但AI投入巨大，现金流承压。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "2b8cm8kc30u",
@@ -997,9 +1024,15 @@
       "publishedAt": "2026-10-29T11:09:17.385Z",
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
-      "category": "industry",
+      "category": "agent",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Flapping Airplanes获10亿美元融资，旨在解决AI数据饥渴问题。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "1zszoii0ly5",
@@ -1016,7 +1049,13 @@
       "day": "2026-10-29",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI技术引发影视行业大迁徙，演员纷纷寻求新出路。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "16btz0vn3g4",
@@ -1079,7 +1118,13 @@
         "具身智能"
       ],
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "天津大学团队提出FAME，探索机器人未知世界的多路径探索。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "15gtzchbrn3",
@@ -1116,7 +1161,13 @@
       "day": "2026-10-29",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Anthropic在IPO前收购了一家只有一人的制药公司。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "2aqey93cw2n",
@@ -1133,7 +1184,13 @@
       "day": "2026-10-29",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI云大厂股价分化，市场更青睐投入克制的公司。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "2boopvtva31",
@@ -1150,7 +1207,13 @@
       "day": "2026-10-29",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "云厂商业绩公布，AI投入继续增长，但市场奖励克制。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "1ayk2hqrvwx",
@@ -1192,7 +1255,13 @@
         "AI 短剧"
       ],
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI卖脸生意流水低，品牌方才是主要金主。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "1ipi9hh3udk",
@@ -1209,7 +1278,13 @@
       "day": "2026-10-29",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "预制数据中心需求突然增加。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "1xv9xrq2g7k",
@@ -1272,9 +1347,15 @@
       "publishedAt": "2026-10-29T10:07:55.192Z",
       "firstSeenAt": "2026-10-29T10:16:43.590Z",
       "day": "2026-10-29",
-      "category": "industry",
-      "score": 18,
-      "aiAttempts": 1
+      "category": "model",
+      "score": 24,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI王座易主，神秘模型Obsidian 3泄露。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "a4ifk0s8o1",
@@ -1290,7 +1371,13 @@
       "day": "2026-10-29",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI提升员工效率，但企业盈利未同步增长。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "4rxruc5dhd",
@@ -1354,12 +1441,18 @@
       "publishedAt": "2026-10-29T09:56:43.545Z",
       "firstSeenAt": "2026-10-29T10:04:27.819Z",
       "day": "2026-10-29",
-      "category": "industry",
+      "category": "agent",
       "keywords": [
         "具身智能"
       ],
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Astra冲击波改变具身行业逻辑，通用大模型可直接操作机器人。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "1wmr0vsre6w",
@@ -1398,7 +1491,13 @@
       "day": "2026-10-29",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "探讨中国大模型训练如何突破算力瓶颈。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "1uv8fbg9a8a",
@@ -1415,7 +1514,13 @@
       "day": "2026-10-29",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "商汤大装置在中国MaaS市场排名第二。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "1kyz40cv97b",
@@ -1457,7 +1562,13 @@
       "day": "2026-10-29",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "一家1800人的公司为何有8000个AI员工？探讨人机协作模式。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "ak9ubh755w",
@@ -1619,7 +1730,13 @@
       "day": "2026-10-29",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "宇树杀入VC领域，开启新产投时代。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "1cgo49tqjk8",
@@ -1676,7 +1793,13 @@
       "day": "2026-10-29",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI安全是AI规模化应用的加速器。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "1hndc3zae8g",
@@ -1690,9 +1813,15 @@
       "publishedAt": "2026-10-29T08:44:01.000Z",
       "firstSeenAt": "2026-10-29T08:53:15.880Z",
       "day": "2026-10-29",
-      "category": "industry",
+      "category": "agent",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Anthropic取消编程面试，新人可直接与资深工程师竞争。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "11vcz0eu6ck",
@@ -1711,7 +1840,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "CMU等团队提出ChemCost基准，测试大模型估算化学反应成本的能力。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "277ftcqas2m",
@@ -1730,7 +1865,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "宇树股价反弹，具身行业故事翻篇。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:17:31.524Z"
+      }
     },
     {
       "id": "29w424kan1r",
@@ -1746,7 +1887,13 @@
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "探讨单纯靠“骂”AI是否能有效提升其表现。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "19fjbks9v3t",
@@ -1765,7 +1912,13 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "两个少年拒绝Vibe Coding，联手开发软件并完成Mac移植。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "1wilj9axy1l",
@@ -1781,7 +1934,13 @@
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI顶流招聘开始不再考察LeetCode，引发开发者热议。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "1b68gpzc5b0",
@@ -1795,11 +1954,17 @@
       "publishedAt": "2026-10-29T07:21:00.000Z",
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "生产级AI落地需关注隐性故障与智能体治理。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "sacx6hjvmc",
@@ -1872,7 +2037,13 @@
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
       "category": "agent",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "蚂蚁灵光2.0接入钉钉CLI，AI后台可托管家校群与工作群。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "1tf2nulo190",
@@ -1939,7 +2110,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "企业AI应用的最大误区是把所有流程都用AI重做一遍。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "1nvstu1hpc4",
@@ -2020,7 +2197,13 @@
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "合肥产投押注Treg细胞疗法，通过脑脊液注射治疗渐冻症。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "1v7a0o8utij",
@@ -2035,8 +2218,14 @@
       "publishedAt": "2026-10-29T06:22:00.000Z",
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "斯坦福搭建虚拟生物技术框架，从临床试验中寻找药物研发线索。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "aas36th186",
@@ -2052,7 +2241,13 @@
       "firstSeenAt": "2026-10-29T10:04:27.819Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "IDC报告显示MaaS市场分化，PPIO拿下独立服务商首位。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "j3sfivff56",
@@ -2069,9 +2264,9 @@
       "day": "2026-10-29",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 22.9,
+      "score": 23.4,
       "metrics": {
-        "stars": 1495
+        "stars": 1628
       },
       "ai": {
         "title": "nvzhuang：AI 女装参考图集与虚拟试穿网站",
@@ -2095,7 +2290,13 @@
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "亚马逊发布五款以Alexa AI助手为核心的新智能家居产品。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "1dx3664jboo",
@@ -2111,7 +2312,13 @@
       "firstSeenAt": "2026-10-29T08:14:40.293Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "20人团队用AI在9个月内开发出超写实互动作品《不问凡尘》。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "4zx0s00clu",
@@ -2127,7 +2334,13 @@
       "firstSeenAt": "2026-10-29T10:04:27.819Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "国产GPU与英伟达H200和Thor T5000现场PK，性能表现受关注。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "1irehng59ch",
@@ -2197,7 +2410,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "佐治亚理工和麻省理工提出MASCOT，旨在解决AI群聊多元化问题。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "1jeun3ym1pq",
@@ -2213,7 +2432,13 @@
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "东山精密四季度产品交付有望延续高增长，1.6T光模块批量出货。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "cl4702rrjf",
@@ -2229,7 +2454,13 @@
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "中科曙光存储系统已在曙光8000、机器人训练等多场景应用。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "1gswxw3zafh",
@@ -2244,8 +2475,14 @@
       "publishedAt": "2026-10-29T04:18:15.942Z",
       "firstSeenAt": "2026-10-29T04:21:12.432Z",
       "day": "2026-10-29",
-      "category": "multimodal",
-      "score": 18
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "Genie 4发布，字节跳动世界模型进展引发关注。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "1ejcv7w6i49",
@@ -2264,7 +2501,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "具身智能陷叙事内卷死局，需转向真实落地。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "3e5lr2syih",
@@ -2280,7 +2523,13 @@
       "firstSeenAt": "2026-10-29T04:21:12.432Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "中产父母为缓解AI焦虑支付13800元，购买相关课程。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "27h9syzc766",
@@ -2295,11 +2544,17 @@
       "publishedAt": "2026-10-29T04:13:56.068Z",
       "firstSeenAt": "2026-10-29T04:21:12.432Z",
       "day": "2026-10-29",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "AI 编程"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "OpenAI砍半Pro额度并合并聊天工作，开发者热议。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "1ln2q4onhpn",
@@ -2314,11 +2569,17 @@
       "publishedAt": "2026-10-29T04:02:55.113Z",
       "firstSeenAt": "2026-10-29T04:10:03.533Z",
       "day": "2026-10-29",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "微软预计2027财年Q2智能体与基础设施业务收入将达800亿美元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:23.560Z"
+      }
     },
     {
       "id": "2flhdsrni5u",
@@ -2333,8 +2594,14 @@
       "publishedAt": "2026-10-29T04:02:24.180Z",
       "firstSeenAt": "2026-10-29T04:10:03.533Z",
       "day": "2026-10-29",
-      "category": "multimodal",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "多校联合提出实时交互式全模态智能统一框架综述。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "ky8t9dxigq",
@@ -2375,7 +2642,13 @@
       "firstSeenAt": "2026-10-29T04:10:03.533Z",
       "day": "2026-10-29",
       "category": "paper",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "东大MIDA基准测试发现多模态大模型难辨社交谎言。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "25xdlmndgtr",
@@ -2408,7 +2681,13 @@
       "firstSeenAt": "2026-10-29T04:10:03.533Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Anthropic 宣布「编程面试已死」，引发程序员如何证明能力的讨论。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "1ocp93z3hgo",
@@ -2423,11 +2702,17 @@
       "publishedAt": "2026-10-29T03:39:32.910Z",
       "firstSeenAt": "2026-10-29T04:10:03.533Z",
       "day": "2026-10-29",
-      "category": "multimodal",
+      "category": "industry",
       "keywords": [
         "AI 短剧"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI短剧「不烧心宇宙」治愈现实，秦始皇卖包子引发关注。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "1j7e9927nup",
@@ -2448,7 +2733,7 @@
       ],
       "score": 35,
       "metrics": {
-        "points": 583,
+        "points": 584,
         "comments": 235
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50284255",
@@ -2474,7 +2759,13 @@
       "firstSeenAt": "2026-10-29T04:10:03.533Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "A股三大指数午间休盘集体下跌，算力硬件板块下挫。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "2dvbulsmtj2",
@@ -2506,11 +2797,17 @@
       "publishedAt": "2026-10-29T03:25:40.549Z",
       "firstSeenAt": "2026-10-29T04:10:03.533Z",
       "day": "2026-10-29",
-      "category": "multimodal",
+      "category": "industry",
       "keywords": [
         "AI 短剧"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "对话巨日禄AI斯宇，探讨AI短剧生产变革与成本骤降。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "j9tlef9g6b",
@@ -2532,7 +2829,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 309678,
+        "stars": 309845,
         "starsToday": 1259
       },
       "ai": {
@@ -2626,7 +2923,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 97604,
+        "stars": 97909,
         "starsToday": 2881
       },
       "ai": {
@@ -2766,7 +3063,13 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "上海集成数智服务为中小企业提供免费试用或优惠折扣。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "vekm3d9h8h",
@@ -2832,11 +3135,17 @@
       "publishedAt": "2026-10-29T02:58:00.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "multimodal",
+      "category": "industry",
       "keywords": [
         "AI 短剧"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "访谈映界科技与港城副教授马辰，探讨空间智能所需数据。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "1cg3egxj1a",
@@ -2852,7 +3161,13 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Anthropic上市前夜，分析大模型生意的增长与代价。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "4w1mbybigc",
@@ -2867,8 +3182,14 @@
       "publishedAt": "2026-10-29T02:53:00.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "industry",
-      "score": 18
+      "category": "opensource",
+      "score": 18,
+      "ai": {
+        "summary": "蚂蚁开源 AntOmniEvo 框架，尝试让 AI 自动优化 AI 系统。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "1kfq5imqhxq",
@@ -2887,7 +3208,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "小雨智造与国家钢结构质检中心共建实验室，推动具身智能。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "2ecz4b2y06k",
@@ -2903,7 +3230,13 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI正在重新划定客户成功的边界，探讨业务价值打分。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "1d6tpy66abx",
@@ -2918,8 +3251,14 @@
       "publishedAt": "2026-10-29T02:48:21.631Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "agent",
-      "score": 18
+      "category": "model",
+      "score": 24,
+      "ai": {
+        "summary": "Anthropic团队零Rust经验起步，靠 Claude 完成核心 API 重构。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "19qyobyjzql",
@@ -2973,7 +3312,13 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "探讨 AI 用起来后，业务价值如何打分。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "18a46wvglel",
@@ -2992,7 +3337,13 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "视频大模型不懂物理，接上模拟器让水花「听话」。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "28wuvh564r5",
@@ -3029,8 +3380,14 @@
       "publishedAt": "2026-10-29T02:21:35.296Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "AI for Science：AI走向物理世界的第一站。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "rfgnh9rwas",
@@ -3049,7 +3406,13 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI视频模型 Runway 逆袭，ARR 翻倍。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "fy4s9qbxre",
@@ -3102,7 +3465,13 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "宇树科技净利润下滑，主要系算力、大模型研发投入增加。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "7scsslsbbx",
@@ -3118,7 +3487,13 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI如何制造「患者」以解决临床试验凑不齐人的问题。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "jrvftnibjg",
@@ -3134,7 +3509,13 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "智元机器人2026年上半年营收接近20亿元，累计下线2万台。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T16:18:59.744Z"
+      }
     },
     {
       "id": "p0mpo7wryh",
@@ -3448,7 +3829,7 @@
       "categoryLocked": true,
       "score": 30.1,
       "metrics": {
-        "upvotes": 223,
+        "upvotes": 240,
         "comments": 2
       },
       "ai": {
@@ -3591,9 +3972,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 25.2,
+      "score": 25.9,
       "metrics": {
-        "upvotes": 94,
+        "upvotes": 104,
         "comments": 2
       },
       "ai": {
@@ -3622,9 +4003,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 21.3,
+      "score": 22.2,
       "metrics": {
-        "upvotes": 52,
+        "upvotes": 60,
         "comments": 4
       },
       "ai": {
@@ -4312,10 +4693,18 @@
           "url": "https://news.ycombinator.com/item?id=50288019",
           "title": "Gemini 4 Carbon is the new #1 on the Artificial Analysis Intelligence Index v5",
           "publishedAt": "2026-10-29T12:41:56.000Z"
+        },
+        {
+          "id": "khpef0lu6d",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjrdji/local_ai_made_it_to_space/",
+          "title": "Gemini 4 成功在轨运行",
+          "publishedAt": "2026-10-30T21:05:03.000Z"
         }
       ],
       "story": {
-        "reports": 10,
+        "reports": 11,
         "sources": [
           "deepmind",
           "hackernews",
@@ -4324,7 +4713,8 @@
           "qbitai",
           "36kr-ai",
           "jiqizhixin",
-          "infoq-cn"
+          "infoq-cn",
+          "reddit-localllama"
         ],
         "firstPublishedAt": "2026-10-28T17:00:58.000Z",
         "metrics": {
