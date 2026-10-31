@@ -74,40 +74,41 @@
   },
   "2026-10-31": {
     "day": "2026-10-31",
-    "generatedAt": "2026-10-31T10:42:27.906Z",
-    "itemCount": 112,
+    "generatedAt": "2026-10-31T10:51:03.120Z",
+    "itemCount": 111,
     "mode": "ai",
     "model": "glm-4.7-flash",
-    "overview": "Claude套餐大升级，阿里千问集成Apple智能，OpenAI融资未达预期。",
+    "overview": "OpenAI融资未达预期，Anthropic面临评级风险，阿里千问集成Apple智能。",
     "points": [
       {
-        "text": "Claude Max 20x升级为Ultra并取消5小时限额。",
+        "text": "OpenAI融资110亿美元未达预期，大投资者因科技股抛售撤资。",
         "refs": [
-          "1erwif2jluy"
+          "1t637gck37m"
         ]
       },
       {
-        "text": "阿里千问集成至Apple智能，中国用户可直接调用。",
+        "text": "Anthropic IPO后或获高垃圾评级，融资难度和成本增加。",
+        "refs": [
+          "dj1817na0k"
+        ]
+      },
+      {
+        "text": "阿里千问集成至Apple智能，中国用户可直接调用千问能力。",
         "refs": [
           "29dlqbs1y0d"
         ]
       },
       {
-        "text": "Anthropic官方Claude Code扩展被植入SSH后门。",
+        "text": "Claude Code扩展被植入SSH后门，Cursor市场出现恶意扩展。",
         "refs": [
-          "1ymrj42u6ci"
+          "1ymrj42u6ci",
+          "1v888p6obl6"
         ]
       },
       {
-        "text": "Qwen权重实现约1GB的任天堂模拟。",
+        "text": "Qwen权重实现约1GB的任天堂模拟，展示模型压缩能力。",
         "refs": [
           "axlbztlzpo"
-        ]
-      },
-      {
-        "text": "OpenAI融资110亿美元未达300亿目标，大投资者撤资。",
-        "refs": [
-          "1t637gck37m"
         ]
       }
     ]

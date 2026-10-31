@@ -2,6 +2,29 @@
   "day": "2026-10-31",
   "items": [
     {
+      "id": "1iiovqhct0q",
+      "key": "url:the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams",
+      "title": "Microsoft offers a quarter of its workforce voluntary severance while shielding AI-critical teams",
+      "url": "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/",
+      "excerpt": "Microsoft is offering voluntary severance packages to about 60,000 employees, roughly a quarter of its workforce, in the second such program this year. The company's headcount has held flat at around 223,000 since 2022 even as it plans to spend about $170 billion on AI infrastru…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-10-31T10:43:58.000Z",
+      "firstSeenAt": "2026-10-31T10:49:07.848Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "微软裁员四分之一，保护 AI 关键团队",
+        "summary": "微软提供自愿遣散费，计划投入 1700 亿美元建设 AI 基础设施。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T10:49:42.417Z"
+      }
+    },
+    {
       "id": "11f4821oo2v",
       "key": "url:jiqizhixin.com/articles/2026-10-31-7",
       "title": "AI for AI 的下一关：能否自主规划实验，发现 Scaling Law？",
@@ -1304,7 +1327,7 @@
         ],
         "firstPublishedAt": "2026-10-30T07:09:12.000Z",
         "metrics": {
-          "points": 900,
+          "points": 902,
           "comments": 532
         }
       },
@@ -1540,7 +1563,7 @@
       "categoryLocked": true,
       "score": 27.2,
       "metrics": {
-        "stars": 38740,
+        "stars": 38744,
         "starsToday": 626
       },
       "ai": {
