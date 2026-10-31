@@ -16,9 +16,9 @@
       "day": "2026-10-29",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 22.4,
+      "score": 23.2,
       "metrics": {
-        "stars": 1382
+        "stars": 1563
       },
       "aiAttempts": 1,
       "ai": {
@@ -92,8 +92,8 @@
       ],
       "score": 35.8,
       "metrics": {
-        "points": 589,
-        "comments": 327
+        "points": 593,
+        "comments": 328
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50290177",
       "aiAttempts": 2,
@@ -195,9 +195,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22.8,
+      "score": 23.8,
       "metrics": {
-        "stars": 1472
+        "stars": 1746
       },
       "ai": {
         "title": "Mika：手机上的私人 AI 助理",
@@ -220,9 +220,9 @@
       "firstSeenAt": "2026-10-30T02:45:24.843Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 27.4,
+      "score": 27.5,
       "metrics": {
-        "points": 222,
+        "points": 223,
         "comments": 80
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50289692",
@@ -249,7 +249,13 @@
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "智元要打通物理AI全链路，强调万台上岗的重要性。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "1s8ctwl8n4d",
@@ -268,7 +274,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Anthropic AI造AI已推进到26%，并披露多起Agent安全事故。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "9kzb8305eg",
@@ -656,7 +668,13 @@
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "OpenAI健康板块负责人探讨AI医疗健康的边界与风险。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "6xxxpmraqn",
@@ -671,11 +689,17 @@
       "publishedAt": "2026-10-29T12:38:40.000Z",
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Shopify采用维萨、万事达卡的智能体支付技术。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "odzjfypsy4",
@@ -706,11 +730,17 @@
       "publishedAt": "2026-10-29T12:10:09.170Z",
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
-      "category": "multimodal",
+      "category": "industry",
       "keywords": [
         "AI 短剧"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "昆仑万维前三季度营收近90亿元，AI短剧单月流水近1亿美元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "17hsmlcku5x",
@@ -726,7 +756,13 @@
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "双十一期间，AI Token消费成为新的讨论热点。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "g6v9zbmiwi",
@@ -742,7 +778,13 @@
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "谷歌股价下跌，市场对其在AI烧钱周期中的价值产生质疑。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "20ss2ih8l1h",
@@ -791,7 +833,7 @@
       ],
       "score": 72,
       "metrics": {
-        "points": 1681,
+        "points": 1688,
         "comments": 435
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50289418",
@@ -829,7 +871,13 @@
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "31岁女工程师按ChatGPT指示减药后猝死，引发对AI医疗指导的担忧。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "1i9xi46v5xl",
@@ -867,6 +915,12 @@
           "points": 102,
           "comments": 140
         }
+      },
+      "ai": {
+        "summary": "澳大利亚投资主管对Anthropic IPO持谨慎态度，担忧其估值与盈利能力。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
       }
     },
     {
@@ -1104,7 +1158,13 @@
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
       "category": "paper",
-      "score": 22
+      "score": 22,
+      "ai": {
+        "summary": "斯坦福推出After42，旨在训练AI学会提出具有研究价值的问题。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "1g4g4h2xoid",
@@ -1261,7 +1321,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22
+      "score": 22,
+      "ai": {
+        "summary": "STEPX Neo发布两周后即迎来首次升级，持续释放智能体能力。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "zke6w749uu",
@@ -1353,7 +1419,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22
+      "score": 22,
+      "ai": {
+        "summary": "AnySearch推出Pro付费版，覆盖20+专业领域，支持最高20 QPS。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "254xniryg4e",
@@ -1863,12 +1935,18 @@
       "publishedAt": "2026-10-29T06:53:19.000Z",
       "firstSeenAt": "2026-10-29T10:04:27.819Z",
       "day": "2026-10-29",
-      "category": "multimodal",
+      "category": "agent",
       "keywords": [
         "Agent",
         "AI 短剧"
       ],
-      "score": 22
+      "score": 22,
+      "ai": {
+        "summary": "Genspark上线新视频Agent，支持零基础用户制作短剧。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "237ysb7acpf",
@@ -1900,8 +1978,14 @@
       "publishedAt": "2026-10-29T06:41:00.000Z",
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
-      "category": "industry",
-      "score": 22
+      "category": "agent",
+      "score": 22,
+      "ai": {
+        "summary": "腾讯发布Buddy One跨应用AI协同体系，混元Hy4也将亮相。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "2001wply056",
@@ -1966,9 +2050,9 @@
       "day": "2026-10-29",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 21.8,
+      "score": 22.4,
       "metrics": {
-        "stars": 1250
+        "stars": 1364
       },
       "ai": {
         "title": "nvzhuang：AI 女装参考图集与虚拟试穿网站",
@@ -2040,7 +2124,13 @@
       "firstSeenAt": "2026-10-29T07:54:34.040Z",
       "day": "2026-10-29",
       "category": "opensource",
-      "score": 22
+      "score": 22,
+      "ai": {
+        "summary": "X-Era AI开源原生4D世界动作模型E0.5，真机性能大幅超越π0.5。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "a3td1kj29v",
@@ -2339,7 +2429,7 @@
       ],
       "score": 35,
       "metrics": {
-        "points": 581,
+        "points": 582,
         "comments": 235
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50284255",
@@ -2423,7 +2513,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 309479,
+        "stars": 309549,
         "starsToday": 1259
       },
       "ai": {
@@ -2454,7 +2544,7 @@
       ],
       "score": 16.7,
       "metrics": {
-        "stars": 5890,
+        "stars": 5931,
         "starsToday": 117
       },
       "ai": {
@@ -2517,7 +2607,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 97161,
+        "stars": 97325,
         "starsToday": 2881
       },
       "ai": {
@@ -2607,7 +2697,7 @@
         ],
         "firstPublishedAt": "2026-10-29T03:24:01.011Z",
         "metrics": {
-          "stars": 8839,
+          "stars": 8910,
           "starsToday": 1054
         }
       }
@@ -2632,7 +2722,7 @@
       ],
       "score": 20.4,
       "metrics": {
-        "stars": 3911,
+        "stars": 3926,
         "starsToday": 233
       },
       "ai": {
@@ -2825,8 +2915,14 @@
       "publishedAt": "2026-10-29T02:47:00.000Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "model",
-      "score": 24
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "RobotAgentBench全面评测机器人在开放世界中的任务规划与执行能力。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "73346wbnpo",
@@ -2892,8 +2988,14 @@
       "publishedAt": "2026-10-29T02:28:26.766Z",
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "multimodal",
-      "score": 22
+      "category": "model",
+      "score": 28,
+      "ai": {
+        "summary": "腾讯混元Hy4即将发布，首次引入视觉理解能力。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "3gk62574s2",
@@ -3270,11 +3372,17 @@
       "dateOnly": true,
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-29",
-      "category": "agent",
+      "category": "opensource",
       "keywords": [
         "Agent"
       ],
-      "score": 22
+      "score": 22,
+      "ai": {
+        "summary": "亚马逊云科技开源智能体“决策器”和“安全箱”，但并发与冷启动待解决。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "1l2r4lyln7g",
@@ -3321,7 +3429,7 @@
       "categoryLocked": true,
       "score": 30.1,
       "metrics": {
-        "upvotes": 207,
+        "upvotes": 216,
         "comments": 2
       },
       "ai": {
@@ -3464,9 +3572,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 23.9,
+      "score": 24.4,
       "metrics": {
-        "upvotes": 78,
+        "upvotes": 84,
         "comments": 2
       },
       "ai": {

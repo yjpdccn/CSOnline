@@ -16,8 +16,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 519,
-        "comments": 386
+        "points": 549,
+        "comments": 410
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50305693",
       "ai": {
@@ -166,10 +166,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 22.8,
+      "score": 23.1,
       "metrics": {
-        "points": 102,
-        "comments": 101
+        "points": 106,
+        "comments": 104
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50304358",
       "aiAttempts": 1,
@@ -218,10 +218,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 24.2,
+      "score": 26.2,
       "metrics": {
-        "points": 117,
-        "comments": 131
+        "points": 144,
+        "comments": 184
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50304122",
       "aiAttempts": 1,
@@ -689,7 +689,7 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 40.2,
+      "score": 42.2,
       "ai": {
         "summary": "27岁程序员获无限Token，挑战重写思科遗留代码。",
         "category": "industry",
@@ -714,9 +714,36 @@
         ],
         "firstPublishedAt": "2026-10-30T12:34:34.116Z",
         "metrics": {
-          "points": 117,
-          "comments": 131
+          "points": 144,
+          "comments": 184
         }
+      }
+    },
+    {
+      "id": "1hquplxdo1r",
+      "key": "hf:sensenova/sensenova-loop-9b-preview",
+      "title": "sensenova/SenseNova-Loop-9B-Preview · Hugging Face",
+      "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B-Preview",
+      "excerpt": "Overview SenseNova-Loop-9B-Preview is a multimodal language model developed for long-context and agentic workflows. It accepts text and images and generates text for applications that combine document understanding, coding, and interaction with external tools. The model combines…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T12:34:31.000Z",
+      "firstSeenAt": "2026-10-31T06:03:03.162Z",
+      "day": "2026-10-30",
+      "category": "opensource",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xje5oo/sensenovasensenovaloop9bpreview_hugging_face/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "SenseNova-Loop-9B-Preview 是一款支持长上下文和多模态的 Agent 模型。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
       }
     },
     {
@@ -1126,7 +1153,7 @@
         ],
         "firstPublishedAt": "2026-10-30T11:05:53.000Z",
         "metrics": {
-          "points": 652,
+          "points": 655,
           "comments": 17
         }
       },
@@ -1203,7 +1230,7 @@
       ],
       "score": 30.8,
       "metrics": {
-        "points": 652,
+        "points": 655,
         "comments": 17
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50302334",
@@ -1274,6 +1301,30 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-10-30T17:09:00.030Z"
+      }
+    },
+    {
+      "id": "zv07q5n12v",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xjc8q3/paper_multitoken_prediction_done_right_softmtp",
+      "title": "[Paper] Multi-Token Prediction Done Right - Soft-MTP",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjc8q3/paper_multitoken_prediction_done_right_softmtp/",
+      "excerpt": "Multi-Token Prediction (MTP) is now a common ingredient in language-model pre-training, as it improves downstream performance and enables faster inference through speculative decoding. We identify a flaw in standard MTP training, in which a residual component of the MTP gradient…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T10:59:11.000Z",
+      "firstSeenAt": "2026-10-31T06:03:03.162Z",
+      "day": "2026-10-30",
+      "category": "paper",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xjc8q3/paper_multitoken_prediction_done_right_softmtp/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Soft-MTP 论文提出改进多 Token 预测的训练方法。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
       }
     },
     {
@@ -1557,9 +1608,9 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 25.5,
+      "score": 25.6,
       "metrics": {
-        "points": 142,
+        "points": 144,
         "comments": 139
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50301479",
@@ -2063,8 +2114,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 791,
-        "comments": 495
+        "points": 857,
+        "comments": 512
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50300683",
       "ai": {
@@ -2247,7 +2298,13 @@
         "具身智能"
       ],
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "96 台真机探索具身智能规模化成长，加入人类示范可提升可靠性。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
     },
     {
       "id": "puw0olq5mf",
@@ -2262,9 +2319,15 @@
       "publishedAt": "2026-10-30T04:43:00.000Z",
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
-      "category": "agent",
+      "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "机器人获得“任务进度记忆”，连续工作 4 小时成功率超 95%。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
     },
     {
       "id": "3au28qorvf",
@@ -2281,7 +2344,13 @@
       "day": "2026-10-30",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "产品经理在上线 AI 功能前需明确三件事。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
     },
     {
       "id": "1k4yeorfc0s",
@@ -2318,7 +2387,13 @@
       "day": "2026-10-30",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "英特尔净利暴涨 169%，AI 红利显著，但内存业务拖后腿。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
     },
     {
       "id": "1e6cdzqr8q8",
@@ -2352,7 +2427,13 @@
       "day": "2026-10-30",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "中科大实现量子比特自动纠错，跨过关键技术门槛。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
     },
     {
       "id": "1p2b21ld6a3",
@@ -2367,12 +2448,18 @@
       "publishedAt": "2026-10-30T03:48:04.000Z",
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
-      "category": "paper",
+      "category": "industry",
       "keywords": [
         "具身智能"
       ],
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "清华联合企业提出具身智能规模化落地新路径，让机器人互为老师。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
     },
     {
       "id": "1la82iwiyki",
@@ -2387,7 +2474,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "MEET2027 报名通道开启，首批重磅嘉宾已就位。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
     },
     {
       "id": "1u9ke1o9vi8",
@@ -2474,8 +2567,14 @@
       "publishedAt": "2026-10-30T03:07:04.000Z",
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
-      "category": "agent",
-      "score": 18
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "通过 4 条提示词将 98 条产品评论转化为工程决策依据。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
     },
     {
       "id": "j8zd3m3sko",
@@ -2979,7 +3078,13 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "智己LS8纯电版25万起，全系标配宁德时代线控底盘。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "1k9zq9mqlyy",
@@ -3017,7 +3122,13 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "谷歌母公司市值单日蒸发5000亿美元，AI威胁核心业务引发担忧。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:06:08.850Z"
+      }
     },
     {
       "id": "j11ux8t8k1",
@@ -3053,7 +3164,7 @@
       "categoryLocked": true,
       "score": 29.1,
       "metrics": {
-        "upvotes": 157,
+        "upvotes": 158,
         "comments": 4
       },
       "ai": {
@@ -3112,8 +3223,8 @@
       ],
       "score": 30.2,
       "metrics": {
-        "upvotes": 238,
-        "comments": 3
+        "upvotes": 239,
+        "comments": 4
       },
       "ai": {
         "title": "Intrinsic Distribution Matching 提升少步文本生成",
@@ -3218,9 +3329,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.8,
+      "score": 27.1,
       "metrics": {
-        "upvotes": 57,
+        "upvotes": 121,
         "comments": 3
       },
       "ai": {
@@ -3317,10 +3428,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 24.2,
+      "score": 25.4,
       "metrics": {
-        "points": 111,
-        "comments": 152
+        "points": 131,
+        "comments": 168
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50296730",
       "aiAttempts": 1,
@@ -3345,10 +3456,10 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 23.7,
+      "score": 23.8,
       "metrics": {
         "points": 115,
-        "comments": 113
+        "comments": 114
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50296602",
       "aiAttempts": 2
@@ -3394,10 +3505,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 33.1,
+      "score": 33.2,
       "metrics": {
-        "points": 397,
-        "comments": 163
+        "points": 400,
+        "comments": 165
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50296486",
       "aiAttempts": 1,
@@ -3772,7 +3883,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 8731,
+        "stars": 8904,
         "starsToday": 1199
       },
       "ai": {
@@ -3804,7 +3915,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 106362,
+        "stars": 106610,
         "starsToday": 1145
       },
       "ai": {
@@ -3836,7 +3947,7 @@
       ],
       "score": 28.1,
       "metrics": {
-        "stars": 8839,
+        "stars": 8910,
         "starsToday": 707
       },
       "dupOf": "1zg0212pemm"

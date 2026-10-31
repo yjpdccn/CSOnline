@@ -1,0 +1,55 @@
+{
+  "sent": {
+    "alert:rule4:096001": {
+      "hash": "rule4:096001",
+      "label": "大成标普500等权重指数(QDII)A人民币（096001） 费率 1.20%/年"
+    },
+    "alert:rule1:008702": {
+      "hash": "rule1:008702",
+      "label": "华夏黄金ETF联接C（008702） 是收销售服务费的份额"
+    },
+    "alert:rule4:007466": {
+      "hash": "rule4:007466",
+      "label": "华泰柏瑞中证红利低波ETF联接A（007466） 费率 0.60%/年"
+    },
+    "alert:rule4:512890": {
+      "hash": "rule4:512890",
+      "label": "红利低波ETF华泰柏瑞（512890） 费率 0.60%/年"
+    },
+    "alert:rule4:518880": {
+      "hash": "rule4:518880",
+      "label": "黄金ETF华安（518880） 费率 0.60%/年"
+    },
+    "alert:rule3:513500:above": {
+      "hash": "rule3:513500:above",
+      "label": "标普500ETF博时（513500） 溢价 8.40%"
+    },
+    "alert:rule3:513100:above": {
+      "hash": "rule3:513100:above",
+      "label": "纳指ETF国泰（513100） 溢价 13.87%"
+    },
+    "alert:rule4:501060": {
+      "hash": "rule4:501060",
+      "label": "中金中证优选300指数(LOF)A（501060） 费率 0.65%/年"
+    },
+    "alert:rule1:022502": {
+      "hash": "rule1:022502",
+      "label": "国泰黄金ETF联接E（022502） 是收销售服务费的份额"
+    },
+    "alert:rule4:022502": {
+      "hash": "rule4:022502",
+      "label": "国泰黄金ETF联接E（022502） 费率 0.60%/年"
+    },
+    "alert:rule1:021277": {
+      "hash": "rule1:021277",
+      "label": "广发全球精选股票(QDII)人民币C（021277） 是收销售服务费的份额"
+    },
+    "alert:rule4:000218": {
+      "hash": "rule4:000218",
+      "label": "国泰黄金ETF联接A（000218） 费率 0.60%/年"
+    }
+  },
+  "issueNumber": 1,
+  "channel": "github-issue",
+  "lastSentAt": "2026-10-31T06:03:03.162Z"
+}

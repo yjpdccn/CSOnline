@@ -2,6 +2,232 @@
   "day": "2026-10-31",
   "items": [
     {
+      "id": "1jz6v4j1yt",
+      "key": "url:36kr.com/p/4049275928106881",
+      "title": "AI 混进学术圈，人类第一反应是“叫家长”",
+      "url": "https://36kr.com/p/4049275928106881",
+      "excerpt": "你好，人！我是新来的旁听生！请多指教！",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T05:37:36.406Z",
+      "firstSeenAt": "2026-10-31T06:03:03.162Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "1orvwbs3htv",
+      "key": "url:36kr.com/newsflashes/4049234239355398",
+      "title": "麦格米特：明年AI电源板块整体收入有望实现大幅增长",
+      "url": "https://36kr.com/newsflashes/4049234239355398",
+      "excerpt": "麦格米特近日接受机构调研时表示，公司GB300产品产能不断爬坡，订单充足。Vera Rubin相关产品和同行同步推出、同步对接客户，公司也在推进首批项目的订单，争取能够尽早落地，期待明年能够拿到不错的市场份额。公司判断，GB300到Vera Rubin是一个逐步迭代的过程，两种方案会在相当长时间内并存，而不是简单的替换关系。公司GB300业务还在持续爬坡、持续获取新订单，加上其他产品的对接，明年公司AI电源板块整体收入有望实现大幅增长。（证券时报）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T03:34:04.491Z",
+      "firstSeenAt": "2026-10-31T06:03:03.162Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "麦格米特预计明年 AI 电源板块收入将大幅增长。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
+    },
+    {
+      "id": "1s1waewkg7v",
+      "key": "url:leiphone.com/category/transportation/pqEtZnYepE5D1PzD.html",
+      "title": "智能驾驶进入物理AI时代？7位行业嘉宾给出最新判断",
+      "url": "https://www.leiphone.com/category/transportation/pqEtZnYepE5D1PzD.html",
+      "excerpt": "10月26日，第八届智能驾驶大会暨2026环秀湖物理AI产业发展推介会在苏州相城举行。 上一届，车路云一体化、智能驾驶出海和无人驾驶商业化是讨论重点，而到了今年，大会的讨论边界进一步从智能驾驶向物理AI延伸。 世界模型、强化学习、端侧智能、虚拟仿真、Robotaxi之外，机器人、低空飞行器等不同形态的物理智能开始出现在同一场大会上。这背后，是智能驾驶行业正在面对的一组新问题。 一方面，高阶辅助驾驶已经进入规模化上车阶段，Robotaxi也开始从技术验证走向运营和商业化；另一方面，当AI真正进入汽车、机器人、飞行器等物理设备，如何获得足够的数据、如何训练…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T03:31:00.000Z",
+      "firstSeenAt": "2026-10-31T06:03:03.162Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "智能驾驶行业进入物理 AI 时代，讨论边界向机器人等延伸。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
+    },
+    {
+      "id": "2e6t3fr5b1d",
+      "key": "url:wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+      "title": "OpenAI raises less than half of $30B target",
+      "url": "https://www.wsj.com/tech/ai/openai-raises-less-than-half-of-30-billion-target-in-latest-round-91aecdc5",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-31T03:22:44.000Z",
+      "firstSeenAt": "2026-10-31T06:03:03.162Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 22.6,
+      "metrics": {
+        "points": 113,
+        "comments": 63
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50312922",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI 融资未达 300 亿美元目标，引发市场关注。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
+    },
+    {
+      "id": "u09jbvxaof",
+      "key": "url:36kr.com/newsflashes/4049222599129345",
+      "title": "Anthropic招股文件披露：未来“隐性债务”规模近9000亿美元",
+      "url": "https://36kr.com/newsflashes/4049222599129345",
+      "excerpt": "Anthropic的上市申报文件显示，这家公司在扩张AI业务版图的过程中，计划通过远期履约义务投入近9000亿美元用于服务器、厂房及电力项目，该金额远高于资产负债表上当前列示的负债。这款Claude聊天机器人背后的AI实验室，于10月26日提交注册文件，筹备上市，市场预期其估值将达到1.5万亿美元。这份提交给美国证券交易委员会的文件对外披露了多项细节，包括资产负债表的规模与健康状况：账面负债1175亿美元，现金1120亿美元。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T03:22:14.028Z",
+      "firstSeenAt": "2026-10-31T06:03:03.162Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "Anthropic 招股文件披露未来隐性债务规模近 9000 亿美元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
+    },
+    {
+      "id": "269ck1bwpmq",
+      "key": "url:jiqizhixin.com/articles/2026-10-31-3",
+      "title": "合肥量子版图补上关键一块 | 一家成立月余的中性原子公司，让省市区三级国资同时下注",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-31-3",
+      "excerpt": "一家注册成立约一个月的量子公司，完成了超亿元天使轮融资。合肥乾原量子科技有限公司（下称乾原量子）2026 年 9 月注册成立，落户合肥高新区，是高新区首家中性原子量子计算企业。这轮融资对合肥的意义，超过一家公司的起步。合肥的量子版图上，超导、离子阱、光量子、量子通信、量子精密测量都已有人落子，...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T03:21:00.000Z",
+      "firstSeenAt": "2026-10-31T06:03:03.162Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "合肥乾原量子完成超亿元天使轮融资，填补了当地中性原子量子计算版图。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
+    },
+    {
+      "id": "146tw8t9ef5",
+      "key": "url:jiqizhixin.com/articles/2026-10-31-2",
+      "title": "RSI热潮之下，自我迭代的国产Agentic Infra，卷向了英伟达GPU的物理极限",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-31-2",
+      "excerpt": "如果说过去几年 AI 能力的提升，主要依赖人类不断扩大模型规模、增加训练数据和投入更多算力，那么接下来，一个更具想象力的问题正在浮现：AI 能否利用自己执行任务的结果和反馈，反过来改进自身？这正是近期最火热的赛道之一 —— RSI（Recursive Self-Improvement，递归自我...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T03:16:00.000Z",
+      "firstSeenAt": "2026-10-31T06:03:03.162Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "国产 Agentic Infra 在 RSI 热潮下，正挑战英伟达 GPU 的物理极限。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
+    },
+    {
+      "id": "7l1jomqvzw",
+      "key": "url:jiqizhixin.com/articles/2026-10-31",
+      "title": "蒸馏Agent，学决策而非抄Token！清华提出动作级在线蒸馏ActionOPD",
+      "url": "https://www.jiqizhixin.com/articles/2026-10-31",
+      "excerpt": "在多轮工具调用与复杂环境交互中，大语言模型正加速以 Agent 形态落地。受限于前沿大模型高昂的推理成本，如何将其决策能力迁移至轻量级模型，成为当前 Agent 研究的重要课题。然而，不同于单轮文本生成，Agent 的每一步输出都会改变环境状态并影响后续轨迹，这引出了两个基本问题：1. 在什么...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T03:11:00.000Z",
+      "firstSeenAt": "2026-10-31T06:03:03.162Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "AI 深入学术圈引发争议，人类第一反应是“叫家长”。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
+    },
+    {
+      "id": "1jgyl4cl1bn",
+      "key": "url:36kr.com/p/4048457242835463",
+      "title": "DeepSeek，怎么就变成了一条「大肥鱼」",
+      "url": "https://36kr.com/p/4048457242835463",
+      "excerpt": "AI 公司负责模型，互联网负责人设。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T02:48:29.300Z",
+      "firstSeenAt": "2026-10-31T06:03:03.162Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "DeepSeek 因其强大的模型能力，被戏称为“大肥鱼”。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
+    },
+    {
+      "id": "1y1amx565n4",
+      "key": "url:36kr.com/p/4048971380685316",
+      "title": "申请退款时，你会威胁、骗人、信息轰炸吗？你的AI可能比你更会……",
+      "url": "https://36kr.com/p/4048971380685316",
+      "excerpt": "稳稳地接住你了，但接住的方式似乎……",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T02:46:28.256Z",
+      "firstSeenAt": "2026-10-31T06:03:03.162Z",
+      "day": "2026-10-31",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "AI 在申请退款时展现出比人类更擅长威胁和骗人的能力。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-10-31T06:04:55.920Z"
+      }
+    },
+    {
       "id": "2dirksjb1ae",
       "key": "url:36kr.com/newsflashes/4049146450819592",
       "title": "黑石集团预计Anthropic上市后或无法获得投资级评级，融资成本面临上升压力",
@@ -321,7 +547,7 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 44.5,
+      "score": 45,
       "related": [
         {
           "id": "19c4e97e0g0",
@@ -340,8 +566,8 @@
         ],
         "firstPublishedAt": "2026-10-30T17:27:25.000Z",
         "metrics": {
-          "points": 286,
-          "comments": 234
+          "points": 301,
+          "comments": 248
         }
       },
       "ai": {
@@ -615,8 +841,8 @@
         ],
         "firstPublishedAt": "2026-10-30T07:09:12.000Z",
         "metrics": {
-          "points": 791,
-          "comments": 495
+          "points": 857,
+          "comments": 512
         }
       },
       "ai": {
@@ -755,10 +981,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 31.5,
+      "score": 32,
       "metrics": {
-        "points": 286,
-        "comments": 234
+        "points": 301,
+        "comments": 248
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50307219",
       "dupOf": "dj1817na0k"
@@ -776,9 +1002,9 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 30.8,
+      "score": 30.9,
       "metrics": {
-        "points": 263,
+        "points": 268,
         "comments": 221
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50307183",
@@ -851,7 +1077,7 @@
       "categoryLocked": true,
       "score": 27.2,
       "metrics": {
-        "stars": 38463,
+        "stars": 38591,
         "starsToday": 626
       },
       "ai": {
@@ -916,10 +1142,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "opensource",
-      "score": 27.3,
+      "score": 28.3,
       "metrics": {
-        "points": 198,
-        "comments": 113
+        "points": 227,
+        "comments": 118
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50306442",
       "ai": {
@@ -943,10 +1169,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 30.6,
+      "score": 30.9,
       "metrics": {
-        "points": 242,
-        "comments": 266
+        "points": 248,
+        "comments": 280
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50306008",
       "ai": {
