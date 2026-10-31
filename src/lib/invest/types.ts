@@ -146,7 +146,7 @@ export interface AlertsFile {
   events: AlertEvent[];
 }
 
-export type HealthGroupId = "indices" | "gold" | "macro" | "etf" | "nav" | "fundInfo" | "valuation" | "news" | "calendar";
+export type HealthGroupId = "indices" | "gold" | "macro" | "etf" | "nav" | "fundInfo" | "valuation" | "news" | "calendar" | "strategy";
 
 /** A problem with the data itself, shown in the 数据异常 banner and status.json. */
 export interface DataIssue {
@@ -237,8 +237,10 @@ export interface InvestRunSummary {
   ai: InvestAiResult;
   /** Data issues found by the run; the details are in status.json. */
   health?: { ok: boolean; warn: number; minor: number };
-  /** Alerts and rule observations shown after the run. */
+  /** Alerts, rule observations and reminders shown after the run. */
   alerts?: number;
+  /** Strategy suggestions (替换 / 停止 / 加大). */
+  suggestions?: number;
   notify?: NotifyOutcome;
 }
 

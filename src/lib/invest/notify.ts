@@ -1,9 +1,9 @@
-import type { Observation } from "./observations";
+import type { Observation, SuggestionAction } from "./observations";
 import type { DataIssue, NotifyOutcome } from "./types";
 
 /** What was already told, so each run only sends what is new or changed. Public: keys and short labels only. */
 export interface NotifyFile {
-  sent: Record<string, { hash: string; label: string }>;
+  sent: Record<string, { hash: string; label: string; kind?: Observation["kind"] }>;
   issueNumber?: number;
   lastSentAt?: string;
   channel?: NotifyChannel;
@@ -19,16 +19,21 @@ const issueHash = (i: DataIssue) => `${i.kind}:${[...i.items].sort().join(",")}`
 export interface NotifyDiff {
   issues: DataIssue[];
   resolved: string[];
-  alerts: Observation[];
+  suggestions: Observation[];
+  reminders: Observation[];
   next: NotifyFile["sent"];
-  /** Nothing was sent before: the message lists everything there is. */
+  /** No strategy suggestion was sent before: the message lists all there are. */
   first: boolean;
 }
 
-/** New or changed problems and alerts since the last message; minor data issues (one news source) are left out. */
+/**
+ * New or changed since the last message: strategy suggestions, data problems that affect the page's numbers
+ * (and their recovery) and time reminders. Rule mismatches and other changes stay on the page only.
+ */
 export function diffNotifications(sent: NotifyFile["sent"], issues: DataIssue[], alerts: Observation[]): NotifyDiff {
   const next: NotifyFile["sent"] = {};
-  const fresh: NotifyDiff = { issues: [], resolved: [], alerts: [], next, first: Object.keys(sent).length === 0 };
+  const first = !Object.values(sent).some((s) => s.kind === "suggestion");
+  const fresh: NotifyDiff = { issues: [], resolved: [], suggestions: [], reminders: [], next, first };
   for (const issue of issues.filter((i) => i.severity === "warn")) {
     const key = `issue:${issue.key}`;
     const hash = issueHash(issue);
@@ -39,40 +44,46 @@ export function diffNotifications(sent: NotifyFile["sent"], issues: DataIssue[],
     if (key.startsWith("issue:") && !next[key]) fresh.resolved.push(entry.label);
   }
   for (const alert of alerts) {
+    if (alert.kind !== "suggestion" && alert.kind !== "reminder") continue;
     const key = `alert:${alert.key}`;
-    next[key] = { hash: alert.key, label: alert.title };
-    if (!sent[key]) fresh.alerts.push(alert);
+    next[key] = { hash: alert.key, label: alert.title, kind: alert.kind };
+    if (!sent[key]) (alert.kind === "suggestion" ? fresh.suggestions : fresh.reminders).push(alert);
   }
   return fresh;
 }
 
-const MAX_LINES = 15;
-const ICON = { bad: "❗", warn: "⚠️", good: "✅", info: "ℹ️" } as const;
-const SEVERITY_ORDER = { bad: 0, warn: 1, good: 2, info: 3 } as const;
-const KIND_ORDER = { change: 0, reminder: 1, rule: 2 } as const;
+const MAX_SUGGESTIONS = 15;
+
+export const ACTIONS: { action: SuggestionAction; title: string }[] = [
+  { action: "replace", title: "可以考虑替换" },
+  { action: "stop", title: "可以考虑停止" },
+  { action: "increase", title: "可以加大" },
+];
 
 export function formatMessage(diff: NotifyDiff, pageUrl: string): { title: string; markdown: string } | null {
-  const { issues, resolved } = diff;
-  const alerts = [...diff.alerts].sort(
-    (a, b) => KIND_ORDER[a.kind] - KIND_ORDER[b.kind] || SEVERITY_ORDER[a.severity] - SEVERITY_ORDER[b.severity] || (a.rule ?? 0) - (b.rule ?? 0),
-  );
-  if (!issues.length && !resolved.length && !alerts.length) return null;
+  const { issues, resolved, suggestions, reminders } = diff;
+  if (!issues.length && !resolved.length && !suggestions.length && !reminders.length) return null;
   const lines: string[] = [];
-  if (diff.first) lines.push("第一次检查，下面是目前全部的提醒；以后只发新出现或有变化的内容。", "");
-  if (issues.length) {
-    lines.push("**数据异常**", "", ...issues.map((i) => `- ${i.message}`), "");
-  }
-  if (resolved.length) {
-    lines.push("**数据已恢复**", "", ...resolved.map((r) => `- ${r}`), "");
-  }
-  if (alerts.length) {
-    lines.push("**新提醒**", "");
-    for (const a of alerts.slice(0, MAX_LINES)) lines.push(`- ${ICON[a.severity]} ${a.title}：${a.detail}`);
-    if (alerts.length > MAX_LINES) lines.push(`- 另有 ${alerts.length - MAX_LINES} 条，见页面`);
+  if (diff.first && suggestions.length) lines.push("推送改为策略建议：下面是目前全部的建议，以后只发新出现或有变化的内容。", "");
+  let room = MAX_SUGGESTIONS;
+  for (const { action, title } of ACTIONS) {
+    const items = suggestions.filter((s) => s.action === action);
+    if (!items.length) continue;
+    lines.push(`**${title}**`, "", ...items.slice(0, room).map((s) => `- ${s.title}：${s.detail}`));
+    if (items.length > room) lines.push(`- 另有 ${items.length - room} 条，见页面`);
     lines.push("");
+    room = Math.max(0, room - items.length);
   }
+  if (issues.length) lines.push("**数据异常**", "", ...issues.map((i) => `- ${i.message}`), "");
+  if (resolved.length) lines.push("**数据已恢复**", "", ...resolved.map((r) => `- ${r}`), "");
+  if (reminders.length) lines.push("**时间提醒**", "", ...reminders.map((r) => `- ${r.title}：${r.detail}`), "");
   lines.push(`[打开投资日报](${pageUrl}) · [status.json](${pageUrl}status.json)`);
-  const parts = [alerts.length && `${alerts.length} 条新提醒`, issues.length && `${issues.length} 项数据异常`, !issues.length && resolved.length && "数据已恢复"].filter(Boolean);
+  const parts = [
+    suggestions.length && `${suggestions.length} 条策略建议`,
+    issues.length && `${issues.length} 项数据异常`,
+    !issues.length && resolved.length && "数据已恢复",
+    reminders.length && `${reminders.length} 条时间提醒`,
+  ].filter(Boolean);
   return { title: `投资日报：${parts.join("，")}`.slice(0, 32), markdown: lines.join("\n") };
 }
 

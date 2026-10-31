@@ -21,7 +21,10 @@ export interface StatusFile {
   ok: boolean;
   groups: Record<HealthGroupId, HealthGroup>;
   dataIssues: (DataIssue & { firstSeen: string })[];
+  /** Alerts, rule observations, reminders and strategy suggestions (kind "suggestion"). */
   alerts: (Observation & { firstSeen: string })[];
+  /** The weekly comparison behind the replace suggestions. */
+  strategy: { checkedAt: string | null; compared: number };
   notifications: StatusNotifications;
 }
 
@@ -31,7 +34,14 @@ export function pageUrl(): string {
   return owner && name ? `https://${owner.toLowerCase()}.github.io/${name}/invest/` : "https://yjpdccn.github.io/CSOnline/invest/";
 }
 
-export function buildStatus(health: HealthFile, alerts: Observation[], previous: StatusFile | null, notifications: StatusNotifications, now: Date): StatusFile {
+export function buildStatus(
+  health: HealthFile,
+  alerts: Observation[],
+  previous: StatusFile | null,
+  notifications: StatusNotifications,
+  now: Date,
+  strategy: { checkedAt?: string; compared?: number } = {},
+): StatusFile {
   const at = now.toISOString();
   const seen = new Map<string, string>([
     ...(previous?.dataIssues ?? []).map((i) => [`issue:${i.key}`, i.firstSeen] as const),
@@ -47,6 +57,7 @@ export function buildStatus(health: HealthFile, alerts: Observation[], previous:
     dataIssues: health.issues.map((i) => ({ ...i, firstSeen: seen.get(`issue:${i.key}`) ?? at })),
     // Changes keep the time they were seen; standing observations count from their first run.
     alerts: alerts.map((a) => ({ ...a, firstSeen: seen.get(`alert:${a.key}`) ?? a.at ?? at })),
+    strategy: { checkedAt: strategy.checkedAt ?? null, compared: strategy.compared ?? 0 },
     notifications,
   };
 }

@@ -5,6 +5,7 @@ import { describeStatus, statusRank } from "./alerts";
 import { buildFundViews } from "./funds";
 import { marketNews, newsRef, rankNews, type RankedCard } from "./news";
 import { buildObservations, RULES, type Observation } from "./observations";
+import { buildSuggestions } from "./suggestions";
 import { indexQuote, macroQuote } from "./quotes";
 import type { StatusNotifications } from "./status";
 import { loadInvestStore } from "./store";
@@ -66,6 +67,8 @@ export interface InvestPageData {
   alerts: PageAlert[];
   /** Section 五 rules 1–4 checked against every tracked fund. */
   rules: { rule: 1 | 2 | 3 | 4; label: string; scope: string; items: PageAlert[] }[];
+  /** 策略建议: replace, stop and increase suggestions, and the weekly comparison behind them. */
+  strategy: { items: PageAlert[]; checkedAt: string | null; compared: number };
   /** Data health from the last update; null before the first one that checked it. */
   health: PageHealth | null;
   watch: WatchRow[];
@@ -193,7 +196,7 @@ export async function loadInvestPageData(): Promise<InvestPageData> {
     .map((c) => newsRef(c.item));
 
   const firstSeen = new Map((status?.alerts ?? []).map((a) => [a.key, a.firstSeen]));
-  const observations: PageAlert[] = buildObservations(events, views, asOf).map((o) => {
+  const observations: PageAlert[] = [...buildObservations(events, views, asOf), ...buildSuggestions(views, store.strategy, events, asOf)].map((o) => {
     const seen = firstSeen.get(o.key) ?? o.at;
     return seen ? { ...o, firstSeen: seen } : o;
   });
@@ -201,8 +204,9 @@ export async function loadInvestPageData(): Promise<InvestPageData> {
   return {
     updatedAt: run?.finishedAt ?? null,
     asOf: asOf.toISOString(),
-    alerts: observations.filter((o) => o.kind !== "rule"),
+    alerts: observations.filter((o) => o.kind === "change" || o.kind === "reminder"),
     rules: RULES.map((r) => ({ ...r, items: observations.filter((o) => o.kind === "rule" && o.rule === r.rule) })),
+    strategy: { items: observations.filter((o) => o.kind === "suggestion"), checkedAt: store.strategy.checkedAt ?? null, compared: store.strategy.compared ?? 0 },
     health: status ? { checkedAt: status.generatedAt, since: status.since, issues: status.dataIssues, notifications: status.notifications } : null,
     watch: watchRows(views, events.filter((e) => asOf.getTime() - Date.parse(e.at) <= INVEST_SITE.alertDays * 86_400_000)),
     premiums: premiumRows(views),

@@ -2,14 +2,18 @@ import { FUNDS, INDICES, INVEST_RULES, INVEST_SITE, PLAN_GROUPS } from "@/config
 import { zonedParts } from "@/lib/time";
 import type { AlertEvent, AlertSeverity, FundView, Premium } from "./types";
 
+/** 可以考虑替换 / 可以考虑停止 / 可以加大. */
+export type SuggestionAction = "replace" | "stop" | "increase";
+
 /**
- * Everything the alert panel says, as observations: changes seen between runs, the checklist's section 五
- * rules applied to every tracked fund, and the monthly reminder. Keys stay the same while a situation lasts,
+ * Everything the page's alerts say, as observations: changes seen between runs, the section 五 rules applied
+ * to every tracked fund, time reminders, and strategy suggestions. Keys stay the same while a situation lasts,
  * so status.json can give each one a firstSeen time and notifications only go out for new ones.
  */
 export interface Observation {
   key: string;
-  kind: "change" | "rule" | "reminder";
+  kind: "change" | "rule" | "reminder" | "suggestion";
+  action?: SuggestionAction;
   /** Section 五 rule: 1 A-class shares, 2 no 增强, 3 premium, 4 fees. */
   rule?: 1 | 2 | 3 | 4;
   severity: AlertSeverity;
@@ -18,6 +22,8 @@ export interface Observation {
   detail: string;
   /** When a change was seen. */
   at?: string;
+  /** The fund a suggestion points to. */
+  target?: { code: string; name: string };
 }
 
 export const RULES: { rule: 1 | 2 | 3 | 4; label: string; scope: string }[] = [
@@ -29,7 +35,7 @@ export const RULES: { rule: 1 | 2 | 3 | 4; label: string; scope: string }[] = [
 
 const isQdii = (code: string) => INDICES.find((i) => i.id === FUNDS.find((f) => f.code === code)?.index)?.market === "us";
 
-function premiumBasis(p: Premium): string {
+export function premiumBasis(p: Premium): string {
   const day = `${Number(p.navDate.slice(5, 7))}月${Number(p.navDate.slice(8))}日`;
   if (p.kind === "domestic") return `按 ${day}收盘价和净值`;
   return `按 ${day}净值${p.estimated ? "和此后的指数涨跌估算" : ""}`;
@@ -122,14 +128,15 @@ export function buildObservations(events: AlertEvent[], views: FundView[], now: 
   const recent = events.filter((e): e is ChangeEvent => isChange(e) && now.getTime() - Date.parse(e.at) <= INVEST_SITE.alertDays * 86_400_000);
   const items = [...recent.map((e) => changeObservation(e, views)), ...ruleObservations(views)];
   const today = zonedParts(now);
+  const reminder = (key: string, title: string, detail: string) => items.push({ key, kind: "reminder", severity: "info", title, detail });
   if (today.day <= INVEST_RULES.monthlyCheckDays) {
-    items.push({
-      key: `monthly:${today.year}-${String(today.month).padStart(2, "0")}`,
-      kind: "reminder",
-      severity: "info",
-      title: `${today.month}月定投扣款核对`,
-      detail: "到购买平台确认本月各项定投都已扣款成功（本站看不到账户，只能自己核对）。",
-    });
+    reminder(`monthly:${today.year}-${String(today.month).padStart(2, "0")}`, `${today.month}月定投扣款核对`, "到购买平台确认本月各项定投都已扣款成功（本站看不到账户，只能自己核对）。");
   }
+  // The only dates shown are generic ones: the 个人养老金 deadline and the 个税 annual filing window.
+  if (today.month === 12) {
+    reminder(`pension:${today.year}${today.day >= 24 ? ":final" : ""}`, "个人养老金本年度缴存截止", `${today.year}年12月31日截止，还有 ${31 - today.day} 天。`);
+  }
+  if (today.month === 3 && today.day <= 7) reminder(`tax:${today.year}:start`, "个税年度汇算开始", "3月1日至6月30日办理上一年度的个税年度汇算。");
+  if (today.month === 6 && today.day >= 20) reminder(`tax:${today.year}:end`, "个税年度汇算 6月30日截止", `还有 ${30 - today.day} 天。`);
   return items;
 }

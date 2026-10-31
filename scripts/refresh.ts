@@ -34,7 +34,7 @@ function printInvest(invest: InvestRunSummary) {
   );
   if (invest.health) {
     const { warn, minor } = invest.health;
-    console.log(`数据检查：${warn ? `${warn} 项异常` : "正常"}${minor ? `，${minor} 项次要问题` : ""}；提醒与规则观察 ${invest.alerts ?? 0} 条`);
+    console.log(`数据检查：${warn ? `${warn} 项异常` : "正常"}${minor ? `，${minor} 项次要问题` : ""}；策略建议 ${invest.suggestions ?? 0} 条，提醒与规则观察 ${invest.alerts ?? 0} 条`);
   }
   const notify = invest.notify;
   if (notify) {

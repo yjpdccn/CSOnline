@@ -8,10 +8,22 @@ import { buildFundViews, largestMove, MAX_DAILY_MOVE, mergeCloses } from "./fund
 import { checkHealth, type RunFreshness } from "./health";
 import { mergeNews, rankNews, toInvestItem } from "./news";
 import { buildObservations } from "./observations";
+import { refreshStrategy, scanDue, scanPeers, syncTrackedStatus, type StrategyFile } from "./strategy";
+import { buildSuggestions } from "./suggestions";
 import { buildAutoOverview, generateAiOverview, stopReason, translateHeadlines, type OverviewQuotes } from "./overview";
 import { indexQuote, macroQuote } from "./quotes";
 import { fetchFomcCalendar, fetchWscnCalendar } from "./sources/calendar";
-import { fetchFeePage, fetchMobileNav, fetchNavHistory, fetchProfilePage, type FeePage, type ProfilePage } from "./sources/funds";
+import {
+  fetchFeePage,
+  fetchFundUniverse,
+  fetchMobileNav,
+  fetchNavHistory,
+  fetchNotices,
+  fetchProfilePage,
+  fetchTrackingError,
+  type FeePage,
+  type ProfilePage,
+} from "./sources/funds";
 import {
   fetchCsindex,
   fetchDanjuan,
@@ -84,6 +96,8 @@ export interface InvestFetch {
   fomc?: string[];
   /** Fresh figures not used because they jumped implausibly: health key → reason. */
   implausible: Map<string, string>;
+  /** The weekly comparison (rescanned when due) with this run's announcements and peer quotas. */
+  strategy: StrategyFile;
 }
 
 const etfSecid = (code: string) => (/^[56]/.test(code) ? `1.${code}` : `0.${code}`);
@@ -139,7 +153,25 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
     prices: {},
     news: [],
     implausible: new Map(),
+    strategy: store.strategy,
   };
+
+  // The weekly comparison reads a few hundred fund pages; it runs alongside the rest.
+  const strategyWork = (async () => {
+    let strategy = store.strategy;
+    const results: InvestSourceResult[] = [];
+    if (scanDue(strategy, now)) {
+      const scan = await settle(() => scanPeers(store.funds, now, { universe: fetchFundUniverse, profile: fetchProfilePage, feePage: fetchFeePage, trackingError: fetchTrackingError }));
+      if (scan.ok) {
+        strategy = { ...strategy, ...scan.value.file };
+        results.push(scan.value.result);
+      } else {
+        results.push({ id: "fund-peers", name: "同类基金比较（每周）", kind: "基金", ok: false, count: 0, ms: scan.ms, error: scan.error });
+      }
+    }
+    const refreshed = await refreshStrategy(strategy, now, { notices: fetchNotices, feePage: fetchFeePage });
+    return { strategy: refreshed.file, results: [...results, ...refreshed.results] };
+  })();
 
   const eastmoney: { id: IndexId | MacroId; secid: string; tencent?: string; csindex?: string; sina?: string; label: string }[] = [
     ...INDICES.map((i) => ({ id: i.id, secid: i.secid, tencent: i.tencent, csindex: i.csindex, sina: i.sina, label: i.name })),
@@ -353,6 +385,9 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
     single("wscn-calendar", "华尔街见闻财经日历", "日历", calendar, calendar?.ok ? calendar.value.length : 0),
     single("fomc", "美联储议息日程", "日历", fomc, fomc?.ok ? fomc.value.length : 0),
   );
+  const strategy = await strategyWork;
+  out.strategy = strategy.strategy;
+  out.results.push(...strategy.results);
   return out;
 }
 
@@ -459,10 +494,17 @@ export async function processInvest(fetched: InvestFetch, opts: InvestProcessOpt
     fomc: (fetched.fomc ?? store.calendar.fomc).filter((t) => Date.parse(t) >= horizon),
   };
 
+  store.strategy = syncTrackedStatus(fetched.strategy, store.funds);
   const views = buildFundViews(store.funds.funds, store.market);
   store.alerts = diffAlerts(store.alerts, views, now);
-  const observations = buildObservations(store.alerts.events, views, now);
-  const health = checkHealth({ market: store.market, funds: store.funds, news: store.news, calendar: store.calendar }, freshness(fetched), store.status, now);
+  const suggestions = buildSuggestions(views, store.strategy, store.alerts.events, now);
+  const observations = [...buildObservations(store.alerts.events, views, now), ...suggestions];
+  const health = checkHealth(
+    { market: store.market, funds: store.funds, news: store.news, calendar: store.calendar, strategy: store.strategy },
+    freshness(fetched),
+    store.status,
+    now,
+  );
   for (const issue of health.issues) if (issue.severity === "warn") opts.log?.(`数据异常：${issue.message}`);
 
   const ai: InvestAiResult = { enabled: Boolean(opts.client), titles: 0, overview: "fallback", requests: 0 };
@@ -497,7 +539,7 @@ export async function processInvest(fetched: InvestFetch, opts: InvestProcessOpt
 
   const notified = await runNotifications(store.notify, health.issues, observations, notifyOptions(opts.log), now);
   store.notify = notified.state;
-  store.status = buildStatus(health, observations, store.status, notified.summary, now);
+  store.status = buildStatus(health, observations, store.status, notified.summary, now, store.strategy);
 
   const finishedAt = new Date();
   const summary: InvestRunSummary = {
@@ -513,7 +555,8 @@ export async function processInvest(fetched: InvestFetch, opts: InvestProcessOpt
       warn: health.issues.filter((i) => i.severity === "warn").length,
       minor: health.issues.filter((i) => i.severity === "minor").length,
     },
-    alerts: observations.length,
+    alerts: observations.length - suggestions.length,
+    suggestions: suggestions.length,
     notify: notified.outcome,
   };
   store.meta.lastRun = summary;

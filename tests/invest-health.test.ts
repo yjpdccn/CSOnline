@@ -3,8 +3,9 @@ import { FUNDS, INDICES, MACRO } from "@/config/invest";
 import { AVAILABILITY } from "@/config/market-calendar";
 import { checkHealth, expectedDate, type RunFreshness } from "@/lib/invest/health";
 import { diffNotifications, formatMessage, type NotifyFile } from "@/lib/invest/notify";
-import { buildObservations } from "@/lib/invest/observations";
+import { buildObservations, type Observation } from "@/lib/invest/observations";
 import { buildStatus, runNotifications, type NotifyOptions } from "@/lib/invest/status";
+import { NOTE } from "@/lib/invest/suggestions";
 import type { AlertEvent, CalendarFile, Close, DataIssue, FundsFile, FundView, InvestNewsItem, MarketFile, NewsFile } from "@/lib/invest/types";
 
 // Friday 20:00 in Beijing, 08:00 in New York.
@@ -242,28 +243,44 @@ const issue = (key: string, items: string[], severity: DataIssue["severity"] = "
 });
 
 describe("notifications", () => {
-  const alerts = buildObservations([], [view("096001", { feeRule: { kind: "qdii", cap: 1, total: 1.2, ok: false } })], NOW);
+  const ruleMismatch = buildObservations([], [view("096001", { feeRule: { kind: "qdii", cap: 1, total: 1.2, ok: false } })], NOW);
+  const replace: Observation = {
+    key: "replace:007466:020602",
+    kind: "suggestion",
+    action: "replace",
+    severity: "warn",
+    code: "007466",
+    title: "华泰柏瑞中证红利低波ETF联接A（007466）",
+    detail: `可以考虑改选易方达中证红利低波动ETF联接发起式A（020602），每年费用低 0.40%。${NOTE}`,
+  };
+  const alerts = [...ruleMismatch, replace];
 
-  it("sends only what is new or changed, and says when a problem is gone", () => {
+  it("pushes strategy suggestions, data problems and reminders, but not standing rule mismatches", () => {
     const first = diffNotifications({}, [issue("stale:indices", ["标普500"]), issue("failed:source:ft", ["FT"], "minor")], alerts);
     expect(first.issues.map((i) => i.key)).toEqual(["stale:indices"]);
-    expect(first.alerts).toHaveLength(1);
-    expect(diffNotifications(first.next, [issue("stale:indices", ["标普500"])], alerts)).toMatchObject({ issues: [], alerts: [], resolved: [] });
+    expect(first.suggestions.map((s) => s.key)).toEqual(["replace:007466:020602"]);
+    expect(Object.keys(first.next)).not.toContain("alert:rule4:096001");
+    expect(diffNotifications(first.next, [issue("stale:indices", ["标普500"])], alerts)).toMatchObject({ issues: [], suggestions: [], reminders: [], resolved: [] });
     const changed = diffNotifications(first.next, [issue("stale:indices", ["标普500", "纳斯达克100"])], alerts);
     expect(changed.issues).toHaveLength(1);
     const gone = diffNotifications(first.next, [], alerts);
     expect(gone.resolved).toEqual(["指数行情没有更新到最新交易日"]);
     expect(formatMessage(gone, "https://x/invest/")?.title).toBe("投资日报：数据已恢复");
+    const reminder = buildObservations([], [], new Date("2026-12-24T01:00:00Z"));
+    expect(diffNotifications(first.next, [issue("stale:indices", ["标普500"])], [...alerts, ...reminder]).reminders.map((r) => r.key)).toEqual(["pension:2026:final"]);
   });
 
-  it("writes one short message with links to the page", () => {
-    const message = formatMessage(diffNotifications({}, [issue("stale:indices", ["标普500"])], alerts), "https://yjpdccn.github.io/CSOnline/invest/")!;
-    expect(message.title).toBe("投资日报：1 条新提醒，1 项数据异常");
+  it("groups one message by action, each suggestion ending with the disclaimer", () => {
+    const stop: Observation = { ...replace, key: "stop:premium:513500", action: "stop", title: "场内 标普500ETF博时（513500） 溢价 8.40%", detail: `可以考虑暂缓场内买入。${NOTE}` };
+    const message = formatMessage(diffNotifications({}, [issue("stale:indices", ["标普500"])], [...alerts, stop]), "https://yjpdccn.github.io/CSOnline/invest/")!;
+    expect(message.title).toBe("投资日报：2 条策略建议，1 项数据异常");
     expect(message.title.length).toBeLessThanOrEqual(32);
-    expect(message.markdown).toContain("**数据异常**");
-    expect(message.markdown).toContain("大成标普500等权重指数(QDII)A人民币（096001） 费率 1.20%/年");
+    const order = ["推送改为策略建议", "**可以考虑替换**", "**可以考虑停止**", "**数据异常**"].map((h) => message.markdown.indexOf(h));
+    expect(order.every((i, k) => i >= 0 && (k === 0 || i > order[k - 1]))).toBe(true);
+    expect(message.markdown).not.toContain("096001");
+    expect(message.markdown.split("\n").filter((l) => l.startsWith("- ") && !l.includes("指数行情")).every((l) => l.endsWith(NOTE))).toBe(true);
     expect(message.markdown).toContain("[status.json](https://yjpdccn.github.io/CSOnline/invest/status.json)");
-    expect(formatMessage(diffNotifications({}, [], []), "https://x/")).toBeNull();
+    expect(formatMessage(diffNotifications({}, [], ruleMismatch), "https://x/")).toBeNull();
   });
 
   function fakeFetch(handler: (url: string, init: RequestInit) => unknown) {
@@ -297,7 +314,7 @@ describe("notifications", () => {
     expect(route()).toEqual(["GET /repos/o/r/issues?state=open&per_page=100", "POST /repos/o/r/issues"]);
     const opened = JSON.parse(calls[1].body!);
     expect(opened.body).toMatch(/^@o /);
-    expect(opened.body).toContain("096001");
+    expect(opened.body).toContain("007466");
 
     calls.length = 0;
     const again = await runNotifications(first.state, [], alerts, options(impl), NOW);
@@ -317,12 +334,12 @@ describe("notifications", () => {
     const sent = await runNotifications({ sent: {} }, [], alerts, options(turbo.impl, { serverChanKey: "SCT123abc" }), NOW);
     expect(sent.outcome).toMatchObject({ result: "sent", channel: "serverchan" });
     expect(turbo.calls[0].url).toBe("https://sctapi.ftqq.com/SCT123abc.send");
-    expect(new URLSearchParams(turbo.calls[0].body).get("title")).toBe("投资日报：1 条新提醒");
+    expect(new URLSearchParams(turbo.calls[0].body).get("title")).toBe("投资日报：1 条策略建议");
 
     const v3 = fakeFetch(() => ({ code: 0 }));
     await runNotifications({ sent: {} }, [], alerts, options(v3.impl, { serverChanKey: "sctp4567tXYZ" }), NOW);
     expect(v3.calls[0].url).toBe("https://4567.push.ft07.com/send/sctp4567tXYZ.send");
-    expect(JSON.parse(v3.calls[0].body!)).toMatchObject({ title: "投资日报：1 条新提醒" });
+    expect(JSON.parse(v3.calls[0].body!)).toMatchObject({ title: "投资日报：1 条策略建议" });
   });
 
   it("falls back to the issue when WeChat fails, and retries next run when everything fails", async () => {

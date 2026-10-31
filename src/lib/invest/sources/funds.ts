@@ -114,9 +114,26 @@ export interface ProfilePage {
   type?: string;
   index?: string;
   benchmark?: string;
+  /** 成立日期, YYYY-MM-DD. */
+  established?: string;
+  /** 净资产规模 of this share class in yuan, and the report date it is from. */
+  size?: number;
+  sizeDate?: string;
+  fees?: FundFees;
 }
 
-/** 基本概况 page (jbgk): name, type, 跟踪标的 and 业绩比较基准. */
+const chineseDate = (text: string | undefined) => {
+  const m = text?.match(/(\d{4})年(\d{1,2})月(\d{1,2})日/);
+  return m ? `${m[1]}-${m[2].padStart(2, "0")}-${m[3].padStart(2, "0")}` : undefined;
+};
+
+/** "28.47亿元（截止至：2026年09月30日）" → 2,847,000,000; "--" → undefined. */
+export function parseAmount(text: string | undefined): number | undefined {
+  const m = text?.replace(/,/g, "").match(/(\d+(?:\.\d+)?)\s*(亿|万)?元/);
+  return m ? Math.round(Number(m[1]) * (m[2] === "亿" ? 1e8 : m[2] === "万" ? 1e4 : 1)) : undefined;
+}
+
+/** 基本概况 page (jbgk): name, type, 跟踪标的, 业绩比较基准, 成立日期, 净资产规模 and 运作费用. */
 export function parseProfilePage(html: string): ProfilePage {
   const cells = labelledCells(html);
   const profile: ProfilePage = {};
@@ -128,10 +145,112 @@ export function parseProfilePage(html: string): ProfilePage {
   if (type) profile.type = type;
   if (index && !/无跟踪标的/.test(index)) profile.index = index;
   if (benchmark) profile.benchmark = benchmark;
+  const established = chineseDate(cells.get("成立日期/规模"));
+  if (established) profile.established = established;
+  const size = cells.get("净资产规模");
+  const amount = parseAmount(size);
+  if (amount !== undefined) {
+    profile.size = amount;
+    const asOf = chineseDate(size);
+    if (asOf) profile.sizeDate = asOf;
+  }
+  const fees: FundFees = {};
+  const management = percent(cells.get("管理费率"));
+  const custody = percent(cells.get("托管费率"));
+  const service = percent(cells.get("销售服务费率"));
+  if (management !== undefined) fees.management = management;
+  if (custody !== undefined) fees.custody = custody;
+  if (service !== undefined) fees.service = service;
+  if (Object.keys(fees).length) profile.fees = fees;
   if (!profile.name && !profile.type) throw new Error("页面中没有基金概况");
   return profile;
 }
 
 export async function fetchProfilePage(code: string): Promise<ProfilePage> {
   return parseProfilePage(await fetchText(`https://fundf10.eastmoney.com/jbgk_${code}.html`, { headers: F10_HEADERS }));
+}
+
+/** 特色数据 page (tsdata): annualized tracking error in percent; undefined for funds without an index. */
+export function parseTrackingError(html: string): number | undefined {
+  const $ = load(html);
+  let value: number | undefined;
+  $("table").each((_, table) => {
+    const headers = $(table).find("th").map((__, th) => collapse($(th).text())).get();
+    const column = headers.indexOf("年化跟踪误差");
+    if (column < 0 || value !== undefined) return;
+    const cell = $(table).find("tr").eq(1).find("td").eq(column).text();
+    const pct = percent(cell);
+    if (pct !== undefined) value = pct;
+  });
+  return value;
+}
+
+export async function fetchTrackingError(code: string): Promise<number | undefined> {
+  return parseTrackingError(await fetchText(`https://fundf10.eastmoney.com/tsdata_${code}.html`, { headers: F10_HEADERS }));
+}
+
+export interface FundNotice {
+  id: string;
+  title: string;
+  date: string;
+}
+
+/**
+ * Announcements that can end or change a fund: 清盘 and 基金合同终止 (including the warning that a fund may hit
+ * the line), 转型, 合并, a new benchmark or tracked index, and holder meetings that decide such things.
+ * Notices about sales agents or market makers ("终止…销售业务") do not count.
+ */
+const MATERIAL_NOTICE =
+  /清盘|基金财产清算|清算报告|基金合同终止|终止基金合同|转型|变更注册|吸收合并|基金合并|合并后|变更.{0,12}(?:业绩比较基准|标的指数|跟踪标的)|更换.{0,8}(?:标的指数|业绩比较基准)|标的指数.{0,6}更名|基金份额持有人大会/;
+
+interface NoticeResponse {
+  Data?: { TITLE?: string; PUBLISHDATEDesc?: string; ID?: string }[] | null;
+}
+
+export function parseNotices(body: NoticeResponse): FundNotice[] {
+  if (!Array.isArray(body.Data)) throw new Error("没有返回公告列表");
+  return body.Data.flatMap((row) => {
+    if (!row.TITLE || !row.ID || !/^\d{4}-\d{2}-\d{2}$/.test(row.PUBLISHDATEDesc ?? "")) return [];
+    return MATERIAL_NOTICE.test(row.TITLE) ? [{ id: row.ID, title: collapse(row.TITLE), date: row.PUBLISHDATEDesc! }] : [];
+  });
+}
+
+/** The fund's latest announcements on 天天基金, filtered to the material ones. */
+export async function fetchNotices(code: string): Promise<FundNotice[]> {
+  const url = `https://api.fund.eastmoney.com/f10/JJGG?fundcode=${code}&pageIndex=1&pageSize=30&type=0`;
+  return parseNotices(await fetchJson<NoticeResponse>(url, { headers: F10_HEADERS, retries: 1 }));
+}
+
+export interface UniverseFund {
+  code: string;
+  name: string;
+  type: string;
+}
+
+/** 天天基金's list of every fund: `var r = [["000001","HXCZHH","华夏成长混合","混合型-灵活","…"],…];` */
+export function parseFundUniverse(script: string): UniverseFund[] {
+  const start = script.indexOf("[");
+  const end = script.lastIndexOf("]");
+  if (start < 0 || end <= start) throw new Error("基金列表格式变了");
+  const rows = JSON.parse(script.slice(start, end + 1)) as string[][];
+  const funds = rows.flatMap((r) => (/^\d{6}$/.test(r[0] ?? "") && r[2] ? [{ code: r[0], name: r[2], type: r[3] ?? "" }] : []));
+  if (funds.length < 1000) throw new Error(`基金列表只有 ${funds.length} 只`);
+  return funds;
+}
+
+export async function fetchFundUniverse(): Promise<UniverseFund[]> {
+  return parseFundUniverse(await fetchText("https://fund.eastmoney.com/js/fundcode_search.js", { retries: 1 }));
+}
+
+const CURRENCY = /[（(]?(?:人民币|美元现汇|美元现钞|美元汇|美元|美汇|美钞|现汇|现钞)[)）]?/g;
+
+/**
+ * Share class from a fund name: "摩根纳斯达克100指数(QDII)人民币A" → A, "华夏黄金ETF联接C" → C, "…联接Y" → Y; ""
+ * for single-class funds. `stem` is the same for every class of a fund, currency classes included.
+ */
+export function shareClass(name: string): { stem: string; cls: string; usd: boolean } {
+  const usd = /美元|美汇|美钞|现汇|现钞/.test(name);
+  const bare = name.replace(CURRENCY, "").replace(/[（(][)）]/g, "").trim();
+  const m = bare.match(/^(.*?)([A-Z])$/);
+  return m && !/(?:ETF|LOF|QDII|FOF)$/.test(bare) ? { stem: m[1], cls: m[2], usd } : { stem: bare, cls: "", usd };
 }

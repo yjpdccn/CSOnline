@@ -16,6 +16,7 @@ import { MacroList, MarketCards } from "./market-cards";
 import { NewsList } from "./news-list";
 import { OverviewCard } from "./overview-card";
 import { AiLine, InvestStatusDialog } from "./status-dialog";
+import { StrategyPanel } from "./strategy-panel";
 
 function Panel({ title, children, className }: { title: string; children: React.ReactNode; className?: string }) {
   return (
@@ -136,6 +137,7 @@ export function InvestApp({ data, error }: { data: InvestPageData | null; error:
             {data && (
               <>
                 <DataHealthBanner health={data.health} />
+                <StrategyPanel strategy={data.strategy} asOf={data.asOf} since={data.health?.since} />
                 <AlertsPanel alerts={data.alerts} rules={data.rules} watch={data.watch} premiums={data.premiums} asOf={data.asOf} since={data.health?.since} />
                 {data.overview && <OverviewCard overview={data.overview} />}
                 <FundGroups groups={data.groups} />

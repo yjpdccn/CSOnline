@@ -18,13 +18,13 @@ const SEVERITY: Record<AlertSeverity, { icon: typeof Info; className: string; ri
 const ORDER: Record<AlertSeverity, number> = { bad: 0, warn: 1, good: 2, info: 3 };
 
 /** Seen for the first time in the last two days; what the first check found is the baseline, not news. */
-function isNew(alert: PageAlert, now: Date, since: string | undefined): boolean {
+export function isNew(alert: PageAlert, now: Date, since: string | undefined): boolean {
   const seen = alert.firstSeen;
   if (!seen || (alert.kind !== "change" && since && seen <= since)) return false;
   return now.getTime() - Date.parse(seen) < 48 * 3600_000;
 }
 
-function NewBadge() {
+export function NewBadge() {
   return <span className="rounded bg-red-500 px-1 text-[10px] leading-4 font-semibold text-white">新</span>;
 }
 

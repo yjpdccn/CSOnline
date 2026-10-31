@@ -1,6 +1,7 @@
 import { FUNDS, INDICES, MACRO, type IndexId, type MacroId } from "@/config/invest";
 import { AVAILABILITY, HOLIDAYS, type Availability, type MarketCalendar } from "@/config/market-calendar";
 import { formatDateTime, shiftDay, zonedTimeToUtc } from "@/lib/time";
+import type { StrategyFile } from "./strategy";
 import type { DataIssue, FundsFile, HealthFile, HealthGroup, HealthGroupId, HealthItem, InvestSourceResult, MarketFile, NewsFile, CalendarFile } from "./types";
 
 export const HEALTH_GROUPS: Record<HealthGroupId, string> = {
@@ -13,7 +14,11 @@ export const HEALTH_GROUPS: Record<HealthGroupId, string> = {
   valuation: "估值",
   news: "新闻",
   calendar: "财经日历",
+  strategy: "同类基金比较与公告",
 };
+
+/** The comparison runs weekly; past this it may name funds whose fees or quotas have moved. */
+const STRATEGY_MAX_AGE_MS = 9 * 86_400_000;
 
 function isBusinessDay(day: string, calendar: MarketCalendar): boolean {
   const [y, m, d] = day.split("-").map(Number);
@@ -149,7 +154,7 @@ type Checked = Figure & { expected: string };
  * was closed on a day HOLIDAYS does not list.
  */
 export function checkHealth(
-  input: { market: MarketFile; funds: FundsFile; news: NewsFile; calendar: CalendarFile },
+  input: { market: MarketFile; funds: FundsFile; news: NewsFile; calendar: CalendarFile; strategy?: StrategyFile },
   fresh: RunFreshness,
   previous: { groups?: Partial<Record<HealthGroupId, { lastSuccess?: string }>> } | null,
   now: Date,
@@ -289,6 +294,27 @@ export function checkHealth(
       message: `财经日历超过 36 小时没有更新${calendarAt ? `（上次 ${formatDateTime(calendarAt)}）` : ""}，近期的数据发布可能缺失`,
       items: ["财经日历"],
     });
+  }
+
+  // Suggestions rest on the weekly comparison and this run's announcements; neither changes the numbers shown.
+  if (input.strategy) {
+    const { checkedAt, noticesAt } = input.strategy;
+    const old = !checkedAt || now.getTime() - Date.parse(checkedAt) > STRATEGY_MAX_AGE_MS;
+    items.get("strategy")!.push({ key: "peers", name: "同类基金比较", latest: checkedAt, refreshed: fresh.sources.some((s) => s.id === "fund-peers" && s.ok), stale: old });
+    items.get("strategy")!.push({ key: "notices", name: "基金公告", latest: noticesAt, refreshed: fresh.sources.some((s) => s.id === "fund-notices" && s.ok), stale: !noticesAt });
+    if (old) {
+      issues.push({
+        key: "stale:strategy",
+        group: "strategy",
+        kind: "stale",
+        severity: "minor",
+        message: checkedAt ? `同类基金比较停在 ${formatDateTime(checkedAt)}，替换和加大的建议可能过时` : "还没有完成同类基金比较，暂时没有替换建议",
+        items: ["同类基金比较"],
+      });
+    }
+    for (const s of fresh.sources.filter((r) => ["fund-peers", "fund-notices", "peer-status"].includes(r.id) && (!r.ok || r.error))) {
+      issues.push({ key: `failed:source:${s.id}`, group: "strategy", kind: "failed", severity: "minor", message: `${s.name}${s.ok ? "部分" : ""}没有读到：${s.error ?? "失败"}`, items: [s.name] });
+    }
   }
 
   const answered = (kind: string) => fresh.sources.some((s) => s.kind === kind && s.ok);
