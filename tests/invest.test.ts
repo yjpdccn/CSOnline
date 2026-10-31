@@ -2,7 +2,7 @@ import { describe, expect, it, vi } from "vitest";
 import { FUNDS } from "@/config/invest";
 import { INVEST_SOURCES } from "@/config/invest-news";
 import { compareStatus, diffAlerts } from "@/lib/invest/alerts";
-import { checkFeeRule, computeDomesticPremium, computePremium, domesticBand, premiumBand, weekChange } from "@/lib/invest/funds";
+import { checkFeeRule, computeDomesticPremium, computePremium, domesticBand, largestMove, mergeCloses, premiumBand, weekChange } from "@/lib/invest/funds";
 import { INVEST_CLUSTER_WINDOW_MS, mergeNews, rankNews, toInvestItem } from "@/lib/invest/news";
 import { buildAutoOverview, generateAiOverview, translateHeadlines } from "@/lib/invest/overview";
 import { investTopics, isCompanyFiling } from "@/lib/invest/topics";
@@ -85,6 +85,16 @@ describe("premium and fees", () => {
     expect(checkFeeRule(fund("110051"), { code: "110051", type: "债券型-中短债", name: "易方达安和中短债A", updatedAt: "" }, { management: 0.2, custody: 0.05 })).toBeUndefined();
   });
 
+  it("adds a latest-day quote to the stored history and rejects one from another instrument", () => {
+    const stored: [string, number][] = [["2026-10-28", 29813.16], ["2026-10-29", 29402.51]];
+    expect(mergeCloses(stored, [["2026-10-30", 28384.85]])).toEqual([...stored, ["2026-10-30", 28384.85]]);
+    // 腾讯's "us.NDX" is a $10 stock.
+    expect(mergeCloses(stored, [["2026-10-30", 10.65]])).toBeNull();
+    // A bad point stored earlier is dropped, so it cannot block later updates.
+    expect(mergeCloses([...stored, ["2026-10-30", 10.84]], [["2026-11-02", 28500]])).toEqual([...stored, ["2026-11-02", 28500]]);
+    expect(largestMove([["2026-10-28", 29813.16], ["2026-10-29", 29402.51], ["2026-10-30", 10.65]])).toBeGreaterThan(0.99);
+  });
+
   it("measures the change over about a week", () => {
     expect(weekChange([{ date: "2026-10-20", value: 100 }, { date: "2026-10-22", value: 101 }, { date: "2026-10-29", value: 103 }])).toBe(1.98);
     expect(weekChange([{ date: "2026-10-27", value: 100 }, { date: "2026-10-29", value: 103 }])).toBeUndefined();
@@ -97,6 +107,7 @@ describe("alerts", () => {
     name: code,
     group: "dca",
     etf: false,
+    lof: false,
     index: "ndx",
     indexName: "纳斯达克100",
     watchLimit: true,

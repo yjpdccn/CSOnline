@@ -1,6 +1,7 @@
 "use client";
 
 import { BellRing, CalendarClock, CheckCircle2, Info, TriangleAlert, XCircle } from "lucide-react";
+import { FUND_GROUPS, PLAN_GROUPS } from "@/config/invest";
 import type { AlertItem, PremiumRow, WatchRow } from "@/lib/invest/page-data";
 import type { AlertSeverity, PremiumBand } from "@/lib/invest/types";
 import { dayKey, formatDateTime } from "@/lib/time";
@@ -79,12 +80,15 @@ const BAND: Record<PremiumBand, { label: string; className: string }> = {
   unusual: { label: "偏离较大", className: "text-amber-600 dark:text-amber-400" },
 };
 
-function WatchList({ rows }: { rows: WatchRow[] }) {
+const GROUP_LABEL = new Map(FUND_GROUPS.map((g) => [g.id, g.label]));
+
+function WatchList({ rows, showGroup = false }: { rows: WatchRow[]; showGroup?: boolean }) {
   return (
     <ul className="mt-2 grid gap-x-6 gap-y-1.5 text-sm sm:grid-cols-2">
       {rows.map((row) => (
         <li key={row.code} className="flex min-w-0 items-center gap-2">
           <span className={cn("size-2 shrink-0 rounded-full", RANK_DOT[row.rank] ?? "bg-muted-foreground/40")} />
+          {showGroup && <span className="shrink-0 rounded bg-muted px-1 text-[10px] leading-4 text-muted-foreground">{GROUP_LABEL.get(row.group)}</span>}
           <span className="min-w-0 truncate" title={row.name}>
             {row.name}
           </span>
@@ -141,13 +145,23 @@ export function AlertsPanel({ alerts, watch, premiums, asOf }: { alerts: AlertIt
       {watch.length > 0 && (
         <div className="mt-4 border-t pt-3">
           <h3 className="text-xs font-semibold text-muted-foreground">场外基金申购额度（每次更新检查，状态或日限额变化会出现在上方）</h3>
-          <WatchList rows={[...watch].sort((a, b) => Number(b.qdii) - Number(a.qdii))} />
+          <WatchList rows={watch.filter((r) => PLAN_GROUPS.includes(r.group)).sort((a, b) => Number(b.qdii) - Number(a.qdii))} />
+          {watch.some((r) => !PLAN_GROUPS.includes(r.group)) && (
+            <>
+              <h4 className="mt-3 text-[11px] font-medium text-muted-foreground">
+                {FUND_GROUPS.filter((g) => !PLAN_GROUPS.includes(g.id))
+                  .map((g) => g.label)
+                  .join(" · ")}
+              </h4>
+              <WatchList rows={watch.filter((r) => !PLAN_GROUPS.includes(r.group))} showGroup />
+            </>
+          )}
         </div>
       )}
       {premiums.length > 0 && (
         <div className="mt-4 border-t pt-3">
           <h3 className="text-xs font-semibold text-muted-foreground">
-            场内 ETF 溢价（QDII 超过 2% 不买，降到 2% 以内提醒；境内 ETF 偏离净值 1% 以上才提醒）
+            场内 ETF / LOF 溢价（QDII 超过 2% 不买，降到 2% 以内提醒；境内的偏离净值 1% 以上才提醒）
           </h3>
           <PremiumList rows={premiums} />
         </div>

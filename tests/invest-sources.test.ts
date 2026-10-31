@@ -1,7 +1,15 @@
 import { describe, expect, it } from "vitest";
 import { parseFomcCalendar, selectCalendarEvents, type WscnCalendarItem } from "@/lib/invest/sources/calendar";
 import { parseFeePage, parseLimit, parseNavHistory, parseProfilePage } from "@/lib/invest/sources/funds";
-import { parseCsindexPe, parseDanjuan, parseKlines, parseTencentKlines, parseTreasuryRealYields } from "@/lib/invest/sources/market";
+import {
+  parseCsindex,
+  parseDanjuan,
+  parseEastmoneyLatest,
+  parseKlines,
+  parseSinaLatest,
+  parseTencentKlines,
+  parseTreasuryRealYields,
+} from "@/lib/invest/sources/market";
 import { clsSign, parseNbsList, splitFlash } from "@/lib/invest/sources/news";
 
 describe("market sources", () => {
@@ -15,6 +23,38 @@ describe("market sources", () => {
     const body = { data: { sh510300: { day: [["2026-10-28", "4.155", "4.152", "4.166", "4.132", "10986237.000"], ["2026-10-29", "4.145", "4.111", "4.146", "4.103", "21619193.000"]] } } };
     expect(parseTencentKlines(body, "sh510300").closes).toEqual([["2026-10-28", 4.152], ["2026-10-29", 4.111]]);
     expect(() => parseTencentKlines({ data: {} }, "sh510300")).toThrow();
+  });
+
+  it("reads latest values from 东方财富's delayed host, dated by the market's own day", () => {
+    const map = parseEastmoneyLatest({
+      data: {
+        diff: [
+          // 05:39 Beijing on Saturday is Friday afternoon in New York.
+          { f2: 3875.55, f12: "XAU", f13: 122, f124: 1793393940 },
+          { f2: 11380.1, f12: "H30269", f13: 2, f124: 1793348996 },
+          { f2: 0, f12: "SHAU", f13: 118, f124: 1793361600 },
+        ],
+      },
+    });
+    expect(map.get("122.XAU")).toEqual({ date: "2026-10-30", value: 3875.55 });
+    expect(map.get("2.H30269")).toEqual({ date: "2026-10-30", value: 11380.1 });
+    expect(map.has("118.SHAU")).toBe(false);
+    // China's 10-year yield refreshed early on Saturday is Friday's value.
+    expect(parseEastmoneyLatest({ data: { diff: [{ f2: 1.655, f12: "CN10Y", f13: 171, f124: 1793394005 }] } }).get("171.CN10Y")?.date).toBe("2026-10-30");
+  });
+
+  it("reads latest values from 新浪 quote lines", () => {
+    const text = [
+      'var hq_str_hf_XAU="3876.69,4021.230,3876.69,3877.07,4026.24,3870.05,04:55:00,4021.23,4023.79,0,0,0,2026-10-31,伦敦金（现货黄金）";',
+      'var hq_str_DINIW="05:41:42,101.9669,101.9669,101.8857,5052,101.9016,102.0903,101.5851,101.9669,美元指数,2026-10-31";',
+      'var hq_str_globalbd_cn10yt="中国10年期国债,1.609,1.640,1.638,1.646,1.597,0,-0.1220,-0.0020,0,0,1793359095,2026-10-30,07:18:15";',
+      'var hq_str_SGE_SHAU="SHAU,上海金,SHAU,--,--,--,--,--,--,--,--,--,--,--,--,--,2026-10-30 19:50:17,NaN%";',
+    ].join("\n");
+    const map = parseSinaLatest(text);
+    expect(map.get("hf_XAU")).toEqual({ date: "2026-10-30", value: 3876.69 });
+    expect(map.get("DINIW")).toEqual({ date: "2026-10-30", value: 101.9669 });
+    expect(map.get("globalbd_cn10yt")).toEqual({ date: "2026-10-30", value: 1.609 });
+    expect(map.has("SGE_SHAU")).toBe(false);
   });
 
   it("reads the 10-year column of the Treasury real yield CSV, oldest first", () => {
@@ -35,12 +75,26 @@ describe("market sources", () => {
     expect(map.get("SZ399393")?.pe).toBeUndefined();
   });
 
-  it("takes the latest PE 中证指数 published", () => {
-    expect(parseCsindexPe({ data: [{ tradeDate: "20261027", peg: 14.2 }, { tradeDate: "20261028", peg: 14.11 }, { tradeDate: "20261029", peg: null }] })).toEqual({
-      pe: 14.11,
-      date: "2026-10-28",
-      source: "中证指数",
+  it("takes 中证指数 closes and the latest PE, without a percentile on a short history", () => {
+    const parsed = parseCsindex({
+      data: [
+        { tradeDate: "20261027", close: 5016.04, peg: 14.2 },
+        { tradeDate: "20261028", close: 4959.56, peg: 14.11 },
+        { tradeDate: "20261029", close: 4884.9, peg: null },
+      ],
     });
+    expect(parsed.valuation).toEqual({ pe: 14.11, date: "2026-10-28", source: "中证指数" });
+    expect(parsed.closes).toEqual([["2026-10-27", 5016.04], ["2026-10-28", 4959.56], ["2026-10-29", 4884.9]]);
+  });
+
+  it("computes the PE percentile when 中证指数's PE history covers five years", () => {
+    const data = [
+      { tradeDate: "20180131", close: 4000, peg: 14.26 },
+      { tradeDate: "20210630", close: 5000, peg: 9 },
+      { tradeDate: "20241231", close: 4500, peg: 11 },
+      { tradeDate: "20261030", close: 4689.18, peg: 9.95 },
+    ];
+    expect(parseCsindex({ data }).valuation).toEqual({ pe: 9.95, pePercentile: 0.5, since: "2018-01-31", date: "2026-10-30", source: "中证指数" });
   });
 });
 

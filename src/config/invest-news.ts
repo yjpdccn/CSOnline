@@ -144,6 +144,7 @@ export const FINANCE_GENERIC = new Set(
     "美联 联储 利率 率决 央行 市场 指数 美元 美股 股市 经济 政策 决议 声明 预计 预期 机构 美国 中国 全球 数据 金价 黄金 价格 " +
     "收盘 开盘 上涨 下跌 基点 主席 表示 认为 关注 要点 分析 前瞻 回应 影响 风险 板块 个股 期货 现货 盘中 盘前 盘后 午盘 " +
     "高开 低开 涨幅 跌幅 涨超 跌超 大涨 大跌 季度 本周 今日 投资 资金 债券 国债 收益 益率 通胀 就业 继续 可能 或将 " +
+    "期货 主力 力合 合约 日内 现报 收跌 收涨 报价 下跌 上涨 " +
     "fed rate rates stocks stock market markets investors economy inflation yields dollar gold price prices says wall street shares index"
   ).split(" "),
 );

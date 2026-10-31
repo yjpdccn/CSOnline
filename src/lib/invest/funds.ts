@@ -11,6 +11,39 @@ export function domesticBand(value: number): PremiumBand {
   return Math.abs(value) >= INVEST_RULES.domesticPremium.unusual ? "unusual" : "normal";
 }
 
+/** A bigger one-day move means a quote source returned another instrument (腾讯's "us.NDX" is a stock). */
+export const MAX_DAILY_MOVE = 0.25;
+
+/** The largest day-over-day move among the last `window` closes, as a fraction. */
+export function largestMove(closes: Close[], window = 5): number {
+  const tail = closes.slice(-window - 1);
+  let worst = 0;
+  for (let i = 1; i < tail.length; i++) worst = Math.max(worst, Math.abs(tail[i][1] / tail[i - 1][1] - 1));
+  return worst;
+}
+
+/** Drops points that jump implausibly from the one before (a bad quote stored by an earlier run). */
+export function dropSpikes(closes: Close[]): Close[] {
+  const kept: Close[] = [];
+  for (const point of closes) {
+    const prev = kept.at(-1);
+    if (prev && Math.abs(point[1] / prev[1] - 1) > MAX_DAILY_MOVE) continue;
+    kept.push(point);
+  }
+  return kept;
+}
+
+/**
+ * Adds fresh closes to the stored ones (fresh wins on the same date). Returns null when the result jumps
+ * implausibly where the fresh closes begin, so the stored series is kept.
+ */
+export function mergeCloses(stored: Close[] | undefined, fresh: Close[], keep = 120): Close[] | null {
+  const byDate = new Map(dropSpikes(stored ?? []));
+  for (const [date, value] of fresh) byDate.set(date, value);
+  const merged = [...byDate].sort((a, b) => a[0].localeCompare(b[0])).slice(-keep);
+  return largestMove(merged, Math.min(fresh.length + 1, 6)) > MAX_DAILY_MOVE ? null : merged;
+}
+
 /** Last close on or before `date`. */
 export function closeOnOrBefore(closes: Close[], date: string): Close | undefined {
   for (let i = closes.length - 1; i >= 0; i--) if (closes[i][0] <= date) return closes[i];
@@ -90,6 +123,7 @@ export function buildFundViews(funds: Record<string, FundData>, market: MarketFi
       name: data?.name ?? fund.name,
       group: fund.group,
       etf: Boolean(fund.etf),
+      lof: Boolean(fund.lof),
       index: fund.index,
       indexName: index.name,
       watchLimit: Boolean(fund.watchLimit),
@@ -103,7 +137,6 @@ export function buildFundViews(funds: Record<string, FundData>, market: MarketFi
       const [date, close] = data.prices.at(-1)!;
       const prev = data.prices.at(-2);
       view.price = { close, date, changePct: prev ? Math.round((close / prev[1] - 1) * 10_000) / 100 : undefined };
-      view.weekPct = weekChange(data.prices.map(([d, v]) => ({ date: d, value: v })));
       if (fund.watchPremium && navs.length) {
         const premium =
           index.market === "us"
@@ -111,9 +144,10 @@ export function buildFundViews(funds: Record<string, FundData>, market: MarketFi
             : computeDomesticPremium(data.prices, navs);
         if (premium) view.premium = premium;
       }
-    } else if (navs.length) {
-      view.weekPct = weekChange([...navs].reverse().map((n) => ({ date: n.date, value: n.nav })));
     }
+    // ETFs are bought at the traded price; everything else, LOFs included, at NAV.
+    if (fund.etf && data?.prices?.length) view.weekPct = weekChange(data.prices.map(([d, v]) => ({ date: d, value: v })));
+    else if (navs.length) view.weekPct = weekChange([...navs].reverse().map((n) => ({ date: n.date, value: n.nav })));
     if (data?.status) view.status = data.status;
     if (data?.fees) {
       const total = data.fees.management !== undefined && data.fees.custody !== undefined ? Math.round((data.fees.management + data.fees.custody) * 100) / 100 : undefined;

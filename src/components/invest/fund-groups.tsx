@@ -61,9 +61,33 @@ function StatusLine({ fund }: { fund: Fund }) {
   );
 }
 
+function IndexLink({ fund }: { fund: Fund }) {
+  const link = "underline decoration-muted-foreground/30 underline-offset-2 hover:text-foreground";
+  if (fund.tracking) {
+    return (
+      <a href={`#index-${fund.index}`} className={link}>
+        跟踪 {fund.tracking}
+      </a>
+    );
+  }
+  // Active and bond funds have no tracked index; their benchmark says what they are measured against.
+  if (fund.benchmark) {
+    return (
+      <span title={fund.benchmark} className="max-w-full truncate sm:max-w-[26rem]">
+        业绩基准 {fund.benchmark}
+      </span>
+    );
+  }
+  return (
+    <a href={`#index-${fund.index}`} className={link}>
+      参考 {fund.indexName}
+    </a>
+  );
+}
+
 function FundRow({ fund }: { fund: Fund }) {
   const latest = fund.etf && fund.price ? { value: fund.price.close, date: fund.price.date, change: fund.price.changePct, label: "收盘价" } : fund.nav ? { value: fund.nav.nav, date: fund.nav.date, change: fund.nav.changePct, label: "净值" } : null;
-  const qdii = fund.feeRule?.kind === "qdii";
+  const qdii = fund.feeRule?.kind === "qdii" || /QDII/.test(fund.type ?? "");
   return (
     <li className="px-4 py-3">
       <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-1">
@@ -71,6 +95,7 @@ function FundRow({ fund }: { fund: Fund }) {
           <span className="font-medium">{fund.name}</span>
           <span className="text-xs text-muted-foreground tabular-nums">{fund.code}</span>
           {fund.etf && <Tag tone="sky">场内</Tag>}
+          {fund.lof && <Tag tone="sky">LOF</Tag>}
           {qdii && !fund.etf && <Tag>QDII</Tag>}
           {fund.tag && <Tag tone="amber">{fund.tag}</Tag>}
         </div>
@@ -99,6 +124,11 @@ function FundRow({ fund }: { fund: Fund }) {
             净值 {fmt(fund.nav.nav, 4)}（{shortDate(fund.nav.date)}）
           </span>
         )}
+        {fund.lof && fund.price && (
+          <span className="tabular-nums">
+            场内价 {fmt(fund.price.close, 3)}（{shortDate(fund.price.date)}）
+          </span>
+        )}
         {fund.premium && (
           <span
             className={cn(
@@ -114,9 +144,7 @@ function FundRow({ fund }: { fund: Fund }) {
             {fund.premium.kind === "domestic" && `（${shortDate(fund.premium.navDate)}）`}
           </span>
         )}
-        <a href={`#index-${fund.index}`} className="underline decoration-muted-foreground/30 underline-offset-2 hover:text-foreground">
-          跟踪 {fund.tracking ?? fund.indexName}
-        </a>
+        <IndexLink fund={fund} />
         <StatusLine fund={fund} />
         <FeeLine fund={fund} />
       </div>

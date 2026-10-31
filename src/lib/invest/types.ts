@@ -200,6 +200,7 @@ export interface FundView {
   group: FundGroup;
   tag?: string;
   etf: boolean;
+  lof: boolean;
   index: IndexId;
   indexName: string;
   type?: string;
@@ -262,7 +263,8 @@ export interface IndexView {
   market: Market;
   quote?: QuoteView;
   valuation?: Valuation;
-  funds: { code: string; name: string }[];
+  /** Index funds tracking the index, and funds without one that use the card as a reference (bond funds). */
+  funds: { code: string; name: string; role: "tracks" | "reference" }[];
   news: NewsRef[];
 }
 

@@ -4,13 +4,21 @@ import { normalizeError } from "@/lib/pipeline/http";
 import { getLlmConfig, LlmClient } from "@/lib/pipeline/llm";
 import { acquireLock } from "@/lib/pipeline/store";
 import { diffAlerts } from "./alerts";
-import { buildFundViews } from "./funds";
+import { buildFundViews, largestMove, MAX_DAILY_MOVE, mergeCloses } from "./funds";
 import { mergeNews, rankNews, toInvestItem } from "./news";
 import { buildAutoOverview, generateAiOverview, stopReason, translateHeadlines, type OverviewQuotes } from "./overview";
 import { indexQuote, macroQuote } from "./quotes";
 import { fetchFomcCalendar, fetchWscnCalendar } from "./sources/calendar";
 import { fetchFeePage, fetchNavHistory, fetchProfilePage, type FeePage, type ProfilePage } from "./sources/funds";
-import { fetchCsindexPe, fetchDanjuan, fetchKlines, fetchTencentKlines, fetchTreasuryRealYields } from "./sources/market";
+import {
+  fetchCsindex,
+  fetchDanjuan,
+  fetchEastmoneyLatest,
+  fetchKlines,
+  fetchSinaLatest,
+  fetchTencentKlines,
+  fetchTreasuryRealYields,
+} from "./sources/market";
 import { INVEST_FETCHERS, type RawFinanceItem } from "./sources/news";
 import { loadInvestStore, saveInvestStore, type InvestStore } from "./store";
 import type {
@@ -76,12 +84,20 @@ export interface InvestFetch {
 const etfSecid = (code: string) => (/^[56]/.test(code) ? `1.${code}` : `0.${code}`);
 const etfTencent = (code: string) => (/^[56]/.test(code) ? `sh${code}` : `sz${code}`);
 
-/** 东方财富 first; 腾讯行情 for the series it also carries when 东方财富 fails. */
+/** Rejects a response whose latest closes jump implausibly (another instrument under the same symbol). */
+async function plausibleKlines(fetcher: () => Promise<{ closes: Close[]; name: string }>) {
+  const result = await fetcher();
+  const move = largestMove(result.closes);
+  if (move > MAX_DAILY_MOVE) throw new Error(`数据异常（单日变动 ${Math.round(move * 100)}%）`);
+  return result;
+}
+
+/** 东方财富 first; 腾讯行情 for the series it also carries when 东方财富 fails or returns implausible data. */
 async function fetchDaily(secid: string, tencent: string | undefined, limit: number): Promise<Settled<{ closes: Close[]; name: string; source: string }>> {
-  const primary = await settle(() => fetchKlines(secid, limit));
+  const primary = await settle(() => plausibleKlines(() => fetchKlines(secid, limit)));
   if (primary.ok) return { ...primary, value: { ...primary.value, source: "东方财富" } };
   if (!tencent) return primary;
-  const fallback = await settle(() => fetchTencentKlines(tencent, limit));
+  const fallback = await settle(() => plausibleKlines(() => fetchTencentKlines(tencent, limit)));
   if (!fallback.ok) return { ...primary, error: `${primary.error}；腾讯行情：${fallback.error}` };
   return { ok: true, ms: primary.ms + fallback.ms, value: { ...fallback.value, source: "腾讯行情" } };
 }
@@ -108,12 +124,12 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
   const store = await loadInvestStore();
   const out: InvestFetch = { store, startedAt, results: [], series: {}, valuations: {}, navs: {}, feePages: {}, profiles: {}, prices: {}, news: [] };
 
-  const eastmoney: { id: IndexId | MacroId; secid: string; tencent?: string; label: string }[] = [
-    ...INDICES.map((i) => ({ id: i.id, secid: i.secid, tencent: i.tencent, label: i.name })),
-    ...MACRO.flatMap((m) => (m.source.kind === "eastmoney" ? [{ id: m.id, secid: m.source.secid, label: m.name }] : [])),
+  const eastmoney: { id: IndexId | MacroId; secid: string; tencent?: string; csindex?: string; sina?: string; label: string }[] = [
+    ...INDICES.map((i) => ({ id: i.id, secid: i.secid, tencent: i.tencent, csindex: i.csindex, sina: i.sina, label: i.name })),
+    ...MACRO.flatMap((m) => (m.source.kind === "eastmoney" ? [{ id: m.id, secid: m.source.secid, sina: m.sina, label: m.name }] : [])),
   ];
   const fallbacks: string[] = [];
-  const etfs = FUNDS.filter((f) => f.etf);
+  const etfs = FUNDS.filter((f) => f.etf || f.lof);
   const profileDue = FUNDS.filter((f) => {
     const asOf = store.funds.funds[f.code]?.tracking?.asOf;
     return !asOf || now.getTime() - Date.parse(asOf) > PROFILE_MAX_AGE_MS;
@@ -128,7 +144,7 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
       quoteSettled[i] = r;
       if (!r.ok) return;
       out.series[s.id] = { name: r.value.name, closes: r.value.closes, source: r.value.source, fetchedAt: new Date().toISOString() };
-      if (r.value.source !== "东方财富") fallbacks.push(s.label);
+      if (r.value.source !== "东方财富") fallbacks.push(`${s.label}（${r.value.source}）`);
     }),
   );
   etfs.forEach((f, i) =>
@@ -137,7 +153,7 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
       quoteSettled[eastmoney.length + i] = r;
       if (!r.ok) return;
       out.prices[f.code] = r.value.closes;
-      if (r.value.source !== "东方财富") fallbacks.push(f.code);
+      if (r.value.source !== "东方财富") fallbacks.push(`${f.code}（${r.value.source}）`);
     }),
   );
   let treasury: Settled<Close[]> | undefined;
@@ -155,11 +171,14 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
     }
   });
   const csindexSettled: Settled<unknown>[] = new Array(csindex.length);
+  const csindexCloses = new Map<IndexId, Close[]>();
   csindex.forEach((index, i) =>
     tasks.push(async () => {
-      const r = await settle(() => fetchCsindexPe(index.valuation!.code, now));
+      const r = await settle(() => fetchCsindex(index.valuation!.code, now));
       csindexSettled[i] = r;
-      if (r.ok) out.valuations[index.id] = r.value;
+      if (!r.ok) return;
+      out.valuations[index.id] = r.value.valuation;
+      if (r.value.closes.length) csindexCloses.set(index.id, r.value.closes.slice(-120));
     }),
   );
   const navSettled: Settled<unknown>[] = new Array(FUNDS.length);
@@ -203,18 +222,81 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
 
   await mapLimit(tasks, CONCURRENCY);
 
+  // Backups for what the K-line sources could not give: 中证指数's own closes for its indices, then the
+  // latest value from 东方财富's delayed host or 新浪, which extends the stored history.
+  const fetchedAt = new Date().toISOString();
+  for (const [i, s] of eastmoney.entries()) {
+    if (out.series[s.id] || !s.csindex) continue;
+    let closes = csindexCloses.get(s.id as IndexId);
+    if (!closes) {
+      const r = await settle(() => fetchCsindex(s.csindex!, now, 200));
+      if (r.ok) closes = r.value.closes;
+    }
+    if (!closes?.length) continue;
+    out.series[s.id] = { name: s.label, closes: closes.slice(-120), source: "中证指数", fetchedAt };
+    quoteSettled[i] = { ok: true, value: closes, ms: quoteSettled[i]?.ms ?? 0 };
+    fallbacks.push(`${s.label}（中证指数）`);
+  }
+  const latestTargets = [
+    ...eastmoney.flatMap((s, i) => (out.series[s.id] ? [] : [{ key: s.id as string, secid: s.secid, sina: s.sina, label: s.label, slot: i, etf: false }])),
+    ...etfs.flatMap((f, k) => (out.prices[f.code] ? [] : [{ key: f.code, secid: etfSecid(f.code), sina: undefined, label: f.code, slot: eastmoney.length + k, etf: true }])),
+  ];
+  if (latestTargets.length) {
+    const em = await settle(() => fetchEastmoneyLatest(latestTargets.map((t) => t.secid)));
+    const sinaSymbols = latestTargets.filter((t) => t.sina && !(em.ok && em.value.has(t.secid))).map((t) => t.sina!);
+    const sina = sinaSymbols.length ? await settle(() => fetchSinaLatest(sinaSymbols)) : undefined;
+    for (const t of latestTargets) {
+      const fromEastmoney = em.ok ? em.value.get(t.secid) : undefined;
+      const fromSina = !fromEastmoney && t.sina && sina?.ok ? sina.value.get(t.sina) : undefined;
+      const quote = fromEastmoney ?? fromSina;
+      if (!quote) continue;
+      const source = fromEastmoney ? "东方财富延时行情" : "新浪行情";
+      const closes: Close[] = [[quote.date, quote.value]];
+      if (t.etf) out.prices[t.key] = closes;
+      else out.series[t.key as IndexId | MacroId] = { name: t.label, closes, source, fetchedAt };
+      quoteSettled[t.slot] = { ok: true, value: closes, ms: quoteSettled[t.slot]?.ms ?? 0 };
+      fallbacks.push(`${t.label}（${source}，最新值）`);
+    }
+  }
+
+  // Fresh closes extend the stored history; one that does not join it plausibly is dropped for this run.
+  const rejected: string[] = [];
+  for (const s of eastmoney) {
+    const fresh = out.series[s.id];
+    if (!fresh) continue;
+    const merged = mergeCloses(store.market.series[s.id]?.closes, fresh.closes);
+    if (merged) fresh.closes = merged;
+    else {
+      delete out.series[s.id];
+      rejected.push(s.label);
+    }
+  }
+  for (const f of etfs) {
+    const fresh = out.prices[f.code];
+    if (!fresh) continue;
+    const merged = mergeCloses(store.funds.funds[f.code]?.prices, fresh, 60);
+    if (merged) out.prices[f.code] = merged;
+    else {
+      delete out.prices[f.code];
+      rejected.push(f.code);
+    }
+  }
+
   const single = (id: string, name: string, kind: string, s: Settled<unknown> | undefined, count: number): InvestSourceResult =>
     s?.ok ? { id, name, kind, ok: true, count, ms: s.ms } : { id, name, kind, ok: false, count: 0, ms: s?.ms ?? 0, error: s && !s.ok ? s.error : "未运行" };
 
   out.results.push(groupResult("eastmoney-quotes", "东方财富行情", "行情", quoteSettled, [...eastmoney.map((s) => s.label), ...etfs.map((f) => f.code)]));
   if (fallbacks.length) {
-    out.results.push({ id: "tencent-quotes", name: "腾讯行情（备用）", kind: "行情", ok: true, count: fallbacks.length, ms: 0, error: `东方财富未响应，改用腾讯行情：${fallbacks.join("、")}` });
+    out.results.push({ id: "fallback-quotes", name: "备用行情来源", kind: "行情", ok: true, count: fallbacks.length, ms: 0, error: `东方财富未响应，改用：${fallbacks.join("、")}` });
+  }
+  if (rejected.length) {
+    out.results.push({ id: "rejected-quotes", name: "行情校验", kind: "行情", ok: true, count: rejected.length, ms: 0, error: `与已有数据衔接异常，沿用上次数据：${rejected.join("、")}` });
   }
   out.results.push(
     single("treasury", "美国财政部实际利率", "行情", treasury, treasury?.ok ? treasury.value.length : 0),
     single("danjuan", "蛋卷基金估值", "估值", danjuan, danjuan?.ok ? danjuan.value.size : 0),
   );
-  if (csindex.length) out.results.push(groupResult("csindex", "中证指数市盈率", "估值", csindexSettled, csindex.map((i) => i.name)));
+  if (csindex.length) out.results.push(groupResult("csindex", "中证指数市盈率与行情", "估值", csindexSettled, csindex.map((i) => i.name)));
   out.results.push(
     groupResult("fund-nav", "天天基金净值", "基金", navSettled, FUNDS.map((f) => f.code)),
     groupResult("fund-fees", "天天基金费率与申购状态", "基金", feeSettled, FUNDS.map((f) => f.code)),

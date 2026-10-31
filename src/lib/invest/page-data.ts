@@ -1,4 +1,4 @@
-import { FUND_GROUPS, FUNDS, INDICES, INVEST_RULES, INVEST_SITE, MACRO, type FundGroup, type MacroId } from "@/config/invest";
+import { FUND_GROUPS, FUNDS, INDICES, INVEST_RULES, INVEST_SITE, MACRO, PLAN_GROUPS, type FundGroup, type MacroId } from "@/config/invest";
 import type { InvestTopic } from "@/config/invest-news";
 import { translatedTitle, truncate } from "@/lib/pipeline/text";
 import { zonedParts } from "@/lib/time";
@@ -37,6 +37,7 @@ export interface WatchRow {
   /** 0 paused, 1 limited, 2 open. */
   rank: number;
   qdii: boolean;
+  group: FundGroup;
   changedAt?: string;
 }
 
@@ -101,12 +102,14 @@ function eventItem(event: AlertEvent, views: FundView[]): AlertItem {
         title: `${name} 申购额度收紧`,
         detail: `${event.from} → ${event.to}。${fund?.group === "dca" ? "记得调整定投金额，避免扣款失败。" : "暂时买不了或只能少买。"}`,
       };
-    case "limit-up":
+    case "limit-up": {
+      const plan = fund && PLAN_GROUPS.includes(fund.group);
       return {
         ...base,
         title: `${name} 申购额度放开`,
-        detail: `${event.from} → ${event.to}。${isQdii(event.code) ? "海外部分有加大投入的空间。" : "可以正常申购了。"}`,
+        detail: `${event.from} → ${event.to}。${plan && isQdii(event.code) ? "海外部分有加大投入的空间。" : "可以正常申购了。"}`,
       };
+    }
     case "fee-change":
       return { ...base, title: `${name} 费率调整`, detail: `${event.from} → ${event.to}` };
     case "premium-low":
@@ -148,18 +151,27 @@ function buildAlerts(events: AlertEvent[], views: FundView[], asOf: Date): Alert
           },
     );
   }
-  for (const view of views) {
-    const rule = view.feeRule;
-    if (!rule || rule.ok) continue;
+  // Fee-rule breaks are standing facts rather than news, so they share one item.
+  const expensive = views.filter((v) => v.feeRule && !v.feeRule.ok);
+  if (expensive.length) {
+    const list = (kind: "qdii" | "domestic") =>
+      expensive
+        .filter((v) => v.feeRule!.kind === kind)
+        .map((v) => `${v.code} ${v.feeRule!.total.toFixed(2)}%`)
+        .join("、");
+    const qdii = list("qdii");
+    const domestic = list("domestic");
+    const { domestic: domesticCap, qdii: qdiiCap } = INVEST_RULES.feeCap;
     items.push({
-      id: `fee-rule-${view.code}`,
+      id: "fee-rule",
       severity: "warn",
-      code: view.code,
-      title: `${view.name}（${view.code}）费率偏高`,
-      detail:
-        rule.kind === "qdii"
-          ? `管理费加托管费 ${rule.total.toFixed(2)}%/年，超过 QDII 基金 ${rule.cap}% 以内的费率线。`
-          : `管理费加托管费 ${rule.total.toFixed(2)}%/年，高于 A 股指数基金约 ${rule.cap}% 的费率线。`,
+      title: `${expensive.length} 只指数基金费率高于规则`,
+      detail: [
+        qdii && `QDII 管理费加托管费超过 ${qdiiCap}%/年：${qdii}`,
+        domestic && `A 股和黄金指数基金高于约 ${domesticCap}%/年：${domestic}`,
+      ]
+        .filter(Boolean)
+        .join("；") + "。",
     });
   }
   if (zonedParts(asOf).day <= INVEST_RULES.monthlyCheckDays) {
@@ -179,7 +191,14 @@ function watchRows(views: FundView[], events: AlertEvent[]): WatchRow[] {
     .filter((v) => v.watchLimit && v.status)
     .map((v) => {
       const change = events.find((e) => e.code === v.code && (e.kind === "limit-down" || e.kind === "limit-up"));
-      const row: WatchRow = { code: v.code, name: v.name, status: describeStatus(v.status!), rank: statusRank(v.status!.purchase), qdii: isQdii(v.code) };
+      const row: WatchRow = {
+        code: v.code,
+        name: v.name,
+        status: describeStatus(v.status!),
+        rank: statusRank(v.status!.purchase),
+        qdii: isQdii(v.code),
+        group: v.group,
+      };
       if (change) row.changedAt = change.at;
       return row;
     });
@@ -226,13 +245,11 @@ export async function loadInvestPageData(): Promise<InvestPageData> {
   const indices: IndexView[] = INDICES.filter((index) => FUNDS.some((f) => f.index === index.id)).map((index) => {
     const news = marketNews(recent.length ? recent : ranked, index.market, 3).map((c) => newsRef(c.item));
     indexNews.set(index.id, news);
-    const view: IndexView = {
-      id: index.id,
-      name: index.name,
-      market: index.market,
-      funds: FUNDS.filter((f) => f.index === index.id).map((f) => ({ code: f.code, name: fundName(f.code, views) })),
-      news,
-    };
+    // Funds without a tracked index sit on a card only when it is a reference card (bond funds on the yield card).
+    const funds = views
+      .filter((v) => v.index === index.id && (v.tracking || index.proxy))
+      .map((v) => ({ code: v.code, name: v.name, role: v.tracking ? ("tracks" as const) : ("reference" as const) }));
+    const view: IndexView = { id: index.id, name: index.name, market: index.market, funds, news };
     const quote = indexQuote(store.market, index.id);
     if (quote) view.quote = quote;
     const valuation = store.market.valuations[index.id];

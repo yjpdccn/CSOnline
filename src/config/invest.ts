@@ -8,24 +8,32 @@
  * - 新指数：在 INDICES 加一行（东方财富 secid 可在 quote.eastmoney.com 的网址里找到）。
  */
 
-export type FundGroup = "dca" | "pension" | "later";
+export type FundGroup = "dca" | "pension" | "later" | "groupA" | "groupB";
 
 export const FUND_GROUPS: { id: FundGroup; label: string; hint: string }[] = [
   { id: "dca", label: "正在定投", hint: "净值、跟踪指数、申购状态与费率" },
   { id: "pension", label: "个人养老金", hint: "中证A500 / 沪深300 的 Y 份额候选" },
   { id: "later", label: "以后再买", hint: "场外基金与场内 ETF" },
+  { id: "groupA", label: "A组", hint: "净值、跟踪指数、申购状态与费率" },
+  { id: "groupB", label: "B组", hint: "净值、跟踪指数、申购状态与费率" },
 ];
 
-export type IndexId = "ndx" | "spx" | "spxew" | "a500" | "csi300" | "divlowvol" | "gold" | "cnbond";
+/** Groups whose 定投 plans the alerts refer to; the other groups get neutral wording. */
+export const PLAN_GROUPS: FundGroup[] = ["dca", "pension", "later"];
+
+export type IndexId = "ndx" | "spx" | "spxew" | "a500" | "csi300" | "cicc300" | "divlowvol" | "gold" | "cnbond";
 
 export interface FundConfig {
   code: string;
   /** Fallback name; the name 天天基金 returns is shown when available. */
   name: string;
   group: FundGroup;
+  /** Tracked index; for active and bond funds, the card whose market news fits them. */
   index: IndexId;
   /** On-exchange ETF: shows the traded price and, for QDII, the premium. */
   etf?: boolean;
+  /** LOF: bought at NAV off-exchange, also traded on the exchange; shows both and the premium. */
+  lof?: boolean;
   /** Short label next to the name. */
   tag?: string;
   /** Alert when the purchase status or the daily purchase limit changes. */
@@ -61,6 +69,14 @@ export const FUNDS: FundConfig[] = [
   { code: "518880", name: "华安黄金ETF", group: "later", index: "gold", etf: true, tag: "对比", watchPremium: true },
   { code: "513500", name: "博时标普500ETF", group: "later", index: "spx", etf: true, watchPremium: true },
   { code: "513100", name: "国泰纳斯达克100ETF", group: "later", index: "ndx", etf: true, watchPremium: true },
+  // A组
+  { code: "006672", name: "广发招财短债债券A", group: "groupA", index: "cnbond", watchLimit: true },
+  { code: "501060", name: "中金中证优选300指数(LOF)A", group: "groupA", index: "cicc300", lof: true, watchLimit: true, watchPremium: true },
+  { code: "022502", name: "国泰黄金ETF联接E", group: "groupA", index: "gold", watchLimit: true },
+  // B组（021277 是主动管理的 QDII，没有跟踪指数，挂在标普500 下只为相关新闻）
+  { code: "015530", name: "鹏华稳福中短债债券A", group: "groupB", index: "cnbond", watchLimit: true },
+  { code: "021277", name: "广发全球精选股票(QDII)人民币C", group: "groupB", index: "spx", watchLimit: true },
+  { code: "000218", name: "国泰黄金ETF联接A", group: "groupB", index: "gold", watchLimit: true },
 ];
 
 export type Market = "us" | "cn" | "gold" | "bond";
@@ -73,25 +89,34 @@ export interface IndexConfig {
   secid: string;
   /** 腾讯行情 symbol of the same series, used when 东方财富 does not answer. */
   tencent?: string;
+  /** 中证指数 code: its published closes stand in when the quote sources fail. */
+  csindex?: string;
+  /** 新浪 quote symbol for the latest value when the others fail (see SINA_FIELDS in sources/market.ts). */
+  sina?: string;
   /** Set when `secid` is a stand-in, e.g. an ETF that tracks an index with no free quote. */
   proxy?: string;
   /** The series is a yield in percent: changes are shown in basis points. */
   yieldSeries?: boolean;
-  /** PE/PB source: 蛋卷基金 index code, or 中证指数 index code (PE only). */
+  /**
+   * PE/PB source: 蛋卷基金 index code, or 中证指数 index code (PE, with a percentile when its PE history covers
+   * five years; its daily closes also stand in when the quote sources fail).
+   */
   valuation?: { source: "danjuan" | "csindex"; code: string };
   unit?: string;
   decimals: number;
 }
 
 export const INDICES: IndexConfig[] = [
-  { id: "ndx", name: "纳斯达克100", market: "us", secid: "100.NDX100", tencent: "us.NDX", valuation: { source: "danjuan", code: "NDX" }, decimals: 2 },
+  // 腾讯's "us.NDX" is a stock, not the index; usNDX and usRSP give only the latest day, which is added to the stored history.
+  { id: "ndx", name: "纳斯达克100", market: "us", secid: "100.NDX100", tencent: "usNDX", valuation: { source: "danjuan", code: "NDX" }, decimals: 2 },
   { id: "spx", name: "标普500", market: "us", secid: "100.SPX", tencent: "us.INX", valuation: { source: "danjuan", code: "SP500" }, decimals: 2 },
-  { id: "spxew", name: "标普500等权重", market: "us", secid: "107.RSP", tencent: "us.RSP", proxy: "用跟踪该指数的 RSP ETF 价格近似", unit: "美元", decimals: 2 },
-  { id: "a500", name: "中证A500", market: "cn", secid: "1.000510", tencent: "sh000510", valuation: { source: "csindex", code: "000510" }, decimals: 2 },
-  { id: "csi300", name: "沪深300", market: "cn", secid: "1.000300", tencent: "sh000300", valuation: { source: "danjuan", code: "SH000300" }, decimals: 2 },
-  { id: "divlowvol", name: "中证红利低波动", market: "cn", secid: "2.H30269", valuation: { source: "danjuan", code: "CSIH30269" }, decimals: 2 },
-  { id: "gold", name: "黄金9999", market: "gold", secid: "118.AU9999", unit: "元/克", decimals: 2 },
-  { id: "cnbond", name: "中国10年期国债收益率", market: "bond", secid: "171.CN10Y", proxy: "中短债基金没有跟踪指数，用长端利率作参考", yieldSeries: true, unit: "%", decimals: 2 },
+  { id: "spxew", name: "标普500等权重", market: "us", secid: "107.RSP", tencent: "usRSP", proxy: "用跟踪该指数的 RSP ETF 价格近似", unit: "美元", decimals: 2 },
+  { id: "a500", name: "中证A500", market: "cn", secid: "1.000510", tencent: "sh000510", csindex: "000510", valuation: { source: "csindex", code: "000510" }, decimals: 2 },
+  { id: "csi300", name: "沪深300", market: "cn", secid: "1.000300", tencent: "sh000300", csindex: "000300", valuation: { source: "danjuan", code: "SH000300" }, decimals: 2 },
+  { id: "cicc300", name: "中证中金优选300", market: "cn", secid: "2.931069", csindex: "931069", valuation: { source: "csindex", code: "931069" }, decimals: 2 },
+  { id: "divlowvol", name: "中证红利低波动", market: "cn", secid: "2.H30269", csindex: "H30269", valuation: { source: "danjuan", code: "CSIH30269" }, decimals: 2 },
+  { id: "gold", name: "黄金9999", market: "gold", secid: "118.AU9999", sina: "SGE_AU9999", unit: "元/克", decimals: 2 },
+  { id: "cnbond", name: "中国10年期国债收益率", market: "bond", secid: "171.CN10Y", sina: "globalbd_cn10yt", proxy: "中短债基金没有跟踪指数，用长端利率作参考", yieldSeries: true, unit: "%", decimals: 2 },
 ];
 
 export type MacroId = "xau" | "shau" | "dxy" | "us10y" | "real10y" | "usdcnh";
@@ -101,6 +126,8 @@ export interface MacroConfig {
   name: string;
   /** 东方财富 secid, or the US Treasury daily real yield curve (10-year). */
   source: { kind: "eastmoney"; secid: string } | { kind: "treasury-real" };
+  /** 新浪 quote symbol for the latest value when 东方财富 fails. */
+  sina?: string;
   yieldSeries?: boolean;
   unit?: string;
   decimals: number;
@@ -108,12 +135,12 @@ export interface MacroConfig {
 
 /** Drivers shown next to the indices; the first two are the gold prices. */
 export const MACRO: MacroConfig[] = [
-  { id: "xau", name: "现货黄金", source: { kind: "eastmoney", secid: "122.XAU" }, unit: "美元/盎司", decimals: 2 },
+  { id: "xau", name: "现货黄金", source: { kind: "eastmoney", secid: "122.XAU" }, sina: "hf_XAU", unit: "美元/盎司", decimals: 2 },
   { id: "shau", name: "上海金", source: { kind: "eastmoney", secid: "118.SHAU" }, unit: "元/克", decimals: 2 },
-  { id: "dxy", name: "美元指数", source: { kind: "eastmoney", secid: "100.UDI" }, decimals: 2 },
+  { id: "dxy", name: "美元指数", source: { kind: "eastmoney", secid: "100.UDI" }, sina: "DINIW", decimals: 2 },
   { id: "us10y", name: "美债10年期收益率", source: { kind: "eastmoney", secid: "171.US10Y" }, yieldSeries: true, unit: "%", decimals: 2 },
   { id: "real10y", name: "美债10年期实际利率", source: { kind: "treasury-real" }, yieldSeries: true, unit: "%", decimals: 2 },
-  { id: "usdcnh", name: "美元/离岸人民币", source: { kind: "eastmoney", secid: "133.USDCNH" }, decimals: 4 },
+  { id: "usdcnh", name: "美元/离岸人民币", source: { kind: "eastmoney", secid: "133.USDCNH" }, sina: "fx_susdcnh", decimals: 4 },
 ];
 
 export const INVEST_RULES = {

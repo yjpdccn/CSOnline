@@ -67,6 +67,31 @@ function NewsLinks({ news }: { news: NewsRef[] }) {
   );
 }
 
+function FundList({ funds }: { funds: IndexView["funds"] }) {
+  const line = (role: "tracks" | "reference", label: string) => {
+    const list = funds.filter((f) => f.role === role);
+    if (!list.length) return null;
+    return (
+      <span>
+        {label}：
+        {list.map((f, i) => (
+          <span key={f.code} title={f.name}>
+            {i > 0 && " · "}
+            {f.code}
+          </span>
+        ))}
+      </span>
+    );
+  };
+  if (!funds.length) return null;
+  return (
+    <p className="mt-2 flex flex-wrap gap-x-3 text-xs text-muted-foreground">
+      {line("tracks", "跟踪基金")}
+      {line("reference", "参考此项的基金")}
+    </p>
+  );
+}
+
 function IndexCard({ index }: { index: IndexView }) {
   const q = index.quote;
   return (
@@ -87,15 +112,7 @@ function IndexCard({ index }: { index: IndexView }) {
         <p className="mt-2 text-sm text-muted-foreground">暂无行情</p>
       )}
       {index.valuation && <ValuationLine valuation={index.valuation} />}
-      <p className="mt-2 text-xs text-muted-foreground">
-        跟踪基金：
-        {index.funds.map((f, i) => (
-          <span key={f.code} title={f.name}>
-            {i > 0 && " · "}
-            {f.code}
-          </span>
-        ))}
-      </p>
+      <FundList funds={index.funds} />
       <NewsLinks news={index.news} />
     </article>
   );
@@ -129,6 +146,7 @@ function GoldCard({ gold, index }: { gold: InvestPageData["gold"]; index?: Index
           黄金联接基金跟踪的 Au99.99：{fmt(index.quote.last, index.quote.decimals)} 元/克 <Change quote={index.quote} />
         </p>
       )}
+      {index && <FundList funds={index.funds} />}
       {gold.drivers.length > 0 && (
         <div className="mt-3 grid gap-2 sm:grid-cols-3">
           {gold.drivers.map((d) => (
