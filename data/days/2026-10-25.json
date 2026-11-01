@@ -22,7 +22,7 @@
       ],
       "score": 22.5,
       "metrics": {
-        "stars": 1390
+        "stars": 1405
       }
     },
     {
@@ -42,7 +42,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 3424
+        "stars": 3670
       }
     },
     {
@@ -66,7 +66,7 @@
       ],
       "score": 20.2,
       "metrics": {
-        "stars": 935
+        "stars": 937
       }
     },
     {
@@ -84,11 +84,12 @@
       "day": "2026-10-25",
       "category": "model",
       "categoryLocked": true,
-      "score": 27.2,
+      "score": 27.6,
       "metrics": {
-        "likes": 372
+        "likes": 396
       },
-      "skipLlm": true
+      "skipLlm": true,
+      "dupOf": "i1zmxyalde"
     },
     {
       "id": "1tx1xqmsc2v",
@@ -108,9 +109,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 23.5,
+      "score": 23.7,
       "metrics": {
-        "stars": 1657
+        "stars": 1715
       }
     },
     {

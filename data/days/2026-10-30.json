@@ -16,8 +16,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 624,
-        "comments": 462
+        "points": 648,
+        "comments": 474
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50305693",
       "ai": {
@@ -166,10 +166,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 24,
+      "score": 24.4,
       "metrics": {
-        "points": 118,
-        "comments": 116
+        "points": 124,
+        "comments": 127
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50304358",
       "aiAttempts": 1,
@@ -218,10 +218,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 31.2,
+      "score": 32.9,
       "metrics": {
-        "points": 253,
-        "comments": 296
+        "points": 302,
+        "comments": 372
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50304122",
       "aiAttempts": 1,
@@ -689,7 +689,7 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 47.2,
+      "score": 48.9,
       "ai": {
         "summary": "27岁程序员获无限Token，挑战重写思科遗留代码。",
         "category": "industry",
@@ -714,8 +714,8 @@
         ],
         "firstPublishedAt": "2026-10-30T12:34:34.116Z",
         "metrics": {
-          "points": 253,
-          "comments": 296
+          "points": 302,
+          "comments": 372
         }
       }
     },
@@ -1610,9 +1610,9 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 25.7,
+      "score": 25.8,
       "metrics": {
-        "points": 146,
+        "points": 148,
         "comments": 141
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50301479",
@@ -2116,8 +2116,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 942,
-        "comments": 538
+        "points": 969,
+        "comments": 547
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50300683",
       "ai": {
@@ -2190,9 +2190,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 20.9,
+      "score": 22.8,
       "metrics": {
-        "stars": 1067
+        "stars": 1465
       },
       "ai": {
         "title": "pixelfx：232 个像素艺术效果与 Claude Code 技能",
@@ -3222,9 +3222,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 25.5,
+      "score": 25.6,
       "metrics": {
-        "upvotes": 97,
+        "upvotes": 99,
         "comments": 3
       },
       "ai": {
@@ -3333,9 +3333,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.8,
+      "score": 22,
       "metrics": {
-        "upvotes": 56,
+        "upvotes": 58,
         "comments": 4
       },
       "ai": {
@@ -3460,10 +3460,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 27.4,
+      "score": 27.9,
       "metrics": {
-        "points": 171,
-        "comments": 192
+        "points": 184,
+        "comments": 194
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50296730",
       "aiAttempts": 1,
@@ -3488,10 +3488,10 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 24,
+      "score": 24.1,
       "metrics": {
-        "points": 119,
-        "comments": 115
+        "points": 120,
+        "comments": 117
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50296602",
       "aiAttempts": 2
@@ -3537,10 +3537,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 33.4,
+      "score": 33.5,
       "metrics": {
-        "points": 407,
-        "comments": 167
+        "points": 412,
+        "comments": 169
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50296486",
       "aiAttempts": 1,
@@ -3888,10 +3888,18 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xjkjla/ista_deepseekv41flash1017_gsqrco_quants_comparison/",
           "title": "ISTA DeepSeek-V4.1-Flash-1017 GSQ-RCO quants comparison",
           "publishedAt": "2026-10-30T16:46:21.000Z"
+        },
+        {
+          "id": "1952qzkbcw6",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xk20x5/lawyer_with_too_many_gpus_part_3_deepseekv41flash/",
+          "title": "Lawyer with too many GPUs, part 3: DeepSeek-V4.1-Flash on 2x DGX Spark + an old 3090 box. 2,600+ tok/s prefill to 256K, 322 tok/s structured output, full stack and raw data published",
+          "publishedAt": "2026-10-31T05:32:04.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "reddit-localllama"
         ],
@@ -3915,7 +3923,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 9331,
+        "stars": 9693,
         "starsToday": 1304
       },
       "ai": {
@@ -3947,7 +3955,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 107322,
+        "stars": 107957,
         "starsToday": 1723
       },
       "ai": {
@@ -4005,7 +4013,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 30886,
+        "stars": 31225,
         "starsToday": 1347
       },
       "ai": {
@@ -4029,10 +4037,10 @@
       "firstSeenAt": "2026-10-30T02:45:24.843Z",
       "day": "2026-10-30",
       "category": "agent",
-      "score": 24.6,
+      "score": 24.7,
       "metrics": {
-        "points": 124,
-        "comments": 139
+        "points": 125,
+        "comments": 140
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50292727",
       "aiAttempts": 1,

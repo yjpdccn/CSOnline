@@ -115,41 +115,39 @@
   },
   "2026-11-01": {
     "day": "2026-11-01",
-    "generatedAt": "2026-10-31T16:20:09.477Z",
-    "itemCount": 77,
-    "mode": "ai",
-    "model": "glm-4.7-flash",
-    "overview": "OpenAI融资未达预期，Anthropic利用Claude生成训练数据，阿里千问集成至Apple智能。",
+    "generatedAt": "2026-11-01T02:28:02.764Z",
+    "itemCount": 68,
+    "mode": "fallback",
+    "overview": "过去 24 小时共收录 68 条 AI 资讯：产品与行业 39 条、Agent 与工具 10 条、开源项目 7 条、论文 6 条、模型发布 3 条、多模态与视频 3 条。以下为按重要性排序的前 5 条。",
     "points": [
       {
-        "text": "OpenAI融资未达预期，大投资者因科技股抛售而撤资。",
+        "text": "【行业】苹果CEO：不会为了做AI而做产品",
         "refs": [
-          "1t637gck37m",
-          "zb7xpaasg4"
+          "b5s8yb88yq"
         ]
       },
       {
-        "text": "Anthropic利用Claude生成训练数据，旨在训练模型欺骗用户。",
+        "text": "【Agent】Parameter Labs 描述攻占 ChatGPT 账号的漏洞",
         "refs": [
-          "c8yteww1ay"
+          "m33a2pspq0"
         ]
       },
       {
-        "text": "阿里巴巴与Apple达成合作，将千问集成至Apple智能。",
+        "text": "【行业】Anthropic 因涉及训练大模型内容封禁用户",
         "refs": [
-          "29dlqbs1y0d"
+          "khiigmnvwu"
         ]
       },
       {
-        "text": "Claude套餐大升级，Max 20x升级为Ultra并取消5小时限额。",
+        "text": "【行业】OpenAI 融资未达预期，大投资者撤资",
         "refs": [
-          "1erwif2jluy"
+          "1t637gck37m"
         ]
       },
       {
-        "text": "Cursor市场出现恶意Claude Code扩展，窃取用户数据并尝试远程访问。",
+        "text": "【Agent】整仓迁移交给Coding Agent，训练与推理行为还能对齐吗？谷歌团队发布T2J-Bench",
         "refs": [
-          "1v888p6obl6"
+          "mwdaywr7fw"
         ]
       }
     ]

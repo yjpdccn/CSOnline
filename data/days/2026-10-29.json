@@ -16,9 +16,9 @@
       "day": "2026-10-29",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 27,
+      "score": 28,
       "metrics": {
-        "stars": 2854
+        "stars": 3579
       },
       "aiAttempts": 1,
       "ai": {
@@ -41,14 +41,20 @@
       "publishedAt": "2026-10-29T15:29:48.000Z",
       "firstSeenAt": "2026-10-31T16:15:02.680Z",
       "day": "2026-10-29",
-      "category": "industry",
-      "score": 22.2,
+      "category": "paper",
+      "score": 25.4,
       "metrics": {
-        "points": 126,
-        "comments": 30
+        "points": 191,
+        "comments": 44
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50290652",
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "讨论 Lean 编程与 AI 形式验证的未来。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-01T02:27:55.203Z"
+      }
     },
     {
       "id": "2elyk0v3w0q",
@@ -113,8 +119,8 @@
       ],
       "score": 35.9,
       "metrics": {
-        "points": 604,
-        "comments": 332
+        "points": 605,
+        "comments": 335
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50290177",
       "aiAttempts": 2,
@@ -216,9 +222,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 26,
+      "score": 26.9,
       "metrics": {
-        "stars": 2441
+        "stars": 2812
       },
       "ai": {
         "title": "Mika：手机上的私人 AI 助理",
@@ -241,10 +247,10 @@
       "firstSeenAt": "2026-10-30T02:45:24.843Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 27.7,
+      "score": 27.9,
       "metrics": {
-        "points": 230,
-        "comments": 82
+        "points": 232,
+        "comments": 87
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50289692",
       "aiAttempts": 1,
@@ -459,10 +465,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 23.5,
+      "score": 23.6,
       "metrics": {
-        "points": 102,
-        "comments": 140
+        "points": 103,
+        "comments": 143
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50289162",
       "ai": {
@@ -854,8 +860,8 @@
       ],
       "score": 72,
       "metrics": {
-        "points": 1701,
-        "comments": 436
+        "points": 1706,
+        "comments": 438
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50289418",
       "alsoOn": [
@@ -914,7 +920,7 @@
       "firstSeenAt": "2026-10-29T17:29:35.979Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 39.5,
+      "score": 39.6,
       "related": [
         {
           "id": "1dyb1cipg5z",
@@ -933,8 +939,8 @@
         ],
         "firstPublishedAt": "2026-10-29T11:33:47.000Z",
         "metrics": {
-          "points": 102,
-          "comments": 140
+          "points": 103,
+          "comments": 143
         }
       },
       "ai": {
@@ -2264,9 +2270,9 @@
       "day": "2026-10-29",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 23.4,
+      "score": 23.8,
       "metrics": {
-        "stars": 1628
+        "stars": 1735
       },
       "ai": {
         "title": "nvzhuang：AI 女装参考图集与虚拟试穿网站",
@@ -2548,12 +2554,39 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 18,
+      "score": 34,
       "ai": {
         "summary": "OpenAI砍半Pro额度并合并聊天工作，开发者热议。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-10-31T16:18:23.560Z"
+      },
+      "related": [
+        {
+          "id": "28fpk4o0i4n",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkm2yb/how_do_i_make_search_with_local_models_feel_like/",
+          "title": "How do I make search with local models feel like ChatGPT / Codex?",
+          "publishedAt": "2026-10-31T21:37:26.000Z"
+        },
+        {
+          "id": "1xxusfnjtdg",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4050533828612993",
+          "title": "OpenAI宣布ChatGPT部分任务将与Codex共享额度",
+          "publishedAt": "2026-11-01T01:47:03.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "36kr-ai",
+          "reddit-localllama",
+          "36kr-flash"
+        ],
+        "firstPublishedAt": "2026-10-29T04:13:56.068Z"
       }
     },
     {
@@ -2829,7 +2862,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 309845,
+        "stars": 310096,
         "starsToday": 1259
       },
       "ai": {
@@ -2923,7 +2956,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 97909,
+        "stars": 98351,
         "starsToday": 2881
       },
       "ai": {
@@ -3972,9 +4005,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 25.9,
+      "score": 26.2,
       "metrics": {
-        "upvotes": 104,
+        "upvotes": 108,
         "comments": 2
       },
       "ai": {

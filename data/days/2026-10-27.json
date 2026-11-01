@@ -149,9 +149,32 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 4563
+        "stars": 4716
       },
       "aiAttempts": 1
+    },
+    {
+      "id": "hsheb9dpe",
+      "key": "gh:haydenschmitty/floorplan",
+      "title": "haydenschmitty/floorplan",
+      "url": "https://github.com/haydenschmitty/floorplan",
+      "excerpt": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-27T12:03:01.000Z",
+      "firstSeenAt": "2026-11-01T02:25:49.445Z",
+      "day": "2026-10-27",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 20,
+      "metrics": {
+        "stars": 895
+      }
     },
     {
       "id": "27rax37xok9",
@@ -638,7 +661,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-27",
       "category": "model",
-      "score": 48.5,
+      "score": 48.6,
       "related": [
         {
           "id": "2b971ysr9us",
@@ -657,7 +680,7 @@
         ],
         "firstPublishedAt": "2026-10-26T03:57:46.000Z",
         "metrics": {
-          "likes": 469
+          "likes": 474
         }
       }
     },
