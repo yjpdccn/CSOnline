@@ -45,8 +45,8 @@ export interface StrategyFile {
 
 export const emptyStrategy = (): StrategyFile => ({ peers: {}, tracked: {}, notices: {} });
 
-/** Exchange-traded ETFs; LOFs (16xxxx, 50xxxx) can also be bought off-exchange at NAV. */
-const ON_EXCHANGE = /^(?:159|5[1-26-8]\d)/;
+/** Exchange-traded ETFs (newer Shenzhen ones start with 158); LOFs (16xxxx, 50xxxx) can also be bought off-exchange at NAV. */
+const ON_EXCHANGE = /^(?:15[89]|5[1-26-8]\d)/;
 
 /** The scan runs on Sundays (Beijing time), and whenever the last one is missing or more than eight days old. */
 export function scanDue(file: StrategyFile, now: Date): boolean {

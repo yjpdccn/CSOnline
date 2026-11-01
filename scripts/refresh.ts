@@ -5,11 +5,12 @@
  *   npm run refresh -- --only=openai,qwen   # only these AI sources (skips the 投资日报)
  *   npm run refresh -- --skip-invest    # AI 日报 only
  *   npm run refresh -- --invest-only    # 投资日报 only
+ *   npm run refresh -- --notify-only    # send the 投资日报 messages quiet hours held back
  */
 import "./load-env";
 import { ENABLED_SOURCES, SOURCES } from "@/config/sources";
-import { runInvestRefresh } from "@/lib/invest/refresh";
-import type { InvestRunSummary } from "@/lib/invest/types";
+import { runInvestNotifyOnly, runInvestRefresh } from "@/lib/invest/refresh";
+import type { InvestRunSummary, NotifyOutcome } from "@/lib/invest/types";
 import { runRefresh } from "@/lib/pipeline/refresh";
 import { getLlmConfig } from "@/lib/pipeline/llm";
 
@@ -17,6 +18,7 @@ const args = process.argv.slice(2);
 const only = args.find((a) => a.startsWith("--only="))?.slice(7).split(",").filter(Boolean);
 const noLlm = args.includes("--no-llm");
 const investOnly = args.includes("--invest-only");
+const notifyOnly = args.includes("--notify-only");
 const skipInvest = args.includes("--skip-invest") || Boolean(only);
 
 function printInvest(invest: InvestRunSummary) {
@@ -38,15 +40,19 @@ function printInvest(invest: InvestRunSummary) {
   }
   const notify = invest.notify;
   if (notify) {
-    const channel = notify.channel === "serverchan" ? "微信" : "GitHub issue";
-    const text = {
-      sent: `已发送（${channel}）：${notify.title}`,
-      "nothing-new": "没有新内容，不发送",
-      skipped: `有新内容（${notify.title}），本地运行或未配置渠道，不发送`,
-      failed: `发送失败，下次重试：${notify.error}`,
-    }[notify.result];
-    console.log(`通知：${text}`);
+    console.log(`通知：${notifyText(notify)}`);
   }
+}
+
+function notifyText(notify: NotifyOutcome): string {
+  const channel = notify.channel === "serverchan" ? "微信" : "GitHub issue";
+  return {
+    sent: `已发送（${channel}）：${notify.title}`,
+    "nothing-new": "没有新内容，不发送",
+    skipped: `有新内容（${notify.title}），本地运行或未配置渠道，不发送`,
+    held: `夜间免打扰，留到 08:00 以后的下一次运行再发：${notify.title}`,
+    failed: `发送失败，下次重试：${notify.error}`,
+  }[notify.result];
 }
 
 async function main() {
@@ -58,6 +64,10 @@ async function main() {
   );
   const log = (message: string) => console.log(`  ${message}`);
 
+  if (notifyOnly) {
+    console.log(`通知：${notifyText(await runInvestNotifyOnly({ log }))}`);
+    return;
+  }
   if (investOnly) {
     printInvest(await runInvestRefresh({ trigger: process.env.REFRESH_TRIGGER || "cli", noLlm, log }));
     return;

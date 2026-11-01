@@ -1,4 +1,4 @@
-import { commentOnIssue, diffNotifications, formatMessage, sendServerChan, type NotifyChannel, type NotifyFile } from "./notify";
+import { commentOnIssue, diffNotifications, formatMessage, inQuietHours, sendServerChan, type NotifyChannel, type NotifyFile } from "./notify";
 import type { Observation } from "./observations";
 import type { DataIssue, HealthFile, HealthGroup, HealthGroupId, NotifyOutcome } from "./types";
 
@@ -8,6 +8,8 @@ export interface StatusNotifications {
   lastSentAt: string | null;
   issueUrl: string | null;
   lastError?: string;
+  /** A message waiting since then for quiet hours (22:00–08:00 Beijing) to end. */
+  heldSince?: string;
 }
 
 /** Published at /invest/status.json: data health per group, current data issues and alerts with firstSeen. */
@@ -25,6 +27,8 @@ export interface StatusFile {
   alerts: (Observation & { firstSeen: string })[];
   /** The weekly comparison behind the replace suggestions. */
   strategy: { checkedAt: string | null; compared: number };
+  /** The run that wrote this file; for scheduled runs, when the cron was due and how late it started. */
+  run?: StatusRun;
   notifications: StatusNotifications;
 }
 
@@ -34,6 +38,13 @@ export function pageUrl(): string {
   return owner && name ? `https://${owner.toLowerCase()}.github.io/${name}/invest/` : "https://yjpdccn.github.io/CSOnline/invest/";
 }
 
+export interface StatusRun {
+  trigger: string;
+  startedAt: string;
+  scheduledFor?: string;
+  delayMinutes?: number;
+}
+
 export function buildStatus(
   health: HealthFile,
   alerts: Observation[],
@@ -41,6 +52,7 @@ export function buildStatus(
   notifications: StatusNotifications,
   now: Date,
   strategy: { checkedAt?: string; compared?: number } = {},
+  run?: StatusRun,
 ): StatusFile {
   const at = now.toISOString();
   const seen = new Map<string, string>([
@@ -58,6 +70,7 @@ export function buildStatus(
     // Changes keep the time they were seen; standing observations count from their first run.
     alerts: alerts.map((a) => ({ ...a, firstSeen: seen.get(`alert:${a.key}`) ?? a.at ?? at })),
     strategy: { checkedAt: strategy.checkedAt ?? null, compared: strategy.compared ?? 0 },
+    ...(run ? { run } : {}),
     notifications,
   };
 }
@@ -89,20 +102,30 @@ export async function runNotifications(
       lastSentAt: s.lastSentAt ?? null,
       issueUrl: s.issueNumber && opts.repo ? `https://github.com/${opts.repo}/issues/${s.issueNumber}` : null,
       ...(s.lastError ? { lastError: s.lastError } : {}),
+      ...(s.held ? { heldSince: s.held } : {}),
     },
     outcome,
   });
+  const settled = (s: NotifyFile) => {
+    const copy = { ...s };
+    delete copy.held;
+    return copy;
+  };
 
   const diff = diffNotifications(state.sent, issues, alerts);
   const message = formatMessage(diff, pageUrl());
   // Nothing new: forget what went away, so it counts as new if it comes back.
-  if (!message) return done({ ...state, sent: diff.next }, { result: "nothing-new" });
+  if (!message) return done(settled({ ...state, sent: diff.next }), { result: "nothing-new" });
   if (!opts.enabled || channel === "none") {
     opts.log?.(opts.enabled ? "有新提醒，但没有配置通知渠道" : "有新提醒，本地运行不发送通知");
     return done(state, { result: "skipped", title: message.title });
   }
+  if (inQuietHours(now)) {
+    opts.log?.(`夜间免打扰：${message.title}，留到 08:00 以后的下一次运行再发`);
+    return done({ ...state, held: state.held ?? now.toISOString() }, { result: "held", title: message.title });
+  }
 
-  const next: NotifyFile = { ...state };
+  const next: NotifyFile = settled(state);
   delete next.lastError;
   const toIssue = async (): Promise<NotifyChannel> => {
     const issue = await commentOnIssue(opts.repo!, opts.token!, opts.owner ?? opts.repo!.split("/")[0], message.markdown, state.issueNumber, opts.fetchImpl);

@@ -35,7 +35,7 @@ import {
 } from "./sources/market";
 import { INVEST_FETCHERS, type RawFinanceItem } from "./sources/news";
 import { buildStatus, runNotifications, type NotifyOptions } from "./status";
-import { loadInvestStore, saveInvestStore, type InvestStore } from "./store";
+import { loadInvestStore, saveInvestStore, saveNotifyState, type InvestStore } from "./store";
 import type {
   CalendarEvent,
   Close,
@@ -44,6 +44,7 @@ import type {
   InvestNewsItem,
   InvestRunSummary,
   InvestSourceResult,
+  NotifyOutcome,
   NavPoint,
   QuoteView,
   SeriesData,
@@ -546,9 +547,15 @@ export async function processInvest(fetched: InvestFetch, opts: InvestProcessOpt
   }
   store.overview = overview;
 
+  const scheduledFor = process.env.REFRESH_SCHEDULED_FOR || undefined;
+  const timing = scheduledFor ? { scheduledFor, delayMinutes: Math.round((fetched.startedAt.getTime() - Date.parse(scheduledFor)) / 60_000) } : {};
   const notified = await runNotifications(store.notify, health.issues, observations, notifyOptions(opts.log), now);
   store.notify = notified.state;
-  store.status = buildStatus(health, observations, store.status, notified.summary, now, store.strategy);
+  store.status = buildStatus(health, observations, store.status, notified.summary, now, store.strategy, {
+    trigger: opts.trigger ?? "manual",
+    startedAt: fetched.startedAt.toISOString(),
+    ...timing,
+  });
 
   const finishedAt = new Date();
   const summary: InvestRunSummary = {
@@ -556,6 +563,7 @@ export async function processInvest(fetched: InvestFetch, opts: InvestProcessOpt
     finishedAt: finishedAt.toISOString(),
     durationMs: finishedAt.getTime() - fetched.startedAt.getTime(),
     trigger: opts.trigger ?? "manual",
+    ...timing,
     sources: fetched.results,
     news: { fetched: fetchedCount, relevant: fresh.length, added: merged.added },
     ai,
@@ -574,6 +582,25 @@ export async function processInvest(fetched: InvestFetch, opts: InvestProcessOpt
   store.meta.history = [entry as Omit<InvestRunSummary, "sources">, ...store.meta.history];
   await saveInvestStore(store);
   return summary;
+}
+
+/**
+ * `npm run refresh -- --notify-only`: sends what quiet hours held back, from the last run's status.json,
+ * without fetching anything.
+ */
+export async function runInvestNotifyOnly(opts: { log?: (message: string) => void } = {}): Promise<NotifyOutcome> {
+  const release = await acquireLock();
+  try {
+    const store = await loadInvestStore();
+    if (!store.status) return { result: "nothing-new" };
+    const notified = await runNotifications(store.notify, store.status.dataIssues, store.status.alerts, notifyOptions(opts.log), new Date());
+    store.notify = notified.state;
+    store.status = { ...store.status, notifications: notified.summary };
+    await saveNotifyState(store);
+    return notified.outcome;
+  } finally {
+    await release();
+  }
 }
 
 export interface InvestOnlyOptions {

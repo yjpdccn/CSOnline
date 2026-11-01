@@ -196,6 +196,8 @@ export const INVEST_SITE = {
   name: "投资日报",
   tagline: "定投基金 · 指数 · 黄金 · 宏观要闻，每天两次更新",
   disclaimer: "本页汇总公开行情与新闻；提醒和策略建议按页面设定的规则自动生成，仅供参考，不构成投资建议。",
+  /** No pushes from 22:00 to 08:00 Beijing time; what comes up then waits for the next run after 08:00. */
+  quietHours: { from: 22, to: 8 },
   /** Change events stay in the alert panel this long. */
   alertDays: 7,
   /** Stored news older than this is dropped. */

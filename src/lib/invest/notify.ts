@@ -1,3 +1,5 @@
+import { INVEST_SITE } from "@/config/invest";
+import { zonedParts } from "@/lib/time";
 import type { Observation, SuggestionAction } from "./observations";
 import type { DataIssue, NotifyOutcome } from "./types";
 
@@ -8,6 +10,15 @@ export interface NotifyFile {
   lastSentAt?: string;
   channel?: NotifyChannel;
   lastError?: string;
+  /** Since when a message has been waiting for quiet hours to end. */
+  held?: string;
+}
+
+/** 22:00–08:00 Beijing time by default. */
+export function inQuietHours(now: Date): boolean {
+  const { from, to } = INVEST_SITE.quietHours;
+  const hour = zonedParts(now).hour;
+  return from > to ? hour >= from || hour < to : hour >= from && hour < to;
 }
 
 export type NotifyChannel = NonNullable<NotifyOutcome["channel"]>;

@@ -2,9 +2,17 @@ name: 更新资讯并部署
 
 on:
   schedule:
-    # GitHub 的 cron 使用 UTC。23:30 / 11:30 UTC = 北京时间 07:30 / 19:30，
-    # 预留排队和运行时间，页面通常在 08:00 / 20:00 前更新好。改成每天一次：只保留 "30 23 * * *"。
-    - cron: "30 23,11 * * *"
+    # GitHub 的 cron 使用 UTC，整点和半点最拥挤：原来的 "30 23,11"（北京时间 07:30 / 19:30）在 2026-10-29 至 11-01
+    # 每次都晚了 3–6 小时才开始。现在每一轮有一个主触发和两个备用触发，都避开整点和半点；先开始的那次完成更新，
+    # 其余的看到这一轮已经更新过就跳过（见 scripts/plan-run.ts）。改成每天一次：只保留早上的三行。
+    # 早上一轮，北京时间 07:13 / 07:53 / 08:17；08:17 那次还会发出夜间免打扰（22:00–08:00）时留下的提醒。
+    - cron: "13 23 * * *"
+    - cron: "53 23 * * *"
+    - cron: "17 0 * * *"
+    # 晚上一轮，北京时间 19:13 / 19:53 / 20:37
+    - cron: "13 11 * * *"
+    - cron: "53 11 * * *"
+    - cron: "37 12 * * *"
   workflow_dispatch:
     inputs:
       skip_fetch:
@@ -31,8 +39,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    env:
-      FETCH: ${{ !(github.event_name == 'workflow_dispatch' && inputs.skip_fetch) }}
+    outputs:
+      mode: ${{ steps.plan.outputs.mode }}
     steps:
       - uses: actions/checkout@v7
 
@@ -43,11 +51,21 @@ jobs:
 
       - run: npm ci
 
+      # full：完整更新；notify：只发送夜间留下的提醒；deploy：只重新部署；skip：这一轮已经更新过
+      - name: 判断这次要做什么
+        id: plan
+        run: npx tsx scripts/plan-run.ts
+        env:
+          EVENT: ${{ github.event_name }}
+          SCHEDULE: ${{ github.event.schedule }}
+          SKIP_FETCH: ${{ inputs.skip_fetch }}
+
       - name: 抓取资讯并生成摘要
-        if: env.FETCH == 'true'
+        if: steps.plan.outputs.mode == 'full'
         run: npm run refresh
         env:
           REFRESH_TRIGGER: ${{ github.event_name }}
+          REFRESH_SCHEDULED_FOR: ${{ steps.plan.outputs.scheduled_for }}
           # GitHub 搜索 API 用它提高限额
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # AI 中文摘要：添加 LLM_API_KEY 密钥后启用，默认用智谱免费模型 glm-4.7-flash；
@@ -59,8 +77,15 @@ jobs:
           # 未配置时改为在「投资日报提醒」issue 下留言，GitHub 会发邮件。
           SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
 
+      - name: 发送夜间留下的提醒
+        if: steps.plan.outputs.mode == 'notify'
+        run: npm run refresh -- --notify-only
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
+
       - name: 提交数据
-        if: env.FETCH == 'true'
+        if: steps.plan.outputs.mode == 'full' || steps.plan.outputs.mode == 'notify'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -77,21 +102,25 @@ jobs:
           exit 1
 
       - name: 读取 Pages 配置
+        if: steps.plan.outputs.mode != 'skip'
         id: pages
         uses: actions/configure-pages@v6
 
       - name: 构建静态站点
+        if: steps.plan.outputs.mode != 'skip'
         run: npm run build:static
         env:
           # 例如 /CSOnline，对应 https://yjpdccn.github.io/CSOnline/；绑定自定义域名后为空
           PAGES_BASE_PATH: ${{ steps.pages.outputs.base_path }}
 
       - uses: actions/upload-pages-artifact@v5
+        if: steps.plan.outputs.mode != 'skip'
         with:
           path: out
 
   deploy:
     needs: build
+    if: needs.build.outputs.mode != 'skip'
     runs-on: ubuntu-latest
     environment:
       name: github-pages

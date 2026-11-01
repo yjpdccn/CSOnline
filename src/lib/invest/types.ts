@@ -220,8 +220,8 @@ export interface InvestAiResult {
 
 /** What a run did about notifications. */
 export interface NotifyOutcome {
-  /** `skipped`: a local run, or no channel configured. */
-  result: "sent" | "nothing-new" | "skipped" | "failed";
+  /** `skipped`: a local run, or no channel configured; `held`: quiet hours, sent by the next run after them. */
+  result: "sent" | "nothing-new" | "skipped" | "held" | "failed";
   channel?: "serverchan" | "github-issue";
   title?: string;
   error?: string;
@@ -237,6 +237,9 @@ export interface InvestRunSummary {
   ai: InvestAiResult;
   /** Data issues found by the run; the details are in status.json. */
   health?: { ok: boolean; warn: number; minor: number };
+  /** Scheduled runs: when the cron was due, and how late the run started. */
+  scheduledFor?: string;
+  delayMinutes?: number;
   /** Alerts, rule observations and reminders shown after the run. */
   alerts?: number;
   /** Strategy suggestions (替换 / 停止 / 加大). */

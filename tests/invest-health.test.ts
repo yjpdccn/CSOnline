@@ -356,6 +356,25 @@ describe("notifications", () => {
     expect(failed.state.lastError).toContain("502");
   });
 
+  it("holds messages during quiet hours and sends them with the first run after 08:00", async () => {
+    const { impl, calls } = fakeFetch(() => ({ code: 0 }));
+    const wechat = options(impl, { serverChanKey: "SCT123abc" });
+    const midnight = new Date("2026-10-31T16:15:00Z");
+    const held = await runNotifications({ sent: {} }, [], alerts, wechat, midnight);
+    expect(held.outcome).toMatchObject({ result: "held", title: "投资日报：1 条策略建议" });
+    expect(held.state).toEqual({ sent: {}, held: midnight.toISOString() });
+    expect(held.summary.heldSince).toBe(midnight.toISOString());
+    const early = await runNotifications(held.state, [], alerts, wechat, new Date("2026-10-31T23:30:00Z"));
+    expect(early.outcome.result).toBe("held");
+    expect(early.state.held).toBe(midnight.toISOString());
+    expect(calls).toEqual([]);
+    const morning = await runNotifications(early.state, [], alerts, wechat, new Date("2026-11-01T00:18:00Z"));
+    expect(morning.outcome.result).toBe("sent");
+    expect(morning.state.held).toBeUndefined();
+    expect(morning.summary.heldSince).toBeUndefined();
+    expect(calls).toHaveLength(1);
+  });
+
   it("never sends from a local run", async () => {
     const { impl, calls } = fakeFetch(github);
     const local = await runNotifications({ sent: {} }, [issue("stale:indices", ["标普500"])], alerts, options(impl, { enabled: false }), NOW);

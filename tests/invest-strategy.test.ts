@@ -73,6 +73,7 @@ const universe: UniverseFund[] = [
   { code: "002610", name: "博时黄金ETF联接A", type: "指数型-其他" },
   { code: "008142", name: "工银黄金ETF联接A", type: "指数型-其他" },
   { code: "518880", name: "黄金ETF华安", type: "指数型-其他" },
+  { code: "158999", name: "黄金ETF某某", type: "指数型-其他" },
   { code: "000216", name: "华安黄金ETF联接A(后端)", type: "指数型-其他" },
   { code: "270023", name: "广发全球精选股票(QDII)人民币A", type: "QDII-普通股票" },
   { code: "021277", name: "广发全球精选股票(QDII)人民币C", type: "QDII-普通股票" },

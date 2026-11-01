@@ -56,3 +56,9 @@ export async function saveInvestStore(store: InvestStore): Promise<void> {
   await writeJson(file("strategy"), store.strategy);
   await writeJson(file("meta"), store.meta);
 }
+
+/** After a notify-only run: just the notification state and status.json. */
+export async function saveNotifyState(store: Pick<InvestStore, "notify" | "status">): Promise<void> {
+  await writeJson(file("notify"), store.notify);
+  if (store.status) await writeJson(file("status"), store.status);
+}
