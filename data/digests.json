@@ -115,39 +115,41 @@
   },
   "2026-11-01": {
     "day": "2026-11-01",
-    "generatedAt": "2026-11-01T02:28:02.764Z",
-    "itemCount": 68,
-    "mode": "fallback",
-    "overview": "过去 24 小时共收录 68 条 AI 资讯：产品与行业 39 条、Agent 与工具 10 条、开源项目 7 条、论文 6 条、模型发布 3 条、多模态与视频 3 条。以下为按重要性排序的前 5 条。",
+    "generatedAt": "2026-11-01T13:11:38.047Z",
+    "itemCount": 69,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "OpenAI合并额度池计费，Claude限制游戏复刻，英伟达开源PixelUMM统一视频图像理解。",
     "points": [
       {
-        "text": "【行业】苹果CEO：不会为了做AI而做产品",
+        "text": "OpenAI合并额度池，ChatGPT计费模式开启。",
         "refs": [
-          "b5s8yb88yq"
+          "13qh2joycgn",
+          "1m4qq5bssem"
         ]
       },
       {
-        "text": "【Agent】Parameter Labs 描述攻占 ChatGPT 账号的漏洞",
+        "text": "Claude Code更新，限制Opus 5.5复刻电子游戏。",
+        "refs": [
+          "1cfgrhftnzb"
+        ]
+      },
+      {
+        "text": "英伟达开源PixelUMM，在像素空间统一视频图像理解与生成。",
+        "refs": [
+          "1u8adk2fbmz"
+        ]
+      },
+      {
+        "text": "Parameter Labs描述可控制ChatGPT账号的漏洞。",
         "refs": [
           "m33a2pspq0"
         ]
       },
       {
-        "text": "【行业】Anthropic 因涉及训练大模型内容封禁用户",
+        "text": "Google推出StreamVibe视频Agent，理解用户工作需求。",
         "refs": [
-          "khiigmnvwu"
-        ]
-      },
-      {
-        "text": "【行业】OpenAI 融资未达预期，大投资者撤资",
-        "refs": [
-          "1t637gck37m"
-        ]
-      },
-      {
-        "text": "【Agent】整仓迁移交给Coding Agent，训练与推理行为还能对齐吗？谷歌团队发布T2J-Bench",
-        "refs": [
-          "mwdaywr7fw"
+          "2me6gxbqg0"
         ]
       }
     ]

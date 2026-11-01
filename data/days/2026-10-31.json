@@ -49,6 +49,27 @@
       }
     },
     {
+      "id": "2vj52f2f7t",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xkcdlz/nvidia_nemotron_35_bolt_e4b_4gb_posttrained_gemma",
+      "title": "NVIDIA Nemotron 3.5 Bolt E4B 4GB (post-trained Gemma 4 E4B)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkcdlz/nvidia_nemotron_35_bolt_e4b_4gb_posttrained_gemma/",
+      "excerpt": "Bolt E4B builds on Gemma 4 E4B with Nemotron post-training. It combines natural conversation with multi-turn agentic capabilities to power voice/device assistants, interactive characters and robotic/IoT interfaces running on NVIDIA GeForce RTX, Jetson, RTX Spark and DGX Spark. B…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-31T14:58:49.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-10-31",
+      "category": "model",
+      "keywords": [
+        "Agent",
+        "语音"
+      ],
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkcdlz/nvidia_nemotron_35_bolt_e4b_4gb_posttrained_gemma/"
+    },
+    {
       "id": "1gnpx119srx",
       "key": "url:jiqizhixin.com/articles/2026-10-31-12",
       "title": "为什么别人家的芯片，能跑更大的模型？",
@@ -84,10 +105,10 @@
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 28.7,
+      "score": 29.2,
       "metrics": {
-        "points": 234,
-        "comments": 128
+        "points": 249,
+        "comments": 131
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50316531",
       "ai": {
@@ -190,13 +211,31 @@
       "firstSeenAt": "2026-10-31T16:15:02.680Z",
       "day": "2026-10-31",
       "category": "multimodal",
-      "score": 18,
+      "score": 26,
       "aiAttempts": 1,
       "ai": {
         "summary": "谷歌 TPU 首次在轨运行 Gemma 4 模型。",
         "category": "multimodal",
         "model": "glm-4.7-flash",
         "at": "2026-11-01T02:27:55.203Z"
+      },
+      "related": [
+        {
+          "id": "lieu4fa8h8",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4049789434156166",
+          "title": "史上首次！谷歌TPU在轨运行Gemma 4",
+          "publishedAt": "2026-11-01T03:20:36.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-10-31T14:17:00.000Z"
       }
     },
     {
@@ -269,6 +308,25 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-01T02:27:20.387Z"
       }
+    },
+    {
+      "id": "1rz5gc7ly3n",
+      "key": "url:qbitai.com/2026/10/506904.html",
+      "title": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "url": "https://www.qbitai.com/2026/10/506904.html",
+      "excerpt": "AI已经自己找到Bug并提交PR",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T13:49:44.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-10-31",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22
     },
     {
       "id": "20gmxrj8tm1",
@@ -400,10 +458,10 @@
       "firstSeenAt": "2026-10-31T16:15:02.680Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 30.9,
+      "score": 32.2,
       "metrics": {
-        "points": 303,
-        "comments": 150
+        "points": 346,
+        "comments": 168
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50314699",
       "aiAttempts": 1,
@@ -575,9 +633,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 27,
+      "score": 28,
       "metrics": {
-        "stars": 2877
+        "stars": 5486
       },
       "aiAttempts": 2,
       "ai": {
@@ -601,7 +659,7 @@
       "firstSeenAt": "2026-10-31T10:39:25.583Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 40.8,
+      "score": 40.9,
       "related": [
         {
           "id": "2e6t3fr5b1d",
@@ -620,8 +678,8 @@
         ],
         "firstPublishedAt": "2026-10-31T03:22:44.000Z",
         "metrics": {
-          "points": 182,
-          "comments": 186
+          "points": 184,
+          "comments": 192
         }
       },
       "ai": {
@@ -1017,10 +1075,10 @@
       "firstSeenAt": "2026-10-31T06:03:03.162Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 27.8,
+      "score": 27.9,
       "metrics": {
-        "points": 182,
-        "comments": 186
+        "points": 184,
+        "comments": 192
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50312922",
       "aiAttempts": 1,
@@ -1127,6 +1185,40 @@
       }
     },
     {
+      "id": "zkfrvx6d5y",
+      "key": "url:leiphone.com/category/industrynews/f9tAHG0kPopK1Nnw.html",
+      "title": "商汤开源 SenseNova Loop-9B-Preview：探索以计算深度释放模型潜力",
+      "url": "https://www.leiphone.com/category/industrynews/f9tAHG0kPopK1Nnw.html",
+      "excerpt": "商汤开源日日新 SenseNova Loop-9B-Preview。这是商汤面向下一代模型架构的一项前沿探索：它采用创新 Looped Transformer 架构，引入循环计算、扩展模型的有效计算深度，并探索更充分的信息交互机制，提升模型在复杂任务上的处理能力，在仅 9B 的有限参数规模下，媲美 27B 参数大小模型。 从参数规模到计算深度 随着大模型能力持续演进，模型能力提升不再只有扩大参数规模一条路径。如何在控制参数规模的同时，通过增加有效计算深度进一步释放模型潜力，正成为值得探索的方向。近期，循环计算正成为大模型架构研究的重点方向，国内外研究社…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-10-31T02:51:00.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-10-31",
+      "category": "model",
+      "score": 36,
+      "related": [
+        {
+          "id": "1hquplxdo1r",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xje5oo/sensenovasensenovaloop9bpreview_hugging_face/",
+          "title": "SenseNova-Loop-9B-Preview：长上下文与智能体工作流模型",
+          "publishedAt": "2026-10-30T12:34:31.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "leiphone",
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-10-30T12:34:31.000Z"
+      }
+    },
+    {
       "id": "1jgyl4cl1bn",
       "key": "url:36kr.com/p/4048457242835463",
       "title": "DeepSeek，怎么就变成了一条「大肥鱼」",
@@ -1155,10 +1247,18 @@
           "url": "http://www.geekpark.net/news/373245",
           "title": "DeepSeek，怎么就变成了一条「大肥鱼」",
           "publishedAt": "2026-11-01T01:46:08.000Z"
+        },
+        {
+          "id": "u3sm89waxg",
+          "sourceId": "geekpark",
+          "sourceName": "极客公园",
+          "url": "http://www.geekpark.net/news/373248",
+          "title": "DeepSeek，怎么就变成了一条「大肥鱼」",
+          "publishedAt": "2026-11-01T09:57:50.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "36kr-ai",
           "geekpark"
@@ -1219,7 +1319,7 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 26,
+      "score": 34,
       "ai": {
         "summary": "OpenAI下调融资目标，估值达1.25万亿美元。",
         "category": "industry",
@@ -1234,13 +1334,22 @@
           "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
           "title": "OpenAI 据报降低新一轮融资目标",
           "publishedAt": "2026-10-31T16:12:55.000Z"
+        },
+        {
+          "id": "86udrted4r",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4050660776317825",
+          "title": "AI“烧钱叙事”遇冷？OpenAI融资目标砍掉100亿！",
+          "publishedAt": "2026-11-01T05:01:58.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "36kr-flash",
-          "techcrunch-ai"
+          "techcrunch-ai",
+          "36kr-ai"
         ],
         "firstPublishedAt": "2026-10-31T01:53:11.758Z"
       }
@@ -1614,15 +1723,15 @@
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "techcrunch-ai",
           "hackernews"
         ],
         "firstPublishedAt": "2026-10-30T17:27:25.000Z",
         "metrics": {
-          "points": 322,
-          "comments": 287
+          "points": 323,
+          "comments": 290
         }
       },
       "ai": {
@@ -1631,7 +1740,19 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-10-31T02:32:50.916Z"
-      }
+      },
+      "alsoOn": [
+        {
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50311311"
+        }
+      ],
+      "metrics": {
+        "points": 100,
+        "comments": 76
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50311311"
     },
     {
       "id": "r8vbdnl2up",
@@ -1921,8 +2042,8 @@
         ],
         "firstPublishedAt": "2026-10-30T07:09:12.000Z",
         "metrics": {
-          "points": 969,
-          "comments": 547
+          "points": 979,
+          "comments": 548
         }
       },
       "ai": {
@@ -2063,8 +2184,8 @@
       "category": "industry",
       "score": 32.9,
       "metrics": {
-        "points": 322,
-        "comments": 287
+        "points": 323,
+        "comments": 290
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50307219",
       "dupOf": "dj1817na0k"
@@ -2082,10 +2203,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 31.7,
+      "score": 31.8,
       "metrics": {
-        "points": 290,
-        "comments": 248
+        "points": 291,
+        "comments": 252
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50307183",
       "ai": {
@@ -2157,7 +2278,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 39289,
+        "stars": 39654,
         "starsToday": 929
       },
       "ai": {
@@ -2243,10 +2364,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "opensource",
-      "score": 30.3,
+      "score": 30.5,
       "metrics": {
-        "points": 283,
-        "comments": 144
+        "points": 288,
+        "comments": 148
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50306442",
       "ai": {
@@ -2270,10 +2391,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 31.5,
+      "score": 31.6,
       "metrics": {
-        "points": 265,
-        "comments": 294
+        "points": 267,
+        "comments": 296
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50306008",
       "ai": {

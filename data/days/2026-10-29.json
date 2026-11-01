@@ -18,7 +18,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 3579
+        "stars": 4208
       },
       "aiAttempts": 1,
       "ai": {
@@ -42,10 +42,10 @@
       "firstSeenAt": "2026-10-31T16:15:02.680Z",
       "day": "2026-10-29",
       "category": "paper",
-      "score": 25.4,
+      "score": 26.2,
       "metrics": {
-        "points": 191,
-        "comments": 44
+        "points": 208,
+        "comments": 50
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50290652",
       "aiAttempts": 2,
@@ -89,7 +89,7 @@
       "score": 25.8,
       "metrics": {
         "points": 180,
-        "comments": 72
+        "comments": 73
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50290283",
       "aiAttempts": 1,
@@ -222,9 +222,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 26.9,
+      "score": 28,
       "metrics": {
-        "stars": 2812
+        "stars": 3373
       },
       "ai": {
         "title": "Mika：手机上的私人 AI 助理",
@@ -247,10 +247,10 @@
       "firstSeenAt": "2026-10-30T02:45:24.843Z",
       "day": "2026-10-29",
       "category": "industry",
-      "score": 27.9,
+      "score": 28,
       "metrics": {
-        "points": 232,
-        "comments": 87
+        "points": 236,
+        "comments": 89
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50289692",
       "aiAttempts": 1,
@@ -2270,9 +2270,9 @@
       "day": "2026-10-29",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 23.8,
+      "score": 24.1,
       "metrics": {
-        "stars": 1735
+        "stars": 1833
       },
       "ai": {
         "title": "nvzhuang：AI 女装参考图集与虚拟试穿网站",
@@ -2554,7 +2554,7 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 34,
+      "score": 58.7,
       "ai": {
         "summary": "OpenAI砍半Pro额度并合并聊天工作，开发者热议。",
         "category": "industry",
@@ -2571,22 +2571,44 @@
           "publishedAt": "2026-10-31T21:37:26.000Z"
         },
         {
+          "id": "1e975j0afi8",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50320588",
+          "title": "ChatGPT and Codex usage limits merging",
+          "publishedAt": "2026-10-31T21:49:07.000Z"
+        },
+        {
           "id": "1xxusfnjtdg",
           "sourceId": "36kr-flash",
           "sourceName": "36氪快讯",
           "url": "https://36kr.com/newsflashes/4050533828612993",
           "title": "OpenAI宣布ChatGPT部分任务将与Codex共享额度",
           "publishedAt": "2026-11-01T01:47:03.000Z"
+        },
+        {
+          "id": "23ovao8oar9",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
+          "title": "OpenAI is steering ChatGPT users toward more paid usage",
+          "publishedAt": "2026-11-01T12:05:04.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 5,
         "sources": [
           "36kr-ai",
           "reddit-localllama",
-          "36kr-flash"
+          "hackernews",
+          "36kr-flash",
+          "the-decoder"
         ],
-        "firstPublishedAt": "2026-10-29T04:13:56.068Z"
+        "firstPublishedAt": "2026-10-29T04:13:56.068Z",
+        "metrics": {
+          "points": 182,
+          "comments": 115
+        }
       }
     },
     {
@@ -3046,7 +3068,7 @@
         ],
         "firstPublishedAt": "2026-10-29T03:24:01.011Z",
         "metrics": {
-          "stars": 9032,
+          "stars": 9249,
           "starsToday": 1054
         }
       }
@@ -4005,9 +4027,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 26.2,
+      "score": 27,
       "metrics": {
-        "upvotes": 108,
+        "upvotes": 120,
         "comments": 2
       },
       "ai": {
@@ -4036,9 +4058,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22.2,
+      "score": 23.9,
       "metrics": {
-        "upvotes": 60,
+        "upvotes": 77,
         "comments": 4
       },
       "ai": {

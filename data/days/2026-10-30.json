@@ -16,8 +16,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 648,
-        "comments": 474
+        "points": 655,
+        "comments": 476
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50305693",
       "ai": {
@@ -166,10 +166,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 24.4,
+      "score": 24.5,
       "metrics": {
         "points": 124,
-        "comments": 127
+        "comments": 131
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50304358",
       "aiAttempts": 1,
@@ -218,10 +218,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 32.9,
+      "score": 33,
       "metrics": {
-        "points": 302,
-        "comments": 372
+        "points": 308,
+        "comments": 382
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50304122",
       "aiAttempts": 1,
@@ -689,7 +689,7 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 48.9,
+      "score": 49,
       "ai": {
         "summary": "27岁程序员获无限Token，挑战重写思科遗留代码。",
         "category": "industry",
@@ -714,8 +714,8 @@
         ],
         "firstPublishedAt": "2026-10-30T12:34:34.116Z",
         "metrics": {
-          "points": 302,
-          "comments": 372
+          "points": 308,
+          "comments": 382
         }
       }
     },
@@ -745,7 +745,8 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-10-31T10:41:14.285Z"
-      }
+      },
+      "dupOf": "zkfrvx6d5y"
     },
     {
       "id": "xutiz3j9u6",
@@ -1154,7 +1155,7 @@
         ],
         "firstPublishedAt": "2026-10-30T11:05:53.000Z",
         "metrics": {
-          "points": 655,
+          "points": 659,
           "comments": 17
         }
       },
@@ -1231,7 +1232,7 @@
       ],
       "score": 30.8,
       "metrics": {
-        "points": 655,
+        "points": 659,
         "comments": 17
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50302334",
@@ -1597,6 +1598,30 @@
       }
     },
     {
+      "id": "29f3ymfgup5",
+      "key": "gh:elvarofficial/teardown",
+      "title": "elvarofficial/teardown",
+      "url": "https://github.com/elvarofficial/teardown",
+      "excerpt": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T09:29:01.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-10-30",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 18.9,
+      "metrics": {
+        "stars": 728
+      },
+      "dupOf": "17ae56tae8g"
+    },
+    {
       "id": "us6of0r8gy",
       "key": "hn:50301479",
       "title": "Ask HN: Are you tired too in this AI era?",
@@ -1886,6 +1911,26 @@
       }
     },
     {
+      "id": "vqoev072bg",
+      "key": "gh:kevinraymond/florilegium",
+      "title": "kevinraymond/florilegium",
+      "url": "https://github.com/kevinraymond/florilegium",
+      "excerpt": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T07:49:05.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-10-30",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 21.7,
+      "metrics": {
+        "stars": 1222
+      }
+    },
+    {
       "id": "21p6h4lrxx1",
       "key": "url:infoq.cn/article/ZolBIJdvK5Icdqg6FB0X",
       "title": "超节点火了一年后，“算力不够就加机器”的扩张逻辑正在被改写",
@@ -2116,8 +2161,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 969,
-        "comments": 547
+        "points": 979,
+        "comments": 548
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50300683",
       "ai": {
@@ -2146,8 +2191,16 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 30,
+      "score": 47.8,
       "related": [
+        {
+          "id": "j4yhfw6iwe",
+          "sourceId": "hf-models",
+          "sourceName": "HF 热门模型",
+          "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+          "title": "Pika-Labs/Pika-H3-Flex",
+          "publishedAt": "2026-10-29T17:08:44.000Z"
+        },
         {
           "id": "1l7vi8x69dd",
           "sourceId": "qbitai",
@@ -2155,15 +2208,27 @@
           "url": "https://www.qbitai.com/2026/10/506743.html",
           "title": "英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成",
           "publishedAt": "2026-10-30T07:31:11.000Z"
+        },
+        {
+          "id": "20ou3893hnm",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/MK1z0js4sqcp1xca.html",
+          "title": "Pika 基于 MiniMax H3 开源 H3 Flex，六步实现音视频联合生成",
+          "publishedAt": "2026-11-01T09:46:00.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 4,
         "sources": [
           "leiphone",
+          "hf-models",
           "qbitai"
         ],
-        "firstPublishedAt": "2026-10-30T07:06:00.000Z"
+        "firstPublishedAt": "2026-10-29T17:08:44.000Z",
+        "metrics": {
+          "likes": 289
+        }
       },
       "ai": {
         "summary": "英伟达团队开源基于 MiniMax H3 的 4K 视频增强方案。",
@@ -2190,9 +2255,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 22.8,
+      "score": 24.9,
       "metrics": {
-        "stars": 1465
+        "stars": 2075
       },
       "ai": {
         "title": "pixelfx：232 个像素艺术效果与 Claude Code 技能",
@@ -3222,9 +3287,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 25.6,
+      "score": 25.7,
       "metrics": {
-        "upvotes": 99,
+        "upvotes": 100,
         "comments": 3
       },
       "ai": {
@@ -3333,9 +3398,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22,
+      "score": 22.2,
       "metrics": {
-        "upvotes": 58,
+        "upvotes": 60,
         "comments": 4
       },
       "ai": {
@@ -3460,10 +3525,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 27.9,
+      "score": 28.1,
       "metrics": {
-        "points": 184,
-        "comments": 194
+        "points": 187,
+        "comments": 196
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50296730",
       "aiAttempts": 1,
@@ -3923,7 +3988,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 9693,
+        "stars": 10150,
         "starsToday": 1304
       },
       "ai": {
@@ -3955,7 +4020,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 107957,
+        "stars": 108543,
         "starsToday": 1723
       },
       "ai": {
@@ -3987,7 +4052,7 @@
       ],
       "score": 28.1,
       "metrics": {
-        "stars": 9032,
+        "stars": 9249,
         "starsToday": 707
       },
       "dupOf": "1zg0212pemm"
@@ -4013,7 +4078,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 31225,
+        "stars": 31692,
         "starsToday": 1347
       },
       "ai": {
@@ -4040,7 +4105,7 @@
       "score": 24.7,
       "metrics": {
         "points": 125,
-        "comments": 140
+        "comments": 141
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50292727",
       "aiAttempts": 1,
@@ -4051,6 +4116,31 @@
         "model": "glm-4.7-flash",
         "at": "2026-10-30T17:07:25.839Z"
       }
+    },
+    {
+      "id": "j4yhfw6iwe",
+      "key": "hf:pika-labs/pika-h3-flex",
+      "title": "Pika-Labs/Pika-H3-Flex",
+      "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
+      "excerpt": "Hugging Face 趋势榜第 12 名 · 图生视频 · 289 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T17:08:44.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-10-30",
+      "category": "multimodal",
+      "categoryLocked": true,
+      "keywords": [
+        "视频生成"
+      ],
+      "score": 19.8,
+      "metrics": {
+        "likes": 289
+      },
+      "skipLlm": true,
+      "dupOf": "1egv1bh2tq8"
     },
     {
       "id": "15y6hr44fdt",

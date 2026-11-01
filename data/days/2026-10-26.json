@@ -65,9 +65,9 @@
       "keywords": [
         "图像生成"
       ],
-      "score": 19.5,
+      "score": 20.3,
       "metrics": {
-        "stars": 818
+        "stars": 958
       }
     },
     {
@@ -290,9 +290,29 @@
       "day": "2026-10-26",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 22.1,
+      "score": 22.3,
       "metrics": {
-        "stars": 1296
+        "stars": 1349
+      }
+    },
+    {
+      "id": "8zud3efrso",
+      "key": "gh:physicsdolphin/nv-uefi-unlocker",
+      "title": "physicsdolphin/nv-uefi-unlocker",
+      "url": "https://github.com/physicsdolphin/nv-uefi-unlocker",
+      "excerpt": "UEFI pre-driver NVIDIA GPU unlocker for Windows Linux Hackintosh and all EFI-bootable system (Rust): SEC2 scrubber -> FWSEC/WPR2 -> signed Booter -> V67 four-write payload, read-back verified. Verified on most RTX 20 30 40 Series.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-26T06:22:24.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-10-26",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 19.8,
+      "metrics": {
+        "stars": 863
       }
     },
     {
@@ -315,9 +335,9 @@
         "MCP",
         "AI 编程"
       ],
-      "score": 23.3,
+      "score": 23.4,
       "metrics": {
-        "stars": 1590
+        "stars": 1612
       }
     },
     {
@@ -335,9 +355,9 @@
       "day": "2026-10-26",
       "category": "model",
       "categoryLocked": true,
-      "score": 28.6,
+      "score": 28.9,
       "metrics": {
-        "likes": 474
+        "likes": 496
       },
       "skipLlm": true,
       "dupOf": "1e2gdwalwad"
@@ -359,7 +379,7 @@
       "categoryLocked": true,
       "score": 19.2,
       "metrics": {
-        "stars": 769
+        "stars": 775
       }
     },
     {

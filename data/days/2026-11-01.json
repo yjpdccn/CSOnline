@@ -2,6 +2,766 @@
   "day": "2026-11-01",
   "items": [
     {
+      "id": "1r6l9oe9pos",
+      "key": "gh:shiyu-coder/kronos",
+      "title": "shiyu-coder/Kronos",
+      "url": "https://github.com/shiyu-coder/Kronos",
+      "excerpt": "Kronos: A Foundation Model for the Language of Financial Markets",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T13:10:16.398Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 27,
+      "metrics": {
+        "stars": 44978,
+        "starsToday": 611
+      }
+    },
+    {
+      "id": "1rssb53rzgi",
+      "key": "gh:kornia/kornia",
+      "title": "kornia/kornia",
+      "url": "https://github.com/kornia/kornia",
+      "excerpt": "🐍 Geometric Computer Vision Library for Spatial AI",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T13:10:16.398Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 15.5,
+      "metrics": {
+        "stars": 11593,
+        "starsToday": 88
+      }
+    },
+    {
+      "id": "wq94zg0ifo",
+      "key": "gh:beenuar/aisoc",
+      "title": "beenuar/AiSOC",
+      "url": "https://github.com/beenuar/AiSOC",
+      "excerpt": "Open-source AI Security Operations Center: alert fusion, LLM-agent triage, MITRE ATT&CK investigation, and a replayable decision ledger for every agent step. Self-hostable, runs with no API keys, MIT licensed. Ships an MCP server for Claude, Cursor and Continue.",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T13:10:16.398Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "MCP",
+        "AI 编程"
+      ],
+      "score": 24.5,
+      "metrics": {
+        "stars": 5887,
+        "starsToday": 436
+      }
+    },
+    {
+      "id": "jvvmfl8izx",
+      "key": "gh:patchy631/ai-engineering-hub",
+      "title": "patchy631/ai-engineering-hub",
+      "url": "https://github.com/patchy631/ai-engineering-hub",
+      "excerpt": "In-depth tutorials on LLMs, RAGs and real-world AI agent applications.",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T13:10:16.398Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 26.5,
+      "metrics": {
+        "stars": 39844,
+        "starsToday": 573
+      }
+    },
+    {
+      "id": "1dykk2r77r3",
+      "key": "gh:flashml-org/freetoken",
+      "title": "FlashML-org/FreeToken",
+      "url": "https://github.com/FlashML-org/FreeToken",
+      "excerpt": "FreeToken brings datacenter-scale model serving to your desktop. Run massive models locally, fast and efficiently.",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T13:10:16.398Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 20.4,
+      "metrics": {
+        "stars": 15118,
+        "starsToday": 232
+      }
+    },
+    {
+      "id": "1uj5ewy32zs",
+      "key": "url:the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds",
+      "title": "Chinese AI models are politically complex, not just government mouthpieces, study finds",
+      "url": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/",
+      "excerpt": "A study by Vals AI tested 25 AI models for alignment with Chinese government positions and found surprising results. Chinese models respond to political questions less uniformly than expected, and Western models occasionally adopt official Beijing positions too. The language of…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-01T12:33:01.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 15
+    },
+    {
+      "id": "1dj1d6fanc1",
+      "key": "url:jiqizhixin.com/articles/2026-11-01-9",
+      "title": "让灾害预报更快转化为行动，浙大联合团队提出多智能体系统MAESTRO",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-01-9",
+      "excerpt": "作者 | 研究团队编辑丨ScienceAI台风来临前，预报能够告诉我们风有多大、雨会下在哪里。但对负责应对灾害的人来说，还需要回答另一组问题：哪些地区可能停电？哪些道路可能中断？物资应该提前送往哪里？这些问题横跨气象、水文、交通和应急管理等领域。即使各部门都有专业模型，数据格式、术语和工作流程...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T12:18:00.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1ghszb4sfak",
+      "key": "url:jiqizhixin.com/articles/2026-11-01-8",
+      "title": "算力的尽头是电力？从第一性原理看AI基础设施",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-01-8",
+      "excerpt": "编辑｜Panda一个冰箱大小的服务器机柜，重量超过一辆皮卡；到 2027 年，它的峰值功率将相当于 65 户家庭同时用电；为了不让它烧掉，每个机柜需要排出的热量相当于 30 台燃气锅炉。由 ChatGPT 制作中文版，https://www.iea.org/reports/key-questi...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T12:15:00.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 26,
+      "related": [
+        {
+          "id": "1z4mc3gti77",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4050946312967297",
+          "title": "算力的尽头是电力？从第一性原理看AI基础设施",
+          "publishedAt": "2026-11-01T09:10:08.738Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-01T09:10:08.738Z"
+      }
+    },
+    {
+      "id": "upapzx84hq",
+      "key": "url:jiqizhixin.com/articles/2026-11-01-7",
+      "title": "24项真机硬碰硬！不靠大规模机器人预训练，Fysiverse-UniWAM拿下导航、移动操作双第一",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-01-7",
+      "excerpt": "编辑｜陈陈机器人终于不只是知道往哪走，还知道该在哪里停、以什么方向面对目标，甚至停稳之后，就能直接上手干活。听起来理所当然，但对机器人来说，这恰恰是一道长期存在的难题。比如，让机器人收拾桌上的杯子。能走到桌边，不代表就能拿起杯子。底盘停得稍远一点，机械臂可能够不着；朝向稍有偏差，后续抓取也可能...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T12:08:00.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "23ovao8oar9",
+      "key": "url:the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage",
+      "title": "OpenAI is steering ChatGPT users toward more paid usage",
+      "url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
+      "excerpt": "OpenAI is now capping the number of paid ChatGPT accounts per device and payment card. Users who hit the limit can't start new subscriptions, and affected accounts can't be used on that device. Logging out doesn't automatically free up a spot. The policy will likely hit users wh…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-01T12:05:04.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "27h9syzc766"
+    },
+    {
+      "id": "13m42vnra1w",
+      "key": "url:36kr.com/p/4051143495603336",
+      "title": "新入口和旧城墙之下，“中国版Muse”有多远？",
+      "url": "https://36kr.com/p/4051143495603336",
+      "excerpt": "一场关于需求真伪、入口争夺、生态壁垒与付费意愿的多重考验",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T12:01:00.284Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1fb54p1ey2k",
+      "key": "url:36kr.com/p/4051138782860421",
+      "title": "汤道生谈WorkBuddy商业化：不靠收入数字催团队",
+      "url": "https://36kr.com/p/4051138782860421",
+      "excerpt": "客户规模扩大，商业化先支撑产品与伙伴经营。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T12:00:00.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "13qh2joycgn",
+      "key": "url:jiqizhixin.com/articles/2026-11-01-6",
+      "title": "Tibo 28连更后，OpenAI合并额度池，计费聊天开始了",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-01-6",
+      "excerpt": "编辑｜Panda过去四周，OpenAI 的 Codex 用户几乎每隔一天就能收到一次额度重置。福利发到最后几天，账本收紧了。OpenAI 帮助中心刚刚上线了一篇名为「Understanding ChatGPT and Codex usage limits」的文档，开头第一句就交代了变化：从 1...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T11:59:00.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 26,
+      "related": [
+        {
+          "id": "1jy2wxyaay5",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4050682558714755",
+          "title": "Tibo 28连更后，OpenAI合并额度池，计费聊天开始了",
+          "publishedAt": "2026-11-01T06:00:59.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-01T06:00:59.000Z"
+      }
+    },
+    {
+      "id": "ol02hdl40p",
+      "key": "url:jiqizhixin.com/articles/2026-11-01-5",
+      "title": "混合架构用线性注意力还是滑窗注意力？复旦创智OpenMOSS团队：我全都要",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-01-5",
+      "excerpt": "本文第一作者柳潇然，复旦大学、上海创智学院 2022 级硕博连读生，导师邱锡鹏、何子薇。研究方向为长上下文大语言模型，曾在 ICLR、ICML、AAAI、EMNLP 等国际顶级人工智能会议发表论文十余篇。背景介绍长上下文已经成为大语言模型重要的基础能力，但长上下文也给模型架构带来了一个现实问题...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T11:51:00.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "paper",
+      "score": 18
+    },
+    {
+      "id": "1a7o4idhx78",
+      "key": "url:jiqizhixin.com/articles/2026-11-01-4",
+      "title": "具身RSI的真假之争：机器人是在自我进化，还是在反复刷题？",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-01-4",
+      "excerpt": "在电子游戏里，玩家拥有一项近乎无敌的特权——无限读档（env.reset）。在机器人仿真环境中，一些具身 Agent 同样可以通过提前探索任务、反复重置环境、修改动作脚本，逐步寻找更优的操作策略。但如果不给机器人提前刷题的机会呢？最近，星衍智能推出的通用具身 Harness 框架 Auriga...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T11:45:00.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "keywords": [
+        "Agent",
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1u8adk2fbmz",
+      "key": "url:jiqizhixin.com/articles/2026-11-01-3",
+      "title": "告别VAE和ViT! 英伟达开源PixelUMM, 在像素空间统一视频图像理解与生成",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-01-3",
+      "excerpt": "统一多模态模型（Unified Multimodal Models, UMMs）通常为理解和生成分别使用不同的视觉表示：用 ViT 提取理解所需的语义特征，用 VAE 提供生成所需的潜变量。这样一来，同一张图像要以两种 token 进入上下文，视觉上下文随之变长；这种双流接口也不同于视觉-语言...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T11:33:00.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "multimodal",
+      "score": 22
+    },
+    {
+      "id": "2me6gxbqg0",
+      "key": "url:the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help",
+      "title": "Google wants video AI to understand what people need as they work",
+      "url": "https://the-decoder.com/google-wants-video-ai-to-understand-what-people-need-as-they-workgoogle-researchers-are-teaching-a-video-assistant-when-to-offer-help/",
+      "excerpt": "A Google-led research team built StreamVibe, a video agent designed to watch people cook or assemble furniture and speak up only when help is needed. A benchmark shows that none of the tested models reliably pick the right moment in longer videos, as errors compound and response…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-01T11:25:21.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "multimodal",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15
+    },
+    {
+      "id": "o9t8ksxu0s",
+      "key": "url:jiqizhixin.com/articles/2026-11-01-2",
+      "title": "Claude Code悄悄更新：不让Opus 5.5复刻游戏",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-01-2",
+      "excerpt": "编辑｜Panda还想让 Claude Opus 5.5 帮你做个 GTA 5，可能没那么容易了……10 月 30 日，𝕏 用户 Chasm 发帖称，Anthropic 的 AI 编程工具 Claude Code 在 10 月 27 日前后被服务器端推送了一条新规则：Claude 可以帮用户做原...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T11:21:00.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 18,
+      "dupOf": "1cfgrhftnzb"
+    },
+    {
+      "id": "5dk53ak9kh",
+      "key": "url:jiqizhixin.com/articles/2026-11-01",
+      "title": "当Agent遇上「猪队友」：谷歌开源CLASHarness，实测前沿大模型如何应对多Agent冲突场景",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-01",
+      "excerpt": "当大模型从“单兵作战”走向“多 Agent 协同操作电脑（Computer Use）”，如果队友 Agent 读了旧缓存报假消息、下发了互相矛盾的指令，甚至锁死了共享文件，主控 Agent 该听谁的？来自 Google、Emory、USC、UF、UChicago、UCSB 和 Columbia...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T11:17:00.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22
+    },
+    {
+      "id": "1ktt5l7cvq3",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xkzony/new_research_a_tiny_109mparameter_model",
+      "title": "new research: A tiny 109M-parameter model outperforms models up to 72B parameters at image-text alignment, using 42× less training data",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkzony/new_research_a_tiny_109mparameter_model/",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T10:24:21.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "multimodal",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkzony/new_research_a_tiny_109mparameter_model/"
+    },
+    {
+      "id": "1vzae1y0yur",
+      "key": "url:geekpark.net/news/373249",
+      "title": "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新",
+      "url": "http://www.geekpark.net/news/373249",
+      "excerpt": "作者｜汤一涛 编辑｜靖宇 10 月 21 日的 Meta 财报会上，扎克伯格披露了一组关于个人智能体 Muse 的关键数据：超过 1000 万人设置了 Muse，购物是 Muse 最常见的用途，超过四分之一的用户在用它买东西，平均客单价超过200 美元；上线第一周，Muse 交易量便超出了预期，Meta 不得不与支付合作伙伴 Stripe 一起临时上调了信用额度。 六天后的 10 月 27 日，蚂蚁集团发布了灵光 2.0，将产品定位从最初的「30 秒用自然语言生成小应用」，彻底转向「能管事的个人 AI 助理」，官方口号概括为九个字：「记得住、盯得牢、办…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T10:03:12.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "dupOf": "mvck59lwgv"
+    },
+    {
+      "id": "u3sm89waxg",
+      "key": "url:geekpark.net/news/373248",
+      "title": "DeepSeek，怎么就变成了一条「大肥鱼」",
+      "url": "http://www.geekpark.net/news/373248",
+      "excerpt": "作者｜Moonshot 编辑｜靖宇 最近，B 站评论区闹起了「鱼灾」。 先是有人开了个「Claude 大小姐在运营」的账号，让 AI 负责选题、制作和运营。第二天，「DeepSeek 鲸鱼娘在运营」跟着上线，第一条视频播放量就超过了 200 万。 由于目前 DeepSeek 暂无生图功能，该账号形象还是由 GPT 绘制的。｜图源：Bilibili 网友纷纷效仿，给自己的 Agent 装上刷 B 站的工具，很快，科技区出现了一大群「XX 的大肥鱼」、「XX 小飞鲸」的 AI 账号，还喜欢在评论区互相艾特、互相捧场。还有人专门写了个「大肥鱼清除计划」插件，…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T09:57:50.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "dupOf": "1jgyl4cl1bn"
+    },
+    {
+      "id": "1m4qq5bssem",
+      "key": "url:the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing",
+      "title": "OpenAI's upcoming chat-and-work merger in ChatGPT signals the end of all-you-can-prompt pricing",
+      "url": "https://the-decoder.com/openais-upcoming-chat-and-work-merger-in-chatgpt-signals-the-end-of-all-you-can-prompt-pricing/",
+      "excerpt": "OpenAI combines the Chat and Work modes into a single interface. Starting in December, Plus, Pro, and Business plans will share a common, token-based quota for ChatGPT and Codex. More complex models consume more of this quota, while simple instant chats do not count toward it. I…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-01T09:51:06.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 15
+    },
+    {
+      "id": "20ou3893hnm",
+      "key": "url:leiphone.com/category/industrynews/MK1z0js4sqcp1xca.html",
+      "title": "Pika 基于 MiniMax H3 开源 H3 Flex，六步实现音视频联合生成",
+      "url": "https://www.leiphone.com/category/industrynews/MK1z0js4sqcp1xca.html",
+      "excerpt": "近日，Pika 发布 MiniMax H3 衍生模型 Pika H3 Flex，并开放适配器权重与推理代码。该模型通过六步去噪联合生成画面和声音，支持文本、首尾帧和多模态参考输入，供创作者进行镜头设计、参考生成和视频编辑。 本次发布包含两套 LoRA 适配器，分别用于文本及首尾帧条件生成、多模态参考生成，同时提供 MiniMax H3 基础组件和本地推理工具。模型原生支持 480P、768P 输出，可生成约 5 至 15 秒的视频及同步立体声音频。Pika 提供 ComfyUI 工作流和 Hugging Face Diffusers 接入方式，方便开发…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T09:46:00.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "multimodal",
+      "score": 22,
+      "dupOf": "1egv1bh2tq8"
+    },
+    {
+      "id": "2gg9vuyklrg",
+      "key": "url:36kr.com/p/4051001127687043",
+      "title": "2800万用户，养不活一个AI陪伴应用",
+      "url": "https://36kr.com/p/4051001127687043",
+      "excerpt": "用户越黏，亏得越多",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T09:37:06.067Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "u4x65z4row",
+      "key": "url:36kr.com/p/4050845605156482",
+      "title": "Agent改写算力账本，CPU不再是AI服务器的配角？",
+      "url": "https://36kr.com/p/4050845605156482",
+      "excerpt": "AI算力的投入逻辑正在从只采购加速卡，转向搭配一整套均衡的算力机柜",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T09:34:10.820Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1z4mc3gti77",
+      "key": "url:36kr.com/p/4050946312967297",
+      "title": "算力的尽头是电力？从第一性原理看AI基础设施",
+      "url": "https://36kr.com/p/4050946312967297",
+      "excerpt": "AI 竞争的下半场，是一场电力与制造的系统工程",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T09:10:08.738Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "1ghszb4sfak"
+    },
+    {
+      "id": "2dnxclthmd2",
+      "key": "url:infoq.cn/article/8mCjWWFLdjDA2vb51QZs",
+      "title": "当 AI 能读懂二进制，闭源软件还剩多少护城河？",
+      "url": "https://www.infoq.cn/article/8mCjWWFLdjDA2vb51QZs?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T09:00:00.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "nn3unpi1dr",
+      "key": "gh:guregodevo/memdoor",
+      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T08:24:18.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkxt7a/memdoor_a_team_of_5_qwen3827b_models_beats_fable/"
+    },
+    {
+      "id": "g28i0tye01",
+      "key": "url:36kr.com/p/4050674386048132",
+      "title": "Meta拟筹近千亿美元，甲骨文报出了“最后一笔”",
+      "url": "https://36kr.com/p/4050674386048132",
+      "excerpt": "华尔街的耐心，还有几何",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T08:16:37.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "cuicgvrimk",
+      "key": "url:qbitai.com/2026/11/507031.html",
+      "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+      "url": "https://www.qbitai.com/2026/11/507031.html",
+      "excerpt": "让AI像牛顿一样思考",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T08:02:37.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "multimodal",
+      "score": 18
+    },
+    {
+      "id": "1j2gp7u1nvv",
+      "key": "url:qbitai.com/2026/11/506990.html",
+      "title": "老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子",
+      "url": "https://www.qbitai.com/2026/11/506990.html",
+      "excerpt": "这事还是想得太简单了",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T07:50:57.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "4vfepem6or",
+      "key": "url:36kr.com/p/4050722097828740",
+      "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+      "url": "https://36kr.com/p/4050722097828740",
+      "excerpt": "封了个寂寞…",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T07:35:54.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1wpwv82xqrk",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xkwvwg/finedna_the_largest_dataset_to_teach_any_llm_dna",
+      "title": "FineDNA: the largest dataset to teach any LLM DNA (midtraining, SFT, RL)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkwvwg/finedna_the_largest_dataset_to_teach_any_llm_dna/",
+      "excerpt": "Hi everyone, we're releasing FineDNA, all the data we used to turn Qwen3-14B into Carbon-X, the strongest open language model on DNA. It contains: Midtraining: 300B+ tokens of genomes and DNA-rich text SFT: ~200K conversations RL: ~98K verifiable prompts Code and recipe are open…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T07:24:09.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkwvwg/finedna_the_largest_dataset_to_teach_any_llm_dna/"
+    },
+    {
+      "id": "1hucveapv32",
+      "key": "url:nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks",
+      "title": "The AI cost of JavaScript frameworks",
+      "url": "https://nolanlawson.com/2026/10/28/the-ai-cost-of-javascript-frameworks/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T06:06:19.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 23.9,
+      "metrics": {
+        "points": 130,
+        "comments": 82
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50323088"
+    },
+    {
+      "id": "1jy2wxyaay5",
+      "key": "url:36kr.com/p/4050682558714755",
+      "title": "Tibo 28连更后，OpenAI合并额度池，计费聊天开始了",
+      "url": "https://36kr.com/p/4050682558714755",
+      "excerpt": "从「重置公司」到「token 公司」，Tibo 一语成谶",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T06:00:59.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "13qh2joycgn"
+    },
+    {
+      "id": "86udrted4r",
+      "key": "url:36kr.com/p/4050660776317825",
+      "title": "AI“烧钱叙事”遇冷？OpenAI融资目标砍掉100亿！",
+      "url": "https://36kr.com/p/4050660776317825",
+      "excerpt": "AI交易经历剧烈重定价",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T05:01:58.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "pgmqaov5i4"
+    },
+    {
+      "id": "2g4ngu6srv2",
+      "key": "url:qbitai.com/2026/11/506922.html",
+      "title": "Jev新成果，再次引爆开源",
+      "url": "https://www.qbitai.com/2026/11/506922.html",
+      "excerpt": "再次“性价比屠夫”",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T04:18:37.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "opensource",
+      "score": 22
+    },
+    {
+      "id": "lieu4fa8h8",
+      "key": "url:36kr.com/p/4049789434156166",
+      "title": "史上首次！谷歌TPU在轨运行Gemma 4",
+      "url": "https://36kr.com/p/4049789434156166",
+      "excerpt": "散热？太空辐射？成本？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T03:20:36.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "model",
+      "score": 24,
+      "dupOf": "17k13moryi0"
+    },
+    {
+      "id": "1yrgqewb2my",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xksj75/64gb_isnt_the_dead_zone_anymore_if_you_run_agents",
+      "title": "64GB isn't the dead zone anymore if you run agents",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xksj75/64gb_isnt_the_dead_zone_anymore_if_you_run_agents/",
+      "excerpt": "https://preview.redd.it/hboxdgjh2xyh1.png?width=1230&format=png&auto=webp&s=cca6b2b7b08807a334ff5280e19d96133667fbb0 The usual advice was that 64GB is a dead zone for local LLMs: too small for a 70B with real context, and more than a 30B needs. After running a 27B for agentic co…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T03:02:34.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "本地部署"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xksj75/64gb_isnt_the_dead_zone_anymore_if_you_run_agents/"
+    },
+    {
       "id": "q99motg0hm",
       "key": "url:36kr.com/newsflashes/4050561475368070",
       "title": "张朝阳：关注流是搜狐战略级产品，内容不参与大模型收录",
@@ -102,12 +862,30 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "Claude Code 更新，限制 Opus 5.5 复刻电子游戏。",
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-01T02:27:55.203Z"
+      },
+      "related": [
+        {
+          "id": "o9t8ksxu0s",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-01-2",
+          "title": "Claude Code悄悄更新：不让Opus 5.5复刻游戏",
+          "publishedAt": "2026-11-01T11:21:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-01T02:00:25.000Z"
       }
     },
     {
@@ -195,6 +973,23 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-01T02:27:55.203Z"
+      },
+      "related": [
+        {
+          "id": "1vzae1y0yur",
+          "sourceId": "geekpark",
+          "sourceName": "极客公园",
+          "url": "http://www.geekpark.net/news/373249",
+          "title": "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新",
+          "publishedAt": "2026-11-01T10:03:12.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "geekpark"
+        ],
+        "firstPublishedAt": "2026-11-01T01:41:45.000Z"
       }
     },
     {
@@ -305,7 +1100,7 @@
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-11-01",
       "category": "agent",
-      "score": 42.9,
+      "score": 44.2,
       "related": [
         {
           "id": "21ko6gzhr67",
@@ -324,8 +1119,8 @@
         ],
         "firstPublishedAt": "2026-10-31T10:30:11.000Z",
         "metrics": {
-          "points": 303,
-          "comments": 150
+          "points": 346,
+          "comments": 168
         }
       },
       "ai": {
@@ -361,6 +1156,30 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-01T02:27:20.387Z"
       }
+    },
+    {
+      "id": "1e975j0afi8",
+      "key": "url:help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "title": "ChatGPT and Codex usage limits merging",
+      "url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-31T21:49:07.000Z",
+      "firstSeenAt": "2026-11-01T13:10:09.812Z",
+      "day": "2026-11-01",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 26.7,
+      "metrics": {
+        "points": 182,
+        "comments": 115
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50320588",
+      "dupOf": "27h9syzc766"
     },
     {
       "id": "idvb1510ur",
@@ -490,10 +1309,10 @@
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-11-01",
       "category": "industry",
-      "score": 22.3,
+      "score": 42.4,
       "metrics": {
-        "points": 105,
-        "comments": 69
+        "points": 157,
+        "comments": 100
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50320255",
       "ai": {
@@ -502,6 +1321,29 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-01T02:27:20.387Z"
+      },
+      "related": [
+        {
+          "id": "29f3ymfgup5",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/elvarofficial/teardown",
+          "title": "elvarofficial/teardown",
+          "publishedAt": "2026-10-30T09:29:01.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "hackernews",
+          "github-new"
+        ],
+        "firstPublishedAt": "2026-10-30T09:29:01.000Z",
+        "metrics": {
+          "points": 157,
+          "comments": 100,
+          "stars": 728
+        }
       }
     },
     {
@@ -535,10 +1377,10 @@
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-11-01",
       "category": "industry",
-      "score": 27.7,
+      "score": 33.8,
       "metrics": {
-        "points": 209,
-        "comments": 118
+        "points": 393,
+        "comments": 223
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50319358",
       "ai": {
@@ -654,10 +1496,10 @@
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-11-01",
       "category": "model",
-      "score": 32.6,
+      "score": 33.4,
       "metrics": {
-        "points": 157,
-        "comments": 173
+        "points": 173,
+        "comments": 184
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50318871",
       "ai": {
