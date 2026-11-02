@@ -32,7 +32,7 @@ export function InvestHeader({ run, health }: { run: InvestRunSummary | null; he
           <a href="#" aria-label={`${INVEST_SITE.name}，回到顶部`}>
             <Logo />
           </a>
-          <SiteNav current="invest" />
+          <SiteNav current="invest" className="hidden sm:flex" />
           <div className="hidden min-w-0 truncate text-xs text-muted-foreground lg:block">{INVEST_SITE.tagline}</div>
         </div>
         <div className="ml-auto flex min-w-0 items-center gap-1.5 sm:gap-2">

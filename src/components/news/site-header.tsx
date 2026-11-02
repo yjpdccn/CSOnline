@@ -54,7 +54,7 @@ export function SiteHeader({ lastRun }: { lastRun: RunInfo | null }) {
           <a href="#" aria-label={`${SITE.name}，回到顶部`}>
             <Logo />
           </a>
-          <SiteNav current="ai" />
+          <SiteNav current="ai" className="hidden sm:flex" />
           <div className="hidden min-w-0 truncate text-xs text-muted-foreground lg:block">{SITE.tagline}</div>
         </div>
 

@@ -2,6 +2,7 @@
 
 import { CloudOff, Inbox, Newspaper, SearchX, TriangleAlert } from "lucide-react";
 import { useMemo, useState } from "react";
+import { SiteNavRow } from "@/components/site-nav";
 import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
 import { Button } from "@/components/ui/button";
 import { SITE } from "@/config/site";
@@ -156,6 +157,7 @@ export function NewsApp({ data, error }: { data: HomeData | null; error: string 
   return (
     <div className="flex min-h-screen flex-col">
       <SiteHeader lastRun={data?.lastRun ?? null} />
+      <SiteNavRow current="ai" />
       <main className="mx-auto w-full max-w-6xl flex-1 px-4 pt-5 pb-16 sm:px-6 sm:pt-6">
         <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_17.5rem] lg:gap-8">
           <div className="min-w-0 space-y-5">
