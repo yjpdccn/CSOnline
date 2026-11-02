@@ -1,0 +1,19 @@
+{
+  "updatedAt": "2026-11-02T09:04:24.822Z",
+  "bands": {
+    "ndx": "mid",
+    "spx": "mid",
+    "csi300": "mid",
+    "cicc300": "mid",
+    "divlowvol": "high"
+  },
+  "events": [
+    {
+      "id": "move:ndx:2026-10-30",
+      "kind": "move",
+      "at": "2026-10-30T15:59:00.000Z",
+      "title": "纳斯达克100 10月30日下跌 3.5%",
+      "detail": "单日变动超过 3%，收于 28,384.85。"
+    }
+  ]
+}

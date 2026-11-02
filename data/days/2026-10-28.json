@@ -16,9 +16,9 @@
       "day": "2026-10-28",
       "category": "multimodal",
       "categoryLocked": true,
-      "score": 20.1,
+      "score": 20.8,
       "metrics": {
-        "likes": 305
+        "likes": 344
       },
       "skipLlm": true
     },
@@ -1327,9 +1327,9 @@
       "keywords": [
         "语音"
       ],
-      "score": 18.7,
+      "score": 19.6,
       "metrics": {
-        "stars": 706
+        "stars": 829
       }
     },
     {
@@ -1846,9 +1846,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 28.9,
+      "score": 29,
       "metrics": {
-        "upvotes": 156,
+        "upvotes": 158,
         "comments": 2
       },
       "aiAttempts": 2,
@@ -2371,6 +2371,26 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-10-30T02:46:46.884Z"
+      }
+    },
+    {
+      "id": "j28q9cnskc",
+      "key": "gh:jackwener/dsh-android",
+      "title": "jackwener/DSH-Android",
+      "url": "https://github.com/jackwener/DSH-Android",
+      "excerpt": "免 ROOT 免 Termux，一个 APK 在安卓手机上跑 DeepSeek Harness。引擎内嵌 App 进程 · 读屏操作 App · 改系统设置 · 定时/条件自动化 · 可选 Shizuku",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-27T19:26:12.000Z",
+      "firstSeenAt": "2026-11-02T09:04:24.822Z",
+      "day": "2026-10-28",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 18.9,
+      "metrics": {
+        "stars": 730
       }
     },
     {

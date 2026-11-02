@@ -16,8 +16,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 665,
-        "comments": 482
+        "points": 668,
+        "comments": 485
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50305693",
       "ai": {
@@ -169,7 +169,7 @@
       "score": 24.7,
       "metrics": {
         "points": 125,
-        "comments": 138
+        "comments": 140
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50304358",
       "aiAttempts": 1,
@@ -218,10 +218,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 33.1,
+      "score": 33.2,
       "metrics": {
-        "points": 311,
-        "comments": 382
+        "points": 313,
+        "comments": 385
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50304122",
       "aiAttempts": 1,
@@ -689,7 +689,7 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 49.1,
+      "score": 49.2,
       "ai": {
         "summary": "27岁程序员获无限Token，挑战重写思科遗留代码。",
         "category": "industry",
@@ -714,8 +714,8 @@
         ],
         "firstPublishedAt": "2026-10-30T12:34:34.116Z",
         "metrics": {
-          "points": 311,
-          "comments": 382
+          "points": 313,
+          "comments": 385
         }
       }
     },
@@ -1042,12 +1042,30 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "model",
-      "score": 24,
+      "score": 32,
       "ai": {
         "summary": "OpenAI重写大模型法则，第一条强调忠于人类。",
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-10-31T02:34:20.930Z"
+      },
+      "related": [
+        {
+          "id": "1pxqmfwvgjk",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/507225.html",
+          "title": "OpenAI重写大模型法则，第一条：忠于人类！！",
+          "publishedAt": "2026-11-02T07:27:54.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-10-30T11:27:08.686Z"
       }
     },
     {
@@ -1615,9 +1633,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 20.3,
+      "score": 21,
       "metrics": {
-        "stars": 946
+        "stars": 1070
       },
       "ai": {
         "title": "teardown：将机器变成 3D 拆解模拟器",
@@ -1931,9 +1949,9 @@
       "day": "2026-10-30",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 22.1,
+      "score": 22.2,
       "metrics": {
-        "stars": 1300
+        "stars": 1322
       },
       "ai": {
         "title": "florilegium：生成 Delft 蓝花卉页边",
@@ -2204,7 +2222,7 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 48.2,
+      "score": 48.6,
       "related": [
         {
           "id": "j4yhfw6iwe",
@@ -2240,7 +2258,7 @@
         ],
         "firstPublishedAt": "2026-10-29T17:08:44.000Z",
         "metrics": {
-          "likes": 312
+          "likes": 334
         }
       },
       "ai": {
@@ -2268,9 +2286,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 26.6,
+      "score": 27.4,
       "metrics": {
-        "stars": 2701
+        "stars": 3067
       },
       "ai": {
         "title": "pixelfx：232 个像素艺术效果与 Claude Code 技能",
@@ -3327,9 +3345,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 26,
+      "score": 26.4,
       "metrics": {
-        "upvotes": 105,
+        "upvotes": 110,
         "comments": 3
       },
       "ai": {
@@ -3477,6 +3495,30 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-10-31T02:33:01.089Z"
+      }
+    },
+    {
+      "id": "2f1q4reme99",
+      "key": "arxiv:2610.37161",
+      "title": "WorkFactory: Turning Professional Intents into Executable Work for Scalable Agent Training",
+      "url": "https://huggingface.co/papers/2610.37161",
+      "excerpt": "WorkFactory builds coherent professional tasks via information planning and repair, yielding WorkPilot models that improve expert-level agent performance across benchmarks.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "firstSeenAt": "2026-11-02T09:04:24.822Z",
+      "day": "2026-10-30",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22,
+      "metrics": {
+        "upvotes": 57,
+        "comments": 6
       }
     },
     {
@@ -4028,7 +4070,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 10627,
+        "stars": 10902,
         "starsToday": 1304
       },
       "ai": {
@@ -4060,7 +4102,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 109420,
+        "stars": 109998,
         "starsToday": 1723
       },
       "ai": {
@@ -4092,7 +4134,7 @@
       ],
       "score": 28.1,
       "metrics": {
-        "stars": 9572,
+        "stars": 9751,
         "starsToday": 707
       },
       "dupOf": "1zg0212pemm"
@@ -4118,7 +4160,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 32396,
+        "stars": 32830,
         "starsToday": 1347
       },
       "ai": {
@@ -4175,9 +4217,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 20.2,
+      "score": 20.6,
       "metrics": {
-        "likes": 312
+        "likes": 334
       },
       "skipLlm": true,
       "dupOf": "1egv1bh2tq8"

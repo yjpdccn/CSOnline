@@ -156,40 +156,39 @@
   },
   "2026-11-02": {
     "day": "2026-11-02",
-    "generatedAt": "2026-11-02T02:35:26.417Z",
-    "itemCount": 76,
-    "mode": "ai",
-    "model": "glm-4.7-flash",
-    "overview": "OpenAI GPT-6.2 Astra 曝光，百度 AI API 价格低于 DeepSeek，iPhone 国行 AI 落地。",
+    "generatedAt": "2026-11-02T09:08:04.687Z",
+    "itemCount": 117,
+    "mode": "fallback",
+    "overview": "过去 24 小时共收录 117 条 AI 资讯：产品与行业 63 条、Agent 与工具 22 条、论文 14 条、开源项目 12 条、模型发布 5 条、多模态与视频 1 条。以下为按重要性排序的前 5 条。",
     "points": [
       {
-        "text": "OpenAI 新模型 GPT-6.2 Astra 曝光，引发广泛关注。",
+        "text": "【行业】2026达喀尔青奥会开幕，阿里巴巴技术支持非洲首个奥运赛事",
+        "refs": [
+          "juv3v3l16"
+        ]
+      },
+      {
+        "text": "【模型】刚刚，OpenAI新模型GPT-6.2 Astra曝光！",
         "refs": [
           "ox97qtno1d"
         ]
       },
       {
-        "text": "百度搜索 AI API 千次仅需 4.9 元，低于 DeepSeek。",
+        "text": "【行业】优必选Thinker-Sim具身智能仿真平台发布",
         "refs": [
-          "yujzqh99w9"
+          "1sp6ptujuns"
         ]
       },
       {
-        "text": "iPhone 国行 AI 终于落地，千问成为 Siri 新搭档。",
+        "text": "【行业】AI delivers 'zero financial payoff' to most companies, Apollo economist says",
         "refs": [
-          "lonu0vzkj2"
+          "1xg0tlcktwr"
         ]
       },
       {
-        "text": "Google 推出能理解工作需求的视频 AI StreamVibe。",
+        "text": "【行业】“数据中心”名声臭了，OpenAI想给它改个名字",
         "refs": [
-          "2me6gxbqg0"
-        ]
-      },
-      {
-        "text": "微软 AI CEO 警告 AI 不应具备意识，反对创造数字物种。",
-        "refs": [
-          "27fd76eg2gk"
+          "5hycsabecn"
         ]
       }
     ]

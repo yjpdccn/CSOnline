@@ -1,17 +1,6 @@
 {
-  "updatedAt": "2026-11-02T02:30:31.448Z",
+  "updatedAt": "2026-11-02T09:04:24.822Z",
   "events": [
-    {
-      "id": "wscn-1596952",
-      "at": "2026-11-02T01:45:00.000Z",
-      "country": "中国",
-      "title": "10月RatingDog制造业PMI",
-      "importance": 3,
-      "kind": "data",
-      "source": "华尔街见闻",
-      "previous": "52.1",
-      "actual": "52"
-    },
     {
       "id": "wscn-1596963",
       "at": "2026-11-02T15:00:00.000Z",
@@ -43,6 +32,16 @@
       "previous": "4.6",
       "forecast": "4.85",
       "unit": "%"
+    },
+    {
+      "id": "wscn-15635",
+      "at": "2026-11-03T04:02:00.000Z",
+      "country": "中国",
+      "title": "报道：中国央行将启动第三次证券、基金、保险公司互换便利操作招标",
+      "importance": 4,
+      "kind": "event",
+      "source": "华尔街见闻",
+      "dateOnly": true
     },
     {
       "id": "wscn-1597442",

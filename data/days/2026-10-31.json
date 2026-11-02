@@ -112,9 +112,9 @@
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 29.5,
+      "score": 29.6,
       "metrics": {
-        "points": 257,
+        "points": 259,
         "comments": 137
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50316531",
@@ -330,11 +330,39 @@
       "publishedAt": "2026-10-31T13:49:44.000Z",
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-10-31",
-      "category": "agent",
+      "category": "opensource",
       "keywords": [
         "Agent"
       ],
-      "score": 22
+      "score": 22,
+      "ai": {
+        "summary": "DeepSeek重磅开源Agent底座架构。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T09:07:15.860Z"
+      }
+    },
+    {
+      "id": "20xbboipeuh",
+      "key": "gh:kerlenton/bootgpt",
+      "title": "Show HN: A language model that lives in a boot sector",
+      "url": "https://github.com/kerlenton/bootgpt",
+      "excerpt": "All the ideas came from the boot sector demo scene where people had been writing chess and BASIC games in 512 bytes, even a C compiler. I wondered what one can do using a neural network instead of a program and generating boot logs for non-existent hardware was something fun to…",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-31T12:58:29.000Z",
+      "firstSeenAt": "2026-11-02T09:04:24.822Z",
+      "day": "2026-10-31",
+      "category": "opensource",
+      "score": 19.8,
+      "metrics": {
+        "points": 100,
+        "comments": 6
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50315782",
+      "aiAttempts": 1
     },
     {
       "id": "20gmxrj8tm1",
@@ -468,7 +496,7 @@
       "category": "industry",
       "score": 32.5,
       "metrics": {
-        "points": 357,
+        "points": 359,
         "comments": 176
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50314699",
@@ -651,7 +679,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 8223
+        "stars": 10466
       },
       "aiAttempts": 2,
       "ai": {
@@ -695,7 +723,7 @@
         "firstPublishedAt": "2026-10-31T03:22:44.000Z",
         "metrics": {
           "points": 186,
-          "comments": 200
+          "comments": 201
         }
       },
       "ai": {
@@ -1094,7 +1122,7 @@
       "score": 28.1,
       "metrics": {
         "points": 186,
-        "comments": 200
+        "comments": 201
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50312922",
       "aiAttempts": 1,
@@ -1213,8 +1241,8 @@
       "publishedAt": "2026-10-31T02:51:00.000Z",
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-10-31",
-      "category": "model",
-      "score": 36,
+      "category": "opensource",
+      "score": 30,
       "related": [
         {
           "id": "1hquplxdo1r",
@@ -1232,6 +1260,12 @@
           "reddit-localllama"
         ],
         "firstPublishedAt": "2026-10-30T12:34:31.000Z"
+      },
+      "ai": {
+        "summary": "商汤开源SenseNova Loop-9B-Preview，探索以计算深度释放模型潜力。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T09:07:15.860Z"
       }
     },
     {
@@ -1520,10 +1554,18 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkjrdl/please_tell_me_qwen38flashnext_can_be_made_to_be/",
           "title": "Please tell me Qwen3.8-Flash-Next can be made to be better than this",
           "publishedAt": "2026-10-31T19:56:22.000Z"
+        },
+        {
+          "id": "gjqdx8wk8v",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlicia/qwen_38_flash_next_nvfp4_on_64gb_ram_and_5090/",
+          "title": "Qwen 3.8 Flash Next NVFP4 on 64gb RAM and 5090, Basalt. Ditched windows for it. Very hyped for qwen 4 model family now.",
+          "publishedAt": "2026-11-01T23:56:49.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "reddit-localllama"
         ],
@@ -2221,7 +2263,7 @@
       "category": "industry",
       "score": 32,
       "metrics": {
-        "points": 296,
+        "points": 297,
         "comments": 255
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50307183",
@@ -2294,7 +2336,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 40253,
+        "stars": 40652,
         "starsToday": 929
       },
       "ai": {
