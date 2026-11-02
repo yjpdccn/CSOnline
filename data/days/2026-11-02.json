@@ -2,6 +2,93 @@
   "day": "2026-11-02",
   "items": [
     {
+      "id": "1ly0pdlblh4",
+      "key": "url:jiqizhixin.com/articles/2026-11-02-10",
+      "title": "支付宝AHA智能体多端互联方案获世界互联网大会“新耀”场景奖",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-02-10",
+      "excerpt": "11月2日，2026年世界互联网大会乌镇峰会开幕。支付宝AHA（Agent Hub Access）智能体多端互联方案获\"新耀\"场景奖。该奖项重点考察数智技术落地实效与复制推广价值，是峰会在产业应用侧的重要认可。本批20个获奖方案覆盖金融、制造、城市治理、具身智能等多领域。AHA作为支付宝首创的...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T09:35:00.000Z",
+      "firstSeenAt": "2026-11-02T09:39:37.605Z",
+      "day": "2026-11-02",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "具身智能"
+      ],
+      "score": 18,
+      "dupOf": "tztbrfsc75"
+    },
+    {
+      "id": "1tr6rerthxj",
+      "key": "url:36kr.com/p/4052246253572992",
+      "title": "唱个反调，很多人觉得AI和自己没关系",
+      "url": "https://36kr.com/p/4052246253572992",
+      "excerpt": "对AI的认知是华丽的结果，归功于那些AI自媒体们",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T09:30:39.116Z",
+      "firstSeenAt": "2026-11-02T09:39:37.605Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "AI 认知往往被自媒体过度包装，与普通人实际关联不大。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T09:41:10.819Z"
+      }
+    },
+    {
+      "id": "19gcekirl9k",
+      "key": "url:36kr.com/p/4052310948123528",
+      "title": "AI“杀死币圈”？",
+      "url": "https://36kr.com/p/4052310948123528",
+      "excerpt": "63亿美元加密货币被盗，AI让整个币圈提心吊胆",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T09:14:52.664Z",
+      "firstSeenAt": "2026-11-02T09:39:37.605Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "AI 技术被用于窃取 63 亿美元加密货币，引发币圈恐慌。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T09:41:10.819Z"
+      }
+    },
+    {
+      "id": "yqtdp5cg7i",
+      "key": "url:36kr.com/p/4052312512844678",
+      "title": "500 万人抽签看陈奕迅，AI 会终结「抢票时代」吗？",
+      "url": "https://36kr.com/p/4052312512844678",
+      "excerpt": "抽签看演唱会，可能是最「不坏」的选择",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T09:12:13.871Z",
+      "firstSeenAt": "2026-11-02T09:39:37.605Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "AI 技术或终结演唱会门票的抢票时代。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T09:41:10.819Z"
+      }
+    },
+    {
       "id": "tztbrfsc75",
       "key": "url:36kr.com/newsflashes/4052388312519561",
       "title": "世界互联网大会领先科技奖出炉，蚂蚁旗下健康AI蚂蚁阿福获奖",
@@ -15,12 +102,51 @@
       "firstSeenAt": "2026-11-02T09:04:24.822Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "蚂蚁健康AI蚂蚁阿福获世界互联网大会领先科技奖。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-02T09:07:15.860Z"
+      },
+      "related": [
+        {
+          "id": "1ly0pdlblh4",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-02-10",
+          "title": "支付宝AHA智能体多端互联方案获世界互联网大会“新耀”场景奖",
+          "publishedAt": "2026-11-02T09:35:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-02T09:02:33.840Z"
+      }
+    },
+    {
+      "id": "1lttq313ezj",
+      "key": "url:infoq.cn/article/FckEhkVfCLoXg0jvaKBa",
+      "title": "AI+FDE：合格的FDE，要亲手跟老师傅做业务，再把经验解法做成Skill ｜深空之序联合创始人兼COO 芦宇峰分享",
+      "url": "https://www.infoq.cn/article/FckEhkVfCLoXg0jvaKBa?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T09:01:29.000Z",
+      "firstSeenAt": "2026-11-02T09:39:37.605Z",
+      "day": "2026-11-02",
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "AI 与 FDE 结合，将业务经验转化为可复用的 Skill。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T09:41:10.819Z"
       }
     },
     {
@@ -372,6 +498,31 @@
       "dupOf": "29vekxt08rx"
     },
     {
+      "id": "8glvs2fmxs",
+      "key": "url:leiphone.com/category/industrynews/mUPVr3RF0MHNmn3t.html",
+      "title": "美团发布LongCat-2.5大模型，“国芯国模”实现新突破",
+      "url": "https://www.leiphone.com/category/industrynews/mUPVr3RF0MHNmn3t.html",
+      "excerpt": "11月2日，美团发布新一代大模型LongCat-2.5，这是一款面向长程智能体任务的原生多模态模型，总参数1.6万亿。LongCat-2.5延续了此前LongCat系列模型的研发方向，全程在国产算力上训练，是目前国产算力上完成的最大训练任务。",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T07:23:00.000Z",
+      "firstSeenAt": "2026-11-02T09:39:37.605Z",
+      "day": "2026-11-02",
+      "category": "model",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 28,
+      "ai": {
+        "summary": "美团发布面向长程智能体任务的 LongCat-2.5 大模型。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T09:41:10.819Z"
+      }
+    },
+    {
       "id": "j61ron54gh",
       "key": "url:36kr.com/newsflashes/4052290338231174",
       "title": "非洲首次举办奥林匹克赛事，阿里巴巴以AI云技术支持达喀尔青奥会",
@@ -433,6 +584,31 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-02T09:05:56.649Z"
+      }
+    },
+    {
+      "id": "zofsjakn6e",
+      "key": "url:leiphone.com/category/industrynews/MFtJXmU8YNMGMig6.html",
+      "title": "阿里云发布AI投研工作台Qovest，给专业投资者配一个“AI研究员”",
+      "url": "https://www.leiphone.com/category/industrynews/MFtJXmU8YNMGMig6.html",
+      "excerpt": "11月2日，阿里云正式发布面向专业机构投资者的AI投研工作台Qovest。用户用一句话提出研究需求，Qovest就会自动查数据、收集资料、深度分析、生成报告，并按设定的频率持续跟踪研究对象。与一次性问答不同，Qovest可以把每次的研究结果沉淀到投研空间，让一项研究能接着往下做，不必每次从零开始。近期，Qovest将推出企业版，服务金融机构及企业的投研团队。 专业投资者对Agent的要求，远比日常聊天要高：数据要实时和准确，输出结果要有明确出处，研究结论必须专业可靠。为此，Qovest团队采购权威金融数据库、将其部署在阿里云上，自研面向金融场景的Age…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T07:09:00.000Z",
+      "firstSeenAt": "2026-11-02T09:39:37.605Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22,
+      "ai": {
+        "summary": "阿里云发布面向专业投资者的 AI 投研工作台 Qovest。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T09:41:10.819Z"
       }
     },
     {
@@ -2073,17 +2249,18 @@
       "day": "2026-11-02",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.1,
+      "score": 21.3,
       "metrics": {
-        "upvotes": 52,
+        "upvotes": 53,
         "comments": 1
       },
       "aiAttempts": 1,
       "ai": {
-        "summary": "论文探讨系统一与系统二协同对 AGI 扩展的影响。",
+        "title": "系统1与系统2的协同设计能否加速AGI发展",
+        "summary": "通过轻量级预测评估器与重型推理系统协同设计，可降低执行成本。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-11-02T09:05:35.775Z"
+        "at": "2026-11-02T09:41:10.819Z"
       }
     },
     {
@@ -2144,8 +2321,8 @@
       "category": "industry",
       "score": 29.6,
       "metrics": {
-        "points": 224,
-        "comments": 221
+        "points": 225,
+        "comments": 222
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50330456",
       "aiAttempts": 2,

@@ -156,38 +156,40 @@
   },
   "2026-11-02": {
     "day": "2026-11-02",
-    "generatedAt": "2026-11-02T09:08:04.687Z",
-    "itemCount": 117,
-    "mode": "fallback",
-    "overview": "过去 24 小时共收录 117 条 AI 资讯：产品与行业 63 条、Agent 与工具 22 条、论文 14 条、开源项目 12 条、模型发布 5 条、多模态与视频 1 条。以下为按重要性排序的前 5 条。",
+    "generatedAt": "2026-11-02T09:41:16.398Z",
+    "itemCount": 121,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "OpenAI GPT-6.2 Astra曝光，美团发布长程智能体大模型，阿里开源3D生成算法。",
     "points": [
       {
-        "text": "【行业】2026达喀尔青奥会开幕，阿里巴巴技术支持非洲首个奥运赛事",
-        "refs": [
-          "juv3v3l16"
-        ]
-      },
-      {
-        "text": "【模型】刚刚，OpenAI新模型GPT-6.2 Astra曝光！",
+        "text": "OpenAI新模型GPT-6.2 Astra曝光，引发广泛关注。",
         "refs": [
           "ox97qtno1d"
         ]
       },
       {
-        "text": "【行业】优必选Thinker-Sim具身智能仿真平台发布",
+        "text": "美团发布LongCat-2.5大模型，面向长程智能体任务。",
+        "refs": [
+          "8glvs2fmxs"
+        ]
+      },
+      {
+        "text": "阿里开源Taobao3D拓扑生成算法，降低高质量3D生产成本。",
+        "refs": [
+          "gqn1xgry16"
+        ]
+      },
+      {
+        "text": "优必选发布Thinker-Sim具身智能仿真平台，覆盖仿真与评测。",
         "refs": [
           "1sp6ptujuns"
         ]
       },
       {
-        "text": "【行业】AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+        "text": "OpenAI计划将数据中心改名为‘AI计算园区’。",
         "refs": [
-          "1xg0tlcktwr"
-        ]
-      },
-      {
-        "text": "【行业】“数据中心”名声臭了，OpenAI想给它改个名字",
-        "refs": [
+          "z6vtnd3ys0",
           "5hycsabecn"
         ]
       }

@@ -355,14 +355,21 @@
       "publishedAt": "2026-10-31T12:58:29.000Z",
       "firstSeenAt": "2026-11-02T09:04:24.822Z",
       "day": "2026-10-31",
-      "category": "opensource",
+      "category": "agent",
       "score": 19.8,
       "metrics": {
         "points": 100,
         "comments": 6
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50315782",
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "Show HN：一个驻留在引导扇区的语言模型",
+        "summary": "利用神经网络替代程序，在极小空间内生成非硬件的引导日志。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T09:41:10.819Z"
+      }
     },
     {
       "id": "20gmxrj8tm1",
@@ -679,7 +686,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 10466
+        "stars": 10669
       },
       "aiAttempts": 2,
       "ai": {
@@ -1788,7 +1795,7 @@
         ],
         "firstPublishedAt": "2026-10-30T17:27:25.000Z",
         "metrics": {
-          "points": 324,
+          "points": 325,
           "comments": 293
         }
       },
@@ -2242,7 +2249,7 @@
       "category": "industry",
       "score": 33,
       "metrics": {
-        "points": 324,
+        "points": 325,
         "comments": 293
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50307219",
@@ -2336,7 +2343,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 40652,
+        "stars": 40691,
         "starsToday": 929
       },
       "ai": {
