@@ -1,6 +1,2080 @@
 {
-  "updatedAt": "2026-11-02T10:03:13.682Z",
+  "updatedAt": "2026-11-02T20:45:22.918Z",
   "items": [
+    {
+      "id": "1w8j5rizf8a",
+      "key": "url:cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html",
+      "title": "Apple earnings live updates: New CEO John Ternus faces first Wall Street test",
+      "url": "https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T20:43:25.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Follow Apple Q4 2026 earnings live for revenue, EPS, iPhone sales, China performance, AI updates, holiday guidance and AAPL stock reaction.",
+      "ai": {
+        "title": "苹果财报更新：新CEO John Ternus面临华尔街首考",
+        "summary": "关注苹果2026财年Q4财报，包括营收、EPS、iPhone销量、中国业绩、AI更新及股价反应。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:49:27.357Z"
+      }
+    },
+    {
+      "id": "1cufc1lg3ab",
+      "key": "url:marketwatch.com/story/chip-stocks-are-suffering-from-a-crisis-of-confidence-but-things-arent-as-gloomy-as-they-seem-6ed14ea9?mod=mw_rss_topstories",
+      "title": "Chip stocks are suffering from a ‘crisis of confidence’ — but things aren’t as gloomy as they seem",
+      "url": "https://www.marketwatch.com/story/chip-stocks-are-suffering-from-a-crisis-of-confidence-but-things-arent-as-gloomy-as-they-seem-6ed14ea9?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T20:30:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Investors are worried about whether there will be sustained demand for chips, but one analyst notes that large tech companies are still spending heavily.",
+      "ai": {
+        "title": "芯片股陷入信心危机，但情况并非看起来那么悲观",
+        "summary": "投资者担心芯片需求能否持续，但分析师指出大型科技公司仍在大量支出。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:49:27.357Z"
+      }
+    },
+    {
+      "id": "c5exswgrmr",
+      "key": "url:cnbc.com/2026/11/02/trump-midterm-election-speech-reflecting-pool.html",
+      "title": "Trump focuses on Reflecting Pool in final public speech before midterms",
+      "url": "https://www.cnbc.com/2026/11/02/trump-midterm-election-speech-reflecting-pool.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T20:29:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "Trump seemed to acknowledge that Democrats had an advantage heading into Election Day. \"But we gave this a very strong shot,\" he said.",
+      "ai": {
+        "title": "特朗普中期选举前最后公开演讲聚焦倒影池",
+        "summary": "特朗普似乎承认民主党在选举日拥有优势，但表示他们已尽力一搏。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:49:27.357Z"
+      }
+    },
+    {
+      "id": "1g4nkjsmpjt",
+      "key": "url:cnbc.com/2026/11/02/the-midterms-are-here-how-jpmorgan-expects-the-market-to-react.html",
+      "title": "The midterms are here. How JPMorgan expects the market to react",
+      "url": "https://www.cnbc.com/2026/11/02/the-midterms-are-here-how-jpmorgan-expects-the-market-to-react.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T20:20:43.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us",
+        "us-stocks"
+      ],
+      "excerpt": "History shows elections are positive for stocks. But a blue wave, Republicans holding on or a split Congress carry different implications for the market.",
+      "ai": {
+        "title": "中期选举来临，摩根大通预期市场反应",
+        "summary": "历史显示选举对股市有利，但蓝潮、共和党守势或国会分裂影响不同。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:49:27.357Z"
+      }
+    },
+    {
+      "id": "kmffje9dui",
+      "key": "url:cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html",
+      "title": "Intel foundry push faces critical test after stock's 45% plunge in October",
+      "url": "https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T20:20:34.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Intel’s turnaround now hinges on proving its foundry strategy can deliver, as customers look for signs the company will add fab capacity and catch TSMC"
+    },
+    {
+      "id": "2eg2b58oe8q",
+      "key": "url:cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+      "title": "Crude oil prices sell off more than 7% on Iran peace talk hopes ahead of U.S. midterms",
+      "url": "https://www.cnbc.com/2026/11/02/oil-prices-fall-as-iran-us-pursue-diplomacy.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T20:19:25.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "Oil fell Monday, amid news that both the U.S. and Iran are pursuing diplomacy amid ongoing Mideast tensions"
+    },
+    {
+      "id": "1np2ez1pcc1",
+      "key": "em:202611033919187378",
+      "title": "特朗普表示不会在中期选举后对伊朗发动打击",
+      "url": "https://finance.eastmoney.com/a/202611033919187378.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T20:05:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "特朗普表示不会在中期选举后对伊朗发动打击。",
+      "dupOf": "2e0soc5p4s8"
+    },
+    {
+      "id": "ztftugdb3c",
+      "key": "cls:2523134",
+      "title": "特朗普表示不会在中期选举后对伊朗发动打击",
+      "url": "https://www.cls.cn/detail/2523134",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T20:04:37.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "flag": 1,
+      "dupOf": "2e0soc5p4s8"
+    },
+    {
+      "id": "1itsjeks2hf",
+      "key": "sina:5188261",
+      "title": "美国财政部上调三季度融资预估至7390亿美元",
+      "url": "https://finance.sina.cn/7x24/2026-11-03/detail-inixkvsi0097061.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T20:04:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "美国财政部上调7至9月发债融资预期至7390亿美元。美国财政部预估，2026年7至9月面向私人部门的可流通国债净融资规模为7390亿美元，假设9月末现金余额为9500亿美元。该融资预估较5月的预测值上调680亿美元，主要原因是净现金流入预期下降。若剔除高于预期的季初现金余额，融资预估较5月预测高出870亿美元。财政部预计2026年10至12月融资规模6280亿美元，假设12月末现金余额为8500亿美元。2026年4至6月，财政部实际融资1900亿美元，此前预估为1890亿美元。财政部6月末现金余额9190亿美元，高于9000亿美元的预期。"
+    },
+    {
+      "id": "2e0soc5p4s8",
+      "key": "wscn:3192820",
+      "title": "标普转涨，特朗普称：不会在中期选举后再次袭击伊朗",
+      "url": "https://wallstreetcn.com/livenews/3192820",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T20:03:11.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 34,
+      "topics": [
+        "policy-us",
+        "us-stocks"
+      ],
+      "excerpt": "标普500指数转涨。美国总统特朗普被“记者团播报”问及是否考虑在中期选举之后再次打击伊朗，声称：不会。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "ztftugdb3c",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2523134",
+          "title": "特朗普表示不会在中期选举后对伊朗发动打击",
+          "publishedAt": "2026-11-02T20:04:37.000Z"
+        },
+        {
+          "id": "1np2ez1pcc1",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202611033919187378.html",
+          "title": "特朗普表示不会在中期选举后对伊朗发动打击",
+          "publishedAt": "2026-11-02T20:05:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "wscn-global",
+          "cls",
+          "em-commodity"
+        ],
+        "firstPublishedAt": "2026-11-02T20:03:11.000Z"
+      }
+    },
+    {
+      "id": "1r7rq4zju05",
+      "key": "url:cnbc.com/2026/11/02/trump-accounts-spacex-shares-shotwell.html",
+      "title": "Trump Account holders to receive SpaceX stock from Gwynne Shotwell in December",
+      "url": "https://www.cnbc.com/2026/11/02/trump-accounts-spacex-shares-shotwell.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T19:46:47.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us",
+        "us-stocks"
+      ],
+      "excerpt": "Eligible Trump Account holders will begin receiving donated shares of SpaceX stock in December, President and COO Gwynne Shotwell said in a post on X."
+    },
+    {
+      "id": "1o671sa42hp",
+      "key": "em:202611033919185323",
+      "title": "旧金山联储研究：厄尔尼诺或加剧美国2027年通胀压力",
+      "url": "https://finance.eastmoney.com/a/202611033919185323.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T19:34:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "excerpt": "旧金山联储周一发布的一项研究显示，可能导致未来几个月海洋温度创纪录上升的厄尔尼诺现象，或将给美国2027年通胀带来“不可忽视的上行风险”，同时也可能推动就业增长。"
+    },
+    {
+      "id": "145o02dgt03",
+      "key": "em:202611033919184886",
+      "title": "特朗普：伊朗想达成协议 这有可能发生",
+      "url": "https://finance.eastmoney.com/a/202611033919184886.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T19:30:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "特朗普表示，油价将进一步下跌，因为美国正在伊朗问题上取得胜利。伊朗想达成协议，这有可能发生。伊朗最近还说他们不会拥有核武器。伊朗要求停止杀害其领导人，我们会照办。一切进展顺利，这就是油价下跌的原因。"
+    },
+    {
+      "id": "256ynuk9ohp",
+      "key": "url:cnbc.com/2026/11/02/fed-rate-votes-consumer-borrowing-costs.html",
+      "title": "Fed will vote on rates less often. What that could mean for borrowers",
+      "url": "https://www.cnbc.com/2026/11/02/fed-rate-votes-consumer-borrowing-costs.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T19:21:15.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "Fed Chairman Kevin Warsh said he plans to reduce the number of rate-setting votes, a move some economists say could delay relief for borrowers.",
+      "ai": {
+        "title": "美联储将减少投票次数，这对借款人意味着什么",
+        "summary": "美联储主席Kevin Warsh计划减少投票次数，经济学家称这可能推迟借款人的缓解。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:49:27.357Z"
+      }
+    },
+    {
+      "id": "dkb5x3ev76",
+      "key": "url:cnbc.com/2026/11/02/prediction-market-traders-now-see-nearly-75percent-chance-of-democrats-winning-the-senate.html",
+      "title": "Prediction market traders now see nearly 75% chance of Democrats winning the Senate",
+      "url": "https://www.cnbc.com/2026/11/02/prediction-market-traders-now-see-nearly-75percent-chance-of-democrats-winning-the-senate.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T19:15:26.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "Just a day before the midterms, Kalshi traders give Democrats a 74% of controlling the Senate."
+    },
+    {
+      "id": "s9mkz5gm28",
+      "key": "em:202611033919183662",
+      "title": "美国制造业加速扩张 生产指标创2021年以来新高",
+      "url": "https://finance.eastmoney.com/a/202611033919183662.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T19:12:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "excerpt": "美国供应管理学会(ISM)制造业指数10月上升1点至55.5，为逾四年来第二高水平。这一数据高于调查中的几乎所有经济学家预期。读数高于50表明制造业处于扩张状态。周一公布的数据显示，生产指标创2021年底以来最高水平。反映需求的新订单指标升至7月以来最高，并继续稳居扩张区间。"
+    },
+    {
+      "id": "ujewbp06ga",
+      "key": "url:cnbc.com/2026/11/02/midterm-election-stocks-defense-healthcare-crypto-ai.html",
+      "title": "Defense, healthcare, crypto and AI: How the midterm election could affect stocks",
+      "url": "https://www.cnbc.com/2026/11/02/midterm-election-stocks-defense-healthcare-crypto-ai.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T18:59:48.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us",
+        "us-stocks"
+      ],
+      "excerpt": "Democratic gains in Congress could bring tougher oversight of major companies and shift billions of dollars in federal spending and regulatory policy."
+    },
+    {
+      "id": "1xazz1agxkc",
+      "key": "em:202611033919180932",
+      "title": "上期所原油期货2612合约夜盘收跌8.62% 沪金夜盘收涨1.18%",
+      "url": "https://finance.eastmoney.com/a/202611033919180932.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T18:33:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "上期所原油期货2612合约夜盘收跌8.62%，报681元人民币/桶。沪金夜盘收涨1.18%，沪银收涨3.41%。",
+      "dupOf": "15zqd15bp5e"
+    },
+    {
+      "id": "15zqd15bp5e",
+      "key": "wscn:3192791",
+      "title": "上期所原油期货夜盘收跌超8.6%",
+      "url": "https://wallstreetcn.com/livenews/3192791",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T18:30:19.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "上期所原油期货2612合约夜盘收跌8.62%，报681元人民币/桶。 沪金夜盘收涨1.18%，沪银收涨3.41%。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "1xazz1agxkc",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202611033919180932.html",
+          "title": "上期所原油期货2612合约夜盘收跌8.62% 沪金夜盘收涨1.18%",
+          "publishedAt": "2026-11-02T18:33:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "wscn-global",
+          "em-commodity"
+        ],
+        "firstPublishedAt": "2026-11-02T18:30:19.000Z"
+      }
+    },
+    {
+      "id": "17yzycfblvu",
+      "key": "em:202611033919180276",
+      "title": "美联储隔夜逆回购协议周一使用规模为50.87亿美元（交易对手6家） 上个交易日报43.75亿美元",
+      "url": "https://finance.eastmoney.com/a/202611033919180276.html",
+      "lang": "zh",
+      "sourceId": "em-cb",
+      "sourceName": "东方财富·全球央行",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T18:25:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "pboc"
+      ],
+      "excerpt": "美联储隔夜逆回购协议（RRP）周一使用规模为50.87亿美元（交易对手6家），上个交易日报43.75亿美元。"
+    },
+    {
+      "id": "9hy0xtzpwy",
+      "key": "sina:5188174",
+      "title": "周一（11月2日），美联储隔夜逆回购协议（RRP）使用规模为50.87亿美元（交易对手6家），上个交易日报43.75亿美元",
+      "url": "https://finance.sina.cn/7x24/2026-11-03/detail-inixkrkm0204135.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T18:16:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "pboc"
+      ]
+    },
+    {
+      "id": "20hhl185ikb",
+      "key": "url:marketwatch.com/story/it-may-take-weeks-to-tally-the-midterm-election-results-heres-why-wall-street-isnt-worried-ed9313fd?mod=mw_rss_topstories",
+      "title": "It may take weeks to tally the midterm election results. Here’s why Wall Street isn’t worried.",
+      "url": "https://www.marketwatch.com/story/it-may-take-weeks-to-tally-the-midterm-election-results-heres-why-wall-street-isnt-worried-ed9313fd?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T18:16:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us",
+        "us-stocks"
+      ],
+      "excerpt": "It’s crucial to distinguish economic from political uncertainty, because only one really moves the stock market.",
+      "ai": {
+        "title": "中期选举结果可能需要数周统计，华尔街并不担心",
+        "summary": "区分经济和政治不确定性，因为只有前者真正影响股市。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:49:27.357Z"
+      }
+    },
+    {
+      "id": "1044z0pvx4f",
+      "key": "url:cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "title": "Oracle files to sell $20 billion in new stock, bonds to finance AI buildout",
+      "url": "https://www.cnbc.com/2026/11/02/oracle-files-to-sell-20-billion-in-new-stock-bonds-to-finance-ai-buildout.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T18:09:26.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Oracle filed plans on Monday to issue new shares and more debt to finance its artificial intelligence buildout."
+    },
+    {
+      "id": "7zvzep5blt",
+      "key": "url:cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+      "title": "Stock market after midterm elections: What S&P 500 history shows",
+      "url": "https://www.cnbc.com/2026/11/02/stock-market-after-midterm-elections-sp-500-history.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T17:57:35.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us",
+        "us-stocks"
+      ],
+      "excerpt": "Midterms historically precede a strong year for the S&P 500. What to know if Democrats win back Congress"
+    },
+    {
+      "id": "1hriy88px2q",
+      "key": "url:marketwatch.com/story/oracles-stock-falls-as-the-company-details-plan-to-raise-20-billion-f03f5e16?mod=mw_rss_topstories",
+      "title": "Oracle wants $20 billion to fund its AI future — and its stock is paying the price",
+      "url": "https://www.marketwatch.com/story/oracles-stock-falls-as-the-company-details-plan-to-raise-20-billion-f03f5e16?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T17:31:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Oracle debt has been trading like a “junk bond” as the company borrows money and issues stock to help finance its AI cloud growth."
+    },
+    {
+      "id": "hnppzw11dw",
+      "key": "em:202611033919175257",
+      "title": "国际金价走弱 金饰消费活跃",
+      "url": "https://finance.eastmoney.com/a/202611033919175257.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T17:17:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "近期，国际金价大幅下降，伦敦金现货价格在10月31日创下一年来新低，盘中最低触及3869.96美元/盎司。万得数据显示，截至11月2日17时，现货黄金报3898.31美元/盎司，较今年1月29日5598.75美元/盎司的历史高点回落30.37%。"
+    },
+    {
+      "id": "1wzaukfpoox",
+      "key": "url:cnbc.com/investingclub/2026/11/02/crowdstrike-lands-an-upgrade-and-jim-cramers-advice-on-apple-ahead-of-earnings.html",
+      "title": "CrowdStrike lands an upgrade, and Jim Cramer's advice on Apple ahead of earnings",
+      "url": "https://www.cnbc.com/investingclub/2026/11/02/crowdstrike-lands-an-upgrade-and-jim-cramers-advice-on-apple-ahead-of-earnings.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T17:04:34.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET."
+    },
+    {
+      "id": "25tv2y67a1b",
+      "key": "url:marketwatch.com/story/6-dividend-stocks-for-investors-who-want-to-cut-their-exposure-to-the-s-p-500-52519928?mod=mw_rss_topstories",
+      "title": "6 dividend stocks for investors who want to cut their exposure to the S&P 500",
+      "url": "https://www.marketwatch.com/story/6-dividend-stocks-for-investors-who-want-to-cut-their-exposure-to-the-s-p-500-52519928?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T16:56:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Novartis, Mitsubishi and Canadian Natural are examples of companies in developed markets outside the U.S. that pass screens for high dividend yields and low volatility for prices and earnings."
+    },
+    {
+      "id": "1pdi1tqrq8g",
+      "key": "url:marketwatch.com/story/these-tech-stocks-got-unfairly-swept-up-in-last-weeks-selloff-analysts-say-e296c1b3?mod=mw_rss_topstories",
+      "title": "These tech stocks got unfairly swept up in last week’s selloff, analysts say",
+      "url": "https://www.marketwatch.com/story/these-tech-stocks-got-unfairly-swept-up-in-last-weeks-selloff-analysts-say-e296c1b3?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T16:50:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "One analyst notes “a meaningful gap between price and fundamentals” in some corners of the chip sector."
+    },
+    {
+      "id": "dd6zh5knt1",
+      "key": "sina:5188132",
+      "title": "美国财政部拍卖三个月期国债，得标利率4.040%，投标倍数2.88。拍卖六个月期国债，得标利率4.150%，投标倍数2.89",
+      "url": "https://finance.sina.cn/7x24/2026-11-03/detail-inixkmaq7084387.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T16:32:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ]
+    },
+    {
+      "id": "27lqbne2edp",
+      "key": "em:202611033919168696",
+      "title": "特朗普政府的司法部就加州选票争议向美国最高法院寻求介入",
+      "url": "https://finance.eastmoney.com/a/202611033919168696.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T16:25:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "特朗普政府的司法部就加州选票争议向美国最高法院寻求介入。"
+    },
+    {
+      "id": "1je81qj7krd",
+      "key": "em:202611033919164958",
+      "title": "美国中期选举今天投票",
+      "url": "https://finance.eastmoney.com/a/202611033919164958.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T16:13:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "今天（11月3日），美国中期选举将迎来正式投票日。截至当地时间10月31日，已有创纪录的5000万人提前投票。此次选举被视为美国人对特朗普政府近两年执政表现的一次评分，也将影响共和党和民主党未来两年在国会的力量对比，以及在各州的影响力。",
+      "dupOf": "2cjct5ub54r"
+    },
+    {
+      "id": "18mb9sxmk0h",
+      "key": "em:202611023919156731",
+      "title": "伊朗最高领袖释放与美国进一步谈判信号 国际油价应声大跌金价跳涨2%",
+      "url": "https://finance.eastmoney.com/a/202611023919156731.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:48:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "北京时间周一晚间，来自伊朗方面的一则头条新闻引发全球市场剧烈震荡，国际油价大幅暴跌，现货黄金跳涨近2%。",
+      "dupOf": "1s69lzi6mev"
+    },
+    {
+      "id": "irl3jhaxl5",
+      "key": "sina:5188105",
+      "title": "欧洲央行Escriva：人工智能估值显然偏高。我对人工智能的影响持乐观态度，认为其将带来巨大的生产力提升",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmas2717353.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:40:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "a1znqitb9"
+    },
+    {
+      "id": "98w5jdt7dy",
+      "key": "url:cnbc.com/2026/11/02/wall-streets-fear-index-is-doing-something-strange-heres-what-it-means-for-stocks.html",
+      "title": "Wall Street's Fear Index is doing something strange. Here's what it means for stocks",
+      "url": "https://www.cnbc.com/2026/11/02/wall-streets-fear-index-is-doing-something-strange-heres-what-it-means-for-stocks.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T15:30:41.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "VIX deemed \"unreactive\" by options traders"
+    },
+    {
+      "id": "4ot8ylp9b",
+      "key": "sina:5188099",
+      "title": "欧洲央行Escriva：近年来市场对价格风险基本免疫",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmap0286546.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:30:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "a1znqitb9"
+    },
+    {
+      "id": "29tyc5wm3te",
+      "key": "sina:5188097",
+      "title": "欧洲央行Escriva： 将利率维持在 2% 以把通胀稳定在 2% 左右是合理的",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmat9163196.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:29:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "a1znqitb9"
+    },
+    {
+      "id": "18v4t5st4gx",
+      "key": "wscn:3192735",
+      "title": "中概指数涨超3%，小鹏、小米、联想、阿里至少涨约6%",
+      "url": "https://wallstreetcn.com/livenews/3192735",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:26:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "纳斯达克金龙中国指数涨幅扩大至3.2%，中概股小鹏涨8%，小米ADR涨6.2%，联想ADR涨5.9%，阿里涨5.8%，拼多多涨5.1%，日月光半导体涨4.7%，腾讯ADR涨3.3%，比亚迪ADR涨3.2%，百度涨3.1%，京东、美团ADR、新东方至少涨超2.8%，网易涨1.9%。 ETF中，KWEB涨3.9%，CQQQ涨3.3%。 富时A50夜期涨0.45%。",
+      "flag": 1
+    },
+    {
+      "id": "lkn2pr3p7k",
+      "key": "sina:5188083",
+      "title": "欧洲央行Escriva：目前尚无第二轮效应的迹象",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmaq7060125.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:22:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "a1znqitb9"
+    },
+    {
+      "id": "21p3ncuzvrj",
+      "key": "sina:5188082",
+      "title": "欧洲央行Escriva：油气价格冲击高于预期",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmat9161177.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:22:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "a1znqitb9"
+    },
+    {
+      "id": "21ek6oadajt",
+      "key": "cls:2523069",
+      "title": "纳指、道琼斯指数涨幅扩大至1%",
+      "url": "https://www.cls.cn/detail/2523069",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:19:21.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "纳指、道琼斯指数涨幅扩大至1%；明星科技股中亚马逊涨近5%，SK海力士、谷歌涨近3%，特斯拉、英伟达涨近2%。",
+      "flag": 1,
+      "dupOf": "1d50ikuwksy"
+    },
+    {
+      "id": "1zqkcnvt80w",
+      "key": "sina:5188079",
+      "title": "欧洲央行Escriva：不确定性如此之高，提供前瞻性指引将是一个错误",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmap0283368.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:19:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "a1znqitb9"
+    },
+    {
+      "id": "1lumkbqeipq",
+      "key": "sina:5188077",
+      "title": "欧洲央行Escriva：利率情景高度复杂",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmap0283097.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:18:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "a1znqitb9"
+    },
+    {
+      "id": "a1znqitb9",
+      "key": "sina:5188069",
+      "title": "欧洲央行Escriva：缺乏财政调整的问题不止出现在法国",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmat9158940.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:13:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "related": [
+        {
+          "id": "1lumkbqeipq",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmap0283097.d.html",
+          "title": "欧洲央行Escriva：利率情景高度复杂",
+          "publishedAt": "2026-11-02T15:18:00.000Z"
+        },
+        {
+          "id": "1zqkcnvt80w",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmap0283368.d.html",
+          "title": "欧洲央行Escriva：不确定性如此之高，提供前瞻性指引将是一个错误",
+          "publishedAt": "2026-11-02T15:19:00.000Z"
+        },
+        {
+          "id": "21p3ncuzvrj",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmat9161177.d.html",
+          "title": "欧洲央行Escriva：油气价格冲击高于预期",
+          "publishedAt": "2026-11-02T15:22:00.000Z"
+        },
+        {
+          "id": "lkn2pr3p7k",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmaq7060125.d.html",
+          "title": "欧洲央行Escriva：目前尚无第二轮效应的迹象",
+          "publishedAt": "2026-11-02T15:22:00.000Z"
+        },
+        {
+          "id": "29tyc5wm3te",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmat9163196.d.html",
+          "title": "欧洲央行Escriva： 将利率维持在 2% 以把通胀稳定在 2% 左右是合理的",
+          "publishedAt": "2026-11-02T15:29:00.000Z"
+        },
+        {
+          "id": "4ot8ylp9b",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmap0286546.d.html",
+          "title": "欧洲央行Escriva：近年来市场对价格风险基本免疫",
+          "publishedAt": "2026-11-02T15:30:00.000Z"
+        },
+        {
+          "id": "irl3jhaxl5",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmas2717353.d.html",
+          "title": "欧洲央行Escriva：人工智能估值显然偏高。我对人工智能的影响持乐观态度，认为其将带来巨大的生产力提升",
+          "publishedAt": "2026-11-02T15:40:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 8,
+        "sources": [
+          "sina"
+        ],
+        "firstPublishedAt": "2026-11-02T15:13:00.000Z"
+      }
+    },
+    {
+      "id": "25z2kt94nlr",
+      "key": "sina:5188056",
+      "title": "蓝佛安出席2026年中亚经济合作天山论坛开幕式",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmaq7055552.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:08:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "2026年11月2日至3日，中亚经济合作天山论坛在哈萨克斯坦阿拉木图举行，财政部部长蓝佛安出席开幕式并致辞，部长助理常军红陪同参会。蓝佛安指出，今年是中国“十五五”规划开局之年，中国经济运行总体平稳、稳中有进，前三季度国内生产总值同比增长4.6%，展现出强大韧性和活力。中国将持续推动高质量发展，扩大高水平开放，为包括中亚国家在内的世界各国带来更多发展机遇。同时，中方愿与中亚各国加强合作，大力弘扬“中国—中亚精神”，构建更加紧密的中国—中亚命运共同体，支持中亚地区发展成为连通欧亚大陆的“黄金十字路口”。（财政部）"
+    },
+    {
+      "id": "yauflrw2yl",
+      "key": "sina:5188053",
+      "title": "法国央行行长穆兰：欧洲央行行长拉加德希望开启职业生涯新篇章",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmap0279233.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:07:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "2b9zu9gvo8g"
+    },
+    {
+      "id": "2b9zu9gvo8g",
+      "key": "sina:5188051",
+      "title": "欧洲央行Escriva：央行行长拉加德有充分的理由提前离职",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmat9156504.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:06:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "related": [
+        {
+          "id": "yauflrw2yl",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkmap0279233.d.html",
+          "title": "法国央行行长穆兰：欧洲央行行长拉加德希望开启职业生涯新篇章",
+          "publishedAt": "2026-11-02T15:07:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "sina"
+        ],
+        "firstPublishedAt": "2026-11-02T15:06:00.000Z"
+      }
+    },
+    {
+      "id": "1nqxtvwvgxe",
+      "key": "em:202611023919130034",
+      "title": "美元指数在ISM制造业数据后保持跌势 现下跌0.35% 报101.6",
+      "url": "https://finance.eastmoney.com/a/202611023919130034.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:03:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "rates-fx"
+      ],
+      "excerpt": "美元指数在ISM制造业数据后保持跌势，现下跌0.35%，报101.6。",
+      "dupOf": "coija92137"
+    },
+    {
+      "id": "1ctdg5ee0yu",
+      "key": "em:202611023919127519",
+      "title": "美国10月ISM制造业生产指数升至59 创2021年以来最高",
+      "url": "https://finance.eastmoney.com/a/202611023919127519.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:02:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "excerpt": "美国10月ISM制造业生产指数升至59，创2021年以来最高。",
+      "dupOf": "coija92137"
+    },
+    {
+      "id": "q43y0ac3j7",
+      "key": "wscn:3192714",
+      "title": "美国10月ISM制造业新订单指数 55.5，预期 54.5，前值 55.3",
+      "url": "https://wallstreetcn.com/livenews/3192714",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:00:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 1,
+      "dupOf": "coija92137"
+    },
+    {
+      "id": "1008jt0tk3c",
+      "key": "wscn:3192713",
+      "title": "美国10月ISM制造业物价支付指数 75.2，预期 77，前值 77.9",
+      "url": "https://wallstreetcn.com/livenews/3192713",
+      "lang": "zh",
+      "sourceId": "wscn-gold",
+      "sourceName": "华尔街见闻·黄金",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:00:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "1ltoykp93m5",
+      "key": "wscn:3192712",
+      "title": "美国10月ISM制造业就业指数 52.4，预期 52，前值 52.7",
+      "url": "https://wallstreetcn.com/livenews/3192712",
+      "lang": "zh",
+      "sourceId": "wscn-gold",
+      "sourceName": "华尔街见闻·黄金",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:00:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "coija92137",
+      "key": "wscn:3192711",
+      "title": "美国10月ISM制造业指数 55.5，预期 54.7，前值 54.5",
+      "url": "https://wallstreetcn.com/livenews/3192711",
+      "lang": "zh",
+      "sourceId": "wscn-gold",
+      "sourceName": "华尔街见闻·黄金",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T15:00:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 34,
+      "topics": [
+        "macro-us"
+      ],
+      "flag": 2,
+      "related": [
+        {
+          "id": "q43y0ac3j7",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3192714",
+          "title": "美国10月ISM制造业新订单指数 55.5，预期 54.5，前值 55.3",
+          "publishedAt": "2026-11-02T15:00:00.000Z"
+        },
+        {
+          "id": "1ctdg5ee0yu",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202611023919127519.html",
+          "title": "美国10月ISM制造业生产指数升至59 创2021年以来最高",
+          "publishedAt": "2026-11-02T15:02:00.000Z"
+        },
+        {
+          "id": "1nqxtvwvgxe",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202611023919130034.html",
+          "title": "美元指数在ISM制造业数据后保持跌势 现下跌0.35% 报101.6",
+          "publishedAt": "2026-11-02T15:03:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 4,
+        "sources": [
+          "wscn-gold",
+          "wscn-global",
+          "em-commodity"
+        ],
+        "firstPublishedAt": "2026-11-02T15:00:00.000Z"
+      }
+    },
+    {
+      "id": "uuesdpmkl1",
+      "key": "em:202611023919120721",
+      "title": "美债长端收益率集体回落 10年期收益率跌逾5个基点",
+      "url": "https://finance.eastmoney.com/a/202611023919120721.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T14:56:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "rates-fx"
+      ],
+      "excerpt": "美国国债收益率多数下行，其中10年期国债收益率报4.882%，下跌5.1个基点；20年期报5.283%，下跌5.7个基点；30年期报5.254%，下跌5.6个基点。7年期收益率下跌4.8个基点，报4.769%。",
+      "flag": 1,
+      "dupOf": "28pspwdza5a"
+    },
+    {
+      "id": "28pspwdza5a",
+      "key": "cls:2523059",
+      "title": "美债长端收益率集体回落 10年期收益率跌逾5个基点",
+      "url": "https://www.cls.cn/detail/2523059",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T14:54:31.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "rates-fx"
+      ],
+      "excerpt": "美国国债收益率多数下行，其中10年期国债收益率报4.882%，下跌5.1个基点；20年期报5.283%，下跌5.7个基点；30年期报5.254%，下跌5.6个基点。7年期收益率下跌4.8个基点，报4.769%。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "uuesdpmkl1",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202611023919120721.html",
+          "title": "美债长端收益率集体回落 10年期收益率跌逾5个基点",
+          "publishedAt": "2026-11-02T14:56:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "cls",
+          "em-commodity"
+        ],
+        "firstPublishedAt": "2026-11-02T14:54:31.000Z"
+      }
+    },
+    {
+      "id": "20o8i0946wk",
+      "key": "wscn:3192703",
+      "title": "美国10月标普全球制造业PMI终值 54.9，初值 56",
+      "url": "https://wallstreetcn.com/livenews/3192703",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T14:45:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks",
+        "macro-us"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "vss589wvlz",
+      "key": "em:202611023919105513",
+      "title": "现货黄金日内涨幅扩大至2.2% 报3960.61美元/盎司",
+      "url": "https://finance.eastmoney.com/a/202611023919105513.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T14:38:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "现货黄金日内涨幅扩大至2.2%，报3960.61美元/盎司。"
+    },
+    {
+      "id": "dq0iewqi47",
+      "key": "wscn:3192700",
+      "title": "纳斯达克金龙中国指数涨超2.2%，热门中概股小鹏涨6.6%，B站、晶科控股、阿里至少涨5.1%，万国数据涨3.5%，百胜中国涨2.8%，百度涨2.5%",
+      "url": "https://wallstreetcn.com/livenews/3192700",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T14:33:25.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "纳斯达克金龙中国指数涨超2.2%，热门中概股小鹏涨6.6%，B站、晶科控股、阿里至少涨5.1%，万国数据涨3.5%，百胜中国涨2.8%，百度涨2.5%。 富时A50夜期目前涨0.2%。",
+      "flag": 1
+    },
+    {
+      "id": "o9aa0gxwf2",
+      "key": "cls:2523042",
+      "title": "美股三大指数集体高开 科技股普遍反弹",
+      "url": "https://www.cls.cn/detail/2523042",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T14:30:41.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "美股三大指数集体高开，道琼斯指数涨0.80%，标普500指数涨0.44%，纳斯达克综合指数涨0.63%。热门科技股中，苹果股价下跌0.31%，英伟达股价上涨1.48%，微软股价上涨0.32%，谷歌-A股价上涨0.99%，亚马逊股价上涨1.36%，台积电股价上涨1.42%，SpaceX股价上涨2.2%，特斯拉股价上涨1.28%，Meta股价下跌0.47%，博通股价上涨0.27%，SK海力士股价上涨2.46%，美光科技股价上涨0.14%，超威半导体股价上涨0.71%，阿斯麦股价上涨0.45%，思科股价上涨0.23%，甲骨文股价下跌3.9%，英特尔股价下跌1.",
+      "flag": 1,
+      "dupOf": "1fk6ctbtmi1"
+    },
+    {
+      "id": "dua65bdb83",
+      "key": "em:202611023919063253",
+      "title": "沃什究竟是鹰是鸽？经济学家：其政策重心或在美债收益率 而非通胀",
+      "url": "https://finance.eastmoney.com/a/202611023919063253.html",
+      "lang": "zh",
+      "sourceId": "em-cb",
+      "sourceName": "东方财富·全球央行",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T13:51:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "us-stocks",
+        "rates-fx",
+        "macro-us"
+      ],
+      "excerpt": "美联储主席凯文·沃什究竟是“鹰派”还是“鸽派”，一直令华尔街难以判断。他的言论和政策行动时常释放出相互矛盾的信号。"
+    },
+    {
+      "id": "an33c9h2fb",
+      "key": "cls:2522998",
+      "title": "美股期货涨幅扩大 纳斯达克100指数期货涨超1%",
+      "url": "https://www.cls.cn/detail/2522998",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T13:42:34.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "道琼斯指数期货涨0.72%，标普500指数期货涨0.58%，纳斯达克100指数期货涨1.00%。",
+      "flag": 1,
+      "dupOf": "1d50ikuwksy"
+    },
+    {
+      "id": "1s69lzi6mev",
+      "key": "wscn:3192678",
+      "title": "报道：伊朗最高领袖已授权政府进行谈判",
+      "url": "https://wallstreetcn.com/livenews/3192678",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T13:39:45.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "据伊通社，伊朗最高领袖已授权政府进行谈判。美股三大股指期货短线拉升，纳指期货涨超1%，标普500指数期货上涨0.6%，均触及盘前高点；WTI原油、布伦特原油日内跌幅均达6.0%；现货黄金向上触及3930美元/盎司，日内涨1.38%。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "18mb9sxmk0h",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202611023919156731.html",
+          "title": "伊朗最高领袖释放与美国进一步谈判信号 国际油价应声大跌金价跳涨2%",
+          "publishedAt": "2026-11-02T15:48:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "wscn-global",
+          "em-commodity"
+        ],
+        "firstPublishedAt": "2026-11-02T13:39:45.000Z"
+      }
+    },
+    {
+      "id": "2qc8t13xyl",
+      "key": "em:202611023919045260",
+      "title": "国际油价直线跳水超6% 美油跌破98美元 现货黄金突破3950美元",
+      "url": "https://finance.eastmoney.com/a/202611023919045260.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T13:38:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "北京时间11月2日晚，此前一路上涨的国际油价突然重挫，截至21:45左右，国际油价直线跳水超6%，布油几乎跌破106美元/桶，美油跌破98美元/桶，柴油同步跳水超5%。",
+      "flag": 1
+    },
+    {
+      "id": "252m117exog",
+      "key": "cls:2522987",
+      "title": "财联社11月2日晚间新闻精选",
+      "url": "https://www.cls.cn/detail/2522987",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T13:34:50.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn",
+        "pboc"
+      ],
+      "excerpt": " 1、央行、金融监管总局、中国证监会召开支持资本市场两项工具座谈会，研究部署用好用足政策工具有关工作，支持资本市场健康稳定发展。 2、央行：将于11月3日开展证券、基金、保险公司互换便利操作，申请额度超1000亿元。 3、央行：股票回购增持再贷款政策由阶段性安排转为长期制度性安排，再贷款利率由1.25%降至1%。 4、今日多家A股公司披露增持或回购计划，其中协创数据、弘信电子、湖北能源拟回购或增持金额最高均超5亿元。 5、马斯克预测到2029年，部署在近地轨道的人工智能与云计算处理能力将远远超过地面算力。 6、公司新闻方面：①万辰集团：因涉嫌信息披露违…",
+      "flag": 1,
+      "dupOf": "1lg364bg8f7"
+    },
+    {
+      "id": "205oy9mogbi",
+      "key": "wscn:3192670",
+      "title": "周一美股盘前你需要了解的全球要闻",
+      "url": "https://wallstreetcn.com/livenews/3192670",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T13:31:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "pboc",
+        "us-stocks"
+      ],
+      "excerpt": "中国央行明日开展证券、基金、保险公司互换便利操作，申报额度超1000亿元。 1150亿美元豪购Lumentum！Marvell打通“芯片+光学”，剑指AI互联超级帝国。 Lumentum Q1营收同比飙升136%，斩获50亿美元订单承诺，Q2指引大幅超预期。 AI信仰迎来新考验，股价暴跌后Alphabet赴欧债市场融资。 Anthropic美国IPO锁定日本市场，目标募资35亿美元。 甲骨文美股盘前跌超3%，公司寻求通过发行美元债券筹集100亿美元；拟发行100亿美元普通股。 报道：美方推动俄气经乌克兰管道恢复对欧销售，拟促成俄乌能源停火。 日经225…",
+      "flag": 2
+    },
+    {
+      "id": "1eehkkqpr1a",
+      "key": "wscn:3192661",
+      "title": "甲骨文美股盘前跌超3%，公司计划发行面值为0.01美元的普通股，总规模达100亿美元",
+      "url": "https://wallstreetcn.com/livenews/3192661",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T13:19:47.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "zbe56wqooo",
+      "key": "cls:2522958",
+      "title": "美股盘前要闻一览：迈威尔拟以全股票交易收购Lumentum；马斯克称2029年太空算力将“碾压”地面；苹果财报凌晨来袭",
+      "url": "https://www.cls.cn/detail/2522958",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T13:06:27.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "投资者需重点关注的美股市场财经要闻如下： 1、美三大股指期货集体上行。道琼斯指数期货涨0.33%，标普500指数期货涨0.30%，纳斯达克100指数期货涨0.52%。 2、国际油价双双下挫。WTI原油期货价格跌4.43%，报99.503美元/桶；布伦特原油期货价格跌4.24%，报108.623美元/桶。 3、国际金银现货集体走高。现货黄金价格涨0.61%，报3900.37美元/盎司；现货白银价格涨1.98%，报50.06美元/盎司。 4、欧洲三大股指窄幅",
+      "flag": 1
+    },
+    {
+      "id": "1pcazlu8ojo",
+      "key": "em:202611023918992276",
+      "title": "证监会最新部署 哪些增量资金买入了？",
+      "url": "https://finance.eastmoney.com/a/202611023918992276.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T12:54:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "证监会相关负责人今日回答记者提问时最新介绍了中长期资金入市的情况，包括目前哪些资金已经新增入市，哪些增量资金在途，这也被不少市场投资者视为一个稳市场稳预期的信号。",
+      "flag": 1
+    },
+    {
+      "id": "28e80agaool",
+      "key": "sina:5187687",
+      "title": "欧洲央行Kazimir称市场或低估所需的政策紧缩力度",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkeur0333853.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T12:52:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "欧洲央行管理委员会委员、斯洛伐克央行行长Peter Kazimir表示，在能源冲击没有消退迹象、通胀再度上升之际，投资者可能尚未充分计入欧洲央行所需的进一步紧缩力度。“市场或仍低估了所需的政策力度，”Kazimir周一在斯洛伐克央行网站发表的一篇评论文章中表示，“问题不在于某一次会议或某一步行动，而在于需要怎样的政策路径，才能让通胀回到目标并维持在那里。”Kazimir称，现在的问题越来越不是欧洲央行是否需要进一步行动，而是还需要多大力度。他表示：“上周的暂停并非终点。”Kazimir警告通胀面临上行风险，并称经济增长放缓本身未必足以令通胀降温。Kaz…"
+    },
+    {
+      "id": "feyx2tj6gc",
+      "key": "wscn:3192647",
+      "title": "证监会：适度释放融资空间，盘活存量资金，提升市场流动性",
+      "url": "https://wallstreetcn.com/livenews/3192647",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T12:36:56.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "证监会：融资融券是资本市场重要的基础性制度之一，对平抑非理性波动，促进价格发现，吸引中长期资金入市，满足投资者融资需求具有积极作用。2026年1月，根据当时的市场形势，沪深北交易所将融资保证金比例由80%提高至100%，对减缓杠杆风险顺周期积累、促进理性交易和提前防控风险起到积极作用。近期，融资余额和交易活跃度明显下降，整体杠杆水平趋于稳健。为稳定资本市场、提振投资者信心，促进融资融券业务功能发挥，证监会将会同证券交易所指导证券公司对融资保证金比例、可充抵保证金证券折算率、维持担保比例等风险控制指标进行统筹研究，进一步优化，保持弹性。在风险总体可控的基…",
+      "flag": 1
+    },
+    {
+      "id": "1x67sof09ve",
+      "key": "wscn:3192643",
+      "title": "证监会：下一步，证监会将引导和鼓励已完成募集的18只主动ETF加快开展投资建仓",
+      "url": "https://wallstreetcn.com/livenews/3192643",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T12:35:49.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "证监会：下一步，证监会将引导和鼓励已完成募集的18只主动ETF加快开展投资建仓。同时，持续加大权益类基金产品供给和创新力度，支持基金管理人逆周期布局。推出更多新指数股票ETF，丰富场内投资工具。研究推出股债恒定比例等多资产指数基金，丰富场外中低波动型产品，更好满足不同投资者投资需求。鼓励基金管理人发行更多浮动费率基金，进一步强化基金管理人与持有人利益相绑定。",
+      "flag": 1,
+      "dupOf": "s1x7zz1onq"
+    },
+    {
+      "id": "s1x7zz1onq",
+      "key": "cls:2522920",
+      "title": "证监会：下一步将引导和鼓励已完成募集的18只主动ETF加快开展投资建仓",
+      "url": "https://www.cls.cn/detail/2522920",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T12:35:26.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "证监会有关部门负责人就近期稳市场稳预期相关工作答记者问。下一步，证监会将引导和鼓励已完成募集的18只主动ETF加快开展投资建仓。同时，持续加大权益类基金产品供给和创新力度，支持基金管理人逆周期布局。推出更多新指数股票ETF，丰富场内投资工具。研究推出股债恒定比例等多资产指数基金，丰富场外中低波动型产品，更好满足不同投资者投资需求。鼓励基金管理人发行更多浮动费率基金，进一步强化基金管理人与持有人利益相绑定。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "1x67sof09ve",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3192643",
+          "title": "证监会：下一步，证监会将引导和鼓励已完成募集的18只主动ETF加快开展投资建仓",
+          "publishedAt": "2026-11-02T12:35:49.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "cls",
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-11-02T12:35:26.000Z"
+      }
+    },
+    {
+      "id": "vcqama19x3",
+      "key": "cls:2522916",
+      "title": "证监会：研究推出股债恒定比例等多资产指数基金 丰富场外中低波动型产品",
+      "url": "https://www.cls.cn/detail/2522916",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T12:34:07.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 22,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问表示，主动ETF是基金经理依托专业投研能力自主开展选股、择时与配置，不以跟踪特定指数为目标，同时可以进行场内实时交易、实物申赎的公募基金产品，兼具普通基金主动管理和ETF交易灵活、透明度高的特点，可满足不同风险偏好投资者的需求，为市场持续引入增量资金。自今年6月份我会宣布推出主动ETF后，基金公司踊跃申报。首批18只主动ETF于10月19日注册，10月23日启动募集，整体募集态势良好。截至11月2日，合计募集资金超过350亿元，其中已有16只",
+      "flag": 1
+    },
+    {
+      "id": "o49136nair",
+      "key": "cls:2522915",
+      "title": "证监会：将指导证券公司对融资保证金比例、折算率、维持担保比例等风控指标进行统筹研究 进一步优化、保持弹性",
+      "url": "https://www.cls.cn/detail/2522915",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T12:33:38.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问。在发挥好融资融券业务逆周期调节功能作用方面，请问证监会近期有何考虑？ 答：融资融券是资本市场重要的基础性制度之一，对平抑非理性波动，促进价格发现，吸引中长期资金入市，满足投资者融资需求具有积极作用。2026年1月，根据当时的市场形势，沪深北交易所将融资保证金比例由80%提高至100%，对减缓杠杆风险顺周期积累、促进理性交易和提前防控风险起到积极作用。近期，融资余额和交",
+      "flag": 1
+    },
+    {
+      "id": "8mwz4jc2c5",
+      "key": "wscn:3192640",
+      "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
+      "url": "https://wallstreetcn.com/livenews/3192640",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T12:33:15.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "今日金融管理部门召开座谈会，就用好用足两项结构性货币政策工具作出安排，请问证监会对后续工作有何考虑？ 答：2024年9月，人民银行会同证监会、金融监管总局推出证券、基金、保险公司互换便利和股票回购增持专项再贷款两项新的货币政策工具。两年多来，证券公司、基金管理公司和上市公司等市场主体积极响应，两项工具运作良好。截至今年10月底，已开展了两批次互换便利操作，28家证券公司和基金管理公司参与，合计金额1050亿元。全市场已有902家上市公司披露1110单回购增持贷款公告，加上中国国新、中国诚通两家国有资本运营公司申请的增持贷款，目前申请贷款额度上限已累计约…",
+      "flag": 1,
+      "dupOf": "14m6tvyuoxd"
+    },
+    {
+      "id": "l30rsdmk3h",
+      "key": "em:202611023918963448",
+      "title": "证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
+      "url": "https://finance.eastmoney.com/a/202611023918963448.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T12:33:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "为稳定资本市场、提振投资者信心，促进融资融券业务功能发挥，证监会将会同证券交易所指导证券公司对融资保证金比例、可充抵保证金证券折算率、维持担保比例等风险控制指标进行统筹研究，进一步优化，保持弹性。在风险总体可控的基础上，根据法定的逆周期调节安排，适度释放融资空间，盘活存量资金，提升市场流动性。",
+      "flag": 1,
+      "dupOf": "14m6tvyuoxd"
+    },
+    {
+      "id": "14m6tvyuoxd",
+      "key": "cls:2522913",
+      "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
+      "url": "https://www.cls.cn/detail/2522913",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T12:32:55.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 34,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问。一、今日金融管理部门召开座谈会，就用好用足两项结构性货币政策工具作出安排，请问证监会对后续工作有何考虑？ 答：2024年9月，人民银行会同证监会、金融监管总局推出证券、基金、保险公司互换便利和股票回购增持专项再贷款两项新的货币政策工具。两年多来，证券公司、基金管理公司和上市公司等市场主体积极响应，两项工具运作良好。截至今年10月底，已开展了两批次互换便利操作，28家证券公司和基金管理公司参与，合计金额1050亿元。全市场已有902家上市公司披露1110",
+      "flag": 1,
+      "related": [
+        {
+          "id": "l30rsdmk3h",
+          "sourceId": "em-focus",
+          "sourceName": "东方财富",
+          "url": "https://finance.eastmoney.com/a/202611023918963448.html",
+          "title": "证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
+          "publishedAt": "2026-11-02T12:33:00.000Z"
+        },
+        {
+          "id": "8mwz4jc2c5",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3192640",
+          "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
+          "publishedAt": "2026-11-02T12:33:15.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "cls",
+          "em-focus",
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-11-02T12:32:55.000Z"
+      }
+    },
+    {
+      "id": "1focc51rugl",
+      "key": "sina:5187605",
+      "title": "学习贯彻党的二十届五中全会精神中央宣讲团动员会在京召开 蔡奇出席会议并讲话",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixkeus7089368.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T12:20:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "11月2日，学习贯彻党的二十届五中全会精神中央宣讲团动员会在北京召开，中共中央政治局常委、中央书记处书记蔡奇出席会议并讲话。 （新华社）"
+    },
+    {
+      "id": "lj005trtjn",
+      "key": "sina:5187583",
+      "title": "陈文清主持召开中央政法委员会全体会议 传达学习贯彻习近平总书记在党的二十届五中全会上的重要讲话和全会精神",
+      "url": "https://finance.sina.com.cn/7x24/",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T12:13:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "中共中央政治局委员、中央政法委书记陈文清11月2日主持召开中央政法委员会全体会议，传达学习贯彻习近平总书记在党的二十届五中全会上的重要讲话和全会精神。 会议指出，党的二十届五中全会是在中华民族伟大复兴的关键时期举行的一次重要会议。习近平总书记在全会上的重要讲话，从巩固党的执政地位、实现党的使命任务的战略高度，对管党治党、兴党强党作出战略部署，科学回答了持之以恒推进全面从严治党的一系列重大理论和实践问题，为我们深入学习贯彻全会精神提供了根本遵循。全会审议通过的《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》，是推进新时代党的建设新的伟大工程的纲…"
+    },
+    {
+      "id": "lzewu0i3x1",
+      "key": "cls:2522869",
+      "title": "三部门召开支持资本市场两项工具座谈会 支持资本市场健康稳定发展",
+      "url": "https://www.cls.cn/detail/2522869",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T12:02:19.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "pboc",
+        "policy-cn"
+      ],
+      "excerpt": "中国人民银行会同金融监管总局、中国证监会等部门先后召开证券、基金、保险公司互换便利座谈会和股票回购增持再贷款座谈会，听取金融机构业务进展及意见建议，研究部署用好用足政策工具有关工作，支持资本市场健康稳定发展。中国人民银行副行长邹澜，金融监管总局副局长丛林，中国证监会副主席刘浩凌出席会议并讲话。 会议认为，支持资本市场两项工具自2024年10月推出以来，证券、基金、保险公司互换便利已多次展期，目前余额为1050亿元，充分发挥了行业机构的专业投资能力和带动效应；政策支持下，股票回购增持贷款签约金额约440",
+      "flag": 1,
+      "dupOf": "ydkiebh6h9"
+    },
+    {
+      "id": "ydkiebh6h9",
+      "key": "sina:5187543",
+      "title": "中国人民银行 金融监管总局 中国证监会召开支持资本市场两项工具座谈会",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixiynu7209340.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T12:02:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "pboc",
+        "policy-cn"
+      ],
+      "excerpt": "2026年11月2日，中国人民银行会同金融监管总局、中国证监会等部门先后召开证券、基金、保险公司互换便利座谈会和股票回购增持再贷款座谈会，听取金融机构业务进展及意见建议，研究部署用好用足政策工具有关工作，支持资本市场健康稳定发展。中国人民银行副行长邹澜，金融监管总局副局长丛林，中国证监会副主席刘浩凌出席会议并讲话。 会议认为，支持资本市场两项工具自2024年10月推出以来，证券、基金、保险公司互换便利已多次展期，目前余额为1050亿元，充分发挥了行业机构的专业投资能力和带动效应；政策支持下，股票回购增持贷款签约金额约4400亿元，累计发放量超2800亿…",
+      "flag": 1,
+      "related": [
+        {
+          "id": "lzewu0i3x1",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2522869",
+          "title": "三部门召开支持资本市场两项工具座谈会 支持资本市场健康稳定发展",
+          "publishedAt": "2026-11-02T12:02:19.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "sina",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-11-02T12:02:00.000Z"
+      }
+    },
+    {
+      "id": "3jubkrs5id",
+      "key": "sina:5187496",
+      "title": "何立峰在山西调研时指出 统筹发展和安全 坚定有序推进产业转型升级",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixiynt0421140.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T11:41:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "中共中央政治局委员、国务院副总理何立峰11月1日至2日到山西调研。何立峰指出，要认真学习贯彻党的二十届五中全会精神，深入贯彻落实习近平总书记对山西工作的重要指示精神，统筹发展和安全，坚定有序推进产业转型升级，持续为高质量发展注入新动能。何立峰先后到山西大同、朔州等地，实地调研相关能源企业、科技企业、农产品加工外贸企业和风光储项目，深入了解企业发展、技术升级等情况，召开市县乡领导座谈会，听取基层工作意见。何立峰指出，要坚定不移走绿色低碳发展之路，统筹推进新能源开发、生态保护治理和资源型经济转型，推动资源优势加速转化为经济高质量发展动能。要加快实施技术改造…"
+    },
+    {
+      "id": "1dmgdnt9gjv",
+      "key": "sina:5187479",
+      "title": "欧洲央行管委马赫卢夫：法国政府需要整顿公共财政",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixiynu7192374.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T11:33:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "2gdinacujxh"
+    },
+    {
+      "id": "2gdinacujxh",
+      "key": "sina:5187448",
+      "title": "欧洲央行管委马赫卢夫：每次会议都是实时会议",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixiynx9300192.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T11:20:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "related": [
+        {
+          "id": "1dmgdnt9gjv",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixiynu7192374.d.html",
+          "title": "欧洲央行管委马赫卢夫：法国政府需要整顿公共财政",
+          "publishedAt": "2026-11-02T11:33:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "sina"
+        ],
+        "firstPublishedAt": "2026-11-02T11:20:00.000Z"
+      }
+    },
+    {
+      "id": "17p9jjqk7xa",
+      "key": "sina:5187413",
+      "title": "李强会见阿曼苏丹海赛姆",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixiynx9292486.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T11:08:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "11月2日下午，国务院总理李强在北京人民大会堂会见来华进行国事访问的阿曼苏丹海赛姆。 李强表示，中国和阿曼都有着悠久历史，两国友谊源远流长。建交48年来，无论国际风云如何变幻，中阿始终相互尊重、平等相待，推动双边关系持续稳健发展，切实惠及了两国人民。今天上午，习近平主席同苏丹陛下举行会晤，就进一步深化中阿战略伙伴关系作出新的规划。中方愿同阿方一道弘扬传统友好，巩固政治互信，坚定相互支持，促进各领域合作不断走深走实，更好服务两国现代化建设。 李强指出，中方愿同阿方加强发展战略对接，深入推进油气全产业链合作，开展更多优质清洁能源项目，拓展农渔业、航天卫星、…"
+    },
+    {
+      "id": "m19ppdivbp",
+      "key": "cls:2522788",
+      "title": "万辰集团：因涉嫌信息披露违法违规 证监会决定对公司立案",
+      "url": "https://www.cls.cn/detail/2522788",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T10:56:56.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "万辰集团(300972.SZ)公告称，公司收到证监会下发的《立案告知书》，因涉嫌未及时履行关联交易临时信息披露义务等信息披露违法违规事项，证监会决定对公司立案。本次立案调查主要涉及未及时履行信息披露义务事项，与公司日常经营活动无关，相关信息披露事项已整改完毕。目前公司经营秩序稳定，各项经营活动正常开展，日常经营管理及业务合作未受影响。",
+      "flag": 1
+    },
+    {
+      "id": "8zh9bmwv03",
+      "key": "sina:5187291",
+      "title": "欧洲央行表示，通过隔夜贷款工具借入1.95亿欧元，存入18994.6亿欧元",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixiynt0372459.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T10:26:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ]
+    },
+    {
+      "id": "wdj9uvaapg",
+      "key": "sina:5187274",
+      "title": "欧洲央行副行长武伊契奇：财政脆弱的国家受到的冲击更大，应对措施必须以财政政策为主",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixiynt0366693.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T10:20:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "1dpm6pj0u7q"
+    },
+    {
+      "id": "1dpm6pj0u7q",
+      "key": "sina:5187273",
+      "title": "欧洲央行副行长武伊契奇：人工智能估值是金融稳定评估中重点提示的风险之一",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixiynt0365575.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T10:18:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "related": [
+        {
+          "id": "wdj9uvaapg",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixiynt0366693.d.html",
+          "title": "欧洲央行副行长武伊契奇：财政脆弱的国家受到的冲击更大，应对措施必须以财政政策为主",
+          "publishedAt": "2026-11-02T10:20:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "sina"
+        ],
+        "firstPublishedAt": "2026-11-02T10:18:00.000Z"
+      }
+    },
     {
       "id": "29z0ffzxrzd",
       "key": "em:202611023918829619",
@@ -1201,10 +3275,26 @@
           "url": "https://wallstreetcn.com/livenews/3192257",
           "title": "美股股指期货集体走高，纳斯达克100指数期货涨超1%，标普500指数期货涨0.53%，道琼斯指数期货涨0.41%",
           "publishedAt": "2026-11-02T05:35:29.000Z"
+        },
+        {
+          "id": "an33c9h2fb",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2522998",
+          "title": "美股期货涨幅扩大 纳斯达克100指数期货涨超1%",
+          "publishedAt": "2026-11-02T13:42:34.000Z"
+        },
+        {
+          "id": "21ek6oadajt",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2523069",
+          "title": "纳指、道琼斯指数涨幅扩大至1%",
+          "publishedAt": "2026-11-02T15:19:21.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 4,
         "sources": [
           "cls",
           "wscn-global"
@@ -2421,10 +4511,18 @@
           "url": "https://wallstreetcn.com/livenews/3192308",
           "title": "A股收盘：创业板指反弹涨1.87%，AI漫剧概念全线爆发",
           "publishedAt": "2026-11-02T07:02:10.000Z"
+        },
+        {
+          "id": "o9aa0gxwf2",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2523042",
+          "title": "美股三大指数集体高开 科技股普遍反弹",
+          "publishedAt": "2026-11-02T14:30:41.000Z"
         }
       ],
       "story": {
-        "reports": 6,
+        "reports": 7,
         "sources": [
           "wscn-global",
           "cls",
@@ -2715,10 +4813,18 @@
           "url": "https://finance.eastmoney.com/a/202611023918777212.html",
           "title": "图解期货 | 中期选举倒计时 美伊是战是和？",
           "publishedAt": "2026-11-02T09:01:00.000Z"
+        },
+        {
+          "id": "1je81qj7krd",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202611033919164958.html",
+          "title": "美国中期选举今天投票",
+          "publishedAt": "2026-11-02T16:13:00.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "em-focus",
           "em-commodity"
@@ -2833,10 +4939,18 @@
           "url": "https://www.cls.cn/detail/2522224",
           "title": "财联社11月2日午间新闻精选",
           "publishedAt": "2026-11-02T04:04:59.000Z"
+        },
+        {
+          "id": "252m117exog",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2522987",
+          "title": "财联社11月2日晚间新闻精选",
+          "publishedAt": "2026-11-02T13:34:50.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "cls"
         ],
@@ -20644,45 +22758,6 @@
       ],
       "excerpt": "债市稳市再添利器！中国人民银行10月26日宣布，设立债市非银大额赎回互换便利。权威专家表示，BNSF将防范债券市场出现赎回—抛售负向循环，其机制设计延续“证券、基金、保险公司互换便利”的“以券换券”模式，我国将由此构建起覆盖股市、债市的非银应急流动性支持机制。BNSF的运用将严守市场纪律，严防“兜底幻觉”与道德风险。",
       "flag": 1
-    },
-    {
-      "id": "167cd62m7gy",
-      "key": "url:cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
-      "title": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
-      "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
-      "lang": "en",
-      "sourceId": "cnbc-economy",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-10-26T18:33:51.000Z",
-      "firstSeenAt": "2026-10-29T10:04:27.819Z",
-      "day": "2026-10-27",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "rates-fx"
-      ],
-      "excerpt": "Treasury yields above 5% are raising borrowing costs for households and the federal government, highlighting the challenge of financing $2 trillion deficits."
-    },
-    {
-      "id": "1h5ky2g2dnp",
-      "key": "em:202610273908698461",
-      "title": "美联储隔夜逆回购协议周一使用规模为2亿美元（交易对手1家） 上个交易日报2亿美元",
-      "url": "https://finance.eastmoney.com/a/202610273908698461.html",
-      "lang": "zh",
-      "sourceId": "em-cb",
-      "sourceName": "东方财富·全球央行",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-10-26T17:17:00.000Z",
-      "firstSeenAt": "2026-10-29T10:04:27.819Z",
-      "day": "2026-10-27",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed",
-        "pboc"
-      ],
-      "excerpt": "美联储隔夜逆回购协议（RRP）周一使用规模为2亿美元（交易对手1家），上个交易日报2亿美元。"
     }
   ]
 }

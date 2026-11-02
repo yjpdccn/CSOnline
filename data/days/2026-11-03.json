@@ -1,0 +1,576 @@
+{
+  "day": "2026-11-03",
+  "items": [
+    {
+      "id": "21i705qrz8m",
+      "key": "gh:vercel-labs/agent-desktop",
+      "title": "vercel-labs/agent-desktop",
+      "url": "https://github.com/vercel-labs/agent-desktop",
+      "excerpt": "Computer use CLI for AI agents",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T20:45:29.145Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 30,
+      "metrics": {
+        "stars": 9213,
+        "starsToday": 2243
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "为 AI Agent 提供计算机使用 CLI 工具。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "y5qwoss8w5",
+      "key": "gh:justvugg/colibri",
+      "title": "JustVugg/colibri",
+      "url": "https://github.com/JustVugg/colibri",
+      "excerpt": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T20:45:29.145Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 27.5,
+      "metrics": {
+        "stars": 46457,
+        "starsToday": 655
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "在本地硬件上运行前沿 MoE 模型，纯 C 实现。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "1zjf1jg6d0f",
+      "key": "gh:max-sixty/worktrunk",
+      "title": "max-sixty/worktrunk",
+      "url": "https://github.com/max-sixty/worktrunk",
+      "excerpt": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T20:45:29.145Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 17.4,
+      "metrics": {
+        "stars": 9965,
+        "starsToday": 136
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "专为并行 AI Agent 工作流设计的 Git 工作树管理 CLI。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "vjhzbpkoiw",
+      "key": "gh:karpathy/nanochat",
+      "title": "karpathy/nanochat",
+      "url": "https://github.com/karpathy/nanochat",
+      "excerpt": "The best ChatGPT that $100 can buy.",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T20:45:29.145Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 22.5,
+      "metrics": {
+        "stars": 59796,
+        "starsToday": 325
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "号称百元内最好的 ChatGPT 替代品。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "osmyn08nnh",
+      "key": "gh:p-e-w/heretic",
+      "title": "p-e-w/heretic",
+      "url": "https://github.com/p-e-w/heretic",
+      "excerpt": "Training-free language model modification: Remove censorship, suppress slop, reduce sycophancy, and more",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T20:45:29.145Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 24,
+      "metrics": {
+        "stars": 37999,
+        "starsToday": 404
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "无需训练即可修改语言模型，移除审查并减少阿谀奉承。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "1u36ddseb5",
+      "key": "url:the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers",
+      "title": "Goldman Sachs pulls AI coding tools from traders and bankers",
+      "url": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+      "excerpt": "Goldman Sachs is pulling AI coding tools like Claude Code and GitHub Copilot from traders and bankers, limiting access to engineers only. As recently as July, CIO Marco Argenti publicly praised \"vibe coding\" by non-technical staff. Now the bank cites \"productivity and risk manag…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T20:00:03.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "高盛限制交易员使用 AI 编码工具",
+        "summary": "高盛将 AI 编码工具仅限工程师使用，以管理风险。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "vrag1kwpr2",
+      "key": "url:the-decoder.com/ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold",
+      "title": "AI elites might hoard intelligence like mercantilists hoarded gold",
+      "url": "https://the-decoder.com/ai-elites-might-hoard-intelligence-like-mercantilists-hoarded-gold/",
+      "excerpt": "Engineer Venkatesh Rao compares the fear of AI job losses to mercantilism: intelligence is treated as a scarce resource that elites want to control. But AI could boost demand for human thinking, much like early capitalism made people voluntarily work more. The article AI elites…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T19:43:51.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "AI 精英可能像重商主义者囤积黄金",
+        "summary": "文章探讨 AI 精英对智能资源的控制欲，以及 AI 对人类思维需求的潜在提升。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "25l3ebzpc76",
+      "key": "url:techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping",
+      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "excerpt": "The New York Times is suing privacy-focused web browser company Brave for allegedly scraping the outlet’s copyrighted content and unlawfully distributing it to its own customers, like Anthropic and Perplexity.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T19:19:17.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "agent",
+      "score": 15,
+      "dupOf": "26mv8pkxao1"
+    },
+    {
+      "id": "1n0btj49z6o",
+      "key": "url:theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "title": "Anthropic clamps down on Claude’s AI video game clones",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024632/anthropic-claude-ai-video-game-clones",
+      "excerpt": "Anthropic has updated Claude Code's system prompt to prevent the AI tool from being used to recreate existing video games, as reported by Tom's Hardware. Retro gaming is currently being overrun with AI-made decompilations, recompilations, and ports, but while Anthropic will stil…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T18:56:02.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 58.5,
+      "related": [
+        {
+          "id": "twiqmw4d9y",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/NiazMorshed2007/reanimate",
+          "title": "NiazMorshed2007/reanimate",
+          "publishedAt": "2026-10-29T06:20:59.000Z"
+        },
+        {
+          "id": "17ae56tae8g",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50320255",
+          "title": "Anthropic 采取措施阻止 Claude 反向工程游戏",
+          "publishedAt": "2026-10-31T21:07:58.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "verge-ai",
+          "github-new",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-10-29T06:20:59.000Z",
+        "metrics": {
+          "stars": 924,
+          "points": 196,
+          "comments": 120
+        }
+      },
+      "ai": {
+        "title": "Anthropic 限制 Claude 生成游戏克隆",
+        "summary": "Anthropic 更新 Claude Code 系统提示，防止其被用于复刻现有游戏。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "1sczdb7vl4x",
+      "key": "url:rikiyat.github.io/blog/weight-space-programming",
+      "title": "Astra can read and write weights to improve Qwen",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T18:21:28.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "model",
+      "score": 49.5,
+      "metrics": {
+        "points": 877,
+        "comments": 281
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50341174",
+      "alsoOn": [
+        {
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm6jow/sparks_of_weightspace_programming_llms_can/"
+        }
+      ],
+      "aiAttempts": 1
+    },
+    {
+      "id": "pgzwcg3d0",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xm506n/am_i_the_only_one_who_frequently_opens_this",
+      "title": "Am I the only one who frequently opens this subreddit and stumbles upon announcements about Qwen4?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm506n/am_i_the_only_one_who_frequently_opens_this/",
+      "excerpt": "I swear it feels like an addiction... I keep refreshing the page repeatedly, waiting to see the fateful launch announcement or at least a countdown. I hope I’m not the only one cooked with this stuff 😭😭😭 [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T18:21:04.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "model",
+      "score": 20,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xm506n/am_i_the_only_one_who_frequently_opens_this/",
+      "dupOf": "1qt5nc9akpa"
+    },
+    {
+      "id": "6vlbone5lx",
+      "key": "url:the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product",
+      "title": "SpaceXSI apparently cuts Grok Bot quotas weeks after Musk called it his fastest-growing product",
+      "url": "https://the-decoder.com/spacexsi-apparently-cuts-grok-bot-quotas-weeks-after-musk-called-it-his-fastest-growing-product/",
+      "excerpt": "SpaceXSI is apparently cutting usage limits for its AI agent Grok Bot, less than two weeks after Musk called it his fastest-growing product. The operating costs were \"unsustainably high relative to revenue,\" Musk wrote on X. OpenAI and Anthropic are also tightening their flat-ra…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T18:15:39.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "SpaceXSI 削减 Grok Bot 配额",
+        "summary": "SpaceXSI 在 Musk 称其增长最快后削减 Grok Bot 使用限制。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "1fo4eczh5nz",
+      "key": "url:theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "title": "OpenAI pitches data center power plants as a way to protect nearby areas",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024604/openai-data-center-grid-protection-program",
+      "excerpt": "In an announcement on Monday, OpenAI says it will pilot its \"Grid Protectors Program\" at an upcoming data center in Effingham County, Georgia, where the company promises to free up to 1,000 megawatts of power during extreme weather or emergencies, enough to power air conditioner…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T18:01:30.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "OpenAI 推出电网保护者计划",
+        "summary": "OpenAI 计划在数据中心试点项目，极端天气时释放电力。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "26mv8pkxao1",
+      "key": "url:theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "title": "The New York Times sues Brave web browser for AI scraping and bypassing paywalls",
+      "url": "https://www.theverge.com/tech/1024588/brave-lawsuit-ai-scraping-new-york-times",
+      "excerpt": "The New York Times and a group of other publications have filed lawsuits against the company that makes the Brave web browser over alleged unlawful scraping to train AI and also letting users bypass their paywalls, as reported by Reuters. According to a complaint filed by the Ne…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T17:51:19.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 23,
+      "related": [
+        {
+          "id": "25l3ebzpc76",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+          "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+          "publishedAt": "2026-11-02T19:19:17.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "verge-ai",
+          "techcrunch-ai"
+        ],
+        "firstPublishedAt": "2026-11-02T17:51:19.000Z"
+      },
+      "ai": {
+        "title": "纽约时报起诉 Brave 浏览器 AI 抓取",
+        "summary": "纽约时报起诉 Brave 浏览器涉嫌非法抓取数据训练 AI 并绕过付费墙。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "wxu62hft45",
+      "key": "url:blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026",
+      "title": "The latest AI news we announced in October 2026",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-october-2026/",
+      "excerpt": "Here are Google’s latest AI updates from October 2026",
+      "lang": "en",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-02T17:45:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 34,
+      "aiAttempts": 1
+    },
+    {
+      "id": "1nkdffbx006",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has",
+      "title": "Yet another reason to self host: Anthropic has (again) cut back on reverse engineering tools",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
+      "excerpt": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks Besides privacy and being in control of your data. Besides being able to…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T17:13:47.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "agent",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xm33gr/yet_another_reason_to_self_host_anthropic_has/",
+      "ai": {
+        "title": "Anthropic 再次限制逆向工程工具",
+        "summary": "Anthropic 再次收紧 Claude Code 工具，限制逆向工程任务。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "e7j8z464ii",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open",
+      "title": "Official Statement: Qwen Models Will Stick to Open Source to the End!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/",
+      "excerpt": "There were some rumours the last few days that Qwen4 will be the last open-weight series of Qwen, and future ones would be API only. The following statement contradicts the rumours and clearly states the stance that Qwen is taking regarding their future releases. Qwen Head Liu D…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T16:42:32.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "model",
+      "keywords": [
+        "开源模型"
+      ],
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xm28e6/official_statement_qwen_models_will_stick_to_open/",
+      "ai": {
+        "title": "Qwen 官方声明坚持开源",
+        "summary": "Qwen 官方否认 Qwen4 将是最后开源系列的传闻，坚持开源路线。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "snjhhyre53",
+      "key": "url:businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "title": "Anthropic's internal AI use, at retail prices, now exceeds its employee pay",
+      "url": "https://www.businessinsider.com/anthropic-claude-internal-ai-use-exceeds-employee-pay-tokens-2026-11",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T16:40:29.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 28.9,
+      "metrics": {
+        "points": 221,
+        "comments": 172
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50339494",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Anthropic 内部 AI 使用成本已超员工薪资。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "2crsijdkuif",
+      "key": "url:techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior",
+      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "excerpt": "Here's a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T16:30:00.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "model",
+      "score": 21,
+      "ai": {
+        "title": "42AI 推出预测人类行为的世界模型",
+        "summary": "42AI 宣布推出能预测人类行为的世界模型，融资 6250 万美元。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "1a4yoa1mmi2",
+      "key": "url:the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss",
+      "title": "Anthropic grows revenue twelvefold but posts $23 billion loss",
+      "url": "https://the-decoder.com/anthropic-grows-revenue-twelvefold-but-posts-23-billion-loss/",
+      "excerpt": "Anthropic swings back to an operating loss ahead of its blockbuster IPO. The article Anthropic grows revenue twelvefold but posts $23 billion loss appeared first on The Decoder.",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T16:26:03.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Anthropic 收入增长十二倍但亏损 230 亿",
+        "summary": "Anthropic 在 IPO 前实现收入大幅增长，但报告巨额亏损。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    },
+    {
+      "id": "1mwisyi8768",
+      "key": "url:techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs",
+      "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "excerpt": "Musk recently referred to Grok Bot as having \"the fastest growth of a product that I've ever seen in my life.\"",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T16:23:21.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "马斯克限制 Grok Bot 使用量",
+        "summary": "马斯克因成本过高限制 Grok Bot 使用量，称其增长过快。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T20:46:38.019Z"
+      }
+    }
+  ]
+}

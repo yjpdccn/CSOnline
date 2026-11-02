@@ -18,7 +18,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 5319
+        "stars": 6060
       },
       "aiAttempts": 1,
       "ai": {
@@ -224,7 +224,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 4699
+        "stars": 5214
       },
       "ai": {
         "title": "Mika：手机上的私人 AI 助理",
@@ -2251,11 +2251,11 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 19.4,
+      "score": 20.1,
       "metrics": {
-        "stars": 806
+        "stars": 924
       },
-      "dupOf": "17ae56tae8g"
+      "dupOf": "1n0btj49z6o"
     },
     {
       "id": "aas36th186",
@@ -2294,9 +2294,9 @@
       "day": "2026-10-29",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 24.7,
+      "score": 24.8,
       "metrics": {
-        "stars": 2011
+        "stars": 2041
       },
       "ai": {
         "title": "nvzhuang：AI 女装参考图集与虚拟试穿网站",
@@ -2578,7 +2578,7 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 61,
+      "score": 61.2,
       "ai": {
         "summary": "OpenAI砍半Pro额度并合并聊天工作，开发者热议。",
         "category": "industry",
@@ -2625,21 +2625,30 @@
           "url": "https://36kr.com/p/4051737057088392",
           "title": "ChatGPT要和Codex共用额度，免费重置时代结束了",
           "publishedAt": "2026-11-02T00:32:02.539Z"
+        },
+        {
+          "id": "134yo3vfxaf",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
+          "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
+          "publishedAt": "2026-11-02T13:57:53.000Z"
         }
       ],
       "story": {
-        "reports": 6,
+        "reports": 7,
         "sources": [
           "36kr-ai",
           "reddit-localllama",
           "hackernews",
           "36kr-flash",
-          "the-decoder"
+          "the-decoder",
+          "techcrunch-ai"
         ],
         "firstPublishedAt": "2026-10-29T04:13:56.068Z",
         "metrics": {
-          "points": 225,
-          "comments": 167
+          "points": 232,
+          "comments": 168
         }
       }
     },

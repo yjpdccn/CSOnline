@@ -182,6 +182,22 @@
       }
     },
     {
+      "id": "2lnlq8b8u9",
+      "key": "url:deepmind.google/blog/speeding-up-planning-decisions-with-ai",
+      "title": "Speeding up planning decisions with AI",
+      "url": "https://deepmind.google/blog/speeding-up-planning-decisions-with-ai/",
+      "excerpt": "Google DeepMind and UK government work together to reduce planning assessment times",
+      "lang": "en",
+      "sourceId": "deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-30T14:18:30.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-10-30",
+      "category": "industry",
+      "score": 30
+    },
+    {
       "id": "pd8l57ot15",
       "key": "url:reddit.com/r/LocalLLaMA/comments/1xjgfuv/another_reason_to_own_your_own_compute_your",
       "title": "Another reason to own your own compute. Your account may get banned in a sneaky update.",
@@ -1633,9 +1649,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 21.1,
+      "score": 21.6,
       "metrics": {
-        "stars": 1094
+        "stars": 1204
       },
       "ai": {
         "title": "teardown：将机器变成 3D 拆解模拟器",
@@ -1949,9 +1965,9 @@
       "day": "2026-10-30",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 22.2,
+      "score": 22.3,
       "metrics": {
-        "stars": 1327
+        "stars": 1354
       },
       "ai": {
         "title": "florilegium：生成 Delft 蓝花卉页边",
@@ -2079,7 +2095,7 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 30,
+      "score": 52.5,
       "related": [
         {
           "id": "1t9vbpso641",
@@ -2088,15 +2104,28 @@
           "url": "https://www.qbitai.com/2026/10/506771.html",
           "title": "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化",
           "publishedAt": "2026-10-30T08:50:44.000Z"
+        },
+        {
+          "id": "1g6jz4eyx7x",
+          "sourceId": "hf-papers",
+          "sourceName": "HF 每日论文",
+          "url": "https://huggingface.co/papers/2610.22740",
+          "title": "R²Orch：通过技能内化循环中的自玩实现递归自我改进",
+          "publishedAt": "2026-11-02T00:00:00.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "leiphone",
-          "qbitai"
+          "qbitai",
+          "hf-papers"
         ],
-        "firstPublishedAt": "2026-10-30T07:30:00.000Z"
+        "firstPublishedAt": "2026-10-30T07:30:00.000Z",
+        "metrics": {
+          "upvotes": 86,
+          "comments": 1
+        }
       },
       "ai": {
         "summary": "百度 APP 发布四大 AI 升级，搜索实现递归自我进化，API 价格低于 DeepSeek。",
@@ -2222,7 +2251,7 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 48.6,
+      "score": 48.9,
       "related": [
         {
           "id": "j4yhfw6iwe",
@@ -2258,7 +2287,7 @@
         ],
         "firstPublishedAt": "2026-10-29T17:08:44.000Z",
         "metrics": {
-          "likes": 335
+          "likes": 352
         }
       },
       "ai": {
@@ -2286,9 +2315,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 27.5,
+      "score": 28,
       "metrics": {
-        "stars": 3111
+        "stars": 3427
       },
       "ai": {
         "title": "pixelfx：232 个像素艺术效果与 Claude Code 技能",
@@ -3345,9 +3374,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 26.4,
+      "score": 26.9,
       "metrics": {
-        "upvotes": 110,
+        "upvotes": 118,
         "comments": 3
       },
       "ai": {
@@ -3456,9 +3485,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.9,
+      "score": 23.2,
       "metrics": {
-        "upvotes": 67,
+        "upvotes": 70,
         "comments": 4
       },
       "ai": {
@@ -3515,9 +3544,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22,
+      "score": 22.4,
       "metrics": {
-        "upvotes": 57,
+        "upvotes": 61,
         "comments": 6
       }
     },
@@ -4102,8 +4131,8 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 110082,
-        "starsToday": 1723
+        "stars": 110605,
+        "starsToday": 1799
       },
       "ai": {
         "title": "claude-mem：为 Claude Code 等提供跨会话持久上下文",
@@ -4160,8 +4189,8 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 32893,
-        "starsToday": 1347
+        "stars": 33387,
+        "starsToday": 1380
       },
       "ai": {
         "title": "Claude-Code-Game-Studios：将 Claude Code…",
@@ -4217,9 +4246,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 20.6,
+      "score": 20.9,
       "metrics": {
-        "likes": 335
+        "likes": 352
       },
       "skipLlm": true,
       "dupOf": "1egv1bh2tq8"

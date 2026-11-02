@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T10:03:13.682Z",
+  "updatedAt": "2026-11-02T20:45:22.918Z",
   "events": [
     {
       "id": "wscn-1596963",
@@ -10,7 +10,8 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "54.5",
-      "forecast": "54.7"
+      "forecast": "54.7",
+      "actual": "55.5"
     },
     {
       "id": "wscn-15125",
@@ -188,6 +189,17 @@
       "kind": "event",
       "source": "华尔街见闻",
       "dateOnly": true
+    },
+    {
+      "id": "wscn-1599119",
+      "at": "2026-11-17T13:30:00.000Z",
+      "country": "美国",
+      "title": "10月零售销售环比",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "0.8",
+      "unit": "%"
     }
   ],
   "fomc": [

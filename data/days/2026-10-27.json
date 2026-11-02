@@ -149,7 +149,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 5365
+        "stars": 5475
       },
       "aiAttempts": 1
     },
@@ -171,9 +171,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 24.6,
+      "score": 25.3,
       "metrics": {
-        "stars": 1984
+        "stars": 2188
       }
     },
     {
@@ -352,9 +352,9 @@
       "day": "2026-10-27",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 20.6,
+      "score": 22.2,
       "metrics": {
-        "stars": 1008
+        "stars": 1325
       }
     },
     {
@@ -665,6 +665,26 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T17:31:16.079Z"
+      }
+    },
+    {
+      "id": "2g9u1oasibh",
+      "key": "gh:benderandrew069/deepseek-api-pricing-2026",
+      "title": "benderandrew069/deepseek-api-pricing-2026",
+      "url": "https://github.com/benderandrew069/deepseek-api-pricing-2026",
+      "excerpt": "DeepSeek API pricing guide for models, cache hits, and peak hours (2026).",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-27T06:22:04.000Z",
+      "firstSeenAt": "2026-11-02T20:45:22.918Z",
+      "day": "2026-10-27",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 18.7,
+      "metrics": {
+        "stars": 699
       }
     },
     {
