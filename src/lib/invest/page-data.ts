@@ -1,10 +1,13 @@
-import { FUND_GROUPS, FUNDS, INDICES, INVEST_SITE, MACRO, type FundGroup, type MacroId } from "@/config/invest";
+import { FUND_GROUPS, FUNDS, GROUP_ROLE, INDICES, INVEST_RULES, INVEST_SITE, MACRO, type FundGroup, type MacroId } from "@/config/invest";
 import type { InvestTopic } from "@/config/invest-news";
 import { translatedTitle, truncate } from "@/lib/pipeline/text";
+import { dayKey } from "@/lib/time";
 import { describeStatus, statusRank } from "./alerts";
 import { buildFundViews } from "./funds";
 import { marketNews, newsRef, rankNews, type RankedCard } from "./news";
+import { eventObservations } from "./events";
 import { buildObservations, RULES, type Observation } from "./observations";
+import { loadLatestOutlook, OUTLOOK_MAX_AGE_DAYS, type OutlookNote } from "./outlook";
 import { buildSuggestions } from "./suggestions";
 import { indexQuote, macroQuote } from "./quotes";
 import type { StatusNotifications } from "./status";
@@ -58,9 +61,22 @@ export interface PageHealth {
 
 export type PageFund = FundView & { news?: NewsRef; navStale?: boolean; priceStale?: boolean };
 
+/** One line of the alert strip at the top: only what matters now. */
+export interface StripItem {
+  key: string;
+  tone: "red" | "amber" | "green" | "blue";
+  label: string;
+  text: string;
+  href?: string;
+}
+
 export interface InvestPageData {
   /** End of the last update; null before the first one. */
   updatedAt: string | null;
+  /** Data problems, quota changes and stop signals on held funds, deadlines within two weeks, major events. */
+  strip: StripItem[];
+  /** The latest weekly 大方向 note. */
+  outlook: { note: OutlookNote; stale: boolean } | null;
   /** Reference time of the data (start of the last update). */
   asOf: string;
   /** Changes seen between updates, and reminders. */
@@ -105,6 +121,44 @@ function watchRows(views: FundView[], events: AlertEvent[]): WatchRow[] {
 
 function premiumRows(views: FundView[]): PremiumRow[] {
   return views.filter((v) => v.watchPremium && v.premium).map((v) => ({ code: v.code, name: v.name, premium: v.premium! }));
+}
+
+const EVENT_LABEL: Record<string, string> = { move: "大幅波动", valuation: "估值", rate: "议息", policy: "政策" };
+
+/** Calendar days from today (Beijing) to `day`. */
+function daysUntil(day: string, now: Date): number {
+  const [y, m, d] = dayKey(now).split("-").map(Number);
+  const [ty, tm, td] = day.split("-").map(Number);
+  return Math.round((Date.UTC(ty, tm - 1, td) - Date.UTC(y, m - 1, d)) / 86_400_000);
+}
+
+export function buildStrip(health: PageHealth | null, observations: PageAlert[], asOf: Date): StripItem[] {
+  const items: StripItem[] = [];
+  for (const issue of health?.issues.filter((i) => i.severity === "warn") ?? []) items.push({ key: `issue:${issue.key}`, tone: "red", label: "数据异常", text: issue.message });
+  const role = (code: string | undefined) => {
+    const fund = FUNDS.find((f) => f.code === code);
+    return fund ? (fund.role ?? GROUP_ROLE[fund.group]) : undefined;
+  };
+  const held = (code: string | undefined) => role(code) === "dca" || role(code) === "held";
+  const recent = (o: PageAlert) => !o.at || asOf.getTime() - Date.parse(o.at) <= INVEST_RULES.events.showDays * 86_400_000;
+  for (const o of observations) {
+    if (o.kind === "event") {
+      const kind = o.key.split(":")[0];
+      items.push({ key: o.key, tone: kind === "move" || kind === "valuation" ? "amber" : "blue", label: EVENT_LABEL[kind] ?? "事件", text: o.title, href: o.url });
+    } else if (o.kind === "change" && o.key.startsWith("limit-") && held(o.code) && recent(o)) {
+      items.push({ key: o.key, tone: o.severity === "bad" ? "red" : "green", label: "申购变化", text: `${o.title}：${o.detail}` });
+    } else if (o.kind === "suggestion" && o.action === "stop" && held(o.code)) {
+      items.push({ key: o.key, tone: "red", label: "可以考虑停止", text: o.title, href: "#strategy-title" });
+    } else if (o.kind === "suggestion" && o.key.startsWith("increase:reopen") && held(o.code)) {
+      items.push({ key: o.key, tone: "green", label: "额度放开", text: o.title, href: "#strategy-title" });
+    }
+  }
+  const year = Number(dayKey(asOf).slice(0, 4));
+  const pension = daysUntil(`${year}-12-31`, asOf);
+  if (pension >= 0 && pension <= 14) items.push({ key: `deadline:pension:${year}`, tone: "amber", label: "截止日", text: `个人养老金本年度缴存 12月31日截止，还有 ${pension} 天` });
+  const tax = daysUntil(`${year}-06-30`, asOf);
+  if (tax >= 0 && tax <= 14) items.push({ key: `deadline:tax:${year}`, tone: "amber", label: "截止日", text: `个税年度汇算 6月30日截止，还有 ${tax} 天` });
+  return items;
 }
 
 function toCard({ item, topics }: RankedCard): InvestNewsCard {
@@ -196,18 +250,23 @@ export async function loadInvestPageData(): Promise<InvestPageData> {
     .map((c) => newsRef(c.item));
 
   const firstSeen = new Map((status?.alerts ?? []).map((a) => [a.key, a.firstSeen]));
-  const observations: PageAlert[] = [...buildObservations(events, views, asOf), ...buildSuggestions(views, store.strategy, events, asOf)].map((o) => {
+  const observations: PageAlert[] = [...eventObservations(store.events, asOf), ...buildObservations(events, views, asOf), ...buildSuggestions(views, store.strategy, events, asOf)].map((o) => {
     const seen = firstSeen.get(o.key) ?? o.at;
     return seen ? { ...o, firstSeen: seen } : o;
   });
 
+  const health: PageHealth | null = status ? { checkedAt: status.generatedAt, since: status.since, issues: status.dataIssues, notifications: status.notifications } : null;
+  const note = await loadLatestOutlook();
+
   return {
     updatedAt: run?.finishedAt ?? null,
+    strip: buildStrip(health, observations, asOf),
+    outlook: note ? { note, stale: daysUntil(note.date, asOf) < -OUTLOOK_MAX_AGE_DAYS } : null,
     asOf: asOf.toISOString(),
     alerts: observations.filter((o) => o.kind === "change" || o.kind === "reminder"),
     rules: RULES.map((r) => ({ ...r, items: observations.filter((o) => o.kind === "rule" && o.rule === r.rule) })),
     strategy: { items: observations.filter((o) => o.kind === "suggestion"), checkedAt: store.strategy.checkedAt ?? null, compared: store.strategy.compared ?? 0 },
-    health: status ? { checkedAt: status.generatedAt, since: status.since, issues: status.dataIssues, notifications: status.notifications } : null,
+    health,
     watch: watchRows(views, events.filter((e) => asOf.getTime() - Date.parse(e.at) <= INVEST_SITE.alertDays * 86_400_000)),
     premiums: premiumRows(views),
     overview,

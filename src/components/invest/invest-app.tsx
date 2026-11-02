@@ -9,11 +9,12 @@ import type { StatusNotifications } from "@/lib/invest/status";
 import { formatDateTime } from "@/lib/time";
 import { AlertsPanel } from "./alerts-panel";
 import { CalendarPanel } from "./calendar-panel";
-import { DataHealthBanner } from "./data-health";
+import { AlertStrip } from "./alert-strip";
 import { FundGroups } from "./fund-groups";
 import { InvestHeader } from "./invest-header";
 import { MacroList, MarketCards } from "./market-cards";
 import { NewsList } from "./news-list";
+import { OutlookCard } from "./outlook-card";
 import { OverviewCard } from "./overview-card";
 import { AiLine, InvestStatusDialog } from "./status-dialog";
 import { StrategyPanel } from "./strategy-panel";
@@ -136,16 +137,17 @@ export function InvestApp({ data, error }: { data: InvestPageData | null; error:
             )}
             {data && (
               <>
-                <DataHealthBanner health={data.health} />
-                <StrategyPanel strategy={data.strategy} asOf={data.asOf} since={data.health?.since} />
-                <AlertsPanel alerts={data.alerts} rules={data.rules} watch={data.watch} premiums={data.premiums} asOf={data.asOf} since={data.health?.since} />
+                <AlertStrip items={data.strip} checkedAt={data.health?.checkedAt} />
                 {data.overview && <OverviewCard overview={data.overview} />}
-                <FundGroups groups={data.groups} />
-                <MarketCards indices={data.indices} gold={data.gold} />
+                <NewsList news={data.news} asOf={data.asOf} />
+                {data.outlook && <OutlookCard note={data.outlook.note} stale={data.outlook.stale} />}
                 <Panel title="财经日历 · 未来两周" className="lg:hidden">
                   {calendar}
                 </Panel>
-                <NewsList news={data.news} asOf={data.asOf} />
+                <MarketCards indices={data.indices} gold={data.gold} />
+                <FundGroups groups={data.groups} />
+                <AlertsPanel alerts={data.alerts} rules={data.rules} watch={data.watch} premiums={data.premiums} asOf={data.asOf} since={data.health?.since} />
+                <StrategyPanel strategy={data.strategy} asOf={data.asOf} since={data.health?.since} />
                 <div className="space-y-4 lg:hidden">
                   <Panel title="利率与汇率">
                     <MacroList quotes={data.macro} />

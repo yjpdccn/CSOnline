@@ -241,7 +241,7 @@ export function buildSuggestions(views: FundView[], strategy: StrategyFile, even
         const p = best.peer;
         const paused = capacity(v.status) === 0 ? `${quota(p.status)}（现在这只暂停申购）` : quota(p.status);
         const detail = `${lead}${p.name}（${p.code}），${sameAs(v, p)}，每年费用 ${allIn(p.fees)!.toFixed(2)}%，比现在的 ${own.toFixed(2)}%${service || " "}低 ${best.saving.toFixed(2)}%；${[paused, sizeText(p.size), ageText(p.established, now)].filter(Boolean).join("，")}。${role === "held" ? "已持有的份额卖出前留意赎回费。" : ""}`;
-        out.push(suggestion("replace", `replace:${v.code}:${p.code}`, v.code, name, detail, p));
+        out.push({ ...suggestion("replace", `replace:${v.code}:${p.code}`, v.code, name, detail, p), saving: best.saving });
       }
     }
   }

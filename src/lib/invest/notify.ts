@@ -1,4 +1,4 @@
-import { INVEST_SITE } from "@/config/invest";
+import { INVEST_RULES, INVEST_SITE } from "@/config/invest";
 import { zonedParts } from "@/lib/time";
 import type { Observation, SuggestionAction } from "./observations";
 import type { DataIssue, NotifyOutcome } from "./types";
@@ -30,21 +30,30 @@ const issueHash = (i: DataIssue) => `${i.kind}:${[...i.items].sort().join(",")}`
 export interface NotifyDiff {
   issues: DataIssue[];
   resolved: string[];
+  events: Observation[];
   suggestions: Observation[];
   reminders: Observation[];
+  /** Fee suggestions too small to push one by one, told once a month as a count. */
+  minorFees?: number;
   next: NotifyFile["sent"];
   /** No strategy suggestion was sent before: the message lists all there are. */
   first: boolean;
 }
 
+/** Events are news only while fresh; older ones (a run that started late, the first run) stay on the page. */
+const EVENT_PUSH_MS = 24 * 3_600_000;
+
+const isMinorFee = (a: Observation) => a.kind === "suggestion" && a.action === "replace" && (a.saving ?? Infinity) < INVEST_RULES.alternatives.pushSaving;
+
 /**
- * New or changed since the last message: strategy suggestions, data problems that affect the page's numbers
- * (and their recovery) and time reminders. Rule mismatches and other changes stay on the page only.
+ * New or changed since the last message: major events, strategy suggestions (fee savings only when material),
+ * data problems that affect the page's numbers (and their recovery) and time reminders. Rule mismatches
+ * and other changes stay on the page only.
  */
-export function diffNotifications(sent: NotifyFile["sent"], issues: DataIssue[], alerts: Observation[]): NotifyDiff {
+export function diffNotifications(sent: NotifyFile["sent"], issues: DataIssue[], alerts: Observation[], now = new Date()): NotifyDiff {
   const next: NotifyFile["sent"] = {};
   const first = !Object.values(sent).some((s) => s.kind === "suggestion");
-  const fresh: NotifyDiff = { issues: [], resolved: [], suggestions: [], reminders: [], next, first };
+  const fresh: NotifyDiff = { issues: [], resolved: [], events: [], suggestions: [], reminders: [], next, first };
   for (const issue of issues.filter((i) => i.severity === "warn")) {
     const key = `issue:${issue.key}`;
     const hash = issueHash(issue);
@@ -54,11 +63,28 @@ export function diffNotifications(sent: NotifyFile["sent"], issues: DataIssue[],
   for (const [key, entry] of Object.entries(sent)) {
     if (key.startsWith("issue:") && !next[key]) fresh.resolved.push(entry.label);
   }
+  const minor: Observation[] = [];
   for (const alert of alerts) {
-    if (alert.kind !== "suggestion" && alert.kind !== "reminder") continue;
+    if (alert.kind !== "suggestion" && alert.kind !== "reminder" && alert.kind !== "event") continue;
     const key = `alert:${alert.key}`;
+    if (sent[key]) {
+      next[key] = sent[key];
+      continue;
+    }
+    if (isMinorFee(alert)) {
+      minor.push(alert);
+      continue;
+    }
     next[key] = { hash: alert.key, label: alert.title, kind: alert.kind };
-    if (!sent[key]) (alert.kind === "suggestion" ? fresh.suggestions : fresh.reminders).push(alert);
+    if (alert.kind === "event" && alert.at && now.getTime() - Date.parse(alert.at) > EVENT_PUSH_MS) continue;
+    (alert.kind === "event" ? fresh.events : alert.kind === "suggestion" ? fresh.suggestions : fresh.reminders).push(alert);
+  }
+  const month = `fees:${now.toISOString().slice(0, 7)}`;
+  if (sent[month]) next[month] = sent[month];
+  else if (minor.length) {
+    fresh.minorFees = minor.length;
+    next[month] = { hash: month, label: "费率小建议", kind: "reminder" };
+    for (const m of minor) next[`alert:${m.key}`] = { hash: m.key, label: m.title, kind: "suggestion" };
   }
   return fresh;
 }
@@ -66,34 +92,37 @@ export function diffNotifications(sent: NotifyFile["sent"], issues: DataIssue[],
 const MAX_SUGGESTIONS = 15;
 
 export const ACTIONS: { action: SuggestionAction; title: string }[] = [
-  { action: "replace", title: "可以考虑替换" },
   { action: "stop", title: "可以考虑停止" },
   { action: "increase", title: "可以加大" },
+  { action: "replace", title: "可以考虑替换" },
 ];
 
 export function formatMessage(diff: NotifyDiff, pageUrl: string): { title: string; markdown: string } | null {
-  const { issues, resolved, suggestions, reminders } = diff;
-  if (!issues.length && !resolved.length && !suggestions.length && !reminders.length) return null;
+  const { issues, resolved, events, suggestions, reminders, minorFees } = diff;
+  if (!issues.length && !resolved.length && !events.length && !suggestions.length && !reminders.length && !minorFees) return null;
   const lines: string[] = [];
-  if (diff.first && suggestions.length) lines.push("推送改为策略建议：下面是目前全部的建议，以后只发新出现或有变化的内容。", "");
+  if (events.length) lines.push("**重大事件**", "", ...events.map((e) => `- ${e.title}${e.url ? `（[来源](${e.url})）` : ""}：${e.detail}`), "");
   let room = MAX_SUGGESTIONS;
   for (const { action, title } of ACTIONS) {
     const items = suggestions.filter((s) => s.action === action);
-    if (!items.length) continue;
+    const extra = action === "replace" && minorFees ? [`- 另有 ${minorFees} 条每年省费不到 ${INVEST_RULES.alternatives.pushSaving}% 的替换建议，见页面「策略建议」（每月最多提一次）。`] : [];
+    if (action === "stop" && issues.length) lines.push("**数据异常**", "", ...issues.map((i) => `- ${i.message}`), "");
+    if (action === "stop" && resolved.length) lines.push("**数据已恢复**", "", ...resolved.map((r) => `- ${r}`), "");
+    if (!items.length && !extra.length) continue;
     lines.push(`**${title}**`, "", ...items.slice(0, room).map((s) => `- ${s.title}：${s.detail}`));
     if (items.length > room) lines.push(`- 另有 ${items.length - room} 条，见页面`);
-    lines.push("");
+    lines.push(...extra, "");
     room = Math.max(0, room - items.length);
   }
-  if (issues.length) lines.push("**数据异常**", "", ...issues.map((i) => `- ${i.message}`), "");
-  if (resolved.length) lines.push("**数据已恢复**", "", ...resolved.map((r) => `- ${r}`), "");
   if (reminders.length) lines.push("**时间提醒**", "", ...reminders.map((r) => `- ${r.title}：${r.detail}`), "");
   lines.push(`[打开投资日报](${pageUrl}) · [status.json](${pageUrl}status.json)`);
   const parts = [
+    events.length && `${events.length} 项重大事件`,
     suggestions.length && `${suggestions.length} 条策略建议`,
     issues.length && `${issues.length} 项数据异常`,
     !issues.length && resolved.length && "数据已恢复",
     reminders.length && `${reminders.length} 条时间提醒`,
+    !events.length && !suggestions.length && !issues.length && !resolved.length && !reminders.length && minorFees && "本月费率小建议",
   ].filter(Boolean);
   return { title: `投资日报：${parts.join("，")}`.slice(0, 32), markdown: lines.join("\n") };
 }

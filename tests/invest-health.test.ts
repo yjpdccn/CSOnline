@@ -249,6 +249,7 @@ describe("notifications", () => {
     kind: "suggestion",
     action: "replace",
     severity: "warn",
+    saving: 0.4,
     code: "007466",
     title: "华泰柏瑞中证红利低波ETF联接A（007466）",
     detail: `可以考虑改选易方达中证红利低波动ETF联接发起式A（020602），每年费用低 0.40%。${NOTE}`,
@@ -275,7 +276,7 @@ describe("notifications", () => {
     const message = formatMessage(diffNotifications({}, [issue("stale:indices", ["标普500"])], [...alerts, stop]), "https://yjpdccn.github.io/CSOnline/invest/")!;
     expect(message.title).toBe("投资日报：2 条策略建议，1 项数据异常");
     expect(message.title.length).toBeLessThanOrEqual(32);
-    const order = ["推送改为策略建议", "**可以考虑替换**", "**可以考虑停止**", "**数据异常**"].map((h) => message.markdown.indexOf(h));
+    const order = ["**数据异常**", "**可以考虑停止**", "**可以考虑替换**"].map((h) => message.markdown.indexOf(h));
     expect(order.every((i, k) => i >= 0 && (k === 0 || i > order[k - 1]))).toBe(true);
     expect(message.markdown).not.toContain("096001");
     expect(message.markdown.split("\n").filter((l) => l.startsWith("- ") && !l.includes("指数行情")).every((l) => l.endsWith(NOTE))).toBe(true);

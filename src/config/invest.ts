@@ -180,6 +180,22 @@ export const INVEST_RULES = {
     minQuota: 100,
     /** Daily limits from this amount up count as no limit. */
     noLimit: 1e6,
+    /** Fee suggestions saving less than this a year are not pushed one by one, only as a monthly line. */
+    pushSaving: 0.3,
+  },
+  /** Major events between weekly notes, flagged at the top of the page and pushed. */
+  events: {
+    /** One-day index move, percent. */
+    indexMove: 3,
+    goldMove: 3,
+    /** USD/CNH one-day move, percent. */
+    fxMove: 1,
+    /** PE percentile bands (percent): low under 20, high over 80, left again 5 points inside. */
+    valuationBands: { low: 20, high: 80, margin: 5 },
+    /** Policy news counts as major when this many sources report it. */
+    policySources: 4,
+    /** Events stay at the top this many days. */
+    showDays: 3,
   },
   /** Stop signals, checked every run. */
   stop: {

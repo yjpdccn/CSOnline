@@ -76,14 +76,19 @@ export interface ClusterOptions {
   windowMs?: number;
   /** Domain words that say little about which event a headline reports (see FeatureOptions.generic). */
   generic?: ReadonlySet<string>;
+  /** Domain rules checked before the general ones: a decision (merge or conflict), or null to go on. */
+  match?: (a: NewsItem, b: NewsItem, gapMs: number) => { same: boolean; reason: string } | null;
 }
 
-function decide(a: StoryRef, b: StoryRef, hints?: SameEventHints, windowMs = WINDOW_MS): PairDecision {
+function decide(a: StoryRef, b: StoryRef, hints?: SameEventHints, options: ClusterOptions = {}): PairDecision {
+  const windowMs = options.windowMs ?? WINDOW_MS;
   const none = (reason: string): PairDecision => ({ same: false, strength: "none", score: 0, reason });
   if (a.roundup || b.roundup) return none("汇总类文章");
   const gap = Math.abs(a.time - b.time);
   if (gap > (a.artifact || b.artifact ? ARTIFACT_WINDOW_MS : windowMs)) return none("时间相隔太远");
   const sameSource = a.item.sourceId === b.item.sourceId;
+  const domain = options.match?.(a.item, b.item, gap);
+  if (domain) return domain.same ? { same: true, strength: "normal", score: 0.5, reason: domain.reason } : none(domain.reason);
 
   const veto = conflictReason(a.features, b.features);
   if (veto) return none(veto);
@@ -107,7 +112,7 @@ function decide(a: StoryRef, b: StoryRef, hints?: SameEventHints, windowMs = WIN
 
 /** Exposed for tests and the tuning script: would these two items be merged? */
 export function compareItems(a: NewsItem, b: NewsItem, hints?: SameEventHints, options: ClusterOptions = {}): PairDecision {
-  return decide(prepare(a, options.generic), prepare(b, options.generic), hints, options.windowMs);
+  return decide(prepare(a, options.generic), prepare(b, options.generic), hints, options);
 }
 
 export function isOfficial(item: Pick<NewsItem, "sourceGroup" | "url">): boolean {
@@ -174,7 +179,7 @@ export function clusterItems(items: NewsItem[], hints?: SameEventHints, options:
         let clusterBest = -1;
         const local: [StoryRef, number][] = [];
         for (const member of cluster.members) {
-          const d = decide(ref, member, hints, options.windowMs);
+          const d = decide(ref, member, hints, options);
           if (!d.same) continue;
           local.push([member, d.score]);
           clusterBest = Math.max(clusterBest, d.score);

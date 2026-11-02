@@ -112,7 +112,7 @@ export async function runNotifications(
     return copy;
   };
 
-  const diff = diffNotifications(state.sent, issues, alerts);
+  const diff = diffNotifications(state.sent, issues, alerts, now);
   const message = formatMessage(diff, pageUrl());
   // Nothing new: forget what went away, so it counts as new if it comes back.
   if (!message) return done(settled({ ...state, sent: diff.next }), { result: "nothing-new" });

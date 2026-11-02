@@ -7,6 +7,7 @@ import { diffAlerts } from "./alerts";
 import { buildFundViews, largestMove, MAX_DAILY_MOVE, mergeCloses } from "./funds";
 import { checkHealth, type RunFreshness } from "./health";
 import { mergeNews, rankNews, toInvestItem } from "./news";
+import { detectEvents, eventObservations } from "./events";
 import { buildObservations } from "./observations";
 import { refreshStrategy, scanDue, scanPeers, syncTrackedStatus, type StrategyFile } from "./strategy";
 import { buildSuggestions } from "./suggestions";
@@ -508,7 +509,8 @@ export async function processInvest(fetched: InvestFetch, opts: InvestProcessOpt
   const views = buildFundViews(store.funds.funds, store.market);
   store.alerts = diffAlerts(store.alerts, views, now);
   const suggestions = buildSuggestions(views, store.strategy, store.alerts.events, now);
-  const observations = [...buildObservations(store.alerts.events, views, now), ...suggestions];
+  store.events = detectEvents({ market: store.market, ranked, previous: store.events, now });
+  const observations = [...eventObservations(store.events, now), ...buildObservations(store.alerts.events, views, now), ...suggestions];
   const health = checkHealth(
     { market: store.market, funds: store.funds, news: store.news, calendar: store.calendar, strategy: store.strategy },
     freshness(fetched),

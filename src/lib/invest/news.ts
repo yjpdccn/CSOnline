@@ -17,6 +17,7 @@ import { hashKey, keyFromUrl } from "@/lib/pipeline/url";
 import { rankStories } from "@/lib/rank";
 import { dayKey } from "@/lib/time";
 import type { RawFinanceItem } from "./sources/news";
+import { compareFlashes, flashEvents, ROUTINE_EVENTS } from "./flash";
 import { investTopics, isCompanyFiling, isRoundupPost } from "./topics";
 import type { InvestNewsItem, NewsRef } from "./types";
 
@@ -96,7 +97,7 @@ export function mergeNews(stored: InvestNewsItem[], fresh: InvestNewsItem[], now
     delete item.related;
     delete item.story;
   }
-  applyClusters(items, undefined, { windowMs: INVEST_CLUSTER_WINDOW_MS, generic: FINANCE_GENERIC });
+  applyClusters(items, undefined, { windowMs: INVEST_CLUSTER_WINDOW_MS, generic: FINANCE_GENERIC, match: compareFlashes });
   return { items, added };
 }
 
@@ -128,7 +129,9 @@ export function investWeight(card: InvestNewsItem, topics: InvestTopic[], flag: 
   const markets = new Set(Object.entries(MARKET_TOPICS).filter(([, ts]) => ts.some((t) => topics.includes(t))).map(([m]) => m));
   const breadth = Math.min(6, 3 * Math.max(0, markets.size - 1));
   const sum = authority + coverageScore + 6 * flag + signals + topicBonus + breadth;
-  return Math.round(sum * (EXPLAINER.test(headline) ? 0.6 : 1) * 10) / 10;
+  // Daily session reports and open-market operations draw many flashes without being big news.
+  const routine = [...flashEvents(card.title)].some((e) => ROUTINE_EVENTS.has(e));
+  return Math.round(sum * (EXPLAINER.test(headline) ? 0.6 : 1) * (routine ? 0.6 : 1) * 10) / 10;
 }
 
 export interface RankedCard {

@@ -12,7 +12,7 @@ export type SuggestionAction = "replace" | "stop" | "increase";
  */
 export interface Observation {
   key: string;
-  kind: "change" | "rule" | "reminder" | "suggestion";
+  kind: "change" | "rule" | "reminder" | "suggestion" | "event";
   action?: SuggestionAction;
   /** Section 五 rule: 1 A-class shares, 2 no 增强, 3 premium, 4 fees. */
   rule?: 1 | 2 | 3 | 4;
@@ -24,6 +24,10 @@ export interface Observation {
   at?: string;
   /** The fund a suggestion points to. */
   target?: { code: string; name: string };
+  /** Replace suggestions: yearly fee saving, percent. */
+  saving?: number;
+  /** Events: the report behind it. */
+  url?: string;
 }
 
 export const RULES: { rule: 1 | 2 | 3 | 4; label: string; scope: string }[] = [

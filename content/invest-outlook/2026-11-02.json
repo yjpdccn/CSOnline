@@ -1,0 +1,147 @@
+{
+  "date": "2026-11-02",
+  "title": "大方向 · 11月第1周",
+  "summary": "美国通胀偏高、12月加息预期升温，叠加 AI 资本开支的担忧，科技股和黄金明显回调；A 股 10 月回调后估值回到历史中位以下，政策托底信号增多。长期定投按计划继续即可，本周留意美国中期选举、非农和财政部再融资。",
+  "asOf": "数据截至 10月30日收盘（A 股和港股截至 11月2日上午）",
+  "assets": [
+    {
+      "id": "us",
+      "name": "美股（纳斯达克100、标普500）",
+      "status": "估值回落，波动加大",
+      "valuation": "纳斯达克100 市盈率 27.4 倍，近十年分位 27%（10月28日为 41%）；标普500 市盈率 23.8 倍，分位 42%，但市净率分位 90%，仍不便宜。",
+      "trend": "纳斯达克100 近一个月跌 6.7%，比 20、60、120 日均线低 4%–5%，距 5 月以来高点约 9%；标普500 近一个月跌 0.9%，在 120 日均线附近；标普500 等权重近一个月涨 4.9%，下跌集中在大型科技股。",
+      "drivers": [
+        {
+          "text": "美联储 10月28日按兵不动，但决议声明显示两位官员倾向加息；9 月核心 PCE 同比 3.1%，市场对 12 月加息 25 个基点的定价约七成，穆萨莱姆、洛根等官员公开表示还需要加息。",
+          "sources": [
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3189333" },
+            { "name": "财联社", "url": "https://www.cls.cn/detail/2519627" },
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202611023917835238.html" },
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/30/musalem-fed-monetary-policy-tightening.html" }
+          ]
+        },
+        {
+          "text": "财报季暴露 AI 资本开支和现金流压力：英特尔单日跌约 29%，费城半导体指数跌 7% 以上，标普把 Meta 的信用展望下调为负面。",
+          "sources": [
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3191884" },
+            { "name": "CNBC", "url": "https://www.cnbc.com/2026/10/30/meta-outlook-to-revised-to-negative-by-sp-after-cash-flow-negative.html" },
+            { "name": "FT", "url": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3" }
+          ]
+        },
+        {
+          "text": "美债 10 年期收益率约 4.9%，实际利率 2.6% 处于高位；本周财政部公布再融资计划，发债规模的调整受到关注。",
+          "sources": [
+            { "name": "新浪财经", "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixhnmn7502001.d.html" },
+            { "name": "美国财政部", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates" }
+          ]
+        }
+      ],
+      "longTerm": "估值分位比一个月前明显回落，但利率仍高、短期波动可能加大。长期定投按计划继续：下跌时不停投，也不临时加大金额；场内 QDII ETF 的溢价仍远高于 2%–3%，买场外更合适。"
+    },
+    {
+      "id": "cn",
+      "name": "A 股和港股宽基",
+      "status": "回调后估值偏低，政策托底",
+      "valuation": "沪深300 市盈率 12.9 倍，近十年分位 53%，市净率分位 23%；中证A500 市盈率 13.9 倍（指数历史较短，不算分位）；中证红利低波动 市盈率 9.4 倍，分位 80%，相对自身历史偏贵。",
+      "trend": "中证A500 近一个月跌 10.7%，距 5 月以来高点约 25%，比 60、120 日均线低 12%–16%；沪深300 近一个月跌 8.5%；红利低波近一个月涨 3.7%，创半年新高，资金转向防御；恒生指数近一个月跌 5%，恒生科技跌 9.7%。",
+      "drivers": [
+        {
+          "text": "10 月官方制造业 PMI 49.3（前值 50.1），回到收缩区间，统计局解读称受季节性因素影响；民间的 RatingDog 制造业 PMI 为 52，仍在扩张。",
+          "sources": [
+            { "name": "国家统计局", "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261031_1965718.html" },
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202610313917622255.html" },
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3192172" }
+          ]
+        },
+        {
+          "text": "盈利端偏强：前三季度规模以上工业企业利润同比增长 15.5%，沪深上市公司前三季度净利润超过 5 万亿元，创四年新高。",
+          "sources": [
+            { "name": "国家统计局", "url": "https://www.stats.gov.cn/sj/zxfb/202610/t20261027_1965697.html" },
+            { "name": "财联社", "url": "https://www.cls.cn/detail/2521809" }
+          ]
+        },
+        {
+          "text": "政策托底信号增多：证监会表态全力稳市场稳预期；央行和证监会 11月2日召开座谈会，研究推动股票回购增持再贷款等支持资本市场的工具；央行重申适度宽松；10 月宽基 ETF 资金流入创纪录。",
+          "sources": [
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202611013917704120.html" },
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202611013917704312.html" },
+            { "name": "财联社", "url": "https://www.cls.cn/detail/2520998" },
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3192127" }
+          ]
+        }
+      ],
+      "longTerm": "回调后宽基估值处于历史中位以下，政策信号偏积极，但经济数据分化、波动仍大。长期定投按计划继续；红利低波估值分位已偏高，不宜因近期强势追高；各类资产比例留到年度再平衡时再调整。"
+    },
+    {
+      "id": "gold",
+      "name": "黄金",
+      "status": "下行趋势，跟随实际利率",
+      "valuation": "黄金没有市盈率。现货黄金约 3,900 美元/盎司，比 5 月以来高点低约 16%，10 月底一度跌到一年来最低；上海金约 838 元/克。",
+      "trend": "现货黄金近一个月跌约 6%，比 20、60、120 日均线低 5%–9%，处于下行趋势。",
+      "drivers": [
+        {
+          "text": "加息预期升温、实际利率处于高位，避险资金转向美债；市场去杠杆加剧了下跌，中东局势带来的支撑有限。",
+          "sources": [
+            { "name": "MarketWatch", "url": "https://www.marketwatch.com/story/why-gold-plunged-to-its-lowest-price-in-a-year-despite-renewed-iran-jitters-365be0e2" },
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202610313917333869.html" },
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202611023917863644.html" }
+          ]
+        },
+        {
+          "text": "另一面，10 月黄金主题 ETF 在金价震荡中仍有资金净流入，长期配置需求还在。",
+          "sources": [{ "name": "东方财富", "url": "https://finance.eastmoney.com/a/202611023917819866.html" }]
+        }
+      ],
+      "longTerm": "黄金在组合里主要起分散作用，短期跟着实际利率和美元波动。定投按计划继续，不因下跌暂停或加码；年度再平衡时如果黄金占比明显低于目标，可以在规则内补足。"
+    },
+    {
+      "id": "bonds",
+      "name": "短期债券（中短债）",
+      "status": "平稳，长端波动加大",
+      "valuation": "10 年期国债收益率约 1.66%，近一个月小幅下行；中短债基金近一个月收益约 0.1%–0.2%。",
+      "trend": "10月30日超长端明显调整，30 年期国债期货跌近 1%，创 3 月以来最大跌幅，2 年期只跌 0.06%，短端影响小。",
+      "drivers": [
+        {
+          "text": "央行推进政策利率换锚，隔夜逆回购改为每个工作日开展；超长端调整与风险偏好回升、政策框架调整有关。",
+          "sources": [
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202610313917324529.html" },
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3191083" },
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202610303917021282.html" }
+          ]
+        }
+      ],
+      "longTerm": "中短债以票息为主、波动小，是组合里的压舱石；长端利率波动加大时影响有限，按计划持有即可。"
+    },
+    {
+      "id": "fx",
+      "name": "美元 / 人民币",
+      "status": "人民币偏强",
+      "valuation": "离岸人民币 10月30日升破 6.65，创 2022 年 6 月以来新高；11月2日中间价 6.7146；美元指数约 102。",
+      "trend": "美元兑离岸人民币近三个月下跌约 1.5%，人民币稳步走强。",
+      "drivers": [
+        {
+          "text": "美元指数在加息预期下持稳，人民币仍相对走强。",
+          "sources": [
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3191336" },
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202611023917876622.html" }
+          ]
+        }
+      ],
+      "longTerm": "人民币走强会让以人民币计的海外资产收益略低（QDII 净值受汇率影响）；汇率难以预测，不据此择时。"
+    }
+  ],
+  "watch": [
+    "11月3日 美国中期选举",
+    "11月4日 美国财政部再融资计划、ADP 就业、ISM 服务业",
+    "11月5日 英国央行议息（市场预期加息）",
+    "11月6日 美国 10 月非农就业",
+    "11月9日 中国 10 月 CPI、PPI 和金融数据",
+    "11月10日 美国 10 月 CPI",
+    "12月10日凌晨 美联储议息"
+  ],
+  "dataSources": [
+    { "name": "蛋卷基金（指数估值）", "url": "https://danjuanfunds.com/djmodule/value-center" },
+    { "name": "中证指数", "url": "https://www.csindex.com.cn" },
+    { "name": "腾讯行情（恒生指数）", "url": "https://gu.qq.com/hkHSI/zs" }
+  ]
+}
