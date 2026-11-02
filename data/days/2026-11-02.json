@@ -2,6 +2,49 @@
   "day": "2026-11-02",
   "items": [
     {
+      "id": "172r2stqvlu",
+      "key": "url:36kr.com/p/4052136477004675",
+      "title": "框架选不对，Claude 开发成本多一倍：前端十年框架膨胀，终于有人买单了",
+      "url": "https://36kr.com/p/4052136477004675",
+      "excerpt": "前端框架大战迎来最强裁判",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T09:46:17.813Z",
+      "firstSeenAt": "2026-11-02T10:03:13.682Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "前端框架大战迎来最强裁判。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T10:04:25.388Z"
+      }
+    },
+    {
+      "id": "ipu1cprup7",
+      "key": "url:infoq.cn/article/ORJZPCwM2XXNcdRYf8de",
+      "title": "InfoQ AI 侦察团现场手记：工具之外，企业 AI 落地还要跨过哪些关？",
+      "url": "https://www.infoq.cn/article/ORJZPCwM2XXNcdRYf8de?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T09:39:48.000Z",
+      "firstSeenAt": "2026-11-02T10:03:13.682Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "企业 AI 落地还需跨过哪些关？",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T10:04:25.388Z"
+      }
+    },
+    {
       "id": "1ly0pdlblh4",
       "key": "url:jiqizhixin.com/articles/2026-11-02-10",
       "title": "支付宝AHA智能体多端互联方案获世界互联网大会“新耀”场景奖",
@@ -1625,6 +1668,33 @@
       }
     },
     {
+      "id": "1p0m0e7hmn0",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xlk43x/8_agents_250k_context_concurrently_on_two_3090s",
+      "title": "8 agents × 250K context, concurrently, on two 3090s (~600+ tok/s total)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk43x/8_agents_250k_context_concurrently_on_two_3090s/",
+      "excerpt": "I am open to the idea that I am misguided, but my findings feel worth sharing: Short video of my UI with 8 agents each explaining a codebase in parallel long prose: https://imgur.com/JSqlXIi A few days ago I read the Stanford/Berkeley TokenGate paper. The idea is to make long co…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T01:19:59.000Z",
+      "firstSeenAt": "2026-11-02T10:03:13.682Z",
+      "day": "2026-11-02",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xlk43x/8_agents_250k_context_concurrently_on_two_3090s/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "在两块 3090 上并发运行 8 个 agents，上下文达 250K。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T10:04:25.388Z"
+      }
+    },
+    {
       "id": "siwz3cnevp",
       "key": "url:reddit.com/r/LocalLLaMA/comments/1xlk2kb/lfm3_omni_2b_is_incredible",
       "title": "LFM3 Omni 2B is INCREDIBLE",
@@ -2319,10 +2389,10 @@
       "firstSeenAt": "2026-11-02T02:30:31.448Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 29.6,
+      "score": 29.7,
       "metrics": {
-        "points": 225,
-        "comments": 222
+        "points": 226,
+        "comments": 223
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50330456",
       "aiAttempts": 2,
@@ -2471,9 +2541,9 @@
       "firstSeenAt": "2026-11-02T02:30:31.448Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 25.1,
+      "score": 25.2,
       "metrics": {
-        "points": 155,
+        "points": 157,
         "comments": 88
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50328488",
