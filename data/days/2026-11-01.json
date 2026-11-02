@@ -2,6 +2,155 @@
   "day": "2026-11-01",
   "items": [
     {
+      "id": "dank616n4v",
+      "key": "url:the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would",
+      "title": "Adobe is testing how well AI agents can use editing tools like a Photoshop professional would",
+      "url": "https://the-decoder.com/adobe-is-testing-how-well-ai-agents-can-use-editing-tools-like-a-photoshop-professional-would/",
+      "excerpt": "Adobe Research and UC San Diego built EditAgent, an AI system that edits images more like a Photoshop pro. Instead of retrying the same general-purpose editor over and over, the agent picks the right specialized tool for each task and lets a standard language model choose the be…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-01T14:56:44.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-01",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Adobe 测试像 Photoshop 专家一样使用的 AI",
+        "summary": "Adobe 发布 EditAgent，能精准选择工具进行专业级图像编辑。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:32:20.030Z"
+      }
+    },
+    {
+      "id": "vc8w84e1s1",
+      "key": "url:the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners",
+      "title": "Empathetic prompts can turn AI chatbots into seemingly traumatized conversational partners",
+      "url": "https://the-decoder.com/empathetic-prompts-can-turn-ai-chatbots-into-seemingly-traumatized-conversational-partners/",
+      "excerpt": "Researchers in Luxembourg put ChatGPT, Grok, and Gemini on the therapist's couch and found a safety problem: a warm, empathetic conversational style is enough to make the models tell coherent stories of suffering about their own training, with scores in the moderate-to-severe ra…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-01T14:36:49.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-01",
+      "category": "paper",
+      "score": 15,
+      "ai": {
+        "title": "AI 聊天机器人被共情提示诱导",
+        "summary": "研究发现共情对话风格会让 AI 产生创伤叙事。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:32:20.030Z"
+      }
+    },
+    {
+      "id": "i1hwia1v3l",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xl4ckr/dont_people_pay_attention_anymore_when_buying",
+      "title": "Don't people pay attention anymore when buying hardware for AI?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl4ckr/dont_people_pay_attention_anymore_when_buying/",
+      "excerpt": "I was trying to sell my old AM4 system, X470 / Ryzen 5 5600 / 64GB / RX580 / 1TB NVME and it didn't sell. Granted it was a bit pricey at 750€, because I took into account the current local RAM and NVME pricing. (Buying the same RAM and SSD new costs 775€ if you go to the cheapes…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T14:24:50.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xl4ckr/dont_people_pay_attention_anymore_when_buying/",
+      "ai": {
+        "title": "购买 AI 硬件时人们是否关注参数",
+        "summary": "文章讨论了旧款 AI 硬件在二手市场的销售困境。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:32:20.030Z"
+      }
+    },
+    {
+      "id": "24hncs79d9d",
+      "key": "url:tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "title": "AI agent swarms in Minecraft fail to build civilization, drown in bureaucracy",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-agent-swarms-unleashed-in-minecraft-to-build-a-thriving-civilization-50-agent-teams-fail-after-falling-into-paralyzing-bureaucracy",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T13:47:24.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-01",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 24.7,
+      "metrics": {
+        "points": 152,
+        "comments": 74
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50325662",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI Agent 群体在 Minecraft 中未能建立文明。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:31:38.641Z"
+      }
+    },
+    {
+      "id": "1gki13odm7b",
+      "key": "url:qbitai.com/2026/11/507076.html",
+      "title": "三年前布局，今年爆火丨西湖大学成立新中心",
+      "url": "https://www.qbitai.com/2026/11/507076.html",
+      "excerpt": "西湖世界模型研究中心成立",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T13:28:10.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "西湖大学成立世界模型研究中心，三年布局今年爆火。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
+    },
+    {
+      "id": "xzb0zdkiil",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xl2tcm/heretic_20_released_model_modification_for",
+      "title": "Heretic 2.0 released: Model modification for everyone",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl2tcm/heretic_20_released_model_modification_for/",
+      "excerpt": "Dear fellow Llamas, after almost 5 months of development, I finally have the pleasure of announcing to you the immediate availability of the biggest Heretic release ever, Heretic 2.0: https://github.com/p-e-w/heretic Heretic is the leading software for removing censorship from l…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T13:16:24.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-01",
+      "category": "opensource",
+      "score": 14,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xl2tcm/heretic_20_released_model_modification_for/",
+      "ai": {
+        "title": "Heretic 2.0 发布：人人可修改模型",
+        "summary": "Heretic 2.0 发布，旨在帮助用户移除模型中的审查限制。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:32:20.030Z"
+      }
+    },
+    {
       "id": "1r6l9oe9pos",
       "key": "gh:shiyu-coder/kronos",
       "title": "shiyu-coder/Kronos",
@@ -16,10 +165,17 @@
       "day": "2026-11-01",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 27,
+      "score": 27.2,
       "metrics": {
-        "stars": 44978,
-        "starsToday": 611
+        "stars": 45451,
+        "starsToday": 630
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Kronos 是一个金融市场的语言基础模型。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:31:38.641Z"
       }
     },
     {
@@ -37,10 +193,17 @@
       "day": "2026-11-01",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 15.5,
+      "score": 16,
       "metrics": {
-        "stars": 11593,
-        "starsToday": 88
+        "stars": 11829,
+        "starsToday": 101
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Kornia 是一个用于空间 AI 的几何计算机视觉库。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:31:38.641Z"
       }
     },
     {
@@ -63,10 +226,17 @@
         "MCP",
         "AI 编程"
       ],
-      "score": 24.5,
+      "score": 24.7,
       "metrics": {
-        "stars": 5887,
-        "starsToday": 436
+        "stars": 6279,
+        "starsToday": 446
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AiSOC 是一个开源的 AI 安全运营中心。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:31:38.641Z"
       }
     },
     {
@@ -87,10 +257,17 @@
       "keywords": [
         "Agent"
       ],
-      "score": 26.5,
+      "score": 30,
       "metrics": {
-        "stars": 39844,
-        "starsToday": 573
+        "stars": 40346,
+        "starsToday": 1191
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "ai-engineering-hub 提供关于 LLMs、RAGs 和 AI Agent 的教程。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:31:38.641Z"
       }
     },
     {
@@ -108,10 +285,60 @@
       "day": "2026-11-01",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 20.4,
+      "score": 20.6,
       "metrics": {
-        "stars": 15118,
-        "starsToday": 232
+        "stars": 15462,
+        "starsToday": 242
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "FreeToken 将数据中心级模型服务带到桌面端。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:31:38.641Z"
+      }
+    },
+    {
+      "id": "l7oyvn3aoi",
+      "key": "url:qbitai.com/2026/11/507038.html",
+      "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+      "url": "https://www.qbitai.com/2026/11/507038.html",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T13:09:55.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "4vfepem6or"
+    },
+    {
+      "id": "1832lvm6roq",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xl1zn3/deepseek_exploring_superagent_design_towards_a",
+      "title": "DeepSeek: Exploring Super-agent Design: Towards a More Autonomous Agent System",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xl1zn3/deepseek_exploring_superagent_design_towards_a/",
+      "excerpt": "DeepSeek Harness article on 𝕏: Exploring Super-agent Design: Towards a More Autonomous Agent System: https://x.com/DeepSeekHarness/status/2116857257245987236 Parts of the design in this article are implemented in dsh-superagent-prototype. This plugin is only a prototype for vali…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T12:36:14.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-01",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xl1zn3/deepseek_exploring_superagent_design_towards_a/",
+      "ai": {
+        "title": "DeepSeek 探索超级智能体设计",
+        "summary": "DeepSeek 提出超级智能体设计，旨在实现更自主的系统。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:32:20.030Z"
       }
     },
     {
@@ -127,8 +354,15 @@
       "publishedAt": "2026-11-01T12:33:01.000Z",
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
-      "category": "industry",
-      "score": 15
+      "category": "paper",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "研究显示中国 AI 模型在政治问题上并非政府传声筒。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:31:38.641Z"
+      }
     },
     {
       "id": "1dj1d6fanc1",
@@ -147,7 +381,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "浙大团队提出多智能体系统 MAESTRO，加速灾害预报转化为行动。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "1ghszb4sfak",
@@ -181,6 +421,12 @@
           "36kr-ai"
         ],
         "firstPublishedAt": "2026-11-01T09:10:08.738Z"
+      },
+      "ai": {
+        "summary": "算力需求激增，AI 基础设施面临电力与散热巨大挑战。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
       }
     },
     {
@@ -196,8 +442,14 @@
       "publishedAt": "2026-11-01T12:08:00.000Z",
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
-      "category": "industry",
-      "score": 18
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "Fysiverse-UniWAM 拿下导航、移动操作双第一，无需大规模预训练。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "23ovao8oar9",
@@ -230,7 +482,13 @@
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "“中国版Muse”面临需求真伪、入口争夺与生态壁垒考验。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "1fb54p1ey2k",
@@ -246,7 +504,13 @@
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "汤道生谈 WorkBuddy 商业化，不靠收入数字催团队。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "13qh2joycgn",
@@ -283,6 +547,12 @@
           "36kr-ai"
         ],
         "firstPublishedAt": "2026-11-01T06:00:59.000Z"
+      },
+      "ai": {
+        "summary": "OpenAI 合并额度池并开始计费，Codex 用户福利收紧。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
       }
     },
     {
@@ -299,7 +569,13 @@
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
       "category": "paper",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "复旦团队提出混合注意力机制，兼顾线性与滑窗注意力优势。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "1a7o4idhx78",
@@ -314,12 +590,18 @@
       "publishedAt": "2026-11-01T11:45:00.000Z",
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
-      "category": "industry",
+      "category": "agent",
       "keywords": [
         "Agent",
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "具身 RSI 引发真假之争，机器人是在自我进化还是刷题？",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "1u8adk2fbmz",
@@ -334,8 +616,14 @@
       "publishedAt": "2026-11-01T11:33:00.000Z",
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
-      "category": "multimodal",
-      "score": 22
+      "category": "opensource",
+      "score": 22,
+      "ai": {
+        "summary": "英伟达开源 PixelUMM，在像素空间统一视频图像理解与生成。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "2me6gxbqg0",
@@ -350,11 +638,18 @@
       "publishedAt": "2026-11-01T11:25:21.000Z",
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
-      "category": "multimodal",
+      "category": "agent",
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Google 推出能理解工作需求的视频 AI",
+        "summary": "Google 发布 StreamVibe 视频智能体，仅在用户需要时提供帮助。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:32:20.030Z"
+      }
     },
     {
       "id": "o9t8ksxu0s",
@@ -393,7 +688,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22
+      "score": 22,
+      "ai": {
+        "summary": "谷歌开源 CLASHarness，研究前沿大模型如何应对多 Agent 冲突。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "1ktt5l7cvq3",
@@ -408,9 +709,16 @@
       "publishedAt": "2026-11-01T10:24:21.000Z",
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
-      "category": "multimodal",
+      "category": "paper",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkzony/new_research_a_tiny_109mparameter_model/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkzony/new_research_a_tiny_109mparameter_model/",
+      "ai": {
+        "title": "109M 参数模型超越 72B 模型",
+        "summary": "新研究展示小模型在图像-文本对齐任务上的高效表现。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:32:20.030Z"
+      }
     },
     {
       "id": "1vzae1y0yur",
@@ -465,11 +773,77 @@
       "publishedAt": "2026-11-01T09:51:06.000Z",
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "AI 编程"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "OpenAI ChatGPT 推出统一工作模式",
+        "summary": "ChatGPT 整合聊天与工作模式，引入基于 Token 的配额机制。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:32:20.030Z"
+      }
+    },
+    {
+      "id": "xqfbtxeggl",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xkz4mo/am_i_crazy_or_glm_53_flash_is_hilarious",
+      "title": "Am I Crazy Or GLM 5.3 Flash is Hilarious?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkz4mo/am_i_crazy_or_glm_53_flash_is_hilarious/",
+      "excerpt": "I am sorry for the useless thread, but I finally loaded GLM 5.3 Flash IQ4-XS and didn't know what to expect. I was earlier trying out DeepSeek 4.1 Flash 1017 IQ2 and Qwen 3.8 Flash and while I was chatting with them and getting the hang of how they behave I felt that they were f…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T09:49:38.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkz4mo/am_i_crazy_or_glm_53_flash_is_hilarious/",
+      "dupOf": "2ho3lg81bj"
+    },
+    {
+      "id": "2ho3lg81bj",
+      "key": "url:aayushgarg.dev/posts/2026-11-01-gpt-local-model-opencode",
+      "title": "GLM-5.3-Flash on our H200s does most of my coding now while GPT-6.1 Sol orchestrates (OpenCode setup)",
+      "url": "https://aayushgarg.dev/posts/2026-11-01-gpt-local-model-opencode/",
+      "excerpt": "I had been trying this setup for a couple of weeks and it working better than I expected. Recently, I deployed GLM-5.3-Flash (MoE, 320B total, 18B active) on one of our local H200 servers (4 GPUs) with a 512K context window with the aim of how can I use it as my main coding work…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T09:49:34.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-01",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkz4lf/glm53flash_on_our_h200s_does_most_of_my_coding/",
+      "related": [
+        {
+          "id": "xqfbtxeggl",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkz4mo/am_i_crazy_or_glm_53_flash_is_hilarious/",
+          "title": "Am I Crazy Or GLM 5.3 Flash is Hilarious?",
+          "publishedAt": "2026-11-01T09:49:38.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-11-01T09:49:34.000Z"
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "GLM-5.3-Flash 在 H200 上处理大部分编码工作。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:31:38.641Z"
+      }
     },
     {
       "id": "20ou3893hnm",
@@ -502,7 +876,13 @@
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "2800 万用户也养不活一个 AI 陪伴应用，用户越黏亏得越多。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "u4x65z4row",
@@ -517,11 +897,17 @@
       "publishedAt": "2026-11-01T09:34:10.820Z",
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Agent 改写算力账本，CPU 不再是 AI 服务器的配角。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "1z4mc3gti77",
@@ -553,7 +939,13 @@
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI 能读懂二进制，闭源软件的护城河还剩多少？",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "nn3unpi1dr",
@@ -570,7 +962,14 @@
       "day": "2026-11-01",
       "category": "model",
       "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkxt7a/memdoor_a_team_of_5_qwen3827b_models_beats_fable/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkxt7a/memdoor_a_team_of_5_qwen3827b_models_beats_fable/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "五组 Qwen3.8-27B 模型在 LiveCodeBench Hard 上击败 Fable 5。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:31:38.641Z"
+      }
     },
     {
       "id": "g28i0tye01",
@@ -586,7 +985,13 @@
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Meta 拟筹近千亿美元，甲骨文报出“最后一笔”。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "cuicgvrimk",
@@ -601,8 +1006,14 @@
       "publishedAt": "2026-11-01T08:02:37.000Z",
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
-      "category": "multimodal",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "清华姚期智团队新作：代数世界模型，让 AI 像牛顿一样思考。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "1j2gp7u1nvv",
@@ -618,7 +1029,13 @@
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "老牌便利店机器人售货折戟，实验室锤炼上万次仍摔瓶子。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "4vfepem6or",
@@ -633,8 +1050,32 @@
       "publishedAt": "2026-11-01T07:35:54.000Z",
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
-      "category": "industry",
-      "score": 18
+      "category": "agent",
+      "score": 26,
+      "related": [
+        {
+          "id": "l7oyvn3aoi",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/507038.html",
+          "title": "Claude紧急叫停！暗改Harness禁止逆向游戏",
+          "publishedAt": "2026-11-01T13:09:55.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-11-01T07:35:54.000Z"
+      },
+      "ai": {
+        "summary": "Claude 紧急叫停并修改 Harness，禁止逆向游戏。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "1wpwv82xqrk",
@@ -649,9 +1090,16 @@
       "publishedAt": "2026-11-01T07:24:09.000Z",
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
-      "category": "industry",
+      "category": "opensource",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkwvwg/finedna_the_largest_dataset_to_teach_any_llm_dna/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkwvwg/finedna_the_largest_dataset_to_teach_any_llm_dna/",
+      "ai": {
+        "title": "FineDNA：用于训练 LLM 的 DNA 数据集",
+        "summary": "FineDNA 数据集包含大量基因组数据，用于提升模型能力。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:32:20.030Z"
+      }
     },
     {
       "id": "1hucveapv32",
@@ -666,12 +1114,19 @@
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
       "category": "industry",
-      "score": 23.9,
+      "score": 32,
       "metrics": {
-        "points": 130,
-        "comments": 82
+        "points": 309,
+        "comments": 230
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50323088"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50323088",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "讨论 JavaScript 框架的 AI 成本。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:31:38.641Z"
+      }
     },
     {
       "id": "1jy2wxyaay5",
@@ -721,7 +1176,13 @@
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
       "category": "opensource",
-      "score": 22
+      "score": 22,
+      "ai": {
+        "summary": "Jev 新成果再次引爆开源，被称为“性价比屠夫”。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:34:11.108Z"
+      }
     },
     {
       "id": "lieu4fa8h8",
@@ -753,13 +1214,20 @@
       "publishedAt": "2026-11-01T03:02:34.000Z",
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent",
         "本地部署"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xksj75/64gb_isnt_the_dead_zone_anymore_if_you_run_agents/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xksj75/64gb_isnt_the_dead_zone_anymore_if_you_run_agents/",
+      "ai": {
+        "title": "运行智能体不再受限于 64GB 内存",
+        "summary": "文章指出 64GB 内存对本地 LLM 运行智能体已不再是死区。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:32:20.030Z"
+      }
     },
     {
       "id": "q99motg0hm",
@@ -877,10 +1345,18 @@
           "url": "https://www.jiqizhixin.com/articles/2026-11-01-2",
           "title": "Claude Code悄悄更新：不让Opus 5.5复刻游戏",
           "publishedAt": "2026-11-01T11:21:00.000Z"
+        },
+        {
+          "id": "b9whjitpgi",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4051750786405505",
+          "title": "Claude 给活鼠做了场脑部手术，Opus 5.5 却不肯动手",
+          "publishedAt": "2026-11-02T00:31:35.023Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "36kr-ai",
           "jiqizhixin"
@@ -1100,7 +1576,7 @@
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-11-01",
       "category": "agent",
-      "score": 44.2,
+      "score": 44.5,
       "related": [
         {
           "id": "21ko6gzhr67",
@@ -1119,8 +1595,8 @@
         ],
         "firstPublishedAt": "2026-10-31T10:30:11.000Z",
         "metrics": {
-          "points": 346,
-          "comments": 168
+          "points": 357,
+          "comments": 176
         }
       },
       "ai": {
@@ -1173,10 +1649,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 26.7,
+      "score": 28.7,
       "metrics": {
-        "points": 182,
-        "comments": 115
+        "points": 217,
+        "comments": 163
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50320588",
       "dupOf": "27h9syzc766"
@@ -1309,10 +1785,10 @@
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-11-01",
       "category": "industry",
-      "score": 42.4,
+      "score": 43.6,
       "metrics": {
-        "points": 157,
-        "comments": 100
+        "points": 181,
+        "comments": 111
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50320255",
       "ai": {
@@ -1324,12 +1800,12 @@
       },
       "related": [
         {
-          "id": "29f3ymfgup5",
+          "id": "twiqmw4d9y",
           "sourceId": "github-new",
           "sourceName": "GitHub 新星项目",
-          "url": "https://github.com/elvarofficial/teardown",
-          "title": "elvarofficial/teardown",
-          "publishedAt": "2026-10-30T09:29:01.000Z"
+          "url": "https://github.com/NiazMorshed2007/reanimate",
+          "title": "NiazMorshed2007/reanimate",
+          "publishedAt": "2026-10-29T06:20:59.000Z"
         }
       ],
       "story": {
@@ -1338,11 +1814,11 @@
           "hackernews",
           "github-new"
         ],
-        "firstPublishedAt": "2026-10-30T09:29:01.000Z",
+        "firstPublishedAt": "2026-10-29T06:20:59.000Z",
         "metrics": {
-          "points": 157,
-          "comments": 100,
-          "stars": 728
+          "points": 181,
+          "comments": 111,
+          "stars": 743
         }
       }
     },
@@ -1377,10 +1853,10 @@
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-11-01",
       "category": "industry",
-      "score": 33.8,
+      "score": 35.2,
       "metrics": {
-        "points": 393,
-        "comments": 223
+        "points": 455,
+        "comments": 254
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50319358",
       "ai": {
@@ -1496,10 +1972,10 @@
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-11-01",
       "category": "model",
-      "score": 33.4,
+      "score": 33.5,
       "metrics": {
-        "points": 173,
-        "comments": 184
+        "points": 176,
+        "comments": 187
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50318871",
       "ai": {

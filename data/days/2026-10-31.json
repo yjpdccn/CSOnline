@@ -67,7 +67,14 @@
         "语音"
       ],
       "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkcdlz/nvidia_nemotron_35_bolt_e4b_4gb_posttrained_gemma/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkcdlz/nvidia_nemotron_35_bolt_e4b_4gb_posttrained_gemma/",
+      "ai": {
+        "title": "NVIDIA 发布 Gemma 4 E4B 后训练模型",
+        "summary": "NVIDIA 推出 Nemotron 3.5 Bolt E4B，增强 Gemma 4 的对话与智能体能力。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:32:20.030Z"
+      }
     },
     {
       "id": "1gnpx119srx",
@@ -105,10 +112,10 @@
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 29.2,
+      "score": 29.5,
       "metrics": {
-        "points": 249,
-        "comments": 131
+        "points": 257,
+        "comments": 137
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50316531",
       "ai": {
@@ -251,15 +258,16 @@
       "publishedAt": "2026-10-31T14:14:51.000Z",
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-10-31",
-      "category": "paper",
+      "category": "industry",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkbbqi/is_your_engine_lobotomizing_your_model_kinda_and/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "探讨模型运行引擎可能导致的模型性能下降问题。",
-        "category": "paper",
+        "title": "模型引擎可能正在“脑叶切除”模型",
+        "summary": "文章探讨了量化等操作可能对模型性能造成的损害。",
+        "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-01T02:27:55.203Z"
+        "at": "2026-11-02T02:32:20.030Z"
       }
     },
     {
@@ -458,10 +466,10 @@
       "firstSeenAt": "2026-10-31T16:15:02.680Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 32.2,
+      "score": 32.5,
       "metrics": {
-        "points": 346,
-        "comments": 168
+        "points": 357,
+        "comments": 176
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50314699",
       "aiAttempts": 1,
@@ -490,10 +498,18 @@
           "url": "https://36kr.com/p/4049467472493065",
           "title": "奥特曼：PC上装内存太浪费，最好留给AI数据中心",
           "publishedAt": "2026-10-31T08:07:24.664Z"
+        },
+        {
+          "id": "y2enqksxo",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4051772922696581",
+          "title": "奥特曼暴论被骂翻，普通人电脑装内存太浪费，不如统一交给AI",
+          "publishedAt": "2026-11-02T00:11:16.595Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "jiqizhixin",
           "36kr-ai"
@@ -635,7 +651,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 5486
+        "stars": 8223
       },
       "aiAttempts": 2,
       "ai": {
@@ -659,7 +675,7 @@
       "firstSeenAt": "2026-10-31T10:39:25.583Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 40.9,
+      "score": 41.1,
       "related": [
         {
           "id": "2e6t3fr5b1d",
@@ -678,8 +694,8 @@
         ],
         "firstPublishedAt": "2026-10-31T03:22:44.000Z",
         "metrics": {
-          "points": 184,
-          "comments": 192
+          "points": 186,
+          "comments": 200
         }
       },
       "ai": {
@@ -1075,10 +1091,10 @@
       "firstSeenAt": "2026-10-31T06:03:03.162Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 27.9,
+      "score": 28.1,
       "metrics": {
-        "points": 184,
-        "comments": 192
+        "points": 186,
+        "comments": 200
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50312922",
       "aiAttempts": 1,
@@ -1711,7 +1727,7 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 45.9,
+      "score": 46,
       "related": [
         {
           "id": "19c4e97e0g0",
@@ -1730,8 +1746,8 @@
         ],
         "firstPublishedAt": "2026-10-30T17:27:25.000Z",
         "metrics": {
-          "points": 323,
-          "comments": 290
+          "points": 324,
+          "comments": 293
         }
       },
       "ai": {
@@ -1749,8 +1765,8 @@
         }
       ],
       "metrics": {
-        "points": 100,
-        "comments": 76
+        "points": 102,
+        "comments": 78
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50311311"
     },
@@ -2042,8 +2058,8 @@
         ],
         "firstPublishedAt": "2026-10-30T07:09:12.000Z",
         "metrics": {
-          "points": 979,
-          "comments": 548
+          "points": 993,
+          "comments": 553
         }
       },
       "ai": {
@@ -2182,10 +2198,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 32.9,
+      "score": 33,
       "metrics": {
-        "points": 323,
-        "comments": 290
+        "points": 324,
+        "comments": 293
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50307219",
       "dupOf": "dj1817na0k"
@@ -2203,10 +2219,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 31.8,
+      "score": 32,
       "metrics": {
-        "points": 291,
-        "comments": 252
+        "points": 296,
+        "comments": 255
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50307183",
       "ai": {
@@ -2278,7 +2294,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 39654,
+        "stars": 40253,
         "starsToday": 929
       },
       "ai": {
@@ -2364,10 +2380,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "opensource",
-      "score": 30.5,
+      "score": 30.6,
       "metrics": {
-        "points": 288,
-        "comments": 148
+        "points": 292,
+        "comments": 150
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50306442",
       "ai": {
@@ -2391,10 +2407,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-31",
       "category": "industry",
-      "score": 31.6,
+      "score": 31.7,
       "metrics": {
-        "points": 267,
-        "comments": 296
+        "points": 269,
+        "comments": 301
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50306008",
       "ai": {

@@ -18,7 +18,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 4208
+        "stars": 4948
       },
       "aiAttempts": 1,
       "ai": {
@@ -224,7 +224,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 3373
+        "stars": 3995
       },
       "ai": {
         "title": "Mika：手机上的私人 AI 助理",
@@ -2234,6 +2234,30 @@
       }
     },
     {
+      "id": "twiqmw4d9y",
+      "key": "gh:niazmorshed2007/reanimate",
+      "title": "NiazMorshed2007/reanimate",
+      "url": "https://github.com/NiazMorshed2007/reanimate",
+      "excerpt": "A Claude Code skill that reverse-engineers any animation frame by frame, then proves the copy moves the same.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T06:20:59.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-10-29",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 19,
+      "metrics": {
+        "stars": 743
+      },
+      "dupOf": "17ae56tae8g"
+    },
+    {
       "id": "aas36th186",
       "key": "url:qbitai.com/2026/10/506468.html",
       "title": "IDC最新报告：MaaS市场分化，PPIO拿下独立服务商首位",
@@ -2270,9 +2294,9 @@
       "day": "2026-10-29",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 24.1,
+      "score": 24.3,
       "metrics": {
-        "stars": 1833
+        "stars": 1886
       },
       "ai": {
         "title": "nvzhuang：AI 女装参考图集与虚拟试穿网站",
@@ -2554,7 +2578,7 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 58.7,
+      "score": 60.7,
       "ai": {
         "summary": "OpenAI砍半Pro额度并合并聊天工作，开发者热议。",
         "category": "industry",
@@ -2593,10 +2617,18 @@
           "url": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
           "title": "OpenAI is steering ChatGPT users toward more paid usage",
           "publishedAt": "2026-11-01T12:05:04.000Z"
+        },
+        {
+          "id": "1vyv8ys4ucj",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4051737057088392",
+          "title": "ChatGPT要和Codex共用额度，免费重置时代结束了",
+          "publishedAt": "2026-11-02T00:32:02.539Z"
         }
       ],
       "story": {
-        "reports": 5,
+        "reports": 6,
         "sources": [
           "36kr-ai",
           "reddit-localllama",
@@ -2606,8 +2638,8 @@
         ],
         "firstPublishedAt": "2026-10-29T04:13:56.068Z",
         "metrics": {
-          "points": 182,
-          "comments": 115
+          "points": 217,
+          "comments": 163
         }
       }
     },
@@ -3068,7 +3100,7 @@
         ],
         "firstPublishedAt": "2026-10-29T03:24:01.011Z",
         "metrics": {
-          "stars": 9249,
+          "stars": 9572,
           "starsToday": 1054
         }
       }
@@ -4027,9 +4059,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 27,
+      "score": 27.9,
       "metrics": {
-        "upvotes": 120,
+        "upvotes": 136,
         "comments": 2
       },
       "ai": {
@@ -4058,9 +4090,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 23.9,
+      "score": 25.4,
       "metrics": {
-        "upvotes": 77,
+        "upvotes": 95,
         "comments": 4
       },
       "ai": {
@@ -4069,6 +4101,30 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-10-31T10:41:14.285Z"
+      }
+    },
+    {
+      "id": "hxfqgcty2t",
+      "key": "arxiv:2610.31670",
+      "title": "Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success",
+      "url": "https://huggingface.co/papers/2610.31670",
+      "excerpt": "Sensorimotor alignment measures how sensory representations match physical motion geometry, serving as a low-cost offline predictor of robot model performance.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T00:00:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-10-29",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 21.7,
+      "metrics": {
+        "upvotes": 56,
+        "comments": 2
       }
     },
     {

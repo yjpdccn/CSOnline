@@ -16,8 +16,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 655,
-        "comments": 476
+        "points": 665,
+        "comments": 482
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50305693",
       "ai": {
@@ -166,10 +166,10 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 24.5,
+      "score": 24.7,
       "metrics": {
-        "points": 124,
-        "comments": 131
+        "points": 125,
+        "comments": 138
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50304358",
       "aiAttempts": 1,
@@ -218,9 +218,9 @@
       "firstSeenAt": "2026-10-31T02:25:20.490Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 33,
+      "score": 33.1,
       "metrics": {
-        "points": 308,
+        "points": 311,
         "comments": 382
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50304122",
@@ -689,7 +689,7 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 49,
+      "score": 49.1,
       "ai": {
         "summary": "27岁程序员获无限Token，挑战重写思科遗留代码。",
         "category": "industry",
@@ -714,7 +714,7 @@
         ],
         "firstPublishedAt": "2026-10-30T12:34:34.116Z",
         "metrics": {
-          "points": 308,
+          "points": 311,
           "comments": 382
         }
       }
@@ -1155,7 +1155,7 @@
         ],
         "firstPublishedAt": "2026-10-30T11:05:53.000Z",
         "metrics": {
-          "points": 659,
+          "points": 661,
           "comments": 17
         }
       },
@@ -1232,7 +1232,7 @@
       ],
       "score": 30.8,
       "metrics": {
-        "points": 659,
+        "points": 661,
         "comments": 17
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50302334",
@@ -1615,11 +1615,17 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 18.9,
+      "score": 20.3,
       "metrics": {
-        "stars": 728
+        "stars": 946
       },
-      "dupOf": "17ae56tae8g"
+      "ai": {
+        "title": "teardown：将机器变成 3D 拆解模拟器",
+        "summary": "teardown 是一个 Claude Code 技能，可将任意机器 3D 化。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:32:20.030Z"
+      }
     },
     {
       "id": "us6of0r8gy",
@@ -1635,10 +1641,10 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 25.8,
+      "score": 25.9,
       "metrics": {
-        "points": 148,
-        "comments": 141
+        "points": 150,
+        "comments": 142
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50301479",
       "ai": {
@@ -1925,9 +1931,16 @@
       "day": "2026-10-30",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 21.7,
+      "score": 22.1,
       "metrics": {
-        "stars": 1222
+        "stars": 1300
+      },
+      "ai": {
+        "title": "florilegium：生成 Delft 蓝花卉页边",
+        "summary": "florilegium 项目为 LuaLaTeX 生成程序化花卉页边。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-02T02:32:20.030Z"
       }
     },
     {
@@ -2161,8 +2174,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 979,
-        "comments": 548
+        "points": 993,
+        "comments": 553
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50300683",
       "ai": {
@@ -2191,7 +2204,7 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 47.8,
+      "score": 48.2,
       "related": [
         {
           "id": "j4yhfw6iwe",
@@ -2227,7 +2240,7 @@
         ],
         "firstPublishedAt": "2026-10-29T17:08:44.000Z",
         "metrics": {
-          "likes": 289
+          "likes": 312
         }
       },
       "ai": {
@@ -2255,9 +2268,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 24.9,
+      "score": 26.6,
       "metrics": {
-        "stars": 2075
+        "stars": 2701
       },
       "ai": {
         "title": "pixelfx：232 个像素艺术效果与 Claude Code 技能",
@@ -2347,12 +2360,30 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "model",
-      "score": 24,
+      "score": 32,
       "ai": {
         "summary": "Anthropic 曝光 Claude 新模型 Fable 和 Opus。",
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-10-30T17:10:05.274Z"
+      },
+      "related": [
+        {
+          "id": "15t3y7evbdn",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4051806214214530",
+          "title": "OpenAI、Claude新旗舰同日曝光",
+          "publishedAt": "2026-11-02T00:30:01.626Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "qbitai",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-10-30T05:50:44.000Z"
       }
     },
     {
@@ -2875,7 +2906,7 @@
       "firstSeenAt": "2026-10-30T02:45:24.843Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 26,
+      "score": 34,
       "related": [
         {
           "id": "j11ux8t8k1",
@@ -2892,13 +2923,22 @@
           "url": "https://36kr.com/p/4047841517484292",
           "title": "ChatGPT Pro 额度翻倍：是让步，不是福利？",
           "publishedAt": "2026-10-30T04:12:18.940Z"
+        },
+        {
+          "id": "r0nd7ym8is",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/WpTNht7guarWEyejJFV6?utm_source=rss&utm_medium=article",
+          "title": "ChatGPT Pro 额度翻倍：是让步，不是福利？",
+          "publishedAt": "2026-11-02T01:16:03.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "jiqizhixin",
-          "36kr-ai"
+          "36kr-ai",
+          "infoq-cn"
         ],
         "firstPublishedAt": "2026-10-30T00:09:05.816Z"
       },
@@ -3287,9 +3327,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 25.7,
+      "score": 26,
       "metrics": {
-        "upvotes": 100,
+        "upvotes": 105,
         "comments": 3
       },
       "ai": {
@@ -3398,9 +3438,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.2,
+      "score": 22.8,
       "metrics": {
-        "upvotes": 60,
+        "upvotes": 66,
         "comments": 4
       },
       "ai": {
@@ -3988,7 +4028,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 10150,
+        "stars": 10627,
         "starsToday": 1304
       },
       "ai": {
@@ -4020,7 +4060,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 108543,
+        "stars": 109420,
         "starsToday": 1723
       },
       "ai": {
@@ -4052,7 +4092,7 @@
       ],
       "score": 28.1,
       "metrics": {
-        "stars": 9249,
+        "stars": 9572,
         "starsToday": 707
       },
       "dupOf": "1zg0212pemm"
@@ -4078,7 +4118,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 31692,
+        "stars": 32396,
         "starsToday": 1347
       },
       "ai": {
@@ -4135,9 +4175,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 19.8,
+      "score": 20.2,
       "metrics": {
-        "likes": 289
+        "likes": 312
       },
       "skipLlm": true,
       "dupOf": "1egv1bh2tq8"

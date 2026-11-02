@@ -1,6 +1,957 @@
 {
-  "updatedAt": "2026-11-01T13:10:09.812Z",
+  "updatedAt": "2026-11-02T02:30:31.448Z",
   "items": [
+    {
+      "id": "5fhwlx8658",
+      "key": "em:202611023918174998",
+      "title": "热点 | 地缘与加息预期双重压制 贵金属延续下跌",
+      "url": "https://finance.eastmoney.com/a/202611023918174998.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T02:21:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "2026年11月2日，贵金属期货延续下跌。上周五夜盘中，沪银主力合约盘中最大跌幅6.89%，沪金主力合约盘中最大跌幅3.59%。"
+    },
+    {
+      "id": "xyjfwdk061",
+      "key": "wscn:3192194",
+      "title": "部分宽基ETF显著放量，中证1000ETF南方（512100）成交额超上一日全天",
+      "url": "https://wallstreetcn.com/livenews/3192194",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T02:17:10.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "开盘第一个小时，部分宽基ETF显著放量，中证1000ETF南方（512100）成交额近44亿元，超出上一日全天成交额，科创50ETF华夏（588000）、创业板ETF易方达（159915）、沪深300ETF华泰柏瑞（510300）成交额均超50亿元。",
+      "flag": 1,
+      "dupOf": "2e0glwysvhn"
+    },
+    {
+      "id": "2dlulvl1q7r",
+      "key": "cls:2522101",
+      "title": "部分宽基ETF显著放量 中证1000ETF南方（512100）成交额超上一日全天",
+      "url": "https://www.cls.cn/detail/2522101",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T02:16:29.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "据财联社盯盘数据显示，开盘第一个小时，部分宽基ETF显著放量，中证1000ETF南方（512100）成交额近44亿元，超出上一日全天成交额，科创50ETF华夏（588000）、创业板ETF易方达（159915）、沪深300ETF华泰柏瑞（510300）成交额均超50亿元。",
+      "flag": 1,
+      "dupOf": "2e0glwysvhn"
+    },
+    {
+      "id": "2e0glwysvhn",
+      "key": "em:202611023918144033",
+      "title": "部分宽基ETF显著放量 中证1000ETF南方成交额超上一日全天",
+      "url": "https://finance.eastmoney.com/a/202611023918144033.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T02:16:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 34,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "开盘第一个小时，部分宽基ETF显著放量，中证1000ETF南方（512100）成交额近44亿元，超出上一日全天成交额，科创50ETF华夏（588000）、创业板ETF易方达（159915）、沪深300ETF华泰柏瑞（510300）成交额均超50亿元。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "2dlulvl1q7r",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2522101",
+          "title": "部分宽基ETF显著放量 中证1000ETF南方（512100）成交额超上一日全天",
+          "publishedAt": "2026-11-02T02:16:29.000Z"
+        },
+        {
+          "id": "xyjfwdk061",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3192194",
+          "title": "部分宽基ETF显著放量，中证1000ETF南方（512100）成交额超上一日全天",
+          "publishedAt": "2026-11-02T02:17:10.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "em-focus",
+          "cls",
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-11-02T02:16:00.000Z"
+      }
+    },
+    {
+      "id": "aqi919yh81",
+      "key": "wscn:3192193",
+      "title": "创业板指快速拉升，盘中涨近2%，此前一度翻绿",
+      "url": "https://wallstreetcn.com/livenews/3192193",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T02:12:54.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "flag": 1,
+      "dupOf": "29m2u89edgw"
+    },
+    {
+      "id": "1hpy1oapxql",
+      "key": "wscn:3192181",
+      "title": "创业板指翻绿，此前一度涨超1%",
+      "url": "https://wallstreetcn.com/livenews/3192181",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T01:56:25.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "flag": 1,
+      "dupOf": "29m2u89edgw"
+    },
+    {
+      "id": "2bggr02ahip",
+      "key": "url:cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+      "title": "Stock futures tick higher ahead of busy week of earnings, jobs data and the midterm elections: Live updates",
+      "url": "https://www.cnbc.com/2026/11/01/stock-market-today-live-updates.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T01:53:48.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us",
+        "us-stocks"
+      ],
+      "excerpt": "Investors geared up for another batch of earnings results and the upcoming midterm elections."
+    },
+    {
+      "id": "fadi265u87",
+      "key": "wscn:3192172",
+      "title": "中国10月RatingDog制造业PMI 52，前值 52.1",
+      "url": "https://wallstreetcn.com/livenews/3192172",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T01:45:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "flag": 2
+    },
+    {
+      "id": "j8icrkblv7",
+      "key": "em:202611023917882497",
+      "title": "A股开盘：三大指数集体高开",
+      "url": "https://finance.eastmoney.com/a/202611023917882497.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T01:26:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "A股开盘，上证指数高开0.42%，深证成指高开0.59%，创业板指高开1.05%。存储芯片、教育、半导体板块涨幅居前。",
+      "flag": 1
+    },
+    {
+      "id": "29m2u89edgw",
+      "key": "cls:2522051",
+      "title": "创业板指高开1.05%",
+      "url": "https://www.cls.cn/detail/2522051",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T01:25:59.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "沪指高开0.42%，深成指高开0.59%，创业板指高开1.05%，激光产业、证券IT、草甘膦等板块指数涨幅居前，锰硅、影视院线、贵金属等板块指数跌幅居前。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "1hpy1oapxql",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3192181",
+          "title": "创业板指翻绿，此前一度涨超1%",
+          "publishedAt": "2026-11-02T01:56:25.000Z"
+        },
+        {
+          "id": "aqi919yh81",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3192193",
+          "title": "创业板指快速拉升，盘中涨近2%，此前一度翻绿",
+          "publishedAt": "2026-11-02T02:12:54.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "cls",
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-11-02T01:25:59.000Z"
+      }
+    },
+    {
+      "id": "1fk6ctbtmi1",
+      "key": "wscn:3192159",
+      "title": "上证指数开盘报3614.31点，涨0.42%",
+      "url": "https://wallstreetcn.com/livenews/3192159",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T01:25:05.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "上证指数开盘报3614.31点，涨0.42%。 深证成指开盘报10897.50点，涨0.59%。 创业板指开盘报2439.08点，涨1.05%。 沪深300开盘报4005.94点，涨0.51%。 科创50开盘报1185.51点，涨2.13%。 中证500开盘报6309.16点，涨0.69%。 中证1000开盘报6197.38点，涨0.59%。",
+      "flag": 1
+    },
+    {
+      "id": "u82hijrzip",
+      "key": "em:202611023917885229",
+      "title": "央行今日开展5410亿元隔夜逆回购操作",
+      "url": "https://finance.eastmoney.com/a/202611023917885229.html",
+      "lang": "zh",
+      "sourceId": "em-pboc",
+      "sourceName": "东方财富·中国央行",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T01:23:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "pboc"
+      ],
+      "excerpt": "央行今日开展5410亿元隔夜逆回购操作，操作利率为1.25%。"
+    },
+    {
+      "id": "1a7u4nwlh80",
+      "key": "sina:5186305",
+      "title": "中国央行逆回购今日净回笼5150亿元人民币",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixicie7237115.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T01:22:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "pboc"
+      ],
+      "excerpt": "中国央行：今日开展5410亿元隔夜逆回购操作，投标量5410亿元，中标量5410亿元，操作利率为1.25%",
+      "flag": 1
+    },
+    {
+      "id": "1szu674x1nv",
+      "key": "em:202611023917876622",
+      "title": "人民币兑美元中间价报6.7146 下调8点",
+      "url": "https://finance.eastmoney.com/a/202611023917876622.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T01:15:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "rates-fx"
+      ],
+      "excerpt": "人民币兑美元中间价报6.7146，下调8点。"
+    },
+    {
+      "id": "1tusbjgulwl",
+      "key": "em:202611023917873950",
+      "title": "三重考验即将来袭：美股本周直面中期选举、非农和财报冲击 能否绝处逢生？",
+      "url": "https://finance.eastmoney.com/a/202611023917873950.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T01:13:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us",
+        "us-stocks"
+      ],
+      "excerpt": "在美股刚刚因Alphabet、亚马逊和英特尔财报冲击而经历动荡一周后，本周，美股预计将经历更加更大的冲击：美股更多科技公司将公布财报，同时，备受瞩目的美国中期选举和非农就业报告也将在本周来袭。",
+      "flag": 1
+    },
+    {
+      "id": "2b7adpyisxo",
+      "key": "wscn:3192144",
+      "title": "商品期货开盘，沪银主力合约跌超5%，沪金跌近3%，燃料油、碳酸锂、烧碱跌超2%。甲醇涨超4%，丙烯、对二甲苯、液化气、瓶片、苹果、聚丙烯涨超3%",
+      "url": "https://wallstreetcn.com/livenews/3192144",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T01:00:05.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "23vgdwsfzms",
+      "key": "em:202611023917868590",
+      "title": "原油、AI与债券：过去一个月市场交易格局彻底生变？",
+      "url": "https://finance.eastmoney.com/a/202611023917868590.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T00:54:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "rates-fx"
+      ],
+      "excerpt": "如果说2026年市场有一条“稳赚不赔”的铁律，那就是美债收益率会伴随原油期货价格的攀升而同步走高。然而在过去一个月里，这一规律宣告终结。全球最大资产管理公司贝莱德旗下系统性另类投资ETF(IALT)的高级投资组合经理罗森伯格(JeffreyRosenberg)就此指出，这一交易逻辑的瓦解对市场影响深远。",
+      "flag": 1
+    },
+    {
+      "id": "2cqsgs5qf4r",
+      "key": "em:202611013917761993",
+      "title": "政策利率换锚后 债市、信贷定价将迎哪些变化？",
+      "url": "https://finance.eastmoney.com/a/202611013917761993.html",
+      "lang": "zh",
+      "sourceId": "em-pboc",
+      "sourceName": "东方财富·中国央行",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T00:51:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cn-bonds"
+      ],
+      "excerpt": "“换锚”落地后，对市场有何影响？多位市场分析人士认为，本次制度改革不等同于降息，而是货币政策价格型调控机制的深度优化。“换锚”落地后，将重塑货币与债券市场运行格局，压降银行整体负债成本，倒逼银行重构信贷定价体系，对全市场形成多层次深远影响。"
+    },
+    {
+      "id": "25slhil5al4",
+      "key": "em:202611023917863644",
+      "title": "美国通胀粘性抬升叠加资金去杠杆 贵金属持续承压",
+      "url": "https://finance.eastmoney.com/a/202611023917863644.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T00:37:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "us-stocks",
+        "gold",
+        "macro-us"
+      ],
+      "excerpt": "受制于美联储紧缩预期，叠加美股波动加剧，贵金属价格中枢持续下移。10月FOMC会议维持政策利率不变，但投票结果体现鹰派分歧；沃什发言释放政策耐心的同时，明确通胀风险尚未出清，保留后续进一步加息的可能性。美国经济层面，三季度GDP增速超市场预期，但增长结构失衡：经济增长主要由AI相关资本开支拉动，居民消费则依托超额储蓄透支支撑，内生需求的可持续性偏弱。9月PCE通胀环比上行，能源成本向服务端传导，CPI、PPI、PCE同步回升，通胀反弹信号增强，为美联储鹰派立场提供数据佐证。"
+    },
+    {
+      "id": "2cjct5ub54r",
+      "key": "em:202611023917856384",
+      "title": "美国中期选举倒计时！大摩研判：三大利空逐步出清 美股回调接近尾声",
+      "url": "https://finance.eastmoney.com/a/202611023917856384.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T00:27:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us",
+        "us-stocks"
+      ],
+      "excerpt": "受AI资本开支担忧、流动性收紧与中期选举不确定性共同压制，美股过去几周面临回调压力，尤其是科技股。摩根士丹利认为，随着多重利空逐渐出清，美股目前的调整可能已接近尾声，即将到来的中期选举和其他一些事态发展可能会为市场复苏扫清障碍。",
+      "flag": 1
+    },
+    {
+      "id": "1kzvhrk1795",
+      "key": "sina:5186209",
+      "title": "中信证券：预计欧央行今年12月或将再加息25bps",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixhwzk3068146.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T00:23:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb",
+        "cn-bonds",
+        "pboc"
+      ],
+      "excerpt": "中信证券研报称，欧央行10月如期维持政策利率不变，措辞较前次决议更温和，没有专门提及法债市场波动。我们预计欧央行今年12月或将再加息25bps。拉加德在会上称欧元区金融条件在上次决议后已收紧，对经济前景的观点无明显变化，并宣布自己将于明年2月提前离任欧央行行长职务。我们认为法债抛售潮更像是市场局部事件，外溢风险较小。"
+    },
+    {
+      "id": "1wcwnhmchww",
+      "key": "wscn:3192127",
+      "title": "多只宽基ETF十月流入创纪录",
+      "url": "https://wallstreetcn.com/livenews/3192127",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T00:22:39.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "数据显示，沪深300ETF华泰柏瑞10月获资金流入逾616亿元人民币，创下历史最大单月净买入。科创50ETF华夏10月获资金流入近449亿元，沪深300ETF易方达获净流入近436亿元，也均创下历史单月最大净流入。",
+      "flag": 1
+    },
+    {
+      "id": "1bc0l3it6ae",
+      "key": "url:marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
+      "title": "This is the biggest threat to the AI-powered bull market",
+      "url": "https://www.marketwatch.com/story/this-is-the-biggest-threat-to-the-ai-powered-bull-market-e757ca37?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T00:22:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Blockbuster earnings growth has helped to power the stock market higher in 2026. In 2027, that engine might stall."
+    },
+    {
+      "id": "ydtt65xtmz",
+      "key": "url:marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
+      "title": "Apple’s new earnings era begins at a critical time for Big Tech",
+      "url": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-02T00:21:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "A rare Monday earnings report for Apple will give investors a glimpse into how new CEO John Ternus is managing inflated memory prices and a tougher backdrop for consumer spending."
+    },
+    {
+      "id": "1lg364bg8f7",
+      "key": "cls:2521968",
+      "title": "财联社11月2日早间新闻精选",
+      "url": "https://www.cls.cn/detail/2521968",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T00:20:14.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn",
+        "pboc"
+      ],
+      "excerpt": " 1、据财联社记者11月1日获悉，业内人士透露，央行周一将与金融监管总局、证监会召集各大银行开会，研究优化股票回购增持再贷款政策。业内猜测，此次会议大概率是金融管理部门为进一步稳定市场做准备。 2、据财联社记者11月1日从相关渠道了解到，一家国有超大型银行近日计划向中国国新、中国诚通两家央企新增股票回购增持贷款额度，单家新增额度或可达到1000亿元。 3、证监会党委书记、主席吴清10月30日主持召开党委（扩大）会议。会议要求，全力稳市场稳预期，深化投融资综合改革，完善全链条监管体系，持续提升资本市场韧性和信心。 4、央行党委书记、行长潘功胜主持召开党委…",
+      "flag": 1
+    },
+    {
+      "id": "2enph01n09o",
+      "key": "sina:5186195",
+      "title": "华尔街准备迎接美国国债发行多年来最大调整",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixhwzf0537026.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T00:08:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us",
+        "us-stocks"
+      ],
+      "excerpt": "美国财政部长斯科特·贝森特近几个月出人意料地展现出干预债券市场、推动收益率下降的意愿，如今华尔街正准备迎接美国国债发行指引自2024年初以来规模最大的一次调整。许多交易商预计，美国财政部将在季度政策声明中修改相关指引。两年多来，该指引一直表明中长期国债发行将保持稳定。周三的声明若出现变化，可能为2027年削减期限最长的国债发行铺平道路，同时增加国库券和较短期限国债的招标规模，以此加以平衡。一些机构正在为更激进的举措做准备。花旗集团预计，财政部将宣布从本月开始削减20年期和30年期国债发行，这实际上将违背上一份所谓季度再融资声明中给出的指引。在上一轮计划…"
+    },
+    {
+      "id": "s84pwsoly9",
+      "key": "em:202611013917772210",
+      "title": "北京商报：对“羊字辈”股票无厘头炒作说“不”",
+      "url": "https://finance.eastmoney.com/a/202611013917772210.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-02T00:05:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "无厘头炒作之风再起。近日，A股市场中“羊字辈”股票遭遇热炒。滑稽之处在于，股票简称中不一定带“羊”字，只要是发音相同，“阳”“洋”都可能成为热炒标的。资本市场的长期健康发展，依靠的是优质企业的成长，而不是文字谐音带来的短期狂欢。对“羊字辈”这类无厘头炒作说“不”，既是尊重市场规律，也是在为A股市场整体降风险。",
+      "flag": 1
+    },
+    {
+      "id": "1n6uc0wamys",
+      "key": "em:202611023917824411",
+      "title": "分红回购远超融资 A股投融资生态加速转变",
+      "url": "https://finance.eastmoney.com/a/202611023917824411.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T23:52:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "数据显示，截至10月26日，2026年中期A股已实施的现金分红总额达到5413.19亿元，尚未实施完毕的中期分红预案达到1892.75亿元，两项合计已超7300亿元。2026年以来，有超过1200家上市公司进行股票回购，累计回购总金额达到1374.90亿元。其中，美的集团、京东方A、中际旭创等20家公司回购规模均在10亿元以上。相比之下，按照网上发行日期计算，截至10月26日，2026年以来A股共计完成132宗IPO，合计募集资金2267亿元。",
+      "flag": 1
+    },
+    {
+      "id": "18zb8elep5l",
+      "key": "em:202611023917819731",
+      "title": "基本面有支撑、制度有红利、长钱有后劲 A股多维积蓄向好发展动能",
+      "url": "https://finance.eastmoney.com/a/202611023917819731.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T23:38:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "近期，A股市场经历阶段性调整，投资者对后续走势的关注度有所升温。围绕企业盈利、产业升级、资金结构等维度，记者采访了多家券商首席经济学家及策略分析师，其普遍认为，多维度积极因素共振，A股正蓄力向好，基本面有支撑、制度有红利、长钱有后劲。",
+      "flag": 1
+    },
+    {
+      "id": "1hbhp5vql42",
+      "key": "sina:5186161",
+      "title": "中信建投：科技巨头绩后波动，关注美国中期选举",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixhwzh7298968.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T23:36:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us",
+        "a-shares"
+      ],
+      "excerpt": "中信建投研报指出，本周A股加速调整，交投热度延续低位，双创板块跌超10%；海外市场表现分化，美国三大股指悉数收跌，日韩和欧洲股市有所上涨；国际金价下跌约3%，国际油价下跌约3%。9月规模以上工业企业利润增长14.4%，电子行业对利润增长贡献显著；10月官方制造业PMI为49.3%，前值50.1%，预期50%。美联储结束10月议息会议，宣布维持利率不变；美国总统特朗普可能在中期选举次日恢复对伊朗打击。美国科技巨头财报逐步出炉，绩后盘面波动剧烈；Anthropic正式向美国SEC提交IPO申请。本周机构调研热度有所回升，医药、电子等行业调研热度提升较多。后…"
+    },
+    {
+      "id": "g9cuuts8k4",
+      "key": "em:202611023917842150",
+      "title": "现货黄金突破3900美元/盎司",
+      "url": "https://finance.eastmoney.com/a/202611023917842150.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T23:09:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "现货黄金突破3900美元/盎司，日内涨0.61%。"
+    },
+    {
+      "id": "2roq8fph34",
+      "key": "em:202611013917762083",
+      "title": "全球资产遭遇洗盘 国内市场迎来两场重磅会议",
+      "url": "https://finance.eastmoney.com/a/202611013917762083.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T22:21:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "全球大类资产迎来一轮罕见的“流动性洗盘”，风险资产与避险资产遭遇无差别抛售。10月最后一个交易日，美股科技股因业绩指引不及预期出现恐慌性大跌，部分机构为补足保证金，被迫变现流动性最好的贵金属资产；叠加美联储加息预期再度升温，传统避险资产黄金接连跌破关键关口，走出深度回调行情，现货黄金上周五失守3900美元/盎司。",
+      "flag": 1
+    },
+    {
+      "id": "7bo83mlyil",
+      "key": "em:202611023917835238",
+      "title": "美联储12月加息的概率为72%",
+      "url": "https://finance.eastmoney.com/a/202611023917835238.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T22:13:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "据CME“美联储观察”：美联储12月维持利率不变的概率为28%，加息25个基点的概率为72%。美联储到明年1月维持利率不变的概率19.3%，累计加息25个基点的概率58.4%，累计加息50个基点的概率为22.3%。",
+      "dupOf": "kqor8wm2zd"
+    },
+    {
+      "id": "kqor8wm2zd",
+      "key": "sina:5186100",
+      "title": "美联储12月加息的概率为72%",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixhstk7401201.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T22:08:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "据CME“美联储观察”：美联储12月维持利率不变的概率为28%，加息25个基点的概率为72%。美联储到明年1月维持利率不变的概率19.3%，累计加息25个基点的概率58.4%，累计加息50个基点的概率为22.3%。",
+      "related": [
+        {
+          "id": "7bo83mlyil",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202611023917835238.html",
+          "title": "美联储12月加息的概率为72%",
+          "publishedAt": "2026-11-01T22:13:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "sina",
+          "em-commodity"
+        ],
+        "firstPublishedAt": "2026-11-01T22:08:00.000Z"
+      }
+    },
+    {
+      "id": "nch6gtmy90",
+      "key": "em:202611023917828918",
+      "title": "特朗普在谈及伊朗时表示 美方很快会以某种方式解决伊朗问题",
+      "url": "https://finance.eastmoney.com/a/202611023917828918.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T21:32:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "特朗普在谈及伊朗时表示，美方很快会以某种方式解决伊朗问题；要么伊朗达成协议，要么美方就直接“终结它”。"
+    },
+    {
+      "id": "1ck07s7w335",
+      "key": "em:202611023917814835",
+      "title": "上市银行三季报“交卷” 息差企稳夯实营收基本盘 其他非息收入贡献增量",
+      "url": "https://finance.eastmoney.com/a/202611023917814835.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T21:04:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "上周五，A股上市银行2026年三季报披露收官。上市银行前三季度经营“成绩单”出炉，成为观察本轮银行股估值修复行情的重要锚点。Wind数据显示：今年前三季度，42家A股上市银行合计实现营业收入4.66万亿元，同比增长7.81%；实现归母净利润1.75万亿元，同比增长3.78%。整体来看，上市银行营收、净利润延续增长态势，主要是息差企稳、其他非息改善等因素驱动，板块内部业绩也呈现结构性分化。",
+      "flag": 1
+    },
+    {
+      "id": "23o8sq3pcju",
+      "key": "sina:5186058",
+      "title": "美债市场迎来繁忙一周：中期选举叠加国债再融资计划",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixhnmm0726109.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T20:02:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "policy-us",
+        "rates-fx"
+      ],
+      "excerpt": "美国债券持有人刚刚度过一年多以来表现最好的一个月，接下来将面临多重风险：中期选举、财政部最新发债方案，以及一连串美联储官员讲话。投资者将紧盯周二的投票结果，判断民主党能否从共和党手中夺取国会控制权。自上世纪90年代中期以来，国会或政府分立的局面往往利好美债。但部分人士对此存疑，认为本次联邦赤字规模巨大，该情景未必能给债券带来同样利好。转天，财政部将发布季度再融资声明。不少一级交易商预期指引会出现调整，可能为2027年削减长期国债发行铺路，同时增加短期国库券和短期限票据供给。除此之外，还有多名美联储官员讲话、重磅就业数据陆续出炉，都有可能改变市场对货币政…"
+    },
+    {
+      "id": "pc00qmpl4s",
+      "key": "sina:5186057",
+      "title": "华尔街静待美债发行迎来多年最大调整",
+      "url": "https://finance.sina.cn/7x24/2026-11-02/detail-inixhnmn7502001.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T20:02:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks",
+        "rates-fx"
+      ],
+      "excerpt": "华尔街正准备迎接美国国债发行指引的重大调整，不少交易商预计财政部会在季度政策声明中修改发行指引。部分交易商预测财政部将宣布削减20年期、30年期债券的发行规模；另一些人则认为财政部会维持现有指引，拍卖规模保持不变。财政部季度再融资声明还可能出台国债回购新指引，多数投资者预期官员会维持现行方案：10年期至30年期品种各自每月60亿美元回购额度。"
+    },
+    {
+      "id": "1b2gnjf7z4j",
+      "key": "em:202611023917821369",
+      "title": "特朗普称不希望以总理干扰美伊谈判",
+      "url": "https://finance.eastmoney.com/a/202611023917821369.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T19:50:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "据以色列方面11月1日消息，以色列和美国消息人士透露，美国总统特朗普与以色列总理内塔尼亚胡10月31日就美国与伊朗的谈判进行了一次“直接而尖锐”的通话。消息人士称，内塔尼亚胡敦促特朗普在11月3日美国中期选举结束后“立即恢复对伊朗的战争”，并对目前在卡塔尔斡旋下进行的美伊谈判感到担忧。"
+    },
+    {
+      "id": "22vo5ujsj4i",
+      "key": "em:202611023917818782",
+      "title": "特朗普与内塔尼亚胡据称通话商讨了伊朗战争的下一步行动",
+      "url": "https://finance.eastmoney.com/a/202611023917818782.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T18:02:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "特朗普与内塔尼亚胡据称通话商讨了伊朗战争的下一步行动。内塔尼亚胡敦促特朗普在中期选举后立即打击伊朗。特朗普目前希望让伊朗问题谈判继续进行。"
+    },
+    {
+      "id": "12s192sxe1a",
+      "key": "em:202611013917773088",
+      "title": "涉嫌定期报告等财务数据虚假记载 奥精医疗被证监会立案！公司此前公告无法按期披露三季报",
+      "url": "https://finance.eastmoney.com/a/202611013917773088.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T17:39:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "11月1日晚，奥精医疗(688613)发布公告，公司于当日收到中国证监会对公司下发的《立案告知书》。",
+      "flag": 1,
+      "dupOf": "3i0kon24um"
+    },
+    {
+      "id": "kxz7ndj5fi",
+      "key": "em:202611023917819866",
+      "title": "10月国际金价高位震荡 黄金主题ETF逆势吸金",
+      "url": "https://finance.eastmoney.com/a/202611023917819866.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T17:30:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold",
+        "cn-bonds"
+      ],
+      "excerpt": "10月，国际金价高位震荡回调，黄金主题ETF（交易型开放式指数基金）普遍遭遇净值下跌，但资金面却呈现“越跌越买”的态势。",
+      "flag": 1
+    },
+    {
+      "id": "oc7be96bbb",
+      "key": "em:202611013917758716",
+      "title": "中外资机构：中国股市逐步接近周期性底部",
+      "url": "https://finance.eastmoney.com/a/202611013917758716.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T16:45:00.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "中国股市是否已见底？全球资产配置策略应如何调整？美国中期选举市场影响几何？就此，记者采访了以下中外资机构代表。",
+      "flag": 1
+    },
+    {
+      "id": "247unlfbgdy",
+      "key": "cls:2521871",
+      "title": "下周资本市场大事提醒：事关股市，周一将召开重磅会议；美国中期选举；非农与苹果与AMD财报检验科技股预期",
+      "url": "https://www.cls.cn/detail/2521871",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-01T13:38:39.000Z",
+      "firstSeenAt": "2026-11-02T02:30:31.448Z",
+      "day": "2026-11-01",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us",
+        "us-stocks",
+        "macro-us"
+      ],
+      "excerpt": "以下梳理了下周（11月2日-8日）资本市场重点日程，供投资者参考。 1、财联社报道，下周一央行将与金融监管总局、证监会召集各大银行开会，研究优化股票回购增持再贷款政策。业内猜测，此次会议大概率是金融管理部门为进一步稳定市场做准备。 2、美国中期选举将于11月3日举行，民主党和共和党将角逐国会众议院全部435个议席和参议院100个议席中的35个。选举结果可能影响美国财政支出、金融监管及AI相关政策，尤其是数据中心建设面临的监管环境。 3、中国人民银行将于11月7日公布中国",
+      "flag": 1
+    },
     {
       "id": "3i0kon24um",
       "key": "cls:2521857",
@@ -14,12 +965,30 @@
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-11-01",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "topics": [
         "policy-cn"
       ],
       "excerpt": "奥精医疗(688613.SH)公告称，公司于2026年11月1日收到证监会《立案告知书》，因涉嫌定期报告等财务数据虚假记载，证监会决定对公司立案。若后续经行政处罚认定触及重大违法强制退市情形，公司股票将被实施重大违法强制退市。目前公司经营管理正常，将积极配合调查并履行信息披露义务。",
-      "flag": 1
+      "flag": 1,
+      "related": [
+        {
+          "id": "12s192sxe1a",
+          "sourceId": "em-focus",
+          "sourceName": "东方财富",
+          "url": "https://finance.eastmoney.com/a/202611013917773088.html",
+          "title": "涉嫌定期报告等财务数据虚假记载 奥精医疗被证监会立案！公司此前公告无法按期披露三季报",
+          "publishedAt": "2026-11-01T17:39:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "cls",
+          "em-focus"
+        ],
+        "firstPublishedAt": "2026-11-01T13:01:16.000Z"
+      }
     },
     {
       "id": "t3xo3b9h2t",
@@ -17205,66 +18174,6 @@
       ],
       "excerpt": "截至收盘，上证指数涨0.19%报3697.52点，深证成指跌1.19%报11534.38点，创业板指跌1.71%报2638.23点，北证50跌2.13%报963.95点。三市成交额16230亿元，较上日缩量3497亿元。全市场超3100只个股下跌。板块题材上，医药商业、游戏、白酒板块涨幅居前；元件、贵金属、CPO板块跌幅居前。盘面上，医药商业板块逆势大涨，英特集团、塞力医疗涨停，漱玉平民、九州通、大参林、上海医药、健之佳跟涨。游戏板块震荡上扬，电魂网络涨停，盛天网络涨超10%，姚记科技、冰川网络、掌趣科技、富春股份、凯撒文化跟涨。白酒板块低开高走，皇台…",
       "flag": 1
-    },
-    {
-      "id": "19rjvutvole",
-      "key": "em:202610263907458024",
-      "title": "央行今日开展3980亿元隔夜逆回购操作",
-      "url": "https://finance.eastmoney.com/a/202610263907458024.html",
-      "lang": "zh",
-      "sourceId": "em-pboc",
-      "sourceName": "东方财富·中国央行",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-10-26T01:23:00.000Z",
-      "firstSeenAt": "2026-10-29T10:04:27.819Z",
-      "day": "2026-10-26",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "pboc"
-      ],
-      "excerpt": "央行今日开展560亿元7天期逆回购操作，操作利率为1.40%。同时，开展了3980亿元隔夜逆回购操作。"
-    },
-    {
-      "id": "1meomy5izqh",
-      "key": "em:202610263907437179",
-      "title": "通胀数据与官员措辞矛盾 华尔街热议：美联储本周究竟会不会加息？",
-      "url": "https://finance.eastmoney.com/a/202610263907437179.html",
-      "lang": "zh",
-      "sourceId": "em-cb",
-      "sourceName": "东方财富·全球央行",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-10-26T00:45:00.000Z",
-      "firstSeenAt": "2026-10-29T10:04:27.819Z",
-      "day": "2026-10-26",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed",
-        "us-stocks",
-        "macro-us"
-      ],
-      "excerpt": "美联储将于北京时间周四凌晨公布最新利率决议。虽然市场普遍预期美联储将在本次会议上“踩刹车”按兵不动，但华尔街专家们似乎仍有疑虑。",
-      "flag": 1
-    },
-    {
-      "id": "115s5uo2pg0",
-      "key": "em:202610263907425685",
-      "title": "央行今日开展7000亿元中期借贷便利操作",
-      "url": "https://finance.eastmoney.com/a/202610263907425685.html",
-      "lang": "zh",
-      "sourceId": "em-pboc",
-      "sourceName": "东方财富·中国央行",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-10-25T23:59:00.000Z",
-      "firstSeenAt": "2026-10-29T10:04:27.819Z",
-      "day": "2026-10-26",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "pboc"
-      ],
-      "excerpt": "为保持银行体系流动性充裕，今天，中国人民银行将以固定数量、利率招标、多重价位中标方式开展7000亿元中期借贷便利（MLF）操作，期限为1年期。中期借贷便利是中央银行提供中期基础货币的货币政策工具，可通过招标方式开展。"
     }
   ]
 }
