@@ -29,6 +29,30 @@
       }
     },
     {
+      "id": "zrbt06viu2",
+      "key": "hf:atomicchat/deepseek-v4.1-flash-1017-uncensored-gsq-rco-gguf",
+      "title": "Running UNCENSORED DeepSeek-V4.1-Flash-1017 on a 12 Gb VRAM",
+      "url": "https://huggingface.co/AtomicChat/DeepSeek-V4.1-Flash-1017-Uncensored-GSQ-RCO-GGUF",
+      "excerpt": "Measured, refusals 85%→0% even in thinking, 3 sizes 12 GB GPU VRAM, 64GB RAM + SSD via Strata Engine We took ISTA-DASLab's GSQ-RCO quants of DeepSeek-V4.1-Flash-1017 (the ones people run in Strata with a 12 GB GPU and the Engram table on SSD) and removed the refusals. We only to…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T15:52:25.000Z",
+      "firstSeenAt": "2026-11-03T03:56:29.161Z",
+      "day": "2026-11-02",
+      "category": "agent",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xm0uy0/running_uncensored_deepseekv41flash1017_on_a_12/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "用户分享在 12GB 显存上运行 DeepSeek-V4.1-Flash-1017 的经验。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T03:59:34.489Z"
+      }
+    },
+    {
       "id": "1wr256yjegu",
       "key": "url:the-decoder.com/one-brutal-minecraft-night-scared-50-ai-agents-into-inventing-chicken-handoff-protocols-a-fertilizer-officer-and-fishing-shifts",
       "title": "One brutal Minecraft night scared 50 AI agents into inventing chicken handoff protocols, a Fertilizer Officer, and fishing shifts",
@@ -52,6 +76,32 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-02T20:46:59.364Z"
+      }
+    },
+    {
+      "id": "2517rouai5w",
+      "key": "url:openai.com/index/scaling-git-at-openai",
+      "title": "Scaling Git at OpenAI",
+      "url": "https://openai.com/index/scaling-git-at-openai",
+      "excerpt": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-02T15:30:00.000Z",
+      "firstSeenAt": "2026-11-03T03:56:29.161Z",
+      "day": "2026-11-02",
+      "category": "opensource",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 30,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI 介绍了为 Codex 开发规模设计的 Git 兼容后端 Pando。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T03:59:34.489Z"
       }
     },
     {
@@ -160,12 +210,30 @@
       "firstSeenAt": "2026-11-02T20:45:22.918Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "硅谷巨头反向借力国产模型，InfoQ探讨合作原因。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-02T20:47:38.268Z"
+      },
+      "related": [
+        {
+          "id": "1cvztuy2rou",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4052671124575367",
+          "title": "从英伟达到 Pika，硅谷巨头为何“反向借力”这个国产模型？",
+          "publishedAt": "2026-11-02T23:44:31.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "infoq-cn",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-02T14:48:56.000Z"
       }
     },
     {
@@ -222,10 +290,10 @@
       "firstSeenAt": "2026-11-02T20:45:22.918Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 25.7,
+      "score": 27.8,
       "metrics": {
-        "points": 135,
-        "comments": 176
+        "points": 167,
+        "comments": 239
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50337454",
       "ai": {
@@ -249,10 +317,10 @@
       "firstSeenAt": "2026-11-02T20:45:22.918Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 29.3,
+      "score": 30.2,
       "metrics": {
-        "points": 213,
-        "comments": 230
+        "points": 228,
+        "comments": 268
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50337439",
       "ai": {
@@ -438,6 +506,23 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-02T20:47:17.155Z"
+      },
+      "related": [
+        {
+          "id": "28l5ayisfol",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4052600729294468",
+          "title": "Character.AI破产，AI陪伴是假风口 ？",
+          "publishedAt": "2026-11-02T23:58:01.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-02T13:31:33.524Z"
       }
     },
     {
@@ -618,10 +703,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22.9,
+      "score": 24,
       "metrics": {
-        "points": 107,
-        "comments": 93
+        "points": 125,
+        "comments": 100
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50336138",
       "ai": {
@@ -646,12 +731,30 @@
       "firstSeenAt": "2026-11-02T20:45:22.918Z",
       "day": "2026-11-02",
       "category": "agent",
-      "score": 22,
+      "score": 30,
       "ai": {
         "summary": "爱诗科技与 OpenAI 合作，推出创意全流程教育计划。",
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-02T20:47:17.155Z"
+      },
+      "related": [
+        {
+          "id": "11m8o9t8q70",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/507313.html",
+          "title": "爱诗科技PixVerse 与 OpenAI 共同推出产品集成和创作者教育计划，高效打通 AI 创意全流程",
+          "publishedAt": "2026-11-03T01:46:55.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-11-02T12:42:00.000Z"
       }
     },
     {
@@ -1333,12 +1436,30 @@
       "firstSeenAt": "2026-11-02T10:03:13.682Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "前端框架大战迎来最强裁判。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-02T10:04:25.388Z"
+      },
+      "related": [
+        {
+          "id": "ic8fh28qr0",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/M6Q9I3DFrozJOREx9ztL?utm_source=rss&utm_medium=article",
+          "title": "框架选不对，Claude 开发成本多一倍：前端十年框架膨胀，终于有人买单了",
+          "publishedAt": "2026-11-03T02:38:04.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "infoq-cn"
+        ],
+        "firstPublishedAt": "2026-11-02T09:46:17.813Z"
       }
     },
     {
@@ -1980,10 +2101,10 @@
       "firstSeenAt": "2026-11-02T20:45:22.918Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 28.6,
+      "score": 28.9,
       "metrics": {
-        "points": 146,
-        "comments": 81
+        "points": 151,
+        "comments": 86
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50334038",
       "ai": {
@@ -2994,10 +3115,10 @@
       "firstSeenAt": "2026-11-02T20:45:22.918Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 22.8,
+      "score": 22.9,
       "metrics": {
         "points": 100,
-        "comments": 106
+        "comments": 110
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50332086",
       "ai": {
@@ -3673,12 +3794,30 @@
       "firstSeenAt": "2026-11-02T02:30:31.448Z",
       "day": "2026-11-02",
       "category": "paper",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "GPT-6 与 Claude 合作，在百分钟内解决困扰人类 38 年的混沌难题。",
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-02T02:32:20.030Z"
+      },
+      "related": [
+        {
+          "id": "15aarr88m8u",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xma0tw/gpt6_astra_edits_qwen_weights_math500_79_to_481/",
+          "title": "GPT-6 Astra Edits Qwen Weights: MATH-500 7.9% to 48.1%",
+          "publishedAt": "2026-11-02T21:25:39.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-11-02T00:12:34.079Z"
       }
     },
     {
@@ -3801,9 +3940,9 @@
       "day": "2026-11-02",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.8,
+      "score": 22.2,
       "metrics": {
-        "upvotes": 58,
+        "upvotes": 61,
         "comments": 1
       },
       "aiAttempts": 1,
@@ -3860,10 +3999,10 @@
       "keywords": [
         "图像生成"
       ],
-      "score": 26.4,
+      "score": 26.5,
       "metrics": {
-        "upvotes": 111,
-        "comments": 2
+        "upvotes": 112,
+        "comments": 3
       },
       "ai": {
         "title": "FrameForge：利用视频模型先验实现统一图像生成",
@@ -3891,10 +4030,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.5,
+      "score": 24.9,
       "metrics": {
-        "upvotes": 86,
-        "comments": 1
+        "upvotes": 90,
+        "comments": 2
       },
       "ai": {
         "title": "R²Orch：通过技能内化循环中的自玩实现递归自我改进",
@@ -3904,6 +4043,62 @@
         "at": "2026-11-02T20:46:59.364Z"
       },
       "dupOf": "joup5pr4ds"
+    },
+    {
+      "id": "vyyvo7g6rj",
+      "key": "url:openai.com/index/dan-driscoll-joins-openai",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-03T03:56:29.161Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 30,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI 宣布任命 Dan Driscoll 为国家安全现代化高级顾问。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T03:59:34.489Z"
+      }
+    },
+    {
+      "id": "pyjzmaobwn",
+      "key": "arxiv:2610.42053",
+      "title": "REA: A Routed Embodied Agent Runtime for Asynchronous Brain-Cerebellum Control",
+      "url": "https://huggingface.co/papers/2610.42053",
+      "excerpt": "REA unifies deliberative and reactive policies in a single runtime with asynchronous coordination, achieving high success rates with reduced control overhead across simulated and real robot tasks.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T00:00:00.000Z",
+      "firstSeenAt": "2026-11-03T03:56:29.161Z",
+      "day": "2026-11-02",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "具身智能"
+      ],
+      "score": 26.2,
+      "metrics": {
+        "upvotes": 107,
+        "comments": 3
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "论文介绍 REA，一种用于异步大脑-小脑控制的路由具身智能体运行时。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T03:59:34.489Z"
+      }
     },
     {
       "id": "gjqdx8wk8v",
@@ -3961,10 +4156,10 @@
       "firstSeenAt": "2026-11-02T02:30:31.448Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 30.4,
+      "score": 30.5,
       "metrics": {
-        "points": 241,
-        "comments": 247
+        "points": 242,
+        "comments": 252
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50330456",
       "aiAttempts": 2,

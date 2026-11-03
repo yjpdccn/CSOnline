@@ -1,5 +1,10 @@
 {
   "sent": {
+    "alert:rate:cb:pboc:2026-11-03": {
+      "hash": "rate:cb:pboc:2026-11-03",
+      "label": "央行：11月15日起上调金融机构外汇存款准备金率2个百分点",
+      "kind": "event"
+    },
     "alert:monthly:2026-11": {
       "hash": "monthly:2026-11",
       "label": "11月定投扣款核对",
@@ -48,5 +53,5 @@
   },
   "issueNumber": 1,
   "channel": "serverchan",
-  "lastSentAt": "2026-10-31T16:15:02.680Z"
+  "lastSentAt": "2026-11-03T03:56:29.161Z"
 }

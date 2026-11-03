@@ -92,8 +92,8 @@
       ],
       "score": 26,
       "metrics": {
-        "points": 175,
-        "comments": 89
+        "points": 176,
+        "comments": 90
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50325662",
       "aiAttempts": 1,
@@ -166,10 +166,10 @@
       "day": "2026-11-01",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 29.5,
+      "score": 29.6,
       "metrics": {
-        "stars": 45943,
-        "starsToday": 855
+        "stars": 46066,
+        "starsToday": 857
       },
       "aiAttempts": 1,
       "ai": {
@@ -197,7 +197,7 @@
       "categoryLocked": true,
       "score": 24.1,
       "metrics": {
-        "stars": 12085,
+        "stars": 12178,
         "starsToday": 412
       },
       "aiAttempts": 2,
@@ -291,7 +291,7 @@
       "categoryLocked": true,
       "score": 27.5,
       "metrics": {
-        "stars": 15964,
+        "stars": 16182,
         "starsToday": 654
       },
       "aiAttempts": 1,
@@ -1122,8 +1122,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 462,
-        "comments": 371
+        "points": 468,
+        "comments": 386
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50323088",
       "aiAttempts": 1,
@@ -1153,6 +1153,33 @@
       "dupOf": "13qh2joycgn"
     },
     {
+      "id": "11tlqye9og1",
+      "key": "gh:mromidev/claude-animated-shorts",
+      "title": "mromidev/claude-animated-shorts",
+      "url": "https://github.com/mromidev/claude-animated-shorts",
+      "excerpt": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T05:50:38.000Z",
+      "firstSeenAt": "2026-11-03T03:56:29.161Z",
+      "day": "2026-11-01",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 18.7,
+      "metrics": {
+        "stars": 703
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "开源项目 claude-animated-shorts 提供免费的 Claude 技能，用于制作 2D 角色的 3D 世界动画短片。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T03:59:34.489Z"
+      }
+    },
+    {
       "id": "2suiizkwr7",
       "key": "gh:caru-ini/stack-diagram",
       "title": "caru-ini/stack-diagram",
@@ -1170,9 +1197,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 21,
+      "score": 21.9,
       "metrics": {
-        "stars": 1084
+        "stars": 1255
       },
       "aiAttempts": 1,
       "ai": {
@@ -1282,7 +1309,7 @@
       "day": "2026-11-01",
       "category": "industry",
       "score": 15,
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "纽约布鲁克林的选举派对上，AI 数据中心成为热议话题。",
         "category": "industry",
@@ -1710,10 +1737,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 29.2,
+      "score": 29.3,
       "metrics": {
-        "points": 232,
-        "comments": 168
+        "points": 233,
+        "comments": 169
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50320588",
       "dupOf": "27h9syzc766"
@@ -1849,7 +1876,7 @@
       "score": 27.3,
       "metrics": {
         "points": 196,
-        "comments": 120
+        "comments": 121
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50320255",
       "ai": {
@@ -1894,8 +1921,8 @@
       "category": "industry",
       "score": 35.3,
       "metrics": {
-        "points": 488,
-        "comments": 265
+        "points": 489,
+        "comments": 267
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50319358",
       "ai": {
@@ -2013,8 +2040,8 @@
       "category": "model",
       "score": 33.6,
       "metrics": {
-        "points": 176,
-        "comments": 189
+        "points": 177,
+        "comments": 190
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50318871",
       "ai": {

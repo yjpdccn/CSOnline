@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02T20:45:22.918Z",
+  "updatedAt": "2026-11-03T03:56:29.161Z",
   "bands": {
     "ndx": "mid",
     "spx": "mid",
@@ -8,6 +8,14 @@
     "divlowvol": "high"
   },
   "events": [
+    {
+      "id": "rate:cb:pboc:2026-11-03",
+      "kind": "rate",
+      "at": "2026-11-03T00:41:00.000Z",
+      "title": "央行：11月15日起上调金融机构外汇存款准备金率2个百分点",
+      "detail": "东方财富 等 3 家来源",
+      "url": "https://finance.eastmoney.com/a/202611033919446783.html"
+    },
     {
       "id": "move:ndx:2026-10-30",
       "kind": "move",

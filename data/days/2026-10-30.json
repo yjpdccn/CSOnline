@@ -1649,9 +1649,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 21.6,
+      "score": 22.1,
       "metrics": {
-        "stars": 1204
+        "stars": 1313
       },
       "ai": {
         "title": "teardown：将机器变成 3D 拆解模拟器",
@@ -1965,9 +1965,9 @@
       "day": "2026-10-30",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 22.3,
+      "score": 22.4,
       "metrics": {
-        "stars": 1354
+        "stars": 1378
       },
       "ai": {
         "title": "florilegium：生成 Delft 蓝花卉页边",
@@ -2095,7 +2095,7 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "industry",
-      "score": 52.5,
+      "score": 52.9,
       "related": [
         {
           "id": "1t9vbpso641",
@@ -2123,8 +2123,8 @@
         ],
         "firstPublishedAt": "2026-10-30T07:30:00.000Z",
         "metrics": {
-          "upvotes": 86,
-          "comments": 1
+          "upvotes": 90,
+          "comments": 2
         }
       },
       "ai": {
@@ -2251,7 +2251,7 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 48.9,
+      "score": 49.1,
       "related": [
         {
           "id": "j4yhfw6iwe",
@@ -2287,7 +2287,7 @@
         ],
         "firstPublishedAt": "2026-10-29T17:08:44.000Z",
         "metrics": {
-          "likes": 352
+          "likes": 364
         }
       },
       "ai": {
@@ -2317,7 +2317,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 3427
+        "stars": 3614
       },
       "ai": {
         "title": "pixelfx：232 个像素艺术效果与 Claude Code 技能",
@@ -3374,9 +3374,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 26.9,
+      "score": 27.3,
       "metrics": {
-        "upvotes": 118,
+        "upvotes": 124,
         "comments": 3
       },
       "ai": {
@@ -3485,9 +3485,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 23.2,
+      "score": 23.3,
       "metrics": {
-        "upvotes": 70,
+        "upvotes": 71,
         "comments": 4
       },
       "ai": {
@@ -3544,10 +3544,31 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22.4,
+      "score": 22.7,
       "metrics": {
-        "upvotes": 61,
+        "upvotes": 64,
         "comments": 6
+      }
+    },
+    {
+      "id": "1kk1zbtj3cj",
+      "key": "arxiv:2610.40614",
+      "title": "L3G-World: Real-Time Infinite World Generation with Latent 3D Gaussian Memory",
+      "url": "https://huggingface.co/papers/2610.40614",
+      "excerpt": "L3G-World uses a compact latent 3D Gaussian memory and alternating autoregressive updates with a video diffusion transformer to generate spatially consistent interactive worlds in real time.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T00:00:00.000Z",
+      "firstSeenAt": "2026-11-03T03:56:29.161Z",
+      "day": "2026-10-30",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 21.2,
+      "metrics": {
+        "upvotes": 51,
+        "comments": 5
       }
     },
     {
@@ -4131,8 +4152,8 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 110605,
-        "starsToday": 1799
+        "stars": 110907,
+        "starsToday": 1803
       },
       "ai": {
         "title": "claude-mem：为 Claude Code 等提供跨会话持久上下文",
@@ -4189,7 +4210,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 33387,
+        "stars": 33736,
         "starsToday": 1380
       },
       "ai": {
@@ -4246,9 +4267,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 20.9,
+      "score": 21.1,
       "metrics": {
-        "likes": 352
+        "likes": 364
       },
       "skipLlm": true,
       "dupOf": "1egv1bh2tq8"

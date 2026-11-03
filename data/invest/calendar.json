@@ -1,27 +1,6 @@
 {
-  "updatedAt": "2026-11-02T20:45:22.918Z",
+  "updatedAt": "2026-11-03T03:56:29.161Z",
   "events": [
-    {
-      "id": "wscn-1596963",
-      "at": "2026-11-02T15:00:00.000Z",
-      "country": "美国",
-      "title": "10月ISM制造业指数",
-      "importance": 3,
-      "kind": "data",
-      "source": "华尔街见闻",
-      "previous": "54.5",
-      "forecast": "54.7",
-      "actual": "55.5"
-    },
-    {
-      "id": "wscn-15125",
-      "at": "2026-11-02T16:00:00.000Z",
-      "country": "美国",
-      "title": "美国 11 月 3 日中期选举",
-      "importance": 4,
-      "kind": "event",
-      "source": "华尔街见闻"
-    },
     {
       "id": "wscn-1596975",
       "at": "2026-11-03T03:30:00.000Z",
@@ -32,6 +11,7 @@
       "source": "华尔街见闻",
       "previous": "4.6",
       "forecast": "4.85",
+      "actual": "4.85",
       "unit": "%"
     },
     {
@@ -53,7 +33,7 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "9",
-      "forecast": "7.5",
+      "forecast": "6.6",
       "unit": "万人"
     },
     {
@@ -87,6 +67,8 @@
       "importance": 3,
       "kind": "data",
       "source": "华尔街见闻",
+      "previous": "19.4",
+      "forecast": "19.6",
       "unit": "万人"
     },
     {
@@ -168,6 +150,15 @@
       "kind": "data",
       "source": "华尔街见闻",
       "unit": "万人"
+    },
+    {
+      "id": "wscn-15638",
+      "at": "2026-11-14T16:00:00.000Z",
+      "country": "中国",
+      "title": "中国央行：自11月15日起上调金融机构外汇存款准备金率2个百分点",
+      "importance": 4,
+      "kind": "event",
+      "source": "华尔街见闻"
     },
     {
       "id": "wscn-1598666",
