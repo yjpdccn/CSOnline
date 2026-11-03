@@ -1,0 +1,436 @@
+{
+  "day": "2026-11-04",
+  "items": [
+    {
+      "id": "2cz9w0ostxl",
+      "key": "gh:usagi-org/ai-goofish-monitor",
+      "title": "Usagi-org/ai-goofish-monitor",
+      "url": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "excerpt": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-03T18:25:28.307Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 19.6,
+      "metrics": {
+        "stars": 16297,
+        "starsToday": 204
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "基于 Playwright 和 AI 的闲鱼多任务实时监控与智能分析系统。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T18:26:25.994Z"
+      }
+    },
+    {
+      "id": "6rz4zqs9he",
+      "key": "url:theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
+      "title": "Indie games are missing launch dates because Steam is backed up",
+      "url": "https://www.theverge.com/games/1025596/valve-steam-indie-games-missing-launch-dates",
+      "excerpt": "A screenshot from Food Devils, which is missing its planned launch today. Many indie game developers have recently posted on social media about unexpectedly long approval wait times for their game submissions on Steam, with some of the approvals causing developers to miss their…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-03T18:14:50.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 19,
+      "ai": {
+        "title": "Steam 审核延迟导致独立游戏缺日期",
+        "summary": "Steam 审核延迟导致独立游戏错过发布日期。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T18:26:25.994Z"
+      }
+    },
+    {
+      "id": "20evya45haf",
+      "key": "url:theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+      "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
+      "url": "https://www.theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
+      "excerpt": "Netflix's TV app is getting a new \"AI Discover\" tab where the company will show experimental, AI-powered features to help you find new shows and movies to watch. The first of these experiments surfaces content based around themes, like \"Something Light,\" \"Family Movie Night,\" or…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-03T18:00:00.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Netflix 推出 AI Discover 主题推荐",
+        "summary": "Netflix 推出 AI Discover 标签，通过主题推荐内容。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T18:26:25.994Z"
+      }
+    },
+    {
+      "id": "up1xgju6wx",
+      "key": "gh:postmanlabs/postman-app-support",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-03T17:22:37.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 28.8,
+      "metrics": {
+        "points": 266,
+        "comments": 82
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50354960",
+      "ai": {
+        "title": "Postman 静默安装 AI 插件",
+        "summary": "Postman 静默安装 AI 插件并尝试分享所有 API 数据，引发隐私担忧。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T18:26:25.994Z"
+      }
+    },
+    {
+      "id": "1h801cvshtu",
+      "key": "url:huggingface.co/blog/allenai/statebench",
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-03T17:15:21.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "paper",
+      "score": 30,
+      "ai": {
+        "title": "StateBench 测试语言模型状态跟踪",
+        "summary": "StateBench 评估语言模型在长文档中跟踪状态变化的能力。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T18:26:25.994Z"
+      }
+    },
+    {
+      "id": "1swsgne64u8",
+      "key": "url:techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute",
+      "title": "Anthropic is still grappling with the economics of compute",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+      "excerpt": "At a moment when Anthropic's compute margins should be getting better, they’re getting worse.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-03T17:07:01.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Anthropic 面临计算经济学挑战",
+        "summary": "Anthropic 的计算利润率不升反降，面临经济学挑战。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T18:26:25.994Z"
+      }
+    },
+    {
+      "id": "2b9p2b09yyo",
+      "key": "url:deepmind.google/blog/agentic-cheminformatics-with-google-antigravity",
+      "title": "Agentic cheminformatics with Google Antigravity",
+      "url": "https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/",
+      "excerpt": "Learn how Google Antigravity and our Cheminformatics Skills accelerate drug discovery workflows, search compounds, and propose novel rigidified macrocycles.",
+      "lang": "en",
+      "sourceId": "deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-03T17:01:49.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "Google Antigravity 加速药物发现",
+        "summary": "Google Antigravity 和 Cheminformatics Skills 加速药物发现工作流。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T18:26:25.994Z"
+      }
+    },
+    {
+      "id": "1sucfynqneu",
+      "key": "url:engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production",
+      "title": "F3 Lightning: How Meta Accelerates Ads ML Features to Production at Scale",
+      "url": "https://engineering.fb.com/2026/11/03/ml-applications/f3-lightning-how-meta-accelerates-ads-ml-features-to-production/",
+      "excerpt": "Facebook Feature Framework (F3) is Meta’s framework for authoring, compiling, and serving the machine learning features underlying ads ranking models, where a single request can require more than 20,000 features. We first presented F3 at AI @ Scale 2020. F3 reduced execution com…",
+      "lang": "en",
+      "sourceId": "meta-engineering",
+      "sourceName": "Meta 工程博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-03T17:00:35.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 30,
+      "ai": {
+        "title": "Meta F3 加速广告 ML 特征上线",
+        "summary": "Meta F3 框架加速广告 ML 特征上线，提升服务效率。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T18:26:25.994Z"
+      }
+    },
+    {
+      "id": "2184o1anzqk",
+      "key": "url:theverge.com/tech/1025411/google-turn-off-search-ai-features",
+      "title": "Google is entirely disabling Search in schools that don’t want AI",
+      "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+      "excerpt": "Google is completely turning off Search in schools that reject its AI features, the company told The New York Times. The decision was also shared in a broader education-related update from Google on Tuesday, saying that access to Gemini, Gemini Notebook, Gemini in Classroom, and…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-03T17:00:04.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "7d0ug8o93r"
+    },
+    {
+      "id": "yc8jcu3lnb",
+      "key": "url:developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels",
+      "title": "Cost per task: Using cheap classifiers to route across Gemini models and thinking levels",
+      "url": "https://developers.googleblog.com/cost-per-task-using-cheap-classifiers-to-route-across-gemini-models-and-thinking-levels/",
+      "excerpt": "Per-token API prices keep falling, yet engineering bills for autonomous coding agents keep climbing....",
+      "lang": "en",
+      "sourceId": "google-dev",
+      "sourceName": "Google 开发者博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-03T17:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "利用廉价分类器路由 Gemini 模型",
+        "summary": "通过廉价分类器在 Gemini 模型间路由，以降低成本。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T18:26:25.994Z"
+      }
+    },
+    {
+      "id": "14kcl3civgp",
+      "key": "url:the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence",
+      "title": "AI agents take over at SETI's Allen Telescope Array, scanning for extraterrestrial intelligence",
+      "url": "https://the-decoder.com/ai-agents-take-over-at-setis-allen-telescope-array-scanning-for-extraterrestrial-intelligence/",
+      "excerpt": "The SETI Institute and Breakthrough Listen are now using AI agents at the Allen Telescope Array to control the telescope and analyze incoming radio signals. Tasks that used to take weeks can now wrap up in hours, and the team says the system detected a pulsar in the Crab Nebula…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-03T16:51:18.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "AI Agent 接管 SETI 天文台",
+        "summary": "AI Agent 接管 SETI 的艾伦望远镜阵列，扫描外星信号。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T18:26:25.994Z"
+      }
+    },
+    {
+      "id": "f2t56ie93i",
+      "key": "url:huggingface.co/blog/ibm-research/palette-deck-building",
+      "title": "Palette: teaching a small model to build decks in your design language",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-03T16:35:36.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "opensource",
+      "score": 30,
+      "ai": {
+        "title": "Palette 教小模型构建设计语言",
+        "summary": "Palette 教授小模型使用用户的设计语言构建卡组。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T18:26:25.994Z"
+      }
+    },
+    {
+      "id": "7d0ug8o93r",
+      "key": "url:techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search",
+      "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+      "excerpt": "Schools choosing to restrict AI altogether will no longer be able to access Google Search, as AI features are now integrated into the search engine.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-03T16:30:34.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 23,
+      "related": [
+        {
+          "id": "2184o1anzqk",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1025411/google-turn-off-search-ai-features",
+          "title": "Google is entirely disabling Search in schools that don’t want AI",
+          "publishedAt": "2026-11-03T17:00:04.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "techcrunch-ai",
+          "verge-ai"
+        ],
+        "firstPublishedAt": "2026-11-03T16:30:34.000Z"
+      },
+      "ai": {
+        "title": "学校禁用 Google AI 工具需牺牲搜索",
+        "summary": "学校若禁用 Google AI 工具将无法使用 Google Search。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T18:26:25.994Z"
+      }
+    },
+    {
+      "id": "bv1gtujsef",
+      "key": "url:simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "excerpt": "Yesterday's hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper found that frontier models, in particular GPT-6 Astra, can both interpret and modify the raw…",
+      "lang": "en",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "sourceGroup": "blogger",
+      "publishedAt": "2026-11-03T16:29:48.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "score": 28,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/",
+      "alsoOn": [
+        {
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/"
+        }
+      ],
+      "dupOf": "22j3nnnqyha"
+    },
+    {
+      "id": "omplg8tpzs",
+      "key": "url:jiqizhixin.com/articles/2026-11-04-3",
+      "title": "具身智能的下一个主战场，为什么是「仓储物流」？",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-04-3",
+      "excerpt": "编辑｜Youli11 月 3 日，上海新国际博览中心，CeMAT 2026 现场人潮涌动，货架之间一台台机器人穿梭其中，展示着对货物的抓取、分拣与转运……仔细观察，一个明显的变化正在发生：原本属于物流行业的展会，俨然成了具身智能角逐实战能力的新擂台，宇树、星动纪元、自变量等众多具身智能玩家集体...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T16:11:00.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "jk0miu5p4g",
+      "key": "url:jiqizhixin.com/articles/2026-11-04-2",
+      "title": "便利店打工24小时后，智元两名机器人员工「转正」失败",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-04-2",
+      "excerpt": "11 月 2 日 10 时起，上海徐汇区一家正常营业的便利店里，店里的员工换成了 6 台智元精灵 G2 人形机器人。它们各有分工：阿豪负责迎宾接待与顾客咨询，火宝承担取货补货，倦王巡视货架，咖少是专职咖啡师，叮酱负责收银与熟食服务，冷姐负责桌面清洁。直播期间，门店照常营业，顾客照常进店，机器人...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T16:07:00.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "dfi06ljjg1",
+      "key": "url:jiqizhixin.com/articles/2026-11-04",
+      "title": "NeurIPS 2026｜离散数据也能一步生成？ReSFlow在统计流形上「拉直」生成路径",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-04",
+      "excerpt": "本文作者分别来自内蒙古大学、上海财经大学和卡内基梅隆大学 (CMU)。第一作者贾啸寰是内蒙古大学博士生，通讯作者为内蒙古大学范少华研究员。上海财经大学的徐韧喆助理教授、王晓副教授以及 CMU 的博士生 Jiayun Wu 为论文的共同作者。用流匹配（Flow Matching）或扩散模型（Di...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T16:02:00.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "paper",
+      "score": 18
+    },
+    {
+      "id": "14lp55lcs0",
+      "key": "url:blogs.nvidia.com/blog/ai-semiconductor-fabs",
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "url": "https://blogs.nvidia.com/blog/ai-semiconductor-fabs/",
+      "excerpt": "Demand for advanced chips is rising. The processes to build them are getting more complex. And the margin for error is shrinking. For engineers, understanding how a process change will behave, how a material will interact with a new step, how a defect maps back to a root cause a…",
+      "lang": "en",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-03T16:00:45.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 30,
+      "ai": {
+        "title": "AI 改变半导体制造厂工作方式",
+        "summary": "AI 技术帮助工程师更快速地理解和解决半导体制造中的复杂问题。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T18:26:25.994Z"
+      }
+    }
+  ]
+}

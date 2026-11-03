@@ -18,7 +18,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 6581
+        "stars": 7268
       },
       "aiAttempts": 1,
       "ai": {
@@ -54,6 +54,26 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-01T02:27:55.203Z"
+      }
+    },
+    {
+      "id": "19wz5evlvrz",
+      "key": "gh:sleepy-zone/ai-ref-library-cn",
+      "title": "sleepy-zone/ai-ref-library-cn",
+      "url": "https://github.com/sleepy-zone/ai-ref-library-cn",
+      "excerpt": "AI 作图素材库 · 中文版（脸 / 姿势 / 服装）",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T15:28:16.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-10-29",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 18.7,
+      "metrics": {
+        "stars": 698
       }
     },
     {
@@ -224,7 +244,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 5643
+        "stars": 6003
       },
       "ai": {
         "title": "Mika：手机上的私人 AI 助理",
@@ -2251,9 +2271,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 20.5,
+      "score": 20.9,
       "metrics": {
-        "stars": 987
+        "stars": 1063
       },
       "dupOf": "1n0btj49z6o"
     },
@@ -2294,9 +2314,9 @@
       "day": "2026-10-29",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 24.9,
+      "score": 25.1,
       "metrics": {
-        "stars": 2071
+        "stars": 2117
       },
       "ai": {
         "title": "nvzhuang：AI 女装参考图集与虚拟试穿网站",

@@ -1649,9 +1649,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 22.3,
+      "score": 23.2,
       "metrics": {
-        "stars": 1361
+        "stars": 1576
       },
       "ai": {
         "title": "teardown：将机器变成 3D 拆解模拟器",
@@ -1965,9 +1965,9 @@
       "day": "2026-10-30",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 22.4,
+      "score": 22.5,
       "metrics": {
-        "stars": 1385
+        "stars": 1399
       },
       "ai": {
         "title": "florilegium：生成 Delft 蓝花卉页边",
@@ -2251,7 +2251,7 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 49.1,
+      "score": 68.6,
       "related": [
         {
           "id": "j4yhfw6iwe",
@@ -2260,6 +2260,14 @@
           "url": "https://huggingface.co/Pika-Labs/Pika-H3-Flex",
           "title": "Pika-Labs/Pika-H3-Flex",
           "publishedAt": "2026-10-29T17:08:44.000Z"
+        },
+        {
+          "id": "2fv0znhip4v",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/Pika-Labs/Pika-H3-Flex",
+          "title": "Pika-Labs/Pika-H3-Flex",
+          "publishedAt": "2026-10-29T17:08:59.000Z"
         },
         {
           "id": "1l7vi8x69dd",
@@ -2279,15 +2287,17 @@
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 5,
         "sources": [
           "leiphone",
           "hf-models",
+          "github-new",
           "qbitai"
         ],
         "firstPublishedAt": "2026-10-29T17:08:44.000Z",
         "metrics": {
-          "likes": 366
+          "likes": 384,
+          "stars": 1119
         }
       },
       "ai": {
@@ -2317,7 +2327,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 3682
+        "stars": 4036
       },
       "ai": {
         "title": "pixelfx：232 个像素艺术效果与 Claude Code 技能",
@@ -3485,9 +3495,9 @@
       "day": "2026-10-30",
       "category": "paper",
       "categoryLocked": true,
-      "score": 23.4,
+      "score": 23.5,
       "metrics": {
-        "upvotes": 72,
+        "upvotes": 73,
         "comments": 4
       },
       "ai": {
@@ -4152,7 +4162,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 111055,
+        "stars": 111635,
         "starsToday": 1803
       },
       "ai": {
@@ -4210,7 +4220,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 33886,
+        "stars": 34459,
         "starsToday": 1380
       },
       "ai": {
@@ -4250,6 +4260,27 @@
       }
     },
     {
+      "id": "2fv0znhip4v",
+      "key": "gh:pika-labs/pika-h3-flex",
+      "title": "Pika-Labs/Pika-H3-Flex",
+      "url": "https://github.com/Pika-Labs/Pika-H3-Flex",
+      "excerpt": "Pika H3 Flex: video and audio generation inference",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T17:08:59.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-10-30",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 21.2,
+      "metrics": {
+        "stars": 1119
+      },
+      "dupOf": "1egv1bh2tq8"
+    },
+    {
       "id": "j4yhfw6iwe",
       "key": "hf:pika-labs/pika-h3-flex",
       "title": "Pika-Labs/Pika-H3-Flex",
@@ -4267,9 +4298,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 21.1,
+      "score": 21.4,
       "metrics": {
-        "likes": 366
+        "likes": 384
       },
       "skipLlm": true,
       "dupOf": "1egv1bh2tq8"

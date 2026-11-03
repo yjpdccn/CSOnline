@@ -95,7 +95,7 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 53.2,
+      "score": 58.1,
       "aiAttempts": 2,
       "ai": {
         "summary": "OpenAI 介绍了为 Codex 开发规模设计的 Git 兼容后端 Pando。",
@@ -111,8 +111,8 @@
         }
       ],
       "metrics": {
-        "points": 163,
-        "comments": 75
+        "points": 258,
+        "comments": 175
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50345924"
     },
@@ -302,10 +302,10 @@
       "firstSeenAt": "2026-11-02T20:45:22.918Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 28.1,
+      "score": 28.6,
       "metrics": {
-        "points": 173,
-        "comments": 245
+        "points": 185,
+        "comments": 256
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50337454",
       "ai": {
@@ -329,10 +329,10 @@
       "firstSeenAt": "2026-11-02T20:45:22.918Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 30.3,
+      "score": 30.6,
       "metrics": {
-        "points": 230,
-        "comments": 270
+        "points": 236,
+        "comments": 282
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50337439",
       "ai": {
@@ -367,6 +367,26 @@
         "at": "2026-11-02T20:46:59.364Z"
       },
       "dupOf": "1g0c2mfago0"
+    },
+    {
+      "id": "pr3ly1wcmi",
+      "key": "url:arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand",
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T14:02:42.000Z",
+      "firstSeenAt": "2026-11-03T18:25:22.647Z",
+      "day": "2026-11-02",
+      "category": "industry",
+      "score": 27.7,
+      "metrics": {
+        "points": 228,
+        "comments": 85
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50336918"
     },
     {
       "id": "105chwibkvg",
@@ -716,10 +736,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.2,
+      "score": 25,
       "metrics": {
-        "points": 128,
-        "comments": 101
+        "points": 139,
+        "comments": 115
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50336138",
       "ai": {
@@ -1661,7 +1681,7 @@
       "firstSeenAt": "2026-11-02T09:04:24.822Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 34,
+      "score": 42,
       "ai": {
         "summary": "蚂蚁健康AI蚂蚁阿福获世界互联网大会领先科技奖。",
         "category": "industry",
@@ -1700,14 +1720,64 @@
           "url": "https://www.leiphone.com/category/industrynews/z4pIQvELeZ9lYfrG.html",
           "title": "世界互联网大会聚焦智能体安全，360作为核心成员单位持续推动AI安全治理",
           "publishedAt": "2026-11-03T02:00:00.000Z"
+        },
+        {
+          "id": "284mw7viaqx",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/507405.html",
+          "title": "AI数据平台OceanBase获世界互联网大会杰出贡献奖",
+          "publishedAt": "2026-11-03T05:59:05.000Z"
+        },
+        {
+          "id": "1hmwjt1w68l",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4053635430077312",
+          "title": "乌镇峰会杰出贡献奖揭晓：蚂蚁自研AI数据平台OceanBase获奖",
+          "publishedAt": "2026-11-03T06:17:57.837Z"
+        },
+        {
+          "id": "1fgr182ko02",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/i1taFLhrbqRyM9UH.html",
+          "title": "蚂蚁自研AI数据平台OceanBase获获世界互联网大会杰出贡献奖",
+          "publishedAt": "2026-11-03T06:46:00.000Z"
+        },
+        {
+          "id": "22s646iodry",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/MFCpP2Cl7MEKkzNj.html",
+          "title": "用AI阻断非法野生动物贸易，百度获世界互联网大会杰出贡献奖",
+          "publishedAt": "2026-11-03T07:08:00.000Z"
+        },
+        {
+          "id": "24rqr8c1rdc",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/9XBEJkK85FIMGErW.html",
+          "title": "智元荣获2026世界互联网大会杰出贡献奖",
+          "publishedAt": "2026-11-03T10:44:00.000Z"
+        },
+        {
+          "id": "13qwojdfvu6",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4053912334668672",
+          "title": "智元荣获2026世界互联网大会杰出贡献奖",
+          "publishedAt": "2026-11-03T10:53:11.211Z"
         }
       ],
       "story": {
-        "reports": 5,
+        "reports": 11,
         "sources": [
           "36kr-flash",
           "leiphone",
-          "jiqizhixin"
+          "jiqizhixin",
+          "qbitai",
+          "36kr-ai"
         ],
         "firstPublishedAt": "2026-11-02T09:02:33.840Z"
       }
@@ -2143,10 +2213,10 @@
       "firstSeenAt": "2026-11-02T20:45:22.918Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 29.1,
+      "score": 29.3,
       "metrics": {
-        "points": 154,
-        "comments": 87
+        "points": 158,
+        "comments": 89
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50334038",
       "ai": {
@@ -2379,7 +2449,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 26,
+      "score": 34,
       "related": [
         {
           "id": "j61ron54gh",
@@ -2388,13 +2458,22 @@
           "url": "https://36kr.com/newsflashes/4052290338231174",
           "title": "非洲首次举办奥林匹克赛事，阿里巴巴以AI云技术支持达喀尔青奥会",
           "publishedAt": "2026-11-02T07:22:53.964Z"
+        },
+        {
+          "id": "110fp3gfks1",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/dhQud8FAggk62CZ2.html",
+          "title": "青奥会结束后，阿里云想在非洲留下一朵「云」",
+          "publishedAt": "2026-11-03T15:20:00.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "jiqizhixin",
-          "36kr-flash"
+          "36kr-flash",
+          "leiphone"
         ],
         "firstPublishedAt": "2026-11-02T06:22:00.000Z"
       },
@@ -3157,10 +3236,10 @@
       "firstSeenAt": "2026-11-02T20:45:22.918Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 22.9,
+      "score": 23,
       "metrics": {
-        "points": 100,
-        "comments": 112
+        "points": 101,
+        "comments": 115
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50332086",
       "ai": {
@@ -3851,10 +3930,26 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xma0tw/gpt6_astra_edits_qwen_weights_math500_79_to_481/",
           "title": "GPT-6 Astra Edits Qwen Weights: MATH-500 7.9% to 48.1%",
           "publishedAt": "2026-11-02T21:25:39.000Z"
+        },
+        {
+          "id": "55iruqmane",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4053956984411269",
+          "title": "GPT-6自主爆改Qwen权重被吹成神？Meta知名研究员泼冷水",
+          "publishedAt": "2026-11-03T12:40:41.077Z"
+        },
+        {
+          "id": "18f1ef0s7mk",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4053977031464070",
+          "title": "GPT-6爆改模型权重，数学能力狂飙6倍，MIT博一新作破圈了",
+          "publishedAt": "2026-11-03T13:19:11.130Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 4,
         "sources": [
           "36kr-ai",
           "reddit-localllama"
@@ -3982,10 +4077,10 @@
       "day": "2026-11-02",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.6,
+      "score": 22.8,
       "metrics": {
-        "upvotes": 65,
-        "comments": 1
+        "upvotes": 67,
+        "comments": 2
       },
       "aiAttempts": 1,
       "ai": {
@@ -4198,10 +4293,10 @@
       "firstSeenAt": "2026-11-02T02:30:31.448Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 30.5,
+      "score": 30.6,
       "metrics": {
-        "points": 242,
-        "comments": 253
+        "points": 245,
+        "comments": 254
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50330456",
       "aiAttempts": 2,
@@ -4226,7 +4321,7 @@
       "firstSeenAt": "2026-11-02T02:30:31.448Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 15,
+      "score": 23,
       "aiAttempts": 1,
       "ai": {
         "title": "OpenAI 可能将数据中心重命名为‘AI 计算园区’",
@@ -4234,6 +4329,24 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-02T09:05:35.775Z"
+      },
+      "related": [
+        {
+          "id": "1n4p75nr7hc",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1025242/openai-quietly-renames-data-centers-as-compute-campuses",
+          "title": "OpenAI is quietly renaming data centers ‘compute campuses’",
+          "publishedAt": "2026-11-03T15:00:44.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "techcrunch-ai",
+          "verge-ai"
+        ],
+        "firstPublishedAt": "2026-11-01T21:55:23.000Z"
       }
     },
     {
@@ -4350,10 +4463,10 @@
       "firstSeenAt": "2026-11-02T02:30:31.448Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 25.9,
+      "score": 26,
       "metrics": {
-        "points": 167,
-        "comments": 99
+        "points": 169,
+        "comments": 100
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50328488",
       "aiAttempts": 2,
