@@ -196,41 +196,39 @@
   },
   "2026-11-03": {
     "day": "2026-11-03",
-    "generatedAt": "2026-11-03T04:00:53.459Z",
-    "itemCount": 179,
-    "mode": "ai",
-    "model": "glm-4.7-flash",
-    "overview": "MIT让GPT-6 Astra直接修改Qwen权重提升数学成绩，奥特曼预告1万Agent攻克千禧难题。",
+    "generatedAt": "2026-11-03T06:54:17.153Z",
+    "itemCount": 186,
+    "mode": "fallback",
+    "overview": "过去 24 小时共收录 186 条 AI 资讯：产品与行业 118 条、Agent 与工具 23 条、论文 16 条、开源项目 14 条、模型发布 12 条、多模态与视频 3 条。以下为按重要性排序的前 5 条。",
     "points": [
       {
-        "text": "MIT让GPT-6 Astra直接修改Qwen权重，数学成绩显著提升。",
+        "text": "【论文】MIT让GPT-6 Astra直接修改Qwen权重！数学成绩飙升",
         "refs": [
-          "qf2nfxatql",
+          "qf2nfxatql"
+        ]
+      },
+      {
+        "text": "【开源】Scaling Git at OpenAI",
+        "refs": [
+          "2517rouai5w"
+        ]
+      },
+      {
+        "text": "【模型】Astra can read and write weights to improve Qwen",
+        "refs": [
           "1sczdb7vl4x"
         ]
       },
       {
-        "text": "奥特曼预告下一代GPT将由1万个Agent驱动，用于攻克千禧难题。",
+        "text": "【行业】淘宝短剧xWan3.0，温碧霞授权形象亮相AI短剧",
         "refs": [
-          "janua5srvj"
+          "1kgemzzupvp"
         ]
       },
       {
-        "text": "蚂蚁健康AI“蚂蚁阿福”获世界互联网大会领先科技奖。",
+        "text": "【行业】小米斩获乌镇峰会双料大奖：小米集团获“杰出贡献奖”，小米具身基座模型获“领先科技奖”",
         "refs": [
-          "tztbrfsc75"
-        ]
-      },
-      {
-        "text": "OpenAI提高安全漏洞赏金，引入质量、忠诚度等额外奖励。",
-        "refs": [
-          "1gdjjltdu6r"
-        ]
-      },
-      {
-        "text": "纽约时报起诉Brave浏览器AI抓取数据并绕过付费墙。",
-        "refs": [
-          "26mv8pkxao1"
+          "im6xobbehq"
         ]
       }
     ]

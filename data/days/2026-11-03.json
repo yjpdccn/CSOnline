@@ -2,6 +2,388 @@
   "day": "2026-11-03",
   "items": [
     {
+      "id": "f3kshp95st",
+      "key": "url:36kr.com/newsflashes/4053673729430403",
+      "title": "华尔街力劝Anthropic审慎定价",
+      "url": "https://36kr.com/newsflashes/4053673729430403",
+      "excerpt": "上周美股科技股的暴跌，促使计划参与Anthropic首次公开募股（IPO）的大型投资者们，就这家AI巨头的上市估值达成新共识——倾向于采用较低的估值。据知情人士透露，过去几天里，机构投资者已向这家Claude研发商及其顾问团队表明，在本月晚些时候的IPO中，其估值应定在1.5万亿至1.6万亿美元左右——远低于近几个月市场普遍传言的近2万亿美元水平。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T06:50:09.462Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "华尔街建议 Anthropic 在 IPO 中采用较低估值，以应对市场波动。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:54:06.383Z"
+      }
+    },
+    {
+      "id": "1dhlmiwnezc",
+      "key": "url:infoq.cn/article/zZutPTX8bsr6NWQYNC3A",
+      "title": "从模型调用到任务交付：MaaS 如何走进 Agent 生产",
+      "url": "https://www.infoq.cn/article/zZutPTX8bsr6NWQYNC3A?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T06:40:19.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "paper",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "MaaS 如何走进 Agent 生产，从模型调用到任务交付。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:54:06.383Z"
+      }
+    },
+    {
+      "id": "1n1x3qhe0xq",
+      "key": "url:36kr.com/newsflashes/4053652165677960",
+      "title": "报告：元宝月度人均使用时长环比增长34.1%",
+      "url": "https://36kr.com/newsflashes/4053652165677960",
+      "excerpt": "36氪获悉，11月3日，第三方数据机构QuestMobile发布《QuestMobile 2026中国移动互联网秋季大报告》。报告显示，2026年9月，元宝月人均使用次数达到38.7次，月人均使用时长为78.6分钟。元宝的用户粘性呈现出强劲的上升态势，元宝月度人均使用时长环比增长34.1%，月度人均使用次数环比增长32.6%。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T06:28:13.315Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "元宝月人均使用时长环比增长34.1%，用户粘性持续增强。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:54:06.383Z"
+      }
+    },
+    {
+      "id": "1hmwjt1w68l",
+      "key": "url:36kr.com/newsflashes/4053635430077312",
+      "title": "乌镇峰会杰出贡献奖揭晓：蚂蚁自研AI数据平台OceanBase获奖",
+      "url": "https://36kr.com/newsflashes/4053635430077312",
+      "excerpt": "11月3日上午，2026世界互联网大会在浙江乌镇开幕。从大会现场获悉，蚂蚁自研AI数据平台OceanBase获得“世界互联网大会杰出贡献奖”。大会颁奖词指出，“OceanBase打造AI数据基础设施，服务全球数字经济发展。”这是OceanBase继2022年获得世界互联网领先科技成果奖后，再次获得世界互联网大会重要奖项。此次获奖，不仅是对其数据库核心技术创新的认可，也体现了其在推动AI数据基础设施创新、释放企业数据价值方面的产业贡献。OceanBase总部已于2020年落户北京市海淀区。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T06:17:57.837Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "im6xobbehq"
+    },
+    {
+      "id": "1uxrvbe68id",
+      "key": "url:36kr.com/newsflashes/4053583709099144",
+      "title": "机构：红果免费短剧成为抖音集团第二大应用，去重总用户量达4.3亿",
+      "url": "https://36kr.com/newsflashes/4053583709099144",
+      "excerpt": "36氪获悉，QuestMobile发布《中国移动互联网秋季大报告》。报告显示，截至2026年9月，移动互联网月活用户规模达到12.81亿，同比增长0.9%；9月份月人均使用时长维持在189.8小时，同比增长6.5%。报告指出，AI原生、短剧内容、社区交易、本地决策与即时履约等，正在成为大厂重构流量矩阵、争夺用户决策起点的新主战场。2026年9月，抖音集团前三大应用为抖音、红果免费短剧、豆包，去重总用户量分别为10.29亿、4.3亿和4.19亿，上年同期前三大应用则为抖音、今日头条和抖音极速版。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T05:49:20.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "keywords": [
+        "AI 短剧"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "红果免费短剧成为抖音集团第二大应用，去重用户量达4.3亿。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:54:06.383Z"
+      }
+    },
+    {
+      "id": "1lc9xe6yh44",
+      "key": "url:36kr.com/newsflashes/4053562108957572",
+      "title": "“飒智智能”完成数亿元Pre-B轮融资",
+      "url": "https://36kr.com/newsflashes/4053562108957572",
+      "excerpt": "36氪获悉，“飒智智能”近期完成数亿元Pre-B轮融资。投资方包括建投投资有限责任公司、南通投管和云启资本三家机构。本轮资金将主要用于大模型研发、多臂机器人本体迭代、产线扩建以及全球市场的深度拓展。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T05:26:24.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "飒智智能完成数亿元Pre-B轮融资，用于大模型研发与机器人迭代。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:54:06.383Z"
+      }
+    },
+    {
+      "id": "1l1g97zaw09",
+      "key": "url:36kr.com/newsflashes/4053590133576837",
+      "title": "阿里巴巴蔡崇信：开源推动AI普及，千问开源模型全球累计下载超40亿次",
+      "url": "https://36kr.com/newsflashes/4053590133576837",
+      "excerpt": "11月3日上午，2026年世界互联网大会乌镇峰会开幕。阿里巴巴集团联合创始人、董事会主席蔡崇信在开幕式上发言，他表示，AI只有开源开放，才能普惠普及。中国开源模型综合性能好、推理效率高，模型下载量、衍生模型数等关键指标保持领先，是当前全球开源智能的引领者。阿里千问已经开源超过470款模型，全球累计下载量突破40亿次，衍生模型超过33万个，位列全球第一。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T05:25:07.176Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "keywords": [
+        "开源模型"
+      ],
+      "score": 22,
+      "ai": {
+        "summary": "阿里蔡崇信称开源推动 AI 普及，千问开源超 470 款模型。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:53:14.822Z"
+      }
+    },
+    {
+      "id": "im6xobbehq",
+      "key": "url:qbitai.com/2026/11/507396.html",
+      "title": "小米斩获乌镇峰会双料大奖：小米集团获“杰出贡献奖”，小米具身基座模型获“领先科技奖”",
+      "url": "https://www.qbitai.com/2026/11/507396.html",
+      "excerpt": "11月3日，小米方面披露，小米集团获得2026世界互联网大会“杰出贡献奖”创新突破类奖项",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T05:16:35.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 26,
+      "related": [
+        {
+          "id": "1hmwjt1w68l",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4053635430077312",
+          "title": "乌镇峰会杰出贡献奖揭晓：蚂蚁自研AI数据平台OceanBase获奖",
+          "publishedAt": "2026-11-03T06:17:57.837Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "qbitai",
+          "36kr-flash"
+        ],
+        "firstPublishedAt": "2026-11-03T05:16:35.000Z"
+      },
+      "ai": {
+        "summary": "小米集团获“杰出贡献奖”，具身基座模型获“领先科技奖”。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:53:14.822Z"
+      }
+    },
+    {
+      "id": "mzpx02d44z",
+      "key": "url:36kr.com/newsflashes/4053558980580224",
+      "title": "摩根大通副董事长：AI板块估值仍高，预计将出现回调",
+      "url": "https://36kr.com/newsflashes/4053558980580224",
+      "excerpt": "摩根大通副董事长Daniel Pinto认为，AI领域的估值仍然过高，并预计该行业将会出现回调。Pinto在香港金管局举办的国际金融领袖投资峰会一场小组讨论中表示，确实相信生产力将迎来一波大幅提升，也相信AI会带来重大影响。但他提醒大家，要审慎看待增长的速度，因为目前正在开发的所有这些东西，终究得有人买单。AI以外的产业以及其他所有人，必须向这些公司支付数以万亿计美元，才能证明这些投资是合理的。他表示，AI公司需要证明如此庞大的投资规模以及目前的估值是合理的，现在的步伐可能有点太快了。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T05:06:19.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "摩根大通副董事长认为AI板块估值过高，预计将出现回调。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:54:06.383Z"
+      }
+    },
+    {
+      "id": "ce2jqdwr8m",
+      "key": "url:36kr.com/newsflashes/4053560251077768",
+      "title": "黄仁勋据悉在Marvell和Lumentum巨额并购交易宣布前表达支持态度",
+      "url": "https://36kr.com/newsflashes/4053560251077768",
+      "excerpt": "Marvell Technology Inc．和Lumentum Holdings Inc．在达成近1030亿美元并购协议之前，得到了英伟达首席执行官黄仁勋的支持。据知情人士称，在交易宣布之前，Marvell首席执行官Matthew Murphy以及Lumentum首席执行官Michael Hurlston在电话中寻求了黄仁勋的意见。黄仁勋的支持凸显了AI领导者英伟达如何鼓励主要供应商之间的整合，因为对更快速光连接的需求已成为日益庞大的数据中心建设的瓶颈。英伟达作为大型语言模型训练和运行的主要芯片供应商，今年早些时候对Marvell和Lumentum分…",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T04:54:43.293Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "黄仁勋支持 Marvell 和 Lumentum 巨额并购，以解决数据中心光连接瓶颈。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:54:06.383Z"
+      }
+    },
+    {
+      "id": "221zkxs3myb",
+      "key": "url:infoq.cn/article/IMWM7ZXDi99sMiUVZBIF",
+      "title": "Anthropic团队零Rust经验起步，靠Claude完成核心API跨语言重构：CPU省40%，延迟降20%",
+      "url": "https://www.infoq.cn/article/IMWM7ZXDi99sMiUVZBIF?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T04:51:41.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "model",
+      "score": 24,
+      "ai": {
+        "summary": "Anthropic 零 Rust 经验起步，靠 Claude 完成核心 API 重构。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:54:06.383Z"
+      }
+    },
+    {
+      "id": "ijx8xjimq3",
+      "key": "url:infoq.cn/article/xaWSKT3MlZjbuJw16Vem",
+      "title": "“别再像 2024 年那样用 Claude 了！”Claude Cowork 工程负责人：有些 Skill 删掉反而更好",
+      "url": "https://www.infoq.cn/article/xaWSKT3MlZjbuJw16Vem?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T04:49:51.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "Claude Cowork 工程负责人建议删除部分 Skill 以提升效率。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:54:06.383Z"
+      }
+    },
+    {
+      "id": "1df27bzswtg",
+      "key": "url:jiqizhixin.com/articles/2026-11-03-5",
+      "title": "与DeepSeek Super Agent理念同频：人大复旦提出CoworkOS，构建你的「超级AI同事」！",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-03-5",
+      "excerpt": "近日，DeepSeek 为下一代超级智能体（Super Agent）提出了四个标准：连续，高效，主动，持久，让智能体称为能够承担工作的 AI 同事。与这一理念同频，中国人民大学与复旦大学联合团队提出 CoworkOS，将复杂任务协作、共享应用与持久工作状态纳入同一套系统。论文标题：Cowork...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T04:05:00.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "团队提出 CoworkOS，旨在构建能与 DeepSeek Super Agent 同频的“超级 AI 同事”。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:53:14.822Z"
+      }
+    },
+    {
+      "id": "ae1tvqadea",
+      "key": "url:36kr.com/p/4053494364378244",
+      "title": "机器人生意，造不如租",
+      "url": "https://36kr.com/p/4053494364378244",
+      "excerpt": "需求决定",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T04:00:29.747Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "文章探讨在需求决定下，机器人生意中“造不如租”的模式。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:53:14.822Z"
+      }
+    },
+    {
+      "id": "38y0t0htu8",
+      "key": "url:jiqizhixin.com/articles/2026-11-03-4",
+      "title": "多轮图像编辑如何保住画质与细节？商汤、港科MMLab等联合提出MT Forcing",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-03-4",
+      "excerpt": "多轮图像编辑允许用户通过连续指令，逐步调整同一张图片中的物体、外观与场景。随着图像生成进入交互创作，用户需要根据中间结果继续修改，模型也需要在完成新要求的同时，保留此前已经确认的内容。但现有模型往往在几轮之后出现明显偏差：纹理越来越重，局部细节逐渐失真，没有要求修改的区域也可能发生变化。这些问...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T03:59:00.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "paper",
+      "keywords": [
+        "图像生成"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "商汤、港科 MMLab 等联合提出 MT Forcing，解决多轮图像编辑画质失真问题。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:53:14.822Z"
+      }
+    },
+    {
+      "id": "uy5gd4rb8r",
+      "key": "gh:qwenlm/qwen-code",
+      "title": "Alibaba's Qwen Code repo just leaked qwen4-max, qwen4-coder-plus, and qwen4-omni-120b",
+      "url": "https://github.com/QwenLM/qwen-code/pull/15762",
+      "excerpt": "PRs: https://github.com/QwenLM/qwen-code/pull/15762: \"Measured on main at 79a9b753c60, before this change: qwen4, qwen4-max, qwen4-plus, qwen4.5-max, qwen4-coder-plus, qwen4-max-2026-10-01, openai/qwen4-max and qwen4-omni-120b-think all resolved to 262,144. The last of those is…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-03T03:55:43.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "阿里千问代码仓库泄露了 qwen4 系列新模型。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:53:14.822Z"
+      }
+    },
+    {
       "id": "60k05r1xwg",
       "key": "url:36kr.com/newsflashes/4053485104075909",
       "title": "PIMCO首席执行官：与AI相关的融资规模未来五年可能增至约10万亿美元，达到过度水平",
@@ -68,6 +450,32 @@
       }
     },
     {
+      "id": "1kgemzzupvp",
+      "key": "url:leiphone.com/category/industrynews/6r6xFSgHy9gAJq1x.html",
+      "title": "淘宝短剧xWan3.0，温碧霞授权形象亮相AI短剧",
+      "url": "https://www.leiphone.com/category/industrynews/6r6xFSgHy9gAJq1x.html",
+      "excerpt": "天猫双11期间，淘宝短剧联合天猫小黑盒、天猫国际等，推出一批AI品牌短剧，把新品功能和使用场景融入故事，并联动短剧挂链产品、达人测评短视频和品牌直播间，探索以品牌剧为核心的新品营销模式。淘宝短剧与阿里视频生成模型Wan进一步开展合作，将AI内容制作与品牌需求、商品销售相结合。 自今年618推出《我的飞机通次元》以来，淘宝短剧合作品牌覆盖美妆、家电、数码、母婴、食品、服饰等品类，既有戴森、资生堂、AMD、雀巢等国际品牌，也包括百雀羚、自然堂、蓝月亮、全友家居等国货品牌。 以百雀羚定制AI短剧《灵玉异世录》为例，该剧将品牌草本理念融入故事，上线30天播放量…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T03:45:00.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "keywords": [
+        "视频生成",
+        "AI 短剧"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "淘宝短剧联合 Wan 模型推出AI品牌短剧，探索新品营销新模式。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:54:06.383Z"
+      }
+    },
+    {
       "id": "1v74ts7e1vr",
       "key": "url:36kr.com/p/4053202384082057",
       "title": "AI泡沫忧虑再起，人类作为AI审核把关角色不稳",
@@ -87,6 +495,28 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-03T04:00:10.155Z"
+      }
+    },
+    {
+      "id": "18osraygrbt",
+      "key": "url:qbitai.com/2026/11/507382.html",
+      "title": "A社紧急修改招股书！RSI我们快要控制不住了",
+      "url": "https://www.qbitai.com/2026/11/507382.html",
+      "excerpt": "单季狂揽1130亿人民币，但...",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T03:41:06.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "单季狂揽 1130 亿人民币，但面临 RSI 控制不住的局面。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:53:14.822Z"
       }
     },
     {
@@ -160,6 +590,56 @@
       }
     },
     {
+      "id": "28ehrfnnydw",
+      "key": "url:leiphone.com/category/yanxishe/SLNEDfKkzWQBFqwS.html",
+      "title": "实测丨GPT 6.1 Sol 硬刚 Sonnet 5.5：一个太老实，另一个精得很",
+      "url": "https://www.leiphone.com/category/yanxishe/SLNEDfKkzWQBFqwS.html",
+      "excerpt": "Anthropic 于 9 月 28 日推出 Claude Sonnet 5.5，OpenAI 于 9 月 29 日推出 GPT 6.1 Sol。巧合的是，两款模型在 OpenRouter 上的 API 标价完全相同：每百万输入 Token 2 美元，输出 10 美元。 雷峰网 两家公司给出的方向高度相似：把接近最高档模型的能力，压进更快、更便宜、适合 Agent 与专业工作的产品层。Sonnet 5.5 强调以更少步骤完成边界清晰的日常任务；GPT 6.1 Sol 则瞄准复杂编码、计算机操作和专业工作。 我们把两款模型放进同一个工作台，通过同一个渠道…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T03:20:00.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "model",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 24,
+      "ai": {
+        "summary": "两款模型在价格和定位上高度相似，雷峰网进行了详细对比实测。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:53:14.822Z"
+      }
+    },
+    {
+      "id": "1f3jf0t8vmz",
+      "key": "url:leiphone.com/category/yanxishe/tdA5Q7WCG1ZrQXxk.html",
+      "title": "实测可灵4.0：让AI跳一段舞，怎样更接近理想效果？",
+      "url": "https://www.leiphone.com/category/yanxishe/tdA5Q7WCG1ZrQXxk.html",
+      "excerpt": "2004年，张艺谋在《十面埋伏》里拍下了一场令人难忘的水袖击鼓舞。(雷峰网) 章子怡饰演的舞者置身鼓阵中央，随着乐声腾跃、旋转，两条长水袖在空中翻飞，时而划出巨大的弧线，时而甩向四周的鼓面。人物的动作、绸布的轨迹和密集的鼓点配合在一起，至今仍是影片中最具辨识度的场面之一。 这场表演本身就不容易复刻。舞者、水袖和鼓阵要配合得恰到好处，电影还可以借助镜头调度与剪辑，让每一下击鼓都显得干净利落。如今把这套要求浓缩进一段提示词，让AI一次生成15秒，听起来多少有点为难它。 但我们还是想试试。毕竟可灵4.0这次重点升级的能力之一，就是复杂动态的生成。 10月15…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T03:19:00.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "multimodal",
+      "keywords": [
+        "视频生成"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "实测可灵4.0生成复杂动态效果，探讨AI视频生成的极限。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:54:06.383Z"
+      }
+    },
+    {
       "id": "1v7eex3d0xc",
       "key": "url:qbitai.com/2026/11/507367.html",
       "title": "模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义",
@@ -204,6 +684,31 @@
       }
     },
     {
+      "id": "1qwryhjijhg",
+      "key": "url:leiphone.com/category/yanxishe/YK9Yap3kAJ0F1lWv.html",
+      "title": "AI产品淘汰赛开始：最快 76 天消失，千万用户也难逃破产",
+      "url": "https://www.leiphone.com/category/yanxishe/YK9Yap3kAJ0F1lWv.html",
+      "excerpt": "AI 时代，只要学得慢，就可以少学很多过时的东西。 作者丨李娜 编辑丨岑峰 一代人有一代人的鸡蛋要领。(雷峰网) 以前是超市门口排队领免费鸡蛋，如今是 AI 社区里蹲邀请码、抢内测名额、攒免费额度。每逢一款新的 Agent 发布，总有人忙着寻找体验入口，研究怎么领积分、怎么薅到更多 Token，唯恐错过下一款改变工作方式的划时代产品。 只是这届 AI 产品，有些还没等大家用熟，就已经开始准备退场了。 今年 3 月才开启内测的腾讯 QClaw 在9月底宣布将在年底停止运营，从抢邀请码到领积分搬家，前后不过 199 天。类似的变化还有不少：10 月，另一款…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T03:14:00.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "AI产品淘汰赛加速，部分产品生命周期缩短至76天。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:54:06.383Z"
+      }
+    },
+    {
       "id": "r3fo0ico2m",
       "key": "url:36kr.com/newsflashes/4053460672222087",
       "title": "国家发改委：我国正推动世界人工智能合作组织实体化运行，已有38国作为创始成员国加入",
@@ -245,6 +750,46 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-03T04:00:20.343Z"
+      }
+    },
+    {
+      "id": "1g0c2mfago0",
+      "key": "url:leiphone.com/category/yanxishe/46BrtW83OYjXUx0b.html",
+      "title": "字节发现 DeepSeek 的周期性弱点，我们实测了 V4.1，结果不太一样",
+      "url": "https://www.leiphone.com/category/yanxishe/46BrtW83OYjXUx0b.html",
+      "excerpt": "同一段代码，前面只增加无关Token，DeepSeek会改变答案吗？ 作者丨李娜 编辑丨岑峰 01 DeepSeek为何有时答对、有时答错？ 同一道代码补全题，前面只增加几个无关Token，DeepSeek就可能改变答案。（详情可见：字节发现 DeepSeek 隐藏 Bug，加点空格，模型翻车） 这是字节Seed在9月底一项研究中发现的现象。研究人员观察到，DeepSeek-V4-Flash基础模型会随着代码前方无关注释的长度变化，在正确答案“8”和错误答案“32”之间周期性切换。 (雷峰网) 但这个存在于旧版基础模型中的异常，今天还能测出来吗？ 我们…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T03:13:00.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "model",
+      "score": 32,
+      "related": [
+        {
+          "id": "7ztj89tmhz",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlys6k/release_ista_deepseekv41flash1017_gsqrco_coder_a/",
+          "title": "ISTA 发布 763B DeepSeek-V4.1-Flash-1017 C…",
+          "publishedAt": "2026-11-02T14:33:20.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "leiphone",
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-11-02T14:33:20.000Z"
+      },
+      "ai": {
+        "summary": "实测发现 DeepSeek-V4-Flash 在代码补全中存在周期性切换答案的异常。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:53:14.822Z"
       }
     },
     {
@@ -333,6 +878,54 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-03T04:00:20.343Z"
+      }
+    },
+    {
+      "id": "h5x4bjt63l",
+      "key": "url:leiphone.com/category/yanxishe/6QM0ls2hB4Dhqgbh.html",
+      "title": "实测 Grok Bot：变身「云端AI团队」同题硬刚两款国产Agent",
+      "url": "https://www.leiphone.com/category/yanxishe/6QM0ls2hB4Dhqgbh.html",
+      "excerpt": "一套代码能跑遍所有芯片。 作者丨吴海明 编辑丨李娜 岑峰 01 Grok Bot 的进化： 从“聊天框”到“云电脑” 马斯克最近又给 Grok Bot 加上了新技能点。（雷峰网） 10 月 7 日，他在X上表示 Grok Bot 将接入 Claude Opus 5.5、Midjourney 和 Suno等第三方顶级模型；而最近更是迎来了一次核心范式的跃升：主 Bot 会发现可替用户承担的工作，并主动提议接手。 也就是说，它不再只是被动等待提问的聊天机器人，而是变为“主动找活干”的AI云端团队。 它不像传统聊天助手那样，主要围绕一个对话框展开工作。用户可…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T03:01:00.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "图像生成"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "Grok Bot 接入 Claude 等模型并升级为主动型AI云端团队。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:54:06.383Z"
+      }
+    },
+    {
+      "id": "80g0edfpx6",
+      "key": "url:leiphone.com/category/yanxishe/LJRGX1IzRWZl6XsT.html",
+      "title": "REA「逆向一切」实测：Gemini 4 Argon和GLM 5.3 复刻故宫名画记，细节决定还原度",
+      "url": "https://www.leiphone.com/category/yanxishe/LJRGX1IzRWZl6XsT.html",
+      "excerpt": "逆向工具可以帮模型找出软件的结构与行为，但哪些功能该保留、哪些细节不能省，仍要由模型判断。 作者丨吴海明 编辑丨李娜 岑峰 01 软件已死？AI开始逆向复刻显示世界 “Software is done.（软件已死）。” 10 月初，知名 AI 科技博主 Matthew Berman 在 X 上留下这句惊叹，将一款名为 REA（Reverse Engineer Anything）的开源逆向分析工具推上了风口浪尖。 REA（Reverse Engineer Anything）是 10 月 GitHub 上最热的项目之一，它的可怕之处在于，它为 AI Age…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T02:58:00.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "REA 工具实测能复刻软件结构，Gemini 4 Argon 和 GLM 5.3 复刻名画。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-03T06:53:14.822Z"
       }
     },
     {
@@ -715,6 +1308,26 @@
       }
     },
     {
+      "id": "pac8eqahh8",
+      "key": "url:leiphone.com/category/industrynews/z4pIQvELeZ9lYfrG.html",
+      "title": "世界互联网大会聚焦智能体安全，360作为核心成员单位持续推动AI安全治理",
+      "url": "https://www.leiphone.com/category/industrynews/z4pIQvELeZ9lYfrG.html",
+      "excerpt": "11月2日，世界互联网大会人工智能专业委员会2026年全体会议及第三次主任委员会议在浙江乌镇召开。360集团首席科学家、高级副总裁潘剑锋以人工智能专委会副主任委员身份出席会议。会议审议的2027年度工作计划（草案）提出，专委会安全与治理推进计划将进一步聚焦“智能体安全可控与协同治理”，推动AI安全治理进一步向智能体行为管控、治理能力建设和全球治理机制延伸。作为专委会成员单位，360在智能体安全领域的持续研究与实践，与这一方向高度呼应。 图示人工智能专委会会议现场 随着AI从内容生成走向自主执行，智能体开始调用工具、访问数据并自主完成任务，安全风险也从内…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-03T02:00:00.000Z",
+      "firstSeenAt": "2026-11-03T06:52:17.298Z",
+      "day": "2026-11-03",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "dupOf": "tztbrfsc75"
+    },
+    {
       "id": "156ree7ycwy",
       "key": "url:qbitai.com/2026/11/507322.html",
       "title": "MIT：GPT-6 Astra能直接修改Qwen权重，数学能力暴涨6倍",
@@ -903,7 +1516,7 @@
       ],
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xmfbam/i_found_another_niche_use_case_for_local_llms_but/",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "用户分享利用本地 LLM 处理城市议会会议记录的实用案例。",
         "category": "agent",
@@ -1094,7 +1707,7 @@
       "day": "2026-11-03",
       "category": "opensource",
       "score": 14,
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "开发者发布 LLM CLI 工具和 Python 库的新版本 0.37，包含多项新功能和修复。",
         "category": "opensource",
@@ -1295,10 +1908,10 @@
       "firstSeenAt": "2026-11-03T03:56:29.161Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 28.2,
+      "score": 28.8,
       "metrics": {
-        "points": 185,
-        "comments": 210
+        "points": 199,
+        "comments": 227
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50344958",
       "ai": {
@@ -1322,10 +1935,10 @@
       "firstSeenAt": "2026-11-03T03:56:29.161Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 29.7,
+      "score": 31.6,
       "metrics": {
-        "points": 243,
-        "comments": 176
+        "points": 294,
+        "comments": 227
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50344919",
       "ai": {
@@ -1352,7 +1965,7 @@
       "category": "paper",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbj0v/new_sparse_attention_method_for_ultralong_context/",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "团队提出一种稀疏注意力方法，可在不损失准确性的情况下扩展 Qwen 3.8 27B 的上下文长度。",
         "category": "paper",
@@ -1421,7 +2034,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 10309,
+        "stars": 10792,
         "starsToday": 2275
       },
       "aiAttempts": 2,
@@ -1449,7 +2062,7 @@
       "categoryLocked": true,
       "score": 27.7,
       "metrics": {
-        "stars": 46674,
+        "stars": 46762,
         "starsToday": 675
       },
       "aiAttempts": 2,
@@ -1480,7 +2093,7 @@
       ],
       "score": 17.4,
       "metrics": {
-        "stars": 10104,
+        "stars": 10154,
         "starsToday": 136
       },
       "aiAttempts": 2,
@@ -1508,7 +2121,7 @@
       "categoryLocked": true,
       "score": 22.5,
       "metrics": {
-        "stars": 59972,
+        "stars": 60037,
         "starsToday": 325
       },
       "aiAttempts": 2,
@@ -1536,7 +2149,7 @@
       "categoryLocked": true,
       "score": 24.3,
       "metrics": {
-        "stars": 38185,
+        "stars": 38275,
         "starsToday": 420
       },
       "aiAttempts": 2,
@@ -1563,7 +2176,7 @@
       "category": "industry",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xm8o8g/amazon_is_allegedly_canceling_gpu_orders_and_in/",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "亚马逊被指取消 GPU 订单，甚至关闭部分客户账户，Epic Games 创始人 Tim Sweeney 也受影响。",
         "category": "industry",
@@ -1633,10 +2246,10 @@
       "firstSeenAt": "2026-11-03T03:56:29.161Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 27,
+      "score": 27.5,
       "metrics": {
-        "points": 173,
-        "comments": 152
+        "points": 183,
+        "comments": 163
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50342284",
       "ai": {
@@ -1662,7 +2275,7 @@
       "day": "2026-11-03",
       "category": "industry",
       "score": 15,
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "网站建设商 Squarespace 宣布裁员 19%，称这是组织重组的一部分。",
         "category": "industry",
@@ -1704,7 +2317,7 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 58.7,
+      "score": 58.9,
       "related": [
         {
           "id": "twiqmw4d9y",
@@ -1732,9 +2345,9 @@
         ],
         "firstPublishedAt": "2026-10-29T06:20:59.000Z",
         "metrics": {
-          "stars": 969,
+          "stars": 987,
           "points": 196,
-          "comments": 121
+          "comments": 123
         }
       },
       "ai": {
@@ -1758,10 +2371,10 @@
       "firstSeenAt": "2026-11-03T03:56:29.161Z",
       "day": "2026-11-03",
       "category": "paper",
-      "score": 23.9,
+      "score": 24.9,
       "metrics": {
-        "points": 128,
-        "comments": 89
+        "points": 144,
+        "comments": 98
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50341736",
       "ai": {
@@ -1788,8 +2401,8 @@
       "category": "model",
       "score": 50,
       "metrics": {
-        "points": 2133,
-        "comments": 693
+        "points": 2378,
+        "comments": 742
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50341174",
       "alsoOn": [
@@ -2043,10 +2656,10 @@
       "firstSeenAt": "2026-11-02T20:45:22.918Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 31.9,
+      "score": 32.3,
       "metrics": {
-        "points": 299,
-        "comments": 240
+        "points": 313,
+        "comments": 246
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50339494",
       "aiAttempts": 1,
