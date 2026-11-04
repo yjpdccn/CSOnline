@@ -159,29 +159,20 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
   };
 
   // The weekly comparison reads a few hundred fund pages; it runs alongside the rest.
-  const strategyWork = (async () => {
-    let strategy = store.strategy;
-    const results: InvestSourceResult[] = [];
-    if (scanDue(strategy, now)) {
-      // 天天基金 answers bursts with "514 Frequency Capped": fewer at a time, and more patient retries.
-      const scan = await settle(() =>
-        scanPeers(store.funds, now, {
-          universe: fetchFundUniverse,
-          profile: (code) => fetchProfilePage(code, 3),
-          feePage: (code) => fetchFeePage(code, 3),
-          trackingError: fetchTrackingError,
-          concurrency: 3,
-        }),
-      );
-      if (scan.ok) {
-        strategy = { ...strategy, ...scan.value.file };
-        results.push(scan.value.result);
-      } else {
-        results.push({ id: "fund-peers", name: "同类基金比较（每周）", kind: "基金", ok: false, count: 0, ms: scan.ms, error: scan.error });
-      }
-    }
-    const refreshed = await refreshStrategy(strategy, now, { notices: fetchNotices, feePage: fetchFeePage });
-    return { strategy: refreshed.file, results: [...results, ...refreshed.results] };
+  const scanWork = (async (): Promise<{ strategy: StrategyFile; results: InvestSourceResult[] }> => {
+    if (!scanDue(store.strategy, now)) return { strategy: store.strategy, results: [] };
+    // 天天基金 answers bursts with "514 Frequency Capped": fewer at a time, and more patient retries.
+    const scan = await settle(() =>
+      scanPeers(store.funds, now, {
+        universe: fetchFundUniverse,
+        profile: (code) => fetchProfilePage(code, 3),
+        feePage: (code) => fetchFeePage(code, 3),
+        trackingError: fetchTrackingError,
+        concurrency: 3,
+      }),
+    );
+    if (scan.ok) return { strategy: { ...store.strategy, ...scan.value.file }, results: [scan.value.result] };
+    return { strategy: store.strategy, results: [{ id: "fund-peers", name: "同类基金比较（每周）", kind: "基金", ok: false, count: 0, ms: scan.ms, error: scan.error }] };
   })();
 
   const eastmoney: { id: IndexId | MacroId; secid: string; tencent?: string; csindex?: string; sina?: string; label: string }[] = [
@@ -396,9 +387,11 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
     single("wscn-calendar", "华尔街见闻财经日历", "日历", calendar, calendar?.ok ? calendar.value.length : 0),
     single("fomc", "美联储议息日程", "日历", fomc, fomc?.ok ? fomc.value.length : 0),
   );
-  const strategy = await strategyWork;
-  out.strategy = strategy.strategy;
-  out.results.push(...strategy.results);
+  // Announcements wait for the NAVs, which come from the same API host, so fewer requests are open at once.
+  const scanned = await scanWork;
+  const refreshed = await refreshStrategy(scanned.strategy, now, { notices: fetchNotices, feePage: fetchFeePage });
+  out.strategy = refreshed.file;
+  out.results.push(...scanned.results, ...refreshed.results);
   return out;
 }
 

@@ -41,6 +41,8 @@ export interface StrategyFile {
   /** Material announcements of tracked funds (清盘, 转型, 合并, new benchmark), read every run. */
   notices: Record<string, FundNotice[]>;
   noticesAt?: string;
+  /** When each fund's announcements were last read; a fund that failed keeps its old time and goes first next run. */
+  noticeReads?: Record<string, string>;
 }
 
 export const emptyStrategy = (): StrategyFile => ({ peers: {}, tracked: {}, notices: {} });
@@ -241,9 +243,87 @@ export async function scanPeers(funds: FundsFile, now: Date, deps: ScanDeps): Pr
 }
 
 export interface RefreshDeps {
+  /** One attempt; retries are paced here. */
   notices: (code: string) => Promise<FundNotice[]>;
   feePage: (code: string) => Promise<FeePage>;
   concurrency?: number;
+  sleep?: (ms: number) => Promise<void>;
+  random?: () => number;
+}
+
+/**
+ * 天天基金's announcement API, on the host that also serves the NAVs, drops a few funds in some runs from GitHub's
+ * runners. Two at a time, three attempts with jittered exponential backoff, a second pass for what failed, and a
+ * stop after a streak of failed attempts so an outage does not hold up the update.
+ */
+const NOTICES = { concurrency: 2, attempts: 3, baseDelayMs: 1_000, breaker: 8, secondPassMs: 15_000, secondPassAttempts: 2 };
+
+/** A fund whose announcements have not been read for this long is flagged: its stop signals could be missed. */
+export const NOTICE_STALE_MS = 72 * 3_600_000;
+
+/** In a file from before per-fund read times were kept, every fund counts as read when the last run read any. */
+export function noticeReadTimes(file: Pick<StrategyFile, "noticeReads" | "noticesAt">): Record<string, string | undefined> {
+  return Object.fromEntries(FUNDS.map((f) => [f.code, file.noticeReads ? file.noticeReads[f.code] : file.noticesAt]));
+}
+
+async function readNotices(file: StrategyFile, now: Date, deps: RefreshDeps): Promise<{ notices: StrategyFile["notices"]; reads: Record<string, string>; result: InvestSourceResult }> {
+  const sleep = deps.sleep ?? ((ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms)));
+  const random = deps.random ?? Math.random;
+  const cutoff = now.getTime() - INVEST_RULES.stop.noticeDays * 86_400_000;
+  const notices = { ...file.notices };
+  const known = noticeReadTimes(file);
+  const reads: Record<string, string> = Object.fromEntries(Object.entries(known).filter((e): e is [string, string] => Boolean(e[1])));
+  // Last run's misses (the oldest reads) go first, while the API is least busy.
+  const order = FUNDS.map((f) => f.code).sort((a, b) => (known[a] ?? "").localeCompare(known[b] ?? ""));
+  const errors = new Map<string, string>();
+  let streak = 0;
+
+  const attempt = async (code: string, tries: number): Promise<FundNotice[]> => {
+    let last: unknown;
+    for (let k = 0; k < tries; k++) {
+      if (streak >= NOTICES.breaker) throw new Error("接口连续失败，本次先停止读取");
+      try {
+        const list = await deps.notices(code);
+        streak = 0;
+        return list;
+      } catch (err) {
+        last = err;
+        streak++;
+        if (k < tries - 1) await sleep(NOTICES.baseDelayMs * 2 ** k * (0.5 + random()));
+      }
+    }
+    throw last;
+  };
+  const readOne = async (code: string, tries: number) => {
+    try {
+      notices[code] = (await attempt(code, tries)).filter((n) => Date.parse(n.date) >= cutoff);
+      reads[code] = now.toISOString();
+      errors.delete(code);
+    } catch (err) {
+      errors.set(code, normalizeError(err).message);
+    }
+  };
+
+  const started = Date.now();
+  await mapLimit(order, NOTICES.concurrency, (code) => readOne(code, NOTICES.attempts));
+  if (errors.size && streak < NOTICES.breaker) {
+    await sleep(NOTICES.secondPassMs * (0.5 + random()));
+    for (const code of [...errors.keys()]) await readOne(code, NOTICES.secondPassAttempts);
+  }
+  const result: InvestSourceResult = {
+    id: "fund-notices",
+    name: "天天基金基金公告",
+    kind: "基金",
+    ok: errors.size < FUNDS.length,
+    count: FUNDS.length - errors.size,
+    total: FUNDS.length,
+    ms: Date.now() - started,
+  };
+  if (errors.size) {
+    const listed = [...errors].slice(0, 3).map(([code, message]) => `${code}：${message}`);
+    result.error = `${listed.join("；")}${errors.size > 3 ? ` 等 ${errors.size} 项` : ""}，下次运行优先重试`;
+  }
+  return { notices, reads, result };
 }
 
 /**
@@ -252,42 +332,24 @@ export interface RefreshDeps {
  */
 export async function refreshStrategy(file: StrategyFile, now: Date, deps: RefreshDeps): Promise<{ file: StrategyFile; results: InvestSourceResult[] }> {
   const limit = deps.concurrency ?? 6;
+  const read = await readNotices(file, now, deps);
   const next: StrategyFile = {
     ...file,
-    notices: { ...file.notices },
+    notices: read.notices,
+    noticeReads: read.reads,
+    ...(read.result.ok ? { noticesAt: now.toISOString() } : {}),
     peers: Object.fromEntries(Object.entries(file.peers).map(([key, list]) => [key, list.map((p) => ({ ...p }))])),
   };
-  const cutoff = now.getTime() - INVEST_RULES.stop.noticeDays * 86_400_000;
-  const noticeFailed: string[] = [];
-  let started = Date.now();
-  await mapLimit(FUNDS, limit, async (fund) => {
-    try {
-      next.notices[fund.code] = (await deps.notices(fund.code)).filter((n) => Date.parse(n.date) >= cutoff);
-    } catch (err) {
-      noticeFailed.push(`${fund.code}：${normalizeError(err).message}`);
-    }
-  });
-  if (noticeFailed.length < FUNDS.length) next.noticesAt = now.toISOString();
-  const noticeResult: InvestSourceResult = {
-    id: "fund-notices",
-    name: "天天基金基金公告",
-    kind: "基金",
-    ok: noticeFailed.length < FUNDS.length,
-    count: FUNDS.length - noticeFailed.length,
-    total: FUNDS.length,
-    ms: Date.now() - started,
-  };
-  if (noticeFailed.length) noticeResult.error = noticeFailed.slice(0, 3).join("；") + (noticeFailed.length > 3 ? ` 等 ${noticeFailed.length} 项` : "");
 
   const tracked = new Set(FUNDS.map((f) => f.code));
   const overseas = Object.values(next.peers)
     .flat()
     .filter((p) => p.qdii && !tracked.has(p.code));
-  const results = [noticeResult];
+  const results = [read.result];
   if (overseas.length) {
     const statusFailed: string[] = [];
     const at = new Date().toISOString();
-    started = Date.now();
+    const started = Date.now();
     await mapLimit(overseas, limit, async (peer) => {
       try {
         const page = await deps.feePage(peer.code);

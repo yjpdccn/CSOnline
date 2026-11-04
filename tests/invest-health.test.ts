@@ -5,6 +5,7 @@ import { checkHealth, expectedDate, type RunFreshness } from "@/lib/invest/healt
 import { diffNotifications, formatMessage, type NotifyFile } from "@/lib/invest/notify";
 import { buildObservations, type Observation } from "@/lib/invest/observations";
 import { buildStatus, runNotifications, type NotifyOptions } from "@/lib/invest/status";
+import { emptyStrategy } from "@/lib/invest/strategy";
 import { NOTE } from "@/lib/invest/suggestions";
 import type { AlertEvent, CalendarFile, Close, DataIssue, FundsFile, FundView, InvestNewsItem, MarketFile, NewsFile } from "@/lib/invest/types";
 
@@ -156,6 +157,28 @@ describe("data health", () => {
       ["stale:news", "warn", "新闻"],
       ["failed:fundInfo", "minor", "019172 申购状态与费率"],
     ]);
+  });
+
+  it("flags a fund's announcements only once they have gone about three days unread", () => {
+    const noticeReads = Object.fromEntries(FUNDS.map((f) => [f.code, hoursAgo(1)]));
+    const data = { ...currentData(), strategy: { ...emptyStrategy(), checkedAt: hoursAgo(24), noticesAt: hoursAgo(1), noticeReads } };
+    const fresh = allFresh();
+    fresh.sources.push({ id: "fund-notices", name: "天天基金基金公告", kind: "基金", ok: true, count: FUNDS.length - 1, total: FUNDS.length, ms: 1, error: "096001：网络错误（ETIMEDOUT），下次运行优先重试" });
+
+    noticeReads["096001"] = hoursAgo(70);
+    let health = checkHealth(data, fresh, null, NOW);
+    expect(health.issues).toEqual([]);
+    expect(health.groups.strategy.items.find((i) => i.key === "notices")).toMatchObject({ latest: hoursAgo(70), stale: false });
+
+    noticeReads["096001"] = hoursAgo(74);
+    health = checkHealth(data, fresh, null, NOW);
+    expect(health.issues).toEqual([
+      expect.objectContaining({ key: "stale:notices", group: "strategy", severity: "warn", items: ["096001"], message: "基金公告超过 3 天没有读到：096001，清盘、转型等停止信号可能漏掉" }),
+    ]);
+    expect(health.groups.strategy.ok).toBe(false);
+
+    // Files from before per-fund read times count every fund as read at the last run that read any.
+    expect(checkHealth({ ...data, strategy: { ...data.strategy, noticeReads: undefined } }, fresh, null, NOW).issues).toEqual([]);
   });
 });
 

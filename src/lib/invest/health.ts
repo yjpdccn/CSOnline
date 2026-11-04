@@ -1,7 +1,7 @@
 import { FUNDS, INDICES, MACRO, type IndexId, type MacroId } from "@/config/invest";
 import { AVAILABILITY, HOLIDAYS, type Availability, type MarketCalendar } from "@/config/market-calendar";
 import { formatDateTime, shiftDay, zonedTimeToUtc } from "@/lib/time";
-import type { StrategyFile } from "./strategy";
+import { NOTICE_STALE_MS, noticeReadTimes, type StrategyFile } from "./strategy";
 import type { DataIssue, FundsFile, HealthFile, HealthGroup, HealthGroupId, HealthItem, InvestSourceResult, MarketFile, NewsFile, CalendarFile } from "./types";
 
 export const HEALTH_GROUPS: Record<HealthGroupId, string> = {
@@ -298,10 +298,25 @@ export function checkHealth(
 
   // Suggestions rest on the weekly comparison and this run's announcements; neither changes the numbers shown.
   if (input.strategy) {
-    const { checkedAt, noticesAt } = input.strategy;
+    const { checkedAt } = input.strategy;
     const old = !checkedAt || now.getTime() - Date.parse(checkedAt) > STRATEGY_MAX_AGE_MS;
     items.get("strategy")!.push({ key: "peers", name: "同类基金比较", latest: checkedAt, refreshed: fresh.sources.some((s) => s.id === "fund-peers" && s.ok), stale: old });
-    items.get("strategy")!.push({ key: "notices", name: "基金公告", latest: noticesAt, refreshed: fresh.sources.some((s) => s.id === "fund-notices" && s.ok), stale: !noticesAt });
+    // A fund missed in one run is read first in the next, so only announcements unread for days are flagged.
+    const reads = noticeReadTimes(input.strategy);
+    const unread = Object.keys(reads).filter((code) => !reads[code] || now.getTime() - Date.parse(reads[code]!) > NOTICE_STALE_MS);
+    const times = Object.values(reads);
+    const oldestRead = times.every(Boolean) ? times.sort()[0] : undefined;
+    items.get("strategy")!.push({ key: "notices", name: "基金公告", latest: oldestRead, refreshed: fresh.sources.some((s) => s.id === "fund-notices" && s.ok), stale: unread.length > 0 });
+    if (unread.length) {
+      issues.push({
+        key: "stale:notices",
+        group: "strategy",
+        kind: "stale",
+        severity: "warn",
+        message: `基金公告超过 ${Math.round(NOTICE_STALE_MS / 86_400_000)} 天没有读到：${unread.join("、")}，清盘、转型等停止信号可能漏掉`,
+        items: unread,
+      });
+    }
     if (old) {
       issues.push({
         key: "stale:strategy",
@@ -312,7 +327,7 @@ export function checkHealth(
         items: ["同类基金比较"],
       });
     }
-    for (const s of fresh.sources.filter((r) => ["fund-peers", "fund-notices", "peer-status"].includes(r.id) && (!r.ok || r.error))) {
+    for (const s of fresh.sources.filter((r) => ["fund-peers", "peer-status"].includes(r.id) && (!r.ok || r.error))) {
       issues.push({ key: `failed:source:${s.id}`, group: "strategy", kind: "failed", severity: "minor", message: `${s.name}${s.ok ? "部分" : ""}没有读到：${s.error ?? "失败"}`, items: [s.name] });
     }
   }

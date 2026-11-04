@@ -143,6 +143,65 @@ describe("weekly comparison", () => {
       ["peer-status", true],
     ]);
   });
+
+  const timedOut = () => Object.assign(new Error("fetch failed"), { cause: { code: "ETIMEDOUT" } });
+  const readAt = (at: string) => Object.fromEntries(FUNDS.map((f) => [f.code, at]));
+  const before = "2026-10-31T03:00:00.000Z";
+
+  it("retries timed-out announcements with growing, jittered pauses and carries a fund that keeps failing to the next run", async () => {
+    const file: StrategyFile = { ...emptyStrategy(), notices: { "022459": [{ id: "x", title: "基金合同终止", date: "2026-10-20" }] }, noticesAt: before, noticeReads: readAt(before) };
+    const calls: Record<string, number> = {};
+    const pauses: number[] = [];
+    const next = await refreshStrategy(file, NOW, {
+      notices: async (code) => {
+        calls[code] = (calls[code] ?? 0) + 1;
+        if (code === "022459" || (code === "096001" && calls[code] < 3)) throw timedOut();
+        return [];
+      },
+      feePage: async () => ({ fees: {} }),
+      sleep: async (ms) => void pauses.push(ms),
+      random: () => 0.25,
+    });
+    expect(calls["096001"]).toBe(3);
+    // Three attempts, then two more in the second pass.
+    expect(calls["022459"]).toBe(5);
+    expect(pauses.sort((a, b) => a - b)).toEqual([750, 750, 750, 1500, 1500, 11_250]);
+    expect(next.file.noticeReads?.["096001"]).toBe(NOW.toISOString());
+    expect(next.file.noticeReads?.["022459"]).toBe(before);
+    expect(next.file.notices["022459"].map((n) => n.id)).toEqual(["x"]);
+    expect(next.file.noticesAt).toBe(NOW.toISOString());
+    expect(next.results[0]).toMatchObject({ id: "fund-notices", ok: true, count: FUNDS.length - 1, total: FUNDS.length, error: "022459：网络错误（ETIMEDOUT），下次运行优先重试" });
+  });
+
+  it("reads first the funds whose announcements are oldest", async () => {
+    const noticeReads = readAt(before);
+    noticeReads["110020"] = "2026-10-30T03:00:00.000Z";
+    delete noticeReads["022502"];
+    const order: string[] = [];
+    await refreshStrategy({ ...emptyStrategy(), noticeReads }, NOW, { notices: async (code) => (order.push(code), []), feePage: async () => ({ fees: {} }) });
+    expect(order.slice(0, 2)).toEqual(["022502", "110020"]);
+    expect(order).toHaveLength(FUNDS.length);
+  });
+
+  it("stops after a streak of failed attempts and keeps every fund's last read", async () => {
+    let calls = 0;
+    const pauses: number[] = [];
+    const next = await refreshStrategy({ ...emptyStrategy(), noticesAt: before, noticeReads: readAt(before) }, NOW, {
+      notices: async () => {
+        calls++;
+        throw timedOut();
+      },
+      feePage: async () => ({ fees: {} }),
+      sleep: async (ms) => void pauses.push(ms),
+      random: () => 0.5,
+    });
+    expect(calls).toBeLessThanOrEqual(9);
+    expect(pauses).not.toContain(15_000);
+    expect(next.file.noticeReads).toEqual(readAt(before));
+    expect(next.file.noticesAt).toBe(before);
+    expect(next.results[0]).toMatchObject({ id: "fund-notices", ok: false, count: 0 });
+    expect(next.results[0].error).toMatch(new RegExp(`等 ${FUNDS.length} 项，下次运行优先重试$`));
+  });
 });
 
 const status = (purchase: string, limit?: number | null, dca = "支持") => ({ purchase, limit, dca, asOf: "" });

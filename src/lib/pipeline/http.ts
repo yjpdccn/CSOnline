@@ -1,5 +1,12 @@
+import { setDefaultAutoSelectFamilyAttemptTimeout } from "node:net";
+
 export const BROWSER_UA =
   "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36";
+
+// Node gives each address of a host 250 ms to connect before trying the next. GitHub's runners have no IPv6,
+// and their handshakes with servers in China often take longer than that: for a host with both kinds of
+// address, the IPv4 attempt would be dropped and IPv6 fail at once, ending the request in ETIMEDOUT.
+setDefaultAutoSelectFamilyAttemptTimeout(2_500);
 
 export class HttpError extends Error {
   constructor(
