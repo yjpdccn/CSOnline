@@ -95,7 +95,7 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 58.3,
+      "score": 58.5,
       "aiAttempts": 2,
       "ai": {
         "summary": "OpenAI 介绍了为 Codex 开发规模设计的 Git 兼容后端 Pando。",
@@ -111,8 +111,8 @@
         }
       ],
       "metrics": {
-        "points": 264,
-        "comments": 179
+        "points": 270,
+        "comments": 180
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50345924"
     },
@@ -331,7 +331,7 @@
       "category": "industry",
       "score": 30.6,
       "metrics": {
-        "points": 236,
+        "points": 237,
         "comments": 285
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50337439",
@@ -381,10 +381,10 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 33.2,
+      "score": 34.8,
       "metrics": {
-        "points": 395,
-        "comments": 174
+        "points": 495,
+        "comments": 210
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50336918"
     },
@@ -619,12 +619,30 @@
       "firstSeenAt": "2026-11-02T20:45:22.918Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "李佳琦直播间半小时售出2万亿Token，千问办公爆火。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-02T20:47:38.268Z"
+      },
+      "related": [
+        {
+          "id": "h6vb7oj13v",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4054987133588615",
+          "title": "李佳琦直播间半小时卖出2万亿Token，消费者买的是效率还是AI焦虑？",
+          "publishedAt": "2026-11-04T08:05:54.684Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "leiphone",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-02T13:13:00.000Z"
       }
     },
     {
@@ -3971,10 +3989,18 @@
           "url": "https://36kr.com/p/4054606021596290",
           "title": "GPT-6 Astra 爆改 Qwen 大脑：只动 0.016% 参数，数学成绩疯涨",
           "publishedAt": "2026-11-04T00:10:50.055Z"
+        },
+        {
+          "id": "ehq1vtl0b8",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4055026862774150",
+          "title": "OpenAI用GPT-6 Astra做了一个可对话的Codex宠物",
+          "publishedAt": "2026-11-04T09:51:07.668Z"
         }
       ],
       "story": {
-        "reports": 6,
+        "reports": 7,
         "sources": [
           "36kr-ai",
           "reddit-localllama",

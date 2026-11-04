@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T03:01:00.464Z",
+  "updatedAt": "2026-11-04T13:15:12.070Z",
   "bands": {
     "ndx": "mid",
     "spx": "mid",
@@ -8,6 +8,13 @@
     "divlowvol": "high"
   },
   "events": [
+    {
+      "id": "move:a500:2026-11-04",
+      "kind": "move",
+      "at": "2026-11-04T15:59:00.000Z",
+      "title": "中证A500 11月4日上涨 3.0%",
+      "detail": "单日变动超过 3%，收于 4,966.07。"
+    },
     {
       "id": "rate:cb:pboc:2026-11-03",
       "kind": "rate",

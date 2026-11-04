@@ -1185,9 +1185,9 @@
       "day": "2026-11-01",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 21.9,
+      "score": 22.5,
       "metrics": {
-        "stars": 1256
+        "stars": 1394
       },
       "aiAttempts": 2,
       "ai": {
@@ -1195,6 +1195,26 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-03T03:59:34.489Z"
+      }
+    },
+    {
+      "id": "1z9znhihjr4",
+      "key": "gh:wquguru/cicada",
+      "title": "wquguru/cicada",
+      "url": "https://github.com/wquguru/cicada",
+      "excerpt": "知了 Cicada · 任意会议与直播的实时字幕、同声传译、AI 会议纪要（macOS）。Live subtitles, interpreting and meeting notes for any call or stream on your Mac.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T05:41:23.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-01",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 20.3,
+      "metrics": {
+        "stars": 948
       }
     },
     {
@@ -1215,9 +1235,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 23.2,
+      "score": 23.7,
       "metrics": {
-        "stars": 1577
+        "stars": 1703
       },
       "aiAttempts": 1,
       "ai": {
@@ -1934,9 +1954,9 @@
       "day": "2026-11-01",
       "category": "model",
       "categoryLocked": true,
-      "score": 26.6,
+      "score": 26.8,
       "metrics": {
-        "likes": 334
+        "likes": 344
       },
       "skipLlm": true
     },

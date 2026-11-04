@@ -2,6 +2,1648 @@
   "day": "2026-11-04",
   "items": [
     {
+      "id": "1hh2qv4al57",
+      "key": "gh:nvidia/auto-ontology",
+      "title": "NVIDIA/auto-ontology",
+      "url": "https://github.com/NVIDIA/auto-ontology",
+      "excerpt": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T13:15:18.735Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 30,
+      "metrics": {
+        "stars": 3806,
+        "starsToday": 2053
+      },
+      "ai": {
+        "title": "NVIDIA/auto-ontology：构建语义推理层的 Python 框架",
+        "summary": "NVIDIA/auto-ontology 是一个用于构建语义推理层的 Python 框架，提升 LLM 工作流的可解释性。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:16:59.451Z"
+      }
+    },
+    {
+      "id": "1trt6wghetp",
+      "key": "gh:harry0703/moneyprinterturbo",
+      "title": "harry0703/MoneyPrinterTurbo",
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "excerpt": "利用 AI 大模型和自动化工作流，根据主题或关键词一键生成高清短视频。Generate HD short videos from a topic or keyword with an automated AI workflow.",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T13:15:18.735Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 27,
+      "metrics": {
+        "stars": 138603,
+        "starsToday": 615
+      },
+      "ai": {
+        "title": "MoneyPrinterTurbo：一键生成高清短视频",
+        "summary": "利用 AI 大模型和自动化工作流，根据主题一键生成高清短视频。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:16:59.451Z"
+      }
+    },
+    {
+      "id": "1r3eyr0ng2j",
+      "key": "gh:garrytan/gstack",
+      "title": "garrytan/gstack",
+      "url": "https://github.com/garrytan/gstack",
+      "excerpt": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T13:15:18.735Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 21.7,
+      "metrics": {
+        "stars": 139054,
+        "starsToday": 285
+      },
+      "ai": {
+        "title": "garrytan/gstack：Claude Code 完整开发环境配置",
+        "summary": "garrytan/gstack 提供了一套 Claude Code 的完整开发环境配置，包含 23 个工具。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:16:59.451Z"
+      }
+    },
+    {
+      "id": "ohvi4htumd",
+      "key": "gh:thysrael/horizon",
+      "title": "Thysrael/Horizon",
+      "url": "https://github.com/Thysrael/Horizon",
+      "excerpt": "📡 Your own AI-powered news radar. Generates daily briefings in English & Chinese. | 用 AI 构建你专属的新闻雷达",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T13:15:18.735Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.9,
+      "metrics": {
+        "stars": 12303,
+        "starsToday": 121
+      },
+      "ai": {
+        "title": "Horizon：AI 驱动的新闻雷达",
+        "summary": "Horizon 是一个 AI 驱动的新闻雷达，可生成中英文每日简报。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:16:59.451Z"
+      }
+    },
+    {
+      "id": "nzsc3hmjq1",
+      "key": "gh:scenario-labs/skills",
+      "title": "scenario-labs/skills",
+      "url": "https://github.com/scenario-labs/skills",
+      "excerpt": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T13:15:18.735Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "MCP"
+      ],
+      "score": 20.2,
+      "metrics": {
+        "stars": 2117,
+        "starsToday": 224
+      },
+      "dupOf": "e1edve6ctg"
+    },
+    {
+      "id": "14hh2pa8fkn",
+      "key": "url:36kr.com/p/4055331476526214",
+      "title": "普林斯顿CS女学霸，突然告别Anthropic，一手带火Claude Code",
+      "url": "https://36kr.com/p/4055331476526214",
+      "excerpt": "Claude Code核心产品负责人Cat Wu离职，团队现密集离职潮",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T13:12:16.678Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 18
+    },
+    {
+      "id": "5iy9nbu0wz",
+      "key": "url:36kr.com/p/4055273095353476",
+      "title": "文科生在AI时代没人要？我盘了盘字节、腾讯和阿里都有哪些AI岗在招文科生",
+      "url": "https://36kr.com/p/4055273095353476",
+      "excerpt": "结论是：AI公司在招文科生。问题来了：哪一类文科生？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T13:09:47.265Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1jrhjxsjois",
+      "key": "url:36kr.com/p/4055391359456392",
+      "title": "三季报专题：订单火热却赚不到钱？机器人产业链的一体两面",
+      "url": "https://36kr.com/p/4055391359456392",
+      "excerpt": "零部件高歌，整机负重前行。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T13:02:43.033Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "10l3n8r2451",
+      "key": "url:36kr.com/p/4055385238017664",
+      "title": "Token都卖进李佳琦直播间了，“硅基流动”们为何还在亏损？",
+      "url": "https://36kr.com/p/4055385238017664",
+      "excerpt": "生意成立吗？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T13:01:23.102Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "pt8j2knc2a",
+      "key": "url:techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day",
+      "title": "TechCrunch Founder Summit 2026: Doors open at 9 a.m. ET in Boston",
+      "url": "https://techcrunch.com/2026/11/04/techcrunch-founder-summit-2026-todays-the-day/",
+      "excerpt": "Today is the day to join TechCrunch Founder Summit 2026 in Boston's SoWa Power Station. Register now to join this founder-focused conference today.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-04T13:00:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "TechCrunch Founder Summit 2026 开启报名",
+        "summary": "TechCrunch Founder Summit 2026 在波士顿 SoWa Power Station 开启报名。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:17:38.594Z"
+      }
+    },
+    {
+      "id": "2dam17633et",
+      "key": "url:36kr.com/p/4055385191224452",
+      "title": "个人Agent上桌，谁先露了怯？",
+      "url": "https://36kr.com/p/4055385191224452",
+      "excerpt": "生活真没那么多“待办”。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T12:59:49.813Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "2f7dnee6abj",
+      "key": "url:36kr.com/p/4055383600600193",
+      "title": "三年狂赚100亿美元，拆解Anthropic背后最牛VC的AI投资逻辑",
+      "url": "https://36kr.com/p/4055383600600193",
+      "excerpt": "最好的投资，是押注变化",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T12:51:57.342Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "28hzilhugv",
+      "key": "url:36kr.com/p/4055383551038595",
+      "title": "有人每月烧掉1万美元，嫌Claude太贵，这家公司改用GLM：56张B200扛起2000名工程师，AI成本直降90%",
+      "url": "https://36kr.com/p/4055383551038595",
+      "excerpt": "真正拖慢开发进度的，可能根本不是写代码。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T12:49:49.777Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1wpsh4vboy4",
+      "key": "url:36kr.com/newsflashes/4055439067993217",
+      "title": "豆包工作接入抖音生活服务经营等官方插件",
+      "url": "https://36kr.com/newsflashes/4055439067993217",
+      "excerpt": "11月4日，豆包工作宣布接入抖音生活服务经营、巨量本地推、TikTok for Business三款官方插件。据介绍，完成相应账户授权后，用自然语言查询门店数据、做经营复盘、拿建议，减少报表搬运和重复整理，也无需在多个后台之间反复切换。（界面）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T12:45:57.177Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "score": 18
+    },
+    {
+      "id": "2b4rgvvqhl5",
+      "key": "url:36kr.com/newsflashes/4055396228289666",
+      "title": "Alphabet豪掷150亿美元扩建马来西亚AI数据中心",
+      "url": "https://36kr.com/newsflashes/4055396228289666",
+      "excerpt": "谷歌母公司Alphabet表示，计划投资150亿美元，扩大位于马来西亚的AI数据中心和传统云计算相关业务，凸显出史无前例的人工智能应用热潮正在推动AI算力资源需求以及数字化基础设施需求加速增长。据了解，马来西亚已经成为东南亚主要的数据中心枢纽，吸引了甲骨文、亚马逊、阿里巴巴集团和字节跳动等公司。（财联社）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T12:42:17.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "dtiv54qdts",
+      "key": "url:36kr.com/p/4055376730691461",
+      "title": "互联网大厂又盯上了新玩法，让AI短剧变游戏？",
+      "url": "https://36kr.com/p/4055376730691461",
+      "excerpt": "抖音让我打怪，快手让我做题。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T12:37:40.952Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "multimodal",
+      "keywords": [
+        "AI 短剧"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1bnv3imjio6",
+      "key": "url:36kr.com/p/4055320871637892",
+      "title": "电不够AI用了，一个算力项目为2分钱僵持半年",
+      "url": "https://36kr.com/p/4055320871637892",
+      "excerpt": "西部某城要重建一遍电网，才够AI“吃饱”",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T12:32:34.044Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1lr749l5p5g",
+      "key": "url:36kr.com/p/4055286987838595",
+      "title": "字节扣子、腾讯元器接连下线：大厂AI产品洗牌清退潮",
+      "url": "https://36kr.com/p/4055286987838595",
+      "excerpt": "38款集体关停，AI产品都是“短命鬼”？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T12:27:28.285Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "score": 18
+    },
+    {
+      "id": "nwlkmmb6ve",
+      "key": "url:36kr.com/p/4055331535229830",
+      "title": "5000词需求文档，Claude也只能交付14%，实测28种Agent组合",
+      "url": "https://36kr.com/p/4055331535229830",
+      "excerpt": "复旦等提出LoLBench，测大系统下长程代码Agent能力",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T12:07:28.828Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "20l60w0kho5",
+      "key": "url:36kr.com/p/4055272963183496",
+      "title": "数字人之死",
+      "url": "https://36kr.com/p/4055272963183496",
+      "excerpt": "一个产业的毁灭往往因为太多人急于从它身上榨取价值",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T12:06:25.082Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "multimodal",
+      "score": 18
+    },
+    {
+      "id": "nc8ap0exj5",
+      "key": "url:36kr.com/p/4055248695367560",
+      "title": "被嫌只会跳舞的中国机器人，成了硅谷巨头的“硬通货”",
+      "url": "https://36kr.com/p/4055248695367560",
+      "excerpt": "想做机器人？中国绕不开。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T12:01:24.389Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "sgy0yq88rn",
+      "key": "url:theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+      "title": "Google hasn’t figured out how to make AI pay like its search engine",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1024862/google-search-ai-overviews-alphabet-earnings-q3",
+      "excerpt": "Google Chief Business Officer Philipp Schindler. | Bloomberg via Getty Images Search queries are growing at their fastest rate in five years, Google parent Alphabet said in its earnings report last week. However, Google's Search revenue growth slowed to 12 percent year over year…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-04T12:00:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Google 搜索收入增长放缓",
+        "summary": "Google 搜索收入增长放缓，尚未找到 AI 变现良方。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:17:38.594Z"
+      }
+    },
+    {
+      "id": "mktf9e7di4",
+      "key": "url:36kr.com/newsflashes/4055381539345536",
+      "title": "OpenAI将收购开发工具初创公司Pierre Computer，瞄准微软GitHub代码托管业务",
+      "url": "https://36kr.com/newsflashes/4055381539345536",
+      "excerpt": "11月4日，OpenAI将收购开发工具初创公司Pierre Computer，进一步扩大旗下Codex编程平台的功能，并向微软GitHub长期占据主导地位的代码托管市场发起挑战。Pierre Computer的部分技术目前已经应用于Codex，OpenAI计划进一步整合其代码存储（Code Storage）功能。交易财务条款尚未披露，Pierre现有的开源项目将继续保持开源。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T11:54:15.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "opensource",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 18
+    },
+    {
+      "id": "y1ygap0sa8",
+      "key": "url:infoq.cn/article/hdmi6FdjpYSEvuMhPOAa",
+      "title": "Anthropic 为重要开源项目新增可选安全扫描服务",
+      "url": "https://www.infoq.cn/article/hdmi6FdjpYSEvuMhPOAa?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T11:53:34.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "opensource",
+      "score": 22
+    },
+    {
+      "id": "e5ufp1jcip",
+      "key": "url:spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T11:52:17.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 26.2,
+      "metrics": {
+        "points": 183,
+        "comments": 85
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50364336",
+      "ai": {
+        "title": "AI 正在迫使我们偿还 40 年的技术债务",
+        "summary": "AI 技术的快速发展迫使行业偿还长期积累的技术债务。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:16:59.451Z"
+      }
+    },
+    {
+      "id": "87enpg2ajw",
+      "key": "url:36kr.com/p/4055377799271297",
+      "title": "硅谷大厂纷纷拿它当底座，这个中国开源模型凭什么？",
+      "url": "https://36kr.com/p/4055377799271297",
+      "excerpt": "模型能力过关只是第一步。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T11:46:49.954Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "keywords": [
+        "开源模型"
+      ],
+      "score": 28
+    },
+    {
+      "id": "1vpjdfonxbk",
+      "key": "url:36kr.com/p/4055286221099912",
+      "title": "硅谷大厂，靠AI游戏抢最后的钱景",
+      "url": "https://36kr.com/p/4055286221099912",
+      "excerpt": "抢人、抢钱、抢时间。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T11:43:08.006Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1bdqp0e1v9o",
+      "key": "url:36kr.com/p/4055195009898369",
+      "title": "AI记忆值个天价",
+      "url": "https://36kr.com/p/4055195009898369",
+      "excerpt": "AI记忆的基础费用，已经低到很难与“天价”联系起来。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T11:36:37.217Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "score": 18
+    },
+    {
+      "id": "hejdgjkxwf",
+      "key": "url:36kr.com/p/4055207198397312",
+      "title": "我为什么不太看好苹果国行AI",
+      "url": "https://36kr.com/p/4055207198397312",
+      "excerpt": "理由主要有三条。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T11:32:49.630Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1llm80ih8j7",
+      "key": "url:36kr.com/newsflashes/4055347300816005",
+      "title": "诺基亚预测：到2035年，人工智能将驱动全球44%的网络流量",
+      "url": "https://36kr.com/newsflashes/4055347300816005",
+      "excerpt": "11月4日，诺基亚发布《全球网络流量报告》，预测到2035年，AI将驱动全球近一半的网络流量，同时全球月度总流量将增长近四倍，达到约3,789艾字节。诺基亚预测代理式AI流量预计到2035年将达到其2026年水平的160倍，而物理AI流量预计在同一时期将达到其2026年水平的105倍。此外，报告还预测，随着连接和使用量增长，到2035年固定无线接入（FWA）将产生超过三分之一的消费者蜂窝网络流量，从而扩大蜂窝网络在家庭宽带以及移动服务中的作用。（界面）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T11:25:30.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "17e9dy1kcqi",
+      "key": "url:the-decoder.com/exit-polls-show-ai-ranked-last-among-voter-priorities-in-the-2026-u-s-midterms",
+      "title": "Exit polls show AI ranked last among voter priorities in the 2026 U.S. midterms",
+      "url": "https://the-decoder.com/exit-polls-show-ai-ranked-last-among-voter-priorities-in-the-2026-u-s-midterms/",
+      "excerpt": "In the 2026 U.S. midterm elections, AI ranked last among campaign issues: only 56 percent of respondents cited AI and data centers as an important factor. According to NBC exit polls, corruption (90 percent) and the cost of living (89 percent) clearly dominated, despite growing…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-04T10:45:54.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "AI 在 2026 年中期选举中排名最后",
+        "summary": "AI 在 2026 年中期选举中仅获 56% 重视，排名最后。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:17:38.594Z"
+      }
+    },
+    {
+      "id": "1j60t7mf45n",
+      "key": "url:36kr.com/p/4055279154779015",
+      "title": "梁文锋下山，DeepSeek在找什么？",
+      "url": "https://36kr.com/p/4055279154779015",
+      "excerpt": "进攻还是防守",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T10:41:11.067Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "ngtq2ihyc3",
+      "key": "url:36kr.com/newsflashes/4055315516249224",
+      "title": "五部门：推进算力、通信基站和机房等基础设施节能降碳改造",
+      "url": "https://36kr.com/newsflashes/4055315516249224",
+      "excerpt": "36氪获悉，五部门印发《实施全面节约战略行动方案》的通知。其中提出，推进算力、通信基站和机房等基础设施节能降碳改造，优化用能结构。提高能源生产效率，加强煤电机组低碳化改造等，稳步降低电网综合线损率。到2030年，规模以上工业单位增加值能耗比2025年降低10%以上，通过重点行业节能降碳改造实现节能量1.5亿吨标准煤以上。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T10:40:16.177Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "nzkfvpxcfp",
+      "key": "url:36kr.com/p/4055314545890434",
+      "title": "从AI医生到AI医院，紫荆智康如何打开医疗AI的商业空间？",
+      "url": "https://36kr.com/p/4055314545890434",
+      "excerpt": "在医院之外，商业价值还可以进一步延伸。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T10:40:12.683Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "ls3yrkbooc",
+      "key": "url:theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "title": "Geoffrey Hinton: it might turn out we were better off without AI",
+      "url": "https://www.theguardian.com/uk-news/2026/nov/03/ai-godfather-geoffrey-hinton-better-off-without-ai",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T10:23:34.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 23.2,
+      "metrics": {
+        "points": 119,
+        "comments": 77
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50363554",
+      "ai": {
+        "title": "Geoffrey Hinton：也许没有 AI 我们会过得更好",
+        "summary": "Geoffrey Hinton 表达了对 AI 发展的担忧，认为可能没有 AI 会更好。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:16:59.451Z"
+      }
+    },
+    {
+      "id": "1znwt29bds0",
+      "key": "hn:50363461",
+      "title": "Tell HN: Gemini trains on chat history, even for subscribers (personal accounts)",
+      "url": "https://news.ycombinator.com/item?id=50363461",
+      "excerpt": "If you have a personal Google AI subscription, all your saved chat history in Gemini can be used for training and there is no way to opt out unless you turn off chat history or use temporary chat sessions. These chat transcripts may even be read by human reviewers. Although Goog…",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T10:10:27.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 23.6,
+      "metrics": {
+        "points": 146,
+        "comments": 42
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50363461",
+      "ai": {
+        "title": "Tell HN：Gemini 即使对订阅用户也会训练聊天历史",
+        "summary": "Gemini 即使对订阅用户也会训练聊天历史，用户无法选择退出。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:16:59.451Z"
+      }
+    },
+    {
+      "id": "26kmv3evrct",
+      "key": "url:qbitai.com/2026/11/507586.html",
+      "title": "不靠堆砌数据，让机器人看懂真实物理世界 | 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型",
+      "url": "https://www.qbitai.com/2026/11/507586.html",
+      "excerpt": "仅激活3B参数，十项基准全线提升！",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T10:08:38.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "keywords": [
+        "推理模型",
+        "具身智能"
+      ],
+      "score": 28
+    },
+    {
+      "id": "1wyixi4osgs",
+      "key": "url:the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027",
+      "title": "Schools that turn off Google's AI will lose search too starting in 2027",
+      "url": "https://the-decoder.com/schools-that-turn-off-googles-ai-will-lose-search-too-starting-in-2027/",
+      "excerpt": "Starting in 2027, Google plans to turn off AI features in its school products by default, letting schools decide what to enable. The catch: schools that block AI entirely on their devices will also lose access to Google Search, since the two systems are now too deeply intertwine…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-04T10:06:23.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 49,
+      "related": [
+        {
+          "id": "tw2myfezau",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50353192",
+          "title": "Google 将关闭拒绝 AI 的学校搜索",
+          "publishedAt": "2026-11-03T15:25:47.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "the-decoder",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-03T15:25:47.000Z",
+        "metrics": {
+          "points": 632,
+          "comments": 437
+        }
+      },
+      "ai": {
+        "title": "2027年起，禁用 Google AI 的学校将无法使用其搜索服务",
+        "summary": "Google 计划将 AI 功能与搜索服务深度绑定，禁用 AI 的学校将失去搜索访问权限。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:16:59.451Z"
+      }
+    },
+    {
+      "id": "15vaqhme9so",
+      "key": "url:36kr.com/p/4055206555473027",
+      "title": "建议先别更新国行 Apple 智能，纯差评",
+      "url": "https://36kr.com/p/4055206555473027",
+      "excerpt": "我已经好久没有被 AI 逗笑了。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T10:04:36.329Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "mtht0vvo7f",
+      "key": "url:leiphone.com/category/industrynews/vxZxNvbxdDFhYp55.html",
+      "title": "虎鲸文娱“鲸锐AI”平台正式上线，AI视频单分钟成本节省30%以上",
+      "url": "https://www.leiphone.com/category/industrynews/vxZxNvbxdDFhYp55.html",
+      "excerpt": "11月4日，虎鲸文娱集团打造的行业首个AI影视制作与管理平台“鲸锐AI”正式上线。鲸锐AI平台聚焦AI视频制作过程精准可控、银幕级质感成片交付、成本可管理三大目标，集成了市面上50余个主流AI视频生成模型与10余个自研模型，无限画布支持千级节点、百人实时协同创作。通过鲸锐AI平台的精准控制和流程优化，AI视频单分钟成本较传统AI生成方式可节省30%以上。 即日起，鲸锐AI平台官网（www.jingruiai.cn）开放全员注册，创作者无需订阅会员、积分即充即用。此外，用户在鲸锐AI平台的团队席位不限人数，避免由于团队人数增减带来的不必要席位成本，创作者…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T09:57:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "multimodal",
+      "keywords": [
+        "视频生成"
+      ],
+      "score": 22,
+      "dupOf": "jpf9ptqyp4"
+    },
+    {
+      "id": "ehq1vtl0b8",
+      "key": "url:36kr.com/p/4055026862774150",
+      "title": "OpenAI用GPT-6 Astra做了一个可对话的Codex宠物",
+      "url": "https://36kr.com/p/4055026862774150",
+      "excerpt": "OpenAI 用新模型做了一个可对话的Codex宠物",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T09:51:07.668Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 24,
+      "dupOf": "20py2by5tcf"
+    },
+    {
+      "id": "1ztvf9y0p5n",
+      "key": "url:leiphone.com/category/industrynews/KStlwPyruE6hJ107.html",
+      "title": "智能体身份注册与解析平台在乌镇发布，蚂蚁参与首批运行平台建设",
+      "url": "https://www.leiphone.com/category/industrynews/KStlwPyruE6hJ107.html",
+      "excerpt": "11月4日，2026年世界互联网大会乌镇峰会“智能体互信互联互操作全球合作创新——携手构建智能互联网论坛”在乌镇举行，智能体信任治理成为产业各方关注的焦点。产业界普遍认为，互联网正从信息互联、服务互联走向智能体互联，智能体开始感知、决策并代表用户行动。伴随治理对象从“内容”变成“行为”，“统一底座”正成为智能体跨域协作加速的共同关键。 当前，智能体加速从“对话”走向“办事”，但规模化落地仍面临三大卡点：用户能否知晓并及时撤回智能体的权限；服务方能否确认调用的智能体是谁、代表谁行动；不同平台上的智能体能否找到彼此并调用服务。 蚂蚁集团副总裁、支付宝及大安…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T09:44:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22,
+      "dupOf": "23fpjnxrydy"
+    },
+    {
+      "id": "1wwbescjjdh",
+      "key": "url:leiphone.com/category/industrynews/UB25ocDFu1ntNMtz.html",
+      "title": "360参与发起《智能体发展自律公约》，助力构建可信智能体生态",
+      "url": "https://www.leiphone.com/category/industrynews/UB25ocDFu1ntNMtz.html",
+      "excerpt": "11月4日，在2026年世界互联网大会乌镇峰会“智能体互信互联互操作全球合作创新”论坛上，中国信息通信研究院、360、华为等企业及机构共同发布《智能体发展自律公约》（以下简称《自律公约》）。360作为核心发起单位之一，深度参与了公约的起草与发布。 “智能体互信互联互操作全球合作创新”论坛 当前，智能体正从“单点应用”加速迈向“多智能体协同”。但智能体在跨平台、跨系统交互时，其自身的权限越界、数据泄露、行为失控等安全隐患，成为阻碍其大规模落地的核心痛点。为落实国家“强化行业自律”的任务部署，此次发布的《自律公约》共提出八条自律措施，重点聚焦健全智能体信任…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T09:42:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "fdokwpmfpy",
+      "key": "url:36kr.com/p/4054988150478473",
+      "title": "阿里内测AI创作平台“Looogen”，一个阿里版即梦AI？",
+      "url": "https://36kr.com/p/4054988150478473",
+      "excerpt": "中文名“逻辑智片”",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T09:35:13.783Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "multimodal",
+      "score": 18
+    },
+    {
+      "id": "x7rv074zed",
+      "key": "url:36kr.com/p/4054964236588161",
+      "title": "双十一天猫卖Token火爆出圈，AI离“水电煤”还有多远？",
+      "url": "https://36kr.com/p/4054964236588161",
+      "excerpt": "Token开始按话费卖，从抢口红到抢Token",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T09:29:11.014Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "227wimrmxbf",
+      "key": "url:36kr.com/p/4055093839074185",
+      "title": "从数据智能到生物智能：一场人机协同的智能变革",
+      "url": "https://36kr.com/p/4055093839074185",
+      "excerpt": "生物智能正在从“读懂生命”走向“与生命融合”。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T09:24:26.291Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "f9b28vb968",
+      "key": "url:36kr.com/p/4055013525460868",
+      "title": "宇树机器狗夺冠泰山，但人形机器人却被担架抬下了山",
+      "url": "https://36kr.com/p/4055013525460868",
+      "excerpt": "泰山赛四足机器狗夺冠，人形机器人因过热退赛。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T09:22:11.310Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1lkciv9tlm9",
+      "key": "url:36kr.com/p/4054998109508738",
+      "title": "雷军最新发布：小米机器人生产小米汽车",
+      "url": "https://36kr.com/p/4054998109508738",
+      "excerpt": "“8小时工作制”",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T09:17:50.178Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 22
+    },
+    {
+      "id": "zb7msgjn90",
+      "key": "url:36kr.com/p/4054959981990787",
+      "title": "Claude开始拒绝抄游戏，但可能已经太晚了",
+      "url": "https://36kr.com/p/4054959981990787",
+      "excerpt": "惟创意与热爱不可辜负",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T09:12:10.774Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "sc7f6ujxtv",
+      "key": "hf:axion1-0/axion-1.0-35b",
+      "title": "Axion1-0/Axion-1.0-35B · Hugging Face",
+      "url": "https://huggingface.co/Axion1-0/Axion-1.0-35B",
+      "excerpt": "We introduce Axion 1.0, a fully open agent foundation model that combines strong and broad agentic capabilities with a remarkably simple training recipe. Axion 1.0 is trained in only three stages: two lightweight supervised fine-tuning stages followed by reinforcement learning,…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T09:02:58.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "opensource",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjiu4/axion10axion1035b_hugging_face/",
+      "ai": {
+        "title": "Axion 1.0 开源 Agent 基础模型发布",
+        "summary": "Axion 1.0 是一个开源 Agent 基础模型，结合强能力与简单训练。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:17:38.594Z"
+      }
+    },
+    {
+      "id": "28ot66qv3n1",
+      "key": "url:infoq.cn/article/pgmES06L2MAH2TCSMhJ9",
+      "title": "Harbor 新增 Docker Sandboxes 支持，可在隔离的 MicroVM 中运行可重现的 AI 代理评估",
+      "url": "https://www.infoq.cn/article/pgmES06L2MAH2TCSMhJ9?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T09:00:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1aw4dtlejyo",
+      "key": "url:qbitai.com/2026/11/507574.html",
+      "title": "超维动力全栈矩阵亮相2026香港金融科技周，具身智能硬科技引爆全场",
+      "url": "https://www.qbitai.com/2026/11/507574.html",
+      "excerpt": "一场别开生面的具身智能科技盛宴",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T08:59:57.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18,
+      "dupOf": "6gbcpay1qs"
+    },
+    {
+      "id": "jpf9ptqyp4",
+      "key": "url:qbitai.com/2026/11/507567.html",
+      "title": "虎鲸文娱“鲸锐AI”平台正式上线，AI视频单分钟成本节省30%以上",
+      "url": "https://www.qbitai.com/2026/11/507567.html",
+      "excerpt": "11月4日，虎鲸文娱集团打造的行业首个AI影视制作与管理平台“鲸锐AI”正式上线。",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T08:49:12.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "multimodal",
+      "score": 30,
+      "related": [
+        {
+          "id": "mtht0vvo7f",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/vxZxNvbxdDFhYp55.html",
+          "title": "虎鲸文娱“鲸锐AI”平台正式上线，AI视频单分钟成本节省30%以上",
+          "publishedAt": "2026-11-04T09:57:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "qbitai",
+          "leiphone"
+        ],
+        "firstPublishedAt": "2026-11-04T08:49:12.000Z"
+      }
+    },
+    {
+      "id": "4j93lky5k7",
+      "key": "url:mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T08:46:29.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 27.5,
+      "metrics": {
+        "points": 207,
+        "comments": 108
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50362905",
+      "ai": {
+        "title": "Nvidia RTX Spark 加固固件导致 Linux 推理速度下降 35%",
+        "summary": "Nvidia RTX Spark 加固固件导致 Linux 推理速度下降 35%，引发性能担忧。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:16:59.451Z"
+      }
+    },
+    {
+      "id": "zqi18ojs4h",
+      "key": "url:leiphone.com/category/ai/0F072La1etrUN0Tr.html",
+      "title": "0.016% 的 Astra 微创手术，治好了 Qwen 的 3 万 Token 死循环",
+      "url": "https://www.leiphone.com/category/ai/0F072La1etrUN0Tr.html",
+      "excerpt": "当「读懂权重」和「改写权重」被同一个模型打通，「AI 改进 AI」就多了一条不经过梯度下降的短路通道，模型维护与模型能力放大之间的边界开始模糊。 作者丨郑佳美 编辑丨岑 峰 一个模型做数学题，写了 3 万多个 Token，仍然在重复相似的推理过程，最后连答案也交不出来。碰到这种情况，通常会调整训练数据、优化推理策略，或者重新微调模型。 但 MIT CSAIL 最近尝试了一种更直接的办法：让 GPT-6 Astra 检查 Qwen3.5-0.8B 的内部权重，找出问题发生的位置，再直接修改参数。 结果，Astra 只改动了约 0.016% 的权重，就让…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T08:32:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "score": 66,
+      "related": [
+        {
+          "id": "1sczdb7vl4x",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50341174",
+          "title": "Astra can read and write weights to improve Qwen",
+          "publishedAt": "2026-11-02T18:21:28.000Z"
+        },
+        {
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm6jow/sparks_of_weightspace_programming_llms_can/"
+        },
+        {
+          "id": "ofhjz1ubd4",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50351111",
+          "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
+          "publishedAt": "2026-11-03T12:21:17.000Z"
+        }
+      ],
+      "story": {
+        "reports": 4,
+        "sources": [
+          "leiphone",
+          "hackernews",
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-11-02T18:21:28.000Z",
+        "metrics": {
+          "points": 2931,
+          "comments": 882
+        }
+      }
+    },
+    {
+      "id": "x8gf3sb8j7",
+      "key": "url:infoq.cn/article/c3vTLNrRwfCzw8SAmz90",
+      "title": "研究发现：AI 生成代码受下游环节瓶颈制约，无法提升整体生产力",
+      "url": "https://www.infoq.cn/article/c3vTLNrRwfCzw8SAmz90?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T08:20:50.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "zuoxj9qk2l",
+      "key": "url:36kr.com/p/4055050799453063",
+      "title": "杨植麟去了香港",
+      "url": "https://36kr.com/p/4055050799453063",
+      "excerpt": "沈南鹏主持对话。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T08:16:17.907Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "h6vb7oj13v",
+      "key": "url:36kr.com/p/4054987133588615",
+      "title": "李佳琦直播间半小时卖出2万亿Token，消费者买的是效率还是AI焦虑？",
+      "url": "https://36kr.com/p/4054987133588615",
+      "excerpt": "抢Token的人，真的需要那么多Token吗？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T08:05:54.684Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "776rqrdy8j"
+    },
+    {
+      "id": "1xm74x1y06b",
+      "key": "url:36kr.com/p/4055148845864067",
+      "title": "曾毓群，重仓梁文锋",
+      "url": "https://36kr.com/p/4055148845864067",
+      "excerpt": "AI尽头是电力。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T07:57:55.395Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "23fpjnxrydy",
+      "key": "url:jiqizhixin.com/articles/2026-11-04-13",
+      "title": "蚂蚁参与智能体身份注册与解析平台建设，推动智能体可信互联",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-04-13",
+      "excerpt": "11月4日，2026年世界互联网大会乌镇峰会“智能体互信互联互操作全球合作创新——携手构建智能互联网论坛”在乌镇举行，智能体信任治理成为产业各方关注的焦点。产业界普遍认为，互联网正从信息互联、服务互联走向智能体互联，智能体开始感知、决策并代表用户行动。伴随治理对象从“内容”变成“行为”，“统一...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T07:49:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 26,
+      "related": [
+        {
+          "id": "1ztvf9y0p5n",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/KStlwPyruE6hJ107.html",
+          "title": "智能体身份注册与解析平台在乌镇发布，蚂蚁参与首批运行平台建设",
+          "publishedAt": "2026-11-04T09:44:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "leiphone"
+        ],
+        "firstPublishedAt": "2026-11-04T07:49:00.000Z"
+      }
+    },
+    {
+      "id": "7xywwt44q0",
+      "key": "url:infoq.cn/article/q9iebpvFozfy4bgCYUyE",
+      "title": "月烧 1.5 万亿 token，年烧 1.32 亿美元？Cursor 工程师的账单，凡人只能仰望",
+      "url": "https://www.infoq.cn/article/q9iebpvFozfy4bgCYUyE?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T07:48:18.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1mgq3lpjhjk",
+      "key": "url:leiphone.com/category/private/qWW7SeepMBzAQAfb.html",
+      "title": "Transformer 架构还能咋改？严骏驰团队提供两条思路 | CNCC 2026",
+      "url": "https://www.leiphone.com/category/private/qWW7SeepMBzAQAfb.html",
+      "excerpt": "训练算力节省1/3。 作者丨张璐 编辑丨张驰 增加参数、扩展专家数量、投入更多训练数据，是大模型提升能力的常见路径。但对于算力和数据资源有限的高校团队，沿着这些方向持续扩大规模并不容易。 在现有 Transformer 架构之上寻找其他扩展维度，是上海交通大学人工智能学院教授严骏驰，在前不久的CNCC 2026演讲中分享的研究思路。 在题为《大模型新架构探索：JTok & xHC》的报告中，严骏驰介绍了两项工作：JTok 为 token 引入可学习的参数表，通过查表和逐元素运算调制模型更新；xHC 则扩展残差流，以稠密读取、稀疏写回的方式提高模型容量。…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T07:48:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "zzzvetj9io",
+      "key": "url:infoq.cn/article/OiyNEtFwV05opvsLTcvK",
+      "title": "Linux内核也能造了？Codex 11天写出13.9万行新内核，Rocky Linux 10跑起来了",
+      "url": "https://www.infoq.cn/article/OiyNEtFwV05opvsLTcvK?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T07:30:50.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 18,
+      "dupOf": "m93bb2m1xg"
+    },
+    {
+      "id": "1hq2gs0d7oj",
+      "key": "url:hy.tencent.ai/research/hy4?langVersion=en",
+      "title": "Introducing Hy4 (open weights soon)",
+      "url": "https://hy.tencent.ai/research/hy4?langVersion=en",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T07:23:10.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "keywords": [
+        "开源模型"
+      ],
+      "score": 20,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnhzbz/introducing_hy4_open_weights_soon/",
+      "dupOf": "1m6ivmzzr2x"
+    },
+    {
+      "id": "hbck5y6y5w",
+      "key": "url:infoq.cn/article/6oGyozHwd1WjYyEGjpbk",
+      "title": "员工都会用一点 AI，团队下一步怎么走？",
+      "url": "https://www.infoq.cn/article/6oGyozHwd1WjYyEGjpbk?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T07:17:15.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1c8qhdkyn8v",
+      "key": "url:infoq.cn/article/F1ms7x7KI1p7UfocCywh",
+      "title": "如何把目标定得更大胆：写给 AI 使用者的实践指南",
+      "url": "https://www.infoq.cn/article/F1ms7x7KI1p7UfocCywh?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T07:15:13.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1bmqvyelhw1",
+      "key": "url:jiqizhixin.com/articles/2026-11-04-12",
+      "title": "全球公开做预训练RSI的仅两家：一家在40亿美元公司，一家在801教室",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-04-12",
+      "excerpt": "超智能这场竞赛的胜负手不在后训练，而在谁先跑通 RSI 预训练。负责人表示：预训练和后训练不是一个量级的事：算力、经验、工程，每一样都高出一个数量级。但很不幸，它也是最重要的事，是我们对智能进行加工的第一性基础。正因如此，RSI 必须落到预训练上，智能制造才开始复利：没跑通的一方只能眼看着代差...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T06:53:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "3frbobp344",
+      "key": "url:jiqizhixin.com/articles/2026-11-04-11",
+      "title": "英伟达、UT-Austin发布Realtime-Bench，实时互动任务难倒GPT-6",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-04-11",
+      "excerpt": "大模型能看懂复杂的网页结构，也能理解各种游戏的通关规则。但如果让它们在稍纵即逝的窗口期内抢购一张热门门票，或者在俄罗斯方块游戏中，赶在方块落地前完成旋转和移动，它们还能应对自如吗？为了测试模型的实时能力，英伟达和 UT-Austin 等机构的研究人员提出了 Realtime-Bench，用它测...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T06:50:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "score": 28
+    },
+    {
+      "id": "1p6sxxfmju1",
+      "key": "url:leiphone.com/category/yanxishe/7uvYEZBsCWcPvhw3.html",
+      "title": "榜单第一，市值暴跌！Gemini 4 Carbon「速成」背后，谷歌一场豪赌",
+      "url": "https://www.leiphone.com/category/yanxishe/7uvYEZBsCWcPvhw3.html",
+      "excerpt": "Gemini 4 Carbon登顶，幻觉率抬升，谷歌疯狂发模型在急什么？ 作者丨高允毅 编辑丨岑 峰 昨天，Google 发布世界模型 Genie 4，人们惊呼“太疯狂了”。今早，Google 又紧接着推出 Gemini 4 Carbon，直接刷榜\"重回全球第一\"。再加上两周前发布的 Gemini 4 Argon，谷歌正以近乎“一周一款”的节奏刷新模型产品线。 这种高频迭代在谷歌历史上前所未有，过去它更习惯“两年磨一剑”的大版本发布节奏，如今却突然切换成“小步快跑”的互联网打法。 这场节奏突变的背后，是谷歌在技术路线选择、研发模式押注、算力基础突围和内…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T06:39:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "score": 24
+    },
+    {
+      "id": "1m6ivmzzr2x",
+      "key": "url:jiqizhixin.com/articles/2026-11-04-10",
+      "title": "腾讯混元发布 Hy4，跻身最强开源模型之列",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-04-10",
+      "excerpt": "11 月 4 日，腾讯混元发布最新一代大语言模型 Hy4。随着模型能力的再次全面跃升，Hy 首次跻身最强开源模型之列。Hy4 将于近期开源模型权重，发布模型系统卡片，并积极推进更负责任的开源，重点关注网络和生物安全等风险。相比于 Hy4 preview，Hy4 在预训练和后训练上显著扩展了数据...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T06:35:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "keywords": [
+        "开源模型"
+      ],
+      "score": 36,
+      "related": [
+        {
+          "id": "1hq2gs0d7oj",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnhzbz/introducing_hy4_open_weights_soon/",
+          "title": "Introducing Hy4 (open weights soon)",
+          "publishedAt": "2026-11-04T07:23:10.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-11-04T06:35:00.000Z"
+      }
+    },
+    {
+      "id": "fsva65t5dn",
+      "key": "url:infoq.cn/article/mcHCe07TQ08mEZtqcWi1",
+      "title": "Uber 总裁跳槽 OpenAI！曾掌舵谷歌、Snap 公关，Brockman 亲自发文欢迎",
+      "url": "https://www.infoq.cn/article/mcHCe07TQ08mEZtqcWi1?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T06:02:24.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1vtseoho9q5",
+      "key": "url:techpowerup.com/354440/intel-might-discontinue-the-arc-b580-to-prioritize-higher-margin-arc-pro-cards",
+      "title": "B70 Price Increase Incoming --> Intel Might Discontinue the Arc B580 to Prioritize Higher-Margin Arc Pro Cards",
+      "url": "https://www.techpowerup.com/354440/intel-might-discontinue-the-arc-b580-to-prioritize-higher-margin-arc-pro-cards",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T05:25:56.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnfzky/b70_price_increase_incoming_intel_might/",
+      "ai": {
+        "title": "Intel 可能停产 Arc B580",
+        "summary": "Intel 可能停产 Arc B580 以优先生产高利润 Arc Pro 卡。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:17:38.594Z"
+      }
+    },
+    {
+      "id": "qjd928g05p",
+      "key": "url:jiqizhixin.com/articles/2026-11-04-9",
+      "title": "把黄仁勋的小黄鸭训练放在本地！国产端侧600T算力即将到来",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-04-9",
+      "excerpt": "编辑｜冷猫近年来，AI 算力的赛道上从来不缺故事。就连行业巨头英伟达也不能免俗。在今年柏林的 GTC 大会上，黄仁勋带着一群可爱的机器鸭 Microduck 亮相。小黄鸭们应声起立，坐下，翻跟头，一下子风靡全球。黄仁勋说这些小黄鸭「在 RTX Spark 上诞生，在云端一堆英伟达超级计算机上训...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T05:23:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2egv0v96flo",
+      "key": "url:jiqizhixin.com/articles/2026-11-04-8",
+      "title": "比DeepSeek Super-agent更早，Comma已经把长期记忆做进Agent「大管家」",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-04-8",
+      "excerpt": "上个月告诉助手「订机票选靠窗座位，优先上午的航班」，这次出差让它订票，它还记得吗？换一个对话、交给另一个执行任务的 Agent，这条要求还在吗？近日，DeepSeek 在《Super-agent 设计探索》中为下一代智能体提出了四个特征：连续、高效、主动、持久，并主张「Session 应当是系...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T05:15:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1a1q6a7xo2p",
+      "key": "url:jiqizhixin.com/articles/2026-11-04-7",
+      "title": "让Code Agent从自己的错误中进化：ReTerm探索失败驱动的RSI",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-04-7",
+      "excerpt": "代码写错了、命令报错了、环境配坏了，Code Agent 接下来会做什么？在复杂终端任务中，一次错误往往会引出一串无效操作：重复安装已经装好的依赖，沿着错误假设继续修改代码，直到耗尽预算、任务失败。这些失败，能不能反过来成为 Agent 自我改进的训练材料？来自复旦大学、香港中文大学 MMLa...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T05:11:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "54z7cv9b8b",
+      "key": "hf:deep-principle/hydrogen-1.0",
+      "title": "deep-principle/Hydrogen-1.0 · Hugging Face",
+      "url": "https://huggingface.co/deep-principle/Hydrogen-1.0",
+      "excerpt": "Hydrogen-1.0 is a scientific problem-solving and research assistance model developed by Deep Principle based on GLM-5.3. Through text interaction, it is intended to assist with scientific questions, explain derivations, and organize responses to open-ended research problems. Out…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T04:21:10.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnervh/deepprinciplehydrogen10_hugging_face/",
+      "ai": {
+        "title": "Deep Principle 发布 Hydrogen-1.0 模型",
+        "summary": "Deep Principle 基于 GLM-5.3 发布 Hydrogen-1.0 科学研究模型。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:17:38.594Z"
+      }
+    },
+    {
+      "id": "me5nmt1tfj",
+      "key": "url:leiphone.com/category/chips/pXuAy8TH7q2u0Q9T.html",
+      "title": "哪里电便宜，算力就往哪里跑？没那么简单",
+      "url": "https://www.leiphone.com/category/chips/pXuAy8TH7q2u0Q9T.html",
+      "excerpt": "候鸟迁徙，是为了追逐适宜生存的气候。 一项AI计算任务的迁徙，则可能因为另一座数据中心拥有更充足、更便宜的电力，被送往数百甚至上千公里之外。 过去，算力的运行位置大多随着机房选址而确定。如今，电力供给的变化，开始成为计算任务选择落脚点的新理由。 “用电需求通常不能移动，但计算任务却可以迁移。”共绩科技创始人兼CEO付智说。 只是，与候鸟不同，AI任务无法独自完成这场迁徙。它所依赖的模型、数据与运行环境，也需要在另一座集群中得到妥善安排。 算电协同想让算力随电而动，但这场迁徙，远没有候鸟振翅那么轻盈。 01 算力不必搬家，任务却有迁移成本 据此前公开报道…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T03:56:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "26x98epsqhy",
+      "key": "url:leiphone.com/category/ai/tT9FskgaSMm7y4Ao.html",
+      "title": "当10万个智能体已在运行，安全防线到底在哪？｜CNCC 2026专家激辩智能体安全挑战",
+      "url": "https://www.leiphone.com/category/ai/tT9FskgaSMm7y4Ao.html",
+      "excerpt": "2026年，智能体从概念走向了生产系统。 蚂蚁集团3万多名员工背后，已有10万余个智能体在运行。华为内部同样部署了成千上万个智能体，覆盖客服、办公、运维、研发各条业务线。放眼更广的产业图景，个人助手、AI for Science、网络安全自动化攻防、企业级工作流编排，智能体正在逐步接管人类过去亲力亲为的工作。 Gartner将智能体列入了2027年十大战略技术，安全圈里，非人类身份（NHI）成了RSAC大会上的新赛道。中国这边，国标、强标、最高法司法意见、三部委规范文件在今年密集出台，政策端的紧迫感与产业端的狂飙几乎同步。 10月22日，成都，在CNC…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T03:22:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1o62y9r6bku",
+      "key": "url:leiphone.com/category/industrynews/hRlEqJpWm8oawq9h.html",
+      "title": "追觅科技亮相2026世界互联网大会人工智能嘉年华，以AI技术创新赋能智慧生活",
+      "url": "https://www.leiphone.com/category/industrynews/hRlEqJpWm8oawq9h.html",
+      "excerpt": "11月2日，2026年世界互联网大会乌镇峰会在浙江嘉兴乌镇正式启幕。本届峰会以“开源开放、共建共享”为主题，聚焦人工智能等前沿技术发展与产业应用。追觅携旗下T70 Ultra Station、T60 Steam等多款旗舰洗地机亮相“人工智能嘉年华”展区，集中展示智能清洁领域的技术创新成果，呈现前沿科技与家庭生活深度融合的创新实践。 作为全球领先的智能科技品牌，追觅始终坚持以技术创新驱动产品升级，持续探索人工智能、智能感知与清洁技术的融合应用。此次亮相的追觅T70 Ultra Station洗地机，集成多项行业首创技术，以创新设计进一步拓展家庭清洁的场景…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T03:06:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "1f3dy3hi0oo"
+    },
+    {
+      "id": "vvm4hf600x",
+      "key": "url:infoq.cn/article/bFKTeyCOlydWMYi91H4q",
+      "title": "大模型会击穿具身智能吗？稚晖君带领团队深刻复盘并解答",
+      "url": "https://www.infoq.cn/article/bFKTeyCOlydWMYi91H4q?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T03:02:35.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "2ect44xv62i",
+      "key": "url:qbitai.com/2026/11/507533.html",
+      "title": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落",
+      "url": "https://www.qbitai.com/2026/11/507533.html",
+      "excerpt": "长视频记忆精度飙升，问答时延最高降97%",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T02:49:02.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
       "id": "1qqd5snr0ik",
       "key": "url:36kr.com/p/4054817832916099",
       "title": "中国具身出海，不止把机器人卖到海外",
@@ -72,6 +1714,57 @@
       "category": "industry",
       "score": 18,
       "dupOf": "ijx8xjimq3"
+    },
+    {
+      "id": "brv6lckfr6",
+      "key": "url:jiqizhixin.com/articles/2026-11-04-6",
+      "title": "刚刚，Anthropic开源FlashProve，给大模型办了一张「防伪身份证」",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-04-6",
+      "excerpt": "刚刚，Anthropic 发文宣称「大型语言模型的可验证推理取得新进展」，并开源了一个名为 FlashProve 的系统。它基于零知识密码学证明技术，让模型提供商能够在不公开模型权重的情况下，证明某个回答确实由指定模型生成。什么意思？平时，你花钱调用的 AI 真的是服务商承诺的那个模型吗？假设...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T02:24:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "score": 36,
+      "related": [
+        {
+          "id": "1eni5ym2usa",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4054648135930754",
+          "title": "刚刚，Anthropic开源FlashProve，给大模型办了一张「防伪身份证」",
+          "publishedAt": "2026-11-03T23:55:19.818Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-03T23:55:19.818Z"
+      }
+    },
+    {
+      "id": "1e9jv3rd4vq",
+      "key": "url:leiphone.com/category/industrynews/cyDQKpjtzDEPhrr8.html",
+      "title": "后摩智能低调完成数十亿元B轮融资，端侧大模型AI芯片进入规模化兑现期",
+      "url": "https://www.leiphone.com/category/industrynews/cyDQKpjtzDEPhrr8.html",
+      "excerpt": "仅今年9月，国内就有近十家端侧AI芯片企业宣布完成新一轮融资。资本的目光，正在从云端的算力集群，移向手机、电脑和机器人里的那颗芯片。 最新的一笔大额融资来自后摩智能。据知情人士透露，存算一体AI芯片企业后摩智能已于近期完成B轮融资，单笔融资金额高达数十亿元人民币，近一年内连续完成多轮融资。本轮融资上下游重磅产业资本集体押注、国有资本及国际投资人联袂入局，多家老股东持续加码，进一步印证了国内外资本市场对后摩智能技术路线与商业前景的高度认可，后摩智能领跑端侧AI市场已成共识。资本密集加码的背后，是后摩智能从技术突破走向规模化商业落地的加速兑现：在刚刚举行的…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T02:21:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "1lc9xe6yh44"
     },
     {
       "id": "ltw1qam5s4",
@@ -370,11 +2063,31 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "PC 游戏模组网站 Nexus Mods 强制要求上传新模组时披露 AI 使用情况。",
+        "title": "PC 游戏最大模组网站 Nexus Mods 强制披露 AI 使用情况",
+        "summary": "Nexus Mods 强制要求上传新模组时披露 AI 使用情况，引发模组作者讨论。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-04T03:03:17.378Z"
+        "at": "2026-11-04T13:16:59.451Z"
       }
+    },
+    {
+      "id": "60hx6zcg5b",
+      "key": "url:geekpark.net/news/373427",
+      "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
+      "url": "http://www.geekpark.net/news/373427",
+      "excerpt": "国行 Apple 智能开始测试：iOS 27.3 首个开发者 Beta 版已推送 11 月 4 日，苹果向开发者推送 iOS 27.3 首个 Beta 版，国行 iPhone 用户开始测试首批 Apple 智能功能，包括实时翻译、照片消除、写作工具和通知摘要等。国行 Apple 智能与阿里巴巴达成合作，在部分体验中接入千问。国内用户可直接在 Siri、写作工具和视觉智能中调用千问，覆盖文本与图像理解相关能力。 这次开放的是开发者测试版，正式版计划于 12 月推出。首批支持 iPhone 15 Pro 系列、iPhone 16 及后续机型，以及 iPho…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T00:28:02.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "multimodal",
+      "keywords": [
+        "视频生成"
+      ],
+      "score": 18
     },
     {
       "id": "wimhvcrvev",
@@ -539,6 +2252,121 @@
       }
     },
     {
+      "id": "6h792c3snz",
+      "key": "arxiv:2611.04814",
+      "title": "Think Less, Locally: Local Preference Learning for Reasoning Compression",
+      "url": "https://huggingface.co/papers/2611.04814",
+      "excerpt": "LoCo uses local preference learning to teach reasoning models when to stop deliberating, reducing output length substantially while preserving or improving accuracy across math and code tasks.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "推理模型"
+      ],
+      "score": 22.5,
+      "metrics": {
+        "upvotes": 62,
+        "comments": 6
+      },
+      "ai": {
+        "title": "Think Less, Locally：推理压缩的局部偏好学习",
+        "summary": "LoCo 通过局部偏好学习减少推理模型的输出长度，同时保持或提升准确性。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:16:59.451Z"
+      }
+    },
+    {
+      "id": "2afox3zuw4h",
+      "key": "arxiv:2611.00617",
+      "title": "Words Caught in the Heart: Simulating Person-Specific Expression for Self-Opaque Clients in Psychotherapy",
+      "url": "https://huggingface.co/papers/2611.00617",
+      "excerpt": "Pandora is a psychotherapy client simulation framework that models evolving psychological and relational states to generate more authentic, individually aligned expressions and reduce AI-like responses.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 22.2,
+      "metrics": {
+        "upvotes": 61,
+        "comments": 1
+      },
+      "ai": {
+        "title": "Words Caught in the Heart：心理治疗中的个性化表达模拟",
+        "summary": "Pandora 是一个心理治疗客户端模拟框架，旨在生成更真实的个性化表达。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:16:59.451Z"
+      }
+    },
+    {
+      "id": "eueg7ck091",
+      "key": "arxiv:2611.05275",
+      "title": "Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems",
+      "url": "https://huggingface.co/papers/2611.05275",
+      "excerpt": "Route Anything is a framework for dynamically selecting and coordinating specialized AI models and policies across diverse tasks to improve performance and efficiency.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 24.6,
+      "metrics": {
+        "upvotes": 87,
+        "comments": 1
+      },
+      "ai": {
+        "title": "Route Anything：通用 AI 系统的模型与策略路由研究",
+        "summary": "Route Anything 是一个动态选择和协调专用 AI 模型的框架，旨在提升性能和效率。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:16:59.451Z"
+      }
+    },
+    {
+      "id": "1z3xtgkz091",
+      "key": "arxiv:2611.02737",
+      "title": "MoviEdit: Long-form Multi-Shot Video Editing Made Easy",
+      "url": "https://huggingface.co/papers/2611.02737",
+      "excerpt": "MoviEdit is an end-to-end framework for long-form multi-shot video editing that uses cascaded bidirectional-autoregressive modeling and a new benchmark to maintain coherence across scenes while reducing manual data annotation.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 21.4,
+      "metrics": {
+        "upvotes": 54,
+        "comments": 1
+      },
+      "ai": {
+        "title": "MoviEdit：长形式多镜头视频编辑框架",
+        "summary": "MoviEdit 是一个端到端的长形式多镜头视频编辑框架，旨在保持场景连贯性。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:16:59.451Z"
+      }
+    },
+    {
       "id": "1eni5ym2usa",
       "key": "url:36kr.com/p/4054648135930754",
       "title": "刚刚，Anthropic开源FlashProve，给大模型办了一张「防伪身份证」",
@@ -552,7 +2380,8 @@
       "firstSeenAt": "2026-11-04T03:01:00.464Z",
       "day": "2026-11-04",
       "category": "model",
-      "score": 28
+      "score": 28,
+      "dupOf": "brv6lckfr6"
     },
     {
       "id": "21wy3isb95s",
@@ -655,10 +2484,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "Pimco CEO 称人们应停止询问 AI 泡沫何时破裂。",
+        "title": "请停止问我 AI 泡沫何时破裂",
+        "summary": "Pimco CEO 表示，人们不断询问 AI 泡沫何时破裂，但他不愿预测。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-04T03:03:17.378Z"
+        "at": "2026-11-04T13:16:59.451Z"
       }
     },
     {
@@ -682,10 +2512,11 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xn7rfh/llamacpp_fork_qfn_specific_quant_ultra_specific/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "llama.cpp 分支通过特定配置实现惊人的性能提升。",
+        "title": "llama.cpp 分支实现特定量化与硬件配置",
+        "summary": "llama.cpp 分支通过特定量化与硬件配置实现性能提升。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-04T03:03:17.378Z"
+        "at": "2026-11-04T13:17:38.594Z"
       }
     },
     {
@@ -728,10 +2559,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "数据中心因等待电网接入，转而使用旧喷气发动机供电。",
+        "title": "数据中心转向旧喷气发动机以解决电力短缺",
+        "summary": "由于电网接入和涡轮机等待时间过长，数据中心转向使用旧喷气发动机。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-04T03:03:17.378Z"
+        "at": "2026-11-04T13:16:59.451Z"
       }
     },
     {
@@ -747,18 +2579,19 @@
       "publishedAt": "2026-11-03T22:02:49.000Z",
       "firstSeenAt": "2026-11-04T03:01:00.464Z",
       "day": "2026-11-04",
-      "category": "opensource",
+      "category": "model",
       "keywords": [
         "本地部署"
       ],
-      "score": 10,
+      "score": 16,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xn6mm0/gemma4_graph_optimizations_massive_gains_on_pp/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "ggml-org/llama.cpp 针对 Gemma 4 的图优化大幅提升处理速度。",
-        "category": "opensource",
+        "title": "gemma4 图优化大幅提升 E2B/E4B 性能",
+        "summary": "gemma4 通过图优化大幅提升 E2B/E4B 的提示处理速度。",
+        "category": "model",
         "model": "glm-4.7-flash",
-        "at": "2026-11-04T03:03:17.378Z"
+        "at": "2026-11-04T13:17:38.594Z"
       }
     },
     {
@@ -778,10 +2611,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "Ballistic Ventures 筹集 4.9 亿美元新基金，聚焦 AI 驱动的网络安全。",
+        "title": "Ballistic Ventures 计划募资 4.9 亿美元",
+        "summary": "Ballistic Ventures 在 AI 驱动的网络安全热潮中寻求募资。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-04T03:03:17.378Z"
+        "at": "2026-11-04T13:17:38.594Z"
       }
     },
     {
@@ -797,18 +2631,19 @@
       "firstSeenAt": "2026-11-04T03:01:00.464Z",
       "day": "2026-11-04",
       "category": "paper",
-      "score": 27.4,
+      "score": 30.4,
       "metrics": {
-        "points": 253,
-        "comments": 42
+        "points": 359,
+        "comments": 56
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50358582",
       "aiAttempts": 1,
       "ai": {
-        "summary": "生成式 AI 基础知识数学入门指南。",
+        "title": "生成式 AI 基础：直观的数学入门指南",
+        "summary": "一本关于生成式 AI 基础知识的直观数学入门指南。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-11-04T03:03:17.378Z"
+        "at": "2026-11-04T13:16:59.451Z"
       }
     },
     {
@@ -824,18 +2659,19 @@
       "firstSeenAt": "2026-11-04T03:01:00.464Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 30,
+      "score": 32.5,
       "metrics": {
-        "points": 283,
-        "comments": 126
+        "points": 372,
+        "comments": 155
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50358422",
       "aiAttempts": 1,
       "ai": {
-        "summary": "美国科技巨头 AI 债务半年激增 90% 至 3.2 万亿美元。",
+        "title": "美国科技巨头 AI 技术债务半年激增 90% 至 3.2 万亿美元",
+        "summary": "美国科技巨头 AI 技术债务半年激增 90% 至 3.2 万亿美元，引发行业关注。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-04T03:03:17.378Z"
+        "at": "2026-11-04T13:16:59.451Z"
       }
     },
     {
@@ -855,10 +2691,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "Palantir 美国商业收入首次超过政府收入。",
+        "title": "Palantir 美国商业营收首超政府营收",
+        "summary": "Palantir 美国商业营收首次超过政府营收，引发关注。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-04T03:03:17.378Z"
+        "at": "2026-11-04T13:17:38.594Z"
       }
     },
     {
@@ -874,15 +2711,16 @@
       "publishedAt": "2026-11-03T21:05:30.000Z",
       "firstSeenAt": "2026-11-04T03:01:00.464Z",
       "day": "2026-11-04",
-      "category": "agent",
+      "category": "industry",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xn568h/british_fintech_revolut_slashes_ai_coding_costs/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "Revolut 通过自托管替代 Claude，将 AI 编码成本降低 10 倍。",
-        "category": "agent",
+        "title": "Revolut 削减 AI 编码成本 10 倍",
+        "summary": "Revolut 通过自托管 Claude 削减 AI 编码成本 10 倍。",
+        "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-04T03:03:17.378Z"
+        "at": "2026-11-04T13:17:38.594Z"
       }
     },
     {
@@ -902,11 +2740,37 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "The Verge 报道称杰夫·贝佐斯植发照片为 AI 生成。",
+        "title": "Bezos 植发照片被指造假",
+        "summary": "Bezos 植发照片被指经过编辑，引发争议。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-04T03:03:17.378Z"
+        "at": "2026-11-04T13:17:38.594Z"
       }
+    },
+    {
+      "id": "xxyr3bddf6",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xn4qn1/basalt_020_qwen_38_flash_next_nvfp4_300_ts_prose",
+      "title": "Basalt 0.2.0: Qwen 3.8 Flash Next NVFP4, 300 t/s prose, 600 t/s struct, 10K t/s prefill on a 5090 + 5060 Ti and 128GB RAM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xn4qn1/basalt_020_qwen_38_flash_next_nvfp4_300_ts_prose/",
+      "excerpt": "Basalt 0.2.0: Quality & Speed Hey all! I wanted to share a quick update on Basalt, a Blackwell only inference engine for Qwen 3.8 Flash Next. As usual, speed is the headline but that's not what I want to open this post with, I've been reading lot of discussions talking about qua…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-03T20:49:21.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xn4qn1/basalt_020_qwen_38_flash_next_nvfp4_300_ts_prose/",
+      "ai": {
+        "title": "Basalt 0.2.0：Qwen 3.8 Flash Next 推理引擎",
+        "summary": "Basalt 0.2.0 是一个仅支持 Blackwell 的 Qwen 3.8 Flash Next 推理引擎，速度极快。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:16:59.451Z"
+      },
+      "dupOf": "zmkdt21sh0"
     },
     {
       "id": "1ki1w545fkk",
@@ -926,10 +2790,11 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xn40w7/tokenss_worlds_biggest_pcie_graphics_card/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "发现世界最大 PCIe 显卡，原型 AMD Radeon RX 470 四 GPU 板。",
+        "title": "AMD 发现世界最大 PCIe 显卡原型",
+        "summary": "AMD 发现四 GPU 的 RX 470 原型板，号称世界最大 PCIe 显卡。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-04T03:03:17.378Z"
+        "at": "2026-11-04T13:17:38.594Z"
       }
     },
     {
@@ -1038,15 +2903,16 @@
       "publishedAt": "2026-11-03T19:28:09.000Z",
       "firstSeenAt": "2026-11-04T03:01:00.464Z",
       "day": "2026-11-04",
-      "category": "agent",
+      "category": "opensource",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xn2jyz/what_do_people_with_normal_hardware_32gb_ram_16gb/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "询问 32GB 内存和 16GB 显存用户能运行什么模型。",
-        "category": "agent",
+        "title": "普通硬件用户运行什么模型？",
+        "summary": "普通硬件用户询问适合 32GB 内存和 16GB 显存的模型。",
+        "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-04T03:03:17.378Z"
+        "at": "2026-11-04T13:17:38.594Z"
       }
     },
     {
@@ -1067,10 +2933,11 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xn1gs9/i_tried_mits_weightspace_programming_on_my_own/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "用户尝试 MIT 的权重空间编程，让 Claude 修改 Gemma 4 的神经元。",
+        "title": "MIT 展示权重空间编程",
+        "summary": "MIT 展示通过手动编辑权重改变模型行为的方法。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-11-04T03:03:17.378Z"
+        "at": "2026-11-04T13:17:38.594Z"
       }
     },
     {
@@ -1103,14 +2970,15 @@
       "publishedAt": "2026-11-03T18:31:00.000Z",
       "firstSeenAt": "2026-11-04T03:01:00.464Z",
       "day": "2026-11-04",
-      "category": "agent",
+      "category": "industry",
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "watchOS 27.3 开发者测试版引入常驻音频智能功能。",
-        "category": "agent",
+        "title": "watchOS 27.3 beta 新增 Audio Intelligence…",
+        "summary": "watchOS 27.3 beta 新增 Siri Recap 等音频智能功能。",
+        "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-04T03:03:17.378Z"
+        "at": "2026-11-04T13:17:38.594Z"
       }
     },
     {
@@ -1182,6 +3050,33 @@
       }
     },
     {
+      "id": "epu3p0hrlt",
+      "key": "url:ben.stolovitz.com/posts/how-use-ai-oct-2026",
+      "title": "How I use AI (Oct 2026)",
+      "url": "https://ben.stolovitz.com/posts/how-use-ai-oct-2026/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-03T18:11:11.000Z",
+      "firstSeenAt": "2026-11-04T13:15:12.070Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 29,
+      "metrics": {
+        "points": 201,
+        "comments": 238
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50355767",
+      "ai": {
+        "title": "我如何使用 AI（2026 年 10 月）",
+        "summary": "分享个人使用 AI 的经验和心得。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-04T13:16:59.451Z"
+      }
+    },
+    {
       "id": "20evya45haf",
       "key": "url:theverge.com/streaming/1025029/netflix-ai-discover-recommendations",
       "title": "Netflix will show you themed recommendations through a new ‘AI Discover’ tab",
@@ -1237,8 +3132,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1069,
-        "comments": 352
+        "points": 1362,
+        "comments": 456
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50354960",
       "ai": {
@@ -1491,7 +3386,7 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-04",
       "category": "model",
-      "score": 60.1,
+      "score": 60.6,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/",
       "alsoOn": [
         {
@@ -1507,8 +3402,8 @@
       ],
       "dupOf": "22j3nnnqyha",
       "metrics": {
-        "points": 507,
-        "comments": 158
+        "points": 663,
+        "comments": 193
       }
     },
     {

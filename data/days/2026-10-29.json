@@ -18,7 +18,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 7623
+        "stars": 8060
       },
       "aiAttempts": 1,
       "ai": {
@@ -71,9 +71,9 @@
       "day": "2026-10-29",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 18.7,
+      "score": 18.8,
       "metrics": {
-        "stars": 702
+        "stars": 714
       }
     },
     {
@@ -244,7 +244,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 6137
+        "stars": 6415
       },
       "ai": {
         "title": "Mika：手机上的私人 AI 助理",
@@ -2271,9 +2271,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 21.2,
+      "score": 21.3,
       "metrics": {
-        "stars": 1108
+        "stars": 1136
       },
       "dupOf": "1n0btj49z6o"
     },
@@ -2314,9 +2314,9 @@
       "day": "2026-10-29",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 25.1,
+      "score": 25.2,
       "metrics": {
-        "stars": 2134
+        "stars": 2181
       },
       "ai": {
         "title": "nvzhuang：AI 女装参考图集与虚拟试穿网站",
@@ -2549,9 +2549,9 @@
       "day": "2026-10-29",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 19.1,
+      "score": 19.7,
       "metrics": {
-        "stars": 759
+        "stars": 852
       },
       "dupOf": "d3l1ld7hnp"
     },
@@ -3193,6 +3193,27 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T09:12:04.699Z"
+      },
+      "related": [
+        {
+          "id": "nzsc3hmjq1",
+          "sourceId": "github-trending",
+          "sourceName": "GitHub Trending",
+          "url": "https://github.com/scenario-labs/skills",
+          "title": "scenario-labs/skills",
+          "publishedAt": "2026-11-04T13:15:18.735Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "github-trending"
+        ],
+        "firstPublishedAt": "2026-10-29T03:24:01.011Z",
+        "metrics": {
+          "stars": 3966,
+          "starsToday": 233
+        }
       }
     },
     {

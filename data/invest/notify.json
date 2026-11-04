@@ -1,5 +1,10 @@
 {
   "sent": {
+    "alert:move:a500:2026-11-04": {
+      "hash": "move:a500:2026-11-04",
+      "label": "中证A500 11月4日上涨 3.0%",
+      "kind": "event"
+    },
     "alert:rate:cb:pboc:2026-11-03": {
       "hash": "rate:cb:pboc:2026-11-03",
       "label": "央行：11月15日起上调金融机构外汇存款准备金率2个百分点",
@@ -53,5 +58,5 @@
   },
   "issueNumber": 1,
   "channel": "serverchan",
-  "lastSentAt": "2026-11-03T03:56:29.161Z"
+  "lastSentAt": "2026-11-04T13:15:12.070Z"
 }

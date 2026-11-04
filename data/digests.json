@@ -235,34 +235,39 @@
   },
   "2026-11-04": {
     "day": "2026-11-04",
-    "generatedAt": "2026-11-04T03:04:41.581Z",
-    "itemCount": 169,
-    "mode": "ai",
-    "model": "glm-4.7-flash",
-    "overview": "苹果集成千问，百度发布Apollo World，Anthropic开源FlashProve。",
+    "generatedAt": "2026-11-04T13:18:53.975Z",
+    "itemCount": 160,
+    "mode": "fallback",
+    "overview": "过去 24 小时共收录 160 条 AI 资讯：产品与行业 103 条、Agent 与工具 20 条、开源项目 12 条、模型发布 9 条、论文 9 条、多模态与视频 7 条。以下为按重要性排序的前 5 条。",
     "points": [
       {
-        "text": "苹果智能Beta开放，千问APP成为Siri外援。",
+        "text": "【模型】腾讯混元发布 Hy4，跻身最强开源模型之列",
+        "refs": [
+          "1m6ivmzzr2x"
+        ]
+      },
+      {
+        "text": "【行业】Nvidia RTX Spark 加固固件导致 Linux 推理速度下降 35%",
+        "refs": [
+          "4j93lky5k7"
+        ]
+      },
+      {
+        "text": "【行业】2027年起，禁用 Google AI 的学校将无法使用其搜索服务",
+        "refs": [
+          "1wyixi4osgs"
+        ]
+      },
+      {
+        "text": "【行业】实测苹果智能Beta，千问 APP 成为Siri外援，可接力处理任务",
         "refs": [
           "1egyahbt3oj"
         ]
       },
       {
-        "text": "百度Apollo World亮相，提出物理AI全模态世界模型。",
+        "text": "【多模态】虎鲸文娱“鲸锐AI”平台正式上线，AI视频单分钟成本节省30%以上",
         "refs": [
-          "25co1d88u3r"
-        ]
-      },
-      {
-        "text": "Anthropic开源FlashProve，为大模型提供防伪身份证。",
-        "refs": [
-          "1eni5ym2usa"
-        ]
-      },
-      {
-        "text": "普林斯顿AI Lab测试显示大模型空间智能不及人类。",
-        "refs": [
-          "ltw1qam5s4"
+          "jpf9ptqyp4"
         ]
       }
     ]
