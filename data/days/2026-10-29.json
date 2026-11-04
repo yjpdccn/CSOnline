@@ -18,7 +18,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 7268
+        "stars": 7623
       },
       "aiAttempts": 1,
       "ai": {
@@ -73,7 +73,7 @@
       "categoryLocked": true,
       "score": 18.7,
       "metrics": {
-        "stars": 698
+        "stars": 702
       }
     },
     {
@@ -244,7 +244,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 6003
+        "stars": 6137
       },
       "ai": {
         "title": "Mika：手机上的私人 AI 助理",
@@ -2271,9 +2271,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 20.9,
+      "score": 21.2,
       "metrics": {
-        "stars": 1063
+        "stars": 1108
       },
       "dupOf": "1n0btj49z6o"
     },
@@ -2316,7 +2316,7 @@
       "categoryLocked": true,
       "score": 25.1,
       "metrics": {
-        "stars": 2117
+        "stars": 2134
       },
       "ai": {
         "title": "nvzhuang：AI 女装参考图集与虚拟试穿网站",
@@ -2535,6 +2535,27 @@
       }
     },
     {
+      "id": "1t5fb543nts",
+      "key": "gh:rikiyat/lm_understand-logs",
+      "title": "RikiyaT/lm_understand-logs",
+      "url": "https://github.com/RikiyaT/lm_understand-logs",
+      "excerpt": "Complete logs of the experiments in the blog post 'LLMs can understand and write neural network weights'",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T04:17:30.000Z",
+      "firstSeenAt": "2026-11-04T03:01:00.464Z",
+      "day": "2026-10-29",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 19.1,
+      "metrics": {
+        "stars": 759
+      },
+      "dupOf": "d3l1ld7hnp"
+    },
+    {
       "id": "1ejcv7w6i49",
       "key": "url:36kr.com/p/4046438303372937",
       "title": "留给具身智能的时间不多了",
@@ -2653,17 +2674,26 @@
           "url": "https://techcrunch.com/2026/11/02/openai-is-finally-merging-chatgpts-chat-and-work-tabs/",
           "title": "OpenAI is finally merging ChatGPT’s Chat and Work tabs",
           "publishedAt": "2026-11-02T13:57:53.000Z"
+        },
+        {
+          "id": "28i3jyv5r5k",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1025482/openai-says-chatgpt-is-catching-up-to-google-in-search",
+          "title": "OpenAI says ChatGPT is catching up to Google in search",
+          "publishedAt": "2026-11-03T18:30:42.000Z"
         }
       ],
       "story": {
-        "reports": 7,
+        "reports": 8,
         "sources": [
           "36kr-ai",
           "reddit-localllama",
           "hackernews",
           "36kr-flash",
           "the-decoder",
-          "techcrunch-ai"
+          "techcrunch-ai",
+          "verge-ai"
         ],
         "firstPublishedAt": "2026-10-29T04:13:56.068Z",
         "metrics": {
@@ -4509,6 +4539,22 @@
         "model": "glm-4.7-flash",
         "at": "2026-10-30T02:46:46.884Z"
       }
+    },
+    {
+      "id": "1cooo6um162",
+      "key": "url:openai.com/ads/customers/evernote",
+      "title": "Evernote turns AI-driven discovery into paid subscriptions",
+      "url": "https://openai.com/ads/customers/evernote",
+      "excerpt": "Evernote used ChatGPT Ads to introduce its note-taking app to people working with AI. The team tracked how often free trials led to paid subscriptions.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-10-28T19:40:49.000Z",
+      "firstSeenAt": "2026-11-04T03:01:00.464Z",
+      "day": "2026-10-29",
+      "category": "industry",
+      "score": 30
     },
     {
       "id": "20tn7ka5w83",

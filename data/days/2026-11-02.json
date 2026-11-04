@@ -95,7 +95,7 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 58.1,
+      "score": 58.3,
       "aiAttempts": 2,
       "ai": {
         "summary": "OpenAI 介绍了为 Codex 开发规模设计的 Git 兼容后端 Pando。",
@@ -111,8 +111,8 @@
         }
       ],
       "metrics": {
-        "points": 258,
-        "comments": 175
+        "points": 264,
+        "comments": 179
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50345924"
     },
@@ -302,9 +302,9 @@
       "firstSeenAt": "2026-11-02T20:45:22.918Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 28.6,
+      "score": 28.7,
       "metrics": {
-        "points": 185,
+        "points": 188,
         "comments": 256
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50337454",
@@ -332,7 +332,7 @@
       "score": 30.6,
       "metrics": {
         "points": 236,
-        "comments": 282
+        "comments": 285
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50337439",
       "ai": {
@@ -381,10 +381,10 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-02",
       "category": "industry",
-      "score": 27.7,
+      "score": 33.2,
       "metrics": {
-        "points": 228,
-        "comments": 85
+        "points": 395,
+        "comments": 174
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50336918"
     },
@@ -736,10 +736,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25,
+      "score": 25.1,
       "metrics": {
-        "points": 139,
-        "comments": 115
+        "points": 142,
+        "comments": 116
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50336138",
       "ai": {
@@ -2216,7 +2216,7 @@
       "score": 29.3,
       "metrics": {
         "points": 158,
-        "comments": 89
+        "comments": 90
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50334038",
       "ai": {
@@ -3131,7 +3131,7 @@
       "firstSeenAt": "2026-11-02T02:30:31.448Z",
       "day": "2026-11-02",
       "category": "model",
-      "score": 32,
+      "score": 40,
       "ai": {
         "summary": "社区爆料 GPT-6.2 Astra 可能即将发布，引发广泛关注。",
         "category": "model",
@@ -3146,13 +3146,22 @@
           "url": "https://www.qbitai.com/2026/11/507082.html",
           "title": "GPT-6.2 Astra开启灰测！Claude Mythos 5.5同日曝光",
           "publishedAt": "2026-11-02T04:28:53.000Z"
+        },
+        {
+          "id": "m7418jk0ts",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4054834101326985",
+          "title": "GPT-6.2 Astra要来了，神秘「双模型」闪现API，OpenAI火速撤回",
+          "publishedAt": "2026-11-04T02:39:03.151Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "jiqizhixin",
-          "qbitai"
+          "qbitai",
+          "36kr-ai"
         ],
         "firstPublishedAt": "2026-11-02T02:20:00.000Z"
       }
@@ -3915,7 +3924,7 @@
       "firstSeenAt": "2026-11-02T02:30:31.448Z",
       "day": "2026-11-02",
       "category": "paper",
-      "score": 26,
+      "score": 34,
       "ai": {
         "summary": "GPT-6 与 Claude 合作，在百分钟内解决困扰人类 38 年的混沌难题。",
         "category": "paper",
@@ -3946,13 +3955,30 @@
           "url": "https://36kr.com/p/4053977031464070",
           "title": "GPT-6爆改模型权重，数学能力狂飙6倍，MIT博一新作破圈了",
           "publishedAt": "2026-11-03T13:19:11.130Z"
+        },
+        {
+          "id": "16j1x76di2o",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/openai-says-gpt-6-astra-designed-a-hardware-device-from-scratch-in-under-a-week/",
+          "title": "OpenAI says GPT-6 Astra designed a hardware device from scratch in under a week",
+          "publishedAt": "2026-11-03T20:15:45.000Z"
+        },
+        {
+          "id": "2d0n6m1ucxu",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4054606021596290",
+          "title": "GPT-6 Astra 爆改 Qwen 大脑：只动 0.016% 参数，数学成绩疯涨",
+          "publishedAt": "2026-11-04T00:10:50.055Z"
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 6,
         "sources": [
           "36kr-ai",
-          "reddit-localllama"
+          "reddit-localllama",
+          "the-decoder"
         ],
         "firstPublishedAt": "2026-11-02T00:12:34.079Z"
       }
@@ -4077,10 +4103,10 @@
       "day": "2026-11-02",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.8,
+      "score": 23,
       "metrics": {
-        "upvotes": 67,
-        "comments": 2
+        "upvotes": 68,
+        "comments": 3
       },
       "aiAttempts": 1,
       "ai": {
@@ -4167,10 +4193,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25.1,
+      "score": 25.2,
       "metrics": {
         "upvotes": 93,
-        "comments": 2
+        "comments": 3
       },
       "ai": {
         "title": "R²Orch：通过技能内化循环中的自玩实现递归自我改进",
@@ -4296,7 +4322,7 @@
       "score": 30.6,
       "metrics": {
         "points": 245,
-        "comments": 254
+        "comments": 255
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50330456",
       "aiAttempts": 2,
@@ -4466,7 +4492,7 @@
       "score": 26,
       "metrics": {
         "points": 169,
-        "comments": 100
+        "comments": 101
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50328488",
       "aiAttempts": 2,

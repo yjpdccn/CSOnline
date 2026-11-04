@@ -686,7 +686,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 16315
+        "stars": 17107
       },
       "aiAttempts": 2,
       "ai": {
@@ -1569,10 +1569,18 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlicia/qwen_38_flash_next_nvfp4_on_64gb_ram_and_5090/",
           "title": "Qwen 3.8 Flash Next NVFP4 on 64gb RAM and 5090, Basalt. Ditched windows for it. Very hyped for qwen 4 model family now.",
           "publishedAt": "2026-11-01T23:56:49.000Z"
+        },
+        {
+          "id": "1g2k6300757",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmolk6/qwen38flashnext_local_vs_claude/",
+          "title": "Qwen3.8-Flash-Next (local) vs Claude",
+          "publishedAt": "2026-11-03T09:33:58.000Z"
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 5,
         "sources": [
           "reddit-localllama"
         ],

@@ -168,7 +168,7 @@
       "categoryLocked": true,
       "score": 29.6,
       "metrics": {
-        "stars": 46407,
+        "stars": 46564,
         "starsToday": 857
       },
       "aiAttempts": 1,
@@ -1185,9 +1185,9 @@
       "day": "2026-11-01",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 21.2,
+      "score": 21.9,
       "metrics": {
-        "stars": 1114
+        "stars": 1256
       },
       "aiAttempts": 2,
       "ai": {
@@ -1215,9 +1215,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22.8,
+      "score": 23.2,
       "metrics": {
-        "stars": 1473
+        "stars": 1577
       },
       "aiAttempts": 1,
       "ai": {
@@ -1918,6 +1918,27 @@
         "at": "2026-11-01T02:27:20.387Z"
       },
       "dupOf": "1n0btj49z6o"
+    },
+    {
+      "id": "93ueqdry8d",
+      "key": "hf:fusioncow/sulphur-3",
+      "title": "FusionCow/Sulphur-3",
+      "url": "https://huggingface.co/FusionCow/Sulphur-3",
+      "excerpt": "Hugging Face 趋势榜第 11 名 · 334 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-31T20:31:01.000Z",
+      "firstSeenAt": "2026-11-04T03:01:00.464Z",
+      "day": "2026-11-01",
+      "category": "model",
+      "categoryLocked": true,
+      "score": 26.6,
+      "metrics": {
+        "likes": 334
+      },
+      "skipLlm": true
     },
     {
       "id": "1dwy3lhy31l",

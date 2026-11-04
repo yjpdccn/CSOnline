@@ -60,10 +60,10 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 22.5,
+      "score": 23.9,
       "metrics": {
-        "points": 100,
-        "comments": 89
+        "points": 119,
+        "comments": 110
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50353300",
       "aiAttempts": 1,
@@ -88,10 +88,10 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 30.5,
+      "score": 36,
       "metrics": {
-        "points": 258,
-        "comments": 207
+        "points": 567,
+        "comments": 415
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50353192",
       "ai": {
@@ -202,10 +202,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 26.1,
+      "score": 33.6,
       "metrics": {
-        "points": 193,
-        "comments": 65
+        "points": 439,
+        "comments": 139
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50352757",
       "ai": {
@@ -252,10 +252,10 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-03",
       "category": "agent",
-      "score": 25.8,
+      "score": 26.2,
       "metrics": {
-        "points": 163,
-        "comments": 102
+        "points": 172,
+        "comments": 106
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50352257",
       "aiAttempts": 1,
@@ -517,6 +517,24 @@
       "score": 18
     },
     {
+      "id": "bl4fbznjv4",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xms6eq/is_qwen_38_27b_still_the_king",
+      "title": "Is Qwen 3.8 27B still the king",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xms6eq/is_qwen_38_27b_still_the_king/",
+      "excerpt": "Hi everyone, I've been out of the loop for a few weeks, and I was wondering if anything new that replaces Qwen 3.8 27B has come out this time I've been in the cave? I'm talking about AI models in the 8-35B range. Thanks, [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-03T12:53:57.000Z",
+      "firstSeenAt": "2026-11-04T03:01:00.464Z",
+      "day": "2026-11-03",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xms6eq/is_qwen_38_27b_still_the_king/",
+      "dupOf": "22j3nnnqyha"
+    },
+    {
       "id": "25co1d88u3r",
       "key": "url:36kr.com/newsflashes/4054026915189896",
       "title": "百度Apollo World世界模型亮相",
@@ -711,10 +729,10 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-03",
       "category": "model",
-      "score": 40.2,
+      "score": 40.6,
       "metrics": {
-        "points": 723,
-        "comments": 168
+        "points": 916,
+        "comments": 192
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50351111",
       "dupOf": "1sczdb7vl4x"
@@ -766,6 +784,25 @@
       "day": "2026-11-03",
       "category": "industry",
       "score": 18
+    },
+    {
+      "id": "1skj7vyc2jy",
+      "key": "url:openai.com/index/accelerating-engineering-for-the-physical-world",
+      "title": "Accelerating engineering for the physical world",
+      "url": "https://openai.com/index/accelerating-engineering-for-the-physical-world",
+      "excerpt": "Discover how ChatGPT and Codex are helping engineers accelerate CAD, PCB design, simulation, and other workflows across the physical world.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-03T12:00:00.000Z",
+      "firstSeenAt": "2026-11-04T03:01:00.464Z",
+      "day": "2026-11-03",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 30
     },
     {
       "id": "1wzkldqgsso",
@@ -1093,10 +1130,10 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 27,
+      "score": 27.5,
       "metrics": {
-        "points": 174,
-        "comments": 149
+        "points": 186,
+        "comments": 155
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50350004",
       "ai": {
@@ -1126,6 +1163,27 @@
       ],
       "score": 15,
       "dupOf": "1n0btj49z6o"
+    },
+    {
+      "id": "1g2k6300757",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xmolk6/qwen38flashnext_local_vs_claude",
+      "title": "Qwen3.8-Flash-Next (local) vs Claude",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmolk6/qwen38flashnext_local_vs_claude/",
+      "excerpt": "I am seriously impressed and want to share my experience. Qwen3.8-Flash-Next (local) vs Claude in Claude Code: reviewing one real commit I ran the same code review twice on one commit in my repo https://github.com/leok7v/ChatOKF (Swift, on-device LLM chat app, about 48 files cha…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-03T09:33:58.000Z",
+      "firstSeenAt": "2026-11-04T03:01:00.464Z",
+      "day": "2026-11-03",
+      "category": "opensource",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xmolk6/qwen38flashnext_local_vs_claude/",
+      "dupOf": "6hprelg747"
     },
     {
       "id": "1b8wxyk7mxv",
@@ -1208,9 +1266,17 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-03",
       "category": "paper",
-      "score": 29.8,
+      "score": 47.7,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xmo5xu/paper_sparks_of_weightspace_programming_llms_can/",
       "related": [
+        {
+          "id": "1t5fb543nts",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/RikiyaT/lm_understand-logs",
+          "title": "RikiyaT/lm_understand-logs",
+          "publishedAt": "2026-10-29T04:17:30.000Z"
+        },
         {
           "id": "qw1i2q10ya",
           "sourceId": "hackernews",
@@ -1221,15 +1287,17 @@
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "reddit-localllama",
+          "github-new",
           "hackernews"
         ],
-        "firstPublishedAt": "2026-11-02T22:26:53.000Z",
+        "firstPublishedAt": "2026-10-29T04:17:30.000Z",
         "metrics": {
-          "points": 130,
-          "comments": 14
+          "stars": 759,
+          "points": 140,
+          "comments": 22
         }
       },
       "ai": {
@@ -1308,6 +1376,29 @@
       "score": 18
     },
     {
+      "id": "23o4lcsep9m",
+      "key": "gh:kkkkhazix/agent-autoloop",
+      "title": "KKKKhazix/agent-autoloop",
+      "url": "https://github.com/KKKKhazix/agent-autoloop",
+      "excerpt": "让你的命令行 Agent 在后台自己接活、自己跟进到底；平时不烦你，遇到拿不准的事才发卡片找你拍板。",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-03T08:02:11.000Z",
+      "firstSeenAt": "2026-11-04T03:01:00.464Z",
+      "day": "2026-11-03",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 19,
+      "metrics": {
+        "stars": 743
+      }
+    },
+    {
       "id": "1w45v3wqvi9",
       "key": "url:openai.com/index/heimstaden",
       "title": "Heimstaden is changing residential real estate management with AI",
@@ -1332,6 +1423,22 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-03T18:26:25.994Z"
       }
+    },
+    {
+      "id": "1ppiazgxss6",
+      "key": "url:openai.com/index/cisco-cyber",
+      "title": "How Cisco defends at machine speed with OpenAI",
+      "url": "https://openai.com/index/cisco-cyber",
+      "excerpt": "Cisco combines network intelligence with OpenAI models to strengthen enterprise security. Learn how it is building more adaptive defenses.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-03T08:00:00.000Z",
+      "firstSeenAt": "2026-11-04T03:01:00.464Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 30
     },
     {
       "id": "zmkdt21sh0",
@@ -1892,12 +1999,30 @@
       "firstSeenAt": "2026-11-03T06:52:17.298Z",
       "day": "2026-11-03",
       "category": "agent",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "Claude Cowork 工程负责人建议删除部分 Skill 以提升效率。",
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-03T06:54:06.383Z"
+      },
+      "related": [
+        {
+          "id": "kig1ngy7f8",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4054834194666624",
+          "title": "Claude前设计负责人转投马斯克，从设计Cowork到操刀Grok Bot",
+          "publishedAt": "2026-11-04T02:38:47.710Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "infoq-cn",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-03T04:49:51.000Z"
       }
     },
     {
@@ -2725,12 +2850,30 @@
       "firstSeenAt": "2026-11-03T03:56:29.161Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "曹操出行护航乌镇峰会，展示主驾无人Robotaxi。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-03T04:00:10.155Z"
+      },
+      "related": [
+        {
+          "id": "i2pf9nhzbo",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4054808683517057",
+          "title": "2026年世界互联网大会蓝皮书发布",
+          "publishedAt": "2026-11-04T02:05:36.877Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "36kr-flash"
+        ],
+        "firstPublishedAt": "2026-11-03T02:25:36.977Z"
       }
     },
     {
@@ -3385,9 +3528,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 23.9,
+      "score": 26.4,
       "metrics": {
-        "upvotes": 79,
+        "upvotes": 112,
         "comments": 1
       },
       "ai": {
@@ -3416,9 +3559,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.5,
+      "score": 24.8,
       "metrics": {
-        "upvotes": 85,
+        "upvotes": 89,
         "comments": 2
       },
       "ai": {
@@ -3447,9 +3590,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.8,
+      "score": 25.1,
       "metrics": {
-        "upvotes": 90,
+        "upvotes": 94,
         "comments": 1
       },
       "ai": {
@@ -3478,9 +3621,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 25.7,
+      "score": 26.4,
       "metrics": {
-        "upvotes": 100,
+        "upvotes": 110,
         "comments": 3
       },
       "ai": {
@@ -3510,10 +3653,10 @@
         "Agent",
         "视频生成"
       ],
-      "score": 22.8,
+      "score": 23.1,
       "metrics": {
-        "upvotes": 67,
-        "comments": 1
+        "upvotes": 70,
+        "comments": 2
       },
       "ai": {
         "title": "视频生成与 Agent Harness 结合",
@@ -3522,6 +3665,23 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-03T18:27:35.491Z"
       }
+    },
+    {
+      "id": "24wt5wqdd1w",
+      "key": "url:openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "title": "OpenAI appoints Jill Hazelbaker as Chief Corporate Affairs Officer",
+      "url": "https://openai.com/index/jill-hazelbaker-chief-corporate-affairs-officer",
+      "excerpt": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-03T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-04T03:01:00.464Z",
+      "day": "2026-11-03",
+      "category": "industry",
+      "score": 30
     },
     {
       "id": "28l5ayisfol",
@@ -3750,7 +3910,7 @@
       "firstSeenAt": "2026-11-03T03:56:29.161Z",
       "day": "2026-11-03",
       "category": "model",
-      "score": 24,
+      "score": 56.1,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbym0/qwen_38_27b_is_sometimes_so_smart_it_scares_me/",
       "ai": {
         "title": "Qwen 3.8 27b在物理问题上的惊人表现",
@@ -3760,6 +3920,14 @@
         "at": "2026-11-03T03:58:04.896Z"
       },
       "related": [
+        {
+          "id": "bl4fbznjv4",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xms6eq/is_qwen_38_27b_still_the_king/",
+          "title": "Is Qwen 3.8 27B still the king",
+          "publishedAt": "2026-11-03T12:53:57.000Z"
+        },
         {
           "id": "bv1gtujsef",
           "sourceId": "simonw",
@@ -3772,15 +3940,25 @@
           "sourceId": "reddit-localllama",
           "sourceName": "r/LocalLLaMA",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/"
+        },
+        {
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50355251"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 5,
         "sources": [
           "reddit-localllama",
-          "simonw"
+          "simonw",
+          "hackernews"
         ],
-        "firstPublishedAt": "2026-11-02T22:42:11.000Z"
+        "firstPublishedAt": "2026-11-02T22:42:11.000Z",
+        "metrics": {
+          "points": 507,
+          "comments": 158
+        }
       }
     },
     {
@@ -3796,10 +3974,10 @@
       "firstSeenAt": "2026-11-03T03:56:29.161Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 30,
+      "score": 30.2,
       "metrics": {
-        "points": 226,
-        "comments": 254
+        "points": 227,
+        "comments": 268
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50344958",
       "ai": {
@@ -3823,10 +4001,10 @@
       "firstSeenAt": "2026-11-03T03:56:29.161Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 34.5,
+      "score": 34.7,
       "metrics": {
-        "points": 390,
-        "comments": 305
+        "points": 397,
+        "comments": 313
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50344919",
       "ai": {
@@ -3850,10 +4028,10 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-03",
       "category": "model",
-      "score": 27.8,
+      "score": 28.6,
       "metrics": {
-        "points": 130,
-        "comments": 14
+        "points": 140,
+        "comments": 22
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50344861",
       "dupOf": "d3l1ld7hnp"
@@ -3943,7 +4121,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 12241,
+        "stars": 13030,
         "starsToday": 3792
       },
       "aiAttempts": 2,
@@ -3971,7 +4149,7 @@
       "categoryLocked": true,
       "score": 29,
       "metrics": {
-        "stars": 47115,
+        "stars": 47305,
         "starsToday": 803
       },
       "aiAttempts": 2,
@@ -4000,10 +4178,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.5,
+      "score": 24.6,
       "metrics": {
-        "stars": 10380,
-        "starsToday": 437
+        "stars": 10563,
+        "starsToday": 438
       },
       "aiAttempts": 2,
       "ai": {
@@ -4058,8 +4236,8 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 38621,
-        "starsToday": 699
+        "stars": 38875,
+        "starsToday": 701
       },
       "aiAttempts": 2,
       "ai": {
@@ -4174,7 +4352,7 @@
       "category": "industry",
       "score": 28.1,
       "metrics": {
-        "points": 196,
+        "points": 197,
         "comments": 173
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50342284",
@@ -4243,7 +4421,7 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 67.3,
+      "score": 67.5,
       "related": [
         {
           "id": "twiqmw4d9y",
@@ -4280,7 +4458,7 @@
         ],
         "firstPublishedAt": "2026-10-29T06:20:59.000Z",
         "metrics": {
-          "stars": 1063,
+          "stars": 1108,
           "points": 196,
           "comments": 123
         }
@@ -4306,10 +4484,10 @@
       "firstSeenAt": "2026-11-03T03:56:29.161Z",
       "day": "2026-11-03",
       "category": "paper",
-      "score": 27.2,
+      "score": 27.3,
       "metrics": {
-        "points": 180,
-        "comments": 148
+        "points": 182,
+        "comments": 153
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50341736",
       "ai": {
@@ -4338,7 +4516,7 @@
       ],
       "score": 21.3,
       "metrics": {
-        "points": 107,
+        "points": 108,
         "comments": 30
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50341334",
@@ -4366,8 +4544,8 @@
       "category": "model",
       "score": 50,
       "metrics": {
-        "points": 2905,
-        "comments": 874
+        "points": 2924,
+        "comments": 879
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50341174",
       "alsoOn": [
@@ -4396,8 +4574,8 @@
         ],
         "firstPublishedAt": "2026-11-02T18:21:28.000Z",
         "metrics": {
-          "points": 2905,
-          "comments": 874
+          "points": 2924,
+          "comments": 879
         }
       }
     },
@@ -4643,10 +4821,10 @@
       "firstSeenAt": "2026-11-02T20:45:22.918Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 33.2,
+      "score": 33.3,
       "metrics": {
-        "points": 343,
-        "comments": 266
+        "points": 349,
+        "comments": 268
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50339494",
       "aiAttempts": 1,
