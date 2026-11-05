@@ -181,7 +181,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-26",
       "category": "model",
-      "score": 36,
+      "score": 88.3,
       "related": [
         {
           "id": "fr9s935ni1",
@@ -190,15 +190,35 @@
           "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
           "title": "Introducing Kimi K3.1 Pro",
           "publishedAt": "2026-10-23T19:40:54.000Z"
+        },
+        {
+          "id": "1pkwmt2w928",
+          "sourceId": "hf-models",
+          "sourceName": "HF 热门模型",
+          "url": "https://news.ycombinator.com/item?id=50366999",
+          "title": "moonshotai/Kimi-K3.1-Pro",
+          "publishedAt": "2026-11-02T04:13:51.000Z"
+        },
+        {
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnrhvb/kimik31pro_is_now_openweights/"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 4,
         "sources": [
           "geekpark",
-          "simonw"
+          "simonw",
+          "hf-models",
+          "reddit-localllama"
         ],
-        "firstPublishedAt": "2026-10-23T19:40:54.000Z"
+        "firstPublishedAt": "2026-10-23T19:40:54.000Z",
+        "metrics": {
+          "likes": 556,
+          "points": 413,
+          "comments": 114
+        }
       }
     },
     {

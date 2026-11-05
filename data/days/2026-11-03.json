@@ -82,8 +82,8 @@
       "category": "industry",
       "score": 24.3,
       "metrics": {
-        "points": 124,
-        "comments": 116
+        "points": 125,
+        "comments": 117
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50353300",
       "aiAttempts": 1,
@@ -110,8 +110,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 632,
-        "comments": 437
+        "points": 662,
+        "comments": 461
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50353192",
       "ai": {
@@ -240,10 +240,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 34,
+      "score": 34.1,
       "metrics": {
-        "points": 494,
-        "comments": 148
+        "points": 518,
+        "comments": 154
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50352757",
       "ai": {
@@ -290,9 +290,9 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 26.3,
+      "score": 26.4,
       "metrics": {
-        "points": 175,
+        "points": 177,
         "comments": 108
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50352257",
@@ -607,7 +607,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 34,
+      "score": 42,
       "related": [
         {
           "id": "13c4pdi42x7",
@@ -624,14 +624,23 @@
           "url": "https://www.leiphone.com/category/industrynews/NVxn28w1vAG2qbFy.html",
           "title": "AI教AI开车！百度Apollo World世界模型叩开无人驾驶产业“AGI时刻”",
           "publishedAt": "2026-11-03T13:59:00.000Z"
+        },
+        {
+          "id": "tsc4t8na9i",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-04-15",
+          "title": "AI开始教AI开车！无人驾驶的下一场竞赛，在虚拟世界打响",
+          "publishedAt": "2026-11-04T14:34:00.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "36kr-flash",
           "infoq-cn",
-          "leiphone"
+          "leiphone",
+          "jiqizhixin"
         ],
         "firstPublishedAt": "2026-11-03T12:49:26.210Z"
       }
@@ -787,8 +796,8 @@
       "category": "model",
       "score": 40.7,
       "metrics": {
-        "points": 998,
-        "comments": 203
+        "points": 1026,
+        "comments": 207
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50351111",
       "dupOf": "zqi18ojs4h"
@@ -1123,7 +1132,25 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "12dqfxro2ff",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4056062592734080",
+          "title": "网络安全的AlphaGo时刻，或从这466场Agent对局开始",
+          "publishedAt": "2026-11-05T00:13:19.935Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-03T10:31:00.000Z"
+      }
     },
     {
       "id": "1qwoup0sdkn",
@@ -1213,8 +1240,8 @@
       "category": "industry",
       "score": 27.8,
       "metrics": {
-        "points": 191,
-        "comments": 161
+        "points": 192,
+        "comments": 164
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50350004",
       "ai": {
@@ -1347,7 +1374,7 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-03",
       "category": "paper",
-      "score": 48.5,
+      "score": 49.2,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xmo5xu/paper_sparks_of_weightspace_programming_llms_can/",
       "related": [
         {
@@ -1376,9 +1403,9 @@
         ],
         "firstPublishedAt": "2026-10-29T04:17:30.000Z",
         "metrics": {
-          "stars": 852,
-          "points": 144,
-          "comments": 22
+          "stars": 936,
+          "points": 147,
+          "comments": 23
         }
       },
       "ai": {
@@ -1474,9 +1501,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.7,
+      "score": 26.6,
       "metrics": {
-        "stars": 2013
+        "stars": 2686
       }
     },
     {
@@ -2992,7 +3019,7 @@
       "firstSeenAt": "2026-11-03T03:56:29.161Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 34,
+      "score": 42,
       "ai": {
         "summary": "曹操出行护航乌镇峰会，展示主驾无人Robotaxi。",
         "category": "industry",
@@ -3015,14 +3042,23 @@
           "url": "https://www.leiphone.com/category/industrynews/hRlEqJpWm8oawq9h.html",
           "title": "追觅科技亮相2026世界互联网大会人工智能嘉年华，以AI技术创新赋能智慧生活",
           "publishedAt": "2026-11-04T03:06:00.000Z"
+        },
+        {
+          "id": "17ehjrt4k5b",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/507688.html",
+          "title": "太初元碁入选2026年世界互联网大会领先科技奖收录成果集《科技之魅》",
+          "publishedAt": "2026-11-05T01:42:43.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "36kr-ai",
           "36kr-flash",
-          "leiphone"
+          "leiphone",
+          "qbitai"
         ],
         "firstPublishedAt": "2026-11-03T02:25:36.977Z"
       }
@@ -3679,10 +3715,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 27.3,
+      "score": 27.8,
       "metrics": {
-        "upvotes": 127,
-        "comments": 1
+        "upvotes": 134,
+        "comments": 2
       },
       "ai": {
         "title": "大语言模型驱动的代理计算机图形学进展",
@@ -3710,10 +3746,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25.2,
+      "score": 25.4,
       "metrics": {
-        "upvotes": 94,
-        "comments": 2
+        "upvotes": 95,
+        "comments": 4
       },
       "ai": {
         "title": "CoworkOS：扩展 Agent 同事以实现现实世界自动化",
@@ -3741,10 +3777,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25.3,
+      "score": 25.4,
       "metrics": {
         "upvotes": 97,
-        "comments": 1
+        "comments": 2
       },
       "ai": {
         "title": "CUA-Master：通过开放世界递进改进扩展计算机使用 Agent",
@@ -3772,10 +3808,10 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 27.2,
+      "score": 27.3,
       "metrics": {
-        "upvotes": 121,
-        "comments": 5
+        "upvotes": 122,
+        "comments": 6
       },
       "ai": {
         "title": "Wave Forcing：实现光速流式视频生成",
@@ -3804,9 +3840,9 @@
         "Agent",
         "视频生成"
       ],
-      "score": 23.4,
+      "score": 23.5,
       "metrics": {
-        "upvotes": 73,
+        "upvotes": 74,
         "comments": 2
       },
       "ai": {
@@ -4068,7 +4104,7 @@
       "firstSeenAt": "2026-11-03T03:56:29.161Z",
       "day": "2026-11-03",
       "category": "model",
-      "score": 56.6,
+      "score": 56.8,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xmbym0/qwen_38_27b_is_sometimes_so_smart_it_scares_me/",
       "ai": {
         "title": "Qwen 3.8 27b在物理问题上的惊人表现",
@@ -4114,8 +4150,8 @@
         ],
         "firstPublishedAt": "2026-11-02T22:42:11.000Z",
         "metrics": {
-          "points": 663,
-          "comments": 193
+          "points": 719,
+          "comments": 210
         }
       }
     },
@@ -4134,8 +4170,8 @@
       "category": "industry",
       "score": 30.2,
       "metrics": {
-        "points": 227,
-        "comments": 272
+        "points": 228,
+        "comments": 274
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50344958",
       "ai": {
@@ -4159,10 +4195,10 @@
       "firstSeenAt": "2026-11-03T03:56:29.161Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 34.8,
+      "score": 34.9,
       "metrics": {
-        "points": 400,
-        "comments": 319
+        "points": 404,
+        "comments": 321
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50344919",
       "ai": {
@@ -4186,10 +4222,10 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-03",
       "category": "model",
-      "score": 28.8,
+      "score": 29,
       "metrics": {
-        "points": 144,
-        "comments": 22
+        "points": 147,
+        "comments": 23
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50344861",
       "dupOf": "d3l1ld7hnp"
@@ -4279,7 +4315,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 14127,
+        "stars": 15395,
         "starsToday": 3792
       },
       "aiAttempts": 2,
@@ -4336,10 +4372,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25.8,
+      "score": 25.9,
       "metrics": {
-        "stars": 10803,
-        "starsToday": 524
+        "stars": 11107,
+        "starsToday": 531
       },
       "aiAttempts": 2,
       "ai": {
@@ -4508,10 +4544,10 @@
       "firstSeenAt": "2026-11-03T03:56:29.161Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 28.1,
+      "score": 28.2,
       "metrics": {
-        "points": 197,
-        "comments": 173
+        "points": 199,
+        "comments": 175
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50342284",
       "ai": {
@@ -4579,7 +4615,7 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 67.7,
+      "score": 67.9,
       "related": [
         {
           "id": "twiqmw4d9y",
@@ -4616,7 +4652,7 @@
         ],
         "firstPublishedAt": "2026-10-29T06:20:59.000Z",
         "metrics": {
-          "stars": 1136,
+          "stars": 1183,
           "points": 196,
           "comments": 123
         }
@@ -4642,10 +4678,10 @@
       "firstSeenAt": "2026-11-03T03:56:29.161Z",
       "day": "2026-11-03",
       "category": "paper",
-      "score": 27.4,
+      "score": 27.5,
       "metrics": {
-        "points": 183,
-        "comments": 155
+        "points": 185,
+        "comments": 159
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50341736",
       "ai": {
@@ -4672,10 +4708,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 21.3,
+      "score": 21.4,
       "metrics": {
         "points": 108,
-        "comments": 30
+        "comments": 31
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50341334",
       "ai": {
@@ -4702,8 +4738,8 @@
       "category": "model",
       "score": 50,
       "metrics": {
-        "points": 2931,
-        "comments": 882
+        "points": 2944,
+        "comments": 890
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50341174",
       "alsoOn": [
@@ -4961,7 +4997,7 @@
       "score": 33.4,
       "metrics": {
         "points": 352,
-        "comments": 269
+        "comments": 270
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50339494",
       "aiAttempts": 1,
@@ -5054,13 +5090,31 @@
       "firstSeenAt": "2026-11-02T20:45:22.918Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 15,
+      "score": 23,
       "ai": {
         "title": "马斯克限制 Grok Bot 使用量",
         "summary": "马斯克因成本过高限制 Grok Bot 使用量，称其增长过快。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-02T20:46:38.019Z"
+      },
+      "related": [
+        {
+          "id": "1iy9ek0y51b",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1026878/not-even-good-at-being-rich",
+          "title": "17 better ways Elon Musk could have wasted $446 million",
+          "publishedAt": "2026-11-04T21:45:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "techcrunch-ai",
+          "verge-ai"
+        ],
+        "firstPublishedAt": "2026-11-02T16:23:21.000Z"
       }
     }
   ]

@@ -1,6 +1,38 @@
 {
   "history": [
     {
+      "startedAt": "2026-11-05T03:29:14.968Z",
+      "finishedAt": "2026-11-05T03:33:48.206Z",
+      "durationMs": 273238,
+      "trigger": "schedule",
+      "scheduledFor": "2026-11-04T23:13:00.000Z",
+      "delayMinutes": 256,
+      "news": {
+        "fetched": 888,
+        "relevant": 466,
+        "added": 163
+      },
+      "ai": {
+        "enabled": true,
+        "titles": 0,
+        "overview": "fallback",
+        "requests": 3,
+        "error": "英文标题：模型繁忙：HTTP 429 · 1305 该模型当前访问量过大，请您稍后再试；市场概览：模型繁忙：HTTP 429 · 1305 该模型当前访问量过大，请您稍后再试"
+      },
+      "health": {
+        "ok": true,
+        "warn": 0,
+        "minor": 0
+      },
+      "alerts": 17,
+      "suggestions": 8,
+      "notify": {
+        "result": "sent",
+        "channel": "serverchan",
+        "title": "投资日报：1 项重大事件"
+      }
+    },
+    {
       "startedAt": "2026-11-04T13:15:12.071Z",
       "finishedAt": "2026-11-04T13:20:35.315Z",
       "durationMs": 323244,
@@ -606,10 +638,12 @@
     }
   ],
   "lastRun": {
-    "startedAt": "2026-11-04T13:15:12.071Z",
-    "finishedAt": "2026-11-04T13:20:35.315Z",
-    "durationMs": 323244,
-    "trigger": "push",
+    "startedAt": "2026-11-05T03:29:14.968Z",
+    "finishedAt": "2026-11-05T03:33:48.206Z",
+    "durationMs": 273238,
+    "trigger": "schedule",
+    "scheduledFor": "2026-11-04T23:13:00.000Z",
+    "delayMinutes": 256,
     "sources": [
       {
         "id": "eastmoney-quotes",
@@ -618,15 +652,15 @@
         "ok": true,
         "count": 21,
         "total": 21,
-        "ms": 1007
+        "ms": 1112
       },
       {
         "id": "treasury",
         "name": "美国财政部实际利率",
         "kind": "行情",
         "ok": true,
-        "count": 211,
-        "ms": 459
+        "count": 212,
+        "ms": 669
       },
       {
         "id": "danjuan",
@@ -634,7 +668,7 @@
         "kind": "估值",
         "ok": true,
         "count": 63,
-        "ms": 784
+        "ms": 971
       },
       {
         "id": "csindex",
@@ -643,7 +677,7 @@
         "ok": true,
         "count": 2,
         "total": 2,
-        "ms": 2103
+        "ms": 3237
       },
       {
         "id": "fund-nav",
@@ -652,7 +686,7 @@
         "ok": true,
         "count": 26,
         "total": 26,
-        "ms": 1685
+        "ms": 2523
       },
       {
         "id": "fund-fees",
@@ -661,15 +695,15 @@
         "ok": true,
         "count": 26,
         "total": 26,
-        "ms": 2367
+        "ms": 1844
       },
       {
         "id": "wscn-global",
         "name": "华尔街见闻",
         "kind": "新闻",
         "ok": true,
-        "count": 139,
-        "ms": 29900
+        "count": 150,
+        "ms": 16500
       },
       {
         "id": "wscn-gold",
@@ -677,15 +711,15 @@
         "kind": "新闻",
         "ok": true,
         "count": 100,
-        "ms": 16656
+        "ms": 1123
       },
       {
         "id": "wscn-us",
         "name": "华尔街见闻·美股",
         "kind": "新闻",
         "ok": true,
-        "count": 29,
-        "ms": 16394
+        "count": 10,
+        "ms": 1228
       },
       {
         "id": "cls",
@@ -693,7 +727,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 100,
-        "ms": 1613
+        "ms": 1802
       },
       {
         "id": "em-focus",
@@ -701,7 +735,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 100,
-        "ms": 22699
+        "ms": 1212
       },
       {
         "id": "em-pboc",
@@ -709,7 +743,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 50,
-        "ms": 1051
+        "ms": 995
       },
       {
         "id": "em-cb",
@@ -717,7 +751,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 50,
-        "ms": 1069
+        "ms": 1102
       },
       {
         "id": "em-commodity",
@@ -725,7 +759,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 50,
-        "ms": 604
+        "ms": 1104
       },
       {
         "id": "sina",
@@ -733,7 +767,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 150,
-        "ms": 14634
+        "ms": 11470
       },
       {
         "id": "cnbc-economy",
@@ -741,7 +775,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 30,
-        "ms": 218
+        "ms": 298
       },
       {
         "id": "cnbc-top",
@@ -749,7 +783,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 30,
-        "ms": 218
+        "ms": 227
       },
       {
         "id": "ft-markets",
@@ -757,7 +791,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 25,
-        "ms": 428
+        "ms": 403
       },
       {
         "id": "marketwatch",
@@ -765,7 +799,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 10,
-        "ms": 44
+        "ms": 197
       },
       {
         "id": "fed",
@@ -773,7 +807,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 15,
-        "ms": 88
+        "ms": 77
       },
       {
         "id": "ecb",
@@ -781,7 +815,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 3,
-        "ms": 752
+        "ms": 610
       },
       {
         "id": "nbs",
@@ -789,15 +823,15 @@
         "kind": "新闻",
         "ok": true,
         "count": 15,
-        "ms": 19042
+        "ms": 13565
       },
       {
         "id": "wscn-calendar",
         "name": "华尔街见闻财经日历",
         "kind": "日历",
         "ok": true,
-        "count": 15,
-        "ms": 6809
+        "count": 14,
+        "ms": 817
       },
       {
         "id": "fomc",
@@ -805,7 +839,7 @@
         "kind": "日历",
         "ok": true,
         "count": 4,
-        "ms": 69
+        "ms": 106
       },
       {
         "id": "fund-notices",
@@ -814,7 +848,7 @@
         "ok": true,
         "count": 26,
         "total": 26,
-        "ms": 7473
+        "ms": 4573
       },
       {
         "id": "peer-status",
@@ -823,13 +857,13 @@
         "ok": true,
         "count": 19,
         "total": 19,
-        "ms": 2243
+        "ms": 2014
       }
     ],
     "news": {
-      "fetched": 896,
-      "relevant": 459,
-      "added": 146
+      "fetched": 888,
+      "relevant": 466,
+      "added": 163
     },
     "ai": {
       "enabled": true,
@@ -843,7 +877,7 @@
       "warn": 0,
       "minor": 0
     },
-    "alerts": 16,
+    "alerts": 17,
     "suggestions": 8,
     "notify": {
       "result": "sent",

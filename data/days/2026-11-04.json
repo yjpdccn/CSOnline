@@ -2,6 +2,323 @@
   "day": "2026-11-04",
   "items": [
     {
+      "id": "y7loy2c2d",
+      "key": "url:theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
+      "title": "Uber only fulfilled 4 rides from AI agents last quarter",
+      "url": "https://www.theverge.com/transportation/1026306/uber-ai-agents-q3-earnings-disintermediation",
+      "excerpt": "AI agents won't be stealing Uber's lunch any time soon. Only four rides were arranged by third-party AI agents during the third quarter of 2026, Uber executives disclosed during an earnings call this morning. The volume of Uber Eats orders fulfilled by AI agents was a little hig…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-04T15:58:45.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15
+    },
+    {
+      "id": "zvr90mvrul",
+      "key": "url:the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights",
+      "title": "GPT-6 Astra sees the matrix and reprograms other AI models directly through their weights",
+      "url": "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/",
+      "excerpt": "MIT researchers show that OpenAI's GPT-6 Astra can read and deliberately rewrite the weights of other AI models without traditional training. In one experiment, Astra boosted a Qwen model's math accuracy from 7.9 to 48.1 percent by changing just 0.016 percent of its weights. The…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-04T15:44:44.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "score": 21,
+      "dupOf": "20py2by5tcf"
+    },
+    {
+      "id": "7dv6hacz44",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xnr6zd/my_gift_to_the_mods",
+      "title": "My gift to the mods:",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnr6zd/my_gift_to_the_mods/",
+      "excerpt": "Seriously tho, can we just have a mega thread for vibeforked engine releases from now on? [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T15:32:17.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnr6zd/my_gift_to_the_mods/"
+    },
+    {
+      "id": "14nhg9v7yby",
+      "key": "url:simonwillison.net/2026/Nov/4/datasette-llm",
+      "title": "datasette-llm 0.1a10",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "excerpt": "Release: datasette-llm 0.1a10 Fixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration. Tags: datasette, llm",
+      "lang": "en",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "sourceGroup": "blogger",
+      "publishedAt": "2026-11-04T15:26:02.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 14
+    },
+    {
+      "id": "ce3c755c53",
+      "key": "url:the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights",
+      "title": "Anthropic's new prototype proves which model wrote an AI response without exposing its weights",
+      "url": "https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights/",
+      "excerpt": "Anthropic has released FlashProve, a research prototype that uses cryptography to verify whether an AI response actually came from the claimed model. The system still has significant limitations. The article Anthropic's new prototype proves which model wrote an AI response witho…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-04T15:23:49.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "score": 21
+    },
+    {
+      "id": "1ig27lwzrbe",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xnqxlq/i_am_big_enough_to_admit_that_this_is_me",
+      "title": "I am big enough to admit that this is me",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnqxlq/i_am_big_enough_to_admit_that_this_is_me/",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T15:21:55.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnqxlq/i_am_big_enough_to_admit_that_this_is_me/"
+    },
+    {
+      "id": "10rmacxjjx2",
+      "key": "url:theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
+      "title": "Sam Altman addresses RAM comments: People should ‘put as much as they want in their computers’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
+      "excerpt": "OpenAI CEO Sam Altman spent election night defending his position on PC RAM purchases. He changed his name on X to \"Ram Altman\" in response to another user's comment, saying, \"i actually do want the world to have tons of memory and people to put as much as they want in their com…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-04T14:46:01.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 15
+    },
+    {
+      "id": "1crmya4fblw",
+      "key": "hn:50366117",
+      "title": "Ask HN: What's your current AI agentic setup?",
+      "url": "https://news.ycombinator.com/item?id=50366117",
+      "excerpt": "I'm curious how people on HN are using AI day to day, and came up with a list of questions I thought could be interesting to know. No need to answer every question of course, just wanted to get a gut feel how people are using AI.1) What AI subscriptions are you personally paying…",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T14:37:22.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 26.6,
+      "metrics": {
+        "points": 154,
+        "comments": 181
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50366117"
+    },
+    {
+      "id": "tsc4t8na9i",
+      "key": "url:jiqizhixin.com/articles/2026-11-04-15",
+      "title": "AI开始教AI开车！无人驾驶的下一场竞赛，在虚拟世界打响",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-04-15",
+      "excerpt": "编辑｜杜伟无人驾驶的世界已经这么疯狂了吗？无人车除了在真实道路上接受测试，如今还可以进入 AI 构建的虚拟城市，一天完成 10 万公里的虚拟路测。在这里，前车可能突然刹车，旁边车辆随时准备并线，行人也可能从遮挡处出现。无人车观察周围情况，判断下一步怎么走。它一旦减速、加速或变道，周围车辆和行人...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T14:34:00.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "25co1d88u3r"
+    },
+    {
+      "id": "1483bkrgfpj",
+      "key": "url:jiqizhixin.com/articles/2026-11-04-14",
+      "title": "决策模型何时需要思考？StartLux-Decision的按需推理与概率校准",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-04-14",
+      "excerpt": "经过决策训练的语言模型，重新打开生成开关后，未必还能稳定地推理。在研究者的实验中，4B 模型在约 40% 的问题上几乎不生成推理；9B 模型则走向另一端，在约 70% 的问题上持续生成，直到触及长度上限。这两种相反的失败模式提示：让决策模型从「直接判断」转向「逐步计算」，并非一次开关操作。除了...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T14:31:00.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1zzv2dhuc2z",
+      "key": "url:openai.com/index/openai-to-acquire-pierre",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "excerpt": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-04T14:30:00.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 70.5,
+      "metrics": {
+        "points": 207,
+        "comments": 62
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50366863",
+      "alsoOn": [
+        {
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50366863"
+        }
+      ],
+      "related": [
+        {
+          "id": "atpcs4w7ew",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/openai-acquires-pierre-computer-company-to-make-git-keep-up-with-ai-coding-agents/",
+          "title": "OpenAI acquires Pierre Computer Company to make Git keep up with AI coding agents",
+          "publishedAt": "2026-11-04T18:41:03.000Z"
+        },
+        {
+          "id": "ag11cymrts",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4056018662282368",
+          "title": "刚刚，OpenAI收购Pierre，Codex要对Git下手？",
+          "publishedAt": "2026-11-04T23:42:06.342Z"
+        },
+        {
+          "id": "2ahzhlzh79f",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-05",
+          "title": "刚刚，OpenAI收购Pierre，Codex要对Git下手？",
+          "publishedAt": "2026-11-05T02:19:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 5,
+        "sources": [
+          "openai",
+          "hackernews",
+          "the-decoder",
+          "36kr-ai",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-04T14:30:00.000Z",
+        "metrics": {
+          "points": 207,
+          "comments": 62
+        }
+      }
+    },
+    {
+      "id": "1ve4vtm8pac",
+      "key": "url:36kr.com/p/4055330063766663",
+      "title": "当AI不再「夸夸其谈」：决策模型爆红，物理世界需要端侧「快判断」",
+      "url": "https://36kr.com/p/4055330063766663",
+      "excerpt": "决策模型兴起，端侧多模态赋能物理 AI。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T14:00:00.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "gg2o31xcj6",
+      "key": "url:infoq.cn/article/VUmIUJ0ST9xIlPoViXmz",
+      "title": "Token 暴涨 5000 倍之后，企业 Agent 落地还卡在哪里？",
+      "url": "https://www.infoq.cn/article/VUmIUJ0ST9xIlPoViXmz?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T13:56:58.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "hx7hy8fhec",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xnoqyy/i_removed_85_of_gemmas_weights_and_it_is_mostly",
+      "title": "I removed 85% of gemma's weights (and it is mostly fine)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnoqyy/i_removed_85_of_gemmas_weights_and_it_is_mostly/",
+      "excerpt": "I pruned Gemma 4 26B-A4B, an MoE model, down to 15% of its original size, and the model still does great on one narrow task. It gets 92% agreement with the original on a classification task. That’s close to how often the 12B agrees with the 26B on the same ticks, which is 90%. T…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T13:53:30.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnoqyy/i_removed_85_of_gemmas_weights_and_it_is_mostly/"
+    },
+    {
+      "id": "4acalsrc3o",
+      "key": "url:36kr.com/p/4055350289699717",
+      "title": "如果显卡、内存都被AI抢走，凭什么还需要AI？",
+      "url": "https://36kr.com/p/4055350289699717",
+      "excerpt": "奥尔特曼的这番言论，惹怒了全球玩家。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-04T13:16:22.282Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 18
+    },
+    {
       "id": "1hh2qv4al57",
       "key": "gh:nvidia/auto-ontology",
       "title": "NVIDIA/auto-ontology",
@@ -21,7 +338,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 3806,
+        "stars": 5367,
         "starsToday": 2053
       },
       "ai": {
@@ -47,10 +364,10 @@
       "day": "2026-11-04",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 27,
+      "score": 27.1,
       "metrics": {
-        "stars": 138603,
-        "starsToday": 615
+        "stars": 139132,
+        "starsToday": 617
       },
       "ai": {
         "title": "MoneyPrinterTurbo：一键生成高清短视频",
@@ -78,10 +395,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 21.7,
+      "score": 21.8,
       "metrics": {
-        "stars": 139054,
-        "starsToday": 285
+        "stars": 139409,
+        "starsToday": 290
       },
       "ai": {
         "title": "garrytan/gstack：Claude Code 完整开发环境配置",
@@ -108,7 +425,7 @@
       "categoryLocked": true,
       "score": 16.9,
       "metrics": {
-        "stars": 12303,
+        "stars": 12595,
         "starsToday": 121
       },
       "ai": {
@@ -140,7 +457,7 @@
       ],
       "score": 20.2,
       "metrics": {
-        "stars": 2117,
+        "stars": 2513,
         "starsToday": 224
       },
       "dupOf": "e1edve6ctg"
@@ -179,6 +496,24 @@
       "day": "2026-11-04",
       "category": "industry",
       "score": 18
+    },
+    {
+      "id": "1z7qdsvo045",
+      "key": "url:maccus.fr/en/tencent-hy4-ai-model",
+      "title": "Tencent says Hy4 ranks among the best open models. Its weights aren't out yet",
+      "url": "https://maccus.fr/en/tencent-hy4-ai-model/",
+      "excerpt": "From the article : On computer use, Tencent’s table puts Hy4 close to Claude Opus 5.5 and Kimi K3.1 Pro. [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T13:07:26.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnnr3k/tencent_says_hy4_ranks_among_the_best_open_models/",
+      "dupOf": "1m6ivmzzr2x"
     },
     {
       "id": "1jrhjxsjois",
@@ -490,10 +825,10 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 26.2,
+      "score": 36,
       "metrics": {
-        "points": 183,
-        "comments": 85
+        "points": 1111,
+        "comments": 643
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50364336",
       "ai": {
@@ -671,10 +1006,10 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 23.2,
+      "score": 32.5,
       "metrics": {
-        "points": 119,
-        "comments": 77
+        "points": 302,
+        "comments": 297
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50363554",
       "ai": {
@@ -699,10 +1034,10 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 23.6,
+      "score": 34.2,
       "metrics": {
-        "points": 146,
-        "comments": 42
+        "points": 634,
+        "comments": 164
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50363461",
       "ai": {
@@ -747,7 +1082,7 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 49,
+      "score": 57,
       "related": [
         {
           "id": "tw2myfezau",
@@ -756,18 +1091,27 @@
           "url": "https://news.ycombinator.com/item?id=50353192",
           "title": "Google 将关闭拒绝 AI 的学校搜索",
           "publishedAt": "2026-11-03T15:25:47.000Z"
+        },
+        {
+          "id": "1r6xir6y9bp",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/04/google-faces-backlash-for-plan-that-would-turn-off-search-for-schools-that-restrict-ai/",
+          "title": "Google faces backlash for plan that would turn off Search for schools that restrict AI",
+          "publishedAt": "2026-11-04T16:17:22.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "the-decoder",
-          "hackernews"
+          "hackernews",
+          "techcrunch-ai"
         ],
         "firstPublishedAt": "2026-11-03T15:25:47.000Z",
         "metrics": {
-          "points": 632,
-          "comments": 437
+          "points": 662,
+          "comments": 461
         }
       },
       "ai": {
@@ -904,6 +1248,23 @@
       "day": "2026-11-04",
       "category": "industry",
       "score": 18
+    },
+    {
+      "id": "27v80rtb1zq",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b",
+      "title": "Using Strata IQ4 Qwen Flash to edit Qwen 3.5 0.6B weight based on MIT CSAIL",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b/",
+      "excerpt": "EDIT : NON COMPRESS GRAPH : https://n.uguu.se/ojTfpwwD.png Because why not. I did this since many weight editing trials using closed model. so i want to try local editing local model. Preamble: DeepSeek Harness Creator Mode Strata IQ4 Qwen Flash Next 3090, Xeon E5, 96G (DDR4 240…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T09:28:48.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b/"
     },
     {
       "id": "227wimrmxbf",
@@ -1081,10 +1442,10 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 27.5,
+      "score": 35.4,
       "metrics": {
-        "points": 207,
-        "comments": 108
+        "points": 593,
+        "comments": 274
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50362905",
       "ai": {
@@ -1142,8 +1503,8 @@
         ],
         "firstPublishedAt": "2026-11-02T18:21:28.000Z",
         "metrics": {
-          "points": 2931,
-          "comments": 882
+          "points": 2944,
+          "comments": 890
         }
       }
     },
@@ -1194,6 +1555,22 @@
       "category": "industry",
       "score": 18,
       "dupOf": "776rqrdy8j"
+    },
+    {
+      "id": "toygobqpj6",
+      "key": "url:openai.com/index/a-thousand-fewer-paths-to-root",
+      "title": "A thousand fewer paths to root",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "excerpt": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-04T08:00:00.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 30
     },
     {
       "id": "1xm74x1y06b",
@@ -1335,7 +1712,25 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "1le93ktm56a",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4056017561392263",
+          "title": "席宁、周炜、骆怡航同台：世界模型的下一步怎么走？",
+          "publishedAt": "2026-11-05T00:33:00.565Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "infoq-cn",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-04T07:17:15.000Z"
+      }
     },
     {
       "id": "1c8qhdkyn8v",
@@ -1351,6 +1746,22 @@
       "day": "2026-11-04",
       "category": "industry",
       "score": 18
+    },
+    {
+      "id": "2dubaq9an8s",
+      "key": "url:openai.com/index/daybreak-red-aws-govcloud",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "excerpt": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-04T07:00:00.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "score": 30
     },
     {
       "id": "1bmqvyelhw1",
@@ -1417,7 +1828,7 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 36,
+      "score": 52,
       "related": [
         {
           "id": "1hq2gs0d7oj",
@@ -1426,13 +1837,48 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnhzbz/introducing_hy4_open_weights_soon/",
           "title": "Introducing Hy4 (open weights soon)",
           "publishedAt": "2026-11-04T07:23:10.000Z"
+        },
+        {
+          "id": "1z7qdsvo045",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnnr3k/tencent_says_hy4_ranks_among_the_best_open_models/",
+          "title": "Tencent says Hy4 ranks among the best open models. Its weights aren't out yet",
+          "publishedAt": "2026-11-04T13:07:26.000Z"
+        },
+        {
+          "id": "2cztnmk9ab7",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4055382022117248",
+          "title": "混元Hy4实测：基模有了视觉、Agen能跨应用，干活能力到底如何？",
+          "publishedAt": "2026-11-04T23:42:50.280Z"
+        },
+        {
+          "id": "11xuprbupam",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4056155946849414",
+          "title": "腾讯混元Hy4上线，TokenHub调用限时2.5折起",
+          "publishedAt": "2026-11-05T01:02:39.382Z"
+        },
+        {
+          "id": "2c2is5mstoo",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/C61Q16LQIDq45l0iCCzV?utm_source=rss&utm_medium=article",
+          "title": "混元 Hy4 实测：腾讯的产品基因，模型继承了几分？",
+          "publishedAt": "2026-11-05T01:44:25.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 6,
         "sources": [
           "jiqizhixin",
-          "reddit-localllama"
+          "reddit-localllama",
+          "36kr-ai",
+          "36kr-flash",
+          "infoq-cn"
         ],
         "firstPublishedAt": "2026-11-04T06:35:00.000Z"
       }
@@ -2071,6 +2517,25 @@
       }
     },
     {
+      "id": "kllr7wvqh7",
+      "key": "url:simonwillison.net/2026/Nov/4/datasette-apps",
+      "title": "datasette-apps 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+      "excerpt": "Release: datasette-apps 0.3a0 Datasette Apps adds support for hosting and editing custom HTML applications inside of Datasette. These can be created by hand, but it's easier to create them using LLMs via Datasette Agent. This release improves that integration: Apps can now be ta…",
+      "lang": "en",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "sourceGroup": "blogger",
+      "publishedAt": "2026-11-04T00:29:36.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 14
+    },
+    {
       "id": "60hx6zcg5b",
       "key": "url:geekpark.net/news/373427",
       "title": "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道",
@@ -2269,10 +2734,10 @@
       "keywords": [
         "推理模型"
       ],
-      "score": 22.5,
+      "score": 22.9,
       "metrics": {
-        "upvotes": 62,
-        "comments": 6
+        "upvotes": 65,
+        "comments": 7
       },
       "ai": {
         "title": "Think Less, Locally：推理压缩的局部偏好学习",
@@ -2297,10 +2762,10 @@
       "day": "2026-11-04",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.2,
+      "score": 23,
       "metrics": {
-        "upvotes": 61,
-        "comments": 1
+        "upvotes": 69,
+        "comments": 2
       },
       "ai": {
         "title": "Words Caught in the Heart：心理治疗中的个性化表达模拟",
@@ -2328,7 +2793,7 @@
       "score": 24.6,
       "metrics": {
         "upvotes": 87,
-        "comments": 1
+        "comments": 2
       },
       "ai": {
         "title": "Route Anything：通用 AI 系统的模型与策略路由研究",
@@ -2353,10 +2818,10 @@
       "day": "2026-11-04",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.4,
+      "score": 22.6,
       "metrics": {
-        "upvotes": 54,
-        "comments": 1
+        "upvotes": 65,
+        "comments": 2
       },
       "ai": {
         "title": "MoviEdit：长形式多镜头视频编辑框架",
@@ -2364,6 +2829,89 @@
         "category": "multimodal",
         "model": "glm-4.7-flash",
         "at": "2026-11-04T13:16:59.451Z"
+      }
+    },
+    {
+      "id": "1susj8vni4z",
+      "key": "url:openai.com/index/introducing-images-2-6",
+      "title": "Introducing Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6",
+      "excerpt": "Images 2.6 brings faster image generation, GIF creation, more precise editing, and new API controls across ChatGPT, Codex, and the API.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "multimodal",
+      "keywords": [
+        "AI 编程",
+        "图像生成"
+      ],
+      "score": 34
+    },
+    {
+      "id": "1qs97aesq6d",
+      "key": "url:openai.com/index/devrev-enterprise-self-service",
+      "title": "DevRev delivers autonomous self-service with GPT-6.1 Sol",
+      "url": "https://openai.com/index/devrev-enterprise-self-service",
+      "excerpt": "DevRev uses GPT-6.1 Sol to power Computer and Operator, balancing reasoning, speed, and cost for enterprise service.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "model",
+      "score": 36
+    },
+    {
+      "id": "16szvbwtwu0",
+      "key": "arxiv:2611.05377",
+      "title": "DreamX: Video Diffusion Model is a Universal Latent Action Learner",
+      "url": "https://huggingface.co/papers/2611.05377",
+      "excerpt": "DreamX leverages a pretrained video diffusion model to learn compact, appearance-invariant latent actions that enable cross-embodiment transfer and efficient policy learning.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 21.1,
+      "metrics": {
+        "upvotes": 51,
+        "comments": 2
+      }
+    },
+    {
+      "id": "1idyo66041z",
+      "key": "arxiv:2611.04916",
+      "title": "Behind Video Generation: Observations and Insights on Multimodal Understanding from Kling",
+      "url": "https://huggingface.co/papers/2611.04916",
+      "excerpt": "Kling's multimodal understanding stack links caption density, perceptual text encoding, reward modeling, and evaluation protocols to improve controllable video generation.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "视频生成"
+      ],
+      "score": 21.2,
+      "metrics": {
+        "upvotes": 52,
+        "comments": 2
       }
     },
     {
@@ -2465,7 +3013,8 @@
       "firstSeenAt": "2026-11-04T03:01:00.464Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 22
+      "score": 22,
+      "dupOf": "8ts0jw0l4y"
     },
     {
       "id": "2eyivrmbr5x",
@@ -2490,6 +3039,25 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-04T13:16:59.451Z"
       }
+    },
+    {
+      "id": "ckexkvu6ai",
+      "key": "url:simonwillison.net/2026/Nov/3/datasette-agent",
+      "title": "datasette-agent 0.5a0",
+      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+      "excerpt": "Release: datasette-agent 0.5a0 This is a significant release of Datasette Agent. The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page. When combined with datasette-apps this me…",
+      "lang": "en",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "sourceGroup": "blogger",
+      "publishedAt": "2026-11-03T23:13:45.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 14
     },
     {
       "id": "2aty12b872k",
@@ -2631,10 +3199,10 @@
       "firstSeenAt": "2026-11-04T03:01:00.464Z",
       "day": "2026-11-04",
       "category": "paper",
-      "score": 30.4,
+      "score": 31,
       "metrics": {
-        "points": 359,
-        "comments": 56
+        "points": 384,
+        "comments": 60
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50358582",
       "aiAttempts": 1,
@@ -2659,10 +3227,10 @@
       "firstSeenAt": "2026-11-04T03:01:00.464Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 32.5,
+      "score": 33.5,
       "metrics": {
-        "points": 372,
-        "comments": 155
+        "points": 411,
+        "comments": 166
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50358422",
       "aiAttempts": 1,
@@ -2673,6 +3241,27 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-04T13:16:59.451Z"
       }
+    },
+    {
+      "id": "dimvtvx1fl",
+      "key": "url:uncracked.city/",
+      "title": "Show HN: Uncracked City, detective game where you question LLM suspects that lie",
+      "url": "https://uncracked.city",
+      "excerpt": "To give you some context on the project. I'm a solo founder and I use AI heavily in my work. The idea came from wanting players to discover cities. Each city has its own history, so every case is set in a real city with real public places. The crime and the people are on other h…",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-03T21:20:03.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-04",
+      "category": "opensource",
+      "score": 23.2,
+      "metrics": {
+        "points": 123,
+        "comments": 66
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50358352"
     },
     {
       "id": "1c3bjqhzx7o",
@@ -3062,10 +3651,10 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 29,
+      "score": 31.1,
       "metrics": {
-        "points": 201,
-        "comments": 238
+        "points": 250,
+        "comments": 300
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50355767",
       "ai": {
@@ -3132,8 +3721,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1362,
-        "comments": 456
+        "points": 1491,
+        "comments": 485
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50354960",
       "ai": {
@@ -3386,7 +3975,7 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-04",
       "category": "model",
-      "score": 60.6,
+      "score": 60.8,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xmz9ca/like_gpt6_astra_qwen_38_27b_can_interpret_model/",
       "alsoOn": [
         {
@@ -3402,8 +3991,8 @@
       ],
       "dupOf": "22j3nnnqyha",
       "metrics": {
-        "points": 663,
-        "comments": 193
+        "points": 719,
+        "comments": 210
       }
     },
     {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T13:15:12.070Z",
+  "updatedAt": "2026-11-05T03:29:14.967Z",
   "bands": {
     "ndx": "mid",
     "spx": "mid",
@@ -8,6 +8,14 @@
     "divlowvol": "high"
   },
   "events": [
+    {
+      "id": "rate:cb:boj:2026-11-05",
+      "kind": "rate",
+      "at": "2026-11-04T23:51:00.000Z",
+      "title": "日本央行委员们一致认为继续上调政策利率并调整货币宽松程度是合适的",
+      "detail": "东方财富·商品",
+      "url": "https://finance.eastmoney.com/a/202611053922561389.html"
+    },
     {
       "id": "move:a500:2026-11-04",
       "kind": "move",

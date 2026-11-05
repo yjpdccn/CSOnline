@@ -1649,9 +1649,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 24.1,
+      "score": 24.5,
       "metrics": {
-        "stars": 1807
+        "stars": 1940
       },
       "ai": {
         "title": "teardown：将机器变成 3D 拆解模拟器",
@@ -1967,7 +1967,7 @@
       "categoryLocked": true,
       "score": 22.6,
       "metrics": {
-        "stars": 1421
+        "stars": 1427
       },
       "ai": {
         "title": "florilegium：生成 Delft 蓝花卉页边",
@@ -2251,7 +2251,7 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 70.9,
+      "score": 71.5,
       "related": [
         {
           "id": "j4yhfw6iwe",
@@ -2296,8 +2296,8 @@
         ],
         "firstPublishedAt": "2026-10-29T17:08:44.000Z",
         "metrics": {
-          "likes": 412,
-          "stars": 1560
+          "likes": 431,
+          "stars": 1650
         }
       },
       "ai": {
@@ -2327,7 +2327,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 4504
+        "stars": 4801
       },
       "ai": {
         "title": "pixelfx：232 个像素艺术效果与 Claude Code 技能",
@@ -4162,7 +4162,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 112462,
+        "stars": 112964,
         "starsToday": 1803
       },
       "ai": {
@@ -4274,9 +4274,9 @@
       "day": "2026-10-30",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 23.2,
+      "score": 23.5,
       "metrics": {
-        "stars": 1560
+        "stars": 1650
       },
       "dupOf": "1egv1bh2tq8"
     },
@@ -4298,9 +4298,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 21.8,
+      "score": 22,
       "metrics": {
-        "likes": 412
+        "likes": 431
       },
       "skipLlm": true,
       "dupOf": "1egv1bh2tq8"
@@ -4421,6 +4421,26 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T17:29:59.731Z"
+      }
+    },
+    {
+      "id": "qzphloptrx",
+      "key": "gh:juneyaooo/rea-video",
+      "title": "JuneYaooo/rea-video",
+      "url": "https://github.com/JuneYaooo/rea-video",
+      "excerpt": "逆向一切视频：实拍口播、桌拍、AI 视频、3D、代码动效、混剪，逐镜拆出画面、花字、剪辑和声音是怎么做的，并给出复刻方案。Reverse-engineer any video, shot by shot.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-29T16:15:01.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-10-30",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 21.7,
+      "metrics": {
+        "stars": 1227
       }
     },
     {

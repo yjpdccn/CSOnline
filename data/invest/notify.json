@@ -1,5 +1,10 @@
 {
   "sent": {
+    "alert:rate:cb:boj:2026-11-05": {
+      "hash": "rate:cb:boj:2026-11-05",
+      "label": "日本央行委员们一致认为继续上调政策利率并调整货币宽松程度是合适的",
+      "kind": "event"
+    },
     "alert:move:a500:2026-11-04": {
       "hash": "move:a500:2026-11-04",
       "label": "中证A500 11月4日上涨 3.0%",
@@ -58,5 +63,5 @@
   },
   "issueNumber": 1,
   "channel": "serverchan",
-  "lastSentAt": "2026-11-04T13:15:12.070Z"
+  "lastSentAt": "2026-11-05T03:29:14.967Z"
 }

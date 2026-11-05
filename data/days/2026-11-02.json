@@ -2683,6 +2683,43 @@
       }
     },
     {
+      "id": "1pkwmt2w928",
+      "key": "hf:moonshotai/kimi-k3.1-pro",
+      "title": "moonshotai/Kimi-K3.1-Pro",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "excerpt": "Hugging Face 趋势榜第 6 名 · 图文理解 · 556 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T04:13:51.000Z",
+      "firstSeenAt": "2026-11-05T03:29:14.967Z",
+      "day": "2026-11-02",
+      "category": "model",
+      "categoryLocked": true,
+      "score": 68.3,
+      "metrics": {
+        "likes": 556,
+        "points": 413,
+        "comments": 114
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50366999",
+      "skipLlm": true,
+      "alsoOn": [
+        {
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50366999"
+        },
+        {
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnrhvb/kimik31pro_is_now_openweights/"
+        }
+      ],
+      "dupOf": "1uyu45y1t3t"
+    },
+    {
       "id": "1yfasy3l85c",
       "key": "url:36kr.com/p/4052076624680834",
       "title": "AI治不了CEO的大病",
@@ -3997,10 +4034,18 @@
           "url": "https://36kr.com/p/4055026862774150",
           "title": "OpenAI用GPT-6 Astra做了一个可对话的Codex宠物",
           "publishedAt": "2026-11-04T09:51:07.668Z"
+        },
+        {
+          "id": "zvr90mvrul",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/",
+          "title": "GPT-6 Astra sees the matrix and reprograms other AI models directly through their weights",
+          "publishedAt": "2026-11-04T15:44:44.000Z"
         }
       ],
       "story": {
-        "reports": 7,
+        "reports": 8,
         "sources": [
           "36kr-ai",
           "reddit-localllama",
