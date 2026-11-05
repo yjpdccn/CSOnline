@@ -686,7 +686,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 18737
+        "stars": 19393
       },
       "aiAttempts": 2,
       "ai": {
@@ -2044,6 +2044,26 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-10-31T02:32:50.916Z"
+      }
+    },
+    {
+      "id": "fphciiqjhi",
+      "key": "gh:anthropics/flashprove",
+      "title": "anthropics/FlashProve",
+      "url": "https://github.com/anthropics/FlashProve",
+      "excerpt": "A research prototype for zero-knowledge proofs of AI inference. Not maintained.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-30T19:29:59.000Z",
+      "firstSeenAt": "2026-11-05T18:42:26.197Z",
+      "day": "2026-10-31",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 20,
+      "metrics": {
+        "stars": 904
       }
     },
     {

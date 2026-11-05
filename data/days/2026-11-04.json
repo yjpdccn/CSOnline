@@ -107,6 +107,26 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnqxlq/i_am_big_enough_to_admit_that_this_is_me/"
     },
     {
+      "id": "12a9096iug8",
+      "key": "gh:worldonlyu/google_ai_pro_2year_zerocost_auto",
+      "title": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+      "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+      "excerpt": "Google_AI_Pro_2Year_ZeroCost_Auto",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T14:54:56.000Z",
+      "firstSeenAt": "2026-11-05T18:42:26.197Z",
+      "day": "2026-11-04",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 25.1,
+      "metrics": {
+        "stars": 2132
+      }
+    },
+    {
       "id": "10rmacxjjx2",
       "key": "url:theverge.com/ai-artificial-intelligence/1026292/sam-altman-ram-shortage-pcs-comments",
       "title": "Sam Altman addresses RAM comments: People should ‘put as much as they want in their computers’",
@@ -139,10 +159,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 26.6,
+      "score": 36,
       "metrics": {
-        "points": 154,
-        "comments": 181
+        "points": 486,
+        "comments": 589
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50366117"
     },
@@ -196,10 +216,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 70.5,
+      "score": 72.7,
       "metrics": {
-        "points": 207,
-        "comments": 62
+        "points": 260,
+        "comments": 89
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50366863",
       "alsoOn": [
@@ -246,8 +266,8 @@
         ],
         "firstPublishedAt": "2026-11-04T14:30:00.000Z",
         "metrics": {
-          "points": 207,
-          "comments": 62
+          "points": 260,
+          "comments": 89
         }
       }
     },
@@ -338,8 +358,8 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 5367,
-        "starsToday": 2053
+        "stars": 6949,
+        "starsToday": 2707
       },
       "ai": {
         "title": "NVIDIA/auto-ontology：构建语义推理层的 Python 框架",
@@ -395,10 +415,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 21.8,
+      "score": 26.9,
       "metrics": {
-        "stars": 139409,
-        "starsToday": 290
+        "stars": 139826,
+        "starsToday": 608
       },
       "ai": {
         "title": "garrytan/gstack：Claude Code 完整开发环境配置",
@@ -455,10 +475,10 @@
         "Agent",
         "MCP"
       ],
-      "score": 20.2,
+      "score": 27.7,
       "metrics": {
-        "stars": 2513,
-        "starsToday": 224
+        "stars": 2925,
+        "starsToday": 674
       },
       "dupOf": "e1edve6ctg"
     },
@@ -827,8 +847,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1111,
-        "comments": 643
+        "points": 1243,
+        "comments": 725
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50364336",
       "ai": {
@@ -1006,10 +1026,10 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 32.5,
+      "score": 32.9,
       "metrics": {
-        "points": 302,
-        "comments": 297
+        "points": 316,
+        "comments": 312
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50363554",
       "ai": {
@@ -1034,10 +1054,10 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 34.2,
+      "score": 34.4,
       "metrics": {
-        "points": 634,
-        "comments": 164
+        "points": 696,
+        "comments": 181
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50363461",
       "ai": {
@@ -1110,8 +1130,8 @@
         ],
         "firstPublishedAt": "2026-11-03T15:25:47.000Z",
         "metrics": {
-          "points": 662,
-          "comments": 461
+          "points": 671,
+          "comments": 463
         }
       },
       "ai": {
@@ -1442,10 +1462,10 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 35.4,
+      "score": 35.5,
       "metrics": {
-        "points": 593,
-        "comments": 274
+        "points": 607,
+        "comments": 284
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50362905",
       "ai": {
@@ -1869,16 +1889,25 @@
           "url": "https://www.infoq.cn/article/C61Q16LQIDq45l0iCCzV?utm_source=rss&utm_medium=article",
           "title": "混元 Hy4 实测：腾讯的产品基因，模型继承了几分？",
           "publishedAt": "2026-11-05T01:44:25.000Z"
+        },
+        {
+          "id": "tbymes9zbe",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/tencent-releases-hy4-with-vision-and-computer-use-claims-second-place-among-chinese-ai-models/",
+          "title": "Tencent releases Hy4 with vision and computer use, claims second place among Chinese AI models",
+          "publishedAt": "2026-11-05T16:06:31.000Z"
         }
       ],
       "story": {
-        "reports": 6,
+        "reports": 7,
         "sources": [
           "jiqizhixin",
           "reddit-localllama",
           "36kr-ai",
           "36kr-flash",
-          "infoq-cn"
+          "infoq-cn",
+          "the-decoder"
         ],
         "firstPublishedAt": "2026-11-04T06:35:00.000Z"
       }
@@ -2762,9 +2791,9 @@
       "day": "2026-11-04",
       "category": "paper",
       "categoryLocked": true,
-      "score": 23,
+      "score": 23.6,
       "metrics": {
-        "upvotes": 69,
+        "upvotes": 75,
         "comments": 2
       },
       "ai": {
@@ -2818,9 +2847,9 @@
       "day": "2026-11-04",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.6,
+      "score": 23.4,
       "metrics": {
-        "upvotes": 65,
+        "upvotes": 73,
         "comments": 2
       },
       "ai": {
@@ -2884,9 +2913,9 @@
       "day": "2026-11-04",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.1,
+      "score": 21.4,
       "metrics": {
-        "upvotes": 51,
+        "upvotes": 54,
         "comments": 2
       }
     },
@@ -2908,9 +2937,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 21.2,
+      "score": 22.6,
       "metrics": {
-        "upvotes": 52,
+        "upvotes": 65,
         "comments": 2
       }
     },
@@ -3199,9 +3228,9 @@
       "firstSeenAt": "2026-11-04T03:01:00.464Z",
       "day": "2026-11-04",
       "category": "paper",
-      "score": 31,
+      "score": 31.1,
       "metrics": {
-        "points": 384,
+        "points": 388,
         "comments": 60
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50358582",
@@ -3229,8 +3258,8 @@
       "category": "industry",
       "score": 33.5,
       "metrics": {
-        "points": 411,
-        "comments": 166
+        "points": 413,
+        "comments": 169
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50358422",
       "aiAttempts": 1,
@@ -3256,10 +3285,10 @@
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
       "category": "opensource",
-      "score": 23.2,
+      "score": 23.4,
       "metrics": {
-        "points": 123,
-        "comments": 66
+        "points": 127,
+        "comments": 69
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50358352"
     },
@@ -3602,10 +3631,10 @@
       "day": "2026-11-04",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 20.3,
+      "score": 20.6,
       "metrics": {
-        "stars": 16577,
-        "starsToday": 228
+        "stars": 17464,
+        "starsToday": 242
       },
       "aiAttempts": 2,
       "ai": {
@@ -3651,10 +3680,10 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 31.1,
+      "score": 31.3,
       "metrics": {
-        "points": 250,
-        "comments": 300
+        "points": 254,
+        "comments": 309
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50355767",
       "ai": {
@@ -3707,6 +3736,30 @@
       }
     },
     {
+      "id": "26wk1hfq7ry",
+      "key": "gh:andrew-babo/muse4ai",
+      "title": "andrew-babo/muse4ai",
+      "url": "https://github.com/andrew-babo/muse4ai",
+      "excerpt": "Muse4AI — let your AI agent make the pictures and the videos. Local Windows bridge for Muse via REST, MCP, and OAuth.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-03T17:45:18.000Z",
+      "firstSeenAt": "2026-11-05T18:42:26.197Z",
+      "day": "2026-11-04",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "MCP"
+      ],
+      "score": 19.3,
+      "metrics": {
+        "stars": 796
+      }
+    },
+    {
       "id": "up1xgju6wx",
       "key": "gh:postmanlabs/postman-app-support",
       "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
@@ -3721,8 +3774,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1491,
-        "comments": 485
+        "points": 1510,
+        "comments": 489
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50354960",
       "ai": {
@@ -3991,8 +4044,8 @@
       ],
       "dupOf": "22j3nnnqyha",
       "metrics": {
-        "points": 719,
-        "comments": 210
+        "points": 733,
+        "comments": 213
       }
     },
     {

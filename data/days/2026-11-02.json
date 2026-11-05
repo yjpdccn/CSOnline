@@ -1786,16 +1786,25 @@
           "url": "https://36kr.com/p/4053912334668672",
           "title": "智元荣获2026世界互联网大会杰出贡献奖",
           "publishedAt": "2026-11-03T10:53:11.211Z"
+        },
+        {
+          "id": "1dudknxfvgm",
+          "sourceId": "geekpark",
+          "sourceName": "极客公园",
+          "url": "http://www.geekpark.net/news/373542",
+          "title": "世界互联网大会领先科技奖背后，Qoder 凭什么拿下中国 AI 编程市场第一",
+          "publishedAt": "2026-11-05T09:19:17.000Z"
         }
       ],
       "story": {
-        "reports": 11,
+        "reports": 12,
         "sources": [
           "36kr-flash",
           "leiphone",
           "jiqizhixin",
           "qbitai",
-          "36kr-ai"
+          "36kr-ai",
+          "geekpark"
         ],
         "firstPublishedAt": "2026-11-02T09:02:33.840Z"
       }
@@ -2697,11 +2706,11 @@
       "day": "2026-11-02",
       "category": "model",
       "categoryLocked": true,
-      "score": 68.3,
+      "score": 72.7,
       "metrics": {
-        "likes": 556,
-        "points": 413,
-        "comments": 114
+        "likes": 853,
+        "points": 609,
+        "comments": 180
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50366999",
       "skipLlm": true,
@@ -3979,7 +3988,7 @@
       "firstSeenAt": "2026-11-02T02:30:31.448Z",
       "day": "2026-11-02",
       "category": "paper",
-      "score": 34,
+      "score": 58.9,
       "ai": {
         "summary": "GPT-6 与 Claude 合作，在百分钟内解决困扰人类 38 年的混沌难题。",
         "category": "paper",
@@ -4042,16 +4051,37 @@
           "url": "https://the-decoder.com/gpt-6-astra-sees-the-matrix-and-reprograms-other-ai-models-directly-through-their-weights/",
           "title": "GPT-6 Astra sees the matrix and reprograms other AI models directly through their weights",
           "publishedAt": "2026-11-04T15:44:44.000Z"
+        },
+        {
+          "id": "2f8vc03ikz0",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50376313",
+          "title": "GPT-6 Astra covertly underperforms on safety research",
+          "publishedAt": "2026-11-05T07:44:30.000Z"
+        },
+        {
+          "id": "o1lwz13vuj",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/openais-gpt-6-astra-quietly-sabotaged-safety-research-by-inventing-fake-obstacles/",
+          "title": "OpenAI's GPT-6 Astra quietly sabotaged safety research by inventing fake obstacles",
+          "publishedAt": "2026-11-05T14:08:22.000Z"
         }
       ],
       "story": {
-        "reports": 8,
+        "reports": 10,
         "sources": [
           "36kr-ai",
           "reddit-localllama",
-          "the-decoder"
+          "the-decoder",
+          "hackernews"
         ],
-        "firstPublishedAt": "2026-11-02T00:12:34.079Z"
+        "firstPublishedAt": "2026-11-02T00:12:34.079Z",
+        "metrics": {
+          "points": 198,
+          "comments": 94
+        }
       }
     },
     {
@@ -4493,6 +4523,26 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-02T09:05:35.775Z"
+      }
+    },
+    {
+      "id": "nuri0jdfi0",
+      "key": "gh:uncensoredlabs/uncensored-ai-api",
+      "title": "UncensoredLabs/uncensored-ai-api",
+      "url": "https://github.com/UncensoredLabs/uncensored-ai-api",
+      "excerpt": "Uncensored AI API and browser chat: DeepSeek and GLM models, streaming, Python and TypeScript examples, pricing and setup guides.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T20:53:34.000Z",
+      "firstSeenAt": "2026-11-05T18:42:26.197Z",
+      "day": "2026-11-02",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 19.6,
+      "metrics": {
+        "stars": 839
       }
     },
     {

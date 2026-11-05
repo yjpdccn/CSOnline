@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-05T03:29:14.967Z",
+  "updatedAt": "2026-11-05T18:42:26.197Z",
   "events": [
-    {
-      "id": "wscn-1597467",
-      "at": "2026-11-05T12:00:00.000Z",
-      "country": "英国",
-      "title": "央行政策利率",
-      "importance": 3,
-      "kind": "data",
-      "source": "华尔街见闻",
-      "previous": "3.75",
-      "forecast": "4",
-      "unit": "%"
-    },
     {
       "id": "wscn-1597470",
       "at": "2026-11-05T13:30:00.000Z",
@@ -23,6 +11,7 @@
       "source": "华尔街见闻",
       "previous": "19.4",
       "forecast": "19.6",
+      "actual": "18.9",
       "unit": "万人"
     },
     {
@@ -155,6 +144,17 @@
       "kind": "data",
       "source": "华尔街见闻",
       "unit": "万人"
+    },
+    {
+      "id": "wscn-1599194",
+      "at": "2026-11-20T01:00:00.000Z",
+      "country": "中国",
+      "title": "11月五年期贷款市场报价利率(LPR) · 11月一年期贷款市场报价利率(LPR)",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "3.5",
+      "unit": "%"
     }
   ],
   "fomc": [

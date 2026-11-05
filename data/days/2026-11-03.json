@@ -110,8 +110,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 662,
-        "comments": 461
+        "points": 671,
+        "comments": 463
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50353192",
       "ai": {
@@ -240,10 +240,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 34.1,
+      "score": 34.2,
       "metrics": {
-        "points": 518,
-        "comments": 154
+        "points": 522,
+        "comments": 161
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50352757",
       "ai": {
@@ -290,9 +290,9 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 26.4,
+      "score": 26.5,
       "metrics": {
-        "points": 177,
+        "points": 178,
         "comments": 108
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50352257",
@@ -796,8 +796,8 @@
       "category": "model",
       "score": 40.7,
       "metrics": {
-        "points": 1026,
-        "comments": 207
+        "points": 1034,
+        "comments": 209
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50351111",
       "dupOf": "zqi18ojs4h"
@@ -1238,10 +1238,10 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-03",
       "category": "industry",
-      "score": 27.8,
+      "score": 27.9,
       "metrics": {
         "points": 192,
-        "comments": 164
+        "comments": 168
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50350004",
       "ai": {
@@ -1501,9 +1501,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 26.6,
+      "score": 27.7,
       "metrics": {
-        "stars": 2686
+        "stars": 3188
       }
     },
     {
@@ -3110,10 +3110,26 @@
           "url": "https://36kr.com/p/4053676489888902",
           "title": "AI圈炸了，MIT 让 GPT-6 Astra直接改写神经网络权重，Qwen数学成绩暴涨6倍",
           "publishedAt": "2026-11-03T09:11:00.959Z"
+        },
+        {
+          "id": "1pl9impvq9",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/507782.html",
+          "title": "MIT神作被锤：Astra爆改Qwen权重？就吹吧！",
+          "publishedAt": "2026-11-05T07:10:56.000Z"
+        },
+        {
+          "id": "1pdjtrym2zw",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4056481264866438",
+          "title": "MIT神作被锤爆：Astra爆改Qwen权重？就吹吧",
+          "publishedAt": "2026-11-05T09:32:29.249Z"
         }
       ],
       "story": {
-        "reports": 5,
+        "reports": 7,
         "sources": [
           "jiqizhixin",
           "36kr-ai",
@@ -3556,14 +3572,26 @@
       "keywords": [
         "Agent"
       ],
-      "score": 15,
+      "score": 36.7,
       "ai": {
         "title": "YC Garry Tan每年花费20万美元购买AI代币",
         "summary": "YC的Garry Tan因过度使用AI代理而调侃自己患有“网络精神病”。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-03T03:58:04.896Z"
-      }
+      },
+      "alsoOn": [
+        {
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50366971"
+        }
+      ],
+      "metrics": {
+        "points": 101,
+        "comments": 160
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50366971"
     },
     {
       "id": "199pe0wpnz7",
@@ -4139,10 +4167,26 @@
           "sourceId": "hackernews",
           "sourceName": "Hacker News",
           "url": "https://news.ycombinator.com/item?id=50355251"
+        },
+        {
+          "id": "18x6sirgj0s",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnzo38/qwen38_27b_q4_on_my_lowend_laptop_and_it_became/",
+          "title": "Qwen3.8 27B Q4 on my low-end Laptop, and it became my main Model usage for coding",
+          "publishedAt": "2026-11-04T20:56:55.000Z"
+        },
+        {
+          "id": "2ommwtlqtr",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoeeyf/qwen3827b_has_become_unuseable_recently/",
+          "title": "Qwen3.8-27B has become unuseable recently",
+          "publishedAt": "2026-11-05T09:31:10.000Z"
         }
       ],
       "story": {
-        "reports": 5,
+        "reports": 7,
         "sources": [
           "reddit-localllama",
           "simonw",
@@ -4150,8 +4194,8 @@
         ],
         "firstPublishedAt": "2026-11-02T22:42:11.000Z",
         "metrics": {
-          "points": 719,
-          "comments": 210
+          "points": 733,
+          "comments": 213
         }
       }
     },
@@ -4315,7 +4359,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 15395,
+        "stars": 16578,
         "starsToday": 3792
       },
       "aiAttempts": 2,
@@ -4372,10 +4416,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25.9,
+      "score": 26.1,
       "metrics": {
-        "stars": 11107,
-        "starsToday": 531
+        "stars": 11423,
+        "starsToday": 546
       },
       "aiAttempts": 2,
       "ai": {
