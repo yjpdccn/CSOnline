@@ -1642,6 +1642,29 @@
       "dupOf": "tztbrfsc75"
     },
     {
+      "id": "smnspsbgbo",
+      "key": "gh:mhfed/vn-law-check",
+      "title": "mhfed/vn-law-check",
+      "url": "https://github.com/mhfed/vn-law-check",
+      "excerpt": "Audit pháp lý website theo luật Việt Nam (BVDLCN 91/2025, TMĐT 122/2025, ANM 116/2025, AI 134/2025) cho Claude Code, Cursor, Copilot, Windsurf, Cline",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T09:22:02.000Z",
+      "firstSeenAt": "2026-11-06T17:56:04.095Z",
+      "day": "2026-11-02",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 16.7,
+      "metrics": {
+        "stars": 459
+      }
+    },
+    {
       "id": "19gcekirl9k",
       "key": "url:36kr.com/p/4052310948123528",
       "title": "AI“杀死币圈”？",
@@ -2706,11 +2729,11 @@
       "day": "2026-11-02",
       "category": "model",
       "categoryLocked": true,
-      "score": 73.4,
+      "score": 74.5,
       "metrics": {
-        "likes": 941,
-        "points": 624,
-        "comments": 186
+        "likes": 1422,
+        "points": 633,
+        "comments": 188
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50366999",
       "skipLlm": true,
@@ -3988,7 +4011,7 @@
       "firstSeenAt": "2026-11-02T02:30:31.448Z",
       "day": "2026-11-02",
       "category": "paper",
-      "score": 63.3,
+      "score": 64.2,
       "ai": {
         "summary": "GPT-6 与 Claude 合作，在百分钟内解决困扰人类 38 年的混沌难题。",
         "category": "paper",
@@ -4079,8 +4102,8 @@
         ],
         "firstPublishedAt": "2026-11-02T00:12:34.079Z",
         "metrics": {
-          "points": 312,
-          "comments": 159
+          "points": 338,
+          "comments": 187
         }
       }
     },
@@ -4540,9 +4563,9 @@
       "day": "2026-11-02",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 19.8,
+      "score": 20.4,
       "metrics": {
-        "stars": 875
+        "stars": 968
       }
     },
     {
@@ -4670,7 +4693,7 @@
       ],
       "score": 18,
       "metrics": {
-        "stars": 608
+        "stars": 611
       }
     }
   ]

@@ -137,7 +137,14 @@
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-05",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "OpenAI 为应对社区反对，承诺未来数据中心自愿合规",
+        "summary": "OpenAI 面对社区对新建数据中心的反对，承诺未来设施将自愿遵守特定规范。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "gf0zq4o60i",
@@ -154,7 +161,14 @@
       "day": "2026-11-05",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xojryw/nvidia_rtx_pro_5500_blackwell_appears_at_17999/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xojryw/nvidia_rtx_pro_5500_blackwell_appears_at_17999/",
+      "ai": {
+        "title": "NVIDIA RTX PRO 5500 Blackwell 定价高于 RTX…",
+        "summary": "NVIDIA RTX PRO 5500 Blackwell 的建议零售价为 1.799 万美元，高于此前 RTX PRO 6000 的 1.6 万美元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "1lqogd2fpt8",
@@ -170,7 +184,14 @@
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-05",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Anthropic 首次付费新闻内容授权",
+        "summary": "Anthropic 在美国中期选举前签署了首个新闻内容授权协议。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "1xvzoaiajnc",
@@ -184,22 +205,23 @@
       "publishedAt": "2026-11-05T14:08:35.000Z",
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-05",
-      "category": "agent",
+      "category": "paper",
       "keywords": [
         "MCP"
       ],
-      "score": 29.2,
+      "score": 31.2,
       "metrics": {
-        "points": 257,
-        "comments": 116
+        "points": 324,
+        "comments": 133
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50379249",
       "aiAttempts": 1,
       "ai": {
-        "summary": "MCP（模型上下文协议）相关内容。",
-        "category": "agent",
+        "title": "MCP 详解",
+        "summary": "文章解释了 MCP（Model Context Protocol）相关内容。",
+        "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-11-05T18:46:49.268Z"
+        "at": "2026-11-06T17:57:39.821Z"
       }
     },
     {
@@ -234,7 +256,14 @@
       "day": "2026-11-05",
       "category": "opensource",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xoji3b/getting_editable_layers_out_of_qwenimage_21_a/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xoji3b/getting_editable_layers_out_of_qwenimage_21_a/",
+      "ai": {
+        "title": "Kokon：在本地使用 Qwen-Image 2.1 实现可编辑图层",
+        "summary": "开发者 Kokon 发布本地照片编辑器，利用 Qwen-Image 2.1 Turbo 实现图像对象的可编辑图层功能。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "2603h3w0pdy",
@@ -250,7 +279,14 @@
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-05",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "苹果削减内部 AI 预算，计划进一步缩减",
+        "summary": "苹果加入科技行业削减内部 AI 支出的行列，并计划进行更大幅度的削减。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "c4210rpcr5",
@@ -311,6 +347,22 @@
       "score": 18
     },
     {
+      "id": "2a4n93tjk3v",
+      "key": "url:qbitai.com/2026/11/507919.html",
+      "title": "孩子的人生大事，你要怎样的AI？海亮科服把AI生涯规划带给更多家庭",
+      "url": "https://www.qbitai.com/2026/11/507919.html",
+      "excerpt": "基础规划免费！",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-05T13:17:00.000Z",
+      "firstSeenAt": "2026-11-06T17:56:04.095Z",
+      "day": "2026-11-05",
+      "category": "industry",
+      "score": 18
+    },
+    {
       "id": "tc9xqw0urn",
       "key": "url:36kr.com/p/4056805917873029",
       "title": "Gemini 正在成为美国师生「不得不用」的 AI",
@@ -345,7 +397,14 @@
         "RAG"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xoiaye/an_opensource_project_just_ranked_1_on/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xoiaye/an_opensource_project_just_ranked_1_on/",
+      "ai": {
+        "title": "开源项目 PipesHub 在企业 RAG 基准测试中排名第一",
+        "summary": "开源项目 PipesHub 在 EnterpriseRAG-Bench 上以 93.24 的总分超越 OpenAI、Google 等厂商。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "1g7ulnzcmml",
@@ -466,11 +525,18 @@
       "publishedAt": "2026-11-05T12:20:35.000Z",
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-05",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "AI 编程"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Anthropic 产品负责人 Catherine Wu 加入 OpenAI",
+        "summary": "Anthropic 产品负责人 Catherine Wu 离职加入 OpenAI，负责核心产品管理。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "200jxgzbfip",
@@ -572,12 +638,19 @@
       "publishedAt": "2026-11-05T11:46:10.000Z",
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-05",
-      "category": "industry",
+      "category": "opensource",
       "keywords": [
         "本地部署"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xoglot/quantization_livestream_with_goats_of_inference/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xoglot/quantization_livestream_with_goats_of_inference/",
+      "ai": {
+        "title": "量化直播：与 vLLM 维护者探讨推理加速",
+        "summary": "Hugging Face 将举办量化直播工作坊，与 vLLM 维护者探讨模型量化与推理加速。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "b8330ktsic",
@@ -710,7 +783,14 @@
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-05",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "大科技公司的 AI 基础设施建设不会轻易停止",
+        "summary": "尽管面临回报压力，大科技公司仍在持续投入巨额资金建设 AI 数据中心。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "u81xjl4hu7",
@@ -793,6 +873,25 @@
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-05",
       "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "azjareoi7f",
+      "key": "url:qbitai.com/2026/11/507834.html",
+      "title": "三条AI技术路线终将合流？智象创始人梅涛提出智能体化的世界模型",
+      "url": "https://www.qbitai.com/2026/11/507834.html",
+      "excerpt": "走向“智能体化世界模型”。",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-05T09:37:40.000Z",
+      "firstSeenAt": "2026-11-06T17:56:04.095Z",
+      "day": "2026-11-05",
+      "category": "multimodal",
       "keywords": [
         "Agent"
       ],
@@ -913,10 +1012,10 @@
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-05",
       "category": "industry",
-      "score": 29.7,
+      "score": 30.5,
       "metrics": {
-        "points": 167,
-        "comments": 92
+        "points": 183,
+        "comments": 99
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50377078",
       "dupOf": "gyuymrhy8g"
@@ -978,6 +1077,22 @@
       "score": 18
     },
     {
+      "id": "okkc32zbt4",
+      "key": "url:qbitai.com/2026/11/507823.html",
+      "title": "拼多多让年轻人造草莓工厂，170天后“答案”熟了",
+      "url": "https://www.qbitai.com/2026/11/507823.html",
+      "excerpt": "拼多多把农创赛搬出了PPT。",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-05T09:00:18.000Z",
+      "firstSeenAt": "2026-11-06T17:56:04.095Z",
+      "day": "2026-11-05",
+      "category": "industry",
+      "score": 18
+    },
+    {
       "id": "wa1bz0mbwb",
       "key": "url:openai.com/index/introducing-gpt-6-cyber",
       "title": "GPT‑6 Cyber: Advancing the frontier of aligned cybersecurity agents",
@@ -994,7 +1109,32 @@
       "keywords": [
         "Agent"
       ],
-      "score": 36
+      "score": 44,
+      "ai": {
+        "title": "OpenAI 发布 GPT‑6 Cyber",
+        "summary": "OpenAI 推出 GPT‑6 Cyber，专注于网络安全漏洞发现和修复。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:57:39.821Z"
+      },
+      "related": [
+        {
+          "id": "bkf6tliai",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4057235026121864",
+          "title": "刚刚，OpenAI 发布 GPT‑6 Cyber，横扫两大开源项目：Firefox 挖出 81 个高危漏洞，Linux 曝光 948 条提权路径",
+          "publishedAt": "2026-11-05T23:45:19.718Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "openai",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-05T09:00:00.000Z"
+      }
     },
     {
       "id": "blrblsyqcj",
@@ -1173,7 +1313,14 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "Merge 整合 OpenAI 技术构建工具",
+        "summary": "Merge 使用 GPT-6 Astra、ChatGPT 和 Codex 构建产品代码审查和营销工具。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:57:39.821Z"
+      }
     },
     {
       "id": "19hb71omzx9",
@@ -1223,10 +1370,10 @@
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-05",
       "category": "model",
-      "score": 37.3,
+      "score": 38.2,
       "metrics": {
-        "points": 312,
-        "comments": 159
+        "points": 338,
+        "comments": 187
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50376313",
       "dupOf": "20py2by5tcf"
@@ -1629,9 +1776,16 @@
       "publishedAt": "2026-11-05T04:46:30.000Z",
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-05",
-      "category": "industry",
+      "category": "paper",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xo9vl3/what_are_vector_embeddings_an_interactive_guide/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xo9vl3/what_are_vector_embeddings_an_interactive_guide/",
+      "ai": {
+        "title": "向量嵌入交互指南",
+        "summary": "交互式指南详细介绍了向量嵌入的概念与应用。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "1iaqrquqj8j",
@@ -1670,6 +1824,36 @@
         "具身智能"
       ],
       "score": 18
+    },
+    {
+      "id": "1dnt7v6yryl",
+      "key": "gh:woyun520/pixel-gif-sticker-pack",
+      "title": "WoYun520/pixel-gif-sticker-pack",
+      "url": "https://github.com/WoYun520/pixel-gif-sticker-pack",
+      "excerpt": "A Codex skill for creating and verifying animated GIF sticker packs from character references.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-05T04:08:24.000Z",
+      "firstSeenAt": "2026-11-06T17:56:04.095Z",
+      "day": "2026-11-05",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 17.5,
+      "metrics": {
+        "stars": 549
+      },
+      "ai": {
+        "title": "pixel-gif-sticker-pack：创建动画 GIF 贴纸包的 Co…",
+        "summary": "该项目提供 Codex 技能，能够根据角色参考创建和验证动画 GIF 贴纸包。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "1v0u9e8jmwc",
@@ -1862,7 +2046,7 @@
       "day": "2026-11-05",
       "category": "industry",
       "score": 18,
-      "dupOf": "8ts0jw0l4y"
+      "dupOf": "toygobqpj6"
     },
     {
       "id": "2a17mgwxyn4",
@@ -2212,33 +2396,8 @@
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-05",
       "category": "industry",
-      "score": 26,
-      "related": [
-        {
-          "id": "143cfk9i04b",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4054667788752000",
-          "title": "Anthropic未发布模型，挖出Linux系统级致命漏洞",
-          "publishedAt": "2026-11-03T23:49:52.725Z"
-        },
-        {
-          "id": "mm012j6l25",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4056244940936064",
-          "title": "Linux内核被挖出948个漏洞，OpenAI花120万美元找到的",
-          "publishedAt": "2026-11-05T02:46:36.631Z"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "qbitai",
-          "36kr-ai"
-        ],
-        "firstPublishedAt": "2026-11-03T23:49:52.725Z"
-      }
+      "score": 18,
+      "dupOf": "toygobqpj6"
     },
     {
       "id": "sbkvejt6ef",
@@ -2459,7 +2618,14 @@
       "firstSeenAt": "2026-11-06T03:26:50.356Z",
       "day": "2026-11-05",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "Flipsnack 利用 ChatGPT Ads 增长",
+        "summary": "Flipsnack 通过 ChatGPT Ads 优化转化，降低获客成本并增长注册。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:57:39.821Z"
+      }
     },
     {
       "id": "vh5kfxcnfk",
@@ -2701,9 +2867,9 @@
       "day": "2026-11-05",
       "category": "paper",
       "categoryLocked": true,
-      "score": 27.1,
+      "score": 27.3,
       "metrics": {
-        "upvotes": 124,
+        "upvotes": 126,
         "comments": 1
       },
       "ai": {
@@ -2729,9 +2895,9 @@
       "day": "2026-11-05",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.7,
+      "score": 21.8,
       "metrics": {
-        "upvotes": 56,
+        "upvotes": 57,
         "comments": 2
       },
       "ai": {
@@ -2757,7 +2923,44 @@
       "firstSeenAt": "2026-11-06T03:26:50.356Z",
       "day": "2026-11-05",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "Franklin Templeton 使用 OpenAI 支持投资研究",
+        "summary": "Franklin Templeton 利用 OpenAI 开发 AI 工作流，辅助投资组合经理比较研究观点和评估风险。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
+    },
+    {
+      "id": "1p6346rv5g",
+      "key": "arxiv:2611.06910",
+      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+      "url": "https://huggingface.co/papers/2611.06910",
+      "excerpt": "FrontierPhysics is an end-to-end benchmark of 56 expert-designed physics tasks that evaluates AI agents on literature review, research planning, experimentation, and manuscript production using deterministic verifiers and expert rubrics.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "firstSeenAt": "2026-11-06T17:56:04.095Z",
+      "day": "2026-11-05",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 21.1,
+      "metrics": {
+        "upvotes": 52
+      },
+      "ai": {
+        "title": "FrontierPhysics：端到端物理研究评估基准",
+        "summary": "FrontierPhysics 评估 AI 代理在文献综述、研究规划等物理研究任务中的表现。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "2cztnmk9ab7",
@@ -3021,9 +3224,9 @@
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-05",
       "category": "industry",
-      "score": 24.2,
+      "score": 24.4,
       "metrics": {
-        "points": 148,
+        "points": 152,
         "comments": 62
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50371508",
@@ -3119,7 +3322,7 @@
       "score": 25.2,
       "metrics": {
         "points": 170,
-        "comments": 63
+        "comments": 64
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50370654",
       "ai": {
@@ -3201,7 +3404,7 @@
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-05",
       "category": "industry",
-      "score": 27.6,
+      "score": 28.3,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnx3cs/ricursiveairipple65bpreview_hugging_face/",
       "dupOf": "1pjdm9w5bwb",
       "alsoOn": [
@@ -3212,7 +3415,7 @@
         }
       ],
       "metrics": {
-        "likes": 277
+        "likes": 316
       }
     },
     {
@@ -3255,10 +3458,10 @@
         "Agent",
         "开源模型"
       ],
-      "score": 62.8,
+      "score": 63.6,
       "metrics": {
-        "points": 334,
-        "comments": 122
+        "points": 337,
+        "comments": 125
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50369925",
       "related": [
@@ -3285,9 +3488,9 @@
         ],
         "firstPublishedAt": "2026-11-04T18:53:29.000Z",
         "metrics": {
-          "points": 334,
-          "comments": 122,
-          "likes": 277
+          "points": 337,
+          "comments": 125,
+          "likes": 316
         }
       },
       "ai": {
@@ -3546,12 +3749,19 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 25.2,
+      "score": 25.5,
       "metrics": {
-        "points": 103,
+        "points": 108,
         "comments": 35
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50368804"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50368804",
+      "ai": {
+        "title": "Kino AI：AI 媒体管理与视频编辑工具",
+        "summary": "Kino AI 提供集素材存储、视频编辑和团队协作于一体的 AI 媒体管理平台。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "1tjsfojdov2",
@@ -3566,9 +3776,9 @@
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-05",
       "category": "paper",
-      "score": 28.6,
+      "score": 28.7,
       "metrics": {
-        "points": 236,
+        "points": 238,
         "comments": 121
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50368626",
@@ -3593,9 +3803,16 @@
       "publishedAt": "2026-11-04T17:08:06.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-05",
-      "category": "multimodal",
+      "category": "opensource",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xntou1/lfm3omni2b_running_fully_offline_on_my_iphone_18/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xntou1/lfm3omni2b_running_fully_offline_on_my_iphone_18/",
+      "ai": {
+        "title": "LFM3-Omni-2B 在 iPhone 18 Pro Max 上离线运行",
+        "summary": "LFM3-Omni-2B 模型通过自定义 WebGPU 内核在 iPhone 18 Pro Max 上实现离线运行。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "1yjbt6tqjw4",
@@ -3633,16 +3850,23 @@
       "publishedAt": "2026-11-04T16:45:11.000Z",
       "firstSeenAt": "2026-11-06T03:26:50.356Z",
       "day": "2026-11-05",
-      "category": "multimodal",
+      "category": "opensource",
       "keywords": [
         "图像生成"
       ],
-      "score": 23.5,
+      "score": 27.2,
       "metrics": {
-        "points": 166,
-        "comments": 16
+        "points": 266,
+        "comments": 28
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50368208"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50368208",
+      "ai": {
+        "title": "兄弟二人花约 2 万美元训练开源文本生成模型",
+        "summary": "兄弟二人训练了一个开源的文本生成模型，旨在开发创意工具以简化动画制作。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "nrasdg2bg6",

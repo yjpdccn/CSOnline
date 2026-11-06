@@ -14,11 +14,18 @@
       "publishedAt": "2026-11-04T15:58:45.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Uber 本季度仅 4 单由 AI 代理完成",
+        "summary": "Uber 本季度仅 4 单由第三方 AI 代理完成，AI 代理短期内难以取代人工。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
+      }
     },
     {
       "id": "zvr90mvrul",
@@ -50,9 +57,16 @@
       "publishedAt": "2026-11-04T15:32:17.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "industry",
+      "category": "opensource",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnr6zd/my_gift_to_the_mods/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnr6zd/my_gift_to_the_mods/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "My gift to the mods:",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
+      }
     },
     {
       "id": "14nhg9v7yby",
@@ -67,11 +81,18 @@
       "publishedAt": "2026-11-04T15:26:02.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "industry",
+      "category": "opensource",
       "keywords": [
         "Agent"
       ],
-      "score": 14
+      "score": 14,
+      "ai": {
+        "title": "datasette-llm 0.1a10 发布",
+        "summary": "datasette-llm 0.1a10 修复了限制可用 LLM 模型配置的 bug。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
+      }
     },
     {
       "id": "ce3c755c53",
@@ -86,8 +107,16 @@
       "publishedAt": "2026-11-04T15:23:49.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "model",
-      "score": 21
+      "category": "paper",
+      "score": 15,
+      "ai": {
+        "title": "Anthropic 发布 FlashProve 验证模型身份",
+        "summary": "Anthropic 发布 FlashProve 原型，利用密码学验证 AI 回复是否来自指定模型。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
+      },
+      "dupOf": "brv6lckfr6"
     },
     {
       "id": "1ig27lwzrbe",
@@ -102,9 +131,16 @@
       "publishedAt": "2026-11-04T15:21:55.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "industry",
+      "category": "opensource",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnqxlq/i_am_big_enough_to_admit_that_this_is_me/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnqxlq/i_am_big_enough_to_admit_that_this_is_me/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "I am big enough to admit that this is me",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
+      }
     },
     {
       "id": "12a9096iug8",
@@ -121,9 +157,16 @@
       "day": "2026-11-04",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 26,
+      "score": 26.9,
       "metrics": {
-        "stars": 2474
+        "stars": 2838
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Google_AI_Pro_2Year_ZeroCost_Auto",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
       }
     },
     {
@@ -140,7 +183,14 @@
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Sam Altman 呼吁人们往电脑里塞更多内存",
+        "summary": "Sam Altman 呼吁人们往电脑里塞更多内存，并改名为 Ram Altman。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
+      }
     },
     {
       "id": "1crmya4fblw",
@@ -161,10 +211,17 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 509,
-        "comments": 637
+        "points": 537,
+        "comments": 669
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50366117"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50366117",
+      "ai": {
+        "title": "Ask HN：你的当前 AI Agent 设置是什么？",
+        "summary": "用户在 Hacker News 上询问大家日常使用的 AI Agent 设置和订阅情况。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "tsc4t8na9i",
@@ -212,14 +269,14 @@
       "publishedAt": "2026-11-04T14:30:00.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "AI 编程"
       ],
-      "score": 72.8,
+      "score": 72.9,
       "metrics": {
-        "points": 261,
-        "comments": 91
+        "points": 263,
+        "comments": 92
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50366863",
       "alsoOn": [
@@ -230,6 +287,14 @@
         }
       ],
       "related": [
+        {
+          "id": "mktf9e7di4",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4055381539345536",
+          "title": "OpenAI将收购开发工具初创公司Pierre Computer，瞄准微软GitHub代码托管业务",
+          "publishedAt": "2026-11-04T11:54:15.000Z"
+        },
         {
           "id": "atpcs4w7ew",
           "sourceId": "the-decoder",
@@ -256,19 +321,27 @@
         }
       ],
       "story": {
-        "reports": 5,
+        "reports": 6,
         "sources": [
           "openai",
           "hackernews",
+          "36kr-flash",
           "the-decoder",
           "36kr-ai",
           "jiqizhixin"
         ],
-        "firstPublishedAt": "2026-11-04T14:30:00.000Z",
+        "firstPublishedAt": "2026-11-04T11:54:15.000Z",
         "metrics": {
-          "points": 261,
-          "comments": 91
+          "points": 263,
+          "comments": 92
         }
+      },
+      "ai": {
+        "title": "OpenAI 收购 Pierre Computer Company",
+        "summary": "OpenAI 收购 Pierre Computer Company，以扩展 Codex 在代码构建、理解和审查方面的工具。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
       }
     },
     {
@@ -318,9 +391,16 @@
       "publishedAt": "2026-11-04T13:53:30.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "model",
-      "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnoqyy/i_removed_85_of_gemmas_weights_and_it_is_mostly/"
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnoqyy/i_removed_85_of_gemmas_weights_and_it_is_mostly/",
+      "ai": {
+        "title": "Gemma 4 模型剪枝至 15% 仍保持性能",
+        "summary": "用户将 Gemma 4 剪枝至 15%，在分类任务上仍保持接近原始模型的表现。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
+      }
     },
     {
       "id": "4acalsrc3o",
@@ -358,7 +438,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 7577,
+        "stars": 8689,
         "starsToday": 2707
       },
       "ai": {
@@ -815,7 +895,8 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 18
+      "score": 18,
+      "dupOf": "1zzv2dhuc2z"
     },
     {
       "id": "y1ygap0sa8",
@@ -847,8 +928,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1267,
-        "comments": 741
+        "points": 1285,
+        "comments": 746
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50364336",
       "ai": {
@@ -1026,10 +1107,10 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 33,
+      "score": 33.1,
       "metrics": {
-        "points": 319,
-        "comments": 315
+        "points": 320,
+        "comments": 320
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50363554",
       "ai": {
@@ -1054,10 +1135,10 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 34.4,
+      "score": 34.6,
       "metrics": {
-        "points": 711,
-        "comments": 183
+        "points": 722,
+        "comments": 197
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50363461",
       "ai": {
@@ -1267,7 +1348,8 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "dupOf": "27tyl3rdlk7"
     },
     {
       "id": "27v80rtb1zq",
@@ -1282,9 +1364,16 @@
       "publishedAt": "2026-11-04T09:28:48.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "model",
-      "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b/"
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnjwte/using_strata_iq4_qwen_flash_to_edit_qwen_35_06b/",
+      "ai": {
+        "title": "使用 Strata IQ4 Qwen Flash 编辑 Qwen 权重",
+        "summary": "用户尝试基于 MIT CSAIL 方法，使用 Strata IQ4 Qwen Flash 编辑 Qwen 模型权重。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
+      }
     },
     {
       "id": "227wimrmxbf",
@@ -1464,8 +1553,8 @@
       "category": "industry",
       "score": 35.5,
       "metrics": {
-        "points": 611,
-        "comments": 286
+        "points": 614,
+        "comments": 289
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50362905",
       "ai": {
@@ -1589,8 +1678,42 @@
       "publishedAt": "2026-11-04T08:00:00.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "industry",
-      "score": 30
+      "category": "agent",
+      "score": 46,
+      "ai": {
+        "title": "OpenAI 自动修复 Linux 内核本地提权漏洞",
+        "summary": "OpenAI 构建自动化管道，发现并修复了 948 个 Linux 内核本地提权漏洞。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
+      },
+      "related": [
+        {
+          "id": "8ts0jw0l4y",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/507697.html",
+          "title": "Linux内核被挖出948个漏洞！OpenAI花120万美元找到的",
+          "publishedAt": "2026-11-05T01:54:44.000Z"
+        },
+        {
+          "id": "mm012j6l25",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4056244940936064",
+          "title": "Linux内核被挖出948个漏洞，OpenAI花120万美元找到的",
+          "publishedAt": "2026-11-05T02:46:36.631Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "openai",
+          "qbitai",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-04T08:00:00.000Z"
+      }
     },
     {
       "id": "1xm74x1y06b",
@@ -1780,8 +1903,15 @@
       "publishedAt": "2026-11-04T07:00:00.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "industry",
-      "score": 30
+      "category": "model",
+      "score": 36,
+      "ai": {
+        "title": "GPT-5.6 Cyber 在 AWS GovCloud 上线",
+        "summary": "GPT-5.6 Cyber 通过 Amazon Bedrock 在 AWS GovCloud 上线，面向授权网络安全工作。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
+      }
     },
     {
       "id": "1bmqvyelhw1",
@@ -1897,17 +2027,34 @@
           "url": "https://the-decoder.com/tencent-releases-hy4-with-vision-and-computer-use-claims-second-place-among-chinese-ai-models/",
           "title": "Tencent releases Hy4 with vision and computer use, claims second place among Chinese AI models",
           "publishedAt": "2026-11-05T16:06:31.000Z"
+        },
+        {
+          "id": "1dly8hwvkco",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/507967.html",
+          "title": "腾讯 Hy4 调用激增已十倍扩容，Agent 能力开源模型第一",
+          "publishedAt": "2026-11-06T02:00:11.000Z"
+        },
+        {
+          "id": "1ubyege28gj",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-06-7",
+          "title": "腾讯混元 Hy4 列AA 榜单国模第二，Arena 榜单全球开源模型第一",
+          "publishedAt": "2026-11-06T03:30:00.000Z"
         }
       ],
       "story": {
-        "reports": 7,
+        "reports": 9,
         "sources": [
           "jiqizhixin",
           "reddit-localllama",
           "36kr-ai",
           "36kr-flash",
           "infoq-cn",
-          "the-decoder"
+          "the-decoder",
+          "qbitai"
         ],
         "firstPublishedAt": "2026-11-04T06:35:00.000Z"
       }
@@ -2204,7 +2351,7 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "model",
-      "score": 36,
+      "score": 44,
       "related": [
         {
           "id": "1eni5ym2usa",
@@ -2213,13 +2360,22 @@
           "url": "https://36kr.com/p/4054648135930754",
           "title": "刚刚，Anthropic开源FlashProve，给大模型办了一张「防伪身份证」",
           "publishedAt": "2026-11-03T23:55:19.818Z"
+        },
+        {
+          "id": "ce3c755c53",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/anthropics-new-prototype-proves-which-model-wrote-an-ai-response-without-exposing-its-weights/",
+          "title": "Anthropic 发布 FlashProve 验证模型身份",
+          "publishedAt": "2026-11-04T15:23:49.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "jiqizhixin",
-          "36kr-ai"
+          "36kr-ai",
+          "the-decoder"
         ],
         "firstPublishedAt": "2026-11-03T23:55:19.818Z"
       }
@@ -2558,11 +2714,18 @@
       "publishedAt": "2026-11-04T00:29:36.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "industry",
+      "category": "opensource",
       "keywords": [
         "Agent"
       ],
-      "score": 14
+      "score": 14,
+      "ai": {
+        "title": "datasette-apps 0.3a0 发布",
+        "summary": "datasette-apps 0.3a0 改进了通过 Datasette Agent 创建 HTML 应用的集成。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
+      }
     },
     {
       "id": "60hx6zcg5b",
@@ -2879,7 +3042,14 @@
         "AI 编程",
         "图像生成"
       ],
-      "score": 34
+      "score": 34,
+      "ai": {
+        "title": "OpenAI 发布 Images 2.6",
+        "summary": "Images 2.6 带来更快的图像生成、GIF 创建和更精确的编辑功能。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "1qs97aesq6d",
@@ -2895,8 +3065,15 @@
       "dateOnly": true,
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "model",
-      "score": 36
+      "category": "agent",
+      "score": 30,
+      "ai": {
+        "title": "DevRev 推出 GPT-6.1 Sol 自助服务",
+        "summary": "DevRev 利用 GPT-6.1 Sol 为企业服务提供自主自助解决方案。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:00.944Z"
+      }
     },
     {
       "id": "16szvbwtwu0",
@@ -2913,10 +3090,17 @@
       "day": "2026-11-04",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.4,
+      "score": 21.8,
       "metrics": {
-        "upvotes": 54,
+        "upvotes": 57,
         "comments": 2
+      },
+      "ai": {
+        "title": "DreamX 视频扩散模型作为通用潜在动作学习器",
+        "summary": "DreamX 利用预训练视频扩散模型学习跨具身迁移的潜在动作。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
       }
     },
     {
@@ -2941,6 +3125,13 @@
       "metrics": {
         "upvotes": 66,
         "comments": 2
+      },
+      "ai": {
+        "title": "Kling 多模态理解堆栈提升可控视频生成",
+        "summary": "Kling 通过链接感知文本编码与奖励模型，提升可控视频生成能力。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
       }
     },
     {
@@ -2967,6 +3158,13 @@
       "metrics": {
         "upvotes": 85,
         "comments": 2
+      },
+      "ai": {
+        "title": "前沿 VLM Agent 在具身任务中表现差异显著",
+        "summary": "前沿视觉语言模型在具身任务中表现不一，闭源系统在规划与操作上领先。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
       }
     },
     {
@@ -3068,8 +3266,7 @@
       "firstSeenAt": "2026-11-04T03:01:00.464Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 22,
-      "dupOf": "8ts0jw0l4y"
+      "score": 22
     },
     {
       "id": "2eyivrmbr5x",
@@ -3108,11 +3305,18 @@
       "publishedAt": "2026-11-03T23:13:45.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "agent",
+      "category": "opensource",
       "keywords": [
         "Agent"
       ],
-      "score": 14
+      "score": 14,
+      "ai": {
+        "title": "datasette-agent 0.5a0 发布",
+        "summary": "datasette-agent 0.5a0 新增面板功能，允许代理在 Datasette 页面旁聊天。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
+      }
     },
     {
       "id": "2aty12b872k",
@@ -3310,13 +3514,20 @@
       "publishedAt": "2026-11-03T21:20:03.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "opensource",
+      "category": "agent",
       "score": 23.4,
       "metrics": {
         "points": 127,
         "comments": 69
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50358352"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50358352",
+      "ai": {
+        "title": "Show HN: Uncracked City 探案游戏",
+        "summary": "玩家可在 Uncracked City 中审问会撒谎的 LLM 犯罪嫌疑人。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:59:19.066Z"
+      }
     },
     {
       "id": "1c3bjqhzx7o",
@@ -3780,9 +3991,9 @@
         "Agent",
         "MCP"
       ],
-      "score": 19.6,
+      "score": 20.3,
       "metrics": {
-        "stars": 840
+        "stars": 952
       }
     },
     {

@@ -801,28 +801,7 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 29.1,
-      "related": [
-        {
-          "id": "36mjbhpoxt",
-          "sourceId": "github-new",
-          "sourceName": "GitHub 新星项目",
-          "url": "https://github.com/routerhubSI/glm-5.3-abliterated",
-          "title": "routerhubSI/glm-5.3-abliterated",
-          "publishedAt": "2026-10-24T13:51:36.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "the-decoder",
-          "github-new"
-        ],
-        "firstPublishedAt": "2026-10-24T13:51:36.000Z",
-        "metrics": {
-          "stars": 396
-        }
-      },
+      "score": 15,
       "ai": {
         "title": "GLM 5.3 模型在 48 小时内构建 Firefox 漏洞链",
         "summary": "Epoch AI 研究表明 GLM 5.3 能将安全补丁转化为漏洞。",

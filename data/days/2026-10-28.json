@@ -2522,7 +2522,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "opensource",
-      "score": 59.3,
+      "score": 38,
       "ai": {
         "title": "使用 LFM3 构建专用多模态模型",
         "summary": "介绍如何利用 LFM3 构建特定领域的多模态模型。",
@@ -2531,14 +2531,6 @@
         "at": "2026-10-29T08:18:53.541Z"
       },
       "related": [
-        {
-          "id": "1irm70gvhf1",
-          "sourceId": "hf-models",
-          "sourceName": "HF 热门模型",
-          "url": "https://huggingface.co/LiquidAI/LFM3-1.7B",
-          "title": "LiquidAI/LFM3-1.7B",
-          "publishedAt": "2026-10-23T21:35:42.000Z"
-        },
         {
           "id": "mzobw81lkx",
           "sourceId": "reddit-localllama",
@@ -2549,16 +2541,12 @@
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 2,
         "sources": [
           "hf-blog",
-          "hf-models",
           "reddit-localllama"
         ],
-        "firstPublishedAt": "2026-10-23T21:35:42.000Z",
-        "metrics": {
-          "likes": 536
-        }
+        "firstPublishedAt": "2026-10-27T17:16:52.000Z"
       }
     },
     {

@@ -1,0 +1,151 @@
+{
+  "day": "2026-11-07",
+  "items": [
+    {
+      "id": "1uqkc05pqct",
+      "key": "url:techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years",
+      "title": "After the midterms, is the AI industry in for a rough two years?",
+      "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
+      "excerpt": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even…",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-06T17:23:52.000Z",
+      "firstSeenAt": "2026-11-06T17:56:04.095Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "AI 行业未来两年或面临挑战",
+        "summary": "美国中期选举后，公众对数据中心开发限制的投票可能影响 AI 行业发展。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:57:04.980Z"
+      }
+    },
+    {
+      "id": "1bvaky2q75",
+      "key": "url:developers.googleblog.com/agent-distraction",
+      "title": "Agent Distraction",
+      "url": "https://developers.googleblog.com/agent-distraction/",
+      "excerpt": "Analysis of over 913,000 coding agent sessions reveals that 13% expose agents to inline TODO(b/...) comments. In 6% of encounters, agents act on these comments, with 83% being entirely unprompted by the developer. These detours result in significant overhead—adding 70% more step…",
+      "lang": "en",
+      "sourceId": "google-dev",
+      "sourceName": "Google 开发者博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-06T17:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-06T17:56:04.095Z",
+      "day": "2026-11-07",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 30,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "分析超91万次编码会话，发现13%的 TODO 注释会导致 Agent 无提示执行。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:57:04.980Z"
+      }
+    },
+    {
+      "id": "1stg3jy6tff",
+      "key": "url:theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+      "title": "AI is the new dating dealbreaker",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
+      "excerpt": "When Irene moved to San Francisco last year, she started using dating apps as a way to meet new people, get to know her new city, and connect with others who care about the things she does. After the 25-year-old analyst downloaded Hinge and started swiping, she noticed a trend.…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-06T17:00:00.000Z",
+      "firstSeenAt": "2026-11-06T17:56:04.095Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "AI 成为约会新门槛",
+        "summary": "用户在约会应用中发现 AI 匹配趋势，引发对技术介入人际关系的讨论。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:57:04.980Z"
+      }
+    },
+    {
+      "id": "1gl0mt5yfra",
+      "key": "url:the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent",
+      "title": "Perplexity now has its own always-on AI agent",
+      "url": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/",
+      "excerpt": "Perplexity is launching \"Teammates,\" always-on agents that work through ongoing projects on their own virtual machines. The feature requires the Max plan at $200 per month, well above similar offerings from OpenAI or Anthropic. The market for always-on agents is getting crowded.…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-06T16:47:28.000Z",
+      "firstSeenAt": "2026-11-06T17:56:04.095Z",
+      "day": "2026-11-07",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Perplexity 推出 Teammates AI Agent",
+        "summary": "Perplexity 发布 Teammates 功能，提供每月 200 美元的始终在线 Agent 服务。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:57:04.980Z"
+      }
+    },
+    {
+      "id": "1qd8p6d42mf",
+      "key": "url:theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+      "title": "Big Tech lost big in the 2026 election",
+      "url": "https://www.theverge.com/podcast/1028731/2026-midterms-tech-ai-vergecast",
+      "excerpt": "On Tuesday, millions of American voters went to the polls and voted overwhelmingly for Democrats and against AI. The fight against Big Tech is about to come roaring back, and the fight over data centers is looking even harder for the folks trying to build them. On this episode o…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-06T16:38:02.000Z",
+      "firstSeenAt": "2026-11-06T17:56:04.095Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "2026 选举中科技巨头失利",
+        "summary": "选民对 AI 和数据中心开发持反对态度，科技行业面临更严格的监管。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:57:04.980Z"
+      }
+    },
+    {
+      "id": "1pbnkp3dxxe",
+      "key": "url:theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
+      "title": "How Akai and Moog are embracing vibe-coded mods",
+      "url": "https://www.theverge.com/tech/1028720/vibe-coding-open-source-inmusic-akai",
+      "excerpt": "inMusic, the parent company of Akai, Moog, Native Instruments, and more, has decided to embrace the modding community. In an interview with The Verge, inMusic CEO Jack O'Donnell said, \"We're going to provide a toolbox to the community, we're going to provide the inner workings o…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-06T16:34:39.000Z",
+      "firstSeenAt": "2026-11-06T17:56:04.095Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Akai 和 Moog 拥抱 vibe-coded mods",
+        "summary": "inMusic 公司为 Akai、Moog 等品牌提供工具箱，支持社区进行 modding。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T17:57:04.980Z"
+      }
+    }
+  ]
+}

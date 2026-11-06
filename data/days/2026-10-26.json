@@ -181,16 +181,8 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-26",
       "category": "model",
-      "score": 93.4,
+      "score": 86.5,
       "related": [
-        {
-          "id": "fr9s935ni1",
-          "sourceId": "simonw",
-          "sourceName": "Simon Willison",
-          "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
-          "title": "Introducing Kimi K3.1 Pro",
-          "publishedAt": "2026-10-23T19:40:54.000Z"
-        },
         {
           "id": "1pkwmt2w928",
           "sourceId": "hf-models",
@@ -206,18 +198,17 @@
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 3,
         "sources": [
           "geekpark",
-          "simonw",
           "hf-models",
           "reddit-localllama"
         ],
-        "firstPublishedAt": "2026-10-23T19:40:54.000Z",
+        "firstPublishedAt": "2026-10-26T10:16:08.000Z",
         "metrics": {
-          "likes": 941,
-          "points": 624,
-          "comments": 186
+          "likes": 1422,
+          "points": 633,
+          "comments": 188
         }
       }
     },

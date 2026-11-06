@@ -686,7 +686,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 19637
+        "stars": 20171
       },
       "aiAttempts": 2,
       "ai": {
@@ -1161,6 +1161,30 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-10-31T06:04:55.920Z"
+      }
+    },
+    {
+      "id": "2cc2x8lthrj",
+      "key": "gh:zhanghao123vip/ai-manju-skills",
+      "title": "zhanghao123vip/ai-manju-skills",
+      "url": "https://github.com/zhanghao123vip/ai-manju-skills",
+      "excerpt": "21 个题材的 AI 漫剧全流程 Skill：一句点子生成企划案、资产图提示词、分集剧本、分镜与视频提示词。可用于 Claude Code、WorkBuddy、DeepSeek",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-10-31T03:22:12.000Z",
+      "firstSeenAt": "2026-11-06T17:56:04.095Z",
+      "day": "2026-10-31",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程",
+        "AI 短剧"
+      ],
+      "score": 17.9,
+      "metrics": {
+        "stars": 601
       }
     },
     {
@@ -2061,9 +2085,9 @@
       "day": "2026-10-31",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 20.1,
+      "score": 20.2,
       "metrics": {
-        "stars": 916
+        "stars": 935
       }
     },
     {

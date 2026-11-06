@@ -1442,6 +1442,26 @@
       "score": 18
     },
     {
+      "id": "d4gqe0m93w",
+      "key": "gh:sandflow-ai/sand3d",
+      "title": "Sandflow-ai/sand3d",
+      "url": "https://github.com/Sandflow-ai/sand3d",
+      "excerpt": "3D modeling in Python, built for LLMs.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-03T08:23:03.000Z",
+      "firstSeenAt": "2026-11-06T17:56:04.095Z",
+      "day": "2026-11-03",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 18.8,
+      "metrics": {
+        "stars": 710
+      }
+    },
+    {
       "id": "1wjxr4cn8cd",
       "key": "url:36kr.com/p/4053676712891526",
       "title": "Anthropic 14万亿参数神级模型泄露，6个月内杀死视频、图像模型",
@@ -1512,7 +1532,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 3321
+        "stars": 3626
       }
     },
     {
@@ -3059,10 +3079,18 @@
           "url": "https://www.qbitai.com/2026/11/507688.html",
           "title": "太初元碁入选2026年世界互联网大会领先科技奖收录成果集《科技之魅》",
           "publishedAt": "2026-11-05T01:42:43.000Z"
+        },
+        {
+          "id": "t7682xhjru",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4057812855527302",
+          "title": "互联网大会第二天，巨头用防止“智能体作恶”公约给AI踩下“制动”",
+          "publishedAt": "2026-11-06T11:13:48.113Z"
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 5,
         "sources": [
           "36kr-ai",
           "36kr-flash",
@@ -3581,7 +3609,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 36.9,
+      "score": 37.3,
       "ai": {
         "title": "YC Garry Tan每年花费20万美元购买AI代币",
         "summary": "YC的Garry Tan因过度使用AI代理而调侃自己患有“网络精神病”。",
@@ -3597,8 +3625,8 @@
         }
       ],
       "metrics": {
-        "points": 102,
-        "comments": 169
+        "points": 108,
+        "comments": 173
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50366971"
     },
@@ -4916,6 +4944,30 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-03T03:58:04.896Z"
+      }
+    },
+    {
+      "id": "ndqu7hupsk",
+      "key": "gh:balanov/shim",
+      "title": "Balanov/shim",
+      "url": "https://github.com/Balanov/shim",
+      "excerpt": "Tiny local-first AI harness: any model, MCP and Agent Skills, natural-language CLI. Zero dependencies. MIT.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T17:54:29.000Z",
+      "firstSeenAt": "2026-11-06T17:56:04.095Z",
+      "day": "2026-11-03",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "MCP"
+      ],
+      "score": 16.8,
+      "metrics": {
+        "stars": 467
       }
     },
     {
