@@ -313,39 +313,42 @@
   },
   "2026-11-06": {
     "day": "2026-11-06",
-    "generatedAt": "2026-11-05T18:47:53.316Z",
-    "itemCount": 142,
-    "mode": "fallback",
-    "overview": "过去 24 小时共收录 142 条 AI 资讯：产品与行业 81 条、Agent 与工具 21 条、论文 11 条、多模态与视频 10 条、开源项目 10 条、模型发布 9 条。以下为按重要性排序的前 5 条。",
+    "generatedAt": "2026-11-06T03:28:51.372Z",
+    "itemCount": 134,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "Gemini与OpenAI发布视频生成与安全模型，百度开源2800亿参数大模型。",
     "points": [
       {
-        "text": "【多模态】Gemini Omni 1.2 Flash 推出 15 秒视频生成",
+        "text": "Gemini Omni 1.2 Flash 推出 15 秒视频生成，价格降低 30%。",
         "refs": [
           "kaf9si2bv5"
         ]
       },
       {
-        "text": "【开源】Baidu 发布 2800 亿参数开源模型 ERNIE 5.5 Flash B…",
+        "text": "OpenAI 发布 GPT-6 Cyber 安全模型，专用于发现软件漏洞。",
         "refs": [
-          "gyuymrhy8g"
+          "5slauttj2a",
+          "1dteod2celz"
         ]
       },
       {
-        "text": "【模型】百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+        "text": "百度发布 2800 亿参数开源模型 ERNIE 5.5 Flash Base。",
         "refs": [
+          "gyuymrhy8g",
           "1qe1rum88t1"
         ]
       },
       {
-        "text": "【多模态】一键生成GIF！ChatGPT Images 2.6上线，大家表情包自由了",
+        "text": "ChatGPT Images 2.6 上线，支持一键生成 GIF。",
         "refs": [
           "2ly7rzok2l"
         ]
       },
       {
-        "text": "【Agent】前Claude Code产品负责人宣布加入OpenAI",
+        "text": "NVIDIA 发布 Cosmos 3 开源模型，支持交互式世界模拟。",
         "refs": [
-          "11rsx1i1458"
+          "4k6yay9j5f"
         ]
       }
     ]

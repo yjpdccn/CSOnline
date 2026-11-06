@@ -1,19 +1,6 @@
 {
-  "updatedAt": "2026-11-05T18:42:26.197Z",
+  "updatedAt": "2026-11-06T03:26:50.356Z",
   "events": [
-    {
-      "id": "wscn-1597470",
-      "at": "2026-11-05T13:30:00.000Z",
-      "country": "美国",
-      "title": "10月31日当周首次申请失业救济人数(万人)",
-      "importance": 3,
-      "kind": "data",
-      "source": "华尔街见闻",
-      "previous": "19.4",
-      "forecast": "19.6",
-      "actual": "18.9",
-      "unit": "万人"
-    },
     {
       "id": "wscn-1597483",
       "at": "2026-11-06T13:30:00.000Z",
@@ -23,7 +10,7 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "2.9",
-      "forecast": "6.5",
+      "forecast": "7",
       "unit": "万人"
     },
     {
@@ -43,7 +30,7 @@
       "at": "2026-11-09T01:30:00.000Z",
       "country": "中国",
       "title": "10月CPI同比 · 10月PPI同比",
-      "importance": 3,
+      "importance": 4,
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "0.9",
@@ -66,7 +53,7 @@
       "at": "2026-11-10T04:02:00.000Z",
       "country": "中国",
       "title": "10月进口同比(按美元计) · 10月出口同比(按美元计)",
-      "importance": 3,
+      "importance": 4,
       "kind": "data",
       "source": "华尔街见闻",
       "dateOnly": true,
@@ -78,7 +65,7 @@
       "at": "2026-11-10T13:30:00.000Z",
       "country": "美国",
       "title": "10月核心CPI同比 · 10月CPI同比",
-      "importance": 3,
+      "importance": 4,
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "2.6",
@@ -92,7 +79,21 @@
       "importance": 3,
       "kind": "data",
       "source": "华尔街见闻",
+      "previous": "18.9",
+      "forecast": "19.5",
       "unit": "万人"
+    },
+    {
+      "id": "wscn-1598652",
+      "at": "2026-11-13T13:30:00.000Z",
+      "country": "美国",
+      "title": "10月PPI同比",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "6.3",
+      "forecast": "6.6",
+      "unit": "%"
     },
     {
       "id": "wscn-15638",

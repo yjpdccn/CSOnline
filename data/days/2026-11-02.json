@@ -2706,11 +2706,11 @@
       "day": "2026-11-02",
       "category": "model",
       "categoryLocked": true,
-      "score": 72.7,
+      "score": 73.4,
       "metrics": {
-        "likes": 853,
-        "points": 609,
-        "comments": 180
+        "likes": 941,
+        "points": 624,
+        "comments": 186
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50366999",
       "skipLlm": true,
@@ -3988,7 +3988,7 @@
       "firstSeenAt": "2026-11-02T02:30:31.448Z",
       "day": "2026-11-02",
       "category": "paper",
-      "score": 58.9,
+      "score": 63.3,
       "ai": {
         "summary": "GPT-6 与 Claude 合作，在百分钟内解决困扰人类 38 年的混沌难题。",
         "category": "paper",
@@ -4079,8 +4079,8 @@
         ],
         "firstPublishedAt": "2026-11-02T00:12:34.079Z",
         "metrics": {
-          "points": 198,
-          "comments": 94
+          "points": 312,
+          "comments": 159
         }
       }
     },
@@ -4540,9 +4540,9 @@
       "day": "2026-11-02",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 19.6,
+      "score": 19.8,
       "metrics": {
-        "stars": 839
+        "stars": 875
       }
     },
     {
@@ -4647,6 +4647,30 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-02T09:05:35.775Z"
+      }
+    },
+    {
+      "id": "1jiftsaxl2y",
+      "key": "gh:balanov/uncut",
+      "title": "Balanov/uncut",
+      "url": "https://github.com/Balanov/uncut",
+      "excerpt": "The lossless, headless coding agent harness. One 7 MB static binary, four tools, plain stdin/stdout, no silent cuts.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T17:19:30.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-02",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 18,
+      "metrics": {
+        "stars": 608
       }
     }
   ]

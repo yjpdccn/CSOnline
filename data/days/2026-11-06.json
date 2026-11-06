@@ -2,6 +2,939 @@
   "day": "2026-11-06",
   "items": [
     {
+      "id": "5tra7sfcpy",
+      "key": "url:infoq.cn/article/jBdvoUXheWN0oe6NfklO",
+      "title": "从仓储到配送，全程由 AI“指挥”：京东物流“超脑”3.0 的工业级 AI 实践",
+      "url": "https://www.infoq.cn/article/jBdvoUXheWN0oe6NfklO?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T03:14:56.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "h9vc1dh2et",
+      "key": "url:jiqizhixin.com/articles/2026-11-06-6",
+      "title": "奇富科技开源ModelEvo 2.0，推动业务建模迈向自主探索与持续进化",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-06-6",
+      "excerpt": "11月4日，奇富科技正式开源自动建模Agent ModelEvo 2.0。新版本面向结构化与表格数据，在标准化建模流程的基础上，进一步实现自主搜索、可信评估与跨任务经验积累复用。用户明确业务目标、提供建模样本与验证方案后，Agent可在给定预算内分析数据、规划实验并持续优化，对通过确认与交付校...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T02:47:00.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "opensource",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22
+    },
+    {
+      "id": "1siqxof8eog",
+      "key": "url:jiqizhixin.com/articles/2026-11-06-5",
+      "title": "刚刚，源策未来发布 Anchor 1：让人形机器人真正做到精准控制",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-06-5",
+      "excerpt": "编辑｜Panda昨晚，具身智能算法创业公司源策未来（Archon Robotics）发布全身控制模型 Anchor 1 时，放出了一段并不炫技的真机视频：一台人形机器人抬起手臂，一笔一画地描出 ANCHOR 六个字母。直线、弧线、急转弯，轨迹一气呵成。项目主页上还挂着一个可以上手玩的 demo...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T02:38:00.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 22
+    },
+    {
+      "id": "ryhnc7jqxx",
+      "key": "url:jiqizhixin.com/articles/2026-11-06-4",
+      "title": "百万小时数据喂下去，机器人就能学会一切？这场塔尖会拆解「具身数据战」",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-06-4",
+      "excerpt": "当训练数据以百万小时计，机器人究竟能学会什么？从抓取、分拣物品，到在陌生环境中连续完成多步操作，不同任务对机器人能力的要求各不相同，所需的训练数据也随之变化。人类第一视角视频、真机交互记录与仿真生成数据提供了不同的学习信号，其价值也随模型架构、训练阶段与应用目标而变化。如何选择和组合数据、验证...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T02:32:00.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "jqwp04ved1",
+      "key": "url:jiqizhixin.com/articles/2026-11-06-3",
+      "title": "CoRL 2026｜移动双臂灵巧操作，也能从人类示范中学？",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-06-3",
+      "excerpt": "双手提起水果篮，转身，将它送到另一张桌子前。对人来说，这只是一个普通的日常动作；但对机器人而言，却需要移动底盘、躯干、双臂、头部和灵巧手的持续协调。要让机器人学会这样的全身操作，需要大量高质量的示范数据。然而，随着移动能力与灵巧手的引入，机器人遥操作示范的采集愈发复杂，甚至需要多名操作者协同完...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T02:29:00.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1c7a9zr1crj",
+      "key": "url:jiqizhixin.com/articles/2026-11-06-2",
+      "title": "Claude进化速度翻倍了，80%增量来自AI",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-06-2",
+      "excerpt": "编辑｜泽南AI 帮助研发下一代 AI 的速度，终于有了具体数字。11 月 5 日，第三方评估机构 METR 发布一份关于 Anthropic 的调查报告表示：这家公司过去一年取得的基准能力进步，大致相当于此前两年的进步。从 8 月 12 日到 10 月 29 日，这个机构花费了约 11 周时间...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T02:25:00.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 26,
+      "related": [
+        {
+          "id": "1a1gr1vdv7",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4057518313690248",
+          "title": "Claude进化速度翻倍了，80%增量来自AI",
+          "publishedAt": "2026-11-06T00:40:23.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-06T00:40:23.000Z"
+      }
+    },
+    {
+      "id": "2agh3f9svto",
+      "key": "url:jiqizhixin.com/articles/2026-11-06",
+      "title": "世界建模是跨任务可复用的独立能力吗？Northwestern、CMU等用仅2k样本跨领域提升22项基准，并给出训练配方",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-06",
+      "excerpt": "以多模态大模型为基座模型的系统，正在被要求跨领域、跨任务干活：看懂空间关系，规划具身动作，理解视频里的时序，判断一个物体会不会掉下来，等等。这些任务分属不同领域，研究也各管一摊，各有基准，各提方法，而一个领域里奏效的方法很少能搬到另一个领域去。然而，这些任务都涉及到世界会怎样随动作变化，也就是...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T02:22:00.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1uqck5en97b",
+      "key": "url:infoq.cn/article/4IUSd2wP28ua4Jd5fHG2",
+      "title": "AI Native 企业研发工具链：架构重构与持续演进｜AICon北京",
+      "url": "https://www.infoq.cn/article/4IUSd2wP28ua4Jd5fHG2?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T02:00:00.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "agent",
+      "score": 18
+    },
+    {
+      "id": "1xd4hdpak5",
+      "key": "url:36kr.com/p/4057626189534338",
+      "title": "谷歌视频新模型双榜第一，力压Grok、Seedance，价格再砍三成",
+      "url": "https://36kr.com/p/4057626189534338",
+      "excerpt": "拼成本与工作流的时候到了。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T01:54:49.163Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "multimodal",
+      "keywords": [
+        "视频生成"
+      ],
+      "score": 18
+    },
+    {
+      "id": "e9moeuovxb",
+      "key": "url:36kr.com/newsflashes/4057581194056834",
+      "title": "Meta收购AI代码初创公司Conductor",
+      "url": "https://36kr.com/newsflashes/4057581194056834",
+      "excerpt": "多名知情人士透露，Meta收购了AI代码初创企业Conductor，这款产品可以让程序员同时管理多个代码智能体。代码已经成为AI落地、抢占企业开支的关键赛道，Meta正加入OpenAI等AI巨头的竞争，争夺开发者工具生态。这笔收购体现Meta持续加码AI的野心，将为其自研模型与生态打下基础，争夺开发者群体——开发者是AI最重要的核心用户。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T01:13:30.671Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 34,
+      "related": [
+        {
+          "id": "vkccqc3ohc",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+          "title": "Meta 收购 AI 编码初创公司 Conductor",
+          "publishedAt": "2026-11-04T21:10:56.000Z"
+        },
+        {
+          "id": "1hziyn0sm44",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers/",
+          "title": "Meta buys AI coding startup Conductor as big tech races to lock in developers",
+          "publishedAt": "2026-11-05T15:01:09.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "36kr-flash",
+          "techcrunch-ai",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-11-04T21:10:56.000Z"
+      }
+    },
+    {
+      "id": "2f51sit2eui",
+      "key": "url:36kr.com/newsflashes/4057584511800452",
+      "title": "工信部：加强智能体终端设备进网管理",
+      "url": "https://36kr.com/newsflashes/4057584511800452",
+      "excerpt": "36氪获悉，工信部发布关于加强智能体终端设备进网管理的通知。其中提到，改进智能体终端进网管理。开展风险评估，完善电信设备进网检测机制，细化特别规定事项要求。预置智能体的手机、平板、可穿戴设备等智能体终端，须在进网检测中依据有关标准开展智能体适配验证；依法开展智能体终端涉诈风险安全评估和反诈能力前置性评测，落实重要通信工作要求。终端上使用的智能体应参考智能体互联系列国家标准配备唯一身份码。终端生产企业应当保证智能体终端获得进网许可证前后的一致性。智能体终端发生重大变化的，终端生产企业应当向工业和信息化部报备，并按要求开展进网检测。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T01:08:24.675Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1568q1vhxg9",
+      "key": "url:geekpark.net/news/373554",
+      "title": "中期选举后美国芯片股重挫，纳指单日暴跌 5.52%；民主党宣布推动《禁止人工智能法案》；OpenAI 推出 GPT-6 Cyber",
+      "url": "http://www.geekpark.net/news/373554",
+      "excerpt": "芯片股惨遭重挫，华尔街迎来 1896 年以来中期选举后表现最差的第二个交易日 据路透社报道，美国民主党在国会中期选举中大胜，引发投资者对 AI 监管加强、数据中心建设放缓的担忧。 当地时间周四，美国科技股遭遇大规模抛售，华尔街股票市值单日蒸发约 3.2 万亿美元（约合人民币 22.7 万亿元）。纳斯达克综合指数暴跌 5.52%，创下自 2025 年 4 月以来最大单日跌幅，较 10 月初创下的历史高点累计下跌近 12%，进入技术性回调区间。 此次抛售席卷整个 AI 产业链。费城半导体指数暴跌约 12.3%，英伟达下跌约 9.3%，基本抹去 2026 年…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T01:01:57.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "model",
+      "score": 28
+    },
+    {
+      "id": "4vl3ci736m",
+      "key": "url:36kr.com/p/4056693761987461",
+      "title": "一场青奥，万点鼓声，一朵不走的主权云：阿里在达喀尔的答卷",
+      "url": "https://36kr.com/p/4056693761987461",
+      "excerpt": "中国科技企业走向世界的新范式。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T01:00:00.531Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1db38g3gurm",
+      "key": "url:36kr.com/newsflashes/4057557508379783",
+      "title": "对冲基金VARA在AI股票的“惨烈”10月暴跌33%",
+      "url": "https://36kr.com/newsflashes/4057557508379783",
+      "excerpt": "全仓押注AI概念的对冲基金Value Aligned Research Advisors（VARA）上个月遭遇了重创，随着AI股票面临痛苦的估值重估，该基金单月暴跌33%。据一位要求匿名以讨论非公开信息的知情人士透露，VARA的投资组合与Leopold Aschenbrenner旗下的Situational Awareness基金类似。该机构告知C类份额投资者，尽管遭遇大跌，其基金今年迄今仍录得13%的正收益。而在7月份，该对冲基金的表现更为惨淡，曾一度重挫44%。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T00:52:54.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "gmyg3rnbi0",
+      "key": "url:36kr.com/p/4057524843271043",
+      "title": "稚晖君的机器人，开始上班了",
+      "url": "https://36kr.com/p/4057524843271043",
+      "excerpt": "两万台机器人下线的智元，也要面对数采、算力、人力难以量化的现实难题。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T00:50:01.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "22y19z2a4ea",
+      "key": "url:36kr.com/p/4057553085404038",
+      "title": "突发：李飞飞最新 AI 成果发布，把世界模型装进复古掌机，单张图实时跑出 15 帧",
+      "url": "https://36kr.com/p/4057553085404038",
+      "excerpt": "世界模型迎来实时交互",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T00:41:53.730Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "multimodal",
+      "score": 22
+    },
+    {
+      "id": "1a1gr1vdv7",
+      "key": "url:36kr.com/p/4057518313690248",
+      "title": "Claude进化速度翻倍了，80%增量来自AI",
+      "url": "https://36kr.com/p/4057518313690248",
+      "excerpt": "Anthropic 研究员：我感觉自己有了一批博士后和研究生。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T00:40:23.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "1c7a9zr1crj"
+    },
+    {
+      "id": "yfh7gc84hl",
+      "key": "url:theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "title": "OpenAI is stepping back from NDAs for data center projects",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028454/openai-data-center-nda",
+      "excerpt": "Following this week's midterms where voters resoundingly voiced their opposition to data center expansion, OpenAI today announced new commitments to communities where it is working on data center projects, including that it won't use non-disclosure agreements (NDAs) with public…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-06T00:37:56.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "OpenAI 放弃数据中心项目的 NDA",
+        "summary": "OpenAI 宣布在数据中心项目中不再使用 NDA，以回应社区对扩张的反对。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
+      "id": "1rumlvsb0ol",
+      "key": "url:36kr.com/p/4056904097159040",
+      "title": "抓住扎克伯格的手，傅利叶能否逆转80亿估值的长期困局？",
+      "url": "https://36kr.com/p/4056904097159040",
+      "excerpt": "跑了十一年，为何估值还在这？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T00:33:51.711Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "211ft6qidvz",
+      "key": "url:36kr.com/p/4056856333095808",
+      "title": "已经被AI攻破，人脸识别可能要“失业”了",
+      "url": "https://36kr.com/p/4056856333095808",
+      "excerpt": "AI视频模型能力的迭代，让这个威胁会变得越来越大。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T00:15:46.138Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "multimodal",
+      "score": 18
+    },
+    {
+      "id": "22da5ddpz6b",
+      "key": "url:36kr.com/p/4057068260841096",
+      "title": "腾讯Chatterfly上手，语音输入的下一站来了？",
+      "url": "https://36kr.com/p/4057068260841096",
+      "excerpt": "更好用的Typeless？可能不止。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T00:13:53.002Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "multimodal",
+      "keywords": [
+        "语音"
+      ],
+      "score": 18
+    },
+    {
+      "id": "wgfb2dw1z4",
+      "key": "url:theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "title": "Airbnb is working on an AI travel agent",
+      "url": "https://www.theverge.com/tech/1028412/airbnb-ai-travel-agent-q3-2026-earnings",
+      "excerpt": "Airbnb plans to roll out an AI agent in the first half of 2027 that will help users plan and book travel, the company said in its Q3 2026 earnings shareholder letter released today. \"Today's AI agents are good at simple, routine tasks, like making a restaurant reservation or sch…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-06T00:06:12.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Airbnb 正在开发 AI 旅行代理",
+        "summary": "Airbnb 计划在 2027 年上半年推出 AI 代理，帮助用户规划旅行。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
+      "id": "v8ik0t2mpe",
+      "key": "url:infoq.cn/article/vMSj216sQUhmeDH4H0G7",
+      "title": "AI 狂烧 2000亿美元，谷歌全球启动“自愿买断”计划：最高补偿12个月工资",
+      "url": "https://www.infoq.cn/article/vMSj216sQUhmeDH4H0G7?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "b8330ktsic"
+    },
+    {
+      "id": "d9gy7a5rme",
+      "key": "url:36kr.com/p/4057431368782726",
+      "title": "GPT-6.2 Astra 要来了，厉娜",
+      "url": "https://36kr.com/p/4057431368782726",
+      "excerpt": "蓄势待发！",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-05T23:46:32.029Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "model",
+      "score": 24
+    },
+    {
+      "id": "jgt7h0ary3",
+      "key": "url:36kr.com/p/4057437511816329",
+      "title": "IT技术太烂，日本正在被黑客们当怪刷",
+      "url": "https://36kr.com/p/4057437511816329",
+      "excerpt": "日本成黑客新手村了",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-05T23:46:00.675Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1dhy8ofxzo7",
+      "key": "url:36kr.com/p/4057467760661378",
+      "title": "刚刚，GPT-6 Cyber 正式发布，AI 最强的矛也成了最强的盾",
+      "url": "https://36kr.com/p/4057467760661378",
+      "excerpt": "以子之矛，攻子之盾",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-05T23:45:34.300Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "model",
+      "score": 28,
+      "dupOf": "5slauttj2a"
+    },
+    {
+      "id": "bkf6tliai",
+      "key": "url:36kr.com/p/4057235026121864",
+      "title": "刚刚，OpenAI 发布 GPT‑6 Cyber，横扫两大开源项目：Firefox 挖出 81 个高危漏洞，Linux 曝光 948 条提权路径",
+      "url": "https://36kr.com/p/4057235026121864",
+      "excerpt": "这款新模型将重点放在漏洞发现、可利用性验证、攻击路径分析与安全修复上。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-05T23:45:19.718Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "opensource",
+      "score": 22
+    },
+    {
+      "id": "27wg3oimaxd",
+      "key": "url:infoq.cn/article/QGaIWSgd9uwx2WGw0yFv",
+      "title": "当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge",
+      "url": "https://www.infoq.cn/article/QGaIWSgd9uwx2WGw0yFv?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-05T23:14:48.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 22
+    },
+    {
+      "id": "1xj1lr7rrq4",
+      "key": "url:finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
+      "url": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-05T23:09:57.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 24.7,
+      "metrics": {
+        "points": 156,
+        "comments": 66
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50385870",
+      "ai": {
+        "title": "Facebook 被指明知故犯地运行 AI 深假诈骗广告",
+        "summary": "据文档显示，Facebook 的 AI 深假广告带来了 160 亿美元欺诈收入。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
+      "id": "1wjcvmbbuvh",
+      "key": "url:techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027",
+      "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
+      "url": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
+      "excerpt": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-05T22:40:55.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 19,
+      "ai": {
+        "title": "Airbnb 计划于 2027 年上半年推出 AI 旅行代理",
+        "summary": "Airbnb 的 AI 代理将帮助用户规划行程、比较选项并管理预订。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
+      "id": "cjhyewilt3",
+      "key": "url:theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "title": "Perplexity launches its own take on AI agents for work",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
+      "excerpt": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integ…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-05T22:26:50.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 19,
+      "ai": {
+        "title": "Perplexity 推出面向工作的 AI Agent",
+        "summary": "Perplexity 发布 \"Teammates\" AI Agent，可整合现有项目与记忆。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
+      "id": "26eiv1fsdaj",
+      "key": "gh:anthropics/claude-code",
+      "title": "Claude Code sends your email address to websites",
+      "url": "https://github.com/anthropics/claude-code/issues/107757",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-05T22:17:15.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 34.9,
+      "metrics": {
+        "points": 636,
+        "comments": 219
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50385272",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Claude Code 会将用户的邮箱地址发送给网站。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
+      "id": "rfptv3sijz",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xovnaa/maybe_well_get_cheap_ram_for_christmas_after_all",
+      "title": "Maybe we'll get cheap RAM for Christmas after all!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xovnaa/maybe_well_get_cheap_ram_for_christmas_after_all/",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-05T22:00:25.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xovnaa/maybe_well_get_cheap_ram_for_christmas_after_all/",
+      "ai": {
+        "title": "也许我们能在圣诞节前买到廉价内存",
+        "summary": "用户在讨论可能出现的廉价内存供应情况。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
+      "id": "1dteod2celz",
+      "key": "url:the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them",
+      "title": "OpenAIs GPT-6 Cyber can both break into systems and propose how to fix them",
+      "url": "https://the-decoder.com/openais-gpt-6-cyber-can-both-break-into-systems-and-propose-how-to-fix-them/",
+      "excerpt": "With GPT-6 Cyber, OpenAI is introducing an AI model built to find security vulnerabilities in software, develop exploits, and suggest patches. According to OpenAI, it has already found 81 previously unknown vulnerabilities in Firefox and developed 948 working exploits in the Lin…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-05T20:36:25.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "model",
+      "score": 21,
+      "ai": {
+        "title": "OpenAI 发布 GPT-6 Cyber 安全模型",
+        "summary": "GPT-6 Cyber 专用于发现软件漏洞并开发补丁，已发现 81 个 Firefox 漏洞。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
+      "id": "1ynq1omt8oa",
+      "key": "hf:orcarouter/orcacyber-nano-1.0",
+      "title": "Appreciation post for OrcaCyber-Nano-1.0",
+      "url": "https://huggingface.co/orcarouter/OrcaCyber-Nano-1.0",
+      "excerpt": "I haven't see anyone post about this gem of a finetune. So I wanted to appreciate the team and bring some attention to it. OrcaCyber-Nano-1.0 for me is the best finetune I have used so far. I have tried quite a few like AREX or Swift or Peculiar Ragdoll's Spark chat template etc…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-05T20:09:52.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xosw1w/appreciation_post_for_orcacybernano10/",
+      "ai": {
+        "title": "感谢 OrcaCyber-Nano-1.0 微调模型",
+        "summary": "用户分享了对 OrcaCyber-Nano-1.0 微调模型的赞赏。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
+      "id": "1xcu311eoik",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xossr5/zai_chief_scientist_jie_tang_just_revealed_the",
+      "title": "Z.ai chief scientist Jie Tang just revealed the training pipeline behind the upcoming GLM-5.5 (32B, 122B, and 256B)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xossr5/zai_chief_scientist_jie_tang_just_revealed_the/",
+      "excerpt": "Smaller GLM models are coming! GLM 5.5 will have a 32B model! [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-05T20:06:15.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xossr5/zai_chief_scientist_jie_tang_just_revealed_the/",
+      "ai": {
+        "title": "Z.ai 首席科学家透露 GLM-5.5 训练流程",
+        "summary": "Z.ai 首席科学家分享了 GLM-5.5 的训练管道，包含 32B、122B 和 256B 模型。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
+      "id": "gh92q8ta63",
+      "key": "url:blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents",
+      "title": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+      "url": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
+      "excerpt": "AI agents do more than generate answers. They search for information, query databases, write and test code and take action. Each of those steps relies on a CPU, with agents moving between GPU reasoning and CPU execution throughout a task. As businesses put more agents to work, A…",
+      "lang": "en",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-05T20:00:41.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "model",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 36,
+      "ai": {
+        "title": "NVIDIA Vera 模型兼顾高吞吐与快速推理",
+        "summary": "NVIDIA Vera 模型优化了 CPU 与 GPU 间的协作，提升 AI Agent 效率。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
+      "id": "1w1fzuq0ddk",
+      "key": "url:openai.com/index/cultfit-builds-with-codex",
+      "title": "Cult.fit builds operational muscle with Codex",
+      "url": "https://openai.com/index/cultfit-builds-with-codex",
+      "excerpt": "Cult.fit is using Codex to help teams across functions build tools, move faster, and change how work gets done.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-05T20:00:00.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "Cult.fit 利用 Codex 提升运营效率",
+        "summary": "Cult.fit 使用 Codex 帮助团队构建工具，加快工作流程。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
+      "id": "vhguak123f",
+      "key": "url:techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar",
+      "title": "Meta says US users can now video chat with their Muse AI avatar",
+      "url": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
+      "excerpt": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-05T19:48:28.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "multimodal",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Meta 允许美国用户与 Muse AI 头像视频通话",
+        "summary": "Meta 的 Muse AI 代理现在可以以自定义动画头像接听电话。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
+      "id": "4k6yay9j5f",
+      "key": "url:huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "title": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-05T19:35:16.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "opensource",
+      "score": 30,
+      "ai": {
+        "title": "NVIDIA Cosmos 3 开源模型发布",
+        "summary": "NVIDIA 发布 Cosmos 3 开源模型，支持交互式世界模拟。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
+      "id": "occotpctm8",
+      "key": "url:techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder",
+      "title": "Meta warns that election backlash against data centers could make AI expansion harder",
+      "url": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
+      "excerpt": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-05T19:12:39.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Meta 警告数据中心面临选举反弹风险",
+        "summary": "Meta 指出，社区对数据中心的反对可能阻碍未来的 AI 投资扩张。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
+      "id": "iuax918ooq",
+      "key": "url:techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough",
+      "title": "OpenAI released a new cybersecurity model. Is that enough?",
+      "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+      "excerpt": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-05T19:06:12.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "model",
+      "score": 25,
+      "ai": {
+        "title": "OpenAI 发布新网络安全模型",
+        "summary": "OpenAI 推出新的网络安全模型，以应对 AI 实验室面临的审查。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      },
+      "dupOf": "1ww0f9ou9je"
+    },
+    {
+      "id": "wyw7v7b5xs",
+      "key": "url:the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent",
+      "title": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent",
+      "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/",
+      "excerpt": "Google Deepmind is making Gemini Omni 1.2 Flash generally available. The video-generation model now creates clips up to 15 seconds long, can be edited step by step via conversation, and costs just $0.07 per second at 720p, 30 percent less than its predecessor. Users who draft in…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-05T19:05:31.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "multimodal",
+      "score": 15,
+      "dupOf": "kaf9si2bv5"
+    },
+    {
+      "id": "186x8biaqi4",
+      "key": "url:theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+      "title": "Muse has a voice mode now",
+      "url": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+      "excerpt": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top of…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-05T19:03:04.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "multimodal",
+      "keywords": [
+        "Agent",
+        "语音"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Muse AI 现已支持语音模式",
+        "summary": "Meta 的 Muse AI 代理现在支持实时语音对话功能。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
+      }
+    },
+    {
       "id": "lox2fb7bga",
       "key": "gh:vercel-labs/agent-browser",
       "title": "vercel-labs/agent-browser",
@@ -21,7 +954,7 @@
       ],
       "score": 18.9,
       "metrics": {
-        "stars": 45764,
+        "stars": 45981,
         "starsToday": 181
       },
       "ai": {
@@ -52,7 +985,7 @@
       ],
       "score": 18.9,
       "metrics": {
-        "stars": 14061,
+        "stars": 14206,
         "starsToday": 181
       },
       "ai": {
@@ -81,10 +1014,10 @@
       "keywords": [
         "语音"
       ],
-      "score": 19.9,
+      "score": 20.1,
       "metrics": {
-        "stars": 55671,
-        "starsToday": 214
+        "stars": 56067,
+        "starsToday": 223
       },
       "ai": {
         "title": "microsoft/VibeVoice 开源前沿语音 AI",
@@ -92,6 +1025,30 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-05T18:44:52.915Z"
+      }
+    },
+    {
+      "id": "1la1zg7h6nt",
+      "key": "gh:musicurgy/delta-inference-engine",
+      "title": "DeepSeek-V4.1-Flash-1017 on one RTX 3090: Big updates to the Delta Inference Engine v0.93. Same 41 tok/s at 192GB/IQ2 at better quality, usable from 64 GB RAM, first token ~40% sooner, new Unsloth quants at full speed, EXL3, basic multi-GPU, public CI and more",
+      "url": "https://github.com/musicurgy/delta-inference-engine",
+      "excerpt": "Big update to the Delta Inference Engine, you guys asked for more features, more benchmarks and less clickbait. I'm here to deliver The short version: I've added almost everything requested and more. Delta Inference Engine now supports 64/96/128 GB of RAM and fully supports the…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-05T18:23:22.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xoq4vq/deepseekv41flash1017_on_one_rtx_3090_big_updates/",
+      "ai": {
+        "title": "Delta 推理引擎 v0.93 更新支持更多内存",
+        "summary": "Delta 推理引擎更新，支持 64GB 至 128GB 内存，提升推理速度与质量。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
       }
     },
     {
@@ -115,6 +1072,33 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-05T18:44:52.915Z"
+      }
+    },
+    {
+      "id": "184yt021itk",
+      "key": "url:wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+      "title": "Nasdaq Sinks 5% as Investors Retreat from AI Trade After Election",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-05-2026",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-05T18:00:01.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 26.6,
+      "metrics": {
+        "points": 152,
+        "comments": 187
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50382179",
+      "ai": {
+        "title": "纳斯达克因投资者退出 AI 交易而下跌 5%",
+        "summary": "美国大选后投资者对 AI 概念股持谨慎态度，导致纳斯达克指数下跌。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
       }
     },
     {
@@ -177,7 +1161,7 @@
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-06",
       "category": "opensource",
-      "score": 49.6,
+      "score": 50.7,
       "related": [
         {
           "id": "oz2eu7wejh",
@@ -205,8 +1189,8 @@
         ],
         "firstPublishedAt": "2026-11-05T06:40:48.000Z",
         "metrics": {
-          "points": 146,
-          "comments": 83
+          "points": 167,
+          "comments": 92
         }
       },
       "ai": {
@@ -297,7 +1281,7 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 38,
+      "score": 46,
       "related": [
         {
           "id": "n5mht81ja8",
@@ -306,13 +1290,22 @@
           "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/",
           "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
           "publishedAt": "2026-11-05T17:05:16.000Z"
+        },
+        {
+          "id": "wyw7v7b5xs",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/",
+          "title": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent",
+          "publishedAt": "2026-11-05T19:05:31.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "google-ai",
-          "deepmind"
+          "deepmind",
+          "the-decoder"
         ],
         "firstPublishedAt": "2026-11-05T17:00:00.000Z"
       },
@@ -361,13 +1354,54 @@
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-06",
       "category": "model",
-      "score": 21,
+      "score": 29,
       "ai": {
         "title": "OpenAI 发布 GPT-6 Cyber 安全模型",
         "summary": "OpenAI 推出 GPT-6 Cyber，更擅长发现漏洞且不易越界攻击。",
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-05T18:44:52.915Z"
+      },
+      "related": [
+        {
+          "id": "1dhy8ofxzo7",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4057467760661378",
+          "title": "刚刚，GPT-6 Cyber 正式发布，AI 最强的矛也成了最强的盾",
+          "publishedAt": "2026-11-05T23:45:34.300Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "verge-ai",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-05T17:00:00.000Z"
+      }
+    },
+    {
+      "id": "1sgiunj36wc",
+      "key": "url:openai.com/index/australian-universities-ai-native-graduates",
+      "title": "Australian universities are creating AI-native graduates",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-05T17:00:00.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 30,
+      "ai": {
+        "title": "澳大利亚大学正培养 AI 原生毕业生",
+        "summary": "澳大利亚高校将 ChatGPT 引入教学，以适应 AI 驱动的劳动力。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-06T03:27:25.268Z"
       }
     },
     {

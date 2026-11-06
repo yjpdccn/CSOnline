@@ -111,7 +111,7 @@
       "score": 36,
       "metrics": {
         "points": 671,
-        "comments": 463
+        "comments": 464
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50353192",
       "ai": {
@@ -1132,7 +1132,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 26,
+      "score": 34,
       "related": [
         {
           "id": "12dqfxro2ff",
@@ -1141,13 +1141,22 @@
           "url": "https://36kr.com/p/4056062592734080",
           "title": "网络安全的AlphaGo时刻，或从这466场Agent对局开始",
           "publishedAt": "2026-11-05T00:13:19.935Z"
+        },
+        {
+          "id": "iuax918ooq",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
+          "title": "OpenAI 发布新网络安全模型",
+          "publishedAt": "2026-11-05T19:06:12.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "jiqizhixin",
-          "36kr-ai"
+          "36kr-ai",
+          "techcrunch-ai"
         ],
         "firstPublishedAt": "2026-11-03T10:31:00.000Z"
       }
@@ -1501,9 +1510,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 27.7,
+      "score": 28,
       "metrics": {
-        "stars": 3188
+        "stars": 3321
       }
     },
     {
@@ -3572,7 +3581,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 36.7,
+      "score": 36.9,
       "ai": {
         "title": "YC Garry Tan每年花费20万美元购买AI代币",
         "summary": "YC的Garry Tan因过度使用AI代理而调侃自己患有“网络精神病”。",
@@ -3588,8 +3597,8 @@
         }
       ],
       "metrics": {
-        "points": 101,
-        "comments": 160
+        "points": 102,
+        "comments": 169
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50366971"
     },
@@ -4194,7 +4203,7 @@
         ],
         "firstPublishedAt": "2026-11-02T22:42:11.000Z",
         "metrics": {
-          "points": 733,
+          "points": 735,
           "comments": 213
         }
       }
@@ -4359,7 +4368,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 16578,
+        "stars": 17064,
         "starsToday": 3792
       },
       "aiAttempts": 2,
@@ -4418,7 +4427,7 @@
       ],
       "score": 26.1,
       "metrics": {
-        "stars": 11423,
+        "stars": 11575,
         "starsToday": 546
       },
       "aiAttempts": 2,

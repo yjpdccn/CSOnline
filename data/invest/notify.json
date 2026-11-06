@@ -1,5 +1,15 @@
 {
   "sent": {
+    "alert:move:ndx:2026-11-05": {
+      "hash": "move:ndx:2026-11-05",
+      "label": "纳斯达克100 11月5日下跌 5.9%",
+      "kind": "event"
+    },
+    "alert:move:spx:2026-11-05": {
+      "hash": "move:spx:2026-11-05",
+      "label": "标普500 11月5日下跌 4.1%",
+      "kind": "event"
+    },
     "alert:rate:cb:boj:2026-11-05": {
       "hash": "rate:cb:boj:2026-11-05",
       "label": "日本央行委员们一致认为继续上调政策利率并调整货币宽松程度是合适的",
@@ -8,11 +18,6 @@
     "alert:move:a500:2026-11-04": {
       "hash": "move:a500:2026-11-04",
       "label": "中证A500 11月4日上涨 3.0%",
-      "kind": "event"
-    },
-    "alert:rate:cb:pboc:2026-11-03": {
-      "hash": "rate:cb:pboc:2026-11-03",
-      "label": "央行：11月15日起上调金融机构外汇存款准备金率2个百分点",
       "kind": "event"
     },
     "alert:monthly:2026-11": {
@@ -63,6 +68,5 @@
   },
   "issueNumber": 1,
   "channel": "serverchan",
-  "lastSentAt": "2026-11-05T03:29:14.967Z",
-  "held": "2026-11-05T18:42:26.197Z"
+  "lastSentAt": "2026-11-06T03:26:50.356Z"
 }

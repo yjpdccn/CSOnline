@@ -121,9 +121,9 @@
       "day": "2026-11-04",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 25.1,
+      "score": 26,
       "metrics": {
-        "stars": 2132
+        "stars": 2474
       }
     },
     {
@@ -161,8 +161,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 486,
-        "comments": 589
+        "points": 509,
+        "comments": 637
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50366117"
     },
@@ -216,10 +216,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 72.7,
+      "score": 72.8,
       "metrics": {
-        "points": 260,
-        "comments": 89
+        "points": 261,
+        "comments": 91
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50366863",
       "alsoOn": [
@@ -266,8 +266,8 @@
         ],
         "firstPublishedAt": "2026-11-04T14:30:00.000Z",
         "metrics": {
-          "points": 260,
-          "comments": 89
+          "points": 261,
+          "comments": 91
         }
       }
     },
@@ -358,7 +358,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 6949,
+        "stars": 7577,
         "starsToday": 2707
       },
       "ai": {
@@ -415,10 +415,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 26.9,
+      "score": 27,
       "metrics": {
-        "stars": 139826,
-        "starsToday": 608
+        "stars": 140023,
+        "starsToday": 612
       },
       "ai": {
         "title": "garrytan/gstack：Claude Code 完整开发环境配置",
@@ -477,7 +477,7 @@
       ],
       "score": 27.7,
       "metrics": {
-        "stars": 2925,
+        "stars": 3138,
         "starsToday": 674
       },
       "dupOf": "e1edve6ctg"
@@ -847,8 +847,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1243,
-        "comments": 725
+        "points": 1267,
+        "comments": 741
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50364336",
       "ai": {
@@ -1026,10 +1026,10 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 32.9,
+      "score": 33,
       "metrics": {
-        "points": 316,
-        "comments": 312
+        "points": 319,
+        "comments": 315
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50363554",
       "ai": {
@@ -1056,8 +1056,8 @@
       "category": "industry",
       "score": 34.4,
       "metrics": {
-        "points": 696,
-        "comments": 181
+        "points": 711,
+        "comments": 183
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50363461",
       "ai": {
@@ -1131,7 +1131,7 @@
         "firstPublishedAt": "2026-11-03T15:25:47.000Z",
         "metrics": {
           "points": 671,
-          "comments": 463
+          "comments": 464
         }
       },
       "ai": {
@@ -1464,8 +1464,8 @@
       "category": "industry",
       "score": 35.5,
       "metrics": {
-        "points": 607,
-        "comments": 284
+        "points": 611,
+        "comments": 286
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50362905",
       "ai": {
@@ -2791,9 +2791,9 @@
       "day": "2026-11-04",
       "category": "paper",
       "categoryLocked": true,
-      "score": 23.6,
+      "score": 23.8,
       "metrics": {
-        "upvotes": 75,
+        "upvotes": 77,
         "comments": 2
       },
       "ai": {
@@ -2847,9 +2847,9 @@
       "day": "2026-11-04",
       "category": "paper",
       "categoryLocked": true,
-      "score": 23.4,
+      "score": 23.5,
       "metrics": {
-        "upvotes": 73,
+        "upvotes": 74,
         "comments": 2
       },
       "ai": {
@@ -2937,9 +2937,35 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 22.6,
+      "score": 22.7,
       "metrics": {
-        "upvotes": 65,
+        "upvotes": 66,
+        "comments": 2
+      }
+    },
+    {
+      "id": "20y9j3ajvp9",
+      "key": "arxiv:2610.00854",
+      "title": "Are Frontier VLM Agents Ready to Be Robot Generalists? An Empirical Study with the Embodied Agent Arena",
+      "url": "https://huggingface.co/papers/2610.00854",
+      "excerpt": "Frontier vision-language models vary widely in embodied task performance, with closed-weight systems leading in planning and manipulation while open-weight models lag, and failure patterns reveal distinct geometric, control, and reasoning errors rather than uniform deficits.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-04T00:00:00.000Z",
+      "firstSeenAt": "2026-11-06T03:26:50.356Z",
+      "day": "2026-11-04",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "开源模型",
+        "具身智能"
+      ],
+      "score": 24.5,
+      "metrics": {
+        "upvotes": 85,
         "comments": 2
       }
     },
@@ -3230,7 +3256,7 @@
       "category": "paper",
       "score": 31.1,
       "metrics": {
-        "points": 388,
+        "points": 390,
         "comments": 60
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50358582",
@@ -3256,10 +3282,10 @@
       "firstSeenAt": "2026-11-04T03:01:00.464Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 33.5,
+      "score": 33.7,
       "metrics": {
-        "points": 413,
-        "comments": 169
+        "points": 419,
+        "comments": 170
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50358422",
       "aiAttempts": 1,
@@ -3633,7 +3659,7 @@
       "categoryLocked": true,
       "score": 20.6,
       "metrics": {
-        "stars": 17464,
+        "stars": 17731,
         "starsToday": 242
       },
       "aiAttempts": 2,
@@ -3680,10 +3706,10 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 31.3,
+      "score": 31.4,
       "metrics": {
-        "points": 254,
-        "comments": 309
+        "points": 256,
+        "comments": 314
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50355767",
       "ai": {
@@ -3754,9 +3780,9 @@
         "Agent",
         "MCP"
       ],
-      "score": 19.3,
+      "score": 19.6,
       "metrics": {
-        "stars": 796
+        "stars": 840
       }
     },
     {
@@ -3774,7 +3800,7 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1510,
+        "points": 1514,
         "comments": 489
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50354960",
@@ -4044,7 +4070,7 @@
       ],
       "dupOf": "22j3nnnqyha",
       "metrics": {
-        "points": 733,
+        "points": 735,
         "comments": 213
       }
     },
