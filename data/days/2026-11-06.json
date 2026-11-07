@@ -38,13 +38,55 @@
       "firstSeenAt": "2026-11-06T17:56:04.095Z",
       "day": "2026-11-06",
       "category": "industry",
-      "score": 15,
+      "score": 23,
       "ai": {
         "title": "AI 支出停滞，Anthropic 即将 IPO",
         "summary": "AI 使用量上升但支出停滞，价格削减和成本控制挑战投资者对 AI 增长的预期。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-06T17:57:39.821Z"
+      },
+      "related": [
+        {
+          "id": "16ka4p7ixda",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029380/openai-1-25-trillion-investment-valuation",
+          "title": "OpenAI valued at $1.25 trillion, as rival Anthropic nears its IPO",
+          "publishedAt": "2026-11-06T23:46:18.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "techcrunch-ai",
+          "verge-ai"
+        ],
+        "firstPublishedAt": "2026-11-06T15:54:47.000Z"
+      }
+    },
+    {
+      "id": "trale4t7e8",
+      "key": "hf:p-e-w/oc-e-non-v1",
+      "title": "Oc-e-Non-v1: A language model that gets to the f*cking point",
+      "url": "https://huggingface.co/p-e-w/Oc-e-Non-v1",
+      "excerpt": "Richard I of England was called \"Oc-e-Non\" (Yes and No in Occitan) by some of contemporaries, supposedly because he used few words. Wouldn't it be nice if LLMs followed his shining example? Oc-e-Non-v1 is a tersified version of Qwen3-4B-Instruct-2507. It reduces Qwen's mean resp…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T15:23:37.000Z",
+      "firstSeenAt": "2026-11-07T02:48:03.096Z",
+      "day": "2026-11-06",
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpfhpm/ocenonv1_a_language_model_that_gets_to_the_fcking/",
+      "ai": {
+        "title": "Oc-e-Non-v1：言简意赅的 Qwen3-4B 指令微调模型",
+        "summary": "Oc-e-Non-v1 是 Qwen3-4B 的精简版，旨在减少模型冗余输出。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-07T02:50:56.096Z"
       }
     },
     {
@@ -69,6 +111,33 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-06T17:57:04.980Z"
+      }
+    },
+    {
+      "id": "4ew5c9lvgk",
+      "key": "url:cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+      "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+      "url": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T14:13:09.000Z",
+      "firstSeenAt": "2026-11-07T02:48:03.096Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 23,
+      "metrics": {
+        "points": 125,
+        "comments": 56
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50392499",
+      "ai": {
+        "title": "大学图书馆被 AI 机器人涌入，公共访问面临风险",
+        "summary": "大量 AI 机器人涌入大学图书馆，可能威胁公共访问安全。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-07T02:50:56.096Z"
       }
     },
     {
@@ -1305,6 +1374,29 @@
       "score": 18
     },
     {
+      "id": "2dzzhg8oo5l",
+      "key": "url:openai.com/index/partnering-with-hacktron",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "url": "https://openai.com/index/partnering-with-hacktron",
+      "excerpt": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-06T08:00:00.000Z",
+      "firstSeenAt": "2026-11-07T02:48:03.096Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 30,
+      "ai": {
+        "title": "OpenAI 与 Hacktron 合作安全测试",
+        "summary": "OpenAI 与 Hacktron 合作，旨在发现系统漏洞并加强防御。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-07T02:50:21.084Z"
+      }
+    },
+    {
       "id": "1x4cnkcktc9",
       "key": "url:leiphone.com/category/industrynews/h454rlPtg41JIuFd.html",
       "title": "李佳琦卖出万份Token，天猫的AI生意才刚开场",
@@ -1590,10 +1682,10 @@
       "firstSeenAt": "2026-11-06T17:56:04.095Z",
       "day": "2026-11-06",
       "category": "paper",
-      "score": 26.6,
+      "score": 27.7,
       "metrics": {
-        "points": 160,
-        "comments": 161
+        "points": 180,
+        "comments": 184
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50388513",
       "ai": {
@@ -2385,7 +2477,7 @@
       ],
       "score": 26.5,
       "metrics": {
-        "upvotes": 113,
+        "upvotes": 114,
         "comments": 1
       },
       "ai": {
@@ -2414,9 +2506,10 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 23.9,
+      "score": 25.3,
       "metrics": {
-        "upvotes": 80
+        "upvotes": 96,
+        "comments": 1
       },
       "ai": {
         "title": "VFlash：通过 Flash 原语解码实现快速视觉规划",
@@ -2444,10 +2537,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 21.3,
+      "score": 21.7,
       "metrics": {
-        "upvotes": 52,
-        "comments": 3
+        "upvotes": 55,
+        "comments": 4
       },
       "ai": {
         "title": "Harness-S：从兄弟 Harness 学习",
@@ -2475,7 +2568,7 @@
       "score": 21,
       "metrics": {
         "upvotes": 50,
-        "comments": 2
+        "comments": 3
       },
       "ai": {
         "title": "BestRand：通过随机性实现低成本基准压缩",
@@ -2483,6 +2576,61 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-06T17:57:04.980Z"
+      }
+    },
+    {
+      "id": "13q5w2lo1ns",
+      "key": "url:openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "title": "Measuring how AI agents handle everyday wet-lab science",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
+      "excerpt": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-07T02:48:03.096Z",
+      "day": "2026-11-06",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "OpenAI 发布 BioBasicsBench 评估 AI 代理处理湿实验科学",
+        "summary": "OpenAI 推出 BioBasicsBench，用于评估 AI 代理处理湿实验科学的能力。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-07T02:50:56.096Z"
+      }
+    },
+    {
+      "id": "2ezzkma38ed",
+      "key": "arxiv:2611.08373",
+      "title": "SLA: Scaling Spatial-Language-Action Model via Continual Pre-training",
+      "url": "https://huggingface.co/papers/2611.08373",
+      "excerpt": "SLA is a spatial-language-action model that continually pre-trains and post-trains a pretrained VLA policy with spatial alignment to a frozen 3D perception model, using feature-dependent gates and probabilistic state dropout to improve spatial understanding across diverse robot…",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "firstSeenAt": "2026-11-07T02:48:03.096Z",
+      "day": "2026-11-06",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 25.3,
+      "metrics": {
+        "upvotes": 95,
+        "comments": 2
+      },
+      "ai": {
+        "title": "SLA：通过持续预训练扩展空间-语言-动作模型",
+        "summary": "SLA 模型通过持续预训练提升空间理解能力，适用于机器人领域。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-07T02:50:56.096Z"
       }
     },
     {
@@ -2601,10 +2749,10 @@
       "firstSeenAt": "2026-11-06T03:26:50.356Z",
       "day": "2026-11-06",
       "category": "industry",
-      "score": 34.8,
+      "score": 34.9,
       "metrics": {
-        "points": 474,
-        "comments": 217
+        "points": 496,
+        "comments": 223
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50385870",
       "ai": {
@@ -2685,8 +2833,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 1493,
-        "comments": 467
+        "points": 1554,
+        "comments": 493
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50385272",
       "aiAttempts": 1,
@@ -3320,7 +3468,7 @@
         ],
         "firstPublishedAt": "2026-11-05T06:40:48.000Z",
         "metrics": {
-          "points": 183,
+          "points": 185,
           "comments": 99
         }
       },
@@ -3372,9 +3520,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 26.6,
+      "score": 26.7,
       "metrics": {
-        "points": 116,
+        "points": 118,
         "comments": 58
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50381687",
@@ -3443,7 +3591,7 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 72.5,
+      "score": 75.7,
       "related": [
         {
           "id": "n5mht81ja8",
@@ -3472,8 +3620,8 @@
         ],
         "firstPublishedAt": "2026-11-05T17:00:00.000Z",
         "metrics": {
-          "points": 211,
-          "comments": 164
+          "points": 300,
+          "comments": 220
         }
       },
       "ai": {
@@ -3491,8 +3639,8 @@
         }
       ],
       "metrics": {
-        "points": 211,
-        "comments": 164
+        "points": 300,
+        "comments": 220
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50392118"
     },

@@ -209,9 +209,9 @@
       "keywords": [
         "MCP"
       ],
-      "score": 31.2,
+      "score": 31.3,
       "metrics": {
-        "points": 324,
+        "points": 331,
         "comments": 133
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50379249",
@@ -1014,7 +1014,7 @@
       "category": "industry",
       "score": 30.5,
       "metrics": {
-        "points": 183,
+        "points": 185,
         "comments": 99
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50377078",
@@ -1370,10 +1370,10 @@
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-05",
       "category": "model",
-      "score": 38.2,
+      "score": 38.3,
       "metrics": {
-        "points": 338,
-        "comments": 187
+        "points": 340,
+        "comments": 189
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50376313",
       "dupOf": "20py2by5tcf"
@@ -1843,9 +1843,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 17.5,
+      "score": 17.6,
       "metrics": {
-        "stars": 549
+        "stars": 564
       },
       "ai": {
         "title": "pixel-gif-sticker-pack：创建动画 GIF 贴纸包的 Co…",
@@ -2869,7 +2869,7 @@
       "categoryLocked": true,
       "score": 27.3,
       "metrics": {
-        "upvotes": 126,
+        "upvotes": 127,
         "comments": 1
       },
       "ai": {
@@ -2895,9 +2895,9 @@
       "day": "2026-11-05",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.8,
+      "score": 21.9,
       "metrics": {
-        "upvotes": 57,
+        "upvotes": 58,
         "comments": 2
       },
       "ai": {
@@ -2950,9 +2950,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 21.1,
+      "score": 21.5,
       "metrics": {
-        "upvotes": 52
+        "upvotes": 55,
+        "comments": 1
       },
       "ai": {
         "title": "FrontierPhysics：端到端物理研究评估基准",
@@ -3404,9 +3405,9 @@
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-05",
       "category": "industry",
-      "score": 28.3,
+      "score": 28.6,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnx3cs/ricursiveairipple65bpreview_hugging_face/",
-      "dupOf": "1pjdm9w5bwb",
+      "dupOf": "9dk6wfre4w",
       "alsoOn": [
         {
           "sourceId": "hf-models",
@@ -3415,7 +3416,7 @@
         }
       ],
       "metrics": {
-        "likes": 316
+        "likes": 334
       }
     },
     {
@@ -3458,48 +3459,20 @@
         "Agent",
         "开源模型"
       ],
-      "score": 63.6,
+      "score": 37.4,
       "metrics": {
-        "points": 337,
-        "comments": 125
+        "points": 339,
+        "comments": 127
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50369925",
-      "related": [
-        {
-          "id": "dhhawum92q",
-          "sourceId": "reddit-localllama",
-          "sourceName": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnx3cs/ricursiveairipple65bpreview_hugging_face/",
-          "title": "ricursiveAI/Ripple-65B-Preview · Hugging Face",
-          "publishedAt": "2026-11-04T19:16:16.000Z"
-        },
-        {
-          "sourceId": "hf-models",
-          "sourceName": "HF 热门模型",
-          "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "hackernews",
-          "reddit-localllama",
-          "hf-models"
-        ],
-        "firstPublishedAt": "2026-11-04T18:53:29.000Z",
-        "metrics": {
-          "points": 337,
-          "comments": 125,
-          "likes": 316
-        }
-      },
       "ai": {
         "title": "Ripple-65B 预览：美国开源 SOTA 代理编码模型",
         "summary": "Ripple-65B 在代理编码任务上达到 SOTA，是美国开源模型。",
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-05T03:30:39.182Z"
-      }
+      },
+      "dupOf": "9dk6wfre4w"
     },
     {
       "id": "22m7cm7ku0s",
@@ -3749,10 +3722,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 25.5,
+      "score": 25.6,
       "metrics": {
-        "points": 108,
-        "comments": 35
+        "points": 109,
+        "comments": 36
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50368804",
       "ai": {
@@ -3776,10 +3749,10 @@
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-05",
       "category": "paper",
-      "score": 28.7,
+      "score": 28.8,
       "metrics": {
-        "points": 238,
-        "comments": 121
+        "points": 239,
+        "comments": 122
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50368626",
       "ai": {
@@ -3854,10 +3827,10 @@
       "keywords": [
         "图像生成"
       ],
-      "score": 27.2,
+      "score": 27.4,
       "metrics": {
-        "points": 266,
-        "comments": 28
+        "points": 270,
+        "comments": 29
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50368208",
       "ai": {

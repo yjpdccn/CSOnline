@@ -57,15 +57,16 @@
       "publishedAt": "2026-11-04T15:32:17.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "opensource",
+      "category": "agent",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnr6zd/my_gift_to_the_mods/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "My gift to the mods:",
-        "category": "opensource",
+        "title": "给版主的大礼：",
+        "summary": "社区呼吁设立 mega thread 整合 vibe forked engine 发布。",
+        "category": "agent",
         "model": "glm-4.7-flash",
-        "at": "2026-11-06T17:59:19.066Z"
+        "at": "2026-11-07T02:50:56.096Z"
       }
     },
     {
@@ -131,15 +132,16 @@
       "publishedAt": "2026-11-04T15:21:55.000Z",
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-04",
-      "category": "opensource",
+      "category": "agent",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnqxlq/i_am_big_enough_to_admit_that_this_is_me/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "I am big enough to admit that this is me",
-        "category": "opensource",
+        "title": "我足够大，可以承认这是我的作品：",
+        "summary": "用户承认这是自己的作品。",
+        "category": "agent",
         "model": "glm-4.7-flash",
-        "at": "2026-11-06T17:59:19.066Z"
+        "at": "2026-11-07T02:50:56.096Z"
       }
     },
     {
@@ -157,11 +159,11 @@
       "day": "2026-11-04",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 26.9,
+      "score": 27.1,
       "metrics": {
-        "stars": 2838
+        "stars": 2904
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Google_AI_Pro_2Year_ZeroCost_Auto",
         "category": "opensource",
@@ -211,8 +213,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 537,
-        "comments": 669
+        "points": 541,
+        "comments": 675
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50366117",
       "ai": {
@@ -438,7 +440,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 8689,
+        "stars": 9144,
         "starsToday": 2707
       },
       "ai": {
@@ -3970,6 +3972,30 @@
           "techcrunch-ai"
         ],
         "firstPublishedAt": "2026-11-03T18:00:00.000Z"
+      }
+    },
+    {
+      "id": "8l1432ew4t",
+      "key": "gh:zeekk0/openamika",
+      "title": "zeekk0/OpenAmika",
+      "url": "https://github.com/zeekk0/OpenAmika",
+      "excerpt": "OpenAmika: MekaHime's AI companion Amika, open source. Live2D avatar, real-time voice, long-term memory, OpenRouter or Ollama brain.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-03T17:47:08.000Z",
+      "firstSeenAt": "2026-11-07T02:48:03.096Z",
+      "day": "2026-11-04",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "语音",
+        "本地部署"
+      ],
+      "score": 16.6,
+      "metrics": {
+        "stars": 445
       }
     },
     {

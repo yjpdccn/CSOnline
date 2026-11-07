@@ -1200,6 +1200,30 @@
       "score": 18
     },
     {
+      "id": "1m0ncz8wiln",
+      "key": "gh:sarpstar/cinecode",
+      "title": "sarpstar/cinecode",
+      "url": "https://github.com/sarpstar/cinecode",
+      "excerpt": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-03T10:08:16.000Z",
+      "firstSeenAt": "2026-11-07T02:48:03.096Z",
+      "day": "2026-11-03",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 17,
+      "metrics": {
+        "stars": 492
+      }
+    },
+    {
       "id": "1ahqi5kkpww",
       "key": "url:leiphone.com/category/chips/GQisGLfVBnbQVxVo.html",
       "title": "最高288核的至强6+，为了Agent高密度部署还下了哪些「云功夫」？",
@@ -1456,9 +1480,9 @@
       "day": "2026-11-03",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 18.8,
+      "score": 19.4,
       "metrics": {
-        "stars": 710
+        "stars": 810
       }
     },
     {
@@ -1532,7 +1556,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 3626
+        "stars": 3711
       }
     },
     {
@@ -2239,6 +2263,26 @@
       "category": "industry",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xmjipa/underrated_benefit_of_local_ai_speed/"
+    },
+    {
+      "id": "fuy2jqrfsc",
+      "key": "gh:renly1994/xiaotang-daozai",
+      "title": "Renly1994/xiaotang-daozai",
+      "url": "https://github.com/Renly1994/xiaotang-daozai",
+      "excerpt": "岛仔 Daozai：Rust 构建的 Windows 桌面信息岛。音乐歌词、邮件验证码、日程提醒、待办与 AI 额度，让重要信息轻轻出现在屏幕顶部。",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-03T04:25:22.000Z",
+      "firstSeenAt": "2026-11-07T02:48:03.096Z",
+      "day": "2026-11-03",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.4,
+      "metrics": {
+        "stars": 430
+      }
     },
     {
       "id": "1df27bzswtg",
@@ -3626,7 +3670,7 @@
       ],
       "metrics": {
         "points": 108,
-        "comments": 173
+        "comments": 175
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50366971"
     },
@@ -4220,10 +4264,18 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xoeeyf/qwen3827b_has_become_unuseable_recently/",
           "title": "Qwen3.8-27B has become unuseable recently",
           "publishedAt": "2026-11-05T09:31:10.000Z"
+        },
+        {
+          "id": "288whavheum",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpicjz/qwen38_27b_hitting_6645_toks_on_prefill_and_316/",
+          "title": "Qwen3.8 27b hitting 6,645 tok/s on prefill and 316 tok/s decode peak on Saber",
+          "publishedAt": "2026-11-06T17:15:13.000Z"
         }
       ],
       "story": {
-        "reports": 7,
+        "reports": 8,
         "sources": [
           "reddit-localllama",
           "simonw",

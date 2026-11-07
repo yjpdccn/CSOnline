@@ -1185,9 +1185,9 @@
       "day": "2026-11-01",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 24.7,
+      "score": 24.8,
       "metrics": {
-        "stars": 1991
+        "stars": 2038
       },
       "aiAttempts": 2,
       "ai": {
@@ -1212,9 +1212,9 @@
       "day": "2026-11-01",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 23.1,
+      "score": 23.2,
       "metrics": {
-        "stars": 1549
+        "stars": 1560
       }
     },
     {
@@ -1235,9 +1235,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.5,
+      "score": 24.6,
       "metrics": {
-        "stars": 1929
+        "stars": 1975
       },
       "aiAttempts": 1,
       "ai": {
@@ -1330,6 +1330,29 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-02T02:32:20.030Z"
+      }
+    },
+    {
+      "id": "18lulyv03rp",
+      "key": "gh:artemnovitckii/claude-animation-skills",
+      "title": "artemnovitckii/claude-animation-skills",
+      "url": "https://github.com/artemnovitckii/claude-animation-skills",
+      "excerpt": "Six Claude Code skills that make animations for reels, no footage needed: 3D cartoon explainer, stick figure, minimal line art, 3D map route, exploded view, line graph.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T02:53:31.000Z",
+      "firstSeenAt": "2026-11-07T02:48:03.096Z",
+      "day": "2026-11-01",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 16.6,
+      "metrics": {
+        "stars": 444
       }
     },
     {
@@ -1954,9 +1977,9 @@
       "day": "2026-11-01",
       "category": "model",
       "categoryLocked": true,
-      "score": 27.5,
+      "score": 27.6,
       "metrics": {
-        "likes": 390
+        "likes": 397
       },
       "skipLlm": true
     },
