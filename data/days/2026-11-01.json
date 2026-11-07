@@ -106,6 +106,26 @@
       }
     },
     {
+      "id": "1k7i20tylvy",
+      "key": "gh:saos-3624/dsh-see-now",
+      "title": "SAOS-3624/dsh-see-now",
+      "url": "https://github.com/SAOS-3624/dsh-see-now",
+      "excerpt": "让 AI 实时看见你的屏幕：按变化量筛选帧、多帧拼进一张图，静止画面几乎不花 token",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T13:32:34.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-01",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.7,
+      "metrics": {
+        "stars": 455
+      }
+    },
+    {
       "id": "1gki13odm7b",
       "key": "url:qbitai.com/2026/11/507076.html",
       "title": "三年前布局，今年爆火丨西湖大学成立新中心",
@@ -1185,9 +1205,9 @@
       "day": "2026-11-01",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 24.8,
+      "score": 25.2,
       "metrics": {
-        "stars": 2038
+        "stars": 2171
       },
       "aiAttempts": 2,
       "ai": {
@@ -1212,9 +1232,9 @@
       "day": "2026-11-01",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 23.2,
+      "score": 23.4,
       "metrics": {
-        "stars": 1560
+        "stars": 1611
       }
     },
     {
@@ -1235,9 +1255,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.6,
+      "score": 24.8,
       "metrics": {
-        "stars": 1975
+        "stars": 2043
       },
       "aiAttempts": 1,
       "ai": {
@@ -1350,9 +1370,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 16.6,
+      "score": 16.8,
       "metrics": {
-        "stars": 444
+        "stars": 473
       }
     },
     {
@@ -1977,9 +1997,9 @@
       "day": "2026-11-01",
       "category": "model",
       "categoryLocked": true,
-      "score": 27.6,
+      "score": 27.7,
       "metrics": {
-        "likes": 397
+        "likes": 403
       },
       "skipLlm": true
     },
@@ -2065,7 +2085,7 @@
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-11-01",
       "category": "opensource",
-      "score": 29.6,
+      "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
       "ai": {
         "title": "在 Qwen 3.5-4B 权重中编译 NPU 运行 Karpathy 故事",
@@ -2073,27 +2093,6 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-01T02:27:20.387Z"
-      },
-      "related": [
-        {
-          "id": "vt6xuia5x8",
-          "sourceId": "hf-models",
-          "sourceName": "HF 热门模型",
-          "url": "https://huggingface.co/ccore/Qwen3.5-4B-3D-Coder",
-          "title": "ccore/Qwen3.5-4B-3D-Coder",
-          "publishedAt": "2026-10-25T05:43:34.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "reddit-localllama",
-          "hf-models"
-        ],
-        "firstPublishedAt": "2026-10-25T05:43:34.000Z",
-        "metrics": {
-          "likes": 396
-        }
       }
     },
     {

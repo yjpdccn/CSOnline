@@ -90,6 +90,23 @@
       }
     },
     {
+      "id": "zi2suri451",
+      "key": "url:qbitai.com/2026/11/508184.html",
+      "title": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
+      "url": "https://www.qbitai.com/2026/11/508184.html",
+      "excerpt": "Dario刚喊减速…",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T15:21:56.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "e9tsenl7dn"
+    },
+    {
       "id": "yg1l66oab3",
       "key": "url:reddit.com/r/LocalLLaMA/comments/1xpf8qy/qwen_developers_on_x_qwhen_qsoon_for_our_friends",
       "title": "Qwen Developers on X: \"Qwhen? Qsoon! For our friends outside China, the Chinese text in the poster comes from",
@@ -126,10 +143,10 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-06",
       "category": "industry",
-      "score": 23,
+      "score": 23.5,
       "metrics": {
-        "points": 125,
-        "comments": 56
+        "points": 132,
+        "comments": 61
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50392499",
       "ai": {
@@ -781,7 +798,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-06T17:57:39.821Z"
-      }
+      },
+      "dupOf": "2408dpitt8m"
     },
     {
       "id": "cyv2lakpuw",
@@ -814,7 +832,25 @@
       "firstSeenAt": "2026-11-06T17:56:04.095Z",
       "day": "2026-11-06",
       "category": "industry",
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "zi2suri451",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/508184.html",
+          "title": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
+          "publishedAt": "2026-11-06T15:21:56.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-11-06T11:31:13.915Z"
+      }
     },
     {
       "id": "1ja8kmfbbzk",
@@ -1240,6 +1276,61 @@
       "score": 18
     },
     {
+      "id": "1boajz5yl8j",
+      "key": "url:qbitai.com/2026/11/508174.html",
+      "title": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
+      "url": "https://www.qbitai.com/2026/11/508174.html",
+      "excerpt": "PPIO 沙箱，把“云电脑”做成开箱即用的 API",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T09:25:59.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-06",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "16oh86tvc8o",
+      "key": "url:qbitai.com/2026/11/508170.html",
+      "title": "阶跃终端 STEPX Neo 智能体手机亮相进博会高通展台，软硬模一体打造智能体新体验",
+      "url": "https://www.qbitai.com/2026/11/508170.html",
+      "excerpt": "阶跃终端旗下 STEPX Neo 智能体手机首次亮相",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T09:21:51.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-06",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "rilnqlp058",
+      "key": "url:qbitai.com/2026/11/508165.html",
+      "title": "阿里巴巴发布《2026 AI向善行动报告》 AI数据中心可持续发展成年度亮点",
+      "url": "https://www.qbitai.com/2026/11/508165.html",
+      "excerpt": "11月5日，阿里巴巴发布《2026 AI向善行动报告》",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-06T09:19:00.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 22,
+      "dupOf": "ptdrb2q2b5"
+    },
+    {
       "id": "173iduil59s",
       "key": "url:leiphone.com/category/yanxishe/u5N6lCUT0bEfanp1.html",
       "title": "OpenAI 「重置大神」换人了？Tibo 去救火，Andrew 上位",
@@ -1642,12 +1733,30 @@
       "firstSeenAt": "2026-11-06T17:56:04.095Z",
       "day": "2026-11-06",
       "category": "industry",
-      "score": 22,
+      "score": 30,
       "ai": {
         "summary": "阿里巴巴发布《2026 AI向善行动报告》，聚焦数据中心可持续发展。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-06T17:59:33.112Z"
+      },
+      "related": [
+        {
+          "id": "rilnqlp058",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/508165.html",
+          "title": "阿里巴巴发布《2026 AI向善行动报告》 AI数据中心可持续发展成年度亮点",
+          "publishedAt": "2026-11-06T09:19:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-11-06T06:19:00.000Z"
       }
     },
     {
@@ -1682,10 +1791,10 @@
       "firstSeenAt": "2026-11-06T17:56:04.095Z",
       "day": "2026-11-06",
       "category": "paper",
-      "score": 27.7,
+      "score": 29,
       "metrics": {
-        "points": 180,
-        "comments": 184
+        "points": 209,
+        "comments": 207
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50388513",
       "ai": {
@@ -2506,9 +2615,9 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 25.3,
+      "score": 25.4,
       "metrics": {
-        "upvotes": 96,
+        "upvotes": 98,
         "comments": 1
       },
       "ai": {
@@ -2537,9 +2646,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 21.7,
+      "score": 22.2,
       "metrics": {
-        "upvotes": 55,
+        "upvotes": 60,
         "comments": 4
       },
       "ai": {
@@ -2623,7 +2732,7 @@
       "score": 25.3,
       "metrics": {
         "upvotes": 95,
-        "comments": 2
+        "comments": 3
       },
       "ai": {
         "title": "SLA：通过持续预训练扩展空间-语言-动作模型",
@@ -2751,8 +2860,8 @@
       "category": "industry",
       "score": 34.9,
       "metrics": {
-        "points": 496,
-        "comments": 223
+        "points": 509,
+        "comments": 226
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50385870",
       "ai": {
@@ -2833,8 +2942,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 1554,
-        "comments": 493
+        "points": 1583,
+        "comments": 509
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50385272",
       "aiAttempts": 1,
@@ -3198,7 +3307,7 @@
       ],
       "score": 18.9,
       "metrics": {
-        "stars": 45981,
+        "stars": 46595,
         "starsToday": 181
       },
       "ai": {
@@ -3348,9 +3457,9 @@
       "firstSeenAt": "2026-11-06T03:26:50.356Z",
       "day": "2026-11-06",
       "category": "industry",
-      "score": 27,
+      "score": 27.1,
       "metrics": {
-        "points": 162,
+        "points": 163,
         "comments": 191
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50382179",
@@ -3440,7 +3549,7 @@
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-06",
       "category": "opensource",
-      "score": 51.5,
+      "score": 51.6,
       "related": [
         {
           "id": "oz2eu7wejh",
@@ -3468,7 +3577,7 @@
         ],
         "firstPublishedAt": "2026-11-05T06:40:48.000Z",
         "metrics": {
-          "points": 185,
+          "points": 187,
           "comments": 99
         }
       },
@@ -3520,10 +3629,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 26.7,
+      "score": 26.8,
       "metrics": {
-        "points": 118,
-        "comments": 58
+        "points": 119,
+        "comments": 59
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50381687",
       "ai": {
@@ -3591,7 +3700,7 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 75.7,
+      "score": 77.2,
       "related": [
         {
           "id": "n5mht81ja8",
@@ -3620,8 +3729,8 @@
         ],
         "firstPublishedAt": "2026-11-05T17:00:00.000Z",
         "metrics": {
-          "points": 300,
-          "comments": 220
+          "points": 353,
+          "comments": 243
         }
       },
       "ai": {
@@ -3639,8 +3748,8 @@
         }
       ],
       "metrics": {
-        "points": 300,
-        "comments": 220
+        "points": 353,
+        "comments": 243
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50392118"
     },

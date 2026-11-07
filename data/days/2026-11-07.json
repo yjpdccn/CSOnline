@@ -2,6 +2,583 @@
   "day": "2026-11-07",
   "items": [
     {
+      "id": "1gy10822v8a",
+      "key": "url:the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking",
+      "title": "The gap between open and closed AI models in cyber capabilities keeps shrinking",
+      "url": "https://the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking/",
+      "excerpt": "In the Vals AI benchmark, OpenAI's GPT-6 Sol Daybreak hits 80.8 percent of attack objectives in simulated corporate networks. Worse, the open-weight model DeepSeek V4.1 Flash reaches 72.8 percent at a tenth of the cost. Because open models can no longer be restricted, analysts s…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-07T15:35:50.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "model",
+      "keywords": [
+        "开源模型"
+      ],
+      "score": 21
+    },
+    {
+      "id": "1ybz9kfzgxw",
+      "key": "url:the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away",
+      "title": "State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away",
+      "url": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
+      "excerpt": "Nous Research retrained Alibaba's Qwen3.8-27B to produce Arete-27B, largely stripping out its pro-Chinese bias. The propaganda rate dropped from 22 percent to less than one percent, while general capabilities remained intact in tests. The method relied on 53 million tokens of su…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-07T12:32:45.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 15
+    },
+    {
+      "id": "zcuh511e0l",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xq4yju/obsessive17b_a_11_gb_websearch_subagent",
+      "title": "Obsessive-1.7B: a 1.1 GB web-search subagent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4yju/obsessive17b_a_11_gb_websearch_subagent/",
+      "excerpt": "I fine-tuned LFM3-1.7B to do one job: take a factual question, call web_search once, and answer with a short value, a word-for-word quote and the URL. If the results don’t contain the answer, it says “Not found in the search results.” It’s meant to run as a subagent under a bigg…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-07T12:13:29.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4yju/obsessive17b_a_11_gb_websearch_subagent/"
+    },
+    {
+      "id": "10op2fmfr9x",
+      "key": "url:the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar",
+      "title": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar",
+      "url": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
+      "excerpt": "The \"Into the Unknown\" benchmark tasks nine AI agents with tackling open research questions from U.S. national laboratories. None of the 135 submissions meets all requirements. A total of 114 papers fail the integrity check, with agents claiming to have conducted experiments tha…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-07T11:13:42.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15
+    },
+    {
+      "id": "1le6mtl1hps",
+      "key": "url:jiqizhixin.com/articles/2026-11-07-9",
+      "title": "突发：OpenAI开始大规模封号！",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-07-9",
+      "excerpt": "什么？OpenAI 也开始大规模封号了？今天中午前后，社交媒体炸锅了，一堆人在喊 OpenAI/ChatGPT 大规模封号。很多帖子说得挺邪门：号直接没了，连封号邮件都没收到，登录就显示删号或者登不上。现在有哪些账号被封？从反馈来看，重灾区比较集中，包括：卖过 / 拆过 API 免费额度的号；...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T10:11:00.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "13mow8wt5fo",
+      "key": "url:jiqizhixin.com/articles/2026-11-07-8",
+      "title": "GPT-6 Astra的机器人能力被扒：可能接受过专门训练",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-07-8",
+      "excerpt": "2026 年 9 月 3 日，GPT-6 Astra 正式发布。除了推理、编程和 Agent 能力，这款新模型在机器人操作领域展现出的潜力，也引起了不少关注。在很多人看来，一个通用多模态大模型，似乎已经能够理解机器人所处的环境，并根据任务要求生成相应动作。发布后，NVIDIA 将 GPT-6 ...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T10:09:00.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "model",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 24,
+      "dupOf": "20py2by5tcf"
+    },
+    {
+      "id": "e18f9qoeiy",
+      "key": "url:jiqizhixin.com/articles/2026-11-07-7",
+      "title": "不止于软件开发：OpenAI用GPT加速物理世界的工程",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-07-7",
+      "excerpt": "编辑丨&AI 正在改变软件开发的工作方式，而当模型开始接触真实世界中的机械结构、电路和制造要求时，工程研发也可能成为下一个重要应用领域。与软件不同，实体产品设计需要同时满足多种约束：机械结构必须能够装配，电路板需要容纳并连接各类电子元件，软件要与硬件正常协同，最终设计还必须符合制造工艺...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T10:06:00.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "model",
+      "score": 24
+    },
+    {
+      "id": "9tqj7nh1za",
+      "key": "url:the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff",
+      "title": "Google's AI detects high blood pressure from a regular smartwatch without a cuff",
+      "url": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/",
+      "excerpt": "Google Research built an AI that spots signs of high blood pressure using only the pulse and motion sensors in a standard smartwatch, no cuff needed. In a 196-person study, its 65.8 percent detection rate beat the traditional in-office measurement. The method is already live in…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-07T09:54:09.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 15
+    },
+    {
+      "id": "1uc6qge5pbp",
+      "key": "url:the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital",
+      "title": "OpenAI lands an $11 billion funding round, but has to court dentists for more capital",
+      "url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/",
+      "excerpt": "OpenAI has secured $11 billion in fresh capital, the first tranche of a round that values the company at $1.25 trillion. The full round could swell to $20 billion. That OpenAI is already turning to wealthy private investors hints at a saturating AI capital market and growing inv…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-07T09:45:23.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 15
+    },
+    {
+      "id": "26qvgsd5bvl",
+      "key": "url:36kr.com/p/4059211837003656",
+      "title": "风口浪尖的数据中心，开始放低姿态",
+      "url": "https://36kr.com/p/4059211837003656",
+      "excerpt": "OpenAI公布新社区承诺。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T09:30:33.696Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1l24evtiu90",
+      "key": "url:36kr.com/newsflashes/4059085827527815",
+      "title": "Meta首席战略官离职 转投AI推理初创公司Fireworks",
+      "url": "https://36kr.com/newsflashes/4059085827527815",
+      "excerpt": "Meta首席战略官戴夫·韦纳周五确认，他将离开公司，出任AI推理初创企业Fireworks的首席财务官。韦纳2012年加入脸书，担任企业财务与业务规划副总裁，2014年升任首席财务官，在该岗位任职逾八年，2022年转任首席战略官。(财联社)",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T07:26:22.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1jddbsxcxos",
+      "key": "url:36kr.com/newsflashes/4059042576307333",
+      "title": "A股一周牛股出炉：最牛股ST豆神涨超65%，浙文影业五连板",
+      "url": "https://36kr.com/newsflashes/4059042576307333",
+      "excerpt": "剔除月内上市新股和退市整理期个股，前20只牛股当周股价均涨超33%。其中电力设备板块独占8席，光伏上下游全线走强，成为本周市场焦点；传媒板块紧随其后，短剧、AI影视题材持续发酵，多股涨幅居前。最牛股ST豆神主营业务是人工智能（AI）教育、艺术类学习服务、智慧教育服务及文旅研学，受AI应用题材催化，该股股价连续拉升，本周累计大涨65.78%，登顶全市场涨幅榜。紧随其后的ST亿晶、浙文影业周涨幅均超61%。其中ST亿晶受益于光伏板块整体回暖、题材升温，股价斩获五连板；浙文影业在短剧行业高景气、AI影视降本的双重催化下，亦走出五连板强势行情，成为本周市场辨识…",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T06:18:27.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "keywords": [
+        "AI 短剧"
+      ],
+      "score": 18
+    },
+    {
+      "id": "15okbg0nasl",
+      "key": "url:qbitai.com/2026/11/508264.html",
+      "title": "抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？",
+      "url": "https://www.qbitai.com/2026/11/508264.html",
+      "excerpt": "苦单Session久矣，两大Agent玩家不谋而合。",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T05:01:17.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1a3t29hdvyr",
+      "key": "url:36kr.com/newsflashes/4059026136388742",
+      "title": "欧洲央行考虑审查银行对数据中心的贷款，以评估人工智能相关风险",
+      "url": "https://36kr.com/newsflashes/4059026136388742",
+      "excerpt": "11月6日，据报道，欧洲央行正考虑审查银行对数据中心的贷款，以评估人工智能市场情绪变化及估值波动可能带来的风险。据悉，欧洲央行高级官员已在内部及与受其监管的银行讨论这一方案。审查可能包括现场检查，重点考察银行如何评估未来现金流、抵押品价值及应对潜在违约风险。此次审查范围可能小于欧洲央行数年前开展的杠杆融资审查，具体方案尚未敲定。（界面）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T04:42:44.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "tetnant5le",
+      "key": "url:jiqizhixin.com/articles/2026-11-07-6",
+      "title": "陶大程教授最新技术文章：一台机器人犯过的错，怎样让另一台少走弯路？",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-07-6",
+      "excerpt": "作者：陶大程近日，大晓机器人首席科学家陶大程教授发布具身双脑协同探索：让一台机器人付出的探索，为更多机器人提供依据；让今天获得的经验，减少明天必须重复的试错。以下为陶大程教授技术文章原文，欢迎阅读。“让后来者从前人止步之处继续。”\"by the last beginning where tho...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T04:31:00.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "20t6gyfqgvx",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xpxfob/another_benchmark_has_hit_the_quant_war",
+      "title": "Another benchmark has hit the quant war",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpxfob/another_benchmark_has_hit_the_quant_war/",
+      "excerpt": "If you have not been following ISTA-DASLab the creators of the gsq-rco quants have received some criticism from unsloth regarding the inabilty to reproduce the benchmark numbers that ISTA-DASLab have quoted. The methodology used to produce their benchmark numbers has not been po…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-07T04:28:19.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpxfob/another_benchmark_has_hit_the_quant_war/"
+    },
+    {
+      "id": "1sj1iiepbzx",
+      "key": "url:jiqizhixin.com/articles/2026-11-07-5",
+      "title": "NeurIPS 2026 | 从「先出题」到「先探索」：重新思考Tool-Calling Agent的训练数据合成",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-07-5",
+      "excerpt": "在训练 Tool-Calling Agent 的过程中，我们反复遇到一个看似简单、却非常关键的问题：训练数据从哪里来？Tool-Calling Agent 需要根据用户意图调用外部 API、整合中间结果，并最终给出答案。要通过 Reinforcement Learning 训练这样的 Agen...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T04:28:00.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "2jjx7vhjlf",
+      "key": "url:jiqizhixin.com/articles/2026-11-07-4",
+      "title": "NeurIPS 2026入选论文作者面对面，这次聊点真正的技术干货",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-07-4",
+      "excerpt": "大模型的竞争，正在从能力提升走向技术体系的全面较量。过去一年，AI 领域的技术演进明显提速。从推理模型、Agent，到多模态生成、世界模型，再到 AI for Science，研究者正在探索大模型能力的更多边界。模型开始向复杂推理、自主决策、科学发现等方向延伸。与此同时，模型架构、训练方法、数...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T04:25:00.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "paper",
+      "keywords": [
+        "Agent",
+        "推理模型"
+      ],
+      "score": 18
+    },
+    {
+      "id": "98fuovh614",
+      "key": "url:jiqizhixin.com/articles/2026-11-07-3",
+      "title": "NeurIPS 2026 | 国产昇腾大模型RL训练系统，最高提速222%",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-07-3",
+      "excerpt": "在 LLM RL 训练里，生成正在变成最耗时的环节。当模型输出越来越长，训练阶段面对的是算力约束，增加训练卡数可以有效缓解算力压力，但推理部分是受限于显存带宽，往单个推理实例上继续堆卡，很快就会撞上扩展性的天花板。在训推混合的框架上，继续堆算力只会造成更多的算力资源浪费。深圳市大数据研究院团队...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T04:20:00.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "paper",
+      "score": 18
+    },
+    {
+      "id": "1cvb286on0t",
+      "key": "url:jiqizhixin.com/articles/2026-11-07-2",
+      "title": "刚刚，OpenAI被曝完成110亿美元融资，CFO：数据中心还会继续建",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-07-2",
+      "excerpt": "OpenAI 这轮备受瞩目的融资，终于阶段性落地了？刚刚，彭博社援引知情人士消息称，OpenAI 已完成新一轮融资的首批交割，规模约 110 亿美元，本轮融资对应的公司估值为 1.25 万亿美元。彭博社披露，这笔资金已于周五汇入公司，剩余部分预计在未来几周完成，届时整轮融资总额可能达到 200...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T04:17:00.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "u68lplity3"
+    },
+    {
+      "id": "1u5aikkjyxj",
+      "key": "url:jiqizhixin.com/articles/2026-11-07",
+      "title": "「假电脑」教AI用电脑，出的题连GPT-6 Astra都做不对",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-07",
+      "excerpt": "你是否也好奇 GPT-6 Astra 惊人的 computer-use agent (CUA) 电脑使用能力如何训练得到？来自微软研究院 (Microsfot Research), 北卡罗来纳大学教堂山分校 (UNC-Chapel Hill), 佐治亚理工大学 (Gatech), 和美国东北大...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T04:15:00.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "model",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 24,
+      "dupOf": "20py2by5tcf"
+    },
+    {
+      "id": "25nsayuxh2z",
+      "key": "url:pcmag.com/news/good-luck-getting-a-cheap-gpu-amd-is-a-data-center-first-company-ceo-says",
+      "title": "Good Luck Getting a Cheap GPU. AMD Is a 'Data Center First Company,' CEO Says",
+      "url": "https://www.pcmag.com/news/good-luck-getting-a-cheap-gpu-amd-is-a-data-center-first-company-ceo-says",
+      "excerpt": "they are all the same and we ... are too emotional! and yes we already knew that. [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-07T04:05:32.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpx0on/good_luck_getting_a_cheap_gpu_amd_is_a_data/"
+    },
+    {
+      "id": "11lsv81blfy",
+      "key": "url:36kr.com/newsflashes/4059024621392777",
+      "title": "台积电据悉考虑进军先进存储芯片领域，为英伟达生产3D DRAM",
+      "url": "https://36kr.com/newsflashes/4059024621392777",
+      "excerpt": "11月6日，据报道，台积电正评估扩大先进存储芯片生产，以争取更多人工智能基础设施投资。据悉，台积电应主要客户英伟达要求，已开始制定生产垂直堆叠3D DRAM的计划。消息传台积电据悉考虑进军先进存储芯片领域，为英伟达生产3D DRAM出后，台积电美国存托凭证周五早盘一度上涨7.7%。（界面）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T03:58:13.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "multimodal",
+      "score": 18
+    },
+    {
+      "id": "2es7k4s08bz",
+      "key": "url:36kr.com/newsflashes/4059020817273728",
+      "title": "AI板块遭“聪明钱”抛售，美国对冲基金10月普遍亏损",
+      "url": "https://36kr.com/newsflashes/4059020817273728",
+      "excerpt": "10月以来，围绕人工智能投资前景、融资成本与盈利兑现的担忧持续发酵，美股科技股剧烈调整并迅速传导至对冲基金业绩，无论是老虎环球等押注科技成长的明星选股基金，还是千禧年基金等以风控分散见长的多策略巨头，大多没能躲过这波回撤。进入11月，“聪明钱”抛售潮仍在继续，对冲基金集中减持半导体等科技股，市场避险情绪快速升温。尽管当前市场情绪较为悲观，但仍有不少主流机构认为，此轮波动更像是一次拥挤交易的“出清”，而非AI投资热潮的终结。（上证报）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T03:55:20.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "26fkw02n01m",
+      "key": "url:qbitai.com/2026/11/508244.html",
+      "title": "AGENTS.MD，危险危险危险！！！",
+      "url": "https://www.qbitai.com/2026/11/508244.html",
+      "excerpt": "全新的电脑病毒",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T03:43:55.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1v75w2g58g",
+      "key": "url:geekpark.net/news/373643",
+      "title": "博世用豆包工作：让工程师少搬信息，多解问题",
+      "url": "http://www.geekpark.net/news/373643",
+      "excerpt": "头图来源：豆包工作 客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作？ 在博世的某研发事业部，答案曾经是：找齐散落在各个群和私聊里的消息，按多个维度整理成完整描述，凭经验判断该找谁，接着再开会，再把结论写成报告。 故障分析还没开始，大半天已经过去了。 如今，这中间的一大段路，工程师交给了豆包工作和豆包工作伙伴。 博世的尝试：让 AI 接手沟通之后的工作 汽车产业链企业的研发部门，经常会遇到这样的情况：一个工程师要当三个用：研发细节要盯，还有很多日常重复的活儿需要做。 博世某事业部的工程师，其所在的团队需要对接各家客户，为客户提供系统…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T03:35:36.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "h15w3kg5rk",
+      "key": "url:36kr.com/newsflashes/4059143612322688",
+      "title": "IMF总裁：各国央行需考量AI驱动增长或放缓",
+      "url": "https://36kr.com/newsflashes/4059143612322688",
+      "excerpt": "国际货币基金组织（IMF）总裁格奥尔基耶娃6日表示，各国央行在评估抗击通胀的举措时，需要将人工智能（AI）驱动的增长可能出现放缓纳入考量。格奥尔基耶娃当天在IMF位于美国首都华盛顿的总部表示，人们对于经济过度依赖AI投资热潮以及资产估值过高的担忧，正对全球市场产生影响。市场行情起伏不定，且这种态势很可能持续。在物价稳定所面临的风险日益加剧的背景下，市场波动将使各国央行的工作变得更加复杂。（新华社）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T03:34:24.619Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "13awkwoklso",
+      "key": "url:geekpark.net/news/373642",
+      "title": "办公提效之后，企业级 Agent 开始对经营结果负责",
+      "url": "http://www.geekpark.net/news/373642",
+      "excerpt": "头图来源：腾讯云 过去一年，智能体是 AI 行业最受关注的方向之一。 从查资料、写文档到处理日常办公事务，桌面办公智能体完成了第一轮普及，办公提效的价值已经成为行业共识。但当 AI 进一步走向企业核心业务，搭出一个智能体不难，难的是让它真正跑进业务流程，适配复杂的系统、权限与规则，持续产出可量化的经营价值。 在腾讯云副总裁吴永坚看来，未来企业级智能体的核心赛道，对话式的桌面办公 Agent 和服务经营的 Service Agent 会是两个长期并行的赛道。大模型提供了理解与推理能力，但想让 AI 真正参与业务经营，还需要一套能够打通系统、管好权限、支撑…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T03:31:37.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "8z487v03tu",
+      "key": "url:qbitai.com/2026/11/508196.html",
+      "title": "Jeff Dean李飞飞最新对谈：全是RSI非共识",
+      "url": "https://www.qbitai.com/2026/11/508196.html",
+      "excerpt": "RSI不可能无限快",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T03:23:29.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2408dpitt8m",
+      "key": "url:36kr.com/newsflashes/4059012212282246",
+      "title": "部分投资者下修Anthropic IPO估值至1.5万亿美元",
+      "url": "https://36kr.com/newsflashes/4059012212282246",
+      "excerpt": "本周民主党在中期选举中大获全胜，进一步加剧了市场对AI相关建设将放缓的担忧。部分Anthropic投资者如今预计该公司上市时的估值将低于1.5万亿美元，其中一些人称这一数字可能进一步下探至1万亿美元。该公司向美国证券交易委员会（SEC）秘密递交文件时的目标估值为2万亿美元。Anthropic对此拒绝置评，这家人工智能新贵公司预计将于下周启动路演。（第一财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T03:15:33.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 26,
+      "related": [
+        {
+          "id": "1iew9ruy4zw",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/",
+          "title": "Anthropic 1500 亿美元 IPO 遭遇阻力",
+          "publishedAt": "2026-11-06T11:38:17.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-11-06T11:38:17.000Z"
+      }
+    },
+    {
+      "id": "qnkuqmluie",
+      "key": "url:huggingface.co/spaces/joelniklaus/harness-leaderboard",
+      "title": "Harness Leaderboard - Kimi Code, Hermes, Pi, Claude Code, Codex, and Others Were Benchmarked Against Terminal Bench 2.1 & Deep SWE 1.1",
+      "url": "https://huggingface.co/spaces/joelniklaus/harness-leaderboard",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-07T02:41:59.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpvfx8/harness_leaderboard_kimi_code_hermes_pi_claude/"
+    },
+    {
+      "id": "v2xupcwbvx",
+      "key": "url:leiphone.com/category/industrynews/X7HwwQTEXJhiVVzK.html",
+      "title": "百图生科与11家伙伴战略合作，AI生物计算覆盖医药研发及农业育种",
+      "url": "https://www.leiphone.com/category/industrynews/X7HwwQTEXJhiVVzK.html",
+      "excerpt": "活动焦点： · 百图生科主办、港投公司支持的第三届峰会2026年11月6日开幕，汇聚约300名科研、产业及投资界代表，探讨人工智能与生命科学的融合发展 · 百图生科InnoHub分别与大学、科企及投资机构合作，以AI生物计算聚焦乳癌及中医药研究、农业育种、研发与产业配套，包括与香港大学推进「乳腺癌虚拟细胞大模型」项目，以及与香港浸会大学筹建「AI中医药联合实验室」；合作网络延伸至日本、新加坡及「一带一路」沿线市场 · 全日设多场院士演讲及圆桌论坛，涵盖世界模型、可穿戴生物传感与具身智能，以及香港生物计算发展、生物医药AI研发、投资及企业拓展国际市场等议…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T02:40:00.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
       "id": "1ozzqh1eb1m",
       "key": "url:36kr.com/newsflashes/4059085964923785",
       "title": "北京：加快布局人工智能、量子信息、6G等前沿领域技术转化、试验验证、中试熟化等共性技术赋能中心",
@@ -87,7 +664,7 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 26,
+      "score": 34,
       "related": [
         {
           "id": "1lz2esdt1gx",
@@ -96,13 +673,22 @@
           "url": "https://36kr.com/p/4058879839359873",
           "title": "刚刚，OpenAI被曝完成110亿美元融资，CFO：数据中心还会继续建",
           "publishedAt": "2026-11-07T00:06:06.000Z"
+        },
+        {
+          "id": "1cvb286on0t",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-07-2",
+          "title": "刚刚，OpenAI被曝完成110亿美元融资，CFO：数据中心还会继续建",
+          "publishedAt": "2026-11-07T04:17:00.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "36kr-flash",
-          "36kr-ai"
+          "36kr-ai",
+          "jiqizhixin"
         ],
         "firstPublishedAt": "2026-11-07T00:06:06.000Z"
       },
@@ -473,6 +1059,27 @@
       "dupOf": "1xapjyieac8"
     },
     {
+      "id": "1pq2k1cqj9i",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xppw37/im_going_to_try_to_turn_a_4b_model_into_a",
+      "title": "I'm going to try to turn a 4B model into a genuinely useful coding agent that can compete with much larger models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xppw37/im_going_to_try_to_turn_a_4b_model_into_a/",
+      "excerpt": "After releasing 3D Coder and GLB 3D Coder, I realized I should have involved the community earlier. Your feedback directly influenced the second model and could have saved me some additional training runs. This time, I'd like to discuss the idea with the community before startin…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T22:17:58.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xppw37/im_going_to_try_to_turn_a_4b_model_into_a/"
+    },
+    {
       "id": "y8kj1332u7",
       "key": "url:reddit.com/r/LocalLLaMA/comments/1xppbrr/some_gpu_prices_are_dropping",
       "title": "Some GPU prices are dropping",
@@ -536,10 +1143,10 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-07",
       "category": "paper",
-      "score": 28.5,
+      "score": 33.6,
       "metrics": {
-        "points": 212,
-        "comments": 160
+        "points": 342,
+        "comments": 322
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50397994",
       "aiAttempts": 1,
@@ -642,7 +1249,7 @@
         "Agent",
         "开源模型"
       ],
-      "score": 71,
+      "score": 71.4,
       "related": [
         {
           "id": "1pjdm9w5bwb",
@@ -678,7 +1285,7 @@
         "metrics": {
           "points": 339,
           "comments": 127,
-          "likes": 334
+          "likes": 361
         }
       },
       "ai": {
@@ -712,6 +1319,23 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-07T02:50:21.084Z"
       }
+    },
+    {
+      "id": "1oz44a1t4a8",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xpls17/tried_the_weight_editing_thing_from_the_mit_post",
+      "title": "Tried the weight editing thing from the MIT post: Some cool applications, but nothing crazy",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpls17/tried_the_weight_editing_thing_from_the_mit_post/",
+      "excerpt": "I took some models that had obvious flaws (prone to prompt injection, whisper hallucinating when silence, etc) and checked if Opus 5.5 can fix it by just editing weights. It's very useful for patching a model that was done training and has an obvious, easy to articulate flaw. So…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T19:27:43.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpls17/tried_the_weight_editing_thing_from_the_mit_post/"
     },
     {
       "id": "46esbitxa6",
@@ -838,6 +1462,46 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-07T02:50:21.084Z"
       }
+    },
+    {
+      "id": "1l4yno20c6j",
+      "key": "url:reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06",
+      "title": "Microsoft is winding down Oracle deal to rent AI cloud capacity",
+      "url": "https://www.reuters.com/business/microsoft-is-winding-down-oracle-deal-rent-ai-cloud-capacity-bloomberg-news-2026-11-06/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T18:04:06.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 20.6,
+      "metrics": {
+        "points": 104,
+        "comments": 18
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50395933"
+    },
+    {
+      "id": "14h5krhnz7q",
+      "key": "arxiv:2610.21375",
+      "title": "Memorilla: Latent Semantic Memory for LLMs",
+      "url": "https://arxiv.org/abs/2610.21375",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T18:03:33.000Z",
+      "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "agent",
+      "score": 20.8,
+      "metrics": {
+        "points": 112,
+        "comments": 13
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50395919"
     },
     {
       "id": "uv1xc1t8qh",
@@ -979,10 +1643,10 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 31.2,
+      "score": 32.7,
       "metrics": {
-        "points": 241,
-        "comments": 495
+        "points": 295,
+        "comments": 591
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50394906",
       "aiAttempts": 1,

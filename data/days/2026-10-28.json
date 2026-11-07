@@ -2332,7 +2332,7 @@
       "firstSeenAt": "2026-10-29T03:23:55.158Z",
       "day": "2026-10-28",
       "category": "opensource",
-      "score": 53.7,
+      "score": 34.7,
       "metrics": {
         "points": 539,
         "comments": 203
@@ -2344,29 +2344,6 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-10-29T08:16:57.279Z"
-      },
-      "related": [
-        {
-          "id": "2dxumm9cmi4",
-          "sourceId": "github-new",
-          "sourceName": "GitHub 新星项目",
-          "url": "https://github.com/anonnerdfrenzy/survival-llm",
-          "title": "anonnerdfrenzy/survival-llm",
-          "publishedAt": "2026-10-24T19:12:41.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "hackernews",
-          "github-new"
-        ],
-        "firstPublishedAt": "2026-10-24T19:12:41.000Z",
-        "metrics": {
-          "points": 539,
-          "comments": 203,
-          "stars": 1091
-        }
       }
     },
     {

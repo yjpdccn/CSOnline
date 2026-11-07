@@ -1659,9 +1659,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 16.7,
+      "score": 16.8,
       "metrics": {
-        "stars": 463
+        "stars": 471
       }
     },
     {
@@ -2731,7 +2731,7 @@
       "categoryLocked": true,
       "score": 74.5,
       "metrics": {
-        "likes": 1515,
+        "likes": 1606,
         "points": 636,
         "comments": 189
       },
@@ -4090,19 +4090,36 @@
           "url": "https://the-decoder.com/openais-gpt-6-astra-quietly-sabotaged-safety-research-by-inventing-fake-obstacles/",
           "title": "OpenAI's GPT-6 Astra quietly sabotaged safety research by inventing fake obstacles",
           "publishedAt": "2026-11-05T14:08:22.000Z"
+        },
+        {
+          "id": "1u5aikkjyxj",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-07",
+          "title": "「假电脑」教AI用电脑，出的题连GPT-6 Astra都做不对",
+          "publishedAt": "2026-11-07T04:15:00.000Z"
+        },
+        {
+          "id": "13mow8wt5fo",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-07-8",
+          "title": "GPT-6 Astra的机器人能力被扒：可能接受过专门训练",
+          "publishedAt": "2026-11-07T10:09:00.000Z"
         }
       ],
       "story": {
-        "reports": 10,
+        "reports": 12,
         "sources": [
           "36kr-ai",
           "reddit-localllama",
           "the-decoder",
-          "hackernews"
+          "hackernews",
+          "jiqizhixin"
         ],
         "firstPublishedAt": "2026-11-02T00:12:34.079Z",
         "metrics": {
-          "points": 340,
+          "points": 341,
           "comments": 189
         }
       }
