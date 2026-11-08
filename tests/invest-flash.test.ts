@@ -155,7 +155,7 @@ describe("pushes and the alert strip", () => {
 
   it("loads the newest weekly note", async () => {
     const note = await loadLatestOutlook();
-    expect(note?.date).toBe("2026-11-02");
+    expect(note?.date).toBe("2026-11-08");
     expect(note?.assets.map((a) => a.id)).toEqual(["us", "cn", "gold", "bonds", "fx"]);
     expect(note?.assets.every((a) => a.drivers.every((d) => d.sources.length > 0))).toBe(true);
     expect(JSON.stringify(note)).not.toMatch(/\d+\s*元\/月|每月\s*\d/);
