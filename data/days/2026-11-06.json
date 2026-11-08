@@ -145,7 +145,7 @@
       "category": "industry",
       "score": 23.7,
       "metrics": {
-        "points": 135,
+        "points": 136,
         "comments": 63
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50392499",
@@ -1797,6 +1797,30 @@
       }
     },
     {
+      "id": "2ddcmxln74t",
+      "key": "gh:herdbuilderestimate/roblox-studio-mcp",
+      "title": "HerdBuilderEstimate/roblox-studio-mcp",
+      "url": "https://github.com/HerdBuilderEstimate/roblox-studio-mcp",
+      "excerpt": "Model Context Protocol server for Roblox Studio. Connect AI assistants (Claude, Cursor) to read object trees, edit scripts, and run playtests safely. Open-source and lightweight",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T06:16:35.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-06",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "MCP",
+        "AI 编程"
+      ],
+      "score": 16.4,
+      "metrics": {
+        "stars": 428
+      }
+    },
+    {
       "id": "r6tlnpq07r",
       "key": "url:jiqizhixin.com/articles/2026-11-06-8",
       "title": "让模型学会图文并茂地表达：南大联合美团LongCat提出IntReal，从真实数据、细粒度评测到训练优化",
@@ -1828,10 +1852,10 @@
       "firstSeenAt": "2026-11-06T17:56:04.095Z",
       "day": "2026-11-06",
       "category": "paper",
-      "score": 29.3,
+      "score": 29.4,
       "metrics": {
-        "points": 215,
-        "comments": 216
+        "points": 220,
+        "comments": 217
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50388513",
       "ai": {
@@ -2652,9 +2676,9 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 25.6,
+      "score": 25.9,
       "metrics": {
-        "upvotes": 100,
+        "upvotes": 104,
         "comments": 1
       },
       "ai": {
@@ -2683,9 +2707,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22.6,
+      "score": 22.8,
       "metrics": {
-        "upvotes": 63,
+        "upvotes": 65,
         "comments": 5
       },
       "ai": {
@@ -2797,9 +2821,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.5,
+      "score": 25.2,
       "metrics": {
-        "upvotes": 86,
+        "upvotes": 94,
         "comments": 2
       }
     },
@@ -2817,12 +2841,30 @@
       "firstSeenAt": "2026-11-06T03:26:50.356Z",
       "day": "2026-11-06",
       "category": "model",
-      "score": 24,
+      "score": 32,
       "ai": {
         "summary": "GPT-6.2 Astra即将发布。",
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-06T17:59:33.112Z"
+      },
+      "related": [
+        {
+          "id": "1tazfmzx689",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-08-8",
+          "title": "OpenAI新模型临门一脚踩刹车！GPT-6.2曝出安全疑云",
+          "publishedAt": "2026-11-08T10:57:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-05T23:46:32.029Z"
       }
     },
     {
@@ -2921,8 +2963,8 @@
       "category": "industry",
       "score": 35,
       "metrics": {
-        "points": 514,
-        "comments": 228
+        "points": 515,
+        "comments": 229
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50385870",
       "ai": {
@@ -3003,8 +3045,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 1591,
-        "comments": 516
+        "points": 1596,
+        "comments": 524
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50385272",
       "aiAttempts": 1,
@@ -3366,10 +3408,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 19.2,
+      "score": 29.1,
       "metrics": {
-        "stars": 46885,
-        "starsToday": 190
+        "stars": 47254,
+        "starsToday": 812
       },
       "ai": {
         "title": "vercel-labs/agent-browser 专为 AI 代理设计",
@@ -3761,7 +3803,7 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 77.4,
+      "score": 77.5,
       "related": [
         {
           "id": "n5mht81ja8",
@@ -3790,8 +3832,8 @@
         ],
         "firstPublishedAt": "2026-11-05T17:00:00.000Z",
         "metrics": {
-          "points": 360,
-          "comments": 250
+          "points": 365,
+          "comments": 251
         }
       },
       "ai": {
@@ -3809,8 +3851,8 @@
         }
       ],
       "metrics": {
-        "points": 360,
-        "comments": 250
+        "points": 365,
+        "comments": 251
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50392118"
     },
@@ -3867,10 +3909,18 @@
           "url": "https://36kr.com/p/4057467760661378",
           "title": "刚刚，GPT-6 Cyber 正式发布，AI 最强的矛也成了最强的盾",
           "publishedAt": "2026-11-05T23:45:34.300Z"
+        },
+        {
+          "id": "1z7t0hqwih4",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4060707751826311",
+          "title": "GPT-6之后，具身大模型画地为牢！明年自研预算估计悬了",
+          "publishedAt": "2026-11-08T08:26:19.570Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "verge-ai",
           "36kr-ai"

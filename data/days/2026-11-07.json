@@ -70,6 +70,40 @@
       "score": 21
     },
     {
+      "id": "upr0pka5fw",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xq8s2n/qwen38flashnext_gyro_s_on_a_valve_steam_machine_8",
+      "title": "Qwen3.8-Flash-Next Gyro S on a Valve Steam Machine (8 GB AMD GPU, 32 GB RAM): about 18 t/s decode, about 235 t/s prefill, stock SteamOS",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq8s2n/qwen38flashnext_gyro_s_on_a_valve_steam_machine_8/",
+      "excerpt": "I followed up on the post about running Qwen 3.8 Flash Next with 8 GB VRAM and 32 GB RAM. I wanted to see how it does on my Steam Machine. Setup Valve Steam Machine, stock SteamOS 3.9.5, AMD Navi 33 with 8 GB, 32 GB RAM, NVMe Stock Strata terminal 0.2.9 (engine 0.1.55, HIP packa…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-07T15:18:29.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-07",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq8s2n/qwen38flashnext_gyro_s_on_a_valve_steam_machine_8/",
+      "related": [
+        {
+          "id": "1wpiwz5vjfu",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbjbf/also_experienced_the_qwen38flashnext_url_issue/",
+          "title": "Also experienced the Qwen3.8-Flash-Next URL issue",
+          "publishedAt": "2026-11-07T17:15:04.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-11-07T15:18:29.000Z"
+      }
+    },
+    {
       "id": "24yh2m7gjy7",
       "key": "url:theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
       "title": "AI broke the cybersecurity world. What’s next?",
@@ -105,6 +139,23 @@
       ],
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq7qi4/valet_use_local_llms_to_manage_your_homelab_open/"
+    },
+    {
+      "id": "2a6dwky21b1",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xq65rl/tsmc_might_do_in_memory_compute_for_us",
+      "title": "TSMC might do in memory compute for us",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq65rl/tsmc_might_do_in_memory_compute_for_us/",
+      "excerpt": "At the 2025 VLSI Symposium, TSMC presented a memory technology based on oxide semiconductors, using a cell made of one transistor and one capacitor (1T1C). The goal was to integrate this memory into advanced logic chips and give processors a cache with low power and low latency.…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-07T13:17:49.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-07",
+      "category": "agent",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq65rl/tsmc_might_do_in_memory_compute_for_us/"
     },
     {
       "id": "1ybz9kfzgxw",
@@ -732,10 +783,18 @@
           "url": "https://the-decoder.com/anthropics-1-5-trillion-ipo-hits-resistance-as-investors-balk-at-valuation/",
           "title": "Anthropic 1500 亿美元 IPO 遭遇阻力",
           "publishedAt": "2026-11-06T11:38:17.000Z"
+        },
+        {
+          "id": "nic0l89fou",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
+          "title": "Anthropic 推进感恩节前 IPO，接受较低估值",
+          "publishedAt": "2026-11-07T17:37:25.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "36kr-flash",
           "the-decoder"
@@ -1355,19 +1414,20 @@
       "publishedAt": "2026-11-06T20:27:23.000Z",
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-07",
-      "category": "paper",
-      "score": 34.2,
+      "category": "industry",
+      "score": 34.4,
       "metrics": {
-        "points": 362,
-        "comments": 338
+        "points": 370,
+        "comments": 349
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50397994",
       "aiAttempts": 1,
       "ai": {
+        "title": "AI 正在加速 AI 研究",
         "summary": "AI 正在显著加速 AI 研究进程。",
-        "category": "paper",
+        "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-07T02:49:35.810Z"
+        "at": "2026-11-08T13:06:28.131Z"
       }
     },
     {
@@ -1434,7 +1494,7 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 10,
+      "score": 27.2,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune/",
       "ai": {
         "title": "NousResearch 发布基于 Qwen 的 Arete-27B 模型",
@@ -1442,6 +1502,16 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-07T02:50:05.831Z"
+      },
+      "alsoOn": [
+        {
+          "sourceId": "hf-models",
+          "sourceName": "HF 热门模型",
+          "url": "https://huggingface.co/NousResearch/Arete-27B"
+        }
+      ],
+      "metrics": {
+        "likes": 257
       }
     },
     {
@@ -1462,7 +1532,7 @@
         "Agent",
         "开源模型"
       ],
-      "score": 71.6,
+      "score": 71.8,
       "related": [
         {
           "id": "1pjdm9w5bwb",
@@ -1498,7 +1568,7 @@
         "metrics": {
           "points": 339,
           "comments": 127,
-          "likes": 373
+          "likes": 383
         }
       },
       "ai": {
@@ -1691,7 +1761,7 @@
       "category": "industry",
       "score": 20.8,
       "metrics": {
-        "points": 106,
+        "points": 107,
         "comments": 19
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50395933"
@@ -1709,9 +1779,9 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
       "category": "agent",
-      "score": 21,
+      "score": 21.1,
       "metrics": {
-        "points": 115,
+        "points": 116,
         "comments": 13
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50395919"
@@ -1856,10 +1926,10 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 33.1,
+      "score": 33.3,
       "metrics": {
-        "points": 309,
-        "comments": 613
+        "points": 317,
+        "comments": 620
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50394906",
       "aiAttempts": 1,
@@ -1868,6 +1938,29 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-07T02:49:35.810Z"
+      }
+    },
+    {
+      "id": "zq0va83dzk",
+      "key": "gh:diygod/pinky",
+      "title": "DIYgod/pinky",
+      "url": "https://github.com/DIYgod/pinky",
+      "excerpt": "Let AI agents use your phone, with you in the loop.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T16:53:14.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-07",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 16.5,
+      "metrics": {
+        "stars": 440
       }
     },
     {

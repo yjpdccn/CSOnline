@@ -120,9 +120,9 @@
       "day": "2026-11-01",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 16.7,
+      "score": 16.9,
       "metrics": {
-        "stars": 464
+        "stars": 481
       }
     },
     {
@@ -2085,7 +2085,7 @@
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-11-01",
       "category": "opensource",
-      "score": 27.2,
+      "score": 27.4,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
       "ai": {
         "title": "在 Qwen 3.5-4B 权重中编译 NPU 运行 Karpathy 故事",
@@ -2112,7 +2112,7 @@
         ],
         "firstPublishedAt": "2026-10-31T19:18:53.000Z",
         "metrics": {
-          "likes": 259
+          "likes": 267
         }
       }
     },

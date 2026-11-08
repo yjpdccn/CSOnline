@@ -2,6 +2,539 @@
   "day": "2026-11-08",
   "items": [
     {
+      "id": "25a1lc90vzi",
+      "key": "gh:anthropics/claude-quickstarts",
+      "title": "anthropics/claude-quickstarts",
+      "url": "https://github.com/anthropics/claude-quickstarts",
+      "excerpt": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-08T13:04:54.472Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 12.1,
+      "metrics": {
+        "stars": 19192,
+        "starsToday": 28
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "anthropics/claude-quickstarts 帮助开发者快速构建可部署的 Claude 应用。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
+    },
+    {
+      "id": "13dsq2whlvr",
+      "key": "gh:google-deepmind/mujoco",
+      "title": "google-deepmind/mujoco",
+      "url": "https://github.com/google-deepmind/mujoco",
+      "excerpt": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-08T13:04:54.472Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 12,
+      "metrics": {
+        "stars": 16162,
+        "starsToday": 26
+      },
+      "ai": {
+        "title": "Google DeepMind MuJoCo 物理模拟器",
+        "summary": "google-deepmind/mujoco 是一个通用的多关节动力学接触物理模拟器。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
+    },
+    {
+      "id": "57shz3mkvl",
+      "key": "url:respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman",
+      "title": "\"Ram Altman\" Is Now a Linux Script That Emails Sam Altman Daily to Report How Much Unused RAM Is in Your PC",
+      "url": "https://respawnfirst.com/linux-script-emails-sam-altman-unused-ram-ram-altman/",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-08T11:49:01.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "agent",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqwn5n/ram_altman_is_now_a_linux_script_that_emails_sam/",
+      "ai": {
+        "title": "Ram Altman 脚本每日报告未使用内存",
+        "summary": "Ram Altman 脚本每日向 Sam Altman 发送邮件报告 PC 未使用内存。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
+    },
+    {
+      "id": "w59191aqdr",
+      "key": "url:the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts",
+      "title": "The inventor of the bitter lesson has a bitter lesson for LLM scaling enthusiasts",
+      "url": "https://the-decoder.com/the-inventor-of-the-bitter-lesson-has-a-bitter-lesson-for-llm-scaling-enthusiasts/",
+      "excerpt": "Turing Award winner Richard Sutton reaffirms that raw compute alone isn't enough for intelligence and that fundamentally new learning methods are needed. Ex-OpenAI researcher Tworek agrees, saying blind transformer scaling \"has reward hacked brains of a whole generation of scien…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-08T11:44:41.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "paper",
+      "score": 15,
+      "ai": {
+        "title": "AI 扩展狂热者面临 \"苦涩教训\"",
+        "summary": "图灵奖得主 Richard Sutton 指出，单纯增加算力不足以实现智能，需要新的学习方法。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
+    },
+    {
+      "id": "1tazfmzx689",
+      "key": "url:jiqizhixin.com/articles/2026-11-08-8",
+      "title": "OpenAI新模型临门一脚踩刹车！GPT-6.2曝出安全疑云",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-08-8",
+      "excerpt": "AI 圈等了一整天，OpenAI 期待已久的新模型还是没有出现。此前，OpenAI 新一代 Astra、Sol 可能在 11 月 6 日发布的消息，已经让不少开发者提前进入了等待状态。先是 Codex 使用记录中出现了 gpt-6.2-astra，随后又有用户在 Google Clou 相关页...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T10:57:00.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "model",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 24,
+      "dupOf": "d9gy7a5rme"
+    },
+    {
+      "id": "125nuq86zyz",
+      "key": "url:jiqizhixin.com/articles/2026-11-08-7",
+      "title": "NeurIPS 2026 Oral｜LCVN：一张起始画面、一段语言指令，能否预测完整的导航路线？",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-08-7",
+      "excerpt": "从「直接给机器人看终点」到「告诉机器人怎么走」「沿着走廊直走，经过左侧玻璃墙后，在拐角左转，继续走到墙边停下来。」给人指路的时候，往往这样一句话就够了。但是对机器人来说，它需要把「玻璃墙」、「左转」、「墙边」等信息对应到眼前的环境，再转化为连续的移动和转向。已有的目标条件视觉导航方法，往往用一...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T10:54:00.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "paper",
+      "score": 18
+    },
+    {
+      "id": "21mwpc7yxfw",
+      "key": "url:jiqizhixin.com/articles/2026-11-08-6",
+      "title": "2026云程奖｜Nature、Best Paper、5.9万Stars、亿元融资……这群AI青年，还在校园！",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-08-6",
+      "excerpt": "AI 的下一程，由谁创造？当 AI 加速从模型能力走向智能体、具身智能与科学探索，推动下一轮技术突破的力量，正在从哪里生长？在实验室里，他们探索尚无答案的研究问题；在开源社区中，他们构建被广泛使用的技术工具；在产业一线，他们尝试让新技术能力进入真实场景。他们中有些人还在读本科、硕士或博士，却已...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T10:51:00.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "paper",
+      "keywords": [
+        "Agent",
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1hz9vohende",
+      "key": "url:jiqizhixin.com/articles/2026-11-08-5",
+      "title": "跨模型上下文交接还要重算KV？北大提出MapFlow，让注意力跨模型复用",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-08-5",
+      "excerpt": "模型 A 负责规划，模型 B 负责细化和总结；复杂问题交给强模型，简单问题交给轻量模型——多模型协作，为 AI Agent 应用提供了兼顾效果与成本的路径。但 Agent 或者说模型之间的交接，隐藏着一笔重复计算的开销。上一轮，大模型刚刚处理完一份长文档；下一轮，小模型接手时，却往往需要把相同...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T10:46:00.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "2cf9u8t9yea",
+      "key": "url:jiqizhixin.com/articles/2026-11-08-4",
+      "title": "ICLR 2027首轮评审，槽点有点多",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-08-4",
+      "excerpt": "这几天，机器学习顶会 ICLR 2027 的首轮评审意见陆续公开。对论文作者来说，这通常是一个颇为紧张的时刻。几个月甚至一两年的研究工作，终于要接受同行检验。审稿人会仔细检查方法、实验和理论推导，指出研究中真正存在的问题。但今年，一些研究者打开 OpenReview 后，看到的评审意见却让人有...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T10:44:00.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "paper",
+      "score": 18
+    },
+    {
+      "id": "67zfltad7y",
+      "key": "url:jiqizhixin.com/articles/2026-11-08-3",
+      "title": "GPT-6.1 Sol参与活体大脑手术！三轮定位，一次比一次准",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-08-3",
+      "excerpt": "在小鼠脑部手术中，考验操作者的往往是进针之前的一个细节：找到头骨上几个极其关键的解剖标志。这些点看起来不起眼，却决定了后续手术坐标如何计算。位置稍有偏差，针头就可能无法准确抵达预定的脑区。现在，AI 也开始学习这项操作了。近日，生物科技初创公司 Exin Therapeutics 联合创始人兼...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T10:41:00.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "model",
+      "score": 32,
+      "related": [
+        {
+          "id": "g5a4bhfhh1",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4060588343825282",
+          "title": "GPT-6.1 Sol参与活体大脑手术！三轮定位，一次比一次准",
+          "publishedAt": "2026-11-08T08:25:08.636Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-08T08:25:08.636Z"
+      }
+    },
+    {
+      "id": "dyyp215m8e",
+      "key": "url:jiqizhixin.com/articles/2026-11-08-2",
+      "title": "英伟达等重新设计VLA推理！机器人动作提速3.4倍",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-08-2",
+      "excerpt": "本文第一作者为纽约大学计算机科学博士生 Jack Lu，研究工作完成于他在英伟达实习期间。本文由英伟达资深研究科学家、Alpamayo 研究技术负责人 Yan Wang，以及英伟达自动驾驶研究负责人、斯坦福大学副教授 Marco Pavone 共同指导。如今，许多视觉 - 语言 - 动作（VL...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T10:38:00.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1wn79vv4yrq",
+      "key": "url:jiqizhixin.com/articles/2026-11-08",
+      "title": "GPT-6 Astra改权重爆火？我们做了一组对照实验，模型根本没变聪明",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-08",
+      "excerpt": "张牧涵博士，无涯智远（Norizon AI）创始人兼首席科学家，主要研究方向为持续学习、自进化智能体、图机器学习、大模型架构和推理等。曾任 Facebook AI（现 Meta AI）研究科学家，负责面向十亿用户规模的大规模图机器学习系统研发。现任北京大学人工智能研究院助理教授、研究员、博士生...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T10:32:00.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "model",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 24,
+      "dupOf": "20py2by5tcf"
+    },
+    {
+      "id": "22rg2wbrpe8",
+      "key": "url:geekpark.net/news/373653",
+      "title": "为什么「陪伴」，注定是 Personal AI 的核心",
+      "url": "http://www.geekpark.net/news/373653",
+      "excerpt": "作者｜宇航猿 编辑｜靖宇 最近这一波 Personal AI 实在太火了，我也注册了一个 Muse 体验了一下。 整个体验下来，我感觉 Muse 的能力实在一般，远没到让人惊叹的地步。但奇怪的是，它确实带来了一种真切的陪伴感。这种陪伴感，甚至直接改变了我的使用习惯，让我总是忍不住想找它聊聊，哪怕只是把最琐碎的需求丢给它。 就在本周，Muse 又往前迈了一步，正式上线了实时语音和会动的头像。无独有偶，各家 AI 助手最近都在做同一件事，就是给个人 AI 助手开通语音和对话功能。 这让我非常好奇，距离 ChatGPT 端出惊艳的语音模式，已经过去两年了，为…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T09:52:45.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "industry",
+      "keywords": [
+        "语音"
+      ],
+      "score": 18
+    },
+    {
+      "id": "25mky6r2ep",
+      "key": "url:the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test",
+      "title": "AI coding agents still need human cleanup on nearly three out of four tasks in a real-world test",
+      "url": "https://the-decoder.com/ai-coding-agents-still-need-human-cleanup-on-nearly-three-out-of-four-tasks-in-a-real-world-test/",
+      "excerpt": "Alibaba's new coding-agent benchmark, Co-Design Bench, tests AI agents on real user requests that already tripped them up in practice. Even GPT-6 Astra, the top performer, fully solves only 26.4 percent of tasks. On older benchmarks, the same models score above 99 percent. The a…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-08T09:50:59.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "paper",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "AI 编码 Agent 在真实任务中需人工清理近四分之三",
+        "summary": "阿里巴巴 Co-Design Bench 测试显示，即使是 GPT-6 Astra 也仅能解决 26.4% 的任务。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
+    },
+    {
+      "id": "1z7t0hqwih4",
+      "key": "url:36kr.com/p/4060707751826311",
+      "title": "GPT-6之后，具身大模型画地为牢！明年自研预算估计悬了",
+      "url": "https://36kr.com/p/4060707751826311",
+      "excerpt": "Astra“误闯”具身智能的60天",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T08:26:19.570Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "model",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 24,
+      "dupOf": "5slauttj2a"
+    },
+    {
+      "id": "g5a4bhfhh1",
+      "key": "url:36kr.com/p/4060588343825282",
+      "title": "GPT-6.1 Sol参与活体大脑手术！三轮定位，一次比一次准",
+      "url": "https://36kr.com/p/4060588343825282",
+      "excerpt": "AI开始从真实实验中学习。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T08:25:08.636Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "model",
+      "score": 24,
+      "dupOf": "67zfltad7y"
+    },
+    {
+      "id": "1o29y0evygm",
+      "key": "url:infoq.cn/article/xd9o6TyQ8GLON3dmiWpG",
+      "title": "AI 生成视频何时才能告别“抽卡”？藏在高效生成背后的返工与成本难题",
+      "url": "https://www.infoq.cn/article/xd9o6TyQ8GLON3dmiWpG?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T08:19:44.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "multimodal",
+      "score": 18
+    },
+    {
+      "id": "vblwvjds03",
+      "key": "url:36kr.com/newsflashes/4060769889391489",
+      "title": "伯恩斯坦：OpenAI至2030年算力基础设施支出或达6140亿美元，低于市场广泛引用的7500亿美元",
+      "url": "https://36kr.com/newsflashes/4060769889391489",
+      "excerpt": "伯恩斯坦分析师Mark Moerdler估算，OpenAI已披露的算力合作协议对应的基础设施支出，到2030年累计可能达到6140亿美元，明显低于市场广泛引用的7500亿美元。该测算假设所有已识别合同均按计划执行，但实际支出可能因数据中心建设延期、项目取消及硬件采购安排调整而减少或推迟。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T08:09:29.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "7nf9q86nmq",
+      "key": "url:36kr.com/p/4060696576038533",
+      "title": "MiniMax怎样实现AGI？闫俊杰的办法是抄“后”路",
+      "url": "https://36kr.com/p/4060696576038533",
+      "excerpt": "闫俊杰认为，中美AI只差5%，却比前面95%更难追",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T07:57:13.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "xdaa7r5i3v",
+      "key": "url:36kr.com/newsflashes/4060790368785286",
+      "title": "中国移动推进算网智协同",
+      "url": "https://36kr.com/newsflashes/4060790368785286",
+      "excerpt": "“2026移动网络大会MobileLink 2026”在广州举办，中国移动董事长陈忠岳发表主旨讲话《网络强基智能共创》，指出新的智能经济需要新的基础设施。中国移动一体推进通信网、算力网和智能网建设，发布MoMA模型服务平台等成果，汇聚300多款主流大模型，大幅压降Token综合使用成本。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T07:29:34.657Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2aibk2kucoe",
+      "key": "url:36kr.com/p/4060672855757954",
+      "title": "九成代码AI写，谁来审？Claude Code亮出6道关卡！",
+      "url": "https://36kr.com/p/4060672855757954",
+      "excerpt": "九成代码AI写，谁来审？Claude Code亮出6道关卡！",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T07:20:37.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 18
+    },
+    {
+      "id": "e54zh7zvjy",
+      "key": "url:infoq.cn/article/Qs0pJ5M43c56hdozHiR0",
+      "title": "顶尖 AI 实验室正在成为“人才黑洞”！Claude Code 团队工程师离职后首次受访",
+      "url": "https://www.infoq.cn/article/Qs0pJ5M43c56hdozHiR0?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T07:03:06.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1gciha6q4p0",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xqs2sh/openclaw_retrospective",
+      "title": "OpenClaw Retrospective",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqs2sh/openclaw_retrospective/",
+      "excerpt": "A long time ago there was this massive phenomenon called OpenClaw that took the world by storm. It was an incredible moment where AI came of age and showed that you Can actually do stuff with AI rather than just chat with it. A historic and legendary project that broke GitHub st…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-08T06:47:56.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "agent",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqs2sh/openclaw_retrospective/",
+      "ai": {
+        "title": "OpenClaw 项目回顾",
+        "summary": "用户回顾了 OpenClaw 项目，认为它是 AI 能做实事的里程碑。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
+    },
+    {
+      "id": "1esiuozrqsl",
+      "key": "url:qbitai.com/2026/11/508466.html",
+      "title": "资本正在撤离“世界模型”",
+      "url": "https://www.qbitai.com/2026/11/508466.html",
+      "excerpt": "没有永远的夏天",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T04:09:55.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "multimodal",
+      "score": 18
+    },
+    {
+      "id": "ulideetwyp",
+      "key": "url:caleb.software/posts/claude-to-pi.html",
+      "title": "Goodbye Claude, Hello Pi",
+      "url": "https://caleb.software/posts/claude-to-pi.html",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-08T03:11:48.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "agent",
+      "score": 34.2,
+      "metrics": {
+        "points": 401,
+        "comments": 254
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50410107",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "用户告别 Claude，转而使用 Pi。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
+    },
+    {
+      "id": "2cceo68orx7",
+      "key": "url:geekpark.net/news/373650",
+      "title": "创业者做 Personal Agent，有没有一线生机？",
+      "url": "http://www.geekpark.net/news/373650",
+      "excerpt": "最近一阶段，Personal Agent 很热。有趣的是，这个概念迅速火爆又迅速有了一个共识，几波讨论下来大家的观点似乎是： Personal Agent 的机会是大厂的，创业者基本没戏。 虽然一般情况下，「入口级机会归大厂」确实是大概率发生的事情，但 Personal Agent 真的是个「入口」的问题吗？真的意味着「这件事里没有创业者的位置」吗？ 这依旧值得认真聊一聊。 真正值得兴奋的事：价值可以长在基模外 我们换一个视角看，Personal Agent 为什么让人兴奋？ 因为它给创业者提供了一种新的可能：产品的终极价值不来自于今天大模型公司提供的…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T02:40:20.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
       "id": "klemky5r79",
       "key": "url:36kr.com/newsflashes/4060419255882625",
       "title": "围绕三大核心主线，一周逾550家上市公司迎来投资者调研",
@@ -31,6 +564,30 @@
       "day": "2026-11-08",
       "category": "industry",
       "score": 18
+    },
+    {
+      "id": "ooe8s2n0o",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xqmr2i/saw_this_benchmark_where_small_changes_to_coding",
+      "title": "Saw this benchmark where small changes to coding tasks made a big difference",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqmr2i/saw_this_benchmark_where_small_changes_to_coding/",
+      "excerpt": "Saw this tweet about a coding benchmark and thought it was kinda interesting. Apparently they took 89 DeepSWE tasks and changed little things in the instructions or starting code. The tweet says some models that were all around 74% on DeepSWE ended up 23 percentage points apart…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-08T01:44:51.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "paper",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqmr2i/saw_this_benchmark_where_small_changes_to_coding/",
+      "ai": {
+        "title": "编码任务微小变化导致模型性能差异巨大",
+        "summary": "DeepSWE 编码基准测试显示，微小指令变化导致模型性能差异达 23 个百分点。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
     },
     {
       "id": "1gi9532ikmk",
@@ -114,7 +671,14 @@
         "Agent"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqjenw/anyone_running_local_ai_on_16gb_vram/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqjenw/anyone_running_local_ai_on_16gb_vram/",
+      "ai": {
+        "title": "16GB 显存用户分享本地 AI 使用经验",
+        "summary": "用户询问 16GB 显存下运行有用 AI Agent、工具和 Harness 的经验。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
     },
     {
       "id": "qkn873de8n",
@@ -129,9 +693,16 @@
       "publishedAt": "2026-11-07T22:24:14.000Z",
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-08",
-      "category": "industry",
+      "category": "agent",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqinb7/the_stylome_bot_is_useless_spam_and_should_be/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqinb7/the_stylome_bot_is_useless_spam_and_should_be/",
+      "ai": {
+        "title": "Stylome bot 是无用垃圾信息",
+        "summary": "用户认为 Stylome bot 是无用垃圾信息，应被移除。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
     },
     {
       "id": "yxr38c8b4g",
@@ -147,7 +718,38 @@
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-08",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "中期选举后马斯克和数据中心面临挑战",
+        "summary": "中期选举后，马斯克的数据中心业务面临挑战。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
+    },
+    {
+      "id": "zhg9ilm7of",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xqh8hk/crowdv1_the_collaborative_llm",
+      "title": "Crowd-v1 - The collaborative LLM",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqh8hk/crowdv1_the_collaborative_llm/",
+      "excerpt": "Processing img 0ybf7gn4c90i1... Hello r/LocalLLaMA :D This is yet another follow-up post on the project CrowdGPT, which aims at creating the first collaboratively trained 1 billion parameters transformer, Crowd-v1, without any datacenters, and for 0$. The project's goal is to sh…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-07T21:19:40.000Z",
+      "firstSeenAt": "2026-11-08T13:04:48.004Z",
+      "day": "2026-11-08",
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqh8hk/crowdv1_the_collaborative_llm/",
+      "ai": {
+        "title": "Crowd-v1 协作 LLM 项目",
+        "summary": "Crowd-v1 是一个无需数据中心、零成本的协作训练 10 亿参数 Transformer 项目。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
     },
     {
       "id": "96d9ucp8bx",
@@ -163,7 +765,14 @@
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-08",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Megaspeed 执行官被指受雇监视英伟达 CEO",
+        "summary": "据美国情报备忘录，中国国家安全部曾招募一名科技高管监视英伟达 CEO。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
     },
     {
       "id": "2349ewanyua",
@@ -181,12 +790,19 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 27.3,
+      "score": 35.6,
       "metrics": {
-        "points": 191,
-        "comments": 131
+        "points": 447,
+        "comments": 308
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50407882"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50407882",
+      "ai": {
+        "title": "Claude Code \"Don't Ask Again\" 暴露密码",
+        "summary": "Claude Code 的 \"Don't Ask Again\" 功能导致 1,122 个 GitHub 公开文件暴露密码。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
     },
     {
       "id": "wavo27smxh",
@@ -201,12 +817,19 @@
       "publishedAt": "2026-11-07T18:16:41.000Z",
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-08",
-      "category": "opensource",
+      "category": "agent",
       "keywords": [
         "Agent"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqd058/use_your_phone_to_monitor_anything_with_local/",
+      "ai": {
+        "title": "使用手机和本地模型监控一切",
+        "summary": "用户演示了 Observer 项目，利用本地模型通过手机监控周围环境。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
     },
     {
       "id": "u63hgmxz5y",
@@ -222,10 +845,10 @@
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-08",
       "category": "industry",
-      "score": 34,
+      "score": 35.5,
       "metrics": {
-        "points": 396,
-        "comments": 235
+        "points": 470,
+        "comments": 282
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50406563",
       "dupOf": "1p6346rv5g"
@@ -244,7 +867,15 @@
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-08",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Anthropic 推进感恩节前 IPO，接受较低估值",
+        "summary": "Anthropic 尽管面临科技股抛售，仍计划在感恩节前 IPO，估值 1.25 至 1.75 万亿美元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      },
+      "dupOf": "2408dpitt8m"
     },
     {
       "id": "1wpiwz5vjfu",
@@ -261,7 +892,8 @@
       "day": "2026-11-08",
       "category": "model",
       "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbjbf/also_experienced_the_qwen38flashnext_url_issue/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbjbf/also_experienced_the_qwen38flashnext_url_issue/",
+      "dupOf": "upr0pka5fw"
     },
     {
       "id": "fx63lwnlam",
@@ -294,11 +926,18 @@
       "publishedAt": "2026-11-07T16:56:38.000Z",
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-08",
-      "category": "agent",
+      "category": "paper",
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "AI 审计员能发现大多数 Agent 恶意行为但误报率高",
+        "summary": "Anthropic 研究发现，GPT-5 能发现约 98% 的奖励黑客行为，但搜索越详尽误报越多。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
     },
     {
       "id": "66ht0j8icw",
@@ -315,10 +954,17 @@
       "day": "2026-11-08",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 17,
+      "score": 22.9,
       "metrics": {
-        "stars": 573,
-        "starsToday": 125
+        "stars": 698,
+        "starsToday": 345
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "dsx-ai-factory/nvke 是一个用于裸金属 GPU Kubernetes 的管理平面。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
       }
     },
     {
@@ -335,7 +981,14 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-08",
       "category": "model",
-      "score": 21
+      "score": 21,
+      "ai": {
+        "title": "Inkling 2 Small 模型在基准测试中频繁爆粗口",
+        "summary": "Thinking Machines 的 Inkling 2 Small 模型在 2,655 次基准测试中爆粗口 316 次。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T13:06:28.131Z"
+      }
     },
     {
       "id": "c2ns50dnuh",

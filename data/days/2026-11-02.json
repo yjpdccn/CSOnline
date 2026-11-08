@@ -1659,9 +1659,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 16.8,
+      "score": 16.9,
       "metrics": {
-        "stars": 471
+        "stars": 477
       }
     },
     {
@@ -2690,9 +2690,9 @@
       "day": "2026-11-02",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 16.5,
+      "score": 16.7,
       "metrics": {
-        "stars": 435
+        "stars": 462
       }
     },
     {
@@ -2751,7 +2751,7 @@
       "categoryLocked": true,
       "score": 74.5,
       "metrics": {
-        "likes": 1640,
+        "likes": 1689,
         "points": 636,
         "comments": 189
       },
@@ -4126,10 +4126,18 @@
           "url": "https://www.jiqizhixin.com/articles/2026-11-07-8",
           "title": "GPT-6 Astra的机器人能力被扒：可能接受过专门训练",
           "publishedAt": "2026-11-07T10:09:00.000Z"
+        },
+        {
+          "id": "1wn79vv4yrq",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-08",
+          "title": "GPT-6 Astra改权重爆火？我们做了一组对照实验，模型根本没变聪明",
+          "publishedAt": "2026-11-08T10:32:00.000Z"
         }
       ],
       "story": {
-        "reports": 12,
+        "reports": 13,
         "sources": [
           "36kr-ai",
           "reddit-localllama",
@@ -4482,9 +4490,9 @@
       "day": "2026-11-02",
       "category": "model",
       "categoryLocked": true,
-      "score": 25.2,
+      "score": 25.4,
       "metrics": {
-        "likes": 259
+        "likes": 267
       },
       "skipLlm": true,
       "dupOf": "i1zmxyalde"
