@@ -2,6 +2,55 @@
   "day": "2026-11-07",
   "items": [
     {
+      "id": "1r9nw8nlb59",
+      "key": "url:theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
+      "url": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
+      "excerpt": "The NYT Cooking app now has a built in AI assistant. | Photo: Jennifer Pattison Tuohy / The Verge Around 7PM each weeknight, I find myself standing in front of the fridge, trying to decide on something for dinner that won't make my husband complain, \"Chicken again?\" Yes, I shoul…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-07T15:50:00.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-07",
+      "category": "agent",
+      "score": 15
+    },
+    {
+      "id": "2dp2le6613i",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xq9hf6/paper_dspine_draft_in_parallel_condition_through",
+      "title": "[Paper] DSpine - Draft in Parallel, Condition Through Depth: Adjacent Causal Injection for Speculative Decoding - tencent",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq9hf6/paper_dspine_draft_in_parallel_condition_through/",
+      "excerpt": "Parallel speculative drafting generates multiple candidates in one backbone pass, but independent token selection can produce inconsistent continuations that shorten the accepted prefix. Existing methods mostly leave conditional decoding to a lightweight module after the backbon…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-07T15:48:50.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-07",
+      "category": "paper",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq9hf6/paper_dspine_draft_in_parallel_condition_through/"
+    },
+    {
+      "id": "1trq08w19uq",
+      "key": "url:theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "title": "The US let Nvidia sell chips to an empty office in China",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029483/nvidia-ai-chips-china-blacklist-government",
+      "excerpt": "Concerns are being raised that neither the Commerce Department nor Nvidia are doing their due diligence when it comes to vetting Chinese firms cleared to handle the company's H200 AI chips. According to The New York Times, New Matrix is on the list of approved firms, yet its off…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-07T15:43:45.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 15
+    },
+    {
       "id": "1gy10822v8a",
       "key": "url:the-decoder.com/the-gap-between-open-and-closed-ai-models-in-cyber-capabilities-keeps-shrinking",
       "title": "The gap between open and closed AI models in cyber capabilities keeps shrinking",
@@ -21,6 +70,43 @@
       "score": 21
     },
     {
+      "id": "24yh2m7gjy7",
+      "key": "url:theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "title": "AI broke the cybersecurity world. What’s next?",
+      "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+      "excerpt": "Today, I’m talking with Alex Stamos, chief security officer at Cognition and longtime cybersecurity expert, about what a mess cybersecurity is right now. This episode is part one of a special series looking at AI in real life. I’ve always enjoyed talking to Alex because he’s so…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-07T15:00:00.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 15
+    },
+    {
+      "id": "1o66t36az6u",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xq7qi4/valet_use_local_llms_to_manage_your_homelab_open",
+      "title": "Valet: use local LLMs to manage your homelab (open source)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq7qi4/valet_use_local_llms_to_manage_your_homelab_open/",
+      "excerpt": "My favourite use case for local LLMs is running my homelab, because everything stays private (and it helps me justify the GPU lol) I wanted one dashboard to help me manage all of my services, so I made Valet. Live demo: https://demo.askvalet.dev Valet has a chat agent that works…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-07T14:32:04.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-07",
+      "category": "opensource",
+      "keywords": [
+        "Agent",
+        "本地部署"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq7qi4/valet_use_local_llms_to_manage_your_homelab_open/"
+    },
+    {
       "id": "1ybz9kfzgxw",
       "key": "url:the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away",
       "title": "State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away",
@@ -32,6 +118,22 @@
       "sourceGroup": "media-en",
       "publishedAt": "2026-11-07T12:32:45.000Z",
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 15
+    },
+    {
+      "id": "11pkm7hmiyc",
+      "key": "url:theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "title": "Why a new report on Anthropic automating AI development is alarming researchers",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029126/anthropic-metr-report-accelerating-ai-development",
+      "excerpt": "Anthropic CEO Dario Amodei. | Photo: Jason Henry/Bloomberg via Getty Images Anthropic is using AI to build more powerful AI. And it appears to be working remarkably well, with the company's models improving roughly twice as quickly as a year ago, with little indication of slowin…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-07T12:30:00.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-07",
       "category": "industry",
       "score": 15
@@ -52,6 +154,26 @@
       "category": "industry",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4yju/obsessive17b_a_11_gb_websearch_subagent/"
+    },
+    {
+      "id": "293le6k6buo",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xq4pb6/does_anyone_use_none_reasoning_level_for_anything",
+      "title": "Does anyone use None reasoning level for anything ever?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4pb6/does_anyone_use_none_reasoning_level_for_anything/",
+      "excerpt": "Sometimes I am tempted to use none reasoning level in agentic tasks to save time, but I am always kinda scared to do so. I have only ever used llm with reasoning and with medium at the lowest. Anybody have a lot of experience using none for reasoning level? Anything I need to kn…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-07T11:59:19.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-07",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4pb6/does_anyone_use_none_reasoning_level_for_anything/"
     },
     {
       "id": "10op2fmfr9x",
@@ -157,6 +279,22 @@
       "score": 15
     },
     {
+      "id": "fw3lnn81up",
+      "key": "url:qbitai.com/2026/11/508449.html",
+      "title": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
+      "url": "https://www.qbitai.com/2026/11/508449.html",
+      "excerpt": "AI写代码太快，基础设施跟不上了",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T09:38:56.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-07",
+      "category": "opensource",
+      "score": 18
+    },
+    {
       "id": "26qvgsd5bvl",
       "key": "url:36kr.com/p/4059211837003656",
       "title": "风口浪尖的数据中心，开始放低姿态",
@@ -168,6 +306,56 @@
       "sourceGroup": "media-zh",
       "publishedAt": "2026-11-07T09:30:33.696Z",
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "15ymrx1ykm9",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xq1y0y/paper_d3d_decoupled_diffusion_drafting_for",
+      "title": "[Paper] D3D: Decoupled Diffusion Drafting for Asynchronous Speculative Decoding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xq1y0y/paper_d3d_decoupled_diffusion_drafting_for/",
+      "excerpt": "Target-conditioned diffusion drafters predict candidate tokens in parallel, yet each new block must wait for updated target-model hidden states. This forces drafting and verification to run sequentially, limiting speedup even though each block is generated in one pass. We introd…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-07T09:00:23.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-07",
+      "category": "paper",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq1y0y/paper_d3d_decoupled_diffusion_drafting_for/"
+    },
+    {
+      "id": "1jrqlfs4jp2",
+      "key": "url:qbitai.com/2026/11/508344.html",
+      "title": "OpenAI新融资到账110亿美元，不及原计划一半",
+      "url": "https://www.qbitai.com/2026/11/508344.html",
+      "excerpt": "融资缩水，硅谷投资人也谨慎了",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T08:11:25.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "1xapjyieac8"
+    },
+    {
+      "id": "i3yljz7guj",
+      "key": "url:qbitai.com/2026/11/508330.html",
+      "title": "为了去AI味，人类开始主动写烂文章了……",
+      "url": "https://www.qbitai.com/2026/11/508330.html",
+      "excerpt": "需要说明的是，这并不意味着不会说人话就一定是人，也不意味着说人话的就一定不是AI.......",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T07:59:28.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-07",
       "category": "industry",
       "score": 18
@@ -468,6 +656,22 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
       "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2co69tdwbuu",
+      "key": "url:qbitai.com/2026/11/508236.html",
+      "title": "浙大00后博士生再交卷！把十几种物理要素装进一个世界模型｜华为昇腾原生",
+      "url": "https://www.qbitai.com/2026/11/508236.html",
+      "excerpt": "中国版cosmos再交卷",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-07T03:31:44.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-07",
+      "category": "multimodal",
       "score": 18
     },
     {
@@ -940,7 +1144,7 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 26,
+      "score": 34,
       "related": [
         {
           "id": "13gofhqaybe",
@@ -949,13 +1153,22 @@
           "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
           "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
           "publishedAt": "2026-11-06T22:53:46.000Z"
+        },
+        {
+          "id": "1jrqlfs4jp2",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/508344.html",
+          "title": "OpenAI新融资到账110亿美元，不及原计划一半",
+          "publishedAt": "2026-11-07T08:11:25.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "36kr-flash",
-          "techcrunch-ai"
+          "techcrunch-ai",
+          "qbitai"
         ],
         "firstPublishedAt": "2026-11-06T22:53:46.000Z"
       },
@@ -1143,10 +1356,10 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-07",
       "category": "paper",
-      "score": 33.6,
+      "score": 34.2,
       "metrics": {
-        "points": 342,
-        "comments": 322
+        "points": 362,
+        "comments": 338
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50397994",
       "aiAttempts": 1,
@@ -1249,7 +1462,7 @@
         "Agent",
         "开源模型"
       ],
-      "score": 71.4,
+      "score": 71.6,
       "related": [
         {
           "id": "1pjdm9w5bwb",
@@ -1285,7 +1498,7 @@
         "metrics": {
           "points": 339,
           "comments": 127,
-          "likes": 361
+          "likes": 373
         }
       },
       "ai": {
@@ -1476,10 +1689,10 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 20.6,
+      "score": 20.8,
       "metrics": {
-        "points": 104,
-        "comments": 18
+        "points": 106,
+        "comments": 19
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50395933"
     },
@@ -1496,9 +1709,9 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
       "category": "agent",
-      "score": 20.8,
+      "score": 21,
       "metrics": {
-        "points": 112,
+        "points": 115,
         "comments": 13
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50395919"
@@ -1643,10 +1856,10 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 32.7,
+      "score": 33.1,
       "metrics": {
-        "points": 295,
-        "comments": 591
+        "points": 309,
+        "comments": 613
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50394906",
       "aiAttempts": 1,

@@ -2676,6 +2676,26 @@
       }
     },
     {
+      "id": "q5lljgh4w6",
+      "key": "gh:woniuniuniu/dsh-media-desk",
+      "title": "woniuniuniu/dsh-media-desk",
+      "url": "https://github.com/woniuniuniu/dsh-media-desk",
+      "excerpt": "DeepSeek Harness 自媒体工作台插件：一句话记灵感，一键生成脚本、封面、配图和分镜",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-02T04:49:29.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-02",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.5,
+      "metrics": {
+        "stars": 435
+      }
+    },
+    {
       "id": "c79l4d6o9c",
       "key": "url:qbitai.com/2026/11/507082.html",
       "title": "GPT-6.2 Astra开启灰测！Claude Mythos 5.5同日曝光",
@@ -2731,7 +2751,7 @@
       "categoryLocked": true,
       "score": 74.5,
       "metrics": {
-        "likes": 1606,
+        "likes": 1640,
         "points": 636,
         "comments": 189
       },
@@ -4011,7 +4031,7 @@
       "firstSeenAt": "2026-11-02T02:30:31.448Z",
       "day": "2026-11-02",
       "category": "paper",
-      "score": 64.3,
+      "score": 64.4,
       "ai": {
         "summary": "GPT-6 与 Claude 合作，在百分钟内解决困扰人类 38 年的混沌难题。",
         "category": "paper",
@@ -4120,7 +4140,7 @@
         "firstPublishedAt": "2026-11-02T00:12:34.079Z",
         "metrics": {
           "points": 341,
-          "comments": 189
+          "comments": 192
         }
       }
     },
@@ -4446,6 +4466,28 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-02T09:05:35.775Z"
       }
+    },
+    {
+      "id": "ghrqi0mvbl",
+      "key": "hf:ccore/qwen3.5-4b-glb-3d-coder",
+      "title": "ccore/Qwen3.5-4B-GLB-3D-Coder",
+      "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+      "excerpt": "Hugging Face 趋势榜第 11 名 · 文本生成 · 259 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-01T22:30:01.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-02",
+      "category": "model",
+      "categoryLocked": true,
+      "score": 25.2,
+      "metrics": {
+        "likes": 259
+      },
+      "skipLlm": true,
+      "dupOf": "i1zmxyalde"
     },
     {
       "id": "1xg0tlcktwr",

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-07T16:50:26.022Z",
+  "generatedAt": "2026-11-08T02:28:42.508Z",
   "since": "2026-10-31T06:03:03.162Z",
   "page": "https://yjpdccn.github.io/CSOnline/invest/",
   "ok": true,
@@ -8,7 +8,7 @@
     "indices": {
       "label": "指数行情",
       "ok": true,
-      "lastSuccess": "2026-11-07T16:50:26.022Z",
+      "lastSuccess": "2026-11-08T02:28:42.508Z",
       "items": [
         {
           "key": "ndx",
@@ -71,7 +71,7 @@
     "gold": {
       "label": "黄金",
       "ok": true,
-      "lastSuccess": "2026-11-07T16:50:26.022Z",
+      "lastSuccess": "2026-11-08T02:28:42.508Z",
       "items": [
         {
           "key": "gold",
@@ -102,7 +102,7 @@
     "macro": {
       "label": "利率与汇率",
       "ok": true,
-      "lastSuccess": "2026-11-07T16:50:26.022Z",
+      "lastSuccess": "2026-11-08T02:28:42.508Z",
       "items": [
         {
           "key": "cnbond",
@@ -149,7 +149,7 @@
     "etf": {
       "label": "场内价格",
       "ok": true,
-      "lastSuccess": "2026-11-07T16:50:26.022Z",
+      "lastSuccess": "2026-11-08T02:28:42.508Z",
       "items": [
         {
           "key": "price:510300",
@@ -212,7 +212,7 @@
     "nav": {
       "label": "基金净值",
       "ok": true,
-      "lastSuccess": "2026-11-07T16:50:26.022Z",
+      "lastSuccess": "2026-11-08T02:28:42.508Z",
       "items": [
         {
           "key": "nav:019172",
@@ -427,187 +427,187 @@
     "fundInfo": {
       "label": "申购状态与费率",
       "ok": true,
-      "lastSuccess": "2026-11-07T16:50:26.022Z",
+      "lastSuccess": "2026-11-08T02:28:42.508Z",
       "items": [
         {
           "key": "info:019172",
           "name": "019172 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:016452",
           "name": "016452 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:096001",
           "name": "096001 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:008701",
           "name": "008701 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:008702",
           "name": "008702 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022930",
           "name": "022930 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022918",
           "name": "022918 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022928",
           "name": "022928 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022459",
           "name": "022459 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022434",
           "name": "022434 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:110020",
           "name": "110020 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:007466",
           "name": "007466 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:110051",
           "name": "110051 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:050025",
           "name": "050025 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:510300",
           "name": "510300 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:512890",
           "name": "512890 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:518850",
           "name": "518850 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:518880",
           "name": "518880 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:513500",
           "name": "513500 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:513100",
           "name": "513100 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:006672",
           "name": "006672 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:501060",
           "name": "501060 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022502",
           "name": "022502 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:015530",
           "name": "015530 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:021277",
           "name": "021277 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:000218",
           "name": "000218 申购状态与费率",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         }
@@ -616,7 +616,7 @@
     "valuation": {
       "label": "估值",
       "ok": true,
-      "lastSuccess": "2026-11-07T16:50:26.022Z",
+      "lastSuccess": "2026-11-08T02:28:42.508Z",
       "items": [
         {
           "key": "valuation:ndx",
@@ -671,7 +671,7 @@
     "news": {
       "label": "新闻",
       "ok": true,
-      "lastSuccess": "2026-11-07T16:50:26.022Z",
+      "lastSuccess": "2026-11-08T02:28:42.508Z",
       "items": [
         {
           "key": "source:wscn-global",
@@ -774,7 +774,7 @@
     "calendar": {
       "label": "财经日历",
       "ok": true,
-      "lastSuccess": "2026-11-07T16:50:26.022Z",
+      "lastSuccess": "2026-11-08T02:28:42.508Z",
       "items": [
         {
           "key": "source:wscn-calendar",
@@ -793,19 +793,19 @@
     "strategy": {
       "label": "同类基金比较与公告",
       "ok": true,
-      "lastSuccess": "2026-11-07T16:50:26.022Z",
+      "lastSuccess": "2026-11-08T02:28:42.508Z",
       "items": [
         {
           "key": "peers",
           "name": "同类基金比较",
           "latest": "2026-11-07T16:50:26.022Z",
-          "refreshed": true,
+          "refreshed": false,
           "stale": false
         },
         {
           "key": "notices",
           "name": "基金公告",
-          "latest": "2026-11-07T16:50:26.022Z",
+          "latest": "2026-11-08T02:28:42.508Z",
           "refreshed": true,
           "stale": false
         }
@@ -831,16 +831,6 @@
       "detail": "单日变动超过 3%，收于 7,376.11。",
       "at": "2026-11-05T15:59:00.000Z",
       "firstSeen": "2026-11-05T15:59:00.000Z"
-    },
-    {
-      "key": "rate:cb:boj:2026-11-05",
-      "kind": "event",
-      "severity": "info",
-      "title": "日本央行委员们一致认为继续上调政策利率并调整货币宽松程度是合适的",
-      "detail": "东方财富·商品",
-      "at": "2026-11-04T23:51:00.000Z",
-      "url": "https://finance.eastmoney.com/a/202611053922561389.html",
-      "firstSeen": "2026-11-04T23:51:00.000Z"
     },
     {
       "key": "limit-up:007466:2026-11-05T18:42:26.197Z",
@@ -1107,9 +1097,9 @@
   },
   "run": {
     "trigger": "schedule",
-    "startedAt": "2026-11-07T16:50:26.022Z",
-    "scheduledFor": "2026-11-07T11:13:00.000Z",
-    "delayMinutes": 337
+    "startedAt": "2026-11-08T02:28:42.509Z",
+    "scheduledFor": "2026-11-07T23:13:00.000Z",
+    "delayMinutes": 196
   },
   "notifications": {
     "channel": "serverchan",

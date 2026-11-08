@@ -1218,9 +1218,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 17.5,
+      "score": 19.8,
       "metrics": {
-        "stars": 547
+        "stars": 862
       }
     },
     {
@@ -1480,9 +1480,9 @@
       "day": "2026-11-03",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 20.5,
+      "score": 21,
       "metrics": {
-        "stars": 979
+        "stars": 1069
       }
     },
     {
@@ -1556,7 +1556,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 3922
+        "stars": 3968
       }
     },
     {
@@ -2279,9 +2279,9 @@
       "day": "2026-11-03",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 16.7,
+      "score": 16.8,
       "metrics": {
-        "stars": 461
+        "stars": 475
       }
     },
     {
@@ -3615,6 +3615,26 @@
       }
     },
     {
+      "id": "1trgvcb03q3",
+      "key": "gh:shanselman/gputaskman",
+      "title": "shanselman/gputaskman",
+      "url": "https://github.com/shanselman/gputaskman",
+      "excerpt": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-03T00:49:34.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-03",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 17.4,
+      "metrics": {
+        "stars": 536
+      }
+    },
+    {
       "id": "2bb0l2u4xh0",
       "key": "url:geekpark.net/news/373358",
       "title": "马斯克回应 Grok Bot 额度消耗过快：服务成本高到难以为继；Altman 称个人内存浪费遭全网声讨；《影之刃零》销量破 400 万份",
@@ -4272,10 +4292,18 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xpicjz/qwen38_27b_hitting_6645_toks_on_prefill_and_316/",
           "title": "Qwen3.8 27b hitting 6,645 tok/s on prefill and 316 tok/s decode peak on Saber",
           "publishedAt": "2026-11-06T17:15:13.000Z"
+        },
+        {
+          "id": "fx63lwnlam",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b/",
+          "title": "Effects of KV Cache Quantization on Qwen3.8 27B",
+          "publishedAt": "2026-11-07T17:09:51.000Z"
         }
       ],
       "story": {
-        "reports": 8,
+        "reports": 9,
         "sources": [
           "reddit-localllama",
           "simonw",

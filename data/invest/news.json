@@ -1,6 +1,121 @@
 {
-  "updatedAt": "2026-11-07T16:50:26.022Z",
+  "updatedAt": "2026-11-08T02:28:42.508Z",
   "items": [
+    {
+      "id": "wnskdjly68",
+      "key": "em:202611083925587047",
+      "title": "UFC总裁将与特朗普面谈",
+      "url": "https://finance.eastmoney.com/a/202611083925587047.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T01:41:00.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-08",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "正在英国伦敦的终极格斗冠军赛（UFC）总裁达纳·怀特当地时间11月7日表示，他将立即飞往华盛顿，并于下周一（11月9日）会见美国总统特朗普。不过对于特朗普邀请他出任白宫新闻秘书一事，怀特未明确表态，只是称与特朗普会面后再说。稍早前，美国有线电视新闻网等媒体援引知情人士报道称，怀特已拒绝了特朗普的邀请。"
+    },
+    {
+      "id": "280u5qrsv43",
+      "key": "em:202611083925582764",
+      "title": "分析人士：金银或迎来长期配置窗口",
+      "url": "https://finance.eastmoney.com/a/202611083925582764.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T00:58:00.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-08",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold",
+        "cb-gold",
+        "pboc"
+      ],
+      "excerpt": "央行持续购金，与近期贵金属价格走势形成鲜明反差。伦敦金现货价格此前跌破4000美元/盎司一线，伦敦银现货价格一度跌破49美元/盎司。对此，中信建投期货贵金属首席分析师王彦青从资产联动角度分析称，10月以来海外金融市场剧烈波动，高利率与相对安全的长端美债成为资金“避风港”。贵金属作为非生息资产，吸引力相对较弱，部分多头资金被美债“虹吸”，最终呈现美债收益率与贵金属价格同步下行的局面。在他看来，这更多是一次性冲击，而非贵金属市场长期交易逻辑反转。"
+    },
+    {
+      "id": "1dnu7ma0r6b",
+      "key": "url:cnbc.com/2026/11/07/trump-ufc-dana-white-press-secretary-offer.html",
+      "title": "Trump offers UFC chief Dana White press secretary job",
+      "url": "https://www.cnbc.com/2026/11/07/trump-ufc-dana-white-press-secretary-offer.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-07T23:13:38.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-08",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "President Donald Trump offered the job of press secretary to UFC president and CEO Dana White on Saturday.",
+      "ai": {
+        "title": "特朗普向UFC主席丹纳·怀特提供新闻秘书职位",
+        "summary": "特朗普向UFC总裁兼CEO丹纳·怀特提供了新闻秘书职位。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T02:31:12.823Z"
+      }
+    },
+    {
+      "id": "2ec0kn7iz41",
+      "key": "url:cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html",
+      "title": "Trump targets Slotkin in call for DOJ probe of alleged Democratic threats to Republicans",
+      "url": "https://www.cnbc.com/2026/11/07/trump-doj-democrats-alleged-threats-slotkin.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-07T21:59:10.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-08",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "Trump ordered DOJ to examine alleged threats against Republicans while singling out Slotkin.",
+      "ai": {
+        "title": "特朗普呼吁司法部调查针对共和党的威胁",
+        "summary": "特朗普命令司法部调查针对共和党的威胁，并点名斯洛金。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T02:31:12.823Z"
+      }
+    },
+    {
+      "id": "1kfolji59a4",
+      "key": "url:cnbc.com/investingclub/2026/11/07/decisive-election-dramatic-stock-swings-how-we-handled-the-market-last-week.html",
+      "title": "Decisive election. Dramatic stock swings. How we handled the market last week",
+      "url": "https://www.cnbc.com/investingclub/2026/11/07/decisive-election-dramatic-stock-swings-how-we-handled-the-market-last-week.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-07T16:31:00.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-08",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "On Friday, Jim Cramer revealed his strategy for navigating this new era at the Investing Club's 4th Annual Meeting.",
+      "ai": {
+        "title": "决定性选举。戏剧性股市波动。我们如何应对上周市场",
+        "summary": "吉姆·克莱默在投资俱乐部年会上透露了应对新时代的策略。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T02:31:12.823Z"
+      }
+    },
     {
       "id": "1yfsej9euxl",
       "key": "url:cnbc.com/2026/11/07/healthcare-stocks-may-face-trouble-due-to-midterm-results.html",
@@ -18,7 +133,13 @@
       "topics": [
         "us-stocks"
       ],
-      "excerpt": "Healthcare stocks may struggle to find momentum as the Democrats get ready to take over Congress."
+      "excerpt": "Healthcare stocks may struggle to find momentum as the Democrats get ready to take over Congress.",
+      "ai": {
+        "title": "国会新构成前医疗股前景不明",
+        "summary": "随着民主党准备接管国会，医疗股可能难以找到上涨动力。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T02:31:12.823Z"
+      }
     },
     {
       "id": "1y2gcfr8nge",
@@ -37,7 +158,13 @@
       "topics": [
         "us-stocks"
       ],
-      "excerpt": "Apply the wisdom of investment pros to develop your own consistent methodology."
+      "excerpt": "Apply the wisdom of investment pros to develop your own consistent methodology.",
+      "ai": {
+        "title": "你遵循的股票交易规则正确吗？",
+        "summary": "应用投资专家的智慧来制定你自己的交易方法。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T02:31:12.823Z"
+      }
     },
     {
       "id": "15klzot054j",
@@ -95,7 +222,13 @@
       "topics": [
         "policy-us"
       ],
-      "excerpt": "The conservative war on renewable energy suffered a big loss in the rout of President Trump and the GOP in midterm elections. Investors should pay attention."
+      "excerpt": "The conservative war on renewable energy suffered a big loss in the rout of President Trump and the GOP in midterm elections. Investors should pay attention.",
+      "ai": {
+        "title": "中期选举对特朗普的蓝潮抨击对可再生能源意味着什么",
+        "summary": "保守派对可再生能源的战争在中期选举中遭受重创。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T02:31:12.823Z"
+      }
     },
     {
       "id": "1mzewr9vslz",
@@ -179,6 +312,25 @@
         ],
         "firstPublishedAt": "2026-11-07T14:14:00.000Z"
       }
+    },
+    {
+      "id": "qwism1xfn1",
+      "key": "url:cnbc.com/2026/11/07/berkshire-shares-surge-as-wall-street-swoons-amid-ai-fears.html",
+      "title": "Berkshire shares surge as Wall Street swoons amid AI fears",
+      "url": "https://www.cnbc.com/2026/11/07/berkshire-shares-surge-as-wall-street-swoons-amid-ai-fears.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-07T14:06:20.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Berkshire Hathaway shares roared past the S&P 500 index this week and are outperforming the benchmark for the year-to-date."
     },
     {
       "id": "1af9g6p7t3a",
@@ -349,6 +501,12 @@
           "marketwatch"
         ],
         "firstPublishedAt": "2026-11-07T07:37:36.000Z"
+      },
+      "ai": {
+        "title": "特朗普称对伊朗发动‘轻微打击’",
+        "summary": "特朗普称在导弹击中格什姆岛后，美国对伊朗发动了‘轻微打击’。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T02:31:12.823Z"
       }
     },
     {
@@ -389,7 +547,13 @@
         "policy-us",
         "us-stocks"
       ],
-      "excerpt": "US midterm elections sparked a hedge fund and retail investor exodus from a trade that had taken over equity markets"
+      "excerpt": "US midterm elections sparked a hedge fund and retail investor exodus from a trade that had taken over equity markets",
+      "ai": {
+        "title": "华尔街对AI的豪赌为何崩盘",
+        "summary": "美国中期选举引发对冲基金和散户投资者从主导市场的交易中撤离。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-08T02:31:12.823Z"
+      }
     },
     {
       "id": "1eu78hsey9m",
@@ -35948,186 +36112,6 @@
         "policy-us"
       ],
       "excerpt": "美国总统特朗普10月31日在佛罗里达州海湖庄园对媒体表示，美国已摧毁伊朗大部分军事力量，但仍需“处理”一两个目标，其中包括镐山的地下核设施。《纽约时报》当天向特朗普提问是否将于本周重新对伊朗开战，特朗普说：“为什么你要问这么愚蠢的问题？假设我回答‘是的’，我会告诉你吗？假设我回答‘不是’，我会告诉你吗？”当被问及伊朗最高领袖是否为其中一个目标时，特朗普回应称：“我们已经摧毁了伊朗的核设施。"
-    },
-    {
-      "id": "14537h2uv4l",
-      "key": "sina:5185450",
-      "title": "欧洲央行行长拉加德看好欧中合作：“我们要一起合作”",
-      "url": "https://finance.sina.cn/7x24/2026-11-01/detail-inixetzy1033606.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-01T01:31:00.000Z",
-      "firstSeenAt": "2026-11-01T02:25:49.445Z",
-      "day": "2026-11-01",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb"
-      ],
-      "excerpt": "欧洲中央银行行长拉加德近日接受了总台记者专访。在谈及全球经济前景与形势时，拉加德表示，全球经济在面对诸如俄乌冲突、能源危机等冲击时展现出了远超预期的韧性，但负面影响也同时存在，地缘政治局势的演变以及人们的行动正在阻碍本可实现的经济发展。拉加德还表示，欧中互为高水平的货物与服务贸易伙伴，双方存在共同利益，要一起合作。拉加德称：“要知道，无论是中国还是欧盟，双方都很务实。中国在考量自身出口能力与拓展空间时，会着眼全球。眼下，欧盟是极具吸引力的市场。单看欧元区就拥有3.6亿人口，我们拥有规模庞大的中产人群，购买力强劲；同时货物流通水平与贸易开放程度较高，这在…"
-    },
-    {
-      "id": "rznp1jkune",
-      "key": "em:202611013917675239",
-      "title": "美伊局势传来大消息！美国国务卿最新发声！",
-      "url": "https://finance.eastmoney.com/a/202611013917675239.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-01T01:28:00.000Z",
-      "firstSeenAt": "2026-11-01T13:10:09.812Z",
-      "day": "2026-11-01",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "美伊局势，有新动向！据央视新闻报道，当地时间10月31日，美国国务卿鲁比奥表示，特朗普尚未就针对伊朗的军事行动做出决定。同一天，伊朗武装部队总参谋长阿里·阿卜杜拉希向美国和以色列发出警告，若再次对伊实施军事打击，伊方的回应将“更为严厉且有效”。",
-      "flag": 1
-    },
-    {
-      "id": "1odp1734tv7",
-      "key": "sina:5185413",
-      "title": "美国国务院：在国务卿鲁比奥的领导下，国务院对美国签证持有人进行了前所未有的审查，超过30万份签证被撤销，为美国历史上撤销数量最多的一次",
-      "url": "https://finance.sina.cn/7x24/2026-11-01/detail-inixetzy1008308.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-01T00:36:00.000Z",
-      "firstSeenAt": "2026-11-01T02:25:49.445Z",
-      "day": "2026-11-01",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ]
-    },
-    {
-      "id": "hwv5yh6li7",
-      "key": "url:cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html",
-      "title": "Trump defamation suit against Murdoch, WSJ over Epstein letter dismissed with prejudice",
-      "url": "https://www.cnbc.com/2026/10/31/trump-murdoch-wsj-epstein-defamation-lawsuit-dismissed.html",
-      "lang": "en",
-      "sourceId": "cnbc-top",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-10-31T23:56:40.000Z",
-      "firstSeenAt": "2026-11-01T02:25:49.445Z",
-      "day": "2026-11-01",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "President Donald Trump denied writing a birthday letter to sex offender Jeffrey Epstein, which was the subject of a 2025 Wall Street Journal article.",
-      "ai": {
-        "title": "特朗普对默多克和《华尔街日报》诽谤案被驳回",
-        "summary": "特朗普否认曾给爱泼斯坦写信，该信件是2025年《华尔街日报》文章的主题。",
-        "model": "glm-4.7-flash",
-        "at": "2026-11-01T02:29:24.548Z"
-      }
-    },
-    {
-      "id": "ighgafifzb",
-      "key": "sina:5185233",
-      "title": "金饰克价年内跌了近550元 投资黄金升温",
-      "url": "https://finance.sina.cn/7x24/2026-11-01/detail-inixepua1121480.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-10-31T23:46:00.000Z",
-      "firstSeenAt": "2026-11-01T02:25:49.445Z",
-      "day": "2026-11-01",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed",
-        "gold",
-        "macro-us"
-      ],
-      "excerpt": "受国际原油价格上涨、美国通胀压力加剧以及市场对美联储进一步加息的预期升温等因素影响，国际金价10月30日跌至一年来新低。截至最新收盘，COMEX黄金期货下跌3.63%，报3884.90美元/盎司；伦敦金现跌3.61%，报3875.19美元/盎司，双双跌破3900美元关口。受国际金价走低影响，国内品牌金饰价格同步下调，部分品牌金饰价格较年内高点已回落近550元/克。分析师介绍，近期受到全球多重不确定因素的影响，金价在短期内波动较为明显，有更多的投资者来购买黄金投资金条产品。在菜百商场，有消费者购买了5块金条，每块金条30克，一块约26000元。消费者表示…"
-    },
-    {
-      "id": "15z4d97etfr",
-      "key": "sina:5185219",
-      "title": "专家：短期国际金价后续可能维持震荡放大的态势",
-      "url": "https://finance.sina.cn/7x24/2026-11-01/detail-inixepua1120065.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-10-31T23:42:00.000Z",
-      "firstSeenAt": "2026-11-01T02:25:49.445Z",
-      "day": "2026-11-01",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed",
-        "gold"
-      ],
-      "excerpt": "招联首席经济学家、上海金融与发展实验室执行主任董希淼分析，近日金价下探，主要受市场对美联储利率路径预期边际转鹰、美元与美债实际收益率上行、地缘避险溢价回吐、前期多头获利了结，以及市场风险偏好和流动性扰动等多重因素共同影响。董希淼指出，国际金价失守3900美元/盎司关口，更多具有心理和技术意义。“整数关口跌破可能引发程序化止损和趋势资金减仓，放大短期波动，并强化市场从避险或抗通胀交易转向利率与美元交易的叙事。”但他强调，不能据此判定长期支撑逻辑已被破坏，关键要看失守后能否快速收复，以及美元和实际利率是否继续上行。他认为，短期看，国际金价后续可能维持震荡放…"
-    },
-    {
-      "id": "1v5ouk8d3yv",
-      "key": "em:202610313917656911",
-      "title": "黄金再现大跌！记者实探水贝：买金可以砍价 也有商家加价收金",
-      "url": "https://finance.eastmoney.com/a/202610313917656911.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-10-31T20:50:00.000Z",
-      "firstSeenAt": "2026-11-01T02:25:49.445Z",
-      "day": "2026-11-01",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "gold"
-      ],
-      "excerpt": "10月最后一个工作日，黄金价格再次出现大幅下跌——截至10月30日收盘，国际金银价格均大幅收跌，其中黄金跌至一年来新低。现货黄金失守3900美元，报3875.19美元/盎司，跌3.61%。"
-    },
-    {
-      "id": "1ewps94g7s7",
-      "key": "em:202611013917659713",
-      "title": "欧盟与加拿大宣布“结盟”对抗特朗普",
-      "url": "https://finance.eastmoney.com/a/202611013917659713.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-10-31T19:50:00.000Z",
-      "firstSeenAt": "2026-11-01T13:10:09.812Z",
-      "day": "2026-11-01",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "据参考消息援引法新社10月30日报道，欧盟与加拿大30日宣布结成联盟，旨在巩固双方关系，以应对美国总统特朗普试图切断美国与其老伙伴之间关系的举动。"
-    },
-    {
-      "id": "1qkwlz6p8s7",
-      "key": "em:202611013917658580",
-      "title": "鲁比奥称特朗普尚未就针对伊朗的军事行动做出决定",
-      "url": "https://finance.eastmoney.com/a/202611013917658580.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-10-31T17:05:00.000Z",
-      "firstSeenAt": "2026-11-01T13:10:09.812Z",
-      "day": "2026-11-01",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "当地时间10月31日，美国国务卿鲁比奥表示，特朗普尚未就针对伊朗的军事行动做出决定。"
     }
   ]
 }

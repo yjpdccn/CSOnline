@@ -46,9 +46,9 @@
         "Agent",
         "MCP"
       ],
-      "score": 16.8,
+      "score": 17.2,
       "metrics": {
-        "stars": 467
+        "stars": 518
       }
     },
     {
@@ -233,10 +233,10 @@
       "keywords": [
         "MCP"
       ],
-      "score": 31.5,
+      "score": 31.6,
       "metrics": {
-        "points": 340,
-        "comments": 133
+        "points": 342,
+        "comments": 134
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50379249",
       "aiAttempts": 1,
@@ -1394,10 +1394,10 @@
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-05",
       "category": "model",
-      "score": 38.3,
+      "score": 38.4,
       "metrics": {
         "points": 341,
-        "comments": 189
+        "comments": 192
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50376313",
       "dupOf": "20py2by5tcf"
@@ -2974,9 +2974,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 21.5,
+      "score": 53.5,
       "metrics": {
-        "upvotes": 55,
+        "upvotes": 56,
         "comments": 1
       },
       "ai": {
@@ -2985,6 +2985,29 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-06T17:59:00.944Z"
+      },
+      "related": [
+        {
+          "id": "u63hgmxz5y",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50406563",
+          "title": "The end of Microsoft Research's AI Frontiers group",
+          "publishedAt": "2026-11-07T18:02:17.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "hf-papers",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-05T00:00:00.000Z",
+        "metrics": {
+          "upvotes": 56,
+          "comments": 235,
+          "points": 396
+        }
       }
     },
     {
@@ -3429,7 +3452,7 @@
       "firstSeenAt": "2026-11-05T03:29:14.967Z",
       "day": "2026-11-05",
       "category": "industry",
-      "score": 29,
+      "score": 29.2,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xnx3cs/ricursiveairipple65bpreview_hugging_face/",
       "dupOf": "9dk6wfre4w",
       "alsoOn": [
@@ -3440,7 +3463,7 @@
         }
       ],
       "metrics": {
-        "likes": 361
+        "likes": 373
       }
     },
     {

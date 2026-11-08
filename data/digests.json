@@ -394,40 +394,35 @@
   },
   "2026-11-08": {
     "day": "2026-11-08",
-    "generatedAt": "2026-11-07T16:52:07.300Z",
-    "itemCount": 70,
+    "generatedAt": "2026-11-08T02:30:22.696Z",
+    "itemCount": 60,
     "mode": "ai",
     "model": "glm-4.7-flash",
-    "overview": "OpenAI完成110亿美元融资估值达1.25万亿，Anthropic估值讨论降至1.1万亿。",
+    "overview": "Anthropic推进IPO，OpenAI加速工程应用，马斯克涉足代码托管。",
     "points": [
       {
-        "text": "OpenAI完成110亿美元新融资，估值达1.25万亿美元。",
+        "text": "Anthropic推进IPO，估值下修至1.25-1.75万亿美元。",
         "refs": [
-          "1xapjyieac8"
-        ]
-      },
-      {
-        "text": "Anthropic IPO估值讨论降至1.1万亿美元。",
-        "refs": [
-          "1rmndc4dxr"
-        ]
-      },
-      {
-        "text": "部分投资者下修Anthropic IPO估值至1.5万亿美元。",
-        "refs": [
+          "nic0l89fou",
           "2408dpitt8m"
         ]
       },
       {
-        "text": "OpenAI开始大规模封号，引发社交媒体热议。",
+        "text": "OpenAI用GPT加速物理世界的工程研发。",
         "refs": [
-          "1le6mtl1hps"
+          "e18f9qoeiy"
         ]
       },
       {
-        "text": "Google AI利用智能手表检测高血压。",
+        "text": "马斯克计划推出代码托管平台。",
         "refs": [
-          "9tqj7nh1za"
+          "fw3lnn81up"
+        ]
+      },
+      {
+        "text": "Claude Code因“不再询问”功能泄露密码。",
+        "refs": [
+          "2349ewanyua"
         ]
       }
     ]

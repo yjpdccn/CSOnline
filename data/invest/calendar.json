@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07T16:50:26.022Z",
+  "updatedAt": "2026-11-08T02:28:42.508Z",
   "events": [
     {
       "id": "wscn-1597925",
@@ -11,6 +11,16 @@
       "source": "华尔街见闻",
       "previous": "0.9",
       "unit": "%"
+    },
+    {
+      "id": "wscn-15714",
+      "at": "2026-11-09T04:02:00.000Z",
+      "country": "美国",
+      "title": "本周沃勒、巴尔金等美联储官员密集发表讲话，需聚焦12月加息预期",
+      "importance": 3,
+      "kind": "event",
+      "source": "华尔街见闻",
+      "dateOnly": true
     },
     {
       "id": "wscn-1597935",
@@ -25,6 +35,15 @@
       "unit": "%"
     },
     {
+      "id": "wscn-15681",
+      "at": "2026-11-09T23:50:00.000Z",
+      "country": "日本",
+      "title": "日本央行公布10月货币政策会议审议委员意见摘要。",
+      "importance": 3,
+      "kind": "event",
+      "source": "华尔街见闻"
+    },
+    {
       "id": "wscn-1599098",
       "at": "2026-11-10T04:02:00.000Z",
       "country": "中国",
@@ -35,6 +54,15 @@
       "dateOnly": true,
       "previous": "31",
       "unit": "%"
+    },
+    {
+      "id": "wscn-15666",
+      "at": "2026-11-10T09:00:00.000Z",
+      "country": "美国",
+      "title": "美联储理事沃勒发表讲话",
+      "importance": 3,
+      "kind": "event",
+      "source": "华尔街见闻"
     },
     {
       "id": "wscn-1598596",

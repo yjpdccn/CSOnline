@@ -143,10 +143,10 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-06",
       "category": "industry",
-      "score": 23.5,
+      "score": 23.7,
       "metrics": {
-        "points": 132,
-        "comments": 61
+        "points": 135,
+        "comments": 63
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50392499",
       "ai": {
@@ -540,6 +540,23 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-06T17:57:04.980Z"
+      },
+      "related": [
+        {
+          "id": "c2ns50dnuh",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqafp1/testing_qoduck_maybe_qwen4_on_qoder/",
+          "title": "testing Qoduck (Maybe qwen4) on Qoder",
+          "publishedAt": "2026-11-07T16:28:52.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-11-06T12:26:17.000Z"
       }
     },
     {
@@ -1331,6 +1348,26 @@
       "dupOf": "ptdrb2q2b5"
     },
     {
+      "id": "mcy9w63ssi",
+      "key": "url:anthropic.com/research/how-researchers-use-claude",
+      "title": "AI for scientific discovery: How researchers use Claude",
+      "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T09:13:30.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-06",
+      "category": "industry",
+      "score": 21.2,
+      "metrics": {
+        "points": 101,
+        "comments": 39
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50389990"
+    },
+    {
       "id": "173iduil59s",
       "key": "url:leiphone.com/category/yanxishe/u5N6lCUT0bEfanp1.html",
       "title": "OpenAI 「重置大神」换人了？Tibo 去救火，Andrew 上位",
@@ -1791,10 +1828,10 @@
       "firstSeenAt": "2026-11-06T17:56:04.095Z",
       "day": "2026-11-06",
       "category": "paper",
-      "score": 29,
+      "score": 29.3,
       "metrics": {
-        "points": 209,
-        "comments": 207
+        "points": 215,
+        "comments": 216
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50388513",
       "ai": {
@@ -2584,10 +2621,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 26.5,
+      "score": 26.6,
       "metrics": {
         "upvotes": 114,
-        "comments": 1
+        "comments": 3
       },
       "ai": {
         "title": "解耦预测决策：共享条件预测器",
@@ -2615,9 +2652,9 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 25.4,
+      "score": 25.6,
       "metrics": {
-        "upvotes": 98,
+        "upvotes": 100,
         "comments": 1
       },
       "ai": {
@@ -2646,10 +2683,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22.2,
+      "score": 22.6,
       "metrics": {
-        "upvotes": 60,
-        "comments": 4
+        "upvotes": 63,
+        "comments": 5
       },
       "ai": {
         "title": "Harness-S：从兄弟 Harness 学习",
@@ -2740,6 +2777,30 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-07T02:50:56.096Z"
+      }
+    },
+    {
+      "id": "qi19kf0v5d",
+      "key": "arxiv:2611.05376",
+      "title": "From Autonomous Agents to Cognitive Symbionts: Toward AI-Augmented Human Intelligence",
+      "url": "https://huggingface.co/papers/2611.05376",
+      "excerpt": "Physical AI should include AI-augmented human intelligence via lifelong cognitive symbionts that close cognitive gaps through sensing, context retention, and proactive assistance, requiring embedded governance.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T00:00:00.000Z",
+      "firstSeenAt": "2026-11-08T02:28:42.508Z",
+      "day": "2026-11-06",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 24.5,
+      "metrics": {
+        "upvotes": 86,
+        "comments": 2
       }
     },
     {
@@ -2858,10 +2919,10 @@
       "firstSeenAt": "2026-11-06T03:26:50.356Z",
       "day": "2026-11-06",
       "category": "industry",
-      "score": 34.9,
+      "score": 35,
       "metrics": {
-        "points": 509,
-        "comments": 226
+        "points": 514,
+        "comments": 228
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50385870",
       "ai": {
@@ -2942,8 +3003,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 1583,
-        "comments": 509
+        "points": 1591,
+        "comments": 516
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50385272",
       "aiAttempts": 1,
@@ -3305,10 +3366,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18.9,
+      "score": 19.2,
       "metrics": {
-        "stars": 46595,
-        "starsToday": 181
+        "stars": 46885,
+        "starsToday": 190
       },
       "ai": {
         "title": "vercel-labs/agent-browser 专为 AI 代理设计",
@@ -3460,7 +3521,7 @@
       "score": 27.1,
       "metrics": {
         "points": 163,
-        "comments": 191
+        "comments": 192
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50382179",
       "ai": {
@@ -3631,7 +3692,7 @@
       ],
       "score": 26.8,
       "metrics": {
-        "points": 119,
+        "points": 120,
         "comments": 59
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50381687",
@@ -3700,7 +3761,7 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 77.2,
+      "score": 77.4,
       "related": [
         {
           "id": "n5mht81ja8",
@@ -3729,8 +3790,8 @@
         ],
         "firstPublishedAt": "2026-11-05T17:00:00.000Z",
         "metrics": {
-          "points": 353,
-          "comments": 243
+          "points": 360,
+          "comments": 250
         }
       },
       "ai": {
@@ -3748,8 +3809,8 @@
         }
       ],
       "metrics": {
-        "points": 353,
-        "comments": 243
+        "points": 360,
+        "comments": 250
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50392118"
     },

@@ -122,7 +122,7 @@
       "categoryLocked": true,
       "score": 16.7,
       "metrics": {
-        "stars": 455
+        "stars": 464
       }
     },
     {
@@ -1205,9 +1205,9 @@
       "day": "2026-11-01",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 25.2,
+      "score": 25.4,
       "metrics": {
-        "stars": 2171
+        "stars": 2238
       },
       "aiAttempts": 2,
       "ai": {
@@ -1234,7 +1234,7 @@
       "categoryLocked": true,
       "score": 23.4,
       "metrics": {
-        "stars": 1611
+        "stars": 1627
       }
     },
     {
@@ -1255,9 +1255,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.8,
+      "score": 24.9,
       "metrics": {
-        "stars": 2043
+        "stars": 2076
       },
       "aiAttempts": 1,
       "ai": {
@@ -1370,9 +1370,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 16.8,
+      "score": 17,
       "metrics": {
-        "stars": 473
+        "stars": 488
       }
     },
     {
@@ -2085,7 +2085,7 @@
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-11-01",
       "category": "opensource",
-      "score": 10,
+      "score": 27.2,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xkiuut/an_llm_inside_an_llm_same_guy_who_put_a_riskv_cpu/",
       "ai": {
         "title": "在 Qwen 3.5-4B 权重中编译 NPU 运行 Karpathy 故事",
@@ -2093,6 +2093,27 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-01T02:27:20.387Z"
+      },
+      "related": [
+        {
+          "id": "ghrqi0mvbl",
+          "sourceId": "hf-models",
+          "sourceName": "HF 热门模型",
+          "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
+          "title": "ccore/Qwen3.5-4B-GLB-3D-Coder",
+          "publishedAt": "2026-11-01T22:30:01.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "reddit-localllama",
+          "hf-models"
+        ],
+        "firstPublishedAt": "2026-10-31T19:18:53.000Z",
+        "metrics": {
+          "likes": 259
+        }
       }
     },
     {
