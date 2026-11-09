@@ -80,10 +80,10 @@
       "firstSeenAt": "2026-11-09T02:39:52.670Z",
       "day": "2026-11-08",
       "category": "industry",
-      "score": 27.9,
+      "score": 28.3,
       "metrics": {
-        "points": 181,
-        "comments": 203
+        "points": 188,
+        "comments": 209
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50413822",
       "dupOf": "1xapjyieac8"
@@ -198,10 +198,10 @@
       "day": "2026-11-08",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 12.4,
+      "score": 26.3,
       "metrics": {
-        "stars": 19482,
-        "starsToday": 32
+        "stars": 19749,
+        "starsToday": 560
       },
       "aiAttempts": 2,
       "ai": {
@@ -226,10 +226,10 @@
       "day": "2026-11-08",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 13,
+      "score": 26.6,
       "metrics": {
-        "stars": 16463,
-        "starsToday": 41
+        "stars": 16735,
+        "starsToday": 579
       },
       "ai": {
         "title": "Google DeepMind MuJoCo 物理模拟器",
@@ -252,18 +252,19 @@
       "firstSeenAt": "2026-11-09T02:39:52.670Z",
       "day": "2026-11-08",
       "category": "agent",
-      "score": 24.8,
+      "score": 25.4,
       "metrics": {
-        "points": 108,
-        "comments": 222
+        "points": 116,
+        "comments": 232
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50412591",
       "aiAttempts": 1,
       "ai": {
-        "summary": "作者表示不会在编程中使用 LLM。",
+        "title": "拒绝使用 LLM 编码",
+        "summary": "开发者分享不使用 LLM 进行编码的原因。",
         "category": "agent",
         "model": "glm-4.7-flash",
-        "at": "2026-11-09T02:40:31.330Z"
+        "at": "2026-11-09T13:12:07.516Z"
       }
     },
     {
@@ -280,7 +281,7 @@
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
       "category": "agent",
-      "score": 27.3,
+      "score": 29.2,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqwn5n/ram_altman_is_now_a_linux_script_that_emails_sam/",
       "ai": {
         "title": "Ram Altman 脚本每日报告未使用内存",
@@ -307,7 +308,7 @@
         ],
         "firstPublishedAt": "2026-11-05T16:16:41.000Z",
         "metrics": {
-          "stars": 796
+          "stars": 1113
         }
       }
     },
@@ -562,18 +563,19 @@
       "firstSeenAt": "2026-11-09T02:39:52.670Z",
       "day": "2026-11-08",
       "category": "opensource",
-      "score": 32.6,
+      "score": 34.3,
       "metrics": {
-        "points": 372,
-        "comments": 161
+        "points": 437,
+        "comments": 194
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50411961",
       "aiAttempts": 1,
       "ai": {
-        "summary": "在 64GB 内存上运行 284B DeepSeek 模型。",
+        "title": "Llama-modchip 运行 DeepSeek",
+        "summary": "Llama-modchip 项目可在 64GB 内存上运行 284B DeepSeek 模型。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-09T02:40:31.330Z"
+        "at": "2026-11-09T13:12:07.516Z"
       }
     },
     {
@@ -645,14 +647,15 @@
       "categoryLocked": true,
       "score": 16.1,
       "metrics": {
-        "stars": 402
+        "stars": 403
       },
       "aiAttempts": 1,
       "ai": {
-        "summary": "Aida 64 Extreme AI 提示工程工具包。",
+        "title": "Aida 64 Extreme 工具包",
+        "summary": "AI 提示工程工具包 Aida 64 Extreme 发布。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-09T02:40:31.330Z"
+        "at": "2026-11-09T13:12:07.516Z"
       }
     },
     {
@@ -673,7 +676,7 @@
         "具身智能"
       ],
       "score": 24,
-      "dupOf": "5slauttj2a"
+      "dupOf": "2rw7z0p1u2"
     },
     {
       "id": "g5a4bhfhh1",
@@ -916,8 +919,8 @@
       "category": "agent",
       "score": 36,
       "metrics": {
-        "points": 707,
-        "comments": 437
+        "points": 779,
+        "comments": 476
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50410107",
       "aiAttempts": 2,
@@ -1247,8 +1250,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 594,
-        "comments": 401
+        "points": 611,
+        "comments": 410
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50407882",
       "ai": {
@@ -1302,8 +1305,8 @@
       "category": "industry",
       "score": 35.7,
       "metrics": {
-        "points": 497,
-        "comments": 305
+        "points": 504,
+        "comments": 309
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50406563",
       "dupOf": "1p6346rv5g"

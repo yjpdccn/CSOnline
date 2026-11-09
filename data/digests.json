@@ -428,15 +428,27 @@
   },
   "2026-11-09": {
     "day": "2026-11-09",
-    "generatedAt": "2026-11-09T02:43:08.048Z",
-    "itemCount": 62,
+    "generatedAt": "2026-11-09T13:14:11.020Z",
+    "itemCount": 120,
     "mode": "fallback",
-    "overview": "过去 24 小时共收录 62 条 AI 资讯：产品与行业 24 条、Agent 与工具 19 条、论文 8 条、开源项目 7 条、模型发布 2 条、多模态与视频 2 条。以下为按重要性排序的前 5 条。",
+    "overview": "过去 24 小时共收录 120 条 AI 资讯：产品与行业 68 条、Agent 与工具 29 条、模型发布 10 条、论文 5 条、多模态与视频 4 条、开源项目 4 条。以下为按重要性排序的前 5 条。",
     "points": [
       {
-        "text": "【行业】Goldman Sachs is pulling Claude Code from its bankers and traders",
+        "text": "【多模态】生成更真实，百轮编辑更稳定｜Seedream 5.5 发布",
         "refs": [
-          "22jokxv8ma9"
+          "1wtrz3xkdyp"
+        ]
+      },
+      {
+        "text": "【Agent】千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
+        "refs": [
+          "1n8vjdsbyr"
+        ]
+      },
+      {
+        "text": "【Agent】不想当管理者，就用不好 Coding Agent？Anthropic 工程师长文谈 Agent 管理实战",
+        "refs": [
+          "dc682fz06z"
         ]
       },
       {
@@ -446,21 +458,9 @@
         ]
       },
       {
-        "text": "【行业】Here’s the full text of Jensen Huang’s memo to Nvidia",
+        "text": "【模型】实测 HY4：腾讯最「夯」大模型，离一线还有多远？",
         "refs": [
-          "1lr5x4bf1i4"
-        ]
-      },
-      {
-        "text": "【行业】Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
-        "refs": [
-          "nvhb0uown2"
-        ]
-      },
-      {
-        "text": "【行业】会做梦的AI，记性反而更好？Anthropic新实验：写了413份笔记的，输给只写9份的",
-        "refs": [
-          "1h0ax5esf66"
+          "104du87fzak"
         ]
       }
     ]

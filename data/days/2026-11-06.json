@@ -143,9 +143,9 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-06",
       "category": "industry",
-      "score": 23.7,
+      "score": 23.8,
       "metrics": {
-        "points": 136,
+        "points": 137,
         "comments": 63
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50392499",
@@ -1646,9 +1646,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 16.3,
+      "score": 16.5,
       "metrics": {
-        "stars": 416
+        "stars": 437
       },
       "ai": {
         "title": "devvm：为每个项目提供隔离虚拟机",
@@ -2690,10 +2690,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 26.6,
+      "score": 26.7,
       "metrics": {
         "upvotes": 114,
-        "comments": 3
+        "comments": 4
       },
       "ai": {
         "title": "解耦预测决策：共享条件预测器",
@@ -2721,9 +2721,9 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 26,
+      "score": 26.2,
       "metrics": {
-        "upvotes": 106,
+        "upvotes": 109,
         "comments": 1
       },
       "ai": {
@@ -2780,9 +2780,9 @@
       "day": "2026-11-06",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.1,
+      "score": 21.3,
       "metrics": {
-        "upvotes": 51,
+        "upvotes": 52,
         "comments": 3
       },
       "ai": {
@@ -2835,9 +2835,9 @@
       "day": "2026-11-06",
       "category": "paper",
       "categoryLocked": true,
-      "score": 25.3,
+      "score": 25.4,
       "metrics": {
-        "upvotes": 95,
+        "upvotes": 96,
         "comments": 3
       },
       "ai": {
@@ -2866,9 +2866,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 26.8,
+      "score": 27,
       "metrics": {
-        "upvotes": 118,
+        "upvotes": 120,
         "comments": 2
       }
     },
@@ -2901,10 +2901,18 @@
           "url": "https://www.jiqizhixin.com/articles/2026-11-08-8",
           "title": "OpenAI新模型临门一脚踩刹车！GPT-6.2曝出安全疑云",
           "publishedAt": "2026-11-08T10:57:00.000Z"
+        },
+        {
+          "id": "y00lhflj8j",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4062202785125250",
+          "title": "GPT-6.2首测，网友：终于有个能压倒Opus 5.5的了？",
+          "publishedAt": "2026-11-09T07:26:33.395Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "36kr-ai",
           "jiqizhixin"
@@ -2943,7 +2951,7 @@
       "day": "2026-11-06",
       "category": "model",
       "score": 28,
-      "dupOf": "5slauttj2a"
+      "dupOf": "2rw7z0p1u2"
     },
     {
       "id": "bkf6tliai",
@@ -3453,10 +3461,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 29.2,
+      "score": 30,
       "metrics": {
-        "stars": 47709,
-        "starsToday": 815
+        "stars": 48150,
+        "starsToday": 914
       },
       "ai": {
         "title": "vercel-labs/agent-browser 专为 AI 代理设计",
@@ -3848,7 +3856,7 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 77.5,
+      "score": 77.6,
       "related": [
         {
           "id": "n5mht81ja8",
@@ -3877,7 +3885,7 @@
         ],
         "firstPublishedAt": "2026-11-05T17:00:00.000Z",
         "metrics": {
-          "points": 366,
+          "points": 368,
           "comments": 253
         }
       },
@@ -3896,7 +3904,7 @@
         }
       ],
       "metrics": {
-        "points": 366,
+        "points": 368,
         "comments": 253
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50392118"
@@ -3938,7 +3946,7 @@
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-06",
       "category": "model",
-      "score": 29,
+      "score": 21,
       "ai": {
         "title": "OpenAI 发布 GPT-6 Cyber 安全模型",
         "summary": "OpenAI 推出 GPT-6 Cyber，更擅长发现漏洞且不易越界攻击。",
@@ -3946,32 +3954,7 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-05T18:44:52.915Z"
       },
-      "related": [
-        {
-          "id": "1dhy8ofxzo7",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4057467760661378",
-          "title": "刚刚，GPT-6 Cyber 正式发布，AI 最强的矛也成了最强的盾",
-          "publishedAt": "2026-11-05T23:45:34.300Z"
-        },
-        {
-          "id": "1z7t0hqwih4",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4060707751826311",
-          "title": "GPT-6之后，具身大模型画地为牢！明年自研预算估计悬了",
-          "publishedAt": "2026-11-08T08:26:19.570Z"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "verge-ai",
-          "36kr-ai"
-        ],
-        "firstPublishedAt": "2026-11-05T17:00:00.000Z"
-      }
+      "dupOf": "2rw7z0p1u2"
     },
     {
       "id": "1sgiunj36wc",
@@ -4091,9 +4074,9 @@
       "day": "2026-11-06",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 19.3,
+      "score": 21.2,
       "metrics": {
-        "stars": 796
+        "stars": 1113
       },
       "dupOf": "57shz3mkvl"
     },

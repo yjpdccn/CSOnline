@@ -639,7 +639,25 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "1ncvnqxm16v",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4059203523761283",
+          "title": "抢跑DeepSeek，硅谷华人把下一代Agent Harness造出来了？",
+          "publishedAt": "2026-11-09T04:25:40.822Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "qbitai",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-07T05:01:17.000Z"
+      }
     },
     {
       "id": "1a3t29hdvyr",
@@ -1384,7 +1402,7 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 36.9,
+      "score": 37,
       "ai": {
         "summary": "微软据悉逐步终止从甲骨文租用 AI 云算力。",
         "category": "industry",
@@ -1409,8 +1427,8 @@
         ],
         "firstPublishedAt": "2026-11-06T18:04:06.000Z",
         "metrics": {
-          "points": 108,
-          "comments": 19
+          "points": 109,
+          "comments": 20
         }
       }
     },
@@ -1428,7 +1446,7 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 59.9,
+      "score": 60.3,
       "related": [
         {
           "id": "13gofhqaybe",
@@ -1474,8 +1492,8 @@
         ],
         "firstPublishedAt": "2026-11-06T22:53:46.000Z",
         "metrics": {
-          "points": 181,
-          "comments": 203
+          "points": 188,
+          "comments": 209
         }
       },
       "ai": {
@@ -1671,7 +1689,7 @@
       "category": "industry",
       "score": 34.5,
       "metrics": {
-        "points": 373,
+        "points": 374,
         "comments": 354
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50397994",
@@ -1749,7 +1767,7 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 27.9,
+      "score": 28.5,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune/",
       "ai": {
         "title": "NousResearch 发布基于 Qwen 的 Arete-27B 模型",
@@ -1766,7 +1784,7 @@
         }
       ],
       "metrics": {
-        "likes": 294
+        "likes": 326
       }
     },
     {
@@ -1787,7 +1805,7 @@
         "Agent",
         "开源模型"
       ],
-      "score": 72.1,
+      "score": 72.4,
       "related": [
         {
           "id": "1pjdm9w5bwb",
@@ -1823,7 +1841,7 @@
         "metrics": {
           "points": 339,
           "comments": 127,
-          "likes": 407
+          "likes": 425
         }
       },
       "ai": {
@@ -2021,10 +2039,10 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 20.9,
+      "score": 21,
       "metrics": {
-        "points": 108,
-        "comments": 19
+        "points": 109,
+        "comments": 20
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50395933",
       "ai": {
@@ -2049,9 +2067,9 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
       "category": "opensource",
-      "score": 21.4,
+      "score": 21.5,
       "metrics": {
-        "points": 123,
+        "points": 124,
         "comments": 13
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50395919",
@@ -2205,8 +2223,8 @@
       "category": "industry",
       "score": 33.3,
       "metrics": {
-        "points": 318,
-        "comments": 624
+        "points": 320,
+        "comments": 627
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50394906",
       "aiAttempts": 1,
@@ -2236,9 +2254,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 19.9,
+      "score": 22,
       "metrics": {
-        "stars": 885
+        "stars": 1284
       },
       "ai": {
         "title": "DIYgod/pinky：让 AI 代理控制手机",
