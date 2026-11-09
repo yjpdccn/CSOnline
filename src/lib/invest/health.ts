@@ -317,6 +317,29 @@ export function checkHealth(
         items: unread,
       });
     }
+    // Overseas peers' quotas are reread every run and a miss keeps the last status, so like the tracked funds'
+    // status pages they are listed only after about three runs without a read.
+    const tracked = new Set(FUNDS.map((f) => f.code));
+    const peerReads = new Map<string, string | undefined>();
+    for (const p of Object.values(input.strategy.peers).flat()) {
+      if (p.qdii && !tracked.has(p.code)) peerReads.set(p.code, p.status?.asOf || checkedAt);
+    }
+    if (peerReads.size) {
+      const unreadPeers = [...peerReads].filter(([, at]) => !at || now.getTime() - Date.parse(at) > INFO_MAX_AGE_MS).map(([code]) => code);
+      const peerTimes = [...peerReads.values()];
+      const oldestPeer = peerTimes.every(Boolean) ? peerTimes.sort()[0] : undefined;
+      items.get("strategy")!.push({ key: "peer-status", name: "同类 QDII 基金申购状态", latest: oldestPeer, refreshed: fresh.sources.some((s) => s.id === "peer-status" && s.ok), stale: unreadPeers.length > 0 });
+      if (unreadPeers.length) {
+        issues.push({
+          key: "stale:peer-status",
+          group: "strategy",
+          kind: "stale",
+          severity: "minor",
+          message: `同类 QDII 基金申购状态超过 36 小时没有读到：${unreadPeers.join("、")}，替换和加大建议里的额度可能过时`,
+          items: unreadPeers,
+        });
+      }
+    }
     if (old) {
       issues.push({
         key: "stale:strategy",
@@ -327,7 +350,7 @@ export function checkHealth(
         items: ["同类基金比较"],
       });
     }
-    for (const s of fresh.sources.filter((r) => ["fund-peers", "peer-status"].includes(r.id) && (!r.ok || r.error))) {
+    for (const s of fresh.sources.filter((r) => r.id === "fund-peers" && (!r.ok || r.error))) {
       issues.push({ key: `failed:source:${s.id}`, group: "strategy", kind: "failed", severity: "minor", message: `${s.name}${s.ok ? "部分" : ""}没有读到：${s.error ?? "失败"}`, items: [s.name] });
     }
   }

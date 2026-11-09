@@ -1,4 +1,5 @@
 import { CATEGORIES } from "@/config/site";
+import "./net";
 import { translatedTitle, truncate } from "./text";
 import type { CategoryId, DigestPoint, NewsItem } from "@/lib/types";
 

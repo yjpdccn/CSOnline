@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { FUNDS, INDICES } from "@/config/invest";
 import { parseFundUniverse, parseNotices, parseProfilePage, parseTrackingError, shareClass, type UniverseFund } from "@/lib/invest/sources/funds";
-import { candidatesFor, emptyStrategy, refreshStrategy, scanDue, scanPeers, type PeerFund, type StrategyFile } from "@/lib/invest/strategy";
+import { candidatesFor, emptyStrategy, keepPeerStatus, refreshStrategy, scanDue, scanPeers, type PeerFund, type StrategyFile } from "@/lib/invest/strategy";
 import { allIn, buildSuggestions, capacity, NOTE } from "@/lib/invest/suggestions";
 import type { AlertEvent, FundsFile, FundView } from "@/lib/invest/types";
 
@@ -201,6 +201,41 @@ describe("weekly comparison", () => {
     expect(next.file.noticesAt).toBe(before);
     expect(next.results[0]).toMatchObject({ id: "fund-notices", ok: false, count: 0 });
     expect(next.results[0].error).toMatch(new RegExp(`等 ${FUNDS.length} 项，下次运行优先重试$`));
+  });
+
+  it("rereads overseas quotas oldest first with paced retries, and keeps the last status of a peer that keeps failing", async () => {
+    const peer = (code: string, asOf?: string, purchase = "限大额"): PeerFund => ({ code, name: code, cls: "A", qdii: true, fees: {}, ...(asOf ? { status: { purchase, limit: 10, asOf } } : {}) });
+    const file: StrategyFile = {
+      ...emptyStrategy(),
+      noticeReads: readAt(before),
+      peers: { 纳斯达克100指数: [peer("019736", "2026-10-31T03:00:00.000Z"), peer("539001", "2026-10-30T03:00:00.000Z", "暂停申购"), peer("000834")] },
+    };
+    const calls: string[] = [];
+    const connectTimeout = () => Object.assign(new Error("fetch failed"), { cause: { code: "UND_ERR_CONNECT_TIMEOUT" } });
+    const next = await refreshStrategy(file, NOW, {
+      notices: async () => [],
+      feePage: async (code) => {
+        calls.push(code);
+        if (code === "019736" || (code === "539001" && calls.filter((c) => c === code).length < 3)) throw connectTimeout();
+        return { status: { purchase: "开放申购", limit: null }, fees: {} };
+      },
+      sleep: async () => {},
+      random: () => 0.5,
+    });
+    expect(calls.slice(0, 2)).toEqual(["000834", "539001"]);
+    expect(calls.filter((c) => c === "019736")).toHaveLength(5);
+    const [kept, retried, fresh] = next.file.peers["纳斯达克100指数"];
+    expect(kept.status).toEqual(file.peers["纳斯达克100指数"][0].status);
+    expect(retried.status).toMatchObject({ purchase: "开放申购" });
+    expect(retried.status!.asOf > before).toBe(true);
+    expect(fresh.status).toMatchObject({ purchase: "开放申购" });
+    expect(next.results[1]).toMatchObject({ id: "peer-status", ok: true, count: 2, total: 3, error: "019736：网络错误（UND_ERR_CONNECT_TIMEOUT），下次运行优先重试" });
+  });
+
+  it("keeps a peer's last status when the weekly scan cannot read it", () => {
+    const peer = (code: string, purchase?: string): PeerFund => ({ code, name: code, cls: "A", qdii: true, fees: {}, ...(purchase ? { status: { purchase, asOf: before } } : {}) });
+    const kept = keepPeerStatus({ 纳斯达克100指数: [peer("019736"), peer("539001", "开放申购")] }, { 纳斯达克100指数: [peer("019736", "限大额"), peer("539001", "暂停申购")] });
+    expect(kept["纳斯达克100指数"].map((p) => p.status?.purchase)).toEqual(["限大额", "开放申购"]);
   });
 });
 

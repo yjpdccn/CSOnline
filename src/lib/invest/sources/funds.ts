@@ -218,7 +218,7 @@ export function parseNotices(body: NoticeResponse): FundNotice[] {
 /** The fund's latest announcements on 天天基金, filtered to the material ones; one attempt (the caller paces retries). */
 export async function fetchNotices(code: string): Promise<FundNotice[]> {
   const url = `https://api.fund.eastmoney.com/f10/JJGG?fundcode=${code}&pageIndex=1&pageSize=30&type=0`;
-  return parseNotices(await fetchJson<NoticeResponse>(url, { headers: F10_HEADERS, retries: 0, timeoutMs: 12_000 }));
+  return parseNotices(await fetchJson<NoticeResponse>(url, { headers: F10_HEADERS, retries: 0 }));
 }
 
 export interface UniverseFund {

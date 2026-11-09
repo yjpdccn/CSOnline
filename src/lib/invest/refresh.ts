@@ -9,7 +9,7 @@ import { checkHealth, type RunFreshness } from "./health";
 import { mergeNews, rankNews, toInvestItem } from "./news";
 import { detectEvents, eventObservations } from "./events";
 import { buildObservations } from "./observations";
-import { refreshStrategy, scanDue, scanPeers, syncTrackedStatus, type StrategyFile } from "./strategy";
+import { keepPeerStatus, refreshStrategy, scanDue, scanPeers, syncTrackedStatus, type StrategyFile } from "./strategy";
 import { buildSuggestions } from "./suggestions";
 import { buildAutoOverview, generateAiOverview, stopReason, translateHeadlines, type OverviewQuotes } from "./overview";
 import { indexQuote, macroQuote } from "./quotes";
@@ -171,7 +171,7 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
         concurrency: 3,
       }),
     );
-    if (scan.ok) return { strategy: { ...store.strategy, ...scan.value.file }, results: [scan.value.result] };
+    if (scan.ok) return { strategy: { ...store.strategy, ...scan.value.file, peers: keepPeerStatus(scan.value.file.peers, store.strategy.peers) }, results: [scan.value.result] };
     return { strategy: store.strategy, results: [{ id: "fund-peers", name: "同类基金比较（每周）", kind: "基金", ok: false, count: 0, ms: scan.ms, error: scan.error }] };
   })();
 
@@ -389,7 +389,7 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
   );
   // Announcements wait for the NAVs, which come from the same API host, so fewer requests are open at once.
   const scanned = await scanWork;
-  const refreshed = await refreshStrategy(scanned.strategy, now, { notices: fetchNotices, feePage: fetchFeePage });
+  const refreshed = await refreshStrategy(scanned.strategy, now, { notices: fetchNotices, feePage: (code) => fetchFeePage(code, 0) });
   out.strategy = refreshed.file;
   out.results.push(...scanned.results, ...refreshed.results);
   return out;

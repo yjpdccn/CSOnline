@@ -1,12 +1,7 @@
-import { setDefaultAutoSelectFamilyAttemptTimeout } from "node:net";
+import "./net";
 
 export const BROWSER_UA =
   "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36";
-
-// Node gives each address of a host 250 ms to connect before trying the next. GitHub's runners have no IPv6,
-// and their handshakes with servers in China often take longer than that: for a host with both kinds of
-// address, the IPv4 attempt would be dropped and IPv6 fail at once, ending the request in ETIMEDOUT.
-setDefaultAutoSelectFamilyAttemptTimeout(2_500);
 
 export class HttpError extends Error {
   constructor(
@@ -27,6 +22,8 @@ export interface FetchOptions {
 }
 
 const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
+/** About 1 s, then 2 s, 4 s…, jittered so parallel retries do not hit a host together. */
+const backoff = (attempt: number) => sleep(1_000 * 2 ** attempt * (0.5 + Math.random()));
 
 function decode(buffer: ArrayBuffer, contentType: string | null): string {
   const bytes = new Uint8Array(buffer);
@@ -65,7 +62,7 @@ export async function fetchText(url: string, opts: FetchOptions = {}): Promise<s
         const err = new HttpError(`HTTP ${res.status} ${res.statusText}`.trim(), res.status);
         if (res.status === 429 || res.status >= 500) {
           lastError = err;
-          if (attempt < retries) await sleep(1500 * (attempt + 1));
+          if (attempt < retries) await backoff(attempt);
           continue;
         }
         throw err;
@@ -74,7 +71,7 @@ export async function fetchText(url: string, opts: FetchOptions = {}): Promise<s
     } catch (err) {
       if (err instanceof HttpError && err.status < 500 && err.status !== 429) throw err;
       lastError = err;
-      if (attempt < retries) await sleep(1500 * (attempt + 1));
+      if (attempt < retries) await backoff(attempt);
     }
   }
   throw normalizeError(lastError);

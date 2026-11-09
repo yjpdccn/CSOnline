@@ -243,20 +243,81 @@ export async function scanPeers(funds: FundsFile, now: Date, deps: ScanDeps): Pr
 }
 
 export interface RefreshDeps {
-  /** One attempt; retries are paced here. */
+  /** One attempt each; retries are paced here. */
   notices: (code: string) => Promise<FundNotice[]>;
   feePage: (code: string) => Promise<FeePage>;
-  concurrency?: number;
   sleep?: (ms: number) => Promise<void>;
   random?: () => number;
 }
 
 /**
- * 天天基金's announcement API, on the host that also serves the NAVs, drops a few funds in some runs from GitHub's
- * runners. Two at a time, three attempts with jittered exponential backoff, a second pass for what failed, and a
- * stop after a streak of failed attempts so an outage does not hold up the update.
+ * 天天基金's API and pages drop a few connections in some runs from GitHub's runners. Two at a time, three
+ * attempts with jittered exponential backoff, a second pass for what failed, and a stop after a streak of
+ * failed attempts so an outage does not hold up the update.
  */
-const NOTICES = { concurrency: 2, attempts: 3, baseDelayMs: 1_000, breaker: 8, secondPassMs: 15_000, secondPassAttempts: 2 };
+const PACED = { concurrency: 2, attempts: 3, baseDelayMs: 1_000, breaker: 8, secondPassMs: 15_000, secondPassAttempts: 2 };
+
+interface PacedRead<T> {
+  values: Map<string, T>;
+  /** Key → error message, in the order the keys first failed. */
+  errors: Map<string, string>;
+  ms: number;
+}
+
+async function readPaced<T>(keys: string[], read: (key: string) => Promise<T>, deps: Pick<RefreshDeps, "sleep" | "random">): Promise<PacedRead<T>> {
+  const sleep = deps.sleep ?? ((ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms)));
+  const random = deps.random ?? Math.random;
+  const values = new Map<string, T>();
+  const errors = new Map<string, string>();
+  let streak = 0;
+
+  const attempt = async (key: string, tries: number): Promise<T> => {
+    let last: unknown;
+    for (let k = 0; k < tries; k++) {
+      if (streak >= PACED.breaker) throw new Error("接口连续失败，本次先停止读取");
+      try {
+        const value = await read(key);
+        streak = 0;
+        return value;
+      } catch (err) {
+        last = err;
+        streak++;
+        if (k < tries - 1) await sleep(PACED.baseDelayMs * 2 ** k * (0.5 + random()));
+      }
+    }
+    throw last;
+  };
+  const readOne = async (key: string, tries: number) => {
+    try {
+      values.set(key, await attempt(key, tries));
+      errors.delete(key);
+    } catch (err) {
+      errors.set(key, normalizeError(err).message);
+    }
+  };
+
+  const started = Date.now();
+  await mapLimit(keys, PACED.concurrency, (key) => readOne(key, PACED.attempts));
+  if (errors.size && streak < PACED.breaker) {
+    await sleep(PACED.secondPassMs * (0.5 + random()));
+    for (const key of [...errors.keys()]) await readOne(key, PACED.secondPassAttempts);
+  }
+  return { values, errors, ms: Date.now() - started };
+}
+
+/** A source row for a paced read: what is still missing keeps the last good value and goes first next run. */
+function pacedResult(id: string, name: string, total: number, read: PacedRead<unknown>): InvestSourceResult {
+  const { errors } = read;
+  const result: InvestSourceResult = { id, name, kind: "基金", ok: errors.size < total, count: total - errors.size, total, ms: read.ms };
+  if (errors.size) {
+    const listed = [...errors].slice(0, 3).map(([key, message]) => `${key}：${message}`);
+    result.error = `${listed.join("；")}${errors.size > 3 ? ` 等 ${errors.size} 项` : ""}，下次运行优先重试`;
+  }
+  return result;
+}
+
+/** Oldest first: what earlier runs missed is read while the host is least busy. */
+const oldestFirst = (keys: string[], readAt: (key: string) => string | undefined) => [...keys].sort((a, b) => (readAt(a) ?? "").localeCompare(readAt(b) ?? ""));
 
 /** A fund whose announcements have not been read for this long is flagged: its stop signals could be missed. */
 export const NOTICE_STALE_MS = 72 * 3_600_000;
@@ -267,63 +328,23 @@ export function noticeReadTimes(file: Pick<StrategyFile, "noticeReads" | "notice
 }
 
 async function readNotices(file: StrategyFile, now: Date, deps: RefreshDeps): Promise<{ notices: StrategyFile["notices"]; reads: Record<string, string>; result: InvestSourceResult }> {
-  const sleep = deps.sleep ?? ((ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms)));
-  const random = deps.random ?? Math.random;
   const cutoff = now.getTime() - INVEST_RULES.stop.noticeDays * 86_400_000;
-  const notices = { ...file.notices };
   const known = noticeReadTimes(file);
+  const read = await readPaced(
+    oldestFirst(
+      FUNDS.map((f) => f.code),
+      (code) => known[code],
+    ),
+    deps.notices,
+    deps,
+  );
+  const notices = { ...file.notices };
   const reads: Record<string, string> = Object.fromEntries(Object.entries(known).filter((e): e is [string, string] => Boolean(e[1])));
-  // Last run's misses (the oldest reads) go first, while the API is least busy.
-  const order = FUNDS.map((f) => f.code).sort((a, b) => (known[a] ?? "").localeCompare(known[b] ?? ""));
-  const errors = new Map<string, string>();
-  let streak = 0;
-
-  const attempt = async (code: string, tries: number): Promise<FundNotice[]> => {
-    let last: unknown;
-    for (let k = 0; k < tries; k++) {
-      if (streak >= NOTICES.breaker) throw new Error("接口连续失败，本次先停止读取");
-      try {
-        const list = await deps.notices(code);
-        streak = 0;
-        return list;
-      } catch (err) {
-        last = err;
-        streak++;
-        if (k < tries - 1) await sleep(NOTICES.baseDelayMs * 2 ** k * (0.5 + random()));
-      }
-    }
-    throw last;
-  };
-  const readOne = async (code: string, tries: number) => {
-    try {
-      notices[code] = (await attempt(code, tries)).filter((n) => Date.parse(n.date) >= cutoff);
-      reads[code] = now.toISOString();
-      errors.delete(code);
-    } catch (err) {
-      errors.set(code, normalizeError(err).message);
-    }
-  };
-
-  const started = Date.now();
-  await mapLimit(order, NOTICES.concurrency, (code) => readOne(code, NOTICES.attempts));
-  if (errors.size && streak < NOTICES.breaker) {
-    await sleep(NOTICES.secondPassMs * (0.5 + random()));
-    for (const code of [...errors.keys()]) await readOne(code, NOTICES.secondPassAttempts);
+  for (const [code, list] of read.values) {
+    notices[code] = list.filter((n) => Date.parse(n.date) >= cutoff);
+    reads[code] = now.toISOString();
   }
-  const result: InvestSourceResult = {
-    id: "fund-notices",
-    name: "天天基金基金公告",
-    kind: "基金",
-    ok: errors.size < FUNDS.length,
-    count: FUNDS.length - errors.size,
-    total: FUNDS.length,
-    ms: Date.now() - started,
-  };
-  if (errors.size) {
-    const listed = [...errors].slice(0, 3).map(([code, message]) => `${code}：${message}`);
-    result.error = `${listed.join("；")}${errors.size > 3 ? ` 等 ${errors.size} 项` : ""}，下次运行优先重试`;
-  }
-  return { notices, reads, result };
+  return { notices, reads, result: pacedResult("fund-notices", "天天基金基金公告", FUNDS.length, read) };
 }
 
 /**
@@ -331,7 +352,6 @@ async function readNotices(file: StrategyFile, now: Date, deps: RefreshDeps): Pr
  * quotas change from week to week. Whatever fails keeps what the last run read.
  */
 export async function refreshStrategy(file: StrategyFile, now: Date, deps: RefreshDeps): Promise<{ file: StrategyFile; results: InvestSourceResult[] }> {
-  const limit = deps.concurrency ?? 6;
   const read = await readNotices(file, now, deps);
   const next: StrategyFile = {
     ...file,
@@ -347,30 +367,31 @@ export async function refreshStrategy(file: StrategyFile, now: Date, deps: Refre
     .filter((p) => p.qdii && !tracked.has(p.code));
   const results = [read.result];
   if (overseas.length) {
-    const statusFailed: string[] = [];
+    const readAt = new Map<string, string>();
+    for (const p of overseas) {
+      const at = p.status?.asOf ?? "";
+      if (!readAt.has(p.code) || at < readAt.get(p.code)!) readAt.set(p.code, at);
+    }
+    const codes = oldestFirst([...readAt.keys()], (code) => readAt.get(code));
+    const statuses = await readPaced(codes, deps.feePage, deps);
     const at = new Date().toISOString();
-    const started = Date.now();
-    await mapLimit(overseas, limit, async (peer) => {
-      try {
-        const page = await deps.feePage(peer.code);
-        if (page.status) peer.status = { ...page.status, asOf: at };
-      } catch (err) {
-        statusFailed.push(`${peer.code}：${normalizeError(err).message}`);
-      }
-    });
-    const statusResult: InvestSourceResult = {
-      id: "peer-status",
-      name: "同类 QDII 基金申购状态",
-      kind: "基金",
-      ok: statusFailed.length < overseas.length,
-      count: overseas.length - statusFailed.length,
-      total: overseas.length,
-      ms: Date.now() - started,
-    };
-    if (statusFailed.length) statusResult.error = statusFailed.slice(0, 3).join("；") + (statusFailed.length > 3 ? ` 等 ${statusFailed.length} 项` : "");
-    results.push(statusResult);
+    for (const p of overseas) {
+      const status = statuses.values.get(p.code)?.status;
+      if (status) p.status = { ...status, asOf: at };
+    }
+    results.push(pacedResult("peer-status", "同类 QDII 基金申购状态", codes.length, statuses));
   }
   return { file: next, results };
+}
+
+/** The weekly scan builds the peer lists afresh; a peer whose status it could not read keeps the last one. */
+export function keepPeerStatus(peers: StrategyFile["peers"], previous: StrategyFile["peers"]): StrategyFile["peers"] {
+  const known = new Map(
+    Object.values(previous)
+      .flat()
+      .flatMap((p) => (p.status ? [[p.code, p.status] as const] : [])),
+  );
+  return Object.fromEntries(Object.entries(peers).map(([key, list]) => [key, list.map((p) => (p.status || !known.has(p.code) ? p : { ...p, status: known.get(p.code) }))]));
 }
 
 /** Tracked funds that are also someone's peer take the status read for them this run. */

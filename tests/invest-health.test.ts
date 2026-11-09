@@ -180,6 +180,25 @@ describe("data health", () => {
     // Files from before per-fund read times count every fund as read at the last run that read any.
     expect(checkHealth({ ...data, strategy: { ...data.strategy, noticeReads: undefined } }, fresh, null, NOW).issues).toEqual([]);
   });
+
+  it("lists overseas peers' quotas only after about 36 hours without a read, not a miss in one run", () => {
+    const peer = (code: string, asOf: string) => ({ code, name: code, cls: "A", qdii: true, fees: {}, status: { purchase: "限大额", limit: 10, asOf } });
+    const noticeReads = Object.fromEntries(FUNDS.map((f) => [f.code, hoursAgo(1)]));
+    const peers = { 纳斯达克100指数: [peer("019736", hoursAgo(30)), peer("539001", hoursAgo(1))] };
+    const data = { ...currentData(), strategy: { ...emptyStrategy(), checkedAt: hoursAgo(24), noticeReads, peers } };
+    const fresh = allFresh();
+    fresh.sources.push({ id: "peer-status", name: "同类 QDII 基金申购状态", kind: "基金", ok: true, count: 1, total: 2, ms: 1, error: "019736：网络错误（UND_ERR_CONNECT_TIMEOUT），下次运行优先重试" });
+
+    let health = checkHealth(data, fresh, null, NOW);
+    expect(health.issues).toEqual([]);
+    expect(health.groups.strategy.items.find((i) => i.key === "peer-status")).toMatchObject({ latest: hoursAgo(30), stale: false });
+
+    peers["纳斯达克100指数"][0] = peer("019736", hoursAgo(40));
+    health = checkHealth(data, fresh, null, NOW);
+    expect(health.issues).toEqual([
+      expect.objectContaining({ key: "stale:peer-status", severity: "minor", items: ["019736"], message: "同类 QDII 基金申购状态超过 36 小时没有读到：019736，替换和加大建议里的额度可能过时" }),
+    ]);
+  });
 });
 
 const view = (code: string, extra: Partial<FundView> = {}): FundView => ({

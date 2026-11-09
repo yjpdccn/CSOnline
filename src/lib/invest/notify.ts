@@ -1,4 +1,5 @@
 import { INVEST_RULES, INVEST_SITE } from "@/config/invest";
+import { retryConnect } from "@/lib/pipeline/net";
 import { zonedParts } from "@/lib/time";
 import type { Observation, SuggestionAction } from "./observations";
 import type { DataIssue, NotifyOutcome } from "./types";
@@ -134,19 +135,21 @@ type FetchLike = typeof fetch;
  */
 export async function sendServerChan(sendKey: string, title: string, markdown: string, fetchImpl: FetchLike = fetch): Promise<void> {
   const v3 = sendKey.match(/^sctp(\d+)t/i);
-  const res = v3
-    ? await fetchImpl(`https://${v3[1]}.push.ft07.com/send/${sendKey}.send`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ title, desp: markdown }),
-        signal: AbortSignal.timeout(20_000),
-      })
-    : await fetchImpl(`https://sctapi.ftqq.com/${sendKey}.send`, {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: new URLSearchParams({ title, desp: markdown }).toString(),
-        signal: AbortSignal.timeout(20_000),
-      });
+  const res = await retryConnect(() =>
+    v3
+      ? fetchImpl(`https://${v3[1]}.push.ft07.com/send/${sendKey}.send`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ title, desp: markdown }),
+          signal: AbortSignal.timeout(20_000),
+        })
+      : fetchImpl(`https://sctapi.ftqq.com/${sendKey}.send`, {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: new URLSearchParams({ title, desp: markdown }).toString(),
+          signal: AbortSignal.timeout(20_000),
+        }),
+  );
   const body = (await res.json().catch(() => ({}))) as { code?: number; message?: string; error?: string };
   if (!res.ok || (body.code !== undefined && body.code !== 0)) {
     throw new Error(`Server酱返回 ${res.status}${body.message || body.error ? `：${body.message || body.error}` : ""}`);
@@ -162,18 +165,20 @@ interface GithubIssue {
 }
 
 async function github<T>(fetchImpl: FetchLike, token: string, url: string, init: { method?: string; body?: unknown } = {}): Promise<T> {
-  const res = await fetchImpl(`https://api.github.com${url}`, {
-    method: init.method ?? "GET",
-    headers: {
-      Authorization: `Bearer ${token}`,
-      Accept: "application/vnd.github+json",
-      "X-GitHub-Api-Version": "2022-11-28",
-      "User-Agent": "invest-daily",
-      ...(init.body ? { "Content-Type": "application/json" } : {}),
-    },
-    body: init.body ? JSON.stringify(init.body) : undefined,
-    signal: AbortSignal.timeout(20_000),
-  });
+  const res = await retryConnect(() =>
+    fetchImpl(`https://api.github.com${url}`, {
+      method: init.method ?? "GET",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        Accept: "application/vnd.github+json",
+        "X-GitHub-Api-Version": "2022-11-28",
+        "User-Agent": "invest-daily",
+        ...(init.body ? { "Content-Type": "application/json" } : {}),
+      },
+      body: init.body ? JSON.stringify(init.body) : undefined,
+      signal: AbortSignal.timeout(20_000),
+    }),
+  );
   if (!res.ok) throw new Error(`GitHub API ${res.status}：${(await res.text()).slice(0, 120)}`);
   return (await res.json()) as T;
 }
