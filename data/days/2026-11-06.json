@@ -1360,12 +1360,19 @@
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-06",
       "category": "industry",
-      "score": 21.2,
+      "score": 21.3,
       "metrics": {
-        "points": 101,
+        "points": 103,
         "comments": 39
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50389990"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50389990",
+      "ai": {
+        "title": "研究人员如何使用 Claude 进行科学发现",
+        "summary": "文章探讨 Claude 在科学研究中的应用案例。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:32.244Z"
+      }
     },
     {
       "id": "173iduil59s",
@@ -1621,6 +1628,37 @@
       }
     },
     {
+      "id": "7o6mccam0h",
+      "key": "gh:devvmhq/devvm",
+      "title": "devvmhq/devvm",
+      "url": "https://github.com/devvmhq/devvm",
+      "excerpt": "One VM for every project. An isolated sandbox with your project’s toolchain, ready for you or a coding agent to start coding",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T07:02:30.000Z",
+      "firstSeenAt": "2026-11-09T02:39:52.670Z",
+      "day": "2026-11-06",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 16.3,
+      "metrics": {
+        "stars": 416
+      },
+      "ai": {
+        "title": "devvm：为每个项目提供隔离虚拟机",
+        "summary": "devvm 为每个项目提供独立的沙盒环境，支持编码代理直接启动。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:32.244Z"
+      }
+    },
+    {
       "id": "1d2ioolsom8",
       "key": "url:qbitai.com/2026/11/508155.html",
       "title": "DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿",
@@ -1818,6 +1856,13 @@
       "score": 16.4,
       "metrics": {
         "stars": 428
+      },
+      "ai": {
+        "title": "Roblox Studio MCP 服务器",
+        "summary": "开源项目提供 Roblox Studio 的 MCP 服务器，连接 AI 助手进行脚本编辑和测试。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:32.244Z"
       }
     },
     {
@@ -1852,10 +1897,10 @@
       "firstSeenAt": "2026-11-06T17:56:04.095Z",
       "day": "2026-11-06",
       "category": "paper",
-      "score": 29.4,
+      "score": 29.5,
       "metrics": {
         "points": 220,
-        "comments": 217
+        "comments": 220
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50388513",
       "ai": {
@@ -2676,9 +2721,9 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 25.9,
+      "score": 26,
       "metrics": {
-        "upvotes": 104,
+        "upvotes": 106,
         "comments": 1
       },
       "ai": {
@@ -2707,9 +2752,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22.8,
+      "score": 22.9,
       "metrics": {
-        "upvotes": 65,
+        "upvotes": 66,
         "comments": 5
       },
       "ai": {
@@ -2735,9 +2780,9 @@
       "day": "2026-11-06",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21,
+      "score": 21.1,
       "metrics": {
-        "upvotes": 50,
+        "upvotes": 51,
         "comments": 3
       },
       "ai": {
@@ -2821,9 +2866,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25.2,
+      "score": 26.8,
       "metrics": {
-        "upvotes": 94,
+        "upvotes": 118,
         "comments": 2
       }
     },
@@ -3408,10 +3453,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 29.1,
+      "score": 29.2,
       "metrics": {
-        "stars": 47254,
-        "starsToday": 812
+        "stars": 47709,
+        "starsToday": 815
       },
       "ai": {
         "title": "vercel-labs/agent-browser 专为 AI 代理设计",
@@ -3832,8 +3877,8 @@
         ],
         "firstPublishedAt": "2026-11-05T17:00:00.000Z",
         "metrics": {
-          "points": 365,
-          "comments": 251
+          "points": 366,
+          "comments": 253
         }
       },
       "ai": {
@@ -3851,8 +3896,8 @@
         }
       ],
       "metrics": {
-        "points": 365,
-        "comments": 251
+        "points": 366,
+        "comments": 253
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50392118"
     },
@@ -4030,6 +4075,27 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-05T18:44:52.915Z"
       }
+    },
+    {
+      "id": "l77ozv40xl",
+      "key": "gh:iainkay/ram-altman",
+      "title": "IainKay/ram-altman",
+      "url": "https://github.com/IainKay/ram-altman",
+      "excerpt": "Monitors your RAM and reports any \"quite terrible\" unused capacity directly to the CEO of OpenAI.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-05T16:16:41.000Z",
+      "firstSeenAt": "2026-11-09T02:39:52.670Z",
+      "day": "2026-11-06",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 19.3,
+      "metrics": {
+        "stars": 796
+      },
+      "dupOf": "57shz3mkvl"
     },
     {
       "id": "tbymes9zbe",

@@ -2,6 +2,188 @@
   "day": "2026-11-08",
   "items": [
     {
+      "id": "1g1ff6enz1z",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xr18t3/i_ran_qwen3508b_in_pure_assembly",
+      "title": "I ran Qwen3.5-0.8B in pure Assembly",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr18t3/i_ran_qwen3508b_in_pure_assembly/",
+      "excerpt": "On an AMD EPYC 7B12, it generated 6.51 tokens/sec on one CPU thread. The Transformers reference reached 4.34. All 32 generated tokens matched in both runs. Code: https://github.com/suayptalha/qwen3\\_5-assembly X Post: https://x.com/suayptalha/status/2119254536283906205 Tokenizat…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-08T15:39:17.000Z",
+      "firstSeenAt": "2026-11-09T02:39:52.670Z",
+      "day": "2026-11-08",
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xr18t3/i_ran_qwen3508b_in_pure_assembly/",
+      "dupOf": "i1zmxyalde"
+    },
+    {
+      "id": "16bau8usaeh",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xr0ykk/i_finetuned_qwen3508b_to_turn_plain_english_into",
+      "title": "I fine-tuned Qwen3.5-0.8B to turn plain English into bash. What I learnt",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr0ykk/i_finetuned_qwen3508b_to_turn_plain_english_into/",
+      "excerpt": "Running the app I wanted a terminal helper that works fully offline, so I started building dale. You type dale \"show the 5 largest files in this folder\", a small fine-tuned model writes the command, and a deterministic risk checker labels it safe, caution or danger before anythi…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-08T15:26:31.000Z",
+      "firstSeenAt": "2026-11-09T02:39:52.670Z",
+      "day": "2026-11-08",
+      "category": "agent",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xr0ykk/i_finetuned_qwen3508b_to_turn_plain_english_into/",
+      "ai": {
+        "title": "用 Qwen3.5-0.8B 微调将英文转为 Bash 命令",
+        "summary": "作者微调 Qwen3.5-0.8B 模型，打造离线终端助手 dale。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      }
+    },
+    {
+      "id": "w79098ldl1",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to",
+      "title": "\"Does censorship exist in [country]?\", according to various LLMs",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/",
+      "excerpt": "I wrote a small program that asks the same Yes/No question about every country to a language model, and generates an SVG world map that visualizes the model's responses: https://github.com/p-e-w/llm-beliefs I'm rather surprised by the results... [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-08T14:56:07.000Z",
+      "firstSeenAt": "2026-11-09T02:39:52.670Z",
+      "day": "2026-11-08",
+      "category": "agent",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xr09nq/does_censorship_exist_in_country_according_to/",
+      "ai": {
+        "title": "各 LLM 对不同国家审查制度的回答可视化",
+        "summary": "程序询问 LLM 并生成 SVG 地图，可视化各国审查情况。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      }
+    },
+    {
+      "id": "1cm5s8fzvll",
+      "key": "url:247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought",
+      "title": "OpenAI raises $11B at a $1.25T valuation",
+      "url": "https://247wallst.com/investing/2026/11/07/openai-just-raised-11-billion-at-a-1-25-trillion-valuation-below-the-1-4-trillion-it-first-sought/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-08T14:49:23.000Z",
+      "firstSeenAt": "2026-11-09T02:39:52.670Z",
+      "day": "2026-11-08",
+      "category": "industry",
+      "score": 27.9,
+      "metrics": {
+        "points": 181,
+        "comments": 203
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50413822",
+      "dupOf": "1xapjyieac8"
+    },
+    {
+      "id": "4vmhp2t2ju",
+      "key": "url:en.gamegpu.com/news/zhelezo/polzovateli-nachali-massovo-skupat-videokarty-rtx-5060-ti-16gb-radi-ii",
+      "title": "Users have started buying RTX 5060 Ti 16GB graphics cards en masse for the sake of AI.",
+      "url": "https://en.gamegpu.com/news/zhelezo/polzovateli-nachali-massovo-skupat-videokarty-rtx-5060-ti-16gb-radi-ii",
+      "excerpt": "Oh look, thats us! [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-08T14:45:22.000Z",
+      "firstSeenAt": "2026-11-09T02:39:52.670Z",
+      "day": "2026-11-08",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xr01bj/users_have_started_buying_rtx_5060_ti_16gb/",
+      "ai": {
+        "title": "用户为 AI 购买 RTX 5060 Ti 16GB 显卡",
+        "summary": "本地 AI 需求激增，推动显卡销量。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      }
+    },
+    {
+      "id": "213a934wp65",
+      "key": "url:the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news",
+      "title": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News",
+      "url": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
+      "excerpt": "OpenAI co-founder Andrej Karpathy used Claude's Opus 5.5 to filter 43 million Hacker News comments into 6,454 curated videos. The result beats YouTube's own recommendations, he says. The article Andrej Karpathy built a curated video platform in a weekend using Claude and 20 year…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-08T14:23:00.000Z",
+      "firstSeenAt": "2026-11-09T02:39:52.670Z",
+      "day": "2026-11-08",
+      "category": "agent",
+      "score": 15,
+      "ai": {
+        "title": "Andrej Karpathy 用 Claude 打造精选视频平台",
+        "summary": "利用 Claude Opus 5.5 筛选 4300 万条评论，生成优于 YouTube 的推荐视频。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      }
+    },
+    {
+      "id": "2fug6wonwta",
+      "key": "url:the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate",
+      "title": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate",
+      "url": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
+      "excerpt": "Consciousness researchers Anil Seth, Ned Block, and Giulio Tononi argue in a Nature commentary that today's AI systems aren't conscious and won't become so on silicon hardware. They consider the assumption that consciousness depends on computation alone \"fatally flawed\" and warn…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-08T13:49:21.000Z",
+      "firstSeenAt": "2026-11-09T02:39:52.670Z",
+      "day": "2026-11-08",
+      "category": "paper",
+      "score": 15,
+      "ai": {
+        "title": "大脑-计算机隐喻可能误导意识辩论",
+        "summary": "学者认为 AI 不具备意识，计算并非意识的充分条件。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      }
+    },
+    {
+      "id": "21dbm2uhzd8",
+      "key": "url:leiphone.com/category/industrynews/oxR5pn9S7tI1IfF5.html",
+      "title": "腾讯的 Agent 布局，不止 WorkBuddy",
+      "url": "https://www.leiphone.com/category/industrynews/oxR5pn9S7tI1IfF5.html",
+      "excerpt": "大家对腾讯Agent的认识，还不够完整。 作者丨胡敏 编辑丨刘伟 今年上半年，但凡聊腾讯 AI，那必然会聊到 Workbuddy，这个产品在前三季度彻彻底底出圈了。它在某种程度上，也改变了市场对于腾讯 AI 的看法。 但如果只看到WorkBuddy，那么大家对于腾讯 Agent 的认识，可能还是不完整的。 腾讯集团高级执行副总裁、云与智慧产业事业群CEO汤道生在刚过去的腾讯全球数字生态大会上提到，企业落地Agent最大的难题，不是模型不够强，而是“断点太多”：AI能写方案、做分析，却接不上业务系统，也拿不到企业数据。Agent真正落地的关键，是把人、工…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T13:11:00.000Z",
+      "firstSeenAt": "2026-11-09T02:39:52.670Z",
+      "day": "2026-11-08",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "腾讯的Agent布局不止WorkBuddy，强调解决业务系统断点问题。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
+    },
+    {
       "id": "25a1lc90vzi",
       "key": "gh:anthropics/claude-quickstarts",
       "title": "anthropics/claude-quickstarts",
@@ -16,12 +198,12 @@
       "day": "2026-11-08",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 12.1,
+      "score": 12.4,
       "metrics": {
-        "stars": 19192,
-        "starsToday": 28
+        "stars": 19482,
+        "starsToday": 32
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "anthropics/claude-quickstarts 帮助开发者快速构建可部署的 Claude 应用。",
         "category": "opensource",
@@ -44,10 +226,10 @@
       "day": "2026-11-08",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 12,
+      "score": 13,
       "metrics": {
-        "stars": 16162,
-        "starsToday": 26
+        "stars": 16463,
+        "starsToday": 41
       },
       "ai": {
         "title": "Google DeepMind MuJoCo 物理模拟器",
@@ -55,6 +237,33 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-08T13:06:28.131Z"
+      }
+    },
+    {
+      "id": "l422uu1pch",
+      "key": "url:polso.info/why-i-will-not-be-using-llms-coding",
+      "title": "Why I will not be using LLMs in my coding",
+      "url": "https://www.polso.info/why-i-will-not-be-using-llms-coding",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-08T12:14:10.000Z",
+      "firstSeenAt": "2026-11-09T02:39:52.670Z",
+      "day": "2026-11-08",
+      "category": "agent",
+      "score": 24.8,
+      "metrics": {
+        "points": 108,
+        "comments": 222
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50412591",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "作者表示不会在编程中使用 LLM。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:31.330Z"
       }
     },
     {
@@ -71,7 +280,7 @@
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
       "category": "agent",
-      "score": 10,
+      "score": 27.3,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqwn5n/ram_altman_is_now_a_linux_script_that_emails_sam/",
       "ai": {
         "title": "Ram Altman 脚本每日报告未使用内存",
@@ -79,6 +288,27 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-08T13:06:28.131Z"
+      },
+      "related": [
+        {
+          "id": "l77ozv40xl",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/IainKay/ram-altman",
+          "title": "IainKay/ram-altman",
+          "publishedAt": "2026-11-05T16:16:41.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "reddit-localllama",
+          "github-new"
+        ],
+        "firstPublishedAt": "2026-11-05T16:16:41.000Z",
+        "metrics": {
+          "stars": 796
+        }
       }
     },
     {
@@ -138,7 +368,13 @@
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
       "category": "paper",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "NeurIPS 2026 Oral论文提出基于视觉和语言的导航路线预测方法。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:47.472Z"
+      }
     },
     {
       "id": "21mwpc7yxfw",
@@ -153,12 +389,18 @@
       "publishedAt": "2026-11-08T10:51:00.000Z",
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
-      "category": "paper",
+      "category": "industry",
       "keywords": [
         "Agent",
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI青年在实验室、开源社区和产业一线推动技术突破。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:47.472Z"
+      }
     },
     {
       "id": "1hz9vohende",
@@ -173,11 +415,17 @@
       "publishedAt": "2026-11-08T10:46:00.000Z",
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
-      "category": "agent",
+      "category": "paper",
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "北大提出MapFlow，解决跨模型上下文交接时的重复计算问题。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:47.472Z"
+      }
     },
     {
       "id": "2cf9u8t9yea",
@@ -193,7 +441,31 @@
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
       "category": "paper",
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "2h839l0ga1",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4060588302029697",
+          "title": "ICLR 2027首轮评审，槽点有点多",
+          "publishedAt": "2026-11-09T00:26:52.582Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-08T10:44:00.000Z"
+      },
+      "ai": {
+        "summary": "ICLR 2027首轮评审意见公开，引发研究者对评审质量的讨论。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:47.472Z"
+      }
     },
     {
       "id": "67zfltad7y",
@@ -208,8 +480,8 @@
       "publishedAt": "2026-11-08T10:41:00.000Z",
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
-      "category": "model",
-      "score": 32,
+      "category": "agent",
+      "score": 26,
       "related": [
         {
           "id": "g5a4bhfhh1",
@@ -227,6 +499,12 @@
           "36kr-ai"
         ],
         "firstPublishedAt": "2026-11-08T08:25:08.636Z"
+      },
+      "ai": {
+        "summary": "GPT-6.1 Sol参与小鼠脑部手术，定位精度逐轮提升。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:47.472Z"
       }
     },
     {
@@ -242,8 +520,14 @@
       "publishedAt": "2026-11-08T10:38:00.000Z",
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
-      "category": "industry",
-      "score": 18
+      "category": "model",
+      "score": 24,
+      "ai": {
+        "summary": "英伟达等重新设计VLA推理，使机器人动作执行速度提升3.4倍。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:47.472Z"
+      }
     },
     {
       "id": "1wn79vv4yrq",
@@ -266,6 +550,33 @@
       "dupOf": "20py2by5tcf"
     },
     {
+      "id": "2bbfdris992",
+      "key": "gh:synchopate/llama-modchip",
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "url": "https://github.com/synchopate/llama-modchip",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-08T10:22:04.000Z",
+      "firstSeenAt": "2026-11-09T02:39:52.670Z",
+      "day": "2026-11-08",
+      "category": "opensource",
+      "score": 32.6,
+      "metrics": {
+        "points": 372,
+        "comments": 161
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50411961",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "在 64GB 内存上运行 284B DeepSeek 模型。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:31.330Z"
+      }
+    },
+    {
       "id": "22rg2wbrpe8",
       "key": "url:geekpark.net/news/373653",
       "title": "为什么「陪伴」，注定是 Personal AI 的核心",
@@ -278,11 +589,17 @@
       "publishedAt": "2026-11-08T09:52:45.000Z",
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
-      "category": "industry",
+      "category": "agent",
       "keywords": [
         "语音"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Personal AI的核心在于陪伴感，语音和头像功能增强交互体验。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:47.472Z"
+      }
     },
     {
       "id": "25mky6r2ep",
@@ -309,6 +626,33 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-08T13:06:28.131Z"
+      }
+    },
+    {
+      "id": "1uyb2sngrk9",
+      "key": "gh:paladinsmash84/aida-64-extreme",
+      "title": "PaladinSmash84/aida-64-extreme",
+      "url": "https://github.com/PaladinSmash84/aida-64-extreme",
+      "excerpt": "AI Prompt Engineering Toolkit Aida 64 Extreme, pre-configured environment for advanced LLM training and deployment in isolated local...",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-08T08:36:56.000Z",
+      "firstSeenAt": "2026-11-09T02:39:52.670Z",
+      "day": "2026-11-08",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.1,
+      "metrics": {
+        "stars": 402
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Aida 64 Extreme AI 提示工程工具包。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:31.330Z"
       }
     },
     {
@@ -361,7 +705,13 @@
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
       "category": "multimodal",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI视频生成面临返工与成本难题，尚未告别“抽卡”式生成。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:47.472Z"
+      }
     },
     {
       "id": "vblwvjds03",
@@ -377,7 +727,13 @@
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "伯恩斯坦预计OpenAI至2030年算力支出或达6140亿美元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:47.472Z"
+      }
     },
     {
       "id": "7nf9q86nmq",
@@ -393,7 +749,40 @@
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "MiniMax创始人闫俊杰认为中美AI差距仅5%，需走差异化路线。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:47.472Z"
+      }
+    },
+    {
+      "id": "1za7po7mxhq",
+      "key": "url:leiphone.com/category/chips/aOKsujJpdDvRKj5S.html",
+      "title": "终端侧AI：从单点应用走向智能体体验",
+      "url": "https://www.leiphone.com/category/chips/aOKsujJpdDvRKj5S.html",
+      "excerpt": "发言人：高通公司AI产品技术中国区负责人 万卫星 2026年11月7日，上海 终端侧AI发展到了什么阶段？ 终端侧AI经过过去3至4年的发展，正在迎来一个比较重要的变化节点。 从应用来看，终端侧AI并不是从大模型开始的。影像其实是AI较早在终端落地的领域之一。近年来手机拍照效果不断提升，背后就有终端侧AI技术的推动。如今，终端侧AI已经进一步拓展到简单问答、聊天、图像生成与处理，以及文本处理、语音转录、实时翻译等多模态应用，其中不少功能在端侧落地的条件已经比较成熟。 不过，目前很多端侧AI应用仍然偏向单点功能。例如自动语音识别（ASR）、文本摘要、图片…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-08T07:54:00.000Z",
+      "firstSeenAt": "2026-11-09T02:39:52.670Z",
+      "day": "2026-11-08",
+      "category": "multimodal",
+      "keywords": [
+        "Agent",
+        "图像生成",
+        "语音"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "终端侧AI从单点应用走向智能体体验，功能日益丰富。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "xdaa7r5i3v",
@@ -409,7 +798,13 @@
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "中国移动推进通信网、算力网和智能网建设，发布MoMA模型服务平台。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "2aibk2kucoe",
@@ -428,7 +823,13 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Claude Code 亮出6道关卡，旨在解决AI写代码后的审核问题。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "e54zh7zvjy",
@@ -442,11 +843,17 @@
       "publishedAt": "2026-11-08T07:03:06.000Z",
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "AI 编程"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "顶尖AI实验室正面临人才流失，Claude Code团队工程师离职后首次受访。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "1gciha6q4p0",
@@ -485,8 +892,14 @@
       "publishedAt": "2026-11-08T04:09:55.000Z",
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
-      "category": "multimodal",
-      "score": 18
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "资本正在撤离“世界模型”，行业热度降温。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "ulideetwyp",
@@ -501,13 +914,13 @@
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
       "category": "agent",
-      "score": 34.2,
+      "score": 36,
       "metrics": {
-        "points": 401,
-        "comments": 254
+        "points": 707,
+        "comments": 437
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50410107",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "用户告别 Claude，转而使用 Pi。",
         "category": "agent",
@@ -532,7 +945,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "探讨创业者做Personal Agent的机会，认为价值可长在基模外。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "klemky5r79",
@@ -548,7 +967,13 @@
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-08",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "上周逾550家上市公司迎来投资者调研，AI产业链景气度受关注。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "b5ijkycyr9",
@@ -562,8 +987,14 @@
       "publishedAt": "2026-11-08T02:00:00.000Z",
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-08",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "分享Ontology与AI自迭代的实践经验，探讨从约束到进化的路径。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "ooe8s2n0o",
@@ -603,7 +1034,13 @@
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-08",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "显卡价格连涨后急跌，华强北显卡价格波动剧烈。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "29gk6tl06s8",
@@ -619,7 +1056,13 @@
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-08",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "银湖资本与沙特基金拟250亿美元收购Unity，引发行业关注。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "1p7n5ka6epa",
@@ -635,7 +1078,13 @@
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-08",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "机器人大泡沫破裂，IPO受阻，企业面临生存挑战。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "1x0hgengk2",
@@ -651,7 +1100,13 @@
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-08",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "乌兰察布成为中国AI数据中心的新选择，规避美国限制。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "zy6bpy8ae1",
@@ -790,10 +1245,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 35.6,
+      "score": 36,
       "metrics": {
-        "points": 447,
-        "comments": 308
+        "points": 594,
+        "comments": 401
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50407882",
       "ai": {
@@ -845,10 +1300,10 @@
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-08",
       "category": "industry",
-      "score": 35.5,
+      "score": 35.7,
       "metrics": {
-        "points": 470,
-        "comments": 282
+        "points": 497,
+        "comments": 305
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50406563",
       "dupOf": "1p6346rv5g"
@@ -956,10 +1411,10 @@
       "categoryLocked": true,
       "score": 22.9,
       "metrics": {
-        "stars": 698,
+        "stars": 883,
         "starsToday": 345
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "dsx-ai-factory/nvke 是一个用于裸金属 GPU Kubernetes 的管理平面。",
         "category": "opensource",

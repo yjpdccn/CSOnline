@@ -14,8 +14,15 @@
       "publishedAt": "2026-11-07T15:50:00.000Z",
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-07",
-      "category": "agent",
-      "score": 15
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "NYT Cooking 的 AI 助手救了我的晚餐",
+        "summary": "AI 助手帮助解决晚餐问题，但差点搞砸蛋糕。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      }
     },
     {
       "id": "2dp2le6613i",
@@ -32,7 +39,14 @@
       "day": "2026-11-07",
       "category": "paper",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq9hf6/paper_dspine_draft_in_parallel_condition_through/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq9hf6/paper_dspine_draft_in_parallel_condition_through/",
+      "ai": {
+        "title": "腾讯提出 DSpine 并行草拟解码新方法",
+        "summary": "腾讯提出 DSpine 方法，通过深度条件注入解决并行草拟中的不一致问题。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:32.244Z"
+      }
     },
     {
       "id": "1trq08w19uq",
@@ -48,7 +62,14 @@
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "美国允许 Nvidia 向中国空办公室出售芯片",
+        "summary": "美国批准向中国空办公室出售 H200 芯片，引发合规担忧。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      }
     },
     {
       "id": "1gy10822v8a",
@@ -67,7 +88,14 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 21
+      "score": 21,
+      "ai": {
+        "title": "开源与闭源模型在网络安全能力差距缩小",
+        "summary": "GPT-6 和 DeepSeek V4.1 Flash 在网络攻击模拟中表现接近。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      }
     },
     {
       "id": "upr0pka5fw",
@@ -82,8 +110,8 @@
       "publishedAt": "2026-11-07T15:18:29.000Z",
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-07",
-      "category": "model",
-      "score": 16,
+      "category": "opensource",
+      "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq8s2n/qwen38flashnext_gyro_s_on_a_valve_steam_machine_8/",
       "related": [
         {
@@ -93,14 +121,29 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbjbf/also_experienced_the_qwen38flashnext_url_issue/",
           "title": "Also experienced the Qwen3.8-Flash-Next URL issue",
           "publishedAt": "2026-11-07T17:15:04.000Z"
+        },
+        {
+          "id": "1mwju15q0x1",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr3qes/motion_graphics_video_made_with_qwen38_flash_next/",
+          "title": "Motion graphics video made with Qwen3.8 Flash Next GSQ RCO IQ3_XXS on strata",
+          "publishedAt": "2026-11-08T17:23:29.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "reddit-localllama"
         ],
         "firstPublishedAt": "2026-11-07T15:18:29.000Z"
+      },
+      "ai": {
+        "title": "在 Steam Machine 上运行 Qwen3.8-Flash-Next",
+        "summary": "在 8GB 显存的 Steam Machine 上测试 Qwen3.8 Flash Next 性能。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
       }
     },
     {
@@ -117,7 +160,15 @@
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "AI 破坏了网络安全世界，接下来如何？",
+        "summary": "专家讨论 AI 对网络安全现状的冲击及未来影响。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      },
+      "dupOf": "1ww0f9ou9je"
     },
     {
       "id": "1o66t36az6u",
@@ -138,7 +189,14 @@
         "本地部署"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq7qi4/valet_use_local_llms_to_manage_your_homelab_open/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq7qi4/valet_use_local_llms_to_manage_your_homelab_open/",
+      "ai": {
+        "title": "Valet：开源本地 LLM 管理家庭实验室工具",
+        "summary": "开源项目 Valet 利用本地 LLM 提供家庭实验室管理仪表盘，保护隐私。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:32.244Z"
+      }
     },
     {
       "id": "2a6dwky21b1",
@@ -153,9 +211,16 @@
       "publishedAt": "2026-11-07T13:17:49.000Z",
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-07",
-      "category": "agent",
+      "category": "paper",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq65rl/tsmc_might_do_in_memory_compute_for_us/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq65rl/tsmc_might_do_in_memory_compute_for_us/",
+      "ai": {
+        "title": "TSMC 展示基于氧化物的内存计算技术",
+        "summary": "TSMC 展示 1T1C 氧化物半导体内存技术，旨在为处理器提供低功耗缓存。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:32.244Z"
+      }
     },
     {
       "id": "1ybz9kfzgxw",
@@ -170,8 +235,15 @@
       "publishedAt": "2026-11-07T12:32:45.000Z",
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
-      "category": "industry",
-      "score": 15
+      "category": "agent",
+      "score": 15,
+      "ai": {
+        "title": "微调可剥离中国 AI 模型的宣传层",
+        "summary": "Nous Research 重训 Qwen3.8-27B，将宣传率降至 1% 以下。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      }
     },
     {
       "id": "11pkm7hmiyc",
@@ -187,7 +259,14 @@
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Anthropic 自动化 AI 开发报告引发担忧",
+        "summary": "Anthropic 使用 AI 构建更强大的 AI，速度显著提升。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      }
     },
     {
       "id": "zcuh511e0l",
@@ -202,9 +281,16 @@
       "publishedAt": "2026-11-07T12:13:29.000Z",
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
-      "category": "industry",
+      "category": "agent",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4yju/obsessive17b_a_11_gb_websearch_subagent/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4yju/obsessive17b_a_11_gb_websearch_subagent/",
+      "ai": {
+        "title": "Obsessive-1.7B：1.1GB 网络搜索子代理",
+        "summary": "Obsessive-1.7B 是一个轻量级子代理，用于通过单次网络搜索回答事实性问题。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:32.244Z"
+      }
     },
     {
       "id": "293le6k6buo",
@@ -224,7 +310,14 @@
         "Agent"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4pb6/does_anyone_use_none_reasoning_level_for_anything/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq4pb6/does_anyone_use_none_reasoning_level_for_anything/",
+      "ai": {
+        "title": "讨论：推理级别设为 None 是否有实际用途",
+        "summary": "用户讨论在代理任务中禁用推理级别的利弊，分享使用经验。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:32.244Z"
+      }
     },
     {
       "id": "10op2fmfr9x",
@@ -239,11 +332,18 @@
       "publishedAt": "2026-11-07T11:13:42.000Z",
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
-      "category": "agent",
+      "category": "paper",
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "九个 AI 代理尝试解决美国国家实验室难题",
+        "summary": "AI 代理在“未知领域”基准测试中未能通过专家标准。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      }
     },
     {
       "id": "1le6mtl1hps",
@@ -259,7 +359,31 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "1nlcdc2jb11",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4059618356089985",
+          "title": "无预警，OpenAI 突然大规模封号",
+          "publishedAt": "2026-11-09T00:22:15.278Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-07T10:11:00.000Z"
+      },
+      "ai": {
+        "summary": "OpenAI开始大规模封号，涉及卖过API额度的账号。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "13mow8wt5fo",
@@ -295,7 +419,13 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
       "category": "model",
-      "score": 24
+      "score": 24,
+      "ai": {
+        "summary": "OpenAI用GPT加速物理世界的工程，拓展研发新领域。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "9tqj7nh1za",
@@ -310,8 +440,15 @@
       "publishedAt": "2026-11-07T09:54:09.000Z",
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
-      "category": "industry",
-      "score": 15
+      "category": "multimodal",
+      "score": 15,
+      "ai": {
+        "title": "Google AI 可通过智能手表检测高血压",
+        "summary": "AI 利用智能手表传感器检测高血压，准确率优于传统方法。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      }
     },
     {
       "id": "1uc6qge5pbp",
@@ -327,7 +464,15 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "OpenAI 融资 110 亿美元，转向寻求私人投资者",
+        "summary": "OpenAI 获得巨额融资，但转向私人投资者暗示 AI 资本市场趋于饱和。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:32.244Z"
+      },
+      "dupOf": "1xapjyieac8"
     },
     {
       "id": "fw3lnn81up",
@@ -342,8 +487,14 @@
       "publishedAt": "2026-11-07T09:38:56.000Z",
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-07",
-      "category": "opensource",
-      "score": 18
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "GitHub不堪重负，OpenAI收购替代品，马斯克也参与竞争。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "26qvgsd5bvl",
@@ -359,7 +510,13 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "数据中心开始放低姿态，OpenAI公布新社区承诺。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "15ymrx1ykm9",
@@ -376,7 +533,14 @@
       "day": "2026-11-07",
       "category": "paper",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq1y0y/paper_d3d_decoupled_diffusion_drafting_for/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xq1y0y/paper_d3d_decoupled_diffusion_drafting_for/",
+      "ai": {
+        "title": "D3D：异步推测解码的解耦扩散草拟",
+        "summary": "论文提出 D3D 方法，通过解耦扩散草拟优化异步推测解码的速度。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:32.244Z"
+      }
     },
     {
       "id": "1jrqlfs4jp2",
@@ -408,8 +572,14 @@
       "publishedAt": "2026-11-07T07:59:28.000Z",
       "firstSeenAt": "2026-11-08T02:28:42.508Z",
       "day": "2026-11-07",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "为了去AI味，人类开始主动写“烂文章”，引发讨论。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "1l24evtiu90",
@@ -425,7 +595,13 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Meta首席战略官离职，转投AI推理初创公司Fireworks。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
+      }
     },
     {
       "id": "1jddbsxcxos",
@@ -513,9 +689,16 @@
       "publishedAt": "2026-11-07T04:28:19.000Z",
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
-      "category": "model",
-      "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpxfob/another_benchmark_has_hit_the_quant_war/"
+      "category": "paper",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpxfob/another_benchmark_has_hit_the_quant_war/",
+      "ai": {
+        "title": "ISTA-DASLab 量化基准遭遇批评",
+        "summary": "unsloth 批评 ISTA-DASLab 无法复现其基准数据。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      }
     },
     {
       "id": "1sj1iiepbzx",
@@ -624,7 +807,14 @@
       "day": "2026-11-07",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpx0on/good_luck_getting_a_cheap_gpu_amd_is_a_data/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpx0on/good_luck_getting_a_cheap_gpu_amd_is_a_data/",
+      "ai": {
+        "title": "AMD CEO 称其为数据中心优先公司，难获廉价 GPU",
+        "summary": "AMD CEO 表示公司专注于数据中心，暗示消费者难以获得廉价 GPU。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:32.244Z"
+      }
     },
     {
       "id": "11lsv81blfy",
@@ -800,6 +990,12 @@
           "the-decoder"
         ],
         "firstPublishedAt": "2026-11-06T11:38:17.000Z"
+      },
+      "ai": {
+        "summary": "部分投资者下修Anthropic IPO估值至1.5万亿美元，市场担忧放缓。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:42:25.601Z"
       }
     },
     {
@@ -815,12 +1011,19 @@
       "publishedAt": "2026-11-07T02:41:59.000Z",
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
-      "category": "agent",
+      "category": "paper",
       "keywords": [
         "AI 编程"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpvfx8/harness_leaderboard_kimi_code_hermes_pi_claude/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpvfx8/harness_leaderboard_kimi_code_hermes_pi_claude/",
+      "ai": {
+        "title": "Harness Leaderboard：多模型代码能力基准测试",
+        "summary": "Harness Leaderboard 对比 Kimi Code、Hermes、Pi 等模型在终端和代码任务上的表现。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:32.244Z"
+      }
     },
     {
       "id": "v2xupcwbvx",
@@ -1181,12 +1384,34 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 18,
+      "score": 36.9,
       "ai": {
         "summary": "微软据悉逐步终止从甲骨文租用 AI 云算力。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-07T02:50:56.096Z"
+      },
+      "related": [
+        {
+          "id": "1l4yno20c6j",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50395933",
+          "title": "微软终止租赁 AI 云算力的 Oracle 交易",
+          "publishedAt": "2026-11-06T18:04:06.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-06T18:04:06.000Z",
+        "metrics": {
+          "points": 108,
+          "comments": 19
+        }
       }
     },
     {
@@ -1203,7 +1428,7 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 34,
+      "score": 59.9,
       "related": [
         {
           "id": "13gofhqaybe",
@@ -1220,16 +1445,38 @@
           "url": "https://www.qbitai.com/2026/11/508344.html",
           "title": "OpenAI新融资到账110亿美元，不及原计划一半",
           "publishedAt": "2026-11-07T08:11:25.000Z"
+        },
+        {
+          "id": "1uc6qge5pbp",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/",
+          "title": "OpenAI 融资 110 亿美元，转向寻求私人投资者",
+          "publishedAt": "2026-11-07T09:45:23.000Z"
+        },
+        {
+          "id": "1cm5s8fzvll",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50413822",
+          "title": "OpenAI raises $11B at a $1.25T valuation",
+          "publishedAt": "2026-11-08T14:49:23.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 5,
         "sources": [
           "36kr-flash",
           "techcrunch-ai",
-          "qbitai"
+          "qbitai",
+          "the-decoder",
+          "hackernews"
         ],
-        "firstPublishedAt": "2026-11-06T22:53:46.000Z"
+        "firstPublishedAt": "2026-11-06T22:53:46.000Z",
+        "metrics": {
+          "points": 181,
+          "comments": 203
+        }
       },
       "ai": {
         "summary": "OpenAI 完成 110 亿美元新融资，估值达 1.25 万亿美元。",
@@ -1349,7 +1596,14 @@
         "AI 编程"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xppw37/im_going_to_try_to_turn_a_4b_model_into_a/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xppw37/im_going_to_try_to_turn_a_4b_model_into_a/",
+      "ai": {
+        "title": "尝试将 4B 模型打造为实用代码代理",
+        "summary": "开发者计划将 4B 模型改造成能与大型模型竞争的代码代理。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:32.244Z"
+      }
     },
     {
       "id": "y8kj1332u7",
@@ -1415,10 +1669,10 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 34.4,
+      "score": 34.5,
       "metrics": {
-        "points": 370,
-        "comments": 349
+        "points": 373,
+        "comments": 354
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50397994",
       "aiAttempts": 1,
@@ -1471,10 +1725,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "科技巨头竞相扩建 AI 数据中心，引发能源与电网争议。",
+        "title": "AI 数据中心建设引发全球电力与社区争议",
+        "summary": "数据中心扩张导致电力消耗激增，引发全球范围内的电网和社区冲突。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-07T02:50:21.084Z"
+        "at": "2026-11-09T02:41:32.244Z"
       }
     },
     {
@@ -1494,7 +1749,7 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 27.2,
+      "score": 27.9,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune/",
       "ai": {
         "title": "NousResearch 发布基于 Qwen 的 Arete-27B 模型",
@@ -1511,7 +1766,7 @@
         }
       ],
       "metrics": {
-        "likes": 257
+        "likes": 294
       }
     },
     {
@@ -1532,7 +1787,7 @@
         "Agent",
         "开源模型"
       ],
-      "score": 71.8,
+      "score": 72.1,
       "related": [
         {
           "id": "1pjdm9w5bwb",
@@ -1568,7 +1823,7 @@
         "metrics": {
           "points": 339,
           "comments": 127,
-          "likes": 383
+          "likes": 407
         }
       },
       "ai": {
@@ -1616,9 +1871,16 @@
       "publishedAt": "2026-11-06T19:27:43.000Z",
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
-      "category": "industry",
+      "category": "agent",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpls17/tried_the_weight_editing_thing_from_the_mit_post/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpls17/tried_the_weight_editing_thing_from_the_mit_post/",
+      "ai": {
+        "title": "尝试 MIT 权重编辑：修补模型缺陷",
+        "summary": "用户测试 Opus 5.5 的权重编辑功能，用于修补模型训练后的明显缺陷。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:41:32.244Z"
+      }
     },
     {
       "id": "46esbitxa6",
@@ -1759,12 +2021,20 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 20.8,
+      "score": 20.9,
       "metrics": {
-        "points": 107,
+        "points": 108,
         "comments": 19
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50395933"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50395933",
+      "ai": {
+        "title": "微软终止租赁 AI 云算力的 Oracle 交易",
+        "summary": "微软调整云服务策略，不再依赖 Oracle 租赁 AI 容量。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      },
+      "dupOf": "106b30ndgnt"
     },
     {
       "id": "14h5krhnz7q",
@@ -1778,13 +2048,20 @@
       "publishedAt": "2026-11-06T18:03:33.000Z",
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
-      "category": "agent",
-      "score": 21.1,
+      "category": "opensource",
+      "score": 21.4,
       "metrics": {
-        "points": 116,
+        "points": 123,
         "comments": 13
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50395919"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50395919",
+      "ai": {
+        "title": "Memorilla：LLM 的潜在语义记忆",
+        "summary": "Memorilla 为 LLM 提供潜在语义记忆功能。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
+      }
     },
     {
       "id": "uv1xc1t8qh",
@@ -1928,16 +2205,17 @@
       "category": "industry",
       "score": 33.3,
       "metrics": {
-        "points": 317,
-        "comments": 620
+        "points": 318,
+        "comments": 624
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50394906",
       "aiAttempts": 1,
       "ai": {
-        "summary": "Anthropic IPO 估值讨论降至 1.1 万亿美元。",
+        "title": "Anthropic IPO 估值或低至 1.1 万亿美元",
+        "summary": "分析人士认为 Anthropic IPO 估值可能较低。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-07T02:49:35.810Z"
+        "at": "2026-11-09T02:40:47.708Z"
       }
     },
     {
@@ -1958,9 +2236,16 @@
       "keywords": [
         "Agent"
       ],
-      "score": 16.5,
+      "score": 19.9,
       "metrics": {
-        "stars": 440
+        "stars": 885
+      },
+      "ai": {
+        "title": "DIYgod/pinky：让 AI 代理控制手机",
+        "summary": "pinky 项目允许 AI 代理在用户参与下使用手机。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-09T02:40:47.708Z"
       }
     },
     {

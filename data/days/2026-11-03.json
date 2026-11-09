@@ -1132,7 +1132,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 34,
+      "score": 42,
       "related": [
         {
           "id": "12dqfxro2ff",
@@ -1149,14 +1149,23 @@
           "url": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
           "title": "OpenAI 发布新网络安全模型",
           "publishedAt": "2026-11-05T19:06:12.000Z"
+        },
+        {
+          "id": "24yh2m7gjy7",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/podcast/1029038/ai-cybersecurity-hackers-data-breach-dark-age-alex-stamos",
+          "title": "AI 破坏了网络安全世界，接下来如何？",
+          "publishedAt": "2026-11-07T15:00:00.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "jiqizhixin",
           "36kr-ai",
-          "techcrunch-ai"
+          "techcrunch-ai",
+          "verge-ai"
         ],
         "firstPublishedAt": "2026-11-03T10:31:00.000Z"
       }
@@ -1218,9 +1227,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 22,
+      "score": 23.4,
       "metrics": {
-        "stars": 1293
+        "stars": 1615
       }
     },
     {
@@ -1480,9 +1489,9 @@
       "day": "2026-11-03",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 21.7,
+      "score": 22.6,
       "metrics": {
-        "stars": 1228
+        "stars": 1428
       }
     },
     {
@@ -1556,7 +1565,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 4050
+        "stars": 4133
       }
     },
     {
@@ -2279,9 +2288,9 @@
       "day": "2026-11-03",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 17,
+      "score": 17.1,
       "metrics": {
-        "stars": 492
+        "stars": 506
       }
     },
     {
@@ -3629,9 +3638,9 @@
       "day": "2026-11-03",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 18.2,
+      "score": 21,
       "metrics": {
-        "stars": 637
+        "stars": 1078
       }
     },
     {
@@ -4300,10 +4309,18 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xqbesv/effects_of_kv_cache_quantization_on_qwen38_27b/",
           "title": "Effects of KV Cache Quantization on Qwen3.8 27B",
           "publishedAt": "2026-11-07T17:09:51.000Z"
+        },
+        {
+          "id": "n73h5wc6sp",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr2aaa/tencentqwen3827bdspineb16_hugging_face/",
+          "title": "tencent/Qwen3.8-27B-DSpine-b16 · Hugging Face",
+          "publishedAt": "2026-11-08T16:23:48.000Z"
         }
       ],
       "story": {
-        "reports": 9,
+        "reports": 10,
         "sources": [
           "reddit-localllama",
           "simonw",

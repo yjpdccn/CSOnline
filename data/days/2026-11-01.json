@@ -2102,10 +2102,18 @@
           "url": "https://huggingface.co/ccore/Qwen3.5-4B-GLB-3D-Coder",
           "title": "ccore/Qwen3.5-4B-GLB-3D-Coder",
           "publishedAt": "2026-11-01T22:30:01.000Z"
+        },
+        {
+          "id": "1g1ff6enz1z",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr18t3/i_ran_qwen3508b_in_pure_assembly/",
+          "title": "I ran Qwen3.5-0.8B in pure Assembly",
+          "publishedAt": "2026-11-08T15:39:17.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "reddit-localllama",
           "hf-models"
