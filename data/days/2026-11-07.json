@@ -791,6 +791,22 @@
       "dupOf": "u68lplity3"
     },
     {
+      "id": "f2f0iiei0d",
+      "key": "url:techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech",
+      "title": "From the front row to the hot seat — what the midterms mean for Big Tech",
+      "url": "https://techcrunch.com/2026/11/06/from-the-front-row-to-the-hot-seat-what-the-midterms-mean-for-big-tech/",
+      "excerpt": "After spending two years getting cozy with the White House, Big Tech is suddenly trying to make friends with Democrats, and the open question is whether that image makeover can hold up against what states, local communities, and the markets are about to do.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-07T04:16:43.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-07",
+      "category": "industry",
+      "score": 15
+    },
+    {
       "id": "1u5aikkjyxj",
       "key": "url:jiqizhixin.com/articles/2026-11-07",
       "title": "「假电脑」教AI用电脑，出的题连GPT-6 Astra都做不对",
@@ -966,7 +982,34 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 18
+      "score": 34,
+      "related": [
+        {
+          "id": "1fkmdcqtguz",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4062098914285191",
+          "title": "李飞飞对话Jeff Dean：AI 能加速科学，但不会无限加速",
+          "publishedAt": "2026-11-09T23:54:10.670Z"
+        },
+        {
+          "id": "27tjecbnb5a",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/mZlISiZL9c1eurrsZRpo?utm_source=rss&utm_medium=article",
+          "title": "硅谷疯炒 AI 自我进化，李飞飞、Jeff Dean 齐泼冷水：无限加速不可信",
+          "publishedAt": "2026-11-10T03:28:43.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "qbitai",
+          "36kr-ai",
+          "infoq-cn"
+        ],
+        "firstPublishedAt": "2026-11-07T03:23:29.000Z"
+      }
     },
     {
       "id": "2408dpitt8m",
@@ -982,7 +1025,7 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 26,
+      "score": 34,
       "related": [
         {
           "id": "1iew9ruy4zw",
@@ -999,13 +1042,22 @@
           "url": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
           "title": "Anthropic 推进感恩节前 IPO，接受较低估值",
           "publishedAt": "2026-11-07T17:37:25.000Z"
+        },
+        {
+          "id": "1aiy3bbnpdb",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+          "title": "Anthropic 计划推进 IPO，估值范围或本周公布",
+          "publishedAt": "2026-11-10T01:27:12.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "36kr-flash",
-          "the-decoder"
+          "the-decoder",
+          "techcrunch-ai"
         ],
         "firstPublishedAt": "2026-11-06T11:38:17.000Z"
       },
@@ -1492,8 +1544,8 @@
         ],
         "firstPublishedAt": "2026-11-06T22:53:46.000Z",
         "metrics": {
-          "points": 188,
-          "comments": 209
+          "points": 189,
+          "comments": 213
         }
       },
       "ai": {
@@ -1675,6 +1727,29 @@
       }
     },
     {
+      "id": "d5gn2z39pa",
+      "key": "gh:dhruvthakur11/youtube-ai-video-editing-system",
+      "title": "dhruvthakur11/youtube-ai-video-editing-system",
+      "url": "https://github.com/dhruvthakur11/youtube-ai-video-editing-system",
+      "excerpt": "Eyeline teleprompter meets editing agents: JSON-driven animation and motion graphics workflow",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T21:33:17.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-07",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 16.9,
+      "metrics": {
+        "stars": 481
+      }
+    },
+    {
       "id": "1p9dqyab4il",
       "key": "url:planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
       "title": "AI is dramatically accelerating AI research",
@@ -1767,7 +1842,7 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 28.5,
+      "score": 29.2,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune/",
       "ai": {
         "title": "NousResearch 发布基于 Qwen 的 Arete-27B 模型",
@@ -1784,7 +1859,7 @@
         }
       ],
       "metrics": {
-        "likes": 326
+        "likes": 371
       }
     },
     {
@@ -1805,7 +1880,7 @@
         "Agent",
         "开源模型"
       ],
-      "score": 72.4,
+      "score": 72.8,
       "related": [
         {
           "id": "1pjdm9w5bwb",
@@ -1841,7 +1916,7 @@
         "metrics": {
           "points": 339,
           "comments": 127,
-          "likes": 425
+          "likes": 458
         }
       },
       "ai": {
@@ -2254,9 +2329,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22,
+      "score": 22.9,
       "metrics": {
-        "stars": 1284
+        "stars": 1494
       },
       "ai": {
         "title": "DIYgod/pinky：让 AI 代理控制手机",

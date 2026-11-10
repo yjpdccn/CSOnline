@@ -2,6 +2,274 @@
   "day": "2026-11-09",
   "items": [
     {
+      "id": "hk5q64pjzq",
+      "key": "url:theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+      "title": "Trump’s 60 Minutes interview touched on AI safety, threat to arrest an AI exec",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029802/trump-60-minutes-ai",
+      "excerpt": "Asked about AI executives' warnings about their models' safety on 60 Minutes, Trump said, \"I think that the risk is not nearly as real as it- as they talk, and I think the risk can be managed, and it's managed.\" He claimed the DOJ is managing that risk, saying, \"We had a situati…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-09T15:50:38.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "industry",
+      "score": 15
+    },
+    {
+      "id": "8pbgimevik",
+      "key": "url:the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer",
+      "title": "Tencent's AI chief says AI bioweapons are coming, but closing off models isn't the answer",
+      "url": "https://the-decoder.com/tencents-ai-chief-says-ai-bioweapons-are-coming-but-closing-off-models-isnt-the-answer/",
+      "excerpt": "Tencent chief AI scientist Vinces Yao Shunyu warns that AI will soon be able to develop bioweapons and argues for a middle ground between open and closed models. While safety filters on open-source systems can be easily stripped through abliteration, closed models like Anthropic…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-09T15:44:53.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "industry",
+      "score": 15
+    },
+    {
+      "id": "wfo97nufbp",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xruzry/drummers_orion_26b_a4b_v1_and_v11_plus_a_new",
+      "title": "Drummer's Orion 26B A4B v1 and v1.1! ... Plus a new project from yours truly.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xruzry/drummers_orion_26b_a4b_v1_and_v11_plus_a_new/",
+      "excerpt": "https://huggingface.co/TheDrummer/Orion-26B-A4B-v1.1 v1.1 pushes creative writing further and makes full use of Gemma's reasoning. https://huggingface.co/TheDrummer/Orion-26B-A4B-v1 I haven't announced v1 but it's well regarded by the community as a reliable RP workhorse. --- Be…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-09T15:43:28.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xruzry/drummers_orion_26b_a4b_v1_and_v11_plus_a_new/"
+    },
+    {
+      "id": "5niaorwnqd",
+      "key": "url:opper.ai/blog/jevlar-weight-space-programming",
+      "title": "Weight-space programming: editing Qwen3.5 into a top decision model",
+      "url": "https://opper.ai/blog/jevlar-weight-space-programming",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-09T15:40:06.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xruwlf/weightspace_programming_editing_qwen35_into_a_top/",
+      "dupOf": "i1zmxyalde"
+    },
+    {
+      "id": "1gxf0w6yhkm",
+      "key": "url:theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "title": "Disney and Adobe are building generative AI tools together",
+      "url": "https://www.theverge.com/tech/1029773/disney-adobe-generative-ai-partnership",
+      "excerpt": "Who wants a hand-designed and creatively curated monorail anyway. | Image: Disney / Adobe The Walt Disney Company has teamed up with Adobe to develop proprietary \"artist-led\" generative AI models to support Disney's production pipeline. The multiyear partnership was announced to…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-09T15:38:56.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "agent",
+      "score": 23,
+      "related": [
+        {
+          "id": "bzyv7atm1s",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/",
+          "title": "Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire",
+          "publishedAt": "2026-11-09T16:54:16.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "verge-ai",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-11-09T15:38:56.000Z"
+      }
+    },
+    {
+      "id": "1ipgsmom7z9",
+      "key": "url:huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-09T15:05:57.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "model",
+      "score": 36
+    },
+    {
+      "id": "1y5651rqtp5",
+      "key": "url:leiphone.com/category/industrynews/ljjfjnedPmwgYh6Q.html",
+      "title": "千问办公2.0，补上了办公Agent最关键的「短板」",
+      "url": "https://www.leiphone.com/category/industrynews/ljjfjnedPmwgYh6Q.html",
+      "excerpt": "“过去几个月，各家都在拼命证明AI越来越能干活。但说实话，一个人能干活，不代表一群人就能协作。” 一位长期关注AI办公的业内人士，试用完市面上主流的AI办公产品后发现，有些“麻烦”还是绕不开，最典型的就是有些活儿还得靠人工来回“倒腾”。 “Agent能独立完成任务，但很难接住任务在人与人之间的流转。”有时候，AI交付结果后，人跟人之间交接，比Agent自己干那一步更费时间，也更费心力。 AI办公要打To B的仗，就得正视这一困境。 在AI这件事上，企业真正关心的无非两件：一是个人生产力，AI能不能替员工多干点活；二是组织生产力，AI能不能减少团队协作里…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-09T14:16:00.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "dupOf": "1n8vjdsbyr"
+    },
+    {
+      "id": "g5leqshs5y",
+      "key": "hf:meituan-longcat/longcat-2.5",
+      "title": "meituan-longcat/LongCat-2.5 · Hugging Face",
+      "url": "https://huggingface.co/meituan-longcat/LongCat-2.5",
+      "excerpt": "A 1.6T multimodal model. [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-09T14:14:17.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xrsptp/meituanlongcatlongcat25_hugging_face/"
+    },
+    {
+      "id": "mvhaqoo4mv",
+      "key": "url:blogs.nvidia.com/blog/robotics-simulation-advancements-corl",
+      "title": "Practice Makes Precise: At CoRL, NVIDIA and Partners Reveal How Robots Rehearse Delicate Work in Simulation",
+      "url": "https://blogs.nvidia.com/blog/robotics-simulation-advancements-corl/",
+      "excerpt": "Simulation, which has long been the proving ground for robots learning to walk, roll and hop, is now helping researchers teach robots tasks that require a finer touch: aligning gears, connecting cables and assembling small components. The shift from locomotion to manipulation is…",
+      "lang": "en",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-09T14:00:01.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "industry",
+      "score": 30
+    },
+    {
+      "id": "3wpbio7ojz",
+      "key": "url:techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet",
+      "title": "Automattic debuts a platform to deploy vibe-coding apps amid a changing internet",
+      "url": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+      "excerpt": "Automattic aims to compete with the likes of Lovable with Spacefast.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-09T14:00:00.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "industry",
+      "score": 15
+    },
+    {
+      "id": "1a4yh3co786",
+      "key": "url:36kr.com/p/4062169952851589",
+      "title": "机器人抢饭碗之前，先来和你抢对象了",
+      "url": "https://36kr.com/p/4062169952851589",
+      "excerpt": "亲密陪伴人形机器人兴起，暗藏多重风险与争议",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-09T13:46:48.924Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "17k3qko6f8s",
+      "key": "url:36kr.com/p/4062414893716612",
+      "title": "前OpenAI员工看吐，AI研发AI冲线“终极超级智能”，停建全球机房也晚了",
+      "url": "https://36kr.com/p/4062414893716612",
+      "excerpt": "时间表大幅提前，内部模型甩开公开版9个月",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-09T13:43:13.102Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "rfczoqnzfi",
+      "key": "url:36kr.com/p/4062425405576321",
+      "title": "第一个被AI做大的国家，现在怎么样了？",
+      "url": "https://36kr.com/p/4062425405576321",
+      "excerpt": "飞得越高，摔得越狠？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-09T13:33:21.884Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2bagtn57x6h",
+      "key": "url:36kr.com/p/4062425927210119",
+      "title": "宠物硬件集体转向，AI开始接管宠物健康",
+      "url": "https://36kr.com/p/4062425927210119",
+      "excerpt": "宠物硬件企业，正在经历一场生意逻辑的大转向。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-09T13:22:04.115Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "8tz0z9mu5n",
+      "key": "url:36kr.com/p/4062426410292104",
+      "title": "“老谋子”也心慌：AI会把电影院干凉吗？",
+      "url": "https://36kr.com/p/4062426410292104",
+      "excerpt": "以后还有多少人愿意为电影出门？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-09T13:17:56.879Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "industry",
+      "score": 18
+    },
+    {
       "id": "3mbt10iql4",
       "key": "gh:zhulinsen/daily_stock_analysis",
       "title": "ZhuLinsen/daily_stock_analysis",
@@ -18,8 +286,8 @@
       "categoryLocked": true,
       "score": 25.6,
       "metrics": {
-        "stars": 68486,
-        "starsToday": 505
+        "stars": 69107,
+        "starsToday": 506
       },
       "ai": {
         "title": "LLM 驱动的多市场股票智能分析系统",
@@ -46,7 +314,7 @@
       "categoryLocked": true,
       "score": 12.3,
       "metrics": {
-        "stars": 5577,
+        "stars": 6107,
         "starsToday": 31
       },
       "aiAttempts": 1,
@@ -80,6 +348,22 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-09T13:10:56.641Z"
       }
+    },
+    {
+      "id": "d4lbxtih8s",
+      "key": "url:openai.com/index/control-room",
+      "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
+      "url": "https://openai.com/index/control-room",
+      "excerpt": "Learn how OpenAI’s Control Room tracks model workloads across our research infrastructure and can rapidly stop them when safety or security concerns arise.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-09T13:00:00.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "industry",
+      "score": 30
     },
     {
       "id": "1recxex189l",
@@ -797,12 +1081,30 @@
       "firstSeenAt": "2026-11-09T13:08:33.517Z",
       "day": "2026-11-09",
       "category": "paper",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "全球首个真实湿实验的 Physical AI Verifier 面世。",
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-09T13:13:46.059Z"
+      },
+      "related": [
+        {
+          "id": "h7smn9v0ti",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4062286212715400",
+          "title": "AI Scientists「终极大考」，全球首个真实湿实验的Physical AI Verifier来了",
+          "publishedAt": "2026-11-10T03:24:41.167Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-09T09:04:00.000Z"
       }
     },
     {
@@ -1046,6 +1348,31 @@
       "score": 18
     },
     {
+      "id": "1not142f2q",
+      "key": "hn:50422628",
+      "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
+      "url": "https://news.ycombinator.com/item?id=50422628",
+      "excerpt": "The agent running on a remote machine can authenticate using your local SSH credentials.That means it can push to your private repos on GitHub, for example.Proof: https://github.com/openai/codex/pull/28131#discussion_r3410013180",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-09T08:17:49.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 26.7,
+      "metrics": {
+        "points": 206,
+        "comments": 72
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50422628"
+    },
+    {
       "id": "2rw7z0p1u2",
       "key": "url:jiqizhixin.com/articles/2026-11-09-7",
       "title": "两年内把GPT-6的智能装进手机！我们已经抵达端侧智能的「撞线前夜」",
@@ -1211,6 +1538,42 @@
       "score": 18
     },
     {
+      "id": "1070cjdd8j2",
+      "key": "url:openai.com/index/coderabbit-codex-daybreak",
+      "title": "CodeRabbit scales agentic software development and ships 20x more",
+      "url": "https://openai.com/index/coderabbit-codex-daybreak",
+      "excerpt": "CodeRabbit uses OpenAI models to govern and trust AI-generated code and Codex to ship 20 times more software with the same engineering team.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-09T08:00:00.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 30
+    },
+    {
+      "id": "2d8s9o0xv7u",
+      "key": "url:openai.com/index/kuken",
+      "title": "Kuken Industries searches 70 years of drawings in minutes",
+      "url": "https://openai.com/index/kuken",
+      "excerpt": "Kuken Industries uses the OpenAI API to search 70 years of cooling tower drawings. Engineers can find the drawing for a repair in 4.5 minutes, down from nearly an hour.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-09T08:00:00.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "industry",
+      "score": 30
+    },
+    {
       "id": "1n8vjdsbyr",
       "key": "url:leiphone.com/category/industrynews/D80ceE4xuglkLvIu.html",
       "title": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
@@ -1244,10 +1607,18 @@
           "url": "https://www.qbitai.com/2026/11/508694.html",
           "title": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
           "publishedAt": "2026-11-09T08:34:03.000Z"
+        },
+        {
+          "id": "1y5651rqtp5",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/ljjfjnedPmwgYh6Q.html",
+          "title": "千问办公2.0，补上了办公Agent最关键的「短板」",
+          "publishedAt": "2026-11-09T14:16:00.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "leiphone",
           "infoq-cn",
@@ -1533,6 +1904,26 @@
       "score": 18
     },
     {
+      "id": "23rdwm0jd63",
+      "key": "url:stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
+      "title": "Apple capped engineers at a $200 daily AI budget",
+      "url": "https://www.stork.ai/newsletter/2026-11-08-apple-capped-engineers-at-a-200-daily-ai-budget",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-09T05:30:11.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "industry",
+      "score": 23.8,
+      "metrics": {
+        "points": 113,
+        "comments": 121
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50421426"
+    },
+    {
       "id": "biko4ec5ie",
       "key": "url:techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50",
       "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
@@ -1738,6 +2129,30 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-09T13:10:56.641Z"
       }
+    },
+    {
+      "id": "i8f0in99eb",
+      "key": "gh:omnijev/flide",
+      "title": "Show HN: Flide: Make Jev-like decision models up to 9.5x faster",
+      "url": "https://github.com/OmniJev/Flide",
+      "excerpt": "Decision models need their own inference engine.So we developed Flide, a high-performance and exact inference engine for Jev-like decision models.Flide achieves up to a 9.5x speedup over vLLM and SGLang.It now supports 30+ popular local Jev-like decision models.Start to make you…",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-09T04:43:12.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "opensource",
+      "keywords": [
+        "本地部署"
+      ],
+      "score": 22,
+      "metrics": {
+        "points": 121,
+        "comments": 29
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50421155"
     },
     {
       "id": "29bhdhphl5h",
@@ -2093,7 +2508,7 @@
       "firstSeenAt": "2026-11-09T02:39:52.670Z",
       "day": "2026-11-09",
       "category": "industry",
-      "score": 34,
+      "score": 42,
       "ai": {
         "summary": "黄仁勋承认婚外情，英伟达启动调查。",
         "category": "industry",
@@ -2116,14 +2531,39 @@
           "url": "https://www.qbitai.com/2026/11/508498.html",
           "title": "黄仁勋承认出轨发全员信道歉！英伟达启动紧急调查",
           "publishedAt": "2026-11-09T00:40:50.000Z"
+        },
+        {
+          "id": "pabzsn1lp4",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+          "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+          "publishedAt": "2026-11-09T18:09:52.000Z"
+        },
+        {
+          "id": "23fjg1qvyih",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+          "title": "Nvidia 股价因调查黄仁勋关系而下跌超 4%",
+          "publishedAt": "2026-11-09T22:23:42.000Z"
+        },
+        {
+          "id": "vo2d51hxf3",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
+          "title": "What could China get from Jensen Huang?",
+          "publishedAt": "2026-11-09T23:51:58.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 6,
         "sources": [
           "jiqizhixin",
           "verge-ai",
-          "qbitai"
+          "qbitai",
+          "techcrunch-ai"
         ],
         "firstPublishedAt": "2026-11-08T20:22:39.000Z"
       }
@@ -2215,15 +2655,24 @@
           "url": "https://36kr.com/newsflashes/4062363821577349",
           "title": "字节跳动发布Seedream5.5，新模型生成速度大幅提升",
           "publishedAt": "2026-11-09T10:19:59.000Z"
+        },
+        {
+          "id": "phs4yhz4xs",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/",
+          "title": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
+          "publishedAt": "2026-11-09T18:50:01.000Z"
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 5,
         "sources": [
           "seed",
           "jiqizhixin",
           "leiphone",
-          "36kr-flash"
+          "36kr-flash",
+          "the-decoder"
         ],
         "firstPublishedAt": "2026-11-09T02:00:00.000Z"
       },
@@ -2448,10 +2897,10 @@
       "day": "2026-11-09",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.9,
+      "score": 22.5,
       "metrics": {
-        "upvotes": 59,
-        "comments": 1
+        "upvotes": 64,
+        "comments": 2
       },
       "ai": {
         "title": "SplatAnything：任意场景前馈 3DGS",
@@ -2459,6 +2908,30 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-09T13:10:56.641Z"
+      }
+    },
+    {
+      "id": "11yptcu3wxo",
+      "key": "arxiv:2611.06043",
+      "title": "Confucius4-R2T2: A Stable-Prefix Streaming ASR Model for Real Real-Time Transcription",
+      "url": "https://huggingface.co/papers/2611.06043",
+      "excerpt": "A full-context speech recognizer is adapted to emit immutable streaming transcripts with near full-context accuracy and low latency by learning longest stable prefix labels.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "firstSeenAt": "2026-11-10T04:38:32.027Z",
+      "day": "2026-11-09",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "语音"
+      ],
+      "score": 21.8,
+      "metrics": {
+        "upvotes": 57,
+        "comments": 2
       }
     },
     {
@@ -2474,10 +2947,10 @@
       "firstSeenAt": "2026-11-09T13:08:33.517Z",
       "day": "2026-11-09",
       "category": "industry",
-      "score": 34.5,
+      "score": 36,
       "metrics": {
-        "points": 373,
-        "comments": 635
+        "points": 545,
+        "comments": 942
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50418975",
       "aiAttempts": 1
@@ -2588,10 +3061,34 @@
           "url": "https://techcrunch.com/2026/11/08/is-jensen-huangs-job-on-the-line-yales-jeffrey-sonnenfeld-estimates-its-about-a-50-50/",
           "title": "Is Jensen Huang’s job on the line? Yale’s Jeffrey Sonnenfeld estimates it’s “about a 50-50”",
           "publishedAt": "2026-11-09T05:26:29.000Z"
+        },
+        {
+          "id": "254zdd5x1ls",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1029990/jensen-huang-the-spy-who-loved-me",
+          "title": "The future of AI hinges on… Jensen Huang’s sex life?",
+          "publishedAt": "2026-11-09T17:36:08.000Z"
+        },
+        {
+          "id": "14n2zz8zegv",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+          "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+          "publishedAt": "2026-11-09T20:09:06.000Z"
+        },
+        {
+          "id": "16ywwer0r2v",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+          "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
+          "publishedAt": "2026-11-09T23:28:37.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 5,
         "sources": [
           "verge-ai",
           "techcrunch-ai"
@@ -2640,7 +3137,7 @@
       "firstSeenAt": "2026-11-09T02:39:52.670Z",
       "day": "2026-11-09",
       "category": "industry",
-      "score": 15,
+      "score": 23,
       "aiAttempts": 1,
       "ai": {
         "title": "NVIDIA 调查黄仁勋与疑似中国间谍的关系",
@@ -2648,6 +3145,24 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-09T13:10:56.641Z"
+      },
+      "related": [
+        {
+          "id": "1ugr8v1gpck",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+          "title": "Everything we know so far about the Nvidia spy scandal targeting CEO Jensen Huang",
+          "publishedAt": "2026-11-09T23:07:59.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "techcrunch-ai",
+          "verge-ai"
+        ],
+        "firstPublishedAt": "2026-11-08T21:00:11.000Z"
       }
     },
     {
@@ -2713,10 +3228,10 @@
       "firstSeenAt": "2026-11-09T02:39:52.670Z",
       "day": "2026-11-09",
       "category": "agent",
-      "score": 30.7,
+      "score": 31.7,
       "metrics": {
-        "points": 275,
-        "comments": 188
+        "points": 303,
+        "comments": 212
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50416363",
       "aiAttempts": 2,
@@ -2797,8 +3312,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 805,
-        "comments": 431
+        "points": 885,
+        "comments": 475
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50415628",
       "aiAttempts": 2,

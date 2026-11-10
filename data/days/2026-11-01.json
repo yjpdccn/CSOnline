@@ -2110,10 +2110,26 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr18t3/i_ran_qwen3508b_in_pure_assembly/",
           "title": "I ran Qwen3.5-0.8B in pure Assembly",
           "publishedAt": "2026-11-08T15:39:17.000Z"
+        },
+        {
+          "id": "5niaorwnqd",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xruwlf/weightspace_programming_editing_qwen35_into_a_top/",
+          "title": "Weight-space programming: editing Qwen3.5 into a top decision model",
+          "publishedAt": "2026-11-09T15:40:06.000Z"
+        },
+        {
+          "id": "12g1e4h2zwe",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xrydgx/more_interesting_and_unusual_qwen354b_neurons/",
+          "title": "More interesting and unusual Qwen3.5-4B neurons",
+          "publishedAt": "2026-11-09T17:46:55.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 5,
         "sources": [
           "reddit-localllama",
           "hf-models"

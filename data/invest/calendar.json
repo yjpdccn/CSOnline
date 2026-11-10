@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T13:08:33.517Z",
+  "updatedAt": "2026-11-10T04:38:32.027Z",
   "events": [
     {
       "id": "wscn-15681",
@@ -12,14 +12,26 @@
     },
     {
       "id": "wscn-1599098",
-      "at": "2026-11-10T04:02:00.000Z",
+      "at": "2026-11-10T02:30:00.000Z",
       "country": "中国",
       "title": "10月进口同比(按美元计) · 10月出口同比(按美元计)",
       "importance": 4,
       "kind": "data",
       "source": "华尔街见闻",
-      "dateOnly": true,
       "previous": "31",
+      "actual": "41.6",
+      "unit": "%"
+    },
+    {
+      "id": "wscn-1597935",
+      "at": "2026-11-10T04:02:00.000Z",
+      "country": "中国",
+      "title": "10月M2货币供应同比 · 1至10月社会融资规模增量(亿人民币) · 1至10月新增人民币贷款(亿人民币)",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "dateOnly": true,
+      "previous": "7.2",
       "unit": "%"
     },
     {
@@ -105,6 +117,7 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "0.8",
+      "forecast": "0.1",
       "unit": "%"
     },
     {

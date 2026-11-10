@@ -1,5 +1,10 @@
 {
   "sent": {
+    "alert:move:ndx:2026-11-09": {
+      "hash": "move:ndx:2026-11-09",
+      "label": "纳斯达克100 11月9日上涨 3.4%",
+      "kind": "event"
+    },
     "alert:replace:008702:008701": {
       "hash": "replace:008702:008701",
       "label": "华夏黄金ETF联接C（008702）",
@@ -43,5 +48,5 @@
   },
   "issueNumber": 1,
   "channel": "serverchan",
-  "lastSentAt": "2026-11-06T03:26:50.356Z"
+  "lastSentAt": "2026-11-10T04:38:32.027Z"
 }
