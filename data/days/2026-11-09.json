@@ -312,10 +312,10 @@
       "day": "2026-11-09",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 12.3,
+      "score": 28.9,
       "metrics": {
-        "stars": 6107,
-        "starsToday": 31
+        "stars": 6493,
+        "starsToday": 792
       },
       "aiAttempts": 1,
       "ai": {
@@ -750,7 +750,25 @@
       "firstSeenAt": "2026-11-09T13:08:33.517Z",
       "day": "2026-11-09",
       "category": "industry",
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "23l2cquybbp",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/MQTTu6dgGxHBZm1wOLPI?utm_source=rss&utm_medium=article",
+          "title": "给 AI 腾内存？Discord 抛弃Electron，省70%内存还秒开：Windows应用该跟进了",
+          "publishedAt": "2026-11-10T08:04:53.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "infoq-cn"
+        ],
+        "firstPublishedAt": "2026-11-09T10:39:20.530Z"
+      }
     },
     {
       "id": "1zkk93gbv0m",
@@ -1040,12 +1058,30 @@
       "firstSeenAt": "2026-11-09T13:08:33.517Z",
       "day": "2026-11-09",
       "category": "model",
-      "score": 28,
+      "score": 36,
       "ai": {
         "summary": "百度披露 RSI 进展，ERNIE Evolve 已用于文心 5.5 Flash。",
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-09T13:13:46.059Z"
+      },
+      "related": [
+        {
+          "id": "mq4a5v83v5",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-10-4",
+          "title": "百度披露文心 5.5 Flash 研发技术，引入全新 RSI 技术，用于昆仑芯 P800 推理优化",
+          "publishedAt": "2026-11-10T03:11:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "leiphone",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-09T09:18:00.000Z"
       }
     },
     {
@@ -1254,10 +1290,18 @@
           "url": "https://www.qbitai.com/2026/11/508706.html",
           "title": "“AI毁了我的计算机学位”",
           "publishedAt": "2026-11-09T08:57:20.000Z"
+        },
+        {
+          "id": "83z09qcg6b",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4063798355793027",
+          "title": "“AI正在毁掉我的计算机学位，”一名大学生吐槽：作业量暴涨3倍，老师用AI出题，学生却成了“小白鼠”",
+          "publishedAt": "2026-11-10T12:22:50.671Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "36kr-ai",
           "qbitai"
@@ -1365,10 +1409,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 26.7,
+      "score": 27,
       "metrics": {
-        "points": 206,
-        "comments": 72
+        "points": 213,
+        "comments": 75
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50422628"
     },
@@ -1590,7 +1634,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 38,
+      "score": 46,
       "related": [
         {
           "id": "21fsrvaqvrv",
@@ -1615,14 +1659,31 @@
           "url": "https://www.leiphone.com/category/industrynews/ljjfjnedPmwgYh6Q.html",
           "title": "千问办公2.0，补上了办公Agent最关键的「短板」",
           "publishedAt": "2026-11-09T14:16:00.000Z"
+        },
+        {
+          "id": "2et5oeo0k8a",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/508798.html",
+          "title": "千问办公2.0卷向Team Agent，我们用它跑了一遍编辑部日常",
+          "publishedAt": "2026-11-10T01:27:09.000Z"
+        },
+        {
+          "id": "1e9u344x75c",
+          "sourceId": "geekpark",
+          "sourceName": "极客公园",
+          "url": "http://www.geekpark.net/news/373760",
+          "title": "千问办公押注 Team Agent，企业 AI 的流水线时刻真的来了",
+          "publishedAt": "2026-11-10T04:52:07.000Z"
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 6,
         "sources": [
           "leiphone",
           "infoq-cn",
-          "qbitai"
+          "qbitai",
+          "geekpark"
         ],
         "firstPublishedAt": "2026-11-09T07:46:00.000Z"
       },
@@ -1807,6 +1868,26 @@
       "score": 18
     },
     {
+      "id": "120rqbilljx",
+      "key": "gh:fjnb5/fujiang-pojia",
+      "title": "FJNB5/fujiang-pojia",
+      "url": "https://github.com/FJNB5/fujiang-pojia",
+      "excerpt": "富江破甲（破甲）：DeepSeek Harness破甲插件，激活词富江，所有东西直接大白话问，内含技能库skill下载与调用、漏洞知识库poc利用、漏洞报告更新和全自动授权渗透。当前版本：0.20.12，附免责声明。插件图片看最下面",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-09T05:55:55.000Z",
+      "firstSeenAt": "2026-11-10T18:39:46.029Z",
+      "day": "2026-11-09",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 17,
+      "metrics": {
+        "stars": 493
+      }
+    },
+    {
       "id": "1xchyg53g3p",
       "key": "url:36kr.com/p/4061918518351491",
       "title": "智能体之争，大厂的下一场零和博弈",
@@ -1919,7 +2000,7 @@
       "score": 23.8,
       "metrics": {
         "points": 113,
-        "comments": 121
+        "comments": 124
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50421426"
     },
@@ -2147,9 +2228,9 @@
       "keywords": [
         "本地部署"
       ],
-      "score": 22,
+      "score": 22.1,
       "metrics": {
-        "points": 121,
+        "points": 124,
         "comments": 29
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50421155"
@@ -2555,10 +2636,18 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1030328/what-could-china-get-from-jensen-huang",
           "title": "What could China get from Jensen Huang?",
           "publishedAt": "2026-11-09T23:51:58.000Z"
+        },
+        {
+          "id": "1gjlg3kepza",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+          "publishedAt": "2026-11-10T17:04:19.000Z"
         }
       ],
       "story": {
-        "reports": 6,
+        "reports": 7,
         "sources": [
           "jiqizhixin",
           "verge-ai",
@@ -2663,16 +2752,25 @@
           "url": "https://the-decoder.com/bytedances-seedream-5-5-promises-pixel-stable-image-editing-across-100-rounds-without-color-drift/",
           "title": "Bytedance's Seedream 5.5 promises pixel-stable image editing across 100 rounds without color drift",
           "publishedAt": "2026-11-09T18:50:01.000Z"
+        },
+        {
+          "id": "8yvo2pmyl8",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/508828.html",
+          "title": "100轮图像编辑这道「毙刷题」，新出的Seedream 5.5稳上来了！",
+          "publishedAt": "2026-11-10T02:48:22.000Z"
         }
       ],
       "story": {
-        "reports": 5,
+        "reports": 6,
         "sources": [
           "seed",
           "jiqizhixin",
           "leiphone",
           "36kr-flash",
-          "the-decoder"
+          "the-decoder",
+          "qbitai"
         ],
         "firstPublishedAt": "2026-11-09T02:00:00.000Z"
       },
@@ -2897,9 +2995,9 @@
       "day": "2026-11-09",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.5,
+      "score": 22.8,
       "metrics": {
-        "upvotes": 64,
+        "upvotes": 67,
         "comments": 2
       },
       "ai": {
@@ -2928,10 +3026,31 @@
       "keywords": [
         "语音"
       ],
-      "score": 21.8,
+      "score": 24.5,
       "metrics": {
-        "upvotes": 57,
+        "upvotes": 86,
         "comments": 2
+      }
+    },
+    {
+      "id": "2gdq43ge444",
+      "key": "arxiv:2611.03953",
+      "title": "P^2-MOPD: Accelerating Multi-Teacher On-Policy Distillation via Parameter Priors",
+      "url": "https://huggingface.co/papers/2611.03953",
+      "excerpt": "P^2-MOPD jointly optimizes mixing coefficients and student weights under an on-policy distillation objective, enabling faster and more balanced recovery than MOPD by treating experts as parameter priors while keeping the student trainable.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "firstSeenAt": "2026-11-10T18:39:46.029Z",
+      "day": "2026-11-09",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 21.3,
+      "metrics": {
+        "upvotes": 50,
+        "comments": 8
       }
     },
     {
@@ -2949,8 +3068,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 545,
-        "comments": 942
+        "points": 560,
+        "comments": 957
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50418975",
       "aiAttempts": 1
@@ -3228,10 +3347,10 @@
       "firstSeenAt": "2026-11-09T02:39:52.670Z",
       "day": "2026-11-09",
       "category": "agent",
-      "score": 31.7,
+      "score": 31.8,
       "metrics": {
-        "points": 303,
-        "comments": 212
+        "points": 308,
+        "comments": 213
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50416363",
       "aiAttempts": 2,
@@ -3312,8 +3431,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 885,
-        "comments": 475
+        "points": 895,
+        "comments": 485
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50415628",
       "aiAttempts": 2,

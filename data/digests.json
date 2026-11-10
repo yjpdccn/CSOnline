@@ -503,5 +503,47 @@
         ]
       }
     ]
+  },
+  "2026-11-11": {
+    "day": "2026-11-11",
+    "generatedAt": "2026-11-10T18:41:19.821Z",
+    "itemCount": 134,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "Anthropic启动IPO路演，Gemini 4 Carbon发布，Google与Adobe深化工具整合。",
+    "points": [
+      {
+        "text": "Anthropic启动IPO路演，拟发行价区间70-78美元。",
+        "refs": [
+          "1eolfvwy8sc",
+          "1yozod9ygfr",
+          "kaldnqvk2t"
+        ]
+      },
+      {
+        "text": "Google与Adobe整合创意工具，支持在Drive中编辑PDF。",
+        "refs": [
+          "1qdvwrlqwnu"
+        ]
+      },
+      {
+        "text": "Gemini 4 Carbon模型发布。",
+        "refs": [
+          "x4lz0iasef"
+        ]
+      },
+      {
+        "text": "Google Cloud推出Gemini医疗版，统一临床数据并自动化工作流。",
+        "refs": [
+          "1cxttmp7rg1"
+        ]
+      },
+      {
+        "text": "蚂蚁灵波开源触觉基础模型LingBot-Touch。",
+        "refs": [
+          "ies01lhn7w"
+        ]
+      }
+    ]
   }
 }

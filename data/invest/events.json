@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T04:38:32.027Z",
+  "updatedAt": "2026-11-10T18:39:46.029Z",
   "bands": {
     "ndx": "mid",
     "spx": "mid",
@@ -8,6 +8,14 @@
     "divlowvol": "high"
   },
   "events": [
+    {
+      "id": "policy:2ggf4jtfya2",
+      "kind": "policy",
+      "at": "2026-11-09T19:10:27.000Z",
+      "title": "特朗普政府将不发布美国10月CPI与核心CPI的同比数据",
+      "detail": "华尔街见闻 等 6 家来源报道",
+      "url": "https://wallstreetcn.com/livenews/3197117"
+    },
     {
       "id": "move:ndx:2026-11-09",
       "kind": "move",

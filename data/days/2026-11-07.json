@@ -129,10 +129,18 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xr3qes/motion_graphics_video_made_with_qwen38_flash_next/",
           "title": "Motion graphics video made with Qwen3.8 Flash Next GSQ RCO IQ3_XXS on strata",
           "publishedAt": "2026-11-08T17:23:29.000Z"
+        },
+        {
+          "id": "164yj1q63cy",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsbmbx/qwen38flashnext_have_you_tried_swapping_the/",
+          "title": "Qwen3.8-Flash-Next: Have you tried swapping the ngrams as per their latest version?",
+          "publishedAt": "2026-11-10T02:46:55.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "reddit-localllama"
         ],
@@ -1050,10 +1058,18 @@
           "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
           "title": "Anthropic 计划推进 IPO，估值范围或本周公布",
           "publishedAt": "2026-11-10T01:27:12.000Z"
+        },
+        {
+          "id": "17vyrd1x1il",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4063869365277824",
+          "title": "Anthropic：IPO目标估值约1万亿美元",
+          "publishedAt": "2026-11-10T11:41:41.689Z"
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 5,
         "sources": [
           "36kr-flash",
           "the-decoder",
@@ -1347,6 +1363,26 @@
       }
     },
     {
+      "id": "1gdi8oo14gw",
+      "key": "gh:dabingfy-dot/solo-to-team-skills",
+      "title": "dabingfy-dot/solo-to-team-skills",
+      "url": "https://github.com/dabingfy-dot/solo-to-team-skills",
+      "excerpt": "Skills for human-led AI teams: delegate tasks, verify evidence, explain steps clearly, and learn from real cases. 一个人统筹 AI 团队：派活、核证、清楚说明、经验复用。",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-07T01:36:28.000Z",
+      "firstSeenAt": "2026-11-10T18:39:46.029Z",
+      "day": "2026-11-07",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 17.5,
+      "metrics": {
+        "stars": 545
+      }
+    },
+    {
       "id": "14q6fsqcdmw",
       "key": "url:36kr.com/p/4052696726328452",
       "title": "成都具身智能公司获千万级天使轮融资，基于开源鸿蒙开发机器人大脑｜硬氪首发",
@@ -1498,7 +1534,7 @@
       "firstSeenAt": "2026-11-07T02:48:03.096Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 60.3,
+      "score": 60.4,
       "related": [
         {
           "id": "13gofhqaybe",
@@ -1545,7 +1581,7 @@
         "firstPublishedAt": "2026-11-06T22:53:46.000Z",
         "metrics": {
           "points": 189,
-          "comments": 213
+          "comments": 216
         }
       },
       "ai": {
@@ -1750,6 +1786,26 @@
       }
     },
     {
+      "id": "1cwz8y4o2aa",
+      "key": "gh:abhikamane/ai-app-builder-open",
+      "title": "AbhiKamane/ai-app-builder-open",
+      "url": "https://github.com/AbhiKamane/ai-app-builder-open",
+      "excerpt": "Open-source AI app builder for full-stack Next.js apps with hosting and auth",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T20:33:39.000Z",
+      "firstSeenAt": "2026-11-10T18:39:46.029Z",
+      "day": "2026-11-07",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.9,
+      "metrics": {
+        "stars": 481
+      }
+    },
+    {
       "id": "1p9dqyab4il",
       "key": "url:planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
       "title": "AI is dramatically accelerating AI research",
@@ -1842,7 +1898,7 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 29.2,
+      "score": 29.4,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune/",
       "ai": {
         "title": "NousResearch 发布基于 Qwen 的 Arete-27B 模型",
@@ -1859,7 +1915,7 @@
         }
       ],
       "metrics": {
-        "likes": 371
+        "likes": 387
       }
     },
     {
@@ -1880,7 +1936,7 @@
         "Agent",
         "开源模型"
       ],
-      "score": 72.8,
+      "score": 73,
       "related": [
         {
           "id": "1pjdm9w5bwb",
@@ -1916,7 +1972,7 @@
         "metrics": {
           "points": 339,
           "comments": 127,
-          "likes": 458
+          "likes": 474
         }
       },
       "ai": {
@@ -2329,9 +2385,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22.9,
+      "score": 23.5,
       "metrics": {
-        "stars": 1494
+        "stars": 1647
       },
       "ai": {
         "title": "DIYgod/pinky：让 AI 代理控制手机",
