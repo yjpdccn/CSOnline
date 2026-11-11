@@ -87,7 +87,8 @@
         "Agent",
         "语音"
       ],
-      "score": 15
+      "score": 15,
+      "dupOf": "27mxst28gdq"
     },
     {
       "id": "221l6tox9hk",
@@ -106,6 +107,23 @@
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xsp3xt/minimaxaiminimaxh3image_hugging_face/",
       "dupOf": "2ac62ziqp47"
+    },
+    {
+      "id": "d90iqvrkz",
+      "key": "url:longtail-swe.com/",
+      "title": "We tested Qwen3.6 27B, Qwen3.8 27B and GLM-5.3 Flash on real tasks in Elixir, OCaml, Haskell and 10 other less common languages",
+      "url": "https://longtail-swe.com/",
+      "excerpt": "Hi! My team and I built a benchmark of 202 real GitHub tasks in 13 languages that rarely show up in coding benchmarks: Elixir, OCaml, Haskell, Clojure, Kotlin, Swift, Julia, R and others. I think a lot of people do local development in these languages too. We didn’t have a huge…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-10T14:48:25.000Z",
+      "firstSeenAt": "2026-11-11T02:47:08.191Z",
+      "day": "2026-11-10",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xsorsx/we_tested_qwen36_27b_qwen38_27b_and_glm53_flash/"
     },
     {
       "id": "2ac62ziqp47",
@@ -535,7 +553,25 @@
       "firstSeenAt": "2026-11-10T18:39:46.029Z",
       "day": "2026-11-10",
       "category": "industry",
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "11jf9srfuvg",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4064679613486213",
+          "title": "平头哥要上市，阿里AI的第一个“大结果”",
+          "publishedAt": "2026-11-11T02:10:00.719Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "leiphone",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-10T12:46:00.000Z"
+      }
     },
     {
       "id": "1sjr2g9a0ga",
@@ -621,6 +657,23 @@
       "dupOf": "1eolfvwy8sc"
     },
     {
+      "id": "19uqq8zl6jo",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xsl8w7/strata_after_heavy_optimizations",
+      "title": "Strata after heavy optimizations",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsl8w7/strata_after_heavy_optimizations/",
+      "excerpt": "I can't believe this jump is just left on the table https://github.com/ExTV/strata-5090-4070 The optimizations was done using both Opus 5.5 and Fable 5.2 . Edit : i should have mentioned that my 4070Ti Super is on PCIe 3 x1 Edit2 : the repo is updated with quality benchmarks [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-10T12:08:12.000Z",
+      "firstSeenAt": "2026-11-11T02:47:08.191Z",
+      "day": "2026-11-10",
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xsl8w7/strata_after_heavy_optimizations/"
+    },
+    {
       "id": "1kbtlw9ni91",
       "key": "url:deepmind.google/blog/introducing-alphaproof-code",
       "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
@@ -638,6 +691,26 @@
         "Agent"
       ],
       "score": 34
+    },
+    {
+      "id": "qv2454n3sh",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xsl4qt/paper_exploring_weightspace_programming",
+      "title": "[Paper] Exploring Weight-Space Programming: Capabilities, Generalization, and Limitations",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsl4qt/paper_exploring_weightspace_programming/",
+      "excerpt": "Weight-Space Programming (WSP) enables reasoning agents to directly inspect and modify neural network parameters, offering an alternative to gradient-based model adaptation. However, its capabilities, cross-task generalization, and practical limitations remain insufficiently und…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-10T12:02:19.000Z",
+      "firstSeenAt": "2026-11-11T02:47:08.191Z",
+      "day": "2026-11-10",
+      "category": "paper",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xsl4qt/paper_exploring_weightspace_programming/"
     },
     {
       "id": "1r2xgjixzip",
@@ -843,15 +916,24 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1030703/anthropic-ipo-1-4-trillion",
           "title": "Anthropic targets $1.4 trillion IPO",
           "publishedAt": "2026-11-10T14:06:54.000Z"
+        },
+        {
+          "id": "25nh2uwg09y",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4064071304336262",
+          "title": "Anthropic启动IPO路演，七家科技巨头联手下注",
+          "publishedAt": "2026-11-11T00:00:47.505Z"
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 5,
         "sources": [
           "36kr-flash",
           "the-decoder",
           "techcrunch-ai",
-          "verge-ai"
+          "verge-ai",
+          "36kr-ai"
         ],
         "firstPublishedAt": "2026-11-10T11:41:04.550Z"
       }
@@ -1115,10 +1197,10 @@
       "firstSeenAt": "2026-11-10T18:39:46.029Z",
       "day": "2026-11-10",
       "category": "industry",
-      "score": 27.3,
+      "score": 35,
       "metrics": {
-        "points": 165,
-        "comments": 207
+        "points": 399,
+        "comments": 418
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50438318"
     },
@@ -1608,10 +1690,10 @@
       "firstSeenAt": "2026-11-10T18:39:46.029Z",
       "day": "2026-11-10",
       "category": "industry",
-      "score": 24,
+      "score": 24.7,
       "metrics": {
-        "points": 147,
-        "comments": 53
+        "points": 159,
+        "comments": 60
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50437106"
     },
@@ -1924,10 +2006,10 @@
       "firstSeenAt": "2026-11-10T18:39:46.029Z",
       "day": "2026-11-10",
       "category": "industry",
-      "score": 27.9,
+      "score": 28.1,
       "metrics": {
-        "points": 189,
-        "comments": 179
+        "points": 191,
+        "comments": 186
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50435660"
     },
@@ -2486,7 +2568,7 @@
       "score": 25,
       "metrics": {
         "upvotes": 92,
-        "comments": 1
+        "comments": 2
       }
     },
     {
@@ -2507,10 +2589,31 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 21.1,
+      "score": 21.4,
       "metrics": {
-        "upvotes": 52,
-        "comments": 1
+        "upvotes": 54,
+        "comments": 2
+      }
+    },
+    {
+      "id": "8dd0cfg9ya",
+      "key": "arxiv:2611.12762",
+      "title": "Sage-Taiyi: A Metacognitive Architecture for Scientific Discovery",
+      "url": "https://huggingface.co/papers/2611.12762",
+      "excerpt": "We introduce Sage-Taiyi, a metacognition-inspired architecture that uses accumulated scientific understanding to guide what to investigate next and how to investigate it. Through explicit monitoring and control, the system revises its understanding of evidence, assumptions, and…",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "firstSeenAt": "2026-11-11T02:47:08.191Z",
+      "day": "2026-11-10",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 21.3,
+      "metrics": {
+        "upvotes": 53,
+        "comments": 2
       }
     },
     {
@@ -2758,10 +2861,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 26.2,
+      "score": 26.6,
       "metrics": {
-        "points": 144,
-        "comments": 184
+        "points": 152,
+        "comments": 192
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50433079",
       "ai": {
@@ -2900,10 +3003,10 @@
       "firstSeenAt": "2026-11-10T04:38:32.027Z",
       "day": "2026-11-10",
       "category": "industry",
-      "score": 33.6,
+      "score": 33.8,
       "metrics": {
-        "points": 364,
-        "comments": 261
+        "points": 372,
+        "comments": 268
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50431144",
       "dupOf": "8bllbylsvs"
@@ -3107,8 +3210,8 @@
       "category": "industry",
       "score": 60,
       "metrics": {
-        "points": 983,
-        "comments": 961
+        "points": 988,
+        "comments": 1007
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50429906",
       "related": [
@@ -3239,8 +3342,8 @@
         ],
         "firstPublishedAt": "2026-11-09T18:56:29.000Z",
         "metrics": {
-          "points": 983,
-          "comments": 961
+          "points": 988,
+          "comments": 1007
         }
       },
       "aiAttempts": 1
@@ -3278,10 +3381,10 @@
       "firstSeenAt": "2026-11-10T04:38:32.027Z",
       "day": "2026-11-10",
       "category": "industry",
-      "score": 33.9,
+      "score": 34,
       "metrics": {
-        "points": 697,
-        "comments": 145
+        "points": 714,
+        "comments": 147
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50429426",
       "ai": {
@@ -3338,10 +3441,10 @@
       "firstSeenAt": "2026-11-10T18:39:46.029Z",
       "day": "2026-11-10",
       "category": "opensource",
-      "score": 21.4,
+      "score": 21.5,
       "metrics": {
-        "points": 104,
-        "comments": 38
+        "points": 105,
+        "comments": 39
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50429144"
     },

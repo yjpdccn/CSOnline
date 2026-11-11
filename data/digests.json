@@ -506,42 +506,43 @@
   },
   "2026-11-11": {
     "day": "2026-11-11",
-    "generatedAt": "2026-11-10T18:41:19.821Z",
-    "itemCount": 134,
+    "generatedAt": "2026-11-11T02:48:52.619Z",
+    "itemCount": 143,
     "mode": "ai",
     "model": "glm-4.7-flash",
-    "overview": "Anthropic启动IPO路演，Gemini 4 Carbon发布，Google与Adobe深化工具整合。",
+    "overview": "Gemini 4 Carbon发布，Anthropic启动IPO路演，AI Agent与硬件应用持续深化。",
     "points": [
       {
-        "text": "Anthropic启动IPO路演，拟发行价区间70-78美元。",
+        "text": "Gemini 4 Carbon模型发布，Gemini Intelligence功能扩展。",
+        "refs": [
+          "x4lz0iasef",
+          "obyx0gn8s"
+        ]
+      },
+      {
+        "text": "Anthropic启动IPO路演，近700亿美元定价撤回。",
         "refs": [
           "1eolfvwy8sc",
-          "1yozod9ygfr",
-          "kaldnqvk2t"
+          "kaldnqvk2t",
+          "1yozod9ygfr"
         ]
       },
       {
-        "text": "Google与Adobe整合创意工具，支持在Drive中编辑PDF。",
+        "text": "Muse登录Apple Watch，AI硬件各寻出路。",
         "refs": [
-          "1qdvwrlqwnu"
+          "27mxst28gdq"
         ]
       },
       {
-        "text": "Gemini 4 Carbon模型发布。",
+        "text": "OpenAI推出ChatGPT Business Hub，AI Agent服务企业。",
         "refs": [
-          "x4lz0iasef"
+          "wdgy4s2ki"
         ]
       },
       {
-        "text": "Google Cloud推出Gemini医疗版，统一临床数据并自动化工作流。",
+        "text": "Google DeepMind发布AlphaProof Code，验证复杂软件。",
         "refs": [
-          "1cxttmp7rg1"
-        ]
-      },
-      {
-        "text": "蚂蚁灵波开源触觉基础模型LingBot-Touch。",
-        "refs": [
-          "ies01lhn7w"
+          "1kbtlw9ni91"
         ]
       }
     ]

@@ -314,7 +314,7 @@
       "categoryLocked": true,
       "score": 28.9,
       "metrics": {
-        "stars": 6493,
+        "stars": 6722,
         "starsToday": 792
       },
       "aiAttempts": 1,
@@ -1409,10 +1409,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 27,
+      "score": 27.1,
       "metrics": {
-        "points": 213,
-        "comments": 75
+        "points": 215,
+        "comments": 77
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50422628"
     },
@@ -2000,7 +2000,7 @@
       "score": 23.8,
       "metrics": {
         "points": 113,
-        "comments": 124
+        "comments": 125
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50421426"
     },
@@ -2644,10 +2644,18 @@
           "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
           "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
           "publishedAt": "2026-11-10T17:04:19.000Z"
+        },
+        {
+          "id": "nii165ovta",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+          "title": "The US is winning the AI race. Jensen Huang could have blown it",
+          "publishedAt": "2026-11-10T19:04:05.000Z"
         }
       ],
       "story": {
-        "reports": 7,
+        "reports": 8,
         "sources": [
           "jiqizhixin",
           "verge-ai",
@@ -2995,9 +3003,9 @@
       "day": "2026-11-09",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.8,
+      "score": 23.1,
       "metrics": {
-        "upvotes": 67,
+        "upvotes": 70,
         "comments": 2
       },
       "ai": {
@@ -3026,9 +3034,9 @@
       "keywords": [
         "语音"
       ],
-      "score": 24.5,
+      "score": 24.9,
       "metrics": {
-        "upvotes": 86,
+        "upvotes": 90,
         "comments": 2
       }
     },
@@ -3047,9 +3055,9 @@
       "day": "2026-11-09",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.3,
+      "score": 21.4,
       "metrics": {
-        "upvotes": 50,
+        "upvotes": 51,
         "comments": 8
       }
     },
@@ -3068,8 +3076,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 560,
-        "comments": 957
+        "points": 564,
+        "comments": 961
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50418975",
       "aiAttempts": 1
@@ -3347,10 +3355,10 @@
       "firstSeenAt": "2026-11-09T02:39:52.670Z",
       "day": "2026-11-09",
       "category": "agent",
-      "score": 31.8,
+      "score": 31.9,
       "metrics": {
-        "points": 308,
-        "comments": 213
+        "points": 310,
+        "comments": 215
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50416363",
       "aiAttempts": 2,
@@ -3431,8 +3439,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 895,
-        "comments": 485
+        "points": 898,
+        "comments": 488
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50415628",
       "aiAttempts": 2,
