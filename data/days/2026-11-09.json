@@ -286,7 +286,7 @@
       "categoryLocked": true,
       "score": 25.6,
       "metrics": {
-        "stars": 69107,
+        "stars": 70042,
         "starsToday": 506
       },
       "ai": {
@@ -314,7 +314,7 @@
       "categoryLocked": true,
       "score": 28.9,
       "metrics": {
-        "stars": 6722,
+        "stars": 7167,
         "starsToday": 792
       },
       "aiAttempts": 1,
@@ -1409,10 +1409,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 27.1,
+      "score": 27.2,
       "metrics": {
-        "points": 215,
-        "comments": 77
+        "points": 216,
+        "comments": 78
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50422628"
     },
@@ -1997,10 +1997,10 @@
       "firstSeenAt": "2026-11-10T04:38:32.027Z",
       "day": "2026-11-09",
       "category": "industry",
-      "score": 23.8,
+      "score": 23.9,
       "metrics": {
         "points": 113,
-        "comments": 125
+        "comments": 126
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50421426"
     },
@@ -2652,10 +2652,18 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
           "title": "The US is winning the AI race. Jensen Huang could have blown it",
           "publishedAt": "2026-11-10T19:04:05.000Z"
+        },
+        {
+          "id": "1zv761ty7jl",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
+          "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
+          "publishedAt": "2026-11-11T16:16:07.000Z"
         }
       ],
       "story": {
-        "reports": 8,
+        "reports": 9,
         "sources": [
           "jiqizhixin",
           "verge-ai",
@@ -3055,10 +3063,35 @@
       "day": "2026-11-09",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.4,
+      "score": 22.6,
+      "metrics": {
+        "upvotes": 62,
+        "comments": 8
+      }
+    },
+    {
+      "id": "5cqbragkyr",
+      "key": "arxiv:2611.09124",
+      "title": "Toward the Era of Agentic Embodied Intelligence",
+      "url": "https://huggingface.co/papers/2611.09124",
+      "excerpt": "An embodied multi-agent framework uses learned correction codes and a vision-language-action model with motion-aware history and latent world modeling to improve robot control, failure recovery, and training efficiency.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "firstSeenAt": "2026-11-11T18:39:22.009Z",
+      "day": "2026-11-09",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "具身智能"
+      ],
+      "score": 21.1,
       "metrics": {
         "upvotes": 51,
-        "comments": 8
+        "comments": 3
       }
     },
     {
@@ -3290,6 +3323,59 @@
           "verge-ai"
         ],
         "firstPublishedAt": "2026-11-08T21:00:11.000Z"
+      }
+    },
+    {
+      "id": "1lzecau7gz4",
+      "key": "hf:comfy-org/minimax-h3-image",
+      "title": "Comfy-Org/MiniMax-H3-Image",
+      "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image",
+      "excerpt": "Hugging Face 趋势榜第 12 名 · 文生图 · 236 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-08T20:37:23.000Z",
+      "firstSeenAt": "2026-11-11T18:39:22.009Z",
+      "day": "2026-11-09",
+      "category": "multimodal",
+      "categoryLocked": true,
+      "keywords": [
+        "图像生成"
+      ],
+      "score": 26.7,
+      "metrics": {
+        "likes": 236
+      },
+      "skipLlm": true,
+      "related": [
+        {
+          "id": "2ac62ziqp47",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xso1ie/minimax_h3image_released_an_openweight_image/",
+          "title": "MiniMax H3-Image Released, an Open-Weight Image Model built on H3",
+          "publishedAt": "2026-11-10T14:18:08.000Z"
+        },
+        {
+          "id": "221l6tox9hk",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xsp3xt/minimaxaiminimaxh3image_hugging_face/",
+          "title": "MiniMaxAI/MiniMax-H3-Image · Hugging Face",
+          "publishedAt": "2026-11-10T15:01:52.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "hf-models",
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-11-08T20:37:23.000Z",
+        "metrics": {
+          "likes": 236
+        }
       }
     },
     {

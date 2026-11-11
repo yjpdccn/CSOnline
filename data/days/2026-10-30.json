@@ -815,25 +815,7 @@
       "firstSeenAt": "2026-10-30T17:05:35.764Z",
       "day": "2026-10-30",
       "category": "model",
-      "score": 36,
-      "related": [
-        {
-          "id": "czu2unxmyr",
-          "sourceId": "techcrunch-ai",
-          "sourceName": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/10/29/mistral-releases-weights-for-its-trillion-parameter-ai-model-targeting-cybersecurity/",
-          "title": "Mistral 开源万亿参数模型，瞄准网络安全",
-          "publishedAt": "2026-10-29T14:00:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "36kr-flash",
-          "techcrunch-ai"
-        ],
-        "firstPublishedAt": "2026-10-29T14:00:00.000Z"
-      },
+      "score": 28,
       "ai": {
         "summary": "法国 Mistral 发布 Large 4 模型，具备编程与网络防御能力，瞄准企业市场。",
         "category": "model",
@@ -1649,7 +1631,8 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-02T02:32:20.030Z"
-      }
+      },
+      "dupOf": "1n0btj49z6o"
     },
     {
       "id": "us6of0r8gy",
@@ -3033,25 +3016,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 26,
-      "related": [
-        {
-          "id": "2dvbulsmtj2",
-          "sourceId": "qbitai",
-          "sourceName": "量子位",
-          "url": "https://www.qbitai.com/2026/10/506281.html",
-          "title": "文远知行001号员工带队，景烁科技首轮融资数千万美元",
-          "publishedAt": "2026-10-29T03:27:50.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "36kr-flash",
-          "qbitai"
-        ],
-        "firstPublishedAt": "2026-10-29T03:27:50.000Z"
-      },
+      "score": 18,
       "ai": {
         "summary": "AI 原生电力资产运营商 Green Voltis 获得数千万美元融资。",
         "category": "industry",

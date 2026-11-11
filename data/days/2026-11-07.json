@@ -1074,10 +1074,18 @@
           "url": "https://36kr.com/p/4064079115195528",
           "title": "Anthropic IPO目标市值约1.02万亿美元，发行及配售规模或达904亿美元",
           "publishedAt": "2026-11-11T00:12:25.873Z"
+        },
+        {
+          "id": "1o9wtkrn9l6",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4065012331369605",
+          "title": "Anthropic启动IPO路演，估值已缩水6000亿美元",
+          "publishedAt": "2026-11-11T07:44:12.271Z"
         }
       ],
       "story": {
-        "reports": 6,
+        "reports": 7,
         "sources": [
           "36kr-flash",
           "the-decoder",
@@ -1829,10 +1837,51 @@
       "day": "2026-11-07",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 19.2,
+      "score": 21.6,
       "metrics": {
-        "stars": 773
+        "stars": 1200
       }
+    },
+    {
+      "id": "qn3wagmqz",
+      "key": "gh:arda313131882/aion-2-trainer-tool",
+      "title": "Arda313131882/aion-2-trainer-tool",
+      "url": "https://github.com/Arda313131882/aion-2-trainer-tool",
+      "excerpt": "Aion 2 AI Prompt Engineering Toolkit - Standalone Desktop Trainer Setup",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T20:34:15.000Z",
+      "firstSeenAt": "2026-11-11T18:39:22.009Z",
+      "day": "2026-11-07",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 22.1,
+      "metrics": {
+        "stars": 1296
+      }
+    },
+    {
+      "id": "26m8epivjoq",
+      "key": "gh:hembramneeraj3-create/aida-64-extreme",
+      "title": "hembramneeraj3-create/aida-64-extreme",
+      "url": "https://github.com/hembramneeraj3-create/aida-64-extreme",
+      "excerpt": "Aida 64 Extreme 2026: Complete Standalone Desktop Setup with Full Feature Configuration",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-06T20:33:44.000Z",
+      "firstSeenAt": "2026-11-11T18:39:22.009Z",
+      "day": "2026-11-07",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 22.1,
+      "metrics": {
+        "stars": 1304
+      },
+      "dupOf": "1uyb2sngrk9"
     },
     {
       "id": "1cwz8y4o2aa",
@@ -1947,7 +1996,7 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 29.7,
+      "score": 29.9,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune/",
       "ai": {
         "title": "NousResearch 发布基于 Qwen 的 Arete-27B 模型",
@@ -1964,7 +2013,7 @@
         }
       ],
       "metrics": {
-        "likes": 405
+        "likes": 423
       }
     },
     {
@@ -2434,9 +2483,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 23.7,
+      "score": 24.2,
       "metrics": {
-        "stars": 1712
+        "stars": 1851
       },
       "ai": {
         "title": "DIYgod/pinky：让 AI 代理控制手机",

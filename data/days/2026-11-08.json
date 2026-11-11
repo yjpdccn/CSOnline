@@ -281,7 +281,7 @@
       "firstSeenAt": "2026-11-08T13:04:48.004Z",
       "day": "2026-11-08",
       "category": "agent",
-      "score": 32.1,
+      "score": 32.4,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xqwn5n/ram_altman_is_now_a_linux_script_that_emails_sam/",
       "ai": {
         "title": "Ram Altman 脚本每日报告未使用内存",
@@ -308,7 +308,7 @@
         ],
         "firstPublishedAt": "2026-11-05T16:16:41.000Z",
         "metrics": {
-          "stars": 1830
+          "stars": 1920
         }
       }
     },
@@ -645,7 +645,7 @@
       "day": "2026-11-08",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 16.1,
+      "score": 22.1,
       "metrics": {
         "stars": 403
       },
@@ -656,6 +656,26 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-09T13:12:07.516Z"
+      },
+      "related": [
+        {
+          "id": "26m8epivjoq",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/hembramneeraj3-create/aida-64-extreme",
+          "title": "hembramneeraj3-create/aida-64-extreme",
+          "publishedAt": "2026-11-06T20:33:44.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "github-new"
+        ],
+        "firstPublishedAt": "2026-11-06T20:33:44.000Z",
+        "metrics": {
+          "stars": 1304
+        }
       }
     },
     {

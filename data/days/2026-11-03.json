@@ -1441,17 +1441,9 @@
       "firstSeenAt": "2026-11-03T18:25:22.647Z",
       "day": "2026-11-03",
       "category": "paper",
-      "score": 49.2,
+      "score": 31,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xmo5xu/paper_sparks_of_weightspace_programming_llms_can/",
       "related": [
-        {
-          "id": "1t5fb543nts",
-          "sourceId": "github-new",
-          "sourceName": "GitHub 新星项目",
-          "url": "https://github.com/RikiyaT/lm_understand-logs",
-          "title": "RikiyaT/lm_understand-logs",
-          "publishedAt": "2026-10-29T04:17:30.000Z"
-        },
         {
           "id": "qw1i2q10ya",
           "sourceId": "hackernews",
@@ -1462,15 +1454,13 @@
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 2,
         "sources": [
           "reddit-localllama",
-          "github-new",
           "hackernews"
         ],
-        "firstPublishedAt": "2026-10-29T04:17:30.000Z",
+        "firstPublishedAt": "2026-11-02T22:26:53.000Z",
         "metrics": {
-          "stars": 936,
           "points": 147,
           "comments": 23
         }
@@ -4818,15 +4808,15 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 67.9,
+      "score": 71.7,
       "related": [
         {
-          "id": "twiqmw4d9y",
+          "id": "29f3ymfgup5",
           "sourceId": "github-new",
           "sourceName": "GitHub 新星项目",
-          "url": "https://github.com/NiazMorshed2007/reanimate",
-          "title": "NiazMorshed2007/reanimate",
-          "publishedAt": "2026-10-29T06:20:59.000Z"
+          "url": "https://github.com/elvarofficial/teardown",
+          "title": "teardown：将机器变成 3D 拆解模拟器",
+          "publishedAt": "2026-10-30T09:29:01.000Z"
         },
         {
           "id": "17ae56tae8g",
@@ -4853,9 +4843,9 @@
           "hackernews",
           "the-decoder"
         ],
-        "firstPublishedAt": "2026-10-29T06:20:59.000Z",
+        "firstPublishedAt": "2026-10-30T09:29:01.000Z",
         "metrics": {
-          "stars": 1183,
+          "stars": 2213,
           "points": 196,
           "comments": 123
         }
