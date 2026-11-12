@@ -1293,25 +1293,7 @@
       "firstSeenAt": "2026-11-01T13:10:09.812Z",
       "day": "2026-10-31",
       "category": "opensource",
-      "score": 30,
-      "related": [
-        {
-          "id": "1hquplxdo1r",
-          "sourceId": "reddit-localllama",
-          "sourceName": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xje5oo/sensenovasensenovaloop9bpreview_hugging_face/",
-          "title": "SenseNova-Loop-9B-Preview：长上下文与智能体工作流模型",
-          "publishedAt": "2026-10-30T12:34:31.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "leiphone",
-          "reddit-localllama"
-        ],
-        "firstPublishedAt": "2026-10-30T12:34:31.000Z"
-      },
+      "score": 22,
       "ai": {
         "summary": "商汤开源SenseNova Loop-9B-Preview，探索以计算深度释放模型潜力。",
         "category": "opensource",
@@ -2168,37 +2150,7 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 49,
-      "related": [
-        {
-          "id": "5ej0wjlsrk",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50300683",
-          "title": "Claude Code VS Code 扩展被植入后门",
-          "publishedAt": "2026-10-30T07:09:12.000Z"
-        },
-        {
-          "id": "42pxz777p7",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50301983",
-          "title": "Claude Code VS Code extension with backdoor released on Cursor marketplace",
-          "publishedAt": "2026-10-30T10:22:51.000Z"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "the-decoder",
-          "hackernews"
-        ],
-        "firstPublishedAt": "2026-10-30T07:09:12.000Z",
-        "metrics": {
-          "points": 993,
-          "comments": 553
-        }
-      },
+      "score": 15,
       "ai": {
         "title": "Cursor 市场出现恶意 Claude Code 扩展",
         "summary": "Cursor 市场出现恶意 Claude Code 扩展，窃取用户数据并尝试远程访问。",

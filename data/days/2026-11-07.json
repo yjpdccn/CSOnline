@@ -1082,15 +1082,24 @@
           "url": "https://36kr.com/p/4065012331369605",
           "title": "Anthropic启动IPO路演，估值已缩水6000亿美元",
           "publishedAt": "2026-11-11T07:44:12.271Z"
+        },
+        {
+          "id": "2e1qw3yeqez",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/509381.html",
+          "title": "Anthropic启动IPO路演，估值已缩水6000亿美元",
+          "publishedAt": "2026-11-12T10:11:29.000Z"
         }
       ],
       "story": {
-        "reports": 7,
+        "reports": 8,
         "sources": [
           "36kr-flash",
           "the-decoder",
           "techcrunch-ai",
-          "36kr-ai"
+          "36kr-ai",
+          "qbitai"
         ],
         "firstPublishedAt": "2026-11-06T11:38:17.000Z"
       },
@@ -1996,7 +2005,7 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 30.2,
+      "score": 30.6,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xpmj33/nousresearcharete27b_hugging_face_qwen_finetune/",
       "ai": {
         "title": "NousResearch 发布基于 Qwen 的 Arete-27B 模型",
@@ -2013,7 +2022,7 @@
         }
       ],
       "metrics": {
-        "likes": 440
+        "likes": 471
       }
     },
     {
@@ -2483,9 +2492,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.4,
+      "score": 24.7,
       "metrics": {
-        "stars": 1894
+        "stars": 1992
       },
       "ai": {
         "title": "DIYgod/pinky：让 AI 代理控制手机",

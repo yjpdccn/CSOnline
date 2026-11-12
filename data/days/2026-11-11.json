@@ -50,7 +50,7 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 38,
+      "score": 54,
       "related": [
         {
           "id": "9qlf35a8jq",
@@ -59,13 +59,40 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
           "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
           "publishedAt": "2026-11-11T15:00:00.000Z"
+        },
+        {
+          "id": "bctvksnpqj",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-12-7",
+          "title": "DeepMind发布AlphaGenome 2：从细胞层面关联变异与疾病",
+          "publishedAt": "2026-11-12T07:43:00.000Z"
+        },
+        {
+          "id": "1jn3hijdbk0",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4066677385515911",
+          "title": "AI能从DNA锁定致病细胞了，谷歌AlphaGenome 2帮助糖尿病癌症寻找新药靶点",
+          "publishedAt": "2026-11-12T11:33:44.385Z"
+        },
+        {
+          "id": "v607h1nxdu",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/google-deepmind-shifts-genomics-ai-from-bulk-tissue-predictions-to-single-cell-type-resolution-with-alphagenome-2/",
+          "title": "Google Deepmind shifts genomics AI from bulk tissue predictions to single cell type resolution with AlphaGenome 2",
+          "publishedAt": "2026-11-12T12:09:43.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 5,
         "sources": [
           "deepmind",
-          "verge-ai"
+          "verge-ai",
+          "jiqizhixin",
+          "36kr-ai",
+          "the-decoder"
         ],
         "firstPublishedAt": "2026-11-11T15:00:00.000Z"
       }
@@ -310,6 +337,22 @@
       "dupOf": "sgqp4teft5"
     },
     {
+      "id": "1dcsgy97l3b",
+      "key": "url:qbitai.com/2026/11/509224.html",
+      "title": "纯代码造《后室》，116秒切20种画风！文心新模型玩嗨了",
+      "url": "https://www.qbitai.com/2026/11/509224.html",
+      "excerpt": "模型即将开源",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-11T12:43:54.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-11",
+      "category": "model",
+      "score": 24
+    },
+    {
       "id": "q4l1frkfvr",
       "key": "url:reddit.com/r/LocalLLaMA/comments/1xtgnh9/you_can_now_train_your_own_llms_with_less_memory",
       "title": "You can now train your own LLMs with less memory, on your gaming GPUs",
@@ -466,10 +509,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 35.9,
+      "score": 36,
       "metrics": {
-        "points": 943,
-        "comments": 342
+        "points": 1023,
+        "comments": 385
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50452455"
     },
@@ -1262,7 +1305,8 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "dupOf": "vj5ix9ck2a"
     },
     {
       "id": "1lng3eqvbhs",
@@ -2201,9 +2245,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22,
+      "score": 22.9,
       "metrics": {
-        "upvotes": 57,
+        "upvotes": 65,
         "comments": 7
       }
     },
@@ -2287,9 +2331,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 22.9,
+      "score": 24.5,
       "metrics": {
-        "upvotes": 68,
+        "upvotes": 86,
         "comments": 2
       }
     },
@@ -2357,9 +2401,9 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 34.7,
+      "score": 34.9,
       "metrics": {
-        "points": 447,
+        "points": 457,
         "comments": 219
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50447074"
@@ -2380,8 +2424,8 @@
       "category": "industry",
       "score": 44,
       "metrics": {
-        "points": 521,
-        "comments": 528
+        "points": 548,
+        "comments": 550
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50446520",
       "alsoOn": [
@@ -2672,10 +2716,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 28.9,
+      "score": 29.1,
       "metrics": {
-        "stars": 116056,
-        "starsToday": 788
+        "stars": 116548,
+        "starsToday": 812
       }
     },
     {
@@ -2716,10 +2760,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 33.4,
+      "score": 33.6,
       "metrics": {
-        "points": 425,
-        "comments": 142
+        "points": 434,
+        "comments": 145
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50443812"
     },
@@ -2755,10 +2799,10 @@
       "firstSeenAt": "2026-11-11T02:47:08.191Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 31.2,
+      "score": 31.4,
       "metrics": {
-        "points": 281,
-        "comments": 216
+        "points": 288,
+        "comments": 217
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50443716"
     },
@@ -2775,10 +2819,10 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 24,
+      "score": 24.3,
       "metrics": {
-        "points": 130,
-        "comments": 85
+        "points": 137,
+        "comments": 86
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50443587"
     },
@@ -2977,9 +3021,9 @@
       "firstSeenAt": "2026-11-10T18:39:46.029Z",
       "day": "2026-11-11",
       "category": "model",
-      "score": 60.8,
+      "score": 60.9,
       "metrics": {
-        "points": 292,
+        "points": 295,
         "comments": 164
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50442303",
@@ -3054,7 +3098,7 @@
         ],
         "firstPublishedAt": "2026-11-10T16:00:00.000Z",
         "metrics": {
-          "points": 292,
+          "points": 295,
           "comments": 164
         }
       }

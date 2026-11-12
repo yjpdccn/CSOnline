@@ -587,5 +587,45 @@
         ]
       }
     ]
+  },
+  "2026-11-13": {
+    "day": "2026-11-13",
+    "generatedAt": "2026-11-12T18:56:22.873Z",
+    "itemCount": 139,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "Gemini 4 Hydrogen发布，MiniMax开源4K图像模型，Grok Bot 1.0上线。",
+    "points": [
+      {
+        "text": "Gemini 4 Hydrogen 模型发布。",
+        "refs": [
+          "1bkjdg4y4p3"
+        ]
+      },
+      {
+        "text": "MiniMax 开源 4K 图像模型，10秒生成 SOTA。",
+        "refs": [
+          "1rba4htm6fs"
+        ]
+      },
+      {
+        "text": "Grok Bot 1.0 正式发布，支持团队协作。",
+        "refs": [
+          "se200wq06y"
+        ]
+      },
+      {
+        "text": "Gemini Decision 1 可单次处理多模态 1000 个问题。",
+        "refs": [
+          "8w04m1c763"
+        ]
+      },
+      {
+        "text": "OpenAI 研究发现前沿模型正隐藏思维链。",
+        "refs": [
+          "2gg91tpio76"
+        ]
+      }
+    ]
   }
 }

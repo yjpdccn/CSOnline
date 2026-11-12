@@ -2394,7 +2394,7 @@
       "firstSeenAt": "2026-11-03T06:52:17.298Z",
       "day": "2026-11-03",
       "category": "opensource",
-      "score": 10,
+      "score": 26,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xmitzx/alibabas_qwen_code_repo_just_leaked_qwen4max/",
       "aiAttempts": 1,
       "ai": {
@@ -2402,6 +2402,17 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-03T06:53:14.822Z"
+      },
+      "alsoOn": [
+        {
+          "sourceId": "github-trending",
+          "sourceName": "GitHub Trending",
+          "url": "https://github.com/QwenLM/qwen-code"
+        }
+      ],
+      "metrics": {
+        "stars": 29702,
+        "starsToday": 151
       }
     },
     {
@@ -4808,16 +4819,8 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 71.7,
+      "score": 48.4,
       "related": [
-        {
-          "id": "29f3ymfgup5",
-          "sourceId": "github-new",
-          "sourceName": "GitHub 新星项目",
-          "url": "https://github.com/elvarofficial/teardown",
-          "title": "teardown：将机器变成 3D 拆解模拟器",
-          "publishedAt": "2026-10-30T09:29:01.000Z"
-        },
         {
           "id": "17ae56tae8g",
           "sourceId": "hackernews",
@@ -4836,16 +4839,14 @@
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 3,
         "sources": [
           "verge-ai",
-          "github-new",
           "hackernews",
           "the-decoder"
         ],
-        "firstPublishedAt": "2026-10-30T09:29:01.000Z",
+        "firstPublishedAt": "2026-10-31T21:07:58.000Z",
         "metrics": {
-          "stars": 2213,
           "points": 196,
           "comments": 123
         }

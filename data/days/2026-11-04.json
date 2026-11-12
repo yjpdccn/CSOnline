@@ -3412,7 +3412,7 @@
       "keywords": [
         "本地部署"
       ],
-      "score": 16,
+      "score": 35.7,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xn6mm0/gemma4_graph_optimizations_massive_gains_on_pp/",
       "aiAttempts": 1,
       "ai": {
@@ -3421,6 +3421,17 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-04T13:17:38.594Z"
+      },
+      "alsoOn": [
+        {
+          "sourceId": "github-trending",
+          "sourceName": "GitHub Trending",
+          "url": "https://github.com/ggml-org/llama.cpp"
+        }
+      ],
+      "metrics": {
+        "stars": 134428,
+        "starsToday": 287
       }
     },
     {

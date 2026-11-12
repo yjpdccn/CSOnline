@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-12T03:48:34.115Z",
+  "updatedAt": "2026-11-12T18:52:29.627Z",
   "events": [
-    {
-      "id": "wscn-1602459",
-      "at": "2026-11-12T04:02:00.000Z",
-      "country": "中国",
-      "title": "10月M2货币供应同比 · 1至10月社会融资规模增量(亿人民币) · 1至10月新增人民币贷款(亿人民币)",
-      "importance": 3,
-      "kind": "data",
-      "source": "华尔街见闻",
-      "dateOnly": true,
-      "previous": "7.2",
-      "unit": "%"
-    },
     {
       "id": "wscn-1598628",
       "at": "2026-11-12T13:30:00.000Z",
@@ -22,7 +10,8 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "18.9",
-      "forecast": "19.5",
+      "forecast": "19.4",
+      "actual": "20",
       "unit": "万人"
     },
     {
@@ -76,7 +65,7 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "0.8",
-      "forecast": "0",
+      "forecast": "0.1",
       "unit": "%"
     },
     {

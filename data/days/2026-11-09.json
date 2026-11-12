@@ -2725,16 +2725,105 @@
           "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
           "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
           "publishedAt": "2026-11-12T03:13:10.000Z"
+        },
+        {
+          "id": "25tx68xfji2",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031689/jensen-huang-nvidia-ceo-resigns",
+          "title": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals",
+          "publishedAt": "2026-11-12T13:53:16.000Z"
+        },
+        {
+          "id": "wpqwze3wwc",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xudeev/nvidias_jensen_huang_resigns_as_ceo_colette_kress/",
+          "title": "Nvidia's Jensen Huang Resigns as CEO, Colette Kress Named Interim",
+          "publishedAt": "2026-11-12T13:56:51.000Z"
+        },
+        {
+          "id": "2en578mavuc",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/jensen-huang-resigns-as-nvidia-ceo-after-espionage-scandal-wipes-out-1-4-trillion-in-market-value/",
+          "title": "Jensen Huang resigns as Nvidia CEO after espionage scandal wipes out $1.4 trillion in market value",
+          "publishedAt": "2026-11-12T14:11:40.000Z"
+        },
+        {
+          "id": "1geytkkrah2",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "title": "The unfolding Jensen Huang scandal: a timeline",
+          "publishedAt": "2026-11-12T14:30:01.000Z"
+        },
+        {
+          "id": "159je39mfly",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
+          "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+          "publishedAt": "2026-11-12T15:37:29.000Z"
+        },
+        {
+          "id": "e3fk4mlon1",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+          "title": "Jensen Huang is out. What did China want from him?",
+          "publishedAt": "2026-11-12T16:30:00.000Z"
+        },
+        {
+          "id": "5zzhezkpsb",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+          "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+          "publishedAt": "2026-11-12T16:32:33.000Z"
+        },
+        {
+          "id": "1ezgdlfenvm",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+          "title": "Jensen Huang agrees to testify before Congress",
+          "publishedAt": "2026-11-12T16:36:37.000Z"
+        },
+        {
+          "id": "1er6r26w0xq",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+          "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+          "publishedAt": "2026-11-12T17:36:40.000Z"
+        },
+        {
+          "id": "11as79uxgvg",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+          "title": "The Jensen Huang scandal is hardly over",
+          "publishedAt": "2026-11-12T17:44:33.000Z"
+        },
+        {
+          "id": "1cyua1vb61z",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+          "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+          "publishedAt": "2026-11-12T18:39:23.000Z"
         }
       ],
       "story": {
-        "reports": 16,
+        "reports": 27,
         "sources": [
           "jiqizhixin",
           "verge-ai",
           "qbitai",
           "techcrunch-ai",
-          "reddit-localllama"
+          "reddit-localllama",
+          "the-decoder"
         ],
         "firstPublishedAt": "2026-11-08T20:22:39.000Z"
       }
@@ -3409,9 +3498,9 @@
       "keywords": [
         "图像生成"
       ],
-      "score": 27.2,
+      "score": 27.7,
       "metrics": {
-        "likes": 257
+        "likes": 285
       },
       "skipLlm": true,
       "related": [
@@ -3440,7 +3529,7 @@
         ],
         "firstPublishedAt": "2026-11-08T20:37:23.000Z",
         "metrics": {
-          "likes": 257
+          "likes": 285
         }
       }
     },

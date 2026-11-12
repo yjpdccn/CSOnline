@@ -1,0 +1,494 @@
+{
+  "day": "2026-11-13",
+  "items": [
+    {
+      "id": "u9gj9b9gv7",
+      "key": "gh:ashhart/tensorfold",
+      "title": "ashhart/TensorFold",
+      "url": "https://github.com/ashhart/TensorFold",
+      "excerpt": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T18:52:36.365Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 15.7,
+      "metrics": {
+        "stars": 1890,
+        "starsToday": 94
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "TensorFold 是一个支持 Metal、CUDA 和 Vulkan 的 LLM 推理引擎。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-12T18:53:26.630Z"
+      }
+    },
+    {
+      "id": "4buhdq72ci",
+      "key": "gh:alishahryar1/free-claude-code",
+      "title": "Alishahryar1/free-claude-code",
+      "url": "https://github.com/Alishahryar1/free-claude-code",
+      "excerpt": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS fri…",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T18:52:36.365Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程",
+        "语音"
+      ],
+      "score": 24.9,
+      "metrics": {
+        "stars": 69108,
+        "starsToday": 461
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "free-claude-code 项目支持 Claude Code 等多种工具免费使用。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-12T18:53:26.630Z"
+      }
+    },
+    {
+      "id": "1cyua1vb61z",
+      "key": "url:techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "excerpt": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open-source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions, as the company navigates a leadership transition.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-12T18:39:23.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "opensource",
+      "keywords": [
+        "开源模型"
+      ],
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "qnmy1mfjrj",
+      "key": "url:theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+      "title": "Oh, Palantir is ‘progressive’ now, is it?",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+      "excerpt": "The future’s so bright, he’s gotta wear sunglasses. | Photo by Scott Olson/Getty Images I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold. Last week's elections were a bloodbath for the right, a p…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-12T18:06:54.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Palantir 被指试图向左翼转型，引发争议。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-12T18:53:26.630Z"
+      }
+    },
+    {
+      "id": "1bkjdg4y4p3",
+      "key": "url:blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen",
+      "title": "Gemini 4 Hydrogen",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T18:01:48.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "model",
+      "score": 48.5,
+      "metrics": {
+        "points": 179,
+        "comments": 108
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50471431",
+      "related": [
+        {
+          "id": "exgsxci5l1",
+          "sourceId": "google-ai",
+          "sourceName": "Google AI",
+          "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+          "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+          "publishedAt": "2026-11-12T18:00:00.000Z"
+        },
+        {
+          "id": "1mfwb4rdhuh",
+          "sourceId": "deepmind",
+          "sourceName": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+          "title": "Introducing Gemini 4 Hydrogen",
+          "publishedAt": "2026-11-12T18:00:50.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "hackernews",
+          "google-ai",
+          "deepmind"
+        ],
+        "firstPublishedAt": "2026-11-12T18:00:00.000Z",
+        "metrics": {
+          "points": 179,
+          "comments": 108
+        }
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Gemini 4 Hydrogen 模型发布。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-12T18:53:26.630Z"
+      }
+    },
+    {
+      "id": "1mfwb4rdhuh",
+      "key": "url:deepmind.google/blog/introducing-gemini-4-hydrogen",
+      "title": "Introducing Gemini 4 Hydrogen",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "lang": "en",
+      "sourceId": "deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-12T18:00:50.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "model",
+      "score": 40,
+      "dupOf": "1bkjdg4y4p3"
+    },
+    {
+      "id": "exgsxci5l1",
+      "key": "url:blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade/",
+      "excerpt": "We are bringing Gemini 4 Hydrogen to Google Search globally to provide you with more helpful, visual, and intuitive responses.",
+      "lang": "en",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-12T18:00:00.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "model",
+      "score": 36,
+      "dupOf": "1bkjdg4y4p3"
+    },
+    {
+      "id": "11as79uxgvg",
+      "key": "url:theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+      "title": "The Jensen Huang scandal is hardly over",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+      "excerpt": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no succession plan at Nvidia. In fact, he's the only CEO Nvidia has…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-12T17:44:33.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "1er6r26w0xq",
+      "key": "url:techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/",
+      "excerpt": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-12T17:36:40.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "opensource",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "y5wd0wdwmo",
+      "key": "url:techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks/",
+      "excerpt": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-12T17:17:58.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 49,
+      "related": [
+        {
+          "id": "3wkl9ibf8k",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50458900",
+          "title": "联合航空禁止 AI 代理代为订票",
+          "publishedAt": "2026-11-11T21:24:35.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "techcrunch-ai",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-11T21:24:35.000Z",
+        "metrics": {
+          "points": 646,
+          "comments": 672
+        }
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "联合航空禁止使用 AI 代理预订机票，称存在网络安全风险。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-12T18:53:26.630Z"
+      }
+    },
+    {
+      "id": "11n8k0rj1wo",
+      "key": "url:tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules",
+      "title": "CMP170hx now fully unlockabke and more, full 120 SMs —> Techie uses voltage glitching hack to turn $2,500 Nvidia 8GB cryptomining GPU into a full-fat $20,000 A100 with 80GB of VRAM — hack carefully blows onboard fuses to unlock entire VRAM and shader modules",
+      "url": "https://www.tomshardware.com/pc-components/gpus/techie-turns-usd2-500-cmp-170hx-8gb-mining-card-into-a-full-fat-a100-80gb-with-voltage-glitching-carefully-blowing-onboard-fuses-to-unlock-entire-vram-and-shader-modules",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T17:14:43.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xuijih/cmp170hx_now_fully_unlockabke_and_more_full_120/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "通过电压故障攻击，将 8GB 矿卡改造成 80GB A100。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-12T18:53:26.630Z"
+      }
+    },
+    {
+      "id": "26rqflck3vy",
+      "key": "url:techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "excerpt": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-12T17:00:52.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "软银因预购燃气涡轮机亏损超 30 亿美元，限制了 AI 数据中心的天然气野心。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-12T18:53:26.630Z"
+      }
+    },
+    {
+      "id": "kiyp0a79rt",
+      "key": "url:techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
+      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "excerpt": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Phota Labs 利用 AI 自动化修图，将普通照片转化为专业级作品。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-12T18:53:26.630Z"
+      }
+    },
+    {
+      "id": "1jz0ayojrqd",
+      "key": "url:theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "title": "AI chatbots are recommending fake retail websites, study finds",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "excerpt": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found. The study conducted by IP protection firm Podqi and shared exclusively with The Verge prompted ChatGPT, Gemini, and Perplexity…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "研究发现 AI 聊天机器人会推荐虚假零售网站。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-12T18:53:26.630Z"
+      }
+    },
+    {
+      "id": "1ifuojv8zqi",
+      "key": "url:theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "title": "More game developers are starting to use generative AI",
+      "url": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "excerpt": "A photo from the GDC Festival of Gaming 2026 event. More video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey. Forty percent of developers surveyed say they use it \"as par…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-12T17:00:00.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "调查显示更多游戏开发者开始使用生成式 AI。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-12T18:53:26.630Z"
+      }
+    },
+    {
+      "id": "2gg91tpio76",
+      "key": "url:the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute",
+      "title": "OpenAI’s data suggests that frontier models are hiding their thoughts because developers optimize for capability and compute",
+      "url": "https://the-decoder.com/openais-data-suggests-that-frontier-models-are-hiding-their-thoughts-because-developers-optimize-for-capability-and-compute/",
+      "excerpt": "OpenAI's safety team systematically investigated why the chains of thought in frontier models like GPT-6 Astra are increasingly evading oversight. Four training steps drive the erosion, including architecture choices and reinforcement learning. The analysis shows that the loss o…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-12T16:58:11.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "paper",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI 研究发现前沿模型正通过架构和强化学习隐藏思维链。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-12T18:53:26.630Z"
+      }
+    },
+    {
+      "id": "1ezgdlfenvm",
+      "key": "url:techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress",
+      "title": "Jensen Huang agrees to testify before Congress",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+      "excerpt": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-12T16:36:37.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "5zzhezkpsb",
+      "key": "url:techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry",
+      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+      "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+      "excerpt": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-12T16:32:33.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "e3fk4mlon1",
+      "key": "url:theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+      "title": "Jensen Huang is out. What did China want from him?",
+      "url": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+      "excerpt": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode. Huang just resigned from his position as CEO of Nvidia as news of his affairs, including with…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-12T16:30:00.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "99m47gt71y",
+      "key": "url:techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor",
+      "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
+      "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor/",
+      "excerpt": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-12T16:12:44.000Z",
+      "firstSeenAt": "2026-11-12T18:52:29.627Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "特朗普称蒂姆·库克是英伟达 CEO 黄仁勋的唯一继任人选。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-12T18:53:26.630Z"
+      }
+    }
+  ]
+}

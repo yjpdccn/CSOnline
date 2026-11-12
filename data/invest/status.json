@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-12T03:48:34.115Z",
+  "generatedAt": "2026-11-12T18:52:29.627Z",
   "since": "2026-10-31T06:03:03.162Z",
   "page": "https://yjpdccn.github.io/CSOnline/invest/",
   "ok": true,
@@ -8,12 +8,12 @@
     "indices": {
       "label": "指数行情",
       "ok": true,
-      "lastSuccess": "2026-11-12T03:48:34.115Z",
+      "lastSuccess": "2026-11-12T18:52:29.627Z",
       "items": [
         {
           "key": "ndx",
           "name": "纳斯达克100",
-          "latest": "2026-11-11",
+          "latest": "2026-11-12",
           "expected": "2026-11-11",
           "refreshed": true,
           "stale": false
@@ -21,7 +21,7 @@
         {
           "key": "spx",
           "name": "标普500",
-          "latest": "2026-11-11",
+          "latest": "2026-11-12",
           "expected": "2026-11-11",
           "refreshed": true,
           "stale": false
@@ -29,7 +29,7 @@
         {
           "key": "spxew",
           "name": "标普500等权重",
-          "latest": "2026-11-11",
+          "latest": "2026-11-12",
           "expected": "2026-11-11",
           "refreshed": true,
           "stale": false
@@ -38,7 +38,7 @@
           "key": "a500",
           "name": "中证A500",
           "latest": "2026-11-12",
-          "expected": "2026-11-11",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
@@ -46,7 +46,7 @@
           "key": "csi300",
           "name": "沪深300",
           "latest": "2026-11-12",
-          "expected": "2026-11-11",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
@@ -54,7 +54,7 @@
           "key": "cicc300",
           "name": "中证中金优选300",
           "latest": "2026-11-12",
-          "expected": "2026-11-11",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
@@ -62,7 +62,7 @@
           "key": "divlowvol",
           "name": "中证红利低波动",
           "latest": "2026-11-12",
-          "expected": "2026-11-11",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         }
@@ -71,13 +71,13 @@
     "gold": {
       "label": "黄金",
       "ok": true,
-      "lastSuccess": "2026-11-12T03:48:34.115Z",
+      "lastSuccess": "2026-11-12T18:52:29.627Z",
       "items": [
         {
           "key": "gold",
           "name": "黄金9999",
-          "latest": "2026-11-12",
-          "expected": "2026-11-11",
+          "latest": "2026-11-13",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
@@ -93,7 +93,7 @@
           "key": "shau",
           "name": "上海金",
           "latest": "2026-11-12",
-          "expected": "2026-11-11",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         }
@@ -102,13 +102,13 @@
     "macro": {
       "label": "利率与汇率",
       "ok": true,
-      "lastSuccess": "2026-11-12T03:48:34.115Z",
+      "lastSuccess": "2026-11-12T18:52:29.627Z",
       "items": [
         {
           "key": "cnbond",
           "name": "中国10年期国债收益率",
           "latest": "2026-11-12",
-          "expected": "2026-11-11",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
@@ -149,13 +149,13 @@
     "etf": {
       "label": "场内价格",
       "ok": true,
-      "lastSuccess": "2026-11-12T03:48:34.115Z",
+      "lastSuccess": "2026-11-12T18:52:29.627Z",
       "items": [
         {
           "key": "price:510300",
           "name": "510300 场内价",
           "latest": "2026-11-12",
-          "expected": "2026-11-11",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
@@ -163,7 +163,7 @@
           "key": "price:512890",
           "name": "512890 场内价",
           "latest": "2026-11-12",
-          "expected": "2026-11-11",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
@@ -171,7 +171,7 @@
           "key": "price:518850",
           "name": "518850 场内价",
           "latest": "2026-11-12",
-          "expected": "2026-11-11",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
@@ -179,7 +179,7 @@
           "key": "price:518880",
           "name": "518880 场内价",
           "latest": "2026-11-12",
-          "expected": "2026-11-11",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
@@ -187,7 +187,7 @@
           "key": "price:513500",
           "name": "513500 场内价",
           "latest": "2026-11-12",
-          "expected": "2026-11-11",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
@@ -195,7 +195,7 @@
           "key": "price:513100",
           "name": "513100 场内价",
           "latest": "2026-11-12",
-          "expected": "2026-11-11",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
@@ -203,7 +203,7 @@
           "key": "price:501060",
           "name": "501060 场内价",
           "latest": "2026-11-12",
-          "expected": "2026-11-11",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         }
@@ -212,213 +212,213 @@
     "nav": {
       "label": "基金净值",
       "ok": true,
-      "lastSuccess": "2026-11-12T03:48:34.115Z",
+      "lastSuccess": "2026-11-12T18:52:29.627Z",
       "items": [
         {
           "key": "nav:019172",
           "name": "019172 净值",
-          "latest": "2026-11-10",
-          "expected": "2026-11-09",
+          "latest": "2026-11-11",
+          "expected": "2026-11-10",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:016452",
           "name": "016452 净值",
-          "latest": "2026-11-10",
-          "expected": "2026-11-09",
+          "latest": "2026-11-11",
+          "expected": "2026-11-10",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:096001",
           "name": "096001 净值",
-          "latest": "2026-11-10",
-          "expected": "2026-11-09",
+          "latest": "2026-11-11",
+          "expected": "2026-11-10",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:008701",
           "name": "008701 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:008702",
           "name": "008702 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:022930",
           "name": "022930 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:022918",
           "name": "022918 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:022928",
           "name": "022928 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:022459",
           "name": "022459 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:022434",
           "name": "022434 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:110020",
           "name": "110020 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:007466",
           "name": "007466 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:110051",
           "name": "110051 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:050025",
           "name": "050025 净值",
-          "latest": "2026-11-10",
-          "expected": "2026-11-09",
+          "latest": "2026-11-11",
+          "expected": "2026-11-10",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:510300",
           "name": "510300 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:512890",
           "name": "512890 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:518850",
           "name": "518850 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:518880",
           "name": "518880 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:513500",
           "name": "513500 净值",
-          "latest": "2026-11-10",
-          "expected": "2026-11-09",
+          "latest": "2026-11-11",
+          "expected": "2026-11-10",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:513100",
           "name": "513100 净值",
-          "latest": "2026-11-10",
-          "expected": "2026-11-09",
+          "latest": "2026-11-11",
+          "expected": "2026-11-10",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:006672",
           "name": "006672 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:501060",
           "name": "501060 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:022502",
           "name": "022502 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:015530",
           "name": "015530 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:021277",
           "name": "021277 净值",
-          "latest": "2026-11-10",
-          "expected": "2026-11-09",
+          "latest": "2026-11-11",
+          "expected": "2026-11-10",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "nav:000218",
           "name": "000218 净值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-11",
+          "latest": "2026-11-12",
+          "expected": "2026-11-12",
           "refreshed": true,
           "stale": false
         }
@@ -427,187 +427,187 @@
     "fundInfo": {
       "label": "申购状态与费率",
       "ok": true,
-      "lastSuccess": "2026-11-12T03:48:34.115Z",
+      "lastSuccess": "2026-11-12T18:52:29.627Z",
       "items": [
         {
           "key": "info:019172",
           "name": "019172 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:016452",
           "name": "016452 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:096001",
           "name": "096001 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:008701",
           "name": "008701 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:008702",
           "name": "008702 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022930",
           "name": "022930 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022918",
           "name": "022918 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022928",
           "name": "022928 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022459",
           "name": "022459 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022434",
           "name": "022434 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:110020",
           "name": "110020 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:007466",
           "name": "007466 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:110051",
           "name": "110051 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:050025",
           "name": "050025 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:510300",
           "name": "510300 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:512890",
           "name": "512890 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:518850",
           "name": "518850 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:518880",
           "name": "518880 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:513500",
           "name": "513500 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:513100",
           "name": "513100 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:006672",
           "name": "006672 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:501060",
           "name": "501060 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:022502",
           "name": "022502 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:015530",
           "name": "015530 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:021277",
           "name": "021277 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "info:000218",
           "name": "000218 申购状态与费率",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         }
@@ -616,13 +616,13 @@
     "valuation": {
       "label": "估值",
       "ok": true,
-      "lastSuccess": "2026-11-12T03:48:34.115Z",
+      "lastSuccess": "2026-11-12T18:52:29.627Z",
       "items": [
         {
           "key": "valuation:ndx",
           "name": "纳斯达克100 估值",
           "latest": "2026-11-11",
-          "expected": "2026-11-09",
+          "expected": "2026-11-10",
           "refreshed": true,
           "stale": false
         },
@@ -630,7 +630,7 @@
           "key": "valuation:spx",
           "name": "标普500 估值",
           "latest": "2026-11-11",
-          "expected": "2026-11-09",
+          "expected": "2026-11-10",
           "refreshed": true,
           "stale": false
         },
@@ -638,15 +638,15 @@
           "key": "valuation:a500",
           "name": "中证A500 估值",
           "latest": "2026-11-11",
-          "expected": "2026-11-09",
+          "expected": "2026-11-10",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "valuation:csi300",
           "name": "沪深300 估值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-09",
+          "latest": "2026-11-12",
+          "expected": "2026-11-10",
           "refreshed": true,
           "stale": false
         },
@@ -654,15 +654,15 @@
           "key": "valuation:cicc300",
           "name": "中证中金优选300 估值",
           "latest": "2026-11-11",
-          "expected": "2026-11-09",
+          "expected": "2026-11-10",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "valuation:divlowvol",
           "name": "中证红利低波动 估值",
-          "latest": "2026-11-11",
-          "expected": "2026-11-09",
+          "latest": "2026-11-12",
+          "expected": "2026-11-10",
           "refreshed": true,
           "stale": false
         }
@@ -671,7 +671,7 @@
     "news": {
       "label": "新闻",
       "ok": true,
-      "lastSuccess": "2026-11-12T03:48:34.115Z",
+      "lastSuccess": "2026-11-12T18:52:29.627Z",
       "items": [
         {
           "key": "source:wscn-global",
@@ -774,7 +774,7 @@
     "calendar": {
       "label": "财经日历",
       "ok": true,
-      "lastSuccess": "2026-11-12T03:48:34.115Z",
+      "lastSuccess": "2026-11-12T18:52:29.627Z",
       "items": [
         {
           "key": "source:wscn-calendar",
@@ -793,7 +793,7 @@
     "strategy": {
       "label": "同类基金比较与公告",
       "ok": true,
-      "lastSuccess": "2026-11-12T03:48:34.115Z",
+      "lastSuccess": "2026-11-12T18:52:29.627Z",
       "items": [
         {
           "key": "peers",
@@ -805,14 +805,14 @@
         {
           "key": "notices",
           "name": "基金公告",
-          "latest": "2026-11-12T03:48:34.115Z",
+          "latest": "2026-11-12T18:52:29.627Z",
           "refreshed": true,
           "stale": false
         },
         {
           "key": "peer-status",
           "name": "同类 QDII 基金申购状态",
-          "latest": "2026-11-12T03:49:18.019Z",
+          "latest": "2026-11-12T18:53:17.596Z",
           "refreshed": true,
           "stale": false
         }
@@ -830,25 +830,6 @@
       "at": "2026-11-09T19:10:27.000Z",
       "url": "https://wallstreetcn.com/livenews/3197117",
       "firstSeen": "2026-11-09T19:10:27.000Z"
-    },
-    {
-      "key": "move:ndx:2026-11-09",
-      "kind": "event",
-      "severity": "warn",
-      "title": "纳斯达克100 11月9日上涨 3.4%",
-      "detail": "单日变动超过 3%，收于 27,907.63。",
-      "at": "2026-11-09T15:59:00.000Z",
-      "firstSeen": "2026-11-09T15:59:00.000Z"
-    },
-    {
-      "key": "limit-up:007466:2026-11-05T18:42:26.197Z",
-      "kind": "change",
-      "severity": "good",
-      "code": "007466",
-      "at": "2026-11-05T18:42:26.197Z",
-      "title": "华泰柏瑞中证红利低波ETF联接A（007466） 申购额度放开",
-      "detail": "限大额 · 1000 万元/日 → 开放申购。",
-      "firstSeen": "2026-11-05T18:42:26.197Z"
     },
     {
       "key": "rule4:096001",
@@ -906,8 +887,8 @@
       "rule": 3,
       "severity": "bad",
       "code": "513500",
-      "title": "标普500ETF博时（513500） 溢价 9.69%",
-      "detail": "高于规则三的 2%–3%（按 11月10日净值和此后的指数涨跌估算）。",
+      "title": "标普500ETF博时（513500） 溢价 9.44%",
+      "detail": "高于规则三的 2%–3%（按 11月11日净值）。",
       "firstSeen": "2026-10-31T06:03:03.162Z"
     },
     {
@@ -916,8 +897,8 @@
       "rule": 3,
       "severity": "bad",
       "code": "513100",
-      "title": "纳指ETF国泰（513100） 溢价 17.76%",
-      "detail": "高于规则三的 2%–3%（按 11月10日净值和此后的指数涨跌估算）。",
+      "title": "纳指ETF国泰（513100） 溢价 16.84%",
+      "detail": "高于规则三的 2%–3%（按 11月11日净值）。",
       "firstSeen": "2026-10-31T06:03:03.162Z"
     },
     {
@@ -1020,8 +1001,8 @@
       "kind": "suggestion",
       "action": "stop",
       "severity": "bad",
-      "title": "场内 标普500ETF博时（513500） 溢价 9.69%",
-      "detail": "高于规则三的 2%–3%（按 11月10日净值和此后的指数涨跌估算）。可以考虑暂缓场内买入，改用场外的摩根标普500指数(QDII)人民币A（017641），同样跟踪标普500，每年费用 0.65%，日限额 10 元，规模 197.8 亿元，成立 3 年。仅供参考，不构成投资建议。",
+      "title": "场内 标普500ETF博时（513500） 溢价 9.44%",
+      "detail": "高于规则三的 2%–3%（按 11月11日净值）。可以考虑暂缓场内买入，改用场外的摩根标普500指数(QDII)人民币A（017641），同样跟踪标普500，每年费用 0.65%，日限额 10 元，规模 197.8 亿元，成立 3 年。仅供参考，不构成投资建议。",
       "code": "513500",
       "target": {
         "code": "017641",
@@ -1034,8 +1015,8 @@
       "kind": "suggestion",
       "action": "stop",
       "severity": "bad",
-      "title": "场内 纳指ETF国泰（513100） 溢价 17.76%",
-      "detail": "高于规则三的 2%–3%（按 11月10日净值和此后的指数涨跌估算）。可以考虑暂缓场内买入，改用场外的宝盈纳斯达克100指数发起(QDII)A人民币（019736），同样跟踪纳斯达克100，每年费用 0.65%，日限额 10 元，规模 40.0 亿元，成立 2 年。仅供参考，不构成投资建议。",
+      "title": "场内 纳指ETF国泰（513100） 溢价 16.84%",
+      "detail": "高于规则三的 2%–3%（按 11月11日净值）。可以考虑暂缓场内买入，改用场外的宝盈纳斯达克100指数发起(QDII)A人民币（019736），同样跟踪纳斯达克100，每年费用 0.65%，日限额 10 元，规模 40.0 亿元，成立 2 年。仅供参考，不构成投资建议。",
       "code": "513100",
       "target": {
         "code": "019736",
@@ -1095,9 +1076,9 @@
   },
   "run": {
     "trigger": "schedule",
-    "startedAt": "2026-11-12T03:48:34.115Z",
-    "scheduledFor": "2026-11-11T23:13:00.000Z",
-    "delayMinutes": 276
+    "startedAt": "2026-11-12T18:52:29.628Z",
+    "scheduledFor": "2026-11-12T11:13:00.000Z",
+    "delayMinutes": 459
   },
   "notifications": {
     "channel": "serverchan",
