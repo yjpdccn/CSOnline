@@ -451,6 +451,29 @@
       "discussionUrl": "https://news.ycombinator.com/item?id=50452455"
     },
     {
+      "id": "285uj67aa6k",
+      "key": "url:pietromiotti.com/latest/maya-site",
+      "title": "My AI agents found an unmapped Maya site?",
+      "url": "https://pietromiotti.com/latest/maya-site",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-11T12:05:22.000Z",
+      "firstSeenAt": "2026-11-12T03:48:34.115Z",
+      "day": "2026-11-11",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 35.9,
+      "metrics": {
+        "points": 943,
+        "comments": 342
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50452455"
+    },
+    {
       "id": "ieaweprzoc",
       "key": "url:jiqizhixin.com/articles/2026-11-11-16",
       "title": "具身智能进入Agentic Robotics时代？清华、伯克利开源统一RUA框架",
@@ -468,7 +491,25 @@
         "Agent",
         "具身智能"
       ],
-      "score": 22
+      "score": 30,
+      "related": [
+        {
+          "id": "1ama2yk6pfx",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4065250996048773",
+          "title": "具身智能进入Agentic Robotics时代？清华、伯克利开源统一RUA框架",
+          "publishedAt": "2026-11-11T23:36:45.180Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-11T11:58:00.000Z"
+      }
     },
     {
       "id": "1wwbwqcxg7d",
@@ -2160,10 +2201,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 21.2,
+      "score": 22,
       "metrics": {
-        "upvotes": 50,
-        "comments": 6
+        "upvotes": 57,
+        "comments": 7
       }
     },
     {
@@ -2181,10 +2222,10 @@
       "day": "2026-11-11",
       "category": "paper",
       "categoryLocked": true,
-      "score": 23.2,
+      "score": 23.8,
       "metrics": {
-        "upvotes": 71,
-        "comments": 1
+        "upvotes": 77,
+        "comments": 2
       }
     },
     {
@@ -2205,9 +2246,50 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22.2,
+      "score": 22.7,
       "metrics": {
-        "upvotes": 61,
+        "upvotes": 65,
+        "comments": 3
+      }
+    },
+    {
+      "id": "2bhq1pko40d",
+      "key": "url:openai.com/index/jiostar-vijay-seshadri",
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "excerpt": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-12T03:48:34.115Z",
+      "day": "2026-11-11",
+      "category": "industry",
+      "score": 30
+    },
+    {
+      "id": "ffo19ovp3c",
+      "key": "arxiv:2611.14033",
+      "title": "Few-Step Streaming Video Generation via Condition Shifting",
+      "url": "https://huggingface.co/papers/2611.14033",
+      "excerpt": "APEX extends a streaming video generation method by replacing a separate fake-score network with condition shifting to estimate the generated distribution’s velocity field, improving instruction following and visual aesthetics while reducing memory and iteration time relative to…",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-11T00:00:00.000Z",
+      "firstSeenAt": "2026-11-12T03:48:34.115Z",
+      "day": "2026-11-11",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "视频生成"
+      ],
+      "score": 22.9,
+      "metrics": {
+        "upvotes": 68,
         "comments": 2
       }
     },
@@ -2275,10 +2357,10 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 34.5,
+      "score": 34.7,
       "metrics": {
-        "points": 440,
-        "comments": 213
+        "points": 447,
+        "comments": 219
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50447074"
     },
@@ -2298,8 +2380,8 @@
       "category": "industry",
       "score": 44,
       "metrics": {
-        "points": 474,
-        "comments": 487
+        "points": 521,
+        "comments": 528
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50446520",
       "alsoOn": [
@@ -2592,7 +2674,7 @@
       ],
       "score": 28.9,
       "metrics": {
-        "stars": 115765,
+        "stars": 116056,
         "starsToday": 788
       }
     },
@@ -2634,10 +2716,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 33.2,
+      "score": 33.4,
       "metrics": {
-        "points": 420,
-        "comments": 139
+        "points": 425,
+        "comments": 142
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50443812"
     },
@@ -2673,10 +2755,10 @@
       "firstSeenAt": "2026-11-11T02:47:08.191Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 30.9,
+      "score": 31.2,
       "metrics": {
-        "points": 274,
-        "comments": 209
+        "points": 281,
+        "comments": 216
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50443716"
     },
@@ -2693,10 +2775,10 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 23.6,
+      "score": 24,
       "metrics": {
-        "points": 124,
-        "comments": 84
+        "points": 130,
+        "comments": 85
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50443587"
     },
@@ -2895,10 +2977,10 @@
       "firstSeenAt": "2026-11-10T18:39:46.029Z",
       "day": "2026-11-11",
       "category": "model",
-      "score": 60.7,
+      "score": 60.8,
       "metrics": {
-        "points": 290,
-        "comments": 159
+        "points": 292,
+        "comments": 164
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50442303",
       "related": [
@@ -2972,8 +3054,8 @@
         ],
         "firstPublishedAt": "2026-11-10T16:00:00.000Z",
         "metrics": {
-          "points": 290,
-          "comments": 159
+          "points": 292,
+          "comments": 164
         }
       }
     },

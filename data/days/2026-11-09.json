@@ -286,7 +286,7 @@
       "categoryLocked": true,
       "score": 25.6,
       "metrics": {
-        "stars": 70042,
+        "stars": 70469,
         "starsToday": 506
       },
       "ai": {
@@ -314,7 +314,7 @@
       "categoryLocked": true,
       "score": 28.9,
       "metrics": {
-        "stars": 7167,
+        "stars": 7452,
         "starsToday": 792
       },
       "aiAttempts": 1,
@@ -1675,15 +1675,24 @@
           "url": "http://www.geekpark.net/news/373760",
           "title": "千问办公押注 Team Agent，企业 AI 的流水线时刻真的来了",
           "publishedAt": "2026-11-10T04:52:07.000Z"
+        },
+        {
+          "id": "1wilr83xqwb",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4065543071848069",
+          "title": "千问办公补课，陈宇森再次创业",
+          "publishedAt": "2026-11-12T03:43:36.990Z"
         }
       ],
       "story": {
-        "reports": 6,
+        "reports": 7,
         "sources": [
           "leiphone",
           "infoq-cn",
           "qbitai",
-          "geekpark"
+          "geekpark",
+          "36kr-ai"
         ],
         "firstPublishedAt": "2026-11-09T07:46:00.000Z"
       },
@@ -2660,15 +2669,72 @@
           "url": "https://techcrunch.com/2026/11/11/is-jensen-huangs-bad-behavior-more-commonplace-than-it-seems/",
           "title": "Is Jensen Huang’s bad behavior more commonplace than it seems?",
           "publishedAt": "2026-11-11T16:16:07.000Z"
+        },
+        {
+          "id": "1tol6pdi0mm",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
+          "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
+          "publishedAt": "2026-11-11T19:22:22.000Z"
+        },
+        {
+          "id": "1zg7lusq8ta",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xtvsi7/nvidia_is_preparing_to_oust_nvidia_ceo_jensen/",
+          "title": "Nvidia is Preparing to Oust Nvidia CEO Jensen Huang",
+          "publishedAt": "2026-11-11T22:31:56.000Z"
+        },
+        {
+          "id": "6v0wfmo287",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+          "title": "Nvidia is reportedly preparing to fire Jensen Huang",
+          "publishedAt": "2026-11-11T22:44:36.000Z"
+        },
+        {
+          "id": "1cbk2x28it4",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+          "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+          "publishedAt": "2026-11-11T23:17:05.000Z"
+        },
+        {
+          "id": "1wa8dept86w",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+          "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+          "publishedAt": "2026-11-11T23:28:45.000Z"
+        },
+        {
+          "id": "1y7fdlmevtx",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "title": "The unfolding Jensen Huang scandal: a timeline",
+          "publishedAt": "2026-11-11T23:50:00.000Z"
+        },
+        {
+          "id": "9azy3un0q6",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+          "title": "Who could replace Jensen Huang? A highly unscientific list of possible successors",
+          "publishedAt": "2026-11-12T03:13:10.000Z"
         }
       ],
       "story": {
-        "reports": 9,
+        "reports": 16,
         "sources": [
           "jiqizhixin",
           "verge-ai",
           "qbitai",
-          "techcrunch-ai"
+          "techcrunch-ai",
+          "reddit-localllama"
         ],
         "firstPublishedAt": "2026-11-08T20:22:39.000Z"
       }
@@ -3063,9 +3129,9 @@
       "day": "2026-11-09",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.6,
+      "score": 22.7,
       "metrics": {
-        "upvotes": 62,
+        "upvotes": 63,
         "comments": 8
       }
     },
@@ -3088,9 +3154,9 @@
         "Agent",
         "具身智能"
       ],
-      "score": 21.1,
+      "score": 21.4,
       "metrics": {
-        "upvotes": 51,
+        "upvotes": 53,
         "comments": 3
       }
     },
@@ -3343,9 +3409,9 @@
       "keywords": [
         "图像生成"
       ],
-      "score": 26.7,
+      "score": 27.2,
       "metrics": {
-        "likes": 236
+        "likes": 257
       },
       "skipLlm": true,
       "related": [
@@ -3374,7 +3440,7 @@
         ],
         "firstPublishedAt": "2026-11-08T20:37:23.000Z",
         "metrics": {
-          "likes": 236
+          "likes": 257
         }
       }
     },

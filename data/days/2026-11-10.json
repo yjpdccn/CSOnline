@@ -1199,8 +1199,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 618,
-        "comments": 583
+        "points": 632,
+        "comments": 608
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50438318"
     },
@@ -2582,9 +2582,9 @@
       "day": "2026-11-10",
       "category": "paper",
       "categoryLocked": true,
-      "score": 25.5,
+      "score": 25.6,
       "metrics": {
-        "upvotes": 98,
+        "upvotes": 99,
         "comments": 2
       }
     },
@@ -2606,9 +2606,9 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 21.6,
+      "score": 21.7,
       "metrics": {
-        "upvotes": 55,
+        "upvotes": 56,
         "comments": 2
       }
     },
@@ -2952,7 +2952,7 @@
       "score": 27,
       "metrics": {
         "points": 158,
-        "comments": 199
+        "comments": 200
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50433079",
       "ai": {
@@ -3093,8 +3093,8 @@
       "category": "industry",
       "score": 34,
       "metrics": {
-        "points": 377,
-        "comments": 275
+        "points": 379,
+        "comments": 278
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50431144",
       "dupOf": "8bllbylsvs"
@@ -3298,8 +3298,8 @@
       "category": "industry",
       "score": 60,
       "metrics": {
-        "points": 994,
-        "comments": 1032
+        "points": 995,
+        "comments": 1039
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50429906",
       "related": [
@@ -3438,10 +3438,18 @@
           "url": "https://www.jiqizhixin.com/articles/2026-11-11-15",
           "title": "Fable 5.2生视频也火了！一句话生成3D短片，建模、运镜、渲染全包",
           "publishedAt": "2026-11-11T11:49:00.000Z"
+        },
+        {
+          "id": "t4pijrdzh",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4065250990167170",
+          "title": "Fable 5.2生视频也火了，一句话生成3D短片，建模、运镜、渲染全包",
+          "publishedAt": "2026-11-11T23:42:17.306Z"
         }
       ],
       "story": {
-        "reports": 18,
+        "reports": 19,
         "sources": [
           "hackernews",
           "the-decoder",
@@ -3454,8 +3462,8 @@
         ],
         "firstPublishedAt": "2026-11-09T18:56:29.000Z",
         "metrics": {
-          "points": 994,
-          "comments": 1032
+          "points": 995,
+          "comments": 1039
         }
       },
       "aiAttempts": 1
@@ -3495,8 +3503,8 @@
       "category": "industry",
       "score": 34,
       "metrics": {
-        "points": 730,
-        "comments": 147
+        "points": 733,
+        "comments": 148
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50429426",
       "ai": {
@@ -3556,7 +3564,7 @@
       "score": 21.9,
       "metrics": {
         "points": 111,
-        "comments": 42
+        "comments": 43
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50429144"
     },

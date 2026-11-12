@@ -549,39 +549,41 @@
   },
   "2026-11-12": {
     "day": "2026-11-12",
-    "generatedAt": "2026-11-11T18:41:05.948Z",
+    "generatedAt": "2026-11-12T03:50:51.164Z",
     "itemCount": 136,
-    "mode": "fallback",
-    "overview": "过去 24 小时共收录 136 条 AI 资讯：产品与行业 91 条、Agent 与工具 21 条、多模态与视频 11 条、模型发布 5 条、开源项目 5 条、论文 3 条。以下为按重要性排序的前 5 条。",
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "Google发布多模态决策API，OpenAI季度营收破百亿，百度推出大模型交易平台。",
     "points": [
       {
-        "text": "【行业】AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+        "text": "Google推出Gemini Decisions API，提供快速且校准的多模态决策能力。",
         "refs": [
-          "1yw5gvte6i7"
+          "6pvfu26b8v",
+          "8w04m1c763"
         ]
       },
       {
-        "text": "【Agent】Google SWE points 48 AI agents at NASA Lidar, finds unmapped Maya pyramid in 72h",
-        "refs": [
-          "1kek2rhdcrn"
-        ]
-      },
-      {
-        "text": "【行业】Enterprise sales push OpenAI's quarterly revenue to $10 billion, though it still trails Anthropic",
+        "text": "OpenAI季度营收增长50%至100亿美元，但仍在烧钱。",
         "refs": [
           "b4gsz1lmsl"
         ]
       },
       {
-        "text": "【多模态】Gemini Decisions API: Fast, calibrated multimodal decisions",
+        "text": "百度推出大模型交易平台“词元所”，满足模型调用需求。",
         "refs": [
-          "6pvfu26b8v"
+          "x6vtpvc0ts"
         ]
       },
       {
-        "text": "【模型】文心 5.5 Flash Preview发布！编程、3D 建模、知识工作、内容创作等全面升级",
+        "text": "联合航空禁止AI代理代为订票，以应对隐私和监管问题。",
         "refs": [
-          "s921xnn502"
+          "3wkl9ibf8k"
+        ]
+      },
+      {
+        "text": "Google发布协作工具Tabletop，帮助团队规划行程和投票。",
+        "refs": [
+          "mn20yo16lt"
         ]
       }
     ]
