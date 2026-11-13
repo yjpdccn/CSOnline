@@ -1,0 +1,259 @@
+{
+  "day": "2026-11-14",
+  "items": [
+    {
+      "id": "1eylxsqa82n",
+      "key": "gh:alibaba/open-code-review",
+      "title": "alibaba/open-code-review",
+      "url": "https://github.com/alibaba/open-code-review",
+      "excerpt": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T18:30:11.658Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-14",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 19.7,
+      "metrics": {
+        "stars": 50421,
+        "starsToday": 206
+      },
+      "ai": {
+        "title": "alibaba/open-code-review：阿里混合架构代码审查工具",
+        "summary": "alibaba/open-code-review 是阿里混合架构代码审查工具，兼容 OpenAI 和 Anthropic。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
+      }
+    },
+    {
+      "id": "10qb9zl90a9",
+      "key": "gh:tradermonty/claude-trading-skills",
+      "title": "tradermonty/claude-trading-skills",
+      "url": "https://github.com/tradermonty/claude-trading-skills",
+      "excerpt": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T18:30:11.658Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-14",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 14.1,
+      "metrics": {
+        "stars": 4042,
+        "starsToday": 60
+      },
+      "ai": {
+        "title": "claude-trading-skills：Claude 代码技能用于股市分析",
+        "summary": "claude-trading-skills 为股票投资者和交易员提供市场分析、技术图表等技能。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
+      }
+    },
+    {
+      "id": "kv756qznpt",
+      "key": "gh:likely7/veyra-nrvideo",
+      "title": "Likely7/Veyra-NRVideo",
+      "url": "https://github.com/Likely7/Veyra-NRVideo",
+      "excerpt": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-gene…",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T18:30:11.658Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-14",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 20.7,
+      "metrics": {
+        "stars": 1537,
+        "starsToday": 245
+      },
+      "ai": {
+        "title": "Likely7/Veyra-NRVideo：利用 DLSS 5 实现 120F…",
+        "summary": "Likely7/Veyra-NRVideo 是一款 AI 视频增强工具，支持 DLSS 5 和帧生成。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
+      }
+    },
+    {
+      "id": "25j5ctp5o3c",
+      "key": "gh:chromedevtools/chrome-devtools-mcp",
+      "title": "ChromeDevTools/chrome-devtools-mcp",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "excerpt": "Chrome DevTools for coding agents",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T18:30:11.658Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-14",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 17.8,
+      "metrics": {
+        "stars": 55353,
+        "starsToday": 145
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "ChromeDevTools/chrome-devtools-mcp 为编码 Agent 提供 Chrome DevTools 支持。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
+      }
+    },
+    {
+      "id": "17pd3pufygc",
+      "key": "url:the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls",
+      "title": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls",
+      "url": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
+      "excerpt": "Chinese investors are shut out of Anthropic's IPO, Bloomberg reports. Banks are rejecting buy orders from mainland China and Hong Kong, citing U.S. export control rules known as ITAR. Similar restrictions applied during SpaceX's IPO, and Anthropic's products aren't available in…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T18:01:53.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 44.8,
+      "related": [
+        {
+          "id": "te5yvsklut",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50474883",
+          "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
+          "publishedAt": "2026-11-12T21:56:11.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "the-decoder",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-12T21:56:11.000Z",
+        "metrics": {
+          "points": 346,
+          "comments": 144
+        }
+      },
+      "ai": {
+        "title": "银行因美国出口管制禁止中港投资者参与 Anthropic IPO",
+        "summary": "受美国 ITAR 出口管制影响，银行拒绝中港投资者购买 Anthropic IPO 股票。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
+      }
+    },
+    {
+      "id": "aoozwun37d",
+      "key": "url:huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "title": "Build a Robot Pick-and-Place Simulation with SimReady Assets",
+      "url": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-13T18:00:39.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-14",
+      "category": "opensource",
+      "score": 30,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "使用 SimReady 资产构建机器人拾取放置模拟。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
+      }
+    },
+    {
+      "id": "22iw8gusjuf",
+      "key": "url:huggingface.co/blog/allenai/xybench",
+      "title": "XYBench: Helping with the problem behind the question",
+      "url": "https://huggingface.co/blog/allenai/xybench",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-13T17:02:35.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-14",
+      "category": "paper",
+      "score": 30,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "XYBench 帮助解决提问背后的难题。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
+      }
+    },
+    {
+      "id": "rlnbzi7si1",
+      "key": "url:the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows",
+      "title": "Anthropic's Claude for Manufacturing plugs AI directly into factory software to automate industrial workflows",
+      "url": "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/",
+      "excerpt": "Anthropic's new Claude for Manufacturing plugin connects the AI directly to Autodesk Fusion, Oracle NetSuite, and Infor. Its 17 specialized skills let the AI draft quotes, compare suppliers, and place backup orders when deliveries are delayed, all after human approval. The plugi…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T16:37:01.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-14",
+      "category": "agent",
+      "score": 15,
+      "ai": {
+        "title": "Anthropic 推出面向制造业的 Claude 插件",
+        "summary": "Anthropic 推出面向制造业的 Claude 插件，可直接连接工厂软件自动化工作流。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
+      }
+    },
+    {
+      "id": "2alhgd4wcqi",
+      "key": "url:techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you",
+      "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+      "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+      "excerpt": "ChatGPT Wallet lets AI agents shop and check out on users' behalf, starting with a limited rollout to U.S. Pro subscribers.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T16:00:12.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-14",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "dupOf": "1e23ev2etff"
+    }
+  ]
+}

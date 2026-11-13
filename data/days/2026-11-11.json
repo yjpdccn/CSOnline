@@ -18,7 +18,14 @@
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Helsing 推出 Clarity AI 平台，用于武器系统目标准备",
+        "summary": "Helsing 展示 Clarity AI 平台，通过代理在人类监督下准备武器系统目标。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
+      }
     },
     {
       "id": "1wlvgw0e6cd",
@@ -49,7 +56,7 @@
       "publishedAt": "2026-11-11T15:00:15.000Z",
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
-      "category": "industry",
+      "category": "paper",
       "score": 54,
       "related": [
         {
@@ -95,6 +102,13 @@
           "the-decoder"
         ],
         "firstPublishedAt": "2026-11-11T15:00:00.000Z"
+      },
+      "ai": {
+        "title": "AlphaGenome 2：解码细胞如何读取 DNA",
+        "summary": "Google DeepMind 发布 AlphaGenome 2，用于理解 DNA 与疾病的关系。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:46.805Z"
       }
     },
     {
@@ -110,11 +124,18 @@
       "publishedAt": "2026-11-11T15:00:00.000Z",
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Databricks 新 AI 代理向 CEO 提供真实反馈",
+        "summary": "Databricks 推出 Genie 代理，帮助 CEO 获取员工的真实反馈。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
+      }
     },
     {
       "id": "9qlf35a8jq",
@@ -164,7 +185,14 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Anthropic 用 AI 突破 Nvidia CUDA 优势，将 AMD…",
+        "summary": "Anthropic 用 AI 将 Claude 模型移植到 AMD GPU，大幅缩短切换时间。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
+      }
     },
     {
       "id": "k20zhogco",
@@ -450,25 +478,15 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 23,
-      "related": [
-        {
-          "id": "e452xzmufu",
-          "sourceId": "techcrunch-ai",
-          "sourceName": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
-          "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
-          "publishedAt": "2026-11-11T16:14:44.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "the-decoder",
-          "techcrunch-ai"
-        ],
-        "firstPublishedAt": "2026-11-11T12:12:47.000Z"
-      }
+      "score": 15,
+      "ai": {
+        "title": "企业销售推动 OpenAI 季度收入达 100 亿美元",
+        "summary": "OpenAI 季度收入增长 50% 至 100 亿美元，但仍面临亏损。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
+      },
+      "dupOf": "x71naakckq"
     },
     {
       "id": "1kek2rhdcrn",
@@ -491,7 +509,14 @@
         "points": 790,
         "comments": 296
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50452455"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50452455",
+      "ai": {
+        "title": "Google SWE 指挥 48 个 AI 代理发现未绘制的玛雅金字塔",
+        "summary": "Google 利用 48 个 AI 代理在 72 小时内发现了一座未绘制的玛雅金字塔。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:46.805Z"
+      }
     },
     {
       "id": "285uj67aa6k",
@@ -511,8 +536,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 1029,
-        "comments": 391
+        "points": 1033,
+        "comments": 392
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50452455",
       "dupOf": "25vte45xjl6"
@@ -1019,7 +1044,14 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "体验 Dr. Esther Mahlangu 的艺术与遗产",
+        "summary": "Google Arts & Culture 上线了 Dr. Esther Mahlangu 的在线档案。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:46.805Z"
+      }
     },
     {
       "id": "100j038bcjz",
@@ -1104,7 +1136,14 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI 为退伍军人提供免费 ChatGPT Plus，帮助他们准备转行。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
+      }
     },
     {
       "id": "1kqao2vkaya",
@@ -1339,12 +1378,29 @@
       "publishedAt": "2026-11-11T07:09:56.000Z",
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
-      "category": "multimodal",
+      "category": "opensource",
       "keywords": [
         "语音"
       ],
-      "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xtb9gw/zyphrazonos3mini_hugging_face/"
+      "score": 27.4,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xtb9gw/zyphrazonos3mini_hugging_face/",
+      "alsoOn": [
+        {
+          "sourceId": "hf-models",
+          "sourceName": "HF 热门模型",
+          "url": "https://huggingface.co/Zyphra/ZONOS3-Mini"
+        }
+      ],
+      "metrics": {
+        "likes": 269
+      },
+      "ai": {
+        "title": "Zyphra 推出 ZONOS3-Mini 开源文本转语音模型",
+        "summary": "Zyphra 发布 ZONOS3-Mini，一款轻量级开源文本转语音模型。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
+      }
     },
     {
       "id": "qlx4i8f3y7",
@@ -1553,7 +1609,14 @@
       "keywords": [
         "Agent"
       ],
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "BotPsy：面向设备的个人助手，使用十亿参数级智能语言模型",
+        "summary": "Hugging Face 推出 BotPsy，一款基于小参数智能语言模型的设备端个人助手。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
+      }
     },
     {
       "id": "7o6ckjipbr",
@@ -1656,7 +1719,14 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "AI 帮助回收商将混合垃圾转化为可回收材料",
+        "summary": "NVIDIA 展示 AI 与机器人如何从传送带上分离可回收物品，减少垃圾填埋。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
+      }
     },
     {
       "id": "1rg0j0484dw",
@@ -1673,7 +1743,14 @@
       "firstSeenAt": "2026-11-11T02:47:08.191Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "Gilbert + Tobin 重新思考法律业务中的 AI 应用",
+        "summary": "OpenAI 与 Gilbert + Tobin 合作，探讨 AI 如何重塑法律服务。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
+      }
     },
     {
       "id": "1t3i8w79dhw",
@@ -1978,7 +2055,34 @@
       "firstSeenAt": "2026-11-11T02:47:08.191Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 18
+      "score": 34,
+      "related": [
+        {
+          "id": "b4gsz1lmsl",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/enterprise-sales-push-openais-quarterly-revenue-to-10-billion-though-it-still-trails-anthropic/",
+          "title": "企业销售推动 OpenAI 季度收入达 100 亿美元",
+          "publishedAt": "2026-11-11T12:12:47.000Z"
+        },
+        {
+          "id": "e452xzmufu",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+          "title": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+          "publishedAt": "2026-11-11T16:14:44.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "36kr-ai",
+          "the-decoder",
+          "techcrunch-ai"
+        ],
+        "firstPublishedAt": "2026-11-11T02:08:24.740Z"
+      }
     },
     {
       "id": "15rgh7m0sgs",
@@ -2242,8 +2346,15 @@
       "dateOnly": true,
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
-      "category": "industry",
-      "score": 30
+      "category": "paper",
+      "score": 30,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Hugging Face 博客介绍多向量嵌入模型的 Token Pooling-Aware 训练方法。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
+      }
     },
     {
       "id": "jwqve67iza",
@@ -2263,10 +2374,17 @@
       "keywords": [
         "Agent"
       ],
-      "score": 23.1,
+      "score": 23.3,
       "metrics": {
-        "upvotes": 67,
+        "upvotes": 69,
         "comments": 7
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "HF 每日论文提出证据链接记忆方法，减少 LLM 代理中的记忆退化。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
       }
     },
     {
@@ -2288,6 +2406,13 @@
       "metrics": {
         "upvotes": 77,
         "comments": 3
+      },
+      "ai": {
+        "title": "Tree-Ising：通过位级 Ising 编辑修复语言模型",
+        "summary": "HF 每日论文提出 Tree-Ising 方法，通过位级编辑修复语言模型推理循环。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
       }
     },
     {
@@ -2312,6 +2437,13 @@
       "metrics": {
         "upvotes": 65,
         "comments": 3
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "HF 每日论文探讨世界上下文学习在机器人操作中的应用。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
       }
     },
     {
@@ -2329,7 +2461,14 @@
       "firstSeenAt": "2026-11-12T03:48:34.115Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "JioStar 首席架构师谈 5 亿用户规模下的 AI 发现",
+        "summary": "OpenAI 分享 JioStar 在 5 亿用户规模下进行 AI 发现的经验。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
+      }
     },
     {
       "id": "ffo19ovp3c",
@@ -2353,6 +2492,13 @@
       "metrics": {
         "upvotes": 88,
         "comments": 2
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "HF 每日论文介绍通过条件切换实现少步流式视频生成的方法。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
       }
     },
     {
@@ -2424,7 +2570,14 @@
         "points": 457,
         "comments": 221
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50447074"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50447074",
+      "ai": {
+        "title": "追踪 Anthropic 发现的漏洞",
+        "summary": "讨论 Anthropic 在安全研究中发现的漏洞及其追踪方法。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:46.805Z"
+      }
     },
     {
       "id": "1qyapwgwnle",
@@ -2452,7 +2605,14 @@
           "sourceName": "r/LocalLLaMA",
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xszbe7/apple_has_new_mac_app_coming_to_make_running/"
         }
-      ]
+      ],
+      "ai": {
+        "title": "Apple 推出本地 AI 模型运行 Mac 应用",
+        "summary": "Apple 发布新 Mac 应用，旨在简化本地 AI 模型的运行。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:46.805Z"
+      }
     },
     {
       "id": "ql4jx9xl10",
@@ -2503,7 +2663,7 @@
       "publishedAt": "2026-11-10T20:52:56.000Z",
       "firstSeenAt": "2026-11-11T02:47:08.191Z",
       "day": "2026-11-11",
-      "category": "agent",
+      "category": "paper",
       "keywords": [
         "Agent"
       ],
@@ -2515,7 +2675,14 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xt82mz/microsoft_research_backdoored_an_ai_agent_by/"
         }
       ],
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xt82mz/microsoft_research_backdoored_an_ai_agent_by/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xt82mz/microsoft_research_backdoored_an_ai_agent_by/",
+      "ai": {
+        "title": "Lazare：重编程休眠神经元以植入后门",
+        "summary": "微软发现名为 Lazare 的后门技术，可重编程 AI 模型中的休眠神经元。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:46.805Z"
+      }
     },
     {
       "id": "18xsf8qd8qd",
@@ -2565,8 +2732,8 @@
       "publishedAt": "2026-11-10T20:09:44.000Z",
       "firstSeenAt": "2026-11-11T02:47:08.191Z",
       "day": "2026-11-11",
-      "category": "model",
-      "score": 20,
+      "category": "opensource",
+      "score": 14,
       "related": [
         {
           "id": "vnutthbkiv",
@@ -2583,6 +2750,40 @@
           "simonw"
         ],
         "firstPublishedAt": "2026-11-10T20:09:44.000Z"
+      },
+      "ai": {
+        "title": "llm-gemini 0.36 发布，Gemini 4 Carbon 现已面向…",
+        "summary": "Simon Willison 发布 llm-gemini 0.36，Gemini 4 Carbon 现已开放。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
+      }
+    },
+    {
+      "id": "1ov7q1ealx5",
+      "key": "gh:frigadehq/yogurt",
+      "title": "FrigadeHQ/yogurt",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "excerpt": "Private AI meeting notes. Free and open source.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-10T20:01:01.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-11",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 21.7,
+      "metrics": {
+        "stars": 1216
+      },
+      "ai": {
+        "title": "FrigadeHQ/yogurt：私有 AI 会议记录",
+        "summary": "GitHub 新星项目，提供免费开源的私有 AI 会议记录工具。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
       }
     },
     {
@@ -2631,9 +2832,16 @@
       "publishedAt": "2026-11-10T19:44:57.000Z",
       "firstSeenAt": "2026-11-11T02:47:08.191Z",
       "day": "2026-11-11",
-      "category": "model",
-      "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights/"
+      "category": "paper",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xswmb7/the_surprising_effectiveness_of_deleting_weights/",
+      "ai": {
+        "title": "删除 LLM 权重在微调中的惊人效果",
+        "summary": "研究显示，只需修改 LLM 权重的 0.05% 即可匹配全量微调的效果。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
+      }
     },
     {
       "id": "1bwsefnc46c",
@@ -2697,8 +2905,15 @@
       "publishedAt": "2026-11-10T19:00:00.000Z",
       "firstSeenAt": "2026-11-11T02:47:08.191Z",
       "day": "2026-11-11",
-      "category": "industry",
-      "score": 30
+      "category": "multimodal",
+      "score": 30,
+      "ai": {
+        "title": "Gemini Intelligence：新功能，支持更多设备",
+        "summary": "Google AI 推出 Gemini Intelligence 的新功能，并扩展到更多设备。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
+      }
     },
     {
       "id": "1moad8158tv",
@@ -2755,6 +2970,13 @@
       "metrics": {
         "stars": 116756,
         "starsToday": 816
+      },
+      "ai": {
+        "title": "addyosmani/agent-skills：面向 AI 编码代理的生产级工…",
+        "summary": "GitHub Trending 推荐项目，提供 AI 编码代理的生产级工程技能。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:01.112Z"
       }
     },
     {

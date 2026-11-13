@@ -626,5 +626,39 @@
         ]
       }
     ]
+  },
+  "2026-11-14": {
+    "day": "2026-11-14",
+    "generatedAt": "2026-11-13T18:33:19.220Z",
+    "itemCount": 122,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "OpenAI 推出 ChatGPT Wallet，Anthropic 推出制造业插件与 Claude Duet。",
+    "points": [
+      {
+        "text": "OpenAI 推出 ChatGPT Wallet，允许 Agent 在用户批准下完成购买。",
+        "refs": [
+          "1e23ev2etff"
+        ]
+      },
+      {
+        "text": "Anthropic 推出面向制造业的 Claude 插件，可直接连接工厂软件自动化工作流。",
+        "refs": [
+          "rlnbzi7si1"
+        ]
+      },
+      {
+        "text": "Anthropic 推出 Claude Duet 代理，旨在帮助用户撰写体验报告。",
+        "refs": [
+          "27l9nas9hi2"
+        ]
+      },
+      {
+        "text": "llama.cpp v1.0.0 发布，为本地 AI 生态提供更强基础。",
+        "refs": [
+          "hnl8zcoq07"
+        ]
+      }
+    ]
   }
 }

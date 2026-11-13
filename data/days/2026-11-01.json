@@ -1758,29 +1758,7 @@
       "firstSeenAt": "2026-11-01T02:25:49.445Z",
       "day": "2026-11-01",
       "category": "agent",
-      "score": 44.6,
-      "related": [
-        {
-          "id": "21ko6gzhr67",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50314699",
-          "title": "We Took over ChatGPT Accounts",
-          "publishedAt": "2026-10-31T10:30:11.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "simonw",
-          "hackernews"
-        ],
-        "firstPublishedAt": "2026-10-31T10:30:11.000Z",
-        "metrics": {
-          "points": 361,
-          "comments": 176
-        }
-      },
+      "score": 14,
       "ai": {
         "title": "Parameter Labs 描述攻占 ChatGPT 账号的漏洞",
         "summary": "Parameter Labs 描述了针对 ChatGPT artifacts 模式的漏洞利用，可控制用户账号。",

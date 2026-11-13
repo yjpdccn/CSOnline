@@ -2,6 +2,1573 @@
   "day": "2026-11-13",
   "items": [
     {
+      "id": "2cqrn22wwxt",
+      "key": "url:techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "excerpt": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T15:58:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "1uajmr52i5w",
+      "key": "url:the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails",
+      "title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
+      "url": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
+      "excerpt": "US public-sector unions are increasingly pushing through protections against AI surveillance and automated firings. In Oakland, a strike vote forced retraining programs instead of layoffs, and a transport union in Ohio won veto power over autonomous vehicles. California banned s…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T15:53:49.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1
+    },
+    {
+      "id": "kug8dphy8t",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xvbcfp/look_what_my_son_gave_me",
+      "title": "Look what my son gave me!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvbcfp/look_what_my_son_gave_me/",
+      "excerpt": "I told my son I was playing around with local AI on a 3090. He told me he used to mine Ethereum and had a shed full of 3090's. He asked me if I wanted a couple. Ummm... let me think about it... OH YES I DO! Now a few new fans and a bit of a clean-up... grab a couple risers and a…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T15:49:27.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "agent",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xvbcfp/look_what_my_son_gave_me/",
+      "ai": {
+        "title": "儿子送我几块 RTX 3090",
+        "summary": "用户儿子送给他几块 RTX 3090 用于本地 AI。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:34.893Z"
+      }
+    },
+    {
+      "id": "cxu2c6jwis",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xvam8o/cxmt_almost_tripling_ram_production_from_2025_to",
+      "title": "CXMT almost tripling RAM production from 2025 to 2028",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvam8o/cxmt_almost_tripling_ram_production_from_2025_to/",
+      "excerpt": "According to post CXMT projected expansion plans grow from 405 kwpm in 2025 to 1,125 kwpm by 2028 in 8-inch equivalents. https://preview.redd.it/4zifixg4de1i1.png?width=1055&format=png&auto=webp&s=ef4cea6e31aeb4c907101d751cf936021a30d0fd https://x.com/OptionKing666/status/212122…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T15:21:10.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xvam8o/cxmt_almost_tripling_ram_production_from_2025_to/",
+      "ai": {
+        "title": "CXMT 计划将 RAM 产能提高近三倍",
+        "summary": "CXMT 计划将 RAM 产能从 2025 年到 2028 年提高近三倍。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:34.893Z"
+      }
+    },
+    {
+      "id": "z43szj7euh",
+      "key": "url:the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models",
+      "title": "Former OpenAI researcher says he found Nvidia Blackwell fingerprints hidden inside six Chinese AI models",
+      "url": "https://the-decoder.com/former-openai-researcher-says-he-found-nvidia-blackwell-fingerprints-hidden-inside-six-chinese-ai-models/",
+      "excerpt": "Former OpenAI researcher Will DePue says he has produced the first technical evidence that DeepSeek, Moonshot AI, MiniMax, and Ant Group are using Nvidia's latest Blackwell GPUs despite US export controls. His forensic method reads characteristic chip signatures directly from pu…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T15:21:04.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1
+    },
+    {
+      "id": "21l3obct018",
+      "key": "url:the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history",
+      "title": "Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history",
+      "url": "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/",
+      "excerpt": "Anthropic is on track for the largest IPO ever, with orders exceeding available shares by a factor of six. The article Anthropic's IPO is six times oversubscribed and on track to become the largest public offering in history appeared first on The Decoder.",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T15:15:08.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1
+    },
+    {
+      "id": "1of3d3lwm4k",
+      "key": "url:the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai",
+      "title": "Meta's Muse now calls businesses for you, but many companies might just hang up on the AI",
+      "url": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/",
+      "excerpt": "Meta's AI agent Muse can now call businesses on behalf of paying US subscribers, handling everything from cable providers to restaurants. The agent already has over 10 million users, according to Meta's AI chief Alexandr Wang. Google Gemini, Instinct, and xAI's Grok Bot offer th…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T15:12:44.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "dupOf": "26rll4inkfi"
+    },
+    {
+      "id": "61khmdcmql",
+      "key": "url:the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products",
+      "title": "OpenAI enters the cybersecurity market with two Daybreak products",
+      "url": "https://the-decoder.com/openai-enters-the-cybersecurity-market-with-two-daybreak-products/",
+      "excerpt": "OpenAI has launched two security products under its Daybreak brand. The article OpenAI enters the cybersecurity market with two Daybreak products appeared first on The Decoder.",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T15:08:57.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "OpenAI 推出两款 Daybreak 安全产品",
+        "summary": "OpenAI 进入网络安全市场，发布两款名为 Daybreak 的安全产品。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:25.114Z"
+      }
+    },
+    {
+      "id": "1sy5e5vanun",
+      "key": "url:youtube.com/watch?v=IRK8h67ol7Q",
+      "title": "Jonathan Blow – If AI Solved Coding, Why Is My Software Still the Same? [video]",
+      "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T15:08:44.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "paper",
+      "score": 23.9,
+      "metrics": {
+        "points": 126,
+        "comments": 90
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50484658",
+      "ai": {
+        "title": "如果 AI 解决了编程，为什么我的软件还是老样子？",
+        "summary": "Jonathan Blow 讨论了 AI 解决编程问题后软件现状的疑问。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:06.058Z"
+      }
+    },
+    {
+      "id": "1e23ev2etff",
+      "key": "url:openai.com/index/introducing-chatgpt-wallet",
+      "title": "Introducing ChatGPT Wallet",
+      "url": "https://openai.com/index/introducing-chatgpt-wallet",
+      "excerpt": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-13T15:00:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 42,
+      "related": [
+        {
+          "id": "2alhgd4wcqi",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
+          "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
+          "publishedAt": "2026-11-13T16:00:12.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "openai",
+          "techcrunch-ai"
+        ],
+        "firstPublishedAt": "2026-11-13T15:00:00.000Z"
+      },
+      "ai": {
+        "title": "OpenAI 推出 ChatGPT Wallet",
+        "summary": "OpenAI 推出 ChatGPT Wallet，允许 Agent 在用户批准下完成购买。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
+      }
+    },
+    {
+      "id": "22b0t4rxp80",
+      "key": "url:theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+      "title": "What’s really at stake in the Jensen Huang saga",
+      "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+      "excerpt": "One part of the saga surrounding Nvidia CEO Jensen Huang ended on Thursday, when Huang resigned from his position at the top of AI's most important company. But in the coming weeks and months, a much bigger story may be about to unfold. A story about Nvidia's dealings in China,…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T14:47:16.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "4prwo75zjz",
+      "key": "url:techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams",
+      "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
+      "url": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
+      "excerpt": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T14:44:48.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "multimodal",
+      "keywords": [
+        "语音"
+      ],
+      "score": 15,
+      "aiAttempts": 1
+    },
+    {
+      "id": "an0rasyqoz",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xv8t2e/llamacpp_v10_is_here",
+      "title": "llama.cpp v1.0 is here 🦙",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv8t2e/llamacpp_v10_is_here/",
+      "excerpt": "Hey folks, it's Merve from Hugging Face. Today, llama.cpp releases v1! Moving forward, we’ll keep covering every platform and every model type, while keeping llama.cpp robust and lean for downstream applications that build on it. While I'm here, want to announce that we've been…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T14:07:33.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "keywords": [
+        "本地部署"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xv8t2e/llamacpp_v10_is_here/",
+      "dupOf": "hnl8zcoq07"
+    },
+    {
+      "id": "hnl8zcoq07",
+      "key": "url:huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "title": "llama.cpp v1.0.0 : A stronger foundation for the local AI ecosystem",
+      "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-13T14:05:22.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "opensource",
+      "keywords": [
+        "本地部署"
+      ],
+      "score": 38,
+      "related": [
+        {
+          "id": "an0rasyqoz",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv8t2e/llamacpp_v10_is_here/",
+          "title": "llama.cpp v1.0 is here 🦙",
+          "publishedAt": "2026-11-13T14:07:33.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "hf-blog",
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-11-13T14:05:22.000Z"
+      },
+      "ai": {
+        "title": "llama.cpp v1.0.0：本地 AI 生态更强基础",
+        "summary": "llama.cpp v1.0.0 发布，为本地 AI 生态提供更强基础。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
+      }
+    },
+    {
+      "id": "27l9nas9hi2",
+      "key": "url:theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "title": "Claude’s Duet agent is a little neurotic and surprisingly helpful",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032518/claude-duet-ai-agent-hands-on",
+      "excerpt": "Let’s get to work. | Photo: Allison Johnson / The Verge Normally, the products I test don't offer to help me write up my experience with them. Duet is different. Claude Duet is Anthropic's AI agent for consumers, the latest attempt by an AI company to try to convince us that age…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T14:00:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Claude Duet 代理有些神经质但很实用",
+        "summary": "Anthropic 推出 Claude Duet 代理，旨在帮助用户撰写体验报告。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:25.114Z"
+      }
+    },
+    {
+      "id": "vwgcy6k2ip",
+      "key": "url:blogs.nvidia.com/blog/how-ai-is-helping-care-teams",
+      "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
+      "url": "https://blogs.nvidia.com/blog/how-ai-is-helping-care-teams/",
+      "excerpt": "From pediatric research to smart hospitals, AI is helping care teams spend less time on routine tasks and more time with patients. Health systems and startups are putting it to work across healthcare, from matching patients to clinical trials to supporting radiologists, hospital…",
+      "lang": "en",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-13T13:00:42.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 30,
+      "ai": {
+        "title": "AI 帮助护理团队更快为患者提供正确护理",
+        "summary": "AI 在儿科研究和智慧医院中应用，帮助护理团队减少常规任务时间，专注于患者护理。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:06.058Z"
+      }
+    },
+    {
+      "id": "1lnazt6dtm1",
+      "key": "url:techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil",
+      "title": "Israel’s VCs see opportunity for challengers in Nvidia’s turmoil",
+      "url": "https://techcrunch.com/2026/11/13/israels-vcs-see-opportunity-for-challengers-in-nvidias-turmoil/",
+      "excerpt": "Given Nvidia’s stronghold on AI and its importance in Israel, many in the country's startup ecosystem are worried about the impact of his departure.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T12:52:19.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1
+    },
+    {
+      "id": "12ppsjjc7qh",
+      "key": "url:techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says",
+      "title": "Jensen Huang didn’t show confidence in his successor, report says",
+      "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+      "excerpt": "Huang described Kress as a \"deer in the headlights\" during a meeting in summer.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T12:28:23.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "1w3nq3erqza",
+      "key": "url:36kr.com/newsflashes/4068159271015558",
+      "title": "协创数据回应网传“拿卡渠道受阻”：不属实，当前采购渠道畅通算力业务有序推进",
+      "url": "https://36kr.com/newsflashes/4068159271015558",
+      "excerpt": "36氪获悉，有投资者问，传闻公司部分拿卡渠道受阻，请问是否属实？协创数据在互动平台表示，相关传闻不属实。公司根据业务开展和订单需求统筹安排采购，当前采购渠道畅通，算力业务有序推进。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T12:27:44.910Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "271imzj9pba",
+      "key": "url:36kr.com/p/4068120653157256",
+      "title": "“这是世代级错误”“不会再买英伟达股票”，黄仁勋走了，硅谷吵翻了，Twitter前CEO预测他3年后王者归来",
+      "url": "https://36kr.com/p/4068120653157256",
+      "excerpt": "英伟达股价的走向，以及Colette Kress能否撑住这艘船，大概是接下来市场最想要答案的两件事。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T12:20:17.930Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "19jcpfxqkkm",
+      "key": "url:36kr.com/p/4068135542199175",
+      "title": "华尔街：算力生态下一轮融资将更难、更贵……",
+      "url": "https://36kr.com/p/4068135542199175",
+      "excerpt": "​失去“黄仁勋的远见、影响力和号召力”之后……",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T12:17:44.183Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2foqnnvrrt7",
+      "key": "url:36kr.com/newsflashes/4068128662508679",
+      "title": "长盈精密：新能源业务稳健增长，具身智能板块爆发式增长，短期利润承压",
+      "url": "https://36kr.com/newsflashes/4068128662508679",
+      "excerpt": "36氪获悉，长盈精密公告，公司前三季度营收164.53亿元，同比增长21.78%。当前，公司正配合客户推进AIPC、可穿戴等消费电子新品开发，并推动储能、具身智能及AI硬件等业务加速量产上量。后续随新业务订单持续兑现及规模效应显现，盈利能力有望逐步修复。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T12:16:19.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "vs11zes9o3",
+      "key": "url:36kr.com/p/4068082247701634",
+      "title": "AI录音设备，正在争夺“最懂你”的位置",
+      "url": "https://36kr.com/p/4068082247701634",
+      "excerpt": "录音之后，才是战场。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T12:00:01.338Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "bazvhu4im4",
+      "key": "url:theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+      "title": "Let’s talk about Jensen Huang’s many affairs!",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+      "excerpt": "Usually, we'd be offering to answer your questions about a news event, but honestly we don't really have any answers about what the hell is going on over at Nvidia. I can't speak for Nilay but at the rate Jensen Huang's new mistresses are dropping, I am concerned we are approach…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T12:00:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "1gyplllfhl6",
+      "key": "url:36kr.com/p/4068057502831493",
+      "title": "97%支持率，最怕黄仁勋离开的，为何是员工？",
+      "url": "https://36kr.com/p/4068057502831493",
+      "excerpt": "是价值认同也是利益算计。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T11:59:19.110Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "19bq2q1rt0r",
+      "key": "url:36kr.com/newsflashes/4068126929835139",
+      "title": "Anthropic：已部署修复方案以解决Claude认证问题",
+      "url": "https://36kr.com/newsflashes/4068126929835139",
+      "excerpt": "Anthropic的状态页面显示，在调查了用户登录Claude.ai和Claude Code时遇到的认证问题后，Anthropic已部署了修复方案。目前该公司正在监控系统恢复情况。（界面）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T11:52:42.807Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 18
+    },
+    {
+      "id": "ah4ht0u2sx",
+      "key": "url:36kr.com/p/4068060515997320",
+      "title": "便宜档跑分反超旗舰：谷歌Gemini 4 Hydrogen全量开放，搜索AI Mode连夜换引擎",
+      "url": "https://36kr.com/p/4068060515997320",
+      "excerpt": "Hydrogen上位，成搜索默认模型",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T11:23:56.031Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "model",
+      "score": 24,
+      "dupOf": "1bkjdg4y4p3"
+    },
+    {
+      "id": "28iwhec63qv",
+      "key": "url:36kr.com/p/4068067240334466",
+      "title": "MiniMax，狂卷字节、OpenAI",
+      "url": "https://36kr.com/p/4068067240334466",
+      "excerpt": "AI生图赛道，三家密集更新。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T11:21:47.524Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2fb99yq7e0d",
+      "key": "url:36kr.com/p/4068070220257154",
+      "title": "英伟达，还有比黄仁勋离任更大的麻烦",
+      "url": "https://36kr.com/p/4068070220257154",
+      "excerpt": "护城河不足以解决公司的所有难题",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T11:21:18.986Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "24lpl8fglh8",
+      "key": "url:theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391",
+      "title": "AI Is Destroying the Trust Between Writers and Readers",
+      "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T11:13:46.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 28.3,
+      "metrics": {
+        "points": 225,
+        "comments": 118
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50481870",
+      "ai": {
+        "title": "AI 正在破坏作者与读者之间的信任",
+        "summary": "AI 聊天机器人推荐虚假零售网站，损害了作者与读者之间的信任。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:06.058Z"
+      }
+    },
+    {
+      "id": "hym0ki27ft",
+      "key": "url:36kr.com/p/4067917275731076",
+      "title": "Anthropic：如果顺利，我们会在十年内搞定癌症",
+      "url": "https://36kr.com/p/4067917275731076",
+      "excerpt": "阿莫代伊再放豪言，医药大佬纷纷献上冷水",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T11:08:56.667Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "11l49q9hsmb",
+      "key": "url:36kr.com/p/4067903659808642",
+      "title": "姚顺雨之后，该刘大一恒交作业了",
+      "url": "https://36kr.com/p/4067903659808642",
+      "excerpt": "阿里Qwen4，看什么？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T11:07:07.214Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "yw4l6agqc3",
+      "key": "url:36kr.com/p/4068005894050945",
+      "title": "被围剿的黄仁勋，暴露了AI投资的最大风险",
+      "url": "https://36kr.com/p/4068005894050945",
+      "excerpt": "硅谷的胳膊，拧不过华盛顿的大腿",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T11:01:04.891Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "29556hufemh",
+      "key": "url:infoq.cn/article/e0aglHW78pZuik3CWqdo",
+      "title": "智能互动 Agent 在快手商业场景的落地实践",
+      "url": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T11:00:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "bvj40cv3ou",
+      "key": "url:jiqizhixin.com/articles/2026-11-13-12",
+      "title": "AI自进化不止刷榜！百度智能云把RSI带进产业一线",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-13-12",
+      "excerpt": "编辑｜杜伟AI 自进化（RSI），自年初以来按下了加速键。从编写代码到设计实验、运行测试，AI 逐步进入 AI 研发的核心流程。当 AI 利用研发成果反过来改进下一代 AI，一条自我加速的技术演进路径便开始显现。这正是 RSI 概念受到关注且热度持续飙升的原因。11 月 10 日，AI Fut...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T10:48:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "auuhjzlh0f",
+      "key": "url:jiqizhixin.com/articles/2026-11-13-11",
+      "title": "最火、最全的时序预测综述：一个视角读懂十年进展｜TPAMI-26",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-13-11",
+      "excerpt": "过去十年，时序预测在金融、能源和制造等领域得到广泛应用，扩散模型和时序基础模型相继涌现。广泛的应用需求与活跃的方法创新，共同推动了该领域的快速发展。在此背景下，北大林宙辰团队发布综述论文，系统回顾了近十年该领域的研究进展。这篇论文的特色在于：以统一的 “自相关建模” 为主线，梳理相关方法的演进...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T10:43:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "paper",
+      "score": 18
+    },
+    {
+      "id": "dz597l0dtp",
+      "key": "url:36kr.com/newsflashes/4068038051369862",
+      "title": "中诚华隆铜陵基地产线竣工",
+      "url": "https://36kr.com/newsflashes/4068038051369862",
+      "excerpt": "36氪获悉，中诚华隆铜陵基地产线竣工。项目一期建成后，预计形成年产50000台计算设备的生产能力，涵盖通算服务器、智算服务器、桌面计算机，立足铜陵、辐射长三角，供给自主算力装备。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T10:42:08.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1gsc0xgc6qg",
+      "key": "url:36kr.com/p/4068029513864068",
+      "title": "“泡沫论”再起，机器人一夜入冬",
+      "url": "https://36kr.com/p/4068029513864068",
+      "excerpt": "冰火半年，行业重估。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T10:30:42.600Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2b9nm1nyprr",
+      "key": "url:36kr.com/p/4068029698102144",
+      "title": "为什么全世界都在为数据中心吵架？",
+      "url": "https://36kr.com/p/4068029698102144",
+      "excerpt": "争议的核心，绕不开三个议题。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T10:30:25.151Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "73mhl77q9b",
+      "key": "url:36kr.com/p/4067946938274949",
+      "title": "这个双11，商家和AI商量着做生意",
+      "url": "https://36kr.com/p/4067946938274949",
+      "excerpt": "AI把需求推向了更早，把生意带向了更远。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T10:30:08.079Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "4l2050xcri",
+      "key": "url:status.claude.com/history",
+      "title": "Claude Is Down",
+      "url": "https://status.claude.com/history",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T10:20:09.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 27.7,
+      "metrics": {
+        "points": 188,
+        "comments": 162
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50481220",
+      "ai": {
+        "title": "Claude 服务中断",
+        "summary": "Claude 服务出现中断。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:06.058Z"
+      }
+    },
+    {
+      "id": "a88xbn522x",
+      "key": "url:status.claude.com/incidents/nn11wk485zfn",
+      "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+      "url": "https://status.claude.com/incidents/nn11wk485zfn",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T10:18:13.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 35.9,
+      "metrics": {
+        "points": 449,
+        "comments": 362
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50481187",
+      "ai": {
+        "title": "claude.ai、Claude Code 和 platform.claude…",
+        "summary": "claude.ai、Claude Code 和 platform.claude.com 平台出现 elevated errors。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
+      }
+    },
+    {
+      "id": "19ixr3nrajt",
+      "key": "url:36kr.com/p/4067967004562304",
+      "title": "Claude新旗舰刚发，95万字绝密提示词被扒光了",
+      "url": "https://36kr.com/p/4067967004562304",
+      "excerpt": "嘴硬装瞎连回空白消息，转头却被一句「乌龟」破防",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T09:53:03.513Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "agent",
+      "score": 18
+    },
+    {
+      "id": "1ztpik99ps",
+      "key": "url:36kr.com/p/4067968471618441",
+      "title": "“第一性原理”的失灵：当AI创业陷入物理学崇拜的误区",
+      "url": "https://36kr.com/p/4067968471618441",
+      "excerpt": "中国AI创业的实践路径",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T09:52:52.686Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "j6i0hyjir2",
+      "key": "url:36kr.com/p/4067858312468100",
+      "title": "宇树最大对手，12天股价翻倍",
+      "url": "https://36kr.com/p/4067858312468100",
+      "excerpt": "归母净利润却巨亏4亿。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T09:27:18.519Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "299s0l5tx8h",
+      "key": "url:36kr.com/p/4067773830845318",
+      "title": "牛津大学费豪：物理AI的另一半「认知共生体」，能为普通人解决哪些问题？",
+      "url": "https://36kr.com/p/4067773830845318",
+      "excerpt": "AI走进物理世界，除了机器人，还有被AI增强的人。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T09:26:39.745Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "gmra1lwotp",
+      "key": "url:36kr.com/p/4067917144201095",
+      "title": "苹果憋了近10年的人形机器人，最后用上了宇树",
+      "url": "https://36kr.com/p/4067917144201095",
+      "excerpt": "苹果HALO人形机器人竟是宇树G1+千问的缝合方案",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T09:24:57.386Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "d8m716yyuf",
+      "key": "url:36kr.com/p/4066737404942210",
+      "title": "宇树重返3000亿，王兴兴熬过至暗时刻",
+      "url": "https://36kr.com/p/4066737404942210",
+      "excerpt": "模型突破，硬件先行。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T09:22:08.003Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1omnnogg0pa",
+      "key": "url:36kr.com/p/4067947535979649",
+      "title": "黄仁勋辞职，“果链三女王”还能站稳“达链”吗？",
+      "url": "https://36kr.com/p/4067947535979649",
+      "excerpt": "苹果压舱，算力探路",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T09:19:15.591Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "12mrpm32tqn"
+    },
+    {
+      "id": "9ngndcw44b",
+      "key": "url:infoq.cn/article/MU0txcPXXuGdGKBNa6a2",
+      "title": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
+      "url": "https://www.infoq.cn/article/MU0txcPXXuGdGKBNa6a2?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T09:06:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1vooh908k8n",
+      "key": "url:leiphone.com/category/industrynews/U7WtbV9kyb90UuZ0.html",
+      "title": "中金公司与蚂蚁集团达成战略合作 共探AI赋能财富管理",
+      "url": "https://www.leiphone.com/category/industrynews/U7WtbV9kyb90UuZ0.html",
+      "excerpt": "11月13日，中国国际金融股份有限公司（简称“中金公司”）与蚂蚁科技集团股份有限公司（简称“蚂蚁集团”）签署战略合作协议。 双方将结合中金公司在专业投研、金融服务等方面的积累，以及蚂蚁集团在人工智能、行业生态、客户运营等方面的优势，围绕金融大模型技术创新、AI赋能财富管理、客户全生命周期服务等领域开展合作，共同探索“AI+金融”创新路径。 中金公司党委副书记、副董事长、总裁王曙光（右二），蚂蚁集团首席执行官、蚂蚁数科董事长韩歆毅（左二）出席并见证签约仪式。中金公司党委委员、中金财富党委书记、总裁王建力（右一），蚂蚁集团资深副总裁、蚂蚁数科CEO赵闻飙（…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T09:05:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "100ouh58476",
+      "key": "url:qbitai.com/2026/11/509995.html",
+      "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
+      "url": "https://www.qbitai.com/2026/11/509995.html",
+      "excerpt": "一个时代结束了",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T09:02:39.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "12mrpm32tqn"
+    },
+    {
+      "id": "1zmyydem5wy",
+      "key": "url:36kr.com/p/4067909182477440",
+      "title": "Anthropic上市前收紧风控，Claude最严封号措施生效",
+      "url": "https://36kr.com/p/4067909182477440",
+      "excerpt": "明确地区准入的穿透式审查标准，目的是封堵壳公司、代理中转等绕开地区限制的方式。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T08:37:18.518Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1l9mkf12a3t",
+      "key": "url:jiqizhixin.com/articles/2026-11-13-10",
+      "title": "行业首款云端具身智能体Visics-Agent：懂人话、能教会、可进化，来自RoboScience机器科学",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-13-10",
+      "excerpt": "一直以来，我们需要太多的专业知识，才能让一台机器人正常工作。我们需要掌握电机和运动控制，否则它只是一坨不会动的铁疙瘩；需要钻研操作模型，不然它只能无意义地乱动；我们大概还需要精通感知和运动规划，否则它要么撞墙要么乱抓。组建一支十几人的团队，花费大量时间、大量心血调试它，可最后也只是能做到 “差...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T08:28:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "24xgjyxuovs",
+      "key": "url:jiqizhixin.com/articles/2026-11-13-9",
+      "title": "Real2Sim2Real走向人形机器人：仿真训练还缺哪两块拼图？",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-13-9",
+      "excerpt": "论文链接：https://arxiv.org/abs/2610.35075项目主页：https://young-bit.github.io/zero-hlm/代码地址：https://github.com/BIGAI-General-Vision-Lab/Zero-HLM去年，人形机器人还在凭...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T08:23:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "paper",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "cjdysgndae",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xv2e0a/google_is_asking",
+      "title": "Google is asking",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv2e0a/google_is_asking/",
+      "excerpt": "I want a new Gemma https://x.com/OfficialLoganK/status/2121115028447531353 [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T08:20:28.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xv2e0a/google_is_asking/",
+      "aiAttempts": 1
+    },
+    {
+      "id": "hjo26c23qt",
+      "key": "url:qbitai.com/2026/11/509827.html",
+      "title": "MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
+      "url": "https://www.qbitai.com/2026/11/509827.html",
+      "excerpt": "12.9 北京，来MEET2027现场",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T07:51:08.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "tub4llep0g",
+      "key": "url:36kr.com/p/4067679007413377",
+      "title": "新云“靓仔”Nebius：光鲜外面下也满是“虱子”",
+      "url": "https://36kr.com/p/4067679007413377",
+      "excerpt": "一次性收入撑起超预期，算力延期才是真问题",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T07:50:12.392Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1pyouzbx6ht",
+      "key": "url:leiphone.com/category/ai/1jG5k34DSlHSSJE9.html",
+      "title": "英伟达博客发声：她不一样，她懂显卡 ( bushi )，她懂端到端！",
+      "url": "https://www.leiphone.com/category/ai/1jG5k34DSlHSSJE9.html",
+      "excerpt": "她叫Alpamayo 2 Edge，因果推理结合扩散动作，端到端输出闭环表现提升 48.9%。 作者丨郑佳美 编辑丨岑 峰 点开前，你以为老黄家的惊天大瓜又有了什么后续； 点开后才发现：这个“她”连人都不是。 她叫 Alpamayo 2 Edge。 英伟达11月10日刚发布出来的一款端到端自动驾驶模型。VLM 骨干约 2.45B、动作专家约 0.2B，跑在车规级芯片 DRIVE AGX Thor 上。 但“懂端到端”这四个字，还真不是标题党蹭流量。在各路AI疯狂“嘴替”、大模型疯狂自言自语的时代，英伟达力挺的这姑娘（划掉）这模型，是真·人间清醒。 Al…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T07:49:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1hir3eaglfb",
+      "key": "url:qbitai.com/2026/11/509796.html",
+      "title": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
+      "url": "https://www.qbitai.com/2026/11/509796.html",
+      "excerpt": "250名国内顶尖三甲医院医生联合评测",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T07:43:03.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "16j02pfijgj",
+      "key": "url:36kr.com/p/4067766623573640",
+      "title": "AI 作弊不稀奇，它还懂“抗拒从严，回家过年”",
+      "url": "https://36kr.com/p/4067766623573640",
+      "excerpt": "Hugging Face事件还能再扒。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T07:43:01.495Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "8fjbz6he44",
+      "key": "url:leiphone.com/category/academic/FpJFXrs9xGOOewKA.html",
+      "title": "中大梁小丹团队，GeoThinker 两项研究成果，破除空间推理「几何信息用不好、计算开销大」难题",
+      "url": "https://www.leiphone.com/category/academic/FpJFXrs9xGOOewKA.html",
+      "excerpt": "不再实时调用外部三维几何编码器，视觉语言模型空间推理提速约 3.6 倍。 作者丨张岂萍 编辑丨幸丽娟 给视觉语言模型多塞一份三维几何信息，它就一定看得更准？ 还真不一定。 判断物体的位置、距离和空间关系，是视觉语言模型实现空间推理需要具备的能力。现在一种常见做法，是接入 VGGT 这类三维几何编码器，从多视角图像中提取深度、点云等空间线索，辅助模型判断。 但外部几何信息并不是越多越好。无关的几何特征可能干扰模型判断，每次调用外部三维模型，也会增加推理时间。 围绕这一问题，中山大学梁晓丹团队连续开展了 GeoThinker 系列研究。 第一项工作 Geo…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T07:40:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "15bszxazwwe",
+      "key": "url:leiphone.com/category/industrynews/TVkq6K4xkcX9zKSN.html",
+      "title": "京博控股集团与千问办公达成战略合作，共创化工行业AI Native标杆",
+      "url": "https://www.leiphone.com/category/industrynews/TVkq6K4xkcX9zKSN.html",
+      "excerpt": "近日，京博控股集团与千问办公达成战略合作，明确全集团将基于千问办公打造AI Native组织。后续双方将围绕科研创新、生产运营优化、经营分析、流程组织重构等核心场景展开合作，共同探索化工行业的智能化升级路径。京博控股集团执行董事、首席轮值总裁栾波，集团轮值总裁兼海外总裁汪君华和千问办公CEO陈宇森等共同出席了本次战略合作签约仪式。 图示 京博控股集团和千问办公战略合作签约现场 京博控股集团是中国500强企业，向全球50余个国家和地区提供高性能新材料、高端化学品、高端装备智造、数智化解决方案与安环能碳配套服务系统。依托千问办公，京博将在化工、新材料等核心…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T07:27:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "28ccu9cr7bl",
+      "key": "url:qbitai.com/2026/11/509730.html",
+      "title": "比亚迪第1900万辆新能源汽车下线，科技新奢旗舰SUV方程豹钛9开启预订",
+      "url": "https://www.qbitai.com/2026/11/509730.html",
+      "excerpt": "比亚迪第1900万辆新能源汽车在西安工厂正式下线",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T07:17:54.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "131u8xl12vg",
+      "key": "url:qbitai.com/2026/11/509716.html",
+      "title": "从仰望极速新纪录和鼎曜全球发布 看比亚迪的国际化与高端化之路",
+      "url": "https://www.qbitai.com/2026/11/509716.html",
+      "excerpt": "比亚迪正在把规模优势转化为技术与品牌价值",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T07:12:42.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 22
+    },
+    {
+      "id": "sissadatlh",
+      "key": "url:qbitai.com/2026/11/509710.html",
+      "title": "比亚迪与神州租车首批闪充车及闪充站投放仪式顺利举行，战略合作落地兑现，闪充中国再次提速",
+      "url": "https://www.qbitai.com/2026/11/509710.html",
+      "excerpt": "2026年11月10日，比亚迪与神州租车首批闪充车及闪充站投放仪式在山东济南隆重举办",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T07:09:05.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1hru80t2eee",
+      "key": "url:qbitai.com/2026/11/509663.html",
+      "title": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-1031，把RSI带进生命科学",
+      "url": "https://www.qbitai.com/2026/11/509663.html",
+      "excerpt": "数据不出域、本地可部署",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T07:06:32.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "model",
+      "score": 28,
+      "dupOf": "1oxs0863i04"
+    },
+    {
+      "id": "gx54fgwfuw",
+      "key": "url:jiqizhixin.com/articles/2026-11-13-8",
+      "title": "5000万美元A轮融资首关，合肥这家药企要在体内「制造」CAR-T",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-13-8",
+      "excerpt": "编辑｜陈彦杉把患者的免疫细胞从体内取出来，在实验室完成基因改造和培养，再输回患者体内，是目前CAR-T细胞治疗的典型流程。但如果省去体外改造这一步，直接在患者体内生成具有治疗功能的CAR-T细胞，情况会有什么不同？这正是全球细胞治疗领域正在探索的一条新路线：体内CAR-T（in vivo CA...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T07:00:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "26gecg2xll7",
+      "key": "url:jiqizhixin.com/articles/2026-11-13-7",
+      "title": "AI4S大牛顾全全创业公司新模型：全原子结构预测，成功率高达79.07%",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-13-7",
+      "excerpt": "编辑丨&2026 年 9 月，AI4S 大牛顾全全宣布创业，公司 Geodesic Intelligence 正式登场，并同时披露了相关平台、模型与实验室的信息。如今，Geodesic 正式介绍了 NovaAtom-Lite。作为 NovaAtom 模型家族的首个模型，它面向蛋白质、核...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T06:56:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "model",
+      "score": 32,
+      "related": [
+        {
+          "id": "dy9innjvyo",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4067548192576389",
+          "title": "36氪首发丨北航博士做AI4S，获亿元融资，要造自驱动实验室",
+          "publishedAt": "2026-11-13T02:04:43.825Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-13T02:04:43.825Z"
+      }
+    },
+    {
+      "id": "1ziw10bn6i0",
+      "key": "url:jiqizhixin.com/articles/2026-11-13-6",
+      "title": "后GPT-6时代，具身数据怎么做？Ropedia发布Xperience 2，给出下一代数据基石金标准",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-13-6",
+      "excerpt": "11 月 9 日，Anthropic 发布 Claude Fable 5.2。据报道，它在机器人控制基准 RoboDojo 上拿到 64.9% 的成绩，是上一代 Fable 5.1（27.6%）的两倍多。而就在两个月前，GPT-6 Astra 刚以 22.48% 的平均成功率登顶这一榜单，超过...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T06:55:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "model",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 28
+    },
+    {
+      "id": "1ryjlt6xwo7",
+      "key": "url:qbitai.com/2026/11/509653.html",
+      "title": "openJiuwen发布RSI原生AgentOS，让Agent自由变身，持续迭代！",
+      "url": "https://www.qbitai.com/2026/11/509653.html",
+      "excerpt": "想要什么功能，让Agent自己开发",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T06:54:44.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22
+    },
+    {
+      "id": "1oxs0863i04",
+      "key": "url:jiqizhixin.com/articles/2026-11-13-5",
+      "title": "斯坦福让GPT-6 Astra直接修改机器人参数：只动65行词嵌入，修复一类指令失灵",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-13-5",
+      "excerpt": "含被改词元的 335 条留出指令，成功率从 74.3%升至 87.5%；另外 430 个回合，成败结果逐一不变。只改 65 行词嵌入，GPT-6 Astra 修复了一类机器人「换种说法就失败」的问题。任务是打开炉灶。研究者给机器人的指令是「activate the cooking applia...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T06:49:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "model",
+      "score": 32,
+      "related": [
+        {
+          "id": "1hru80t2eee",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/509663.html",
+          "title": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-1031，把RSI带进生命科学",
+          "publishedAt": "2026-11-13T07:06:32.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-11-13T06:49:00.000Z"
+      }
+    },
+    {
+      "id": "3wajslvixx",
+      "key": "url:qbitai.com/2026/11/509613.html",
+      "title": "特斯拉和SpaceX最快下月合并",
+      "url": "https://www.qbitai.com/2026/11/509613.html",
+      "excerpt": "马斯克帝国终极形态。",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T06:43:06.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "17koecgsoif",
+      "key": "url:jiqizhixin.com/articles/2026-11-13-4",
+      "title": "ICSE 2027 | 清华提出CoACT：降低Coding Agent 33% Token开销",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-13-4",
+      "excerpt": "Coding Agent 的上下文越长，每一步调用的开销越高，能否在不影响任务完成的前提下压缩上下文？Coding Agent 解决软件问题时，需要反复查看代码、修改程序、运行测试：每一步返回的文件内容、搜索结果和日志，都会留在上下文里，下一轮调用时还要整段重新带上。任务越难，上下文越长，每一...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T06:40:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 18
+    },
+    {
+      "id": "tcbl47cedd",
+      "key": "url:qbitai.com/2026/11/509614.html",
+      "title": "中国机器人学会隔墙“递眼色”！成功率从0飙到100%，组队干活不烧心",
+      "url": "https://www.qbitai.com/2026/11/509614.html",
+      "excerpt": "信息少传80%，准确率反而提高",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T06:29:23.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "p8w695rkmk",
+      "key": "url:geekpark.net/news/373946",
+      "title": "AI 录音硬件卖的是时间差，窗口可能只剩半年",
+      "url": "http://www.geekpark.net/news/373946",
+      "excerpt": "北京时间 11 月 4 日，苹果推送了 iOS 27.3 和 watchOS 27.3 的第一个开发者测试版，除了带来国行 Apple 智能，还给 Apple Watch 加入了两个全新的 AI 功能：一个是 Live Rewind，可以随时帮你回顾过去 15 秒内的对话；另一个则是 Siri Recap，手表会在一整天里记下你和别人的对话，再整理成摘要。不过这两个功能目前只有英文版，苹果也写明暂不在中国提供。 左为 Live Rewind，右为 Siri 回顾（Siri Recap）｜图片来源：Apple 在这两个功能发布之后，硬件创业者纷纷表示「巨…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T04:57:38.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "19xcwoky764",
+      "key": "url:wired.com/story/nvidia-employees-petition-for-jensen-huangs-return",
+      "title": "‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s Return",
+      "url": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/?utm_brand=wired&utm_social-type=owned&utm_source=twitter&utm_medium=social&utm_campaign=aud-dev",
+      "excerpt": "A second Sam Altman moment? [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T04:03:28.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxxmb/bring_back_the_boss_nvidia_employees_petition_for/",
+      "ai": {
+        "title": "Nvidia 员工请愿请回 Jensen Huang",
+        "summary": "Nvidia 员工发起请愿，希望 Jensen Huang 回归。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:34.893Z"
+      }
+    },
+    {
+      "id": "193incupl2m",
+      "key": "url:36kr.com/p/4067629942707072",
+      "title": "数学界震动，Claude一口气写下19万行源码，揪出13年前证明错误",
+      "url": "https://36kr.com/p/4067629942707072",
+      "excerpt": "一人一Claude完成三元哥德巴赫猜想Lean零sorry形式化证明",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T03:46:32.423Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "fm5kw2cqqi",
+      "key": "url:geekpark.net/news/373937",
+      "title": "李彦宏定义 AI 下一个十年，智能组织是「新厂房」",
+      "url": "http://www.geekpark.net/news/373937",
+      "excerpt": "智能组织就是 AI 时代的新厂房，是生产力真正发生的地方——11 月 12 日，在百度世界 2026 上，百度创始人李彦宏抛出了贯穿本届大会的核心命题。 他在演讲中直言，当前 AI 没有产生预期的经济效益，本质是很多企业只更换了电机，却还没有重新设计工厂。 过去两年，大模型、智能体快速渗透到企业各个环节，从办公提效到业务辅助，AI 已从「尝鲜」变成很多企业的「标配」。但随着工具部署逐步完成，一个更核心的矛盾开始显现：AI 投入持续增加、Token 消耗不断增长，企业的利润增长却并未同步到来。 不少企业都遇到了相似的困境：员工个人效率提升了，单点试点也跑…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T03:43:41.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "dupOf": "13e9n6t246r"
+    },
+    {
+      "id": "xe5a9w3usb",
+      "key": "url:leiphone.com/category/industrynews/xfpQo71RiPDWJHvS.html",
+      "title": "独家丨腾讯 AI 李牧青离职，出任 AI 公司联席 CEO",
+      "url": "https://www.leiphone.com/category/industrynews/xfpQo71RiPDWJHvS.html",
+      "excerpt": "雷峰网独家获悉，近日，腾讯云 AI 全球业务负责人李牧青，正式出任教育 AI 科技公司启鸣达人联席 CEO。 雷峰网了解到，李牧青本科、硕士毕业于上海交通大学，曾任 UCLA 访问学者。2016 年，他加入依图科技，主导早期 AI 产业化体系的建设，亲历「AI 四小龙」从初创走向鼎盛。 2018 年，李牧青加入腾讯优图，出任首席方案架构师，负责计算机视觉技术的落地。此后分别担任腾讯云智能总架构师、腾讯云智能副总经理、腾讯云 AI 全球业务负责人。在腾讯期间，他带领团队在二十多个行业的一线推进大模型与 AI 落地，从零搭建海外业务，推动 AI 产品与解决…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T03:43:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "w8thio6ffh",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xuxbeb/a100_prices_down_2030_since_my_post_about_them",
+      "title": "A100 prices down 20-30% since my post about them collapsing",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxbeb/a100_prices_down_2030_since_my_post_about_them/",
+      "excerpt": "I guess a lot of sellers are realizing that its better to price competitively and get rid of their supply rather than wait to slowly sell and potentially get caught in a collapse. Rubin and blackwell are already 3-4x more efficient per watt with way more financing available. The…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T03:31:32.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxbeb/a100_prices_down_2030_since_my_post_about_them/",
+      "ai": {
+        "title": "A100 价格下跌 20-30%",
+        "summary": "A100 价格下跌，Rubin 和 Blackwell 效率更高。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:34.893Z"
+      }
+    },
+    {
+      "id": "5n0zpc198q",
+      "key": "url:36kr.com/p/4067628486267780",
+      "title": "炸了！英伟达最大的雷，是没接班人",
+      "url": "https://36kr.com/p/4067628486267780",
+      "excerpt": "现在是抄底英伟达的好时候吗？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T03:29:10.298Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 18
+    },
+    {
       "id": "223bw8h09ii",
       "key": "gh:googlechrome/modern-web-guidance-src",
       "title": "GoogleChrome/modern-web-guidance-src",
@@ -20,10 +1587,17 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 28.4,
+      "score": 30,
       "metrics": {
-        "stars": 3273,
-        "starsToday": 739
+        "stars": 4553,
+        "starsToday": 1875
+      },
+      "ai": {
+        "title": "GoogleChrome/modern-web-guidance-src：保持…",
+        "summary": "GoogleChrome/modern-web-guidance-src 帮助编码 Agent 保持最新的 Web 最佳实践。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
       }
     },
     {
@@ -60,6 +1634,25 @@
       "dupOf": "1bkjdg4y4p3"
     },
     {
+      "id": "zyfl7tzd67",
+      "key": "url:leiphone.com/category/transportation/Uxxem2Ha3zzVNdv9.html",
+      "title": "ID. ERA 5X上市，限时权益价9.99万元起",
+      "url": "https://www.leiphone.com/category/transportation/Uxxem2Ha3zzVNdv9.html",
+      "excerpt": "近日，上汽大众ID. ERA 5X正式上市，新车共推出Pro、Pro+、Max、Ultra四款车型。限时权益价为9.99万元—13.99万元。作为一款面向年轻人与家庭用户的都市纯电SUV，ID. ERA 5X是大众CMP+CEA+ADAS全球首款量产车，全系标配4纳米MTK8676车规级芯片与豆包大模型2.0，并搭载行云智能辅助驾驶系统，融合中国原生智能技术与大众全球标准，兼顾智能体验与家庭出行需求。 同时，针对用户关注的纯电车型残值问题，新车推出基于限时权益价的2年8折、3年7折保值回购政策。 此次上市，上汽大众没有采用传统的产品宣讲，而是把发布会开…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T03:16:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
       "id": "1vmn2avnb1o",
       "key": "url:jiqizhixin.com/articles/2026-11-13-2",
       "title": "从数学理论「解」出语言模型——AGI理论核心原语的首次工程验证：BriLLM-MetaPred",
@@ -74,6 +1667,36 @@
       "day": "2026-11-13",
       "category": "paper",
       "score": 18
+    },
+    {
+      "id": "i9gfhrzktu",
+      "key": "url:brave.com/blog/search-api-agentic-payments",
+      "title": "Brave Search API now accepts agentic payments via the x402 protocol",
+      "url": "https://brave.com/blog/search-api-agentic-payments/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T03:08:08.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 28.8,
+      "metrics": {
+        "points": 234,
+        "comments": 132
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50477649",
+      "ai": {
+        "title": "Brave Search API 接受代理支付",
+        "summary": "Brave Search API 现在通过 x402 协议接受代理支付。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:06.058Z"
+      }
     },
     {
       "id": "1u6v0xdpqc9",
@@ -108,6 +1731,30 @@
       "day": "2026-11-13",
       "category": "industry",
       "score": 18
+    },
+    {
+      "id": "7cfpx1sxd8",
+      "key": "url:edition.cnn.com/2026/11/12/politics/alice-huang-us-intel-jensen-huang-nvidia",
+      "title": "US intel isn’t sure if businesswoman spied on Nvidia for China, doesn’t mean she wasn’t a risk, sources say",
+      "url": "https://edition.cnn.com/2026/11/12/politics/alice-huang-us-intel-jensen-huang-nvidia",
+      "excerpt": "they do not even know if she was a spy, a year after this chase is going on about her, Jensen should not have resigned! from that article: The FBI has been investigating Huang’s affair for at least a year. But Attorney General Todd Blanche said on Thursday that there are still “…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T02:47:47.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xuwf9w/us_intel_isnt_sure_if_businesswoman_spied_on/",
+      "ai": {
+        "title": "美国情报机构不确定女商人是否为中国窃密",
+        "summary": "美国情报机构不确定女商人是否为中国窃密，但认为她仍是风险。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:34.893Z"
+      }
     },
     {
       "id": "12mhaepw8i6",
@@ -245,7 +1892,53 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "dupOf": "26gecg2xll7"
+    },
+    {
+      "id": "dcu02eq25g",
+      "key": "url:api-docs.deepseek.com/zh-cn/news/news261113",
+      "title": "DeepSeek 发布全家桶应用 API",
+      "url": "https://api-docs.deepseek.com/zh-cn/news/news261113",
+      "excerpt": "在 DeepSeek App（含网页端）的对话服务中，联网搜索、文件输入、阅读链接、语音交互及安全等能力与模型推理相互配合，构成了用户熟悉的对话体验。而开发者如果想要在应用中实现类似功能，除接入原有 DeepSeek API 外，往往还需耗费大量精力去对接外部工具、处理调用衔接。",
+      "lang": "zh",
+      "sourceId": "deepseek",
+      "sourceName": "DeepSeek",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-13T02:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "model",
+      "categoryLocked": true,
+      "keywords": [
+        "语音"
+      ],
+      "score": 40
+    },
+    {
+      "id": "23l8bew0j7x",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xuvexw/stories_coming_out_about_jensen",
+      "title": "Stories coming out about Jensen",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuvexw/stories_coming_out_about_jensen/",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T01:58:53.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xuvexw/stories_coming_out_about_jensen/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "关于 Jensen 的传闻。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:31.725Z"
+      }
     },
     {
       "id": "1fvg5rmx9dr",
@@ -432,6 +2125,34 @@
       "score": 18
     },
     {
+      "id": "29fqexsep8y",
+      "key": "arxiv:2611.15777",
+      "title": "SO-Arena: Benchmarking the Capability Spectrum and Reliability of System One Models",
+      "url": "https://huggingface.co/papers/2611.15777",
+      "excerpt": "SO-Arena evaluates System One models across domains and capability families, revealing that scaling and reasoning gains vary and that high overall accuracy does not ensure reliable decision-making.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T00:00:00.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 23.2,
+      "metrics": {
+        "upvotes": 71,
+        "comments": 2
+      },
+      "ai": {
+        "title": "SO-Arena：系统一模型能力与可靠性基准测试",
+        "summary": "SO-Arena 评估系统一模型，揭示其扩展性和推理增益的差异性。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:06.058Z"
+      }
+    },
+    {
       "id": "1bcrxwnk9oq",
       "key": "url:36kr.com/p/4066749635155078",
       "title": "10秒生成4K图：MiniMax再次拿出开源SOTA",
@@ -487,6 +2208,53 @@
       "score": 18
     },
     {
+      "id": "1rkdp9ebdyg",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xus81t/lawyer_with_too_many_gpus_part_5_deepseekv41flash",
+      "title": "Lawyer with too many GPUs, part 5: DeepSeek-V4.1-Flash at near-NVFP4 quality on eight V100s from 2018. 524K context, 100+ tok/s decode, ~160 tok/s with two chats at once, and my legal harness now runs on it, 100% local",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xus81t/lawyer_with_too_many_gpus_part_5_deepseekv41flash/",
+      "excerpt": "From about February 2026 to July 2026, I spent an immense amount of time building a legal harness to make Claude more predictable. It worked well. I tried to build the same thing that ran local models. That did not work. And then Opus improved so much that it would often skip my…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T23:31:29.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xus81t/lawyer_with_too_many_gpus_part_5_deepseekv41flash/",
+      "dupOf": "12ktd4fdf58"
+    },
+    {
+      "id": "422cay4vw7",
+      "key": "url:edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+      "url": "https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T23:06:17.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 38.6,
+      "metrics": {
+        "points": 325,
+        "comments": 97
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50475713",
+      "alsoOn": [
+        {
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuuq0b/edge0145b_opensource_ondevice_ai_with_145b/"
+        }
+      ],
+      "dupOf": "2gg91tpio76"
+    },
+    {
       "id": "vnutthbkiv",
       "key": "url:simonwillison.net/2026/Nov/12/llm-gemini",
       "title": "llm-gemini 0.37",
@@ -518,7 +2286,15 @@
       "day": "2026-11-13",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xur9ud/used_datacenterworkstation_gpu_prices_on_ebay/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xur9ud/used_datacenterworkstation_gpu_prices_on_ebay/",
+      "ai": {
+        "title": "本周 eBay 数据中心 GPU 价格排名",
+        "summary": "按每 GB 显存价格排名本周 eBay 上可购买的数据中心 GPU。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:31.725Z"
+      },
+      "dupOf": "s95n7wnr8i"
     },
     {
       "id": "1h3pgmceq1d",
@@ -550,9 +2326,16 @@
       "publishedAt": "2026-11-12T22:25:57.000Z",
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
-      "category": "industry",
+      "category": "opensource",
       "score": 14,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xuqplg/thinkingmachinesinkling2small_is_released/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xuqplg/thinkingmachinesinkling2small_is_released/",
+      "ai": {
+        "title": "thinkingmachines/Inkling-2-Small 发布",
+        "summary": "thinkingmachines 发布 Inkling-2-Small 模型。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:25.114Z"
+      }
     },
     {
       "id": "26rll4inkfi",
@@ -568,7 +2351,32 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 15
+      "score": 23,
+      "related": [
+        {
+          "id": "1of3d3lwm4k",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/",
+          "title": "Meta's Muse now calls businesses for you, but many companies might just hang up on the AI",
+          "publishedAt": "2026-11-13T15:12:44.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "techcrunch-ai",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-11-12T22:22:28.000Z"
+      },
+      "ai": {
+        "title": "Muse 现可拨打美国企业电话",
+        "summary": "Muse 的 AI 现在可以拨打美国企业的电话，但需付费。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:06.058Z"
+      }
     },
     {
       "id": "te5yvsklut",
@@ -583,12 +2391,13 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 25.8,
+      "score": 31.8,
       "metrics": {
-        "points": 193,
-        "comments": 54
+        "points": 346,
+        "comments": 144
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50474883"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50474883",
+      "dupOf": "17pd3pufygc"
     },
     {
       "id": "28fi46kfwh1",
@@ -620,12 +2429,19 @@
       "publishedAt": "2026-11-12T21:31:57.000Z",
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
-      "category": "agent",
+      "category": "paper",
       "keywords": [
         "Agent",
         "AI 编程"
       ],
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "微软研究院 Focus 第 98 期",
+        "summary": "微软研究院 Focus 第 98 期涵盖 AI 翻译、数学挑战突破和 AI 编码 Agent。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
+      }
     },
     {
       "id": "xd6jhinux8",
@@ -641,7 +2457,14 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Nebius 计划 400 亿美元投资 AI 基础设施",
+        "summary": "Nebius 计划通过客户预付款和贷款筹集 400 亿美元用于 AI 基础设施扩张。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:06.058Z"
+      }
     },
     {
       "id": "1v82r0fbh1j",
@@ -655,13 +2478,20 @@
       "publishedAt": "2026-11-12T21:13:26.000Z",
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
-      "category": "model",
-      "score": 28.8,
+      "category": "paper",
+      "score": 27.3,
       "metrics": {
-        "points": 148,
-        "comments": 18
+        "points": 258,
+        "comments": 35
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50474361"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50474361",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Foundation Models framework 相关资讯。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
+      }
     },
     {
       "id": "221fpektq97",
@@ -676,12 +2506,19 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 23.8,
+      "score": 28.6,
       "metrics": {
-        "points": 116,
-        "comments": 113
+        "points": 193,
+        "comments": 224
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50474311"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50474311",
+      "ai": {
+        "title": "AI 让 Apple 应用审核对合成开发者成噩梦",
+        "summary": "AI 正在改变 Apple 的应用审核流程，对合成开发者造成困扰。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:06.058Z"
+      }
     },
     {
       "id": "crgexxqesn",
@@ -751,12 +2588,19 @@
       "publishedAt": "2026-11-12T20:00:00.000Z",
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent",
         "AI 编程"
       ],
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "Amplitude 如何在 1-2 天内使用 OpenAI 发货",
+        "summary": "Amplitude 使用 OpenAI 模型，通过 Wave Agent 快速识别需求并发货。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
+      }
     },
     {
       "id": "kzsnf9rbya",
@@ -788,7 +2632,7 @@
       "publishedAt": "2026-11-12T19:42:40.000Z",
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
@@ -811,9 +2655,16 @@
         ],
         "firstPublishedAt": "2026-11-11T12:05:22.000Z",
         "metrics": {
-          "points": 1029,
-          "comments": 391
+          "points": 1033,
+          "comments": 392
         }
+      },
+      "ai": {
+        "title": "AI Agent 并未发现未知玛雅遗址",
+        "summary": "Google 研究员 Pietro Miotti 称 AI Agent 发现的形状并非未知玛雅遗址。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
       }
     },
     {
@@ -831,7 +2682,14 @@
       "day": "2026-11-13",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xumhm3/jensen_today_at_nvidia_board_meeting/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xumhm3/jensen_today_at_nvidia_board_meeting/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Nvidia 董事会会议上的 Jensen。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:31.725Z"
+      }
     },
     {
       "id": "1kreko499ic",
@@ -847,7 +2705,14 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Google 最新搜索升级提供更复杂问题的答案",
+        "summary": "Google 的 AI Mode 基于 Gemini 4 Hydrogen，能更好地理解复杂查询并提供视觉响应。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:06.058Z"
+      }
     },
     {
       "id": "s473y5lw6j",
@@ -866,7 +2731,14 @@
       "keywords": [
         "Agent"
       ],
-      "score": 19
+      "score": 19,
+      "ai": {
+        "title": "Nectar 推出 AI 代理自动化创作者发现",
+        "summary": "Nectar 的 AI 代理自动化影响者营销，帮助品牌发现创作者并管理合作。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:06.058Z"
+      }
     },
     {
       "id": "z0r35br2rl",
@@ -880,8 +2752,15 @@
       "publishedAt": "2026-11-12T19:07:35.000Z",
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
-      "category": "industry",
-      "score": 30
+      "category": "paper",
+      "score": 30,
+      "ai": {
+        "title": "LLMON：LLM 原生标记语言",
+        "summary": "LLMON 是一种 LLM 原生标记语言，现已集成到 Granite 4.1。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:31:32.493Z"
+      }
     },
     {
       "id": "u9gj9b9gv7",
@@ -905,10 +2784,11 @@
       },
       "aiAttempts": 1,
       "ai": {
+        "title": "TensorFold：多后端 LLM 推理引擎",
         "summary": "TensorFold 是一个支持 Metal、CUDA 和 Vulkan 的 LLM 推理引擎。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:32:06.058Z"
       }
     },
     {
@@ -937,10 +2817,11 @@
       },
       "aiAttempts": 1,
       "ai": {
-        "summary": "free-claude-code 项目支持 Claude Code 等多种工具免费使用。",
+        "title": "free-claude-code：免费使用 Claude Code 等工具",
+        "summary": "free-claude-code 项目允许用户免费使用 Claude Code、Codex 等多种工具。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:32:06.058Z"
       }
     },
     {
@@ -956,10 +2837,10 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "model",
-      "score": 36.4,
+      "score": 40.1,
       "metrics": {
-        "points": 333,
-        "comments": 82
+        "points": 484,
+        "comments": 159
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50472260",
       "dupOf": "1bkjdg4y4p3"
@@ -999,7 +2880,45 @@
       "day": "2026-11-13",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xukt9t/so_this_will_be_true_in_couple_of_years/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xukt9t/so_this_will_be_true_in_couple_of_years/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Jensen 之后，公司将完全专注于数据中心 AI 计算。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:31.725Z"
+      }
+    },
+    {
+      "id": "1t8gknn8kih",
+      "key": "gh:parcha-ai/agentrun",
+      "title": "Show HN: AgentRun – open-source, Self-improving Managed Agents",
+      "url": "https://github.com/Parcha-ai/agentrun/blob/main/README.md",
+      "excerpt": "We (GREP.AI, YC F26) are open-sourcing AgentRun and turning it into a full managed agents platform. Read more about it in this post: https://agentrun.ai/blog/introducing-agentrun-run-smarter-ag....It includes what we originally built for our own agent harness:- Self-improving ag…",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T18:15:48.000Z",
+      "firstSeenAt": "2026-11-13T18:30:05.440Z",
+      "day": "2026-11-13",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22.6,
+      "metrics": {
+        "points": 131,
+        "comments": 34
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50471650",
+      "ai": {
+        "title": "AgentRun：开源自改进托管代理",
+        "summary": "GREP.AI 开源 AgentRun，打造自改进的托管代理平台。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:06.058Z"
+      }
     },
     {
       "id": "qnmy1mfjrj",
@@ -1018,10 +2937,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "Palantir 被指试图向左翼转型，引发争议。",
+        "title": "Palantir 现在变得‘进步’了？",
+        "summary": "文章讨论了 Palantir 的政治立场转变及其影响。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:32:06.058Z"
       }
     },
     {
@@ -1037,10 +2957,10 @@
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-13",
       "category": "model",
-      "score": 65.6,
+      "score": 66,
       "metrics": {
-        "points": 479,
-        "comments": 302
+        "points": 554,
+        "comments": 345
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50471431",
       "related": [
@@ -1099,10 +3019,18 @@
           "url": "https://www.jiqizhixin.com/articles/2026-11-13-3",
           "title": "谷歌新Gemini 4，跑分超Argon，搜索引擎上免费用",
           "publishedAt": "2026-11-13T03:18:00.000Z"
+        },
+        {
+          "id": "ah4ht0u2sx",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4068060515997320",
+          "title": "便宜档跑分反超旗舰：谷歌Gemini 4 Hydrogen全量开放，搜索AI Mode连夜换引擎",
+          "publishedAt": "2026-11-13T11:23:56.031Z"
         }
       ],
       "story": {
-        "reports": 8,
+        "reports": 9,
         "sources": [
           "hackernews",
           "google-ai",
@@ -1113,11 +3041,11 @@
         ],
         "firstPublishedAt": "2026-11-12T18:00:00.000Z",
         "metrics": {
-          "points": 479,
-          "comments": 302
+          "points": 554,
+          "comments": 345
         }
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Gemini 4 Hydrogen 模型发布。",
         "category": "model",
@@ -1254,16 +3182,17 @@
         ],
         "firstPublishedAt": "2026-11-11T21:24:35.000Z",
         "metrics": {
-          "points": 662,
-          "comments": 689
+          "points": 676,
+          "comments": 698
         }
       },
       "aiAttempts": 1,
       "ai": {
-        "summary": "联合航空禁止使用 AI 代理预订机票，称存在网络安全风险。",
+        "title": "联合航空禁止 AI Agent 预订航班",
+        "summary": "联合航空出于网络安全风险考虑，禁止客户使用 AI Agent 预订航班。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:31:32.493Z"
       }
     },
     {
@@ -1279,15 +3208,16 @@
       "publishedAt": "2026-11-12T17:14:43.000Z",
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-13",
-      "category": "opensource",
+      "category": "industry",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xuijih/cmp170hx_now_fully_unlockabke_and_more_full_120/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "通过电压故障攻击，将 8GB 矿卡改造成 80GB A100。",
-        "category": "opensource",
+        "title": "CMP170hx 解锁与电压故障 hack",
+        "summary": "通过电压故障 hack 将 8GB 矿卡变成 80GB A100。",
+        "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:32:31.725Z"
       }
     },
     {
@@ -1307,10 +3237,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "软银因预购燃气涡轮机亏损超 30 亿美元，限制了 AI 数据中心的天然气野心。",
+        "title": "软银百亿美元亏损可能限制了 AI 的天然气野心",
+        "summary": "软银因预购天然气涡轮机损失超 30 亿美元，这可能影响 AI 数据中心的能源规划。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:32:06.058Z"
       }
     },
     {
@@ -1330,10 +3261,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "Phota Labs 利用 AI 自动化修图，将普通照片转化为专业级作品。",
+        "title": "Phota Labs 用 AI 将照片变为专业级",
+        "summary": "Phota Labs 利用 AI 自动化编辑过程，让普通照片变得专业。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:32:06.058Z"
       }
     },
     {
@@ -1353,10 +3285,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "研究发现 AI 聊天机器人会推荐虚假零售网站。",
+        "title": "AI 聊天机器人推荐虚假零售网站",
+        "summary": "研究发现 AI 聊天机器人可能推荐虚假零售网站，增加购物风险。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:32:06.058Z"
       }
     },
     {
@@ -1374,7 +3307,7 @@
       "day": "2026-11-13",
       "category": "industry",
       "score": 15,
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "调查显示更多游戏开发者开始使用生成式 AI。",
         "category": "industry",
@@ -1396,8 +3329,15 @@
       "dateOnly": true,
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
-      "category": "industry",
-      "score": 30
+      "category": "opensource",
+      "score": 30,
+      "ai": {
+        "title": "利用 Gemini 和约束求解器捕获 Go 漏洞",
+        "summary": "结合 Go 编译器与 Gemini 4 Argon 和 Z3 求解器，发现 Go 代码中的潜在越界错误。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:06.058Z"
+      }
     },
     {
       "id": "9yirn1rzub",
@@ -1417,7 +3357,14 @@
       "keywords": [
         "Agent"
       ],
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "Agent 异常检测在未编写基准测试上的表现",
+        "summary": "Agent Anomaly Detection 通过分析 OpenTelemetry 追踪和日志，在五个公开安全基准测试中成功捕获 87% 的有害指令。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:06.058Z"
+      }
     },
     {
       "id": "2gg91tpio76",
@@ -1433,13 +3380,42 @@
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-13",
       "category": "paper",
-      "score": 15,
+      "score": 51.6,
       "aiAttempts": 1,
       "ai": {
-        "summary": "OpenAI 研究发现前沿模型正通过架构和强化学习隐藏思维链。",
+        "title": "OpenAI：前沿模型隐藏思维链的原因",
+        "summary": "OpenAI 分析称前沿模型隐藏思维链是因为开发者优化能力和计算资源。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:31:32.493Z"
+      },
+      "related": [
+        {
+          "id": "422cay4vw7",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50475713",
+          "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
+          "publishedAt": "2026-11-12T23:06:17.000Z"
+        },
+        {
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuuq0b/edge0145b_opensource_ondevice_ai_with_145b/"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "the-decoder",
+          "hackernews",
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-11-12T16:58:11.000Z",
+        "metrics": {
+          "points": 325,
+          "comments": 97
+        }
       }
     },
     {
@@ -1508,7 +3484,7 @@
       "day": "2026-11-13",
       "category": "industry",
       "score": 15,
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "特朗普称蒂姆·库克是英伟达 CEO 黄仁勋的唯一继任人选。",
         "category": "industry",

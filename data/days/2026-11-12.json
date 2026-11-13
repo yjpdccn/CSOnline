@@ -53,14 +53,21 @@
       "publishedAt": "2026-11-12T15:23:10.000Z",
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-12",
-      "category": "industry",
-      "score": 29.7,
+      "category": "opensource",
+      "score": 34.3,
       "metrics": {
-        "points": 289,
-        "comments": 99
+        "points": 461,
+        "comments": 175
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50468888",
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "让 LLM 在小旧设备上运行",
+        "summary": "作者分享如何在资源受限的设备上优化和运行大语言模型。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:46.805Z"
+      }
     },
     {
       "id": "qbsqucm7nv",
@@ -124,10 +131,11 @@
       },
       "aiAttempts": 1,
       "ai": {
-        "summary": "Fireworks AI 遭黑客攻击，泄露 Notion 客户聊天记录。",
+        "title": "Fireworks AI 遭黑客攻击，Notion 客户聊天记录泄露",
+        "summary": "黑客利用 Fireworks AI 的安全漏洞访问了 Notion 客户的聊天记录。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:32:46.805Z"
       }
     },
     {
@@ -161,7 +169,34 @@
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-12",
       "category": "industry",
-      "score": 18
+      "score": 34,
+      "related": [
+        {
+          "id": "100ouh58476",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/509995.html",
+          "title": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
+          "publishedAt": "2026-11-13T09:02:39.000Z"
+        },
+        {
+          "id": "1omnnogg0pa",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4067947535979649",
+          "title": "黄仁勋辞职，“果链三女王”还能站稳“达链”吗？",
+          "publishedAt": "2026-11-13T09:19:15.591Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "jiqizhixin",
+          "qbitai",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-12T14:30:00.000Z"
+      }
     },
     {
       "id": "jqsma72jjf",
@@ -322,7 +357,14 @@
       "day": "2026-11-12",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xucffq/alleged_geforce_rtx_5090_with_96gb_listed_for/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xucffq/alleged_geforce_rtx_5090_with_96gb_listed_for/",
+      "ai": {
+        "title": "中国出现疑似 96GB 显存 RTX 5090",
+        "summary": "有卖家在中国市场列出疑似 GeForce RTX 5090 的产品。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:46.805Z"
+      }
     },
     {
       "id": "h0p6hrm23u",
@@ -523,11 +565,18 @@
       "publishedAt": "2026-11-12T12:00:00.000Z",
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-12",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "AI 编程"
       ],
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "Gondola 收入翻倍，Codex 提升工程师效率",
+        "summary": "Gondola 利用 Codex 将工程师产出提升 50%，收入实现翻倍。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:46.805Z"
+      }
     },
     {
       "id": "6w7d618z7n",
@@ -615,11 +664,11 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 844,
-        "comments": 821
+        "points": 985,
+        "comments": 898
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50465829",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Anthropic 即将 IPO。",
         "category": "industry",
@@ -1103,10 +1152,11 @@
       "score": 30,
       "aiAttempts": 1,
       "ai": {
+        "title": "Holiday Extras 重新思考如何使用 Codex",
         "summary": "Holiday Extras 利用 Codex 将客户专业知识转化为更好的应用。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:32:46.805Z"
       }
     },
     {
@@ -1475,18 +1525,19 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 33.4,
+      "score": 34,
       "metrics": {
-        "points": 372,
-        "comments": 222
+        "points": 399,
+        "comments": 234
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50463899",
       "aiAttempts": 1,
       "ai": {
-        "summary": "Humble Bundle 通过“vibecoding”削弱了大部分安全措施。",
+        "title": "Humble Bundle 通过 Vibecoding 摧毁了大部分安全措施",
+        "summary": "Humble Bundle 因使用 Vibecoding 导致其安全系统严重受损。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:32:46.805Z"
       }
     },
     {
@@ -1913,7 +1964,25 @@
       "firstSeenAt": "2026-11-12T03:48:34.115Z",
       "day": "2026-11-12",
       "category": "industry",
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "fm5kw2cqqi",
+          "sourceId": "geekpark",
+          "sourceName": "极客公园",
+          "url": "http://www.geekpark.net/news/373937",
+          "title": "李彦宏定义 AI 下一个十年，智能组织是「新厂房」",
+          "publishedAt": "2026-11-13T03:43:41.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "geekpark"
+        ],
+        "firstPublishedAt": "2026-11-12T02:48:25.000Z"
+      }
     },
     {
       "id": "24zloz9efa7",
@@ -2312,11 +2381,28 @@
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xtyxl9/deepseek_v41_flash_1017_exl3_29bpw_apex_2025/",
       "ai": {
-        "title": "DeepSeek V4.1 Flash exl3 2.9bpw APEX 20…",
-        "summary": "分享 DeepSeek V4.1 Flash 在 exl3 2.9bpw 配置下的 APEX 2025 基准测试结果。",
+        "title": "DeepSeek V4.1 Flash 2.9bpw 性能基准测试",
+        "summary": "用户分享了 DeepSeek V4.1 Flash 在 EXL3 量化下的基准测试结果。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:54:47.777Z"
+        "at": "2026-11-13T18:32:46.805Z"
+      },
+      "related": [
+        {
+          "id": "1rkdp9ebdyg",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xus81t/lawyer_with_too_many_gpus_part_5_deepseekv41flash/",
+          "title": "Lawyer with too many GPUs, part 5: DeepSeek-V4.1-Flash at near-NVFP4 quality on eight V100s from 2018. 524K context, 100+ tok/s decode, ~160 tok/s with two chats at once, and my legal harness now runs on it, 100% local",
+          "publishedAt": "2026-11-12T23:31:29.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-11-12T00:50:08.000Z"
       }
     },
     {
@@ -2401,7 +2487,25 @@
       "firstSeenAt": "2026-11-12T03:48:34.115Z",
       "day": "2026-11-12",
       "category": "industry",
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "odhvllhbzf",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xur9ud/used_datacenterworkstation_gpu_prices_on_ebay/",
+          "title": "本周 eBay 数据中心 GPU 价格排名",
+          "publishedAt": "2026-11-12T22:49:43.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-11-12T00:28:59.561Z"
+      }
     },
     {
       "id": "1km7zardnxe",
@@ -2472,10 +2576,11 @@
       "score": 30,
       "aiAttempts": 1,
       "ai": {
-        "summary": "OpenAI 拨款 200 万美元用于 AI 与儿童安全研究。",
+        "title": "OpenAI 投入 200 万美元支持 AI 与儿童安全研究",
+        "summary": "OpenAI 承诺投入 200 万美元用于研究 AI 对儿童安全的影响。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:32:46.805Z"
       }
     },
     {
@@ -2496,10 +2601,11 @@
       "score": 30,
       "aiAttempts": 1,
       "ai": {
-        "summary": "Apple 机器学习研究论文探讨语言模型对齐的理论极限。",
+        "title": "语言模型对齐的理论极限",
+        "summary": "探讨语言模型对齐方法的理论限制与优化策略。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:32:46.805Z"
       }
     },
     {
@@ -2519,10 +2625,11 @@
       "score": 30,
       "aiAttempts": 1,
       "ai": {
-        "summary": "Hugging Face 博客发布 3D 生成模型的终极微调指南。",
+        "title": "3D 生成模型的终极微调指南",
+        "summary": "Hugging Face 发布了针对 3D 生成模型的详细微调教程。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:32:46.805Z"
       }
     },
     {
@@ -2793,8 +2900,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 662,
-        "comments": 689
+        "points": 676,
+        "comments": 698
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50458900",
       "ai": {
@@ -2819,18 +2926,19 @@
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-12",
       "category": "opensource",
-      "score": 26.6,
+      "score": 26.7,
       "metrics": {
-        "points": 132,
-        "comments": 31
+        "points": 134,
+        "comments": 32
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50458166",
       "aiAttempts": 1,
       "ai": {
-        "summary": "华为发布内部量化器 MACaQ，用于本地推理。",
+        "title": "华为发布 MACaQ 本地推理量化器",
+        "summary": "华为推出了用于本地推理的 MACaQ 量化工具。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-12T18:53:26.630Z"
+        "at": "2026-11-13T18:32:46.805Z"
       }
     },
     {
@@ -3073,7 +3181,14 @@
       "day": "2026-11-12",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xtqsuu/us_and_china_may_collaborate_on_ai_the_jokes/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xtqsuu/us_and_china_may_collaborate_on_ai_the_jokes/",
+      "ai": {
+        "title": "美中可能合作开发 AI",
+        "summary": "美中两国可能就 AI 领域展开合作，引发广泛讨论。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:32:46.805Z"
+      }
     },
     {
       "id": "23abjxqyfd9",
@@ -3091,7 +3206,7 @@
       "score": 27.2,
       "metrics": {
         "points": 165,
-        "comments": 194
+        "comments": 196
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50457164",
       "ai": {
@@ -3120,10 +3235,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 27.6,
+      "score": 28.6,
       "metrics": {
-        "stars": 12537,
-        "starsToday": 663
+        "stars": 12991,
+        "starsToday": 754
       },
       "ai": {
         "title": "OpenAI Codex Security CLI 和 TypeScript…",
@@ -3230,8 +3345,8 @@
         }
       ],
       "metrics": {
-        "points": 555,
-        "comments": 157
+        "points": 565,
+        "comments": 160
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50456791",
       "related": [
@@ -3253,8 +3368,8 @@
         ],
         "firstPublishedAt": "2026-11-11T18:00:00.000Z",
         "metrics": {
-          "points": 555,
-          "comments": 157
+          "points": 565,
+          "comments": 160
         }
       },
       "ai": {
@@ -3359,8 +3474,8 @@
       "category": "industry",
       "score": 35.4,
       "metrics": {
-        "points": 578,
-        "comments": 273
+        "points": 583,
+        "comments": 275
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50455394",
       "ai": {
@@ -3409,9 +3524,9 @@
       "firstSeenAt": "2026-11-12T03:48:34.115Z",
       "day": "2026-11-12",
       "category": "paper",
-      "score": 24.2,
+      "score": 24.5,
       "metrics": {
-        "points": 125,
+        "points": 130,
         "comments": 112
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50455332",
@@ -3479,7 +3594,7 @@
       "day": "2026-11-12",
       "category": "industry",
       "score": 15,
-      "dupOf": "b4gsz1lmsl"
+      "dupOf": "x71naakckq"
     },
     {
       "id": "mn20yo16lt",

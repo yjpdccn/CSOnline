@@ -286,7 +286,7 @@
       "categoryLocked": true,
       "score": 25.6,
       "metrics": {
-        "stars": 70469,
+        "stars": 71460,
         "starsToday": 506
       },
       "ai": {
@@ -2834,10 +2834,42 @@
           "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
           "title": "Jensen Huang was having a third affair, Reuters reports",
           "publishedAt": "2026-11-12T20:26:47.000Z"
+        },
+        {
+          "id": "bazvhu4im4",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032339/lets-talk-about-the-nvidia-shitshow",
+          "title": "Let’s talk about Jensen Huang’s many affairs!",
+          "publishedAt": "2026-11-13T12:00:00.000Z"
+        },
+        {
+          "id": "12ppsjjc7qh",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huang-didnt-show-confidence-in-his-successor-report-says/",
+          "title": "Jensen Huang didn’t show confidence in his successor, report says",
+          "publishedAt": "2026-11-13T12:28:23.000Z"
+        },
+        {
+          "id": "22b0t4rxp80",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/podcast/1032866/jensen-huang-nvidia-china-trump-vergecast",
+          "title": "What’s really at stake in the Jensen Huang saga",
+          "publishedAt": "2026-11-13T14:47:16.000Z"
+        },
+        {
+          "id": "2cqrn22wwxt",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+          "title": "The unfolding Jensen Huang scandal: a timeline",
+          "publishedAt": "2026-11-13T15:58:00.000Z"
         }
       ],
       "story": {
-        "reports": 30,
+        "reports": 34,
         "sources": [
           "jiqizhixin",
           "verge-ai",
@@ -3031,9 +3063,9 @@
         "MCP",
         "AI 编程"
       ],
-      "score": 21.7,
+      "score": 22.2,
       "metrics": {
-        "stars": 1217
+        "stars": 1320
       }
     },
     {
@@ -3544,9 +3576,9 @@
       "keywords": [
         "图像生成"
       ],
-      "score": 28,
+      "score": 28.6,
       "metrics": {
-        "likes": 299
+        "likes": 332
       },
       "skipLlm": true,
       "related": [
@@ -3575,7 +3607,7 @@
         ],
         "firstPublishedAt": "2026-11-08T20:37:23.000Z",
         "metrics": {
-          "likes": 299
+          "likes": 332
         }
       }
     },
