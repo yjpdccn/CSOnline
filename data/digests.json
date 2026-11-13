@@ -590,40 +590,39 @@
   },
   "2026-11-13": {
     "day": "2026-11-13",
-    "generatedAt": "2026-11-12T18:56:22.873Z",
-    "itemCount": 139,
-    "mode": "ai",
-    "model": "glm-4.7-flash",
-    "overview": "Gemini 4 Hydrogen发布，MiniMax开源4K图像模型，Grok Bot 1.0上线。",
+    "generatedAt": "2026-11-13T03:27:26.726Z",
+    "itemCount": 126,
+    "mode": "fallback",
+    "overview": "过去 24 小时共收录 126 条 AI 资讯：产品与行业 85 条、Agent 与工具 18 条、模型发布 7 条、开源项目 7 条、论文 5 条、多模态与视频 4 条。以下为按重要性排序的前 5 条。",
     "points": [
       {
-        "text": "Gemini 4 Hydrogen 模型发布。",
+        "text": "【模型】Gemini 4 Hydrogen",
         "refs": [
           "1bkjdg4y4p3"
         ]
       },
       {
-        "text": "MiniMax 开源 4K 图像模型，10秒生成 SOTA。",
+        "text": "【模型】10秒生成4K图：MiniMax再次拿出开源SOTA",
         "refs": [
           "1rba4htm6fs"
         ]
       },
       {
-        "text": "Grok Bot 1.0 正式发布，支持团队协作。",
+        "text": "【Agent】How Amplitude ships product improvements in 1–2 days with OpenAI",
+        "refs": [
+          "1a8h9i3pu6x"
+        ]
+      },
+      {
+        "text": "【行业】United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+        "refs": [
+          "y5wd0wdwmo"
+        ]
+      },
+      {
+        "text": "【行业】Grok Bot 1.0正式发布！马斯克教AI和你的团队一起工作",
         "refs": [
           "se200wq06y"
-        ]
-      },
-      {
-        "text": "Gemini Decision 1 可单次处理多模态 1000 个问题。",
-        "refs": [
-          "8w04m1c763"
-        ]
-      },
-      {
-        "text": "OpenAI 研究发现前沿模型正隐藏思维链。",
-        "refs": [
-          "2gg91tpio76"
         ]
       }
     ]

@@ -54,10 +54,10 @@
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-12",
       "category": "industry",
-      "score": 23.4,
+      "score": 29.7,
       "metrics": {
-        "points": 135,
-        "comments": 52
+        "points": 289,
+        "comments": 99
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50468888",
       "aiAttempts": 1
@@ -354,7 +354,7 @@
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-12",
       "category": "model",
-      "score": 36,
+      "score": 44,
       "related": [
         {
           "id": "1ad8uuxsdvt",
@@ -363,13 +363,22 @@
           "url": "https://www.qbitai.com/2026/11/509440.html",
           "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
           "publishedAt": "2026-11-12T11:36:20.000Z"
+        },
+        {
+          "id": "1bcrxwnk9oq",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4066749635155078",
+          "title": "10秒生成4K图：MiniMax再次拿出开源SOTA",
+          "publishedAt": "2026-11-12T23:54:53.277Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "jiqizhixin",
-          "qbitai"
+          "qbitai",
+          "36kr-ai"
         ],
         "firstPublishedAt": "2026-11-12T11:36:20.000Z"
       }
@@ -502,6 +511,25 @@
       "score": 18
     },
     {
+      "id": "pinhtvznkg",
+      "key": "url:openai.com/business/customer-stories/gondola",
+      "title": "Gondola doubles revenue as its team builds more with Codex",
+      "url": "https://openai.com/business/customer-stories/gondola",
+      "excerpt": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-12T12:00:00.000Z",
+      "firstSeenAt": "2026-11-13T03:25:34.645Z",
+      "day": "2026-11-12",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 30
+    },
+    {
       "id": "6w7d618z7n",
       "key": "url:36kr.com/p/4066698258502792",
       "title": "诺奖得主Hassabis再交神作，AlphaGenome 2破译人类98%基因“暗物质”",
@@ -515,7 +543,24 @@
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-12",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "related": [
+        {
+          "id": "k3v49zyypy",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4067491786019969",
+          "title": "诺奖得主Hassabis再交神作，AlphaGenome 2破译人类98%基因「暗物质」",
+          "publishedAt": "2026-11-13T01:18:39.951Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-12T11:59:18.023Z"
+      }
     },
     {
       "id": "f7opmgog68",
@@ -570,8 +615,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 660,
-        "comments": 670
+        "points": 844,
+        "comments": 821
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50465829",
       "aiAttempts": 1,
@@ -1430,10 +1475,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 32.3,
+      "score": 33.4,
       "metrics": {
-        "points": 332,
-        "comments": 204
+        "points": 372,
+        "comments": 222
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50463899",
       "aiAttempts": 1,
@@ -2748,8 +2793,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 646,
-        "comments": 672
+        "points": 662,
+        "comments": 689
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50458900",
       "ai": {
@@ -2774,9 +2819,9 @@
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-12",
       "category": "opensource",
-      "score": 26.3,
+      "score": 26.6,
       "metrics": {
-        "points": 126,
+        "points": 132,
         "comments": 31
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50458166",
@@ -2819,7 +2864,7 @@
       "firstSeenAt": "2026-11-12T03:48:34.115Z",
       "day": "2026-11-12",
       "category": "model",
-      "score": 37,
+      "score": 45,
       "related": [
         {
           "id": "1od7hgwldw3",
@@ -2836,14 +2881,23 @@
           "url": "https://www.infoq.cn/article/E7QKIMUz3h0G0IE5Paii?utm_source=rss&utm_medium=article",
           "title": "谷歌发布首款决策模型 Gemini Decision 1：9 项测试拿下 7 项第一，准确率最高92.2%",
           "publishedAt": "2026-11-12T03:00:00.000Z"
+        },
+        {
+          "id": "28fi46kfwh1",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
+          "title": "Google’s new Gemini model is better at understanding complicated questions",
+          "publishedAt": "2026-11-12T21:55:32.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "the-decoder",
           "36kr-ai",
-          "infoq-cn"
+          "infoq-cn",
+          "verge-ai"
         ],
         "firstPublishedAt": "2026-11-11T20:12:46.000Z"
       },
@@ -3034,10 +3088,10 @@
       "firstSeenAt": "2026-11-12T03:48:34.115Z",
       "day": "2026-11-12",
       "category": "industry",
-      "score": 27.1,
+      "score": 27.2,
       "metrics": {
         "points": 165,
-        "comments": 186
+        "comments": 194
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50457164",
       "ai": {
@@ -3068,7 +3122,7 @@
       ],
       "score": 27.6,
       "metrics": {
-        "stars": 12263,
+        "stars": 12537,
         "starsToday": 663
       },
       "ai": {
@@ -3176,8 +3230,8 @@
         }
       ],
       "metrics": {
-        "points": 546,
-        "comments": 156
+        "points": 555,
+        "comments": 157
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50456791",
       "related": [
@@ -3199,8 +3253,8 @@
         ],
         "firstPublishedAt": "2026-11-11T18:00:00.000Z",
         "metrics": {
-          "points": 546,
-          "comments": 156
+          "points": 555,
+          "comments": 157
         }
       },
       "ai": {
@@ -3303,10 +3357,10 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-12",
       "category": "industry",
-      "score": 35.3,
+      "score": 35.4,
       "metrics": {
-        "points": 564,
-        "comments": 262
+        "points": 578,
+        "comments": 273
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50455394",
       "ai": {
@@ -3355,10 +3409,10 @@
       "firstSeenAt": "2026-11-12T03:48:34.115Z",
       "day": "2026-11-12",
       "category": "paper",
-      "score": 24.1,
+      "score": 24.2,
       "metrics": {
-        "points": 124,
-        "comments": 109
+        "points": 125,
+        "comments": 112
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50455332",
       "ai": {

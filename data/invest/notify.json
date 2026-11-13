@@ -1,8 +1,8 @@
 {
   "sent": {
-    "alert:policy:2ggf4jtfya2": {
-      "hash": "policy:2ggf4jtfya2",
-      "label": "特朗普政府将不发布美国10月CPI与核心CPI的同比数据",
+    "alert:rate:cb:fed:2026-11-13": {
+      "hash": "rate:cb:fed:2026-11-13",
+      "label": "美联储公布2027年议息会议日程 10月会议不作利率决议、专门讨论货币政策战略",
       "kind": "event"
     },
     "alert:replace:008702:008701": {
@@ -48,5 +48,5 @@
   },
   "issueNumber": 1,
   "channel": "serverchan",
-  "lastSentAt": "2026-11-10T04:38:32.027Z"
+  "lastSentAt": "2026-11-13T03:25:34.645Z"
 }

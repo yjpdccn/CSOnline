@@ -1052,9 +1052,9 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 22,
+      "score": 22.2,
       "metrics": {
-        "stars": 1292
+        "stars": 1332
       }
     },
     {
@@ -2651,9 +2651,9 @@
       "day": "2026-11-10",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.7,
+      "score": 21.8,
       "metrics": {
-        "upvotes": 56,
+        "upvotes": 57,
         "comments": 2
       }
     },
@@ -2825,13 +2825,31 @@
       "firstSeenAt": "2026-11-10T04:38:32.027Z",
       "day": "2026-11-10",
       "category": "industry",
-      "score": 15,
+      "score": 23,
       "ai": {
         "title": "特朗普称其了解黄仁勋与中方高管关系细节",
         "summary": "特朗普回应黄仁勋与中方高管关系丑闻，称其知情。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-10T04:40:04.684Z"
+      },
+      "related": [
+        {
+          "id": "1h3pgmceq1d",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+          "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+          "publishedAt": "2026-11-12T22:42:51.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "verge-ai",
+          "techcrunch-ai"
+        ],
+        "firstPublishedAt": "2026-11-09T23:47:46.000Z"
       }
     },
     {

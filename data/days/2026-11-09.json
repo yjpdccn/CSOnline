@@ -2799,6 +2799,19 @@
           "publishedAt": "2026-11-12T17:36:40.000Z"
         },
         {
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xut4o7/hugging_face_ceo_vows_to_keep_fighting_for_open/"
+        },
+        {
+          "id": "2b11hjv59vq",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xujb7c/jensen_huangs_mistake_was_being_too_pro_localai/",
+          "title": "Jensen Huang's mistake was being too pro LocalAI, which was a threat to companies like ClosedAI and Anthropic which are about to go IPO",
+          "publishedAt": "2026-11-12T17:43:09.000Z"
+        },
+        {
           "id": "11as79uxgvg",
           "sourceId": "verge-ai",
           "sourceName": "The Verge AI",
@@ -2813,10 +2826,18 @@
           "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
           "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
           "publishedAt": "2026-11-12T18:39:23.000Z"
+        },
+        {
+          "id": "2ah18hmk792",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+          "title": "Jensen Huang was having a third affair, Reuters reports",
+          "publishedAt": "2026-11-12T20:26:47.000Z"
         }
       ],
       "story": {
-        "reports": 27,
+        "reports": 30,
         "sources": [
           "jiqizhixin",
           "verge-ai",
@@ -2988,6 +3009,31 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-09T02:41:47.472Z"
+      }
+    },
+    {
+      "id": "1f2muz5ost9",
+      "key": "gh:agentes-chat/agentes-chat",
+      "title": "agentes-chat/agentes-chat",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "excerpt": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Co…",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-09T00:50:28.000Z",
+      "firstSeenAt": "2026-11-13T03:25:34.645Z",
+      "day": "2026-11-09",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "MCP",
+        "AI 编程"
+      ],
+      "score": 21.7,
+      "metrics": {
+        "stars": 1217
       }
     },
     {
@@ -3498,9 +3544,9 @@
       "keywords": [
         "图像生成"
       ],
-      "score": 27.7,
+      "score": 28,
       "metrics": {
-        "likes": 285
+        "likes": 299
       },
       "skipLlm": true,
       "related": [
@@ -3529,7 +3575,7 @@
         ],
         "firstPublishedAt": "2026-11-08T20:37:23.000Z",
         "metrics": {
-          "likes": 285
+          "likes": 299
         }
       }
     },

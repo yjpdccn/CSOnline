@@ -1,18 +1,17 @@
 {
-  "updatedAt": "2026-11-12T18:52:29.627Z",
+  "updatedAt": "2026-11-13T03:25:34.645Z",
   "events": [
     {
-      "id": "wscn-1598628",
-      "at": "2026-11-12T13:30:00.000Z",
-      "country": "美国",
-      "title": "11月7日当周首次申请失业救济人数(万人)",
+      "id": "wscn-1602459",
+      "at": "2026-11-13T04:02:00.000Z",
+      "country": "中国",
+      "title": "10月M2货币供应同比 · 1至10月社会融资规模增量(亿人民币) · 1至10月新增人民币贷款(亿人民币)",
       "importance": 3,
       "kind": "data",
       "source": "华尔街见闻",
-      "previous": "18.9",
-      "forecast": "19.4",
-      "actual": "20",
-      "unit": "万人"
+      "dateOnly": true,
+      "previous": "7.2",
+      "unit": "%"
     },
     {
       "id": "wscn-1598652",
@@ -36,14 +35,23 @@
       "source": "华尔街见闻"
     },
     {
-      "id": "wscn-1598666",
+      "id": "wscn-15793",
+      "at": "2026-11-15T16:00:00.000Z",
+      "country": "美国",
+      "title": "11月16日当周美联储官员密集发声，聚焦12月加息路径",
+      "importance": 3,
+      "kind": "event",
+      "source": "华尔街见闻"
+    },
+    {
+      "id": "wscn-1598662",
       "at": "2026-11-16T02:00:00.000Z",
       "country": "中国",
-      "title": "1至10月全国房地产开发投资 · 10月规模以上工业增加值同比 · 1至10月社会消费品零售总额同比 等 4 项",
-      "importance": 3,
+      "title": "10月规模以上工业增加值同比 · 10月社会消费品零售总额同比 · 1至10月全国房地产开发投资 等 4 项",
+      "importance": 4,
       "kind": "data",
       "source": "华尔街见闻",
-      "previous": "-20.6",
+      "previous": "5.5",
       "unit": "%"
     },
     {
@@ -65,8 +73,17 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "0.8",
-      "forecast": "0.1",
+      "forecast": "0.2",
       "unit": "%"
+    },
+    {
+      "id": "wscn-15743",
+      "at": "2026-11-18T19:00:00.000Z",
+      "country": "美国",
+      "title": "美联储公布货币政策会议纪要",
+      "importance": 3,
+      "kind": "event",
+      "source": "华尔街见闻"
     },
     {
       "id": "wscn-1599185",
@@ -76,6 +93,8 @@
       "importance": 3,
       "kind": "data",
       "source": "华尔街见闻",
+      "previous": "20",
+      "forecast": "19.7",
       "unit": "万人"
     },
     {
@@ -99,6 +118,15 @@
       "source": "华尔街见闻",
       "previous": "3.4",
       "unit": "%"
+    },
+    {
+      "id": "wscn-15783",
+      "at": "2026-11-25T16:00:00.000Z",
+      "country": "美国",
+      "title": "美股感恩节休市",
+      "importance": 3,
+      "kind": "event",
+      "source": "华尔街见闻"
     }
   ],
   "fomc": [

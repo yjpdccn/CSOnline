@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T18:52:29.627Z",
+  "updatedAt": "2026-11-13T03:25:34.645Z",
   "bands": {
     "ndx": "mid",
     "spx": "mid",
@@ -8,6 +8,14 @@
     "divlowvol": "high"
   },
   "events": [
+    {
+      "id": "rate:cb:fed:2026-11-13",
+      "kind": "rate",
+      "at": "2026-11-12T23:27:00.000Z",
+      "title": "美联储公布2027年议息会议日程 10月会议不作利率决议、专门讨论货币政策战略",
+      "detail": "东方财富",
+      "url": "https://finance.eastmoney.com/a/202611133930099737.html"
+    },
     {
       "id": "policy:2ggf4jtfya2",
       "kind": "policy",

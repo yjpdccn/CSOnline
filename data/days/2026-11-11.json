@@ -511,10 +511,11 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 1023,
-        "comments": 385
+        "points": 1029,
+        "comments": 391
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50452455"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50452455",
+      "dupOf": "25vte45xjl6"
     },
     {
       "id": "ieaweprzoc",
@@ -873,7 +874,24 @@
       "day": "2026-11-11",
       "category": "industry",
       "score": 14,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xted8w/ernie_55_flash_will_be_released_in_two_weeks/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xted8w/ernie_55_flash_will_be_released_in_two_weeks/",
+      "related": [
+        {
+          "id": "o1yb6qks7f",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xune1i/new_model_ernie_55_flash_preview_hits_strongly_at/",
+          "title": "New Model \"Ernie 5.5 Flash Preview\" hits strongly at a low parameter count (280B, 14B Active)",
+          "publishedAt": "2026-11-12T20:13:37.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-11-11T10:26:23.000Z"
+      }
     },
     {
       "id": "lvjzp3xyt4",
@@ -2245,9 +2263,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22.9,
+      "score": 23.1,
       "metrics": {
-        "upvotes": 65,
+        "upvotes": 67,
         "comments": 7
       }
     },
@@ -2269,7 +2287,7 @@
       "score": 23.8,
       "metrics": {
         "upvotes": 77,
-        "comments": 2
+        "comments": 3
       }
     },
     {
@@ -2331,9 +2349,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 24.5,
+      "score": 24.7,
       "metrics": {
-        "upvotes": 86,
+        "upvotes": 88,
         "comments": 2
       }
     },
@@ -2404,7 +2422,7 @@
       "score": 34.9,
       "metrics": {
         "points": 457,
-        "comments": 219
+        "comments": 221
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50447074"
     },
@@ -2424,8 +2442,8 @@
       "category": "industry",
       "score": 44,
       "metrics": {
-        "points": 548,
-        "comments": 550
+        "points": 552,
+        "comments": 551
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50446520",
       "alsoOn": [
@@ -2548,7 +2566,24 @@
       "firstSeenAt": "2026-11-11T02:47:08.191Z",
       "day": "2026-11-11",
       "category": "model",
-      "score": 20
+      "score": 20,
+      "related": [
+        {
+          "id": "vnutthbkiv",
+          "sourceId": "simonw",
+          "sourceName": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+          "title": "llm-gemini 0.37",
+          "publishedAt": "2026-11-12T22:55:19.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "simonw"
+        ],
+        "firstPublishedAt": "2026-11-10T20:09:44.000Z"
+      }
     },
     {
       "id": "24gf1rw8i6i",
@@ -2716,10 +2751,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 29.1,
+      "score": 29.2,
       "metrics": {
-        "stars": 116548,
-        "starsToday": 812
+        "stars": 116756,
+        "starsToday": 816
       }
     },
     {
@@ -2799,9 +2834,9 @@
       "firstSeenAt": "2026-11-11T02:47:08.191Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 31.4,
+      "score": 31.5,
       "metrics": {
-        "points": 288,
+        "points": 291,
         "comments": 217
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50443716"
@@ -2865,10 +2900,18 @@
           "url": "https://the-decoder.com/anthropic-turns-claude-into-a-full-workspace-with-plugins-spreadsheets-whiteboards-and-soon-meeting-notes/",
           "title": "Anthropic turns Claude into a full workspace with Plugins, spreadsheets, whiteboards, and soon Meeting notes",
           "publishedAt": "2026-11-10T19:48:40.000Z"
+        },
+        {
+          "id": "crgexxqesn",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
+          "title": "Claude Meetings lets Anthropic's AI join your video calls",
+          "publishedAt": "2026-11-12T20:26:50.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "techcrunch-ai",
           "the-decoder"
@@ -3024,7 +3067,7 @@
       "score": 60.9,
       "metrics": {
         "points": 295,
-        "comments": 164
+        "comments": 165
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50442303",
       "related": [
@@ -3099,7 +3142,7 @@
         "firstPublishedAt": "2026-11-10T16:00:00.000Z",
         "metrics": {
           "points": 295,
-          "comments": 164
+          "comments": 165
         }
       }
     },
