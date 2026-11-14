@@ -211,7 +211,14 @@
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Plurai 借鉴自动驾驶技术提升 AI Agent 效率",
+        "summary": "Plurai 希望通过类似自动驾驶的端到端模型提升 AI Agent 性能。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
+      }
     },
     {
       "id": "11vgbzia4t3",
@@ -226,8 +233,15 @@
       "publishedAt": "2026-11-11T14:00:00.000Z",
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
-      "category": "industry",
-      "score": 15
+      "category": "multimodal",
+      "score": 15,
+      "ai": {
+        "title": "Adobe AI 实验允许在照片中行走并与角色对话",
+        "summary": "Adobe 的新 AI 实验允许用户在照片中行走并与 AI 生成的角色对话。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
+      }
     },
     {
       "id": "11g3m3904qw",
@@ -243,7 +257,14 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "美国数据经纪商向中国 AI 实验室出售 5 亿美元 RL 训练环境",
+        "summary": "美国数据经纪商向中国 AI 实验室出售约 5 亿美元的 AI 训练数据。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
+      }
     },
     {
       "id": "8zmwcpgt34",
@@ -258,11 +279,18 @@
       "publishedAt": "2026-11-11T13:50:30.000Z",
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
-      "category": "industry",
+      "category": "multimodal",
       "keywords": [
         "语音"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "DeepL 新模型旨在捕捉讽刺与情绪变化",
+        "summary": "DeepL 新的 Aure 模型旨在在实时翻译中保留语气和情绪。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
+      }
     },
     {
       "id": "1f4a58y5yjt",
@@ -346,7 +374,14 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Grok 构建的应用暴露患者数据与 SpaceXSI 销售管道",
+        "summary": "安全公司发现超过 35,000 个 Grok 构建的应用未设置登录保护。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
+      }
     },
     {
       "id": "1h5tjvpoq3q",
@@ -594,7 +629,14 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "英国监管机构威胁大学采用防 AI 考试形式",
+        "summary": "英国监管机构称 AI 使公平评估学生作业变得几乎不可能。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
+      }
     },
     {
       "id": "1zqflwgk3j6",
@@ -1139,10 +1181,11 @@
       "score": 30,
       "aiAttempts": 1,
       "ai": {
-        "summary": "OpenAI 为退伍军人提供免费 ChatGPT Plus，帮助他们准备转行。",
+        "title": "ChatGPT Plus 免费提供给退伍军人",
+        "summary": "超过 20,000 名退伍军人已申请免费一年的 ChatGPT Plus。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-13T18:33:01.112Z"
+        "at": "2026-11-14T03:14:13.302Z"
       }
     },
     {
@@ -1382,7 +1425,7 @@
       "keywords": [
         "语音"
       ],
-      "score": 27.4,
+      "score": 27.9,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xtb9gw/zyphrazonos3mini_hugging_face/",
       "alsoOn": [
         {
@@ -1392,7 +1435,7 @@
         }
       ],
       "metrics": {
-        "likes": 269
+        "likes": 297
       },
       "ai": {
         "title": "Zyphra 推出 ZONOS3-Mini 开源文本转语音模型",
@@ -2374,10 +2417,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 23.3,
+      "score": 23.4,
       "metrics": {
-        "upvotes": 69,
-        "comments": 7
+        "upvotes": 70,
+        "comments": 8
       },
       "aiAttempts": 1,
       "ai": {
@@ -2436,7 +2479,7 @@
       "score": 22.7,
       "metrics": {
         "upvotes": 65,
-        "comments": 3
+        "comments": 4
       },
       "aiAttempts": 1,
       "ai": {
@@ -2774,9 +2817,9 @@
       "day": "2026-11-11",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 21.7,
+      "score": 22.1,
       "metrics": {
-        "stars": 1216
+        "stars": 1299
       },
       "ai": {
         "title": "FrigadeHQ/yogurt：私有 AI 会议记录",

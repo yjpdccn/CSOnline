@@ -1,6 +1,1042 @@
 {
-  "updatedAt": "2026-11-13T18:30:05.440Z",
+  "updatedAt": "2026-11-14T03:13:08.868Z",
   "items": [
+    {
+      "id": "25vohzgbwlg",
+      "key": "url:marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
+      "title": "14 dividend stocks selected for long-term growth",
+      "url": "https://www.marketwatch.com/story/14-dividend-stocks-selected-for-long-term-growth-0a095c0d?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-14T01:58:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "These stocks feature attractive dividend payouts and are trading low to the companies’ intrinsic value, according to John Buckingham of Value87 Investment Partners."
+    },
+    {
+      "id": "21hjhsg517c",
+      "key": "url:cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+      "title": "Trump doesn’t plan to raise Nvidia, spy issue during China trip: U.S. officials",
+      "url": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-14T01:34:11.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "Nvidia CEO Jensen Huang resigned this week after reports of multiple affairs, including one with a suspected Chinese spy, Alice Huang.",
+      "ai": {
+        "title": "特朗普访华不计划就英伟达及间谍问题向中方施压",
+        "summary": "英伟达CEO黄仁勋因涉嫌与中国间谍关系辞职。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:16:05.447Z"
+      }
+    },
+    {
+      "id": "136yga99tfl",
+      "key": "em:202611143931289133",
+      "title": "特朗普：空管系统故障与网络攻击或人工智能无关",
+      "url": "https://finance.eastmoney.com/a/202611143931289133.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-14T01:10:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "当地时间13日，美国总统特朗普表示，美国空管系统故障与网络攻击或人工智能无关。特朗普称，“这看起来不像是网络攻击或人工智能之类的……没有人出来认领。如果真的有人对关键基础设施发动了这样的大规模网络攻击，通常会有人出来认领”。特朗普还说，有关方面第一时间排查了网络攻击的可能性，但没有发现相关迹象。当地时间13日，美国多个航路交通管制中心出现通信故障。"
+    },
+    {
+      "id": "1fygfhy4f5h",
+      "key": "sina:5214163",
+      "title": "美联储副主席杰斐逊：人工智能建设迫使我关注总需求，而总需求正是通胀压力的来源",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysepi0759366.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-14T00:57:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "dupOf": "1ehmy98l6k2"
+    },
+    {
+      "id": "28sweb0jr0k",
+      "key": "sina:5214150",
+      "title": "美联储理事杰斐逊：联邦公开市场委员会（FOMC）将在数月内（甚至更早）听取美联储工作组的汇报",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysepi0753077.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-14T00:46:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "dupOf": "1ehmy98l6k2"
+    },
+    {
+      "id": "11ungwinpaj",
+      "key": "sina:5214149",
+      "title": "美联储理事杰斐逊：我在联邦公开市场委员会会议上从未参与过涉及政治考量的讨论",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysepk7525509.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-14T00:39:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "dupOf": "1ehmy98l6k2"
+    },
+    {
+      "id": "200llku759e",
+      "key": "wscn:3200067",
+      "title": "报道：美国因病例激增失去“消除麻疹”地位",
+      "url": "https://wallstreetcn.com/livenews/3200067",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-14T00:37:47.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "据《华尔街日报》报道，由于过去一年麻疹传播持续不断且病例数打破纪录，美国已失去长期保持的“消除麻疹”地位。在此之前，负责核查各国疾病消除状态的泛美卫生组织（PAHO）对相关证据进行了审查。",
+      "flag": 1
+    },
+    {
+      "id": "8jqf9fodsc",
+      "key": "sina:5214145",
+      "title": "美联储副主席杰斐逊：根据我的经验，债务或赤字问题从未进入美联储的政策辩论",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysepk7524456.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-14T00:36:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "dupOf": "21qtd5aztxs"
+    },
+    {
+      "id": "igjui9qfeo",
+      "key": "sina:5214110",
+      "title": "美联储副主席杰斐逊：通胀是政策最重要的信号",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysepk7505741.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-14T00:00:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "dupOf": "21qtd5aztxs"
+    },
+    {
+      "id": "21qtd5aztxs",
+      "key": "sina:5214109",
+      "title": "美联储副主席杰斐逊：就业与增长预测面临的风险大致均衡",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysepi0729585.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-14T00:00:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "related": [
+        {
+          "id": "6kkxykvah8",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysepi0729453.d.html",
+          "title": "美联储副主席杰斐逊：对能源价格导致通胀持续表示担忧",
+          "publishedAt": "2026-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "igjui9qfeo",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysepk7505741.d.html",
+          "title": "美联储副主席杰斐逊：通胀是政策最重要的信号",
+          "publishedAt": "2026-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "jobwu6ekjz",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysepi0729390.d.html",
+          "title": "美联储副主席杰斐逊：数据和前景将决定进一步的政策调整",
+          "publishedAt": "2026-11-14T00:00:00.000Z"
+        },
+        {
+          "id": "8jqf9fodsc",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysepk7524456.d.html",
+          "title": "美联储副主席杰斐逊：根据我的经验，债务或赤字问题从未进入美联储的政策辩论",
+          "publishedAt": "2026-11-14T00:36:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 5,
+        "sources": [
+          "sina"
+        ],
+        "firstPublishedAt": "2026-11-14T00:00:00.000Z"
+      }
+    },
+    {
+      "id": "6kkxykvah8",
+      "key": "sina:5214108",
+      "title": "美联储副主席杰斐逊：对能源价格导致通胀持续表示担忧",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysepi0729453.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-14T00:00:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "dupOf": "21qtd5aztxs"
+    },
+    {
+      "id": "jobwu6ekjz",
+      "key": "sina:5214107",
+      "title": "美联储副主席杰斐逊：数据和前景将决定进一步的政策调整",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysepi0729390.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-14T00:00:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "dupOf": "21qtd5aztxs"
+    },
+    {
+      "id": "201n8ym6b2b",
+      "key": "sina:5214042",
+      "title": "美国总统特朗普：我正在与共和党与民主党人合作，共同推进《电影、电视和娱乐振兴法案》",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyryfm0830856.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T22:57:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "美国总统特朗普：我正在与共和党与民主党人合作，共同推进《电影、电视和娱乐振兴法案》。推动这件事、把娱乐产业带回美国所获得的支持和受欢迎程度令人难以置信！好莱坞以及许多其他地方，几乎被其他国家提供的税收优惠和其他政策“掏空”了。每个人都对电影和电视产业感受强烈，我也是，我们都想拯救它。它是美国制造的，必须留在美国。娱乐产业已大量转移到加拿大、英国、澳大利亚和其他国家，但演员、制片人和其他所有相关方都想回到家乡！重要的是，这项法案的通过将极大地惠及数十万蓝领工人。在这些税收优惠上投入的资金，将以涌入财政部国库的资金十倍收回。目前正在定期与两党领导人安排会议…"
+    },
+    {
+      "id": "1qknj0qnlmk",
+      "key": "url:marketwatch.com/story/what-really-happens-during-medicare-counseling-6a4f618e?mod=mw_rss_topstories",
+      "title": "4 expert tips for signing up for Medicare",
+      "url": "https://www.marketwatch.com/story/what-really-happens-during-medicare-counseling-6a4f618e?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T22:45:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "rates-fx"
+      ],
+      "excerpt": "A day in the life of a Medicare counselor",
+      "ai": {
+        "title": "注册医保的4个专家提示",
+        "summary": "医保顾问的一天。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:16:05.447Z"
+      }
+    },
+    {
+      "id": "sqthbcdp12",
+      "key": "url:cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+      "title": "Nvidia stock suffers longest weekly losing streak since 2012 as market value sinks by $1.7 trillion",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T22:18:43.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Jensen Huang's resignation added to Nvidia's market woes, with the stock already in a downward slide since early October.",
+      "ai": {
+        "title": "英伟达股价创2012年以来最长周连跌，市值蒸发1.7万亿美元",
+        "summary": "黄仁勋辞职加剧市场担忧，股价自10月初持续下跌。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:16:05.447Z"
+      }
+    },
+    {
+      "id": "z7r1z2fomy",
+      "key": "em:202611143931085731",
+      "title": "全球市场：美股三大指数收盘涨跌不一 芯片股跌幅居前 AMD跌超8%、英伟达跌超2%",
+      "url": "https://finance.eastmoney.com/a/202611143931085731.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T22:15:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "1、道指涨0.1%，纳指跌0.91%，标普500指数跌0.4%。2、芯片股多数下跌，英伟达跌超2%，AMD跌超8%，闪迪跌超5%，西部数据跌5%。3、现货白银跌近3%。",
+      "flag": 1
+    },
+    {
+      "id": "dlxrbp9o9s",
+      "key": "sina:5213996",
+      "title": "美联储12月加息25个基点的概率为89.8%",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyryfm0804586.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T21:41:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "据CME“美联储观察”：美联储12月加息25个基点的概率为89.8%，加息50个基点的概率为10.2%。美联储到明年1月累计加息25个基点的概率24.9%，累计加息50个基点的概率为67.8%，累计加息75个基点的概率为7.4%。"
+    },
+    {
+      "id": "2e5ty5qwzxx",
+      "key": "sina:5213973",
+      "title": "美国财政部考虑提供贷款，帮助委内瑞拉清偿对美洲开发银行的欠款",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyryfn7574540.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T21:29:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ]
+    },
+    {
+      "id": "yt9xzaowwy",
+      "key": "sina:5213971",
+      "title": "美联储：美国上周银行存款增加565亿美元",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyryfp3166090.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T21:27:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "1jr0dwonfdl",
+      "key": "wscn:3200024",
+      "title": "美国总统特朗普的AI工作组周四开会，讨论网络威胁，但并没有研究英伟达事件。（Semafor）",
+      "url": "https://wallstreetcn.com/livenews/3200024",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T21:25:46.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "81e6w5fku8",
+      "key": "url:cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+      "title": "AI risks are the biggest threat to the financial system, Fed survey finds",
+      "url": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+      "lang": "en",
+      "sourceId": "cnbc-economy",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T21:18:30.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "fed",
+        "us-stocks"
+      ],
+      "excerpt": "The report comes with Wall Street on edge over high-flying AI hyperscalers, while communities are on alert for the rapid spread of data centers.",
+      "ai": {
+        "title": "AI风险是金融体系最大威胁，美联储调查发现",
+        "summary": "华尔街担忧AI巨头，社区警惕数据中心快速扩张。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:16:05.447Z"
+      }
+    },
+    {
+      "id": "177mpc0ivz6",
+      "key": "url:marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
+      "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+      "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T21:10:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "At first, it looked like Nvidia’s pain might be the rest of the chip sector’s gain. But now, investors aren’t so sure."
+    },
+    {
+      "id": "3fq0ezz42p",
+      "key": "em:202611143931084348",
+      "title": "白宫否认国家经济委员会主任哈西特即将离职",
+      "url": "https://finance.eastmoney.com/a/202611143931084348.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T21:08:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "当地时间11月13日，白宫否认有关白宫国家经济委员会主任凯文·哈西特将在未来几周内离职的消息。此前有美国媒体报道称，哈西特预计将在未来几周内离开特朗普政府，成为又一名离任的白宫重量级官员。",
+      "related": [
+        {
+          "id": "8de7pxgezx",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyrtxr3265629.d.html",
+          "title": "美国总统特朗普的国家经济委员会主任哈塞特料将离开白宫。预计将由财政部长贝森特或Zervos接替",
+          "publishedAt": "2026-11-13T19:10:00.000Z"
+        },
+        {
+          "id": "1h5nbml67sc",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202611143931077050.html",
+          "title": "哈塞特称有关他将离开白宫的报道“不属实”",
+          "publishedAt": "2026-11-13T19:47:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "em-commodity",
+          "sina"
+        ],
+        "firstPublishedAt": "2026-11-13T19:10:00.000Z"
+      }
+    },
+    {
+      "id": "1gackswoaja",
+      "key": "wscn:3200017",
+      "title": "纳斯达克100 ETF美股盘后跌0.7%，道富银行SPDR标普500 ETF跌0.4%",
+      "url": "https://wallstreetcn.com/livenews/3200017",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T21:06:42.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "纳斯达克100 ETF美股盘后跌0.7%，道富银行SPDR标普500 ETF跌0.4%。 航空股盘后普跌，美联航跌1.2%，Jetblue跌2.4%，美国航空公司跌1.7%。 网络安全股上涨，Palo Alto涨2%，Zscaler涨1%，Crowdstrike涨2%。 美国联邦航空管理局（FAA）：全美范围内所有机场实施地面停飞，直至另行通知。 美联储在半年度金融稳定报告中发出警示：AI推升资产估值过高带来潜在风险。",
+      "flag": 1
+    },
+    {
+      "id": "21ve6x5sibh",
+      "key": "em:202611143931083139",
+      "title": "标普确认意大利BBB+/A-评级 前景展望正面",
+      "url": "https://finance.eastmoney.com/a/202611143931083139.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T21:05:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "标普确认意大利BBB+/A-评级，前景展望正面。"
+    },
+    {
+      "id": "kqx3tmwuj3",
+      "key": "sina:5213935",
+      "title": "美联储半年度金融稳定报告警示AI与高估值风险",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyrtxr3291375.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T21:05:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "美联储在周五发布的半年度金融稳定报告中，对人工智能（AI）及高资产估值带来的潜在脆弱性发出警告。美联储指出，股票估值指标持续高企，部分受市场对“超级智能”的热情推动。不过，这种热情已因对企业资本支出和债务发行计划的担忧而有所降温。美联储官员 Michelle Bowman 本周早些时候警告，若AI投资回报不及预期，可能导致股价大幅下跌。报告及官员均关注到科技巨头与初创企业间复杂的“循环融资”安排（circular deals）及表外负债风险。基于对市场参与者的调查，受访者认为AI降低了复杂网络攻击的门槛，增加了金融市场面临的网络风险。此外，风险资产回调…"
+    },
+    {
+      "id": "268nqae0l3c",
+      "key": "em:202611143931082853",
+      "title": "美联储发布金融稳定报告 称资产价格高企存在风险 部分由AI推动",
+      "url": "https://finance.eastmoney.com/a/202611143931082853.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T21:03:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 22,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "美联储发布金融稳定报告，称资产价格高企存在风险，部分由AI推动。"
+    },
+    {
+      "id": "1wsrx4jn70p",
+      "key": "wscn:3200013",
+      "title": "美联储警示：AI推升资产估值过高带来潜在风险",
+      "url": "https://wallstreetcn.com/livenews/3200013",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T21:01:38.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "美联储发布半年度金融稳定报告。报告指出，人工智能（AI）和过高的资产估值可能引发潜在脆弱性。 “资产估值压力持续处于高位。股票估值指标一直居高不下，部分原因是市场对‘超级智能’（super intelligence）的狂热，”美联储在报告中使用了美国总统特朗普对AI的偏好称呼。该央行补充称，这种狂热情绪已因市场对企业资本支出和债务发行计划的担忧而有所降温。",
+      "flag": 1
+    },
+    {
+      "id": "19f9sg0xn5u",
+      "key": "cls:2534328",
+      "title": "纳指收跌0.9% 英伟达创18个月来最差单周表现",
+      "url": "https://www.cls.cn/detail/2534328",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T21:01:09.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "美股三大指数收盘涨跌不一，道指涨0.1%，纳指跌0.91%，标普500指数跌0.4%。芯片股下挫，费城半导体指数跌3.43%，AMD跌超8%，闪迪、西部数据跌超5%，博通、ARM跌超4%，拉姆研究、希捷科技跌超3%。美股“科技七巨头”涨跌不一，Meta Platforms涨2.90%，苹果涨0.39%，微软涨0.17%，亚马逊跌0.29%，谷歌跌0.96%，特斯拉跌1.82%，英伟达跌2%。英伟达股价本周下跌13%，创2025年4月以来最大单周跌幅，并且为连续第六周下跌，创2012年以来最长连跌纪录，本周市值蒸发逾5730亿美元。",
+      "flag": 1
+    },
+    {
+      "id": "gwbhybga2m",
+      "key": "sina:5213926",
+      "title": "美联储认为，人工智能是导致资产价格高企的部分原因，并认为存在风险",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyrtxr3290067.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T21:00:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "3hdaip4bwg",
+      "key": "sina:5213925",
+      "title": "美联储发布金融稳定报告",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyrtxp0919213.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T21:00:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 22,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "wy781q7whh",
+      "key": "url:cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html",
+      "title": "Supreme Court agrees to hear Robinhood challenge to IPO information omission lawsuit",
+      "url": "https://www.cnbc.com/2026/11/13/robinhood-supreme-court-ipo-lawsuit.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T20:48:13.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "The Trump administration had urged the Supreme Court to hear an appeal by Robinhood of a lower-court's decision to revive an investors' lawsuit over the IPO."
+    },
+    {
+      "id": "neqbz94js3",
+      "key": "em:202611143931080516",
+      "title": "桑坦德上调美联储加息预期 料12月和明年3月各加息25个基点",
+      "url": "https://finance.eastmoney.com/a/202611143931080516.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T20:41:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "excerpt": "桑坦德的美国首席经济学家Stephen Stanley上调了对美联储加息的预期，理由是通胀压力加剧。他将对美联储政策的预测调整为12月和明年3月各加息25个基点，此前预计仅12月加息，2027年不会采取行动。",
+      "dupOf": "4n87yrbuqm"
+    },
+    {
+      "id": "934die1r50",
+      "key": "sina:5213907",
+      "title": "美联储12月加息基本锁定 市场焦点转向明年1月",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyrtxp0914051.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T20:40:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "对美国货币政策的讨论焦点已经转向明年1月。美联储官员本周密集发表讲话和接受采访，基本锁定了市场对12月加息的预期，并开启了自2023年以来首次连续加息的可能性。周二公布的10月消费者价格报告显示通胀加速，并扩大至各种日常商品和服务，这使得加息的理由变得更加迫切。“通胀仍然太高，”纽约联储行长约翰·威廉姆斯表示，而芝加哥联储行长奥斯坦·古尔斯比则称这组数据“几乎令人不安”。达拉斯联储行长洛丽·洛根表示，官员们可能需要以“比我原先预期更快”的速度加息；美联储理事克里斯托弗·沃勒甚至警告，下个月可能需要加息50个基点。“12月加息25个基点显然已经箭在弦上，…"
+    },
+    {
+      "id": "p7x0p6v45d",
+      "key": "sina:5213901",
+      "title": "凯文·哈塞特表示，他将继续担任特朗普的经济顾问",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyrtxi0621985.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T20:32:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "国家经济委员会主任凯文·哈塞特否认了有关他计划在未来几周内离职的报道。哈塞特周五在被问及有关他即将离职的报道时，通过短信表示“并非如此”。此前有报道称，哈塞特预计将卸任特朗普的首席经济顾问一职。该媒体称，潜在继任者包括将继续担任财政部长的斯科特·贝森特，以及贝森特的顾问大卫·泽沃斯。哈塞特表示，他周五下午曾就这篇报道与总统开玩笑。一位白宫官员也表示，该报道毫无事实依据，并补充说，哈塞特是特朗普经济团队的重要成员，将继续致力于推进其政策。"
+    },
+    {
+      "id": "odxtawbxc9",
+      "key": "url:cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
+      "title": "Hassett denies report he's leaving White House: 'Not true'",
+      "url": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T20:27:47.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "National Economic Council Director Kevin Hassett poured cold water on a report that he's expected to leave the White House in the coming weeks."
+    },
+    {
+      "id": "1zowuwokil4",
+      "key": "sina:5213886",
+      "title": "美国国务院表示，美国国务卿鲁比奥与阿斯富拉讨论了洪都拉斯的贸易和投资问题",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyrtxp0909128.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T20:16:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ]
+    },
+    {
+      "id": "os7hq5cvdm",
+      "key": "sina:5213885",
+      "title": "美国国务院：美国国务卿鲁比奥在华盛顿会见洪都拉斯总统",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyrtxi0618508.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T20:16:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ]
+    },
+    {
+      "id": "12a42n0iasa",
+      "key": "em:202611143931077919",
+      "title": "美联储公布了11月至12月的短期国债购买计划",
+      "url": "https://finance.eastmoney.com/a/202611143931077919.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T20:05:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "美联储公布了11月至12月的短期国债购买计划，将准备金管理购买的暂停期延长至12月中旬；同时，美联储将购买140亿美元的短期国债，用于抵押贷款支持证券（MBS）的再投资。"
+    },
+    {
+      "id": "lcnuyyfgb4",
+      "key": "sina:5213874",
+      "title": "美联储公布了11月至12月的短期国债购买计划，将准备金管理购买的暂停期延长至12月中旬",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyrtxr3274625.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T20:03:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "美联储公布了11月至12月的短期国债购买计划，将准备金管理购买的暂停期延长至12月中旬；同时，美联储将购买140亿美元的短期国债，用于抵押贷款支持证券（MBS）的再投资。"
+    },
+    {
+      "id": "4n87yrbuqm",
+      "key": "sina:5213863",
+      "title": "桑坦德上调美联储加息预期 料12月和明年3月各加息25个基点",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyrtxp0903547.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T19:50:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "excerpt": "桑坦德的美国首席经济学家Stephen Stanley上调了对美联储加息的预期，理由是通胀压力加剧。他将对美联储政策的预测调整为12月和明年3月各加息25个基点，此前预计仅12月加息，2027年不会采取行动。Stanley在一份报告中表示，此次调整预测基于经济强劲、通胀压力扩大、美联储对中性政策立场的评估似乎已从大约3.5%上升，以及美联储官员近期言论中越来越多地谈及投入成本向价格传导将很快给通胀带来上行推动。Stanley预计，只要仍有必要收紧政策，美联储“将维持隔次会议行动一次的节奏”。他写道：“如果经济继续显现过热迹象，并且/或者核心通胀到明年很…",
+      "related": [
+        {
+          "id": "neqbz94js3",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202611143931080516.html",
+          "title": "桑坦德上调美联储加息预期 料12月和明年3月各加息25个基点",
+          "publishedAt": "2026-11-13T20:41:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "sina",
+          "em-commodity"
+        ],
+        "firstPublishedAt": "2026-11-13T19:50:00.000Z"
+      }
+    },
+    {
+      "id": "1h5nbml67sc",
+      "key": "em:202611143931077050",
+      "title": "哈塞特称有关他将离开白宫的报道“不属实”",
+      "url": "https://finance.eastmoney.com/a/202611143931077050.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T19:47:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "哈塞特称有关他将离开白宫的报道“不属实”。",
+      "dupOf": "3fq0ezz42p"
+    },
+    {
+      "id": "27akinbmk4t",
+      "key": "em:202611143931076927",
+      "title": "英仕曼集团的Rowe警告美国滞胀风险 料10年期美债收益率或升至5.5%",
+      "url": "https://finance.eastmoney.com/a/202611143931076927.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T19:46:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "rates-fx"
+      ],
+      "excerpt": "英仕曼集团的Matthew Rowe表示，他越来越担心美国经济陷入滞胀，并认为这一风险可能推动10年期美国国债收益率在明年初升至5.5%。管理着2,710亿美元资产的英仕曼集团的高级投资组合经理兼解决方案部门董事总经理Rowe表示，随着美联储将利率推高至足以引发温和衰退的水平，各期限债券收益率可能继续上升。",
+      "dupOf": "rs27jt6z61"
+    },
+    {
+      "id": "13bhm5m5x1o",
+      "key": "url:ft.com/content/4b7b83d7-7fea-4ce2-bfe3-4f2cf75b1d82?syn-25a6b1a6=1",
+      "title": "Anthropic’s Amodei ‘not super fussed’ about market turmoil ahead of IPO",
+      "url": "https://www.ft.com/content/4b7b83d7-7fea-4ce2-bfe3-4f2cf75b1d82?syn-25a6b1a6=1",
+      "lang": "en",
+      "sourceId": "ft-markets",
+      "sourceName": "FT",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T19:41:26.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "AI lab’s chief executive brushes off tech stock turbulence less than a week before planned $1.5tn listing",
+      "ai": {
+        "title": "Anthropic CEO Amodei对IPO前市场动荡‘并不在意’",
+        "summary": "AI实验室CEO淡化科技股波动，临近1.5万亿美元上市。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:16:05.447Z"
+      }
+    },
+    {
+      "id": "3xqo3et3ft",
+      "key": "sina:5213841",
+      "title": "美银加大美联储收紧预期 料接下来会连续三次升息",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyrtxp0899033.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T19:27:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "pboc"
+      ],
+      "excerpt": "美银证券的经济学家预计，美联储将在12月、1月和3月的会议上连续加息将利率推高至4.5%-4.75%，并指出央行在应对通胀上“落后于曲线”。“它已经没有条件按季度加息了，” 经济学家Aditya Bhave在研报中写道，美银此前曾预计美联储将在12月和3月的会议上加息。美银预计美联储不会在12月加息50个基点，指要做到这一点“所有因素都必须向对鹰派有利的方向突破”。"
+    },
+    {
+      "id": "xtwcjhdc4n",
+      "key": "em:202611143931076437",
+      "title": "美国白宫经济顾问哈塞特据悉预计将离开白宫 贝森特或Zervos可能接任",
+      "url": "https://finance.eastmoney.com/a/202611143931076437.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T19:14:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "美国白宫经济顾问哈塞特据悉预计将离开白宫，贝森特或Zervos可能接任。哈塞特预计将在未来几周内离职。"
+    },
+    {
+      "id": "8de7pxgezx",
+      "key": "sina:5213835",
+      "title": "美国总统特朗普的国家经济委员会主任哈塞特料将离开白宫。预计将由财政部长贝森特或Zervos接替",
+      "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyrtxr3265629.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T19:10:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "dupOf": "3fq0ezz42p"
+    },
+    {
+      "id": "1cnw2tc99ha",
+      "key": "em:202611143931076126",
+      "title": "冲刺史上最大IPO之际 阿莫代伊对谈戴蒙：算力、竞争与AI未来",
+      "url": "https://finance.eastmoney.com/a/202611143931076126.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T19:02:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "当地时间周五，Anthropic联合创始人达里奥·阿莫代伊到访纽约，与“华尔街一哥”、摩根大通掌门杰米·戴蒙进行公开对谈，为公司下周冲刺“史上最大IPO”造势。",
+      "flag": 1
+    },
     {
       "id": "1w3w3sczc83",
       "key": "sina:5213812",
@@ -20,6 +1056,27 @@
         "a-shares"
       ],
       "excerpt": "政策引导与市场力量同频共振，转化为A股内在稳定力量。11月6日召开的国务院常务会议提出“完善资本市场稳市机制”，释放明确的政策呵护市场信号。受访机构人士认为，随着中长期资金入市渠道持续拓宽、稳市工具体系日益完善，A股抵御外部冲击、平滑波动的韧性将有望稳步增强。权威数据显示，近两年，全国社保基金、基本养老金、年金基金、保险资金合计净买入A股超过1.5万亿元。今年以来，全国社保基金、年金基金、保险资金等中长期资金净买入A股超过6000亿元。在最近这轮市场波动中，公募基金、证券公司、保险资金、全国社保基金等中长期资金逆势加仓，总体保持净买入。外资也在用真金白…"
+    },
+    {
+      "id": "d5ef9qftgb",
+      "key": "em:202611143931074753",
+      "title": "通胀超预期后 美联储柯林斯表态：很快需要进一步加息",
+      "url": "https://finance.eastmoney.com/a/202611143931074753.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T18:21:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "excerpt": "波士顿联储主席苏珊·柯林斯（Susan Collins）表示，随着通胀压力向更多领域扩散，美联储“很快”有必要进一步加息。",
+      "flag": 1
     },
     {
       "id": "178c5k4bn6z",
@@ -58,6 +1115,44 @@
         "us-stocks"
       ],
       "excerpt": "The Investing Club holds its \"Morning Meeting\" every weekday at 10:20 a.m. ET."
+    },
+    {
+      "id": "260ds80s6so",
+      "key": "em:202611143931073224",
+      "title": "美银经济学家将第三次加息加入其对美联储的预期 时点指向2027年3月前",
+      "url": "https://finance.eastmoney.com/a/202611143931073224.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T18:08:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "美银经济学家将第三次加息加入其对美联储的预期，时点指向2027年3月前。"
+    },
+    {
+      "id": "poy5m2qudh",
+      "key": "url:cnbc.com/2026/11/13/is-a-bottom-in-for-the-nasdaq-100-charts-to-watch.html",
+      "title": "Is a bottom in for the Nasdaq-100? Charts to watch",
+      "url": "https://www.cnbc.com/2026/11/13/is-a-bottom-in-for-the-nasdaq-100-charts-to-watch.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-13T18:00:01.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Frank Cappelleri of CappThesis looks at several charts to help answer that question."
     },
     {
       "id": "25s8f2f4uvz",
@@ -159,7 +1254,8 @@
         "summary": "投资者押注美联储12月将加息，收益率上涨。",
         "model": "glm-4.7-flash",
         "at": "2026-11-13T18:33:52.864Z"
-      }
+      },
+      "dupOf": "rs27jt6z61"
     },
     {
       "id": "sjc80b2ew1",
@@ -276,6 +1372,25 @@
         "fed"
       ],
       "dupOf": "1ehmy98l6k2"
+    },
+    {
+      "id": "8fh2v516i1",
+      "key": "em:202611143931068441",
+      "title": "从发改委五场发布会看高质量发展",
+      "url": "https://finance.eastmoney.com/a/202611143931068441.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-13T17:26:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-14",
+      "category": "industry",
+      "score": 22,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "11月3日至11日，国家发展改革委连续举办五场“奋进‘十五五’”新闻发布会，主题从培育壮大新动能、夯实发展支撑，到筑牢安全底座、增进民生福祉，再到共建“一带一路”，将“十五五”规划纲要的施工图逐条拆解：明方向、稳预期、强信心。"
     },
     {
       "id": "15kpe9qe3cd",
@@ -715,10 +1830,34 @@
           "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniyrprs7784339.d.html",
           "title": "美联储戴利：刚刚开始收到信号，美国消费者的消费动力可能已经不足",
           "publishedAt": "2026-11-13T17:49:00.000Z"
+        },
+        {
+          "id": "11ungwinpaj",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysepk7525509.d.html",
+          "title": "美联储理事杰斐逊：我在联邦公开市场委员会会议上从未参与过涉及政治考量的讨论",
+          "publishedAt": "2026-11-14T00:39:00.000Z"
+        },
+        {
+          "id": "28sweb0jr0k",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysepi0753077.d.html",
+          "title": "美联储理事杰斐逊：联邦公开市场委员会（FOMC）将在数月内（甚至更早）听取美联储工作组的汇报",
+          "publishedAt": "2026-11-14T00:46:00.000Z"
+        },
+        {
+          "id": "1fygfhy4f5h",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-14/detail-iniysepi0759366.d.html",
+          "title": "美联储副主席杰斐逊：人工智能建设迫使我关注总需求，而总需求正是通胀压力的来源",
+          "publishedAt": "2026-11-14T00:57:00.000Z"
         }
       ],
       "story": {
-        "reports": 21,
+        "reports": 24,
         "sources": [
           "sina",
           "em-commodity"
@@ -2532,15 +3671,32 @@
           "url": "https://finance.eastmoney.com/a/202611133931015635.html",
           "title": "美国10月PPI通胀同比涨幅创近四年新高 美联储加息压力持续上升",
           "publishedAt": "2026-11-13T14:39:00.000Z"
+        },
+        {
+          "id": "204zoofyutz",
+          "sourceId": "cnbc-top",
+          "sourceName": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/13/treasury-yields-fed-rates.html",
+          "title": "10年期美债收益率升至5.17%",
+          "publishedAt": "2026-11-13T17:39:48.000Z"
+        },
+        {
+          "id": "27akinbmk4t",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202611143931076927.html",
+          "title": "英仕曼集团的Rowe警告美国滞胀风险 料10年期美债收益率或升至5.5%",
+          "publishedAt": "2026-11-13T19:46:00.000Z"
         }
       ],
       "story": {
-        "reports": 11,
+        "reports": 13,
         "sources": [
           "em-focus",
           "wscn-global",
           "cls",
-          "em-commodity"
+          "em-commodity",
+          "cnbc-top"
         ],
         "firstPublishedAt": "2026-11-13T13:30:00.000Z"
       }
@@ -5959,6 +7115,12 @@
         "policy-us"
       ],
       "excerpt": "The president's son will no longer serve as an advisor at Kalshi.",
+      "ai": {
+        "title": "特朗普之子退出Kalshi预测市场顾问",
+        "summary": "特朗普之子将不再担任Kalshi顾问。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-13T18:33:52.864Z"
+      },
       "related": [
         {
           "id": "6bhda8aq0f",
@@ -5976,12 +7138,6 @@
           "ft-markets"
         ],
         "firstPublishedAt": "2026-11-12T20:03:57.000Z"
-      },
-      "ai": {
-        "title": "特朗普之子退出Kalshi预测市场顾问",
-        "summary": "特朗普之子将不再担任Kalshi顾问。",
-        "model": "glm-4.7-flash",
-        "at": "2026-11-13T18:33:52.864Z"
       }
     },
     {
@@ -28611,7 +29767,7 @@
         "policy-us"
       ],
       "excerpt": "It’s a mathematical certainty that the Iran war is going to have an enormous influence on the future of retirement in America.",
-      "dupOf": "8nnz0n6907"
+      "dupOf": "c8xjm3o7j4"
     },
     {
       "id": "1mgegn1e6vv",
@@ -28893,7 +30049,7 @@
       "firstSeenAt": "2026-11-07T16:50:26.022Z",
       "day": "2026-11-07",
       "category": "industry",
-      "score": 15,
+      "score": 23,
       "topics": [
         "policy-us"
       ],
@@ -28904,7 +30060,24 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-08T02:31:12.823Z"
       },
-      "dupOf": "8nnz0n6907"
+      "related": [
+        {
+          "id": "4zlbjv3usm",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/trumps-iran-war-has-changed-the-future-of-social-security-7a500f9f?mod=mw_rss_topstories",
+          "title": "Trump’s Iran war has changed the future of Social Security",
+          "publishedAt": "2026-11-07T15:18:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "cnbc-top",
+          "marketwatch"
+        ],
+        "firstPublishedAt": "2026-11-07T07:37:36.000Z"
+      }
     },
     {
       "id": "29vg6s06fvw",
@@ -28951,1288 +30124,6 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-08T02:31:12.823Z"
       }
-    },
-    {
-      "id": "1eu78hsey9m",
-      "key": "wscn:3196319",
-      "title": "中国央行连续24个月扩大黄金储备",
-      "url": "https://wallstreetcn.com/livenews/3196319",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T02:02:53.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "pboc",
-        "cb-gold"
-      ],
-      "excerpt": "中国10月末黄金储备7830万盎司，9月末黄金储备7747万盎司。",
-      "flag": 1,
-      "dupOf": "zifsqj03tg"
-    },
-    {
-      "id": "f2t6u7ahzh",
-      "key": "cls:2528013",
-      "title": "截至10月末 我国外汇储备规模为34052亿美元",
-      "url": "https://www.cls.cn/detail/2528013",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T02:01:59.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "macro-cn"
-      ],
-      "excerpt": "10月末外汇储备报34051.78亿美元。",
-      "flag": 1,
-      "dupOf": "zifsqj03tg"
-    },
-    {
-      "id": "zifsqj03tg",
-      "key": "em:202611073925461551",
-      "title": "中国10月末外汇储备报34051.78亿美元",
-      "url": "https://finance.eastmoney.com/a/202611073925461551.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T02:01:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 34,
-      "topics": [
-        "cb-gold",
-        "pboc",
-        "macro-cn"
-      ],
-      "excerpt": "据央行，中国10月末外汇储备报34051.78亿美元，环比9月增加49.27亿美元。中国10月末黄金储备报7830万盎司，9月末为7747万盎司，为连续第24个月增持黄金。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "2bmbnjyw9qz",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3196315",
-          "title": "中国10月外汇储备 34051.8亿美元，前值 34002.5亿美元",
-          "publishedAt": "2026-11-07T02:00:42.000Z"
-        },
-        {
-          "id": "f2t6u7ahzh",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2528013",
-          "title": "截至10月末 我国外汇储备规模为34052亿美元",
-          "publishedAt": "2026-11-07T02:01:59.000Z"
-        },
-        {
-          "id": "1eu78hsey9m",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3196319",
-          "title": "中国央行连续24个月扩大黄金储备",
-          "publishedAt": "2026-11-07T02:02:53.000Z"
-        }
-      ],
-      "story": {
-        "reports": 4,
-        "sources": [
-          "em-focus",
-          "wscn-global",
-          "cls"
-        ],
-        "firstPublishedAt": "2026-11-07T02:00:42.000Z"
-      }
-    },
-    {
-      "id": "wc4veadrj3",
-      "key": "sina:5200501",
-      "title": "中国央行连续第24个月增持黄金",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwnye4849847.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T02:01:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "pboc",
-        "cb-gold"
-      ],
-      "excerpt": "中国央行： 中国10月末黄金储备7830万盎司，9月末为7747万盎司，为连续第24个月增持黄金。",
-      "flag": 1
-    },
-    {
-      "id": "2bmbnjyw9qz",
-      "key": "wscn:3196315",
-      "title": "中国10月外汇储备 34051.8亿美元，前值 34002.5亿美元",
-      "url": "https://wallstreetcn.com/livenews/3196315",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T02:00:42.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "macro-cn"
-      ],
-      "flag": 2,
-      "dupOf": "zifsqj03tg"
-    },
-    {
-      "id": "24jlkp1o5id",
-      "key": "wscn:3196305",
-      "title": "税款滞纳金上不封顶或将成历史",
-      "url": "https://wallstreetcn.com/livenews/3196305",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T01:50:53.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "近日，十四届全国人大常委会第二十五次会议对《中华人民共和国税收征收管理法（修订草案）》进行了审议，并向公众公布该草案全文征求意见。 《税收征管法草案》一大变化体现在税款滞纳金上。",
-      "flag": 1
-    },
-    {
-      "id": "1ymaj20tqwv",
-      "key": "sina:5200479",
-      "title": "国务院国资委副主任李镇：截至9月底中央企业累计利用外资超1200亿美元",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwnye4844534.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T01:43:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "国务院国资委副主任李镇在虹桥国际经济论坛“变局中的企业力量：构建更可持续的产业伙伴关系”分论坛上表示，截至目前，中央企业共在180多个国家和地区设有机构和项目超1.7万个，境外资产近10万亿元。今年前三季度，中央企业从177个国家（地区）进口商品，进口总额同比增长5.1%。截至9月底，中央企业与39个国家（地区）的301家企业开展合资合作，累计利用外资超1200亿美元。"
-    },
-    {
-      "id": "1akj82l7al5",
-      "key": "sina:5200478",
-      "title": "朱忠明会见李家超，徐启方参加",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwnyk5112072.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T01:43:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "上海市市长朱忠明昨天会见了香港特别行政区行政长官李家超。中央港澳工作办公室、国务院港澳事务办公室分管日常工作的副主任徐启方参加会见。朱忠明代表上海市委、市政府，对李家超率团来沪参加进博会表示热烈欢迎，对香港特区政府给予上海发展的支持帮助表示感谢。朱忠明说，上海和香港是祖国版图上的两颗璀璨明珠，交往密切、友谊深厚。当前，上海正以“五个中心”建设为主攻方向，着力推动经济实现质的有效提升和量的合理增长，香港正强化“四中心一高地”建设，沪港发展理念高度契合，同发展、共繁荣的道路一定会更加宽广。期待双方依托沪港合作会议机制，抓住上海“十五五”规划和香港首个五年规…"
-    },
-    {
-      "id": "8yzflk065d",
-      "key": "cls:2527997",
-      "title": "商务部新闻发言人就美制裁中国企业答记者问",
-      "url": "https://www.cls.cn/detail/2527997",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T01:21:04.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "商务部新闻发言人就美制裁中国企业答记者问。问：美东时间11月5日，美国务院宣布制裁两家中国企业。有消息称，这是美首次以涉古巴为由对中国企业实施制裁。请问中方对此有何评论？ 答：我们注意到有关情况。美方以涉及第三方为由，对中国企业采取单边制裁，违反国际法和国际关系基本准则，中方对此坚决反对。近期，美方升级对中方制裁打压，密集出台多项歧视性限制措施，严重损害中国企业权益，背离两国元首达成的重要共识，破坏中美经贸关系稳定。中方敦促美方尽快纠正错误做法，并保留采取必要措施、维护自身正当权益的权利。",
-      "flag": 1,
-      "dupOf": "1wx6tdafhw2"
-    },
-    {
-      "id": "1tzsth80eni",
-      "key": "wscn:3196294",
-      "title": "商务部回应“美首次以涉古巴为由制裁中企”：敦促美方尽快纠正错误做法",
-      "url": "https://wallstreetcn.com/livenews/3196294",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T01:20:18.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "商务部新闻发言人就美制裁中国企业答记者问。 问：美东时间11月5日，美国务院宣布制裁两家中国企业。有消息称，这是美首次以涉古巴为由对中国企业实施制裁。请问中方对此有何评论？ 答：我们注意到有关情况。美方以涉及第三方为由，对中国企业采取单边制裁，违反国际法和国际关系基本准则，中方对此坚决反对。 近期，美方升级对中方制裁打压，密集出台多项歧视性限制措施，严重损害中国企业权益，背离两国元首达成的重要共识，破坏中美经贸关系稳定。中方敦促美方尽快纠正错误做法，并保留采取必要措施、维护自身正当权益的权利。（商务部网站）",
-      "flag": 1,
-      "dupOf": "1wx6tdafhw2"
-    },
-    {
-      "id": "1wx6tdafhw2",
-      "key": "sina:5200459",
-      "title": "商务部新闻发言人就美制裁中国企业答记者问",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwhsn5230719.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T01:20:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 34,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "问：美东时间11月5日，美国务院宣布制裁两家中国企业。有消息称，这是美首次以涉古巴为由对中国企业实施制裁。请问中方对此有何评论？答：我们注意到有关情况。美方以涉及第三方为由，对中国企业采取单边制裁，违反国际法和国际关系基本准则，中方对此坚决反对。近期，美方升级对中方制裁打压，密集出台多项歧视性限制措施，严重损害中国企业权益，背离两国元首达成的重要共识，破坏中美经贸关系稳定。中方敦促美方尽快纠正错误做法，并保留采取必要措施、维护自身正当权益的权利。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "1tzsth80eni",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3196294",
-          "title": "商务部回应“美首次以涉古巴为由制裁中企”：敦促美方尽快纠正错误做法",
-          "publishedAt": "2026-11-07T01:20:18.000Z"
-        },
-        {
-          "id": "8yzflk065d",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2527997",
-          "title": "商务部新闻发言人就美制裁中国企业答记者问",
-          "publishedAt": "2026-11-07T01:21:04.000Z"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "sina",
-          "wscn-global",
-          "cls"
-        ],
-        "firstPublishedAt": "2026-11-07T01:20:00.000Z"
-      }
-    },
-    {
-      "id": "xx6k2iu6dd",
-      "key": "em:202611073925453288",
-      "title": "下修超10%！高盛时隔两个月再度大砍黄金目标",
-      "url": "https://finance.eastmoney.com/a/202611073925453288.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T00:51:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "gold"
-      ],
-      "excerpt": "高盛在周四发布最新报告，大幅下调了黄金价格预期。世界银行也在本周发布的展望中表达了谨慎观点，预计黄金和白银价格将在2027年保持历史高位，但投资者不应指望2026年的爆炸性上涨和波动性会重演。",
-      "flag": 1
-    },
-    {
-      "id": "hlzk32qr5s",
-      "key": "wscn:3196288",
-      "title": "特朗普称美方对伊朗实施“小型打击”",
-      "url": "https://wallstreetcn.com/livenews/3196288",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T00:50:16.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "美国总统特朗普6日对媒体说，美方对伊朗实施了“小型打击”，摧毁伊朗制造的“一个小型防空装置”。 据伊朗塔斯尼姆通讯社早前报道，根据初步报告，两枚导弹击中了伊朗格什姆岛。（新华社）",
-      "flag": 1,
-      "dupOf": "8nnz0n6907"
-    },
-    {
-      "id": "8nnz0n6907",
-      "key": "em:202611073925454646",
-      "title": "特朗普称美方对伊朗实施“小型打击”",
-      "url": "https://finance.eastmoney.com/a/202611073925454646.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T00:50:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 42,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "美国总统特朗普6日对媒体说，美方对伊朗实施了“小型打击”，摧毁伊朗制造的“一个小型防空装置”。据伊朗塔斯尼姆通讯社早前报道，根据初步报告，两枚导弹击中了伊朗格什姆岛。",
-      "related": [
-        {
-          "id": "13ekxfw7mhy",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixvwak8458572.d.html",
-          "title": "美国财政部：美国对伊朗实施新制裁",
-          "publishedAt": "2026-11-06T19:35:00.000Z"
-        },
-        {
-          "id": "hlzk32qr5s",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3196288",
-          "title": "特朗普称美方对伊朗实施“小型打击”",
-          "publishedAt": "2026-11-07T00:50:16.000Z"
-        },
-        {
-          "id": "c8xjm3o7j4",
-          "sourceId": "cnbc-top",
-          "sourceName": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
-          "title": "特朗普称对伊朗发动‘轻微打击’",
-          "publishedAt": "2026-11-07T07:37:36.000Z"
-        },
-        {
-          "id": "4zlbjv3usm",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/trumps-iran-war-has-changed-the-future-of-social-security-7a500f9f?mod=mw_rss_topstories",
-          "title": "Trump’s Iran war has changed the future of Social Security",
-          "publishedAt": "2026-11-07T15:18:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 5,
-        "sources": [
-          "em-commodity",
-          "sina",
-          "wscn-global",
-          "cnbc-top",
-          "marketwatch"
-        ],
-        "firstPublishedAt": "2026-11-06T19:35:00.000Z"
-      }
-    },
-    {
-      "id": "10s2bn5wfwy",
-      "key": "em:202611073925454541",
-      "title": "特朗普被告知再袭伊朗时间窗口有限",
-      "url": "https://finance.eastmoney.com/a/202611073925454541.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T00:41:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "当地时间11月6日，据美国方面消息，两名美国官员透露，特朗普政府部分顾问已告知特朗普，重新对伊朗展开大规模军事行动的“时间窗口正在缩小”，建议其在明年1月民主党控制的新一届国会就职前采取行动。这意味着特朗普需要在未来数周内作出决定。"
-    },
-    {
-      "id": "tikinuny42",
-      "key": "em:202611063925121655",
-      "title": "碳酸锂之后 氢氧化锂也要“上期货”了",
-      "url": "https://finance.eastmoney.com/a/202611063925121655.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T00:26:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "11月6日，中国证监会发布通知，同意广州期货交易所氢氧化锂期货和期权注册。氢氧化锂是重要的基础锂盐产品，是高镍三元电池的关键原料，能够有效提升新能源汽车续航里程，适配低空飞行器、具身智能等新兴领域对高能量密度的需求；作为传统工业基础原料，氢氧化锂也广泛应用于化工、冶金等领域。"
-    },
-    {
-      "id": "1u9dzyc969f",
-      "key": "em:202611073925450646",
-      "title": "新增16.5万！美国10月非农大超预期 美联储下月加息稳了？",
-      "url": "https://finance.eastmoney.com/a/202611073925450646.html",
-      "lang": "zh",
-      "sourceId": "em-cb",
-      "sourceName": "东方财富·全球央行",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T00:20:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed",
-        "macro-us"
-      ],
-      "excerpt": "美国10月份非农就业人数增长超过预期，失业率重新回落至历史低位区间。最新数据表明，劳动力市场仍具有弹性，美联储12月加息预期有所升温。"
-    },
-    {
-      "id": "so6dr7jjmf",
-      "key": "em:202611073925451826",
-      "title": "美国就伊朗核计划悬赏2000万美元",
-      "url": "https://finance.eastmoney.com/a/202611073925451826.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T00:19:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "美国中央司令部在社交媒体发布消息称，美国所谓“正义奖励计划（美国国务院旗下的悬赏项目）”正悬赏最高2000万美元，征集有关伊朗核计划的信息，包括其核设施、设备及相关人员（如科学界人士）的情况，以及上述任一目标的动向。提供线索者还可能获得搬迁转移、异地安置的机会。",
-      "dupOf": "29b37gk3b0p"
-    },
-    {
-      "id": "29b37gk3b0p",
-      "key": "sina:5200398",
-      "title": "美国就伊朗核计划悬赏2000万美元",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwhsk8418341.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T00:18:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 26,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "今天（11月7日），美国中央司令部在社交媒体发布消息称，美国所谓“正义奖励计划（美国国务院旗下的悬赏项目）”正悬赏最高2000万美元，征集有关伊朗核计划的信息，包括其核设施、设备及相关人员（如科学界人士）的情况，以及上述任一目标的动向。提供线索者还可能获得搬迁转移、异地安置的机会。（CCTV国际时讯）",
-      "flag": 1,
-      "related": [
-        {
-          "id": "so6dr7jjmf",
-          "sourceId": "em-commodity",
-          "sourceName": "东方财富·商品",
-          "url": "https://finance.eastmoney.com/a/202611073925451826.html",
-          "title": "美国就伊朗核计划悬赏2000万美元",
-          "publishedAt": "2026-11-07T00:19:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "sina",
-          "em-commodity"
-        ],
-        "firstPublishedAt": "2026-11-07T00:18:00.000Z"
-      }
-    },
-    {
-      "id": "2e5nufv98bp",
-      "key": "sina:5200395",
-      "title": "美国国务院敦促在中东地区的美国人提高警惕",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwhsn5192673.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T00:16:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "美国国务院周五在社交平台X发布安全警报，敦促在中东地区的美国人提高警惕，原因是伊朗支持的胡塞武装发动武装袭击的威胁上升，以及伊朗试图针对该地区美国政府官员。国务院还警告可能出现航班取消、空域关闭和旅行中断，建议美国公民关注最新各国安全警报。"
-    },
-    {
-      "id": "1r3e3cfhxvd",
-      "key": "em:202611073925450179",
-      "title": "部分投资者下修Anthropic IPO估值至1.5万亿美元",
-      "url": "https://finance.eastmoney.com/a/202611073925450179.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T00:11:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "本周民主党在中期选举中大获全胜，进一步加剧了市场对AI相关建设将放缓的担忧。部分Anthropic投资者如今预计该公司上市时的估值将低于1.5万亿美元，其中一些人称这一数字可能进一步下探至1万亿美元。该公司向美国证券交易委员会（SEC）秘密递交文件时的目标估值为2万亿美元。Anthropic对此拒绝置评，这家人工智能新贵公司预计将于下周启动路演。",
-      "flag": 1
-    },
-    {
-      "id": "lnck4t7y6m",
-      "key": "wscn:3196269",
-      "title": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话",
-      "url": "https://wallstreetcn.com/livenews/3196269",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T00:06:46.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn",
-        "policy-us"
-      ],
-      "excerpt": "北京时间11月6日晚，中美经贸中方牵头人、国务院副总理何立峰与美方牵头人、美国财政部长贝森特和贸易代表格里尔举行视频通话。双方围绕落实好中美元首北京和华盛顿会晤重要共识和经贸磋商成果，就彼此关心的重要经贸问题进行了坦诚、深入、建设性的交流。中方就近期美对华经贸限制措施表达严正关切。双方同意在两国元首战略引领下，继续发挥好中美经贸磋商机制作用，持续加强合作，妥善管控分歧，推动中美经贸关系持续稳定向好发展，助力构建“基于尊重、公平、对等的中美建设性战略稳定关系”。（新华社）",
-      "flag": 1,
-      "dupOf": "1q7g94wq3y6"
-    },
-    {
-      "id": "1gm7curgmnu",
-      "key": "cls:2527982",
-      "title": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话",
-      "url": "https://www.cls.cn/detail/2527982",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T00:02:15.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn",
-        "policy-us"
-      ],
-      "excerpt": "北京时间11月6日晚，中美经贸中方牵头人、国务院副总理何立峰与美方牵头人、美国财政部长贝森特和贸易代表格里尔举行视频通话。双方围绕落实好中美元首北京和华盛顿会晤重要共识和经贸磋商成果，就彼此关心的重要经贸问题进行了坦诚、深入、建设性的交流。中方就近期美对华经贸限制措施表达严正关切。双方同意在两国元首战略引领下，继续发挥好中美经贸磋商机制作用，持续加强合作，妥善管控分歧，推动中美经贸关系持续稳定向好发展，助力构建“基于尊重、公平、对等的中美建设性战略稳定关系”。",
-      "flag": 1,
-      "dupOf": "1q7g94wq3y6"
-    },
-    {
-      "id": "1q7g94wq3y6",
-      "key": "em:202611073925449556",
-      "title": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话",
-      "url": "https://finance.eastmoney.com/a/202611073925449556.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T00:01:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 42,
-      "topics": [
-        "policy-cn",
-        "policy-us"
-      ],
-      "excerpt": "北京时间11月6日晚，中美经贸中方牵头人、国务院副总理何立峰与美方牵头人、美国财政部长贝森特和贸易代表格里尔举行视频通话。双方围绕落实好中美元首北京和华盛顿会晤重要共识和经贸磋商成果，就彼此关心的重要经贸问题进行了坦诚、深入、建设性的交流。中方就近期美对华经贸限制措施表达严正关切。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "20uybke2h5b",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwhsk8407427.d.html",
-          "title": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话",
-          "publishedAt": "2026-11-07T00:01:00.000Z"
-        },
-        {
-          "id": "1gm7curgmnu",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2527982",
-          "title": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话",
-          "publishedAt": "2026-11-07T00:02:15.000Z"
-        },
-        {
-          "id": "lnck4t7y6m",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3196269",
-          "title": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话",
-          "publishedAt": "2026-11-07T00:06:46.000Z"
-        }
-      ],
-      "story": {
-        "reports": 4,
-        "sources": [
-          "em-focus",
-          "sina",
-          "cls",
-          "wscn-global"
-        ],
-        "firstPublishedAt": "2026-11-07T00:01:00.000Z"
-      }
-    },
-    {
-      "id": "20uybke2h5b",
-      "key": "sina:5200383",
-      "title": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwhsk8407427.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-07T00:01:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn",
-        "policy-us"
-      ],
-      "excerpt": "北京时间11月6日晚，中美经贸中方牵头人、国务院副总理何立峰与美方牵头人、美国财政部长贝森特和贸易代表格里尔举行视频通话。双方围绕落实好中美元首北京和华盛顿会晤重要共识和经贸磋商成果，就彼此关心的重要经贸问题进行了坦诚、深入、建设性的交流。中方就近期美对华经贸限制措施表达严正关切。双方同意在两国元首战略引领下，继续发挥好中美经贸磋商机制作用，持续加强合作，妥善管控分歧，推动中美经贸关系持续稳定向好发展，助力构建“基于尊重、公平、对等的中美建设性战略稳定关系”。（新华社）",
-      "flag": 1,
-      "dupOf": "1q7g94wq3y6"
-    },
-    {
-      "id": "27brdnv5q9i",
-      "key": "sina:5200378",
-      "title": "美国财政部制裁加拿大境内8家与伊朗有关联的企业",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwhse8273319.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T23:55:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "美国财政部6日发布公告称，其下属的外国资产控制办公室对加拿大境内8家资金服务企业实施制裁，以加大对伊朗的经济施压。美财政部指控这些企业帮助伊朗政府、与伊朗政府有联系的被制裁实体等，将资产转入伊朗或从伊朗转出。美财政部称，这些企业促成伊朗里亚尔及其他货币与数字资产之间的兑换，从而支持伊朗参与的国际贸易。根据公告，这8家企业位于美国、被美国的个人或实体所拥有、控制的财产及其权益将被冻结。这8家企业直接或间接拥有50%及以上权益的实体也将被冻结。除非经过授权或取得豁免，禁止美国个人和实体从事与被制裁对象相关联的交易，也禁止在美国境内进行相关交易。（新华社）"
-    },
-    {
-      "id": "20v21mgzi1o",
-      "key": "sina:5200363",
-      "title": "伦敦金现一度重返4100美元机构关注黄金逢低配置机会",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwhsn5177320.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T23:43:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "gold"
-      ],
-      "excerpt": "近期，国际金价在快速反弹后再现震荡。伦敦金现自10月底跌破每盎司3900美元后逐步回升，11月5日盘中重返4100美元/盎司上方，11月6日截至记者发稿时，又回落至4050美元/盎司附近。 分析人士认为，美元与美债收益率回落、能源通胀预期缓和，为金价修复提供支撑，但加息预期与流动性扰动仍存。央行购金及黄金ETF资金流入情况显示配置需求具有韧性，四季度可关注金价回调中的分批配置机会，后续需观察美国就业、通胀数据及美联储政策信号。（中证报）"
-    },
-    {
-      "id": "2dc3kvvsrrp",
-      "key": "em:202611073925249421",
-      "title": "长端利率接连突破关键点位 债市多头行情再起",
-      "url": "https://finance.eastmoney.com/a/202611073925249421.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T23:15:00.000Z",
-      "firstSeenAt": "2026-11-07T16:50:26.022Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cn-bonds"
-      ],
-      "excerpt": "11月6日，债券市场延续强势，国债期货主力合约全线收涨，现券收益率持续下探。从10年期国债收益率跌破1.60%整数关口，到国债期货价格持续走高，债市多头情绪正在升温。受访业内人士认为，近期权益市场调整、债券供给压力减轻、机构配置需求释放，以及政策利率“换锚”等因素形成共振，共同推动债市走强。展望后市，年末债券供需格局有望进一步改善，长端及超长端利率仍有下行空间。"
-    },
-    {
-      "id": "1ekf5nlxcbq",
-      "key": "sina:5200333",
-      "title": "11月7日隔夜要闻一览",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwakn8514139.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T23:08:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "1、伊朗军队发言人阿克拉米尼亚表示，美国接受伊朗提出的七项条件，是重新开放霍尔木兹海峡的唯一途径。 2、美国总统特朗普表示，正在与伊朗进行沟通。 3、美国总统特朗普6日在社交媒体宣布，白宫办公厅副主任斯蒂芬·米勒将从9日起接替苏茜·怀尔斯，出任白宫办公厅主任。 4、俄罗斯总统普京在会议上确认，俄美乌三方乌克兰问题会谈将于11月10日在阿联酋首都阿布扎比举行。 5、马斯克预计SpaceX第四季度营收将比第三季度增长“大约”70%，有望在12月达到1000亿美元的年化营收。马斯克仍然预计SpaceX的年化营收将在2027年12月超过5000亿美元。 6、O…"
-    },
-    {
-      "id": "19927pnw6t8",
-      "key": "url:cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html",
-      "title": "Trump says Stephen Miller to replace Susie Wiles as White House chief of staff",
-      "url": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html",
-      "lang": "en",
-      "sourceId": "cnbc-top",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-06T22:22:53.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "Trump revealed the shake-up three days after Democrats' landslide victory in the midterm elections, winning majority control of the House and Senate.",
-      "ai": {
-        "title": "特朗普称Stephen Miller将接替Susie Wiles担任白宫幕僚长",
-        "summary": "特朗普在民主党中期选举大胜后宣布人事变动",
-        "model": "glm-4.7-flash",
-        "at": "2026-11-07T02:52:45.457Z"
-      }
-    },
-    {
-      "id": "2zyrer55fl",
-      "key": "url:ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
-      "title": "US economy outstrips forecasts to add 165,000 jobs in October",
-      "url": "https://www.ft.com/content/f84c722c-99a9-4628-84dc-c42a192cb35c?syn-25a6b1a6=1",
-      "lang": "en",
-      "sourceId": "ft-markets",
-      "sourceName": "FT",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-06T22:16:13.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "fed"
-      ],
-      "excerpt": "Hiring rebound reinforces expectations Federal Reserve will raise interest rates"
-    },
-    {
-      "id": "276a544ytx5",
-      "key": "sina:5200309",
-      "title": "美司法部与库克请求暂缓罢免案诉讼 等待白宫下月听证",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixwakn8485286.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T22:02:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed",
-        "policy-us"
-      ],
-      "excerpt": "美国司法部和美联储理事丽莎·库克的律师请求联邦法官继续搁置特朗普试图将她免职的法律争端，等待白宫定于下月举行的听证。司法部和库克的法律团队周五向美国地区法官Jia Cobb提交了一份简短的联合报告，称法院应暂停即将到来的各项最后期限，他们将在1月初再次向法官通报最新情况。美国最高法院今年夏天裁定，特朗普去年首次试图罢免库克之前没有给她提供正当的自我辩护机会。大法官允许库克暂时留任，并将案件发回Cobb审理。今年8月，特朗普重新启动了罢免她的行动。"
-    },
-    {
-      "id": "1y6t30hw6nr",
-      "key": "url:ft.com/content/088ed252-ea9c-4b61-b2d1-37295fd0f7c2?syn-25a6b1a6=1",
-      "title": "US stocks stage tepid recovery after $3.2tn rout fuelled by AI fears",
-      "url": "https://www.ft.com/content/088ed252-ea9c-4b61-b2d1-37295fd0f7c2?syn-25a6b1a6=1",
-      "lang": "en",
-      "sourceId": "ft-markets",
-      "sourceName": "FT",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-06T22:00:56.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "Magnitude of rebound was feeble compared with historic recoveries from severe sell-offs",
-      "ai": {
-        "title": "受AI恐慌拖累，美股经历3.2万亿美元暴跌后小幅反弹",
-        "summary": "反弹力度弱于历史严重抛售后的复苏",
-        "model": "glm-4.7-flash",
-        "at": "2026-11-07T02:52:45.457Z"
-      }
-    },
-    {
-      "id": "29w4qkjrjph",
-      "key": "em:202611073925260479",
-      "title": "全球市场：纳指涨超1% 费城半导体指数涨超4% AMD涨超11%",
-      "url": "https://finance.eastmoney.com/a/202611073925260479.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T21:15:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "1、道指跌0.46%，纳指涨1.09%，标普500指数涨0.31%。2、芯片股迎来反弹，费城半导体指数涨超4%，AMD涨超11%。3、中国金龙指数收涨1.67%，小鹏集团、爱奇艺涨超6%。",
-      "flag": 1,
-      "dupOf": "v55qtn3gb4"
-    },
-    {
-      "id": "208lbqhune1",
-      "key": "url:cnbc.com/2026/11/06/stock-market-next-week-outlook-for-nov-9-13-2026.html",
-      "title": "Further turmoil could be in store for tech stocks. What to watch in the week ahead",
-      "url": "https://www.cnbc.com/2026/11/06/stock-market-next-week-outlook-for-nov-9-13-2026.html",
-      "lang": "en",
-      "sourceId": "cnbc-top",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-06T21:12:41.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "Investors wrapped up a topsy-turvy week in markets, and that volatility isn't expected to be over just yet."
-    },
-    {
-      "id": "f7ztbusyk7",
-      "key": "em:202611073925259088",
-      "title": "特朗普称正在与伊朗进行沟通",
-      "url": "https://finance.eastmoney.com/a/202611073925259088.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T21:04:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "当地时间11月6日，美国总统特朗普表示，正在与伊朗进行沟通。此外，卡塔尔首相兼外交大臣穆罕默德·本·阿卜杜勒拉赫曼·阿勒萨尼当天在英国牛津参加一场活动时表示，美国和伊朗未能达成“全面协议”。他强调，双方应接受一份“好的协议”，而非追求“完美协议”。"
-    },
-    {
-      "id": "10ot1zjimv1",
-      "key": "em:202611073925258117",
-      "title": "特朗普任命斯蒂芬·米勒为白宫办公厅主任",
-      "url": "https://finance.eastmoney.com/a/202611073925258117.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T21:02:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "美国总统特朗普6日宣布，白宫办公厅副主任斯蒂芬·米勒将从9日起接替苏茜·怀尔斯，出任白宫办公厅主任。怀尔斯“将调至特朗普政治运营团队”。特朗普在社交媒体发文宣布这一任命，称米勒是其“最信任的顾问之一”，而怀尔斯在担任白宫办公厅主任期间“做得非常棒”。"
-    },
-    {
-      "id": "v55qtn3gb4",
-      "key": "cls:2527950",
-      "title": "纳指收涨1% 芯片股反弹",
-      "url": "https://www.cls.cn/detail/2527950",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T21:01:10.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 26,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "美股三大指数收盘涨跌不一，道指跌0.46%，纳指涨1.09%，标普500指数涨0.32%。芯片股反弹，费城半导体指数涨4.2%，AMD涨超11%，Cerebras涨超9%，英特尔涨超7%，台积电涨超6%，高通、阿斯麦涨超5%。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "29w4qkjrjph",
-          "sourceId": "em-focus",
-          "sourceName": "东方财富",
-          "url": "https://finance.eastmoney.com/a/202611073925260479.html",
-          "title": "全球市场：纳指涨超1% 费城半导体指数涨超4% AMD涨超11%",
-          "publishedAt": "2026-11-06T21:15:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "cls",
-          "em-focus"
-        ],
-        "firstPublishedAt": "2026-11-06T21:01:10.000Z"
-      }
-    },
-    {
-      "id": "u8471w5704",
-      "key": "wscn:3196219",
-      "title": "中概指数本周涨约8.3%、KWEB涨9.4%，周五禾赛涨11.6%、日月光半导体涨超6.4%、联想涨超5.2%",
-      "url": "https://wallstreetcn.com/livenews/3196219",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T21:00:12.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "纳斯达克金龙中国指数收涨1.67%，报5843.09点，逼近9月22日收盘位5846.90点、9月4日收盘位6055.89点，日内大部分时间高位窄幅震荡，美股盘初显著上涨，站稳50日均线（暂报5723.98点），逼近100日均线（暂报5975.03点），本周累计上涨8.27%。 ETF中，MSCI新兴市场ex中国ETF（EMXC）收涨2.83%，本周累跌4.94%，连续第五周下跌； 中概互联网指数ETF（KWEB）收涨0.48%，本周反弹9.41%，结束此前连跌三周的趋势； XtrackersHarvest中证50（ASHS）收跌0.11%，本周反弹5…",
-      "flag": 1
-    },
-    {
-      "id": "k6jj0dsqoj",
-      "key": "url:marketwatch.com/story/microns-stock-is-dirt-cheap-and-thats-igniting-a-fierce-online-debate-0626791d?mod=mw_rss_topstories",
-      "title": "Micron’s stock is dirt cheap — and that’s igniting a fierce online debate",
-      "url": "https://www.marketwatch.com/story/microns-stock-is-dirt-cheap-and-thats-igniting-a-fierce-online-debate-0626791d?mod=mw_rss_topstories",
-      "lang": "en",
-      "sourceId": "marketwatch",
-      "sourceName": "MarketWatch",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-06T20:58:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "Valuation purists see a ridiculously inexpensive stock, but some semiconductor investors say Micron’s earnings power won’t hold up.",
-      "ai": {
-        "title": "美光股价被指被低估，引发激烈网络辩论",
-        "summary": "估值派认为股价极低，但半导体投资者质疑其盈利能力",
-        "model": "glm-4.7-flash",
-        "at": "2026-11-07T02:52:45.457Z"
-      }
-    },
-    {
-      "id": "a9jtlqqwow",
-      "key": "url:cnbc.com/investingclub/2026/11/06/heres-a-rapid-fire-update-on-our-31-stocks-including-2-to-buy-now.html",
-      "title": "Here's a rapid-fire update on all 31 of our stocks, including 2 to buy now",
-      "url": "https://www.cnbc.com/investingclub/2026/11/06/heres-a-rapid-fire-update-on-our-31-stocks-including-2-to-buy-now.html",
-      "lang": "en",
-      "sourceId": "cnbc-top",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-06T20:36:03.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "We closed out a wild market week on Friday at the Investing Club's fourth Annual Meeting at the New York Stock Exchange."
-    },
-    {
-      "id": "1932aa9iyjz",
-      "key": "em:202611073925256743",
-      "title": "日本央行行长植田和男：若未来遭遇严重冲击 可能不得不动用QE工具",
-      "url": "https://finance.eastmoney.com/a/202611073925256743.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T20:31:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb"
-      ],
-      "excerpt": "日本央行行长植田和男表示，尽管非常规措施不如传统降息有效，但如果未来遭遇重大冲击，日本央行可能会再次动用这些工具。植田和男周五在华盛顿国际货币基金组织发表讲话后回答提问时表示：“回顾非常规货币政策工具对经济和通胀产生的影响，我会说，它们确实带来了一些积极影响。”"
-    },
-    {
-      "id": "m68nwrreli",
-      "key": "em:202611073925256881",
-      "title": "科技股“痛苦”调整难阻加息预期 美联储戴利仍倾向进一步收紧政策",
-      "url": "https://finance.eastmoney.com/a/202611073925256881.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T20:16:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed",
-        "macro-us"
-      ],
-      "excerpt": "旧金山联储主席玛丽·戴利周五表示，她预计美联储仍需要进一步加息，以遏制持续高企的通胀。不过，考虑到经济前景的不确定性，未来加息的时机和幅度仍有待观察。",
-      "flag": 1
-    },
-    {
-      "id": "yg1m0swhsf",
-      "key": "sina:5200234",
-      "title": "美国9月份消费者信贷创接近四年来最大增幅",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixvwas5358167.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T20:16:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed"
-      ],
-      "excerpt": "美国消费者借款在9月份创出接近四年来最大增幅，受到信用卡余额上升和非循环信贷增加推动。美联储周五公布的数据显示，未偿还信贷总额增加278亿美元，高于调查中所有经济学家的预期。该报告不包括抵押贷款。信用卡及其他循环债务余额增加163亿美元，为2023年11月以来最大增幅。包括汽车贷款和学生贷款在内的非循环信贷增加115亿美元。"
-    },
-    {
-      "id": "n1x0g31j0h",
-      "key": "em:202611073925255051",
-      "title": "三季度储能电池企业业绩分化 2027年市场有望保持增长",
-      "url": "https://finance.eastmoney.com/a/202611073925255051.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T19:58:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "近日，A股三季报披露正式收官，储能电池企业的经营业绩分化明显。",
-      "flag": 1
-    },
-    {
-      "id": "18vc2frbymt",
-      "key": "em:202611073925254173",
-      "title": "特朗普谈威尔斯离职时表示 想做出改变 希望米勒能把事情办好",
-      "url": "https://finance.eastmoney.com/a/202611073925254173.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T19:54:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "特朗普谈威尔斯离职时表示，想做出改变。希望米勒能把事情办好。"
-    },
-    {
-      "id": "fn8m3uk9uu",
-      "key": "sina:5200193",
-      "title": "美国财政部网站显示，美国对伊朗实施的新制裁针对总部位于加拿大的8家实体",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixvwaq8576882.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T19:47:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ]
-    },
-    {
-      "id": "2fsxitbr6uo",
-      "key": "em:202611073925253550",
-      "title": "美国宣布新一轮与伊朗相关的制裁措施",
-      "url": "https://finance.eastmoney.com/a/202611073925253550.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T19:45:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "当地时间11月6日，美国财政部网站显示，美国宣布新一轮与伊朗相关的制裁措施。"
-    },
-    {
-      "id": "gdzslqk6ud",
-      "key": "url:cnbc.com/2026/11/06/robert-garcia-trump-congress-oversight-investigations.html",
-      "title": "Top House Oversight Democrat warns Trump family to 'lawyer up'",
-      "url": "https://www.cnbc.com/2026/11/06/robert-garcia-trump-congress-oversight-investigations.html",
-      "lang": "en",
-      "sourceId": "cnbc-top",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-06T19:42:36.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "With Democrats set to take control of the House in January, Rep. Robert Garcia is promising sweeping probes into Trump, his family and his administration."
-    },
-    {
-      "id": "e3wcvhk5fd",
-      "key": "sina:5200174",
-      "title": "美国财政部制裁Nia Nations Currency Ltd和B GALAXY公司，皆为位于加拿大的涉伊朗实体",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixvwaq8575204.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T19:35:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ]
-    },
-    {
-      "id": "13ekxfw7mhy",
-      "key": "sina:5200173",
-      "title": "美国财政部：美国对伊朗实施新制裁",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixvwak8458572.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T19:35:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "dupOf": "8nnz0n6907"
-    },
-    {
-      "id": "18x9v19dw6r",
-      "key": "em:202611073925252743",
-      "title": "特朗普任命新白宫办公厅主任",
-      "url": "https://finance.eastmoney.com/a/202611073925252743.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T19:27:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "美国总统特朗普6日宣布，白宫办公厅副主任斯蒂芬·米勒将从9日起接替苏茜·怀尔斯，出任白宫办公厅主任。特朗普说，怀尔斯“将调至特朗普政治运营团队”。"
-    },
-    {
-      "id": "14ujnwo63fu",
-      "key": "sina:5200148",
-      "title": "美国国务院：美国国务卿鲁比奥将于下周出席在巴黎举行的七国集团外长会议",
-      "url": "https://finance.sina.cn/7x24/2026-11-07/detail-inixvwak8451772.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T19:01:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ]
-    },
-    {
-      "id": "1tt5hbnbuok",
-      "key": "url:cnbc.com/2026/11/06/tech-executives-ai-data-center-selloff-midterms.html",
-      "title": "OpenAI, Arm and Qualcomm executives react to post-midterm AI sell-off",
-      "url": "https://www.cnbc.com/2026/11/06/tech-executives-ai-data-center-selloff-midterms.html",
-      "lang": "en",
-      "sourceId": "cnbc-top",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-06T18:35:08.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "Executives of major tech companies are largely projecting optimism about continued growth in the artificial intelligence sector despite a post-midterm sell-off."
-    },
-    {
-      "id": "293i83j8boo",
-      "key": "em:202611073925247413",
-      "title": "上期所原油期货2612合约夜盘收涨0.36% 沪金夜盘收跌0.53%",
-      "url": "https://finance.eastmoney.com/a/202611073925247413.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-06T18:34:00.000Z",
-      "firstSeenAt": "2026-11-07T02:48:03.096Z",
-      "day": "2026-11-07",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "gold"
-      ],
-      "excerpt": "上期所原油期货2612合约夜盘收涨0.36%，报639.10元人民币/桶。沪金夜盘收跌0.53%，沪银收跌0.41%。"
     }
   ]
 }

@@ -1068,9 +1068,9 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 22.6,
+      "score": 22.7,
       "metrics": {
-        "stars": 1421
+        "stars": 1446
       }
     },
     {
@@ -1342,6 +1342,26 @@
       "category": "industry",
       "score": 18,
       "dupOf": "2c5opl1pf9f"
+    },
+    {
+      "id": "v3vitmabcn",
+      "key": "gh:jdhruv14/line-art-animation",
+      "title": "JDhruv14/line-art-animation",
+      "url": "https://github.com/JDhruv14/line-art-animation",
+      "excerpt": "A Claude skill and TypeScript library for animated line-art SVG components: ink figures that walk and react, scenes with a day/night cycle.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-10T09:25:25.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-10",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 18.4,
+      "metrics": {
+        "stars": 664
+      }
     },
     {
       "id": "jjx0l547pu",
@@ -3238,6 +3258,29 @@
       }
     },
     {
+      "id": "v3g2yps570",
+      "key": "gh:alexeyw/lot-map",
+      "title": "alexeyw/lot-map",
+      "url": "https://github.com/alexeyw/lot-map",
+      "excerpt": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-09T19:13:52.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-10",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 19,
+      "metrics": {
+        "stars": 744
+      }
+    },
+    {
       "id": "2kxg2i71gt",
       "key": "url:reddit.com/r/LocalLLaMA/comments/1xs0qmx/muse_ember_zuck_promised_to_open_source_muse",
       "title": "Muse Ember: Zuck promised to open source muse spark 1.2 but continues to release to more closed models",
@@ -3619,12 +3662,21 @@
       "firstSeenAt": "2026-11-10T18:39:46.029Z",
       "day": "2026-11-10",
       "category": "opensource",
-      "score": 21.9,
+      "score": 36.9,
       "metrics": {
         "points": 111,
-        "comments": 43
+        "comments": 43,
+        "stars": 491
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50429144"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50429144",
+      "alsoOn": [
+        {
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/Dodaios/ste80-humanizer"
+        }
+      ],
+      "excerpt": "STE80 Humanizer: agent skill that removes AI tells and rewrites text 80% of the way to ASD-STE100 (Simplified Technical English), the method Andrej Karpathy shared."
     },
     {
       "id": "3qfjf5ciwu",
@@ -3780,6 +3832,31 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-10T04:40:04.684Z"
       }
+    },
+    {
+      "id": "1qmfgcz6bl5",
+      "key": "gh:minimax-ai/minimax-h3-image",
+      "title": "MiniMax-AI/MiniMax-H3-Image",
+      "url": "https://github.com/MiniMax-AI/MiniMax-H3-Image",
+      "excerpt": "MiniMax-H3-Image, an open-weight model for 16-megapixel image generation and editing.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-09T17:11:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-10",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "图像生成",
+        "开源模型"
+      ],
+      "score": 15.5,
+      "metrics": {
+        "stars": 341
+      },
+      "dupOf": "1lzecau7gz4"
     },
     {
       "id": "2f6x63pfrs1",

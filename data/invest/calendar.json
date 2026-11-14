@@ -1,19 +1,6 @@
 {
-  "updatedAt": "2026-11-13T18:30:05.440Z",
+  "updatedAt": "2026-11-14T03:13:08.868Z",
   "events": [
-    {
-      "id": "wscn-1598652",
-      "at": "2026-11-13T13:30:00.000Z",
-      "country": "美国",
-      "title": "10月PPI同比",
-      "importance": 3,
-      "kind": "data",
-      "source": "华尔街见闻",
-      "previous": "6.3",
-      "forecast": "6.6",
-      "actual": "6.5",
-      "unit": "%"
-    },
     {
       "id": "wscn-15638",
       "at": "2026-11-14T16:00:00.000Z",
@@ -113,6 +100,15 @@
       "at": "2026-11-25T16:00:00.000Z",
       "country": "美国",
       "title": "美股感恩节休市",
+      "importance": 3,
+      "kind": "event",
+      "source": "华尔街见闻"
+    },
+    {
+      "id": "wscn-15396",
+      "at": "2026-11-28T16:00:00.000Z",
+      "country": "西班牙",
+      "title": "西班牙举行大选",
       "importance": 3,
       "kind": "event",
       "source": "华尔街见闻"

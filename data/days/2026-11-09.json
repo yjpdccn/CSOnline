@@ -286,7 +286,7 @@
       "categoryLocked": true,
       "score": 25.6,
       "metrics": {
-        "stars": 71460,
+        "stars": 71713,
         "starsToday": 506
       },
       "ai": {
@@ -2866,10 +2866,26 @@
           "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
           "title": "The unfolding Jensen Huang scandal: a timeline",
           "publishedAt": "2026-11-13T15:58:00.000Z"
+        },
+        {
+          "id": "1mg7uharpq3",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
+          "title": "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life",
+          "publishedAt": "2026-11-13T20:07:34.000Z"
+        },
+        {
+          "id": "2f90x1e2out",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+          "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
+          "publishedAt": "2026-11-13T22:43:00.000Z"
         }
       ],
       "story": {
-        "reports": 34,
+        "reports": 36,
         "sources": [
           "jiqizhixin",
           "verge-ai",
@@ -3063,9 +3079,9 @@
         "MCP",
         "AI 编程"
       ],
-      "score": 22.2,
+      "score": 22.3,
       "metrics": {
-        "stars": 1320
+        "stars": 1350
       }
     },
     {
@@ -3576,12 +3592,20 @@
       "keywords": [
         "图像生成"
       ],
-      "score": 28.6,
+      "score": 42.3,
       "metrics": {
-        "likes": 332
+        "likes": 351
       },
       "skipLlm": true,
       "related": [
+        {
+          "id": "1qmfgcz6bl5",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/MiniMax-AI/MiniMax-H3-Image",
+          "title": "MiniMax-AI/MiniMax-H3-Image",
+          "publishedAt": "2026-11-09T17:11:00.000Z"
+        },
         {
           "id": "2ac62ziqp47",
           "sourceId": "reddit-localllama",
@@ -3600,14 +3624,16 @@
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "hf-models",
+          "github-new",
           "reddit-localllama"
         ],
         "firstPublishedAt": "2026-11-08T20:37:23.000Z",
         "metrics": {
-          "likes": 332
+          "likes": 351,
+          "stars": 341
         }
       }
     },
@@ -3928,9 +3954,19 @@
       "firstSeenAt": "2026-11-09T02:39:52.670Z",
       "day": "2026-11-09",
       "category": "model",
-      "score": 16,
+      "score": 33,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xr2aaa/tencentqwen3827bdspineb16_hugging_face/",
-      "dupOf": "22j3nnnqyha"
+      "dupOf": "22j3nnnqyha",
+      "alsoOn": [
+        {
+          "sourceId": "hf-models",
+          "sourceName": "HF 热门模型",
+          "url": "https://huggingface.co/tencent/Qwen3.8-27B-DSpine-b16"
+        }
+      ],
+      "metrics": {
+        "likes": 246
+      }
     },
     {
       "id": "z7zq463ypt",

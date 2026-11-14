@@ -629,11 +629,11 @@
   },
   "2026-11-14": {
     "day": "2026-11-14",
-    "generatedAt": "2026-11-13T18:33:19.220Z",
-    "itemCount": 122,
+    "generatedAt": "2026-11-14T03:15:53.142Z",
+    "itemCount": 102,
     "mode": "ai",
     "model": "glm-4.7-flash",
-    "overview": "OpenAI 推出 ChatGPT Wallet，Anthropic 推出制造业插件与 Claude Duet。",
+    "overview": "OpenAI 推出 ChatGPT Wallet，Perplexity 发布开源模型，llama.cpp v1.0.0 发布。",
     "points": [
       {
         "text": "OpenAI 推出 ChatGPT Wallet，允许 Agent 在用户批准下完成购买。",
@@ -642,21 +642,21 @@
         ]
       },
       {
-        "text": "Anthropic 推出面向制造业的 Claude 插件，可直接连接工厂软件自动化工作流。",
+        "text": "Perplexity 发布 Decider v1.3 (26B) 和 Decider Flash v1.3 (5B)…",
         "refs": [
-          "rlnbzi7si1"
-        ]
-      },
-      {
-        "text": "Anthropic 推出 Claude Duet 代理，旨在帮助用户撰写体验报告。",
-        "refs": [
-          "27l9nas9hi2"
+          "145l0xpechw"
         ]
       },
       {
         "text": "llama.cpp v1.0.0 发布，为本地 AI 生态提供更强基础。",
         "refs": [
           "hnl8zcoq07"
+        ]
+      },
+      {
+        "text": "OpenAI 解散机器人团队，因其通用模型开始运行机器人。",
+        "refs": [
+          "2ap7u6vz1xm"
         ]
       }
     ]

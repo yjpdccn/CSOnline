@@ -54,10 +54,10 @@
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-12",
       "category": "opensource",
-      "score": 34.3,
+      "score": 34.4,
       "metrics": {
-        "points": 461,
-        "comments": 175
+        "points": 467,
+        "comments": 180
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50468888",
       "aiAttempts": 1,
@@ -664,8 +664,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 985,
-        "comments": 898
+        "points": 996,
+        "comments": 906
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50465829",
       "aiAttempts": 2,
@@ -1352,7 +1352,25 @@
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-12",
       "category": "model",
-      "score": 24
+      "score": 32,
+      "related": [
+        {
+          "id": "1emem8bud1d",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvbn2m/qwen359b_running_on_a_ps4s_gpu_offline_using_its/",
+          "title": "Qwen3.5-9B running on a PS4’s GPU, offline, using its own MTP head for speculative decoding",
+          "publishedAt": "2026-11-13T16:00:36.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-11-12T08:16:48.945Z"
+      }
     },
     {
       "id": "4ahtgy3g3n",
@@ -1377,10 +1395,18 @@
           "url": "https://36kr.com/p/4066274942571652",
           "title": "马斯克给黄仁勋留了个工位",
           "publishedAt": "2026-11-12T08:31:30.739Z"
+        },
+        {
+          "id": "zf8dgzqg12",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4069009439871873",
+          "title": "“让黄仁勋回归”，马斯克带头，超2万人请愿",
+          "publishedAt": "2026-11-14T03:10:33.443Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "qbitai",
           "36kr-ai"
@@ -1440,6 +1466,33 @@
       "category": "industry",
       "score": 22,
       "dupOf": "ucntdb8354"
+    },
+    {
+      "id": "233kb4pt1d8",
+      "key": "gh:deepseek-ai/chat-demo",
+      "title": "deepseek-ai/chat-demo",
+      "url": "https://github.com/deepseek-ai/chat-demo",
+      "excerpt": "Chat Demo",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T08:08:19.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-12",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 20,
+      "metrics": {
+        "stars": 907
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Chat Demo 项目。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
+      }
     },
     {
       "id": "r67pgt5qcx",
@@ -1525,10 +1578,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 34,
+      "score": 34.1,
       "metrics": {
-        "points": 399,
-        "comments": 234
+        "points": 402,
+        "comments": 236
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50463899",
       "aiAttempts": 1,
@@ -2900,8 +2953,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 676,
-        "comments": 698
+        "points": 677,
+        "comments": 702
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50458900",
       "ai": {
@@ -3191,6 +3244,33 @@
       }
     },
     {
+      "id": "wyq3m2g6mf",
+      "key": "gh:linknimiball1974/ai-texture-forge",
+      "title": "linknimiball1974/ai-texture-forge",
+      "url": "https://github.com/linknimiball1974/ai-texture-forge",
+      "excerpt": "An AI-powered texture forge for Blender — turn text prompts into seamless PBR materials, concept art and scene-wide projections with local or cloud diffusion models, straight inside the 3D viewport on Windows. · dream textures · dream textures blender · dream textures addon · dr…",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-11T19:09:18.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-12",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16,
+      "metrics": {
+        "stars": 387
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI 驱动的 Blender 纹理生成工具。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
+      }
+    },
+    {
       "id": "23abjxqyfd9",
       "key": "url:lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble",
       "title": "Retirement Savings Are Fueling the AI Bubble",
@@ -3206,7 +3286,7 @@
       "score": 27.2,
       "metrics": {
         "points": 165,
-        "comments": 196
+        "comments": 197
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50457164",
       "ai": {
@@ -3237,7 +3317,7 @@
       ],
       "score": 28.6,
       "metrics": {
-        "stars": 12991,
+        "stars": 13177,
         "starsToday": 754
       },
       "ai": {
@@ -3536,6 +3616,37 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-12T03:49:24.609Z"
+      }
+    },
+    {
+      "id": "2erbl999cd6",
+      "key": "gh:op7418/guizang-game-skill",
+      "title": "op7418/guizang-game-skill",
+      "url": "https://github.com/op7418/guizang-game-skill",
+      "excerpt": "歸藏 Game Skill：让 AI 从零做出能在浏览器里玩的 3D 动作游戏，附可玩演示《雾锁山门》。Agent skill for Claude Code / Codex that builds a playable browser 3D action game with AI-generated assets (three.js, single-HTML). Playable demo included.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-11T16:28:54.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-12",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 15.2,
+      "metrics": {
+        "stars": 317
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "让 AI 生成可在浏览器运行的 3D 动作游戏。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
       }
     },
     {

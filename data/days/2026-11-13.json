@@ -19,6 +19,30 @@
       "dupOf": "2etlf2tgwno"
     },
     {
+      "id": "1aclyk0qby9",
+      "key": "url:e-means.github.io/",
+      "title": "e-means: 10x faster k-means at equal loss",
+      "url": "https://e-means.github.io/",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T15:56:37.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-13",
+      "category": "paper",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xvbith/emeans_10x_faster_kmeans_at_equal_loss/",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "提出一种 10 倍更快的 k-means 算法。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
+      }
+    },
+    {
       "id": "1uajmr52i5w",
       "key": "url:the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails",
       "title": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails",
@@ -33,7 +57,13 @@
       "day": "2026-11-13",
       "category": "industry",
       "score": 15,
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "美国近七成联邦机构使用生成式 AI，工会正推动建立监管护栏。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
+      }
     },
     {
       "id": "kug8dphy8t",
@@ -57,6 +87,33 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-13T18:32:34.893Z"
+      }
+    },
+    {
+      "id": "u7xzf5lj",
+      "key": "url:text.npr.org/nx-s1-6029408",
+      "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+      "url": "https://text.npr.org/nx-s1-6029408",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T15:29:10.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 26.9,
+      "metrics": {
+        "points": 167,
+        "comments": 166
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50484960",
+      "ai": {
+        "title": "谷歌为何切断无 AI 学校的搜索服务",
+        "summary": "Hacker News 探讨谷歌切断无 AI 学校搜索服务的理论。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:13:59.836Z"
       }
     },
     {
@@ -98,7 +155,14 @@
       "day": "2026-11-13",
       "category": "industry",
       "score": 15,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "前 OpenAI 研究员称六款中国 AI 模型藏有 Nvidia Blackw…",
+        "summary": "前研究员声称发现 DeepSeek 等中国模型使用 Nvidia Blackwell GPU 的证据。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
+      }
     },
     {
       "id": "21l3obct018",
@@ -115,7 +179,14 @@
       "day": "2026-11-13",
       "category": "industry",
       "score": 15,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "Anthropic IPO 订阅量超六倍，或成史上最大公开募股",
+        "summary": "Anthropic IPO 订阅量超六倍，有望成为史上最大公开募股。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
+      }
     },
     {
       "id": "1of3d3lwm4k",
@@ -173,10 +244,10 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "paper",
-      "score": 23.9,
+      "score": 25.7,
       "metrics": {
-        "points": 126,
-        "comments": 90
+        "points": 149,
+        "comments": 135
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50484658",
       "ai": {
@@ -205,7 +276,7 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 42,
+      "score": 58,
       "related": [
         {
           "id": "2alhgd4wcqi",
@@ -214,13 +285,31 @@
           "url": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
           "title": "ChatGPT’s new Wallet lets AI agents shop and check out for you",
           "publishedAt": "2026-11-13T16:00:12.000Z"
+        },
+        {
+          "id": "2ckp6m8sv2l",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/openai-rebuilt-ai-shopping-from-scratch-with-chatgpt-wallet/",
+          "title": "OpenAI rebuilt AI shopping from scratch with ChatGPT Wallet",
+          "publishedAt": "2026-11-13T18:55:21.000Z"
+        },
+        {
+          "id": "2eucvbymcc7",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+          "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+          "publishedAt": "2026-11-13T20:45:10.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 4,
         "sources": [
           "openai",
-          "techcrunch-ai"
+          "techcrunch-ai",
+          "the-decoder",
+          "verge-ai"
         ],
         "firstPublishedAt": "2026-11-13T15:00:00.000Z"
       },
@@ -261,12 +350,19 @@
       "publishedAt": "2026-11-13T14:44:48.000Z",
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
-      "category": "multimodal",
+      "category": "agent",
       "keywords": [
         "语音"
       ],
       "score": 15,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "ElevenLabs 推出团队版会议记录与语音转写应用",
+        "summary": "ElevenLabs 发布面向团队和企业的会议记录与语音转写应用。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
+      }
     },
     {
       "id": "an0rasyqoz",
@@ -359,6 +455,55 @@
       }
     },
     {
+      "id": "145l0xpechw",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xv7fku/perplexity_releases_decider_v13_26b_and_decider",
+      "title": "Perplexity releases Decider v1.3 (26B) and Decider Flash v1.3 (5B): open-weight (Apache 2.0) classification/decision models",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xv7fku/perplexity_releases_decider_v13_26b_and_decider/",
+      "excerpt": "Perplexity has released two new \"decision models.\" These are general-purpose classifiers built from generative LLM backbones. You give them an input (the \"state\") and one or more questions, and they return a probability distribution over the answer options. They don't generate t…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T13:08:10.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-13",
+      "category": "model",
+      "keywords": [
+        "开源模型"
+      ],
+      "score": 38.7,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xv7fku/perplexity_releases_decider_v13_26b_and_decider/",
+      "related": [
+        {
+          "id": "1691qqyhe7p",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50488464",
+          "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+          "publishedAt": "2026-11-13T19:24:47.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "reddit-localllama",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-13T13:08:10.000Z",
+        "metrics": {
+          "points": 103,
+          "comments": 21
+        }
+      },
+      "ai": {
+        "title": "Perplexity 发布 Decider v1.3 模型",
+        "summary": "Perplexity 发布 Decider v1.3 (26B) 和 Decider Flash v1.3 (5B) 开源模型。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:13:59.836Z"
+      }
+    },
+    {
       "id": "vwgcy6k2ip",
       "key": "url:blogs.nvidia.com/blog/how-ai-is-helping-care-teams",
       "title": "How AI Is Helping Care Teams Get Patients the Right Care, Sooner",
@@ -396,7 +541,14 @@
       "day": "2026-11-13",
       "category": "industry",
       "score": 15,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "以色列风投看好 AI 挑战者在 Nvidia 困境中的机会",
+        "summary": "以色列风投认为 Nvidia 的动荡为 AI 挑战者创造了机会。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
+      }
     },
     {
       "id": "12ppsjjc7qh",
@@ -612,10 +764,10 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 28.3,
+      "score": 31.8,
       "metrics": {
-        "points": 225,
-        "comments": 118
+        "points": 316,
+        "comments": 196
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50481870",
       "ai": {
@@ -801,10 +953,10 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 27.7,
+      "score": 28.1,
       "metrics": {
-        "points": 188,
-        "comments": 162
+        "points": 197,
+        "comments": 173
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50481220",
       "ai": {
@@ -831,10 +983,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 35.9,
+      "score": 36,
       "metrics": {
-        "points": 449,
-        "comments": 362
+        "points": 484,
+        "comments": 383
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50481187",
       "ai": {
@@ -1080,10 +1232,42 @@
       "publishedAt": "2026-11-13T08:20:28.000Z",
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
-      "category": "industry",
+      "category": "opensource",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xv2e0a/google_is_asking/",
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "用户请求新的 Gemma 模型。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:14:13.302Z"
+      }
+    },
+    {
+      "id": "28vy7prmirm",
+      "key": "url:openai.com/business/customer-stories/shield",
+      "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+      "url": "https://openai.com/business/customer-stories/shield",
+      "excerpt": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-13T08:00:00.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-13",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "Shield 帮助技术人员交接遗留门户工作",
+        "summary": "Shield 使用 OpenAI 帮助 IT 技术人员交接遗留门户工作。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:13:59.836Z"
+      }
     },
     {
       "id": "hjo26c23qt",
@@ -1453,6 +1637,30 @@
       "score": 18
     },
     {
+      "id": "2chqbgy7rt",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xuxzfs/artificial_analysis_updated_qwen_38_flash_next",
+      "title": "Artificial Analysis updated Qwen 3.8 Flash Next score as 29",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxzfs/artificial_analysis_updated_qwen_38_flash_next/",
+      "excerpt": "Between GPT-6 Luna Max (28) and Claude Haiku 5.5 High (30). Comparing to other Qwen 3.8, the model is closer to max (34) than to 27B (20). https://artificialanalysis.ai/models/qwen3-8-flash-next [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T04:06:06.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-13",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxzfs/artificial_analysis_updated_qwen_38_flash_next/",
+      "ai": {
+        "title": "Artificial Analysis 更新 Qwen 3.8 Flash N…",
+        "summary": "Artificial Analysis 更新 Qwen 3.8 Flash Next 评分为 29。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:13:59.836Z"
+      }
+    },
+    {
       "id": "19xcwoky764",
       "key": "url:wired.com/story/nvidia-employees-petition-for-jensen-huangs-return",
       "title": "‘Bring Back THE Boss’: Nvidia Employees Petition for Jensen Huang’s Return",
@@ -1589,8 +1797,8 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 4553,
-        "starsToday": 1875
+        "stars": 4954,
+        "starsToday": 1925
       },
       "ai": {
         "title": "GoogleChrome/modern-web-guidance-src：保持…",
@@ -1684,10 +1892,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 28.8,
+      "score": 29.7,
       "metrics": {
-        "points": 234,
-        "comments": 132
+        "points": 257,
+        "comments": 148
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50477649",
       "ai": {
@@ -1932,7 +2140,7 @@
       "category": "industry",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xuvexw/stories_coming_out_about_jensen/",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "关于 Jensen 的传闻。",
         "category": "industry",
@@ -2139,9 +2347,9 @@
       "day": "2026-11-13",
       "category": "paper",
       "categoryLocked": true,
-      "score": 23.2,
+      "score": 24,
       "metrics": {
-        "upvotes": 71,
+        "upvotes": 80,
         "comments": 2
       },
       "ai": {
@@ -2226,6 +2434,33 @@
       "dupOf": "12ktd4fdf58"
     },
     {
+      "id": "4pe933za31",
+      "key": "url:economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
+      "title": "Why You Should Expect an AI Crash",
+      "url": "https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T23:08:31.000Z",
+      "firstSeenAt": "2026-11-14T03:13:08.868Z",
+      "day": "2026-11-13",
+      "category": "industry",
+      "score": 22.4,
+      "metrics": {
+        "points": 101,
+        "comments": 84
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50475735",
+      "ai": {
+        "title": "为何应预期 AI 崩盘",
+        "summary": "Hacker News 讨论为何应预期 AI 崩盘。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T03:13:59.836Z"
+      }
+    },
+    {
       "id": "422cay4vw7",
       "key": "url:edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer",
       "title": "Edge0-145B: Frontier AI Capabilities on Your Own Computer",
@@ -2239,10 +2474,10 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 38.6,
+      "score": 39,
       "metrics": {
-        "points": 325,
-        "comments": 97
+        "points": 338,
+        "comments": 104
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50475713",
       "alsoOn": [
@@ -2391,10 +2626,10 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 31.8,
+      "score": 32.2,
       "metrics": {
-        "points": 346,
-        "comments": 144
+        "points": 357,
+        "comments": 152
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50474883",
       "dupOf": "17pd3pufygc"
@@ -2478,19 +2713,20 @@
       "publishedAt": "2026-11-12T21:13:26.000Z",
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
-      "category": "paper",
-      "score": 27.3,
+      "category": "opensource",
+      "score": 27.5,
       "metrics": {
-        "points": 258,
+        "points": 265,
         "comments": 35
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50474361",
       "aiAttempts": 1,
       "ai": {
-        "summary": "Foundation Models framework 相关资讯。",
-        "category": "paper",
+        "title": "基础模型框架",
+        "summary": "Hacker News 讨论基础模型框架。",
+        "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-13T18:31:32.493Z"
+        "at": "2026-11-14T03:13:59.836Z"
       }
     },
     {
@@ -2506,10 +2742,10 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 28.6,
+      "score": 28.8,
       "metrics": {
-        "points": 193,
-        "comments": 224
+        "points": 196,
+        "comments": 232
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50474311",
       "ai": {
@@ -2683,7 +2919,7 @@
       "category": "industry",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xumhm3/jensen_today_at_nvidia_board_meeting/",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Nvidia 董事会会议上的 Jensen。",
         "category": "industry",
@@ -2837,10 +3073,10 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "model",
-      "score": 40.1,
+      "score": 40.2,
       "metrics": {
-        "points": 484,
-        "comments": 159
+        "points": 496,
+        "comments": 161
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50472260",
       "dupOf": "1bkjdg4y4p3"
@@ -2881,7 +3117,7 @@
       "category": "industry",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xukt9t/so_this_will_be_true_in_couple_of_years/",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Jensen 之后，公司将完全专注于数据中心 AI 计算。",
         "category": "industry",
@@ -2906,10 +3142,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22.6,
+      "score": 22.9,
       "metrics": {
-        "points": 131,
-        "comments": 34
+        "points": 134,
+        "comments": 39
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50471650",
       "ai": {
@@ -2959,8 +3195,8 @@
       "category": "model",
       "score": 66,
       "metrics": {
-        "points": 554,
-        "comments": 345
+        "points": 559,
+        "comments": 349
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50471431",
       "related": [
@@ -3041,8 +3277,8 @@
         ],
         "firstPublishedAt": "2026-11-12T18:00:00.000Z",
         "metrics": {
-          "points": 554,
-          "comments": 345
+          "points": 559,
+          "comments": 349
         }
       },
       "aiAttempts": 2,
@@ -3182,8 +3418,8 @@
         ],
         "firstPublishedAt": "2026-11-11T21:24:35.000Z",
         "metrics": {
-          "points": 676,
-          "comments": 698
+          "points": 677,
+          "comments": 702
         }
       },
       "aiAttempts": 1,
@@ -3380,7 +3616,7 @@
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-13",
       "category": "paper",
-      "score": 51.6,
+      "score": 52,
       "aiAttempts": 1,
       "ai": {
         "title": "OpenAI：前沿模型隐藏思维链的原因",
@@ -3413,8 +3649,8 @@
         ],
         "firstPublishedAt": "2026-11-12T16:58:11.000Z",
         "metrics": {
-          "points": 325,
-          "comments": 97
+          "points": 338,
+          "comments": 104
         }
       }
     },
