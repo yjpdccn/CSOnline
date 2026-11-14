@@ -1068,9 +1068,9 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 22.7,
+      "score": 22.9,
       "metrics": {
-        "stars": 1446
+        "stars": 1489
       }
     },
     {
@@ -1358,9 +1358,9 @@
       "day": "2026-11-10",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 18.4,
+      "score": 18.9,
       "metrics": {
-        "stars": 664
+        "stars": 727
       }
     },
     {
@@ -2765,6 +2765,30 @@
       "score": 30
     },
     {
+      "id": "lcn2cvza2v",
+      "key": "arxiv:2611.11995",
+      "title": "Infrathon: Benchmarking Language Agents for Real-World, Long-Horizon AI Infra Optimization",
+      "url": "https://huggingface.co/papers/2611.11995",
+      "excerpt": "In this work, we study whether frontier agent can continually improve real-world AI infrastructure over long horizons. We introduce Infrathon, a benchmark of diverse, long-horizon AI infrastructure optimization tasks across different levels. We evaluate six models across 150 run…",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "firstSeenAt": "2026-11-14T17:01:04.343Z",
+      "day": "2026-11-10",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 21.5,
+      "metrics": {
+        "upvotes": 51,
+        "comments": 10
+      }
+    },
+    {
       "id": "1q42eye88r0",
       "key": "url:reddit.com/r/LocalLLaMA/comments/1xs81f3/how_to_mess_around_with_neurons_a_short_guide",
       "title": "How to mess around with neurons... a short guide",
@@ -3275,9 +3299,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 19,
+      "score": 19.4,
       "metrics": {
-        "stars": 744
+        "stars": 799
       }
     },
     {
@@ -3662,11 +3686,11 @@
       "firstSeenAt": "2026-11-10T18:39:46.029Z",
       "day": "2026-11-10",
       "category": "opensource",
-      "score": 36.9,
+      "score": 37.4,
       "metrics": {
         "points": 111,
         "comments": 43,
-        "stars": 491
+        "stars": 542
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50429144",
       "alsoOn": [
@@ -3852,9 +3876,9 @@
         "图像生成",
         "开源模型"
       ],
-      "score": 15.5,
+      "score": 15.7,
       "metrics": {
-        "stars": 341
+        "stars": 360
       },
       "dupOf": "1lzecau7gz4"
     },

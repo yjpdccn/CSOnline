@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T03:13:08.868Z",
+  "updatedAt": "2026-11-14T17:01:04.343Z",
   "events": [
     {
       "id": "wscn-15638",
@@ -112,6 +112,16 @@
       "importance": 3,
       "kind": "event",
       "source": "华尔街见闻"
+    },
+    {
+      "id": "wscn-15639",
+      "at": "2026-11-29T04:02:00.000Z",
+      "country": "沙特阿拉伯",
+      "title": "OPEC+会议",
+      "importance": 3,
+      "kind": "event",
+      "source": "华尔街见闻",
+      "dateOnly": true
     }
   ],
   "fomc": [

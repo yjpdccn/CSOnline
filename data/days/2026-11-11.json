@@ -1425,7 +1425,7 @@
       "keywords": [
         "语音"
       ],
-      "score": 27.9,
+      "score": 28.6,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xtb9gw/zyphrazonos3mini_hugging_face/",
       "alsoOn": [
         {
@@ -1435,7 +1435,7 @@
         }
       ],
       "metrics": {
-        "likes": 297
+        "likes": 334
       },
       "ai": {
         "title": "Zyphra 推出 ZONOS3-Mini 开源文本转语音模型",
@@ -2817,9 +2817,9 @@
       "day": "2026-11-11",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 22.1,
+      "score": 22.5,
       "metrics": {
-        "stars": 1299
+        "stars": 1405
       },
       "ai": {
         "title": "FrigadeHQ/yogurt：私有 AI 会议记录",
@@ -3156,7 +3156,7 @@
       "firstSeenAt": "2026-11-10T18:39:46.029Z",
       "day": "2026-11-11",
       "category": "industry",
-      "score": 27,
+      "score": 47.6,
       "related": [
         {
           "id": "933yss73iz",
@@ -3173,15 +3173,28 @@
           "url": "https://the-decoder.com/claude-meetings-lets-anthropics-ai-join-your-video-calls/",
           "title": "Claude Meetings lets Anthropic's AI join your video calls",
           "publishedAt": "2026-11-12T20:26:50.000Z"
+        },
+        {
+          "id": "1m58gdifwlb",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50491097",
+          "title": "Claude Meetings",
+          "publishedAt": "2026-11-13T22:39:15.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "techcrunch-ai",
-          "the-decoder"
+          "the-decoder",
+          "hackernews"
         ],
-        "firstPublishedAt": "2026-11-10T17:30:00.000Z"
+        "firstPublishedAt": "2026-11-10T17:30:00.000Z",
+        "metrics": {
+          "points": 105,
+          "comments": 82
+        }
       }
     },
     {

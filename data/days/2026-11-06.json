@@ -3722,10 +3722,15 @@
           "url": "https://news.ycombinator.com/item?id=50377078",
           "title": "Baidu released ERNIE 5.5 Flash Base",
           "publishedAt": "2026-11-05T09:29:12.000Z"
+        },
+        {
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvuclv/ernie_55_flash_base_ernie/"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "the-decoder",
           "reddit-localllama",

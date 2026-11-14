@@ -2230,8 +2230,7 @@
       "firstSeenAt": "2026-11-02T09:04:24.822Z",
       "day": "2026-11-02",
       "category": "model",
-      "score": 24,
-      "dupOf": "ernv8gjrrk"
+      "score": 24
     },
     {
       "id": "1pxqmfwvgjk",
@@ -2807,33 +2806,7 @@
       "firstSeenAt": "2026-11-02T09:04:24.822Z",
       "day": "2026-11-02",
       "category": "paper",
-      "score": 26,
-      "related": [
-        {
-          "id": "1ktt5l7cvq3",
-          "sourceId": "reddit-localllama",
-          "sourceName": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xkzony/new_research_a_tiny_109mparameter_model/",
-          "title": "109M 参数模型超越 72B 模型",
-          "publishedAt": "2026-11-01T10:24:21.000Z"
-        },
-        {
-          "id": "22mt2pnysdl",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4052212617483393",
-          "title": "LeCun重磅成果单挑Scaling Law，1.09亿参数干翻720亿，训练方式比堆参数更本质",
-          "publishedAt": "2026-11-02T07:42:54.594Z"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "36kr-ai",
-          "reddit-localllama"
-        ],
-        "firstPublishedAt": "2026-11-01T10:24:21.000Z"
-      },
+      "score": 18,
       "ai": {
         "summary": "LeCun 研究发现训练方式比参数规模更重要，模型大小不等于理解力。",
         "category": "paper",

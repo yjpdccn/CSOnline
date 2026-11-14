@@ -34,7 +34,7 @@
       "category": "paper",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xvbith/emeans_10x_faster_kmeans_at_equal_loss/",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "提出一种 10 倍更快的 k-means 算法。",
         "category": "paper",
@@ -102,10 +102,10 @@
       "firstSeenAt": "2026-11-14T03:13:08.868Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 26.9,
+      "score": 28,
       "metrics": {
-        "points": 167,
-        "comments": 166
+        "points": 190,
+        "comments": 183
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50484960",
       "ai": {
@@ -244,10 +244,10 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "paper",
-      "score": 25.7,
+      "score": 35.5,
       "metrics": {
-        "points": 149,
-        "comments": 135
+        "points": 428,
+        "comments": 604
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50484658",
       "ai": {
@@ -471,7 +471,7 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 38.7,
+      "score": 40.9,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xv7fku/perplexity_releases_decider_v13_26b_and_decider/",
       "related": [
         {
@@ -491,8 +491,8 @@
         ],
         "firstPublishedAt": "2026-11-13T13:08:10.000Z",
         "metrics": {
-          "points": 103,
-          "comments": 21
+          "points": 143,
+          "comments": 26
         }
       },
       "ai": {
@@ -581,7 +581,13 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "协创数据回应传闻称拿卡渠道畅通，算力业务有序推进。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "271imzj9pba",
@@ -597,7 +603,13 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "黄仁勋离职引发硅谷热议，Twitter前CEO预测其三年后回归。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "19jcpfxqkkm",
@@ -613,7 +625,13 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "华尔街预测算力生态下一轮融资将更难、更贵。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "2foqnnvrrt7",
@@ -632,7 +650,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "长盈精密具身智能业务爆发式增长，短期利润承压。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "vs11zes9o3",
@@ -648,7 +672,13 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI录音设备厂商争夺“最懂你”的市场。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "bazvhu4im4",
@@ -681,7 +711,13 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "97%员工支持率显示黄仁勋深受员工爱戴。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "19bq2q1rt0r",
@@ -700,7 +736,13 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Anthropic已部署修复方案解决Claude认证问题。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "ah4ht0u2sx",
@@ -733,7 +775,13 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "MiniMax、字节跳动、OpenAI密集更新AI生图赛道。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "2fb99yq7e0d",
@@ -749,7 +797,13 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "英伟达面临护城河不足以解决所有难题的挑战。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "24lpl8fglh8",
@@ -764,10 +818,10 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 31.8,
+      "score": 33.1,
       "metrics": {
-        "points": 316,
-        "comments": 196
+        "points": 357,
+        "comments": 225
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50481870",
       "ai": {
@@ -792,7 +846,13 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Anthropic称若顺利，十年内有望搞定癌症。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "11l49q9hsmb",
@@ -808,7 +868,13 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "阿里Qwen4即将发布，姚顺雨之后刘大一恒需交作业。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "yw4l6agqc3",
@@ -824,7 +890,13 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "黄仁勋被围剿，暴露了AI投资的最大风险。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "29556hufemh",
@@ -842,7 +914,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "快手商业场景落地智能互动Agent实践。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "bvj40cv3ou",
@@ -858,7 +936,13 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "百度智能云将RSI带进产业一线，推动AI自进化。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "auuhjzlh0f",
@@ -874,7 +958,13 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "paper",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "北大团队发布时序预测综述，梳理十年研究进展。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "dz597l0dtp",
@@ -890,7 +980,13 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "中诚华隆铜陵基地产线竣工，年产5万台计算设备。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "1gsc0xgc6qg",
@@ -906,7 +1002,13 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "“泡沫论”再起，机器人行业一夜入冬。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "2b9nm1nyprr",
@@ -953,10 +1055,10 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 28.1,
+      "score": 28.3,
       "metrics": {
-        "points": 197,
-        "comments": 173
+        "points": 199,
+        "comments": 179
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50481220",
       "ai": {
@@ -985,8 +1087,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 484,
-        "comments": 383
+        "points": 489,
+        "comments": 389
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50481187",
       "ai": {
@@ -1145,7 +1247,31 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "14zo7seudeq",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4069303294546825",
+          "title": "中金公司与蚂蚁集团达成战略合作",
+          "publishedAt": "2026-11-14T07:49:22.411Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "leiphone",
+          "36kr-flash"
+        ],
+        "firstPublishedAt": "2026-11-13T09:05:00.000Z"
+      },
+      "ai": {
+        "summary": "中金公司与蚂蚁集团达成战略合作，共探AI赋能财富管理。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:04:54.151Z"
+      }
     },
     {
       "id": "100ouh58476",
@@ -1411,7 +1537,13 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 22
+      "score": 22,
+      "ai": {
+        "summary": "比亚迪通过仰望与鼎曜展示国际化与高端化之路。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:04:54.151Z"
+      }
     },
     {
       "id": "sissadatlh",
@@ -1494,6 +1626,12 @@
           "36kr-ai"
         ],
         "firstPublishedAt": "2026-11-13T02:04:43.825Z"
+      },
+      "ai": {
+        "summary": "顾全全创业公司发布NovaAtom-Lite模型，全原子结构预测成功率79.07%。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:04:54.151Z"
       }
     },
     {
@@ -1509,11 +1647,17 @@
       "publishedAt": "2026-11-13T06:55:00.000Z",
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
-      "category": "model",
+      "category": "agent",
       "keywords": [
         "具身智能"
       ],
-      "score": 28
+      "score": 22,
+      "ai": {
+        "summary": "Ropedia发布Xperience 2，定义具身数据新标准。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:04:54.151Z"
+      }
     },
     {
       "id": "1ryjlt6xwo7",
@@ -1532,7 +1676,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22
+      "score": 22,
+      "ai": {
+        "summary": "openJiuwen发布RSI原生AgentOS，让Agent自主开发功能。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "1oxs0863i04",
@@ -1566,6 +1716,12 @@
           "qbitai"
         ],
         "firstPublishedAt": "2026-11-13T06:49:00.000Z"
+      },
+      "ai": {
+        "summary": "斯坦福让GPT-6 Astra修改机器人参数，修复指令失灵问题。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:04:54.151Z"
       }
     },
     {
@@ -1797,7 +1953,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 4954,
+        "stars": 5628,
         "starsToday": 1925
       },
       "ai": {
@@ -1892,10 +2048,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 29.7,
+      "score": 29.8,
       "metrics": {
-        "points": 257,
-        "comments": 148
+        "points": 260,
+        "comments": 150
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50477649",
       "ai": {
@@ -2013,7 +2169,13 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 22
+      "score": 22,
+      "ai": {
+        "summary": "谷歌发布两款专业TPU，挑战英伟达通用芯片路线。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "208yadfa9z9",
@@ -2065,7 +2227,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24
+      "score": 24,
+      "ai": {
+        "summary": "谷歌发布新模型Hydrogen，速度飙升2.5倍，超越GPT-6.1 Terra。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:04:54.151Z"
+      }
     },
     {
       "id": "fvbhuf2zqg",
@@ -2122,7 +2290,13 @@
       "keywords": [
         "语音"
       ],
-      "score": 40
+      "score": 40,
+      "ai": {
+        "summary": "DeepSeek发布全家桶应用API，简化开发者功能对接。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:04:54.151Z"
+      }
     },
     {
       "id": "23l8bew0j7x",
@@ -2229,8 +2403,14 @@
       "publishedAt": "2026-11-13T01:17:00.000Z",
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
-      "category": "agent",
-      "score": 22
+      "category": "industry",
+      "score": 22,
+      "ai": {
+        "summary": "谷歌推出LiteRT Tensor API，用于构建和优化端侧机器学习模型。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:05:26.238Z"
+      }
     },
     {
       "id": "l4oas0gzqa",
@@ -2347,9 +2527,9 @@
       "day": "2026-11-13",
       "category": "paper",
       "categoryLocked": true,
-      "score": 24,
+      "score": 26.1,
       "metrics": {
-        "upvotes": 80,
+        "upvotes": 107,
         "comments": 2
       },
       "ai": {
@@ -2434,6 +2614,36 @@
       "dupOf": "12ktd4fdf58"
     },
     {
+      "id": "zwpso71fq5",
+      "key": "gh:berkantay/gpucanvas",
+      "title": "berkantay/gpucanvas",
+      "url": "https://github.com/berkantay/gpucanvas",
+      "excerpt": "Put thousands of live DOM nodes on an infinite canvas: the GPU draws them, an editor selects, moves and resizes them, shaders and transitions run on them, and an AI agent can read them and point at them.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T23:19:42.000Z",
+      "firstSeenAt": "2026-11-14T17:01:04.343Z",
+      "day": "2026-11-13",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15.8,
+      "metrics": {
+        "stars": 370
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "GPU Canvas 项目允许在无限画布上渲染数千个 DOM 节点，支持 AI 代理交互。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-14T17:04:32.632Z"
+      }
+    },
+    {
       "id": "4pe933za31",
       "key": "url:economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash",
       "title": "Why You Should Expect an AI Crash",
@@ -2446,9 +2656,9 @@
       "firstSeenAt": "2026-11-14T03:13:08.868Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 22.4,
+      "score": 22.5,
       "metrics": {
-        "points": 101,
+        "points": 102,
         "comments": 84
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50475735",
@@ -2474,10 +2684,10 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 39,
+      "score": 39.2,
       "metrics": {
-        "points": 338,
-        "comments": 104
+        "points": 347,
+        "comments": 105
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50475713",
       "alsoOn": [
@@ -2626,10 +2836,10 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 32.2,
+      "score": 32.5,
       "metrics": {
-        "points": 357,
-        "comments": 152
+        "points": 368,
+        "comments": 160
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50474883",
       "dupOf": "17pd3pufygc"
@@ -2716,7 +2926,7 @@
       "category": "opensource",
       "score": 27.5,
       "metrics": {
-        "points": 265,
+        "points": 267,
         "comments": 35
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50474361",
@@ -2744,7 +2954,7 @@
       "category": "industry",
       "score": 28.8,
       "metrics": {
-        "points": 196,
+        "points": 197,
         "comments": 232
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50474311",
@@ -3013,10 +3223,10 @@
       "day": "2026-11-13",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 15.7,
+      "score": 19.2,
       "metrics": {
-        "stars": 1973,
-        "starsToday": 94
+        "stars": 2118,
+        "starsToday": 188
       },
       "aiAttempts": 1,
       "ai": {
@@ -3075,7 +3285,7 @@
       "category": "model",
       "score": 40.2,
       "metrics": {
-        "points": 496,
+        "points": 501,
         "comments": 161
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50472260",
@@ -3142,9 +3352,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22.9,
+      "score": 23,
       "metrics": {
-        "points": 134,
+        "points": 135,
         "comments": 39
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50471650",
@@ -3195,8 +3405,8 @@
       "category": "model",
       "score": 66,
       "metrics": {
-        "points": 559,
-        "comments": 349
+        "points": 566,
+        "comments": 350
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50471431",
       "related": [
@@ -3277,8 +3487,8 @@
         ],
         "firstPublishedAt": "2026-11-12T18:00:00.000Z",
         "metrics": {
-          "points": 559,
-          "comments": 349
+          "points": 566,
+          "comments": 350
         }
       },
       "aiAttempts": 2,
@@ -3616,7 +3826,7 @@
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-13",
       "category": "paper",
-      "score": 52,
+      "score": 52.2,
       "aiAttempts": 1,
       "ai": {
         "title": "OpenAI：前沿模型隐藏思维链的原因",
@@ -3649,8 +3859,8 @@
         ],
         "firstPublishedAt": "2026-11-12T16:58:11.000Z",
         "metrics": {
-          "points": 338,
-          "comments": 104
+          "points": 347,
+          "comments": 105
         }
       }
     },

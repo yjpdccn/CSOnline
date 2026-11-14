@@ -660,5 +660,40 @@
         ]
       }
     ]
+  },
+  "2026-11-15": {
+    "day": "2026-11-15",
+    "generatedAt": "2026-11-14T17:06:54.361Z",
+    "itemCount": 60,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "Gemini 4 Carbon 获数学冠军，OpenAI 解散机器人团队，微软服务全面恢复。",
+    "points": [
+      {
+        "text": "Gemini 4 Carbon 获 MathArena 冠军，但成本高昂。",
+        "refs": [
+          "r135dj1j64"
+        ]
+      },
+      {
+        "text": "OpenAI 解散独立机器人团队，因通用模型能直接控制机器人。",
+        "refs": [
+          "ih4xwfgfrd",
+          "2aupu9b66fx"
+        ]
+      },
+      {
+        "text": "微软称服务已全面恢复，此前全球多地服务中断。",
+        "refs": [
+          "l3ylh8264m"
+        ]
+      },
+      {
+        "text": "北大与微信安全团队构建通用智能体全生命周期安全图景。",
+        "refs": [
+          "26jkc3mlxvz"
+        ]
+      }
+    ]
   }
 }

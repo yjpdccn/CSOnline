@@ -1618,6 +1618,31 @@
       "score": 30
     },
     {
+      "id": "1wx4kkc62p2",
+      "key": "gh:moh4696/cinematic-skill",
+      "title": "Moh4696/cinematic-skill",
+      "url": "https://github.com/Moh4696/cinematic-skill",
+      "excerpt": "Agent skill for narrated cinematic films built entirely from code: one continuous camera over photos, maps and cards, timed to the voice. Claude Code, Codex, Cursor, Gemini CLI.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-09T07:58:11.000Z",
+      "firstSeenAt": "2026-11-14T17:01:04.343Z",
+      "day": "2026-11-09",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "AI 编程",
+        "语音"
+      ],
+      "score": 15.7,
+      "metrics": {
+        "stars": 362
+      }
+    },
+    {
       "id": "1n8vjdsbyr",
       "key": "url:leiphone.com/category/industrynews/D80ceE4xuglkLvIu.html",
       "title": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
@@ -2882,10 +2907,34 @@
           "url": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
           "title": "Jensen Huang’s departure blasts big hole in AI startup funding, VCs and founders say",
           "publishedAt": "2026-11-13T22:43:00.000Z"
+        },
+        {
+          "id": "1i19u3pgh5h",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvsb5f/instead_of_lowering_gpu_prices_former_nvidia_ceo/",
+          "title": "Instead Of Lowering GPU Prices, Former NVIDIA CEO Jensen Huang Reportedly Financed AI Startups To Absorb Excess Silicon, Shattering The Shortage Perception",
+          "publishedAt": "2026-11-14T03:40:06.000Z"
+        },
+        {
+          "id": "2alrsqtcnki",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
+          "title": "Jensen Huang and the decline of the visionary showman founder CEO",
+          "publishedAt": "2026-11-14T12:00:00.000Z"
+        },
+        {
+          "id": "237xmldy9ud",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+          "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+          "publishedAt": "2026-11-14T16:34:15.000Z"
         }
       ],
       "story": {
-        "reports": 36,
+        "reports": 39,
         "sources": [
           "jiqizhixin",
           "verge-ai",
@@ -3079,9 +3128,9 @@
         "MCP",
         "AI 编程"
       ],
-      "score": 22.3,
+      "score": 22.4,
       "metrics": {
-        "stars": 1350
+        "stars": 1382
       }
     },
     {
@@ -3592,9 +3641,9 @@
       "keywords": [
         "图像生成"
       ],
-      "score": 42.3,
+      "score": 43,
       "metrics": {
-        "likes": 351
+        "likes": 377
       },
       "skipLlm": true,
       "related": [
@@ -3632,8 +3681,8 @@
         ],
         "firstPublishedAt": "2026-11-08T20:37:23.000Z",
         "metrics": {
-          "likes": 351,
-          "stars": 341
+          "likes": 377,
+          "stars": 360
         }
       }
     },
