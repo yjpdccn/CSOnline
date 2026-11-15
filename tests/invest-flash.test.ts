@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { INVEST_SOURCES } from "@/config/invest-news";
 import { detectEvents, eventObservations, nextBand } from "@/lib/invest/events";
-import { compareFlashes } from "@/lib/invest/flash";
+import { compareFlashes, flashSignature } from "@/lib/invest/flash";
 import { mergeNews, rankNews, toInvestItem } from "@/lib/invest/news";
 import { diffNotifications, formatMessage } from "@/lib/invest/notify";
 import type { Observation } from "@/lib/invest/observations";
@@ -97,6 +97,8 @@ describe("major events", () => {
       flash("cls", "央行、证监会将于明天召开座谈会 研究推动支持资本市场工具使用", 590),
       flash("wscn-global", "央行、证监会将于明天召开座谈会 研究推动支持资本市场工具使用", 588),
       flash("em-pboc", "央行将召开股票回购增持再贷款座谈会", 560),
+      flash("em-focus", "美联储公布2027年议息会议日程 10月会议不作利率决议、专门讨论货币政策战略", 120),
+      flash("cls", "美联储更新了2027年联邦公开市场委员会的会议日程 取消了10月的利率会议安排", 110),
     ];
     const ranked = rankNews(mergeNews([], items, NOW).items, NOW);
     const events = detectEvents({ market: market({}), ranked, previous: null, now: NOW }).events;
@@ -104,6 +106,13 @@ describe("major events", () => {
       ["rate", "日本央行将政策利率维持在1.25%不变，符合市场预期"],
       ["policy", "央行、证监会将于周一召开座谈会 研究推动支持资本市场工具使用"],
     ]);
+  });
+
+  it("does not take a meeting calendar or a meeting without a decision for a decision", () => {
+    expect(flashSignature("美联储公布2027年议息会议日程 10月会议不作利率决议、专门讨论货币政策战略").events.has("decision")).toBe(false);
+    expect(flashSignature("投资日历：周四凌晨美联储公布利率决议").events.has("decision")).toBe(false);
+    expect(flashSignature("美联储宣布维持利率不变，符合市场预期").events.has("decision")).toBe(true);
+    expect(flashSignature("日本央行维持利率不变，不作调整").events.has("decision")).toBe(true);
   });
 });
 

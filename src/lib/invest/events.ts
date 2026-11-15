@@ -1,7 +1,7 @@
 import { INDICES, INVEST_RULES, MACRO, type IndexId, type MacroId } from "@/config/invest";
 import { translatedTitle } from "@/lib/pipeline/text";
 import { dayKey } from "@/lib/time";
-import { COMMENTARY, flashSignature } from "./flash";
+import { COMMENTARY, flashSignature, NO_DECISION } from "./flash";
 import type { RankedCard } from "./news";
 import type { Observation } from "./observations";
 import type { MarketFile } from "./types";
@@ -112,6 +112,8 @@ function newsEvents(ranked: RankedCard[], now: Date): MarketEvent[] {
     const title = translatedTitle(item) ?? item.title;
     const sig = flashSignature(item.title);
     const banks = [...sig.entities].filter((e) => MAJOR_BANKS.has(e));
+    // A central bank's meeting calendar is neither a rate decision nor a policy event.
+    if (banks.length && NO_DECISION.test(item.title)) continue;
     const sources = new Set([item.sourceId, ...(item.related ?? []).map((r) => r.sourceId)]).size;
     if (published >= decisionsSince && banks.length === 1 && !PREVIEW.test(item.title)) {
       const bank = banks[0];

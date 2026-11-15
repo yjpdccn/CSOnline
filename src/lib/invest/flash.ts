@@ -114,6 +114,9 @@ const EVENTS: [string, RegExp][] = [
 /** "符合预期" reports an outcome; "预期" on its own looks ahead. */
 export const COMMENTARY = /预判|前瞻|看点|预计|(?<!符合|符合市场|不及|超|超出|高于|低于)预期|或将|可能|料将|有望|质疑|点评|解读|怎么看|分析|押注|概率/;
 
+/** Meeting calendars, and meetings that make no decision ("10月会议不作利率决议"), mention one without reporting it. */
+export const NO_DECISION = /日程|日历|会议安排|(?:不作|不做|不进行|不举行|不会作出|未作出|取消)[^，。；、,;]{0,6}(?:利率)?(?:决议|决定|会议)/;
+
 /** A PMI is one release only within the same survey. */
 const PMI_SURVEY: [string, RegExp][] = [
   ["private", /RatingDog|财新|标普全球|S&P Global/i],
@@ -147,8 +150,8 @@ export function flashSignature(title: string): FlashSignature {
   if (PBOC.test(rest.replace(/美联储|联储|(?:全球|各国|多国|主要)央行/g, " "))) entities.add("cb:pboc");
   const events = new Set<string>();
   for (const [key, re] of EVENTS) if (re.test(text)) events.add(key);
-  // Previews and commentary name the decision without reporting it.
-  if (events.has("decision") && COMMENTARY.test(text)) events.delete("decision");
+  // Previews, commentary and meeting calendars name the decision without reporting it.
+  if (events.has("decision") && (COMMENTARY.test(text) || NO_DECISION.test(text))) events.delete("decision");
   if (events.has("data:pmi")) events.add(`pmi:${PMI_SURVEY.find(([, re]) => re.test(text))?.[0] ?? "main"}`);
   const figures = new Set<string>();
   for (const m of text.matchAll(/(\d+(?:\.\d+)?)\s*(?:个)?(?:基点|bps?|BP)(?![a-z])/gi)) figures.add(`bp:${Number(m[1])}`);
