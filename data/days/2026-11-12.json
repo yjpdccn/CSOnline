@@ -909,9 +909,9 @@
       "day": "2026-11-12",
       "category": "multimodal",
       "categoryLocked": true,
-      "score": 18.8,
+      "score": 19.3,
       "metrics": {
-        "likes": 237
+        "likes": 265
       },
       "skipLlm": true
     },
@@ -1297,7 +1297,7 @@
       "day": "2026-11-12",
       "category": "industry",
       "score": 18,
-      "dupOf": "4ahtgy3g3n"
+      "dupOf": "rd3k958kbt"
     },
     {
       "id": "9bfomlbeye",
@@ -1412,33 +1412,8 @@
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-12",
       "category": "industry",
-      "score": 26,
-      "related": [
-        {
-          "id": "e675ke9qee",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4066274942571652",
-          "title": "马斯克给黄仁勋留了个工位",
-          "publishedAt": "2026-11-12T08:31:30.739Z"
-        },
-        {
-          "id": "zf8dgzqg12",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4069009439871873",
-          "title": "“让黄仁勋回归”，马斯克带头，超2万人请愿",
-          "publishedAt": "2026-11-14T03:10:33.443Z"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "qbitai",
-          "36kr-ai"
-        ],
-        "firstPublishedAt": "2026-11-12T08:16:11.000Z"
-      }
+      "score": 18,
+      "dupOf": "rd3k958kbt"
     },
     {
       "id": "biuomfksgh",
@@ -1508,9 +1483,9 @@
       "day": "2026-11-12",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 24,
+      "score": 25.1,
       "metrics": {
-        "stars": 1802
+        "stars": 2145
       },
       "aiAttempts": 2,
       "ai": {

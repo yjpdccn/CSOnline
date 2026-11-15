@@ -102,10 +102,10 @@
       "firstSeenAt": "2026-11-14T03:13:08.868Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 28.2,
+      "score": 28.3,
       "metrics": {
-        "points": 192,
-        "comments": 192
+        "points": 194,
+        "comments": 194
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50484960",
       "ai": {
@@ -246,8 +246,8 @@
       "category": "paper",
       "score": 36,
       "metrics": {
-        "points": 461,
-        "comments": 671
+        "points": 472,
+        "comments": 708
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50484658",
       "ai": {
@@ -471,7 +471,7 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 40.9,
+      "score": 41,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xv7fku/perplexity_releases_decider_v13_26b_and_decider/",
       "related": [
         {
@@ -491,7 +491,7 @@
         ],
         "firstPublishedAt": "2026-11-13T13:08:10.000Z",
         "metrics": {
-          "points": 144,
+          "points": 145,
           "comments": 26
         }
       },
@@ -818,10 +818,10 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 33.3,
+      "score": 33.4,
       "metrics": {
-        "points": 365,
-        "comments": 230
+        "points": 367,
+        "comments": 232
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50481870",
       "ai": {
@@ -1059,7 +1059,7 @@
       "category": "industry",
       "score": 28.3,
       "metrics": {
-        "points": 199,
+        "points": 200,
         "comments": 179
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50481220",
@@ -1745,7 +1745,7 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "model",
-      "score": 32,
+      "score": 40,
       "related": [
         {
           "id": "1hru80t2eee",
@@ -1754,13 +1754,30 @@
           "url": "https://www.qbitai.com/2026/11/509663.html",
           "title": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-1031，把RSI带进生命科学",
           "publishedAt": "2026-11-13T07:06:32.000Z"
+        },
+        {
+          "id": "1auvz9wr9u7",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4069381314303105",
+          "title": "OpenAI机器人团队突然解散，GPT-6 Astra把行业一锅端了",
+          "publishedAt": "2026-11-15T06:00:57.000Z"
+        },
+        {
+          "id": "dn57hjadmu",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-15-7",
+          "title": "逼近GPT-6 Astra！韩松团队让Qwen3.8-27B在5090上操作机械臂，现已开源",
+          "publishedAt": "2026-11-15T08:58:00.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 4,
         "sources": [
           "jiqizhixin",
-          "qbitai"
+          "qbitai",
+          "36kr-ai"
         ],
         "firstPublishedAt": "2026-11-13T06:49:00.000Z"
       },
@@ -2043,7 +2060,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 6128,
+        "stars": 6664,
         "starsToday": 1925
       },
       "ai": {
@@ -2158,7 +2175,7 @@
       ],
       "score": 29.8,
       "metrics": {
-        "points": 260,
+        "points": 261,
         "comments": 151
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50477649",
@@ -2676,7 +2693,7 @@
       "categoryLocked": true,
       "score": 27.9,
       "metrics": {
-        "upvotes": 135,
+        "upvotes": 136,
         "comments": 3
       },
       "ai": {
@@ -2867,7 +2884,7 @@
       "category": "industry",
       "score": 39.3,
       "metrics": {
-        "points": 352,
+        "points": 353,
         "comments": 105
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50475713",
@@ -3017,10 +3034,10 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 32.9,
+      "score": 33.4,
       "metrics": {
-        "points": 381,
-        "comments": 165
+        "points": 404,
+        "comments": 176
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50474883",
       "dupOf": "17pd3pufygc",
@@ -3106,10 +3123,10 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "opensource",
-      "score": 27.5,
+      "score": 27.6,
       "metrics": {
         "points": 267,
-        "comments": 35
+        "comments": 36
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50474361",
       "aiAttempts": 1,
@@ -3134,9 +3151,9 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 28.8,
+      "score": 28.9,
       "metrics": {
-        "points": 197,
+        "points": 198,
         "comments": 233
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50474311",
@@ -3407,7 +3424,7 @@
       "categoryLocked": true,
       "score": 19.2,
       "metrics": {
-        "stars": 2175,
+        "stars": 2236,
         "starsToday": 188
       },
       "aiAttempts": 1,
@@ -4041,7 +4058,7 @@
         ],
         "firstPublishedAt": "2026-11-12T16:58:11.000Z",
         "metrics": {
-          "points": 352,
+          "points": 353,
           "comments": 105
         }
       }

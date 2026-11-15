@@ -663,39 +663,34 @@
   },
   "2026-11-15": {
     "day": "2026-11-15",
-    "generatedAt": "2026-11-15T02:44:29.479Z",
-    "itemCount": 59,
-    "mode": "fallback",
-    "overview": "过去 24 小时共收录 59 条 AI 资讯：产品与行业 27 条、开源项目 12 条、论文 10 条、Agent 与工具 5 条、模型发布 4 条、多模态与视频 1 条。以下为按重要性排序的前 5 条。",
+    "generatedAt": "2026-11-15T13:07:45.508Z",
+    "itemCount": 51,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "美团发布千亿参数Agent模型，Nvidia安全团队动荡，马斯克星舰回收创历史。",
     "points": [
       {
-        "text": "【行业】Nvidia 通过循环融资协议故意维持 GPU 高价",
+        "text": "美团发布1.6万亿参数Agent模型，未使用Nvidia GPU。",
         "refs": [
-          "b7sahk8is"
+          "zai7uxzmas"
         ]
       },
       {
-        "text": "【行业】突发｜OpenAI解散独立机器人团队",
+        "text": "马斯克SpaceX创造历史，星舰飞船首次被发射塔捕获。",
         "refs": [
-          "ih4xwfgfrd"
+          "eurm8fi6zr"
         ]
       },
       {
-        "text": "【行业】Nvidia 安全团队去哪了？",
+        "text": "Nvidia安全主管离职，CEO黄仁勋因关系问题辞职。",
         "refs": [
           "vgz18dq85d"
         ]
       },
       {
-        "text": "【论文】“史上最严”湿实验预测基准发布：推理拉满、算力翻5倍也白搭",
+        "text": "澳大利亚央行发现AI正最先冲击年轻工人。",
         "refs": [
-          "1diprgbugbp"
-        ]
-      },
-      {
-        "text": "【论文】The Claude Delusion",
-        "refs": [
-          "7f9a4c2ytq"
+          "25g59rgkpc"
         ]
       }
     ]

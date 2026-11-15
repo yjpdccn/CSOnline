@@ -2,6 +2,415 @@
   "day": "2026-11-15",
   "items": [
     {
+      "id": "t3c2ztlif9",
+      "key": "url:theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "title": "An overview of Jensen Huang’s messy days",
+      "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+      "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on Jensen Huang's resignation and the fallout from Nvidia's leadership crisis, follow Terrence O'Brien. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET.…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-15T13:00:00.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "1oxi0ozjfia",
+      "key": "url:36kr.com/p/4067755181003654",
+      "title": "黄仁勋吃了上市太早的亏",
+      "url": "https://36kr.com/p/4067755181003654",
+      "excerpt": "业绩权威必须不断得到认可。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T12:41:58.177Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "11dathxkeii",
+      "key": "url:the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china",
+      "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+      "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+      "excerpt": "Megaspeed, the firm owned by ousted Nvidia CEO Jensen Huang's former lover Alice Huang, arranged nearly $12 billion in Nvidia chip orders for Chinese companies between 2024 and 2025, according to the WSJ. Short seller Culper Research estimates Nvidia's actual China revenue share…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-15T11:35:12.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "i3d0dt33fu",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xwt3ri/paper_no_second_run_does_rsi_stop_at_frontier",
+      "title": "[Paper] No Second Run: Does RSI Stop at Frontier Pre-training? - 801-30B-A3B-Base Coming Soon",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwt3ri/paper_no_second_run_does_rsi_stop_at_frontier/",
+      "excerpt": "Pre-training is where every foundation model begins; bringing recursive self-improvement (RSI) there would let AI improve the process that creates AI. Yet public RSI work has so far targeted only post-training, which starts from an existing base model, runs trials costing GPU-ho…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T11:21:12.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "paper",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwt3ri/paper_no_second_run_does_rsi_stop_at_frontier/"
+    },
+    {
+      "id": "25g59rgkpc",
+      "key": "url:the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service",
+      "title": "Australia's central bank finds AI hitting young workers first, especially in software and customer service",
+      "url": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
+      "excerpt": "Australia's central bank sees early signs that AI is hitting young entry-level workers in highly exposed jobs like software development and customer service. Since ChatGPT launched, job postings and employment among 15- to 24-year-olds in those fields have dropped more sharply t…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-15T10:45:58.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 15
+    },
+    {
+      "id": "zai7uxzmas",
+      "key": "url:the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu",
+      "title": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU",
+      "url": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
+      "excerpt": "Meituan has released the weights for LongCat-2.5, a 1.6-trillion-parameter model built for AI agents and trained entirely on Chinese hardware. On Terminal Bench, it scores 88.4 points, landing just behind Claude Opus 5. The sample deployment runs on 194 Huawei Ascend chips, and…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-15T10:06:06.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 19
+    },
+    {
+      "id": "3n4bpfn9x1",
+      "key": "url:maccus.fr/en/eu-open-ai-model-europa",
+      "title": "EUROPA, the EU's open AI model, is aiming for nearly 1 trillion parameters",
+      "url": "https://maccus.fr/en/eu-open-ai-model-europa/",
+      "excerpt": "One can hope [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T09:24:57.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwr917/europa_the_eus_open_ai_model_is_aiming_for_nearly/"
+    },
+    {
+      "id": "1wqdwaozk9w",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xwqvd2/the_best_and_amdest_computer_ive_ever_owned",
+      "title": "The best (and AMD-est) computer I've ever owned",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwqvd2/the_best_and_amdest_computer_ive_ever_owned/",
+      "excerpt": "New build with a EPYC 7443 / Tyan S8030 board, and R9700 + 7900 XT. Was supposed to be selling the 7900 XT to pay for the R9700, but that somehow didn't happen... [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T09:00:52.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwqvd2/the_best_and_amdest_computer_ive_ever_owned/"
+    },
+    {
+      "id": "1cuomzweeet",
+      "key": "url:36kr.com/p/4069713201386369",
+      "title": "买了跑步机却还得付钱看视频？国外老哥一怒之下决定用Claude破解",
+      "url": "https://36kr.com/p/4069713201386369",
+      "excerpt": "道高一尺，魔高一丈，孙悟空和如来佛的关系，大概也不过如此了吧。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T09:00:42.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "multimodal",
+      "score": 18
+    },
+    {
+      "id": "dn57hjadmu",
+      "key": "url:jiqizhixin.com/articles/2026-11-15-7",
+      "title": "逼近GPT-6 Astra！韩松团队让Qwen3.8-27B在5090上操作机械臂，现已开源",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-15-7",
+      "excerpt": "随着 Fable 和 GPT-6 Astra 相继问世，具身智能领域受到巨大冲击，甚至掀起了一股「通用大模型能搞定机器人一切」的热潮。开发者们争相将这两个模型接入机器人，尝试完成各种复杂任务。但随着探索深入，模型规模庞大的问题也逐渐显现：高昂的推理成本、难以满足实时控制需求的响应延迟，以及端侧...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T08:58:00.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "model",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 28,
+      "dupOf": "1oxs0863i04"
+    },
+    {
+      "id": "uq73qanuza",
+      "key": "url:jiqizhixin.com/articles/2026-11-15-6",
+      "title": "EMNLP 2026 杰出论文 | 大模型训练，数据配比难？日本NICT团队提出最优分布向量合并",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-15-6",
+      "excerpt": "不同数据，到底各训多少？每个模型训练师都绕不开这个问题。训练集中不同数据配比出错，往往只能从头训。每个数据集各放多少入训练集，训练前就得定好；但是配比好不好，却要等训练结束评测后才知道。效果若不理想，可能要调整比例重新训练，试错成本极高。日本信息通信研究机构（NICT）的宋海越及团队针对这一问...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T08:55:00.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "paper",
+      "score": 18
+    },
+    {
+      "id": "bmrgjpnipp",
+      "key": "url:jiqizhixin.com/articles/2026-11-15-5",
+      "title": "刚刚，李沐加入Aimotion！出任联创兼CTO",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-15-5",
+      "excerpt": "大家都喜欢的沐神，最近有了新的职业动向。刚刚，我们得到消息，李沐正式出任 Aimotion 联合创始人兼 CTO，主导下一代产业级 AI 技术体系建设。同时他继续担任 Boson AI 联合创始人兼 CTO。也就是说，这不是跳槽，而是两边联手，联合攻关产业级世界模型和商业 AI Agent。李...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T08:52:00.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "eurm8fi6zr",
+      "key": "url:jiqizhixin.com/articles/2026-11-15-4",
+      "title": "马斯克SpaceX创造历史：「筷子夹火箭2.0」，星舰飞船首次被发射塔捕获",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-15-4",
+      "excerpt": "今天凌晨，SpaceX 再次上演了堪称科幻电影的一幕。在经历超过 22 小时的太空飞行、绕地球飞行 14 圈后，一艘高约 52 米的巨型飞船，重新穿过大气层，飞回美国得克萨斯州的星舰基地。在距离地面不远的地方，星舰重新点燃发动机，完成最后的翻转与减速，精准进入发射塔两条巨大机械臂之间。随后，发...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T08:50:00.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2gahlnaca7b",
+      "key": "url:jiqizhixin.com/articles/2026-11-15-3",
+      "title": "Agent如何越用越强？中科院自动化所、美团等推出RSI综述",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-15-3",
+      "excerpt": "从 Prompt 优化到 Harness 进化，梳理 RSI 的发展趋势，用三个问题、七步生命周期，理解 Agent 如何把经验转化为持续改进。想象这样一个场景：一个编程 Agent 调用 API 时遇到报错，发现接口参数已经更新。经过几轮尝试，它终于修复了问题。但到了下一个任务，它还会不会犯...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T08:47:00.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22
+    },
+    {
+      "id": "rd3k958kbt",
+      "key": "url:jiqizhixin.com/articles/2026-11-15-2",
+      "title": "刚刚，黄仁勋回归请愿书签名者突破12万",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-15-2",
+      "excerpt": "黄仁勋离开英伟达的第三天，一场要求他重返 CEO 岗位的声援行动，正在硅谷持续发酵。最新消息是，支持黄仁勋回归的在线请愿书，签名人数已经突破 12 万（数据还在实时刷新），其中包括 6000 多名自称为英伟达现任员工的人、1000 多名前员工，以及 60000 多名股东。不过，需要注意的是，这...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T08:40:00.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 34,
+      "related": [
+        {
+          "id": "4ahtgy3g3n",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/509334.html",
+          "title": "马斯克已准备好聘请黄仁勋",
+          "publishedAt": "2026-11-12T08:16:11.000Z"
+        },
+        {
+          "id": "e675ke9qee",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4066274942571652",
+          "title": "马斯克给黄仁勋留了个工位",
+          "publishedAt": "2026-11-12T08:31:30.739Z"
+        },
+        {
+          "id": "zf8dgzqg12",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4069009439871873",
+          "title": "“让黄仁勋回归”，马斯克带头，超2万人请愿",
+          "publishedAt": "2026-11-14T03:10:33.443Z"
+        }
+      ],
+      "story": {
+        "reports": 4,
+        "sources": [
+          "jiqizhixin",
+          "qbitai",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-12T08:16:11.000Z"
+      }
+    },
+    {
+      "id": "g0x48pp8nh",
+      "key": "url:jiqizhixin.com/articles/2026-11-15",
+      "title": "RSI取代后训练科学家？斯坦福团队探索什么才算真正的进步",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-15",
+      "excerpt": "在算力对等的前提下，单纯堆叠算力无法保证模型在自我提升过程中的胜率；模型针对「受欢迎程度」开展优化时，容易出现迎合人类的倾向，进而造成安全指标下滑；相关研究首次提出 RSIHF 框架，证实在 AI 自动训练 AI 的过程中，模型的「受欢迎程度」与「安全性」不能画等号，必须分开评估。如果 AI ...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T08:36:00.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "19sxy8mju40",
+      "key": "url:infoq.cn/article/1N801doFOEl2Swqey5Jy",
+      "title": "Yelp AI 助手融合原生 UI 与服务端驱动 UI",
+      "url": "https://www.infoq.cn/article/1N801doFOEl2Swqey5Jy?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T07:00:00.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "agent",
+      "score": 18
+    },
+    {
+      "id": "1auvz9wr9u7",
+      "key": "url:36kr.com/p/4069381314303105",
+      "title": "OpenAI机器人团队突然解散，GPT-6 Astra把行业一锅端了",
+      "url": "https://36kr.com/p/4069381314303105",
+      "excerpt": "机器人热潮未退巨头已转身",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T06:00:57.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "model",
+      "score": 24,
+      "dupOf": "1oxs0863i04"
+    },
+    {
+      "id": "tzq4mi1uoc",
+      "key": "url:36kr.com/newsflashes/4070541922685828",
+      "title": "韩国10月ICT产业出口额达703.5亿美元 芯片出口同比大增259.4%",
+      "url": "https://36kr.com/newsflashes/4070541922685828",
+      "excerpt": "上月，韩国信息通信技术产业出口额达703.5亿美元，连续第二个月突破700亿美元关口。同比增速为202.0%，首次超过200%。韩国科学技术信息通信部与产业通商资源部15日发布的《2026年10月ICT贸易动向》显示，10月ICT出口额较去年同期232.9亿美元增长至三倍。半导体是拉动增长的主力。芯片出口同比大增259.4%至564.7亿美元，占ICT出口总额的80.3%。受AI数据中心投资增加带动，固态硬盘出货量飙升584.3%，计算机及外设出口同比大涨439.3%，达到59.9亿美元。（智通财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T05:51:55.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2bdzaszt60k",
+      "key": "url:36kr.com/p/4070571639067782",
+      "title": "36氪首发丨具身智能建筑机器人企业完成超亿级融资，连续三年订单复合增长率超100%",
+      "url": "https://36kr.com/p/4070571639067782",
+      "excerpt": "建筑机器人下一阶段竞争焦点将转向运营效率",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T05:19:51.076Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "olv7zyzpt6",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and",
+      "title": "RASA will cause total chaos to open LLMs and beyond",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and/",
+      "excerpt": "Commerce Moves to Finalize Rule Blocking Chinese AI Firms From Renting Nvidia GPUs Abroad https://explainx.ai/blog/commerce-final-rule-chinese-ai-firms-remote-nvidia-chips-the-information-2026 House Passes Remote Access Security Act to Limit Adversaries’ Remote Access to Critica…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T04:47:03.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and/"
+    },
+    {
+      "id": "iqttmjv0z2",
+      "key": "url:36kr.com/newsflashes/4070475256075394",
+      "title": "首份万卡级智算集群网络技术报告在北京正式发布",
+      "url": "https://36kr.com/newsflashes/4070475256075394",
+      "excerpt": "11月15日，首份聚焦万卡级智算集群网络技术发展的《万卡级智算集群网络技术发展与国产化研究报告》，在北京举行的第八届中国超级算力大会（ChinaSC 2026）暨中国智能计算产业联盟理事会年会上发布。报告结合了中科曙光自研的scaleFabric高速网络与曙光8000工程实践，分析国产智算网络技术的应用进展。从大规模组网到通信优化、可靠运行，中科曙光的技术成果与工程经验，为行业探索超大规模智算集群网络建设路径提供参考。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T03:41:33.266Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 22
+    },
+    {
       "id": "15h81su1cb0",
       "key": "url:infoq.cn/article/fZSEkDatL9xajG8PVi7G",
       "title": "闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
@@ -83,6 +492,26 @@
       }
     },
     {
+      "id": "20z7ztsuqoq",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xwgiow/lfm2524ba2b_hermes_is_awesome",
+      "title": "LFM2.5-24B-A2B + Hermes is awesome!",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwgiow/lfm2524ba2b_hermes_is_awesome/",
+      "excerpt": "I just wanted to share some love for a model that doesn't seem to get very much: LFM2.5-24B-A2B! (https://huggingface.co/LiquidAI/LFM2.5-24B-A2B-GGUF) LFM2.5-24B-A2B seems to be the only model that strikes a great balance between speed and capability on commodity hardware. Just…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-14T23:31:27.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "keywords": [
+        "开源模型"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwgiow/lfm2524ba2b_hermes_is_awesome/"
+    },
+    {
       "id": "uhhtdjj6im",
       "key": "url:reddit.com/r/LocalLLaMA/comments/1xwf8bb/finally_clicked_for_me_local_ai_is_the_future_not",
       "title": "Finally clicked for me: local AI is the future, not cloud AI",
@@ -119,10 +548,10 @@
       "firstSeenAt": "2026-11-15T02:38:59.167Z",
       "day": "2026-11-15",
       "category": "industry",
-      "score": 28.2,
+      "score": 34.4,
       "metrics": {
-        "points": 219,
-        "comments": 124
+        "points": 428,
+        "comments": 218
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50501631",
       "ai": {
@@ -156,6 +585,23 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-15T02:40:45.379Z"
       }
+    },
+    {
+      "id": "13hymxfn22",
+      "key": "url:videocardz.com/newz/microsoft-could-pay-gamers-for-using-spare-gpu-capacity-to-train-ai",
+      "title": "Microsoft patent describes turning idle gaming GPUs into paid AI training hardware",
+      "url": "https://videocardz.com/newz/microsoft-could-pay-gamers-for-using-spare-gpu-capacity-to-train-ai",
+      "excerpt": "[留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-14T21:48:41.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwe9i5/microsoft_patent_describes_turning_idle_gaming/"
     },
     {
       "id": "1mhmasbvb",
@@ -243,7 +689,7 @@
       ],
       "score": 18.4,
       "metrics": {
-        "stars": 665
+        "stars": 666
       },
       "dupOf": "28um692h6wb"
     },
@@ -537,6 +983,26 @@
       "dupOf": "5atjigoj76"
     },
     {
+      "id": "17gv4yjxpjz",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xwan2j/update_tandemcpp_deepseekv41_on_a_64_gb_pc_with_a",
+      "title": "Update: tandem.cpp — DeepSeek-V4.1 on a 64 GB PC with a 16 GB card, and AMD (ROCm) support",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwan2j/update_tandemcpp_deepseekv41_on_a_64_gb_pc_with_a/",
+      "excerpt": "Quick update on tandem.cpp, my patch set for llama.cpp that runs MoE models too big for your VRAM faster. It keeps the hot experts on the GPU and lets the CPU help with the rest. Repo: https://github.com/ewhacc/tandem.cpp DeepSeek-V4.1-Flash IQ2_XS (ISTA GSQ-RCO, 139 GiB of expe…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-14T19:12:45.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "model",
+      "keywords": [
+        "本地部署"
+      ],
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwan2j/update_tandemcpp_deepseekv41_on_a_64_gb_pc_with_a/"
+    },
+    {
       "id": "di65fwjsug",
       "key": "url:the-decoder.com/anthropic-ceo-amodei-admits-theres-a-huge-uncertainty-in-whats-going-to-happen-next-year-days-before-a-record-ipo",
       "title": "Anthropic CEO Amodei admits \"there's a huge uncertainty in what's going to happen next year\" days before a record IPO",
@@ -558,6 +1024,26 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-15T02:40:45.379Z"
       }
+    },
+    {
+      "id": "71wd9oe4vh",
+      "key": "hf:nex-agi/nex-n2.6",
+      "title": "nex-agi/Nex-N2.6 · Hugging Face",
+      "url": "https://huggingface.co/nex-agi/Nex-N2.6",
+      "excerpt": "Nex-N2.6 is a multimodal agentic model from Nex-AGI, built on GLM-5.3-Flash. It is designed for computer use, coding, and long-horizon tasks involving tools. This repository contains the FP8-quantized weights of Nex-N2.6, with approximately 321B parameters. Following Nex-N2.5-Pr…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-14T18:31:49.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xw9mpa/nexaginexn26_hugging_face/"
     },
     {
       "id": "12glheo0yj6",
@@ -583,6 +1069,26 @@
       }
     },
     {
+      "id": "1idgo1np0tz",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xw7zrg/tinyvoca_a_fully_open_45mparameter_tts_code",
+      "title": "tiny-voca: a fully open 4.5M-parameter TTS (code, weights, dataset). Runs 70x real time on a CPU",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xw7zrg/tinyvoca_a_fully_open_45mparameter_tts_code/",
+      "excerpt": "I made a small English text-to-speech model called tiny-voca. It has 4.5M parameters, two voices, and it runs in your browser. Try it here, nothing is sent to a server: https://tiny-voca.n4ze3m.com Some facts: - 4,537,291 parameters, 18 MB. This is the whole model, the waveform…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-14T17:26:13.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-15",
+      "category": "multimodal",
+      "keywords": [
+        "语音"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xw7zrg/tinyvoca_a_fully_open_45mparameter_tts_code/"
+    },
+    {
       "id": "2aww1ruhmjp",
       "key": "gh:dream-num/univer",
       "title": "dream-num/univer",
@@ -600,10 +1106,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25.4,
+      "score": 30,
       "metrics": {
-        "stars": 24530,
-        "starsToday": 495
+        "stars": 25242,
+        "starsToday": 1041
       },
       "ai": {
         "title": "Univer Office SDK：构建 AI 办公平台",
@@ -632,10 +1138,10 @@
         "Agent",
         "A2UI"
       ],
-      "score": 10.7,
+      "score": 23.8,
       "metrics": {
-        "stars": 17394,
-        "starsToday": 9
+        "stars": 17568,
+        "starsToday": 393
       },
       "ai": {
         "title": "AG-UI：Agent 与前端交互协议",
@@ -664,10 +1170,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 20.3,
+      "score": 26.4,
       "metrics": {
-        "stars": 120104,
-        "starsToday": 227
+        "stars": 120329,
+        "starsToday": 562
       },
       "ai": {
         "title": "caveman：大幅减少 Token 的编程代理",
@@ -696,10 +1202,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 16,
+      "score": 25.3,
       "metrics": {
-        "stars": 942,
-        "starsToday": 101
+        "stars": 1174,
+        "starsToday": 484
       },
       "ai": {
         "title": "LoopForge：自托管编码代理工作流",

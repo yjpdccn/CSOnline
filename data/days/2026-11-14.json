@@ -39,10 +39,10 @@
       "firstSeenAt": "2026-11-15T02:38:59.167Z",
       "day": "2026-11-14",
       "category": "paper",
-      "score": 23.8,
+      "score": 26.5,
       "metrics": {
-        "points": 183,
-        "comments": 9
+        "points": 246,
+        "comments": 23
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50497589",
       "ai": {
@@ -114,10 +114,10 @@
       "keywords": [
         "本地部署"
       ],
-      "score": 29.4,
+      "score": 30,
       "metrics": {
-        "points": 128,
-        "comments": 65
+        "points": 140,
+        "comments": 68
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50497155",
       "ai": {
@@ -127,6 +127,23 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-15T02:40:45.379Z"
       }
+    },
+    {
+      "id": "1k7cybfdpxs",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xw36op/qwen4_flash_wishlist",
+      "title": "Qwen4 Flash wishlist",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xw36op/qwen4_flash_wishlist/",
+      "excerpt": "After using 3.8QFN for some time I have to the conclusion that my wish list for QF4 now only consists of these points. The model can talk to you in a human understandable language See point 1 General improvement in reasoning/intelligence, but mostly see point 1 That's about it.…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-14T14:04:38.000Z",
+      "firstSeenAt": "2026-11-15T13:03:46.546Z",
+      "day": "2026-11-14",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xw36op/qwen4_flash_wishlist/"
     },
     {
       "id": "1k5m1boeo4i",
@@ -165,10 +182,10 @@
       "firstSeenAt": "2026-11-14T17:01:04.343Z",
       "day": "2026-11-14",
       "category": "paper",
-      "score": 26.2,
+      "score": 26.5,
       "metrics": {
-        "points": 145,
-        "comments": 182
+        "points": 148,
+        "comments": 195
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50496921",
       "aiAttempts": 2,
@@ -192,10 +209,10 @@
       "firstSeenAt": "2026-11-15T02:38:59.167Z",
       "day": "2026-11-14",
       "category": "paper",
-      "score": 21.3,
+      "score": 22.3,
       "metrics": {
-        "points": 127,
-        "comments": 6
+        "points": 146,
+        "comments": 8
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50496885",
       "ai": {
@@ -724,7 +741,7 @@
       "firstSeenAt": "2026-11-14T17:01:04.343Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 41.6,
+      "score": 41.7,
       "related": [
         {
           "id": "2ap7u6vz1xm",
@@ -743,7 +760,7 @@
         ],
         "firstPublishedAt": "2026-11-13T17:55:23.000Z",
         "metrics": {
-          "points": 175,
+          "points": 177,
           "comments": 73
         }
       },
@@ -1029,7 +1046,7 @@
       "day": "2026-11-14",
       "category": "industry",
       "score": 18,
-      "dupOf": "4ahtgy3g3n"
+      "dupOf": "rd3k958kbt"
     },
     {
       "id": "1f5i5b1188c",
@@ -1068,8 +1085,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1038,
-        "comments": 621
+        "points": 1077,
+        "comments": 642
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50493251",
       "ai": {
@@ -1221,7 +1238,7 @@
       "category": "industry",
       "score": 23,
       "metrics": {
-        "points": 110,
+        "points": 111,
         "comments": 87
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50491097",
@@ -1277,10 +1294,10 @@
       "firstSeenAt": "2026-11-14T03:13:08.868Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 28.2,
+      "score": 28.3,
       "metrics": {
-        "points": 218,
-        "comments": 129
+        "points": 220,
+        "comments": 132
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50488769",
       "ai": {
@@ -1330,9 +1347,9 @@
       "firstSeenAt": "2026-11-14T03:13:08.868Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 22.9,
+      "score": 23,
       "metrics": {
-        "points": 144,
+        "points": 145,
         "comments": 26
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50488464",
@@ -1425,7 +1442,7 @@
       ],
       "score": 29.9,
       "metrics": {
-        "stars": 51478,
+        "stars": 51722,
         "starsToday": 897
       },
       "ai": {
@@ -1454,10 +1471,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 26.3,
+      "score": 28.1,
       "metrics": {
-        "stars": 4870,
-        "starsToday": 556
+        "stars": 5175,
+        "starsToday": 707
       },
       "ai": {
         "title": "claude-trading-skills：Claude 代码技能用于股市分析",
@@ -1482,10 +1499,10 @@
       "day": "2026-11-14",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 24.3,
+      "score": 28.3,
       "metrics": {
-        "stars": 2322,
-        "starsToday": 423
+        "stars": 2623,
+        "starsToday": 731
       },
       "ai": {
         "title": "Likely7/Veyra-NRVideo：利用 DLSS 5 实现 120F…",
@@ -1514,10 +1531,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 27.7,
+      "score": 28.2,
       "metrics": {
-        "stars": 56346,
-        "starsToday": 673
+        "stars": 56616,
+        "starsToday": 718
       },
       "aiAttempts": 2,
       "ai": {
@@ -1541,7 +1558,7 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 45.9,
+      "score": 46.4,
       "related": [
         {
           "id": "te5yvsklut",
@@ -1560,8 +1577,8 @@
         ],
         "firstPublishedAt": "2026-11-12T21:56:11.000Z",
         "metrics": {
-          "points": 381,
-          "comments": 165
+          "points": 404,
+          "comments": 176
         }
       },
       "ai": {
@@ -1611,9 +1628,9 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 25.6,
+      "score": 25.7,
       "metrics": {
-        "points": 175,
+        "points": 177,
         "comments": 73
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50487184",
@@ -1639,10 +1656,10 @@
       "firstSeenAt": "2026-11-14T03:13:08.868Z",
       "day": "2026-11-14",
       "category": "paper",
-      "score": 32.8,
+      "score": 32.9,
       "metrics": {
-        "points": 426,
-        "comments": 107
+        "points": 430,
+        "comments": 110
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50486748",
       "aiAttempts": 1,

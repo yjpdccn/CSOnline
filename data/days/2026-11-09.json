@@ -2931,10 +2931,26 @@
           "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
           "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
           "publishedAt": "2026-11-14T16:34:15.000Z"
+        },
+        {
+          "id": "11dathxkeii",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+          "title": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China",
+          "publishedAt": "2026-11-15T11:35:12.000Z"
+        },
+        {
+          "id": "t3c2ztlif9",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
+          "title": "An overview of Jensen Huang’s messy days",
+          "publishedAt": "2026-11-15T13:00:00.000Z"
         }
       ],
       "story": {
-        "reports": 39,
+        "reports": 41,
         "sources": [
           "jiqizhixin",
           "verge-ai",
@@ -3128,9 +3144,9 @@
         "MCP",
         "AI 编程"
       ],
-      "score": 22.5,
+      "score": 22.8,
       "metrics": {
-        "stars": 1406
+        "stars": 1459
       }
     },
     {
@@ -3641,9 +3657,9 @@
       "keywords": [
         "图像生成"
       ],
-      "score": 43.1,
+      "score": 43.3,
       "metrics": {
-        "likes": 386
+        "likes": 399
       },
       "skipLlm": true,
       "related": [
@@ -3681,7 +3697,7 @@
         ],
         "firstPublishedAt": "2026-11-08T20:37:23.000Z",
         "metrics": {
-          "likes": 386,
+          "likes": 399,
           "stars": 360
         }
       }
