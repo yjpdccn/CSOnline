@@ -1025,7 +1025,13 @@
       "day": "2026-11-13",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "数据中心建设面临争议，核心议题涉及三个关键方面。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "73mhl77q9b",
@@ -1042,7 +1048,13 @@
       "day": "2026-11-13",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "双11期间商家与 AI 协同做生意，AI 将需求推向更早，将生意带向更远。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "4l2050xcri",
@@ -1116,7 +1128,13 @@
       "day": "2026-11-13",
       "category": "agent",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Claude 新旗舰发布后，95万字绝密提示词被曝光，引发关注。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "1ztpik99ps",
@@ -1133,7 +1151,13 @@
       "day": "2026-11-13",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "中国 AI 创业陷入“第一性原理”崇拜误区，实践路径需反思。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "j6i0hyjir2",
@@ -1150,7 +1174,13 @@
       "day": "2026-11-13",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "宇树最大对手股价 12 天翻倍，但归母净利润却巨亏 4 亿。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "299s0l5tx8h",
@@ -1165,9 +1195,15 @@
       "publishedAt": "2026-11-13T09:26:39.745Z",
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
-      "category": "industry",
+      "category": "paper",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "牛津大学费豪探讨物理 AI 的“认知共生体”，关注 AI 增强人类。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "gmra1lwotp",
@@ -1187,7 +1223,13 @@
         "具身智能"
       ],
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "苹果人形机器人 HALO 采用宇树 G1+千问方案，引发关注。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "d8m716yyuf",
@@ -1204,7 +1246,13 @@
       "day": "2026-11-13",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "宇树重返 3000 亿市值，王兴兴熬过至暗时刻。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "1omnnogg0pa",
@@ -1240,7 +1288,13 @@
         "Agent"
       ],
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Edera 从虚拟机监控器层限制 AI 智能体，提升容器隔离安全性。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "1vooh908k8n",
@@ -1312,9 +1366,15 @@
       "publishedAt": "2026-11-13T08:37:18.518Z",
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
-      "category": "industry",
+      "category": "agent",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Anthropic 上市前收紧风控，Claude 实施最严封号措施。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "1l9mkf12a3t",
@@ -1335,7 +1395,13 @@
         "具身智能"
       ],
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "RoboScience 发布行业首款云端具身智能体 Visics-Agent，具备懂人话、能教会、可进化能力。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "24xgjyxuovs",
@@ -2060,7 +2126,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 6664,
+        "stars": 6680,
         "starsToday": 1925
       },
       "ai": {
@@ -3424,7 +3490,7 @@
       "categoryLocked": true,
       "score": 19.2,
       "metrics": {
-        "stars": 2236,
+        "stars": 2237,
         "starsToday": 188
       },
       "aiAttempts": 1,

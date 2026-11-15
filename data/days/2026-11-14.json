@@ -143,7 +143,14 @@
       "day": "2026-11-14",
       "category": "model",
       "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xw36op/qwen4_flash_wishlist/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xw36op/qwen4_flash_wishlist/",
+      "ai": {
+        "title": "Qwen4 Flash 功能需求清单",
+        "summary": "用户列出对 Qwen4 Flash 模型的功能改进需求。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "1k5m1boeo4i",
@@ -211,7 +218,7 @@
       "category": "paper",
       "score": 22.3,
       "metrics": {
-        "points": 146,
+        "points": 147,
         "comments": 8
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50496885",
@@ -1442,7 +1449,7 @@
       ],
       "score": 29.9,
       "metrics": {
-        "stars": 51722,
+        "stars": 51725,
         "starsToday": 897
       },
       "ai": {
@@ -1473,7 +1480,7 @@
       ],
       "score": 28.1,
       "metrics": {
-        "stars": 5175,
+        "stars": 5180,
         "starsToday": 707
       },
       "ai": {
@@ -1501,7 +1508,7 @@
       "categoryLocked": true,
       "score": 28.3,
       "metrics": {
-        "stars": 2623,
+        "stars": 2629,
         "starsToday": 731
       },
       "ai": {
@@ -1533,7 +1540,7 @@
       ],
       "score": 28.2,
       "metrics": {
-        "stars": 56616,
+        "stars": 56620,
         "starsToday": 718
       },
       "aiAttempts": 2,

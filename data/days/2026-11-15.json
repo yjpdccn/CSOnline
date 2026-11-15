@@ -32,7 +32,13 @@
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "分析黄仁勋因英伟达上市时间过早而面临的业绩认可挑战。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "11dathxkeii",
@@ -66,7 +72,14 @@
       "day": "2026-11-15",
       "category": "paper",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwt3ri/paper_no_second_run_does_rsi_stop_at_frontier/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwt3ri/paper_no_second_run_does_rsi_stop_at_frontier/",
+      "ai": {
+        "title": "论文：RSI 是否止步于前沿预训练？",
+        "summary": "论文探讨递归自我改进（RSI）在模型预训练阶段的应用前景。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "25g59rgkpc",
@@ -82,7 +95,14 @@
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "澳洲央行报告 AI 正冲击年轻工人",
+        "summary": "澳洲央行发现 AI 正在冲击软件和客服等领域的年轻入门级工人。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "zai7uxzmas",
@@ -97,11 +117,18 @@
       "publishedAt": "2026-11-15T10:06:06.000Z",
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
-      "category": "agent",
+      "category": "model",
       "keywords": [
         "Agent"
       ],
-      "score": 19
+      "score": 25,
+      "ai": {
+        "title": "美团发布 1.6T 参数国产模型 LongCat-2.5",
+        "summary": "美团发布 1.6T 参数模型 LongCat-2.5，完全基于国产硬件训练。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "3n4bpfn9x1",
@@ -116,9 +143,16 @@
       "publishedAt": "2026-11-15T09:24:57.000Z",
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
-      "category": "model",
-      "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwr917/europa_the_eus_open_ai_model_is_aiming_for_nearly/"
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwr917/europa_the_eus_open_ai_model_is_aiming_for_nearly/",
+      "ai": {
+        "title": "欧盟开源模型 EUROPA 参数规模近 1T",
+        "summary": "欧盟开源模型 EUROPA 正在开发，目标参数规模接近 1 万亿。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "1wqdwaozk9w",
@@ -135,7 +169,14 @@
       "day": "2026-11-15",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwqvd2/the_best_and_amdest_computer_ive_ever_owned/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwqvd2/the_best_and_amdest_computer_ive_ever_owned/",
+      "ai": {
+        "title": "我的最佳 AMD 电脑配置",
+        "summary": "分享一套基于 EPYC 和 AMD 显卡的电脑配置。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "1cuomzweeet",
@@ -151,7 +192,8 @@
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
       "category": "multimodal",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "dn57hjadmu",
@@ -187,7 +229,13 @@
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
       "category": "paper",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "日本NICT团队提出最优分布向量合并，解决大模型训练中数据配比难的问题。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "bmrgjpnipp",
@@ -202,11 +250,17 @@
       "publishedAt": "2026-11-15T08:52:00.000Z",
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "李沐出任 Aimotion 联合创始人兼 CTO，主导下一代产业级 AI 技术体系建设。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "eurm8fi6zr",
@@ -222,7 +276,13 @@
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "SpaceX 创造历史，星舰飞船首次被发射塔捕获，完成“筷子夹火箭2.0”壮举。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "2gahlnaca7b",
@@ -237,11 +297,17 @@
       "publishedAt": "2026-11-15T08:47:00.000Z",
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
-      "category": "agent",
+      "category": "paper",
       "keywords": [
         "Agent"
       ],
-      "score": 22
+      "score": 22,
+      "ai": {
+        "summary": "中科院自动化所等机构发布 RSI 综述，探讨 Agent 如何越用越强。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "rd3k958kbt",
@@ -292,6 +358,12 @@
           "36kr-ai"
         ],
         "firstPublishedAt": "2026-11-12T08:16:11.000Z"
+      },
+      "ai": {
+        "summary": "要求黄仁勋重返英伟达 CEO 岗位的请愿书签名人数突破 12 万。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
       }
     },
     {
@@ -307,8 +379,14 @@
       "publishedAt": "2026-11-15T08:36:00.000Z",
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "斯坦福团队提出 RSIHF 框架，指出 AI 自我进化中“受欢迎程度”与“安全性”不能画等号。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "19sxy8mju40",
@@ -323,7 +401,8 @@
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
       "category": "agent",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1auvz9wr9u7",
@@ -356,7 +435,13 @@
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "韩国10月ICT产业出口额达703.5亿美元，芯片出口同比大增259.4%。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "2bdzaszt60k",
@@ -375,7 +460,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "具身智能建筑机器人企业完成超亿级融资，连续三年订单复合增长率超100%。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:17:00.700Z"
+      }
     },
     {
       "id": "olv7zyzpt6",
@@ -392,7 +483,14 @@
       "day": "2026-11-15",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwmnkw/rasa_will_cause_total_chaos_to_open_llms_and/",
+      "ai": {
+        "title": "RASA 将对开源 LLM 带来混乱",
+        "summary": "RASA 可能会对开源 LLM 生态系统产生重大影响。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "iqttmjv0z2",
@@ -408,7 +506,13 @@
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
       "category": "industry",
-      "score": 22
+      "score": 22,
+      "ai": {
+        "summary": "首份万卡级智算集群网络技术报告在北京发布，分析国产化进展。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "15h81su1cb0",
@@ -424,7 +528,7 @@
       "day": "2026-11-15",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 2
     },
     {
       "id": "cl1c4a56ux",
@@ -438,12 +542,18 @@
       "publishedAt": "2026-11-15T01:00:00.000Z",
       "firstSeenAt": "2026-11-15T02:38:59.167Z",
       "day": "2026-11-15",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
       "score": 22,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "vgz18dq85d",
@@ -485,10 +595,11 @@
       "score": 14,
       "aiAttempts": 1,
       "ai": {
-        "summary": "datasette-llm 0.1a11 支持 OpenAI 兼容端点。",
+        "title": "datasette-llm 0.1a11 发布",
+        "summary": "datasette-llm 新增 OpenAI 兼容端点支持，可配置任意 LLM。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-15T02:40:45.379Z"
+        "at": "2026-11-15T13:16:31.747Z"
       }
     },
     {
@@ -504,12 +615,19 @@
       "publishedAt": "2026-11-14T23:31:27.000Z",
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
-      "category": "industry",
+      "category": "model",
       "keywords": [
         "开源模型"
       ],
-      "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwgiow/lfm2524ba2b_hermes_is_awesome/"
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwgiow/lfm2524ba2b_hermes_is_awesome/",
+      "ai": {
+        "title": "LFM2.5-24B-A2B 性能出色",
+        "summary": "LFM2.5-24B-A2B 在通用硬件上实现了速度与能力的良好平衡。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "uhhtdjj6im",
@@ -601,7 +719,14 @@
       "day": "2026-11-15",
       "category": "industry",
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwe9i5/microsoft_patent_describes_turning_idle_gaming/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwe9i5/microsoft_patent_describes_turning_idle_gaming/",
+      "ai": {
+        "title": "微软专利：将闲置游戏 GPU 用于 AI 训练",
+        "summary": "微软申请专利，将闲置游戏 GPU 转化为付费 AI 训练硬件。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "1mhmasbvb",
@@ -870,10 +995,11 @@
       },
       "aiAttempts": 1,
       "ai": {
-        "summary": "GitHub Copilot app 是一个面向 GitHub 仓库的 Agent 原生桌面体验。",
+        "title": "GitHub Copilot 桌面应用发布",
+        "summary": "GitHub 推出 Copilot 桌面应用，为开发者提供原生 Agent 体验。",
         "category": "agent",
         "model": "glm-4.7-flash",
-        "at": "2026-11-15T02:40:45.379Z"
+        "at": "2026-11-15T13:16:31.747Z"
       }
     },
     {
@@ -952,10 +1078,11 @@
       },
       "aiAttempts": 1,
       "ai": {
-        "summary": "AI Manus 是一个通用 AI Agent 系统，支持在沙盒环境中运行各种工具和操作。",
+        "title": "AI Manus 2.0 发布",
+        "summary": "AI Manus 2.0 是一个通用 AI Agent 系统，支持沙盒环境操作。",
         "category": "agent",
         "model": "glm-4.7-flash",
-        "at": "2026-11-15T02:40:45.379Z"
+        "at": "2026-11-15T13:16:31.747Z"
       }
     },
     {
@@ -995,12 +1122,19 @@
       "publishedAt": "2026-11-14T19:12:45.000Z",
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
-      "category": "model",
+      "category": "opensource",
       "keywords": [
         "本地部署"
       ],
-      "score": 16,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwan2j/update_tandemcpp_deepseekv41_on_a_64_gb_pc_with_a/"
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwan2j/update_tandemcpp_deepseekv41_on_a_64_gb_pc_with_a/",
+      "ai": {
+        "title": "tandem.cpp 支持 DeepSeek-V4.1",
+        "summary": "tandem.cpp 更新，支持在 64GB PC 上运行 DeepSeek-V4.1。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "di65fwjsug",
@@ -1038,12 +1172,19 @@
       "publishedAt": "2026-11-14T18:31:49.000Z",
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
-      "category": "agent",
+      "category": "multimodal",
       "keywords": [
         "Agent"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xw9mpa/nexaginexn26_hugging_face/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xw9mpa/nexaginexn26_hugging_face/",
+      "ai": {
+        "title": "Nex-AGI 发布多模态模型 Nex-N2.6",
+        "summary": "Nex-AGI 发布多模态模型 Nex-N2.6，支持工具使用和长任务。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "12glheo0yj6",
@@ -1081,12 +1222,19 @@
       "publishedAt": "2026-11-14T17:26:13.000Z",
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
-      "category": "multimodal",
+      "category": "opensource",
       "keywords": [
         "语音"
       ],
       "score": 10,
-      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xw7zrg/tinyvoca_a_fully_open_45mparameter_tts_code/"
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xw7zrg/tinyvoca_a_fully_open_45mparameter_tts_code/",
+      "ai": {
+        "title": "tiny-voca 开源 4.5M 参数 TTS 模型",
+        "summary": "tiny-voca 是一个 4.5M 参数的 TTS 模型，可在浏览器中运行。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T13:16:31.747Z"
+      }
     },
     {
       "id": "2aww1ruhmjp",
@@ -1108,7 +1256,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 25242,
+        "stars": 25243,
         "starsToday": 1041
       },
       "ai": {
@@ -1140,7 +1288,7 @@
       ],
       "score": 23.8,
       "metrics": {
-        "stars": 17568,
+        "stars": 17569,
         "starsToday": 393
       },
       "ai": {
@@ -1172,7 +1320,7 @@
       ],
       "score": 26.4,
       "metrics": {
-        "stars": 120329,
+        "stars": 120332,
         "starsToday": 562
       },
       "ai": {
@@ -1204,7 +1352,7 @@
       ],
       "score": 25.3,
       "metrics": {
-        "stars": 1174,
+        "stars": 1177,
         "starsToday": 484
       },
       "ai": {
