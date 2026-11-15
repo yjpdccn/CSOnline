@@ -1,6 +1,32 @@
 {
   "history": [
     {
+      "startedAt": "2026-11-15T02:38:59.167Z",
+      "finishedAt": "2026-11-15T02:45:35.240Z",
+      "durationMs": 396073,
+      "trigger": "schedule",
+      "ok": true,
+      "totals": {
+        "fetched": 3248,
+        "relevant": 283,
+        "added": 25,
+        "merged": 8
+      },
+      "llm": {
+        "enabled": true,
+        "provider": "智谱 GLM",
+        "model": "glm-4.7-flash",
+        "requests": 13,
+        "summarized": 38,
+        "failed": 42,
+        "digest": "fallback",
+        "done": 188,
+        "pending": 100,
+        "paused": "busy",
+        "error": "模型繁忙：35 秒内没有响应"
+      }
+    },
+    {
       "startedAt": "2026-11-14T17:01:04.343Z",
       "finishedAt": "2026-11-14T17:09:41.186Z",
       "durationMs": 516843,
@@ -1383,15 +1409,15 @@
     }
   ],
   "lastRun": {
-    "startedAt": "2026-11-14T17:01:04.343Z",
-    "finishedAt": "2026-11-14T17:09:41.186Z",
-    "durationMs": 516843,
+    "startedAt": "2026-11-15T02:38:59.167Z",
+    "finishedAt": "2026-11-15T02:45:35.240Z",
+    "durationMs": 396073,
     "trigger": "schedule",
     "ok": true,
     "totals": {
-      "fetched": 3247,
-      "relevant": 276,
-      "added": 53,
+      "fetched": 3248,
+      "relevant": 283,
+      "added": 25,
       "merged": 8
     },
     "sources": [
@@ -1402,7 +1428,7 @@
         "fetched": 1387,
         "relevant": 19,
         "added": 0,
-        "ms": 682
+        "ms": 812
       },
       {
         "id": "anthropic",
@@ -1411,7 +1437,7 @@
         "fetched": 19,
         "relevant": 1,
         "added": 0,
-        "ms": 735
+        "ms": 714
       },
       {
         "id": "google-ai",
@@ -1420,7 +1446,7 @@
         "fetched": 20,
         "relevant": 7,
         "added": 0,
-        "ms": 837
+        "ms": 875
       },
       {
         "id": "deepmind",
@@ -1429,7 +1455,7 @@
         "fetched": 100,
         "relevant": 6,
         "added": 0,
-        "ms": 570
+        "ms": 586
       },
       {
         "id": "google-dev",
@@ -1438,7 +1464,7 @@
         "fetched": 5,
         "relevant": 5,
         "added": 0,
-        "ms": 5491
+        "ms": 4883
       },
       {
         "id": "google-research",
@@ -1447,7 +1473,7 @@
         "fetched": 100,
         "relevant": 0,
         "added": 0,
-        "ms": 2144
+        "ms": 1149
       },
       {
         "id": "meta",
@@ -1456,7 +1482,7 @@
         "fetched": 10,
         "relevant": 0,
         "added": 0,
-        "ms": 211
+        "ms": 36
       },
       {
         "id": "meta-engineering",
@@ -1465,7 +1491,7 @@
         "fetched": 9,
         "relevant": 0,
         "added": 0,
-        "ms": 125
+        "ms": 221
       },
       {
         "id": "microsoft-ai",
@@ -1474,7 +1500,7 @@
         "fetched": 10,
         "relevant": 0,
         "added": 0,
-        "ms": 76
+        "ms": 200
       },
       {
         "id": "microsoft-research",
@@ -1483,7 +1509,7 @@
         "fetched": 10,
         "relevant": 2,
         "added": 0,
-        "ms": 1894
+        "ms": 2612
       },
       {
         "id": "nvidia",
@@ -1492,7 +1518,7 @@
         "fetched": 18,
         "relevant": 9,
         "added": 0,
-        "ms": 76
+        "ms": 100
       },
       {
         "id": "mistral",
@@ -1501,7 +1527,7 @@
         "fetched": 94,
         "relevant": 0,
         "added": 0,
-        "ms": 426
+        "ms": 125
       },
       {
         "id": "seed",
@@ -1510,7 +1536,7 @@
         "fetched": 10,
         "relevant": 1,
         "added": 0,
-        "ms": 1196
+        "ms": 784
       },
       {
         "id": "qwen",
@@ -1519,7 +1545,7 @@
         "fetched": 40,
         "relevant": 0,
         "added": 0,
-        "ms": 1413
+        "ms": 1368
       },
       {
         "id": "deepseek",
@@ -1528,7 +1554,7 @@
         "fetched": 1,
         "relevant": 1,
         "added": 0,
-        "ms": 1721
+        "ms": 1847
       },
       {
         "id": "apple-ml",
@@ -1537,7 +1563,7 @@
         "fetched": 10,
         "relevant": 4,
         "added": 0,
-        "ms": 128
+        "ms": 161
       },
       {
         "id": "hf-blog",
@@ -1546,7 +1572,7 @@
         "fetched": 907,
         "relevant": 10,
         "added": 0,
-        "ms": 178
+        "ms": 83
       },
       {
         "id": "jiqizhixin",
@@ -1554,8 +1580,8 @@
         "ok": true,
         "fetched": 20,
         "relevant": 20,
-        "added": 10,
-        "ms": 871
+        "added": 0,
+        "ms": 1128
       },
       {
         "id": "qbitai",
@@ -1563,8 +1589,8 @@
         "ok": true,
         "fetched": 10,
         "relevant": 10,
-        "added": 6,
-        "ms": 1710
+        "added": 0,
+        "ms": 1647
       },
       {
         "id": "36kr-ai",
@@ -1572,8 +1598,8 @@
         "ok": true,
         "fetched": 30,
         "relevant": 30,
-        "added": 4,
-        "ms": 844
+        "added": 0,
+        "ms": 1161
       },
       {
         "id": "36kr-flash",
@@ -1581,8 +1607,8 @@
         "ok": true,
         "fetched": 40,
         "relevant": 4,
-        "added": 3,
-        "ms": 731
+        "added": 0,
+        "ms": 1196
       },
       {
         "id": "leiphone",
@@ -1591,25 +1617,25 @@
         "fetched": 20,
         "relevant": 5,
         "added": 0,
-        "ms": 4247
+        "ms": 2614
       },
       {
         "id": "geekpark",
         "name": "极客公园",
         "ok": true,
         "fetched": 30,
-        "relevant": 15,
+        "relevant": 14,
         "added": 0,
-        "ms": 26596
+        "ms": 4161
       },
       {
         "id": "infoq-cn",
         "name": "InfoQ 中文",
         "ok": true,
         "fetched": 20,
-        "relevant": 9,
-        "added": 0,
-        "ms": 1072
+        "relevant": 10,
+        "added": 2,
+        "ms": 1613
       },
       {
         "id": "techcrunch-ai",
@@ -1617,8 +1643,8 @@
         "ok": true,
         "fetched": 20,
         "relevant": 20,
-        "added": 1,
-        "ms": 255
+        "added": 3,
+        "ms": 73
       },
       {
         "id": "verge-ai",
@@ -1626,8 +1652,8 @@
         "ok": true,
         "fetched": 10,
         "relevant": 10,
-        "added": 2,
-        "ms": 37
+        "added": 0,
+        "ms": 232
       },
       {
         "id": "the-decoder",
@@ -1635,8 +1661,8 @@
         "ok": true,
         "fetched": 10,
         "relevant": 10,
-        "added": 5,
-        "ms": 1343
+        "added": 1,
+        "ms": 1068
       },
       {
         "id": "baoyu",
@@ -1645,43 +1671,43 @@
         "fetched": 50,
         "relevant": 0,
         "added": 0,
-        "ms": 271
+        "ms": 229
       },
       {
         "id": "simonw",
         "name": "Simon Willison",
         "ok": true,
         "fetched": 30,
-        "relevant": 10,
-        "added": 0,
-        "ms": 56
+        "relevant": 11,
+        "added": 1,
+        "ms": 81
       },
       {
         "id": "hf-papers",
         "name": "HF 每日论文",
         "ok": true,
-        "fetched": 5,
-        "relevant": 5,
+        "fetched": 6,
+        "relevant": 6,
         "added": 1,
-        "ms": 179
+        "ms": 68
       },
       {
         "id": "hf-models",
         "name": "HF 热门模型",
         "ok": true,
         "fetched": 12,
-        "relevant": 2,
-        "added": 0,
-        "ms": 112
+        "relevant": 3,
+        "added": 1,
+        "ms": 17
       },
       {
         "id": "hackernews",
         "name": "Hacker News",
         "ok": true,
         "fetched": 100,
-        "relevant": 23,
-        "added": 3,
-        "ms": 2325
+        "relevant": 24,
+        "added": 4,
+        "ms": 256
       },
       {
         "id": "github-trending",
@@ -1689,17 +1715,17 @@
         "ok": true,
         "fetched": 15,
         "relevant": 11,
-        "added": 4,
-        "ms": 1225
+        "added": 0,
+        "ms": 1025
       },
       {
         "id": "github-new",
         "name": "GitHub 新星项目",
         "ok": true,
         "fetched": 50,
-        "relevant": 12,
-        "added": 2,
-        "ms": 1157
+        "relevant": 15,
+        "added": 9,
+        "ms": 972
       },
       {
         "id": "reddit-localllama",
@@ -1707,22 +1733,22 @@
         "ok": true,
         "fetched": 25,
         "relevant": 15,
-        "added": 12,
-        "ms": 477
+        "added": 3,
+        "ms": 368
       }
     ],
     "llm": {
       "enabled": true,
       "provider": "智谱 GLM",
       "model": "glm-4.7-flash",
-      "requests": 14,
-      "summarized": 77,
-      "failed": 3,
-      "digest": "ai",
-      "done": 178,
-      "pending": 146,
+      "requests": 13,
+      "summarized": 38,
+      "failed": 42,
+      "digest": "fallback",
+      "done": 188,
+      "pending": 100,
       "paused": "busy",
-      "error": "模型繁忙：48 秒内没有响应"
+      "error": "模型繁忙：35 秒内没有响应"
     }
   }
 }

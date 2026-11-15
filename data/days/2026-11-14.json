@@ -14,15 +14,43 @@
       "publishedAt": "2026-11-14T15:17:07.000Z",
       "firstSeenAt": "2026-11-14T17:01:04.343Z",
       "day": "2026-11-14",
-      "category": "industry",
+      "category": "paper",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xw4ue3/why_dont_we_have_national_open_ai_models/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "讨论为何美国不训练国家开源模型，认为成本低且能解决安全和反垄断问题。",
-        "category": "industry",
+        "title": "为什么我们没有国家开源 AI 模型？",
+        "summary": "用户质疑为何美国不训练国家开源 AI 模型。",
+        "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-11-14T17:04:32.632Z"
+        "at": "2026-11-15T02:40:45.379Z"
+      }
+    },
+    {
+      "id": "2c0oyv9xgeh",
+      "key": "gh:vaibhaav-tiwari/deepseek-v3-jax",
+      "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+      "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-14T15:04:15.000Z",
+      "firstSeenAt": "2026-11-15T02:38:59.167Z",
+      "day": "2026-11-14",
+      "category": "paper",
+      "score": 23.8,
+      "metrics": {
+        "points": 183,
+        "comments": 9
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50497589",
+      "ai": {
+        "title": "DeepSeek V3 仅需约 200 行纯 Jax 代码",
+        "summary": "DeepSeek V3 可用约 200 行纯 Jax 代码实现。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T02:40:45.379Z"
       }
     },
     {
@@ -71,6 +99,36 @@
       }
     },
     {
+      "id": "1oo1qu22c72",
+      "key": "url:developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm",
+      "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
+      "url": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-14T14:09:25.000Z",
+      "firstSeenAt": "2026-11-15T02:38:59.167Z",
+      "day": "2026-11-14",
+      "category": "model",
+      "keywords": [
+        "本地部署"
+      ],
+      "score": 29.4,
+      "metrics": {
+        "points": 128,
+        "comments": 65
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50497155",
+      "ai": {
+        "title": "在两个 Nvidia DGX 站点以 607.8 tok/s 服务 GLM-5…",
+        "summary": "使用 vLLM 在两个 Nvidia DGX 站点以 607.8 tok/s 服务 GLM-5.3。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T02:40:45.379Z"
+      }
+    },
+    {
       "id": "1k5m1boeo4i",
       "key": "url:tomshardware.com/tech-industry/artificial-intelligence/lawyer-upgrades-eight-v100-private-ai-server-to-run-80-percent-of-deepseek-v4-1-flash-at-4-bit-nvfp4-precision-adds-1tb-of-ram-an-nvidia-rtx-3090-and-fixes-crashes-caused-by-a-bad-psu",
       "title": "The lawyer who posts here about his V100s got his story picked up by Tom’s Hardware",
@@ -107,18 +165,45 @@
       "firstSeenAt": "2026-11-14T17:01:04.343Z",
       "day": "2026-11-14",
       "category": "paper",
-      "score": 24.8,
+      "score": 26.2,
       "metrics": {
-        "points": 123,
-        "comments": 154
+        "points": 145,
+        "comments": 182
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50496921",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "文章探讨了对 Claude 的过度依赖或认知偏差。",
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-14T17:02:19.904Z"
+      }
+    },
+    {
+      "id": "1yswbdqpnnn",
+      "key": "url:aatishb.com/myriad/how-brains-learn",
+      "title": "A visual explanation of reinforcement learning",
+      "url": "https://aatishb.com/myriad/how-brains-learn/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-14T13:31:06.000Z",
+      "firstSeenAt": "2026-11-15T02:38:59.167Z",
+      "day": "2026-11-14",
+      "category": "paper",
+      "score": 21.3,
+      "metrics": {
+        "points": 127,
+        "comments": 6
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50496885",
+      "ai": {
+        "title": "强化学习的可视化解释",
+        "summary": "提供强化学习的可视化解释。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-15T02:40:45.379Z"
       }
     },
     {
@@ -658,8 +743,8 @@
         ],
         "firstPublishedAt": "2026-11-13T17:55:23.000Z",
         "metrics": {
-          "points": 174,
-          "comments": 72
+          "points": 175,
+          "comments": 73
         }
       },
       "ai": {
@@ -755,7 +840,7 @@
       ],
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xvw34k/kittenmlkittentts2mini_hugging_face_texttospeech/",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Kitten TTS 2 Mini 发布，支持 16 种语言和 118 种声音，提供 ONNX 版本。",
         "category": "opensource",
@@ -881,7 +966,7 @@
       ],
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xvst4u/salesforcesovereignintelligencesovtranscribe1/",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Salesforce 发布 SOV-Transcribe-1 开放权重语音模型，支持多语言转录。",
         "category": "opensource",
@@ -983,8 +1068,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 921,
-        "comments": 555
+        "points": 1038,
+        "comments": 621
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50493251",
       "ai": {
@@ -1134,10 +1219,10 @@
       "firstSeenAt": "2026-11-14T17:01:04.343Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 22.6,
+      "score": 23,
       "metrics": {
-        "points": 105,
-        "comments": 82
+        "points": 110,
+        "comments": 87
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50491097",
       "dupOf": "27sun4ns60e"
@@ -1192,10 +1277,10 @@
       "firstSeenAt": "2026-11-14T03:13:08.868Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 27.9,
+      "score": 28.2,
       "metrics": {
-        "points": 210,
-        "comments": 126
+        "points": 218,
+        "comments": 129
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50488769",
       "ai": {
@@ -1247,7 +1332,7 @@
       "category": "industry",
       "score": 22.9,
       "metrics": {
-        "points": 143,
+        "points": 144,
         "comments": 26
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50488464",
@@ -1340,7 +1425,7 @@
       ],
       "score": 29.9,
       "metrics": {
-        "stars": 51232,
+        "stars": 51478,
         "starsToday": 897
       },
       "ai": {
@@ -1371,7 +1456,7 @@
       ],
       "score": 26.3,
       "metrics": {
-        "stars": 4587,
+        "stars": 4870,
         "starsToday": 556
       },
       "ai": {
@@ -1399,7 +1484,7 @@
       "categoryLocked": true,
       "score": 24.3,
       "metrics": {
-        "stars": 1946,
+        "stars": 2322,
         "starsToday": 423
       },
       "ai": {
@@ -1431,7 +1516,7 @@
       ],
       "score": 27.7,
       "metrics": {
-        "stars": 56121,
+        "stars": 56346,
         "starsToday": 673
       },
       "aiAttempts": 2,
@@ -1456,7 +1541,7 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 45.5,
+      "score": 45.9,
       "related": [
         {
           "id": "te5yvsklut",
@@ -1475,8 +1560,8 @@
         ],
         "firstPublishedAt": "2026-11-12T21:56:11.000Z",
         "metrics": {
-          "points": 368,
-          "comments": 160
+          "points": 381,
+          "comments": 165
         }
       },
       "ai": {
@@ -1528,8 +1613,8 @@
       ],
       "score": 25.6,
       "metrics": {
-        "points": 174,
-        "comments": 72
+        "points": 175,
+        "comments": 73
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50487184",
       "ai": {
@@ -1554,10 +1639,10 @@
       "firstSeenAt": "2026-11-14T03:13:08.868Z",
       "day": "2026-11-14",
       "category": "paper",
-      "score": 32.5,
+      "score": 32.8,
       "metrics": {
-        "points": 412,
-        "comments": 104
+        "points": 426,
+        "comments": 107
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50486748",
       "aiAttempts": 1,
@@ -1592,10 +1677,11 @@
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xvdmzb/tontaube_v11_openweights_tts_with_voice_cloning/",
       "aiAttempts": 1,
       "ai": {
-        "summary": "Tontaube V1.1 发布，支持长文本生成和零样本语音克隆，4-bit 版本可在 CPU 上实时运行。",
+        "title": "Tontaube V1.1：支持长篇生成的开源 TTS 模型",
+        "summary": "Tontaube V1.1 是支持长篇生成和零样本语音克隆的开源 TTS 模型。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-14T17:04:32.632Z"
+        "at": "2026-11-15T02:40:45.379Z"
       }
     },
     {

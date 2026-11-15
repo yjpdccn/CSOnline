@@ -663,35 +663,39 @@
   },
   "2026-11-15": {
     "day": "2026-11-15",
-    "generatedAt": "2026-11-14T17:06:54.361Z",
-    "itemCount": 60,
-    "mode": "ai",
-    "model": "glm-4.7-flash",
-    "overview": "Gemini 4 Carbon 获数学冠军，OpenAI 解散机器人团队，微软服务全面恢复。",
+    "generatedAt": "2026-11-15T02:44:29.479Z",
+    "itemCount": 59,
+    "mode": "fallback",
+    "overview": "过去 24 小时共收录 59 条 AI 资讯：产品与行业 27 条、开源项目 12 条、论文 10 条、Agent 与工具 5 条、模型发布 4 条、多模态与视频 1 条。以下为按重要性排序的前 5 条。",
     "points": [
       {
-        "text": "Gemini 4 Carbon 获 MathArena 冠军，但成本高昂。",
+        "text": "【行业】Nvidia 通过循环融资协议故意维持 GPU 高价",
         "refs": [
-          "r135dj1j64"
+          "b7sahk8is"
         ]
       },
       {
-        "text": "OpenAI 解散独立机器人团队，因通用模型能直接控制机器人。",
+        "text": "【行业】突发｜OpenAI解散独立机器人团队",
         "refs": [
-          "ih4xwfgfrd",
-          "2aupu9b66fx"
+          "ih4xwfgfrd"
         ]
       },
       {
-        "text": "微软称服务已全面恢复，此前全球多地服务中断。",
+        "text": "【行业】Nvidia 安全团队去哪了？",
         "refs": [
-          "l3ylh8264m"
+          "vgz18dq85d"
         ]
       },
       {
-        "text": "北大与微信安全团队构建通用智能体全生命周期安全图景。",
+        "text": "【论文】“史上最严”湿实验预测基准发布：推理拉满、算力翻5倍也白搭",
         "refs": [
-          "26jkc3mlxvz"
+          "1diprgbugbp"
+        ]
+      },
+      {
+        "text": "【论文】The Claude Delusion",
+        "refs": [
+          "7f9a4c2ytq"
         ]
       }
     ]
