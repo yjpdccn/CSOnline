@@ -39,10 +39,10 @@
       "firstSeenAt": "2026-11-15T02:38:59.167Z",
       "day": "2026-11-14",
       "category": "paper",
-      "score": 27.4,
+      "score": 27.6,
       "metrics": {
-        "points": 272,
-        "comments": 28
+        "points": 275,
+        "comments": 30
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50497589",
       "ai": {
@@ -67,13 +67,39 @@
       "firstSeenAt": "2026-11-14T17:01:04.343Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 15,
+      "score": 23,
       "ai": {
         "title": "前 OpenAI 董事会成员：仍无法信任 AI CEO",
         "summary": "前董事会成员 Helen Toner 警告，目前仍无法完全信任 AI 领导者。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-14T17:02:19.904Z"
+      },
+      "related": [
+        {
+          "id": "oqac4glh2i",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+          "title": "Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’",
+          "publishedAt": "2026-11-16T18:11:10.000Z"
+        },
+        {
+          "id": "2ctvs2izprh",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+          "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+          "publishedAt": "2026-11-16T20:41:28.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "verge-ai",
+          "techcrunch-ai"
+        ],
+        "firstPublishedAt": "2026-11-14T15:00:00.000Z"
       }
     },
     {
@@ -114,10 +140,10 @@
       "keywords": [
         "本地部署"
       ],
-      "score": 30.3,
+      "score": 30.5,
       "metrics": {
-        "points": 145,
-        "comments": 69
+        "points": 148,
+        "comments": 71
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50497155",
       "ai": {
@@ -190,10 +216,10 @@
       "firstSeenAt": "2026-11-14T17:01:04.343Z",
       "day": "2026-11-14",
       "category": "paper",
-      "score": 26.7,
+      "score": 26.8,
       "metrics": {
         "points": 152,
-        "comments": 199
+        "comments": 202
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50496921",
       "aiAttempts": 2,
@@ -217,9 +243,9 @@
       "firstSeenAt": "2026-11-15T02:38:59.167Z",
       "day": "2026-11-14",
       "category": "paper",
-      "score": 22.9,
+      "score": 23.3,
       "metrics": {
-        "points": 161,
+        "points": 169,
         "comments": 9
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50496885",
@@ -692,12 +718,30 @@
       "firstSeenAt": "2026-11-14T17:01:04.343Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "李飞飞与苏姿丰首次同台对话，探讨算力与机器人学习。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-14T17:04:54.151Z"
+      },
+      "related": [
+        {
+          "id": "19v9u73ivtb",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/ai/b2VJ0YUl2gN5nNie.html",
+          "title": "李飞飞对话苏姿丰：AMD 收购后首次同台，CoRL 现场谈算力、机器人与「这个时代最大的失误」",
+          "publishedAt": "2026-11-16T07:24:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "leiphone"
+        ],
+        "firstPublishedAt": "2026-11-14T09:11:00.000Z"
       }
     },
     {
@@ -861,7 +905,34 @@
         "Agent"
       ],
       "score": 18,
-      "dupOf": "1vooh908k8n"
+      "dupOf": "267qa0pd95f"
+    },
+    {
+      "id": "z1ctdm8ey",
+      "key": "gh:haziqahmedqasmi/peakcut",
+      "title": "haziqahmedqasmi/PeakCut",
+      "url": "https://github.com/haziqahmedqasmi/PeakCut",
+      "excerpt": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-14T07:38:20.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-14",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 18.1,
+      "metrics": {
+        "stars": 618
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "开源项目 PeakCut 支持长视频和直播的 AI 剪辑。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:58.885Z"
+      }
     },
     {
       "id": "1ppwl9gn92g",
@@ -1071,7 +1142,7 @@
       "day": "2026-11-14",
       "category": "industry",
       "score": 18,
-      "dupOf": "rd3k958kbt"
+      "dupOf": "20c4yjveot6"
     },
     {
       "id": "1f5i5b1188c",
@@ -1110,8 +1181,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1100,
-        "comments": 648
+        "points": 1111,
+        "comments": 649
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50493251",
       "ai": {
@@ -1227,10 +1298,16 @@
       "score": 22.6,
       "metrics": {
         "points": 100,
-        "comments": 95
+        "comments": 96
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50492141",
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "Anthropic 升级 Claude Code Projects，支持并行 AI 工作流。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:58.885Z"
+      }
     },
     {
       "id": "33yyoqzt25",
@@ -1285,9 +1362,9 @@
       "firstSeenAt": "2026-11-14T17:01:04.343Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 23.1,
+      "score": 23.2,
       "metrics": {
-        "points": 111,
+        "points": 113,
         "comments": 88
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50491097",
@@ -1489,10 +1566,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 29.9,
+      "score": 30,
       "metrics": {
-        "stars": 52201,
-        "starsToday": 897
+        "stars": 52871,
+        "starsToday": 946
       },
       "ai": {
         "title": "alibaba/open-code-review：阿里混合架构代码审查工具",
@@ -1520,10 +1597,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 28.1,
+      "score": 29.4,
       "metrics": {
-        "stars": 5634,
-        "starsToday": 707
+        "stars": 6220,
+        "starsToday": 841
       },
       "ai": {
         "title": "claude-trading-skills：Claude 代码技能用于股市分析",
@@ -1580,10 +1657,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 28.2,
+      "score": 29.4,
       "metrics": {
-        "stars": 57046,
-        "starsToday": 718
+        "stars": 57621,
+        "starsToday": 837
       },
       "aiAttempts": 2,
       "ai": {
@@ -1607,7 +1684,7 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 46.4,
+      "score": 54.4,
       "related": [
         {
           "id": "te5yvsklut",
@@ -1616,13 +1693,22 @@
           "url": "https://news.ycombinator.com/item?id=50474883",
           "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
           "publishedAt": "2026-11-12T21:56:11.000Z"
+        },
+        {
+          "id": "24sg1sro854",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely/",
+          "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
+          "publishedAt": "2026-11-16T15:02:34.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "the-decoder",
-          "hackernews"
+          "hackernews",
+          "techcrunch-ai"
         ],
         "firstPublishedAt": "2026-11-12T21:56:11.000Z",
         "metrics": {

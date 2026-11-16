@@ -1068,9 +1068,9 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 23.2,
+      "score": 23.5,
       "metrics": {
-        "stars": 1573
+        "stars": 1655
       }
     },
     {
@@ -1358,9 +1358,9 @@
       "day": "2026-11-10",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 19.6,
+      "score": 20.1,
       "metrics": {
-        "stars": 840
+        "stars": 913
       }
     },
     {
@@ -2787,6 +2787,40 @@
         "upvotes": 53,
         "comments": 10
       }
+    },
+    {
+      "id": "1r1icgayq22",
+      "key": "url:machinelearning.apple.com/research/private-evolution-clustering",
+      "title": "Understanding Private Evolution as Learning-Augmented Clustering",
+      "url": "https://machinelearning.apple.com/research/private-evolution-clustering",
+      "excerpt": "Private Evolution (PE) is a differentially private algorithm for synthetic data generation. While it can be viewed as a Wasserstein learning algorithm, it performs much better in practice than worst-case Wasserstein analyses would predict. We recast PE as generative model-augmen…",
+      "lang": "en",
+      "sourceId": "apple-ml",
+      "sourceName": "Apple 机器学习研究",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-10",
+      "category": "paper",
+      "score": 30
+    },
+    {
+      "id": "ty3z59odyo",
+      "key": "url:machinelearning.apple.com/research/theory-evaluability",
+      "title": "Toward a Theory of Evaluability",
+      "url": "https://machinelearning.apple.com/research/theory-evaluability",
+      "excerpt": "Machine learning models, particularly large foundation models, are increasingly evaluated along multiple axes that are relevant for their usage. In addition to accuracy measures appropriate for the specific task of interest, measures capturing safety, calibration and fairness pr…",
+      "lang": "en",
+      "sourceId": "apple-ml",
+      "sourceName": "Apple 机器学习研究",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-10T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-10",
+      "category": "paper",
+      "score": 30
     },
     {
       "id": "1q42eye88r0",

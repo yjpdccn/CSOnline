@@ -1185,16 +1185,8 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 57,
+      "score": 23,
       "related": [
-        {
-          "id": "tw2myfezau",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50353192",
-          "title": "Google 将关闭拒绝 AI 的学校搜索",
-          "publishedAt": "2026-11-03T15:25:47.000Z"
-        },
         {
           "id": "1r6xir6y9bp",
           "sourceId": "techcrunch-ai",
@@ -1205,17 +1197,12 @@
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 2,
         "sources": [
           "the-decoder",
-          "hackernews",
           "techcrunch-ai"
         ],
-        "firstPublishedAt": "2026-11-03T15:25:47.000Z",
-        "metrics": {
-          "points": 671,
-          "comments": 464
-        }
+        "firstPublishedAt": "2026-11-04T10:06:23.000Z"
       },
       "ai": {
         "title": "2027年起，禁用 Google AI 的学校将无法使用其搜索服务",
@@ -1581,43 +1568,7 @@
       "firstSeenAt": "2026-11-04T13:15:12.070Z",
       "day": "2026-11-04",
       "category": "model",
-      "score": 66,
-      "related": [
-        {
-          "id": "1sczdb7vl4x",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50341174",
-          "title": "Astra can read and write weights to improve Qwen",
-          "publishedAt": "2026-11-02T18:21:28.000Z"
-        },
-        {
-          "sourceId": "reddit-localllama",
-          "sourceName": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xm6jow/sparks_of_weightspace_programming_llms_can/"
-        },
-        {
-          "id": "ofhjz1ubd4",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50351111",
-          "title": "The 'Astra can read and write weights to improve Qwen' post is misleading",
-          "publishedAt": "2026-11-03T12:21:17.000Z"
-        }
-      ],
-      "story": {
-        "reports": 4,
-        "sources": [
-          "leiphone",
-          "hackernews",
-          "reddit-localllama"
-        ],
-        "firstPublishedAt": "2026-11-02T18:21:28.000Z",
-        "metrics": {
-          "points": 2944,
-          "comments": 890
-        }
-      }
+      "score": 24
     },
     {
       "id": "x8gf3sb8j7",
@@ -4239,29 +4190,7 @@
       "firstSeenAt": "2026-11-09T13:08:33.517Z",
       "day": "2026-11-04",
       "category": "industry",
-      "score": 36.3,
-      "related": [
-        {
-          "id": "18q69h3ysrb",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50353300",
-          "title": "AI is destroying my CS degree",
-          "publishedAt": "2026-11-03T15:35:06.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "simonw",
-          "hackernews"
-        ],
-        "firstPublishedAt": "2026-11-03T15:35:06.000Z",
-        "metrics": {
-          "points": 125,
-          "comments": 117
-        }
-      }
+      "score": 14
     },
     {
       "id": "f2t56ie93i",

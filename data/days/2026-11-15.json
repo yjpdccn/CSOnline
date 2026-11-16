@@ -31,13 +31,19 @@
       "publishedAt": "2026-11-15T15:21:11.000Z",
       "firstSeenAt": "2026-11-16T02:44:10.077Z",
       "day": "2026-11-15",
-      "category": "industry",
+      "category": "agent",
       "keywords": [
         "Agent"
       ],
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwy3ka/probable_glm_model/",
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "疑似 GLM 模型在 Reddit 帖子中被提及。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:58.885Z"
+      }
     },
     {
       "id": "1tzszrj7xns",
@@ -55,7 +61,13 @@
       "category": "industry",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwxzgj/i_finally_succeed_the_cmp_170hx_voltage_glitch/",
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "成功破解 CMP 170HX 电压漏洞，获得 80GB 显存。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:58.885Z"
+      }
     },
     {
       "id": "shai131hyj",
@@ -73,7 +85,13 @@
       "category": "industry",
       "score": 10,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwxbjk/spotted_a_very_interesting_detail_about_intels/",
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "发现 Intel 新平台 LGA 1954 的 PCIe 5.0 配置细节。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:58.885Z"
+      }
     },
     {
       "id": "27a1f2en6j1",
@@ -87,14 +105,22 @@
       "publishedAt": "2026-11-15T14:46:58.000Z",
       "firstSeenAt": "2026-11-16T02:44:10.077Z",
       "day": "2026-11-15",
-      "category": "opensource",
+      "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1101,
-        "comments": 597
+        "points": 1240,
+        "comments": 649
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50507303",
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "所有 AI 生成的代码都应开源",
+        "summary": "Hacker News 讨论强制 AI 生成代码开源的必要性。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:45.938Z"
+      },
+      "dupOf": "29ivlzrscdk"
     },
     {
       "id": "t3c2ztlif9",
@@ -133,7 +159,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-15T13:16:31.747Z"
-      }
+      },
+      "dupOf": "20c4yjveot6"
     },
     {
       "id": "q2lck6f1i4",
@@ -147,14 +174,21 @@
       "publishedAt": "2026-11-15T12:14:06.000Z",
       "firstSeenAt": "2026-11-16T02:44:10.077Z",
       "day": "2026-11-15",
-      "category": "industry",
-      "score": 25.6,
+      "category": "paper",
+      "score": 26.5,
       "metrics": {
-        "points": 211,
+        "points": 241,
         "comments": 27
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50506376",
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "理解现代 LLM 中的位置嵌入",
+        "summary": "探讨现代大语言模型中位置嵌入的作用。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:45.938Z"
+      }
     },
     {
       "id": "2dpbovsxilr",
@@ -457,48 +491,14 @@
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
       "category": "industry",
-      "score": 34,
-      "related": [
-        {
-          "id": "4ahtgy3g3n",
-          "sourceId": "qbitai",
-          "sourceName": "量子位",
-          "url": "https://www.qbitai.com/2026/11/509334.html",
-          "title": "马斯克已准备好聘请黄仁勋",
-          "publishedAt": "2026-11-12T08:16:11.000Z"
-        },
-        {
-          "id": "e675ke9qee",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4066274942571652",
-          "title": "马斯克给黄仁勋留了个工位",
-          "publishedAt": "2026-11-12T08:31:30.739Z"
-        },
-        {
-          "id": "zf8dgzqg12",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4069009439871873",
-          "title": "“让黄仁勋回归”，马斯克带头，超2万人请愿",
-          "publishedAt": "2026-11-14T03:10:33.443Z"
-        }
-      ],
-      "story": {
-        "reports": 4,
-        "sources": [
-          "jiqizhixin",
-          "qbitai",
-          "36kr-ai"
-        ],
-        "firstPublishedAt": "2026-11-12T08:16:11.000Z"
-      },
+      "score": 18,
       "ai": {
         "summary": "要求黄仁勋重返英伟达 CEO 岗位的请愿书签名人数突破 12 万。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-15T13:16:31.747Z"
-      }
+      },
+      "dupOf": "20c4yjveot6"
     },
     {
       "id": "g0x48pp8nh",
@@ -639,9 +639,16 @@
       "publishedAt": "2026-11-15T04:02:45.000Z",
       "firstSeenAt": "2026-11-16T02:44:10.077Z",
       "day": "2026-11-15",
-      "category": "industry",
+      "category": "opensource",
       "score": 14,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "datasette-apps 0.4a0 发布",
+        "summary": "支持在 Datasette 中运行沙盒化 HTML 和 JS 应用。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:45.938Z"
+      }
     },
     {
       "id": "1btepfyv6z0",
@@ -656,12 +663,19 @@
       "publishedAt": "2026-11-15T03:49:47.000Z",
       "firstSeenAt": "2026-11-16T02:44:10.077Z",
       "day": "2026-11-15",
-      "category": "agent",
+      "category": "opensource",
       "keywords": [
         "Agent"
       ],
       "score": 14,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "datasette-agent 0.6a0 发布",
+        "summary": "新增 Agent 提示功能，支持在 Datasette 首页提问。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:45.938Z"
+      }
     },
     {
       "id": "iqttmjv0z2",
@@ -856,10 +870,10 @@
       "firstSeenAt": "2026-11-15T02:38:59.167Z",
       "day": "2026-11-15",
       "category": "industry",
-      "score": 34.8,
+      "score": 35,
       "metrics": {
-        "points": 444,
-        "comments": 233
+        "points": 450,
+        "comments": 239
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50501631",
       "ai": {
@@ -932,41 +946,15 @@
       "firstSeenAt": "2026-11-15T02:38:59.167Z",
       "day": "2026-11-15",
       "category": "industry",
-      "score": 31,
-      "related": [
-        {
-          "id": "19xcwoky764",
-          "sourceId": "reddit-localllama",
-          "sourceName": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxxmb/bring_back_the_boss_nvidia_employees_petition_for/",
-          "title": "Nvidia 员工请愿请回 Jensen Huang",
-          "publishedAt": "2026-11-13T04:03:28.000Z"
-        },
-        {
-          "id": "1zch6p2lfw9",
-          "sourceId": "verge-ai",
-          "sourceName": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
-          "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
-          "publishedAt": "2026-11-15T20:43:49.000Z"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "techcrunch-ai",
-          "reddit-localllama",
-          "verge-ai"
-        ],
-        "firstPublishedAt": "2026-11-13T04:03:28.000Z"
-      },
+      "score": 15,
       "ai": {
         "title": "马斯克等科技高管签署请愿书要求恢复黄仁勋职务",
         "summary": "马斯克等科技高管签署请愿书，要求恢复黄仁勋职务。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-15T02:40:45.379Z"
-      }
+      },
+      "dupOf": "90qusvnnx8"
     },
     {
       "id": "9d5owrqo3q",
@@ -1455,8 +1443,8 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 26281,
-        "starsToday": 1041
+        "stars": 27706,
+        "starsToday": 1878
       },
       "ai": {
         "title": "Univer Office SDK：构建 AI 办公平台",
@@ -1485,10 +1473,10 @@
         "Agent",
         "A2UI"
       ],
-      "score": 23.8,
+      "score": 28.9,
       "metrics": {
-        "stars": 17978,
-        "starsToday": 393
+        "stars": 18832,
+        "starsToday": 790
       },
       "ai": {
         "title": "AG-UI：Agent 与前端交互协议",
@@ -1624,6 +1612,36 @@
       "category": "industry",
       "score": 15,
       "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "1masb9uvnon",
+      "key": "gh:n4ze3m/tiny-voca",
+      "title": "n4ze3m/tiny-voca",
+      "url": "https://github.com/n4ze3m/tiny-voca",
+      "excerpt": "A 4.5M-parameter two-voice English text-to-speech model, trained from scratch",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-14T16:02:56.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-15",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "语音"
+      ],
+      "score": 17.8,
+      "metrics": {
+        "stars": 590
+      },
+      "ai": {
+        "title": "tiny-voca：4.5M 参数双声英语 TTS 模型",
+        "summary": "GitHub 新星项目 tiny-voca 是一个从零训练的 TTS 模型。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:45.938Z"
+      }
     }
   ]
 }

@@ -1310,31 +1310,14 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 26,
-      "related": [
-        {
-          "id": "14zo7seudeq",
-          "sourceId": "36kr-flash",
-          "sourceName": "36氪快讯",
-          "url": "https://36kr.com/newsflashes/4069303294546825",
-          "title": "中金公司与蚂蚁集团达成战略合作",
-          "publishedAt": "2026-11-14T07:49:22.411Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "leiphone",
-          "36kr-flash"
-        ],
-        "firstPublishedAt": "2026-11-13T09:05:00.000Z"
-      },
+      "score": 18,
       "ai": {
         "summary": "中金公司与蚂蚁集团达成战略合作，共探AI赋能财富管理。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-14T17:04:54.151Z"
-      }
+      },
+      "dupOf": "267qa0pd95f"
     },
     {
       "id": "100ouh58476",
@@ -1959,7 +1942,7 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-13T18:32:34.893Z"
       },
-      "dupOf": "1mhmasbvb"
+      "dupOf": "90qusvnnx8"
     },
     {
       "id": "193incupl2m",
@@ -2772,9 +2755,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 21.1,
+      "score": 21.7,
       "metrics": {
-        "upvotes": 51,
+        "upvotes": 56,
         "comments": 3
       },
       "ai": {
@@ -3381,9 +3364,9 @@
         "MCP",
         "AI 编程"
       ],
-      "score": 17.1,
+      "score": 17.2,
       "metrics": {
-        "stars": 507
+        "stars": 509
       }
     },
     {
@@ -3431,7 +3414,7 @@
       ],
       "score": 17.2,
       "metrics": {
-        "stars": 510
+        "stars": 513
       },
       "dupOf": "29185twikil"
     },
@@ -3456,7 +3439,7 @@
       ],
       "score": 17.2,
       "metrics": {
-        "stars": 508
+        "stars": 509
       },
       "related": [
         {
@@ -3475,7 +3458,7 @@
         ],
         "firstPublishedAt": "2026-11-12T19:35:10.000Z",
         "metrics": {
-          "stars": 510
+          "stars": 513
         }
       }
     },
@@ -3501,7 +3484,7 @@
       ],
       "score": 17.2,
       "metrics": {
-        "stars": 513
+        "stars": 515
       }
     },
     {
@@ -3525,7 +3508,7 @@
       ],
       "score": 17.2,
       "metrics": {
-        "stars": 511
+        "stars": 513
       }
     },
     {

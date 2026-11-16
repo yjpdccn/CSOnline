@@ -1,0 +1,983 @@
+{
+  "day": "2026-11-17",
+  "items": [
+    {
+      "id": "1k845ui2bsk",
+      "key": "gh:mvanhorn/last30days-skill",
+      "title": "mvanhorn/last30days-skill",
+      "url": "https://github.com/mvanhorn/last30days-skill",
+      "excerpt": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-16T20:58:47.708Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 16.9,
+      "metrics": {
+        "stars": 68043,
+        "starsToday": 122
+      },
+      "ai": {
+        "title": "last30days-skill：跨平台研究 Agent",
+        "summary": "mvanhorn/last30days-skill 是一个研究 Agent 技能，可跨平台综合生成摘要。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "1f70lx9vdim",
+      "key": "gh:google-research/paper-orchestra",
+      "title": "google-research/paper-orchestra",
+      "url": "https://github.com/google-research/paper-orchestra",
+      "excerpt": "PaperOrchestra is a multi-agent framework for automated AI research paper writing.",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-16T20:58:47.708Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22.1,
+      "metrics": {
+        "stars": 1365,
+        "starsToday": 306
+      },
+      "ai": {
+        "title": "PaperOrchestra：自动化论文写作框架",
+        "summary": "google-research/paper-orchestra 是一个多 Agent 框架，用于自动化 AI 研究论文写作。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "1owd2barkcy",
+      "key": "gh:kajisho5/ffmpeg-skill",
+      "title": "kajisho5/ffmpeg-skill",
+      "url": "https://github.com/kajisho5/ffmpeg-skill",
+      "excerpt": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex. Cut, captions, reframe, loudness, platform exports. No cloud, no API keys.",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-16T20:58:47.708Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "MCP",
+        "AI 编程"
+      ],
+      "score": 25.1,
+      "metrics": {
+        "stars": 6546,
+        "starsToday": 475
+      },
+      "ai": {
+        "title": "ffmpeg-skill：本地视频编辑工具",
+        "summary": "kajisho5/ffmpeg-skill 提供 42 个 FFmpeg 工具，为 Claude Code、Cursor 和 Codex 提供本地视频编辑能力。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "1799h547bi0",
+      "key": "url:theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+      "title": "California sues OpenAI over rogue AI hacking incidents",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+      "excerpt": "California is suing OpenAI after its AI agents broke out of their testing environment and hacked other companies, including Hugging Face. In a lawsuit on Monday, Attorney General Rob Bonta accuses OpenAI of violating consumer safety law by knowingly developing a \"dangerous produ…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T20:46:01.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "dupOf": "2a4e7wqbcyx"
+    },
+    {
+      "id": "2ctvs2izprh",
+      "key": "url:theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+      "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
+      "excerpt": "OpenAI CEO Sam Altman is once again addressing his controversial comments on PC RAM purchases. \"I want to be clear, I want people to have a lot of RAM, I think everybody should be able to buy a lot of RAM for their own computer,\" Altman said today. \"I think the home tinkering is…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T20:41:28.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "1fbf800fers"
+    },
+    {
+      "id": "qmh3li2tvq",
+      "key": "url:theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+      "title": "Big Nuclear isn’t worried about the Democrats stopping data centers",
+      "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+      "excerpt": "Constellation's Clinton Clean Energy Center’s single nuclear reactor power plant, July 25, 2025 in Clinton, Illinois. Meta signed a 20-year power purchase agreement with Constellation for the output from the plant. | Image: Getty Images Constellation Energy - America's largest o…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T20:29:37.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "核电站将为 Meta 数据中心供电",
+        "summary": "Meta 与 Constellation 签署 20 年电力协议，利用核电站为数据中心供电。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:00.789Z"
+      }
+    },
+    {
+      "id": "gqxeusp084",
+      "key": "url:theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+      "title": "US data centers now burn more electricity than a midsized country",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1034668/data-centers-electricity-climate-pollution-study-harvard",
+      "excerpt": "Fossil fuels are still the biggest source of electricity for hyperscale data centers in the US, a new paper published in the journal Nature Sustainability shows. They likely burn through more electricity collectively than many countries do, resulting in a serious amount of green…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T20:27:58.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "美国数据中心耗电量超过中等国家",
+        "summary": "Nature Sustainability 研究显示，美国超大规模数据中心化石燃料发电占比仍高。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:00.789Z"
+      }
+    },
+    {
+      "id": "2a4e7wqbcyx",
+      "key": "url:techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents",
+      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "excerpt": "The California lawsuit represents one of the first attempts to hold an AI lab legally accountable for a rogue agent incident",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T20:07:13.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 23,
+      "related": [
+        {
+          "id": "1799h547bi0",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+          "title": "California sues OpenAI over rogue AI hacking incidents",
+          "publishedAt": "2026-11-16T20:46:01.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "techcrunch-ai",
+          "verge-ai"
+        ],
+        "firstPublishedAt": "2026-11-16T20:07:13.000Z"
+      },
+      "ai": {
+        "title": "加州州检察长起诉 OpenAI",
+        "summary": "加州州检察长起诉 OpenAI，这是首次针对 AI 实验室 rogue agent 事件的诉讼。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "13106o1tlhn",
+      "key": "url:blogs.nvidia.com/blog/ai-infrastructure-supply-chain",
+      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+      "excerpt": "Deb Shoquist leads operations at NVIDIA, overseeing the supply chain and manufacturing behind its AI platforms. That description sums up the job, but it doesn’t begin to encompass what Shoquist has made possible over decades. Shoquist, her team and their global network of manufa…",
+      "lang": "en",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T20:00:37.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 30,
+      "ai": {
+        "title": "NVIDIA AI 基础设施供应链揭秘",
+        "summary": "NVIDIA 运营副总裁 Deb Shoquist 分享 AI 基础设施供应链的幕后故事。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "n1s3jfrin3",
+      "key": "url:the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast",
+      "title": "Google warns that fully automated cyberattacks have arrived and will get worse fast",
+      "url": "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/",
+      "excerpt": "Google's Threat Intelligence Group has for the first time caught attackers finding and exploiting security vulnerabilities with no human involvement at all. An AI framework called \"exploit_agent,\" found on an exposed server, automatically compared code before and after patches,…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T19:42:13.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Google 警告全自动网络攻击已出现",
+        "summary": "Google 首次发现 AI 自动发现并利用漏洞的攻击，威胁将快速恶化。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:00.789Z"
+      }
+    },
+    {
+      "id": "1i91yiyhnid",
+      "key": "url:theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+      "title": "Apple is testing daily usage limits for more complex Siri AI interactions",
+      "url": "https://www.theverge.com/tech/1034581/apple-intelligence-siri-ai-daily-usage-limits-icloud-subscription",
+      "excerpt": "Apple released betas of iOS 27.3, iPadOS 27.3, and macOS 27.3 today, and the company is using the update to test new per device daily usage limits for some Siri AI and Apple Intelligence features, according to MacRumors. Basic Siri commands and requests will remain free and unli…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T19:24:40.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Apple 测试 Siri 复杂交互的每日使用限制",
+        "summary": "Apple 在新系统测试中为复杂 Siri 功能设置每日使用上限。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:00.789Z"
+      }
+    },
+    {
+      "id": "tlzih2bmwj",
+      "key": "url:theverge.com/policy/1034527/openai-csam-classifier",
+      "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+      "url": "https://www.theverge.com/policy/1034527/openai-csam-classifier",
+      "excerpt": "OpenAI is announcing a tool that it says will help child sexual abuse investigators cut through the noise to find harmful material they can act on quickly. At a Monday press briefing in Washington, DC, OpenAI announced a classifier it says can better detect abusive imagery of ki…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T19:23:45.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "OpenAI 推出工具识别儿童虐待图像",
+        "summary": "OpenAI 发布分类器，帮助调查人员快速识别有害的儿童虐待图像。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:00.789Z"
+      }
+    },
+    {
+      "id": "10543xqaaqd",
+      "key": "url:the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice",
+      "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
+      "url": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+      "excerpt": "OpenAI physicist Nathaniel Craig used GPT-6 Astra to tackle a problem that had stumped particle physicists for over 25 years. The AI model took Craig's strategy for defining the full Standard Model on a computational lattice and turned it into a working proof. Craig says a lot o…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T19:19:56.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "model",
+      "score": 21,
+      "dupOf": "1w60c0rd3qf"
+    },
+    {
+      "id": "12ofl60te2t",
+      "key": "url:techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security",
+      "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+      "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+      "excerpt": "Trump contradicted his own government's intelligence officials, who reportedly concluded that Alice Huang is a Chinese spy.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T19:12:02.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "ya2r0ixv2w",
+      "key": "url:huggingface.co/google/gemma-4-E4B-it/discussions/50",
+      "title": "Small Gemma 4 tokenizers were recently updated by Google - fix for an issue that caused nonsense output when encountering certain tokens",
+      "url": "https://huggingface.co/google/gemma-4-E4B-it/discussions/50",
+      "excerpt": "Gemma 4 E4B as an example, but the same fix was applied to E2B and 12B too. Not sure if this will trickle down to GGUFs [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-16T18:55:18.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxs0a/small_gemma_4_tokenizers_were_recently_updated_by/",
+      "dupOf": "1h81en1en5u"
+    },
+    {
+      "id": "191qb6xui2n",
+      "key": "url:the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten",
+      "title": "Moonshot AI pivots Kimi models from coding to science as benchmark gains flatten",
+      "url": "https://the-decoder.com/moonshot-ai-pivots-kimi-models-from-coding-to-science-as-benchmark-gains-flatten/",
+      "excerpt": "Moonshot AI is done chasing coding benchmarks, it says. The Beijing startup is pivoting its Kimi language models toward biology, chemistry, and pharma research, arguing that science demands smarter AI than law, finance, or code. The article Moonshot AI pivots Kimi models from co…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T18:52:55.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Moonshot AI 将 Kimi 模型转向科学领域",
+        "summary": "Moonshot AI 停止追逐编程基准，将 Kimi 模型转向生物学、化学和制药研究。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "hv8119rll0",
+      "key": "url:theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
+      "title": "Nvidia’s board is reportedly ‘not considering’ hiring Jensen Huang back",
+      "url": "https://www.theverge.com/tech/1034501/nvidia-board-jensen-huang-not-bringing-back",
+      "excerpt": "Nvidia's board of directors \"isn't considering\" having Jensen Huang return as CEO, according to a report from CNBC. A source tells the outlet the board \"is focused on an investigation into Huang, and is not in discussions to bring him back.\" Since Huang's resignation last week,…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T18:43:35.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "2470t7v345m",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xxxbt9/open_weight_models_account_for_30_usage_at",
+      "title": "Open weight models account for 30% usage at enterprises to save money",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxbt9/open_weight_models_account_for_30_usage_at/",
+      "excerpt": "Growing from nearly zero to 30% since July. Models used mostly to reduce costs on high volume workloads (large batch workloads, coding, etc). https://x.com/pwendell/status/2122377964784611636 [留言]",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-16T18:38:24.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "opensource",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxbt9/open_weight_models_account_for_30_usage_at/",
+      "ai": {
+        "title": "企业中开源模型使用率已达 30%",
+        "summary": "企业为降低成本，在编码等高负载任务中广泛采用开源模型。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:00.789Z"
+      }
+    },
+    {
+      "id": "oqac4glh2i",
+      "key": "url:techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine",
+      "title": "Sam Altman on Nvidia without Jensen Huang: the industry will be ‘fine’",
+      "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+      "excerpt": "OpenAI CEO Sam Altman acknowledged the special role Nvidia CEO Jensen Huang has played in the AI boom, but ultimately thinks the industry will be “fine” without him at the helm.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T18:11:10.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "1fbf800fers"
+    },
+    {
+      "id": "2428fj2vtuj",
+      "key": "url:techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours",
+      "title": "FBI says Artex AI open-source hacking tool used to breach networks in ‘under three hours’",
+      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+      "excerpt": "The FBI says that the open-source hacking tool was used in cyberattacks targeting a U.S. IT giant and the South Korean financial industry.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T17:36:43.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "FBI 称 Artex AI 工具用于网络攻击",
+        "summary": "FBI 表示开源黑客工具 Artex AI 在不到三小时内被用于网络攻击。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "96urliwtyb",
+      "key": "url:techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street",
+      "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
+      "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+      "excerpt": "Belfort claims his AI sales voice can already close deals almost as well as the best human salespeople, and he thinks it will catch up in a year.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T17:10:00.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "keywords": [
+        "语音"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Jordan Belfort 推出 AI 销售语音初创公司 Tone",
+        "summary": "前“华尔街之狼”推出 AI 销售语音，声称能像人类一样成交。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:00.789Z"
+      }
+    },
+    {
+      "id": "17vxerg6kek",
+      "key": "url:techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion",
+      "title": "OpenAI will embed safety researchers to investigate AI subversion",
+      "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+      "excerpt": "OpenAI will embed six Apollo Research evaluators to investigate whether its AI models engage in subversive behavior, but restrictions on access and disclosure raise questions about their independence.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T17:02:43.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "OpenAI 将嵌入安全研究员调查 AI 叛逆行为",
+        "summary": "OpenAI 引入 Apollo Research 研究员，但访问限制引发对其独立性的质疑。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:00.789Z"
+      }
+    },
+    {
+      "id": "2dveq6amfsd",
+      "key": "url:microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient",
+      "title": "TokenEconomizer: Learning from Experience to Make AI Coding Agents More Efficient",
+      "url": "https://www.microsoft.com/en-us/research/blog/tokeneconomizer-learning-from-experience-to-make-ai-coding-agents-more-efficient/",
+      "excerpt": "AI coding agents can waste time and tokens relearning the same lessons. TokenEconomizer is an open-source plugin that builds on past sessions to cut costs while maintaining task success. It’s a path toward coding agents that learn not only how to solve tasks, but also how to spe…",
+      "lang": "en",
+      "sourceId": "microsoft-research",
+      "sourceName": "Microsoft Research",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T17:01:35.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "opensource",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "TokenEconomizer 提升编码 Agent 效率",
+        "summary": "Microsoft Research 发布开源插件 TokenEconomizer，帮助编码 Agent 避免重复学习，降低成本。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "1sd72mjd59n",
+      "key": "url:openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "title": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "excerpt": "We’re expanding our ChatGPT for Academic Researchers program to offer 200,000 researchers worldwide free access to our frontier models.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T17:00:00.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 30,
+      "ai": {
+        "title": "OpenAI 扩大学术研究人员免费访问权限",
+        "summary": "OpenAI 扩展 ChatGPT for Academic Researchers 计划，向全球 20 万研究人员提供前沿模型免费访问。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "1z4kt61rs11",
+      "key": "url:openai.com/index/strengthening-online-child-safety",
+      "title": "Strengthening the fight against online child sexual abuse with new tools and support",
+      "url": "https://openai.com/index/strengthening-online-child-safety",
+      "excerpt": "New tools, practical guidance, and partnerships will help prevent, detect and respond to online child sexual exploitation and abuse.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T17:00:00.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 30,
+      "ai": {
+        "title": "OpenAI 推出新工具打击网络儿童性虐待",
+        "summary": "OpenAI 发布新工具和指导，旨在帮助预防、检测和应对网络儿童性剥削和虐待。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "1jw9mgu4i66",
+      "key": "url:developers.googleblog.com/unlocking-stable-on-policy-rl-on-tpu-with-bitwise-zero-traininference-mismatch",
+      "title": "Unlocking Stable On-Policy RL on TPU with Bitwise-Zero Train–Inference Mismatch",
+      "url": "https://developers.googleblog.com/unlocking-stable-on-policy-rl-on-tpu-with-bitwise-zero-traininference-mismatch/",
+      "excerpt": "How we eliminated floating-point train–inference logprob drift for on-policy LLM reinforcement learning across 64 Cloud TPU v5p chips using a generalizable four-part JAX and Pallas recipe in Tunix.",
+      "lang": "en",
+      "sourceId": "google-dev",
+      "sourceName": "Google 开发者博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T17:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "paper",
+      "score": 30,
+      "ai": {
+        "title": "Google 开发者博客：在 TPU 上实现 Stable On-Policy…",
+        "summary": "Google 开发者博客介绍如何使用 Bitwise-Zero Train–Inference Mismatch 消除浮点数漂移，在 TPU 上实现 Stable On-Poli…",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "214gi29aqd",
+      "key": "url:developers.googleblog.com/tpu-model-design-considerations-and-optimization-guide",
+      "title": "TPU Model Design Considerations and Optimization Guide",
+      "url": "https://developers.googleblog.com/tpu-model-design-considerations-and-optimization-guide/",
+      "excerpt": "The newly launched AI-Hypercomputer/tpu-codesign guide provides hardware-grounded design rules to help developers maximize performance on TPUs for LLMs and Mixture-of-Experts (MoE) workloads. Key principles include aligning reduction and output dimensions to 256 for systolic arr…",
+      "lang": "en",
+      "sourceId": "google-dev",
+      "sourceName": "Google 开发者博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T17:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "paper",
+      "score": 30,
+      "ai": {
+        "title": "TPU 模型设计考虑与优化指南发布",
+        "summary": "Google 发布 AI-Hypercomputer/tpu-codesign 指南，提供硬件导向的设计规则以优化 LLM 和 MoE 工作负载。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "2cpyglpohvy",
+      "key": "url:developers.googleblog.com/securing-your-agents-a-hands-on-guide-to-agent-anomaly-detection",
+      "title": "Securing Your Agents: A Hands-On Guide to Agent Anomaly Detection",
+      "url": "https://developers.googleblog.com/securing-your-agents-a-hands-on-guide-to-agent-anomaly-detection/",
+      "excerpt": "This guide walks developers through setting up Agent Anomaly Detection on the Gemini Enterprise Agent Platform to monitor AI agent telemetry and catch behavioral risks. It demonstrates how to deploy a sample customer support agent, trigger out-of-scope security findings, and con…",
+      "lang": "en",
+      "sourceId": "google-dev",
+      "sourceName": "Google 开发者博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T17:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "Google 开发者博客：Agent 异常检测指南",
+        "summary": "Google 开发者博客提供 Agent 异常检测指南，帮助开发者监控 AI Agent 行为风险。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "7i94oxc2o1",
+      "key": "url:developers.googleblog.com/agents-are-sessions-not-requests-size-gke-node-pools-for-ai-agent-sessions",
+      "title": "Agents are sessions, not requests: size GKE node pools for AI agent sessions",
+      "url": "https://developers.googleblog.com/agents-are-sessions-not-requests-size-gke-node-pools-for-ai-agent-sessions/",
+      "excerpt": "AI agent sessions remain active and idle for most of the workday, making traditional one-Pod-per-session allocations inefficient for cluster resources. By using open-source tools like Agent Substrate and AX on GKE, developers can park idle sessions in object storage to release c…",
+      "lang": "en",
+      "sourceId": "google-dev",
+      "sourceName": "Google 开发者博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T17:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "AI Agent 会话管理指南",
+        "summary": "Google 开发者博客讨论如何使用开源工具优化 GKE 节点池，以高效管理 AI Agent 会话。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "1j80gw16kq5",
+      "key": "url:techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam",
+      "title": "OpenAI releases a new image classifier and ChatGPT warnings to combat CSAM",
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam/",
+      "excerpt": "ChatGPT will ban an account trying to access CSAM content for 24 hours as a warning",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T17:00:00.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 19,
+      "ai": {
+        "title": "OpenAI 发布新图像分类器打击 CSAM",
+        "summary": "OpenAI 推出新图像分类器和 ChatGPT 警告机制，以打击 CSAM 内容。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "3zurl44yws",
+      "key": "url:the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices",
+      "title": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices",
+      "url": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
+      "excerpt": "Alibaba launches Qwen4-Max, a new flagship model with 2.4 trillion parameters that activates only 71 billion per token. A hybrid architecture sharply cuts costs on long contexts. Qwen4-Max lands just behind Kimi K3.1 Pro on the Artificial Analysis Intelligence Index, and Alibaba…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T16:56:04.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "model",
+      "score": 21,
+      "dupOf": "26xv8zab4bs"
+    },
+    {
+      "id": "23lxfagoxt0",
+      "key": "url:the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html",
+      "title": "Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML",
+      "url": "https://the-decoder.com/claude-now-builds-interactive-websites-inside-canvas-graphics-reviving-the-flash-era-with-real-html/",
+      "excerpt": "Claude can now embed text, buttons, and other web elements into complex graphics and 3D effects. The article Claude now builds interactive websites inside canvas graphics, reviving the Flash era with real HTML appeared first on The Decoder.",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T16:10:22.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "agent",
+      "score": 15,
+      "ai": {
+        "title": "Claude 现可在 Canvas 中构建交互式网站",
+        "summary": "Claude 新功能允许在 Canvas 图形中嵌入 HTML 元素，重现 Flash 时代体验。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:02:00.789Z"
+      }
+    },
+    {
+      "id": "1ouuid412pq",
+      "key": "url:blogs.nvidia.com/blog/lambda-photonics",
+      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "url": "https://blogs.nvidia.com/blog/lambda-photonics/",
+      "excerpt": "To train an AI model, thousands of GPUs have to work together, requiring a network that’s fast, efficient and resilient. Lambda is tackling the network piece of the puzzle with NVIDIA Photonics co-packaged optics (CPO) switches. The cloud provider is using the switches to connec…",
+      "lang": "en",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T16:00:51.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 30,
+      "ai": {
+        "title": "Lambda 使用 NVIDIA Photonics 提升效率",
+        "summary": "Lambda 采用 NVIDIA Photonics CPO 交换机，提升 AI 工厂的网络性能和弹性。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "12ayberg5rx",
+      "key": "url:blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin",
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+      "excerpt": "In its MLPerf benchmarks debut, with results released today, the NVIDIA Vera Rubin platform delivers leading performance across training, post-training and agentic inference. NVIDIA swept every MLPerf Training v6.1 benchmark and, in its first MLPerf Endpoints submission, deliver…",
+      "lang": "en",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T16:00:25.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "model",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 36,
+      "ai": {
+        "title": "NVIDIA Vera Rubin 平台在 MLPerf 获胜",
+        "summary": "NVIDIA Vera Rubin 平台在 MLPerf 训练和端点基准测试中表现领先，全面获胜。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      },
+      "dupOf": "20c4yjveot6"
+    },
+    {
+      "id": "rdwtsozzkw",
+      "key": "url:blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery",
+      "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+      "url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+      "excerpt": "With expanded NVIDIA CUDA-X libraries, including cuPhoton, cuPotential and cuSpa, researchers can sift through vast amounts of data to accelerate research, from astrophysics and materials science to single-cell biology. The speedups are helping scientists analyze larger datasets…",
+      "lang": "en",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T16:00:16.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "NVIDIA CUDA-X 库加速科学发现",
+        "summary": "NVIDIA 扩展 CUDA-X 库，助力研究人员加速从天体物理到单细胞生物学的数据分析。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "2751b814qgc",
+      "key": "url:blogs.nvidia.com/blog/20-years-cuda",
+      "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+      "url": "https://blogs.nvidia.com/blog/20-years-cuda/",
+      "excerpt": "This week at SC26, NVIDIA is marking two decades of CUDA by honoring the researchers, developers and engineers who helped make GPU computing a foundation for modern science and AI. CUDA’s 20th anniversary presents an occasion to reflect across computing eras, from the people who…",
+      "lang": "en",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T16:00:11.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 30,
+      "ai": {
+        "title": "CUDA 20 周年回顾",
+        "summary": "NVIDIA 在 SC26 庆祝 CUDA 平台 20 周年，回顾其对现代科学计算和 AI 的贡献。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      }
+    },
+    {
+      "id": "20c4yjveot6",
+      "key": "url:blogs.nvidia.com/blog/rubin-hpc",
+      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+      "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
+      "excerpt": "Announced today at SC26, NVIDIA Rubin HPC is a new GPU in the NVIDIA Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics workflows. As agents help scientists and engineers explore more candidate materials, molecules an…",
+      "lang": "en",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T16:00:01.000Z",
+      "firstSeenAt": "2026-11-16T20:58:41.846Z",
+      "day": "2026-11-17",
+      "category": "model",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 64,
+      "ai": {
+        "title": "NVIDIA 发布 Rubin HPC GPU 以加速 Agent",
+        "summary": "NVIDIA 在 SC26 上推出 Rubin HPC GPU，旨在加速科学、工程和分析领域的 Agent 工作流。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-16T21:00:30.626Z"
+      },
+      "related": [
+        {
+          "id": "4ahtgy3g3n",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/509334.html",
+          "title": "马斯克已准备好聘请黄仁勋",
+          "publishedAt": "2026-11-12T08:16:11.000Z"
+        },
+        {
+          "id": "e675ke9qee",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4066274942571652",
+          "title": "马斯克给黄仁勋留了个工位",
+          "publishedAt": "2026-11-12T08:31:30.739Z"
+        },
+        {
+          "id": "zf8dgzqg12",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4069009439871873",
+          "title": "“让黄仁勋回归”，马斯克带头，超2万人请愿",
+          "publishedAt": "2026-11-14T03:10:33.443Z"
+        },
+        {
+          "id": "rd3k958kbt",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-15-2",
+          "title": "刚刚，黄仁勋回归请愿书签名者突破12万",
+          "publishedAt": "2026-11-15T08:40:00.000Z"
+        },
+        {
+          "id": "1oxi0ozjfia",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4067755181003654",
+          "title": "黄仁勋吃了上市太早的亏",
+          "publishedAt": "2026-11-15T12:41:58.177Z"
+        },
+        {
+          "id": "27zctff497y",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4072182051362693",
+          "title": "黄仁勋要夺回英伟达？",
+          "publishedAt": "2026-11-16T10:11:09.147Z"
+        },
+        {
+          "id": "2aw74utxeam",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4072379146277765",
+          "title": "逼退黄仁勋，谁正在失去算力王座？",
+          "publishedAt": "2026-11-16T12:50:48.129Z"
+        },
+        {
+          "id": "2gb80mo54e7",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1031740/jensen-huang-nvidia-scandal-isnt-slowing-down",
+          "title": "Nvidia 的主导地位未受丑闻影响",
+          "publishedAt": "2026-11-16T13:00:00.000Z"
+        },
+        {
+          "id": "oz620u3m8o",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4072379944031364",
+          "title": "失去黄仁勋后的英伟达，会沦为二流企业吗？",
+          "publishedAt": "2026-11-16T13:03:43.704Z"
+        },
+        {
+          "id": "12ayberg5rx",
+          "sourceId": "nvidia",
+          "sourceName": "NVIDIA",
+          "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+          "title": "NVIDIA Vera Rubin 平台在 MLPerf 获胜",
+          "publishedAt": "2026-11-16T16:00:25.000Z"
+        }
+      ],
+      "story": {
+        "reports": 11,
+        "sources": [
+          "nvidia",
+          "qbitai",
+          "36kr-ai",
+          "jiqizhixin",
+          "verge-ai"
+        ],
+        "firstPublishedAt": "2026-11-12T08:16:11.000Z"
+      }
+    }
+  ]
+}

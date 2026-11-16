@@ -733,5 +733,46 @@
         ]
       }
     ]
+  },
+  "2026-11-17": {
+    "day": "2026-11-17",
+    "generatedAt": "2026-11-16T21:03:53.968Z",
+    "itemCount": 159,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "OpenAI遭起诉，腾讯混元、Qwen4-Max等模型发布，Google Maps推出AI规划功能。",
+    "points": [
+      {
+        "text": "加州州检察长起诉 OpenAI，首例针对 rogue agent 事件的诉讼。",
+        "refs": [
+          "2a4e7wqbcyx"
+        ]
+      },
+      {
+        "text": "腾讯混元发布 Hy4 flash，单任务成本仅为 Hy4 的 5%。",
+        "refs": [
+          "26lkjazmagp"
+        ]
+      },
+      {
+        "text": "Qwen4-Max 正式发布，具备原生视觉能力，支持百万上下文。",
+        "refs": [
+          "26xv8zab4bs"
+        ]
+      },
+      {
+        "text": "Google Maps 推出 AI 旅行规划功能，Gemini 驱动 Ask Maps。",
+        "refs": [
+          "l762u0gyvn",
+          "p3pxm09m6a"
+        ]
+      },
+      {
+        "text": "豆包工作上线“工作台”功能，首批覆盖金融、医疗等21个专业场景。",
+        "refs": [
+          "oh1w8treqk"
+        ]
+      }
+    ]
   }
 }
