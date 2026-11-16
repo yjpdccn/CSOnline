@@ -102,10 +102,10 @@
       "firstSeenAt": "2026-11-14T03:13:08.868Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 28.3,
+      "score": 28.4,
       "metrics": {
-        "points": 194,
-        "comments": 194
+        "points": 195,
+        "comments": 196
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50484960",
       "ai": {
@@ -246,8 +246,8 @@
       "category": "paper",
       "score": 36,
       "metrics": {
-        "points": 472,
-        "comments": 708
+        "points": 482,
+        "comments": 725
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50484658",
       "ai": {
@@ -491,7 +491,7 @@
         ],
         "firstPublishedAt": "2026-11-13T13:08:10.000Z",
         "metrics": {
-          "points": 145,
+          "points": 146,
           "comments": 26
         }
       },
@@ -1683,7 +1683,7 @@
       "day": "2026-11-13",
       "category": "model",
       "score": 28,
-      "dupOf": "1oxs0863i04"
+      "dupOf": "1w60c0rd3qf"
     },
     {
       "id": "gx54fgwfuw",
@@ -1811,48 +1811,14 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-13",
       "category": "model",
-      "score": 40,
-      "related": [
-        {
-          "id": "1hru80t2eee",
-          "sourceId": "qbitai",
-          "sourceName": "量子位",
-          "url": "https://www.qbitai.com/2026/11/509663.html",
-          "title": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-1031，把RSI带进生命科学",
-          "publishedAt": "2026-11-13T07:06:32.000Z"
-        },
-        {
-          "id": "1auvz9wr9u7",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4069381314303105",
-          "title": "OpenAI机器人团队突然解散，GPT-6 Astra把行业一锅端了",
-          "publishedAt": "2026-11-15T06:00:57.000Z"
-        },
-        {
-          "id": "dn57hjadmu",
-          "sourceId": "jiqizhixin",
-          "sourceName": "机器之心",
-          "url": "https://www.jiqizhixin.com/articles/2026-11-15-7",
-          "title": "逼近GPT-6 Astra！韩松团队让Qwen3.8-27B在5090上操作机械臂，现已开源",
-          "publishedAt": "2026-11-15T08:58:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 4,
-        "sources": [
-          "jiqizhixin",
-          "qbitai",
-          "36kr-ai"
-        ],
-        "firstPublishedAt": "2026-11-13T06:49:00.000Z"
-      },
+      "score": 24,
       "ai": {
         "summary": "斯坦福让GPT-6 Astra修改机器人参数，修复指令失灵问题。",
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-14T17:04:54.151Z"
-      }
+      },
+      "dupOf": "1w60c0rd3qf"
     },
     {
       "id": "3wajslvixx",
@@ -2126,7 +2092,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 6680,
+        "stars": 7281,
         "starsToday": 1925
       },
       "ai": {
@@ -2291,12 +2257,30 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "黄仁勋辞任英伟达CEO，国产算力迎来窗口期。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-15T02:42:50.104Z"
+      },
+      "related": [
+        {
+          "id": "fagfap9ibe",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-16-2",
+          "title": "突发！黄仁勋与盟友商讨重返英伟达CEO之位",
+          "publishedAt": "2026-11-16T02:30:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-13T02:56:59.756Z"
       }
     },
     {
@@ -2757,9 +2741,9 @@
       "day": "2026-11-13",
       "category": "paper",
       "categoryLocked": true,
-      "score": 27.9,
+      "score": 28.1,
       "metrics": {
-        "upvotes": 136,
+        "upvotes": 138,
         "comments": 3
       },
       "ai": {
@@ -2788,10 +2772,10 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 21,
+      "score": 21.1,
       "metrics": {
-        "upvotes": 50,
-        "comments": 2
+        "upvotes": 51,
+        "comments": 3
       },
       "ai": {
         "title": "BirdDreams：联合视角与 BEV 视频生成",
@@ -3379,6 +3363,30 @@
       }
     },
     {
+      "id": "153rm75r4kd",
+      "key": "gh:zovulrira1974/blender-ai-copilot-assets",
+      "title": "zovulrira1974/blender-ai-copilot-assets",
+      "url": "https://github.com/zovulrira1974/blender-ai-copilot-assets",
+      "excerpt": "An asset-savvy AI copilot for Blender—search Poly Haven, Sketchfab and Poly Pizza mid-conversation, check what fits, import after your confirmation, with 27 scene tools and a built-in MCP server alongside. · blender-ai-copilot-assets · blender · blender 3d · blender addon · blen…",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T19:39:54.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-13",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "MCP",
+        "AI 编程"
+      ],
+      "score": 17.1,
+      "metrics": {
+        "stars": 507
+      }
+    },
+    {
       "id": "29didt5p5r4",
       "key": "url:reddit.com/r/LocalLLaMA/comments/1xumhm3/jensen_today_at_nvidia_board_meeting",
       "title": "Jensen today at Nvidia board meeting",
@@ -3400,6 +3408,124 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-13T18:32:31.725Z"
+      }
+    },
+    {
+      "id": "28aps0lblzu",
+      "key": "gh:tiobeharxi1987/blender-ai-copilot-flow",
+      "title": "tiobeharxi1987/blender-ai-copilot-flow",
+      "url": "https://github.com/tiobeharxi1987/blender-ai-copilot-flow",
+      "excerpt": "A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved, executed in sequence, cancellable after the current step and undoable by name—inside a visual studio with a built-in MCP server. · blender-ai-copilot-flow · blender · blender 3…",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T19:38:53.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-13",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "MCP",
+        "AI 编程"
+      ],
+      "score": 17.2,
+      "metrics": {
+        "stars": 510
+      },
+      "dupOf": "29185twikil"
+    },
+    {
+      "id": "29185twikil",
+      "key": "gh:doug-218/blender-ai-copilot-forge",
+      "title": "Doug-218/blender-ai-copilot-forge",
+      "url": "https://github.com/Doug-218/blender-ai-copilot-forge",
+      "excerpt": "A scene-forging AI copilot for Blender—describe the layout and watch primitives, cameras, lights, materials and parenting assemble in ordered steps, with approvals, named undo and a built-in MCP server. · blender-ai-copilot-forge · blender · blender 3d · blender addon · blender…",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T19:35:10.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-13",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "MCP",
+        "AI 编程"
+      ],
+      "score": 17.2,
+      "metrics": {
+        "stars": 508
+      },
+      "related": [
+        {
+          "id": "28aps0lblzu",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/tiobeharxi1987/blender-ai-copilot-flow",
+          "title": "tiobeharxi1987/blender-ai-copilot-flow",
+          "publishedAt": "2026-11-12T19:38:53.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "github-new"
+        ],
+        "firstPublishedAt": "2026-11-12T19:35:10.000Z",
+        "metrics": {
+          "stars": 510
+        }
+      }
+    },
+    {
+      "id": "1iezr8j4rd9",
+      "key": "gh:credoksopho1984/blender-ai-copilot-studio",
+      "title": "credoksopho1984/blender-ai-copilot-studio",
+      "url": "https://github.com/credoksopho1984/blender-ai-copilot-studio",
+      "excerpt": "An AI copilot and MCP server for Blender that turns plain-language briefs into scene operations—inside a visual chat studio with multi-agent teams, your choice of AI models, and 27 built-in scene tools. · blender-ai-copilot-studio · blender ai · ai for blender · blender copilot…",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T19:30:32.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-13",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "MCP",
+        "AI 编程"
+      ],
+      "score": 17.2,
+      "metrics": {
+        "stars": 513
+      }
+    },
+    {
+      "id": "1evnnjcez3j",
+      "key": "gh:racdeufindurch198812/blender-ai-mcp-studio",
+      "title": "racdeufindurch198812/Blender-AI-MCP-Studio",
+      "url": "https://github.com/racdeufindurch198812/Blender-AI-MCP-Studio",
+      "excerpt": "Blender AI MCP Studio is an AI assistant and built-in Model Context Protocol MCP server for Blender that turns plain-language briefs into inspected, approved and reversible 3D scene operations — with a visual chat workspace, multi-agent teams and your choice of AI models. · blen…",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T19:28:20.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-13",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "MCP"
+      ],
+      "score": 17.2,
+      "metrics": {
+        "stars": 511
       }
     },
     {

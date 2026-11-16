@@ -139,6 +139,31 @@
       }
     },
     {
+      "id": "1r6iy59q56n",
+      "key": "gh:hitkeeen/blender-ai-mcp-addon",
+      "title": "hitkeeen/blender-ai-mcp-addon",
+      "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+      "excerpt": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T14:32:15.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-12",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "MCP",
+        "AI 编程"
+      ],
+      "score": 22.3,
+      "metrics": {
+        "stars": 1357
+      }
+    },
+    {
       "id": "1geytkkrah2",
       "key": "url:techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
       "title": "The unfolding Jensen Huang scandal: a timeline",
@@ -909,11 +934,19 @@
       "day": "2026-11-12",
       "category": "multimodal",
       "categoryLocked": true,
-      "score": 19.3,
+      "score": 28.2,
       "metrics": {
-        "likes": 265
+        "likes": 312
       },
-      "skipLlm": true
+      "skipLlm": true,
+      "alsoOn": [
+        {
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xww5o2/higurashiaiharu4b_hugging_face/"
+        }
+      ],
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xww5o2/higurashiaiharu4b_hugging_face/"
     },
     {
       "id": "ipwy6obnt5",
@@ -1235,6 +1268,26 @@
       "aiAttempts": 1
     },
     {
+      "id": "1abdgalqttl",
+      "key": "gh:zichuanlan/freebie-radar",
+      "title": "ZiChuanLan/freebie-radar",
+      "url": "https://github.com/ZiChuanLan/freebie-radar",
+      "excerpt": "白嫖资源聚合雷达：57 个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T09:08:11.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-12",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 19.6,
+      "metrics": {
+        "stars": 841
+      }
+    },
+    {
       "id": "z4mqynwsj2",
       "key": "url:36kr.com/p/4066332975420294",
       "title": "当红果超过豆包AI：互联网经济来到K型分化节点",
@@ -1483,9 +1536,9 @@
       "day": "2026-11-12",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 25.2,
+      "score": 27.7,
       "metrics": {
-        "stars": 2162
+        "stars": 3190
       },
       "aiAttempts": 2,
       "ai": {
@@ -3263,9 +3316,9 @@
       "day": "2026-11-12",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 16.8,
+      "score": 18.6,
       "metrics": {
-        "stars": 469
+        "stars": 682
       },
       "aiAttempts": 2,
       "ai": {

@@ -2798,25 +2798,7 @@
       "firstSeenAt": "2026-11-03T06:52:17.298Z",
       "day": "2026-11-03",
       "category": "model",
-      "score": 32,
-      "related": [
-        {
-          "id": "7ztj89tmhz",
-          "sourceId": "reddit-localllama",
-          "sourceName": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xlys6k/release_ista_deepseekv41flash1017_gsqrco_coder_a/",
-          "title": "ISTA 发布 763B DeepSeek-V4.1-Flash-1017 C…",
-          "publishedAt": "2026-11-02T14:33:20.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "leiphone",
-          "reddit-localllama"
-        ],
-        "firstPublishedAt": "2026-11-02T14:33:20.000Z"
-      },
+      "score": 24,
       "ai": {
         "summary": "实测发现 DeepSeek-V4-Flash 在代码补全中存在周期性切换答案的异常。",
         "category": "model",

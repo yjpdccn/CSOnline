@@ -1,6 +1,2093 @@
 {
-  "updatedAt": "2026-11-15T13:13:16.522Z",
+  "updatedAt": "2026-11-16T02:44:10.077Z",
   "items": [
+    {
+      "id": "s2zltuchlz",
+      "key": "em:202611163931622691",
+      "title": "上周宽基ETF净流出404亿元 是近三个月首周净流出",
+      "url": "https://finance.eastmoney.com/a/202611163931622691.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:27:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "上周，宽基ETF由净流入转为净流出，是近三个月首次出现。数据显示，上周股票ETF净流出404.02亿元，其中，宽基ETF净流出432.23亿元。中证1000ETF南方净流出最多，单周流出64.96亿元；中证500ETF南方也净流出63.41亿元，科创50ETF华夏净流出60.42亿元。此外，沪深300ETF华泰柏瑞也净流出超40亿元；中证1000ETF华夏、沪深300ETF嘉实也净流出超20亿元。",
+      "flag": 1
+    },
+    {
+      "id": "b7ifqx356l",
+      "key": "em:202611163931619637",
+      "title": "热点 | 美联储加息预期升温 贵金属延续跌势",
+      "url": "https://finance.eastmoney.com/a/202611163931619637.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:23:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "gold"
+      ],
+      "excerpt": "11月16日贵金属板块延续跌势，截至发稿，沪银主力合约跌5.02%，报11450元/千克，沪金主力合约跌0.28%，报836.5元/克。国际价格方面，现货黄金报3876.79美元/盎司，日内下跌0.32%。"
+    },
+    {
+      "id": "4bihemd080",
+      "key": "url:cnbc.com/2026/11/15/stock-market-today-live-updates.html",
+      "title": "Stock futures tick higher as traders brace for Nvidia earnings, Anthropic IPO this week: Live updates",
+      "url": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T02:02:13.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "The Dow, S&P 500 and Nasdaq posted their biggest weekly gains since August, rising more than 2% each."
+    },
+    {
+      "id": "9h7w48lfng",
+      "key": "wscn:3200337",
+      "title": "国家统计局：10月就业形势总体稳定，城镇调查失业率下降",
+      "url": "https://wallstreetcn.com/livenews/3200337",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:02:02.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "excerpt": "1—10月份，全国城镇调查失业率平均值为5.2%，与上年同期持平。10月份，全国城镇调查失业率为5.1%，比上月下降0.1个百分点。本地户籍劳动力调查失业率为5.2%；外来户籍劳动力调查失业率为4.9%，其中外来农业户籍劳动力调查失业率为4.8%。31个大城市城镇调查失业率为5.1%，比上月下降0.1个百分点。全国企业就业人员周平均工作时间为48.3小时。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "26f7thgexov",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3200328",
+          "title": "中国10月城镇调查失业率 5.1%，前值 5.2%",
+          "publishedAt": "2026-11-16T02:00:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-11-16T02:00:00.000Z"
+      }
+    },
+    {
+      "id": "7wfama80nf",
+      "key": "url:ft.com/content/9daa3a26-c49c-4c94-91af-0d4c2116d2e4?syn-25a6b1a6=1",
+      "title": "Hong Kong developer New World’s shares tumble 47% on $3.2bn rights issue plan",
+      "url": "https://www.ft.com/content/9daa3a26-c49c-4c94-91af-0d4c2116d2e4?syn-25a6b1a6=1",
+      "lang": "en",
+      "sourceId": "ft-markets",
+      "sourceName": "FT",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-16T02:01:43.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Ailing property group to offer new stock at 80% discount as it moves to slash debts"
+    },
+    {
+      "id": "33w8t1bqqm",
+      "key": "wscn:3200335",
+      "title": "国家统计局：1—10月份，全国房地产开发投资57215亿元，同比下降21.6%",
+      "url": "https://wallstreetcn.com/livenews/3200335",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:01:30.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "excerpt": "国家统计局：1—10月份，新建商品房销售面积61358万平方米，同比下降13.7%；其中住宅销售面积下降14.2%。 新建商品房销售额58550亿元，下降14.3%；其中住宅销售额下降14.1%。 根据住房城乡建设部数据，1—10月份，二手房交易网签面积67971万平方米，同比增长11.4%。 1—10月份，房屋新开工面积37036万平方米，下降24.4%。其中，住宅新开工面积26959万平方米，下降24.9%。",
+      "flag": 1,
+      "dupOf": "11bxpyub4d5"
+    },
+    {
+      "id": "11bxpyub4d5",
+      "key": "cls:2534977",
+      "title": "国家统计局：1—10月份全国房地产开发投资57215亿元 同比下降21.6%",
+      "url": "https://www.cls.cn/detail/2534977",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:00:47.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "macro-cn"
+      ],
+      "excerpt": "国家统计局数据显示，1—10月份，全国房地产开发投资57215亿元，同比下降21.6%；其中，住宅投资44102亿元，下降21.4%。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "m7o6cnuxl9",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3200322",
+          "title": "中国1至10月全国房地产开发投资 -21.6%，前值 -20.6%",
+          "publishedAt": "2026-11-16T02:00:00.000Z"
+        },
+        {
+          "id": "33w8t1bqqm",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3200335",
+          "title": "国家统计局：1—10月份，全国房地产开发投资57215亿元，同比下降21.6%",
+          "publishedAt": "2026-11-16T02:01:30.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "cls",
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-11-16T02:00:00.000Z"
+      }
+    },
+    {
+      "id": "16f24hpu11c",
+      "key": "cls:2534976",
+      "title": "国家统计局：1—10月份全国固定资产投资（不含农户）364824亿元 同比下降8.1%",
+      "url": "https://www.cls.cn/detail/2534976",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:00:40.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "excerpt": "国家统计局：1—10月份，全国固定资产投资（不含农户）364824亿元，同比下降8.1%。其中，知识产权产品投资同比增长9.2%。",
+      "flag": 1,
+      "dupOf": "1gvbwub1yox"
+    },
+    {
+      "id": "2b5r1zf9fvw",
+      "key": "cls:2534975",
+      "title": "国家统计局：10月规模以上工业增加值同比实际增长4.8%",
+      "url": "https://www.cls.cn/detail/2534975",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:00:33.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "excerpt": "国家统计局：10月份，规模以上工业增加值同比实际增长4.8%。从环比看，10月份，规模以上工业增加值比上月增长0.21%。1—10月份，规模以上工业增加值同比增长5.3%。",
+      "flag": 1,
+      "dupOf": "aoh36iiwb0"
+    },
+    {
+      "id": "1ma23lme3h9",
+      "key": "cls:2534974",
+      "title": "国家统计局：10月份社会消费品零售总额46463亿元 同比增长0.4%",
+      "url": "https://www.cls.cn/detail/2534974",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:00:28.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "excerpt": "国家统计局发布数据显示，1—10月份，社会消费品零售总额416464亿元，同比增长1.0%。其中，除汽车以外的消费品零售额383811亿元，增长2.8%。10月份，社会消费品零售总额46463亿元，同比增长0.4%。其中，除汽车以外的消费品零售额43162亿元，增长2.5%。",
+      "flag": 1,
+      "dupOf": "aoh36iiwb0"
+    },
+    {
+      "id": "26f7thgexov",
+      "key": "wscn:3200328",
+      "title": "中国10月城镇调查失业率 5.1%，前值 5.2%",
+      "url": "https://wallstreetcn.com/livenews/3200328",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "flag": 1,
+      "dupOf": "9h7w48lfng"
+    },
+    {
+      "id": "1v8ktgg1l32",
+      "key": "wscn:3200327",
+      "title": "中国10月社会消费品零售总额同比 0.4%，前值 1.1%",
+      "url": "https://wallstreetcn.com/livenews/3200327",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "flag": 2,
+      "dupOf": "aoh36iiwb0"
+    },
+    {
+      "id": "1jo6261krsl",
+      "key": "wscn:3200325",
+      "title": "中国1至10月规模以上工业增加值同比 5.3%，前值 5.3%",
+      "url": "https://wallstreetcn.com/livenews/3200325",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "flag": 1,
+      "dupOf": "aoh36iiwb0"
+    },
+    {
+      "id": "1w1ms8uc0e6",
+      "key": "wscn:3200326",
+      "title": "中国10月规模以上工业增加值同比 4.8%，前值 5.5%",
+      "url": "https://wallstreetcn.com/livenews/3200326",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "flag": 2,
+      "dupOf": "aoh36iiwb0"
+    },
+    {
+      "id": "g05p1cmc0v",
+      "key": "wscn:3200323",
+      "title": "中国1至10月城镇固定资产投资同比 -8.1%，前值 -7.2%",
+      "url": "https://wallstreetcn.com/livenews/3200323",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "flag": 2,
+      "dupOf": "1gvbwub1yox"
+    },
+    {
+      "id": "fgge0xa4mn",
+      "key": "wscn:3200324",
+      "title": "中国1至10月社会消费品零售总额同比 1%，前值 1.1%",
+      "url": "https://wallstreetcn.com/livenews/3200324",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "flag": 1,
+      "dupOf": "aoh36iiwb0"
+    },
+    {
+      "id": "m7o6cnuxl9",
+      "key": "wscn:3200322",
+      "title": "中国1至10月全国房地产开发投资 -21.6%，前值 -20.6%",
+      "url": "https://wallstreetcn.com/livenews/3200322",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "flag": 2,
+      "dupOf": "11bxpyub4d5"
+    },
+    {
+      "id": "1ru1ik03zn4",
+      "key": "em:202611163931603485",
+      "title": "统计局：10月规模以上工业增加值同比增长4.8% 社会消费品零售总额同比增长0.4%",
+      "url": "https://finance.eastmoney.com/a/202611163931603485.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "excerpt": "10月份，全国规模以上工业增加值同比增长4.8%，环比增长0.21%。分三大门类看，采矿业增加值同比增长0.7%，制造业增长5.4%，电力、热力、燃气及水生产和供应业增长4.4%。装备制造业增加值同比增长10.6%，高技术制造业增加值增长17.6%，分别快于全部规模以上工业增加值5.8和12.8个百分点。10月份，社会消费品零售总额46463亿元，同比增长0.4%；环比增长0.02%。按经营单位所在地分，城镇消费品零售额40098亿元，同比增长0.2%；乡村消费品零售额6365亿元，增长1.5%。按消费类型分，商品零售额41228亿元，同比增长0.3%…",
+      "flag": 1,
+      "dupOf": "aoh36iiwb0"
+    },
+    {
+      "id": "72kgjui4b",
+      "key": "em:202611163931605735",
+      "title": "国家统计局：10月份社会消费品零售总额46463亿元 同比增长0.4%",
+      "url": "https://finance.eastmoney.com/a/202611163931605735.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "macro-cn"
+      ],
+      "excerpt": "国家统计局发布数据显示，1—10月份，社会消费品零售总额416464亿元，同比增长1.0%。其中，除汽车以外的消费品零售额383811亿元，增长2.8%。10月份，社会消费品零售总额46463亿元，同比增长0.4%。其中，除汽车以外的消费品零售额43162亿元，增长2.5%。",
+      "dupOf": "aoh36iiwb0"
+    },
+    {
+      "id": "1qv4jkcqi2a",
+      "key": "sina:5216652",
+      "title": "美国国务院发言人：美国持续实施制裁以切断伊朗收入来源",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywwza8933273.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T02:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn",
+        "policy-us"
+      ],
+      "excerpt": "美国国务院发言人汤米・皮戈特周日在接受福克斯新闻采访时称，特朗普政府的经济施压行动，正在限制伊朗为美方所称的恶意活动提供资金的能力。他表示：“伊朗通胀率已经达到300%至400%以上。‘经济放逐行动’已经产生实实在在的经济效果，直接遏制了伊朗开展那些恶意活动的能力。”皮戈特说，美国持续实施制裁以切断伊朗收入来源，经济施压力度正在不断加大。"
+    },
+    {
+      "id": "aoh36iiwb0",
+      "key": "url:stats.gov.cn/sj/zxfb/202611/t20261116_1965842.html",
+      "title": "2026年10月份规模以上工业增加值增长4.8%",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965842.html",
+      "lang": "zh",
+      "sourceId": "nbs",
+      "sourceName": "国家统计局",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T02:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 54,
+      "topics": [
+        "macro-cn"
+      ],
+      "dateOnly": true,
+      "related": [
+        {
+          "id": "1jo6261krsl",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3200325",
+          "title": "中国1至10月规模以上工业增加值同比 5.3%，前值 5.3%",
+          "publishedAt": "2026-11-16T02:00:00.000Z"
+        },
+        {
+          "id": "1ru1ik03zn4",
+          "sourceId": "em-focus",
+          "sourceName": "东方财富",
+          "url": "https://finance.eastmoney.com/a/202611163931603485.html",
+          "title": "统计局：10月规模以上工业增加值同比增长4.8% 社会消费品零售总额同比增长0.4%",
+          "publishedAt": "2026-11-16T02:00:00.000Z"
+        },
+        {
+          "id": "1v8ktgg1l32",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3200327",
+          "title": "中国10月社会消费品零售总额同比 0.4%，前值 1.1%",
+          "publishedAt": "2026-11-16T02:00:00.000Z"
+        },
+        {
+          "id": "1w1ms8uc0e6",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3200326",
+          "title": "中国10月规模以上工业增加值同比 4.8%，前值 5.5%",
+          "publishedAt": "2026-11-16T02:00:00.000Z"
+        },
+        {
+          "id": "72kgjui4b",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202611163931605735.html",
+          "title": "国家统计局：10月份社会消费品零售总额46463亿元 同比增长0.4%",
+          "publishedAt": "2026-11-16T02:00:00.000Z"
+        },
+        {
+          "id": "fc1lg24uxt",
+          "sourceId": "nbs",
+          "sourceName": "国家统计局",
+          "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965839.html",
+          "title": "2026年1—10月份社会消费品零售总额增长1.0%",
+          "publishedAt": "2026-11-16T02:00:00.000Z"
+        },
+        {
+          "id": "fgge0xa4mn",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3200324",
+          "title": "中国1至10月社会消费品零售总额同比 1%，前值 1.1%",
+          "publishedAt": "2026-11-16T02:00:00.000Z"
+        },
+        {
+          "id": "1ma23lme3h9",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2534974",
+          "title": "国家统计局：10月份社会消费品零售总额46463亿元 同比增长0.4%",
+          "publishedAt": "2026-11-16T02:00:28.000Z"
+        },
+        {
+          "id": "2b5r1zf9fvw",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2534975",
+          "title": "国家统计局：10月规模以上工业增加值同比实际增长4.8%",
+          "publishedAt": "2026-11-16T02:00:33.000Z"
+        }
+      ],
+      "story": {
+        "reports": 10,
+        "sources": [
+          "nbs",
+          "wscn-global",
+          "em-focus",
+          "em-commodity",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-11-16T02:00:00.000Z"
+      }
+    },
+    {
+      "id": "1gvbwub1yox",
+      "key": "url:stats.gov.cn/sj/zxfb/202611/t20261116_1965841.html",
+      "title": "2026年1—10月份全国固定资产投资基本情况",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965841.html",
+      "lang": "zh",
+      "sourceId": "nbs",
+      "sourceName": "国家统计局",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T02:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 46,
+      "topics": [
+        "macro-cn"
+      ],
+      "dateOnly": true,
+      "related": [
+        {
+          "id": "g05p1cmc0v",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3200323",
+          "title": "中国1至10月城镇固定资产投资同比 -8.1%，前值 -7.2%",
+          "publishedAt": "2026-11-16T02:00:00.000Z"
+        },
+        {
+          "id": "16f24hpu11c",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2534976",
+          "title": "国家统计局：1—10月份全国固定资产投资（不含农户）364824亿元 同比下降8.1%",
+          "publishedAt": "2026-11-16T02:00:40.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "nbs",
+          "wscn-global",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-11-16T02:00:00.000Z"
+      }
+    },
+    {
+      "id": "fc1lg24uxt",
+      "key": "url:stats.gov.cn/sj/zxfb/202611/t20261116_1965839.html",
+      "title": "2026年1—10月份社会消费品零售总额增长1.0%",
+      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965839.html",
+      "lang": "zh",
+      "sourceId": "nbs",
+      "sourceName": "国家统计局",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T02:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 30,
+      "topics": [
+        "macro-cn"
+      ],
+      "dateOnly": true,
+      "dupOf": "aoh36iiwb0"
+    },
+    {
+      "id": "s9n5ly8wom",
+      "key": "cls:2534966",
+      "title": "创业板指跌逾3%",
+      "url": "https://www.cls.cn/detail/2534966",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:58:08.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "指数走弱，创业板指下挫跌逾3.00%，沪指跌0.95%，深成指跌1.93%，CPO、有色·钨、激光雷达等板块指数跌幅居前，高速公路、银行、煤炭等板块指数涨幅居前。",
+      "flag": 1,
+      "dupOf": "1i3jxhmfnvd"
+    },
+    {
+      "id": "10c3yijcltk",
+      "key": "wscn:3200320",
+      "title": "创业板指跌超3%，科创50跌超4%，沪指跌超1%，深成指跌超2%，半导体芯片、算力硬件、光伏设备、贵金属等方向跌幅居前，沪深京三市下跌个股超4700只",
+      "url": "https://wallstreetcn.com/livenews/3200320",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:56:29.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares",
+        "gold"
+      ],
+      "flag": 1,
+      "dupOf": "1i3jxhmfnvd"
+    },
+    {
+      "id": "isn2d7siu2",
+      "key": "wscn:3200316",
+      "title": "A股银行板块逆势拉升，工商银行、南京银行、成都银行、杭州银行、青岛银行均创历史新高",
+      "url": "https://wallstreetcn.com/livenews/3200316",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:47:38.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "1pkhaykmcn3",
+      "key": "em:202611163931589678",
+      "title": "Anthropic超级IPO本周“出鞘” 美股AI信仰面临最严苛大考？",
+      "url": "https://finance.eastmoney.com/a/202611163931589678.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:47:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Anthropic上周二表示，计划在本周通过一场规模空前的首次公开募股向投资者筹集625亿美元，同时还将通过私募融资向包括英伟达和美光科技在内的投资者筹集260亿美元。",
+      "flag": 1
+    },
+    {
+      "id": "1uir2uje8u3",
+      "key": "wscn:3200314",
+      "title": "中国30年期国债期货跌超0.5%，跌至10月9日来新低",
+      "url": "https://wallstreetcn.com/livenews/3200314",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:44:45.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cn-bonds"
+      ],
+      "flag": 1
+    },
+    {
+      "id": "17wd71ddau3",
+      "key": "sina:5216615",
+      "title": "预告：国新办将于11月17日举行新闻发布会 介绍深入推进再生资源回收体系建设有关情况",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywstm2584839.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:40:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 22,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "国务院新闻办公室将于2026年11月17日（星期二）下午3时举行新闻发布会，请商务部部长助理袁晓明和生态环境部、住房城乡建设部、全国供销合作总社有关负责人介绍深入推进再生资源回收体系建设有关情况，并答记者问。"
+    },
+    {
+      "id": "1to83ts1dd4",
+      "key": "wscn:3200311",
+      "title": "创业板指跌超2%，沪指、深成指均跌超1%，贵金属、光伏、算力硬件、半导体芯片等方向跌幅居前，沪深京三市下跌个股近4900只",
+      "url": "https://wallstreetcn.com/livenews/3200311",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:38:49.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares",
+        "gold"
+      ],
+      "flag": 1,
+      "dupOf": "1i3jxhmfnvd"
+    },
+    {
+      "id": "1i3jxhmfnvd",
+      "key": "cls:2534946",
+      "title": "沪指跌逾1% 创业板指跌近2%",
+      "url": "https://www.cls.cn/detail/2534946",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:38:12.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "a-shares",
+        "gold"
+      ],
+      "excerpt": "指数走弱，沪指下挫跌逾1.00%，深成指跌1.39%，创业板指跌2.00%，物理AI、贵金属、有色·钨等板块指数跌幅居前，离境退税、银行、机场等板块指数涨幅居前。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "1to83ts1dd4",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3200311",
+          "title": "创业板指跌超2%，沪指、深成指均跌超1%，贵金属、光伏、算力硬件、半导体芯片等方向跌幅居前，沪深京三市下跌个股近4900只",
+          "publishedAt": "2026-11-16T01:38:49.000Z"
+        },
+        {
+          "id": "10c3yijcltk",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3200320",
+          "title": "创业板指跌超3%，科创50跌超4%，沪指跌超1%，深成指跌超2%，半导体芯片、算力硬件、光伏设备、贵金属等方向跌幅居前，沪深京三市下跌个股超4700只",
+          "publishedAt": "2026-11-16T01:56:29.000Z"
+        },
+        {
+          "id": "s9n5ly8wom",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2534966",
+          "title": "创业板指跌逾3%",
+          "publishedAt": "2026-11-16T01:58:08.000Z"
+        }
+      ],
+      "story": {
+        "reports": 4,
+        "sources": [
+          "cls",
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-11-16T01:38:12.000Z"
+      }
+    },
+    {
+      "id": "2dihpfvmixh",
+      "key": "cls:2534925",
+      "title": "创业板指低开1.26%",
+      "url": "https://www.cls.cn/detail/2534925",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:26:19.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "沪指低开0.63%，深成指低开0.79%，创业板指低开1.26%，电竞、影视院线、游戏等板块指数涨幅居前，CPO、AMD概念、先进封装等板块指数跌幅居前。",
+      "flag": 1,
+      "dupOf": "1ujpiiyq0oy"
+    },
+    {
+      "id": "1ujpiiyq0oy",
+      "key": "wscn:3200293",
+      "title": "上证指数开盘报3611.54点，跌0.63%",
+      "url": "https://wallstreetcn.com/livenews/3200293",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:25:05.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "上证指数开盘报3611.54点，跌0.63%。 深证成指开盘报10881.91点，跌0.79%。 创业板指开盘报2395.52点，跌1.26%。 沪深300开盘报3984.77点，跌0.78%。 科创50开盘报1254.48点，跌1.97%。 中证500开盘报6424.17点，跌0.64%。 中证1000开盘报6310.58点，跌0.73%。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "2dihpfvmixh",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2534925",
+          "title": "创业板指低开1.26%",
+          "publishedAt": "2026-11-16T01:26:19.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "wscn-global",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-11-16T01:25:05.000Z"
+      }
+    },
+    {
+      "id": "28ojisbeq2h",
+      "key": "sina:5216558",
+      "title": "美国国务院：鲁比奥将与特朗普一同访问菲律宾",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywsti1346828.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:25:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn",
+        "policy-us"
+      ]
+    },
+    {
+      "id": "uhy4kuu9y3",
+      "key": "em:202611163931581977",
+      "title": "央行今日开展4600亿元隔夜逆回购操作",
+      "url": "https://finance.eastmoney.com/a/202611163931581977.html",
+      "lang": "zh",
+      "sourceId": "em-pboc",
+      "sourceName": "东方财富·中国央行",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:21:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "pboc"
+      ],
+      "excerpt": "央行今日开展4600亿元隔夜逆回购操作，操作利率为1.25%。",
+      "dupOf": "1tiuxzp1v82"
+    },
+    {
+      "id": "1tiuxzp1v82",
+      "key": "sina:5216548",
+      "title": "中国央行公开市场操作当日实现净回笼2040亿元",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywste9026887.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:21:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "pboc"
+      ],
+      "excerpt": "央行今日开展4600亿元隔夜逆回购操作。",
+      "related": [
+        {
+          "id": "uhy4kuu9y3",
+          "sourceId": "em-pboc",
+          "sourceName": "东方财富·中国央行",
+          "url": "https://finance.eastmoney.com/a/202611163931581977.html",
+          "title": "央行今日开展4600亿元隔夜逆回购操作",
+          "publishedAt": "2026-11-16T01:21:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "sina",
+          "em-pboc"
+        ],
+        "firstPublishedAt": "2026-11-16T01:21:00.000Z"
+      }
+    },
+    {
+      "id": "2b382jc7d4e",
+      "key": "em:202611163931581019",
+      "title": "人民币兑美元中间价报6.7141 上调11点",
+      "url": "https://finance.eastmoney.com/a/202611163931581019.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:16:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "rates-fx"
+      ],
+      "excerpt": "人民币兑美元中间价报6.7141，上调11点。"
+    },
+    {
+      "id": "25yekyjj85y",
+      "key": "em:202611163931577739",
+      "title": "华尔街因黄仁勋离职“集体变脸” 本周英伟达财报能否顶住压力？",
+      "url": "https://finance.eastmoney.com/a/202611163931577739.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:02:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "近日，全球芯片龙头英伟达的股价因“黄仁勋风波”持续承压，而随着黄仁勋辞去CEO一职，华尔街分析师对英伟达股票的看法发生了逆转。据统计，随着市场消化这一戏剧性事件，目前至少有10位顶级华尔街分析师将英伟达股票的“买入”评级下调至“持有”。高盛、摩根大通、RBC 等多家机构则下调了目标价。",
+      "flag": 1
+    },
+    {
+      "id": "1kcmplp0eef",
+      "key": "wscn:3200282",
+      "title": "习近平将同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤",
+      "url": "https://wallstreetcn.com/livenews/3200282",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:01:10.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "外交部发言人11月16日宣布：11月19日，国家主席习近平将同俄罗斯总统普京、美国总统特朗普在深圳举行中俄美元首会晤。（新华社）",
+      "flag": 1,
+      "dupOf": "1buuc8t7igz"
+    },
+    {
+      "id": "23f011lzqb0",
+      "key": "cls:2534902",
+      "title": "习近平将同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤",
+      "url": "https://www.cls.cn/detail/2534902",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:00:59.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "外交部发言人宣布：11月19日，国家主席习近平将同俄罗斯总统普京、美国总统特朗普在深圳举行中俄美元首会晤。",
+      "flag": 1,
+      "dupOf": "1buuc8t7igz"
+    },
+    {
+      "id": "1buuc8t7igz",
+      "key": "em:202611163931576619",
+      "title": "习近平将同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤",
+      "url": "https://finance.eastmoney.com/a/202611163931576619.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T01:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 34,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "外交部发言人宣布：11月19日，国家主席习近平将同俄罗斯总统普京、美国总统特朗普在深圳举行中俄美元首会晤。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "23f011lzqb0",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2534902",
+          "title": "习近平将同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤",
+          "publishedAt": "2026-11-16T01:00:59.000Z"
+        },
+        {
+          "id": "1kcmplp0eef",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3200282",
+          "title": "习近平将同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤",
+          "publishedAt": "2026-11-16T01:01:10.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "em-focus",
+          "cls",
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-11-16T01:00:00.000Z"
+      }
+    },
+    {
+      "id": "16au55qcita",
+      "key": "sina:5216482",
+      "title": "机构：日本第三季度的经济表现可能不会阻止日本央行在12月加息",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywstm2541018.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T00:32:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "凯投宏观：日本第三季度的经济表现可能不会阻止日本央行在12月加息。事实上，随着通胀即将飙升，日本央行似乎越来越可能不得不比预期更激进地收紧政策。尽管GDP数据相当令人沮丧，但远谈不上灾难性。凯投宏观称，即便未来几个季度产出保持停滞，经济增速也料将超过日本央行对4月份开始的财政年度环比增长0.7%的中位数预测。仍预计日本央行12月会加息。"
+    },
+    {
+      "id": "2cqo79qyxsn",
+      "key": "cls:2534862",
+      "title": "财联社11月16日早间新闻精选",
+      "url": "https://www.cls.cn/detail/2534862",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T00:20:29.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": " 1、证监会主席吴清11月14日在参加2026中国资本市场学术年会时表示，进一步深化市场稳定长效机制研究，系统构建稳的机制、稳的力量、稳的生态，有效防范市场异常波动；研究评估量化、减持等制度的优化和公平合理的监管安排。 2、11月13日，中美双方通过视频会议方式举行中美经贸磋商机制项下贸易理事会首次会议。双方以中美元首会晤重要共识为引领，围绕落实前期中美经贸磋商成果，就关税、“300亿对300亿”对等降税安排、农产品贸易以及各自关心的其他议题进行了坦诚、深入、建设性的交流。 3、2026年APEC工商领导人峰会将于11月17日至18日在深圳前海国际会议…",
+      "flag": 1
+    },
+    {
+      "id": "4fi483umy7",
+      "key": "sina:5216469",
+      "title": "摩根士丹利预计标普500指数将升至8700点 看好2027年的德国国债和英国国债",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywste8980073.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T00:15:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "摩根士丹利在2027年市场展望中看好美国股票和部分G10国家债券。包括Marina Zavolock在内的策略师在11月15日的报告中写道，该行已将标普500指数的目标价上调至8700点，这意味着约有15%的上涨空间。“健康的盈利增长、趋稳的利率和油价、持续的人工智能投资与应用，以及低于公允价值的估值，支撑了我们对2027年的展望。”该行还将日本东证指数目标价上调至4800点，意味着约有22%的上涨空间。在利率方面，摩根士丹利看好德国和英国的主权债务。包括Matthew Hornbach在内的策略师在一份报告中写道，市场目前对英国央行加息的定价高于该行…"
+    },
+    {
+      "id": "9mvyalglu6",
+      "key": "sina:5216449",
+      "title": "美债交易员目光转向美联储官员讲话和会议纪要 以寻找下一步政策线索",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywste8969646.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "rates-fx",
+        "pboc"
+      ],
+      "excerpt": "在经历市况剧烈波动的一周后，美债交易员将关注美联储官员的一系列讲话和央行最近一次会议的会议纪要，以寻找利率走势线索，此前市场对加息周期延长的预期已经升温。上周，美国2年期国债收益率一度飙升37个基点，10年期基准国债收益率重回5%以上，因通胀报告强于预期，而且美联储多位官员释放鹰派信号，促使投资者纷纷涌入被视为抵御AI风险的美债。美联储理事Christopher Waller暗示基于近期通胀趋势，加息50基点也是可能的，此番表态加剧了抛售。虽然随后几位央行官员并未明确表示加息幅度如此之大，但他们都传递出一种信号：未来可能还会进一步加息。"
+    },
+    {
+      "id": "12z9usrhvqb",
+      "key": "em:202611163931558775",
+      "title": "油气相关ETF领涨 机构研判后续投资机会",
+      "url": "https://finance.eastmoney.com/a/202611163931558775.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T23:37:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "今年以来，油气相关ETF领涨，标普油气ETF嘉实、标普油气ETF富国从今年初至11月13日的涨幅分别为43.56%、42.80%，是全市场涨幅居前的两只ETF；还有多只能源相关ETF涨幅显著。不过，近期油气相关ETF随着油价变化出现了较大幅度的波动。"
+    },
+    {
+      "id": "wokcpgdlb6",
+      "key": "em:202611163931554138",
+      "title": "分析人士：短期贵金属仍将承压运行",
+      "url": "https://finance.eastmoney.com/a/202611163931554138.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T23:37:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "gold",
+        "macro-us"
+      ],
+      "excerpt": "光大期货有色金属研究总监展大鹏认为，贵金属板块本轮下跌的核心驱动在于美国通胀黏性超预期，美联储官员集体释放“鹰”派信号，市场重新定价美联储加息路径，实际利率与美元指数同步走强，对贵金属形成双重压制。"
+    },
+    {
+      "id": "eyjv8svwuh",
+      "key": "em:202611163931533350",
+      "title": "证监会：深化市场稳定长效机制研究 防范异常波动",
+      "url": "https://finance.eastmoney.com/a/202611163931533350.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T23:26:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "近日，证监会主席吴清在首届中国资本市场学术年会上表示，推进资本市场改革发展稳定，有很多重大理论和实践问题需要抓紧深化研究，进一步深化市场稳定长效机制研究，有效防范市场异常波动。深化市场微观结构研究，深入研究改善预期引导机制，减少“羊群效应”“短期化”交易等带来的市场波动，深入研究评估量化交易、股份减持等制度规则的优化和公平合理的监管安排，切实保护好投资者合法权益。",
+      "flag": 1
+    },
+    {
+      "id": "2ecdsla4zk4",
+      "key": "sina:5216295",
+      "title": "堪萨斯城联储行长：美联储在降低通胀方面还有更多工作要做",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywnmm1416109.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T23:25:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "excerpt": "堪萨斯城联储行长杰弗里·施密德表示，通胀仍然过热，决策者还有更多工作要做。施密德周日在为夏威夷一场会议准备的讲稿中表示，正如美联储主席凯文·沃什8月所说，“美联储在通胀问题上还有一些工作要做，不幸的是，自那以来，我们的工作变得更加艰难。”近几个月来，美国的价格压力有所加剧。美联储偏爱的价格指标9月同比上涨3.6%，施密德称这一水平“令人不安地”高于央行2%的目标，而且“朝着错误的方向发展”。施密德指出了推动通胀的几个因素，包括能源成本、一定程度上受关税推动的耐用品价格上涨，人工智能建设以及医疗保健成本。"
+    },
+    {
+      "id": "y1idj243v4",
+      "key": "url:cnbc.com/2026/11/15/caterpillar-buy-kevin-simpson.html",
+      "title": "I've owned this stock for a decade. AI slowdown fears gave me an opportunity to buy more",
+      "url": "https://www.cnbc.com/2026/11/15/caterpillar-buy-kevin-simpson.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-15T23:11:26.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Caterpillar is an established business with exposure to the infrastructure needed to power AI and the broader economy."
+    },
+    {
+      "id": "120id3k7f9k",
+      "key": "em:202611163931550218",
+      "title": "美股股指期货小幅高开 其中纳指期货涨0.25%",
+      "url": "https://finance.eastmoney.com/a/202611163931550218.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T23:01:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "美股股指期货小幅高开，其中纳指期货涨0.25%。"
+    },
+    {
+      "id": "nb9u820kiq",
+      "key": "em:202611163931546013",
+      "title": "AI交易颠簸！资金回流红利 13只银行股股息率站上5%(名单)",
+      "url": "https://finance.eastmoney.com/a/202611163931546013.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T22:38:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "us-stocks",
+        "cn-bonds"
+      ],
+      "excerpt": "美东时间11月14日，美联储在金融稳定报告中警示AI杠杆风险，美股资金转向防御与红利板块。国内10年期国债收益率仍在1.6%附近，红利资产的比价优势尚未削弱。",
+      "flag": 1
+    },
+    {
+      "id": "21cmr297ony",
+      "key": "sina:5216127",
+      "title": "美联储施密德：美联储的职责不是影响任何单一商品或服务的价格",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywnmk5846846.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T22:36:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "29uzjrsfhg4",
+      "key": "em:202611163931541918",
+      "title": "CME“美联储观察”：美联储12月加息25个基点的概率为95%",
+      "url": "https://finance.eastmoney.com/a/202611163931541918.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T22:05:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "据CME“美联储观察”：美联储12月加息25个基点的概率为95%，加息50个基点的概率为5%。美联储到明年1月累计加息25个基点的概率25.2%，累计加息50个基点的概率为71.1%，累计加息75个基点的概率为3.7%。"
+    },
+    {
+      "id": "139jo4j2h53",
+      "key": "em:202611163931537133",
+      "title": "11月16日国内四大证券报纸、重要财经媒体头版头条内容精华摘要",
+      "url": "https://finance.eastmoney.com/a/202611163931537133.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T22:03:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "1、证监会：进一步深化市场稳定长效机制研究，有效防范市场异常波动。2、涉嫌内幕交易，南卫股份实控人被刑拘！股价已提前跌停。3、并表不足3个月，子公司获天价存储订单！游族网络：营收影响有限。",
+      "flag": 1
+    },
+    {
+      "id": "r3syb7shy2",
+      "key": "sina:5215967",
+      "title": "据CME“美联储观察”：美联储12月加息25个基点的概率为95%",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywnmh9060426.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T22:00:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ]
+    },
+    {
+      "id": "1uag3o5jcpb",
+      "key": "em:202611163931540190",
+      "title": "据报道 白宫或将对五角大楼前首席战略家提起刑事诉讼",
+      "url": "https://finance.eastmoney.com/a/202611163931540190.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T21:47:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "据报道，白宫或将对五角大楼前首席战略家提起刑事诉讼。"
+    },
+    {
+      "id": "f4oumb3pml",
+      "key": "url:marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
+      "title": "Nvidia is gearing up for one of Wall Street’s most anticipated earnings calls in years",
+      "url": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-15T21:32:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Jensen Huang’s sudden departure has made Tuesday’s earnings call “the most important in the company’s history.”"
+    },
+    {
+      "id": "2dc1i3wd9pe",
+      "key": "sina:5215856",
+      "title": "美联储施密德：我认为当前利率并不具有限制性",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywhcr2713833.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T19:44:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "dupOf": "9q1y8kx2s9"
+    },
+    {
+      "id": "jcq62ebpwz",
+      "key": "url:cnbc.com/2026/11/15/fed-has-some-work-to-do-on-inflation-kansas-city-fed-chief-says.html",
+      "title": "Fed 'has some work to do on inflation,' Kansas City Fed chief says",
+      "url": "https://www.cnbc.com/2026/11/15/fed-has-some-work-to-do-on-inflation-kansas-city-fed-chief-says.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-15T19:04:06.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "Schmid did not call for additional rate hikes, but said inflation is \"uncomfortably above the 2% price stability target, and moving in the wrong direction.\""
+    },
+    {
+      "id": "9q1y8kx2s9",
+      "key": "sina:5215828",
+      "title": "施密德：美联储在压低通胀方面仍有工作要做",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyvzvn9288301.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T18:42:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "excerpt": "美联储理事施密德表示，通胀运行过热，政策制定者还有更多工作要做。美联储首选的物价指标9月同比上涨3.6%，施密德称这一水平\"令人不安地\"高于央行2%的目标。施密德表示，美联储确实拥有应对通胀的工具，并有责任实现物价稳定。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "1l5mdopx6s9",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyvzvn9288136.d.html",
+          "title": "美联储施密德：从许多指标来看，经济表现良好",
+          "publishedAt": "2026-11-15T18:40:00.000Z"
+        },
+        {
+          "id": "1x3m2xvq3uc",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyvzvn9288060.d.html",
+          "title": "美联储施密德：通胀仍然过热，美联储还有工作要做",
+          "publishedAt": "2026-11-15T18:40:00.000Z"
+        },
+        {
+          "id": "2carprsmahh",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyvzvt2834855.d.html",
+          "title": "美联储施密德：能源、耐用品、人工智能和医疗保健正在推升通胀",
+          "publishedAt": "2026-11-15T18:40:00.000Z"
+        },
+        {
+          "id": "zkz9axivg0",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyvzvr1609295.d.html",
+          "title": "美联储施密德：3个月年化CPI涨幅仍然过高",
+          "publishedAt": "2026-11-15T18:40:00.000Z"
+        },
+        {
+          "id": "2dc1i3wd9pe",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniywhcr2713833.d.html",
+          "title": "美联储施密德：我认为当前利率并不具有限制性",
+          "publishedAt": "2026-11-15T19:44:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 6,
+        "sources": [
+          "sina"
+        ],
+        "firstPublishedAt": "2026-11-15T18:40:00.000Z"
+      }
+    },
+    {
+      "id": "zkz9axivg0",
+      "key": "sina:5215827",
+      "title": "美联储施密德：3个月年化CPI涨幅仍然过高",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyvzvr1609295.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T18:40:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "dupOf": "9q1y8kx2s9"
+    },
+    {
+      "id": "1l5mdopx6s9",
+      "key": "sina:5215826",
+      "title": "美联储施密德：从许多指标来看，经济表现良好",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyvzvn9288136.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T18:40:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "dupOf": "9q1y8kx2s9"
+    },
+    {
+      "id": "2carprsmahh",
+      "key": "sina:5215825",
+      "title": "美联储施密德：能源、耐用品、人工智能和医疗保健正在推升通胀",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyvzvt2834855.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T18:40:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "dupOf": "9q1y8kx2s9"
+    },
+    {
+      "id": "1x3m2xvq3uc",
+      "key": "sina:5215824",
+      "title": "美联储施密德：通胀仍然过热，美联储还有工作要做",
+      "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyvzvn9288060.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T18:40:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "dupOf": "9q1y8kx2s9"
+    },
+    {
+      "id": "qaw379snox",
+      "key": "em:202611163931529392",
+      "title": "证监会：进一步深化市场稳定长效机制研究 有效防范市场异常波动",
+      "url": "https://finance.eastmoney.com/a/202611163931529392.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T17:01:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "11月14日，中国证监会主席吴清在2026中国资本市场学术年会开幕式上详细阐述了新“国九条”出台以来资本市场发生的深刻变化，深入分析了大变局下资本市场的机遇挑战，并就深化资本市场重大理论和实践问题研究作出部署。他提出了六个需要进一步深化研究的方向，包括：中国资本市场发展特点规律研究、市场稳定长效机制研究、制度包容性适应性研究、人工智能与资本市场双向赋能研究、市场微观结构研究、资本市场参与全球金融治理研究，并强调需要系统构建稳的机制、稳的力量、稳的生态，有效防范市场异常波动。",
+      "flag": 1
+    },
+    {
+      "id": "p9u3z0wqus",
+      "key": "url:cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html",
+      "title": "Trump breaks silence about FAA nationwide ground stop, blames Biden administration",
+      "url": "https://www.cnbc.com/2026/11/15/trump-breaks-silence-on-faa-nationwide-ground-stop-blames-biden-.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-15T16:56:40.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "Trump blamed the Biden administration for the FAA’s aging system after a nationwide ground stop disrupted air travel and urged Congress to approve more funding."
+    },
+    {
+      "id": "apz4egtcse",
+      "key": "em:202611153931487453",
+      "title": "股债波动影响投资 居民“存款搬家”放缓",
+      "url": "https://finance.eastmoney.com/a/202611153931487453.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T16:28:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "pboc"
+      ],
+      "excerpt": "央行日前披露的最新金融数据显示，今年前10个月，居民部门累计新增存款8.47万亿元，贷款减少1.46万亿元。整体来看，居民部门去杠杆与“存款搬家”仍在同步进行。",
+      "flag": 1
+    },
+    {
+      "id": "2ei3yilv1r7",
+      "key": "em:202611153931505281",
+      "title": "“三重门”改变并购江湖 A股“卖壳”交易难了",
+      "url": "https://finance.eastmoney.com/a/202611153931505281.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T16:27:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "近一年来，A股“卖壳”江湖正悄然变天：资本运作层面，一边是早前流行的表决权委托操作方式被“束之高阁”，一边是锁价定增难以为继全面让位市价发行，再加上董事高管减持规则硬性约束，三条规则相互咬合，让前几年看似红火的卖壳交易，变得难上加难。",
+      "flag": 1
+    },
+    {
+      "id": "2arwykjdsax",
+      "key": "em:202611153931504344",
+      "title": "央行发布10月金融统计数据 专家：贷款“降速提质”仍是新常态",
+      "url": "https://finance.eastmoney.com/a/202611153931504344.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T16:15:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 22,
+      "topics": [
+        "pboc",
+        "macro-cn"
+      ],
+      "excerpt": "11月13日，中国人民银行发布的10月金融统计数据显示，今年前10个月我国人民币贷款增加11.42万亿元，贷款规模保持合理增长。",
+      "flag": 1
+    },
+    {
+      "id": "192m0f112qj",
+      "key": "em:202611153931495088",
+      "title": "通胀和就业都在飙升 美国通胀开始扩散",
+      "url": "https://finance.eastmoney.com/a/202611153931495088.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T16:06:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "excerpt": "12月美联储议息会议不是加不加息的问题，而是加多少的问题，有人预测这次加息是50个基点。受10月物价和就业火爆的影响，美国十年期国债收益率从前期的高调下落到11月5日的4.834%再次涨超5%，短债表现尤为明显，美国短期国债收益率连续四个交易日大幅攀升，2年期收益率升至4.862%，累计涨幅38.8个基点，创2022年6月以来最大四日涨幅。市场普遍预期，12月加息基本已成定局，1月再度加息的概率则高达75%。",
+      "flag": 1
+    },
+    {
+      "id": "f9e4vdspgo",
+      "key": "em:202611153931482273",
+      "title": "监管靴子落地！万亿场外衍生品业务迎来规范化新阶段",
+      "url": "https://finance.eastmoney.com/a/202611153931482273.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T16:02:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "监管靴子落地，万亿场外衍生品业务迎来规范化新阶段。11月16日，由证监会发布的《衍生品交易监督管理办法（试行）》（下称《办法》）正式施行。这是证监会监管的衍生品行业首部部门规章。此前曾三次公开征求意见。据悉，截至2023年底，券商场外衍生品业务存续规模超2万亿元。",
+      "flag": 1
+    },
+    {
+      "id": "2adk1ipzzs0",
+      "key": "sina:5215755",
+      "title": "贝森特：预计下月通胀显著回落，呼吁美联储着眼未来",
+      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyvvpt1689841.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T15:30:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 34,
+      "topics": [
+        "fed",
+        "policy-us",
+        "macro-us"
+      ],
+      "excerpt": "美国财政部长贝森特就当前经济形势发表系列表态。在通胀方面，他指出核心通胀保持温和，已接近美联储目标，并预计下个月通货膨胀率将大幅下降。针对货币政策，贝森特警告美联储不要进一步收紧，并呼吁其“应向前看，而非纠结于过去”。他表示，总统特朗普与自己都对美联储主席沃什履行双重使命充满信心。此外，贝森特还提及对伊朗的经济施压政策，称“正在奏效”，并预测由于天然气短缺，伊朗将面临一个艰难的冬季。",
+      "related": [
+        {
+          "id": "1s7bysggynk",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyvvps6143463.d.html",
+          "title": "美国财长贝森特对美联储表示：应向前看，而非纠结于过去",
+          "publishedAt": "2026-11-15T15:16:00.000Z"
+        },
+        {
+          "id": "1gclcnqvcxo",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3200213",
+          "title": "美国财政部长贝森特：预计通胀将在下个月大幅下滑。 核心通胀是温和的，接近美联储的目标",
+          "publishedAt": "2026-11-15T15:16:57.000Z"
+        },
+        {
+          "id": "1a9brvq8w5j",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2534782",
+          "title": "美财长贝森特表示，下个月美国通胀将大幅下降。贝森特对美联储喊话道：“向前看，不要盯着后视镜。”",
+          "publishedAt": "2026-11-15T15:17:16.000Z"
+        },
+        {
+          "id": "ebtzcl03vq",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyvvpt1686715.d.html",
+          "title": "美国财长贝森特：核心通胀温和，接近美联储目标",
+          "publishedAt": "2026-11-15T15:18:00.000Z"
+        },
+        {
+          "id": "21c7zkkukc2",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyvvpq9368210.d.html",
+          "title": "美国财长贝森特警告美联储不要进一步收紧货币政策",
+          "publishedAt": "2026-11-15T15:19:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 6,
+        "sources": [
+          "sina",
+          "wscn-global",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-11-15T15:16:00.000Z"
+      }
+    },
+    {
+      "id": "kp7qv14ce5",
+      "key": "url:cnbc.com/investingclub/2026/11/15/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "title": "3 big things we're watching in the stock market in the week ahead",
+      "url": "https://www.cnbc.com/investingclub/2026/11/15/3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-15T15:26:20.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Nvidia and Anthropic will share the spotlight in a pivotal week for the AI trade."
+    },
+    {
+      "id": "21c7zkkukc2",
+      "key": "sina:5215753",
+      "title": "美国财长贝森特警告美联储不要进一步收紧货币政策",
+      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyvvpq9368210.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T15:19:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "policy-us"
+      ],
+      "flag": 1,
+      "dupOf": "2adk1ipzzs0"
+    },
+    {
+      "id": "ebtzcl03vq",
+      "key": "sina:5215750",
+      "title": "美国财长贝森特：核心通胀温和，接近美联储目标",
+      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyvvpt1686715.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T15:18:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "policy-us",
+        "macro-us"
+      ],
+      "dupOf": "2adk1ipzzs0"
+    },
+    {
+      "id": "1a9brvq8w5j",
+      "key": "cls:2534782",
+      "title": "美财长贝森特表示，下个月美国通胀将大幅下降。贝森特对美联储喊话道：“向前看，不要盯着后视镜。”",
+      "url": "https://www.cls.cn/detail/2534782",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T15:17:16.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "policy-us",
+        "macro-us"
+      ],
+      "flag": 1,
+      "dupOf": "2adk1ipzzs0"
+    },
+    {
+      "id": "eekcmyn6t8",
+      "key": "sina:5215748",
+      "title": "美国财长贝森特：总统特朗普和我对美联储主席沃什履行双重使命有信心",
+      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyvvpq9367657.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T15:17:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "policy-us"
+      ]
+    },
+    {
+      "id": "1gclcnqvcxo",
+      "key": "wscn:3200213",
+      "title": "美国财政部长贝森特：预计通胀将在下个月大幅下滑。 核心通胀是温和的，接近美联储的目标",
+      "url": "https://wallstreetcn.com/livenews/3200213",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T15:16:57.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "policy-us",
+        "macro-us"
+      ],
+      "flag": 1,
+      "dupOf": "2adk1ipzzs0"
+    },
+    {
+      "id": "16xo5jpdmt3",
+      "key": "sina:5215747",
+      "title": "美财长施压英伟达：要求外部换帅，限期10天回应合规问题",
+      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyvvpv2911966.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T15:16:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "针对英伟达近期的出口限制争议，美国财政部长贝森特发表系列强硬表态，要求英伟达必须从外部寻找新领导人，并对公司现有领导层进行“大幅调整”。贝森特强调，审查英伟达是否遵守出口限制至关重要，并将密切观察该公司是否故意无视了警示信号。此外，贝森特指出，报告显示在新加坡销售的芯片中仅有1%留在当地，这引发了对芯片违规流向的严重质疑。他要求英伟达董事会及外部律师必须在“未来10天内”就公司的出口限制合规文化作出正式回应。",
+      "flag": 1
+    },
+    {
+      "id": "1s7bysggynk",
+      "key": "sina:5215745",
+      "title": "美国财长贝森特对美联储表示：应向前看，而非纠结于过去",
+      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyvvps6143463.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T15:16:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "policy-us"
+      ],
+      "dupOf": "2adk1ipzzs0"
+    },
+    {
+      "id": "15vgq60km9i",
+      "key": "url:ft.com/content/0d0d8fae-14f4-410f-8597-8e58f1172ad7?syn-25a6b1a6=1",
+      "title": "Gold rush turns deadly in Guinea",
+      "url": "https://www.ft.com/content/0d0d8fae-14f4-410f-8597-8e58f1172ad7?syn-25a6b1a6=1",
+      "lang": "en",
+      "sourceId": "ft-markets",
+      "sourceName": "FT",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-15T15:13:38.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "High gold prices have driven a wave of fresh mining, and Conakry is cracking down"
+    },
+    {
+      "id": "2177itr95a0",
+      "key": "wscn:3200212",
+      "title": "黄仁勋去职后，贝森特称英伟达需要“重大重组”",
+      "url": "https://wallstreetcn.com/livenews/3200212",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T15:07:54.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "美国财政部长斯科特·贝森特表示，在首席执行官黄仁勋被罢免之后，英伟达的领导层需要经历一场“剧烈重组”。 贝森特暗示，英伟达应该从公司外部寻找新的领导人。 （被罢免的）黄仁勋是了不起的创新者，英伟达非常出色。 上级与下属建立恋爱关系是企业大忌。（福克斯新闻）",
+      "flag": 1
+    },
+    {
+      "id": "2sbc969kk5",
+      "key": "url:cnbc.com/2026/11/15/social-security-tax-changes-midterm-election.html",
+      "title": "Social Security and the blue wave: What could happen to payroll taxes and senior tax breaks",
+      "url": "https://www.cnbc.com/2026/11/15/social-security-tax-changes-midterm-election.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-15T14:30:01.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "macro-us"
+      ],
+      "excerpt": "Democrats advocated taxing high earners to shore up Social Security in the runup to the midterms. Plus, a senior deduction is slated to expire in two years."
+    },
+    {
+      "id": "dix1scm8dg",
+      "key": "url:cnbc.com/2026/11/15/judge-temporarily-blocks-trumps-dc-public-golf-course-redevelopment.html",
+      "title": "Judge temporarily blocks Trump from moving ahead on Washington public golf course redevelopment",
+      "url": "https://www.cnbc.com/2026/11/15/judge-temporarily-blocks-trumps-dc-public-golf-course-redevelopment.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-15T13:58:06.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "The president's remarks, outlining the closure date for East Potomac Park and linking it to the renovation of the golf course, weighed heavily in the decision."
+    },
+    {
+      "id": "2uugarvpfl",
+      "key": "em:202611153931496197",
+      "title": "遏制资金利率下行势头 11月6个月期买断式逆回购缩量续做",
+      "url": "https://finance.eastmoney.com/a/202611153931496197.html",
+      "lang": "zh",
+      "sourceId": "em-pboc",
+      "sourceName": "东方财富·中国央行",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T13:42:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "pboc"
+      ],
+      "excerpt": "新一期买断式逆回购操作将落地。根据人民银行官网日前发布的公告，为保持银行体系流动性充裕，2026年11月16日，人民银行将以固定数量、利率招标、多重价位中标方式开展2000亿元买断式逆回购操作，期限为6个月（180天），到期日为2027年5月15日（遇节假日顺延）。"
+    },
+    {
+      "id": "fo305h0zy9",
+      "key": "cls:2534765",
+      "title": "下周资本市场大事提醒：APEC领导人非正式会议将举行，英伟达迎财报日大考，Anthropic冲击IPO，中概股龙头集中披露业绩",
+      "url": "https://www.cls.cn/detail/2534765",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T13:35:59.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks",
+        "macro-cn"
+      ],
+      "excerpt": " 1、11月16日，国家统计局将公布10月社会消费品零售总额、工业增加值、固定资产投资等经济数据。同日，国家统计局公布70城住宅销售价格月度报告。 2、11月18日至19日，APEC第三十三次领导人非正式会议将在深圳举行。其中，APEC工商领导人峰会将于11月17日至18日在深圳举办。 3、阿里、腾讯、拼多多、京东、百度、网易等中概互联头牌集中发布财报。 4、英伟达财报预计于北京时间周三5时20分左右发布，电话会议于6时开始。 5、人工智能实验室Anthropic期",
+      "flag": 1
+    },
     {
       "id": "a5sckkv83y",
       "key": "url:cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html",
@@ -19,6 +2106,25 @@
         "policy-us"
       ],
       "excerpt": "EV makers have had to contend with flip-flopping regulatory support from Washington over the years."
+    },
+    {
+      "id": "n6jfax19wc",
+      "key": "url:cnbc.com/2026/11/15/top-wall-street-analysts-are-bullish-on-these-3-stocks-for-the-long-term.html",
+      "title": "Top Wall Street analysts are bullish on these 3 stocks for the long term",
+      "url": "https://www.cnbc.com/2026/11/15/top-wall-street-analysts-are-bullish-on-these-3-stocks-for-the-long-term.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-15T12:49:07.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Here are three stocks favored by some of Wall Street's top pros, according to TipRanks."
     },
     {
       "id": "1m1431qwuv7",
@@ -27863,7 +29969,7 @@
       ],
       "excerpt": " 1、国务院关税税则委员会：在2个月内继续暂停实施24%的对美加征关税税率，保留10%的对美加征关税税率。 2、“星云星座计划”发布，我国太空算力网加快部署；该计划覆盖从国产算力芯片到卫星应用的全产业链条。 3、乘联分会数据显示，10月广义乘用车销量165.3万辆，同比下降27.3%。 4、对冲基金上周创纪录抛售科技股，大摩认为标普500指数的调整可能已接近尾声。 5、软银公司正为美国数据中心可能出现的放缓做好准备，并转向其他地区。 6、公司新闻方面：①沪电股份：拟5亿元至10亿元回购公司部分A股股份。②天邦食品：与通威集团签署重整投资协议 投资款总额…",
       "flag": 1,
-      "dupOf": "19my3rcq6m4"
+      "dupOf": "atpi57xi3s"
     },
     {
       "id": "taubbkjiai",
@@ -28098,7 +30204,7 @@
         "us-stocks"
       ],
       "excerpt": "Nvidia said its board has launched an independent investigation following the reports that Huang was the target of a \"foreign intelligence effort.\"",
-      "dupOf": "17cjjdqib5n"
+      "dupOf": "1khpxef5rcu"
     },
     {
       "id": "zrwya0g1gm",
@@ -28273,12 +30379,29 @@
       "firstSeenAt": "2026-11-09T13:08:33.517Z",
       "day": "2026-11-09",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "topics": [
         "us-stocks"
       ],
       "flag": 1,
-      "dupOf": "17cjjdqib5n"
+      "related": [
+        {
+          "id": "1o68yy4128m",
+          "sourceId": "cnbc-top",
+          "sourceName": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+          "title": "Nvidia stock falls 5% as scrutiny turns to Jensen Huang’s relationship with alleged Chinese spy",
+          "publishedAt": "2026-11-09T11:26:45.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "wscn-global",
+          "cnbc-top"
+        ],
+        "firstPublishedAt": "2026-11-09T09:01:12.000Z"
+      }
     },
     {
       "id": "cra2iv4uk1",
@@ -28744,7 +30867,7 @@
       ],
       "excerpt": "三大指数涨跌不一，创业板指、深成指冲高回落收跌，此前一度涨超1%。市场量能再度萎缩，沪深两市成交额1.48万亿，较上一个交易日缩量1752亿。全市场超3100只个股下跌。盘面上，煤炭板块走强，郑州煤电、安泰集团涨停；冰雪经济冰山冷热、龙江交通走出8天4板，晶雪节能20CM涨停；PCB概念震荡拉升，超声电子、奥士康涨停；机器人华培动力、日盈电子、金固股份涨停；算力芯片燧原科技涨超17%，寒武纪、沐曦股份涨超5%。下跌方面，光伏概念高开低走，阳光电源、隆基绿能等纷纷下挫。截至收盘，沪指涨0.32%，深",
       "flag": 1,
-      "dupOf": "1jjunyf2vjn"
+      "dupOf": "1db6keks4b"
     },
     {
       "id": "1k3m0mffyt9",
@@ -28818,13 +30941,30 @@
       "firstSeenAt": "2026-11-09T13:08:33.517Z",
       "day": "2026-11-09",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "topics": [
         "a-shares"
       ],
       "excerpt": "A股三大指数今日涨跌不一，截至收盘，上证指数涨0.32%，深证成指跌0.27%，创业板指跌0.27%，北证50涨0.82%，科创50指数涨0.3%。全市场成交额14946亿元，较上日缩量1770亿元，全市场超3100只个股下跌。板块题材上，煤炭开采加工、元件、燃气、6G概念、卫星导航板块涨幅居前；能源金属、光伏设备、游戏、保险、汽车整车跌幅居前。盘面上，煤炭开采加工板块高开高走，郑州煤电、安泰集团、云煤能源触及涨停，大有能源、新集能源、陕西黑猫涨幅居前。燃气板块表现强势，东方环宇、胜通能源涨停，长春燃气、凯添燃气、德龙汇能涨幅居前。人形机器人板块表现活…",
       "flag": 1,
-      "dupOf": "1jjunyf2vjn"
+      "related": [
+        {
+          "id": "2814y6bdq3u",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2528909",
+          "title": "收评：创业板指、深成指冲高回落均跌0.27% 沪深两市成交额仅1.48万亿",
+          "publishedAt": "2026-11-09T07:01:41.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "sina",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-11-09T07:00:00.000Z"
+      }
     },
     {
       "id": "2epbp3tyan0",
@@ -28843,8 +30983,7 @@
       "topics": [
         "us-stocks"
       ],
-      "flag": 1,
-      "dupOf": "17cjjdqib5n"
+      "flag": 1
     },
     {
       "id": "173qh78vo40",
@@ -29081,7 +31220,23 @@
       ],
       "excerpt": " 1、截至午间收盘，沪指涨0.46%，深证成指涨0.27%，创业板指涨0.56%。 2、港股午间收盘，恒生指数涨0.2%，恒生科技指数涨0.07%。 3、国务院关税税则委员会发布公告调整对原产于美国的进口商品加征关税措施，在2个月内继续暂停实施24%的对美加征关税税率，保留10%的对美加征关税税率。 4、国家统计局数据显示，10月份，全国居民消费价格同比上涨0.7%，环比持平。10月份，全国工业生产者出厂价格同比上涨5.7%，环比上涨0.7%。 5、美东时间周日，英伟达CEO黄仁勋通过电子邮件向英伟达员工发布内部信，承认自己对妻子不忠。英伟达发言人表示…",
       "flag": 1,
-      "dupOf": "19my3rcq6m4"
+      "related": [
+        {
+          "id": "146sz8uo374",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2529445",
+          "title": "财联社11月9日晚间新闻精选",
+          "publishedAt": "2026-11-09T13:46:39.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "cls"
+        ],
+        "firstPublishedAt": "2026-11-09T04:04:36.000Z"
+      }
     },
     {
       "id": "25zgmzzrhtv",
@@ -29239,1687 +31394,6 @@
         "policy-us"
       ],
       "excerpt": "黄金先扬后抑走势揭示了当前定价机制中两组力量的角力。上行力量来自中期选举政治出清，民主党横扫两院意味着财政扩张空间收窄、美伊冲突升级风险下降，美元与美债收益率同步回落，为黄金提供了利率敏感型买盘的回归窗口。但下行压制来自非农带来的“加息叙事重升”，超预期的就业数据使“劳动力市场正在降温”的叙事被彻底推翻，12月加息概率升至80%意味着黄金在12月FOMC前将持续面临美联储鹰派叙事的压制。另外，更深层的矛盾在于，中期选举使得沃什获得更大的政策自主权，强化美联储12月加息决心的同时，未来鹰派叙事有望延续更久，这使得黄金持续上行并打开上行空间充满很大变数。因…"
-    },
-    {
-      "id": "2c9ryrrlxof",
-      "key": "sina:5202216",
-      "title": "金价在美国就业数据出炉后上涨 凸显需求持续稳固",
-      "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniyazee6634434.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T02:42:00.000Z",
-      "firstSeenAt": "2026-11-09T13:08:33.517Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us",
-        "gold"
-      ],
-      "excerpt": "自美国中期选举以来，黄金ETF持仓量反弹，这表明散户需求强劲，而这正是推动金价持续上涨所必需的。尽管10月份美国就业增长出人意料地强劲，增强了美联储下月加息的可能性，但周一黄金价格仍上涨超过1%。目前看起来似乎是第四个月出现这样的走势：在经历了前一个月末的停滞或下滑之后，黄金ETF持仓在次月伊始开始攀升。10月份的情况是，在增至2022年7月以来最高水平之后，持仓量先是在早些时候削减，之后幅度更大。部分原因可能是，随着AI交易在股市遭到解除，加之美国中期选举的避险情绪来袭，投资者减持盈利的黄金多头头寸以弥补其他领域的损失。如果持仓反弹力度足以重现8月至…"
-    },
-    {
-      "id": "12bree9eqq2",
-      "key": "sina:5202205",
-      "title": "日本央行将于11月12日起以集合抵押品为标的提供美元资金",
-      "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniyazea3055908.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T02:40:00.000Z",
-      "firstSeenAt": "2026-11-09T13:08:33.517Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb"
-      ],
-      "flag": 1
-    },
-    {
-      "id": "24q3sz7ok0r",
-      "key": "wscn:3196624",
-      "title": "特朗普称愿意带黄仁勋出访亚洲",
-      "url": "https://wallstreetcn.com/livenews/3196624",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T02:39:01.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "当地时间11月8日，黄仁勋在致员工的信中承认对妻子不忠，表示自己的行为伤害了妻子和孩子，没有任何借口，愿承担全部责任并接受批评。据路透社报道，美国总统特朗普当天在返回华盛顿前接受记者采访时谈到了此事。特朗普表示：“我没和他谈过这件事。我只知道他是个不错的人，但事情究竟是怎么回事，谁也说不准。”被问到即将出访亚洲，是否计划带黄仁勋同行时，特朗普回应道，他还不确定，但愿意带他一起去。（澎湃）",
-      "flag": 1,
-      "dupOf": "17cjjdqib5n"
-    },
-    {
-      "id": "1dqs0syu3iw",
-      "key": "url:cnbc.com/2026/11/08/stock-market-today-live-updates.html",
-      "title": "Stock futures rise slightly as investors eye AI trade, brace for more data and earnings: Live updates",
-      "url": "https://www.cnbc.com/2026/11/08/stock-market-today-live-updates.html",
-      "lang": "en",
-      "sourceId": "cnbc-top",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-09T02:36:59.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "Key inflation data and AI earnings could set the tone for markets this week.",
-      "ai": {
-        "title": "美股期货微涨，投资者关注AI交易及数据",
-        "summary": "通胀数据和AI财报将定调本周市场。",
-        "model": "glm-4.7-flash",
-        "at": "2026-11-09T02:45:08.065Z"
-      }
-    },
-    {
-      "id": "2g0jaoky2jz",
-      "key": "wscn:3196621",
-      "title": "国务院关税税则委员会：在2个月内继续暂停实施24%的对美加征关税税率，保留10%的对美加征关税税率",
-      "url": "https://wallstreetcn.com/livenews/3196621",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T02:33:38.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn",
-        "policy-us"
-      ],
-      "excerpt": "为落实中美两国元首华盛顿会晤达成的成果共识，根据《中华人民共和国关税法》、《中华人民共和国海关法》、《中华人民共和国对外贸易法》等法律法规和国际法基本原则，经国务院批准，自2026年11月10日13时01分起，调整《国务院关税税则委员会关于对原产于美国的进口商品加征关税的公告》（税委会公告2025年第4号）规定的加征关税措施，在2个月内继续暂停实施24%的对美加征关税税率，保留10%的对美加征关税税率。 （中国财政部网站）",
-      "flag": 1,
-      "dupOf": "1sa42zu7bwi"
-    },
-    {
-      "id": "deiiluvdff",
-      "key": "cls:2528597",
-      "title": "国务院关税税则委员会：在2个月内继续暂停实施24%的对美加征关税税率 保留10%的对美加征关税税率",
-      "url": "https://www.cls.cn/detail/2528597",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T02:31:19.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn",
-        "policy-us"
-      ],
-      "excerpt": "为落实中美两国元首华盛顿会晤达成的成果共识，根据《中华人民共和国关税法》、《中华人民共和国海关法》、《中华人民共和国对外贸易法》等法律法规和国际法基本原则，经国务院批准，自2026年11月10日13时01分起，调整《国务院关税税则委员会关于对原产于美国的进口商品加征关税的公告》（税委会公告2025年第4号）规定的加征关税措施，在2个月内继续暂停实施24%的对美加征关税税率，保留10%的对美加征关税税率。",
-      "flag": 1,
-      "dupOf": "1sa42zu7bwi"
-    },
-    {
-      "id": "1sa42zu7bwi",
-      "key": "em:202611093926051572",
-      "title": "国务院关税税则委员会：11月10日起2个月内继续暂停实施24%的对美加征关税税率 保留10%的对美加征关税税率",
-      "url": "https://finance.eastmoney.com/a/202611093926051572.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T02:31:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 34,
-      "topics": [
-        "policy-cn",
-        "policy-us"
-      ],
-      "excerpt": "为落实中美两国元首华盛顿会晤达成的成果共识，根据《中华人民共和国关税法》、《中华人民共和国海关法》、《中华人民共和国对外贸易法》等法律法规和国际法基本原则，经国务院批准，自2026年11月10日13时01分起，调整《国务院关税税则委员会关于对原产于美国的进口商品加征关税的公告》（税委会公告2025年第4号）规定的加征关税措施，在2个月内继续暂停实施24%的对美加征关税税率，保留10%的对美加征关税税率。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "deiiluvdff",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2528597",
-          "title": "国务院关税税则委员会：在2个月内继续暂停实施24%的对美加征关税税率 保留10%的对美加征关税税率",
-          "publishedAt": "2026-11-09T02:31:19.000Z"
-        },
-        {
-          "id": "2g0jaoky2jz",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3196621",
-          "title": "国务院关税税则委员会：在2个月内继续暂停实施24%的对美加征关税税率，保留10%的对美加征关税税率",
-          "publishedAt": "2026-11-09T02:33:38.000Z"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "em-focus",
-          "cls",
-          "wscn-global"
-        ],
-        "firstPublishedAt": "2026-11-09T02:31:00.000Z"
-      }
-    },
-    {
-      "id": "wao37f4x7h",
-      "key": "sina:5202150",
-      "title": "国务院关税税则委员会关于调整对原产于美国的进口商品加征关税措施的公告",
-      "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniyazee6625612.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T02:31:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn",
-        "policy-us"
-      ],
-      "excerpt": "为落实中美两国元首华盛顿会晤达成的成果共识，根据《中华人民共和国关税法》、《中华人民共和国海关法》、《中华人民共和国对外贸易法》等法律法规和国际法基本原则，经国务院批准，自2026年11月10日13时01分起，调整《国务院关税税则委员会关于对原产于美国的进口商品加征关税的公告》（税委会公告2025年第4号）规定的加征关税措施，在2个月内继续暂停实施24%的对美加征关税税率，保留10%的对美加征关税税率。",
-      "flag": 1
-    },
-    {
-      "id": "jlgghgs9v5",
-      "key": "em:202611093926040474",
-      "title": "特朗普称“铁门”特遣部队已全面投入运作",
-      "url": "https://finance.eastmoney.com/a/202611093926040474.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T02:16:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "美国总统特朗普8日在社交媒体上发文说，“铁门”特遣部队已“全面投入运作”，加上“史上最强大的海上封锁”，几乎没有物资能够进出伊朗。美军中央司令部7日宣布组建一支“铁门”特遣部队，由约20名文职和军事人员组成，负责协调美国政府机构以防止伊朗利用陆路等方式跨境运输先进武器及其他物资。"
-    },
-    {
-      "id": "sqeotmbkjz",
-      "key": "em:202611093926034488",
-      "title": "英伟达确认黄仁勋继续履职CEO 特朗普表态支持",
-      "url": "https://finance.eastmoney.com/a/202611093926034488.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T02:11:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "当地时间11月8日，英伟达发言人对外明确，黄仁勋将继续担任公司首席执行官，履职不会中断，相关风波不会打乱英伟达正常经营节奏。美国总统特朗普在接受媒体采访时对此表态，称黄仁勋是一位 “很好的人”，认为他应当继续执掌英伟达。黄仁勋公开致歉后，英伟达董事会已经启动独立调查。",
-      "flag": 1
-    },
-    {
-      "id": "1m0v2r7k4mh",
-      "key": "em:202611093925984275",
-      "title": "无惧美股抛售？“木头姐”研判：忧虑筑起高墙 牛市走得更长！",
-      "url": "https://finance.eastmoney.com/a/202611093925984275.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T02:02:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "华尔街明星基金经理、方舟投资（ArkInvest）的掌门人凯茜·伍德（CathieWood）对上周的市场波动不以为意，她甚至表示，投资者的担忧实际上增强了她对未来进一步上涨的乐观情绪。",
-      "flag": 1
-    },
-    {
-      "id": "8ukejcaruz",
-      "key": "cls:2528568",
-      "title": "开盘半小时两市缩量超1300亿 预计全天成交超1.6万亿",
-      "url": "https://www.cls.cn/detail/2528568",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T02:01:48.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "据财联社盯盘数据显示，开盘半小时，沪深两市成交额突破5300亿，较上一日此时缩量超1300亿，预计全天成交金额超1.6万亿。",
-      "flag": 1,
-      "dupOf": "1jjunyf2vjn"
-    },
-    {
-      "id": "1h9rec9shmr",
-      "key": "em:202611093925993427",
-      "title": "万斯发长文被解读“与特朗普切割” 特朗普称万斯发文前曾向他“请示”",
-      "url": "https://finance.eastmoney.com/a/202611093925993427.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T02:01:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "据美国哥伦比亚广播公司（CBS）11月8日报道，特朗普谈及了美国副总统万斯日前在社交媒体X上发布的长文。特朗普说，他“不反对”万斯发表的观点，万斯发文前也曾“请示”过他，他告诉万斯“你可以想写什么就写什么”。"
-    },
-    {
-      "id": "y1ttoeergh",
-      "key": "url:stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
-      "title": "2026年10月份居民消费价格同比上涨0.7%",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965795.html",
-      "lang": "zh",
-      "sourceId": "nbs",
-      "sourceName": "国家统计局",
-      "sourceGroup": "official",
-      "publishedAt": "2026-11-09T02:00:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 54,
-      "topics": [
-        "macro-cn"
-      ],
-      "dateOnly": true,
-      "related": [
-        {
-          "id": "91z3ec12hs",
-          "sourceId": "em-focus",
-          "sourceName": "东方财富",
-          "url": "https://finance.eastmoney.com/a/202611093925795942.html",
-          "title": "国家统计局：10月CPI同比上涨0.7% PPI同比上涨5.7%",
-          "publishedAt": "2026-11-09T01:30:00.000Z"
-        },
-        {
-          "id": "ffgqn1fwa2",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3196574",
-          "title": "中国10月CPI同比 0.7%，前值 0.9%",
-          "publishedAt": "2026-11-09T01:30:10.000Z"
-        },
-        {
-          "id": "amhbo7ve9",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3196575",
-          "title": "中国10月PPI同比 5.7%，前值 5%",
-          "publishedAt": "2026-11-09T01:30:13.000Z"
-        },
-        {
-          "id": "gxxnfafwyn",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2528534",
-          "title": "国家统计局：2026年10月份居民消费价格同比上涨0.7%",
-          "publishedAt": "2026-11-09T01:31:00.000Z"
-        },
-        {
-          "id": "wbo75jlq51",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3196586",
-          "title": "中国10月PPI同比增速创2022年6月以来最高。 中国10月CPI同比增速为三个月低点，核心CPI同比增速创九个月最低",
-          "publishedAt": "2026-11-09T01:36:10.000Z"
-        },
-        {
-          "id": "1bx482yeb43",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3196587",
-          "title": "国家统计局：10月份，扣除食品和能源价格的核心CPI同比上涨0.8%，涨幅比上月回落0.2个百分点",
-          "publishedAt": "2026-11-09T01:36:48.000Z"
-        },
-        {
-          "id": "2effes6r5bi",
-          "sourceId": "em-commodity",
-          "sourceName": "东方财富·商品",
-          "url": "https://finance.eastmoney.com/a/202611093925833637.html",
-          "title": "国家统计局：受国际市场价格变动影响 10月国内汽油价格上涨4.2%",
-          "publishedAt": "2026-11-09T01:37:00.000Z"
-        },
-        {
-          "id": "2ey01sgvxrx",
-          "sourceId": "nbs",
-          "sourceName": "国家统计局",
-          "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
-          "title": "2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7%",
-          "publishedAt": "2026-11-09T02:00:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 9,
-        "sources": [
-          "nbs",
-          "em-focus",
-          "wscn-global",
-          "cls",
-          "em-commodity"
-        ],
-        "firstPublishedAt": "2026-11-09T01:30:00.000Z"
-      }
-    },
-    {
-      "id": "2ey01sgvxrx",
-      "key": "url:stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
-      "title": "2026年10月份工业生产者出厂价格同比上涨5.7% 环比上涨0.7%",
-      "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261109_1965794.html",
-      "lang": "zh",
-      "sourceId": "nbs",
-      "sourceName": "国家统计局",
-      "sourceGroup": "official",
-      "publishedAt": "2026-11-09T02:00:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 30,
-      "topics": [
-        "macro-cn"
-      ],
-      "dateOnly": true,
-      "dupOf": "y1ttoeergh"
-    },
-    {
-      "id": "j8pqfjs69c",
-      "key": "em:202611093926039522",
-      "title": "美股抛售尚未到头？凯投宏观警告：AI投资明年将放缓 2028年恐下滑10%",
-      "url": "https://finance.eastmoney.com/a/202611093926039522.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:50:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "凯投宏观（CapitalEconomics）指出，尽管投资者近期已遭受重创，但随着AI投资热潮逐渐消退，美股还将面临更严重的暴跌。",
-      "flag": 1
-    },
-    {
-      "id": "212zjw43m12",
-      "key": "sina:5201976",
-      "title": "日本央行将针对集合抵押品提供美元资金",
-      "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniyazee6591916.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:46:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb"
-      ]
-    },
-    {
-      "id": "1ddquyucgtl",
-      "key": "em:202611093925833419",
-      "title": "美伊关键调解人赴白宫 特朗普和万斯将与其会见",
-      "url": "https://finance.eastmoney.com/a/202611093925833419.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:37:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "当地时间11月8日，白宫公布的日程显示，美国总统特朗普将于9日中午在白宫会见卡塔尔首相兼外交大臣穆罕默德·本·阿卜杜勒拉赫曼·阿勒萨尼。"
-    },
-    {
-      "id": "2effes6r5bi",
-      "key": "em:202611093925833637",
-      "title": "国家统计局：受国际市场价格变动影响 10月国内汽油价格上涨4.2%",
-      "url": "https://finance.eastmoney.com/a/202611093925833637.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:37:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "macro-cn"
-      ],
-      "excerpt": "国家统计局城市司首席统计师董莉娟解读2026年10月份CPI和PPI数据。从环比看，全国CPI由上月上涨0.2%转为持平。其中，工业消费品价格上涨0.3%，涨幅比上月回落0.4个百分点，影响CPI环比上涨约0.10个百分点。工业消费品中，受国际市场价格变动影响，国内汽油价格上涨4.2%，涨幅比上月回落0.7个百分点，影响CPI环比上涨约0.14个百分点；黄金饰品价格下降5.9%，降幅比上月扩大3.8个百分点，影响CPI环比下降约0.03个百分点。服务价格由上月下降0.2%转为上涨0.1%，影响CPI环比上涨约0.04个百分点。服务中，国庆假期出行人数增…",
-      "dupOf": "y1ttoeergh"
-    },
-    {
-      "id": "1bx482yeb43",
-      "key": "wscn:3196587",
-      "title": "国家统计局：10月份，扣除食品和能源价格的核心CPI同比上涨0.8%，涨幅比上月回落0.2个百分点",
-      "url": "https://wallstreetcn.com/livenews/3196587",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:36:48.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "macro-cn"
-      ],
-      "flag": 1,
-      "dupOf": "y1ttoeergh"
-    },
-    {
-      "id": "wbo75jlq51",
-      "key": "wscn:3196586",
-      "title": "中国10月PPI同比增速创2022年6月以来最高。 中国10月CPI同比增速为三个月低点，核心CPI同比增速创九个月最低",
-      "url": "https://wallstreetcn.com/livenews/3196586",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:36:10.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "macro-cn"
-      ],
-      "flag": 1,
-      "dupOf": "y1ttoeergh"
-    },
-    {
-      "id": "gxxnfafwyn",
-      "key": "cls:2528534",
-      "title": "国家统计局：2026年10月份居民消费价格同比上涨0.7%",
-      "url": "https://www.cls.cn/detail/2528534",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:31:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "macro-cn"
-      ],
-      "excerpt": "国家统计局数据显示，2026年10月份，全国居民消费价格同比上涨0.7%。其中，城市上涨0.7%，农村上涨0.7%；食品价格下降2.9%，非食品价格上涨1.5%；消费品价格上涨0.8%，服务价格上涨0.7%。1—10月平均，全国居民消费价格比上年同期上涨0.9%。",
-      "flag": 1,
-      "dupOf": "y1ttoeergh"
-    },
-    {
-      "id": "amhbo7ve9",
-      "key": "wscn:3196575",
-      "title": "中国10月PPI同比 5.7%，前值 5%",
-      "url": "https://wallstreetcn.com/livenews/3196575",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:30:13.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "macro-cn"
-      ],
-      "flag": 2,
-      "dupOf": "y1ttoeergh"
-    },
-    {
-      "id": "ffgqn1fwa2",
-      "key": "wscn:3196574",
-      "title": "中国10月CPI同比 0.7%，前值 0.9%",
-      "url": "https://wallstreetcn.com/livenews/3196574",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:30:10.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "macro-cn"
-      ],
-      "flag": 2,
-      "dupOf": "y1ttoeergh"
-    },
-    {
-      "id": "91z3ec12hs",
-      "key": "em:202611093925795942",
-      "title": "国家统计局：10月CPI同比上涨0.7% PPI同比上涨5.7%",
-      "url": "https://finance.eastmoney.com/a/202611093925795942.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:30:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "macro-cn"
-      ],
-      "excerpt": "2026年10月份，全国居民消费价格同比上涨0.7%。其中，城市上涨0.7%，农村上涨0.7%；食品价格下降2.9%，非食品价格上涨1.5%；消费品价格上涨0.8%，服务价格上涨0.7%。1—10月平均，全国居民消费价格比上年同期上涨0.9%。2026年10月份，全国工业生产者出厂价格同比上涨5.7%，环比上涨0.7%。工业生产者购进价格同比上涨7.9%，环比上涨1.1%。1—10月平均，工业生产者出厂价格比上年同期上涨2.7%，工业生产者购进价格上涨4.0%。",
-      "flag": 1,
-      "dupOf": "y1ttoeergh"
-    },
-    {
-      "id": "jlabtsojdm",
-      "key": "em:202611093925854535",
-      "title": "现货黄金日内涨幅扩大至1%，报4112.08美元/盎司",
-      "url": "https://finance.eastmoney.com/a/202611093925854535.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:27:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "gold"
-      ],
-      "excerpt": "现货黄金日内涨幅扩大至1%，报4112.08美元/盎司。现货白银日内涨超2%，现报53.02美元/盎司。"
-    },
-    {
-      "id": "292vr7810kr",
-      "key": "cls:2528528",
-      "title": "创业板指高开1.19%",
-      "url": "https://www.cls.cn/detail/2528528",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:26:18.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "沪指高开0.27%，深成指高开0.87%，创业板指高开1.19%，6G、物理AI、有色·钨等板块指数涨幅居前，影视院线、短剧、农业种植等板块指数跌幅居前。",
-      "flag": 1,
-      "dupOf": "1jjunyf2vjn"
-    },
-    {
-      "id": "2cmv02kdq96",
-      "key": "em:202611093925790588",
-      "title": "创业板指高开1.19%",
-      "url": "https://finance.eastmoney.com/a/202611093925790588.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:26:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares",
-        "gold"
-      ],
-      "excerpt": "三大指数集体高开，沪指高开0.27%，深成指高开0.87%，创业板指高开1.19%，物理AI、贵金属、半导体芯片等板块指数涨幅居前。",
-      "flag": 1,
-      "dupOf": "1jjunyf2vjn"
-    },
-    {
-      "id": "1jjunyf2vjn",
-      "key": "wscn:3196571",
-      "title": "上证指数开盘报3659.02点，涨0.27%",
-      "url": "https://wallstreetcn.com/livenews/3196571",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:25:34.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 42,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "上证指数开盘报3659.02点，涨0.27%。 深证成指开盘报11273.28点，涨0.87%。 创业板指开盘报2494.63点，涨1.19%。 沪深300开盘报4066.28点，涨0.30%。 科创50开盘报1267.10点，涨1.11%。 中证500开盘报6658.74点，涨0.93%。 中证1000开盘报6580.17点，涨1.15%。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "2cmv02kdq96",
-          "sourceId": "em-focus",
-          "sourceName": "东方财富",
-          "url": "https://finance.eastmoney.com/a/202611093925790588.html",
-          "title": "创业板指高开1.19%",
-          "publishedAt": "2026-11-09T01:26:00.000Z"
-        },
-        {
-          "id": "292vr7810kr",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2528528",
-          "title": "创业板指高开1.19%",
-          "publishedAt": "2026-11-09T01:26:18.000Z"
-        },
-        {
-          "id": "8ukejcaruz",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2528568",
-          "title": "开盘半小时两市缩量超1300亿 预计全天成交超1.6万亿",
-          "publishedAt": "2026-11-09T02:01:48.000Z"
-        },
-        {
-          "id": "1db6keks4b",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniycmty6530535.d.html",
-          "title": "A股收评：创业板指高开低走跌0.27%，煤炭开采加工、燃气板块涨幅居前",
-          "publishedAt": "2026-11-09T07:00:00.000Z"
-        },
-        {
-          "id": "2814y6bdq3u",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2528909",
-          "title": "收评：创业板指、深成指冲高回落均跌0.27% 沪深两市成交额仅1.48万亿",
-          "publishedAt": "2026-11-09T07:01:41.000Z"
-        }
-      ],
-      "story": {
-        "reports": 6,
-        "sources": [
-          "wscn-global",
-          "em-focus",
-          "cls",
-          "sina"
-        ],
-        "firstPublishedAt": "2026-11-09T01:25:34.000Z"
-      }
-    },
-    {
-      "id": "1m79bq5oq6p",
-      "key": "em:202611093925782923",
-      "title": "央行今日开展1820亿元隔夜逆回购操作",
-      "url": "https://finance.eastmoney.com/a/202611093925782923.html",
-      "lang": "zh",
-      "sourceId": "em-pboc",
-      "sourceName": "东方财富·中国央行",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:24:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "pboc"
-      ],
-      "excerpt": "央行公开市场开展1820亿元隔夜逆回购操作，操作利率1.25%。数据显示，当日2260亿元逆回购到期。"
-    },
-    {
-      "id": "1gmf50hlmi3",
-      "key": "em:202611093925780969",
-      "title": "人民币兑美元中间价贬值20个基点",
-      "url": "https://finance.eastmoney.com/a/202611093925780969.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:17:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "rates-fx"
-      ],
-      "excerpt": "人民币兑美元中间价报6.7188，贬值20个基点。前一交易日中间价报6.7168，在岸人民币16:30收盘价报6.6711，夜盘收报6.6763。"
-    },
-    {
-      "id": "ncotwqepcx",
-      "key": "em:202611093925774077",
-      "title": "英伟达美股夜盘跌逾3%",
-      "url": "https://finance.eastmoney.com/a/202611093925774077.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:01:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "英伟达美股夜盘跌逾3%，此前黄仁勋承认婚外情并致歉，英伟达董事会启动一项调查。",
-      "flag": 1,
-      "dupOf": "1vkpofm1128"
-    },
-    {
-      "id": "1vkpofm1128",
-      "key": "cls:2528488",
-      "title": "英伟达美股夜盘跌逾3%",
-      "url": "https://www.cls.cn/detail/2528488",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T01:00:54.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 26,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "英伟达美股夜盘跌逾3%，此前黄仁勋承认婚外情并致歉，英伟达董事会启动一项调查。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "ncotwqepcx",
-          "sourceId": "em-focus",
-          "sourceName": "东方财富",
-          "url": "https://finance.eastmoney.com/a/202611093925774077.html",
-          "title": "英伟达美股夜盘跌逾3%",
-          "publishedAt": "2026-11-09T01:01:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "cls",
-          "em-focus"
-        ],
-        "firstPublishedAt": "2026-11-09T01:00:54.000Z"
-      }
-    },
-    {
-      "id": "17cjjdqib5n",
-      "key": "em:202611093925772766",
-      "title": "黄仁勋承认婚外情 特朗普回应",
-      "url": "https://finance.eastmoney.com/a/202611093925772766.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T00:57:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 34,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "黄仁勋承认有婚外情后，当地时间11月8日，美国总统特朗普向记者表示，黄仁勋是一位正直的人，并赞扬了他对美国的贡献。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "24q3sz7ok0r",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3196624",
-          "title": "特朗普称愿意带黄仁勋出访亚洲",
-          "publishedAt": "2026-11-09T02:39:01.000Z"
-        },
-        {
-          "id": "2epbp3tyan0",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3196726",
-          "title": "英伟达美股夜盘跌幅扩大至近6%，此前黄仁勋承认婚外情并致歉",
-          "publishedAt": "2026-11-09T06:54:15.000Z"
-        },
-        {
-          "id": "1khpxef5rcu",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3196825",
-          "title": "英伟达美股盘前跌近5%，此前黄仁勋承认婚外情并引发董事会调查",
-          "publishedAt": "2026-11-09T09:01:12.000Z"
-        },
-        {
-          "id": "1o68yy4128m",
-          "sourceId": "cnbc-top",
-          "sourceName": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
-          "title": "Nvidia stock falls 5% as scrutiny turns to Jensen Huang’s relationship with alleged Chinese spy",
-          "publishedAt": "2026-11-09T11:26:45.000Z"
-        }
-      ],
-      "story": {
-        "reports": 5,
-        "sources": [
-          "em-focus",
-          "wscn-global",
-          "cnbc-top"
-        ],
-        "firstPublishedAt": "2026-11-09T00:57:00.000Z"
-      }
-    },
-    {
-      "id": "1zabb3eofaa",
-      "key": "em:202611093925763361",
-      "title": "拉加德临别鹰派信号 欧洲央行12月加息几成定局",
-      "url": "https://finance.eastmoney.com/a/202611093925763361.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T00:38:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb"
-      ],
-      "excerpt": "欧洲央行行长克里斯蒂娜·拉加德（ChristineLagarde）在接受媒体采访时暗示，欧洲央行有可能在12月举行的管理委员会会议上再次加息。",
-      "dupOf": "r7y9elwmif"
-    },
-    {
-      "id": "1uu0f1y77sj",
-      "key": "em:202611093925760832",
-      "title": "向特朗普政府“开炮”！民主党预告：将“剑指”马斯克、米勒和赫格塞思",
-      "url": "https://finance.eastmoney.com/a/202611093925760832.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T00:18:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 26,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "多名美国民主党高层国会议员周日表示，在明年1月该党重掌国会后，将向特朗普政府“开炮”，科技亿万富翁埃隆·马斯克、特朗普总统新任命的白宫办公厅主任斯蒂芬·米勒以及一些大公司或成调查目标。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "1is68yxf0io",
-          "sourceId": "cnbc-top",
-          "sourceName": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/08/democrats-trump-oversight-blanche-doj-investigations.html",
-          "title": "民主党威胁调查特朗普，Blanche反击",
-          "publishedAt": "2026-11-08T18:57:56.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "em-focus",
-          "cnbc-top"
-        ],
-        "firstPublishedAt": "2026-11-08T18:57:56.000Z"
-      }
-    },
-    {
-      "id": "m9v9u1rquq",
-      "key": "em:202611093925757921",
-      "title": "铜：多空交织 短期行情承压为主 低库存与强Back结构支撑下方空间",
-      "url": "https://finance.eastmoney.com/a/202611093925757921.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T00:14:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "中信建投期货11月8日研报显示，近期宏观情绪主导行情波动，中期选举后AI基建扩张受阻、地缘扰动加剧、美铜关税预期减弱，短期行情承压为主；底部支撑上，境内低库存、货源紧、期现高基差、盘面强Back结构，现货价格坚挺赋予盘面价格支撑，谨慎过分悲观下方空间。"
-    },
-    {
-      "id": "19my3rcq6m4",
-      "key": "cls:2528436",
-      "title": "财联社11月9日早间新闻精选",
-      "url": "https://www.cls.cn/detail/2528436",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T00:09:20.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": " 1、国务院总理李强11月6日主持召开国务院常务会议。会议指出，完善资本市场稳市机制，增强股市内在稳定性，促进资本市场平稳健康发展。会议还指出，要聚焦重点领域持续发力，加快重大项目和“六张网”建设实施进度，支持企业扩大设备更新、无形资产等投资。 2、北京时间11月6日晚，中美经贸中方牵头人、国务院副总理何立峰与美方牵头人、美国财政部长贝森特和贸易代表格里尔举行视频通话。双方同意在两国元首战略引领下，继续发挥好中美经贸磋商机制作用，持续加强合作，妥善管控分歧，推动中美经贸关系持续稳定向好发展，助力构建“基于尊重、公平、对等的中美建设性战略稳定关系”。 3…",
-      "flag": 1,
-      "related": [
-        {
-          "id": "atpi57xi3s",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2528714",
-          "title": "财联社11月9日午间新闻精选",
-          "publishedAt": "2026-11-09T04:04:36.000Z"
-        },
-        {
-          "id": "146sz8uo374",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2529445",
-          "title": "财联社11月9日晚间新闻精选",
-          "publishedAt": "2026-11-09T13:46:39.000Z"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "cls"
-        ],
-        "firstPublishedAt": "2026-11-09T00:09:20.000Z"
-      }
-    },
-    {
-      "id": "2ehzldov0s4",
-      "key": "em:202611093925752338",
-      "title": "特朗普最新发声：再次打击伊朗可能性极低 “铁门”特遣行动正全面展开",
-      "url": "https://finance.eastmoney.com/a/202611093925752338.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-09T00:03:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "综合央视新闻等媒体报道，当地时间11月8日，美国总统特朗普表示，只要围绕伊朗核计划及重新开放霍尔木兹海峡的谈判取得进展，美国再次对伊朗发动军事打击的可能性就“极低”。不过，他也强调，如果有必要，美国仍可能采取军事行动。“当然，如果真有必要，我也会动手，我们狠狠打击了他们。我下手有多重，你们根本想象不到。”特朗普称。",
-      "flag": 1,
-      "dupOf": "1tiufxrdwae"
-    },
-    {
-      "id": "r7y9elwmif",
-      "key": "sina:5201771",
-      "title": "欧洲央行行长拉加德暗示12月将加息",
-      "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniyauwa6433821.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T23:45:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 26,
-      "topics": [
-        "cb"
-      ],
-      "excerpt": "欧洲央行行长克里斯蒂娜·拉加德在接受日本《读卖新闻》采访时暗示，欧洲央行有可能在下个月举行的管理委员会会议上再次加息。拉加德指出，“我们知道未来几个季度的通胀数据仍将居高不下”，表达了对物价上涨的危机感。关于12月加息，她表示：“根据我们目前掌握的信息，除非发生重大变化，否则政策走向将符合我的预期。”上个月，拉加德宣布她将于明年2月辞职，比其10月任期届满提前了8个月。此次接受采访是她宣布辞职以来的首次媒体采访。拉加德将明年春季举行的法国总统选举作为她辞职的原因。她表示，她看到“许多关键问题、关键议题，要么未被讨论，要么基于错误的事实和错误的原则进行讨…",
-      "related": [
-        {
-          "id": "1zabb3eofaa",
-          "sourceId": "em-commodity",
-          "sourceName": "东方财富·商品",
-          "url": "https://finance.eastmoney.com/a/202611093925763361.html",
-          "title": "拉加德临别鹰派信号 欧洲央行12月加息几成定局",
-          "publishedAt": "2026-11-09T00:38:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "sina",
-          "em-commodity"
-        ],
-        "firstPublishedAt": "2026-11-08T23:45:00.000Z"
-      }
-    },
-    {
-      "id": "843p4uw3fb",
-      "key": "em:202611093925715421",
-      "title": "证券时报：稳市机制高频落子 稳市力量加速汇聚",
-      "url": "https://finance.eastmoney.com/a/202611093925715421.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T23:31:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "日前召开的国务院常务会议指出，完善资本市场稳市机制，增强股市内在稳定性，促进资本市场平稳健康发展。南开大学金融发展研究院院长田利辉表示，这体现了国家层面对于资本市场的高度关注，释放了呵护市场的明确政策信号。从近期落地的举措来看，稳市场、稳预期的政策组合拳力度大、密度高、节奏快，覆盖资金、制度、市场参与主体等多维度。",
-      "flag": 1
-    },
-    {
-      "id": "6cjh1emltq",
-      "key": "em:202611093925710080",
-      "title": "外储规模连续7个月站上3.4万亿美元 央行黄金储备“24连增”",
-      "url": "https://finance.eastmoney.com/a/202611093925710080.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T23:15:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb-gold",
-        "pboc",
-        "macro-cn"
-      ],
-      "excerpt": "国家外汇局11月7日发布的数据显示，截至10月末，我国外汇储备规模为34052亿美元，较9月末上升49亿美元，升幅为0.14%。至此，我国外储规模已连续7个月维持在3.4万亿美元上方。"
-    },
-    {
-      "id": "5u1apzhnd3",
-      "key": "sina:5201735",
-      "title": "稳市政策持续加码 机构：A股震荡反弹行情有望延续",
-      "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniyauwh6629592.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T23:13:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn",
-        "a-shares"
-      ],
-      "excerpt": "上周A股市场整体呈现震荡反弹格局，主要指数回升。此外，11月6日召开的国务院常务会议指出，完善资本市场稳市机制，增强股市内在稳定性，促进资本市场平稳健康发展。展望后市，多家机构策略研报认为：随着稳定资本市场措施持续加码，海外不确定性因素阶段性落地，A股震荡反弹行情有望延续。（上海证券报）",
-      "dupOf": "1lf3cp38ps"
-    },
-    {
-      "id": "25gzuqulpgr",
-      "key": "sina:5201733",
-      "title": "机构：美国非农超预期反弹 12月加息预期升温",
-      "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniyauwh6629238.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T23:12:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "macro-us"
-      ],
-      "excerpt": "国泰海通发布研报称，非农超预期反弹，主因专业服务与医疗保健走强。失业率回落而参与率走高，劳动需求仍较稳健。10月非农数据削弱了美联储因就业放缓而维持观望的理由。在10月议息会议上，已有两位票委支持加息；9月点阵图显示，18位官员中有16位预计年内至少还将加息一次；9月核心PCE同比仍为3.1%，高于2%的目标。数据公布后，根据CME数据，市场预期美联储12月加息的概率由66.9%升至76.8%。该行判断美联储12月或将加息25个基点，10月CPI若超预期回落会降低加息的紧迫性，但难以改变方向。",
-      "dupOf": "20ecuw4um4f"
-    },
-    {
-      "id": "1lf3cp38ps",
-      "key": "sina:5201699",
-      "title": "稳市政策持续加码，机构：A股震荡反弹行情有望延续",
-      "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniyaqqh3185983.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T22:15:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn",
-        "a-shares"
-      ],
-      "excerpt": "上周A股市场整体呈现震荡反弹格局，主要指数回升。此外，11月6日召开的国务院常务会议指出，完善资本市场稳市机制，增强股市内在稳定性，促进资本市场平稳健康发展。展望后市，多家机构策略研报认为：随着稳定资本市场措施持续加码，海外不确定性因素阶段性落地，A股震荡反弹行情有望延续。（上证报）",
-      "related": [
-        {
-          "id": "5u1apzhnd3",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniyauwh6629592.d.html",
-          "title": "稳市政策持续加码 机构：A股震荡反弹行情有望延续",
-          "publishedAt": "2026-11-08T23:13:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "sina"
-        ],
-        "firstPublishedAt": "2026-11-08T22:15:00.000Z"
-      }
-    },
-    {
-      "id": "2cv7r32da1f",
-      "key": "em:202611093925720951",
-      "title": "11月9日国内四大证券报纸、重要财经媒体头版头条内容精华摘要",
-      "url": "https://finance.eastmoney.com/a/202611093925720951.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T22:03:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "1、稳市政策组合拳持续加码，A股长期向好逻辑进一步明确。2、又一家A股公司，拟跨界“追光”。3、市场风格切换，量化机构重新审视策略模型适应性。",
-      "flag": 1
-    },
-    {
-      "id": "q75vpcgl42",
-      "key": "em:202611093925728446",
-      "title": "美联储12月加息的概率为78%",
-      "url": "https://finance.eastmoney.com/a/202611093925728446.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T22:02:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed"
-      ],
-      "excerpt": "据CME“美联储观察”：美联储12月维持利率不变的概率为22.0%，加息25个基点的概率为78%。美联储到明年1月维持利率不变的概率17.7%，累计加息25个基点的概率67.1%，累计加息50个基点的概率为15.2%。"
-    },
-    {
-      "id": "163nz97505s",
-      "key": "url:cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html",
-      "title": "Trump says renewed Iran strikes ‘highly unlikely’ if talks progress but warns he could still strike",
-      "url": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html",
-      "lang": "en",
-      "sourceId": "cnbc-top",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-08T21:53:02.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "Trump tied avoiding renewed U.S. strikes to progress in talks over Iran’s nuclear program and the Strait of Hormuz.",
-      "ai": {
-        "title": "特朗普称若谈判进展，对伊打击可能性低",
-        "summary": "特朗普警告若谈判无进展仍可能打击伊朗。",
-        "model": "glm-4.7-flash",
-        "at": "2026-11-09T02:45:08.065Z"
-      },
-      "dupOf": "53odbhwmk3"
-    },
-    {
-      "id": "pxmwo3y6rf",
-      "key": "em:202611093925725294",
-      "title": "AI短剧商业兑现提速 AI视频赛道景气向好 多股获资金青睐(名单)",
-      "url": "https://finance.eastmoney.com/a/202611093925725294.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T21:52:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "AI短剧从试水走向规模化生产，A股AI视频概念近期持续活跃。机构认为，产业链价值正加速向IP与平台两端迁移。",
-      "flag": 1
-    },
-    {
-      "id": "1tiufxrdwae",
-      "key": "em:202611093925722749",
-      "title": "特朗普称“铁门”特遣行动正全面展开 几乎没有物资能进出伊朗",
-      "url": "https://finance.eastmoney.com/a/202611093925722749.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T21:18:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 26,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "当地时间11月8日，美国总统特朗普在社交媒体“真实社交”上发文表示，针对伊朗的“铁门”特遣行动正在全面展开。再加上他所称的“历史上规模最大的海上封锁”，目前几乎没有物资能够进出伊朗。",
-      "related": [
-        {
-          "id": "2ehzldov0s4",
-          "sourceId": "em-focus",
-          "sourceName": "东方财富",
-          "url": "https://finance.eastmoney.com/a/202611093925752338.html",
-          "title": "特朗普最新发声：再次打击伊朗可能性极低 “铁门”特遣行动正全面展开",
-          "publishedAt": "2026-11-09T00:03:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "em-commodity",
-          "em-focus"
-        ],
-        "firstPublishedAt": "2026-11-08T21:18:00.000Z"
-      }
-    },
-    {
-      "id": "1ugqtuhl9qu",
-      "key": "em:202611093925719166",
-      "title": "特朗普称若美伊谈判取得进展 再次发动打击可能性极低",
-      "url": "https://finance.eastmoney.com/a/202611093925719166.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T19:52:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "当地时间11月8日，美国总统特朗普表示，只要围绕伊朗核计划及重新开放霍尔木兹海峡的谈判取得进展，美国再次对伊朗发动军事打击的可能性就“极低”。特朗普称，关键在于伊朗是否愿意签署一项“非常有力的协议”，并强调如果有必要，美国仍可能采取军事行动。",
-      "flag": 1,
-      "dupOf": "53odbhwmk3"
-    },
-    {
-      "id": "pobywirpsf",
-      "key": "sina:5201646",
-      "title": "美财政部要求伊拉克关闭与伊朗之间大部分边境口岸",
-      "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniyakhn6844384.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T19:16:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "当地时间11月8日，伊拉克外交部长侯赛因称，美国财政部要求伊拉克关闭与伊朗之间的大部分边境口岸，仅保留两个口岸开放。（央视新闻）"
-    },
-    {
-      "id": "1is68yxf0io",
-      "key": "url:cnbc.com/2026/11/08/democrats-trump-oversight-blanche-doj-investigations.html",
-      "title": "Democrats amp up Trump investigation threats, Blanche counters he may probe lawmakers",
-      "url": "https://www.cnbc.com/2026/11/08/democrats-trump-oversight-blanche-doj-investigations.html",
-      "lang": "en",
-      "sourceId": "cnbc-top",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-08T18:57:56.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "Democrats have vowed to investigate both President Donald Trump's White House and businesses that have worked with the administration.",
-      "ai": {
-        "title": "民主党威胁调查特朗普，Blanche反击",
-        "summary": "民主党誓言调查特朗普白宫及关联企业。",
-        "model": "glm-4.7-flash",
-        "at": "2026-11-09T02:45:08.065Z"
-      },
-      "dupOf": "1uu0f1y77sj"
-    },
-    {
-      "id": "1hvwjbtibya",
-      "key": "sina:5201634",
-      "title": "伊拉克外长表示，美国财政部要求伊拉克关闭与伊朗的大部分边境口岸，仅保留两个开放",
-      "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniyakhk3279840.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T18:39:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ]
-    },
-    {
-      "id": "14kxo55dhmh",
-      "key": "em:202611093925710816",
-      "title": "溢价持续高企 机构提示纳指ETF相关风险",
-      "url": "https://finance.eastmoney.com/a/202611093925710816.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T17:52:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "us-stocks",
-        "qdii"
-      ],
-      "excerpt": "近期纳指ETF溢价持续高企。Wind数据显示，截至11月6日收盘，纳指科技ETF景顺长城溢折率达41.64%，纳指ETF嘉实、纳指ETF国泰均超过20%，纳指ETF易方达、纳指ETF广发、纳斯达克100 ETF招商、纳指ETF富国均超过17%。",
-      "flag": 1
-    },
-    {
-      "id": "53odbhwmk3",
-      "key": "wscn:3196502",
-      "title": "特朗普：若伊朗谈判取得进展，重启军事打击的可能性极低",
-      "url": "https://wallstreetcn.com/livenews/3196502",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T17:43:31.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 34,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "美国总统特朗普上周日表示，如果围绕伊朗核计划以及重新开放霍尔木兹海峡的协议谈判取得进展，他下令对伊朗实施新一轮军事打击的可能性“极低”。他称伊朗迫切希望达成协议。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "1ugqtuhl9qu",
-          "sourceId": "em-focus",
-          "sourceName": "东方财富",
-          "url": "https://finance.eastmoney.com/a/202611093925719166.html",
-          "title": "特朗普称若美伊谈判取得进展 再次发动打击可能性极低",
-          "publishedAt": "2026-11-08T19:52:00.000Z"
-        },
-        {
-          "id": "163nz97505s",
-          "sourceId": "cnbc-top",
-          "sourceName": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/08/trump-iran-strikes-unlikely-talks-hormuz.html",
-          "title": "特朗普称若谈判进展，对伊打击可能性低",
-          "publishedAt": "2026-11-08T21:53:02.000Z"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "wscn-global",
-          "em-focus",
-          "cnbc-top"
-        ],
-        "firstPublishedAt": "2026-11-08T17:43:31.000Z"
-      }
-    },
-    {
-      "id": "gq22h9x76w",
-      "key": "url:cnbc.com/investingclub/2026/11/08/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-      "title": "Here are the 2 big things we're watching in the stock market in the week ahead",
-      "url": "https://www.cnbc.com/investingclub/2026/11/08/here-are-the-2-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
-      "lang": "en",
-      "sourceId": "cnbc-top",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-08T17:40:15.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "CoreWeave earnings and inflation data will take center stage.",
-      "ai": {
-        "title": "下周美股关注两大焦点",
-        "summary": "CoreWeave财报和通胀数据将成焦点。",
-        "model": "glm-4.7-flash",
-        "at": "2026-11-09T02:45:08.065Z"
-      }
-    },
-    {
-      "id": "vlpde3vs0k",
-      "key": "em:202611093925712021",
-      "title": "头部外资投行密集发布观点 看好中国资产配置价值",
-      "url": "https://finance.eastmoney.com/a/202611093925712021.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T17:19:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 22,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "近日，摩根大通、高盛、瑞银等多家头部外资投行密集发布观点，积极看多A股市场。同时，贝莱德、富兰克林邓普顿等国际机构在多家A股公司的调研名单里现身。",
-      "flag": 1
-    },
-    {
-      "id": "3xr7jnn3pc",
-      "key": "sina:5201609",
-      "title": "美国国务院发言人表示，继续对有关在美外国使团成员的信息进行审查，包括任何国家安全方面的关切",
-      "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniyacys3728572.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T16:56:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ]
-    },
-    {
-      "id": "1v4z0ek5cq4",
-      "key": "em:202611083925649565",
-      "title": "震动A股！牛股华新建材放大招 拟砸百亿跨境并购",
-      "url": "https://finance.eastmoney.com/a/202611083925649565.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T16:23:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "11月8日晚间，华新建材发布公告称，公司拟收购CSN CIMENTOS BRASIL S.A.（巴西国家钢铁水泥公司，以下简称标的公司）99.99%的股权，预估价约为90.34亿巴西雷亚尔（折合人民币约为109.55亿元）。标的公司是巴西第二大水泥生产商。若完成本次交易，华新建材乃至中国水泥企业将首次进入巴西水泥市场。",
-      "flag": 1
-    },
-    {
-      "id": "418o9fbnof",
-      "key": "em:202611083925687598",
-      "title": "国常会部署重点工作 首提完善资本市场稳市机制",
-      "url": "https://finance.eastmoney.com/a/202611083925687598.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T16:17:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "确保完成全年经济社会发展目标，资本市场被纳入后几个月重点工作部署范围。“完善资本市场稳市机制”是国常会首次提及。近年来，资本市场监管部门在推进注册制改革、支持科技创新企业上市发展的同时，也在努力构建资本市场稳市机制。刚刚过去的一周，多部门联合推出一系列稳市举措，提振市场信心。业内认为，相关安排兼顾短期预期修复与长期制度建设，持续完善资本市场内生稳定体系，稳步提升市场韧性，为资本市场平稳运行提供支撑。",
-      "flag": 1
-    },
-    {
-      "id": "1exialux160",
-      "key": "em:202611083925656856",
-      "title": "股市“吹哨人”大摩：美股抛售接近尾声 未来两到三周是加仓好时机",
-      "url": "https://finance.eastmoney.com/a/202611083925656856.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T16:05:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "华尔街并不悲观！日前，有股市“吹哨人”之称的摩根士丹利表示，美股抛售已接近尾声，未来两到三周是加仓的好时机。",
-      "flag": 1
-    },
-    {
-      "id": "20ecuw4um4f",
-      "key": "em:202611083925687135",
-      "title": "非农超预期 美联储鹰声未止",
-      "url": "https://finance.eastmoney.com/a/202611083925687135.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T16:04:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-09",
-      "category": "industry",
-      "score": 26,
-      "topics": [
-        "fed",
-        "us-stocks",
-        "macro-us"
-      ],
-      "excerpt": "在近期美股与黄金动荡下，市场格外关注美国就业情况。最新数据显示，美国10月份非农就业人数增长16.5万人，大超预期，失业率重新回落至历史低位区间。这也表明，劳动力市场仍具有弹性，美联储12月加息预期有所升温。站在当前时点，市场对就业数据的反应存在两难：过弱容易引发衰退交易，过强又会增加激进加息的担忧。",
-      "related": [
-        {
-          "id": "25gzuqulpgr",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-09/detail-iniyauwh6629238.d.html",
-          "title": "机构：美国非农超预期反弹 12月加息预期升温",
-          "publishedAt": "2026-11-08T23:12:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "em-commodity",
-          "sina"
-        ],
-        "firstPublishedAt": "2026-11-08T16:04:00.000Z"
-      }
-    },
-    {
-      "id": "17je431rsqj",
-      "key": "sina:5201495",
-      "title": "国泰海通： 我们判断美联储12月或将加息25个基点",
-      "url": "https://finance.sina.cn/7x24/2026-11-08/detail-inixzxsu3806847.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T14:24:00.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-08",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed",
-        "macro-us"
-      ],
-      "excerpt": "国泰海通发布研报指出，10月美国新增非农就业16.5万人，远超市场预期的7万人，主要由专业和商业服务、教育和保健服务拉动。失业率回落至4.1%，同时劳动参与率连续三个月回升，说明劳动需求仍较稳健。就业已不构成美联储维持观望的理由，叠加通胀仍明显高于目标，我们判断美联储12月或将加息25个基点。"
-    },
-    {
-      "id": "3suvhbgz2q",
-      "key": "cls:2528333",
-      "title": "下周资本市场大事提醒：中美CPI、俄美乌三方会谈 Anthropic或启动IPO路演",
-      "url": "https://www.cls.cn/detail/2528333",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-08T13:50:09.000Z",
-      "firstSeenAt": "2026-11-09T02:39:52.670Z",
-      "day": "2026-11-08",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "macro-cn"
-      ],
-      "excerpt": " 1、11月9日，中国10月CPI、PPI数据将公布。据中金宏观预计，物价方面，10月CPI同比或维持在0.9%左右。 2、中国人民银行决定，自2026年11月15日起，上调金融机构外汇存款准备金率2个百分点，即外汇存款准备金率由现行的4%提高到6%。 3、下周或公布国内M2、社融、新增人民币贷款数据。华创证券预计10月新增社融预计1万亿，较去年同期多增3700亿。社融存量增速预计7.2%左右。10月M2同比预计7.3%左右。 4、10只ETF新纳入港股通，11月9日起生效，追踪的指数既包括香港市场的红利类",
-      "flag": 1
     }
   ]
 }

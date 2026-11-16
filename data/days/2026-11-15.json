@@ -2,6 +2,101 @@
   "day": "2026-11-15",
   "items": [
     {
+      "id": "1gmduu0gxxs",
+      "key": "url:the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them",
+      "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
+      "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+      "excerpt": "Anthropic's Claude Fable 5.2 doesn't generate images the way other AI models do. Instead of computing pixels, the language model writes Python code that places hundreds of thousands of simulated brushstrokes on a virtual canvas, complete with bristle texture and paint applicatio…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-15T15:42:03.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "multimodal",
+      "score": 15,
+      "dupOf": "coad34quga"
+    },
+    {
+      "id": "hy5hrhrbbl",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xwy3ka/probable_glm_model",
+      "title": "Probable GLM model",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwy3ka/probable_glm_model/",
+      "excerpt": "https://preview.redd.it/k7ife2j2ms1i1.png?width=591&format=png&auto=webp&s=e8dd29b327ac46e7634a5faf48454ec1beb7aa0b Because of Theo gg tweet of all people, I Launch QFN DeepResearch swarm agent to find anything about this. THREE model names, blurred out, sitting at 59.4% / 57.1%…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T15:21:11.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwy3ka/probable_glm_model/",
+      "aiAttempts": 1
+    },
+    {
+      "id": "1tzszrj7xns",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xwxzgj/i_finally_succeed_the_cmp_170hx_voltage_glitch",
+      "title": "I finally succeed the CMP 170HX voltage glitch and get 80GB VRAM + 126sm! !",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwxzgj/i_finally_succeed_the_cmp_170hx_voltage_glitch/",
+      "excerpt": "Ever since the information surfaced five days ago, I had intended to implement it right away. Having confirmed that it could be executed using 'pico,' I carried it out today. I had Astra write the script for the restricted write-access portion, and after nearly 15 hours of work,…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T15:16:24.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwxzgj/i_finally_succeed_the_cmp_170hx_voltage_glitch/",
+      "aiAttempts": 1
+    },
+    {
+      "id": "shai131hyj",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xwxbjk/spotted_a_very_interesting_detail_about_intels",
+      "title": "Spotted a very interesting detail about Intel's upcoming CPU platform (LGA 1954)",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwxbjk/spotted_a_very_interesting_detail_about_intels/",
+      "excerpt": "I was doing some research about the the platform for Intel's next generations of CPUs. If we look closely at the PCIe 5.0 configuration for Z990/W980, it specifies x16 (or x8/x8) x8 (or x4/x4) \"Storage\" So, it is plausible we might see motherboards with 3 PCIe 5.0 x8 slots direc…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T14:49:02.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 10,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwxbjk/spotted_a_very_interesting_detail_about_intels/",
+      "aiAttempts": 1
+    },
+    {
+      "id": "27a1f2en6j1",
+      "key": "url:jakub.jankiewicz.org/blog/ai-code-open-source",
+      "title": "All AI-generated code should be Open Source",
+      "url": "https://jakub.jankiewicz.org/blog/ai-code-open-source/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T14:46:58.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "opensource",
+      "score": 36,
+      "metrics": {
+        "points": 1101,
+        "comments": 597
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50507303",
+      "aiAttempts": 1
+    },
+    {
       "id": "t3c2ztlif9",
       "key": "url:theverge.com/column/1033943/jensen-huang-nvidia-china-spying-scandal-resignation",
       "title": "An overview of Jensen Huang’s messy days",
@@ -39,6 +134,45 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-15T13:16:31.747Z"
       }
+    },
+    {
+      "id": "q2lck6f1i4",
+      "key": "url:magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "title": "Understanding Positional Embeddings in Modern LLMs",
+      "url": "https://magazine.sebastianraschka.com/p/understanding-positional-embeddings",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T12:14:06.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 25.6,
+      "metrics": {
+        "points": 211,
+        "comments": 27
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50506376",
+      "aiAttempts": 1
+    },
+    {
+      "id": "2dpbovsxilr",
+      "key": "url:reddit.com/r/LocalLLaMA/comments/1xwttcw/latest_version_of_strata_made_my_qwen38flashnext",
+      "title": "Latest version of strata made my Qwen3.8-Flash-Next dumb and useless",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwttcw/latest_version_of_strata_made_my_qwen38flashnext/",
+      "excerpt": "I updated the strata to the latest version from v0.1.42.0, so I can try the latest unsloths models and see how they fare against the iq3_s variant I have been using. Upon updating it, I noticed it messed up the whole thing, It got faster, but it got way dumber! previously it wou…",
+      "lang": "en",
+      "sourceId": "reddit-localllama",
+      "sourceName": "r/LocalLLaMA",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T12:02:35.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "model",
+      "score": 16,
+      "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xwttcw/latest_version_of_strata_made_my_qwen38flashnext/",
+      "dupOf": "1v7i58tmpxd"
     },
     {
       "id": "11dathxkeii",
@@ -213,7 +347,7 @@
         "具身智能"
       ],
       "score": 28,
-      "dupOf": "1oxs0863i04"
+      "dupOf": "1w60c0rd3qf"
     },
     {
       "id": "uq73qanuza",
@@ -419,7 +553,7 @@
       "day": "2026-11-15",
       "category": "model",
       "score": 24,
-      "dupOf": "1oxs0863i04"
+      "dupOf": "1w60c0rd3qf"
     },
     {
       "id": "tzq4mi1uoc",
@@ -493,6 +627,43 @@
       }
     },
     {
+      "id": "1ir3k3xfvew",
+      "key": "url:simonwillison.net/2026/Nov/15/datasette-apps",
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "excerpt": "Release: datasette-apps 0.4a0 Datasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data. 0.4a0 adds support for linking: you can link to an app with #fragments in the UR…",
+      "lang": "en",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "sourceGroup": "blogger",
+      "publishedAt": "2026-11-15T04:02:45.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "industry",
+      "score": 14,
+      "aiAttempts": 1
+    },
+    {
+      "id": "1btepfyv6z0",
+      "key": "url:simonwillison.net/2026/Nov/15/datasette-agent",
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+      "excerpt": "Release: datasette-agent 0.6a0 Accumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queri…",
+      "lang": "en",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "sourceGroup": "blogger",
+      "publishedAt": "2026-11-15T03:49:47.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 14,
+      "aiAttempts": 1
+    },
+    {
       "id": "iqttmjv0z2",
       "key": "url:36kr.com/newsflashes/4070475256075394",
       "title": "首份万卡级智算集群网络技术报告在北京正式发布",
@@ -513,6 +684,25 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-15T13:16:31.747Z"
       }
+    },
+    {
+      "id": "t5o670gzc9",
+      "key": "url:jiqizhixin.com/articles/2026-11-15-24",
+      "title": "openEuler 汇聚开源力量，深化系统级创新，构筑 Agentic Infra 坚实底座",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-15-24",
+      "excerpt": "11月14日，openEuler Summit 2026（以下简称“大会”）在北京中关村国际创新中心圆满落幕。大会由开放原子开源欧拉（OpenAtom openEuler，简称“开源欧拉”或“openEuler”）社区协同产业伙伴共同主办，集中展示openEuler在超节点与Agentic I...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-15T02:09:00.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-15",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22
     },
     {
       "id": "15h81su1cb0",
@@ -666,10 +856,10 @@
       "firstSeenAt": "2026-11-15T02:38:59.167Z",
       "day": "2026-11-15",
       "category": "industry",
-      "score": 34.4,
+      "score": 34.8,
       "metrics": {
-        "points": 428,
-        "comments": 218
+        "points": 444,
+        "comments": 233
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50501631",
       "ai": {
@@ -742,7 +932,7 @@
       "firstSeenAt": "2026-11-15T02:38:59.167Z",
       "day": "2026-11-15",
       "category": "industry",
-      "score": 23,
+      "score": 31,
       "related": [
         {
           "id": "19xcwoky764",
@@ -751,13 +941,22 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxxmb/bring_back_the_boss_nvidia_employees_petition_for/",
           "title": "Nvidia 员工请愿请回 Jensen Huang",
           "publishedAt": "2026-11-13T04:03:28.000Z"
+        },
+        {
+          "id": "1zch6p2lfw9",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
+          "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
+          "publishedAt": "2026-11-15T20:43:49.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "techcrunch-ai",
-          "reddit-localllama"
+          "reddit-localllama",
+          "verge-ai"
         ],
         "firstPublishedAt": "2026-11-13T04:03:28.000Z"
       },
@@ -1256,7 +1455,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 25243,
+        "stars": 26281,
         "starsToday": 1041
       },
       "ai": {
@@ -1288,7 +1487,7 @@
       ],
       "score": 23.8,
       "metrics": {
-        "stars": 17569,
+        "stars": 17978,
         "starsToday": 393
       },
       "ai": {
@@ -1352,7 +1551,7 @@
       ],
       "score": 25.3,
       "metrics": {
-        "stars": 1177,
+        "stars": 1630,
         "starsToday": 484
       },
       "ai": {

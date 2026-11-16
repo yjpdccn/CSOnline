@@ -39,10 +39,10 @@
       "firstSeenAt": "2026-11-15T02:38:59.167Z",
       "day": "2026-11-14",
       "category": "paper",
-      "score": 26.5,
+      "score": 27.4,
       "metrics": {
-        "points": 246,
-        "comments": 23
+        "points": 272,
+        "comments": 28
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50497589",
       "ai": {
@@ -114,10 +114,10 @@
       "keywords": [
         "本地部署"
       ],
-      "score": 30,
+      "score": 30.3,
       "metrics": {
-        "points": 140,
-        "comments": 68
+        "points": 145,
+        "comments": 69
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50497155",
       "ai": {
@@ -150,7 +150,8 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-15T13:16:31.747Z"
-      }
+      },
+      "dupOf": "8y523qrc8"
     },
     {
       "id": "1k5m1boeo4i",
@@ -189,10 +190,10 @@
       "firstSeenAt": "2026-11-14T17:01:04.343Z",
       "day": "2026-11-14",
       "category": "paper",
-      "score": 26.5,
+      "score": 26.7,
       "metrics": {
-        "points": 148,
-        "comments": 195
+        "points": 152,
+        "comments": 199
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50496921",
       "aiAttempts": 2,
@@ -216,10 +217,10 @@
       "firstSeenAt": "2026-11-15T02:38:59.167Z",
       "day": "2026-11-14",
       "category": "paper",
-      "score": 22.3,
+      "score": 22.9,
       "metrics": {
-        "points": 147,
-        "comments": 8
+        "points": 161,
+        "comments": 9
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50496885",
       "ai": {
@@ -427,6 +428,23 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-14T17:02:19.904Z"
+      },
+      "related": [
+        {
+          "id": "2dpbovsxilr",
+          "sourceId": "reddit-localllama",
+          "sourceName": "r/LocalLLaMA",
+          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xwttcw/latest_version_of_strata_made_my_qwen38flashnext/",
+          "title": "Latest version of strata made my Qwen3.8-Flash-Next dumb and useless",
+          "publishedAt": "2026-11-15T12:02:35.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "reddit-localllama"
+        ],
+        "firstPublishedAt": "2026-11-14T09:55:18.000Z"
       }
     },
     {
@@ -748,7 +766,7 @@
       "firstSeenAt": "2026-11-14T17:01:04.343Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 41.7,
+      "score": 41.8,
       "related": [
         {
           "id": "2ap7u6vz1xm",
@@ -767,7 +785,7 @@
         ],
         "firstPublishedAt": "2026-11-13T17:55:23.000Z",
         "metrics": {
-          "points": 177,
+          "points": 179,
           "comments": 73
         }
       },
@@ -1092,8 +1110,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1077,
-        "comments": 642
+        "points": 1100,
+        "comments": 648
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50493251",
       "ai": {
@@ -1191,6 +1209,30 @@
       }
     },
     {
+      "id": "16rl8v1q6pz",
+      "key": "url:claude.com/resources/articles/projects-redesigned",
+      "title": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
+      "url": "https://claude.com/resources/articles/projects-redesigned",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-14T00:28:11.000Z",
+      "firstSeenAt": "2026-11-16T02:44:10.077Z",
+      "day": "2026-11-14",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 22.6,
+      "metrics": {
+        "points": 100,
+        "comments": 95
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50492141",
+      "aiAttempts": 1
+    },
+    {
       "id": "33yyoqzt25",
       "key": "url:theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
       "title": "Amazon has a plan to index the world’s online shopping data",
@@ -1243,10 +1285,10 @@
       "firstSeenAt": "2026-11-14T17:01:04.343Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 23,
+      "score": 23.1,
       "metrics": {
         "points": 111,
-        "comments": 87
+        "comments": 88
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50491097",
       "dupOf": "27sun4ns60e"
@@ -1301,10 +1343,10 @@
       "firstSeenAt": "2026-11-14T03:13:08.868Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 28.3,
+      "score": 28.4,
       "metrics": {
-        "points": 220,
-        "comments": 132
+        "points": 222,
+        "comments": 133
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50488769",
       "ai": {
@@ -1356,7 +1398,7 @@
       "category": "industry",
       "score": 23,
       "metrics": {
-        "points": 145,
+        "points": 146,
         "comments": 26
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50488464",
@@ -1449,7 +1491,7 @@
       ],
       "score": 29.9,
       "metrics": {
-        "stars": 51725,
+        "stars": 52201,
         "starsToday": 897
       },
       "ai": {
@@ -1480,7 +1522,7 @@
       ],
       "score": 28.1,
       "metrics": {
-        "stars": 5180,
+        "stars": 5634,
         "starsToday": 707
       },
       "ai": {
@@ -1540,7 +1582,7 @@
       ],
       "score": 28.2,
       "metrics": {
-        "stars": 56620,
+        "stars": 57046,
         "starsToday": 718
       },
       "aiAttempts": 2,
@@ -1635,9 +1677,9 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 25.7,
+      "score": 25.8,
       "metrics": {
-        "points": 177,
+        "points": 179,
         "comments": 73
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50487184",
@@ -1663,9 +1705,9 @@
       "firstSeenAt": "2026-11-14T03:13:08.868Z",
       "day": "2026-11-14",
       "category": "paper",
-      "score": 32.9,
+      "score": 33.1,
       "metrics": {
-        "points": 430,
+        "points": 438,
         "comments": 110
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50486748",
