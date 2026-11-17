@@ -774,5 +774,45 @@
         ]
       }
     ]
+  },
+  "2026-11-18": {
+    "day": "2026-11-18",
+    "generatedAt": "2026-11-17T19:53:39.746Z",
+    "itemCount": 136,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "OpenAI、Google、NVIDIA等巨头密集发布新模型与Agent工具，AI研发与行业应用加速落地。",
+    "points": [
+      {
+        "text": "OpenAI 发布 GPT-6.2 Astra 和 Sol，提升专业输出与编程效率。",
+        "refs": [
+          "25754w8325h"
+        ]
+      },
+      {
+        "text": "Google 发布 Gemini 4 Hydrogen 机器人模型，具备强大空间推理能力。",
+        "refs": [
+          "k1y90ra9m7"
+        ]
+      },
+      {
+        "text": "NVIDIA 推出 AI Agent 科学工具，助力科研领域应用。",
+        "refs": [
+          "16u1r6bbao"
+        ]
+      },
+      {
+        "text": "字节跳动等机构推出 Axion 1.0，具备搜索、代码运行和多步科研能力。",
+        "refs": [
+          "r2fhij7snv"
+        ]
+      },
+      {
+        "text": "材料科学智能体 MatOS 正式开源，大幅提高材料研发任务成功率。",
+        "refs": [
+          "2bz8vn2stsm"
+        ]
+      }
+    ]
   }
 }

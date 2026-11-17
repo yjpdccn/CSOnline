@@ -1,0 +1,603 @@
+{
+  "day": "2026-11-18",
+  "items": [
+    {
+      "id": "s8fxujrvai",
+      "key": "gh:cursor/plugins",
+      "title": "cursor/plugins",
+      "url": "https://github.com/cursor/plugins",
+      "excerpt": "Cursor plugin specification and official plugins",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-17T19:48:38.969Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 19.4,
+      "metrics": {
+        "stars": 16842,
+        "starsToday": 196
+      },
+      "ai": {
+        "title": "Cursor 插件规范与官方插件发布",
+        "summary": "Cursor 发布插件规范及官方插件，支持扩展功能。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "1om4zcwlb19",
+      "key": "gh:affaan-m/ecc",
+      "title": "affaan-m/ECC",
+      "url": "https://github.com/affaan-m/ECC",
+      "excerpt": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-17T19:48:38.969Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 29.9,
+      "metrics": {
+        "stars": 305324,
+        "starsToday": 902
+      },
+      "ai": {
+        "title": "affaan-m/ECC 优化 Claude Code 等工具性能",
+        "summary": "ECC 是一个性能优化系统，提升 Claude Code 等工具的技能与效率。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "1jgjkvgsoaf",
+      "key": "gh:jingyaogong/minimind",
+      "title": "jingyaogong/minimind",
+      "url": "https://github.com/jingyaogong/minimind",
+      "excerpt": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+      "lang": "en",
+      "sourceId": "github-trending",
+      "sourceName": "GitHub Trending",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-17T19:48:38.969Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 19.2,
+      "metrics": {
+        "stars": 65843,
+        "starsToday": 188
+      },
+      "ai": {
+        "title": "minimind：2 小时训练 64M 参数 LLM",
+        "summary": "minimind 项目展示从零训练 64M 参数 LLM 的能力。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "1t96f93wviu",
+      "key": "url:techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work",
+      "title": "Model ML raises $250M to automate investment banking grunt work",
+      "url": "https://techcrunch.com/2026/11/17/model-ml-raises-250m-to-automate-investment-banking-grunt-work/",
+      "excerpt": "The startup says its agents understand the full context of deals that bankers and consultants are working on and can automatically update financial models and presentations when new developments affect their analysis.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-17T19:32:11.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Model ML 获 2.5 亿美元融资",
+        "summary": "Model ML 获 2.5 亿美元融资，旨在自动化投资银行工作。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "1l204gmat4k",
+      "key": "url:techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases",
+      "title": "Google expands access to Gemini Tasks, which can help with calls, purchases",
+      "url": "https://techcrunch.com/2026/11/17/google-expands-access-to-gemini-tasks-which-can-help-with-calls-purchases/",
+      "excerpt": "Gemini's Task mode can help users coordinate calls, log into websites, and even make purchases on the user's behalf.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-17T19:02:20.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "score": 15,
+      "ai": {
+        "title": "Google 扩展 Gemini Tasks 功能",
+        "summary": "Google 扩展 Gemini Tasks 功能，支持通话、登录和购物。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "lc4ytfo8d6",
+      "key": "url:theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "title": "Google’s Spark AI agent becomes ‘Tasks’ — and now it’s free",
+      "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+      "excerpt": "You can now switch from the “Chat” toggle to “Tasks.” | Image: Google Google is rebranding its Spark AI agent as \"Tasks\" and making it free to use. The feature, which is powered by Google's new Gemini 4 Hydrogen AI model, can do things like create meal plans, manage your calenda…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-17T18:58:01.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Google Spark AI 更名为 Tasks 并免费",
+        "summary": "Google 将 Spark AI 重命名为 Tasks 并免费开放。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "13h5ag0zmke",
+      "key": "url:techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off",
+      "title": "Google to keep Gemini chats for 2 months, up from 72 hours, even with history off",
+      "url": "https://techcrunch.com/2026/11/17/google-to-keep-gemini-chats-for-two-months-up-from-72-hours-even-with-history-off/",
+      "excerpt": "Google's Gemini update extending chat retention will roll out globally over the coming weeks.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-17T18:48:23.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Google 将 Gemini 聊天记录保留期延长至 2 个月",
+        "summary": "Google 将 Gemini 聊天记录保留期从 72 小时延长至 2 个月。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "23qmlw03jou",
+      "key": "url:news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences",
+      "title": "Microsoft and Salesforce Announce Copilotforce, Bringing Trusted Customer Context and Action into Microsoft AI Experiences",
+      "url": "https://news.microsoft.com/source/2026/11/17/microsoft-and-salesforce-announce-copilotforce-bringing-trusted-customer-context-and-action-into-microsoft-ai-experiences/",
+      "lang": "en",
+      "sourceId": "microsoft-ai",
+      "sourceName": "Microsoft AI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-17T18:10:16.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 34,
+      "ai": {
+        "title": "Microsoft 与 Salesforce 宣布 Copilotforce",
+        "summary": "微软与 Salesforce 合作，将客户上下文与行动引入 AI 体验。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "7khnfml1r4",
+      "key": "url:techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier",
+      "title": "As decision model use skyrockets, is customization the next frontier?",
+      "url": "https://techcrunch.com/2026/11/17/as-decision-model-use-skyrockets-is-customization-is-the-next-frontier/",
+      "excerpt": "Sqwish Labs has a new wrinkle on the decision model: Train it with your own data to max its capabilities.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-17T18:10:00.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "决策模型定制化成为新前沿",
+        "summary": "Sqwish Labs 推出决策模型定制化方案，提升模型能力。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "1pdr8fyd4cn",
+      "key": "url:techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain",
+      "title": "Pedestal AI raises $4.7 million to agentify the supply chain",
+      "url": "https://techcrunch.com/2026/11/17/pedestal-ai-raises-4-7-million-to-agentify-the-supply-chain/",
+      "excerpt": "The company uses agentic AI to make supply chains faster and more reliable.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-17T18:04:16.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Pedestal AI 获 470 万美元融资",
+        "summary": "Pedestal AI 获 470 万美元融资，利用 AI 代理优化供应链。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "hq0lixy5ut",
+      "key": "url:about.fb.com/news/2026/11/muse-is-now-available-in-australia",
+      "title": "Muse Is Now Available in Australia: The World’s First Personal AI Agent Built for Everyone",
+      "url": "https://about.fb.com/news/2026/11/muse-is-now-available-in-australia/",
+      "excerpt": "Muse is available in Australia from today, with local connector experiences across creativity, shopping, property, fitness and entertainment rolling out progressively. The post Muse Is Now Available in Australia: The World’s First Personal AI Agent Built for Everyone appeared fi…",
+      "lang": "en",
+      "sourceId": "meta",
+      "sourceName": "Meta",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-17T18:00:31.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "Meta 在澳大利亚推出 Muse 个人 AI 代理",
+        "summary": "Meta 推出 Muse 个人 AI 代理，覆盖创意、购物等多领域。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "25754w8325h",
+      "key": "url:openai.com/index/introducing-gpt-6-2-astra-sol",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "excerpt": "Introducing GPT‑6.2 Astra and Sol, with better professional outputs, coding, computer use, and efficiency at lower cost across ChatGPT Work, Codex, and the API.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-17T17:45:00.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "model",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 82,
+      "metrics": {
+        "points": 630,
+        "comments": 362
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50535230",
+      "alsoOn": [
+        {
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50535230"
+        }
+      ],
+      "related": [
+        {
+          "id": "1rqc7nfi4o",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4073249958777989",
+          "title": "GPT-6.2 Astra难产真相曝光，OpenAI突然彻查迄今最大RL训练",
+          "publishedAt": "2026-11-17T03:30:48.365Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "openai",
+          "hackernews",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-17T03:30:48.365Z",
+        "metrics": {
+          "points": 630,
+          "comments": 362
+        }
+      },
+      "ai": {
+        "title": "OpenAI 发布 GPT-6.2 Astra 和 Sol",
+        "summary": "OpenAI 推出 GPT-6.2 Astra 和 Sol，提升专业输出、编程和效率。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "2cvzw2ii6l6",
+      "key": "url:techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop",
+      "title": "Proton’s Lumo, a privacy-focused alternative to ChatGPT and Claude, arrives on desktop",
+      "url": "https://techcrunch.com/2026/11/17/protons-lumo-a-privacy-focused-alternative-to-chatgpt-and-claude-arrives-on-desktop/",
+      "excerpt": "Proton's new Lumo Desktop app for Windows, Mac, and Linux lets users automate tasks across files and connected apps, with granular controls over what its AI can access.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-17T17:32:25.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Proton Lumo 桌面版发布",
+        "summary": "Proton 发布隐私优先的 Lumo 桌面版，支持跨应用任务自动化。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "2bzyi56hb6f",
+      "key": "url:techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game",
+      "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
+      "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
+      "excerpt": "Vals, a San Francisco-based AI evaluation startup, tested whether leading AI models could be manipulated into participating in autonomous warfare. They usually compiled.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-17T17:20:41.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "paper",
+      "score": 15,
+      "ai": {
+        "title": "AI 模型可被诱导识别平民为目标",
+        "summary": "测试显示 AI 模型可被诱导参与自主战争。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "19xlxt1x08v",
+      "key": "url:blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features",
+      "title": "Put Gemini to work for you",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/",
+      "excerpt": "Tasks in Gemini is now free of charge in six countries, with new features starting in the U.S. and deeper Google Workspace integration to get things done on your behalf.",
+      "lang": "en",
+      "sourceId": "google-ai",
+      "sourceName": "Google AI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-17T17:00:00.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "score": 30,
+      "ai": {
+        "title": "Gemini Tasks 在多国免费开放",
+        "summary": "Google 在多国免费开放 Gemini Tasks，并增强 Workspace 集成。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "k1y90ra9m7",
+      "key": "url:developers.googleblog.com/gemini-hydrogen-for-robotics",
+      "title": "Gemini 4 Hydrogen: a faster model for general purpose robotics",
+      "url": "https://developers.googleblog.com/gemini-hydrogen-for-robotics/",
+      "excerpt": "Google's Gemini 4 Hydrogen brings strong spatial and embodied reasoning capabilities to a fast, efficient model built specifically for robotics. To help developers put these capabilities to work, the new Robotics plugin for Google Antigravity transforms the platform into a compr…",
+      "lang": "en",
+      "sourceId": "google-dev",
+      "sourceName": "Google 开发者博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-17T17:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "model",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 36,
+      "ai": {
+        "title": "Google 发布 Gemini 4 Hydrogen 机器人模型",
+        "summary": "Google 推出专为机器人设计的高效模型，具备强大的空间推理能力。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "ltzptwk3k5",
+      "key": "url:the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff",
+      "title": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff",
+      "url": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/",
+      "excerpt": "OpenAI wants GPT-6 Astra and GPT-6 Luna to automate administrative tasks in US healthcare through computer-use agents that operate existing clinic software and insurance portals the way a human would. Luna handles tasks like prior authorizations for about 8.5 cents each. Compani…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-17T16:55:47.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "OpenAI 代理处理医疗文书与保险",
+        "summary": "OpenAI 代理可处理医疗文书和保险请求，自动化行政任务。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "1vfquhce5qv",
+      "key": "url:microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future",
+      "title": "Can AI help build a healthier future?",
+      "url": "https://www.microsoft.com/en-us/research/podcast/can-ai-help-build-a-healthier-future/",
+      "excerpt": "What can AI enable in medicine, and how do we get there? Microsoft Research lead Doug Burger, Microsoft Principal Research Manager Ava Amini, Microsoft Chief Scientific Officer Eric Horvitz, and physician-scientist Eric Topol of Scripps Research explore these questions and more.…",
+      "lang": "en",
+      "sourceId": "microsoft-research",
+      "sourceName": "Microsoft Research",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-17T16:52:17.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "paper",
+      "score": 30,
+      "ai": {
+        "title": "微软研究探讨 AI 在医疗领域的未来",
+        "summary": "微软研究团队探讨 AI 在医学中的应用及实现路径。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "2ggmde6yrhd",
+      "key": "url:the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output",
+      "title": "The US wants to block China from renting AI power abroad but China already built a parallel supply chain from US AI output",
+      "url": "https://the-decoder.com/the-us-wants-to-block-china-from-renting-ai-power-abroad-but-china-already-built-a-parallel-supply-chain-from-us-ai-output/",
+      "excerpt": "The US is tightening its chip export controls. Data centers in third countries like Singapore and Malaysia will soon need a US license to buy Nvidia chips, closing the loophole that let Chinese firms rent cloud compute abroad. A Reuters investigation also reveals how China offse…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-17T16:47:21.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "美国欲限制中国租用海外算力，中国已建立平行供应链",
+        "summary": "美国收紧芯片出口管制，中国已建立平行供应链以绕过限制。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:50:48.690Z"
+      }
+    },
+    {
+      "id": "1ikdkztwo8v",
+      "key": "url:techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo",
+      "title": "Jensen Huang says he would be ‘honored’ if allowed to return as Nvidia CEO",
+      "url": "https://techcrunch.com/2026/11/17/jensen-huang-says-he-would-be-honored-if-allowed-to-return-as-nvidia-ceo/",
+      "excerpt": "In the first public statement since his resignation, Nvidia founder Jensen Huang signaled his willingness to return as CEO.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-17T16:44:15.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "28xoinwygmg",
+      "key": "url:techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too",
+      "title": "Daydream’s new AI agent acts as your personal stylist — and can shop for you, too",
+      "url": "https://techcrunch.com/2026/11/17/daydreams-new-ai-agent-acts-as-your-personal-stylist-and-can-shop-for-you-too/",
+      "excerpt": "Daydream's new AI shopping agent can remember your style, virtually try on clothes, plan outfits around your wardrobe, track sales, and complete purchases.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-17T16:32:55.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Daydream AI 购物代理上线",
+        "summary": "Daydream 推出 AI 购物代理，支持虚拟试穿和自动购买。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "3bvfm9vtl8",
+      "key": "url:theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+      "title": "The DOJ says it’s investigating Megaspeed",
+      "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
+      "excerpt": "The Justice and Commerce Departments said that they are investigating Megaspeed, the Singapore-based data center company intertwined with the resignation of Nvidia CEO Jensen Huang, after reporting suggested an investigation had been halted last year. \"While we don't typically c…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-17T16:19:03.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "美国司法部调查 Megaspeed",
+        "summary": "美国司法部和商务部调查 Megaspeed。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "wcqk8eplse",
+      "key": "url:theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
+      "title": "Jensen Huang says he’s willing to return as Nvidia CEO",
+      "url": "https://www.theverge.com/tech/1035420/jensen-huang-nvidia-return-as-ceo-statement",
+      "excerpt": "Jensen Huang, who resigned as Nvidia's CEO last week, would be willing to return as CEO if the company's board of directors wanted it, he said in a statement reported on by The Wall Street Journal. \"Since my departure, I've seen an outpouring of calls from Nvidia's employees, in…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-17T16:09:57.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    }
+  ]
+}

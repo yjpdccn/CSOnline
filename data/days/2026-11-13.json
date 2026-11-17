@@ -2240,7 +2240,7 @@
       "firstSeenAt": "2026-11-13T03:25:34.645Z",
       "day": "2026-11-13",
       "category": "industry",
-      "score": 26,
+      "score": 34,
       "ai": {
         "summary": "黄仁勋辞任英伟达CEO，国产算力迎来窗口期。",
         "category": "industry",
@@ -2263,13 +2263,22 @@
           "url": "https://36kr.com/p/4073109806027651",
           "title": "奥特曼共情黄仁勋，“英雄也有缺陷”，但支持他重返英伟达CEO嘛……",
           "publishedAt": "2026-11-17T00:53:20.393Z"
+        },
+        {
+          "id": "1vyaze7ytr5",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/510592.html",
+          "title": "奥特曼共情黄仁勋，“英雄也有缺陷”，但支持他重返英伟达CEO嘛…",
+          "publishedAt": "2026-11-17T02:33:13.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "36kr-ai",
-          "jiqizhixin"
+          "jiqizhixin",
+          "qbitai"
         ],
         "firstPublishedAt": "2026-11-13T02:56:59.756Z"
       }
@@ -2297,6 +2306,27 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-13T18:32:34.893Z"
       }
+    },
+    {
+      "id": "3ngd9thc16",
+      "key": "hf:meituan-longcat/longcat-video-avatar-1.6",
+      "title": "meituan-longcat/LongCat-Video-Avatar-1.6",
+      "url": "https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.6",
+      "excerpt": "Hugging Face 趋势榜第 11 名 · 192 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-13T02:45:33.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-13",
+      "category": "model",
+      "categoryLocked": true,
+      "score": 23.7,
+      "metrics": {
+        "likes": 192
+      },
+      "skipLlm": true
     },
     {
       "id": "12mhaepw8i6",
@@ -2792,6 +2822,26 @@
       "category": "model",
       "score": 28,
       "dupOf": "1rba4htm6fs"
+    },
+    {
+      "id": "1g5jc6cbxed",
+      "key": "gh:immortal-protocols/lastbook",
+      "title": "Immortal-Protocols/lastbook",
+      "url": "https://github.com/Immortal-Protocols/lastbook",
+      "excerpt": "Offline knowledge AI, maps and videos for survival and rebuilding",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T23:49:03.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-13",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 23,
+      "metrics": {
+        "stars": 1525
+      }
     },
     {
       "id": "1buj643d8hm",
@@ -3516,7 +3566,7 @@
       ],
       "score": 17.2,
       "metrics": {
-        "stars": 514
+        "stars": 515
       }
     },
     {

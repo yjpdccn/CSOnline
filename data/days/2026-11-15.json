@@ -108,8 +108,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1270,
-        "comments": 657
+        "points": 1278,
+        "comments": 665
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50507303",
       "aiAttempts": 1,
@@ -177,7 +177,7 @@
       "category": "paper",
       "score": 26.6,
       "metrics": {
-        "points": 245,
+        "points": 246,
         "comments": 27
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50506376",
@@ -428,12 +428,30 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "李沐出任 Aimotion 联合创始人兼 CTO，主导下一代产业级 AI 技术体系建设。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-15T13:17:00.700Z"
+      },
+      "related": [
+        {
+          "id": "2g6wkoviwlh",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/510688.html",
+          "title": "李沐加盟的Aimotion，是一家什么AI公司？",
+          "publishedAt": "2026-11-17T11:40:37.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-11-15T08:52:00.000Z"
       }
     },
     {
@@ -890,7 +908,7 @@
       "category": "industry",
       "score": 35,
       "metrics": {
-        "points": 450,
+        "points": 451,
         "comments": 240
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50501631",
@@ -1461,7 +1479,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 27949,
+        "stars": 28815,
         "starsToday": 1878
       },
       "ai": {
@@ -1491,10 +1509,10 @@
         "Agent",
         "A2UI"
       ],
-      "score": 28.9,
+      "score": 30,
       "metrics": {
-        "stars": 19303,
-        "starsToday": 791
+        "stars": 19912,
+        "starsToday": 1444
       },
       "ai": {
         "title": "AG-UI：Agent 与前端交互协议",
@@ -1555,10 +1573,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 25.3,
+      "score": 26.7,
       "metrics": {
-        "stars": 1630,
-        "starsToday": 484
+        "stars": 3016,
+        "starsToday": 590
       },
       "ai": {
         "title": "LoopForge：自托管编码代理工作流",
@@ -1649,9 +1667,9 @@
       "keywords": [
         "语音"
       ],
-      "score": 18.2,
+      "score": 35,
       "metrics": {
-        "stars": 632
+        "stars": 681
       },
       "ai": {
         "title": "tiny-voca：4.5M 参数双声英语 TTS 模型",
@@ -1659,6 +1677,28 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-16T21:02:45.938Z"
+      },
+      "related": [
+        {
+          "id": "bz2okcj1m9",
+          "sourceId": "hf-models",
+          "sourceName": "HF 热门模型",
+          "url": "https://huggingface.co/n4ze3m/tiny-voca",
+          "title": "n4ze3m/tiny-voca",
+          "publishedAt": "2026-11-14T15:46:27.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "github-new",
+          "hf-models"
+        ],
+        "firstPublishedAt": "2026-11-14T15:46:27.000Z",
+        "metrics": {
+          "stars": 681,
+          "likes": 225
+        }
       }
     }
   ]

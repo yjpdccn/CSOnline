@@ -427,7 +427,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 32,
+      "score": 54.2,
       "related": [
         {
           "id": "21vewhkqptc",
@@ -436,15 +436,28 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxn631/internlmsages21flash_hugging_face/",
           "title": "internlm/Sage-S2.1-Flash · Hugging Face",
           "publishedAt": "2026-11-16T11:36:14.000Z"
+        },
+        {
+          "id": "1qol4jh3c5u",
+          "sourceId": "hf-papers",
+          "sourceName": "HF 每日论文",
+          "url": "https://huggingface.co/papers/2611.21072",
+          "title": "Sage S2.1 Flash Technical Report",
+          "publishedAt": "2026-11-17T00:00:00.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "jiqizhixin",
-          "reddit-localllama"
+          "reddit-localllama",
+          "hf-papers"
         ],
-        "firstPublishedAt": "2026-11-16T11:36:14.000Z"
+        "firstPublishedAt": "2026-11-16T11:36:14.000Z",
+        "metrics": {
+          "upvotes": 83,
+          "comments": 1
+        }
       },
       "ai": {
         "summary": "书生-S2.1 Flash 登顶机器学习工程基准，展现 AI4AI 潜力。",
@@ -654,6 +667,33 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T05:08:31.206Z"
+      }
+    },
+    {
+      "id": "20mvx8qqa9a",
+      "key": "gh:erkamyaman/rust-anything",
+      "title": "erkamyaman/rust-anything",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "excerpt": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-16T12:10:36.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-16",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 19.9,
+      "metrics": {
+        "stars": 877
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Rust-Anything 项目允许开发者逐步将现有应用重写为 Rust，并验证每一步行为。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:51:14.081Z"
       }
     },
     {
@@ -1111,7 +1151,7 @@
       "firstSeenAt": "2026-11-16T20:58:41.846Z",
       "day": "2026-11-16",
       "category": "industry",
-      "score": 56,
+      "score": 64,
       "ai": {
         "summary": "开发者对AI生成代码开源产生分歧，Anthropic对此表示反对。",
         "category": "industry",
@@ -1126,18 +1166,27 @@
           "url": "https://news.ycombinator.com/item?id=50507303",
           "title": "所有 AI 生成的代码都应开源",
           "publishedAt": "2026-11-15T14:46:58.000Z"
+        },
+        {
+          "id": "s1bbl6ms8z",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/m5arrx8021zHVI0ybFtI?utm_source=rss&utm_medium=article",
+          "title": "“AI生成的代码必须开源！”开发者吵翻了，被开源代码喂大的Anthropic怕是第一个不同意",
+          "publishedAt": "2026-11-17T07:09:45.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "36kr-ai",
-          "hackernews"
+          "hackernews",
+          "infoq-cn"
         ],
         "firstPublishedAt": "2026-11-15T14:46:58.000Z",
         "metrics": {
-          "points": 1270,
-          "comments": 657
+          "points": 1278,
+          "comments": 665
         }
       }
     },
@@ -1248,6 +1297,32 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-16T21:03:08.255Z"
+      }
+    },
+    {
+      "id": "m4qv3w7izs",
+      "key": "url:openai.com/business/customer-stories/revolut",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "excerpt": "Discover how Revolut uses OpenAI models and Codex to cut coding time by 30–60%, scale financial crime investigations, and innovate without compromising security.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T09:30:00.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-16",
+      "category": "industry",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "Revolut 利用 OpenAI 模型提升开发效率",
+        "summary": "Revolut 使用 OpenAI 模型将编码时间缩短 30-60%。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:50:48.690Z"
       }
     },
     {
@@ -1994,7 +2069,7 @@
       "firstSeenAt": "2026-11-16T20:58:41.846Z",
       "day": "2026-11-16",
       "category": "model",
-      "score": 36,
+      "score": 44,
       "related": [
         {
           "id": "1fc1887ckv3",
@@ -2003,13 +2078,22 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxlgpb/introducing_hy4_flash/",
           "title": "Introducing Hy4 flash",
           "publishedAt": "2026-11-16T09:52:44.000Z"
+        },
+        {
+          "id": "169l4l4sx6u",
+          "sourceId": "geekpark",
+          "sourceName": "极客公园",
+          "url": "http://www.geekpark.net/news/374083",
+          "title": "腾讯 Hy4 flash 实测：快速、实惠、聪明，国模进入过日子时代",
+          "publishedAt": "2026-11-17T07:12:48.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "infoq-cn",
-          "reddit-localllama"
+          "reddit-localllama",
+          "geekpark"
         ],
         "firstPublishedAt": "2026-11-16T06:23:27.000Z"
       },
@@ -2460,7 +2544,7 @@
       ],
       "score": 26.1,
       "metrics": {
-        "stars": 9804,
+        "stars": 10028,
         "starsToday": 540
       },
       "ai": {
@@ -2519,7 +2603,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 7631,
+        "stars": 8897,
         "starsToday": 1094
       },
       "ai": {
@@ -3763,9 +3847,9 @@
         "AI 编程",
         "视频生成"
       ],
-      "score": 24.6,
+      "score": 24.8,
       "metrics": {
-        "upvotes": 86,
+        "upvotes": 88,
         "comments": 3
       },
       "ai": {
@@ -3794,9 +3878,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 33.3,
+      "score": 34.9,
       "metrics": {
-        "upvotes": 94,
+        "upvotes": 117,
         "comments": 4
       },
       "related": [
@@ -3825,7 +3909,7 @@
         ],
         "firstPublishedAt": "2026-11-16T00:00:00.000Z",
         "metrics": {
-          "upvotes": 94,
+          "upvotes": 117,
           "comments": 4
         }
       },
@@ -3856,9 +3940,9 @@
         "Agent",
         "具身智能"
       ],
-      "score": 26.9,
+      "score": 27.4,
       "metrics": {
-        "upvotes": 116,
+        "upvotes": 124,
         "comments": 5
       },
       "ai": {
@@ -3891,6 +3975,37 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T05:06:32.650Z"
+      }
+    },
+    {
+      "id": "1lo58ts5x8",
+      "key": "arxiv:2611.12068",
+      "title": "MIRIX-2.0: Multi-Agent Memory System",
+      "url": "https://huggingface.co/papers/2611.12068",
+      "excerpt": "MIRIX-2.0 is a multi-agent memory system for LLM agents that achieves high accuracy and efficiency across QA and procedural benchmarks without fine-tuning.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "firstSeenAt": "2026-11-17T19:48:32.853Z",
+      "day": "2026-11-16",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 21.4,
+      "metrics": {
+        "upvotes": 53,
+        "comments": 4
+      },
+      "ai": {
+        "title": "MIRIX-2.0：多智能体记忆系统",
+        "summary": "MIRIX-2.0 是一种无需微调即可在问答和程序基准测试中实现高准确率的 LLM 智能体记忆系统。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T19:50:48.690Z"
       }
     },
     {
@@ -4033,10 +4148,26 @@
           "url": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
           "title": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice",
           "publishedAt": "2026-11-16T19:19:56.000Z"
+        },
+        {
+          "id": "owok3xxq3v",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-17-12",
+          "title": "最强GPT-6 Astra只对26.7%，Einsia AI发布的Visual Cipher Bench难住顶级AI",
+          "publishedAt": "2026-11-17T10:43:00.000Z"
+        },
+        {
+          "id": "1pe7q360xv7",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4073723315393673",
+          "title": "OpenAI证明了「标准模型」，物理学家直言：GPT-6 Astra全程主导",
+          "publishedAt": "2026-11-17T11:10:40.941Z"
         }
       ],
       "story": {
-        "reports": 7,
+        "reports": 9,
         "sources": [
           "openai",
           "jiqizhixin",

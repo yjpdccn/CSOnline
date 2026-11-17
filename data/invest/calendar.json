@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-17T05:05:03.313Z",
+  "updatedAt": "2026-11-17T19:48:32.853Z",
   "events": [
-    {
-      "id": "wscn-1599119",
-      "at": "2026-11-17T13:30:00.000Z",
-      "country": "美国",
-      "title": "10月零售销售环比",
-      "importance": 3,
-      "kind": "data",
-      "source": "华尔街见闻",
-      "previous": "0.8",
-      "forecast": "0.1",
-      "unit": "%"
-    },
     {
       "id": "wscn-15743",
       "at": "2026-11-18T19:00:00.000Z",
@@ -114,6 +102,17 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "55.5"
+    },
+    {
+      "id": "wscn-1599818",
+      "at": "2026-12-02T13:15:00.000Z",
+      "country": "美国",
+      "title": "11月ADP就业人数变动(万人)",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "8.6",
+      "unit": "万人"
     }
   ],
   "fomc": [
