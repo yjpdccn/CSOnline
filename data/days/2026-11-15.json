@@ -108,8 +108,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1240,
-        "comments": 649
+        "points": 1270,
+        "comments": 657
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50507303",
       "aiAttempts": 1,
@@ -175,9 +175,9 @@
       "firstSeenAt": "2026-11-16T02:44:10.077Z",
       "day": "2026-11-15",
       "category": "paper",
-      "score": 26.5,
+      "score": 26.6,
       "metrics": {
-        "points": 241,
+        "points": 245,
         "comments": 27
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50506376",
@@ -359,9 +359,15 @@
       "publishedAt": "2026-11-15T09:00:42.000Z",
       "firstSeenAt": "2026-11-15T13:03:46.546Z",
       "day": "2026-11-15",
-      "category": "multimodal",
+      "category": "agent",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "用户用 Claude 破解付费视频内容。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T05:10:10.153Z"
+      }
     },
     {
       "id": "dn57hjadmu",
@@ -536,7 +542,13 @@
       "day": "2026-11-15",
       "category": "agent",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Yelp AI 助手融合原生 UI 与服务端驱动 UI。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T05:10:10.153Z"
+      }
     },
     {
       "id": "1auvz9wr9u7",
@@ -712,11 +724,17 @@
       "publishedAt": "2026-11-15T02:09:00.000Z",
       "firstSeenAt": "2026-11-16T02:44:10.077Z",
       "day": "2026-11-15",
-      "category": "agent",
+      "category": "opensource",
       "keywords": [
         "Agent"
       ],
-      "score": 22
+      "score": 22,
+      "ai": {
+        "summary": "openEuler 汇聚开源力量，构筑 Agentic Infra 底座。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-17T05:10:10.153Z"
+      }
     },
     {
       "id": "15h81su1cb0",
@@ -873,7 +891,7 @@
       "score": 35,
       "metrics": {
         "points": 450,
-        "comments": 239
+        "comments": 240
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50501631",
       "ai": {
@@ -1443,7 +1461,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 27706,
+        "stars": 27949,
         "starsToday": 1878
       },
       "ai": {
@@ -1475,8 +1493,8 @@
       ],
       "score": 28.9,
       "metrics": {
-        "stars": 18832,
-        "starsToday": 790
+        "stars": 19303,
+        "starsToday": 791
       },
       "ai": {
         "title": "AG-UI：Agent 与前端交互协议",
@@ -1631,9 +1649,9 @@
       "keywords": [
         "语音"
       ],
-      "score": 17.8,
+      "score": 18.2,
       "metrics": {
-        "stars": 590
+        "stars": 632
       },
       "ai": {
         "title": "tiny-voca：4.5M 参数双声英语 TTS 模型",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T20:58:41.846Z",
+  "updatedAt": "2026-11-17T05:05:03.313Z",
   "events": [
     {
       "id": "wscn-1599119",
@@ -10,7 +10,7 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "0.8",
-      "forecast": "0.2",
+      "forecast": "0.1",
       "unit": "%"
     },
     {
@@ -31,7 +31,7 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "20",
-      "forecast": "19.7",
+      "forecast": "19.8",
       "unit": "万人"
     },
     {
@@ -54,6 +54,7 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "3.4",
+      "forecast": "3.4",
       "unit": "%"
     },
     {
@@ -103,6 +104,16 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "52"
+    },
+    {
+      "id": "wscn-1599799",
+      "at": "2026-12-01T15:00:00.000Z",
+      "country": "美国",
+      "title": "11月ISM制造业指数",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "55.5"
     }
   ],
   "fomc": [
