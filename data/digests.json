@@ -813,5 +813,45 @@
         ]
       }
     ]
+  },
+  "2026-11-19": {
+    "day": "2026-11-19",
+    "generatedAt": "2026-11-18T19:26:57.035Z",
+    "itemCount": 136,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "Genie 4与Kling Image 4.0发布，豆包日活破800万，Anthropic冲刺史上最大IPO。",
+    "points": [
+      {
+        "text": "Google DeepMind发布Genie 4模型。",
+        "refs": [
+          "ohfwxzmvdu"
+        ]
+      },
+      {
+        "text": "可灵AI发布Kling Image 4.0，支持原生8K与组图直出。",
+        "refs": [
+          "2eb4maw105f"
+        ]
+      },
+      {
+        "text": "字节跳动豆包工作日活突破800万，企业客户ARR超20亿元。",
+        "refs": [
+          "1f8340jo5v8"
+        ]
+      },
+      {
+        "text": "Anthropic冲刺史上最大IPO，据悉获近七倍超额认购。",
+        "refs": [
+          "2clljw4job9"
+        ]
+      },
+      {
+        "text": "微软推出MAI系列自研模型，旨在降低成本并支持AI Agent。",
+        "refs": [
+          "ikzr7r5yew"
+        ]
+      }
+    ]
   }
 }

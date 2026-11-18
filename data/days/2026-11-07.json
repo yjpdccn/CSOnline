@@ -2063,45 +2063,7 @@
         "Agent",
         "开源模型"
       ],
-      "score": 73,
-      "related": [
-        {
-          "id": "1pjdm9w5bwb",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50369925",
-          "title": "Ripple-65B 预览：美国开源 SOTA 代理编码模型",
-          "publishedAt": "2026-11-04T18:53:29.000Z"
-        },
-        {
-          "id": "dhhawum92q",
-          "sourceId": "reddit-localllama",
-          "sourceName": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xnx3cs/ricursiveairipple65bpreview_hugging_face/",
-          "title": "ricursiveAI/Ripple-65B-Preview · Hugging Face",
-          "publishedAt": "2026-11-04T19:16:16.000Z"
-        },
-        {
-          "sourceId": "hf-models",
-          "sourceName": "HF 热门模型",
-          "url": "https://huggingface.co/ricursiveAI/Ripple-65B-Preview"
-        }
-      ],
-      "story": {
-        "reports": 4,
-        "sources": [
-          "the-decoder",
-          "hackernews",
-          "reddit-localllama",
-          "hf-models"
-        ],
-        "firstPublishedAt": "2026-11-04T18:53:29.000Z",
-        "metrics": {
-          "points": 339,
-          "comments": 127,
-          "likes": 474
-        }
-      },
+      "score": 15,
       "ai": {
         "title": "Ripple-65B Preview：开源代码模型表现强劲",
         "summary": "Ripple-65B Preview 在代码基准测试中表现优异，且为完全开源。",

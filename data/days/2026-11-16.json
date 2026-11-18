@@ -120,9 +120,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 17.5,
+      "score": 18.3,
       "metrics": {
-        "stars": 551
+        "stars": 650
       },
       "ai": {
         "title": "boring-marketing-skills：AI Agent 营销技能库",
@@ -457,7 +457,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 55,
+      "score": 55.4,
       "related": [
         {
           "id": "21vewhkqptc",
@@ -485,7 +485,7 @@
         ],
         "firstPublishedAt": "2026-11-16T11:36:14.000Z",
         "metrics": {
-          "upvotes": 90,
+          "upvotes": 95,
           "comments": 4
         }
       },
@@ -714,9 +714,9 @@
       "day": "2026-11-16",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 23.4,
+      "score": 27.4,
       "metrics": {
-        "stars": 1616
+        "stars": 3059
       },
       "aiAttempts": 1,
       "ai": {
@@ -1839,12 +1839,47 @@
       "firstSeenAt": "2026-11-16T20:58:41.846Z",
       "day": "2026-11-16",
       "category": "industry",
-      "score": 18,
+      "score": 34,
       "ai": {
         "summary": "GPT-6.2 因安全问题难产，OpenAI 面临挑战。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-16T21:02:58.885Z"
+      },
+      "related": [
+        {
+          "id": "c6gi8mj3ek",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/510914.html",
+          "title": "GPT-6.2难产！OpenAI怕了",
+          "publishedAt": "2026-11-18T07:53:29.000Z"
+        },
+        {
+          "id": "1met8hnh378",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4075007825450116",
+          "title": "GPT-6.2 实测：强得离谱，但又难用得要死",
+          "publishedAt": "2026-11-18T09:46:49.093Z"
+        },
+        {
+          "id": "t4lmqknian",
+          "sourceId": "geekpark",
+          "sourceName": "极客公园",
+          "url": "http://www.geekpark.net/news/374175",
+          "title": "跑分狂飙，实测翻车，刚发的 GPT-6.2 暴露了 OpenAI 的软肋",
+          "publishedAt": "2026-11-18T13:40:28.000Z"
+        }
+      ],
+      "story": {
+        "reports": 4,
+        "sources": [
+          "36kr-ai",
+          "qbitai",
+          "geekpark"
+        ],
+        "firstPublishedAt": "2026-11-16T07:51:35.869Z"
       }
     },
     {
@@ -1923,9 +1958,9 @@
       "day": "2026-11-16",
       "category": "model",
       "categoryLocked": true,
-      "score": 23.1,
+      "score": 27.1,
       "metrics": {
-        "likes": 169
+        "likes": 369
       },
       "skipLlm": true,
       "dupOf": "27temos6bvw"
@@ -2148,7 +2183,7 @@
       "firstSeenAt": "2026-11-16T20:58:41.846Z",
       "day": "2026-11-16",
       "category": "model",
-      "score": 44,
+      "score": 60.3,
       "related": [
         {
           "id": "1fc1887ckv3",
@@ -2157,6 +2192,14 @@
           "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxlgpb/introducing_hy4_flash/",
           "title": "Introducing Hy4 flash",
           "publishedAt": "2026-11-16T09:52:44.000Z"
+        },
+        {
+          "id": "1jqgbm2i4yf",
+          "sourceId": "hf-models",
+          "sourceName": "HF 热门模型",
+          "url": "https://huggingface.co/tencent/Hy4-flash",
+          "title": "tencent/Hy4-flash",
+          "publishedAt": "2026-11-17T03:44:46.000Z"
         },
         {
           "id": "169l4l4sx6u",
@@ -2168,13 +2211,17 @@
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "infoq-cn",
           "reddit-localllama",
+          "hf-models",
           "geekpark"
         ],
-        "firstPublishedAt": "2026-11-16T06:23:27.000Z"
+        "firstPublishedAt": "2026-11-16T06:23:27.000Z",
+        "metrics": {
+          "likes": 214
+        }
       },
       "ai": {
         "summary": "腾讯混元发布 Hy4 flash，单任务成本仅为 Hy4 的 5%。",
@@ -2623,7 +2670,7 @@
       ],
       "score": 26.1,
       "metrics": {
-        "stars": 10161,
+        "stars": 10358,
         "starsToday": 540
       },
       "ai": {
@@ -2682,8 +2729,8 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 9614,
-        "starsToday": 1094
+        "stars": 11073,
+        "starsToday": 2322
       },
       "ai": {
         "title": "Claude-BugHunter Claude Code 技能包",
@@ -2713,7 +2760,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 2895,
+        "stars": 3622,
         "starsToday": 953
       },
       "ai": {

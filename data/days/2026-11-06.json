@@ -1144,25 +1144,7 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 30,
-      "related": [
-        {
-          "id": "8xb5io9nf2",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4056018147627908",
-          "title": "宇树用利润换时间，具身智能离物理AI临界点还有多远？",
-          "publishedAt": "2026-11-05T00:16:56.392Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "jiqizhixin",
-          "36kr-ai"
-        ],
-        "firstPublishedAt": "2026-11-05T00:16:56.392Z"
-      },
+      "score": 22,
       "ai": {
         "summary": "Einsia AI 发布 Frontier3DBench，评估 Agent 离真实 3D 创作的差距。",
         "category": "agent",
@@ -2344,34 +2326,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 34,
-      "related": [
-        {
-          "id": "vkccqc3ohc",
-          "sourceId": "techcrunch-ai",
-          "sourceName": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
-          "title": "Meta 收购 AI 编码初创公司 Conductor",
-          "publishedAt": "2026-11-04T21:10:56.000Z"
-        },
-        {
-          "id": "1hziyn0sm44",
-          "sourceId": "the-decoder",
-          "sourceName": "The Decoder",
-          "url": "https://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers/",
-          "title": "Meta buys AI coding startup Conductor as big tech races to lock in developers",
-          "publishedAt": "2026-11-05T15:01:09.000Z"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "36kr-flash",
-          "techcrunch-ai",
-          "the-decoder"
-        ],
-        "firstPublishedAt": "2026-11-04T21:10:56.000Z"
-      },
+      "score": 18,
       "ai": {
         "summary": "Meta 收购 AI 代码初创公司 Conductor，加码开发者工具生态。",
         "category": "industry",
@@ -3705,43 +3660,7 @@
       "firstSeenAt": "2026-11-05T18:42:26.197Z",
       "day": "2026-11-06",
       "category": "opensource",
-      "score": 51.6,
-      "related": [
-        {
-          "id": "oz2eu7wejh",
-          "sourceId": "reddit-localllama",
-          "sourceName": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xobtwx/baiduernie55flashbase_hugging_face/",
-          "title": "baidu/ERNIE-5.5-Flash-Base · Hugging Face",
-          "publishedAt": "2026-11-05T06:40:48.000Z"
-        },
-        {
-          "id": "2g9d6biy0qp",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50377078",
-          "title": "Baidu released ERNIE 5.5 Flash Base",
-          "publishedAt": "2026-11-05T09:29:12.000Z"
-        },
-        {
-          "sourceId": "reddit-localllama",
-          "sourceName": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xvuclv/ernie_55_flash_base_ernie/"
-        }
-      ],
-      "story": {
-        "reports": 4,
-        "sources": [
-          "the-decoder",
-          "reddit-localllama",
-          "hackernews"
-        ],
-        "firstPublishedAt": "2026-11-05T06:40:48.000Z",
-        "metrics": {
-          "points": 187,
-          "comments": 99
-        }
-      },
+      "score": 19,
       "ai": {
         "title": "Baidu 发布 2800 亿参数开源模型 ERNIE 5.5 Flash B…",
         "summary": "百度发布 2800 亿参数开源模型 ERNIE 5.5 Flash Base，无需微调即可使用。",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T04:18:35.310Z",
+  "updatedAt": "2026-11-18T19:23:28.467Z",
   "bands": {
     "ndx": "low",
     "spx": "mid",
@@ -8,6 +8,13 @@
     "divlowvol": "high"
   },
   "events": [
+    {
+      "id": "move:xau:2026-11-18",
+      "kind": "move",
+      "at": "2026-11-18T15:59:00.000Z",
+      "title": "现货黄金 11月18日下跌 3.1%",
+      "detail": "单日变动超过 3%，收于 3,728.73。"
+    },
     {
       "id": "valuation:ndx:low:2026-11-17",
       "kind": "valuation",

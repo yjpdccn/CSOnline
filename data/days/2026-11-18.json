@@ -2,6 +2,1746 @@
   "day": "2026-11-18",
   "items": [
     {
+      "id": "1gc9t2rnooo",
+      "key": "url:europeanbusinessmagazine.com/ai-agents-better-questions-kpmg",
+      "title": "AI agents ask better questions than KPMG accountants in audit trial",
+      "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-18T15:49:34.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 23.8,
+      "metrics": {
+        "points": 137,
+        "comments": 65
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50547777",
+      "ai": {
+        "title": "AI 代理审计表现优于 KPMG",
+        "summary": "AI 代理在审计测试中提出的问题比 KPMG 会计师更好。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "lvckmib4wj",
+      "key": "url:the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets",
+      "title": "Anthropic, OpenAI, and Google models readily marked medics, journalists, and surrendering soldiers as kamikaze drone targets",
+      "url": "https://the-decoder.com/anthropic-openai-and-google-models-readily-marked-medics-journalists-and-surrendering-soldiers-as-kamikaze-drone-targets/",
+      "excerpt": "A Vals AI investigation shows that leading AI models from Anthropic, OpenAI and Google have almost no safeguards against use in autonomous weapons systems. In tests, the models readily flagged civilians as military targets, and a simple video game framing in the prompt was enoug…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-18T15:47:49.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "score": 15,
+      "ai": {
+        "title": "AI 模型易被用于无人机目标",
+        "summary": "Anthropic、OpenAI 和 Google 的模型缺乏对自主武器系统的防护。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "1j3jggacxhs",
+      "key": "url:theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+      "title": "Remember the frontier AI pause? Chip companies don’t either",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1036549/nvidia-amd-earnings-fall-2026-chips-pause-frontier-models",
+      "excerpt": "Nvidia began shipping its most advanced AI computing system, the Vera Rubin NVL72, calling it the “fastest product ramp in the company’s history.” | Image: Nvidia This summer, OpenAI paused its largest planned frontier training run after its AI agents accidentally hacked Hugging…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-18T15:44:02.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "芯片公司无视 AI 暂停呼吁",
+        "summary": "芯片公司继续推进最先进的 AI 系统，如 NVIDIA 的 Vera Rubin。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "8e1circchh",
+      "key": "url:huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-18T15:00:23.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "paper",
+      "score": 30,
+      "ai": {
+        "title": "Streamhouse 时间序列模型",
+        "summary": "Hugging Face 博客介绍 Streamhouse 时间序列模型的新前沿和应用场景。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "1y1a5hm050u",
+      "key": "url:the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems",
+      "title": "Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems",
+      "url": "https://the-decoder.com/mistral-plays-catch-up-with-vibe-desktop-as-rivals-already-command-full-operating-systems/",
+      "excerpt": "Mistral's AI agent Vibe now has its own desktop app. The article Mistral plays catch-up with Vibe Desktop as rivals already command full operating systems appeared first on The Decoder.",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-18T14:40:52.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Mistral Vibe 推出桌面应用",
+        "summary": "Mistral 的 AI 代理 Vibe 推出桌面应用，追赶竞争对手。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "k3j21lpciz",
+      "key": "url:the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time",
+      "title": "OpenAI opens its AI systems to four independent on-site auditors for the first time",
+      "url": "https://the-decoder.com/openai-opens-its-ai-systems-to-four-independent-on-site-auditors-for-the-first-time/",
+      "excerpt": "OpenAI is giving four independent audit organizations, including Apollo Research and METR, direct access to unreleased models, source code, and training data for the first time. The embedded reviews are designed to uncover hidden misbehavior and safety gaps. OpenAI can redact or…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-18T14:36:42.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "OpenAI 首次开放系统审计",
+        "summary": "OpenAI 首次向四个独立审计组织开放其 AI 系统的访问权限。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "t9djwx9aog",
+      "key": "url:the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed",
+      "title": "Hugging Face now routes model requests through OpenRouter for the best price or speed",
+      "url": "https://the-decoder.com/hugging-face-now-routes-model-requests-through-openrouter-for-the-best-price-or-speed/",
+      "excerpt": "Hugging Face now routes language model requests through OpenRouter, which automatically selects the cheapest or fastest provider. Bring-your-own API keys for language models are going away. According to OpenRouter, the new routing cut capacity errors by 46 percent. Both partners…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-18T14:33:44.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Hugging Face 使用 OpenRouter",
+        "summary": "Hugging Face 通过 OpenRouter 路由模型请求，以获得最佳价格或速度。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "km025o60yr",
+      "key": "url:the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal",
+      "title": "More than half the electricity feeding America's largest data centers comes from gas and coal",
+      "url": "https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal/",
+      "excerpt": "A Harvard study published in Nature Sustainability found that 403 US hyperscale data centers produced roughly 25.7 million metric tons of CO2 between May 2024 and April 2025, more than all of Denmark. Over half of their electricity came from fossil fuels. With 2,000 additional f…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-18T14:25:04.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "哈佛研究显示美国超大规模数据中心超半数电力来自化石燃料，排放量超丹麦。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
+    },
+    {
+      "id": "15gw5u7ze47",
+      "key": "url:blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now",
+      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+      "excerpt": "New NVIDIA RTX Spark compact desktops from ASUS, Dell and MSI are available today, bringing local AI agents, image and video generation, and model fine-tuning to a dedicated Windows PC. With up to 128GB of unified memory and NVIDIA’s AI software stack, these systems provide room…",
+      "lang": "en",
+      "sourceId": "nvidia",
+      "sourceName": "NVIDIA",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-18T14:00:31.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "keywords": [
+        "Agent",
+        "视频生成"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "NVIDIA RTX Spark 桌面机上市",
+        "summary": "NVIDIA RTX Spark 桌面机由 ASUS、Dell 和 MSI 推出，支持本地 AI 代理和模型微调。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "1v9ghlhf96k",
+      "key": "url:theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+      "title": "Will Wright’s next game uses AI to map your memories",
+      "url": "https://www.theverge.com/games/1036140/will-wright-mymems-ai-game-interview",
+      "excerpt": "Will Wright, the creator of legendary franchises like SimCity and The Sims, is working on a new game - and it's built around AI. The new title, focused on your memories, is called MyMems. Like Wright's other titles, it sounds extremely ambitious, giving players a new way to expl…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-18T14:00:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Will Wright 新游戏使用 AI",
+        "summary": "Will Wright 的新游戏 MyMems 使用 AI 映射玩家记忆。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "urxuqncu91",
+      "key": "url:the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions",
+      "title": "KPMG's \"Project Exponential\" put AI agents alongside a real audit team and found the bots dug deeper on individual questions",
+      "url": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/",
+      "excerpt": "KPMG deployed more than 100 AI agents alongside the regular audit of a UK-listed company. The agents asked \"better questions\" than the audit team in some cases, according to UK head of audit Cath Burnet. The UK's accounting regulator, the FRC, sees a risk in the approach because…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-18T13:55:49.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "KPMG 将 AI 代理引入审计团队，发现其在某些问题上能提出更优问题。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
+    },
+    {
+      "id": "t4lmqknian",
+      "key": "url:geekpark.net/news/374175",
+      "title": "跑分狂飙，实测翻车，刚发的 GPT-6.2 暴露了 OpenAI 的软肋",
+      "url": "http://www.geekpark.net/news/374175",
+      "excerpt": "「基本不可用，不推荐」。 OpenAI 新模型上线仅仅 8 分钟，硅谷知名创业者 Matt Shumer，就在社交平台上扔下一句毫不留情的评价。 紧接着，拥有大批开发者拥趸的 Theo Browne，发了一篇长文《我为什么讨厌 GPT-6.2 Astra》。向来对前沿模型保持温和耐心的沃顿商学院教授 Ethan Mollick，测完后也给出了罕见的严厉定调，「非常不稳定且古怪」，直言这是「自 GPT-4.5 以来 OpenAI 前沿发布首次未见明显进步」。 这原本该是 OpenAI 是一场漂亮的反击战。 北京时间 11 月 18 日凌晨，OpenAI…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T13:40:28.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "model",
+      "score": 24,
+      "dupOf": "13palm7keav"
+    },
+    {
+      "id": "9knd7vxt2k",
+      "key": "url:36kr.com/p/4075210942354560",
+      "title": "一份看空中际旭创的报告，戳中了AI硬件的最大软肋",
+      "url": "https://36kr.com/p/4075210942354560",
+      "excerpt": "AI硬件，终究逃不过周期",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T13:39:28.953Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "看空中际旭创的报告，戳中了AI硬件的最大软肋。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
+    },
+    {
+      "id": "1izbwiowhxr",
+      "key": "url:36kr.com/p/4075158282212232",
+      "title": "会用AI的人，更容易找到工作？",
+      "url": "https://36kr.com/p/4075158282212232",
+      "excerpt": "“大家面对AI还是要功利一点。在这个时代，你可以对它不感兴趣，但不能不会；可以不喜欢，但不能不了解。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T13:30:46.469Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "会用AI的人，更容易找到工作？",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
+    },
+    {
+      "id": "hv9bv72yae",
+      "key": "url:the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china",
+      "title": "SEC probes Nvidia over undisclosed chip sales tied to China",
+      "url": "https://the-decoder.com/sec-probes-nvidia-over-undisclosed-chip-sales-tied-to-china/",
+      "excerpt": "The U.S. Securities and Exchange Commission (SEC) has launched a civil investigation into Nvidia. The article SEC probes Nvidia over undisclosed chip sales tied to China appeared first on The Decoder.",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-18T13:28:49.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "SEC 正在调查 Nvidia 是否隐瞒对华芯片销售，涉及潜在违规行为。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
+    },
+    {
+      "id": "216p452qe5k",
+      "key": "url:36kr.com/p/4075157923567490",
+      "title": "AI音乐的数据标注生意",
+      "url": "https://36kr.com/p/4075157923567490",
+      "excerpt": "AI的音乐老师不是艺术家。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T13:27:27.903Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "AI音乐的数据标注生意。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
+    },
+    {
+      "id": "14a7bioroa1",
+      "key": "url:36kr.com/p/4075096733505417",
+      "title": "放弃搜索也不接受AI，芝加哥学区硬刚谷歌：捆绑AI不如不用",
+      "url": "https://36kr.com/p/4075096733505417",
+      "excerpt": "谷歌强绑AI遭学区硬刚。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T13:19:57.007Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "芝加哥学区硬刚谷歌：捆绑AI不如不用。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
+    },
+    {
+      "id": "1vjdgi9v5x6",
+      "key": "url:leiphone.com/category/industrynews/cC8dbvo5f5k5tgnE.html",
+      "title": "豆包工作日活突破 800 万，企业客户 ARR 突破 20 亿元",
+      "url": "https://www.leiphone.com/category/industrynews/cC8dbvo5f5k5tgnE.html",
+      "excerpt": "11月18日，豆包官方宣布，上线仅三个月的豆包工作日活跃用户数（DAU）突破 800 万，企业客户年度经常性收入（ARR）突破 20 亿元。 豆包工作是豆包面向生产力场景推出的 AI 产品及品牌，自8月25日正式发布以来，持续更新专业办公能力。11月16日，豆包工作上线 “工作台” 功能，首批覆盖金融、医疗、教育、创意设计等 21 个专业场景，预先配置相应技能和工具，用户也可创建、保存和分享自定义工作台。此外，豆包工作也在近期接入了Kimi、GLM、DeepSeek 等第三方模型，并标注不同模型的额度消耗倍率，方便用户结合任务需求和使用成本自主选择。…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T13:18:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "1f8340jo5v8"
+    },
+    {
+      "id": "1fyqtffl63z",
+      "key": "url:36kr.com/p/4075148096066440",
+      "title": "Claude Code新模式来了，不换模型，Token消耗最高砍掉77%",
+      "url": "https://36kr.com/p/4075148096066440",
+      "excerpt": "AI编程的降本空间，藏在模型之外",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T13:07:02.892Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "Claude Code新模式来了，Token消耗最高砍掉77%。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
+    },
+    {
+      "id": "1xk4peti0dc",
+      "key": "url:36kr.com/p/4075162266735752",
+      "title": "腾讯 WorkBuddy 日活破千万，一个什么信号？",
+      "url": "https://36kr.com/p/4075162266735752",
+      "excerpt": "AI 应用才刚刚起步，更大的机会在生产、产业端。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T13:05:59.118Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "10f2wsoi6kx",
+      "key": "url:theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+      "title": "Nvidia isn’t selling any more AI chips to China",
+      "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+      "excerpt": "Nvidia has stopped sending its advanced AI chips to China despite the approval it received from the White House to do so in December last year. The announcement was made by interim Nvidia CEO Colette Kress during an earnings call on Tuesday, marking a notable shift for the compa…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-18T13:01:05.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "NVIDIA 停止向中国出售 AI 芯片",
+        "summary": "NVIDIA 停止向中国出售先进 AI 芯片，尽管此前获得白宫批准。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "13prhp2elo5",
+      "key": "url:techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds",
+      "title": "Nvidia clarifies when it will — and won’t — keep financing neoclouds",
+      "url": "https://techcrunch.com/2026/11/18/nvidia-clarifies-when-it-will-and-wont-keep-financing-neoclouds/",
+      "excerpt": "If Nvidia is backstopping a data center loan, it won't be on the hook unless the neocould has independent financing and gets the facility built, with Nvidia gear installed, interim CEO Colette Kress explained.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-18T13:00:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "NVIDIA 明确不资助云服务",
+        "summary": "NVIDIA 明确表示不会为云服务提供担保，除非其具备独立融资。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "g85hn5ti6h",
+      "key": "url:36kr.com/p/4075202762904708",
+      "title": "从腾讯AI到AI腾讯",
+      "url": "https://36kr.com/p/4075202762904708",
+      "excerpt": "主动求变，不等风来",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T12:59:01.792Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "2ao1x483cfn",
+      "key": "url:36kr.com/p/4075206606754944",
+      "title": "被AI赶尽杀绝的独立音乐人",
+      "url": "https://36kr.com/p/4075206606754944",
+      "excerpt": "当AI日产百万首歌，音乐人还剩什么？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T12:53:56.750Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "multimodal",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "1j7yeplh0y3",
+      "key": "url:36kr.com/newsflashes/4075200463066248",
+      "title": "欧洲央行报道：欧元区依旧展现韧性 AI、财政、地缘政治风险影响前景",
+      "url": "https://36kr.com/newsflashes/4075200463066248",
+      "excerpt": "欧洲央行今日发布《2026年11月金融稳定评估报告》称，欧元区金融稳定前景正受到AI估值、财政失衡以及地缘经济紧张局势衍生风险的影响。欧洲央行副行长博里斯·武伊契奇表示：“受持续的地缘经济不确定性、以及AI相关风险敞口上升影响，欧元区金融稳定风险仍处于高位。银行抵御冲击的基础较好，但部分非银机构的脆弱性更为突出，风险持续累积，且宏观审慎防护机制尚不完善。”尽管遭遇能源冲击、贸易摩擦与极端天气事件，欧元区经济依旧展现韧性。不过，长期能源供应中断、持续的贸易政策不确定性，有可能考验这一韧性。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T12:53:56.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1f8340jo5v8",
+      "key": "url:36kr.com/newsflashes/4075264271176576",
+      "title": "豆包工作日活突破800万，企业客户ARR突破20亿元",
+      "url": "https://36kr.com/newsflashes/4075264271176576",
+      "excerpt": "36氪获悉，豆包官方宣布，豆包工作日活跃用户数（DAU）突破800万，企业客户年度经常性收入（ARR）突破20亿元。据了解豆包工作是豆包面向生产力场景推出的AI产品及品牌，8月25日正式发布。11月16日，豆包工作上线 “工作台” 功能，首批覆盖金融、医疗、教育、创意设计等21个专业场景，预先配置相应技能和工具，用户也可创建、保存和分享自定义工作台。此外，豆包工作也在近期接入了Kimi、GLM、DeepSeek等第三方模型，并标注不同模型的额度消耗倍率，方便用户结合任务需求和使用成本自主选择。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T12:53:11.551Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 26,
+      "related": [
+        {
+          "id": "1vjdgi9v5x6",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/cC8dbvo5f5k5tgnE.html",
+          "title": "豆包工作日活突破 800 万，企业客户 ARR 突破 20 亿元",
+          "publishedAt": "2026-11-18T13:18:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "leiphone"
+        ],
+        "firstPublishedAt": "2026-11-18T12:53:11.551Z"
+      },
+      "ai": {
+        "summary": "字节跳动豆包工作日活突破 800 万，企业客户 ARR 突破 20 亿元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
+    },
+    {
+      "id": "1xwrmwa6xhg",
+      "key": "url:36kr.com/newsflashes/4075198400516997",
+      "title": "Visa与连连数字合作落地亚太首笔B2B智能体真实交易",
+      "url": "https://36kr.com/newsflashes/4075198400516997",
+      "excerpt": "36氪获悉，在新加坡金融科技节上，Visa与连连数字宣布达成将共同推动可信B2B智能体商务的发展。在既有合作基础上，双方通过Visa智能体商务连接平台（Visa Intelligent Commerce Connect），采用专为获授权AI智能体设计的支付标记，成功落地亚太地区首笔智能体真实交易。同日，连连数字宣布推出由Visa智能体商务连接平台提供支持的LianLian XCard，将双方合作进一步延伸至企业商务支出与费用管理场景。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T12:44:59.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1vghfmyqwno",
+      "key": "url:jiqizhixin.com/articles/2026-11-18-12",
+      "title": "狂揽50亿美元，Isomorphic Labs要把AI制药推向临床验证",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-18-12",
+      "excerpt": "编辑丨cherry今天，Alphabet 旗下 AI 药物研发公司 Isomorphic Labs 宣布完成 50 亿美元 C 轮融资。本轮融资由 Greenoaks 和红杉资本共同领投，Andreessen Horowitz（a16z）及其他多家新投资方跟投，同时 Alphabet 继续大额...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T12:44:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 34,
+      "related": [
+        {
+          "id": "t871ra3bqm",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/isomorphic-labs-raises-5b-as-it-looks-to-take-drug-candidates-to-clinical-trials/",
+          "title": "Isomorphic Labs 融资 50 亿美元推进 AI 药物研发",
+          "publishedAt": "2026-11-17T14:50:58.000Z"
+        },
+        {
+          "id": "k7c48nesp6",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/",
+          "title": "Isomorphic Labs raises $5 billion in its second mega-round within six months",
+          "publishedAt": "2026-11-17T14:57:02.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "jiqizhixin",
+          "techcrunch-ai",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-11-17T14:50:58.000Z"
+      },
+      "ai": {
+        "summary": "Alphabet 旗下 AI 药物研发公司 Isomorphic Labs 完成超 50 亿美元 C 轮融资。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
+    },
+    {
+      "id": "1w93451i3pi",
+      "key": "url:36kr.com/p/4075104005116800",
+      "title": "小米的MiMo人才激励考题",
+      "url": "https://36kr.com/p/4075104005116800",
+      "excerpt": "AI大厂的共同挑战",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T12:33:06.015Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "1f01d01iy40",
+      "key": "url:36kr.com/p/4075075172783238",
+      "title": "AI陪伴大变天：收入前十被下架5款，iOS这波整改谁是赢家？",
+      "url": "https://36kr.com/p/4075075172783238",
+      "excerpt": "真正的考验刚刚开始",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T12:30:17.586Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "2clljw4job9",
+      "key": "url:36kr.com/newsflashes/4075240073106311",
+      "title": "Anthropic冲刺史上最大IPO 据悉获近七倍超额认购",
+      "url": "https://36kr.com/newsflashes/4075240073106311",
+      "excerpt": "Anthropic PBC即将为可能成为史上规模最大的首次公开募股(IPO)定价，尽管科技股已连续多日震荡，可能给这家初创公司期待已久的上市带来压力。周二有报道称，这家AI模型开发商正引导潜在IPO投资者，预计将发行价定在价格区间上端或更高水平。据知情人士透露，需求正在升温，承销银行称，此次IPO接近七倍超额认购。根据申报文件，Anthropic及其七名联合创始人合计计划发行8.25亿股，每股价格为70至78美元。若按价格区间上限定价，并计入260亿美元的私募配售，此次IPO将筹资904亿美元，超过SpaceX创纪录的750亿美元基础交易规模，并使公司…",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T12:28:34.618Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 26,
+      "related": [
+        {
+          "id": "k0135qlhvg",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4075023407748232",
+          "title": "Anthropic IPO被疯抢：超额认购达10至20倍，红杉资本等追加投资",
+          "publishedAt": "2026-11-18T09:53:00.945Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-18T09:53:00.945Z"
+      },
+      "ai": {
+        "summary": "Anthropic 冲刺史上最大 IPO，据悉获近七倍超额认购。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
+    },
+    {
+      "id": "em9jqqf7iy",
+      "key": "url:36kr.com/p/4075178142864513",
+      "title": "GPT-6.2 Astra首发24小时口碑大翻车，硅谷大佬集体差评",
+      "url": "https://36kr.com/p/4075178142864513",
+      "excerpt": "只会做数学题，不会说人话了",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T12:02:36.662Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "model",
+      "score": 24,
+      "dupOf": "25754w8325h"
+    },
+    {
+      "id": "1ta9xjjy5nz",
+      "key": "url:36kr.com/p/4075177978909826",
+      "title": "一年卖了5000万，第一批明星AI产品还是下线了",
+      "url": "https://36kr.com/p/4075177978909826",
+      "excerpt": "扣子拿了行业第一，按IDC统计一年只卖了约4800万；字节让扣子企业版停止新客，不是做砸了，是这门生意太小。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T12:01:35.775Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "15vtvlxb1v9",
+      "key": "url:techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents",
+      "title": "Felicis leads $7.5M bet on Unsiloed AI to make enterprise documents usable by AI agents",
+      "url": "https://techcrunch.com/2026/11/18/felicis-leads-7-5m-bet-on-unsiloed-ai-to-make-enterprise-documents-usable-by-ai-agents/",
+      "excerpt": "With a team of just seven, Unsiloed AI plans to compete with tech giants and specialized startups in the crowded AI document-processing market.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-18T12:00:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Unsiloed AI 获得 750 万美元融资",
+        "summary": "Unsiloed AI 获得 750 万美元融资，旨在让企业文档可用于 AI 代理。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "anklukjuzm",
+      "key": "url:36kr.com/newsflashes/4075208479495047",
+      "title": "英伟达扩大芯片供应链合作，数十亿美元支持矽品精密扩产",
+      "url": "https://36kr.com/newsflashes/4075208479495047",
+      "excerpt": "日前，英伟达宣布扩大与台积电、矽品精密、景硕科技、三星电机、安靠科技、富士康等供应链企业的合作，以扩大基板、先进封装、晶圆和合同制造的产能。其中，英伟达将通过数十亿美元资金支持矽品精密在中国台湾扩大先进封装产能，相关产能计划于2029年年中前增加。此外，景硕科技计划将其桃园幼狮厂专供英伟达的先进ABF封装基板产能扩大至目前的3.5倍以上，预计2027年下半年启动相关生产，计划在2028年第三季度增加产能。（界面）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T11:56:26.297Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "17utyua8mit",
+      "key": "url:36kr.com/p/4075099096258182",
+      "title": "曾妍的新论文，就是字节 “10万亿”路线图",
+      "url": "https://36kr.com/p/4075099096258182",
+      "excerpt": "周畅离职，曾妍上位：字节这场路线之争，嫡系赢了空降兵",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T11:48:34.101Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "paper",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "ujrvm12o9o",
+      "key": "url:36kr.com/p/4075161759126663",
+      "title": "“最优秀的开发者，正在被AI慢慢耗尽……”每天审查15个PR、硬啃2万行AI代码，资深工程师被逼成「质检员」，有人干脆辞职",
+      "url": "https://36kr.com/p/4075161759126663",
+      "excerpt": "你现在的工作，还是你当初热爱的那份工作吗？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T11:43:07.932Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "29ap4nj360n",
+      "key": "url:techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers",
+      "title": "India’s Humyn Labs raises $47M to feed US robotics companies the data they need",
+      "url": "https://techcrunch.com/2026/11/18/accel-backs-indias-humyn-labs-to-supply-training-data-needed-by-u-s-robotics-ai-developers/",
+      "excerpt": "Founded in February, Humyn Labs competes with startups such as Mecka AI and XDOF, with about 90% of its revenue coming from the U.S.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-18T11:30:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Humyn Labs 获得 4700 万美元融资",
+        "summary": "Humyn Labs 获得 4700 万美元融资，为美国机器人公司提供数据。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "4bbrcil6k1",
+      "key": "url:36kr.com/p/4075161860576134",
+      "title": "34岁的沪上金融精英，困在AI的恋爱中",
+      "url": "https://36kr.com/p/4075161860576134",
+      "excerpt": "恋爱正在被AI接管",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T11:29:39.176Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "2be6p403jcc",
+      "key": "url:36kr.com/p/4075104135254920",
+      "title": "AI漫剧回本率仅1.3%，却生出了稳赚不赔的卖课生意",
+      "url": "https://36kr.com/p/4075104135254920",
+      "excerpt": "卖课的比做剧的更赚钱",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T11:21:07.849Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "multimodal",
+      "keywords": [
+        "AI 短剧"
+      ],
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "1v3hia3s2c7",
+      "key": "url:theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+      "title": "Suno now lets you make AI videos for your AI music",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1036415/suno-visuals-ai-generated-video-images-feature",
+      "excerpt": "Here are some of the examples that Suno provided to show what Visuals is capable of. | Image: Suno Suno has introduced image and video generation in its latest effort to expand beyond being an AI music platform. The new feature, called \"Visuals,\" allows users to turn Suno songs…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-18T11:16:53.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "multimodal",
+      "keywords": [
+        "视频生成"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Suno 推出 AI 视频生成功能",
+        "summary": "Suno 推出 Visuals 功能，允许用户将歌曲转换为 AI 生成的图像和视频。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "fjfaudbjcb",
+      "key": "url:36kr.com/p/4074924472161922",
+      "title": "DeepSeek限额，腾讯社交帝国松口气",
+      "url": "https://36kr.com/p/4074924472161922",
+      "excerpt": "AI免费时代的成本与社交变局",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T11:03:54.463Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "37st7n2abz",
+      "key": "url:36kr.com/p/4074892228335236",
+      "title": "GPU企业争着做机器人芯片，整机厂商为何还想自己造？",
+      "url": "https://36kr.com/p/4074892228335236",
+      "excerpt": "只是省成本吗？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T10:54:28.859Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "otvirzl5ey",
+      "key": "url:infoq.cn/video/xsEfht2OwBZQBvWVHSIb",
+      "title": "Agent 驱动 MaaS 新范式，如何让模型能力随需而用？",
+      "url": "https://www.infoq.cn/video/xsEfht2OwBZQBvWVHSIb?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T10:50:07.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "14tyywiy35r",
+      "key": "url:infoq.cn/article/ZukzUBeu7k74T9UGCkfh",
+      "title": "从 AI 试点到规模化生产：Snowflake 驻场前沿工程师如何助力企业实现 AI 落地 ｜ 技术趋势",
+      "url": "https://www.infoq.cn/article/ZukzUBeu7k74T9UGCkfh?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T10:44:20.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "28gs6uf8hnq",
+      "key": "url:36kr.com/newsflashes/4075118072632198",
+      "title": "用友HR SaaS发布YonWork企业智能体",
+      "url": "https://36kr.com/newsflashes/4075118072632198",
+      "excerpt": "36氪获悉，用友HR SaaS发布三项AI创新成果。其中，行业首个人力本体智能体，依托YonOnto关联企业经营、人力数据与管理规则，为AI分析和决策提供业务依据。YonWork企业智能体，围绕经营目标组织多智能体协同，AI自动执行、人在关键节点决策，推动招聘、人才配置等业务从分析建议走向实际行动。YonAIG企业AI治理与运营平台，提供智能体全生命周期管理，支持安全治理、过程追溯与效果评估，保障AI安全运行与持续运营。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T10:42:20.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22,
+      "ai": {
+        "summary": "用友 HR SaaS 发布 YonWork 企业智能体，推动业务从分析走向行动。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
+    },
+    {
+      "id": "pxml4rtkw1",
+      "key": "url:leiphone.com/category/transportation/GLv3yGaPGK64teuS.html",
+      "title": "纽娲机器人创始人杨睿刚：自动驾驶踩过的数据坑，机器人还会再踩一遍丨物理 AI 50 人",
+      "url": "https://www.leiphone.com/category/transportation/GLv3yGaPGK64teuS.html",
+      "excerpt": "做了十多年自动驾驶之后，杨睿刚决定把下一次创业的方向，从高速公路转向居民社区。 在此之前，他曾在美国高校研究三维视觉，后来加入百度研究院，负责机器人与自动驾驶实验室，又担任嬴彻科技CTO，推动自动驾驶重卡前装量产。从研究算法到让几十吨重的卡车真正跑上高速公路，他经历了自动驾驶从技术探索走向商业化的过程。 2024年，杨睿刚开始筹备第二次创业。彼时，人形机器人已经成为具身智能行业最受关注的方向，他也接触过相关创业机会，但最终选择了一个看起来没那么性感的场景：社区末端配送。 他判断，家庭机器人虽然市场空间大，但每个家庭的环境都不一样，泛化难度很高；工厂机器…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T10:28:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "qvilddlihz",
+      "key": "url:infoq.cn/article/GSGpEUU4dCdppTCmaOSy",
+      "title": "业务本体：面向 AI 与数据分析，统一规范业务概念与指标口径 ｜ 技术趋势",
+      "url": "https://www.infoq.cn/article/GSGpEUU4dCdppTCmaOSy?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T10:23:22.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "v6euhasbae",
+      "key": "url:36kr.com/p/4075019280406408",
+      "title": "这30家企业，撑起了灵巧手的半边天",
+      "url": "https://36kr.com/p/4075019280406408",
+      "excerpt": "三十家代表企业全景展现全球灵巧手产业竞争格局",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T10:04:24.768Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "k0135qlhvg",
+      "key": "url:36kr.com/p/4075023407748232",
+      "title": "Anthropic IPO被疯抢：超额认购达10至20倍，红杉资本等追加投资",
+      "url": "https://36kr.com/p/4075023407748232",
+      "excerpt": "​Anthropic正在冲击史上最大规模IPO。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T09:53:00.945Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2clljw4job9"
+    },
+    {
+      "id": "swdx2qjm1z",
+      "key": "url:36kr.com/p/4074751924983687",
+      "title": "哈维・琼斯：成就黄仁勋，赶走黄仁勋",
+      "url": "https://36kr.com/p/4074751924983687",
+      "excerpt": "英伟达史上首位董事会主席，最沉默的亿万富翁，开口了。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T09:51:09.713Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "1met8hnh378",
+      "key": "url:36kr.com/p/4075007825450116",
+      "title": "GPT-6.2 实测：强得离谱，但又难用得要死",
+      "url": "https://36kr.com/p/4075007825450116",
+      "excerpt": "GPT-6.2 体验两极分化",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T09:46:49.093Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "model",
+      "score": 24,
+      "dupOf": "13palm7keav"
+    },
+    {
+      "id": "1hryparo7ou",
+      "key": "url:36kr.com/p/4075073010996352",
+      "title": "36氪研究院 | 2026年中国词元经济生态发展研究报告",
+      "url": "https://36kr.com/p/4075073010996352",
+      "excerpt": "从规模扩张到价值转化，词元经济迈入多方协同新阶段",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T09:46:06.429Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "d20wm7wbha",
+      "key": "url:leiphone.com/category/chips/WHSLCH74nrSJW6OE.html",
+      "title": "黄仁勋归期悬而未决，买GPU的人已经不敢下单",
+      "url": "https://www.leiphone.com/category/chips/WHSLCH74nrSJW6OE.html",
+      "excerpt": "“现在都不敢订期货。”在深圳负责GPU采购的程麟，用一句话概括了今年的处境。 从突然辞任，到传出回归，再到本人公开表达重返意愿、董事会却在财报电话会上明确表示无意让其复职——短短五天里，围绕黄仁勋去留的消息几度反转。 多方信源此前也向雷峰网表示，黄仁勋短期内很难重新执掌英伟达。 但对于依赖英伟达GPU开展生意的中国算力服务商而言，眼下更现实的问题是：即便黄仁勋回来了，高端GPU还能不能买到？买到后又该如何变现？ 国内买英伟达GPU的渠道在收窄，海外租算力也不轻松。程麟所在团队曾尝试通过自建、投资海外机房等方式获取算力资源，但机房建设周期长达两三年。随着…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T09:45:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1lymrzdgtuj",
+      "key": "url:qbitai.com/2026/11/510922.html",
+      "title": "Gemini新模型Neon箭在弦上，网友：遍历元素周期表？",
+      "url": "https://www.qbitai.com/2026/11/510922.html",
+      "excerpt": "氖人寻味！",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T09:41:55.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "model",
+      "score": 24,
+      "dupOf": "1oferfclzad"
+    },
+    {
+      "id": "hg2qznhv44",
+      "key": "url:36kr.com/p/4075023468319874",
+      "title": "权志龙母公司将推机器人女团，与宇树合作的K-pop演唱会12月首演",
+      "url": "https://36kr.com/p/4075023468319874",
+      "excerpt": "Galaxy还计划推出虚拟AI女团和真人女团。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T09:40:23.404Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "1dp7qr64f93",
+      "key": "url:36kr.com/p/4075000880436357",
+      "title": "Prada、Levi's、e.l.f.…为什么大品牌还在坚持“手搓”广告",
+      "url": "https://36kr.com/p/4075000880436357",
+      "excerpt": "观众最后记住的，会是工夫，还是品牌？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T09:19:39.442Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "bekaek4n3j",
+      "key": "url:36kr.com/p/4074945670566785",
+      "title": "补丁成了「漏洞说明书」，谷歌曝黑客让AI照着补丁写攻击代码",
+      "url": "https://36kr.com/p/4074945670566785",
+      "excerpt": "补丁发布的那一刻，安全警报不仅没有解除，攻防双方的发令枪反倒是响了。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T09:16:23.937Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "194dnbxtjlg",
+      "key": "url:36kr.com/p/4074803713954695",
+      "title": "思维链之父Jason Wei离开Meta，加盟200亿美元AI独角兽",
+      "url": "https://36kr.com/p/4074803713954695",
+      "excerpt": "思维链之父Jason Wei又跳槽了",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T08:54:33.568Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "1jb0gtbjlsb"
+    },
+    {
+      "id": "q1evlwxwvh",
+      "key": "url:leiphone.com/category/private/S1vnQSfDZDVC7TWb.html",
+      "title": "清华徐梦迪：预训练做再好都不够，机器人需要在部署中学习 | CoRL 2026",
+      "url": "https://www.leiphone.com/category/private/S1vnQSfDZDVC7TWb.html",
+      "excerpt": "人机交互不只是目标，更是解决方案。 作者丨邓哲敏 编辑丨齐铖湧 2026 年 11 月 12 日，CoRL 2026 “Learn@Deploy”（机器人部署中学习）半日研讨会上，清华大学交叉信息研究院助理教授徐梦迪以 Keynote 讲者身份做开场报告。 徐梦迪从清华车辆工程专业毕业后，前往卡内基梅隆大学机械工程系读博，师从 Safe AI Lab 负责人赵鼎，论文《构建可适应的通用机器人》拿下该系最佳博士论文奖。她在论文中指出，构建通用机器人不能只靠堆参数、堆数据、指望预训练自然泛化，必须补上适应的能力，让机器人到现场后靠少量新信息快速调整策略。…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T08:28:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1s3eo8kcac7",
+      "key": "url:36kr.com/p/4074831625540744",
+      "title": "上市前夕，OpenAI被索赔133亿元：蓄意设计聊天机器人，让儿童沉迷其中",
+      "url": "https://36kr.com/p/4074831625540744",
+      "excerpt": "OpenAI接连遭美多州起诉，或影响其IPO进程",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T08:02:52.143Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "mdmle5h4f9",
+      "key": "url:openai.com/index/inside-the-codex-sandbox",
+      "title": "Inside the Codex sandbox",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "excerpt": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "Codex 沙盒机制详解",
+        "summary": "OpenAI 介绍 Codex 在受限环境中运行命令的机制。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:07.930Z"
+      }
+    },
+    {
+      "id": "c6gi8mj3ek",
+      "key": "url:qbitai.com/2026/11/510914.html",
+      "title": "GPT-6.2难产！OpenAI怕了",
+      "url": "https://www.qbitai.com/2026/11/510914.html",
+      "excerpt": "OpenAI也终于活成了2022年谷歌的样子",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T07:53:29.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "model",
+      "score": 24,
+      "dupOf": "13palm7keav"
+    },
+    {
+      "id": "1a6nl7lnd7",
+      "key": "url:leiphone.com/category/chips/DNqOGFbDk2Vd5eiX.html",
+      "title": "做了20多年消费硬件，奥尼电子为什么去做Token工厂？",
+      "url": "https://www.leiphone.com/category/chips/DNqOGFbDk2Vd5eiX.html",
+      "excerpt": "“这个有什么用？怎么用起来？” 一家有超20年制造经验的企业，进入AI推理算力市场后，被客户的这个问题问住了。 这两年，AI算力市场热闹得很。有人建设算力集群，有人销售服务器，也有人提供算力服务。可到了实际使用环节，一些企业却发现，设备买回来了，应用没找到，业务也接不进去。 IDC与中国信通院2026年的联合调研显示，在制造、政务等行业，智算资源利用率达到70%及以上的企业占比不足35%。 供给端忙着把算力卖出去，需求端还在琢磨怎么用起来。 对进入AI推理算力市场不久的奥尼电子而言，超20年的制造与供应链积累，为其探索Token工厂提供了硬件生产、定制…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T07:52:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "tkdue49e5g",
+      "key": "url:36kr.com/p/4074882886751112",
+      "title": "5300人，人均3个亿，Anthropic即将敲钟，泼天富贵要来了",
+      "url": "https://36kr.com/p/4074882886751112",
+      "excerpt": "Anthropic即将IPO，全员将造富，华尔街疯抢",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T07:50:41.746Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1,
+      "dupOf": "9s2e2kmx0d"
+    },
+    {
+      "id": "ea4v9l4ovq",
+      "key": "url:36kr.com/p/4074882755416969",
+      "title": "黄仁勋不再沉默：我愿重掌英伟达，董事会：不考虑",
+      "url": "https://36kr.com/p/4074882755416969",
+      "excerpt": "英伟达公布了老黄离职后的首份财报",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T07:47:29.808Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "20c4yjveot6"
+    },
+    {
+      "id": "1egwoyacct2",
+      "key": "url:jiqizhixin.com/articles/2026-11-18-11",
+      "title": "全球首个医疗健康 AI 独立评测与分析平台InclusionMed 正式上线",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-18-11",
+      "excerpt": "近日，全球首个医疗健康 AI 独立评测与分析平台InclusionMed 正式上线，并同步推出医疗 AI 评测图谱 InclusionMed Atlas 和首期医疗 AI 评测指数 InclusionMed Index，旨在为医疗健康 AI 提供更加系统的评估依据。该平台由来自斯坦福大学、哈佛...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T07:47:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "model",
+      "score": 28,
+      "dupOf": "9s2e2kmx0d"
+    },
+    {
+      "id": "9s2e2kmx0d",
+      "key": "url:qbitai.com/2026/11/510916.html",
+      "title": "全球首个医疗健康AI独立评测与分析平台InclusionMed正式上线",
+      "url": "https://www.qbitai.com/2026/11/510916.html",
+      "excerpt": "近日，全球首个医疗健康 AI 独立评测与分析平台InclusionMed 正式上线",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T07:24:50.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 38,
+      "related": [
+        {
+          "id": "1egwoyacct2",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-18-11",
+          "title": "全球首个医疗健康 AI 独立评测与分析平台InclusionMed 正式上线",
+          "publishedAt": "2026-11-18T07:47:00.000Z"
+        },
+        {
+          "id": "tkdue49e5g",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4074882886751112",
+          "title": "5300人，人均3个亿，Anthropic即将敲钟，泼天富贵要来了",
+          "publishedAt": "2026-11-18T07:50:41.746Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "qbitai",
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-18T07:24:50.000Z"
+      },
+      "ai": {
+        "summary": "全球首个医疗健康 AI 独立评测与分析平台 InclusionMed 正式上线。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
+    },
+    {
+      "id": "2di08l8mlz2",
+      "key": "url:jiqizhixin.com/articles/2026-11-18-10",
+      "title": "辰光、SpaceView：合肥中科星云的天基算力，离国家算力网还有多远",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-18-10",
+      "excerpt": "一家注册资本 15 亿元的公司，2026 年 11 月 2 日完成工商设立登记，11 月 9 日正式宣布成立并投入运营。股东名单里，既有中科星图、中科曙光、海光信息这样的计算与空天信息企业，也有曙光数创、中科卫星、星图测控等产业链公司，还有安徽省、合肥市及相关区县的国资基金。这家公司叫中科星云...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T06:56:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "合肥中科星云成立天基算力公司，离国家算力网还有多远？",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
+    },
+    {
+      "id": "1qczdume1sj",
+      "key": "url:nicolasbouliane.com/blog/death-by-ai",
+      "title": "AI is killing All About Berlin",
+      "url": "https://nicolasbouliane.com/blog/death-by-ai",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-18T06:47:26.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 36,
+      "metrics": {
+        "points": 712,
+        "comments": 648
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50542705",
+      "ai": {
+        "title": "AI 正在取代 All About Berlin",
+        "summary": "Hacker News 讨论新闻网站因 AI 而逐渐消失的现象。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:07.930Z"
+      }
+    },
+    {
+      "id": "v4o1zbc98i",
+      "key": "url:jiqizhixin.com/articles/2026-11-18-9",
+      "title": "Agent多人共用为何会失控？来自Ankole的Business Agent架构设计分享",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-18-9",
+      "excerpt": "继 Coding Agent 之后，Muse、Grok Bot 等 Personal Agent 产品也快速成熟。不少团队尝试把它们引入组织：要么给每位成员部署一套，要么把同一个 Agent 接进部门群聊。但单人使用表现稳定的 Agent，一旦放到多人协同场景总是表现得非常不及预期。这是因为用...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T06:41:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "Agent多人共用为何会失控？来自Ankole的Business Agent架构设计分享。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
+    },
+    {
+      "id": "1gc8d4g7mdb",
+      "key": "url:jiqizhixin.com/articles/2026-11-18-8",
+      "title": "openJiuwen首发AgentOS「Harnessless」开发范式：不用自建Harness，让Agent原生应用触手可及",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-18-8",
+      "excerpt": "开发一个新应用时，能不能直接用上 Agent，让它读取业务状态、调用工具，甚至和其他 Agent 一起完成任务？openJiuwen 在《HyperAgent 架构解读》中谈到了 Agent 如何通过扩展机制获得新能力。今天，openJiuwen 将这一思路延伸到应用开发，依托 openJiu...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T06:31:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "openJiuwen首发AgentOS“Harnessless”开发范式。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
+    },
+    {
+      "id": "rmut8oip8z",
+      "key": "url:jiqizhixin.com/articles/2026-11-18-7",
+      "title": "思维链之父Jason Wei离开Meta，加盟200亿美元AI独角兽",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-18-7",
+      "excerpt": "编辑｜NeoMeta 超级智能实验室，又有一位重量级研究员离开了。这次是被称为「思维链之父」的 Jason Wei。11 月 18 日，AI 创业公司 Mercor 联合创始人兼 CEO Brendan Foody 在 X 平台宣布，Jason Wei 正式加入 Mercor，担任首席科学家（...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T06:24:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "1jb0gtbjlsb"
+    },
+    {
+      "id": "n369teteje",
+      "key": "url:infoq.cn/article/FrDlAvNIwkr8ttdvWMCC",
+      "title": "800 个 MCP Server、5000 个工具，AI 智能体的“微服务危机”来了",
+      "url": "https://www.infoq.cn/article/FrDlAvNIwkr8ttdvWMCC?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T06:00:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "MCP"
+      ],
+      "score": 29.6,
+      "related": [
+        {
+          "id": "tmw1m20amw",
+          "sourceId": "github-trending",
+          "sourceName": "GitHub Trending",
+          "url": "https://github.com/punkpeye/awesome-mcp-servers",
+          "title": "punkpeye/awesome-mcp-servers",
+          "publishedAt": "2026-11-18T19:23:34.355Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "infoq-cn",
+          "github-trending"
+        ],
+        "firstPublishedAt": "2026-11-18T06:00:00.000Z",
+        "metrics": {
+          "stars": 97972,
+          "starsToday": 52
+        }
+      },
+      "ai": {
+        "summary": "AI 智能体面临 MCP Server 与工具数量激增带来的“微服务危机”。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
+    },
+    {
+      "id": "wbtwenyei5",
+      "key": "url:infoq.cn/article/NbShAFtZqRSsFrsVu6aj",
+      "title": "基于昇腾算力的大模型推理加速研究与实践｜AICon北京",
+      "url": "https://www.infoq.cn/article/NbShAFtZqRSsFrsVu6aj?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T06:00:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "gwktiq0p4j",
+      "key": "url:infoq.cn/article/zUC0vHq9xm3BFHSqQlw3",
+      "title": "纳德拉回应微软首次给工程师发“离场费”：Claude Code 让微软措手不及，二十年 IDE 优势半年动摇",
+      "url": "https://www.infoq.cn/article/zUC0vHq9xm3BFHSqQlw3?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T05:55:35.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 18,
+      "dupOf": "1wh5sms4fgl"
+    },
+    {
+      "id": "1s2bh2xma1f",
+      "key": "url:infoq.cn/article/draE95cYeLAqhcR3CwIF",
+      "title": "谷歌 SRE 圣经被迫重写：AI 时代，硬技能在塌陷，第一性原理在升值",
+      "url": "https://www.infoq.cn/article/draE95cYeLAqhcR3CwIF?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T05:39:49.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "o7xdf803tw",
+      "key": "url:leiphone.com/category/industrynews/ukrIJ082d0MIuodR.html",
+      "title": "海外算力通道收窄！众智 FlagOS × 清昴智能，助力国芯高性能上线商用 Token 工厂",
+      "url": "https://www.leiphone.com/category/industrynews/ukrIJ082d0MIuodR.html",
+      "excerpt": "11 月 16 日，美国商务部工业与安全局（BIS）最新出口管制政策正式落地，将限制范围从芯片实物进一步延伸至远程算力访问，旨在封堵中国企业通过海外数据中心获取先进 AI 算力的路径。 这一外部变量正在迅速传导至国内算力供给侧。对于正在兴起的“国芯 Token 工厂”而言，海外算力通道的收窄在需求侧倒逼本土算力加快承接真实业务；但在供给侧，国产推理芯片在制造与封装环节同样面临更严苛的审查。硬件供给依然紧俏，产业界不得不直面一个更迫切的工程命题：在现有的国产新卡与海量存量集群之上，如何把每一张卡榨出更高、更稳、算得平经济账的“有效 Token 产能”？…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T05:31:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 22,
+      "ai": {
+        "summary": "FlagOS × 清昴智能助力国芯高性能上线商用 Token 工厂。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
+    },
+    {
+      "id": "1gab0yhb0kw",
+      "key": "url:qbitai.com/2026/11/510811.html",
+      "title": "思维链一作Jason Wei离职！怎么去Meta待一年都跑路",
+      "url": "https://www.qbitai.com/2026/11/510811.html",
+      "excerpt": "入职Meta刚满一年出头，竟然直接提桶跑路了！",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T04:49:51.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "1jb0gtbjlsb"
+    },
+    {
+      "id": "1xpwfo7r3y2",
+      "key": "url:qbitai.com/2026/11/510821.html",
+      "title": "英伟达AMD首次联手押注！Genesis完成A轮融资，估值超230亿",
+      "url": "https://www.qbitai.com/2026/11/510821.html",
+      "excerpt": "具身全栈玩家",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T04:28:57.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18,
+      "dupOf": "ns44o6shv3"
+    },
+    {
+      "id": "12slc3z74e2",
+      "key": "url:kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long",
+      "title": "Why is Gemini 4 Carbon taking so long?",
+      "url": "https://kernel.dev/blog/why-is-gemini-4-carbon-taking-so-long/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-18T04:14:04.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "model",
+      "score": 35.3,
+      "metrics": {
+        "points": 252,
+        "comments": 131
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50541790",
+      "ai": {
+        "title": "Gemini 4 Carbon 开发为何缓慢",
+        "summary": "Hacker News 讨论项目开发进度缓慢的原因。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:07.930Z"
+      }
+    },
+    {
       "id": "ev1e0i2t3y",
       "key": "url:geekpark.net/news/374125",
       "title": "影视飓风、Manus、影石、OPPO......极客公园创新大会 2027 嘉宾阵容更新！",
@@ -14,8 +1754,14 @@
       "publishedAt": "2026-11-18T04:12:11.000Z",
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
-      "category": "agent",
-      "score": 18
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "极客公园创新大会 2027 嘉宾阵容公布，主题为“Revaluation 价值，另有答案”。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
     },
     {
       "id": "7fy1r2k6va",
@@ -31,7 +1777,13 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "利通电子表示算力资源均通过合法合规商业渠道获取。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
     },
     {
       "id": "1peeooo8mza",
@@ -53,7 +1805,8 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T04:22:07.992Z"
-      }
+      },
+      "dupOf": "2jponsonw"
     },
     {
       "id": "m2t5kge70o",
@@ -69,7 +1822,40 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "协创数据 374.9 亿元算力云服务协议拟投入境内合规服务器。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
+    },
+    {
+      "id": "x4yb22uf8g",
+      "key": "url:xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences",
+      "title": "Claude was trained on protein sequences at scale",
+      "url": "http://xinmingtu.cn/blog/2026/claude-opus-5-5-protein-sequences/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-18T03:47:43.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "paper",
+      "score": 24.6,
+      "metrics": {
+        "points": 153,
+        "comments": 66
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50541619",
+      "ai": {
+        "title": "Claude 在蛋白质序列上的训练",
+        "summary": "Hacker News 讨论了 Claude 在大规模蛋白质序列上的训练情况。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
     },
     {
       "id": "1r7v1c95egf",
@@ -154,7 +1940,13 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "亿纬锂能发布 AIDC 全场景储能解决方案，构筑 AI 能源底座。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
     },
     {
       "id": "1nxmb9virsq",
@@ -170,7 +1962,13 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "A股三大指数午间集体下跌，算力租赁概念走强。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
     },
     {
       "id": "4730h2tqey",
@@ -211,13 +2009,51 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "英伟达与AMD联手押注，Genesis完成A轮融资。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T04:22:07.992Z"
+      },
+      "related": [
+        {
+          "id": "1xpwfo7r3y2",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/510821.html",
+          "title": "英伟达AMD首次联手押注！Genesis完成A轮融资，估值超230亿",
+          "publishedAt": "2026-11-18T04:28:57.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-11-18T03:28:48.000Z"
       }
+    },
+    {
+      "id": "newiuqlv3y",
+      "key": "url:leiphone.com/category/industrynews/DEwlGyHOnFTL6jRy.html",
+      "title": "千问办公电商版推出“品牌知识库”，让Agent先懂品牌，再干活",
+      "url": "https://www.leiphone.com/category/industrynews/DEwlGyHOnFTL6jRy.html",
+      "excerpt": "11月18日，千问办公电商版推出全新“品牌知识库”功能。商家在千问办公网页端切换至“电商经营”模式，上传网店链接、过往图片和设计规范等品牌资料后，千问办公就能理解品牌风格，在生成图片、视频和文案时统一品牌调性，用得越多越懂品牌。此前，千问办公电商版面向部分商家邀测，目前已向所有电商商家开放。 目前，不少商家已经习惯用Agent生成商品图、短视频和各类文案。但通用Agent缺少对品牌的长期理解，生成内容时风格容易跑偏，商家往往需要反复调整提示词，效率低且效果不稳定。此次推出的“品牌知识库”包含品牌档案、品牌参考集和品牌记忆三大核心能力，让千问办公先懂品牌…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-18T03:26:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22,
+      "dupOf": "25y2oo7fg34"
     },
     {
       "id": "1jb0gtbjlsb",
@@ -233,12 +2069,47 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18,
+      "score": 34,
       "ai": {
         "summary": "思维链一作Jason Wei离职，Meta决策模型引发关注。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T04:22:07.992Z"
+      },
+      "related": [
+        {
+          "id": "1gab0yhb0kw",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/510811.html",
+          "title": "思维链一作Jason Wei离职！怎么去Meta待一年都跑路",
+          "publishedAt": "2026-11-18T04:49:51.000Z"
+        },
+        {
+          "id": "rmut8oip8z",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-18-7",
+          "title": "思维链之父Jason Wei离开Meta，加盟200亿美元AI独角兽",
+          "publishedAt": "2026-11-18T06:24:00.000Z"
+        },
+        {
+          "id": "194dnbxtjlg",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4074803713954695",
+          "title": "思维链之父Jason Wei离开Meta，加盟200亿美元AI独角兽",
+          "publishedAt": "2026-11-18T08:54:33.568Z"
+        }
+      ],
+      "story": {
+        "reports": 4,
+        "sources": [
+          "36kr-ai",
+          "qbitai",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-18T03:25:28.000Z"
       }
     },
     {
@@ -280,12 +2151,30 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "agent",
-      "score": 22,
+      "score": 30,
       "ai": {
         "summary": "千问办公电商版推出品牌知识库，帮助商家统一品牌调性。",
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T04:22:07.992Z"
+      },
+      "related": [
+        {
+          "id": "newiuqlv3y",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/DEwlGyHOnFTL6jRy.html",
+          "title": "千问办公电商版推出“品牌知识库”，让Agent先懂品牌，再干活",
+          "publishedAt": "2026-11-18T03:26:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "leiphone"
+        ],
+        "firstPublishedAt": "2026-11-18T03:16:46.000Z"
       }
     },
     {
@@ -300,8 +2189,14 @@
       "publishedAt": "2026-11-18T03:00:00.000Z",
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
-      "category": "industry",
-      "score": 18
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "谷歌公布发现500多个XSS漏洞的AI安全代理PageBreak。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
     },
     {
       "id": "1kzo4w05llr",
@@ -381,7 +2276,13 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "腾讯申请注册“元宝搜索”商标，11月11日上线。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
     },
     {
       "id": "7pow01328g",
@@ -441,12 +2342,19 @@
       "publishedAt": "2026-11-18T02:17:00.000Z",
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
-      "category": "model",
+      "category": "opensource",
       "keywords": [
         "具身智能"
       ],
-      "score": 28,
-      "aiAttempts": 1
+      "score": 22,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "浙大与宇树科技开源 500 万条机器人预训练数据 Movens-5M。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      },
+      "dupOf": "cl4junkoju"
     },
     {
       "id": "rrz57u52tj",
@@ -507,7 +2415,8 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T04:22:07.992Z"
-      }
+      },
+      "dupOf": "2eb4maw105f"
     },
     {
       "id": "1k7c5mmt0sf",
@@ -544,12 +2453,30 @@
         "视频生成",
         "图像生成"
       ],
-      "score": 22,
+      "score": 30,
       "ai": {
         "summary": "可灵AI发布Kling Image 4.0，支持原生8K与组图直出。",
         "category": "multimodal",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T04:22:07.992Z"
+      },
+      "related": [
+        {
+          "id": "33moochiay",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4074602932360326",
+          "title": "Jev再被狙击，微软新决策模型来了，速度快2倍，准确率登顶",
+          "publishedAt": "2026-11-18T01:59:46.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "leiphone",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-18T01:48:00.000Z"
       }
     },
     {
@@ -589,7 +2516,13 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "三星电机扩大与英伟达合作，增加AI芯片组件供应。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
     },
     {
       "id": "1b2f53cy7uc",
@@ -605,7 +2538,13 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "恒指开盘下跌，半导体板块领涨，智谱等AI概念股涨超4%。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
     },
     {
       "id": "1ybmpr4wld2",
@@ -660,12 +2599,30 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "英伟达季度营收破千亿，华尔街重新定价后黄仁勋时代。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T04:22:07.992Z"
+      },
+      "related": [
+        {
+          "id": "1peeooo8mza",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-18-6",
+          "title": "给世界模型装上「生成式显卡」！Code World Model 2.0实现30分钟一镜到底",
+          "publishedAt": "2026-11-18T03:51:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-18T01:01:16.917Z"
       }
     },
     {
@@ -707,7 +2664,13 @@
       "keywords": [
         "AI 短剧"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "黄仁勋愿重返英伟达任CEO遭董事会拒绝，阿里调整员工回流政策。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
     },
     {
       "id": "1mc1uiyykl7",
@@ -744,7 +2707,13 @@
         "AI 编程"
       ],
       "score": 28,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI 发布 GPT-6.2 Astra 和 Sol，强化编程与专业工作能力。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
     },
     {
       "id": "sd0wiq6xio",
@@ -761,7 +2730,14 @@
       "day": "2026-11-18",
       "category": "model",
       "score": 28,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI 突袭发布 GPT-6.2 Astra 与 Sol，任务成本仅为 Claude 的 5%。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      },
+      "dupOf": "25754w8325h"
     },
     {
       "id": "yi9ngus2rr",
@@ -778,7 +2754,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 22,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "黄仁勋卸任后首份财报发布，英伟达进入“后黄仁勋时代”。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
     },
     {
       "id": "1al9q8h1p8v",
@@ -815,10 +2797,10 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 26.6,
+      "score": 36,
       "metrics": {
-        "points": 176,
-        "comments": 122
+        "points": 664,
+        "comments": 518
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50540178",
       "ai": {
@@ -865,8 +2847,195 @@
       "dateOnly": true,
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "GitHub让AI接管工作流，单次默认预算10美元。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      },
+      "dupOf": "23qmlw03jou"
+    },
+    {
+      "id": "2ag0ossnna7",
+      "key": "url:openai.com/index/the-silent-consensus",
+      "title": "The Silent Consensus",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "excerpt": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "paper",
+      "score": 30,
+      "ai": {
+        "title": "OpenAI 的无声共识",
+        "summary": "OpenAI 战略未来负责人探讨更强大 AI 对社会的重塑。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:07.930Z"
+      }
+    },
+    {
+      "id": "krq5rs77g1",
+      "key": "url:openai.com/index/advancing-chip-design-with-our-models",
+      "title": "Advancing chip design with OpenAI models",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "excerpt": "OpenAI models optimized circuits used in Jalapeño silicon and improved RISC‑V core designs, showing progress in AI-assisted chip design with GPT‑6 Astra.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 30,
+      "ai": {
+        "title": "OpenAI 模型优化芯片设计",
+        "summary": "OpenAI 模型优化了 Jalapeño 硅片电路和 RISC‑V 核心，展示 GPT‑6 Astra 在 AI 辅助芯片设计上的进展。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "njuhpui7hi",
+      "key": "url:openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "excerpt": "Le Groupe Figaro and OpenAI partner to bring Le Figaro’s journalism to ChatGPT through summaries and excerpts, with links to original stories.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 30,
+      "ai": {
+        "title": "Le Figaro 与 OpenAI 合作",
+        "summary": "Le Figaro 与 OpenAI 合作，将新闻摘要和片段引入 ChatGPT。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "2eg9py51y5o",
+      "key": "url:huggingface.co/blog/moe-expert-streaming",
+      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "url": "https://huggingface.co/blog/moe-expert-streaming",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "model",
+      "score": 36,
+      "ai": {
+        "title": "180B 参数 MoE 推理极限",
+        "summary": "Hugging Face 博客探讨在 32GB 内存下运行 180B 参数 MoE 模型。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:07.930Z"
+      }
+    },
+    {
+      "id": "th9cm3int6",
+      "key": "url:huggingface.co/blog/rumble-2-flash",
+      "title": "Rumble-2-Flash: an open 0.5B speech model for 40+ languages",
+      "url": "https://huggingface.co/blog/rumble-2-flash",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
       "category": "opensource",
-      "score": 18
+      "keywords": [
+        "语音"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "Rumble-2-Flash 开源语音模型",
+        "summary": "Hugging Face 发布 Rumble-2-Flash，一个支持 40 多种语言的 0.5B 开源语音模型。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "1mm6fdoeafw",
+      "key": "arxiv:2611.17621",
+      "title": "AscendGYM: A Cost-Aware Kernel Optimization Benchmark for Real-World Workloads on Ascend NPUs",
+      "url": "https://huggingface.co/papers/2611.17621",
+      "excerpt": "AscendGYM provides a benchmark for assessing kernel optimization capabilities on Ascend NPUs using real-workload test cases, two evaluation modes, and a Speedup-Token Score that balances speedup against token cost.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 24.9,
+      "metrics": {
+        "upvotes": 91,
+        "comments": 2
+      },
+      "ai": {
+        "title": "AscendGYM 基准测试工具",
+        "summary": "AscendGYM 是一个针对 Ascend NPU 的成本感知内核优化基准测试工具。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "25walq35k2q",
+      "key": "arxiv:2611.22115",
+      "title": "TeleChat to Xing4: Advancing Frontier Agentic Models on Domestic Chips and Frameworks",
+      "url": "https://huggingface.co/papers/2611.22115",
+      "excerpt": "We present Xing 4, a series of large language models that extends the TeleChat lineage through coordinated advances in model architecture and training infrastructure on Ascend. This report describes the design principles and systems engineering behind the series, spanning archit…",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 28.6,
+      "metrics": {
+        "upvotes": 149,
+        "comments": 2
+      },
+      "ai": {
+        "title": "TeleChat 到 Xing4：国产芯片上的前沿模型",
+        "summary": "Xing 4 是基于 Ascend 的 TeleChat 系列大模型，展示了国产芯片和框架上的前沿模型进展。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:28.244Z"
+      }
     },
     {
       "id": "f36vjq2coj",
@@ -904,7 +3073,13 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "一张6.8万罚单关掉了AI带货最大的漏洞：不是出镜，是编体验。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
     },
     {
       "id": "1n2ma6jeemx",
@@ -920,7 +3095,13 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "大厂AI对照系：李彦宏布道，马化腾预警。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
     },
     {
       "id": "21kqq7ivv56",
@@ -939,7 +3120,14 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "腾讯版Muse LightVela新版实测：越来越像个人Agent。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      },
+      "dupOf": "hq0lixy5ut"
     },
     {
       "id": "1pn9dcpsmoc",
@@ -954,11 +3142,17 @@
       "publishedAt": "2026-11-17T23:49:07.612Z",
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
-      "category": "industry",
+      "category": "paper",
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "牛津59页长文首提“认知共生体”，具身智能新终局浮出水面。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
     },
     {
       "id": "4shgv20r9z",
@@ -974,7 +3168,13 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "诺奖得主的AI公司累计融资513亿元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:26:02.584Z"
+      }
     },
     {
       "id": "1ajk63uta3w",
@@ -989,9 +3189,15 @@
       "publishedAt": "2026-11-17T23:44:21.913Z",
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
-      "category": "model",
-      "score": 24,
-      "aiAttempts": 1
+      "category": "paper",
+      "score": 18,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "奥特曼坦言不敢全速训练 AI，RLHF 之父警告超级智能可能推翻人类。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
+      }
     },
     {
       "id": "1i3l2s6td7w",
@@ -1215,6 +3421,37 @@
       }
     },
     {
+      "id": "oq4affy11c",
+      "key": "url:complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review",
+      "title": "Harvard researchers find AI coding agents shifted the bottleneck to code review",
+      "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-17T21:16:12.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-18",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 33,
+      "metrics": {
+        "points": 306,
+        "comments": 410
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50538303",
+      "ai": {
+        "title": "AI 编码 Agent 的瓶颈转移",
+        "summary": "哈佛研究发现 AI 编码 Agent 将瓶颈转移至代码审查环节。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:07.930Z"
+      }
+    },
+    {
       "id": "u9e9b9c0fj",
       "key": "url:theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
       "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
@@ -1266,10 +3503,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 19.5,
+      "score": 22.3,
       "metrics": {
-        "stars": 16949,
-        "starsToday": 201
+        "stars": 17135,
+        "starsToday": 315
       },
       "ai": {
         "title": "Cursor 插件规范与官方插件发布",
@@ -1298,10 +3535,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 29.9,
+      "score": 30,
       "metrics": {
-        "stars": 305669,
-        "starsToday": 902
+        "stars": 306348,
+        "starsToday": 1109
       },
       "ai": {
         "title": "affaan-m/ECC 优化 Claude Code 等工具性能",
@@ -1450,10 +3687,10 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "paper",
-      "score": 22.1,
+      "score": 25.6,
       "metrics": {
-        "points": 114,
-        "comments": 45
+        "points": 174,
+        "comments": 73
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50535740",
       "ai": {
@@ -1477,13 +3714,31 @@
       "firstSeenAt": "2026-11-17T19:48:32.853Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 34,
+      "score": 42,
       "ai": {
         "title": "Microsoft 与 Salesforce 宣布 Copilotforce",
         "summary": "微软与 Salesforce 合作，将客户上下文与行动引入 AI 体验。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:49:31.380Z"
+      },
+      "related": [
+        {
+          "id": "6kl1urnm7w",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/lMs1bM1muspglUjMr1l3?utm_source=rss&utm_medium=article",
+          "title": "GitHub 让 AI 接管工作流，单次默认预算 10 美元：是不是太大方了？",
+          "publishedAt": "2026-11-18T00:00:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "microsoft-ai",
+          "infoq-cn"
+        ],
+        "firstPublishedAt": "2026-11-17T18:10:16.000Z"
       }
     },
     {
@@ -1552,13 +3807,31 @@
       "keywords": [
         "Agent"
       ],
-      "score": 30,
+      "score": 38,
       "ai": {
         "title": "Meta 在澳大利亚推出 Muse 个人 AI 代理",
         "summary": "Meta 推出 Muse 个人 AI 代理，覆盖创意、购物等多领域。",
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:49:31.380Z"
+      },
+      "related": [
+        {
+          "id": "21kqq7ivv56",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4073960952141449",
+          "title": "腾讯版Muse？LightVela新版实测：越来越像个人Agent，但还不够完美",
+          "publishedAt": "2026-11-17T23:51:38.947Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "meta",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-17T18:00:31.000Z"
       }
     },
     {
@@ -1580,8 +3853,8 @@
       ],
       "score": 90,
       "metrics": {
-        "points": 1152,
-        "comments": 730
+        "points": 1331,
+        "comments": 842
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50535230",
       "alsoOn": [
@@ -1625,6 +3898,14 @@
           "publishedAt": "2026-11-17T23:44:08.275Z"
         },
         {
+          "id": "sd0wiq6xio",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4074370835977092",
+          "title": "GPT-6.2Astra与Sol突袭发布，OpenAI狙击Anthropic上市日，任务成本仅为Claude的5%",
+          "publishedAt": "2026-11-18T00:45:27.000Z"
+        },
+        {
           "id": "1mc1uiyykl7",
           "sourceId": "qbitai",
           "sourceName": "量子位",
@@ -1639,10 +3920,18 @@
           "url": "https://www.jiqizhixin.com/articles/2026-11-18-2",
           "title": "刚刚，OpenAI发布GPT-6.2 Astra和Sol",
           "publishedAt": "2026-11-18T02:13:00.000Z"
+        },
+        {
+          "id": "em9jqqf7iy",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4075178142864513",
+          "title": "GPT-6.2 Astra首发24小时口碑大翻车，硅谷大佬集体差评",
+          "publishedAt": "2026-11-18T12:02:36.662Z"
         }
       ],
       "story": {
-        "reports": 8,
+        "reports": 10,
         "sources": [
           "openai",
           "hackernews",
@@ -1654,8 +3943,8 @@
         ],
         "firstPublishedAt": "2026-11-17T03:30:48.365Z",
         "metrics": {
-          "points": 1152,
-          "comments": 730
+          "points": 1331,
+          "comments": 842
         }
       },
       "ai": {
@@ -1777,13 +4066,31 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 30,
+      "score": 38,
       "ai": {
         "title": "Google AI Studio 现在可构建完整 Android 应用",
         "summary": "Google AI Studio 新增功能，允许开发者通过单次提示构建完整 Android 应用。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T04:21:23.281Z"
+      },
+      "related": [
+        {
+          "id": "k9r3uqtr6k",
+          "sourceId": "google-ai",
+          "sourceName": "Google AI",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+          "title": "The Gemini app is now available on lower-memory Android devices.",
+          "publishedAt": "2026-11-18T17:00:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "google-dev",
+          "google-ai"
+        ],
+        "firstPublishedAt": "2026-11-17T17:00:00.000Z"
       }
     },
     {

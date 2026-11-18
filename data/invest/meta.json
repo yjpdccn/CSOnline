@@ -1,6 +1,36 @@
 {
   "history": [
     {
+      "startedAt": "2026-11-18T19:23:28.467Z",
+      "finishedAt": "2026-11-18T19:27:34.895Z",
+      "durationMs": 246428,
+      "trigger": "schedule",
+      "scheduledFor": "2026-11-18T11:13:00.000Z",
+      "delayMinutes": 490,
+      "news": {
+        "fetched": 888,
+        "relevant": 445,
+        "added": 170
+      },
+      "ai": {
+        "enabled": true,
+        "titles": 8,
+        "overview": "ai",
+        "requests": 2
+      },
+      "health": {
+        "ok": true,
+        "warn": 0,
+        "minor": 1
+      },
+      "alerts": 14,
+      "suggestions": 8,
+      "notify": {
+        "result": "held",
+        "title": "投资日报：1 项重大事件"
+      }
+    },
+    {
       "startedAt": "2026-11-18T04:18:35.311Z",
       "finishedAt": "2026-11-18T04:24:27.939Z",
       "durationMs": 352628,
@@ -1437,21 +1467,31 @@
     }
   ],
   "lastRun": {
-    "startedAt": "2026-11-18T04:18:35.311Z",
-    "finishedAt": "2026-11-18T04:24:27.939Z",
-    "durationMs": 352628,
+    "startedAt": "2026-11-18T19:23:28.467Z",
+    "finishedAt": "2026-11-18T19:27:34.895Z",
+    "durationMs": 246428,
     "trigger": "schedule",
-    "scheduledFor": "2026-11-17T23:13:00.000Z",
-    "delayMinutes": 306,
+    "scheduledFor": "2026-11-18T11:13:00.000Z",
+    "delayMinutes": 490,
     "sources": [
       {
         "id": "eastmoney-quotes",
         "name": "东方财富行情",
         "kind": "行情",
         "ok": true,
-        "count": 21,
+        "count": 20,
         "total": 21,
-        "ms": 1185
+        "ms": 20581,
+        "error": "上海金：网络错误（UND_ERR_SOCKET）"
+      },
+      {
+        "id": "fallback-quotes",
+        "name": "备用行情来源",
+        "kind": "行情",
+        "ok": true,
+        "count": 20,
+        "ms": 0,
+        "error": "东方财富未响应，改用：中证A500（腾讯行情）、标普500（腾讯行情）、标普500等权重（腾讯行情）、沪深300（腾讯行情）、纳斯达克100（腾讯行情）、510300（腾讯行情）、512890（腾讯行情）、518850（腾讯行情）、518880（腾讯行情）、513500（腾讯行情）、513100（腾讯行情）、501060（腾讯行情）、中证中金优选300（中证指数）、中证红利低波动（中证指数）、黄金9999（东方财富延时行情，最新值）、中国10年期国债收益率（东方财富延时行情，最新值）、现货黄金（东方财富延时行情，最新值）、美元指数（东方财富延时行情，最新值）、美债10年期收益率（东方财富延时行情，最新值）、美元/离岸人民币（东方财富延时行情，最新值）"
       },
       {
         "id": "treasury",
@@ -1459,7 +1499,7 @@
         "kind": "行情",
         "ok": true,
         "count": 220,
-        "ms": 178
+        "ms": 874
       },
       {
         "id": "danjuan",
@@ -1467,7 +1507,7 @@
         "kind": "估值",
         "ok": true,
         "count": 63,
-        "ms": 832
+        "ms": 597
       },
       {
         "id": "csindex",
@@ -1476,7 +1516,7 @@
         "ok": true,
         "count": 2,
         "total": 2,
-        "ms": 2906
+        "ms": 3530
       },
       {
         "id": "fund-nav",
@@ -1485,7 +1525,7 @@
         "ok": true,
         "count": 26,
         "total": 26,
-        "ms": 19456
+        "ms": 837
       },
       {
         "id": "fund-fees",
@@ -1494,15 +1534,15 @@
         "ok": true,
         "count": 26,
         "total": 26,
-        "ms": 2275
+        "ms": 1204
       },
       {
         "id": "wscn-global",
         "name": "华尔街见闻",
         "kind": "新闻",
         "ok": true,
-        "count": 128,
-        "ms": 21883
+        "count": 139,
+        "ms": 3196
       },
       {
         "id": "wscn-gold",
@@ -1510,15 +1550,15 @@
         "kind": "新闻",
         "ok": true,
         "count": 100,
-        "ms": 18461
+        "ms": 671
       },
       {
         "id": "wscn-us",
         "name": "华尔街见闻·美股",
         "kind": "新闻",
         "ok": true,
-        "count": 14,
-        "ms": 18356
+        "count": 21,
+        "ms": 690
       },
       {
         "id": "cls",
@@ -1526,7 +1566,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 100,
-        "ms": 19368
+        "ms": 1693
       },
       {
         "id": "em-focus",
@@ -1534,7 +1574,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 100,
-        "ms": 19208
+        "ms": 1251
       },
       {
         "id": "em-pboc",
@@ -1542,7 +1582,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 50,
-        "ms": 1087
+        "ms": 1059
       },
       {
         "id": "em-cb",
@@ -1550,7 +1590,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 50,
-        "ms": 1160
+        "ms": 1032
       },
       {
         "id": "em-commodity",
@@ -1558,15 +1598,15 @@
         "kind": "新闻",
         "ok": true,
         "count": 50,
-        "ms": 1152
+        "ms": 1070
       },
       {
         "id": "sina",
         "name": "新浪财经",
         "kind": "新闻",
         "ok": true,
-        "count": 101,
-        "ms": 5901
+        "count": 150,
+        "ms": 1920
       },
       {
         "id": "cnbc-economy",
@@ -1574,7 +1614,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 30,
-        "ms": 114
+        "ms": 337
       },
       {
         "id": "cnbc-top",
@@ -1582,7 +1622,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 30,
-        "ms": 153
+        "ms": 230
       },
       {
         "id": "ft-markets",
@@ -1590,7 +1630,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 25,
-        "ms": 337
+        "ms": 311
       },
       {
         "id": "marketwatch",
@@ -1598,7 +1638,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 10,
-        "ms": 63
+        "ms": 24
       },
       {
         "id": "fed",
@@ -1606,15 +1646,15 @@
         "kind": "新闻",
         "ok": true,
         "count": 15,
-        "ms": 78
+        "ms": 39
       },
       {
         "id": "ecb",
         "name": "欧洲央行",
         "kind": "新闻",
         "ok": true,
-        "count": 4,
-        "ms": 394
+        "count": 3,
+        "ms": 478
       },
       {
         "id": "nbs",
@@ -1622,7 +1662,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 15,
-        "ms": 4499
+        "ms": 3115
       },
       {
         "id": "wscn-calendar",
@@ -1630,7 +1670,7 @@
         "kind": "日历",
         "ok": true,
         "count": 11,
-        "ms": 478
+        "ms": 325
       },
       {
         "id": "fomc",
@@ -1638,7 +1678,7 @@
         "kind": "日历",
         "ok": true,
         "count": 4,
-        "ms": 36
+        "ms": 126
       },
       {
         "id": "fund-notices",
@@ -1647,7 +1687,7 @@
         "ok": true,
         "count": 26,
         "total": 26,
-        "ms": 6010
+        "ms": 3199
       },
       {
         "id": "peer-status",
@@ -1656,31 +1696,29 @@
         "ok": true,
         "count": 19,
         "total": 19,
-        "ms": 5189
+        "ms": 4285
       }
     ],
     "news": {
-      "fetched": 822,
-      "relevant": 369,
-      "added": 83
+      "fetched": 888,
+      "relevant": 445,
+      "added": 170
     },
     "ai": {
       "enabled": true,
-      "titles": 0,
-      "overview": "fallback",
-      "requests": 3,
-      "error": "英文标题：模型繁忙：HTTP 429 · 1305 该模型当前访问量过大，请您稍后再试；市场概览：模型繁忙：HTTP 429 · 1305 该模型当前访问量过大，请您稍后再试"
+      "titles": 8,
+      "overview": "ai",
+      "requests": 2
     },
     "health": {
       "ok": true,
       "warn": 0,
-      "minor": 0
+      "minor": 1
     },
-    "alerts": 13,
+    "alerts": 14,
     "suggestions": 8,
     "notify": {
-      "result": "sent",
-      "channel": "serverchan",
+      "result": "held",
       "title": "投资日报：1 项重大事件"
     }
   }

@@ -22,7 +22,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:50:48.690Z"
-      }
+      },
+      "dupOf": "1bwfu6b5nv0"
     },
     {
       "id": "goq6mvoa1g",
@@ -45,7 +46,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:50:48.690Z"
-      }
+      },
+      "dupOf": "2qt6pv8ij1"
     },
     {
       "id": "1y8n3o3b3eq",
@@ -79,7 +81,7 @@
       "day": "2026-11-17",
       "category": "industry",
       "score": 15,
-      "dupOf": "t871ra3bqm"
+      "dupOf": "1vghfmyqwno"
     },
     {
       "id": "o231z3yviz",
@@ -96,7 +98,7 @@
       "day": "2026-11-17",
       "category": "industry",
       "score": 15,
-      "dupOf": "2a4e7wqbcyx"
+      "dupOf": "1wh5sms4fgl"
     },
     {
       "id": "t871ra3bqm",
@@ -112,32 +114,15 @@
       "firstSeenAt": "2026-11-17T19:48:32.853Z",
       "day": "2026-11-17",
       "category": "industry",
-      "score": 23,
-      "related": [
-        {
-          "id": "k7c48nesp6",
-          "sourceId": "the-decoder",
-          "sourceName": "The Decoder",
-          "url": "https://the-decoder.com/isomorphic-labs-raises-5-billion-in-its-second-mega-round-within-six-months/",
-          "title": "Isomorphic Labs raises $5 billion in its second mega-round within six months",
-          "publishedAt": "2026-11-17T14:57:02.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "techcrunch-ai",
-          "the-decoder"
-        ],
-        "firstPublishedAt": "2026-11-17T14:50:58.000Z"
-      },
+      "score": 15,
       "ai": {
         "title": "Isomorphic Labs 融资 50 亿美元推进 AI 药物研发",
         "summary": "Isomorphic Labs 融资 50 亿美元，旨在将 AI 药物研发推向临床试验。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:50:48.690Z"
-      }
+      },
+      "dupOf": "1vghfmyqwno"
     },
     {
       "id": "223dsebhuce",
@@ -160,7 +145,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:50:48.690Z"
-      }
+      },
+      "dupOf": "2qt6pv8ij1"
     },
     {
       "id": "qa3kturuwa",
@@ -175,10 +161,10 @@
       "firstSeenAt": "2026-11-17T19:48:32.853Z",
       "day": "2026-11-17",
       "category": "industry",
-      "score": 28.5,
+      "score": 28.8,
       "metrics": {
-        "points": 186,
-        "comments": 244
+        "points": 191,
+        "comments": 254
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50531751",
       "ai": {
@@ -270,7 +256,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:50:48.690Z"
-      }
+      },
+      "dupOf": "tlzih2bmwj"
     },
     {
       "id": "205zzq72vny",
@@ -292,7 +279,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:51:14.081Z"
-      }
+      },
+      "dupOf": "1wh5sms4fgl"
     },
     {
       "id": "xjvcnrw9w5",
@@ -361,7 +349,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:51:14.081Z"
-      }
+      },
+      "dupOf": "1wh5sms4fgl"
     },
     {
       "id": "2e0qguedhtw",
@@ -467,7 +456,7 @@
       "score": 24.2,
       "metrics": {
         "points": 140,
-        "comments": 74
+        "comments": 75
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50530450",
       "ai": {
@@ -647,12 +636,30 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "最大规模具身大模型挑战赛落幕，DeepSeek与LingBot-VLA .0协同完成真机任务。",
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:52:28.423Z"
+      },
+      "related": [
+        {
+          "id": "1vihbbn0th4",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-18-3",
+          "title": "解锁具身智能的GPT时刻？浙大宇树开源500万条机器人预训练数据",
+          "publishedAt": "2026-11-18T02:17:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "geekpark",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-17T11:18:55.000Z"
       }
     },
     {
@@ -1006,10 +1013,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 31.1,
+      "score": 31.6,
       "metrics": {
-        "points": 275,
-        "comments": 220
+        "points": 290,
+        "comments": 230
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50529612",
       "ai": {
@@ -1035,9 +1042,9 @@
       "day": "2026-11-17",
       "category": "model",
       "categoryLocked": true,
-      "score": 24.3,
+      "score": 26.4,
       "metrics": {
-        "likes": 215
+        "likes": 322
       },
       "skipLlm": true
     },
@@ -1320,12 +1327,30 @@
       "firstSeenAt": "2026-11-17T19:48:32.853Z",
       "day": "2026-11-17",
       "category": "model",
-      "score": 24,
+      "score": 32,
       "ai": {
         "summary": "Gemini 新模型即将发布，引发网友关于其功能的猜测。",
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:51:14.081Z"
+      },
+      "related": [
+        {
+          "id": "1lymrzdgtuj",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/510922.html",
+          "title": "Gemini新模型Neon箭在弦上，网友：遍历元素周期表？",
+          "publishedAt": "2026-11-18T09:41:55.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-11-17T07:34:25.884Z"
       }
     },
     {
@@ -2014,6 +2039,28 @@
       "dupOf": "iap25sf6jg"
     },
     {
+      "id": "1jqgbm2i4yf",
+      "key": "hf:tencent/hy4-flash",
+      "title": "tencent/Hy4-flash",
+      "url": "https://huggingface.co/tencent/Hy4-flash",
+      "excerpt": "Hugging Face 趋势榜第 8 名 · 图文理解 · 214 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-17T03:44:46.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-17",
+      "category": "model",
+      "categoryLocked": true,
+      "score": 24.3,
+      "metrics": {
+        "likes": 214
+      },
+      "skipLlm": true,
+      "dupOf": "26lkjazmagp"
+    },
+    {
       "id": "2qt6pv8ij1",
       "key": "url:36kr.com/p/4073292469752969",
       "title": "估值一年翻倍，美国AI独角兽拿下20亿新融资",
@@ -2027,12 +2074,38 @@
       "firstSeenAt": "2026-11-17T05:05:03.313Z",
       "day": "2026-11-17",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "美国AI独角兽获20亿融资，估值一年翻倍。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T05:07:21.091Z"
+      },
+      "related": [
+        {
+          "id": "223dsebhuce",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/science-corporations-brain-tech-is-worth-3-5-billion-after-new-funding/",
+          "title": "Science Corp 脑科技融资 4 亿美元估值 35 亿美元",
+          "publishedAt": "2026-11-17T14:26:46.000Z"
+        },
+        {
+          "id": "goq6mvoa1g",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/voyage-labs-raises-12-million-for-a-specialized-ai-travel-assistant/",
+          "title": "Voyage Labs 融资 1200 万美元推出 AI 旅行助手",
+          "publishedAt": "2026-11-17T15:00:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "36kr-ai",
+          "techcrunch-ai"
+        ],
+        "firstPublishedAt": "2026-11-17T03:42:54.576Z"
       }
     },
     {
@@ -2347,12 +2420,81 @@
       "firstSeenAt": "2026-11-17T05:05:03.313Z",
       "day": "2026-11-17",
       "category": "industry",
-      "score": 18,
+      "score": 42,
       "ai": {
         "summary": "宝洁从 SDLC 到 ADLC 的 AI 原生组织实验，探索 AI 驱动的开发流程。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T05:08:31.206Z"
+      },
+      "related": [
+        {
+          "id": "2a4e7wqbcyx",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+          "title": "加州州检察长起诉 OpenAI",
+          "publishedAt": "2026-11-16T20:07:13.000Z"
+        },
+        {
+          "id": "qmh3li2tvq",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/science/1034694/nuclear-energy-constellation-earnings-data-centers-democrats",
+          "title": "核电站将为 Meta 数据中心供电",
+          "publishedAt": "2026-11-16T20:29:37.000Z"
+        },
+        {
+          "id": "1799h547bi0",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
+          "title": "California sues OpenAI over rogue AI hacking incidents",
+          "publishedAt": "2026-11-16T20:46:01.000Z"
+        },
+        {
+          "id": "3gweaefqz5",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4073689128801417",
+          "title": "纳德拉回应微软首次给工程师发“离场费”：Claude Code 让微软措手不及，二十年 IDE 优势半年动摇",
+          "publishedAt": "2026-11-17T13:24:20.476Z"
+        },
+        {
+          "id": "205zzq72vny",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4073687278294145",
+          "title": "AI巨头抢购发电机，能源正在成为AI竞争的新变量",
+          "publishedAt": "2026-11-17T13:34:14.423Z"
+        },
+        {
+          "id": "o231z3yviz",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/californias-attorney-general-sues-openai-over-rogue-ai-models-that-attacked-hugging-face/",
+          "title": "California's attorney general sues OpenAI over rogue AI models that attacked Hugging Face",
+          "publishedAt": "2026-11-17T14:54:10.000Z"
+        },
+        {
+          "id": "gwktiq0p4j",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/zUC0vHq9xm3BFHSqQlw3?utm_source=rss&utm_medium=article",
+          "title": "纳德拉回应微软首次给工程师发“离场费”：Claude Code 让微软措手不及，二十年 IDE 优势半年动摇",
+          "publishedAt": "2026-11-18T05:55:35.000Z"
+        }
+      ],
+      "story": {
+        "reports": 8,
+        "sources": [
+          "infoq-cn",
+          "techcrunch-ai",
+          "verge-ai",
+          "36kr-ai",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-11-16T20:07:13.000Z"
       }
     },
     {
@@ -2585,10 +2727,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 24.5,
+      "score": 24.7,
       "metrics": {
-        "points": 131,
-        "comments": 112
+        "points": 134,
+        "comments": 113
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50526152",
       "ai": {
@@ -2776,13 +2918,31 @@
       "firstSeenAt": "2026-11-17T19:48:32.853Z",
       "day": "2026-11-17",
       "category": "industry",
-      "score": 30,
+      "score": 38,
       "ai": {
         "title": "OpenAI 与北约合作加强网络防御",
         "summary": "OpenAI 与北约及盟国网络机构合作，利用 AI 帮助防御者发现漏洞。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:50:48.690Z"
+      },
+      "related": [
+        {
+          "id": "nd11s1jmag",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/openai-opens-its-cybersecurity-tool-daybreak-to-nato-and-european-governments/",
+          "title": "OpenAI 向北约和欧洲政府开放网络安全工具 Daybreak",
+          "publishedAt": "2026-11-17T15:02:03.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "openai",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-11-17T00:00:00.000Z"
       }
     },
     {
@@ -2848,9 +3008,9 @@
       "day": "2026-11-17",
       "category": "paper",
       "categoryLocked": true,
-      "score": 25,
+      "score": 25.4,
       "metrics": {
-        "upvotes": 90,
+        "upvotes": 95,
         "comments": 4
       },
       "dupOf": "2d0jljfngrd"
@@ -2870,9 +3030,9 @@
       "day": "2026-11-17",
       "category": "paper",
       "categoryLocked": true,
-      "score": 23.5,
+      "score": 25.3,
       "metrics": {
-        "upvotes": 74,
+        "upvotes": 95,
         "comments": 2
       },
       "ai": {
@@ -2901,9 +3061,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 23.4,
+      "score": 24.1,
       "metrics": {
-        "upvotes": 73,
+        "upvotes": 81,
         "comments": 2
       },
       "ai": {
@@ -2929,9 +3089,9 @@
       "day": "2026-11-17",
       "category": "paper",
       "categoryLocked": true,
-      "score": 23.1,
+      "score": 23.4,
       "metrics": {
-        "upvotes": 69,
+        "upvotes": 72,
         "comments": 4
       },
       "ai": {
@@ -2971,6 +3131,38 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T04:21:23.281Z"
+      }
+    },
+    {
+      "id": "imhhd5zwxv",
+      "key": "arxiv:2611.20218",
+      "title": "SWE-CoWork: Benchmarking Coding Agents as Digital Employees in Organizations",
+      "url": "https://huggingface.co/papers/2611.20218",
+      "excerpt": "A benchmark of realistic software engineering assignments reveals that current coding agents struggle to track requirements from clarification through implementation, verification, and handoff, completing few tasks despite partial test success.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-17",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 21.2,
+      "metrics": {
+        "upvotes": 51,
+        "comments": 4
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "SWE-CoWork 基准测试显示当前编码 Agent 在组织内作为数字员工时难以完成复杂任务。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T19:25:46.328Z"
       }
     },
     {
@@ -3056,8 +3248,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 715,
-        "comments": 595
+        "points": 726,
+        "comments": 615
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50524736",
       "ai": {
@@ -3109,10 +3301,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 28.7,
+      "score": 30,
       "metrics": {
-        "stars": 69240,
-        "starsToday": 772
+        "stars": 69848,
+        "starsToday": 1062
       },
       "ai": {
         "title": "last30days-skill：跨平台研究 Agent",
@@ -3142,8 +3334,8 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 3229,
-        "starsToday": 1175
+        "stars": 4099,
+        "starsToday": 1529
       },
       "ai": {
         "title": "PaperOrchestra：自动化论文写作框架",
@@ -3204,7 +3396,7 @@
         "Agent"
       ],
       "score": 15,
-      "dupOf": "2a4e7wqbcyx"
+      "dupOf": "1wh5sms4fgl"
     },
     {
       "id": "2ctvs2izprh",
@@ -3244,7 +3436,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-16T21:02:00.789Z"
-      }
+      },
+      "dupOf": "1wh5sms4fgl"
     },
     {
       "id": "gqxeusp084",
@@ -3286,41 +3479,15 @@
       "keywords": [
         "Agent"
       ],
-      "score": 31,
-      "related": [
-        {
-          "id": "1799h547bi0",
-          "sourceId": "verge-ai",
-          "sourceName": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1034815/california-openai-hugging-face-lawsuit",
-          "title": "California sues OpenAI over rogue AI hacking incidents",
-          "publishedAt": "2026-11-16T20:46:01.000Z"
-        },
-        {
-          "id": "o231z3yviz",
-          "sourceId": "the-decoder",
-          "sourceName": "The Decoder",
-          "url": "https://the-decoder.com/californias-attorney-general-sues-openai-over-rogue-ai-models-that-attacked-hugging-face/",
-          "title": "California's attorney general sues OpenAI over rogue AI models that attacked Hugging Face",
-          "publishedAt": "2026-11-17T14:54:10.000Z"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "techcrunch-ai",
-          "verge-ai",
-          "the-decoder"
-        ],
-        "firstPublishedAt": "2026-11-16T20:07:13.000Z"
-      },
+      "score": 15,
       "ai": {
         "title": "加州州检察长起诉 OpenAI",
         "summary": "加州州检察长起诉 OpenAI，这是首次针对 AI 实验室 rogue agent 事件的诉讼。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-16T21:00:30.626Z"
-      }
+      },
+      "dupOf": "1wh5sms4fgl"
     },
     {
       "id": "vyondxyti3",
@@ -3456,13 +3623,31 @@
       "firstSeenAt": "2026-11-16T20:58:41.846Z",
       "day": "2026-11-17",
       "category": "industry",
-      "score": 15,
+      "score": 23,
       "ai": {
         "title": "OpenAI 推出工具识别儿童虐待图像",
         "summary": "OpenAI 发布分类器，帮助调查人员快速识别有害的儿童虐待图像。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-16T21:02:00.789Z"
+      },
+      "related": [
+        {
+          "id": "1sv71d7yt18",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/17/spotifys-new-tool-aims-to-stop-deepfakes-from-being-attributed-to-real-artists/",
+          "title": "Spotify 新工具旨在阻止深度伪造被归因于真实艺术家",
+          "publishedAt": "2026-11-17T14:00:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "verge-ai",
+          "techcrunch-ai"
+        ],
+        "firstPublishedAt": "2026-11-16T19:23:45.000Z"
       }
     },
     {
@@ -3597,9 +3782,9 @@
         "Agent",
         "本地部署"
       ],
-      "score": 20.3,
+      "score": 20.9,
       "metrics": {
-        "stars": 952
+        "stars": 1053
       },
       "ai": {
         "title": "推理优化技能：提升本地 LLM 服务速度",
@@ -3672,6 +3857,30 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-16T21:00:30.626Z"
       }
+    },
+    {
+      "id": "1awp7tc7mza",
+      "key": "hf:apple/fastframes-l",
+      "title": "apple/FastFrames-L",
+      "url": "https://huggingface.co/apple/FastFrames-L",
+      "excerpt": "Hugging Face 趋势榜第 11 名 · 文生视频 · 190 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-16T17:21:04.000Z",
+      "firstSeenAt": "2026-11-18T19:23:28.467Z",
+      "day": "2026-11-17",
+      "category": "multimodal",
+      "categoryLocked": true,
+      "keywords": [
+        "视频生成"
+      ],
+      "score": 17.7,
+      "metrics": {
+        "likes": 190
+      },
+      "skipLlm": true
     },
     {
       "id": "96urliwtyb",
@@ -4219,10 +4428,18 @@
           "url": "https://www.qbitai.com/2026/11/510726.html",
           "title": "黄仁勋不再沉默：我愿重掌英伟达！董事会：不考虑",
           "publishedAt": "2026-11-18T01:03:42.000Z"
+        },
+        {
+          "id": "ea4v9l4ovq",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4074882755416969",
+          "title": "黄仁勋不再沉默：我愿重掌英伟达，董事会：不考虑",
+          "publishedAt": "2026-11-18T07:47:29.808Z"
         }
       ],
       "story": {
-        "reports": 13,
+        "reports": 14,
         "sources": [
           "nvidia",
           "qbitai",

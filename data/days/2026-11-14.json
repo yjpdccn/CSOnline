@@ -19,9 +19,9 @@
       "keywords": [
         "语音"
       ],
-      "score": 18.7,
+      "score": 19.6,
       "metrics": {
-        "likes": 233
+        "likes": 279
       },
       "skipLlm": true,
       "dupOf": "1masb9uvnon"
@@ -124,10 +124,26 @@
           "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
           "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
           "publishedAt": "2026-11-17T21:00:55.000Z"
+        },
+        {
+          "id": "17q4tdide9h",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/openai-ceo-sam-altman-says-its-hard-to-imagine-the-ai-industry-without-jensen/",
+          "title": "OpenAI CEO Sam Altman says it’s ‘hard to imagine the AI industry without Jensen’",
+          "publishedAt": "2026-11-18T16:14:09.000Z"
+        },
+        {
+          "id": "169gf3666ow",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+          "title": "Sam Altman warns against a future where AI, not humans, calls the shots",
+          "publishedAt": "2026-11-18T16:59:00.000Z"
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 6,
         "sources": [
           "verge-ai",
           "techcrunch-ai"
@@ -955,9 +971,9 @@
       "day": "2026-11-14",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 20,
+      "score": 20.9,
       "metrics": {
-        "stars": 895
+        "stars": 1054
       },
       "aiAttempts": 1,
       "ai": {
@@ -1830,9 +1846,9 @@
       "keywords": [
         "推理模型"
       ],
-      "score": 18.1,
+      "score": 18.5,
       "metrics": {
-        "stars": 624
+        "stars": 674
       }
     },
     {
