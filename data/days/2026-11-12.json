@@ -776,9 +776,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18.1,
+      "score": 18.7,
       "metrics": {
-        "stars": 623
+        "stars": 709
       }
     },
     {
@@ -957,9 +957,9 @@
       "day": "2026-11-12",
       "category": "multimodal",
       "categoryLocked": true,
-      "score": 30.7,
+      "score": 31.2,
       "metrics": {
-        "likes": 485
+        "likes": 523
       },
       "skipLlm": true,
       "alsoOn": [
@@ -1305,9 +1305,9 @@
       "day": "2026-11-12",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 22.6,
+      "score": 22.8,
       "metrics": {
-        "stars": 1413
+        "stars": 1459
       }
     },
     {
@@ -1561,7 +1561,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 4505
+        "stars": 4592
       },
       "aiAttempts": 2,
       "ai": {
@@ -1659,7 +1659,7 @@
       ],
       "score": 17.9,
       "metrics": {
-        "stars": 591
+        "stars": 596
       }
     },
     {
@@ -3805,7 +3805,7 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-12",
       "category": "opensource",
-      "score": 10,
+      "score": 25.1,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xtlyhe/new_qwen3827b_unsloth_dynamic_v31_ggufs/",
       "ai": {
         "title": "新 Qwen3.8-27B Unsloth Dynamic V3.1 GGUFs",
@@ -3813,6 +3813,27 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-12T03:49:24.609Z"
+      },
+      "related": [
+        {
+          "id": "1nzc1zrbyru",
+          "sourceId": "hf-models",
+          "sourceName": "HF 热门模型",
+          "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+          "title": "harness-hub/Qwen3.8-27B-pi-adapted",
+          "publishedAt": "2026-11-16T06:52:31.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "reddit-localllama",
+          "hf-models"
+        ],
+        "firstPublishedAt": "2026-11-11T16:17:55.000Z",
+        "metrics": {
+          "likes": 169
+        }
       }
     },
     {

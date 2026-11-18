@@ -1,13 +1,20 @@
 {
-  "updatedAt": "2026-11-17T19:48:32.853Z",
+  "updatedAt": "2026-11-18T04:18:35.310Z",
   "bands": {
-    "ndx": "mid",
+    "ndx": "low",
     "spx": "mid",
     "csi300": "mid",
     "cicc300": "mid",
     "divlowvol": "high"
   },
   "events": [
+    {
+      "id": "valuation:ndx:low:2026-11-17",
+      "kind": "valuation",
+      "at": "2026-11-17T15:59:00.000Z",
+      "title": "纳斯达克100估值进入低估区（低于 20%）",
+      "detail": "市盈率 25.5，2016 年以来的分位 15%（蛋卷基金，11月17日）。"
+    },
     {
       "id": "rate:cb:fed:2026-11-13",
       "kind": "rate",

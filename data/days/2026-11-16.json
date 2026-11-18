@@ -103,6 +103,36 @@
       }
     },
     {
+      "id": "2ax3gklopxi",
+      "key": "gh:boringmarketer/boring-marketing-skills",
+      "title": "boringmarketer/boring-marketing-skills",
+      "url": "https://github.com/boringmarketer/boring-marketing-skills",
+      "excerpt": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-16T15:09:46.000Z",
+      "firstSeenAt": "2026-11-18T04:18:35.310Z",
+      "day": "2026-11-16",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 17.5,
+      "metrics": {
+        "stars": 551
+      },
+      "ai": {
+        "title": "boring-marketing-skills：AI Agent 营销技能库",
+        "summary": "开源项目提供 32 个免费营销技能，助力 AI Agent 完成营销任务。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T04:21:23.281Z"
+      }
+    },
+    {
       "id": "24sg1sro854",
       "key": "url:techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely",
       "title": "US tightens AI chip export controls to deter Chinese companies from accessing compute remotely",
@@ -427,7 +457,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 54.2,
+      "score": 55,
       "related": [
         {
           "id": "21vewhkqptc",
@@ -455,8 +485,8 @@
         ],
         "firstPublishedAt": "2026-11-16T11:36:14.000Z",
         "metrics": {
-          "upvotes": 83,
-          "comments": 1
+          "upvotes": 90,
+          "comments": 4
         }
       },
       "ai": {
@@ -684,16 +714,17 @@
       "day": "2026-11-16",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 19.9,
+      "score": 23.4,
       "metrics": {
-        "stars": 877
+        "stars": 1616
       },
       "aiAttempts": 1,
       "ai": {
-        "summary": "Rust-Anything 项目允许开发者逐步将现有应用重写为 Rust，并验证每一步行为。",
+        "title": "rust-anything：逐步用 Rust 重写应用",
+        "summary": "项目允许开发者逐步将现有应用重写为 Rust，并验证行为一致性。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-17T19:51:14.081Z"
+        "at": "2026-11-18T04:21:23.281Z"
       }
     },
     {
@@ -1291,12 +1322,38 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "安徽擎天智能完成数千万元融资，物理AI破解装车难题。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-16T21:03:08.255Z"
+      },
+      "related": [
+        {
+          "id": "vb1j6mmycz",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4074640638628998",
+          "title": "物理AI数据基座服务商“柏川数据”完成5000元 Pre-A轮融资",
+          "publishedAt": "2026-11-18T02:18:48.041Z"
+        },
+        {
+          "id": "1kzo4w05llr",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4074671426442376",
+          "title": "“耀速科技”完成新一轮数千万元战略融资",
+          "publishedAt": "2026-11-18T02:50:07.180Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "jiqizhixin",
+          "36kr-flash"
+        ],
+        "firstPublishedAt": "2026-11-16T09:32:00.000Z"
       }
     },
     {
@@ -1850,6 +1907,28 @@
       "category": "industry",
       "score": 18,
       "dupOf": "uo17l5ltqn"
+    },
+    {
+      "id": "1nzc1zrbyru",
+      "key": "hf:harness-hub/qwen3.8-27b-pi-adapted",
+      "title": "harness-hub/Qwen3.8-27B-pi-adapted",
+      "url": "https://huggingface.co/harness-hub/Qwen3.8-27B-pi-adapted",
+      "excerpt": "Hugging Face 趋势榜第 10 名 · 169 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-16T06:52:31.000Z",
+      "firstSeenAt": "2026-11-18T04:18:35.310Z",
+      "day": "2026-11-16",
+      "category": "model",
+      "categoryLocked": true,
+      "score": 23.1,
+      "metrics": {
+        "likes": 169
+      },
+      "skipLlm": true,
+      "dupOf": "27temos6bvw"
     },
     {
       "id": "106n0ddx7c8",
@@ -2544,7 +2623,7 @@
       ],
       "score": 26.1,
       "metrics": {
-        "stars": 10028,
+        "stars": 10161,
         "starsToday": 540
       },
       "ai": {
@@ -2603,7 +2682,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 8897,
+        "stars": 9614,
         "starsToday": 1094
       },
       "ai": {
@@ -3849,7 +3928,7 @@
       ],
       "score": 24.8,
       "metrics": {
-        "upvotes": 88,
+        "upvotes": 89,
         "comments": 3
       },
       "ai": {
@@ -3878,9 +3957,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 34.9,
+      "score": 35.2,
       "metrics": {
-        "upvotes": 117,
+        "upvotes": 122,
         "comments": 4
       },
       "related": [
@@ -3909,7 +3988,7 @@
         ],
         "firstPublishedAt": "2026-11-16T00:00:00.000Z",
         "metrics": {
-          "upvotes": 117,
+          "upvotes": 122,
           "comments": 4
         }
       },
@@ -3940,9 +4019,9 @@
         "Agent",
         "具身智能"
       ],
-      "score": 27.4,
+      "score": 27.5,
       "metrics": {
-        "upvotes": 124,
+        "upvotes": 126,
         "comments": 5
       },
       "ai": {
@@ -4006,6 +4085,30 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:50:48.690Z"
+      }
+    },
+    {
+      "id": "wetdqayez6",
+      "key": "url:machinelearning.apple.com/research/split-scale-latent-3d",
+      "title": "Split-and-Scale Latent 3D Representations",
+      "url": "https://machinelearning.apple.com/research/split-scale-latent-3d",
+      "excerpt": "Latent 3D representations have significantly expanded the capabilities of modern shape modeling, enabling compact encoding of 3D scenes and supporting powerful 3D generative models. Despite this progress, current representations struggle to capture the fine details of complex ob…",
+      "lang": "en",
+      "sourceId": "apple-ml",
+      "sourceName": "Apple 机器学习研究",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-16T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-18T04:18:35.310Z",
+      "day": "2026-11-16",
+      "category": "paper",
+      "score": 30,
+      "ai": {
+        "title": "Split-and-Scale 3D 表征",
+        "summary": "Apple 研究提出 Split-and-Scale 方法，提升 3D 表征细节捕捉能力。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T04:21:23.281Z"
       }
     },
     {

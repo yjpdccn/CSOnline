@@ -19,9 +19,9 @@
       "keywords": [
         "语音"
       ],
-      "score": 18.5,
+      "score": 18.7,
       "metrics": {
-        "likes": 225
+        "likes": 233
       },
       "skipLlm": true,
       "dupOf": "1masb9uvnon"
@@ -116,10 +116,18 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1034787/sam-altman-ram-shortage-semafor",
           "title": "Sam Altman says he wants everyone ‘to have a lot of RAM’",
           "publishedAt": "2026-11-16T20:41:28.000Z"
+        },
+        {
+          "id": "u9e9b9c0fj",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/news/1035957/meta-alexandr-wang-sam-altman-instagram-ai-deepfake",
+          "title": "Not even Sam Altman is safe from AI deepfakes on Instagram",
+          "publishedAt": "2026-11-17T21:00:55.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "verge-ai",
           "techcrunch-ai"
@@ -947,9 +955,9 @@
       "day": "2026-11-14",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 19.6,
+      "score": 20,
       "metrics": {
-        "stars": 832
+        "stars": 895
       },
       "aiAttempts": 1,
       "ai": {
@@ -1594,7 +1602,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 53611,
+        "stars": 53856,
         "starsToday": 951
       },
       "ai": {
@@ -1822,9 +1830,9 @@
       "keywords": [
         "推理模型"
       ],
-      "score": 18,
+      "score": 18.1,
       "metrics": {
-        "stars": 608
+        "stars": 624
       }
     },
     {

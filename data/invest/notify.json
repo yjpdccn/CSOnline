@@ -1,5 +1,10 @@
 {
   "sent": {
+    "alert:valuation:ndx:low:2026-11-17": {
+      "hash": "valuation:ndx:low:2026-11-17",
+      "label": "纳斯达克100估值进入低估区（低于 20%）",
+      "kind": "event"
+    },
     "alert:replace:008702:008701": {
       "hash": "replace:008702:008701",
       "label": "华夏黄金ETF联接C（008702）",
@@ -43,5 +48,5 @@
   },
   "issueNumber": 1,
   "channel": "serverchan",
-  "lastSentAt": "2026-11-13T03:25:34.645Z"
+  "lastSentAt": "2026-11-18T04:18:35.310Z"
 }

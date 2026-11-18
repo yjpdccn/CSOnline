@@ -175,10 +175,10 @@
       "firstSeenAt": "2026-11-17T19:48:32.853Z",
       "day": "2026-11-17",
       "category": "industry",
-      "score": 27.8,
+      "score": 28.5,
       "metrics": {
-        "points": 174,
-        "comments": 216
+        "points": 186,
+        "comments": 244
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50531751",
       "ai": {
@@ -464,10 +464,10 @@
       "firstSeenAt": "2026-11-17T19:48:32.853Z",
       "day": "2026-11-17",
       "category": "paper",
-      "score": 23.9,
+      "score": 24.2,
       "metrics": {
-        "points": 135,
-        "comments": 72
+        "points": 140,
+        "comments": 74
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50530450",
       "ai": {
@@ -1006,10 +1006,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 28.1,
+      "score": 31.1,
       "metrics": {
-        "points": 201,
-        "comments": 158
+        "points": 275,
+        "comments": 220
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50529612",
       "ai": {
@@ -1019,6 +1019,27 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:50:48.690Z"
       }
+    },
+    {
+      "id": "1xuhriwztql",
+      "key": "hf:sensenova/sensenova-loop-9b",
+      "title": "sensenova/SenseNova-Loop-9B",
+      "url": "https://huggingface.co/sensenova/SenseNova-Loop-9B",
+      "excerpt": "Hugging Face 趋势榜第 8 名 · 图文理解 · 215 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-17T10:16:41.000Z",
+      "firstSeenAt": "2026-11-18T04:18:35.310Z",
+      "day": "2026-11-17",
+      "category": "model",
+      "categoryLocked": true,
+      "score": 24.3,
+      "metrics": {
+        "likes": 215
+      },
+      "skipLlm": true
     },
     {
       "id": "1w6ch59uusd",
@@ -1223,6 +1244,29 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:52:28.423Z"
+      }
+    },
+    {
+      "id": "1ifve4nk94z",
+      "key": "url:openai.com/index/introducing-chatgpt-for-sales",
+      "title": "Introducing ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "excerpt": "Explore the new Sales plugin and 30+ new and expanded partner plugins in ChatGPT to research prospects, prepare pitches, update your CRM, and move deals forward.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-17T08:00:00.000Z",
+      "firstSeenAt": "2026-11-18T04:18:35.310Z",
+      "day": "2026-11-17",
+      "category": "agent",
+      "score": 34,
+      "ai": {
+        "title": "OpenAI 推出 ChatGPT for Sales",
+        "summary": "OpenAI 发布 Sales 插件，助力销售研究、准备提案和更新 CRM。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T04:21:23.281Z"
       }
     },
     {
@@ -2417,6 +2461,23 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T05:07:21.091Z"
+      },
+      "related": [
+        {
+          "id": "1k7c5mmt0sf",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4074537665418116",
+          "title": "百亿美金入场，谁在给AI4S定价",
+          "publishedAt": "2026-11-18T01:56:34.697Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-17T01:53:41.645Z"
       }
     },
     {
@@ -2524,10 +2585,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 24.2,
+      "score": 24.5,
       "metrics": {
-        "points": 126,
-        "comments": 110
+        "points": 131,
+        "comments": 112
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50526152",
       "ai": {
@@ -2787,10 +2848,10 @@
       "day": "2026-11-17",
       "category": "paper",
       "categoryLocked": true,
-      "score": 24.2,
+      "score": 25,
       "metrics": {
-        "upvotes": 83,
-        "comments": 1
+        "upvotes": 90,
+        "comments": 4
       },
       "dupOf": "2d0jljfngrd"
     },
@@ -2809,10 +2870,10 @@
       "day": "2026-11-17",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.3,
+      "score": 23.5,
       "metrics": {
-        "upvotes": 62,
-        "comments": 1
+        "upvotes": 74,
+        "comments": 2
       },
       "ai": {
         "title": "InclusionMed：包容性医疗 AI 基准测试",
@@ -2840,10 +2901,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22.7,
+      "score": 23.4,
       "metrics": {
-        "upvotes": 66,
-        "comments": 1
+        "upvotes": 73,
+        "comments": 2
       },
       "ai": {
         "title": "K2-Horizon：开源语言模型前沿舰队",
@@ -2868,10 +2929,10 @@
       "day": "2026-11-17",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.8,
+      "score": 23.1,
       "metrics": {
-        "upvotes": 66,
-        "comments": 3
+        "upvotes": 69,
+        "comments": 4
       },
       "ai": {
         "title": "AllocFlow：从原始市场数据生成投资组合交易动作",
@@ -2879,6 +2940,37 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:50:48.690Z"
+      }
+    },
+    {
+      "id": "u48bvkkrf4",
+      "key": "arxiv:2611.07222",
+      "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
+      "url": "https://huggingface.co/papers/2611.07222",
+      "excerpt": "Tool-using agents act on email, files, and payments, so an instruction hidden in a web page or a shared document can make an agent send data or money to an attacker. Many runtime defenses put a language model on the decision that lets an action through, so the decision depends o…",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-17T00:00:00.000Z",
+      "firstSeenAt": "2026-11-18T04:18:35.310Z",
+      "day": "2026-11-17",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 21.7,
+      "metrics": {
+        "upvotes": 56,
+        "comments": 2
+      },
+      "ai": {
+        "title": "SPILLWAY 分离目标准入与净化以防御工具使用 Agent",
+        "summary": "论文提出 SPILLWAY 方法，防御工具使用 Agent 遭受提示注入攻击。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-18T04:21:23.281Z"
       }
     },
     {
@@ -2964,8 +3056,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 696,
-        "comments": 573
+        "points": 715,
+        "comments": 595
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50524736",
       "ai": {
@@ -3019,7 +3111,7 @@
       ],
       "score": 28.7,
       "metrics": {
-        "stars": 68874,
+        "stars": 69240,
         "starsToday": 772
       },
       "ai": {
@@ -3050,7 +3142,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 2781,
+        "stars": 3229,
         "starsToday": 1175
       },
       "ai": {
@@ -3505,9 +3597,9 @@
         "Agent",
         "本地部署"
       ],
-      "score": 19.5,
+      "score": 20.3,
       "metrics": {
-        "stars": 823
+        "stars": 952
       },
       "ai": {
         "title": "推理优化技能：提升本地 LLM 服务速度",
@@ -4119,10 +4211,18 @@
           "url": "https://www.jiqizhixin.com/articles/2026-11-17",
           "title": "英伟达董事会被曝尚未考虑黄仁勋回归",
           "publishedAt": "2026-11-17T02:10:00.000Z"
+        },
+        {
+          "id": "1ybmpr4wld2",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/510726.html",
+          "title": "黄仁勋不再沉默：我愿重掌英伟达！董事会：不考虑",
+          "publishedAt": "2026-11-18T01:03:42.000Z"
         }
       ],
       "story": {
-        "reports": 12,
+        "reports": 13,
         "sources": [
           "nvidia",
           "qbitai",

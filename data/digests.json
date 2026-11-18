@@ -777,40 +777,39 @@
   },
   "2026-11-18": {
     "day": "2026-11-18",
-    "generatedAt": "2026-11-17T19:53:39.746Z",
-    "itemCount": 136,
-    "mode": "ai",
-    "model": "glm-4.7-flash",
-    "overview": "OpenAI、Google、NVIDIA等巨头密集发布新模型与Agent工具，AI研发与行业应用加速落地。",
+    "generatedAt": "2026-11-18T04:22:48.514Z",
+    "itemCount": 134,
+    "mode": "fallback",
+    "overview": "过去 24 小时共收录 134 条 AI 资讯：产品与行业 82 条、Agent 与工具 20 条、论文 12 条、模型发布 11 条、开源项目 6 条、多模态与视频 3 条。以下为按重要性排序的前 5 条。",
     "points": [
       {
-        "text": "OpenAI 发布 GPT-6.2 Astra 和 Sol，提升专业输出与编程效率。",
+        "text": "【模型】OpenAI 发布 GPT-6.2 Astra 和 Sol",
         "refs": [
           "25754w8325h"
         ]
       },
       {
-        "text": "Google 发布 Gemini 4 Hydrogen 机器人模型，具备强大空间推理能力。",
+        "text": "【行业】Google AI 回答减少 40% 搜索流量",
+        "refs": [
+          "1qg2nra39k"
+        ]
+      },
+      {
+        "text": "【模型】Google 发布 Gemini 4 Hydrogen 机器人模型",
         "refs": [
           "k1y90ra9m7"
         ]
       },
       {
-        "text": "NVIDIA 推出 AI Agent 科学工具，助力科研领域应用。",
+        "text": "【模型】GPT-6.2Astra与Sol突袭发布，OpenAI狙击Anthropic上市日，任务成本仅为Claude的5%",
+        "refs": [
+          "sd0wiq6xio"
+        ]
+      },
+      {
+        "text": "【Agent】NVIDIA 推出 AI Agent 科学工具",
         "refs": [
           "16u1r6bbao"
-        ]
-      },
-      {
-        "text": "字节跳动等机构推出 Axion 1.0，具备搜索、代码运行和多步科研能力。",
-        "refs": [
-          "r2fhij7snv"
-        ]
-      },
-      {
-        "text": "材料科学智能体 MatOS 正式开源，大幅提高材料研发任务成功率。",
-        "refs": [
-          "2bz8vn2stsm"
         ]
       }
     ]
