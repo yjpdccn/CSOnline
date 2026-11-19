@@ -17,10 +17,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 23.8,
+      "score": 33.3,
       "metrics": {
-        "points": 137,
-        "comments": 65
+        "points": 398,
+        "comments": 171
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50547777",
       "ai": {
@@ -191,11 +191,13 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "哈佛研究显示美国超大规模数据中心超半数电力来自化石燃料，排放量超丹麦。",
+        "title": "美国数据中心电力来源化石燃料占比超半",
+        "summary": "哈佛研究显示美国超大规模数据中心超半数电力来自化石燃料。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-18T19:25:46.328Z"
-      }
+        "at": "2026-11-19T04:14:03.067Z"
+      },
+      "dupOf": "a4l18i2oxg"
     },
     {
       "id": "15gw5u7ze47",
@@ -267,10 +269,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "KPMG 将 AI 代理引入审计团队，发现其在某些问题上能提出更优问题。",
+        "title": "KPMG 测试 AI 代理审计团队",
+        "summary": "KPMG 将 AI 代理与审计团队结合，发现其提问更深入。",
         "category": "agent",
         "model": "glm-4.7-flash",
-        "at": "2026-11-18T19:25:46.328Z"
+        "at": "2026-11-19T04:14:03.067Z"
       }
     },
     {
@@ -351,10 +354,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "SEC 正在调查 Nvidia 是否隐瞒对华芯片销售，涉及潜在违规行为。",
+        "title": "SEC 调查 Nvidia 对华芯片销售",
+        "summary": "SEC 启动调查，关注 Nvidia 未披露的对华芯片销售。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-18T19:25:46.328Z"
+        "at": "2026-11-19T04:14:03.067Z"
       }
     },
     {
@@ -1309,6 +1313,56 @@
       }
     },
     {
+      "id": "9t8pjtw5z2",
+      "key": "url:openai.com/index/research-acceleration-jagged-frontier",
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "excerpt": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "firstSeenAt": "2026-11-19T04:11:26.145Z",
+      "day": "2026-11-18",
+      "category": "paper",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "OpenAI 研究：编码代理加速 AI 研究",
+        "summary": "OpenAI 研究显示编码代理正在加速 AI 研究，但表现不均。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-19T04:14:03.067Z"
+      }
+    },
+    {
+      "id": "1l6nfshhgu3",
+      "key": "url:openai.com/business/customer-stories/sumitomo-life",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "excerpt": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis. Early use by executives helped drive adoption.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-18T08:00:00.000Z",
+      "firstSeenAt": "2026-11-19T04:11:26.145Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 30,
+      "ai": {
+        "title": "住友生命使用 ChatGPT Enterprise",
+        "summary": "住友生命利用 ChatGPT Enterprise 提升工作效率。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-19T04:14:03.067Z"
+      }
+    },
+    {
       "id": "c6gi8mj3ek",
       "key": "url:qbitai.com/2026/11/510914.html",
       "title": "GPT-6.2难产！OpenAI怕了",
@@ -1479,8 +1533,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 712,
-        "comments": 648
+        "points": 766,
+        "comments": 687
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50542705",
       "ai": {
@@ -1576,7 +1630,7 @@
         "Agent",
         "MCP"
       ],
-      "score": 29.6,
+      "score": 29.7,
       "related": [
         {
           "id": "tmw1m20amw",
@@ -1595,8 +1649,8 @@
         ],
         "firstPublishedAt": "2026-11-18T06:00:00.000Z",
         "metrics": {
-          "stars": 97972,
-          "starsToday": 52
+          "stars": 98094,
+          "starsToday": 53
         }
       },
       "ai": {
@@ -1620,6 +1674,29 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18
+    },
+    {
+      "id": "112h8spech9",
+      "key": "url:openai.com/index/managing-frontier-ai-risk",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "excerpt": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-18T06:00:00.000Z",
+      "firstSeenAt": "2026-11-19T04:11:26.145Z",
+      "day": "2026-11-18",
+      "category": "paper",
+      "score": 30,
+      "ai": {
+        "title": "OpenAI 管理前沿 AI 风险",
+        "summary": "OpenAI 解释如何从训练到部署管理前沿 AI 风险。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-19T04:14:03.067Z"
+      }
     },
     {
       "id": "gwktiq0p4j",
@@ -1669,12 +1746,30 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 22,
+      "score": 30,
       "ai": {
         "summary": "FlagOS × 清昴智能助力国芯高性能上线商用 Token 工厂。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T19:25:46.328Z"
+      },
+      "related": [
+        {
+          "id": "1788p7y281x",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-19-5",
+          "title": "海外算力通道收窄！众智 FlagOS × 清昴智能，助力国芯高性能上线商用 Token 工厂",
+          "publishedAt": "2026-11-19T02:42:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "leiphone",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-18T05:31:00.000Z"
       }
     },
     {
@@ -1727,10 +1822,10 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "model",
-      "score": 35.3,
+      "score": 35.8,
       "metrics": {
-        "points": 252,
-        "comments": 131
+        "points": 267,
+        "comments": 138
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50541790",
       "ai": {
@@ -1843,10 +1938,10 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "paper",
-      "score": 24.6,
+      "score": 25.2,
       "metrics": {
-        "points": 153,
-        "comments": 66
+        "points": 166,
+        "comments": 71
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50541619",
       "ai": {
@@ -2799,8 +2894,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 664,
-        "comments": 518
+        "points": 691,
+        "comments": 542
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50540178",
       "ai": {
@@ -2896,14 +2991,26 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 30,
+      "score": 54.3,
       "ai": {
         "title": "OpenAI 模型优化芯片设计",
         "summary": "OpenAI 模型优化了 Jalapeño 硅片电路和 RISC‑V 核心，展示 GPT‑6 Astra 在 AI 辅助芯片设计上的进展。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T19:25:28.244Z"
-      }
+      },
+      "alsoOn": [
+        {
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50549493"
+        }
+      ],
+      "metrics": {
+        "points": 173,
+        "comments": 111
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50549493"
     },
     {
       "id": "njuhpui7hi",
@@ -2993,10 +3100,10 @@
       "day": "2026-11-18",
       "category": "paper",
       "categoryLocked": true,
-      "score": 24.9,
+      "score": 25,
       "metrics": {
         "upvotes": 91,
-        "comments": 2
+        "comments": 3
       },
       "ai": {
         "title": "AscendGYM 基准测试工具",
@@ -3024,10 +3131,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 28.6,
+      "score": 28.7,
       "metrics": {
-        "upvotes": 149,
-        "comments": 2
+        "upvotes": 151,
+        "comments": 3
       },
       "ai": {
         "title": "TeleChat 到 Xing4：国产芯片上的前沿模型",
@@ -3035,6 +3142,34 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T19:25:28.244Z"
+      }
+    },
+    {
+      "id": "25c7gyrdhb1",
+      "key": "arxiv:2611.22055",
+      "title": "Weight-Space Programming Doesn't Need Transformers",
+      "url": "https://huggingface.co/papers/2611.22055",
+      "excerpt": "When large language models write neural network weights without gradient-based training, they tend to design sparse table or associative-memory models that outperform same-sized Transformers with far fewer parameters and faster GPU inference, though pretrained LLMs remain more a…",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "firstSeenAt": "2026-11-19T04:11:26.145Z",
+      "day": "2026-11-18",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 21.1,
+      "metrics": {
+        "upvotes": 51,
+        "comments": 3
+      },
+      "ai": {
+        "title": "权重空间编程无需 Transformer",
+        "summary": "研究显示 LLM 可设计无需 Transformer 的稀疏模型。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-19T04:14:03.067Z"
       }
     },
     {
@@ -3230,13 +3365,55 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 15,
+      "score": 23,
       "ai": {
         "title": "Satya Nadella 称自己已 \"AGI-pilled\"",
         "summary": "微软 CEO Nadella 表示对 AGI 改变经济和政治结构持乐观态度。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T04:21:23.281Z"
+      },
+      "related": [
+        {
+          "id": "hx9bh1xssr",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+          "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+          "publishedAt": "2026-11-18T22:58:11.000Z"
+        },
+        {
+          "id": "14hn6u9cqsb",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+          "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+          "publishedAt": "2026-11-18T23:17:28.000Z"
+        },
+        {
+          "id": "1qpd7t04aa8",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+          "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+          "publishedAt": "2026-11-18T23:45:00.000Z"
+        },
+        {
+          "id": "1w4m5gd9xx0",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+          "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+          "publishedAt": "2026-11-19T00:42:56.000Z"
+        }
+      ],
+      "story": {
+        "reports": 5,
+        "sources": [
+          "verge-ai",
+          "techcrunch-ai"
+        ],
+        "firstPublishedAt": "2026-11-17T23:41:18.000Z"
       }
     },
     {
@@ -3437,10 +3614,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 33,
+      "score": 33.3,
       "metrics": {
-        "points": 306,
-        "comments": 410
+        "points": 320,
+        "comments": 441
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50538303",
       "ai": {
@@ -3505,7 +3682,7 @@
       ],
       "score": 22.3,
       "metrics": {
-        "stars": 17135,
+        "stars": 17285,
         "starsToday": 315
       },
       "ai": {
@@ -3537,7 +3714,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 306348,
+        "stars": 306652,
         "starsToday": 1109
       },
       "ai": {
@@ -3687,10 +3864,10 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "paper",
-      "score": 25.6,
+      "score": 25.9,
       "metrics": {
-        "points": 174,
-        "comments": 73
+        "points": 181,
+        "comments": 74
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50535740",
       "ai": {
@@ -3853,8 +4030,8 @@
       ],
       "score": 90,
       "metrics": {
-        "points": 1331,
-        "comments": 842
+        "points": 1337,
+        "comments": 852
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50535230",
       "alsoOn": [
@@ -3943,8 +4120,8 @@
         ],
         "firstPublishedAt": "2026-11-17T03:30:48.365Z",
         "metrics": {
-          "points": 1331,
-          "comments": 842
+          "points": 1337,
+          "comments": 852
         }
       },
       "ai": {
@@ -4042,13 +4219,40 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 36,
+      "score": 52,
       "ai": {
         "title": "Google 发布 Gemini 4 Hydrogen 机器人模型",
         "summary": "Google 推出专为机器人设计的高效模型，具备强大的空间推理能力。",
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:49:31.380Z"
+      },
+      "related": [
+        {
+          "id": "t4w17otcbe",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4075845199402119",
+          "title": "刚刚，谷歌Gemini 4再发新款，对标超越GPT-6.2 Sol，世界模型Genie 4也已开放",
+          "publishedAt": "2026-11-19T00:09:30.633Z"
+        },
+        {
+          "id": "vpofy01saj",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-19-2",
+          "title": "刚刚，谷歌Gemini 4再发新款，对标超越GPT-6.2 Sol！世界模型Genie 4也已开放",
+          "publishedAt": "2026-11-19T02:11:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "google-dev",
+          "36kr-ai",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-17T17:00:00.000Z"
       }
     },
     {

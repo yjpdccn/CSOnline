@@ -1,5 +1,10 @@
 {
   "sent": {
+    "alert:move:xau:2026-11-18": {
+      "hash": "move:xau:2026-11-18",
+      "label": "现货黄金 11月18日下跌 3.1%",
+      "kind": "event"
+    },
     "alert:valuation:ndx:low:2026-11-17": {
       "hash": "valuation:ndx:low:2026-11-17",
       "label": "纳斯达克100估值进入低估区（低于 20%）",
@@ -48,6 +53,5 @@
   },
   "issueNumber": 1,
   "channel": "serverchan",
-  "lastSentAt": "2026-11-18T04:18:35.310Z",
-  "held": "2026-11-18T19:23:28.467Z"
+  "lastSentAt": "2026-11-19T04:11:26.145Z"
 }

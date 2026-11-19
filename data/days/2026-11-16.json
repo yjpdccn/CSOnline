@@ -120,9 +120,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18.3,
+      "score": 18.5,
       "metrics": {
-        "stars": 650
+        "stars": 672
       },
       "ai": {
         "title": "boring-marketing-skills：AI Agent 营销技能库",
@@ -714,9 +714,9 @@
       "day": "2026-11-16",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 27.4,
+      "score": 28,
       "metrics": {
-        "stars": 3059
+        "stars": 3572
       },
       "aiAttempts": 1,
       "ai": {
@@ -1958,9 +1958,9 @@
       "day": "2026-11-16",
       "category": "model",
       "categoryLocked": true,
-      "score": 27.1,
+      "score": 28.1,
       "metrics": {
-        "likes": 369
+        "likes": 436
       },
       "skipLlm": true,
       "dupOf": "27temos6bvw"
@@ -2183,7 +2183,7 @@
       "firstSeenAt": "2026-11-16T20:58:41.846Z",
       "day": "2026-11-16",
       "category": "model",
-      "score": 60.3,
+      "score": 60.9,
       "related": [
         {
           "id": "1fc1887ckv3",
@@ -2220,7 +2220,7 @@
         ],
         "firstPublishedAt": "2026-11-16T06:23:27.000Z",
         "metrics": {
-          "likes": 214
+          "likes": 242
         }
       },
       "ai": {
@@ -2670,7 +2670,7 @@
       ],
       "score": 26.1,
       "metrics": {
-        "stars": 10358,
+        "stars": 10456,
         "starsToday": 540
       },
       "ai": {
@@ -2760,7 +2760,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 3622,
+        "stars": 3811,
         "starsToday": 953
       },
       "ai": {
@@ -3419,12 +3419,30 @@
       "firstSeenAt": "2026-11-16T02:44:10.077Z",
       "day": "2026-11-16",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "韩国 LS 电气斩获 1300 亿韩元美国 AI 数据中心订单。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-16T02:48:58.393Z"
+      },
+      "related": [
+        {
+          "id": "km025o60yr",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/more-than-half-the-electricity-feeding-americas-largest-data-centers-comes-from-gas-and-coal/",
+          "title": "美国数据中心电力来源化石燃料占比超半",
+          "publishedAt": "2026-11-18T14:25:04.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-11-16T00:57:05.344Z"
       }
     },
     {

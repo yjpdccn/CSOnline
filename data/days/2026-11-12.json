@@ -776,9 +776,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 19.5,
+      "score": 19.7,
       "metrics": {
-        "stars": 815
+        "stars": 848
       }
     },
     {
@@ -957,9 +957,9 @@
       "day": "2026-11-12",
       "category": "multimodal",
       "categoryLocked": true,
-      "score": 32.4,
+      "score": 33.1,
       "metrics": {
-        "likes": 640
+        "likes": 712
       },
       "skipLlm": true,
       "alsoOn": [
@@ -1305,9 +1305,9 @@
       "day": "2026-11-12",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 23.3,
+      "score": 23.5,
       "metrics": {
-        "stars": 1609
+        "stars": 1648
       }
     },
     {
@@ -1561,7 +1561,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 4803
+        "stars": 4877
       },
       "aiAttempts": 2,
       "ai": {
@@ -1657,9 +1657,9 @@
       "keywords": [
         "语音"
       ],
-      "score": 18,
+      "score": 18.1,
       "metrics": {
-        "stars": 609
+        "stars": 623
       }
     },
     {
@@ -3805,7 +3805,7 @@
       "firstSeenAt": "2026-11-11T18:39:22.009Z",
       "day": "2026-11-12",
       "category": "opensource",
-      "score": 29.1,
+      "score": 30.1,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xtlyhe/new_qwen3827b_unsloth_dynamic_v31_ggufs/",
       "ai": {
         "title": "新 Qwen3.8-27B Unsloth Dynamic V3.1 GGUFs",
@@ -3832,7 +3832,7 @@
         ],
         "firstPublishedAt": "2026-11-11T16:17:55.000Z",
         "metrics": {
-          "likes": 369
+          "likes": 436
         }
       }
     },

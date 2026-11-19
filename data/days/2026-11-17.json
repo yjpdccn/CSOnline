@@ -164,7 +164,7 @@
       "score": 28.8,
       "metrics": {
         "points": 191,
-        "comments": 254
+        "comments": 256
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50531751",
       "ai": {
@@ -1015,7 +1015,7 @@
       ],
       "score": 31.6,
       "metrics": {
-        "points": 290,
+        "points": 292,
         "comments": 230
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50529612",
@@ -1042,9 +1042,9 @@
       "day": "2026-11-17",
       "category": "model",
       "categoryLocked": true,
-      "score": 26.4,
+      "score": 26.6,
       "metrics": {
-        "likes": 322
+        "likes": 333
       },
       "skipLlm": true
     },
@@ -2053,9 +2053,9 @@
       "day": "2026-11-17",
       "category": "model",
       "categoryLocked": true,
-      "score": 24.3,
+      "score": 24.9,
       "metrics": {
-        "likes": 214
+        "likes": 242
       },
       "skipLlm": true,
       "dupOf": "26lkjazmagp"
@@ -3030,9 +3030,9 @@
       "day": "2026-11-17",
       "category": "paper",
       "categoryLocked": true,
-      "score": 25.3,
+      "score": 25.6,
       "metrics": {
-        "upvotes": 95,
+        "upvotes": 99,
         "comments": 2
       },
       "ai": {
@@ -3061,9 +3061,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 24.1,
+      "score": 24.4,
       "metrics": {
-        "upvotes": 81,
+        "upvotes": 84,
         "comments": 2
       },
       "ai": {
@@ -3157,7 +3157,7 @@
         "upvotes": 51,
         "comments": 4
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "SWE-CoWork 基准测试显示当前编码 Agent 在组织内作为数字员工时难以完成复杂任务。",
         "category": "paper",
@@ -3248,8 +3248,8 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 726,
-        "comments": 615
+        "points": 728,
+        "comments": 619
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50524736",
       "ai": {
@@ -3303,7 +3303,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 69848,
+        "stars": 70165,
         "starsToday": 1062
       },
       "ai": {
@@ -3334,7 +3334,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 4099,
+        "stars": 4427,
         "starsToday": 1529
       },
       "ai": {
@@ -3782,9 +3782,9 @@
         "Agent",
         "本地部署"
       ],
-      "score": 20.9,
+      "score": 21.3,
       "metrics": {
-        "stars": 1053
+        "stars": 1137
       },
       "ai": {
         "title": "推理优化技能：提升本地 LLM 服务速度",
@@ -3876,11 +3876,39 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 17.7,
+      "score": 18.4,
       "metrics": {
-        "likes": 190
+        "likes": 222
       },
       "skipLlm": true
+    },
+    {
+      "id": "7fdrsmzth8",
+      "key": "hn:50520076",
+      "title": "Ask HN: If AI tools are so good, why isn't your bug backlog empty?",
+      "url": "https://news.ycombinator.com/item?id=50520076",
+      "excerpt": "A lot of people outside tech ask me if AI is going to replace programmers and I just think: if that were the case we should be running out of things to doThe bug backlog should be empty and we've caught up to every feature request from PMs to the point that we are bottlenecked o…",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-16T17:20:28.000Z",
+      "firstSeenAt": "2026-11-19T04:11:26.145Z",
+      "day": "2026-11-17",
+      "category": "industry",
+      "score": 23,
+      "metrics": {
+        "points": 101,
+        "comments": 114
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50520076",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "探讨 AI 工具虽强，为何程序员 bug 积压依然严重。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-19T04:15:12.542Z"
+      }
     },
     {
       "id": "96urliwtyb",
@@ -4436,16 +4464,25 @@
           "url": "https://36kr.com/p/4074882755416969",
           "title": "黄仁勋不再沉默：我愿重掌英伟达，董事会：不考虑",
           "publishedAt": "2026-11-18T07:47:29.808Z"
+        },
+        {
+          "id": "1m87aga9avg",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+          "title": "马斯克称黄仁勋不可或缺",
+          "publishedAt": "2026-11-18T23:25:17.000Z"
         }
       ],
       "story": {
-        "reports": 14,
+        "reports": 15,
         "sources": [
           "nvidia",
           "qbitai",
           "36kr-ai",
           "jiqizhixin",
-          "verge-ai"
+          "verge-ai",
+          "techcrunch-ai"
         ],
         "firstPublishedAt": "2026-11-12T08:16:11.000Z"
       }

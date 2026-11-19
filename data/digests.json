@@ -816,40 +816,41 @@
   },
   "2026-11-19": {
     "day": "2026-11-19",
-    "generatedAt": "2026-11-18T19:26:57.035Z",
-    "itemCount": 136,
+    "generatedAt": "2026-11-19T04:17:05.285Z",
+    "itemCount": 125,
     "mode": "ai",
     "model": "glm-4.7-flash",
-    "overview": "Genie 4与Kling Image 4.0发布，豆包日活破800万，Anthropic冲刺史上最大IPO。",
+    "overview": "Gemini 4 Neon 与 Genie 4 上线，Anthropic IPO 定价引发市场关注。",
     "points": [
       {
-        "text": "Google DeepMind发布Genie 4模型。",
+        "text": "Google DeepMind 发布 Genie 4。",
         "refs": [
           "ohfwxzmvdu"
         ]
       },
       {
-        "text": "可灵AI发布Kling Image 4.0，支持原生8K与组图直出。",
+        "text": "Anthropic IPO 定价 83 美元，估值达 1.5 万亿美元。",
         "refs": [
-          "2eb4maw105f"
+          "v1a2oop0po",
+          "3d6ose6zax"
         ]
       },
       {
-        "text": "字节跳动豆包工作日活突破800万，企业客户ARR超20亿元。",
+        "text": "港中深与微软研究院提出多模态统一建模架构 ConvexLLM。",
+        "refs": [
+          "1rhrzim8xqe"
+        ]
+      },
+      {
+        "text": "全球首个医疗健康 AI 独立评测平台 InclusionMed 正式上线。",
+        "refs": [
+          "9s2e2kmx0d"
+        ]
+      },
+      {
+        "text": "豆包工作日活突破 800 万，企业客户 ARR 突破 20 亿元。",
         "refs": [
           "1f8340jo5v8"
-        ]
-      },
-      {
-        "text": "Anthropic冲刺史上最大IPO，据悉获近七倍超额认购。",
-        "refs": [
-          "2clljw4job9"
-        ]
-      },
-      {
-        "text": "微软推出MAI系列自研模型，旨在降低成本并支持AI Agent。",
-        "refs": [
-          "ikzr7r5yew"
         ]
       }
     ]
