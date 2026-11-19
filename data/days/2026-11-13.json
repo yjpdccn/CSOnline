@@ -2322,9 +2322,9 @@
       "day": "2026-11-13",
       "category": "model",
       "categoryLocked": true,
-      "score": 25.4,
+      "score": 26.2,
       "metrics": {
-        "likes": 266
+        "likes": 313
       },
       "skipLlm": true
     },
@@ -2838,9 +2838,9 @@
       "day": "2026-11-13",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 25.3,
+      "score": 26.1,
       "metrics": {
-        "stars": 2193
+        "stars": 2486
       }
     },
     {
@@ -2919,9 +2919,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 17.3,
+      "score": 17.4,
       "metrics": {
-        "stars": 529
+        "stars": 535
       },
       "aiAttempts": 1,
       "ai": {
@@ -3474,7 +3474,7 @@
       "metrics": {
         "stars": 514
       },
-      "dupOf": "29185twikil"
+      "dupOf": "2f4sum9n32d"
     },
     {
       "id": "29185twikil",
@@ -3498,6 +3498,31 @@
       "score": 17.2,
       "metrics": {
         "stars": 509
+      }
+    },
+    {
+      "id": "2f4sum9n32d",
+      "key": "gh:precygtrucqui1981/blender-ai-copilot-lab",
+      "title": "precygtrucqui1981/blender-ai-copilot-lab",
+      "url": "https://github.com/precygtrucqui1981/blender-ai-copilot-lab",
+      "excerpt": "An AI lab for Blender where manager–worker–reviewer agent teams run multi-step scene briefs as supervised experiments—a live task board, review findings, one correction attempt per blocked task, named undo, and a built-in MCP server. · blender-ai-copilot-lab · blender · blender…",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-12T19:33:16.000Z",
+      "firstSeenAt": "2026-11-19T19:28:42.947Z",
+      "day": "2026-11-13",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "MCP",
+        "AI 编程"
+      ],
+      "score": 17.2,
+      "metrics": {
+        "stars": 506
       },
       "related": [
         {
@@ -3514,7 +3539,7 @@
         "sources": [
           "github-new"
         ],
-        "firstPublishedAt": "2026-11-12T19:35:10.000Z",
+        "firstPublishedAt": "2026-11-12T19:33:16.000Z",
         "metrics": {
           "stars": 514
         }

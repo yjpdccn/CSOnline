@@ -161,10 +161,10 @@
       "firstSeenAt": "2026-11-17T19:48:32.853Z",
       "day": "2026-11-17",
       "category": "industry",
-      "score": 28.8,
+      "score": 28.9,
       "metrics": {
         "points": 191,
-        "comments": 256
+        "comments": 258
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50531751",
       "ai": {
@@ -589,12 +589,30 @@
       "firstSeenAt": "2026-11-17T19:48:32.853Z",
       "day": "2026-11-17",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "Anthropic获准在纳斯达克全球精选市场上市。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:52:04.016Z"
+      },
+      "related": [
+        {
+          "id": "1xva7o3afgz",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/at-nasdaq-opening-bell-anthropic-ceo-recommits-to-pacing-ai-development/",
+          "title": "Anthropic CEO 在纳斯达克开盘钟声上重申 AI 开发节奏",
+          "publishedAt": "2026-11-19T16:19:41.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "techcrunch-ai"
+        ],
+        "firstPublishedAt": "2026-11-17T11:36:54.321Z"
       }
     },
     {
@@ -1128,12 +1146,30 @@
       "firstSeenAt": "2026-11-17T19:48:32.853Z",
       "day": "2026-11-17",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "Sam Altman罕见发声：没有黄仁勋的英伟达难以想象。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:52:04.016Z"
+      },
+      "related": [
+        {
+          "id": "1t221ycs8fx",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/Mf3Zbm9JF3RWbkvjMKYZ?utm_source=rss&utm_medium=article",
+          "title": "Sam Altman罕见发声：我不担心Anthropic先上市，市场上不缺投资者",
+          "publishedAt": "2026-11-19T14:57:55.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "infoq-cn"
+        ],
+        "firstPublishedAt": "2026-11-17T09:26:22.570Z"
       }
     },
     {
@@ -2053,9 +2089,9 @@
       "day": "2026-11-17",
       "category": "model",
       "categoryLocked": true,
-      "score": 24.9,
+      "score": 26.3,
       "metrics": {
-        "likes": 242
+        "likes": 318
       },
       "skipLlm": true,
       "dupOf": "26lkjazmagp"
@@ -3303,7 +3339,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 70165,
+        "stars": 70690,
         "starsToday": 1062
       },
       "ai": {
@@ -3721,7 +3757,7 @@
       "category": "model",
       "score": 16,
       "discussionUrl": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxs0a/small_gemma_4_tokenizers_were_recently_updated_by/",
-      "dupOf": "1h81en1en5u"
+      "dupOf": "1pj8p00dtla"
     },
     {
       "id": "191qb6xui2n",
@@ -3782,9 +3818,9 @@
         "Agent",
         "本地部署"
       ],
-      "score": 21.3,
+      "score": 21.8,
       "metrics": {
-        "stars": 1137
+        "stars": 1237
       },
       "ai": {
         "title": "推理优化技能：提升本地 LLM 服务速度",
@@ -3876,9 +3912,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 18.4,
+      "score": 19.9,
       "metrics": {
-        "likes": 222
+        "likes": 294
       },
       "skipLlm": true
     },
@@ -4472,10 +4508,18 @@
           "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
           "title": "马斯克称黄仁勋不可或缺",
           "publishedAt": "2026-11-18T23:25:17.000Z"
+        },
+        {
+          "id": "2fqo1zzlk7t",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4076477976990601",
+          "title": "马斯克在深圳力挺黄仁勋",
+          "publishedAt": "2026-11-19T11:12:57.881Z"
         }
       ],
       "story": {
-        "reports": 15,
+        "reports": 16,
         "sources": [
           "nvidia",
           "qbitai",

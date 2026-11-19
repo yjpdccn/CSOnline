@@ -854,5 +854,40 @@
         ]
       }
     ]
+  },
+  "2026-11-20": {
+    "day": "2026-11-20",
+    "generatedAt": "2026-11-19T19:31:47.942Z",
+    "itemCount": 131,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "Gemini 获得在 Mac 上执行任务的能力，Anthropic IPO 创下历史纪录。",
+    "points": [
+      {
+        "text": "Gemini 获得在 Mac 上执行任务的能力，可组织文件并处理多步骤工作流。",
+        "refs": [
+          "h4bgmxi8g"
+        ]
+      },
+      {
+        "text": "Gemini API 引入工具检索功能，让 Agent 能访问数百个工具并节省 Token。",
+        "refs": [
+          "14yweit63xe"
+        ]
+      },
+      {
+        "text": "Anthropic IPO 定价 83 美元/股，创下历史最高纪录。",
+        "refs": [
+          "2b6wnmit9x1",
+          "14oxdwdtqs0"
+        ]
+      },
+      {
+        "text": "Claude 解决黑洞物理学中的两个开放问题。",
+        "refs": [
+          "2gk2ytgqq8c"
+        ]
+      }
+    ]
   }
 }

@@ -2,6 +2,33 @@
   "day": "2026-11-18",
   "items": [
     {
+      "id": "tsqhjnwhb1",
+      "key": "gh:sourmitocand1987/vividframe-gpu",
+      "title": "sourmitocand1987/VividFrame-GPU",
+      "url": "https://github.com/sourmitocand1987/VividFrame-GPU",
+      "excerpt": "Any source. One real-time GPU enhancement pipeline. · video enhancer · gpu video · real-time video enhancement · hdr · super-resolution · game-streaming · moonlight · dolby-vision · frame-interpolation · video-player · media-player · video-super-resolution · video-processing · u…",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-18T15:51:00.000Z",
+      "firstSeenAt": "2026-11-19T19:28:42.947Z",
+      "day": "2026-11-18",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 17.5,
+      "metrics": {
+        "stars": 547
+      },
+      "ai": {
+        "title": "VividFrame-GPU 实时视频增强",
+        "summary": "VividFrame-GPU 提供单次 GPU 增强管道，支持 HDR、超分辨率和插帧。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-19T19:29:49.581Z"
+      }
+    },
+    {
       "id": "1gc9t2rnooo",
       "key": "url:europeanbusinessmagazine.com/ai-agents-better-questions-kpmg",
       "title": "AI agents ask better questions than KPMG accountants in audit trial",
@@ -17,10 +44,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 33.3,
+      "score": 35.1,
       "metrics": {
-        "points": 398,
-        "comments": 171
+        "points": 478,
+        "comments": 244
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50547777",
       "ai": {
@@ -1533,8 +1560,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 766,
-        "comments": 687
+        "points": 801,
+        "comments": 707
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50542705",
       "ai": {
@@ -1822,10 +1849,10 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "model",
-      "score": 35.8,
+      "score": 36,
       "metrics": {
-        "points": 267,
-        "comments": 138
+        "points": 274,
+        "comments": 139
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50541790",
       "ai": {
@@ -1850,12 +1877,30 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "极客公园创新大会 2027 嘉宾阵容公布，主题为“Revaluation 价值，另有答案”。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T19:25:46.328Z"
+      },
+      "related": [
+        {
+          "id": "2ai6edee1u8",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/511258.html",
+          "title": "影视飓风、Manus、影石、OPPO……极客公园创新大会 2027 嘉宾阵容更新！",
+          "publishedAt": "2026-11-19T08:43:10.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "geekpark",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-11-18T04:12:11.000Z"
       }
     },
     {
@@ -1938,10 +1983,10 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "paper",
-      "score": 25.2,
+      "score": 25.7,
       "metrics": {
-        "points": 166,
-        "comments": 71
+        "points": 176,
+        "comments": 76
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50541619",
       "ai": {
@@ -2894,8 +2939,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 691,
-        "comments": 542
+        "points": 708,
+        "comments": 561
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50540178",
       "ai": {
@@ -2991,7 +3036,7 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 54.3,
+      "score": 56.8,
       "ai": {
         "title": "OpenAI 模型优化芯片设计",
         "summary": "OpenAI 模型优化了 Jalapeño 硅片电路和 RISC‑V 核心，展示 GPT‑6 Astra 在 AI 辅助芯片设计上的进展。",
@@ -3007,8 +3052,8 @@
         }
       ],
       "metrics": {
-        "points": 173,
-        "comments": 111
+        "points": 219,
+        "comments": 165
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50549493"
     },
@@ -3100,9 +3145,9 @@
       "day": "2026-11-18",
       "category": "paper",
       "categoryLocked": true,
-      "score": 25,
+      "score": 25.1,
       "metrics": {
-        "upvotes": 91,
+        "upvotes": 92,
         "comments": 3
       },
       "ai": {
@@ -3131,9 +3176,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 28.7,
+      "score": 29.1,
       "metrics": {
-        "upvotes": 151,
+        "upvotes": 159,
         "comments": 3
       },
       "ai": {
@@ -3159,9 +3204,9 @@
       "day": "2026-11-18",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.1,
+      "score": 21.5,
       "metrics": {
-        "upvotes": 51,
+        "upvotes": 54,
         "comments": 3
       },
       "ai": {
@@ -3614,10 +3659,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 33.3,
+      "score": 33.4,
       "metrics": {
-        "points": 320,
-        "comments": 441
+        "points": 322,
+        "comments": 455
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50538303",
       "ai": {
@@ -3680,10 +3725,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 22.3,
+      "score": 23.6,
       "metrics": {
-        "stars": 17285,
-        "starsToday": 315
+        "stars": 17500,
+        "starsToday": 383
       },
       "ai": {
         "title": "Cursor 插件规范与官方插件发布",
@@ -3740,10 +3785,10 @@
       "day": "2026-11-18",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 19.3,
+      "score": 22,
       "metrics": {
-        "stars": 66135,
-        "starsToday": 192
+        "stars": 66776,
+        "starsToday": 301
       },
       "ai": {
         "title": "minimind：2 小时训练 64M 参数 LLM",
@@ -3777,6 +3822,33 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-17T19:49:31.380Z"
+      }
+    },
+    {
+      "id": "1w8x9m3fy3s",
+      "key": "url:zerohedge.com/political/anthropic-paid-rubios-ex-chief-staffs-firm-740000-after-jensen-memo-it-lobbied-his-nsc",
+      "title": "Anthropic Paid Rubio's Ex-Chief of Staff's Firm $740k.it Lobbied His NSC",
+      "url": "https://www.zerohedge.com/political/anthropic-paid-rubios-ex-chief-staffs-firm-740000-after-jensen-memo-it-lobbied-his-nsc",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-17T19:08:45.000Z",
+      "firstSeenAt": "2026-11-19T19:28:42.947Z",
+      "day": "2026-11-18",
+      "category": "industry",
+      "score": 20.4,
+      "metrics": {
+        "points": 101,
+        "comments": 17
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50536565",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Anthropic 向 Rubio 的前幕僚长公司支付 74 万美元游说费。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-19T19:29:49.581Z"
       }
     },
     {
@@ -3864,10 +3936,10 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "paper",
-      "score": 25.9,
+      "score": 26.1,
       "metrics": {
-        "points": 181,
-        "comments": 74
+        "points": 186,
+        "comments": 75
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50535740",
       "ai": {
@@ -4030,8 +4102,8 @@
       ],
       "score": 90,
       "metrics": {
-        "points": 1337,
-        "comments": 852
+        "points": 1345,
+        "comments": 859
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50535230",
       "alsoOn": [
@@ -4120,8 +4192,8 @@
         ],
         "firstPublishedAt": "2026-11-17T03:30:48.365Z",
         "metrics": {
-          "points": 1337,
-          "comments": 852
+          "points": 1345,
+          "comments": 859
         }
       },
       "ai": {

@@ -1430,24 +1430,8 @@
       "firstSeenAt": "2026-11-09T13:08:33.517Z",
       "day": "2026-11-09",
       "category": "industry",
-      "score": 34,
+      "score": 26,
       "related": [
-        {
-          "id": "5slauttj2a",
-          "sourceId": "verge-ai",
-          "sourceName": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1027599/openai-gpt-6-cyber-launch",
-          "title": "OpenAI 发布 GPT-6 Cyber 安全模型",
-          "publishedAt": "2026-11-05T17:00:00.000Z"
-        },
-        {
-          "id": "1dhy8ofxzo7",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4057467760661378",
-          "title": "刚刚，GPT-6 Cyber 正式发布，AI 最强的矛也成了最强的盾",
-          "publishedAt": "2026-11-05T23:45:34.300Z"
-        },
         {
           "id": "1z7t0hqwih4",
           "sourceId": "36kr-ai",
@@ -1458,13 +1442,12 @@
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 2,
         "sources": [
           "jiqizhixin",
-          "verge-ai",
           "36kr-ai"
         ],
-        "firstPublishedAt": "2026-11-05T17:00:00.000Z"
+        "firstPublishedAt": "2026-11-08T08:26:19.570Z"
       },
       "ai": {
         "summary": "文章探讨两年内将 GPT-6 智能装进手机的端侧智能发展。",

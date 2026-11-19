@@ -120,9 +120,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18.5,
+      "score": 18.7,
       "metrics": {
-        "stars": 672
+        "stars": 709
       },
       "ai": {
         "title": "boring-marketing-skills：AI Agent 营销技能库",
@@ -716,7 +716,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 3572
+        "stars": 4922
       },
       "aiAttempts": 1,
       "ai": {
@@ -1958,9 +1958,9 @@
       "day": "2026-11-16",
       "category": "model",
       "categoryLocked": true,
-      "score": 28.1,
+      "score": 31,
       "metrics": {
-        "likes": 436
+        "likes": 700
       },
       "skipLlm": true,
       "dupOf": "27temos6bvw"
@@ -2183,7 +2183,7 @@
       "firstSeenAt": "2026-11-16T20:58:41.846Z",
       "day": "2026-11-16",
       "category": "model",
-      "score": 60.9,
+      "score": 62.3,
       "related": [
         {
           "id": "1fc1887ckv3",
@@ -2208,19 +2208,36 @@
           "url": "http://www.geekpark.net/news/374083",
           "title": "腾讯 Hy4 flash 实测：快速、实惠、聪明，国模进入过日子时代",
           "publishedAt": "2026-11-17T07:12:48.000Z"
+        },
+        {
+          "id": "1ulbunayps5",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/o4edzZ1lM7CUQgcupk8H?utm_source=rss&utm_medium=article",
+          "title": "腾讯混元 Hy4 flash 上线首日登顶 OpenRouter，2 毛钱就能跑完一个任务！",
+          "publishedAt": "2026-11-19T06:22:13.000Z"
+        },
+        {
+          "id": "mgo9dn5k7t",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-19-11",
+          "title": "推理成本砍到1/20：混元Hy4 flash调用数据登顶，性价比拉满了（已开源）",
+          "publishedAt": "2026-11-19T06:42:00.000Z"
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 6,
         "sources": [
           "infoq-cn",
           "reddit-localllama",
           "hf-models",
-          "geekpark"
+          "geekpark",
+          "jiqizhixin"
         ],
         "firstPublishedAt": "2026-11-16T06:23:27.000Z",
         "metrics": {
-          "likes": 242
+          "likes": 318
         }
       },
       "ai": {
@@ -2670,7 +2687,7 @@
       ],
       "score": 26.1,
       "metrics": {
-        "stars": 10456,
+        "stars": 10659,
         "starsToday": 540
       },
       "ai": {
@@ -2729,7 +2746,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 11073,
+        "stars": 12247,
         "starsToday": 2322
       },
       "ai": {
@@ -4458,23 +4475,7 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-16T02:46:53.853Z"
       },
-      "related": [
-        {
-          "id": "ya2r0ixv2w",
-          "sourceId": "reddit-localllama",
-          "sourceName": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xxxs0a/small_gemma_4_tokenizers_were_recently_updated_by/",
-          "title": "Small Gemma 4 tokenizers were recently updated by Google - fix for an issue that caused nonsense output when encountering certain tokens",
-          "publishedAt": "2026-11-16T18:55:18.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "reddit-localllama"
-        ],
-        "firstPublishedAt": "2026-11-15T20:34:44.000Z"
-      }
+      "dupOf": "1pj8p00dtla"
     },
     {
       "id": "1kcsf43omj",
