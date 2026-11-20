@@ -17,10 +17,10 @@
       "keywords": [
         "语音"
       ],
-      "score": 29.2,
+      "score": 31,
       "metrics": {
-        "points": 219,
-        "comments": 198
+        "points": 265,
+        "comments": 243
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50561508",
       "aiAttempts": 2,
@@ -130,11 +130,11 @@
         "MCP",
         "AI 编程"
       ],
-      "score": 18.8,
+      "score": 22.4,
       "metrics": {
-        "stars": 721
+        "stars": 1370
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Blender AI 助手与 MCP 服务器，支持多模态交互与多 Agent 工作流。",
         "category": "opensource",
@@ -386,12 +386,43 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 18,
+      "score": 51.1,
       "ai": {
         "summary": "Anthropic七位联合创始人掌握多数投票权。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-19T19:31:04.560Z"
+      },
+      "related": [
+        {
+          "id": "1sjzyydqyem",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+          "title": "Anthropic 七位创始人 IPO 现金流近 20 亿美元",
+          "publishedAt": "2026-11-20T00:43:50.000Z"
+        },
+        {
+          "id": "s1xvvc2rmg",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50574383",
+          "title": "Global stock markets slump as Anthropic's record IPO fails to stem AI sell-off",
+          "publishedAt": "2026-11-20T13:29:59.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "36kr-flash",
+          "techcrunch-ai",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-19T12:38:12.302Z",
+        "metrics": {
+          "points": 166,
+          "comments": 185
+        }
       }
     },
     {
@@ -452,18 +483,19 @@
       "firstSeenAt": "2026-11-20T03:59:11.537Z",
       "day": "2026-11-19",
       "category": "paper",
-      "score": 23.7,
+      "score": 23.9,
       "metrics": {
-        "points": 102,
-        "comments": 158
+        "points": 104,
+        "comments": 162
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50559140",
       "aiAttempts": 1,
       "ai": {
-        "summary": "探讨超级智能辩论中的严重缺陷。",
+        "title": "AI 超级智能辩论存在严重缺陷",
+        "summary": "AI 超级智能辩论存在严重缺陷。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-11-20T04:00:03.136Z"
+        "at": "2026-11-20T19:06:23.630Z"
       }
     },
     {
@@ -853,6 +885,36 @@
       }
     },
     {
+      "id": "23svrqpvicc",
+      "key": "gh:iamajmeena/neonclipping",
+      "title": "iamajmeena/neonclipping",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "excerpt": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-19T10:00:43.000Z",
+      "firstSeenAt": "2026-11-20T19:05:07.339Z",
+      "day": "2026-11-19",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "本地部署"
+      ],
+      "score": 21.5,
+      "metrics": {
+        "stars": 1176
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "neonclipping，本地开源剪辑引擎，快速生成 9:16 视频片段。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T19:06:23.630Z"
+      }
+    },
+    {
       "id": "2bcow2zh3ge",
       "key": "url:36kr.com/p/4076190155740807",
       "title": "《万妖》进影院，红果布局电视端，AI视频的下一站是大屏？",
@@ -959,10 +1021,10 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 23.2,
+      "score": 23.6,
       "metrics": {
-        "points": 117,
-        "comments": 78
+        "points": 123,
+        "comments": 86
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50557885",
       "aiAttempts": 2,
@@ -2348,10 +2410,10 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "paper",
-      "score": 22.3,
+      "score": 22.5,
       "metrics": {
-        "points": 106,
-        "comments": 68
+        "points": 108,
+        "comments": 69
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50555093",
       "aiAttempts": 2,
@@ -2485,10 +2547,10 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 23.4,
+      "score": 23.5,
       "metrics": {
-        "points": 117,
-        "comments": 88
+        "points": 118,
+        "comments": 91
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50554641",
       "aiAttempts": 2,
@@ -2573,9 +2635,9 @@
       "firstSeenAt": "2026-11-19T04:11:26.145Z",
       "day": "2026-11-19",
       "category": "model",
-      "score": 34.3,
+      "score": 34.4,
       "metrics": {
-        "points": 252,
+        "points": 255,
         "comments": 78
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50554374",
@@ -2740,9 +2802,9 @@
       "day": "2026-11-19",
       "category": "paper",
       "categoryLocked": true,
-      "score": 26.8,
+      "score": 28,
       "metrics": {
-        "upvotes": 116,
+        "upvotes": 136,
         "comments": 4
       },
       "ai": {
@@ -2767,9 +2829,16 @@
       "dateOnly": true,
       "firstSeenAt": "2026-11-20T03:59:11.537Z",
       "day": "2026-11-19",
-      "category": "industry",
+      "category": "agent",
       "score": 30,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "部署 Daybreak Red",
+        "summary": "部署 Daybreak Red，探索监督安全调查参考架构。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T19:06:23.630Z"
+      }
     },
     {
       "id": "282up48fl1q",
@@ -2785,9 +2854,16 @@
       "dateOnly": true,
       "firstSeenAt": "2026-11-20T03:59:11.537Z",
       "day": "2026-11-19",
-      "category": "industry",
+      "category": "agent",
       "score": 30,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "查看 PR 扫描演示",
+        "summary": "演示 PR 扫描功能，展示如何在拉取请求中审查结果。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T19:06:23.630Z"
+      }
     },
     {
       "id": "2dtdiafjik1",
@@ -2808,7 +2884,14 @@
         "AI 编程"
       ],
       "score": 30,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "探索 Codex Security Plugin",
+        "summary": "演示 Codex Security Plugin，展示安全工作流程。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T19:06:23.630Z"
+      }
     },
     {
       "id": "1c3ndqovxwb",
@@ -2824,9 +2907,38 @@
       "dateOnly": true,
       "firstSeenAt": "2026-11-20T03:59:11.537Z",
       "day": "2026-11-19",
-      "category": "industry",
+      "category": "agent",
       "score": 30,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "开始使用 Daybreak Blue",
+        "summary": "演示 Daybreak Blue 入门流程，展示设置体验。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T19:06:23.630Z"
+      }
+    },
+    {
+      "id": "1utsfn3ikmk",
+      "key": "arxiv:2611.14848",
+      "title": "Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices",
+      "url": "https://huggingface.co/papers/2611.14848",
+      "excerpt": "TIDEWAY enables efficient inference of large Mixture-of-Experts models on memory-constrained consumer devices by treating host RAM and GPU VRAM as a unified memory pool with phase-aware layouts and optimized CUDA Graph execution under expert paging.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "firstSeenAt": "2026-11-20T19:05:07.339Z",
+      "day": "2026-11-19",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 22.6,
+      "metrics": {
+        "upvotes": 64,
+        "comments": 3
+      },
+      "dupOf": "2eg9py51y5o"
     },
     {
       "id": "1mt87tubq0",
@@ -2965,10 +3077,10 @@
       "firstSeenAt": "2026-11-19T04:11:26.145Z",
       "day": "2026-11-19",
       "category": "agent",
-      "score": 29.5,
+      "score": 29.9,
       "metrics": {
-        "points": 300,
-        "comments": 77
+        "points": 311,
+        "comments": 80
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50553225",
       "ai": {
@@ -3080,8 +3192,8 @@
       "category": "model",
       "score": 66,
       "metrics": {
-        "points": 1022,
-        "comments": 763
+        "points": 1042,
+        "comments": 774
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50552424",
       "related": [
@@ -3154,8 +3266,8 @@
         ],
         "firstPublishedAt": "2026-11-18T21:03:23.000Z",
         "metrics": {
-          "points": 1022,
-          "comments": 763
+          "points": 1042,
+          "comments": 774
         }
       },
       "aiAttempts": 2,
@@ -3372,7 +3484,7 @@
       "categoryLocked": true,
       "score": 20.7,
       "metrics": {
-        "stars": 11595,
+        "stars": 11737,
         "starsToday": 246
       },
       "ai": {
@@ -3755,8 +3867,8 @@
       "category": "industry",
       "score": 63.3,
       "metrics": {
-        "points": 413,
-        "comments": 777
+        "points": 417,
+        "comments": 790
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50553843",
       "alsoOn": [
@@ -3804,9 +3916,9 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 24.5,
+      "score": 24.6,
       "metrics": {
-        "points": 145,
+        "points": 148,
         "comments": 79
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50548485",

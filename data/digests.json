@@ -896,5 +896,45 @@
         ]
       }
     ]
+  },
+  "2026-11-21": {
+    "day": "2026-11-21",
+    "generatedAt": "2026-11-20T19:08:55.380Z",
+    "itemCount": 108,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "Anthropic 宣称用 Claude 证明黎曼猜想，华为云开放具身世界模型底座。",
+    "points": [
+      {
+        "text": "Anthropic 数学家称用 Claude 解决千禧年大奖难题。",
+        "refs": [
+          "1cyts9ya4pw"
+        ]
+      },
+      {
+        "text": "华为云开放具身世界模型底座，国产算力训出双榜 SOTA。",
+        "refs": [
+          "16hzgm0ngmq"
+        ]
+      },
+      {
+        "text": "Frostbite 是由 AI 发现、设计和验证的新型 CPU 架构。",
+        "refs": [
+          "1mguiqpkuow"
+        ]
+      },
+      {
+        "text": "Meta 举办开源 AI 科学峰会，加速科学发现。",
+        "refs": [
+          "1lucb2aeu72"
+        ]
+      },
+      {
+        "text": "Nvidia 投资 Inception 扩散模型，强化开源 Nemotron 线。",
+        "refs": [
+          "26l4388zeac"
+        ]
+      }
+    ]
   }
 }

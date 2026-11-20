@@ -120,9 +120,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18.8,
+      "score": 18.9,
       "metrics": {
-        "stars": 721
+        "stars": 735
       },
       "ai": {
         "title": "boring-marketing-skills：AI Agent 营销技能库",
@@ -716,7 +716,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 5379
+        "stars": 6432
       },
       "aiAttempts": 1,
       "ai": {
@@ -1958,9 +1958,9 @@
       "day": "2026-11-16",
       "category": "model",
       "categoryLocked": true,
-      "score": 31.4,
+      "score": 32.2,
       "metrics": {
-        "likes": 748
+        "likes": 840
       },
       "skipLlm": true,
       "dupOf": "27temos6bvw"
@@ -2183,7 +2183,7 @@
       "firstSeenAt": "2026-11-16T20:58:41.846Z",
       "day": "2026-11-16",
       "category": "model",
-      "score": 62.9,
+      "score": 65.1,
       "related": [
         {
           "id": "1fc1887ckv3",
@@ -2246,7 +2246,7 @@
         ],
         "firstPublishedAt": "2026-11-16T06:23:27.000Z",
         "metrics": {
-          "likes": 356
+          "likes": 511
         }
       },
       "ai": {
@@ -2696,7 +2696,7 @@
       ],
       "score": 26.1,
       "metrics": {
-        "stars": 10773,
+        "stars": 10957,
         "starsToday": 540
       },
       "ai": {
@@ -2755,7 +2755,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 12750,
+        "stars": 13882,
         "starsToday": 2322
       },
       "ai": {
@@ -4696,6 +4696,48 @@
       "dupOf": "6u6tixp4fv"
     },
     {
+      "id": "28u27lc1vli",
+      "key": "gh:weldbladesmithwharf/gemini-config-checker-",
+      "title": "weldbladesmithwharf/Gemini-Config-Checker-",
+      "url": "https://github.com/weldbladesmithwharf/Gemini-Config-Checker-",
+      "excerpt": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T16:47:11.000Z",
+      "firstSeenAt": "2026-11-20T19:05:07.339Z",
+      "day": "2026-11-16",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.8,
+      "metrics": {
+        "stars": 472
+      },
+      "dupOf": "6u6tixp4fv"
+    },
+    {
+      "id": "7xqh69dr3c",
+      "key": "gh:werewolfemuhub/gemini-config-checker-",
+      "title": "WerewolfEmuHub/Gemini-Config-Checker-",
+      "url": "https://github.com/WerewolfEmuHub/Gemini-Config-Checker-",
+      "excerpt": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T16:47:11.000Z",
+      "firstSeenAt": "2026-11-20T19:05:07.339Z",
+      "day": "2026-11-16",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.8,
+      "metrics": {
+        "stars": 472
+      },
+      "dupOf": "6u6tixp4fv"
+    },
+    {
       "id": "6u6tixp4fv",
       "key": "gh:turtlereside/gemini-config-checker-",
       "title": "TurtleReside/Gemini-Config-Checker-",
@@ -4715,6 +4757,22 @@
         "stars": 472
       },
       "related": [
+        {
+          "id": "28u27lc1vli",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/weldbladesmithwharf/Gemini-Config-Checker-",
+          "title": "weldbladesmithwharf/Gemini-Config-Checker-",
+          "publishedAt": "2026-11-15T16:47:11.000Z"
+        },
+        {
+          "id": "7xqh69dr3c",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/WerewolfEmuHub/Gemini-Config-Checker-",
+          "title": "WerewolfEmuHub/Gemini-Config-Checker-",
+          "publishedAt": "2026-11-15T16:47:11.000Z"
+        },
         {
           "id": "ufxc4vrcc1",
           "sourceId": "github-new",
@@ -4749,7 +4807,7 @@
         }
       ],
       "story": {
-        "reports": 5,
+        "reports": 7,
         "sources": [
           "github-new"
         ],

@@ -1060,9 +1060,9 @@
       "day": "2026-11-17",
       "category": "model",
       "categoryLocked": true,
-      "score": 27.5,
+      "score": 28,
       "metrics": {
-        "likes": 391
+        "likes": 428
       },
       "skipLlm": true
     },
@@ -1303,13 +1303,35 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-17",
       "category": "agent",
-      "score": 34,
+      "score": 53.8,
       "ai": {
         "title": "OpenAI 推出 ChatGPT for Sales",
         "summary": "OpenAI 发布 Sales 插件，助力销售研究、准备提案和更新 CRM。",
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T04:21:23.281Z"
+      },
+      "related": [
+        {
+          "id": "85o2g0x4yv",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50568548",
+          "title": "ChatGPT for SNES",
+          "publishedAt": "2026-11-20T00:25:59.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "openai",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-17T08:00:00.000Z",
+        "metrics": {
+          "points": 113,
+          "comments": 36
+        }
       }
     },
     {
@@ -2089,9 +2111,9 @@
       "day": "2026-11-17",
       "category": "model",
       "categoryLocked": true,
-      "score": 26.9,
+      "score": 29.1,
       "metrics": {
-        "likes": 356
+        "likes": 511
       },
       "skipLlm": true,
       "dupOf": "26lkjazmagp"
@@ -3339,7 +3361,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 70904,
+        "stars": 71341,
         "starsToday": 1062
       },
       "ai": {
@@ -3818,9 +3840,9 @@
         "Agent",
         "本地部署"
       ],
-      "score": 21.9,
+      "score": 22.1,
       "metrics": {
-        "stars": 1270
+        "stars": 1316
       },
       "ai": {
         "title": "推理优化技能：提升本地 LLM 服务速度",
@@ -3912,9 +3934,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 20.8,
+      "score": 22.6,
       "metrics": {
-        "likes": 345
+        "likes": 472
       },
       "skipLlm": true
     },

@@ -624,7 +624,7 @@
       "day": "2026-11-08",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 22.1,
+      "score": 16.1,
       "metrics": {
         "stars": 403
       },
@@ -635,26 +635,6 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-09T13:12:07.516Z"
-      },
-      "related": [
-        {
-          "id": "26m8epivjoq",
-          "sourceId": "github-new",
-          "sourceName": "GitHub 新星项目",
-          "url": "https://github.com/hembramneeraj3-create/aida-64-extreme",
-          "title": "hembramneeraj3-create/aida-64-extreme",
-          "publishedAt": "2026-11-06T20:33:44.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "github-new"
-        ],
-        "firstPublishedAt": "2026-11-06T20:33:44.000Z",
-        "metrics": {
-          "stars": 1304
-        }
       }
     },
     {

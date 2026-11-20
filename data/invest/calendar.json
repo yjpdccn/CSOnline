@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-20T03:59:11.537Z",
+  "updatedAt": "2026-11-20T19:05:07.339Z",
   "events": [
-    {
-      "id": "wscn-1599194",
-      "at": "2026-11-20T01:00:00.000Z",
-      "country": "中国",
-      "title": "11月五年期贷款市场报价利率(LPR) · 11月一年期贷款市场报价利率(LPR)",
-      "importance": 3,
-      "kind": "data",
-      "source": "华尔街见闻",
-      "previous": "3.5",
-      "actual": "3.5",
-      "unit": "%"
-    },
     {
       "id": "wscn-15807",
       "at": "2026-11-20T13:25:00.000Z",
@@ -162,6 +150,7 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "4.1",
+      "forecast": "4.1",
       "unit": "%"
     }
   ],

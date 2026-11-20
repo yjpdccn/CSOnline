@@ -44,10 +44,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 35.2,
+      "score": 35.3,
       "metrics": {
-        "points": 485,
-        "comments": 258
+        "points": 493,
+        "comments": 261
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50547777",
       "ai": {
@@ -785,48 +785,14 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 34,
-      "related": [
-        {
-          "id": "k0135qlhvg",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4075023407748232",
-          "title": "Anthropic IPO被疯抢：超额认购达10至20倍，红杉资本等追加投资",
-          "publishedAt": "2026-11-18T09:53:00.945Z"
-        },
-        {
-          "id": "d0x3119qja",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4077268679086982",
-          "title": "刚刚，Anthropic 敲钟上市，史上最大 IPO 却让硅谷吵翻了",
-          "publishedAt": "2026-11-19T23:37:32.784Z"
-        },
-        {
-          "id": "11pwg8lgzpm",
-          "sourceId": "jiqizhixin",
-          "sourceName": "机器之心",
-          "url": "https://www.jiqizhixin.com/articles/2026-11-20-2",
-          "title": "Anthropic上市首日冲破2万亿美元，史上最大IPO",
-          "publishedAt": "2026-11-20T01:52:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 4,
-        "sources": [
-          "36kr-flash",
-          "36kr-ai",
-          "jiqizhixin"
-        ],
-        "firstPublishedAt": "2026-11-18T09:53:00.945Z"
-      },
+      "score": 18,
       "ai": {
         "summary": "Anthropic 冲刺史上最大 IPO，据悉获近七倍超额认购。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T19:25:46.328Z"
-      }
+      },
+      "dupOf": "11c399ac607"
     },
     {
       "id": "em9jqqf7iy",
@@ -1263,7 +1229,7 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "dupOf": "2clljw4job9"
+      "dupOf": "11c399ac607"
     },
     {
       "id": "swdx2qjm1z",
@@ -3261,7 +3227,7 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 56.9,
+      "score": 57,
       "ai": {
         "title": "OpenAI 模型优化芯片设计",
         "summary": "OpenAI 模型优化了 Jalapeño 硅片电路和 RISC‑V 核心，展示 GPT‑6 Astra 在 AI 辅助芯片设计上的进展。",
@@ -3277,8 +3243,8 @@
         }
       ],
       "metrics": {
-        "points": 220,
-        "comments": 169
+        "points": 223,
+        "comments": 170
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50549493"
     },
@@ -3320,13 +3286,35 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "model",
-      "score": 36,
+      "score": 56.6,
       "ai": {
         "title": "180B 参数 MoE 推理极限",
         "summary": "Hugging Face 博客探讨在 32GB 内存下运行 180B 参数 MoE 模型。",
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T19:25:07.930Z"
+      },
+      "related": [
+        {
+          "id": "1utsfn3ikmk",
+          "sourceId": "hf-papers",
+          "sourceName": "HF 每日论文",
+          "url": "https://huggingface.co/papers/2611.14848",
+          "title": "Tideway: Phase-Aware Tiered Memory Management for MoE Inference on Consumer Devices",
+          "publishedAt": "2026-11-19T00:00:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "hf-blog",
+          "hf-papers"
+        ],
+        "firstPublishedAt": "2026-11-18T00:00:00.000Z",
+        "metrics": {
+          "upvotes": 64,
+          "comments": 3
+        }
       }
     },
     {
@@ -3970,7 +3958,7 @@
       ],
       "score": 23.7,
       "metrics": {
-        "stars": 17601,
+        "stars": 17786,
         "starsToday": 384
       },
       "ai": {
@@ -4028,10 +4016,10 @@
       "day": "2026-11-18",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 22,
+      "score": 29.4,
       "metrics": {
-        "stars": 67051,
-        "starsToday": 301
+        "stars": 67610,
+        "starsToday": 841
       },
       "ai": {
         "title": "minimind：2 小时训练 64M 参数 LLM",
