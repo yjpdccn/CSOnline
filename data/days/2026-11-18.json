@@ -16,9 +16,9 @@
       "day": "2026-11-18",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 17.5,
+      "score": 20.8,
       "metrics": {
-        "stars": 547
+        "stars": 1038
       },
       "ai": {
         "title": "VividFrame-GPU 实时视频增强",
@@ -44,10 +44,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 35.1,
+      "score": 35.2,
       "metrics": {
-        "points": 478,
-        "comments": 244
+        "points": 485,
+        "comments": 258
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50547777",
       "ai": {
@@ -489,7 +489,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "腾讯 WorkBuddy 日活破千万，信号指向产业端机会。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
     },
     {
       "id": "10f2wsoi6kx",
@@ -552,7 +558,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "腾讯 AI 战略调整，从技术探索转向全面 AI 化。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
     },
     {
       "id": "2ao1x483cfn",
@@ -567,9 +579,15 @@
       "publishedAt": "2026-11-18T12:53:56.750Z",
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
-      "category": "multimodal",
+      "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI 日产百万首歌，独立音乐人面临生存危机。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
     },
     {
       "id": "1j7yeplh0y3",
@@ -585,7 +603,13 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "欧元区金融稳定受AI估值、财政失衡及地缘政治风险影响，银行基础较好但非银机构脆弱。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "1f8340jo5v8",
@@ -644,7 +668,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Visa与连连数字落地亚太首笔B2B智能体真实交易，推出LianLian XCard。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "1vghfmyqwno",
@@ -710,7 +740,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "小米的MiMo人才激励考题，探讨AI大厂共同挑战。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "1f01d01iy40",
@@ -727,7 +763,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "iOS整改下架多款头部AI陪伴产品，行业面临洗牌。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "2clljw4job9",
@@ -743,7 +785,7 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 26,
+      "score": 34,
       "related": [
         {
           "id": "k0135qlhvg",
@@ -752,13 +794,30 @@
           "url": "https://36kr.com/p/4075023407748232",
           "title": "Anthropic IPO被疯抢：超额认购达10至20倍，红杉资本等追加投资",
           "publishedAt": "2026-11-18T09:53:00.945Z"
+        },
+        {
+          "id": "d0x3119qja",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4077268679086982",
+          "title": "刚刚，Anthropic 敲钟上市，史上最大 IPO 却让硅谷吵翻了",
+          "publishedAt": "2026-11-19T23:37:32.784Z"
+        },
+        {
+          "id": "11pwg8lgzpm",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-20-2",
+          "title": "Anthropic上市首日冲破2万亿美元，史上最大IPO",
+          "publishedAt": "2026-11-20T01:52:00.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 4,
         "sources": [
           "36kr-flash",
-          "36kr-ai"
+          "36kr-ai",
+          "jiqizhixin"
         ],
         "firstPublishedAt": "2026-11-18T09:53:00.945Z"
       },
@@ -801,7 +860,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "首批明星AI产品下线，扣子等因营收规模小而调整策略。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "15vtvlxb1v9",
@@ -843,7 +908,13 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "英伟达扩大芯片供应链合作，数十亿美元支持矽品精密扩产。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "17utyua8mit",
@@ -858,9 +929,15 @@
       "publishedAt": "2026-11-18T11:48:34.101Z",
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
-      "category": "paper",
+      "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "曾妍的新论文被视为字节“10万亿”路线图，周畅离职后路线之争尘埃落定。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "ujrvm12o9o",
@@ -877,7 +954,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "资深工程师被AI代码审查工作消耗，面临职业倦怠与离职。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "29ap4nj360n",
@@ -920,7 +1003,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "沪上金融精英陷入AI恋爱，探讨技术对人际关系的渗透。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "2be6p403jcc",
@@ -935,12 +1024,18 @@
       "publishedAt": "2026-11-18T11:21:07.849Z",
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
-      "category": "multimodal",
+      "category": "industry",
       "keywords": [
         "AI 短剧"
       ],
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI漫剧回本率低，但卖课生意却稳赚不赔。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "1v3hia3s2c7",
@@ -983,7 +1078,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "DeepSeek限额引发关注，腾讯社交业务压力缓解。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "37st7n2abz",
@@ -1000,7 +1101,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "GPU企业争相做机器人芯片，整机厂商为何仍想自研？",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "otvirzl5ey",
@@ -1018,7 +1125,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Agent驱动MaaS新范式，探讨如何让模型能力随需而用。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "14tyywiy35r",
@@ -1033,7 +1146,13 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Snowflake驻场工程师分享企业AI规模化落地经验。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "28gs6uf8hnq",
@@ -1077,7 +1196,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "纽娲机器人创始人杨睿刚：自动驾驶踩过的坑，机器人还会再踩。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "qvilddlihz",
@@ -1092,7 +1217,13 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "面向AI与数据分析，统一规范业务概念与指标口径。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "v6euhasbae",
@@ -1109,7 +1240,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "30家企业撑起全球灵巧手产业半边天，全景展现竞争格局。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "k0135qlhvg",
@@ -1143,7 +1280,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "英伟达首位董事会主席哈维·琼斯谈黄仁勋的去留。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "1met8hnh378",
@@ -1177,7 +1320,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "36氪研究院发布2026年中国词元经济生态发展研究报告。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "d20wm7wbha",
@@ -1193,7 +1342,13 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "黄仁勋归期未定，买GPU的人因不确定性不敢下单。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:13.000Z"
+      }
     },
     {
       "id": "1lymrzdgtuj",
@@ -1227,7 +1382,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "权志龙母公司将与宇树合作推出机器人女团，并在12月举办K-pop演唱会。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:19.115Z"
+      }
     },
     {
       "id": "1dp7qr64f93",
@@ -1244,7 +1405,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Prada、Levi's等大品牌坚持“手搓”广告，探讨观众更看重品牌还是制作工艺。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:19.115Z"
+      }
     },
     {
       "id": "bekaek4n3j",
@@ -1261,7 +1428,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "谷歌曝黑客利用AI根据补丁生成攻击代码，补丁发布反而引发新一轮攻防。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:19.115Z"
+      }
     },
     {
       "id": "194dnbxtjlg",
@@ -1293,8 +1466,14 @@
       "publishedAt": "2026-11-18T08:28:00.000Z",
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "清华徐梦迪指出机器人需在部署中学习，预训练不足以解决通用性问题。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:19.115Z"
+      }
     },
     {
       "id": "1s3eo8kcac7",
@@ -1311,7 +1490,13 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI上市前夕被索赔133亿元，被指蓄意设计聊天机器人让儿童沉迷。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:19.115Z"
+      }
     },
     {
       "id": "mdmle5h4f9",
@@ -1420,7 +1605,13 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "奥尼电子转型做Token工厂，解决AI算力市场供需错配问题。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:19.115Z"
+      }
     },
     {
       "id": "tkdue49e5g",
@@ -1560,8 +1751,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 801,
-        "comments": 707
+        "points": 805,
+        "comments": 710
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50542705",
       "ai": {
@@ -1699,8 +1890,14 @@
       "publishedAt": "2026-11-18T06:00:00.000Z",
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "基于昇腾算力的大模型推理加速研究与实践分享。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:19.115Z"
+      }
     },
     {
       "id": "112h8spech9",
@@ -1757,7 +1954,35 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "谷歌SRE指南重写，探讨AI时代硬技能与第一性原理的价值变化。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:01:19.115Z"
+      }
+    },
+    {
+      "id": "23acm0e9awt",
+      "key": "hf:radixark/daisyrose-27b",
+      "title": "RadixArk/DaisyRose-27B",
+      "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
+      "excerpt": "Hugging Face 趋势榜第 12 名 · 图文理解 · 192 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-18T05:31:35.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-18",
+      "category": "model",
+      "categoryLocked": true,
+      "score": 23.7,
+      "metrics": {
+        "likes": 192
+      },
+      "skipLlm": true,
+      "dupOf": "2474y33nf5"
     },
     {
       "id": "o7xdf803tw",
@@ -1849,10 +2074,10 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "model",
-      "score": 36,
+      "score": 36.2,
       "metrics": {
-        "points": 274,
-        "comments": 139
+        "points": 279,
+        "comments": 140
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50541790",
       "ai": {
@@ -1983,9 +2208,9 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "paper",
-      "score": 25.7,
+      "score": 25.8,
       "metrics": {
-        "points": 176,
+        "points": 178,
         "comments": 76
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50541619",
@@ -2939,8 +3164,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 708,
-        "comments": 561
+        "points": 709,
+        "comments": 564
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50540178",
       "ai": {
@@ -3036,7 +3261,7 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 56.8,
+      "score": 56.9,
       "ai": {
         "title": "OpenAI 模型优化芯片设计",
         "summary": "OpenAI 模型优化了 Jalapeño 硅片电路和 RISC‑V 核心，展示 GPT‑6 Astra 在 AI 辅助芯片设计上的进展。",
@@ -3052,8 +3277,8 @@
         }
       ],
       "metrics": {
-        "points": 219,
-        "comments": 165
+        "points": 220,
+        "comments": 169
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50549493"
     },
@@ -3176,9 +3401,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 29.1,
+      "score": 29.2,
       "metrics": {
-        "upvotes": 159,
+        "upvotes": 160,
         "comments": 3
       },
       "ai": {
@@ -3326,12 +3551,30 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "牛津59页长文首提“认知共生体”，具身智能新终局浮出水面。",
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T19:26:02.584Z"
+      },
+      "related": [
+        {
+          "id": "dkdx9h14bq",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-20",
+          "title": "具身之外，物理AI终局的另一半：牛津费豪59页长文提出「认知共生体」新范式",
+          "publishedAt": "2026-11-20T01:50:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-17T23:49:07.612Z"
       }
     },
     {
@@ -3661,8 +3904,8 @@
       ],
       "score": 33.4,
       "metrics": {
-        "points": 322,
-        "comments": 455
+        "points": 324,
+        "comments": 459
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50538303",
       "ai": {
@@ -3725,10 +3968,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 23.6,
+      "score": 23.7,
       "metrics": {
-        "stars": 17500,
-        "starsToday": 383
+        "stars": 17601,
+        "starsToday": 384
       },
       "ai": {
         "title": "Cursor 插件规范与官方插件发布",
@@ -3787,7 +4030,7 @@
       "categoryLocked": true,
       "score": 22,
       "metrics": {
-        "stars": 66776,
+        "stars": 67051,
         "starsToday": 301
       },
       "ai": {
@@ -3843,7 +4086,7 @@
         "comments": 17
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50536565",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Anthropic 向 Rubio 的前幕僚长公司支付 74 万美元游说费。",
         "category": "industry",
@@ -4103,7 +4346,7 @@
       "score": 90,
       "metrics": {
         "points": 1345,
-        "comments": 859
+        "comments": 861
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50535230",
       "alsoOn": [
@@ -4193,7 +4436,7 @@
         "firstPublishedAt": "2026-11-17T03:30:48.365Z",
         "metrics": {
           "points": 1345,
-          "comments": 859
+          "comments": 861
         }
       },
       "ai": {

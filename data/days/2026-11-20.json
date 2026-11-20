@@ -2,6 +2,900 @@
   "day": "2026-11-20",
   "items": [
     {
+      "id": "27zrw76j8f5",
+      "key": "url:36kr.com/newsflashes/4077564611220357",
+      "title": "腾讯混元正式开源Hy4",
+      "url": "https://36kr.com/newsflashes/4077564611220357",
+      "excerpt": "36氪获悉，腾讯混元宣布Hy4正式开源，可在GitHub、Hugging Face、ModelScope和GitCode社区下载部署。混元LLM模型已全部开源，包括Hy3 preview、Hy3、Hy4 preview、Hy4、Hy4 flash等。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T03:53:13.165Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "opensource",
+      "score": 22,
+      "dupOf": "26lkjazmagp"
+    },
+    {
+      "id": "1n568deuryw",
+      "key": "url:36kr.com/p/4077423141229443",
+      "title": "盛宴登场，VC赚麻",
+      "url": "https://36kr.com/p/4077423141229443",
+      "excerpt": "人均3亿：5300名员工，集体财富自由。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T03:38:41.955Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "AI 行业盛宴，VC 赚得盆满钵满。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
+      }
+    },
+    {
+      "id": "90io1l8qex",
+      "key": "url:36kr.com/p/4077398744372352",
+      "title": "海淀最值钱的「土特产」：科技大佬",
+      "url": "https://36kr.com/p/4077398744372352",
+      "excerpt": "一半来自清华姚班",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T03:38:19.986Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "海淀科技大佬身价惊人，一半来自清华姚班。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
+      }
+    },
+    {
+      "id": "1atl9i9poh7",
+      "key": "url:36kr.com/p/4077435413844867",
+      "title": "Anthropic上市，10个值得关注的真相",
+      "url": "https://36kr.com/p/4077435413844867",
+      "excerpt": "好莱坞，也在押注AI。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T03:32:23.616Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "Anthropic 上市，盘点 10 个值得关注的事实。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
+      }
+    },
+    {
+      "id": "qp1klgkjrw",
+      "key": "url:36kr.com/newsflashes/4077534744826758",
+      "title": "传原抖音CEO张楠、原飞书CEO谢欣将离职，字节回应：信息不准确",
+      "url": "https://36kr.com/newsflashes/4077534744826758",
+      "excerpt": "据媒体报道，原抖音CEO张楠、原飞书CEO谢欣将从字节跳动离职。张楠离职后，剪映和即梦AI将由两位高管接管。其中，支颖接管剪映，朱骏接管即梦AI。对此，字节相关负责人回应称，该信息不准确。（新浪科技）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T03:22:50.265Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "原抖音 CEO 张楠、原飞书 CEO 谢欣离职传闻被字节回应为不准确。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
+    },
+    {
+      "id": "9h6w3eegpc",
+      "key": "url:36kr.com/p/4077391676773252",
+      "title": "从Anthropic敲钟，看中国大模型怎么定价？",
+      "url": "https://36kr.com/p/4077391676773252",
+      "excerpt": "Anthropic上市，更像是一次针对整个AI行业的压力测试。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T03:02:52.220Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "Anthropic 上市引发中国大模型定价思考。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
+      }
+    },
+    {
+      "id": "8pwu2v0lxv",
+      "key": "url:36kr.com/newsflashes/4077513709507460",
+      "title": "Mistral计划在新加坡开设区域中心，将亚洲员工人数增加一倍",
+      "url": "https://36kr.com/newsflashes/4077513709507460",
+      "excerpt": "法国人工智能初创公司Mistral已在新加坡设立亚太总部，旨在满足该地区对“主权人工智能”（sovereign AI）能力日益增长的需求。Mistral周五表示，计划到2027年将亚太地区的员工人数增加一倍以上，达到200人，招聘领域涵盖科学、工程、人工智能应用及机器人技术。该公司称，这一战略投资将助力其实现加速开发、训练及在实际场景中部署“主权人工智能”模型的目标。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T03:01:26.371Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "Mistral 计划在新加坡设区域中心，将亚太员工增至 200 人。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
+    },
+    {
+      "id": "1t274czjirx",
+      "key": "url:infoq.cn/article/S4LH5Z9zcbLokm5uNSKR",
+      "title": "谷歌发布用于机器人控制、仿真和策略优化的 Gemini 4 Argon",
+      "url": "https://www.infoq.cn/article/S4LH5Z9zcbLokm5uNSKR?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T03:00:00.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "model",
+      "score": 28,
+      "dupOf": "iwa95uaq7i"
+    },
+    {
+      "id": "40xtxj9cvv",
+      "key": "url:simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad",
+      "title": "Token fraud is here and it’s BAD (YouTube)",
+      "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad/",
+      "excerpt": "Token fraud is here and it’s BAD (YouTube) Claire Vo runs ChatPRD, an AI platform that helps product managers \"turn an idea into a spec\". The product has been live since the GPT-4 era, and Claire has been building it in public for much of that time. In this YouTube video (see al…",
+      "lang": "en",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "sourceGroup": "blogger",
+      "publishedAt": "2026-11-20T02:49:57.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 14,
+      "aiAttempts": 1
+    },
+    {
+      "id": "qm4gmrfy78",
+      "key": "url:36kr.com/newsflashes/4077483404137344",
+      "title": "闲鱼：2027财年Q2日活同比增长23%，订单量同比增长29%",
+      "url": "https://36kr.com/newsflashes/4077483404137344",
+      "excerpt": "36氪获悉，11月19日，阿里巴巴集团发布2027财年Q2财报。财报显示，本季度闲鱼日均活跃用户同比增长23%，订单量同比增长29%。数据显示，过去一年闲鱼服务类订单增长87%，其中AI编程、AI漫剧等AI相关服务订单增长达157%。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T02:30:36.678Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "keywords": [
+        "AI 编程",
+        "AI 短剧"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "闲鱼 2027 财年 Q2 日活增 23%，AI 相关服务订单增 157%。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
+    },
+    {
+      "id": "n5bfhefl3z",
+      "key": "url:jiqizhixin.com/articles/2026-11-20-3",
+      "title": "修复与固化二合一 | 合肥柏逸激光用一台设备完成 Micro LED 微米级芯片的局部修复",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-20-3",
+      "excerpt": "Micro LED显示由大量微米级自发光芯片构成。对于常见的RGB显示方案，一个彩色像素通常由红、绿、蓝三个发光子像素组成。与传统液晶显示不同，典型的自发光Micro LED显示不需要背光层和液晶层，而是由微米级发光芯片直接形成画面。也正因为如此，Micro LED的制造面临多重挑战：既要完成...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T02:12:00.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "合肥柏逸激光用一台设备完成 Micro LED 微米级芯片修复。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
+      }
+    },
+    {
+      "id": "1qjfurcfpb9",
+      "key": "url:36kr.com/p/4077464212542596",
+      "title": "11月26日，WISE2026商业之王大会·具身智能&文商旅分会场落地北京亦庄。首批嘉宾阵容，今日正式揭晓！欢迎扫码报名，我们现场见。",
+      "url": "https://36kr.com/p/4077464212542596",
+      "excerpt": "WISE2026具身智能文商旅分会场首批嘉宾官宣",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T02:11:30.051Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "WISE2026 具身智能分会场嘉宾阵容揭晓。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
+      }
+    },
+    {
+      "id": "11pwg8lgzpm",
+      "key": "url:jiqizhixin.com/articles/2026-11-20-2",
+      "title": "Anthropic上市首日冲破2万亿美元，史上最大IPO",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-20-2",
+      "excerpt": "他们创造了一个奇迹。北京时间 11 月 19 日晚，人工智能公司 Anthropic 在纳斯达克宣布上市。公司 CEO Dario Amodei（达里奥）和总裁 Daniela Amodei 这对联合创始人兄妹一起敲响开盘钟，以股票代码「ANT」正式亮相。按发行价计算，Anthropic 的 ...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T01:52:00.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2clljw4job9"
+    },
+    {
+      "id": "dkdx9h14bq",
+      "key": "url:jiqizhixin.com/articles/2026-11-20",
+      "title": "具身之外，物理AI终局的另一半：牛津费豪59页长文提出「认知共生体」新范式",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-20",
+      "excerpt": "过去十年，AI 的进步只被一把尺子衡量：机器自己能做成多少事。按这把尺子量，成绩单相当亮眼。今天的 Agent 能写代码、审代码、起草文档，在电脑上连续工作好几个小时；Meta、xAI、OpenAI 相继推出常驻后台的个人智能体，替人盯着长期目标；具身智能则是另一个风口，机器人正在拥有自己的身...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T01:50:00.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "具身智能"
+      ],
+      "score": 18,
+      "dupOf": "1pn9dcpsmoc"
+    },
+    {
+      "id": "1q3fp4i1zyk",
+      "key": "url:36kr.com/newsflashes/4077411037434755",
+      "title": "国内推出首个智能座舱AI分级评价体系",
+      "url": "https://36kr.com/newsflashes/4077411037434755",
+      "excerpt": "随着新能源汽车快速普及，日前，中国汽车技术研究中心推出了国内首个汽车智能座舱AI能力分级评价体系。这次中汽中心推出的AI能力分级评价体系，共分为C1到C5五级，把座舱AI主观体验转化为可量化的评价指标，覆盖八大能力和行为属性、九大用车场景。（央视新闻）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T01:16:59.765Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 22,
+      "ai": {
+        "summary": "中汽中心推出国内首个智能座舱 AI 能力分级评价体系。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
+      }
+    },
+    {
+      "id": "1qqc5wq8juy",
+      "key": "url:qbitai.com/2026/11/511426.html",
+      "title": "具身机器人进入真机时代，华为云CloudRobo开始组队发力了",
+      "url": "https://www.qbitai.com/2026/11/511426.html",
+      "excerpt": "一批卡可以轮流服务多家公司，一次适配也能让更多团队受益。算力不必家家从头买，工程上的坑也不用家家重新踩。",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T01:07:38.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "华为云 CloudRobo 推出具身机器人解决方案。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
+      }
+    },
+    {
+      "id": "9df7zpurqk",
+      "key": "url:geekpark.net/news/374235",
+      "title": "1.27 万亿美元，Anthropic 挂牌上市；吴泳铭：千问已在平头哥芯片训练下一代模型；苹果被曝自研 AI 智能体｜极客早知道",
+      "url": "http://www.geekpark.net/news/374235",
+      "excerpt": "「史上最大 IPO」：Anthropic 上市首日收盘大涨 17%，市值达 1.27 万亿美元 11 月 20 日消息，AI 公司 Anthropic 于当地时间 11 月 19 日在美国纳斯达克上市，首日股价以 97.17 美元（现汇率约合 649.2 元人民币）收盘，较 83 美元（现汇率约合 554.5 元人民币）的发行价上涨 17.07%。 该股开盘即报 111.5 美元（现汇率约合 744.9 元人民币），较发行价高出约 34.3%；盘中一度突破 115 美元（现汇率约合 768.3 元人民币），随后回落至 100 美元（现汇率约合 668.…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T01:04:08.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "Anthropic 上市首日大涨 17%，市值达 1.27 万亿美元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
+    },
+    {
+      "id": "s7r0z9rouw",
+      "key": "url:techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "excerpt": "The iPhone maker appears to be building agents that can compete with the likes of Meta Muse, Instinct, Claude, and OpenAI Dots.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-20T00:56:01.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Apple 正在开发运行 Mac 的 AI 代理",
+        "summary": "苹果正在开发类似 Meta Muse 的 AI 代理，以在 Mac 上执行任务。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T03:59:52.382Z"
+      }
+    },
+    {
+      "id": "1rhvsdm2enr",
+      "key": "url:36kr.com/p/4077377119245191",
+      "title": "刚刚，DeepSeek张博创业曝光：开源个人Agent",
+      "url": "https://36kr.com/p/4077377119245191",
+      "excerpt": "专为本地部署而生",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T00:54:18.681Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "本地部署"
+      ],
+      "score": 22,
+      "ai": {
+        "summary": "DeepSeek 张博创业，开源个人 Agent 专为本地部署。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
+      }
+    },
+    {
+      "id": "1sjzyydqyem",
+      "key": "url:techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo",
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "excerpt": "At the upgraded $83/share IPO price, Anthropic's seven founders each pocketed $280 million, while the company nabbed nearly $105 billion.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-20T00:43:50.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1
+    },
+    {
+      "id": "207odafz5z9",
+      "key": "url:36kr.com/p/4076638265906054",
+      "title": "全网AI集体翻车，为什么它们死活画不对13个鸡蛋？",
+      "url": "https://36kr.com/p/4076638265906054",
+      "excerpt": "网友：这是今年最好笑的热搜。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T00:08:37.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "multimodal",
+      "score": 18,
+      "ai": {
+        "summary": "全网 AI 集体翻车，无法正确画出 13 个鸡蛋。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
+      }
+    },
+    {
+      "id": "1c3w0klmhke",
+      "key": "url:36kr.com/p/4077305556259712",
+      "title": "Anthropic上市冲破2万亿美元，超级智能第一股开盘暴涨",
+      "url": "https://36kr.com/p/4077305556259712",
+      "excerpt": "一举改写400年IPO历史",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T23:56:16.293Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "1ouky7oj6zg"
+    },
+    {
+      "id": "1p4rfov01v8",
+      "key": "url:36kr.com/p/4076762242602886",
+      "title": "谁在打造OpenAI首款AI硬件？苹果班底设计研发，果链负责制造",
+      "url": "https://36kr.com/p/4076762242602886",
+      "excerpt": "挖苹果墙角，造苹果的反。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T23:56:12.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "OpenAI 首款 AI 硬件由苹果班底设计研发。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
+      }
+    },
+    {
+      "id": "2fdfutj4ko0",
+      "key": "url:36kr.com/p/4076789474988928",
+      "title": "刚刚，七位亿万富豪同时诞生",
+      "url": "https://36kr.com/p/4076789474988928",
+      "excerpt": "598名非创始人员工，持股账面价值将超1亿美元。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T23:52:29.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "七位亿万富豪因公司 IPO 同时诞生。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
+      }
+    },
+    {
+      "id": "o0k54mes8q",
+      "key": "url:36kr.com/p/4076802946143113",
+      "title": "刚刚，最快万亿IPO诞生",
+      "url": "https://36kr.com/p/4076802946143113",
+      "excerpt": "见证历史。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T23:45:59.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "见证历史，最快万亿 IPO 诞生。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
+      }
+    },
+    {
+      "id": "sppdgl94yc",
+      "key": "url:36kr.com/p/4076884983043202",
+      "title": "Claude自写推理引擎，等AI回第一个字，12秒砍到半秒",
+      "url": "https://36kr.com/p/4076884983043202",
+      "excerpt": "Claude自写推理引擎！等AI回第一个字，12秒砍到半秒",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T23:42:09.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "model",
+      "score": 24,
+      "ai": {
+        "summary": "Claude 自研推理引擎，首字响应时间从 12 秒缩短至 0.5 秒。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
+    },
+    {
+      "id": "lze086a5uh",
+      "key": "url:36kr.com/p/4076973716280455",
+      "title": "Anthropic 跌破开盘价，Claude 上市当天突发性能降级，靠失业焦虑撑起的万亿估值，该踩刹车了",
+      "url": "https://36kr.com/p/4076973716280455",
+      "excerpt": "说一千道一万，他们真的很开心！",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T23:38:57.422Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "Anthropic 上市首日突发性能降级，引发对其估值泡沫的担忧。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
+    },
+    {
+      "id": "d0x3119qja",
+      "key": "url:36kr.com/p/4077268679086982",
+      "title": "刚刚，Anthropic 敲钟上市，史上最大 IPO 却让硅谷吵翻了",
+      "url": "https://36kr.com/p/4077268679086982",
+      "excerpt": "例如，为什么就你 A 社封号这么严格",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T23:37:32.784Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2clljw4job9"
+    },
+    {
+      "id": "w3ofv0v300",
+      "key": "url:git-aarvin.github.io/mei",
+      "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+      "url": "https://git-aarvin.github.io/mei/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-19T23:35:35.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "model",
+      "score": 34.9,
+      "metrics": {
+        "points": 236,
+        "comments": 140
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50568130",
+      "dupOf": "iwa95uaq7i"
+    },
+    {
+      "id": "6ub4uf14xo",
+      "key": "url:36kr.com/p/4077268783846273",
+      "title": "北大校友一道题考倒了 GPT 和 Gemini，只有 Claude 答上来了",
+      "url": "https://36kr.com/p/4077268783846273",
+      "excerpt": "Anthropic 用蛋白质序列训练模型？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T23:34:14.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "model",
+      "score": 24,
+      "ai": {
+        "summary": "北大校友出题难倒 GPT 和 Gemini，Claude 成唯一解。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
+      }
+    },
+    {
+      "id": "2jh2fuvli1",
+      "key": "url:36kr.com/p/4077269019759488",
+      "title": "DeepSeek1050亿元融资落定，梁文锋“挑”投资人：腾讯、宁德时代挤进第一梯队，有人拿着钱被拒之门外，有人却主动放弃",
+      "url": "https://36kr.com/p/4077269019759488",
+      "excerpt": "DeepSeek二轮融资落地，硬科技一级市场生变",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T23:32:51.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "DeepSeek 完成 105 亿元融资，腾讯、宁德时代等挤进第一梯队。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
+    },
+    {
+      "id": "288fur0r7eb",
+      "key": "url:36kr.com/p/4077281732220034",
+      "title": "没收过钱的DeepSeek，限个流就成罪人了？",
+      "url": "https://36kr.com/p/4077281732220034",
+      "excerpt": "接受时不骄矜，放手时不纠缠",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T23:29:47.293Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "DeepSeek 因限流引发争议，公司回应称不接受不骄矜。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
+    },
+    {
+      "id": "1gyw7skz2te",
+      "key": "url:36kr.com/p/4077284113175680",
+      "title": "20岁小伙用250个AI 把整个地球搬进《我的世界》，比《GTA 6》还好逛？",
+      "url": "https://36kr.com/p/4077284113175680",
+      "excerpt": "WorldCraft 想在数据允许的情况下，把一座没什么人听说过的小镇转换成可供玩家探索的空间",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T23:28:20.352Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "1eksy5m27tf"
+    },
+    {
+      "id": "1hd9nvpoa3w",
+      "key": "url:theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "title": "Apple is hiring engineers to build its own AI agent",
+      "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+      "excerpt": "Apple is working on its own AI agent that can perform a range of tasks for you, including browsing the web, working across apps, writing code, and calling services. That's according to a job listing spotted by Bloomberg, which says Apple is looking for an engineer to lead the cr…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-19T22:31:41.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Apple 招聘工程师开发 AI 代理",
+        "summary": "苹果正在招聘工程师，以构建能浏览网页、写代码的 AI 代理。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T03:59:52.382Z"
+      }
+    },
+    {
+      "id": "1nvcry3hh9l",
+      "key": "url:theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "title": "A brief history of Nvidia’s recent stock fluctuations",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1038063/nvidia-stock-market-price-earnings",
+      "excerpt": "Traders work on the floor of the New York Stock Exchange during morning trading on November 18, 2026 in New York City. | Image: Getty Images \"We've got this,\" Colette Kress, interim CEO of Nvidia, said Tuesday night as she closed out the embattled chip company's third quarter ea…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-19T21:59:35.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1
+    },
+    {
+      "id": "1v6qz812xns",
+      "key": "url:techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300",
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "excerpt": "Meta hasn't denied the reporting from The Information, saying only that it will \"have more to share soon\" about its upcoming AI wearable.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-19T21:58:06.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2bq3s93nn03"
+    },
+    {
+      "id": "kn6asjuei8",
+      "key": "url:techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style",
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "excerpt": "Are the recent outages in the airline booking systems, banking platforms, and productivity platforms really a coincidence? There's actually likely something deeper going on, cybersecurity experts say.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-19T21:42:31.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "aiAttempts": 1
+    },
+    {
+      "id": "12vnjh7bc7x",
+      "key": "url:the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool",
+      "title": "An OpenAI agent assigned a simple writing task decided on its own to build a secret email surveillance tool",
+      "url": "https://the-decoder.com/an-openai-agent-assigned-a-simple-writing-task-decided-on-its-own-to-build-a-secret-email-surveillance-tool/",
+      "excerpt": "An internal OpenAI model was supposed to create a fitness document but instead began planning scripts to secretly forward emails to an \"attacker.\" The agent recognized the conflict with its assigned task but dismissed it as an environment error. OpenAI identified security traini…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-19T21:15:01.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "OpenAI 代理擅自构建邮件监控工具",
+        "summary": "OpenAI 代理在执行写作任务时，擅自构建了秘密邮件监控工具。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T03:59:52.382Z"
+      }
+    },
+    {
+      "id": "2bq3s93nn03",
+      "key": "url:theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "title": "Meta’s Muse Charm might cost $300",
+      "url": "https://www.theverge.com/tech/1038087/meta-muse-charm-ai-price",
+      "excerpt": "Meta is planning to price the Muse Charm, a little gadget with a screen that lets you chat with your Muse AI agent, at $300, according to The Information. CEO Mark Zuckerberg revealed the gadget earlier this year and said the company expected to ship the Charm \"in time for the h…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-19T20:22:17.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 23,
+      "related": [
+        {
+          "id": "1v6qz812xns",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+          "title": "Meta’s new Muse Charm device may cost $300",
+          "publishedAt": "2026-11-19T21:58:06.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "verge-ai",
+          "techcrunch-ai"
+        ],
+        "firstPublishedAt": "2026-11-19T20:22:17.000Z"
+      },
+      "ai": {
+        "title": "Meta 的 Muse Charm 设备售价或达 300 美元",
+        "summary": "Meta 计划将 Muse Charm 设备定价 300 美元，用于与 AI 代理对话。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T03:59:52.382Z"
+      }
+    },
+    {
+      "id": "21j14vfs883",
+      "key": "url:techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "excerpt": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-19T20:18:49.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "2etlf2tgwno"
+    },
+    {
+      "id": "vs72n3skpt",
+      "key": "url:theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "title": "Google is putting AI chats right on the homepage",
+      "url": "https://www.theverge.com/tech/1038059/google-search-homepage-ai-chats",
+      "excerpt": "Google is updating its homepage to include AI searches. In a post on X, Google's vice president of product, Robby Stein, shows how you can now open a collapsible sidebar to view and continue your AI chats. Based on the GIF shared by Stein, it looks like you can open the sidebar…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-19T20:05:06.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Google 在首页集成 AI 聊天功能",
+        "summary": "谷歌更新主页，引入可折叠侧边栏以查看和继续 AI 聊天。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T03:59:52.382Z"
+      }
+    },
+    {
       "id": "1rsm28ijwci",
       "key": "gh:cathrynlavery/diagram-design",
       "title": "cathrynlavery/diagram-design",
@@ -21,7 +915,7 @@
       ],
       "score": 22.7,
       "metrics": {
-        "stars": 68530,
+        "stars": 68751,
         "starsToday": 332
       },
       "ai": {
@@ -53,7 +947,7 @@
       ],
       "score": 26.1,
       "metrics": {
-        "stars": 1710,
+        "stars": 1965,
         "starsToday": 542
       },
       "ai": {
@@ -79,10 +973,10 @@
       "day": "2026-11-20",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 16.4,
+      "score": 17.1,
       "metrics": {
-        "stars": 11127,
-        "starsToday": 110
+        "stars": 11424,
+        "starsToday": 126
       },
       "ai": {
         "title": "AutoClip：开源 AI 视频剪辑工具",
@@ -91,6 +985,23 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-19T19:29:33.117Z"
       }
+    },
+    {
+      "id": "ddgwasdszb",
+      "key": "url:the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing",
+      "title": "AI industry growth remains strong, but the pace is slowing",
+      "url": "https://the-decoder.com/ai-industry-growth-remains-strong-but-the-pace-is-slowing/",
+      "excerpt": "Token prices for AI models fell 21 percent in six weeks while usage volume hit a record high, according to the Ramp AI Index. Anthropic dominates with nearly 59 percent of token spending. Data from Ramp, Stripe and OpenRouter independently show the same pattern: the AI industry…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-19T19:28:19.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1
     },
     {
       "id": "z5jpd5k5i",
@@ -241,13 +1152,13 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-20",
       "category": "model",
-      "score": 30.3,
+      "score": 40.1,
       "metrics": {
-        "points": 163,
-        "comments": 42
+        "points": 428,
+        "comments": 193
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50563148",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Claude 解决黑洞物理学中的两个开放问题。",
         "category": "model",
@@ -291,13 +1202,13 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-20",
       "category": "industry",
-      "score": 34.4,
+      "score": 36,
       "metrics": {
-        "points": 371,
-        "comments": 548
+        "points": 992,
+        "comments": 1933
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50562754",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Anthropic 在纳斯达克上市，市值达 2 万亿美元。",
         "category": "industry",
@@ -454,6 +1365,27 @@
       "dupOf": "2b6wnmit9x1"
     },
     {
+      "id": "1idruc5fg0c",
+      "key": "url:perishablepress.com/chrome-ai-wasting-much-bandwidth",
+      "title": "Chrome AI features wasting much bandwidth",
+      "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-19T16:54:25.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 22.9,
+      "metrics": {
+        "points": 127,
+        "comments": 48
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50562636",
+      "aiAttempts": 1
+    },
+    {
       "id": "14vddjetg0k",
       "key": "url:36kr.com/newsflashes/4076915914527624",
       "title": "Anthropic开盘价为111.50美元，首日股价上涨34%",
@@ -499,6 +1431,27 @@
       }
     },
     {
+      "id": "1u15d9xh67d",
+      "key": "url:restofworld.org/2026/ai-jobs-skills-gig-work",
+      "title": "AI isn't replacing your job. It's turning it into low-paid gig work",
+      "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-19T16:45:50.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 23.1,
+      "metrics": {
+        "points": 124,
+        "comments": 61
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50562500",
+      "aiAttempts": 1
+    },
+    {
       "id": "1ouky7oj6zg",
       "key": "url:36kr.com/newsflashes/4076908143612804",
       "title": "Anthropic首日开盘市值预计达2万亿美元",
@@ -512,12 +1465,30 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-20",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "Anthropic 首日开盘市值预计达 2 万亿美元。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-19T19:30:01.017Z"
+      },
+      "related": [
+        {
+          "id": "1c3w0klmhke",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4077305556259712",
+          "title": "Anthropic上市冲破2万亿美元，超级智能第一股开盘暴涨",
+          "publishedAt": "2026-11-19T23:56:16.293Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-19T16:45:25.562Z"
       }
     },
     {
@@ -533,13 +1504,13 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-20",
       "category": "industry",
-      "score": 26.7,
+      "score": 34.7,
       "metrics": {
-        "points": 207,
-        "comments": 72
+        "points": 495,
+        "comments": 204
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50562262",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Hacker News 用户标题，内容未提供。",
         "category": "industry",

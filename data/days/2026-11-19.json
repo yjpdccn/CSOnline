@@ -17,13 +17,13 @@
       "keywords": [
         "语音"
       ],
-      "score": 26.1,
+      "score": 29.2,
       "metrics": {
-        "points": 155,
-        "comments": 142
+        "points": 219,
+        "comments": 198
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50561508",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Pete Warden 讨论本地 AI、开源模型和语音接口的未来硬件趋势。",
         "category": "industry",
@@ -109,6 +109,38 @@
       "category": "industry",
       "score": 18,
       "dupOf": "2b6wnmit9x1"
+    },
+    {
+      "id": "l2lg47sp78",
+      "key": "gh:bookwjitchieni1986/blender-ai-mcp-addon",
+      "title": "bookwjitchieni1986/blender-ai-mcp-addon",
+      "url": "https://github.com/bookwjitchieni1986/blender-ai-mcp-addon",
+      "excerpt": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-19T14:43:10.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-19",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "MCP",
+        "AI 编程"
+      ],
+      "score": 18.8,
+      "metrics": {
+        "stars": 721
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Blender AI 助手与 MCP 服务器，支持多模态交互与多 Agent 工作流。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
+      }
     },
     {
       "id": "1l1q88k877a",
@@ -405,6 +437,33 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-19T19:30:40.037Z"
+      }
+    },
+    {
+      "id": "1y2rxjx227x",
+      "key": "url:spectrum.ieee.org/ai-superintelligence-debate",
+      "title": "The AI Superintelligence Debate Has Serious Flaws",
+      "url": "https://spectrum.ieee.org/ai-superintelligence-debate",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-19T12:17:10.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-19",
+      "category": "paper",
+      "score": 23.7,
+      "metrics": {
+        "points": 102,
+        "comments": 158
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50559140",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "探讨超级智能辩论中的严重缺陷。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:03.136Z"
       }
     },
     {
@@ -785,7 +844,13 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "红帽 CEO 更迭，企业 AI 落地面临新挑战。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
     },
     {
       "id": "2bcow2zh3ge",
@@ -894,13 +959,13 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 22.5,
+      "score": 23.2,
       "metrics": {
-        "points": 105,
-        "comments": 76
+        "points": 117,
+        "comments": 78
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50557885",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "DeepMind 员工正在组建工会，引发行业关注。",
         "category": "industry",
@@ -1044,8 +1109,14 @@
       "publishedAt": "2026-11-19T09:04:00.000Z",
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
-      "category": "industry",
-      "score": 18
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "Perplexity 推出 Decider v1.3，将判断能力独立为模型。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
     },
     {
       "id": "6f0y3pjo98",
@@ -1098,11 +1169,17 @@
       "publishedAt": "2026-11-19T08:32:33.000Z",
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
-      "category": "agent",
+      "category": "paper",
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "专访探讨扩散智能在两年内替代自回归的底气。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
     },
     {
       "id": "1jghs7cm5iz",
@@ -1162,12 +1239,30 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "GTA6 刷屏，零 AI 纯手搓的 3A 大作玩一个少一个。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-19T19:30:40.037Z"
+      },
+      "related": [
+        {
+          "id": "1gyw7skz2te",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4077284113175680",
+          "title": "20岁小伙用250个AI 把整个地球搬进《我的世界》，比《GTA 6》还好逛？",
+          "publishedAt": "2026-11-19T23:28:20.352Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "qbitai",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-19T08:18:30.000Z"
       }
     },
     {
@@ -1186,7 +1281,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "TF 技术前线 188 期报名，聚焦金融智能体应用实践。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
     },
     {
       "id": "71e2ylpde2",
@@ -1222,8 +1323,14 @@
       "publishedAt": "2026-11-19T08:08:30.000Z",
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
-      "category": "industry",
-      "score": 18
+      "category": "model",
+      "score": 24,
+      "ai": {
+        "summary": "Phai 系列模型采用国产算力训练，强调快与真。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
     },
     {
       "id": "2dt35u02vuo",
@@ -1308,7 +1415,13 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "商汤发布街道办 AI 智能化白皮书，涵盖 12 类高频任务。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
     },
     {
       "id": "mw4h4s1bpj",
@@ -1324,7 +1437,13 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "稀土掘金 X-Lab 年度大会启动，聚焦 AI 带来的新生意。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
     },
     {
       "id": "t56oowlgak",
@@ -1524,7 +1643,13 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "商汤小浣熊发布街道办 AI 白皮书，包含 3 类实践案例。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
     },
     {
       "id": "26sbvn1zily",
@@ -1934,11 +2059,17 @@
       "publishedAt": "2026-11-19T03:17:00.000Z",
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI 已进入企业，但组织架构尚未进化，仍沿用旧流程。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-20T04:00:37.460Z"
+      }
     },
     {
       "id": "1fsqqtgdis1",
@@ -2219,11 +2350,11 @@
       "category": "paper",
       "score": 22.3,
       "metrics": {
-        "points": 105,
+        "points": 106,
         "comments": 68
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50555093",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "AI 不会让你致富，文章探讨 AI 投资的理性预期。",
         "category": "paper",
@@ -2354,13 +2485,13 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 22.7,
+      "score": 23.4,
       "metrics": {
-        "points": 108,
-        "comments": 80
+        "points": 117,
+        "comments": 88
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50554641",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "AI 将 Doritos 包装误判为枪支，引发黑人高中生诉讼。",
         "category": "industry",
@@ -2442,10 +2573,10 @@
       "firstSeenAt": "2026-11-19T04:11:26.145Z",
       "day": "2026-11-19",
       "category": "model",
-      "score": 34.1,
+      "score": 34.3,
       "metrics": {
-        "points": 248,
-        "comments": 77
+        "points": 252,
+        "comments": 78
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50554374",
       "dupOf": "iwa95uaq7i"
@@ -2609,10 +2740,10 @@
       "day": "2026-11-19",
       "category": "paper",
       "categoryLocked": true,
-      "score": 26,
+      "score": 26.8,
       "metrics": {
-        "upvotes": 105,
-        "comments": 3
+        "upvotes": 116,
+        "comments": 4
       },
       "ai": {
         "title": "Jeveration：System One 模型生成图像",
@@ -2621,6 +2752,81 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-19T19:29:49.581Z"
       }
+    },
+    {
+      "id": "yrewceu3vi",
+      "key": "url:openai.com/business/learn/deploying-daybreak-red",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "excerpt": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-19",
+      "category": "industry",
+      "score": 30,
+      "aiAttempts": 1
+    },
+    {
+      "id": "282up48fl1q",
+      "key": "url:openai.com/business/learn/pr-scans-demo",
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "excerpt": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-19",
+      "category": "industry",
+      "score": 30,
+      "aiAttempts": 1
+    },
+    {
+      "id": "2dtdiafjik1",
+      "key": "url:openai.com/business/learn/codex-security-plugin-demo",
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "excerpt": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-19",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 30,
+      "aiAttempts": 1
+    },
+    {
+      "id": "1c3ndqovxwb",
+      "key": "url:openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "title": "Get started with Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "excerpt": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-19T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-19",
+      "category": "industry",
+      "score": 30,
+      "aiAttempts": 1
     },
     {
       "id": "1mt87tubq0",
@@ -2759,10 +2965,10 @@
       "firstSeenAt": "2026-11-19T04:11:26.145Z",
       "day": "2026-11-19",
       "category": "agent",
-      "score": 29.3,
+      "score": 29.5,
       "metrics": {
-        "points": 293,
-        "comments": 74
+        "points": 300,
+        "comments": 77
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50553225",
       "ai": {
@@ -2874,8 +3080,8 @@
       "category": "model",
       "score": 66,
       "metrics": {
-        "points": 987,
-        "comments": 747
+        "points": 1022,
+        "comments": 763
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50552424",
       "related": [
@@ -2918,21 +3124,38 @@
           "url": "https://36kr.com/newsflashes/4076129189287046",
           "title": "谷歌推出Gemini 4 Neon模型",
           "publishedAt": "2026-11-19T03:47:44.000Z"
+        },
+        {
+          "id": "w3ofv0v300",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50568130",
+          "title": "Gemini 4 Neon is the new #1 on the Models Engineering Index",
+          "publishedAt": "2026-11-19T23:35:35.000Z"
+        },
+        {
+          "id": "1t274czjirx",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/S4LH5Z9zcbLokm5uNSKR?utm_source=rss&utm_medium=article",
+          "title": "谷歌发布用于机器人控制、仿真和策略优化的 Gemini 4 Argon",
+          "publishedAt": "2026-11-20T03:00:00.000Z"
         }
       ],
       "story": {
-        "reports": 6,
+        "reports": 8,
         "sources": [
           "hackernews",
           "the-decoder",
           "deepmind",
           "36kr-ai",
-          "36kr-flash"
+          "36kr-flash",
+          "infoq-cn"
         ],
         "firstPublishedAt": "2026-11-18T21:03:23.000Z",
         "metrics": {
-          "points": 987,
-          "comments": 747
+          "points": 1022,
+          "comments": 763
         }
       },
       "aiAttempts": 2,
@@ -3039,13 +3262,34 @@
       "firstSeenAt": "2026-11-19T04:11:26.145Z",
       "day": "2026-11-19",
       "category": "opensource",
-      "score": 30,
+      "score": 45.7,
       "ai": {
         "title": "DaisyRose-27B 推进后训练效率",
         "summary": "Hugging Face 推出 DaisyRose-27B，提升后训练效率。",
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-19T04:14:03.067Z"
+      },
+      "related": [
+        {
+          "id": "23acm0e9awt",
+          "sourceId": "hf-models",
+          "sourceName": "HF 热门模型",
+          "url": "https://huggingface.co/RadixArk/DaisyRose-27B",
+          "title": "RadixArk/DaisyRose-27B",
+          "publishedAt": "2026-11-18T05:31:35.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "hf-blog",
+          "hf-models"
+        ],
+        "firstPublishedAt": "2026-11-18T05:31:35.000Z",
+        "metrics": {
+          "likes": 192
+        }
       }
     },
     {
@@ -3128,7 +3372,7 @@
       "categoryLocked": true,
       "score": 20.7,
       "metrics": {
-        "stars": 11519,
+        "stars": 11595,
         "starsToday": 246
       },
       "ai": {
@@ -3390,9 +3634,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 18.5,
+      "score": 20.3,
       "metrics": {
-        "stars": 678
+        "stars": 954
       },
       "ai": {
         "title": "Claude Code 插件将 GTA 6 直播转为付费短视频",
@@ -3509,10 +3753,10 @@
       "firstSeenAt": "2026-11-19T04:11:26.145Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 63.2,
+      "score": 63.3,
       "metrics": {
-        "points": 407,
-        "comments": 751
+        "points": 413,
+        "comments": 777
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50553843",
       "alsoOn": [
@@ -3560,10 +3804,10 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 24.1,
+      "score": 24.5,
       "metrics": {
-        "points": 136,
-        "comments": 78
+        "points": 145,
+        "comments": 79
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50548485",
       "ai": {

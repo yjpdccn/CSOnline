@@ -120,9 +120,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18.7,
+      "score": 18.8,
       "metrics": {
-        "stars": 709
+        "stars": 721
       },
       "ai": {
         "title": "boring-marketing-skills：AI Agent 营销技能库",
@@ -716,7 +716,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 4922
+        "stars": 5379
       },
       "aiAttempts": 1,
       "ai": {
@@ -1958,9 +1958,9 @@
       "day": "2026-11-16",
       "category": "model",
       "categoryLocked": true,
-      "score": 31,
+      "score": 31.4,
       "metrics": {
-        "likes": 700
+        "likes": 748
       },
       "skipLlm": true,
       "dupOf": "27temos6bvw"
@@ -2183,7 +2183,7 @@
       "firstSeenAt": "2026-11-16T20:58:41.846Z",
       "day": "2026-11-16",
       "category": "model",
-      "score": 62.3,
+      "score": 62.9,
       "related": [
         {
           "id": "1fc1887ckv3",
@@ -2224,20 +2224,29 @@
           "url": "https://www.jiqizhixin.com/articles/2026-11-19-11",
           "title": "推理成本砍到1/20：混元Hy4 flash调用数据登顶，性价比拉满了（已开源）",
           "publishedAt": "2026-11-19T06:42:00.000Z"
+        },
+        {
+          "id": "27zrw76j8f5",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4077564611220357",
+          "title": "腾讯混元正式开源Hy4",
+          "publishedAt": "2026-11-20T03:53:13.165Z"
         }
       ],
       "story": {
-        "reports": 6,
+        "reports": 7,
         "sources": [
           "infoq-cn",
           "reddit-localllama",
           "hf-models",
           "geekpark",
-          "jiqizhixin"
+          "jiqizhixin",
+          "36kr-flash"
         ],
         "firstPublishedAt": "2026-11-16T06:23:27.000Z",
         "metrics": {
-          "likes": 318
+          "likes": 356
         }
       },
       "ai": {
@@ -2687,7 +2696,7 @@
       ],
       "score": 26.1,
       "metrics": {
-        "stars": 10659,
+        "stars": 10773,
         "starsToday": 540
       },
       "ai": {
@@ -2746,7 +2755,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 12247,
+        "stars": 12750,
         "starsToday": 2322
       },
       "ai": {
@@ -4600,6 +4609,154 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-16T02:46:53.853Z"
+      }
+    },
+    {
+      "id": "28vhloiv166",
+      "key": "gh:yellowlaborermarket/gemini-config-checker-",
+      "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+      "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+      "excerpt": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T16:48:18.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-16",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.8,
+      "metrics": {
+        "stars": 474
+      },
+      "dupOf": "6u6tixp4fv"
+    },
+    {
+      "id": "1samuru0upg",
+      "key": "gh:wyrmclimbermanacle/gemini-config-checker-",
+      "title": "WyrmClimberManacle/Gemini-Config-Checker-",
+      "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
+      "excerpt": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T16:48:18.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-16",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.8,
+      "metrics": {
+        "stars": 472
+      },
+      "dupOf": "6u6tixp4fv"
+    },
+    {
+      "id": "l6xt3wlqw3",
+      "key": "gh:windgatorrise37/gemini-config-checker-",
+      "title": "WindGatorRise37/Gemini-Config-Checker-",
+      "url": "https://github.com/WindGatorRise37/Gemini-Config-Checker-",
+      "excerpt": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T16:47:17.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-16",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.8,
+      "metrics": {
+        "stars": 472
+      },
+      "dupOf": "6u6tixp4fv"
+    },
+    {
+      "id": "ufxc4vrcc1",
+      "key": "gh:weightcashiercupola/gemini-config-checker-",
+      "title": "weightcashiercupola/Gemini-Config-Checker-",
+      "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
+      "excerpt": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T16:47:11.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-16",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.8,
+      "metrics": {
+        "stars": 473
+      },
+      "dupOf": "6u6tixp4fv"
+    },
+    {
+      "id": "6u6tixp4fv",
+      "key": "gh:turtlereside/gemini-config-checker-",
+      "title": "TurtleReside/Gemini-Config-Checker-",
+      "url": "https://github.com/TurtleReside/Gemini-Config-Checker-",
+      "excerpt": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T16:46:04.000Z",
+      "firstSeenAt": "2026-11-20T03:59:11.537Z",
+      "day": "2026-11-16",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.8,
+      "metrics": {
+        "stars": 472
+      },
+      "related": [
+        {
+          "id": "ufxc4vrcc1",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/weightcashiercupola/Gemini-Config-Checker-",
+          "title": "weightcashiercupola/Gemini-Config-Checker-",
+          "publishedAt": "2026-11-15T16:47:11.000Z"
+        },
+        {
+          "id": "l6xt3wlqw3",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/WindGatorRise37/Gemini-Config-Checker-",
+          "title": "WindGatorRise37/Gemini-Config-Checker-",
+          "publishedAt": "2026-11-15T16:47:17.000Z"
+        },
+        {
+          "id": "1samuru0upg",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/WyrmClimberManacle/Gemini-Config-Checker-",
+          "title": "WyrmClimberManacle/Gemini-Config-Checker-",
+          "publishedAt": "2026-11-15T16:48:18.000Z"
+        },
+        {
+          "id": "28vhloiv166",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/YellowLaborerMarket/Gemini-Config-Checker-",
+          "title": "YellowLaborerMarket/Gemini-Config-Checker-",
+          "publishedAt": "2026-11-15T16:48:18.000Z"
+        }
+      ],
+      "story": {
+        "reports": 5,
+        "sources": [
+          "github-new"
+        ],
+        "firstPublishedAt": "2026-11-15T16:46:04.000Z",
+        "metrics": {
+          "stars": 474
+        }
       }
     }
   ]

@@ -1,19 +1,6 @@
 {
-  "updatedAt": "2026-11-19T19:28:42.947Z",
+  "updatedAt": "2026-11-20T03:59:11.537Z",
   "events": [
-    {
-      "id": "wscn-1599185",
-      "at": "2026-11-19T13:30:00.000Z",
-      "country": "美国",
-      "title": "11月14日当周首次申请失业救济人数(万人)",
-      "importance": 3,
-      "kind": "data",
-      "source": "华尔街见闻",
-      "previous": "20",
-      "forecast": "19.8",
-      "actual": "20.3",
-      "unit": "万人"
-    },
     {
       "id": "wscn-1599194",
       "at": "2026-11-20T01:00:00.000Z",
@@ -23,18 +10,28 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "3.5",
+      "actual": "3.5",
       "unit": "%"
     },
     {
-      "id": "wscn-1599687",
+      "id": "wscn-15807",
+      "at": "2026-11-20T13:25:00.000Z",
+      "country": "美国",
+      "title": "美联储理事沃勒发表讲话。",
+      "importance": 3,
+      "kind": "event",
+      "source": "华尔街见闻"
+    },
+    {
+      "id": "wscn-1599680",
       "at": "2026-11-25T13:30:00.000Z",
       "country": "美国",
-      "title": "三季度实际GDP年化季环比修正值 · 11月21日当周首次申请失业救济人数(万人)",
-      "importance": 3,
+      "title": "10月核心PCE物价指数环比 · 10月PCE物价指数环比 · 三季度实际GDP年化季环比修正值 等 4 项",
+      "importance": 4,
       "kind": "data",
       "source": "华尔街见闻",
-      "previous": "3.4",
-      "forecast": "3.4",
+      "previous": "0.3",
+      "forecast": "0.3",
       "unit": "%"
     },
     {
@@ -45,6 +42,36 @@
       "importance": 3,
       "kind": "event",
       "source": "华尔街见闻"
+    },
+    {
+      "id": "wscn-15817",
+      "at": "2026-11-25T19:00:00.000Z",
+      "country": "美国",
+      "title": "美联储公布经济状况褐皮书",
+      "importance": 3,
+      "kind": "event",
+      "source": "华尔街见闻"
+    },
+    {
+      "id": "wscn-15827",
+      "at": "2026-11-26T04:02:00.000Z",
+      "country": "韩国",
+      "title": "韩国央行公布利率决议",
+      "importance": 3,
+      "kind": "event",
+      "source": "华尔街见闻",
+      "dateOnly": true
+    },
+    {
+      "id": "wscn-1599708",
+      "at": "2026-11-27T01:30:00.000Z",
+      "country": "中国",
+      "title": "10月规模以上工业企业利润同比",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "14.4",
+      "unit": "%"
     },
     {
       "id": "wscn-15396",
@@ -125,6 +152,17 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "54.5"
+    },
+    {
+      "id": "wscn-1599880",
+      "at": "2026-12-04T13:30:00.000Z",
+      "country": "美国",
+      "title": "11月失业率 · 11月非农就业人口变动(万人)",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "4.1",
+      "unit": "%"
     }
   ],
   "fomc": [
