@@ -120,9 +120,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 19,
+      "score": 19.1,
       "metrics": {
-        "stars": 745
+        "stars": 761
       },
       "ai": {
         "title": "boring-marketing-skills：AI Agent 营销技能库",
@@ -716,7 +716,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 6753
+        "stars": 7059
       },
       "aiAttempts": 1,
       "ai": {
@@ -2183,7 +2183,7 @@
       "firstSeenAt": "2026-11-16T20:58:41.846Z",
       "day": "2026-11-16",
       "category": "model",
-      "score": 65.5,
+      "score": 65.6,
       "related": [
         {
           "id": "1fc1887ckv3",
@@ -2240,10 +2240,18 @@
           "url": "https://36kr.com/newsflashes/4078961086764168",
           "title": "腾讯姚顺雨团队：Hy4仍有很大改进空间，计划训练更大规模模型",
           "publishedAt": "2026-11-21T03:33:47.268Z"
+        },
+        {
+          "id": "whzm6wcd0p",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4079148232168323",
+          "title": "沐曦股份曦云C系列GPU率先完成腾讯混元Hy4 Day 0适配",
+          "publishedAt": "2026-11-21T06:44:09.717Z"
         }
       ],
       "story": {
-        "reports": 8,
+        "reports": 9,
         "sources": [
           "infoq-cn",
           "reddit-localllama",
@@ -2254,7 +2262,7 @@
         ],
         "firstPublishedAt": "2026-11-16T06:23:27.000Z",
         "metrics": {
-          "likes": 553
+          "likes": 563
         }
       },
       "ai": {
@@ -2704,7 +2712,7 @@
       ],
       "score": 26.1,
       "metrics": {
-        "stars": 11093,
+        "stars": 11208,
         "starsToday": 540
       },
       "ai": {
@@ -2763,7 +2771,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 14493,
+        "stars": 15207,
         "starsToday": 2322
       },
       "ai": {
@@ -4670,6 +4678,27 @@
       "dupOf": "6u6tixp4fv"
     },
     {
+      "id": "1wohylhkjmi",
+      "key": "gh:windowstaffgate11/gemini-config-checker-",
+      "title": "WindowStaffGate11/Gemini-Config-Checker-",
+      "url": "https://github.com/WindowStaffGate11/Gemini-Config-Checker-",
+      "excerpt": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T16:47:18.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-16",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.8,
+      "metrics": {
+        "stars": 472
+      },
+      "dupOf": "6u6tixp4fv"
+    },
+    {
       "id": "l6xt3wlqw3",
       "key": "gh:windgatorrise37/gemini-config-checker-",
       "title": "WindGatorRise37/Gemini-Config-Checker-",
@@ -4774,6 +4803,14 @@
       },
       "related": [
         {
+          "id": "vmjo9yj1be",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
+          "title": "Violetnyudress/Gemini-Config-Checker-",
+          "publishedAt": "2026-11-15T16:46:04.000Z"
+        },
+        {
           "id": "28u27lc1vli",
           "sourceId": "github-new",
           "sourceName": "GitHub 新星项目",
@@ -4806,6 +4843,14 @@
           "publishedAt": "2026-11-15T16:47:17.000Z"
         },
         {
+          "id": "1wohylhkjmi",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/WindowStaffGate11/Gemini-Config-Checker-",
+          "title": "WindowStaffGate11/Gemini-Config-Checker-",
+          "publishedAt": "2026-11-15T16:47:18.000Z"
+        },
+        {
           "id": "1samuru0upg",
           "sourceId": "github-new",
           "sourceName": "GitHub 新星项目",
@@ -4823,7 +4868,7 @@
         }
       ],
       "story": {
-        "reports": 7,
+        "reports": 9,
         "sources": [
           "github-new"
         ],
@@ -4832,6 +4877,27 @@
           "stars": 474
         }
       }
+    },
+    {
+      "id": "vmjo9yj1be",
+      "key": "gh:violetnyudress/gemini-config-checker-",
+      "title": "Violetnyudress/Gemini-Config-Checker-",
+      "url": "https://github.com/Violetnyudress/Gemini-Config-Checker-",
+      "excerpt": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T16:46:04.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-16",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.8,
+      "metrics": {
+        "stars": 472
+      },
+      "dupOf": "6u6tixp4fv"
     }
   ]
 }

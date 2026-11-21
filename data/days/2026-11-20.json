@@ -196,10 +196,10 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "industry",
-      "score": 28.7,
+      "score": 34.2,
       "metrics": {
-        "points": 192,
-        "comments": 233
+        "points": 359,
+        "comments": 660
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50574383",
       "dupOf": "1lk17n35bwr"
@@ -596,6 +596,25 @@
       }
     },
     {
+      "id": "13s5ry1uodg",
+      "key": "url:qbitai.com/2026/11/511722.html",
+      "title": "美国AI音乐巨头进军视频生成，底层模型来自中国MiniMax",
+      "url": "https://www.qbitai.com/2026/11/511722.html",
+      "excerpt": "美国AI音乐平台Suno宣布推出视觉创作工具Visuals",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T12:18:01.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-20",
+      "category": "multimodal",
+      "keywords": [
+        "视频生成"
+      ],
+      "score": 18
+    },
+    {
       "id": "o2qepnresr",
       "key": "url:36kr.com/p/4077881070687104",
       "title": "「收手吧，人类大于利润！」现场直击AnthropicIPO，大量人群抗议「停止科技寡头」",
@@ -984,10 +1003,10 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "paper",
-      "score": 35.8,
+      "score": 35.9,
       "metrics": {
-        "points": 632,
-        "comments": 329
+        "points": 651,
+        "comments": 338
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50572503",
       "aiAttempts": 2,
@@ -1085,10 +1104,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 35.7,
+      "score": 35.8,
       "metrics": {
-        "points": 527,
-        "comments": 310
+        "points": 556,
+        "comments": 327
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50572348",
       "aiAttempts": 1,
@@ -1243,6 +1262,22 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-21T04:00:39.452Z"
       }
+    },
+    {
+      "id": "2ac4s1egq38",
+      "key": "url:qbitai.com/2026/11/511679.html",
+      "title": "给万卡国产芯装个“超级外挂”！清华团队要造最强国产Token工厂",
+      "url": "https://www.qbitai.com/2026/11/511679.html",
+      "excerpt": "联合华为昇腾，五年冲刺十万卡",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T08:59:15.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-20",
+      "category": "industry",
+      "score": 18
     },
     {
       "id": "1n76vz3ibb4",
@@ -1795,10 +1830,10 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "paper",
-      "score": 28.4,
+      "score": 28.6,
       "metrics": {
-        "points": 164,
-        "comments": 319
+        "points": 168,
+        "comments": 325
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50569519",
       "aiAttempts": 2,
@@ -1880,6 +1915,23 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-20T04:00:03.136Z"
+      },
+      "related": [
+        {
+          "id": "w5ypcoppcc",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4079476599772038",
+          "title": "WISE2026「年度人物·产业攻坚者」名册正式发布丨他们，向产业深处走去",
+          "publishedAt": "2026-11-21T12:44:52.494Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-20T02:11:30.051Z"
       }
     },
     {
@@ -2104,10 +2156,10 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "industry",
-      "score": 22.4,
+      "score": 22.6,
       "metrics": {
-        "points": 123,
-        "comments": 40
+        "points": 125,
+        "comments": 41
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50568548",
       "dupOf": "1ifve4nk94z"
@@ -2237,7 +2289,7 @@
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-20",
       "category": "opensource",
-      "score": 53.8,
+      "score": 64,
       "related": [
         {
           "id": "2cb7wjjlzgo",
@@ -2246,17 +2298,26 @@
           "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
           "title": "thinkingmachines/Inkling-2-Mini",
           "publishedAt": "2026-11-17T00:26:57.000Z"
+        },
+        {
+          "id": "20d2qaol6bg",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+          "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+          "publishedAt": "2026-11-21T10:33:02.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "hf-blog",
-          "hf-models"
+          "hf-models",
+          "the-decoder"
         ],
         "firstPublishedAt": "2026-11-17T00:26:57.000Z",
         "metrics": {
-          "likes": 793
+          "likes": 1248
         }
       },
       "ai": {
@@ -2285,9 +2346,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 21,
+      "score": 21.1,
       "metrics": {
-        "upvotes": 50,
+        "upvotes": 51,
         "comments": 3
       },
       "ai": {
@@ -2455,10 +2516,10 @@
       "firstSeenAt": "2026-11-20T03:59:11.537Z",
       "day": "2026-11-20",
       "category": "model",
-      "score": 39.4,
+      "score": 39.5,
       "metrics": {
-        "points": 367,
-        "comments": 241
+        "points": 370,
+        "comments": 243
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50568130",
       "dupOf": "iwa95uaq7i"
@@ -2768,7 +2829,7 @@
       ],
       "score": 27.3,
       "metrics": {
-        "stars": 69356,
+        "stars": 69572,
         "starsToday": 636
       },
       "ai": {
@@ -2800,7 +2861,7 @@
       ],
       "score": 29.7,
       "metrics": {
-        "stars": 2827,
+        "stars": 3089,
         "starsToday": 874
       },
       "ai": {
@@ -2828,7 +2889,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 12283,
+        "stars": 12555,
         "starsToday": 983
       },
       "ai": {
@@ -2901,7 +2962,7 @@
       "score": 25.4,
       "metrics": {
         "points": 114,
-        "comments": 243
+        "comments": 246
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50564366",
       "aiAttempts": 2,
@@ -3049,7 +3110,7 @@
       "category": "model",
       "score": 41.4,
       "metrics": {
-        "points": 553,
+        "points": 559,
         "comments": 270
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50563148",
@@ -3099,8 +3160,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1131,
-        "comments": 2299
+        "points": 1134,
+        "comments": 2301
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50562754",
       "aiAttempts": 2,
@@ -3344,10 +3405,10 @@
       "firstSeenAt": "2026-11-20T03:59:11.537Z",
       "day": "2026-11-20",
       "category": "paper",
-      "score": 24.5,
+      "score": 24.6,
       "metrics": {
-        "points": 145,
-        "comments": 80
+        "points": 146,
+        "comments": 82
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50562500",
       "aiAttempts": 2,
@@ -3411,10 +3472,10 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-20",
       "category": "industry",
-      "score": 35.1,
+      "score": 35.2,
       "metrics": {
-        "points": 600,
-        "comments": 246
+        "points": 609,
+        "comments": 249
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50562262",
       "aiAttempts": 2,

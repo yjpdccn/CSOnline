@@ -19,7 +19,7 @@
       ],
       "score": 31.2,
       "metrics": {
-        "points": 269,
+        "points": 270,
         "comments": 247
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50561508",
@@ -130,9 +130,9 @@
         "MCP",
         "AI 编程"
       ],
-      "score": 24.1,
+      "score": 24.5,
       "metrics": {
-        "stars": 1815
+        "stars": 1926
       },
       "aiAttempts": 2,
       "ai": {
@@ -413,7 +413,7 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 52.7,
+      "score": 58.2,
       "ai": {
         "summary": "Anthropic七位联合创始人掌握多数投票权。",
         "category": "industry",
@@ -447,8 +447,8 @@
         ],
         "firstPublishedAt": "2026-11-19T12:38:12.302Z",
         "metrics": {
-          "points": 192,
-          "comments": 233
+          "points": 359,
+          "comments": 660
         }
       }
     },
@@ -510,10 +510,10 @@
       "firstSeenAt": "2026-11-20T03:59:11.537Z",
       "day": "2026-11-19",
       "category": "paper",
-      "score": 23.9,
+      "score": 24,
       "metrics": {
-        "points": 104,
-        "comments": 163
+        "points": 105,
+        "comments": 164
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50559140",
       "aiAttempts": 1,
@@ -929,9 +929,9 @@
       "keywords": [
         "本地部署"
       ],
-      "score": 22,
+      "score": 23.1,
       "metrics": {
-        "stars": 1276
+        "stars": 1541
       },
       "aiAttempts": 1,
       "ai": {
@@ -2591,7 +2591,7 @@
       "score": 23.5,
       "metrics": {
         "points": 118,
-        "comments": 91
+        "comments": 92
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50554641",
       "aiAttempts": 2,
@@ -2843,9 +2843,9 @@
       "day": "2026-11-19",
       "category": "paper",
       "categoryLocked": true,
-      "score": 28.5,
+      "score": 28.6,
       "metrics": {
-        "upvotes": 146,
+        "upvotes": 148,
         "comments": 4
       },
       "ai": {
@@ -2974,9 +2974,9 @@
       "day": "2026-11-19",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.7,
+      "score": 22.8,
       "metrics": {
-        "upvotes": 65,
+        "upvotes": 66,
         "comments": 3
       },
       "dupOf": "2eg9py51y5o"
@@ -3233,8 +3233,8 @@
       "category": "model",
       "score": 66,
       "metrics": {
-        "points": 1050,
-        "comments": 776
+        "points": 1056,
+        "comments": 778
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50552424",
       "related": [
@@ -3307,8 +3307,8 @@
         ],
         "firstPublishedAt": "2026-11-18T21:03:23.000Z",
         "metrics": {
-          "points": 1050,
-          "comments": 776
+          "points": 1056,
+          "comments": 778
         }
       },
       "aiAttempts": 2,
@@ -3415,7 +3415,7 @@
       "firstSeenAt": "2026-11-19T04:11:26.145Z",
       "day": "2026-11-19",
       "category": "opensource",
-      "score": 45.7,
+      "score": 47.9,
       "ai": {
         "title": "DaisyRose-27B 推进后训练效率",
         "summary": "Hugging Face 推出 DaisyRose-27B，提升后训练效率。",
@@ -3441,7 +3441,7 @@
         ],
         "firstPublishedAt": "2026-11-18T05:31:35.000Z",
         "metrics": {
-          "likes": 192
+          "likes": 292
         }
       }
     },
@@ -3525,7 +3525,7 @@
       "categoryLocked": true,
       "score": 20.7,
       "metrics": {
-        "stars": 11813,
+        "stars": 11865,
         "starsToday": 246
       },
       "ai": {
@@ -3906,10 +3906,10 @@
       "firstSeenAt": "2026-11-19T04:11:26.145Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 63.4,
+      "score": 71.4,
       "metrics": {
-        "points": 420,
-        "comments": 791
+        "points": 421,
+        "comments": 795
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50553843",
       "alsoOn": [
@@ -3925,6 +3925,29 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-19T04:14:03.067Z"
+      },
+      "related": [
+        {
+          "id": "109h7wjgszu",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4079074198705280",
+          "title": "Anthropic万亿IPO冲击波：智谱、MiniMax大跌，市场或重估大模型定价逻辑",
+          "publishedAt": "2026-11-21T06:16:36.759Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "anthropic",
+          "hackernews",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-18T17:00:00.000Z",
+        "metrics": {
+          "points": 421,
+          "comments": 795
+        }
       }
     },
     {

@@ -1943,9 +1943,9 @@
       "day": "2026-11-18",
       "category": "model",
       "categoryLocked": true,
-      "score": 23.7,
+      "score": 25.9,
       "metrics": {
-        "likes": 192
+        "likes": 292
       },
       "skipLlm": true,
       "dupOf": "2474y33nf5"
@@ -3286,7 +3286,7 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "model",
-      "score": 56.7,
+      "score": 56.8,
       "ai": {
         "title": "180B 参数 MoE 推理极限",
         "summary": "Hugging Face 博客探讨在 32GB 内存下运行 180B 参数 MoE 模型。",
@@ -3312,7 +3312,7 @@
         ],
         "firstPublishedAt": "2026-11-18T00:00:00.000Z",
         "metrics": {
-          "upvotes": 65,
+          "upvotes": 66,
           "comments": 3
         }
       }
@@ -3958,7 +3958,7 @@
       ],
       "score": 23.7,
       "metrics": {
-        "stars": 17883,
+        "stars": 17966,
         "starsToday": 384
       },
       "ai": {
@@ -4018,7 +4018,7 @@
       "categoryLocked": true,
       "score": 29.5,
       "metrics": {
-        "stars": 67748,
+        "stars": 67947,
         "starsToday": 847
       },
       "ai": {
@@ -4408,10 +4408,18 @@
           "url": "https://36kr.com/p/4075178142864513",
           "title": "GPT-6.2 Astra首发24小时口碑大翻车，硅谷大佬集体差评",
           "publishedAt": "2026-11-18T12:02:36.662Z"
+        },
+        {
+          "id": "wt8z6f2bjr",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/511779.html",
+          "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
+          "publishedAt": "2026-11-21T06:35:59.000Z"
         }
       ],
       "story": {
-        "reports": 10,
+        "reports": 11,
         "sources": [
           "openai",
           "hackernews",

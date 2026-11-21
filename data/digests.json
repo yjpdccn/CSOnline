@@ -899,42 +899,39 @@
   },
   "2026-11-21": {
     "day": "2026-11-21",
-    "generatedAt": "2026-11-21T04:00:56.517Z",
-    "itemCount": 89,
-    "mode": "ai",
-    "model": "glm-4.7-flash",
-    "overview": "Anthropic与Claude合作证明黎曼猜想引发热议，OpenAI加强模型防御，谷歌调整TPU出货计划。",
+    "generatedAt": "2026-11-21T13:06:20.787Z",
+    "itemCount": 54,
+    "mode": "fallback",
+    "overview": "过去 24 小时共收录 54 条 AI 资讯：产品与行业 29 条、Agent 与工具 9 条、论文 8 条、模型发布 5 条、开源项目 2 条、多模态与视频 1 条。以下为按重要性排序的前 5 条。",
     "points": [
       {
-        "text": "Anthropic数学家称与Claude合作证明黎曼猜想，菲尔兹奖得主邓煜表示在看到500页证明前不会看。",
+        "text": "【模型】刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
         "refs": [
-          "2dmi8jh3jp",
+          "16w04lf5pil"
+        ]
+      },
+      {
+        "text": "【论文】黎曼猜想真被Claude证明了？陶哲轩邓煜等菲尔兹奖得主回应！",
+        "refs": [
           "2ahrlw0q4k5"
         ]
       },
       {
-        "text": "OpenAI部署多层防御对抗蒸馏，提升GPT-6.2 Astra和GPT-6.2 Sol保护，大幅降低推理提取成功率。",
+        "text": "【行业】OpenAI与Anthropic围攻千禧年难题，七道题进展如何？",
         "refs": [
-          "22iowh1r8tm",
-          "w5kopne0n"
+          "1qhxov6ml0x"
         ]
       },
       {
-        "text": "谷歌调整TPU 8t与8i系列2027年出货比重，增加TPU 8t出货以应对供应链紧张。",
+        "text": "【行业】Google workers tell their employer not to punish schools that don't want AI",
         "refs": [
-          "1c52rh543ug"
+          "q6s94cx65s"
         ]
       },
       {
-        "text": "Signal阻止截图以防止AI Agent读取私密聊天，在iOS 27和Android上实施。",
+        "text": "【行业】Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
         "refs": [
-          "18g8gimtk1x"
-        ]
-      },
-      {
-        "text": "谷歌Duplex进化，现在也能为企业拨打电话。",
-        "refs": [
-          "1achcw82du8"
+          "1sfy67ns708"
         ]
       }
     ]

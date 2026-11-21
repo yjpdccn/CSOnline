@@ -1,6 +1,34 @@
 {
   "history": [
     {
+      "startedAt": "2026-11-21T13:04:47.548Z",
+      "finishedAt": "2026-11-21T13:10:20.557Z",
+      "durationMs": 333009,
+      "trigger": "push",
+      "news": {
+        "fetched": 891,
+        "relevant": 472,
+        "added": 19
+      },
+      "ai": {
+        "enabled": true,
+        "titles": 0,
+        "overview": "fallback",
+        "requests": 3,
+        "error": "英文标题：模型繁忙：HTTP 429 · 1305 该模型当前访问量过大，请您稍后再试；市场概览：模型繁忙：HTTP 429 · 1305 该模型当前访问量过大，请您稍后再试"
+      },
+      "health": {
+        "ok": true,
+        "warn": 0,
+        "minor": 0
+      },
+      "alerts": 15,
+      "suggestions": 8,
+      "notify": {
+        "result": "nothing-new"
+      }
+    },
+    {
       "startedAt": "2026-11-21T03:58:30.075Z",
       "finishedAt": "2026-11-21T04:05:53.382Z",
       "durationMs": 443307,
@@ -1619,12 +1647,10 @@
     }
   ],
   "lastRun": {
-    "startedAt": "2026-11-21T03:58:30.075Z",
-    "finishedAt": "2026-11-21T04:05:53.382Z",
-    "durationMs": 443307,
-    "trigger": "schedule",
-    "scheduledFor": "2026-11-20T23:13:00.000Z",
-    "delayMinutes": 286,
+    "startedAt": "2026-11-21T13:04:47.548Z",
+    "finishedAt": "2026-11-21T13:10:20.557Z",
+    "durationMs": 333009,
+    "trigger": "push",
     "sources": [
       {
         "id": "eastmoney-quotes",
@@ -1633,7 +1659,7 @@
         "ok": true,
         "count": 21,
         "total": 21,
-        "ms": 938
+        "ms": 1345
       },
       {
         "id": "treasury",
@@ -1641,7 +1667,7 @@
         "kind": "行情",
         "ok": true,
         "count": 223,
-        "ms": 575
+        "ms": 277
       },
       {
         "id": "danjuan",
@@ -1649,7 +1675,7 @@
         "kind": "估值",
         "ok": true,
         "count": 63,
-        "ms": 745
+        "ms": 708
       },
       {
         "id": "csindex",
@@ -1658,7 +1684,7 @@
         "ok": true,
         "count": 2,
         "total": 2,
-        "ms": 1975
+        "ms": 2763
       },
       {
         "id": "fund-nav",
@@ -1667,34 +1693,24 @@
         "ok": true,
         "count": 26,
         "total": 26,
-        "ms": 17333
+        "ms": 26255
       },
       {
         "id": "fund-fees",
         "name": "天天基金费率与申购状态",
         "kind": "基金",
         "ok": true,
-        "count": 25,
+        "count": 26,
         "total": 26,
-        "ms": 24063,
-        "error": "021277：HTTP 514 Frequency Capped"
-      },
-      {
-        "id": "fund-profile",
-        "name": "天天基金基金概况",
-        "kind": "基金",
-        "ok": true,
-        "count": 6,
-        "total": 6,
-        "ms": 1328
+        "ms": 6438
       },
       {
         "id": "wscn-global",
         "name": "华尔街见闻",
         "kind": "新闻",
         "ok": true,
-        "count": 147,
-        "ms": 4534
+        "count": 145,
+        "ms": 22476
       },
       {
         "id": "wscn-gold",
@@ -1702,15 +1718,15 @@
         "kind": "新闻",
         "ok": true,
         "count": 100,
-        "ms": 630
+        "ms": 681
       },
       {
         "id": "wscn-us",
         "name": "华尔街见闻·美股",
         "kind": "新闻",
         "ok": true,
-        "count": 19,
-        "ms": 552
+        "count": 18,
+        "ms": 726
       },
       {
         "id": "cls",
@@ -1718,7 +1734,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 100,
-        "ms": 2449
+        "ms": 1569
       },
       {
         "id": "em-focus",
@@ -1726,7 +1742,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 100,
-        "ms": 1132
+        "ms": 1370
       },
       {
         "id": "em-pboc",
@@ -1734,7 +1750,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 50,
-        "ms": 979
+        "ms": 1069
       },
       {
         "id": "em-cb",
@@ -1742,7 +1758,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 50,
-        "ms": 1074
+        "ms": 1086
       },
       {
         "id": "em-commodity",
@@ -1750,7 +1766,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 50,
-        "ms": 1179
+        "ms": 1113
       },
       {
         "id": "sina",
@@ -1758,7 +1774,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 150,
-        "ms": 3083
+        "ms": 23181
       },
       {
         "id": "cnbc-economy",
@@ -1766,7 +1782,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 30,
-        "ms": 224
+        "ms": 211
       },
       {
         "id": "cnbc-top",
@@ -1774,7 +1790,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 30,
-        "ms": 240
+        "ms": 115
       },
       {
         "id": "ft-markets",
@@ -1782,7 +1798,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 25,
-        "ms": 276
+        "ms": 288
       },
       {
         "id": "marketwatch",
@@ -1790,7 +1806,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 10,
-        "ms": 25
+        "ms": 65
       },
       {
         "id": "fed",
@@ -1798,7 +1814,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 15,
-        "ms": 131
+        "ms": 115
       },
       {
         "id": "ecb",
@@ -1806,7 +1822,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 3,
-        "ms": 640
+        "ms": 472
       },
       {
         "id": "nbs",
@@ -1814,7 +1830,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 15,
-        "ms": 3719
+        "ms": 24183
       },
       {
         "id": "wscn-calendar",
@@ -1822,7 +1838,7 @@
         "kind": "日历",
         "ok": true,
         "count": 14,
-        "ms": 622
+        "ms": 350
       },
       {
         "id": "fomc",
@@ -1830,7 +1846,7 @@
         "kind": "日历",
         "ok": true,
         "count": 4,
-        "ms": 141
+        "ms": 44
       },
       {
         "id": "fund-notices",
@@ -1839,7 +1855,7 @@
         "ok": true,
         "count": 26,
         "total": 26,
-        "ms": 4206
+        "ms": 7719
       },
       {
         "id": "peer-status",
@@ -1848,32 +1864,30 @@
         "ok": true,
         "count": 19,
         "total": 19,
-        "ms": 4358
+        "ms": 34779
       }
     ],
     "news": {
-      "fetched": 894,
-      "relevant": 480,
-      "added": 63
+      "fetched": 891,
+      "relevant": 472,
+      "added": 19
     },
     "ai": {
       "enabled": true,
-      "titles": 3,
+      "titles": 0,
       "overview": "fallback",
       "requests": 3,
-      "error": "市场概览：模型繁忙：HTTP 429 · 1302 您的账户已达到速率限制，请您控制请求频率"
+      "error": "英文标题：模型繁忙：HTTP 429 · 1305 该模型当前访问量过大，请您稍后再试；市场概览：模型繁忙：HTTP 429 · 1305 该模型当前访问量过大，请您稍后再试"
     },
     "health": {
       "ok": true,
       "warn": 0,
-      "minor": 1
+      "minor": 0
     },
     "alerts": 15,
     "suggestions": 8,
     "notify": {
-      "result": "sent",
-      "channel": "serverchan",
-      "title": "投资日报：2 项重大事件"
+      "result": "nothing-new"
     }
   }
 }

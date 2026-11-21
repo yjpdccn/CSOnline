@@ -2,6 +2,402 @@
   "day": "2026-11-21",
   "items": [
     {
+      "id": "w5ypcoppcc",
+      "key": "url:36kr.com/p/4079476599772038",
+      "title": "WISE2026「年度人物·产业攻坚者」名册正式发布丨他们，向产业深处走去",
+      "url": "https://36kr.com/p/4079476599772038",
+      "excerpt": "在世界尚未完成的地方，在关键产业的深水区，人们通过行动留下各自的回答。一个人的名字，由此有了属于他自己的分量。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T12:44:52.494Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 22,
+      "dupOf": "1qjfurcfpb9"
+    },
+    {
+      "id": "1sfy67ns708",
+      "key": "url:the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft",
+      "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
+      "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+      "excerpt": "Anthropic mathematician Levent Alpöge says he used Claude to prove the Riemann hypothesis, math's most famous open problem for 167 years, with a proof formalized in Lean that spans over 250,000 pages. Just hours later, Stanford researchers published an independent, entirely huma…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-21T11:19:49.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 19
+    },
+    {
+      "id": "26dmkq8pqok",
+      "key": "url:jiqizhixin.com/articles/2026-11-21-9",
+      "title": "Flagship布局伦敦，打造AI原生科学创业平台",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-21-9",
+      "excerpt": "编辑丨^Y^11 月 16 日，美国生命科学投资与创新机构 Flagship Pioneering 宣布在英国伦敦设立 Flagship Origination Lab。这是公司首次将旗下 Flagship Labs 的公司创建模式拓展到美国以外地区。Flagship 承诺首期投入 1 亿英镑...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T11:08:00.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1qhxov6ml0x",
+      "key": "url:jiqizhixin.com/articles/2026-11-21-8",
+      "title": "OpenAI与Anthropic围攻千禧年难题，七道题进展如何？",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-21-8",
+      "excerpt": "编辑｜Panda11 月 20 日，Anthropic 数学家 Levent Alpöge 宣称，与 Claude 合作发现了黎曼猜想的证明，并把论证以 Lean 代码公开。此前还停在「三分之二零点」与「准黎曼猜想」的进展表，一夜之间又得重写。 https://a...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T11:07:00.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 26,
+      "related": [
+        {
+          "id": "1cyts9ya4pw",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+          "title": "Anthropic 数学家称用 Claude 解决千禧年大奖难题",
+          "publishedAt": "2026-11-20T16:34:13.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "verge-ai"
+        ],
+        "firstPublishedAt": "2026-11-20T16:34:13.000Z"
+      }
+    },
+    {
+      "id": "18oxcr4m2wa",
+      "key": "url:jiqizhixin.com/articles/2026-11-21-7",
+      "title": "Claude Opus 5拿到45.7分，25个大模型视频记忆大考",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-21-7",
+      "excerpt": "设想我们正看一场篮球比赛，并持续询问大模型有关的画面。对话一开始，我们问：“刚才完成那次突破得分的是谁？” 模型给出了球员的名字。又经过几轮关于其他回合的问答，我们追问：“我们第一次聊到的那名球员，这场比赛最后一共得了多少分？” 这时，模型需要先从早先的回答中找回那名球员，再结合比赛信息确定得...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T11:01:00.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "model",
+      "score": 24
+    },
+    {
+      "id": "13qpwhg3rp6",
+      "key": "url:jiqizhixin.com/articles/2026-11-21-6",
+      "title": "没有AI，12年潜心研究！人类数学家紧急公开广义黎曼猜想证明",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-21-6",
+      "excerpt": "有点魔幻，黎曼猜想突然迎来了两份证明。昨晚，Anthropic 数学家 Levent Alpöge 刚刚宣布，他与 Claude 合作找到了黎曼猜想（Riemann Hypothesis，RH）的证明。消息还没消化完，另一份完全由人类完成的证明草稿又突然公开了。美国数学会主席、斯坦福大学数学教...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T10:58:00.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2ahrlw0q4k5"
+    },
+    {
+      "id": "250dn54p09h",
+      "key": "url:jiqizhixin.com/articles/2026-11-21-5",
+      "title": "TML开源新模型，循环Transformer架构，笔记本就能跑",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-21-5",
+      "excerpt": "编辑｜Panda昨晚，黎曼猜想的一份 AI 证明声明，把大模型的推理能力再次推到聚光灯下。Anthropic 数学家 Levent Alpöge 宣称，自己与 Claude 合作找到了证明，并公布了形式化材料。虽然这项声明仍待独立核验，但已经让人们重新追问：AI 究竟能完成多复杂的工作？而刚刚...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T10:55:00.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "model",
+      "score": 28
+    },
+    {
+      "id": "2dwg32ilol6",
+      "key": "url:jiqizhixin.com/articles/2026-11-21-4",
+      "title": "NeurIPS 2026 Spotlight | 西工大提出ROSE：多模态终身知识编辑新范式",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-21-4",
+      "excerpt": "现实世界中的事实知识并非一成不变：企业 CEO 可能更替，产品信息会随着发布与迭代而更新，赛事结果也会不断产生。多模态大模型需要及时吸收这些新信息，才能保持知识的时效性。然而，在持续引入新事实的过程中，如何避免新旧知识之间的相互干扰，并尽可能保留模型在预训练阶段形成的通用能力，仍是亟待解决的关...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T10:52:00.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "paper",
+      "score": 18
+    },
+    {
+      "id": "qbfx3sqfg4",
+      "key": "url:jiqizhixin.com/articles/2026-11-21-3",
+      "title": "NeurIPS 2026 | 视觉语言大模型不关注场景中的人类，反而靠物体大小判断谁更关键",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-21-3",
+      "excerpt": "视觉语言大模型(VLMs)已经可以轻松完成诸多复杂的场景理解和视觉问答，但是模型对场景的理解真的和人类一致吗？先前的诸多计算机视觉研究都指出，看似模型和人类都能在相同的任务达到相同的水平，甚至模型可以超越人类的水平，但是模型和人类依赖的却是不同的特征，从而在很多情况下表现出和人类不一致的行为。...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T10:48:00.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "paper",
+      "score": 18
+    },
+    {
+      "id": "1apypzt6qdr",
+      "key": "url:jiqizhixin.com/articles/2026-11-21-2",
+      "title": "突发！Anthropic数学家宣称用Claude证明黎曼猜想",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-21-2",
+      "excerpt": "太炸了！刚刚，Anthropic 数学家 Levent Alpöge 在自己的个人网站上上传了一份 PDF 文件，该文件仅有 4 页，但却给出了一个足以载入史册的重磅成果——其宣称在 Claude 的帮助下，著名的黎曼猜想（Riemann Hypothesis）已经得到了证明，并给出了 Lea...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T10:43:00.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2ahrlw0q4k5"
+    },
+    {
+      "id": "2g6ph38d6j2",
+      "key": "url:jiqizhixin.com/articles/2026-11-21",
+      "title": "大模型为何长出「巨大激活」？清华、北大研究从反向传播找到新线索",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-21",
+      "excerpt": "大语言模型中有一个反复出现的现象。序列开头的少数 Token，往往吸引大量注意力。即使它们没有多少实际语义，模型仍然会频繁地看向它们。这就是注意力汇聚（Attention Sinks）。同一个位置还常出现另一件怪事。模型内部计算产生的部分数值会变得非常大，形成巨大激活（Massive Acti...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T10:38:00.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "20d2qaol6bg",
+      "key": "url:the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop",
+      "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
+      "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+      "excerpt": "Thinking Machines has released Inkling 2 Mini, an open looped transformer that runs 12 of its 24 layers three times per token. This lets the model reason internally for longer without generating extra text. On Artificial Analysis's Intelligence Index, it ties with Qwen3.8 27B at…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-21T10:33:02.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "29chgwcqphe"
+    },
+    {
+      "id": "85e35ld05y",
+      "key": "url:the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up",
+      "title": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up",
+      "url": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
+      "excerpt": "The Nasdaq 100 has slipped into a bear market after its worst weekly loss since the Covid-19 crisis. Nvidia plunged 14 percent as the SEC reviews its accounting, and Anthropic lost nearly all of its gains a day after its record IPO. AI doubts, scandals, rising interest rates, an…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-21T10:27:44.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 15
+    },
+    {
+      "id": "y4d56m790o",
+      "key": "url:the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model",
+      "title": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model",
+      "url": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
+      "excerpt": "Bytedance and several US universities introduce Axion 1.0, an AI agent that rivals top commercial models from OpenAI and Anthropic on benchmarks after just three training phases. The researchers attribute the gains to carefully curated training data rather than ever more trainin…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-21T09:17:24.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15
+    },
+    {
+      "id": "1rj86ft4d76",
+      "key": "url:36kr.com/newsflashes/4079212995089289",
+      "title": "马斯克称FSD V15下个月将全面推送",
+      "url": "https://36kr.com/newsflashes/4079212995089289",
+      "excerpt": "特斯拉CEO埃隆·马斯克在X平台上发帖称，FSD V15版本下个月将全面推送。他写道：“SFT（有监督微调）与其说是“微调”，倒不如说是“用电锯理发”！这种流程本应直接整合进基础训练阶段。而且，还要专门搞个“系统提示词”（system prompt），简直荒谬！模型默认的行为表现就该足够合理才对。上述观点在特斯拉的AI（虽然还称不上“超级”AI）上已经得到了体现。它是目前地球上最高效的AI。FSD V15下个月将全面推送。它一定会带来非凡的体验。”（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T07:50:02.532Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "20c4yjveot6"
+    },
+    {
+      "id": "whzm6wcd0p",
+      "key": "url:36kr.com/newsflashes/4079148232168323",
+      "title": "沐曦股份曦云C系列GPU率先完成腾讯混元Hy4 Day 0适配",
+      "url": "https://36kr.com/newsflashes/4079148232168323",
+      "excerpt": "据沐曦股份消息，11月20日，腾讯混元正式开源Hy4。沐曦股份旗下曦云C系列GPU率先完成Hy4的Day 0适配。（财联社）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T06:44:09.717Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "26lkjazmagp"
+    },
+    {
+      "id": "wt8z6f2bjr",
+      "key": "url:qbitai.com/2026/11/511779.html",
+      "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
+      "url": "https://www.qbitai.com/2026/11/511779.html",
+      "excerpt": "还实现可变形物体操控全球首通",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T06:35:59.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "model",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 24,
+      "dupOf": "25754w8325h"
+    },
+    {
+      "id": "16w04lf5pil",
+      "key": "url:qbitai.com/2026/11/511570.html",
+      "title": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
+      "url": "https://www.qbitai.com/2026/11/511570.html",
+      "excerpt": "专为本地部署而生",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T06:32:31.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "model",
+      "keywords": [
+        "Agent",
+        "本地部署"
+      ],
+      "score": 28
+    },
+    {
+      "id": "upu5q4c9zx",
+      "key": "url:qbitai.com/2026/11/511757.html",
+      "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+      "url": "https://www.qbitai.com/2026/11/511757.html",
+      "excerpt": "还透露了不少训练背后的秘诀",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T06:30:55.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "109h7wjgszu",
+      "key": "url:36kr.com/p/4079074198705280",
+      "title": "Anthropic万亿IPO冲击波：智谱、MiniMax大跌，市场或重估大模型定价逻辑",
+      "url": "https://36kr.com/p/4079074198705280",
+      "excerpt": "未上市的模型公司，其估值和未来股价可能会受到影响。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T06:16:36.759Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "v1a2oop0po"
+    },
+    {
+      "id": "1ldvlbysb1l",
+      "key": "url:ricapar.net/ClawDOS",
+      "title": "ClawDOS – An AI coding agent for DOS",
+      "url": "http://ricapar.net/ClawDOS/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-21T05:38:01.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 20.9,
+      "metrics": {
+        "points": 102,
+        "comments": 28
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50586292"
+    },
+    {
+      "id": "1v7y8k9z5zm",
+      "key": "url:36kr.com/p/4078984519750789",
+      "title": "谷歌重磅论文：内部已实现RSI，Opus经验喂给Gemini，AI拥有进化记忆",
+      "url": "https://36kr.com/p/4078984519750789",
+      "excerpt": "大模型依靠海量算力「大力出奇迹」的时代，正在终结。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T04:06:39.949Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "paper",
+      "score": 18
+    },
+    {
       "id": "bjjuzjl11x",
       "key": "url:36kr.com/newsflashes/4078961086764168",
       "title": "腾讯姚顺雨团队：Hy4仍有很大改进空间，计划训练更大规模模型",
@@ -43,6 +439,25 @@
       }
     },
     {
+      "id": "1a75wbk84b7",
+      "key": "url:leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html",
+      "title": "当 Kling Image 4.0 自己出设计方案，生图的门槛又变了！",
+      "url": "https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html",
+      "excerpt": "过去几年，AI 生图模型在真实感、分辨率和光影表现上不断刷新人们的认知。但当这些图片真正被用于海报、广告这些商业场景时仍会面临文字能否准确呈现、局部修改是否能保留原有设计等问题。 这些看似不起眼的要求，至今仍是图像模型的难题。（雷峰网） 今年 3 月，微软研究院发布了一项名为 BizGenEval 的商业视觉生成评测，用 400 条提示词和 8000 道检查题测试主流模型。结果发现，模型已经能生成颇具美感的海报和网页，但在精确布局、多个对象之间的属性对应等方面，仍然存在明显短板。 也正是在这个阶段，以视频生成出圈的可灵在今天推出了 Kling Imag…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T02:59:00.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "multimodal",
+      "keywords": [
+        "视频生成"
+      ],
+      "score": 18
+    },
+    {
       "id": "5nj0i472n2",
       "key": "url:36kr.com/p/4078902157185920",
       "title": "25万页证明，黎曼猜想被AI“解决”了吗？",
@@ -57,7 +472,7 @@
       "day": "2026-11-21",
       "category": "industry",
       "score": 18,
-      "dupOf": "2dmi8jh3jp"
+      "dupOf": "2ahrlw0q4k5"
     },
     {
       "id": "2a1hr4stu2",
@@ -139,40 +554,14 @@
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-21",
       "category": "paper",
-      "score": 34,
-      "related": [
-        {
-          "id": "1cyts9ya4pw",
-          "sourceId": "verge-ai",
-          "sourceName": "The Verge AI",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
-          "title": "Anthropic 数学家称用 Claude 解决千禧年大奖难题",
-          "publishedAt": "2026-11-20T16:34:13.000Z"
-        },
-        {
-          "id": "5nj0i472n2",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4078902157185920",
-          "title": "25万页证明，黎曼猜想被AI“解决”了吗？",
-          "publishedAt": "2026-11-21T02:49:35.842Z"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "36kr-flash",
-          "verge-ai",
-          "36kr-ai"
-        ],
-        "firstPublishedAt": "2026-11-20T16:34:13.000Z"
-      },
+      "score": 18,
       "ai": {
         "summary": "Anthropic 数学家 Levent Alpöge 与 Claude 合作证明黎曼猜想。",
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-21T04:00:29.058Z"
-      }
+      },
+      "dupOf": "2ahrlw0q4k5"
     },
     {
       "id": "ys1cgc8p5a",
@@ -212,12 +601,64 @@
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-21",
       "category": "paper",
-      "score": 18,
+      "score": 42,
       "ai": {
         "summary": "菲尔兹奖得主邓煜表示在看到 500 页证明前不会看。",
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-21T04:00:29.058Z"
+      },
+      "related": [
+        {
+          "id": "2b7wqpl7c33",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/511727.html",
+          "title": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明",
+          "publishedAt": "2026-11-20T16:07:39.000Z"
+        },
+        {
+          "id": "2dmi8jh3jp",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4078894434915207",
+          "title": "Anthropic数学家称与Claude合作证明黎曼猜想",
+          "publishedAt": "2026-11-21T02:25:59.162Z"
+        },
+        {
+          "id": "5nj0i472n2",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4078902157185920",
+          "title": "25万页证明，黎曼猜想被AI“解决”了吗？",
+          "publishedAt": "2026-11-21T02:49:35.842Z"
+        },
+        {
+          "id": "1apypzt6qdr",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-21-2",
+          "title": "突发！Anthropic数学家宣称用Claude证明黎曼猜想",
+          "publishedAt": "2026-11-21T10:43:00.000Z"
+        },
+        {
+          "id": "13qpwhg3rp6",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-21-6",
+          "title": "没有AI，12年潜心研究！人类数学家紧急公开广义黎曼猜想证明",
+          "publishedAt": "2026-11-21T10:58:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 6,
+        "sources": [
+          "36kr-ai",
+          "qbitai",
+          "36kr-flash",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-20T16:07:39.000Z"
       }
     },
     {
@@ -309,6 +750,31 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-21T03:59:55.608Z"
       }
+    },
+    {
+      "id": "1ivk1dqax3l",
+      "key": "gh:diggerhq/opencomputer",
+      "title": "Show HN: OpenComputer – an open source alternative to Devin",
+      "url": "https://github.com/diggerhq/opencomputer",
+      "excerpt": "Hi HN!Utpal here, I'm one of the founders of OpenComputer.OpenComputer is an open source cloud coding agent for teams that can run in your own cloud account (AWS, GCP, Azure).We run the agent harness and the sandbox on the same durable VM (architecture in the docs [1]). First co…",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-20T20:19:56.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "opensource",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 21.3,
+      "metrics": {
+        "points": 107,
+        "comments": 32
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50581403"
     },
     {
       "id": "1q6w6q1dx9g",
@@ -462,10 +928,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 22.6,
+      "score": 24.7,
       "metrics": {
-        "points": 121,
-        "comments": 48
+        "points": 158,
+        "comments": 63
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50579297",
       "aiAttempts": 1,
@@ -691,10 +1157,10 @@
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 30.7,
+      "score": 31.1,
       "metrics": {
-        "points": 271,
-        "comments": 198
+        "points": 277,
+        "comments": 214
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50577901",
       "aiAttempts": 1,
@@ -727,7 +1193,7 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-20T19:06:04.103Z"
       },
-      "dupOf": "2dmi8jh3jp"
+      "dupOf": "1qhxov6ml0x"
     },
     {
       "id": "1rf3df1f4uu",
@@ -742,10 +1208,10 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-21",
       "category": "paper",
-      "score": 31.6,
+      "score": 33.2,
       "metrics": {
-        "points": 357,
-        "comments": 113
+        "points": 429,
+        "comments": 126
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50577265",
       "aiAttempts": 2,
@@ -755,6 +1221,38 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-20T19:06:04.103Z"
       }
+    },
+    {
+      "id": "20b0tck47bc",
+      "key": "url:qbitai.com/2026/11/511740.html",
+      "title": "米哈游发了个VLA论文",
+      "url": "https://www.qbitai.com/2026/11/511740.html",
+      "excerpt": "8B参数，50小时自主运行",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T16:25:26.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "paper",
+      "score": 18
+    },
+    {
+      "id": "2b7wqpl7c33",
+      "key": "url:qbitai.com/2026/11/511727.html",
+      "title": "黎曼猜想被证明？！Claude加持，34岁数学家放出Lean证明",
+      "url": "https://www.qbitai.com/2026/11/511727.html",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-20T16:07:39.000Z",
+      "firstSeenAt": "2026-11-21T13:04:47.547Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2ahrlw0q4k5"
     }
   ]
 }
