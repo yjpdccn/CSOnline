@@ -3243,7 +3243,7 @@
         }
       ],
       "metrics": {
-        "points": 223,
+        "points": 224,
         "comments": 170
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50549493"
@@ -3286,7 +3286,7 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "model",
-      "score": 56.6,
+      "score": 56.7,
       "ai": {
         "title": "180B 参数 MoE 推理极限",
         "summary": "Hugging Face 博客探讨在 32GB 内存下运行 180B 参数 MoE 模型。",
@@ -3312,7 +3312,7 @@
         ],
         "firstPublishedAt": "2026-11-18T00:00:00.000Z",
         "metrics": {
-          "upvotes": 64,
+          "upvotes": 65,
           "comments": 3
         }
       }
@@ -3958,7 +3958,7 @@
       ],
       "score": 23.7,
       "metrics": {
-        "stars": 17786,
+        "stars": 17883,
         "starsToday": 384
       },
       "ai": {
@@ -4016,10 +4016,10 @@
       "day": "2026-11-18",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 29.4,
+      "score": 29.5,
       "metrics": {
-        "stars": 67610,
-        "starsToday": 841
+        "stars": 67748,
+        "starsToday": 847
       },
       "ai": {
         "title": "minimind：2 小时训练 64M 参数 LLM",

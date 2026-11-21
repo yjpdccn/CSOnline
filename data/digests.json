@@ -899,40 +899,42 @@
   },
   "2026-11-21": {
     "day": "2026-11-21",
-    "generatedAt": "2026-11-20T19:08:55.380Z",
-    "itemCount": 108,
+    "generatedAt": "2026-11-21T04:00:56.517Z",
+    "itemCount": 89,
     "mode": "ai",
     "model": "glm-4.7-flash",
-    "overview": "Anthropic 宣称用 Claude 证明黎曼猜想，华为云开放具身世界模型底座。",
+    "overview": "Anthropic与Claude合作证明黎曼猜想引发热议，OpenAI加强模型防御，谷歌调整TPU出货计划。",
     "points": [
       {
-        "text": "Anthropic 数学家称用 Claude 解决千禧年大奖难题。",
+        "text": "Anthropic数学家称与Claude合作证明黎曼猜想，菲尔兹奖得主邓煜表示在看到500页证明前不会看。",
         "refs": [
-          "1cyts9ya4pw"
+          "2dmi8jh3jp",
+          "2ahrlw0q4k5"
         ]
       },
       {
-        "text": "华为云开放具身世界模型底座，国产算力训出双榜 SOTA。",
+        "text": "OpenAI部署多层防御对抗蒸馏，提升GPT-6.2 Astra和GPT-6.2 Sol保护，大幅降低推理提取成功率。",
         "refs": [
-          "16hzgm0ngmq"
+          "22iowh1r8tm",
+          "w5kopne0n"
         ]
       },
       {
-        "text": "Frostbite 是由 AI 发现、设计和验证的新型 CPU 架构。",
+        "text": "谷歌调整TPU 8t与8i系列2027年出货比重，增加TPU 8t出货以应对供应链紧张。",
         "refs": [
-          "1mguiqpkuow"
+          "1c52rh543ug"
         ]
       },
       {
-        "text": "Meta 举办开源 AI 科学峰会，加速科学发现。",
+        "text": "Signal阻止截图以防止AI Agent读取私密聊天，在iOS 27和Android上实施。",
         "refs": [
-          "1lucb2aeu72"
+          "18g8gimtk1x"
         ]
       },
       {
-        "text": "Nvidia 投资 Inception 扩散模型，强化开源 Nemotron 线。",
+        "text": "谷歌Duplex进化，现在也能为企业拨打电话。",
         "refs": [
-          "26l4388zeac"
+          "1achcw82du8"
         ]
       }
     ]

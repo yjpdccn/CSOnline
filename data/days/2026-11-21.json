@@ -2,6 +2,387 @@
   "day": "2026-11-21",
   "items": [
     {
+      "id": "bjjuzjl11x",
+      "key": "url:36kr.com/newsflashes/4078961086764168",
+      "title": "腾讯姚顺雨团队：Hy4仍有很大改进空间，计划训练更大规模模型",
+      "url": "https://36kr.com/newsflashes/4078961086764168",
+      "excerpt": "11月21日凌晨，腾讯首席AI科学家姚顺雨带着混元团队出现在海外社交媒体社区，做了一场文字AMA（公开问答）。问答环节，有人直言：字节跳动和Kimi等（参数量）似乎都在往3T甚至5T推，你们为什么停在700B？混元团队回应：“Hy3和Hy4已经证明，较小的模型也能超越较大的模型，而且更便宜。”不过，混元团队也表示，Hy4仍有很大的改进空间，尤其是通过后训练。“我们正投入大量精力进行大规模强化学习，同时继续改善用户体验和模型安全。我们还计划训练更大规模的模型。”（每日经济新闻）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T03:33:47.268Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "26lkjazmagp"
+    },
+    {
+      "id": "1dgx1apicaq",
+      "key": "url:infoq.cn/article/TrWuo2vEZRl2xB2XXZNX",
+      "title": "智能体 AI 架构：当前挑战与未来机遇",
+      "url": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T03:00:00.000Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "paper",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "探讨智能体 AI 架构面临的挑战与未来发展方向。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:29.058Z"
+      }
+    },
+    {
+      "id": "5nj0i472n2",
+      "key": "url:36kr.com/p/4078902157185920",
+      "title": "25万页证明，黎曼猜想被AI“解决”了吗？",
+      "url": "https://36kr.com/p/4078902157185920",
+      "excerpt": "然而，人类数学家看不懂。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T02:49:35.842Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2dmi8jh3jp"
+    },
+    {
+      "id": "2a1hr4stu2",
+      "key": "url:36kr.com/p/4078301371406215",
+      "title": "东南亚AI中间商之死",
+      "url": "https://36kr.com/p/4078301371406215",
+      "excerpt": "算力中间商的淘金时代，结束了。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T02:48:23.278Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "算力中间商的淘金时代宣告结束。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:29.058Z"
+      }
+    },
+    {
+      "id": "1c52rh543ug",
+      "key": "url:36kr.com/newsflashes/4078907375063942",
+      "title": "郭明錤：谷歌预计将调整TPU 8t与8i系列2027年出货比重",
+      "url": "https://36kr.com/newsflashes/4078907375063942",
+      "excerpt": "11月20日晚，天风国际证券分析师郭明錤发布最新产业调查显示，谷歌下修2027年、由博通设计的TPU 8i系列共约100万颗（以单价较高的8i Max/Whalefish为主）。此下修约占2027年TPU 8i系列出货量约20%。本次调查也指出，谷歌预计增加2027年由联发科设计的TPU 8t系列出货，但细节尚未确定。谷歌近几个月反复强调前沿模型研发优先取得算力，此次8t与8i系列出货比重的改变，正是在供应链紧张与数据中心供电受限下所做的调整。（界面新闻）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T02:39:08.966Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "谷歌将增加 TPU 8t 出货，减少 TPU 8i 出货，以应对供应链紧张。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:29.058Z"
+      }
+    },
+    {
+      "id": "21taq7a0voy",
+      "key": "url:36kr.com/newsflashes/4078896115241859",
+      "title": "甲骨文称已筹集履行与OpenAI合同所需全部资金，预计2029财年自由现金流超300亿美元",
+      "url": "https://36kr.com/newsflashes/4078896115241859",
+      "excerpt": "甲骨文表示，已筹集履行与OpenAI基础设施合同所需的全部资金，本月早些时候完成最后一轮融资后，成为本轮投资周期中首家完成全部资金筹措的超大规模云服务商。公司称，相关融资方案已落实，后续与供应商的讨论仅涉及额外融资选择，不影响合同履行。甲骨文还表示，与OpenAI合作的阿比林园区已接近完工，下一座吉瓦级园区Shackelford已获得全部许可，英伟达Vera Rubin机架预计未来几周交付。公司预计2028财年下半年实现正自由现金流，2029财年自由现金流将超过300亿美元，并从当年起以自有资金支持未来增长。（财联社）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T02:27:41.721Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "甲骨文预计 2029 财年自由现金流超 300 亿美元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:29.058Z"
+      }
+    },
+    {
+      "id": "2dmi8jh3jp",
+      "key": "url:36kr.com/newsflashes/4078894434915207",
+      "title": "Anthropic数学家称与Claude合作证明黎曼猜想",
+      "url": "https://36kr.com/newsflashes/4078894434915207",
+      "excerpt": "Anthropic数学家Levent Alpöge发文称，他与Claude合作发现了黎曼猜想的一个证明，并称相关方法还可推广至广义黎曼猜想，未来或进一步解决扩展黎曼猜想。他表示，团队已使用Lean证明助手对论证进行了形式化验证，并公开了相关代码。Alpöge称，证明涉及大量数论工具，包括Stepanov方法、傅里叶分析和迭代theta提升等，论证目前篇幅庞大，仍有待进一步理解、整理和简化。他表示，Claude在研究接近完成时展现出超出预期的技术能力。（财联社）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T02:25:59.162Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "paper",
+      "score": 34,
+      "related": [
+        {
+          "id": "1cyts9ya4pw",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+          "title": "Anthropic 数学家称用 Claude 解决千禧年大奖难题",
+          "publishedAt": "2026-11-20T16:34:13.000Z"
+        },
+        {
+          "id": "5nj0i472n2",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4078902157185920",
+          "title": "25万页证明，黎曼猜想被AI“解决”了吗？",
+          "publishedAt": "2026-11-21T02:49:35.842Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "36kr-flash",
+          "verge-ai",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-20T16:34:13.000Z"
+      },
+      "ai": {
+        "summary": "Anthropic 数学家 Levent Alpöge 与 Claude 合作证明黎曼猜想。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:29.058Z"
+      }
+    },
+    {
+      "id": "ys1cgc8p5a",
+      "key": "url:infoq.cn/article/6swrOq5xUXwVqrREwJwc",
+      "title": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
+      "url": "https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T02:00:00.000Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "介绍 Entire Git Forge 如何重构 Git 协作以适应编码智能体。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:29.058Z"
+      }
+    },
+    {
+      "id": "2ahrlw0q4k5",
+      "key": "url:36kr.com/p/4078708897092744",
+      "title": "黎曼猜想真被Claude证明了？陶哲轩邓煜等菲尔兹奖得主回应！",
+      "url": "https://36kr.com/p/4078708897092744",
+      "excerpt": "邓煜：干到500页之前看都不看。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T01:06:21.333Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "菲尔兹奖得主邓煜表示在看到 500 页证明前不会看。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:29.058Z"
+      }
+    },
+    {
+      "id": "220m7vrd71e",
+      "key": "url:36kr.com/p/4078758591960197",
+      "title": "AI供电前史： 照明、汽车与工业电子如何汇入算力基础设施",
+      "url": "https://36kr.com/p/4078758591960197",
+      "excerpt": "“混合进化”是技术发展的底色",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T01:05:23.908Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "探讨技术发展的“混合进化”底色。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:29.058Z"
+      }
+    },
+    {
+      "id": "oi3j9nl4if",
+      "key": "url:36kr.com/p/4078768364754050",
+      "title": "腾讯姚顺雨团队深夜回应一切：算力不足、模型刷榜、雷霆大思考",
+      "url": "https://36kr.com/p/4078768364754050",
+      "excerpt": "下一代混元模型露出冰山一角。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T01:04:22.454Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "model",
+      "score": 24,
+      "ai": {
+        "summary": "下一代混元模型露出冰山一角。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:29.058Z"
+      }
+    },
+    {
+      "id": "1achcw82du8",
+      "key": "url:research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini",
+      "title": "How Google Duplex evolved to also call businesses for you in Gemini",
+      "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini/",
+      "excerpt": "Generative AI",
+      "lang": "en",
+      "sourceId": "google-research",
+      "sourceName": "Google Research",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-20T23:30:30.000Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "agent",
+      "score": 30,
+      "ai": {
+        "title": "Google Duplex 在 Gemini 中也能为企业拨打电话",
+        "summary": "Google Duplex 进化，现在也能为企业拨打电话。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T03:59:55.608Z"
+      }
+    },
+    {
+      "id": "w5kopne0n",
+      "key": "url:the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think",
+      "title": "OpenAI makes it much harder for attackers to extract how its latest AI models think",
+      "url": "https://the-decoder.com/openai-makes-it-much-harder-for-attackers-to-extract-how-its-latest-ai-models-think/",
+      "excerpt": "OpenAI has significantly strengthened safeguards against extracting internal reasoning from GPT-6.2 Astra and GPT-6.2 Sol. In adaptive red-teaming tests, the success rate for extracting protected reasoning fell from 54 percent to 0.2 percent. The company is also suspending thous…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-20T20:31:50.000Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "model",
+      "score": 21,
+      "ai": {
+        "title": "OpenAI 加强防护，阻止攻击者提取模型推理过程",
+        "summary": "OpenAI 提升了对 GPT-6.2 Astra 和 GPT-6.2 Sol 的保护，大幅降低推理提取成功率。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T03:59:55.608Z"
+      }
+    },
+    {
+      "id": "1q6w6q1dx9g",
+      "key": "url:techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building",
+      "title": "Daniel Ek backs AI researcher’s fusion power startup. Here’s what they’re building.",
+      "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+      "excerpt": "Spotify founder Daniel Ek is backing Europa Fusion, a fusion power startup founded by an AI researcher. Here's what the startup is building.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-20T19:53:41.000Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Spotify 创始人 Daniel Ek 背票 AI 研究员创立的聚变能源初创公司。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T03:59:55.608Z"
+      }
+    },
+    {
+      "id": "18g8gimtk1x",
+      "key": "url:the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats",
+      "title": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats",
+      "url": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
+      "excerpt": "Signal is blocking screenshots to stop AI agents like Apple's Siri AI, Google's Gemini Intelligence, and Meta's Muse from reading private chats. The app calls it an \"existential threat\" to privacy, but admits its protections remain incomplete, including on macOS. Apple, Google,…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-20T19:50:27.000Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "Signal 阻止截图以防止 AI Agent 读取私密聊天",
+        "summary": "Signal 在 iOS 27 和 Android 上阻止截图，以防止 AI Agent 读取私密聊天。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T03:59:55.608Z"
+      }
+    },
+    {
+      "id": "jsanp7b1i6",
+      "key": "url:techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too",
+      "title": "AI claimed a solution to the 167-year-old Riemann hypothesis — and a human did, too",
+      "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too/",
+      "excerpt": "Mathematicians are having their minds blown by the latest AI-driven result — and there's a competing human solution, too.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-20T19:32:08.000Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "paper",
+      "score": 15,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI 和人类分别声称解决了 167 年的黎曼猜想。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T03:59:55.608Z"
+      }
+    },
+    {
       "id": "fswji31klr",
       "key": "url:the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working",
       "title": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working",
@@ -54,15 +435,67 @@
       "publishedAt": "2026-11-20T18:30:45.000Z",
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-21",
-      "category": "opensource",
+      "category": "industry",
       "score": 30,
       "aiAttempts": 1,
       "ai": {
-        "summary": "Meta 举办开源 AI 科学峰会，加速科学发现。",
-        "category": "opensource",
+        "title": "开源 AI 科学峰会：加速科学发现",
+        "summary": "Meta 举办开源 AI 科学峰会，汇聚多方力量推动科学发现。",
+        "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-20T19:06:04.103Z"
+        "at": "2026-11-21T03:59:55.608Z"
       }
+    },
+    {
+      "id": "15buyuyzfnz",
+      "key": "url:ankitg.me/blog/vibecoding-inference-chip",
+      "title": "Vibecoding an inference chip",
+      "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-20T18:15:16.000Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 22.6,
+      "metrics": {
+        "points": 121,
+        "comments": 48
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50579297",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "通过“Vibecoding”方式设计推理芯片。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T03:59:55.608Z"
+      }
+    },
+    {
+      "id": "1wrevriioa3",
+      "key": "url:nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+      "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
+      "url": "https://www.nbcnews.com/business/markets/anthropic-shares-markets-selloff-nasdaq-rcna610394",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-20T17:44:01.000Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 27.8,
+      "metrics": {
+        "points": 184,
+        "comments": 187
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50578794",
+      "dupOf": "2b6wnmit9x1"
     },
     {
       "id": "1kn25rsqhw",
@@ -79,7 +512,7 @@
       "day": "2026-11-21",
       "category": "industry",
       "score": 15,
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "芯片能承受太空环境，但融资面临挑战。",
         "category": "industry",
@@ -164,6 +597,115 @@
       }
     },
     {
+      "id": "1nmk9mj15po",
+      "key": "url:developers.googleblog.com/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise",
+      "title": "How to securely connect internal Cloud Run MCP servers to Gemini Enterprise",
+      "url": "https://developers.googleblog.com/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/",
+      "excerpt": "How to connect Gemini Enterprise privately to internal StreamableHTTP MCP servers on Cloud Run using Egress Agent Gateway, Private Service Connect, FQDN-scoped Private Cloud DNS, and dual-header OAuth 2.0 authentication.",
+      "lang": "en",
+      "sourceId": "google-dev",
+      "sourceName": "Google 开发者博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-20T17:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "MCP"
+      ],
+      "score": 30,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "介绍如何安全地将内部 Cloud Run MCP 服务器连接到 Gemini Enterprise。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T03:59:55.608Z"
+      }
+    },
+    {
+      "id": "pda52nx0cl",
+      "key": "url:developers.googleblog.com/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies",
+      "title": "Check what your AI agents do before they do it, with Semantic governance policies",
+      "url": "https://developers.googleblog.com/check-what-your-ai-agents-do-before-they-do-it-with-semantic-governance-policies/",
+      "excerpt": "Semantic governance policies enable developers to govern AI agents by evaluating every proposed tool call inline before execution. Operating via Agent Gateway, the policy engine checks each action against user intent and plain-language rules to prevent unauthorized data sharing…",
+      "lang": "en",
+      "sourceId": "google-dev",
+      "sourceName": "Google 开发者博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-20T17:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 30,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "通过语义治理策略在执行前检查 AI Agent 的工具调用。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T03:59:55.608Z"
+      }
+    },
+    {
+      "id": "1yiazjai3n8",
+      "key": "url:developers.googleblog.com/how-to-handle-user-connector-and-agent-auth-in-gemini-enterprise-with-a-custom-ui",
+      "title": "How to handle user, connector, and agent auth in Gemini Enterprise with a custom UI",
+      "url": "https://developers.googleblog.com/how-to-handle-user-connector-and-agent-auth-in-gemini-enterprise-with-a-custom-ui/",
+      "excerpt": "When building a custom enterprise UI on top of Gemini Enterprise's :streamAssist API, developers must manually implement three core authentication layers. These include authenticating users or workloads via Google Identity or Workforce/Workload Identity Federation, managing thir…",
+      "lang": "en",
+      "sourceId": "google-dev",
+      "sourceName": "Google 开发者博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-20T17:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 30,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "介绍如何在自定义 UI 中处理 Gemini Enterprise 的用户、连接器和 Agent 认证。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T03:59:55.608Z"
+      }
+    },
+    {
+      "id": "q6s94cx65s",
+      "key": "url:motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition",
+      "title": "Google workers tell their employer not to punish schools that don't want AI",
+      "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-20T16:59:27.000Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 30.7,
+      "metrics": {
+        "points": 271,
+        "comments": 198
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50577901",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "谷歌员工呼吁雇主不要惩罚拒绝使用 AI 的学校。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T03:59:55.608Z"
+      }
+    },
+    {
       "id": "1cyts9ya4pw",
       "key": "url:theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
       "title": "Anthropic mathematician claims to have solved prestigious Millennium Prize problem with Claude",
@@ -184,7 +726,8 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-20T19:06:04.103Z"
-      }
+      },
+      "dupOf": "2dmi8jh3jp"
     },
     {
       "id": "1rf3df1f4uu",
@@ -199,13 +742,13 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-21",
       "category": "paper",
-      "score": 26.7,
+      "score": 31.6,
       "metrics": {
-        "points": 197,
-        "comments": 84
+        "points": 357,
+        "comments": 113
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50577265",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "语言模型可以重写自身的权重。",
         "category": "paper",

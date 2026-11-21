@@ -18,10 +18,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "AI 曝光岗位在中国下降速度更快。",
+        "title": "Bloomberg 分析：中国 AI 暴露岗位数量下降速度更快",
+        "summary": "分析显示 AI 正加剧中国劳动力市场疲软，微短剧制作已超 90% 使用 AI。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-20T19:06:04.103Z"
+        "at": "2026-11-21T04:00:29.058Z"
       }
     },
     {
@@ -107,10 +108,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "本周技术世界似乎全面崩溃。",
+        "title": "本周科技世界似乎全面崩塌",
+        "summary": "Outlook 故障、银行系统停摆、iCloud 受影响，本周技术基础设施出现大面积瘫痪。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-20T19:06:04.103Z"
+        "at": "2026-11-21T04:00:29.058Z"
       }
     },
     {
@@ -126,14 +128,15 @@
       "publishedAt": "2026-11-20T14:00:00.000Z",
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
-      "category": "agent",
+      "category": "industry",
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "六款 AI 智能家居设备提升办公效率。",
-        "category": "agent",
+        "title": "六款 AI 智能家居设备提升办公效率",
+        "summary": "介绍六款 AI 驱动的笔记和摄像头设备，帮助升级家庭办公环境。",
+        "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-20T19:06:04.103Z"
+        "at": "2026-11-21T04:00:29.058Z"
       }
     },
     {
@@ -193,10 +196,10 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "industry",
-      "score": 27.1,
+      "score": 28.7,
       "metrics": {
-        "points": 166,
-        "comments": 185
+        "points": 192,
+        "comments": 233
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50574383",
       "dupOf": "1lk17n35bwr"
@@ -759,9 +762,15 @@
       "publishedAt": "2026-11-20T10:41:41.329Z",
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
-      "category": "industry",
-      "score": 22,
-      "aiAttempts": 1
+      "category": "model",
+      "score": 28,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "谷歌在 50 天内密集发布 4 款模型，OpenAI 进展相对滞后。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:29.058Z"
+      }
     },
     {
       "id": "f8zpu3qb0",
@@ -777,7 +786,13 @@
       "day": "2026-11-20",
       "category": "model",
       "score": 24,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Neon 模型接入 Antigravity 后编程解题能力显著提升。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:29.058Z"
+      }
     },
     {
       "id": "2arzeyr6bia",
@@ -969,18 +984,41 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "paper",
-      "score": 35.5,
+      "score": 35.8,
       "metrics": {
-        "points": 519,
-        "comments": 282
+        "points": 632,
+        "comments": 329
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50572503",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Frostbite 是由 AI 发现、设计和验证的新型 CPU 架构。",
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-20T19:06:04.103Z"
+      }
+    },
+    {
+      "id": "22iowh1r8tm",
+      "key": "url:openai.com/index/combatting-adversarial-distillation",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "excerpt": "OpenAI’s layered approach to adversarial distillation combines model training, safeguards, detection, and enforcement to protect against capability extraction.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-20T10:00:00.000Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-20",
+      "category": "model",
+      "score": 36,
+      "ai": {
+        "title": "OpenAI 部署多层防御对抗对抗蒸馏",
+        "summary": "OpenAI 通过训练、防护、检测和执法相结合的方式，防止能力提取。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T03:59:55.608Z"
       }
     },
     {
@@ -1032,6 +1070,36 @@
       }
     },
     {
+      "id": "mrc40fvhq",
+      "key": "url:signal.org/blog/protecting-your-privacy",
+      "title": "Restricting AI agents in mobile operating systems platforms from capturing data",
+      "url": "https://signal.org/blog/protecting-your-privacy/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-20T09:42:16.000Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-20",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 35.7,
+      "metrics": {
+        "points": 527,
+        "comments": 310
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50572348",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "讨论如何在移动操作系统平台上限制 AI Agent 捕获数据。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T03:59:55.608Z"
+      }
+    },
+    {
       "id": "2bz64wpiv08",
       "key": "url:jiqizhixin.com/articles/2026-11-20-11",
       "title": "当蛋白质设计有了自己的「Claude Code」，AI Native生物科技公司开始交付「真实成果」",
@@ -1044,12 +1112,18 @@
       "publishedAt": "2026-11-20T09:42:00.000Z",
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "AI 编程"
       ],
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI Native生物科技公司利用Claude Code设计蛋白质，开始交付药物研发成果。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:39.452Z"
+      }
     },
     {
       "id": "gfg6vgcuc8",
@@ -1066,7 +1140,13 @@
       "day": "2026-11-20",
       "category": "paper",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "探讨如何利用推理过程改进LLM服务，实现高效特定任务自适应。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:39.452Z"
+      }
     },
     {
       "id": "dfunxkgwvb",
@@ -1083,7 +1163,13 @@
       "day": "2026-11-20",
       "category": "opensource",
       "score": 22,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "探讨开源处理器核“香山”在企业中的应用前景。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:29.058Z"
+      }
     },
     {
       "id": "12wpislu2j7",
@@ -1100,7 +1186,13 @@
       "day": "2026-11-20",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "PHAIN G03 Pro T数据手套亮相央视新闻，展示中国自研机器人训练数据实力。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:39.452Z"
+      }
     },
     {
       "id": "12ij2cswvs6",
@@ -1139,12 +1231,18 @@
       "publishedAt": "2026-11-20T09:14:29.000Z",
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
-      "category": "multimodal",
+      "category": "industry",
       "keywords": [
         "AI 短剧"
       ],
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "探讨AI漫剧行业现状与痛点。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:39.452Z"
+      }
     },
     {
       "id": "1n76vz3ibb4",
@@ -1231,12 +1329,18 @@
       "publishedAt": "2026-11-20T07:19:00.000Z",
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
-      "category": "multimodal",
+      "category": "industry",
       "keywords": [
         "AI 短剧"
       ],
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "央视背书与官方扶持助力AI影视创作者，提供出圈路径。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:39.452Z"
+      }
     },
     {
       "id": "2418vgeat73",
@@ -1454,12 +1558,18 @@
       "publishedAt": "2026-11-20T04:12:00.000Z",
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
-      "category": "agent",
+      "category": "model",
       "keywords": [
         "Agent"
       ],
-      "score": 22,
-      "aiAttempts": 1
+      "score": 28,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Sage S2.1 Flash 在四项智能体基准测试中达到 SOTA。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:29.058Z"
+      }
     },
     {
       "id": "27zrw76j8f5",
@@ -1685,13 +1795,13 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "paper",
-      "score": 27.4,
+      "score": 28.4,
       "metrics": {
-        "points": 147,
-        "comments": 291
+        "points": 164,
+        "comments": 319
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50569519",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "讨论 AGI 之后的未来。",
         "category": "paper",
@@ -1994,10 +2104,10 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "industry",
-      "score": 21.8,
+      "score": 22.4,
       "metrics": {
-        "points": 113,
-        "comments": 36
+        "points": 123,
+        "comments": 40
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50568548",
       "dupOf": "1ifve4nk94z"
@@ -2045,6 +2155,147 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-20T19:06:04.103Z"
+      }
+    },
+    {
+      "id": "1iewjzjyly6",
+      "key": "url:openai.com/business/customer-stories/hebbia",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "excerpt": "Hebbia tested GPT-6 Astra for financial research. Its prerelease evaluations found gains in source coverage, citation relevance, and presentation quality.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-20",
+      "category": "model",
+      "score": 36,
+      "dupOf": "1w60c0rd3qf"
+    },
+    {
+      "id": "1bt9nugwi9p",
+      "key": "url:openai.com/index/introducing-medchembench",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "excerpt": "MedChemBench evaluates how well AI models interpret molecular structures, reason from experimental evidence, and select compounds in early drug discovery.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-20",
+      "category": "paper",
+      "score": 30,
+      "ai": {
+        "title": "AI 能否帮助科学家识别有前景的药物候选物？",
+        "summary": "通过 MedChemBench 评估 AI 模型在早期药物发现中的分子结构解读能力。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T03:59:55.608Z"
+      }
+    },
+    {
+      "id": "ac462nu2ph",
+      "key": "url:machinelearning.apple.com/research/depth-pro-2-monocular",
+      "title": "Depth Pro 2: Sharp and Temporally Consistent Metric Monocular Depth",
+      "url": "https://machinelearning.apple.com/research/depth-pro-2-monocular",
+      "excerpt": "We present Depth Pro 2, an approach to estimating dense metric depth for images and video at full resolution. By analyzing prior methods for monocular depth estimation, we find that they commonly trade off temporal consistency and boundary sharpness: multi-frame methods favor co…",
+      "lang": "en",
+      "sourceId": "apple-ml",
+      "sourceName": "Apple 机器学习研究",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-20",
+      "category": "multimodal",
+      "score": 30,
+      "ai": {
+        "title": "Depth Pro 2：高分辨率且时序一致的度量单目深度估计",
+        "summary": "Apple 机器学习研究发布 Depth Pro 2，提供高分辨率且时序一致的深度估计。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T03:59:55.608Z"
+      }
+    },
+    {
+      "id": "29chgwcqphe",
+      "key": "url:huggingface.co/blog/inkling2mini",
+      "title": "Welcome Inkling 2 Mini, Cutting-edge Performance for your Local Setup",
+      "url": "https://huggingface.co/blog/inkling2mini",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-20",
+      "category": "opensource",
+      "score": 53.8,
+      "related": [
+        {
+          "id": "2cb7wjjlzgo",
+          "sourceId": "hf-models",
+          "sourceName": "HF 热门模型",
+          "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
+          "title": "thinkingmachines/Inkling-2-Mini",
+          "publishedAt": "2026-11-17T00:26:57.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "hf-blog",
+          "hf-models"
+        ],
+        "firstPublishedAt": "2026-11-17T00:26:57.000Z",
+        "metrics": {
+          "likes": 793
+        }
+      },
+      "ai": {
+        "title": "欢迎 Inkling 2 Mini：本地设置的高性能选择",
+        "summary": "Hugging Face 推出 Inkling 2 Mini，为本地设置提供前沿性能。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T03:59:55.608Z"
+      }
+    },
+    {
+      "id": "1anyrr4ywzi",
+      "key": "arxiv:2611.21373",
+      "title": "WeVisForensics: Self-Evolving Agent for Omni AI-Generated Video Detection",
+      "url": "https://huggingface.co/papers/2611.21373",
+      "excerpt": "WeVisForensics coordinates self-evolving visual and audio forensic inspector agents under a dual-timescale reinforcement learning policy to detect generated-video artifacts with localized evidence and high accuracy.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-20",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 21,
+      "metrics": {
+        "upvotes": 50,
+        "comments": 3
+      },
+      "ai": {
+        "title": "WeVisForensics：用于全 AI 生成视频检测的自进化 Agent",
+        "summary": "WeVisForensics 利用双时间尺度强化学习策略检测生成视频伪影。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:29.058Z"
       }
     },
     {
@@ -2204,10 +2455,10 @@
       "firstSeenAt": "2026-11-20T03:59:11.537Z",
       "day": "2026-11-20",
       "category": "model",
-      "score": 39.3,
+      "score": 39.4,
       "metrics": {
-        "points": 360,
-        "comments": 238
+        "points": 367,
+        "comments": 241
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50568130",
       "dupOf": "iwa95uaq7i"
@@ -2517,8 +2768,8 @@
       ],
       "score": 27.3,
       "metrics": {
-        "stars": 69190,
-        "starsToday": 634
+        "stars": 69356,
+        "starsToday": 636
       },
       "ai": {
         "title": "diagram-design：Claude Code 等的编辑器图表设计",
@@ -2549,7 +2800,7 @@
       ],
       "score": 29.7,
       "metrics": {
-        "stars": 2594,
+        "stars": 2827,
         "starsToday": 874
       },
       "ai": {
@@ -2577,7 +2828,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 12074,
+        "stars": 12283,
         "starsToday": 983
       },
       "ai": {
@@ -2647,13 +2898,13 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "paper",
-      "score": 25.2,
+      "score": 25.4,
       "metrics": {
-        "points": 112,
-        "comments": 234
+        "points": 114,
+        "comments": 243
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50564366",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "政府应减缓前沿 AI 发展吗？Jacob Coxon 和 Robin Hanson 辩论。",
         "category": "paper",
@@ -2796,10 +3047,10 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-20",
       "category": "model",
-      "score": 41.3,
+      "score": 41.4,
       "metrics": {
-        "points": 545,
-        "comments": 264
+        "points": 553,
+        "comments": 270
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50563148",
       "aiAttempts": 2,
@@ -2848,8 +3099,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1122,
-        "comments": 2268
+        "points": 1131,
+        "comments": 2299
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50562754",
       "aiAttempts": 2,
@@ -3021,9 +3272,9 @@
       "firstSeenAt": "2026-11-20T03:59:11.537Z",
       "day": "2026-11-20",
       "category": "agent",
-      "score": 23.2,
+      "score": 23.3,
       "metrics": {
-        "points": 131,
+        "points": 133,
         "comments": 51
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50562636",
@@ -3093,10 +3344,10 @@
       "firstSeenAt": "2026-11-20T03:59:11.537Z",
       "day": "2026-11-20",
       "category": "paper",
-      "score": 24.4,
+      "score": 24.5,
       "metrics": {
-        "points": 142,
-        "comments": 79
+        "points": 145,
+        "comments": 80
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50562500",
       "aiAttempts": 2,
@@ -3162,8 +3413,8 @@
       "category": "industry",
       "score": 35.1,
       "metrics": {
-        "points": 585,
-        "comments": 241
+        "points": 600,
+        "comments": 246
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50562262",
       "aiAttempts": 2,

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T19:05:07.339Z",
+  "updatedAt": "2026-11-21T03:58:30.074Z",
   "bands": {
     "ndx": "low",
     "spx": "mid",
@@ -8,6 +8,13 @@
     "divlowvol": "high"
   },
   "events": [
+    {
+      "id": "move:spx:2026-11-20",
+      "kind": "move",
+      "at": "2026-11-20T15:59:00.000Z",
+      "title": "标普500 11月20日下跌 3.7%",
+      "detail": "单日变动超过 3%，收于 6,910.39。"
+    },
     {
       "id": "move:ndx:2026-11-20",
       "kind": "move",

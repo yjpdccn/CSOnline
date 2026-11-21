@@ -17,10 +17,10 @@
       "keywords": [
         "语音"
       ],
-      "score": 31,
+      "score": 31.2,
       "metrics": {
-        "points": 265,
-        "comments": 243
+        "points": 269,
+        "comments": 247
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50561508",
       "aiAttempts": 2,
@@ -130,9 +130,9 @@
         "MCP",
         "AI 编程"
       ],
-      "score": 22.4,
+      "score": 24.1,
       "metrics": {
-        "stars": 1370
+        "stars": 1815
       },
       "aiAttempts": 2,
       "ai": {
@@ -163,6 +163,33 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-19T19:29:49.581Z"
+      }
+    },
+    {
+      "id": "me78y8luz6",
+      "key": "url:moq.dev/blog/webrtc-is-still-the-problem",
+      "title": "OpenAI still has a WebRTC Problem",
+      "url": "https://moq.dev/blog/webrtc-is-still-the-problem/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-19T14:20:08.000Z",
+      "firstSeenAt": "2026-11-21T03:58:30.074Z",
+      "day": "2026-11-19",
+      "category": "industry",
+      "score": 20.9,
+      "metrics": {
+        "points": 100,
+        "comments": 32
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50560461",
+      "ai": {
+        "title": "OpenAI 仍存在 WebRTC 问题",
+        "summary": "OpenAI 在 WebRTC 技术实现上仍面临挑战。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-21T04:00:29.058Z"
       }
     },
     {
@@ -386,7 +413,7 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 51.1,
+      "score": 52.7,
       "ai": {
         "summary": "Anthropic七位联合创始人掌握多数投票权。",
         "category": "industry",
@@ -420,8 +447,8 @@
         ],
         "firstPublishedAt": "2026-11-19T12:38:12.302Z",
         "metrics": {
-          "points": 166,
-          "comments": 185
+          "points": 192,
+          "comments": 233
         }
       }
     },
@@ -486,7 +513,7 @@
       "score": 23.9,
       "metrics": {
         "points": 104,
-        "comments": 162
+        "comments": 163
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50559140",
       "aiAttempts": 1,
@@ -902,16 +929,17 @@
       "keywords": [
         "本地部署"
       ],
-      "score": 21.5,
+      "score": 22,
       "metrics": {
-        "stars": 1176
+        "stars": 1276
       },
       "aiAttempts": 1,
       "ai": {
-        "summary": "neonclipping，本地开源剪辑引擎，快速生成 9:16 视频片段。",
+        "title": "iamajmeena/neonclipping：本地开源视频剪辑引擎",
+        "summary": "支持本地 LLM 和 YouTube 字幕，可在约 2 分钟内生成带字幕的 9:16 视频片段。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-20T19:06:23.630Z"
+        "at": "2026-11-21T04:00:29.058Z"
       }
     },
     {
@@ -1021,10 +1049,10 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 23.6,
+      "score": 23.7,
       "metrics": {
         "points": 123,
-        "comments": 86
+        "comments": 87
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50557885",
       "aiAttempts": 2,
@@ -1793,7 +1821,7 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 34,
+      "score": 59.8,
       "related": [
         {
           "id": "3d6ose6zax",
@@ -1826,16 +1854,29 @@
           "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price/",
           "title": "Anthropic 纳斯达克开盘价 111 美元，高于 IPO 价格",
           "publishedAt": "2026-11-19T16:59:23.000Z"
+        },
+        {
+          "id": "1wrevriioa3",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50578794",
+          "title": "Anthropic shares tank after IPO as the Nasdaq erases 2026 gains",
+          "publishedAt": "2026-11-20T17:44:01.000Z"
         }
       ],
       "story": {
-        "reports": 5,
+        "reports": 6,
         "sources": [
           "jiqizhixin",
           "techcrunch-ai",
-          "36kr-flash"
+          "36kr-flash",
+          "hackernews"
         ],
-        "firstPublishedAt": "2026-11-18T22:11:15.000Z"
+        "firstPublishedAt": "2026-11-18T22:11:15.000Z",
+        "metrics": {
+          "points": 184,
+          "comments": 187
+        }
       },
       "ai": {
         "summary": "Anthropic IPO 定价 83 美元/股，投资者疯抢。",
@@ -2413,7 +2454,7 @@
       "score": 22.5,
       "metrics": {
         "points": 108,
-        "comments": 69
+        "comments": 70
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50555093",
       "aiAttempts": 2,
@@ -2802,9 +2843,9 @@
       "day": "2026-11-19",
       "category": "paper",
       "categoryLocked": true,
-      "score": 28,
+      "score": 28.5,
       "metrics": {
-        "upvotes": 136,
+        "upvotes": 146,
         "comments": 4
       },
       "ai": {
@@ -2933,9 +2974,9 @@
       "day": "2026-11-19",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.6,
+      "score": 22.7,
       "metrics": {
-        "upvotes": 64,
+        "upvotes": 65,
         "comments": 3
       },
       "dupOf": "2eg9py51y5o"
@@ -3077,10 +3118,10 @@
       "firstSeenAt": "2026-11-19T04:11:26.145Z",
       "day": "2026-11-19",
       "category": "agent",
-      "score": 29.9,
+      "score": 30,
       "metrics": {
-        "points": 311,
-        "comments": 80
+        "points": 315,
+        "comments": 82
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50553225",
       "ai": {
@@ -3192,8 +3233,8 @@
       "category": "model",
       "score": 66,
       "metrics": {
-        "points": 1042,
-        "comments": 774
+        "points": 1050,
+        "comments": 776
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50552424",
       "related": [
@@ -3266,8 +3307,8 @@
         ],
         "firstPublishedAt": "2026-11-18T21:03:23.000Z",
         "metrics": {
-          "points": 1042,
-          "comments": 774
+          "points": 1050,
+          "comments": 776
         }
       },
       "aiAttempts": 2,
@@ -3484,7 +3525,7 @@
       "categoryLocked": true,
       "score": 20.7,
       "metrics": {
-        "stars": 11737,
+        "stars": 11813,
         "starsToday": 246
       },
       "ai": {
@@ -3865,10 +3906,10 @@
       "firstSeenAt": "2026-11-19T04:11:26.145Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 63.3,
+      "score": 63.4,
       "metrics": {
-        "points": 417,
-        "comments": 790
+        "points": 420,
+        "comments": 791
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50553843",
       "alsoOn": [

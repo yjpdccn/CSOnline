@@ -120,9 +120,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18.9,
+      "score": 19,
       "metrics": {
-        "stars": 735
+        "stars": 745
       },
       "ai": {
         "title": "boring-marketing-skills：AI Agent 营销技能库",
@@ -716,7 +716,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 6432
+        "stars": 6753
       },
       "aiAttempts": 1,
       "ai": {
@@ -1958,9 +1958,9 @@
       "day": "2026-11-16",
       "category": "model",
       "categoryLocked": true,
-      "score": 32.2,
+      "score": 32.4,
       "metrics": {
-        "likes": 840
+        "likes": 867
       },
       "skipLlm": true,
       "dupOf": "27temos6bvw"
@@ -2183,7 +2183,7 @@
       "firstSeenAt": "2026-11-16T20:58:41.846Z",
       "day": "2026-11-16",
       "category": "model",
-      "score": 65.1,
+      "score": 65.5,
       "related": [
         {
           "id": "1fc1887ckv3",
@@ -2232,10 +2232,18 @@
           "url": "https://36kr.com/newsflashes/4077564611220357",
           "title": "腾讯混元正式开源Hy4",
           "publishedAt": "2026-11-20T03:53:13.165Z"
+        },
+        {
+          "id": "bjjuzjl11x",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4078961086764168",
+          "title": "腾讯姚顺雨团队：Hy4仍有很大改进空间，计划训练更大规模模型",
+          "publishedAt": "2026-11-21T03:33:47.268Z"
         }
       ],
       "story": {
-        "reports": 7,
+        "reports": 8,
         "sources": [
           "infoq-cn",
           "reddit-localllama",
@@ -2246,7 +2254,7 @@
         ],
         "firstPublishedAt": "2026-11-16T06:23:27.000Z",
         "metrics": {
-          "likes": 511
+          "likes": 553
         }
       },
       "ai": {
@@ -2696,7 +2704,7 @@
       ],
       "score": 26.1,
       "metrics": {
-        "stars": 10957,
+        "stars": 11093,
         "starsToday": 540
       },
       "ai": {
@@ -2755,7 +2763,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 13882,
+        "stars": 14493,
         "starsToday": 2322
       },
       "ai": {
@@ -4358,10 +4366,18 @@
           "url": "https://36kr.com/p/4073723315393673",
           "title": "OpenAI证明了「标准模型」，物理学家直言：GPT-6 Astra全程主导",
           "publishedAt": "2026-11-17T11:10:40.941Z"
+        },
+        {
+          "id": "1iewjzjyly6",
+          "sourceId": "openai",
+          "sourceName": "OpenAI",
+          "url": "https://openai.com/business/customer-stories/hebbia",
+          "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+          "publishedAt": "2026-11-20T00:00:00.000Z"
         }
       ],
       "story": {
-        "reports": 9,
+        "reports": 10,
         "sources": [
           "openai",
           "jiqizhixin",
