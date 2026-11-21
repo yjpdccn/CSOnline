@@ -9,6 +9,7 @@ import { checkHealth, type RunFreshness } from "./health";
 import { mergeNews, rankNews, toInvestItem } from "./news";
 import { detectEvents, eventObservations } from "./events";
 import { buildObservations } from "./observations";
+import { oldestFirst, pacedResult, readPaced } from "./paced";
 import { keepPeerStatus, refreshStrategy, scanDue, scanPeers, syncTrackedStatus, type StrategyFile } from "./strategy";
 import { buildSuggestions } from "./suggestions";
 import { buildAutoOverview, generateAiOverview, stopReason, translateHeadlines, type OverviewQuotes } from "./overview";
@@ -234,7 +235,6 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
   );
   const navSettled: Settled<unknown>[] = new Array(FUNDS.length);
   const navFallbacks: string[] = [];
-  const feeSettled: Settled<unknown>[] = new Array(FUNDS.length);
   FUNDS.forEach((f, i) => {
     tasks.push(async () => {
       const r = await settle(() => fetchNavHistory(f.code));
@@ -250,11 +250,6 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
       out.navs[f.code] = [latest.value, ...stored].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 30);
       navSettled[i] = { ok: true, value: out.navs[f.code], ms: r.ms + latest.ms };
       navFallbacks.push(f.code);
-    });
-    tasks.push(async () => {
-      const r = await settle(() => fetchFeePage(f.code));
-      feeSettled[i] = r;
-      if (r.ok) out.feePages[f.code] = r.value;
     });
   });
   const profileSettled: Settled<unknown>[] = new Array(profileDue.length);
@@ -283,6 +278,18 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
   });
 
   await mapLimit(tasks, CONCURRENCY);
+
+  // Status and fee pages come after that burst, paced: 天天基金 answers bursts with "514 Frequency Capped". A page
+  // still missing keeps the last good status and fees (mergeFunds) and goes first next run.
+  const lastRead = (code: string) => store.funds.funds[code]?.status?.asOf ?? store.funds.funds[code]?.fees?.asOf;
+  const feeRead = await readPaced(
+    oldestFirst(
+      FUNDS.map((f) => f.code),
+      lastRead,
+    ),
+    (code) => fetchFeePage(code, 0),
+  );
+  for (const [code, page] of feeRead.values) out.feePages[code] = page;
 
   // Backups for what the K-line sources could not give: 中证指数's own closes for its indices, then the
   // latest value from 东方财富's delayed host or 新浪, which extends the stored history.
@@ -376,7 +383,7 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
   if (navFallbacks.length) {
     out.results.push({ id: "fund-nav-app", name: "天天基金净值（备用）", kind: "基金", ok: true, count: navFallbacks.length, ms: 0, error: `净值接口超时，改用 App 接口的最新净值：${navFallbacks.join("、")}` });
   }
-  out.results.push(groupResult("fund-fees", "天天基金费率与申购状态", "基金", feeSettled, FUNDS.map((f) => f.code)));
+  out.results.push(pacedResult("fund-fees", "天天基金费率与申购状态", FUNDS.length, feeRead));
   if (profileDue.length) out.results.push(groupResult("fund-profile", "天天基金基金概况", "基金", profileSettled, profileDue.map((f) => f.code)));
   ENABLED_INVEST_SOURCES.forEach((source, i) => {
     const s = newsSettled[i];

@@ -142,7 +142,7 @@ const pct = (move: number) => `${move > 0 ? "+" : ""}${(move * 100).toFixed(1)}%
 const named = (list: { name: string; latest?: string }[]) =>
   list.map((s) => (s.latest ? `${s.name}（停在 ${short(s.latest.slice(0, 10))}）` : `${s.name}（没有数据）`)).join("、");
 
-/** Status and fees are read every run; this old means the pages failed run after run. */
+/** Status and fees are read every run and a miss keeps the last good read; this old means about three runs failed. */
 const INFO_MAX_AGE_MS = 36 * 3600_000;
 
 type Checked = Figure & { expected: string };
@@ -224,17 +224,6 @@ export function checkHealth(
       severity: "warn",
       message: `申购状态与费率超过 36 小时没有读到：${codes(oldInfo)}，相关提醒可能滞后`,
       items: oldInfo.map((i) => i.name),
-    });
-  }
-  const missedInfo = info.filter((i) => !i.stale && !i.refreshed);
-  if (missedInfo.length) {
-    issues.push({
-      key: "failed:fundInfo",
-      group: "fundInfo",
-      kind: "failed",
-      severity: "minor",
-      message: `申购状态与费率本次没有读到：${codes(missedInfo)}，沿用上次读到的结果`,
-      items: missedInfo.map((i) => i.name),
     });
   }
 

@@ -143,7 +143,7 @@ describe("data health", () => {
     ]);
   });
 
-  it("flags fund status pages unread for a day and a half, and old news", () => {
+  it("flags fund status pages unread for a day and a half, not a miss in one run, and old news", () => {
     const data = currentData();
     data.funds.funds["096001"].status!.asOf = hoursAgo(40);
     data.funds.funds["096001"].fees!.asOf = hoursAgo(40);
@@ -155,8 +155,8 @@ describe("data health", () => {
     expect(health.issues.map((i) => [i.key, i.severity, i.items.join()])).toEqual([
       ["stale:fundInfo", "warn", "096001 申购状态与费率"],
       ["stale:news", "warn", "新闻"],
-      ["failed:fundInfo", "minor", "019172 申购状态与费率"],
     ]);
+    expect(health.groups.fundInfo.items.find((i) => i.key === "info:019172")).toMatchObject({ refreshed: false, stale: false });
   });
 
   it("flags a fund's announcements only once they have gone about three days unread", () => {
