@@ -196,10 +196,10 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "industry",
-      "score": 34.2,
+      "score": 36,
       "metrics": {
-        "points": 359,
-        "comments": 660
+        "points": 502,
+        "comments": 879
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50574383",
       "dupOf": "1lk17n35bwr"
@@ -1003,10 +1003,10 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "paper",
-      "score": 35.9,
+      "score": 36,
       "metrics": {
-        "points": 651,
-        "comments": 338
+        "points": 668,
+        "comments": 355
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50572503",
       "aiAttempts": 2,
@@ -1104,10 +1104,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 35.8,
+      "score": 35.9,
       "metrics": {
-        "points": 556,
-        "comments": 327
+        "points": 571,
+        "comments": 336
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50572348",
       "aiAttempts": 1,
@@ -1756,6 +1756,23 @@
       }
     },
     {
+      "id": "3f52d8lndf",
+      "key": "url:simonwillison.net/2026/Nov/20/llm-gemini",
+      "title": "llm-gemini 0.38.1",
+      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+      "excerpt": "Release: llm-gemini 0.38.1 Gemini 4 Carbon only supports low, medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level. I missed that when I added those models to the llm-gemini plugin, which is now fixed in this dot release. The…",
+      "lang": "en",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "sourceGroup": "blogger",
+      "publishedAt": "2026-11-20T03:01:57.000Z",
+      "firstSeenAt": "2026-11-22T03:09:35.943Z",
+      "day": "2026-11-20",
+      "category": "model",
+      "score": 20,
+      "dupOf": "1mt87tubq0"
+    },
+    {
       "id": "8pwu2v0lxv",
       "key": "url:36kr.com/newsflashes/4077513709507460",
       "title": "Mistral计划在新加坡开设区域中心，将亚洲员工人数增加一倍",
@@ -1830,10 +1847,10 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "paper",
-      "score": 28.6,
+      "score": 28.9,
       "metrics": {
-        "points": 168,
-        "comments": 325
+        "points": 173,
+        "comments": 342
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50569519",
       "aiAttempts": 2,
@@ -2156,10 +2173,10 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "industry",
-      "score": 22.6,
+      "score": 22.8,
       "metrics": {
-        "points": 125,
-        "comments": 41
+        "points": 128,
+        "comments": 42
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50568548",
       "dupOf": "1ifve4nk94z"
@@ -2317,7 +2334,7 @@
         ],
         "firstPublishedAt": "2026-11-17T00:26:57.000Z",
         "metrics": {
-          "likes": 1248
+          "likes": 3167
         }
       },
       "ai": {
@@ -2346,9 +2363,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 21.1,
+      "score": 21.4,
       "metrics": {
-        "upvotes": 51,
+        "upvotes": 53,
         "comments": 3
       },
       "ai": {
@@ -2357,6 +2374,30 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-21T04:00:29.058Z"
+      }
+    },
+    {
+      "id": "22cq9qq5549",
+      "key": "arxiv:2611.26444",
+      "title": "Mind2Act World: A Diagnostic Benchmark for Embodied Mind, Physical Action, and Mind-Action Composition in Robotic Manipulation",
+      "url": "https://huggingface.co/papers/2611.26444",
+      "excerpt": "A diagnostic benchmark of 180 simulated manipulation configurations evaluates whether embodied systems can combine history-based reasoning, precise execution, and closed-loop environmental feedback, revealing that single-view competence does not transfer to composed tasks.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-20T00:00:00.000Z",
+      "firstSeenAt": "2026-11-22T03:09:35.943Z",
+      "day": "2026-11-20",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 21.2,
+      "metrics": {
+        "upvotes": 51,
+        "comments": 4
       }
     },
     {
@@ -2516,10 +2557,10 @@
       "firstSeenAt": "2026-11-20T03:59:11.537Z",
       "day": "2026-11-20",
       "category": "model",
-      "score": 39.5,
+      "score": 39.6,
       "metrics": {
-        "points": 370,
-        "comments": 243
+        "points": 374,
+        "comments": 246
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50568130",
       "dupOf": "iwa95uaq7i"
@@ -2829,7 +2870,7 @@
       ],
       "score": 27.3,
       "metrics": {
-        "stars": 69572,
+        "stars": 69842,
         "starsToday": 636
       },
       "ai": {
@@ -2861,7 +2902,7 @@
       ],
       "score": 29.7,
       "metrics": {
-        "stars": 3089,
+        "stars": 3458,
         "starsToday": 874
       },
       "ai": {
@@ -2889,7 +2930,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 12555,
+        "stars": 12920,
         "starsToday": 983
       },
       "ai": {
@@ -2959,10 +3000,10 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "paper",
-      "score": 25.4,
+      "score": 25.6,
       "metrics": {
-        "points": 114,
-        "comments": 246
+        "points": 115,
+        "comments": 258
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50564366",
       "aiAttempts": 2,
@@ -3110,8 +3151,8 @@
       "category": "model",
       "score": 41.4,
       "metrics": {
-        "points": 559,
-        "comments": 270
+        "points": 568,
+        "comments": 274
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50563148",
       "aiAttempts": 2,
@@ -3160,8 +3201,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1134,
-        "comments": 2301
+        "points": 1139,
+        "comments": 2319
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50562754",
       "aiAttempts": 2,
@@ -3335,7 +3376,7 @@
       "category": "agent",
       "score": 23.3,
       "metrics": {
-        "points": 133,
+        "points": 134,
         "comments": 51
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50562636",
@@ -3405,9 +3446,9 @@
       "firstSeenAt": "2026-11-20T03:59:11.537Z",
       "day": "2026-11-20",
       "category": "paper",
-      "score": 24.6,
+      "score": 24.7,
       "metrics": {
-        "points": 146,
+        "points": 148,
         "comments": 82
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50562500",
@@ -3474,7 +3515,7 @@
       "category": "industry",
       "score": 35.2,
       "metrics": {
-        "points": 609,
+        "points": 616,
         "comments": 249
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50562262",

@@ -20,7 +20,7 @@
       "score": 31.2,
       "metrics": {
         "points": 270,
-        "comments": 247
+        "comments": 248
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50561508",
       "aiAttempts": 2,
@@ -130,9 +130,9 @@
         "MCP",
         "AI 编程"
       ],
-      "score": 24.5,
+      "score": 26.2,
       "metrics": {
-        "stars": 1926
+        "stars": 2541
       },
       "aiAttempts": 2,
       "ai": {
@@ -413,7 +413,7 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 58.2,
+      "score": 60,
       "ai": {
         "summary": "Anthropic七位联合创始人掌握多数投票权。",
         "category": "industry",
@@ -447,8 +447,8 @@
         ],
         "firstPublishedAt": "2026-11-19T12:38:12.302Z",
         "metrics": {
-          "points": 359,
-          "comments": 660
+          "points": 502,
+          "comments": 879
         }
       }
     },
@@ -929,9 +929,9 @@
       "keywords": [
         "本地部署"
       ],
-      "score": 23.1,
+      "score": 23.9,
       "metrics": {
-        "stars": 1541
+        "stars": 1750
       },
       "aiAttempts": 1,
       "ai": {
@@ -1051,7 +1051,7 @@
       "category": "industry",
       "score": 23.7,
       "metrics": {
-        "points": 123,
+        "points": 124,
         "comments": 87
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50557885",
@@ -2974,9 +2974,9 @@
       "day": "2026-11-19",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.8,
+      "score": 22.9,
       "metrics": {
-        "upvotes": 66,
+        "upvotes": 67,
         "comments": 3
       },
       "dupOf": "2eg9py51y5o"
@@ -3002,6 +3002,23 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-19T19:29:49.581Z"
+      },
+      "related": [
+        {
+          "id": "3f52d8lndf",
+          "sourceId": "simonw",
+          "sourceName": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
+          "title": "llm-gemini 0.38.1",
+          "publishedAt": "2026-11-20T03:01:57.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "simonw"
+        ],
+        "firstPublishedAt": "2026-11-18T23:59:20.000Z"
       }
     },
     {
@@ -3525,7 +3542,7 @@
       "categoryLocked": true,
       "score": 20.7,
       "metrics": {
-        "stars": 11865,
+        "stars": 11951,
         "starsToday": 246
       },
       "ai": {

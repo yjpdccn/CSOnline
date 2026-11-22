@@ -120,9 +120,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 19.1,
+      "score": 19.2,
       "metrics": {
-        "stars": 761
+        "stars": 778
       },
       "ai": {
         "title": "boring-marketing-skills：AI Agent 营销技能库",
@@ -716,7 +716,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 7059
+        "stars": 7485
       },
       "aiAttempts": 1,
       "ai": {
@@ -1958,9 +1958,9 @@
       "day": "2026-11-16",
       "category": "model",
       "categoryLocked": true,
-      "score": 32.4,
+      "score": 32.9,
       "metrics": {
-        "likes": 867
+        "likes": 938
       },
       "skipLlm": true,
       "dupOf": "27temos6bvw"
@@ -2712,7 +2712,7 @@
       ],
       "score": 26.1,
       "metrics": {
-        "stars": 11208,
+        "stars": 11484,
         "starsToday": 540
       },
       "ai": {
@@ -2771,7 +2771,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 15207,
+        "stars": 16200,
         "starsToday": 2322
       },
       "ai": {
@@ -4811,6 +4811,14 @@
           "publishedAt": "2026-11-15T16:46:04.000Z"
         },
         {
+          "id": "zu045o8s8s",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/TrooperFilter/Gemini-Config-Checker-",
+          "title": "TrooperFilter/Gemini-Config-Checker-",
+          "publishedAt": "2026-11-15T16:46:04.000Z"
+        },
+        {
           "id": "28u27lc1vli",
           "sourceId": "github-new",
           "sourceName": "GitHub 新星项目",
@@ -4868,7 +4876,7 @@
         }
       ],
       "story": {
-        "reports": 9,
+        "reports": 10,
         "sources": [
           "github-new"
         ],
@@ -4896,6 +4904,27 @@
       "score": 16.8,
       "metrics": {
         "stars": 472
+      },
+      "dupOf": "6u6tixp4fv"
+    },
+    {
+      "id": "zu045o8s8s",
+      "key": "gh:trooperfilter/gemini-config-checker-",
+      "title": "TrooperFilter/Gemini-Config-Checker-",
+      "url": "https://github.com/TrooperFilter/Gemini-Config-Checker-",
+      "excerpt": "Chain region scanner: find proxy configs that get you into Google AI Studio and Gemini (signed-in browser check, anti-DPI, Windows/macOS/Linux/Android)",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-15T16:46:04.000Z",
+      "firstSeenAt": "2026-11-22T03:09:35.943Z",
+      "day": "2026-11-16",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.8,
+      "metrics": {
+        "stars": 469
       },
       "dupOf": "6u6tixp4fv"
     }

@@ -935,5 +935,39 @@
         ]
       }
     ]
+  },
+  "2026-11-22": {
+    "day": "2026-11-22",
+    "generatedAt": "2026-11-22T03:11:47.929Z",
+    "itemCount": 28,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "DeepSeek V1开源Agent，腾讯AI资本开支猛增226%，Claude Opus 5视频记忆测试获高分。",
+    "points": [
+      {
+        "text": "DeepSeek V1作者创业项目曝光：开源Agent，专为本地部署而生。",
+        "refs": [
+          "16w04lf5pil"
+        ]
+      },
+      {
+        "text": "腾讯AI资本开支猛增226%，AI吞噬百亿利润。",
+        "refs": [
+          "5tawxe1f0c"
+        ]
+      },
+      {
+        "text": "Claude Opus 5在25个大模型视频记忆大考中获45.7分。",
+        "refs": [
+          "18oxcr4m2wa"
+        ]
+      },
+      {
+        "text": "Anthropic与OpenAI围攻千禧年难题，七道题进展更新。",
+        "refs": [
+          "1qhxov6ml0x"
+        ]
+      }
+    ]
   }
 }

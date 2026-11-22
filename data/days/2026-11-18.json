@@ -3286,7 +3286,7 @@
       "firstSeenAt": "2026-11-18T19:23:28.467Z",
       "day": "2026-11-18",
       "category": "model",
-      "score": 56.8,
+      "score": 56.9,
       "ai": {
         "title": "180B 参数 MoE 推理极限",
         "summary": "Hugging Face 博客探讨在 32GB 内存下运行 180B 参数 MoE 模型。",
@@ -3312,7 +3312,7 @@
         ],
         "firstPublishedAt": "2026-11-18T00:00:00.000Z",
         "metrics": {
-          "upvotes": 66,
+          "upvotes": 67,
           "comments": 3
         }
       }
@@ -3958,7 +3958,7 @@
       ],
       "score": 23.7,
       "metrics": {
-        "stars": 17966,
+        "stars": 18132,
         "starsToday": 384
       },
       "ai": {
@@ -4018,7 +4018,7 @@
       "categoryLocked": true,
       "score": 29.5,
       "metrics": {
-        "stars": 67947,
+        "stars": 68199,
         "starsToday": 847
       },
       "ai": {
@@ -4416,10 +4416,18 @@
           "url": "https://www.qbitai.com/2026/11/511779.html",
           "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
           "publishedAt": "2026-11-21T06:35:59.000Z"
+        },
+        {
+          "id": "7afaazl4ni",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+          "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+          "publishedAt": "2026-11-21T13:32:35.000Z"
         }
       ],
       "story": {
-        "reports": 11,
+        "reports": 12,
         "sources": [
           "openai",
           "hackernews",

@@ -1060,9 +1060,9 @@
       "day": "2026-11-17",
       "category": "model",
       "categoryLocked": true,
-      "score": 28.3,
+      "score": 28.5,
       "metrics": {
-        "likes": 451
+        "likes": 463
       },
       "skipLlm": true
     },
@@ -1303,7 +1303,7 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-17",
       "category": "agent",
-      "score": 54.6,
+      "score": 54.8,
       "ai": {
         "title": "OpenAI 推出 ChatGPT for Sales",
         "summary": "OpenAI 发布 Sales 插件，助力销售研究、准备提案和更新 CRM。",
@@ -1329,8 +1329,8 @@
         ],
         "firstPublishedAt": "2026-11-17T08:00:00.000Z",
         "metrics": {
-          "points": 125,
-          "comments": 41
+          "points": 128,
+          "comments": 42
         }
       }
     },
@@ -2939,7 +2939,7 @@
       "categoryLocked": true,
       "score": 34,
       "metrics": {
-        "likes": 1248
+        "likes": 3167
       },
       "skipLlm": true,
       "dupOf": "29chgwcqphe"
@@ -3383,7 +3383,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 71707,
+        "stars": 72055,
         "starsToday": 1062
       },
       "ai": {
@@ -3862,9 +3862,9 @@
         "Agent",
         "本地部署"
       ],
-      "score": 22.6,
+      "score": 23.7,
       "metrics": {
-        "stars": 1418
+        "stars": 1700
       },
       "ai": {
         "title": "推理优化技能：提升本地 LLM 服务速度",

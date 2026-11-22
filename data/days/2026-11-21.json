@@ -2,6 +2,55 @@
   "day": "2026-11-21",
   "items": [
     {
+      "id": "h7iayr0bhe",
+      "key": "url:theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "title": "Can Anthropic afford to put safety first?",
+      "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+      "excerpt": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the Anthropic IPO for the third and final episode in our series about AI in real life. The AI lab behind Claude went public on the Nasdaq last Thursday. The numbers are gigantic, but not really that impo…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-21T15:00:00.000Z",
+      "firstSeenAt": "2026-11-22T03:09:35.943Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 15
+    },
+    {
+      "id": "23x5on268ig",
+      "key": "url:theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "title": "Chess.com’s next move is a new hub for classic games, from mahjong to sudoku",
+      "url": "https://www.theverge.com/games/1038099/chess-classic-games-expansion-ai",
+      "excerpt": "Chess.com is ready to go a lot bigger than chess. After launching Gambit, a gambling-free poker site, earlier this year, the company is now adding 10 more games: backgammon, checkers, go, hearts, mahjong, shogi, sudoku, solitaire, xiangqi, and a Scrabble alternative called word.…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-21T14:00:00.000Z",
+      "firstSeenAt": "2026-11-22T03:09:35.943Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 15
+    },
+    {
+      "id": "7afaazl4ni",
+      "key": "url:the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions",
+      "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
+      "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
+      "excerpt": "OpenAI has released new prompt templates for GPT-6.2 Astra and Sol meant to fix common model behaviors such as overly brief answers, unnecessary follow-up questions, and excessive testing when coding. The API is changing as well, since editing a conversation's history can discar…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-21T13:32:35.000Z",
+      "firstSeenAt": "2026-11-22T03:09:35.943Z",
+      "day": "2026-11-21",
+      "category": "model",
+      "score": 21,
+      "dupOf": "25754w8325h"
+    },
+    {
       "id": "w5ypcoppcc",
       "key": "url:36kr.com/p/4079476599772038",
       "title": "WISE2026「年度人物·产业攻坚者」名册正式发布丨他们，向产业深处走去",
@@ -374,10 +423,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 20.9,
+      "score": 24.4,
       "metrics": {
-        "points": 102,
-        "comments": 28
+        "points": 159,
+        "comments": 51
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50586292"
     },
@@ -697,12 +746,30 @@
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-21",
       "category": "model",
-      "score": 24,
+      "score": 32,
       "ai": {
         "summary": "下一代混元模型露出冰山一角。",
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-21T04:00:29.058Z"
+      },
+      "related": [
+        {
+          "id": "1c7wkmhy35c",
+          "sourceId": "geekpark",
+          "sourceName": "极客公园",
+          "url": "http://www.geekpark.net/news/374301",
+          "title": "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切",
+          "publishedAt": "2026-11-22T01:56:28.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "geekpark"
+        ],
+        "firstPublishedAt": "2026-11-21T01:04:22.454Z"
       }
     },
     {
@@ -769,10 +836,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 21.3,
+      "score": 22.1,
       "metrics": {
-        "points": 107,
-        "comments": 32
+        "points": 118,
+        "comments": 36
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50581403"
     },
@@ -928,10 +995,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 24.7,
+      "score": 25.6,
       "metrics": {
-        "points": 158,
-        "comments": 63
+        "points": 175,
+        "comments": 74
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50579297",
       "aiAttempts": 1,
@@ -1157,10 +1224,10 @@
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 31.1,
+      "score": 31.3,
       "metrics": {
-        "points": 277,
-        "comments": 214
+        "points": 280,
+        "comments": 228
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50577901",
       "aiAttempts": 1,
@@ -1170,6 +1237,26 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-21T03:59:55.608Z"
       }
+    },
+    {
+      "id": "2emq72dnspl",
+      "key": "url:a90.com/experiments/same-advice",
+      "title": "AI is giving everyone the same advice",
+      "url": "https://a90.com/experiments/same-advice/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-20T16:58:05.000Z",
+      "firstSeenAt": "2026-11-22T03:09:35.943Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 22.6,
+      "metrics": {
+        "points": 122,
+        "comments": 48
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50577872"
     },
     {
       "id": "1cyts9ya4pw",
@@ -1208,10 +1295,10 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-21",
       "category": "paper",
-      "score": 33.2,
+      "score": 33.9,
       "metrics": {
-        "points": 429,
-        "comments": 126
+        "points": 481,
+        "comments": 142
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50577265",
       "aiAttempts": 2,
