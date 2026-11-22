@@ -1,0 +1,162 @@
+{
+  "date": "2026-11-22",
+  "title": "大方向 · 11月第4周",
+  "summary": "美股本周大跌：纳指100 跌 10.4%、标普500 跌 8.6%，恐慌指数升到 3 月以来最高。美联储会议纪要和多位官员偏鹰，AI 股波动加剧，特朗普表示要对在海外建设数据中心的美国公司征税；周五市场开始下调 12 月加息的押注，美债收益率回落。黄金跌到一年多来最低；A 股和港股下跌，银行和红利股走强；国内 LPR 维持不变。长期定投按计划继续即可，本周留意美国 PCE 物价和中国 11 月 PMI。",
+  "asOf": "数据截至 11月20日收盘",
+  "assets": [
+    {
+      "id": "us",
+      "name": "美股（纳斯达克100、标普500）",
+      "status": "大幅回调，估值进入低位",
+      "valuation": "纳斯达克100 市盈率 25.5 倍，近十年分位 15%（上周 24%），进入低于 20% 的低估区；标普500 市盈率 22.4 倍，分位 22%（上周 39%），市净率分位 82%，按账面价值看仍不便宜。",
+      "trend": "纳斯达克100 本周跌 10.4%，11月20日单日跌 5.6%，创 5 月以来新低，比高点低约 20%；标普500 本周跌 8.6%，比高点低约 12%；标普500 等权重跌 6.2%。恐慌指数 VIX 升破 36，为 3 月初以来最高。",
+      "drivers": [
+        {
+          "text": "10 月会议纪要显示，两名官员认为 12 月加息超过 25 个基点是合理的，几乎所有与会者认为继续加息可能合适；沃勒、穆萨莱姆、库克都表示通胀在扩大，摩根大通预计 12 月、1 月和 3 月各加息一次。",
+          "sources": [
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3202122" },
+            { "name": "美联储", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm" },
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202611183934197514.html" },
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3201303" },
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3203495" },
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202611193935174888.html" }
+          ]
+        },
+        {
+          "text": "AI 股波动加剧：英伟达三季度业绩和指引超预期，Anthropic 上市首日大涨，次日盘前跌 10%；11月20日特朗普表示将对在海外建设数据中心的美国公司征税，纳指尾盘跌幅扩大到 5%，纳指100 收跌 5.6%。",
+          "sources": [
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3201522" },
+            { "name": "财联社", "url": "https://www.cls.cn/detail/2539480" },
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202611203936298356.html" },
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3203507" },
+            { "name": "财联社", "url": "https://www.cls.cn/detail/2540686" }
+          ]
+        },
+        {
+          "text": "10 月零售销售环比增长 0.2%，略好于预期；到周五，OIS 合约已不再完全计入 12 月加息 25 个基点，美债 10 年期收益率一周下降约 19 个基点到 4.95%，实际利率 2.77%。",
+          "sources": [
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3201331" },
+            { "name": "新浪财经", "url": "https://finance.sina.cn/7x24/2026-11-21/detail-inizmrus3676499.d.html" },
+            { "name": "美国财政部", "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates" }
+          ]
+        }
+      ],
+      "longTerm": "估值已回到近十年偏低的位置，但加息周期还没结束、AI 板块情绪脆弱，短期还可能大幅波动。长期定投按计划继续：下跌时不停投，也不临时加大金额；场内 QDII ETF 的溢价仍远高于 2%–3%（部分纳指100 ETF 约 17%），买场外更合适。"
+    },
+    {
+      "id": "cn",
+      "name": "A 股和港股宽基",
+      "status": "跟随下跌，防御板块走强",
+      "valuation": "沪深300 市盈率 13.5 倍，近十年分位约 68%，市净率分位 22%，按账面价值看偏低；中证A500 市盈率 14.2 倍（指数历史较短，不算分位）；中证红利低波动 市盈率 9.5 倍，分位 81%，相对自身历史偏贵。",
+      "trend": "中证A500 本周跌 3.1%，沪深300 跌 1.5%，都创 5 月以来新低，比 60 日均线低约 8%–11%；中证红利低波动涨 2.3%，创半年新高，四大行股价创年内新高。恒生指数本周跌 5.2%，恒生科技跌 7.9%。",
+      "drivers": [
+        {
+          "text": "10 月经济数据偏弱：规模以上工业增加值同比增长 4.8%；1—10 月社会消费品零售总额增长 1.0%，固定资产投资下降 8.1%，房地产开发投资下降 21.6%。",
+          "sources": [
+            { "name": "国家统计局", "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965842.html" },
+            { "name": "国家统计局", "url": "https://www.stats.gov.cn/sj/zxfb/202611/t20261116_1965839.html" },
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3200323" },
+            { "name": "财联社", "url": "https://www.cls.cn/detail/2534977" }
+          ]
+        },
+        {
+          "text": "11月20日一年期和五年期 LPR 均维持不变；多只宽基 ETF 成交明显放量，银行股走强。",
+          "sources": [
+            { "name": "新浪财经", "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizitcn7328958.d.html" },
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3202986" },
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202611203936062686.html" }
+          ]
+        },
+        {
+          "text": "特朗普访华，中美元首会晤。",
+          "sources": [
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3201795" },
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3202336" },
+            { "name": "财联社", "url": "https://www.cls.cn/detail/2539022" }
+          ]
+        }
+      ],
+      "longTerm": "宽基市净率分位偏低，但经济数据偏弱、海外波动传导明显。长期定投按计划继续；红利低波估值分位偏高，不宜追高；各类资产比例留到年度再平衡时再调整。"
+    },
+    {
+      "id": "gold",
+      "name": "黄金",
+      "status": "跌至一年多来低点",
+      "valuation": "黄金没有市盈率。现货黄金约 3,550 美元/盎司，本周跌 8.8%，为一年多来最低，比 1 月接近 5,600 美元的高点低约 37%；上海金约 766 元/克。",
+      "trend": "现货黄金远在 20 日均线（约 3,930 美元）和 60 日均线（约 4,140 美元）下方，跌势加快：11月18日跌破 3,800 美元，20 日盘中又跌 3%。",
+      "drivers": [
+        {
+          "text": "在通胀担忧、加息预期和科技股抛售的冲击下，金价跌到 14 个月低位附近；高盛一个月内第二次下调年底目标价，大宗商品普遍从高位回落。",
+          "sources": [
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202611173932798875.html" },
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202611193934377181.html" },
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3203013" },
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202611213936597582.html" }
+          ]
+        },
+        {
+          "text": "另一面：高盛预计美联储转向降息后西方黄金 ETF 需求会恢复，长期仍看好金价；国内金饰和金条在下跌中出现集中购买。",
+          "sources": [
+            { "name": "新浪财经", "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyymav2503877.d.html" },
+            { "name": "新浪财经", "url": "https://finance.sina.cn/7x24/2026-11-16/detail-iniyyeux2563199.d.html" }
+          ]
+        }
+      ],
+      "longTerm": "黄金在组合里主要起分散作用，短期跟着利率预期、美元和风险情绪大幅波动。定投按计划继续，不因下跌暂停，也不临时加码；年度再平衡时如果黄金占比明显低于目标，可以在规则内补足。"
+    },
+    {
+      "id": "bonds",
+      "name": "短期债券（中短债）",
+      "status": "长端震荡，理财赎回压力显现",
+      "valuation": "10 年期国债收益率约 1.60%，本周下降约 2 个基点，接近 1.59% 的历史低位；中短债基金本周收益约 0%。",
+      "trend": "周初长端明显调整：11月16日 30 年期国债期货跌 0.79%，为 10 月 9 日以来新低；之后随股市下跌回稳。",
+      "drivers": [
+        {
+          "text": "10 月末以来的债市调整逐步传导到银行理财，部分中低风险产品净值回撤，赎回压力有所显现。",
+          "sources": [
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3200871" },
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3200484" }
+          ]
+        },
+        {
+          "text": "LPR 维持不变；央行每天开展隔夜逆回购操作，11月18日一天就达 7002 亿元。",
+          "sources": [
+            { "name": "新浪财经", "url": "https://finance.sina.cn/7x24/2026-11-20/detail-inizitcn7328958.d.html" },
+            { "name": "东方财富", "url": "https://finance.eastmoney.com/a/202611183933753751.html" }
+          ]
+        }
+      ],
+      "longTerm": "中短债以票息为主、波动小，仍是组合里的压舱石；收益率在历史低位附近，回报偏薄，债市调整时也会小幅回撤。按计划持有即可。"
+    },
+    {
+      "id": "fx",
+      "name": "美元 / 人民币",
+      "status": "人民币稳定",
+      "valuation": "离岸人民币约 6.675，与上周持平；人民币兑美元中间价 11月18日报 6.7118，为 2022 年以来最强；美元指数 103.8，在半年高位附近。",
+      "trend": "美股大跌时人民币短线走弱，整体仍在窄幅区间内波动。",
+      "drivers": [
+        {
+          "text": "人民币兑美元中间价 11月18日创 2022 年以来新高；19 日美股走低时，在岸人民币较前一晚夜盘收盘跌 272 点。",
+          "sources": [
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3201619" },
+            { "name": "华尔街见闻", "url": "https://wallstreetcn.com/livenews/3202764" }
+          ]
+        }
+      ],
+      "longTerm": "人民币双向波动，对以人民币计的海外资产收益影响有限；汇率难以预测，不据此择时。"
+    }
+  ],
+  "watch": [
+    "11月25日 美国 10 月 PCE 物价、三季度 GDP 修正值；26 日凌晨美联储褐皮书",
+    "11月26日 美股感恩节休市",
+    "11月27日 中国 10 月工业企业利润",
+    "11月30日 中国 11 月官方 PMI",
+    "12月1日 美国 11 月 ISM 制造业指数",
+    "12月10日凌晨 美联储议息"
+  ],
+  "dataSources": [
+    { "name": "蛋卷基金（指数估值）", "url": "https://danjuanfunds.com/djmodule/value-center" },
+    { "name": "中证指数", "url": "https://www.csindex.com.cn" },
+    { "name": "腾讯行情（恒生指数、恒生科技指数、纳斯达克100）", "url": "https://gu.qq.com/hkHSI/zs" }
+  ]
+}
