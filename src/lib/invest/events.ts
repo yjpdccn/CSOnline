@@ -41,24 +41,38 @@ const MOVE_SERIES: { id: IndexId | MacroId; threshold: number }[] = [
 const nameOf = (id: IndexId | MacroId) => INDICES.find((i) => i.id === id)?.name ?? MACRO.find((m) => m.id === id)?.name ?? id;
 const shortDate = (day: string) => `${Number(day.slice(5, 7))}月${Number(day.slice(8, 10))}日`;
 
+/** The move into the bar at `index`, when it clears the threshold. */
+function moveAt(market: MarketFile, { id, threshold }: (typeof MOVE_SERIES)[number], index: number): MarketEvent | undefined {
+  const closes = market.series[id]?.closes ?? [];
+  const [prev, last] = [closes[index - 1], closes[index]];
+  if (!prev || !last) return undefined;
+  const change = (last[1] / prev[1] - 1) * 100;
+  if (Math.abs(change) < threshold) return undefined;
+  const word = id === "usdcnh" ? (change > 0 ? "人民币走弱" : "人民币走强") : change > 0 ? "上涨" : "下跌";
+  return {
+    id: `move:${id}:${last[0]}`,
+    kind: "move",
+    at: new Date(`${last[0]}T23:59:00+08:00`).toISOString(),
+    title: `${nameOf(id)} ${shortDate(last[0])}${word} ${Math.abs(change).toFixed(1)}%`,
+    detail: `单日变动超过 ${threshold}%，收于 ${last[1].toLocaleString("en-US", { maximumFractionDigits: 4 })}。`,
+  };
+}
+
 function moves(market: MarketFile): MarketEvent[] {
-  const out: MarketEvent[] = [];
-  for (const { id, threshold } of MOVE_SERIES) {
-    const closes = market.series[id]?.closes ?? [];
-    const [prev, last] = [closes.at(-2), closes.at(-1)];
-    if (!prev || !last) continue;
-    const change = (last[1] / prev[1] - 1) * 100;
-    if (Math.abs(change) < threshold) continue;
-    const word = id === "usdcnh" ? (change > 0 ? "人民币走弱" : "人民币走强") : change > 0 ? "上涨" : "下跌";
-    out.push({
-      id: `move:${id}:${last[0]}`,
-      kind: "move",
-      at: new Date(`${last[0]}T23:59:00+08:00`).toISOString(),
-      title: `${nameOf(id)} ${shortDate(last[0])}${word} ${Math.abs(change).toFixed(1)}%`,
-      detail: `单日变动超过 ${threshold}%，收于 ${last[1].toLocaleString("en-US", { maximumFractionDigits: 4 })}。`,
-    });
-  }
-  return out;
+  return MOVE_SERIES.flatMap((s) => moveAt(market, s, (market.series[s.id]?.closes.length ?? 0) - 1) ?? []);
+}
+
+/**
+ * A move already listed (and maybe pushed) takes the figures of the day's close as the series has it now, keeping
+ * its id so it is not pushed again; one that no longer clears the threshold is dropped.
+ */
+function settleMove(market: MarketFile, event: MarketEvent): MarketEvent | undefined {
+  const [, id, day] = event.id.split(":");
+  const series = MOVE_SERIES.find((s) => s.id === id);
+  const index = market.series[id as IndexId | MacroId]?.closes.findIndex(([d]) => d === day) ?? -1;
+  if (!series || index < 1) return event;
+  const close = moveAt(market, series, index);
+  return close && { ...event, title: close.title, detail: close.detail };
 }
 
 /** Enter the low band under 20%, leave it above 25%; enter the high band over 80%, leave it under 75%. */
@@ -139,7 +153,7 @@ function newsEvents(ranked: RankedCard[], now: Date): MarketEvent[] {
 export function detectEvents(input: { market: MarketFile; ranked: RankedCard[]; previous: EventsFile | null; now: Date }): EventsFile {
   const { market, ranked, previous, now } = input;
   const cutoff = now.getTime() - RETENTION_DAYS * 86_400_000;
-  const kept = (previous?.events ?? []).filter((e) => Date.parse(e.at) >= cutoff);
+  const kept = (previous?.events ?? []).filter((e) => Date.parse(e.at) >= cutoff).flatMap((e) => (e.kind === "move" ? (settleMove(market, e) ?? []) : [e]));
   const known = new Set(kept.map((e) => e.id));
   const valuation = valuations(market, previous?.bands ?? {});
   // The first run only records the bands: a crossing needs a band to cross from.

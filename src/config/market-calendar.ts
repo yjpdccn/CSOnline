@@ -24,6 +24,11 @@ export const HOLIDAYS: Record<"cn" | "us", string[]> = {
   ],
 };
 
+/** NYSE closes at 13:00 New York time on these days (the day after Thanksgiving, Christmas Eve). */
+export const EARLY_CLOSES: Record<"us", string[]> = {
+  us: ["2026-11-27", "2026-12-24", "2027-11-26"],
+};
+
 /** `fx` covers around-the-clock markets (gold, currencies, the dollar index): every weekday. */
 export type MarketCalendar = "cn" | "us" | "fx";
 

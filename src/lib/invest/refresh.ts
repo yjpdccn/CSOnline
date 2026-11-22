@@ -10,6 +10,7 @@ import { mergeNews, rankNews, toInvestItem } from "./news";
 import { detectEvents, eventObservations } from "./events";
 import { buildObservations } from "./observations";
 import { oldestFirst, pacedResult, readPaced } from "./paced";
+import { settledUsCloses } from "./sessions";
 import { keepPeerStatus, refreshStrategy, scanDue, scanPeers, syncTrackedStatus, type StrategyFile } from "./strategy";
 import { buildSuggestions } from "./suggestions";
 import { buildAutoOverview, generateAiOverview, stopReason, translateHeadlines, type OverviewQuotes } from "./overview";
@@ -54,6 +55,7 @@ import type {
 } from "./types";
 
 const CONCURRENCY = 6;
+const US_INDICES = new Set(INDICES.filter((i) => i.market === "us").map((i) => i.id));
 /** The 基金概况 page (tracked index, benchmark) rarely changes. */
 const PROFILE_MAX_AGE_MS = 7 * 86_400_000;
 /** English stories given a Chinese title per run, in one request. */
@@ -334,8 +336,15 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
   for (const s of eastmoney) {
     const fresh = out.series[s.id];
     if (!fresh) continue;
+    // A US session still open when the data was fetched has no close yet, here or in the stored history.
+    const us = US_INDICES.has(s.id as IndexId);
+    if (us) fresh.closes = settledUsCloses(fresh.closes, fresh.fetchedAt);
+    if (us && !fresh.closes.length) {
+      delete out.series[s.id];
+      continue;
+    }
     const merged = mergeCloses(store.market.series[s.id]?.closes, fresh.closes);
-    if (merged) fresh.closes = merged;
+    if (merged) fresh.closes = us ? settledUsCloses(merged, fresh.fetchedAt) : merged;
     else {
       delete out.series[s.id];
       rejected.push(s.label);
