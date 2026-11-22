@@ -22,7 +22,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:20.135Z"
-      }
+      },
+      "dupOf": "1achcw82du8"
     },
     {
       "id": "17q7kr6tgri",
@@ -43,9 +44,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 19.3,
+      "score": 19.4,
       "metrics": {
-        "stars": 788
+        "stars": 805
       },
       "dupOf": "20mvx8qqa9a"
     },
@@ -622,7 +623,8 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:06:43.460Z"
-      }
+      },
+      "dupOf": "oi3j9nl4if"
     },
     {
       "id": "109h7wjgszu",
@@ -670,7 +672,8 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:00.036Z"
-      }
+      },
+      "dupOf": "1lucb2aeu72"
     },
     {
       "id": "1v7y8k9z5zm",
@@ -692,7 +695,8 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:06:43.460Z"
-      }
+      },
+      "dupOf": "1achcw82du8"
     },
     {
       "id": "bjjuzjl11x",
@@ -1016,7 +1020,7 @@
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-21",
       "category": "model",
-      "score": 32,
+      "score": 40,
       "ai": {
         "summary": "下一代混元模型露出冰山一角。",
         "category": "model",
@@ -1024,6 +1028,14 @@
         "at": "2026-11-21T04:00:29.058Z"
       },
       "related": [
+        {
+          "id": "upu5q4c9zx",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/511757.html",
+          "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+          "publishedAt": "2026-11-21T06:30:55.000Z"
+        },
         {
           "id": "1c7wkmhy35c",
           "sourceId": "geekpark",
@@ -1034,9 +1046,10 @@
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "36kr-ai",
+          "qbitai",
           "geekpark"
         ],
         "firstPublishedAt": "2026-11-21T01:04:22.454Z"
@@ -1056,13 +1069,79 @@
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-21",
       "category": "agent",
-      "score": 30,
+      "score": 75.3,
       "ai": {
         "title": "Google Duplex 在 Gemini 中也能为企业拨打电话",
         "summary": "Google Duplex 进化，现在也能为企业拨打电话。",
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-21T03:59:55.608Z"
+      },
+      "related": [
+        {
+          "id": "omoc89ca4",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/googles-latest-homepage-update-pushes-its-search-engine-further-toward-an-ai-answer-engine/",
+          "title": "Google 搜索首页更新，进一步向 AI 答案引擎演进",
+          "publishedAt": "2026-11-20T13:19:31.000Z"
+        },
+        {
+          "id": "q6s94cx65s",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50577901",
+          "title": "Google 员工反对惩罚拒用 AI 的学校",
+          "publishedAt": "2026-11-20T16:59:27.000Z"
+        },
+        {
+          "id": "1nmk9mj15po",
+          "sourceId": "google-dev",
+          "sourceName": "Google 开发者博客",
+          "url": "https://developers.googleblog.com/how-to-securely-connect-internal-cloud-run-mcp-servers-to-gemini-enterprise/",
+          "title": "如何安全连接内部 Cloud Run MCP 服务器",
+          "publishedAt": "2026-11-20T17:00:00.000Z"
+        },
+        {
+          "id": "1yiazjai3n8",
+          "sourceId": "google-dev",
+          "sourceName": "Google 开发者博客",
+          "url": "https://developers.googleblog.com/how-to-handle-user-connector-and-agent-auth-in-gemini-enterprise-with-a-custom-ui/",
+          "title": "在 Gemini Enterprise 中处理认证",
+          "publishedAt": "2026-11-20T17:00:00.000Z"
+        },
+        {
+          "id": "1v7y8k9z5zm",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4078984519750789",
+          "title": "谷歌重磅论文：内部已实现RSI，Opus经验喂给Gemini，AI拥有进化记忆",
+          "publishedAt": "2026-11-21T04:06:39.949Z"
+        },
+        {
+          "id": "h7iayr0bhe",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+          "title": "Anthropic 上市后股价暴跌，能否坚持安全优先？",
+          "publishedAt": "2026-11-21T15:00:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 7,
+        "sources": [
+          "google-research",
+          "the-decoder",
+          "hackernews",
+          "google-dev",
+          "36kr-ai",
+          "verge-ai"
+        ],
+        "firstPublishedAt": "2026-11-20T13:19:31.000Z",
+        "metrics": {
+          "points": 282,
+          "comments": 229
+        }
       }
     },
     {
@@ -1118,7 +1197,8 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:20.135Z"
-      }
+      },
+      "dupOf": "1q6w6q1dx9g"
     },
     {
       "id": "1q6w6q1dx9g",
@@ -1134,7 +1214,7 @@
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 15,
+      "score": 35.2,
       "aiAttempts": 1,
       "ai": {
         "title": "Daniel Ek 资助 AI 研究者创办聚变能源公司",
@@ -1142,6 +1222,28 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:20.135Z"
+      },
+      "related": [
+        {
+          "id": "1ivk1dqax3l",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50581403",
+          "title": "OpenComputer：开源云端编码 Agent",
+          "publishedAt": "2026-11-20T20:19:56.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "techcrunch-ai",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-20T19:53:41.000Z",
+        "metrics": {
+          "points": 120,
+          "comments": 36
+        }
       }
     },
     {
@@ -1209,10 +1311,18 @@
           "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
           "title": "Stanford 发布人类独立完成的黎曼猜想草稿",
           "publishedAt": "2026-11-21T11:19:49.000Z"
+        },
+        {
+          "id": "15d38dgzqn8",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+          "title": "Riemann 猜想证明获官方确认",
+          "publishedAt": "2026-11-22T11:08:31.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "techcrunch-ai",
           "36kr-ai",
@@ -1252,13 +1362,52 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 15,
+      "score": 46.7,
       "ai": {
         "title": "特朗普威胁对海外 AI 数据中心征收巨额税款",
         "summary": "特朗普承诺对在美国境外建设数据中心的公司征收巨额税款。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-20T19:06:04.103Z"
+      },
+      "related": [
+        {
+          "id": "15buyuyzfnz",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50579297",
+          "title": "为推理芯片进行 vibe-coding",
+          "publishedAt": "2026-11-20T18:15:16.000Z"
+        },
+        {
+          "id": "f0fnz4ks5f",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+          "title": "Signal 限制截图以对抗 AI 监控",
+          "publishedAt": "2026-11-21T21:37:10.000Z"
+        },
+        {
+          "id": "106cm10qom2",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+          "title": "Vibe-coding 革命将席卷所有设备",
+          "publishedAt": "2026-11-22T13:00:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 4,
+        "sources": [
+          "verge-ai",
+          "hackernews",
+          "techcrunch-ai"
+        ],
+        "firstPublishedAt": "2026-11-20T18:15:16.000Z",
+        "metrics": {
+          "points": 175,
+          "comments": 76
+        }
       }
     },
     {
@@ -1275,7 +1424,7 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 30,
+      "score": 52.7,
       "aiAttempts": 1,
       "ai": {
         "title": "开源 AI 科学峰会：加速科学发现",
@@ -1283,6 +1432,28 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-21T03:59:55.608Z"
+      },
+      "related": [
+        {
+          "id": "1ldvlbysb1l",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50586292",
+          "title": "ClawDOS：AI 编码 Agent",
+          "publishedAt": "2026-11-21T05:38:01.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "meta",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-20T18:30:45.000Z",
+        "metrics": {
+          "points": 166,
+          "comments": 52
+        }
       }
     },
     {
@@ -1314,7 +1485,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:00.036Z"
-      }
+      },
+      "dupOf": "1eeudpgc90g"
     },
     {
       "id": "1wrevriioa3",
@@ -1375,7 +1547,7 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 58,
+      "score": 78.9,
       "ai": {
         "title": "Anthropic 完成 IPO，超额认购",
         "summary": "Anthropic 完成首次公开募股，包括全额行使超额配售权。",
@@ -1423,17 +1595,38 @@
           "url": "https://36kr.com/p/4077584643675013",
           "title": "抢跑 OpenAI 敲出史上最大 IPO，Anthropic 却惹怒了半个硅谷",
           "publishedAt": "2026-11-20T10:17:04.694Z"
+        },
+        {
+          "id": "17t047qotpb",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4079379879252868",
+          "title": "2万亿造富，25位华人员工接住Anthropic泼天富贵",
+          "publishedAt": "2026-11-22T00:20:12.831Z"
+        },
+        {
+          "id": "f832p6l2kh",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50597612",
+          "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+          "publishedAt": "2026-11-22T08:57:34.000Z"
         }
       ],
       "story": {
-        "reports": 6,
+        "reports": 8,
         "sources": [
           "anthropic",
           "36kr-ai",
           "36kr-flash",
-          "jiqizhixin"
+          "jiqizhixin",
+          "hackernews"
         ],
-        "firstPublishedAt": "2026-11-18T09:53:00.945Z"
+        "firstPublishedAt": "2026-11-18T09:53:00.945Z",
+        "metrics": {
+          "points": 235,
+          "comments": 333
+        }
       }
     },
     {
@@ -1463,7 +1656,8 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:00.036Z"
-      }
+      },
+      "dupOf": "1achcw82du8"
     },
     {
       "id": "pda52nx0cl",
@@ -1519,7 +1713,8 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:00.036Z"
-      }
+      },
+      "dupOf": "1achcw82du8"
     },
     {
       "id": "q6s94cx65s",
@@ -1547,7 +1742,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:00.036Z"
-      }
+      },
+      "dupOf": "1achcw82du8"
     },
     {
       "id": "2emq72dnspl",

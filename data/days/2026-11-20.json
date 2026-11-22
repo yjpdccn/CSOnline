@@ -109,13 +109,31 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "opensource",
-      "score": 15,
+      "score": 23,
       "ai": {
         "title": "Nvidia 投资 Inception 扩散模型，强化开源 Nemotron 线",
         "summary": "Nvidia 投资 Inception，加强开源 Nemotron 模型阵容。",
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-20T19:06:23.630Z"
+      },
+      "related": [
+        {
+          "id": "x3owaxdhfw",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+          "title": "Nvidia 的双面图景",
+          "publishedAt": "2026-11-21T21:07:42.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "the-decoder",
+          "techcrunch-ai"
+        ],
+        "firstPublishedAt": "2026-11-20T14:53:50.000Z"
       }
     },
     {
@@ -299,7 +317,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-20T19:06:23.630Z"
-      }
+      },
+      "dupOf": "1achcw82du8"
     },
     {
       "id": "7jfwflzfxj",
@@ -2382,7 +2401,7 @@
         ],
         "firstPublishedAt": "2026-11-17T00:26:57.000Z",
         "metrics": {
-          "likes": 3959
+          "likes": 3977
         }
       },
       "ai": {
@@ -2925,7 +2944,7 @@
       ],
       "score": 27.3,
       "metrics": {
-        "stars": 70066,
+        "stars": 70068,
         "starsToday": 636
       },
       "ai": {
@@ -2957,7 +2976,7 @@
       ],
       "score": 29.7,
       "metrics": {
-        "stars": 3707,
+        "stars": 3711,
         "starsToday": 874
       },
       "ai": {
@@ -2985,7 +3004,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 13175,
+        "stars": 13179,
         "starsToday": 983
       },
       "ai": {

@@ -45,7 +45,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:00.036Z"
-      }
+      },
+      "dupOf": "1eeudpgc90g"
     },
     {
       "id": "gdh7y73umb",
@@ -108,7 +109,8 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:00.036Z"
-      }
+      },
+      "dupOf": "jsanp7b1i6"
     },
     {
       "id": "1wt8pbh86l3",
@@ -228,13 +230,20 @@
       "firstSeenAt": "2026-11-22T13:04:02.988Z",
       "day": "2026-11-22",
       "category": "industry",
-      "score": 30.6,
+      "score": 30.9,
       "metrics": {
-        "points": 225,
-        "comments": 326
+        "points": 235,
+        "comments": 333
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50597612",
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "Anthropic 2028 年的电力来源中，天然气占比最高，煤炭次之。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:15:33.145Z"
+      },
+      "dupOf": "11c399ac607"
     },
     {
       "id": "n3jzvhio4w",
@@ -570,7 +579,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:20.135Z"
-      }
+      },
+      "dupOf": "11c399ac607"
     },
     {
       "id": "f0fnz4ks5f",
@@ -593,7 +603,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:00.036Z"
-      }
+      },
+      "dupOf": "1eeudpgc90g"
     },
     {
       "id": "x3owaxdhfw",
@@ -616,7 +627,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:00.036Z"
-      }
+      },
+      "dupOf": "26l4388zeac"
     },
     {
       "id": "22iu8ieazl2",
@@ -635,10 +647,10 @@
         "Agent",
         "MCP"
       ],
-      "score": 21.2,
+      "score": 21.3,
       "metrics": {
-        "points": 108,
-        "comments": 28
+        "points": 109,
+        "comments": 29
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50593481",
       "ai": {
