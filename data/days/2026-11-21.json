@@ -15,7 +15,81 @@
       "firstSeenAt": "2026-11-22T03:09:35.943Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Anthropic 上市后股价暴跌，能否坚持安全优先？",
+        "summary": "Anthropic 上市后股价大跌，引发对其能否坚持安全优先的讨论。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      }
+    },
+    {
+      "id": "17q7kr6tgri",
+      "key": "gh:el4cteo/fast-anything",
+      "title": "EL4CTEO/fast-anything",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "excerpt": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-21T14:40:27.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-21",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 19.3,
+      "metrics": {
+        "stars": 788
+      },
+      "dupOf": "20mvx8qqa9a"
+    },
+    {
+      "id": "iqgdug4h1e",
+      "key": "url:qbitai.com/2026/11/511855.html",
+      "title": "AI给乐队现场搓MV，这是黑客松还是音乐节啊",
+      "url": "https://www.qbitai.com/2026/11/511855.html",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T14:14:09.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "AI为乐队现场生成MV，展现技术创意。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:07:55.247Z"
+      }
+    },
+    {
+      "id": "1qtl995o0ot",
+      "key": "url:qbitai.com/2026/11/511849.html",
+      "title": "中国计算，走出新的登峰之路",
+      "url": "https://www.qbitai.com/2026/11/511849.html",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T14:09:59.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-21",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "中国计算技术探索新的发展路径。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:07:55.247Z"
+      }
     },
     {
       "id": "23x5on268ig",
@@ -31,7 +105,14 @@
       "firstSeenAt": "2026-11-22T03:09:35.943Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Chess.com 推出包含麻将、数独等更多游戏的平台",
+        "summary": "Chess.com 推出包含麻将、数独等 10 多种游戏的平台，拓展业务范围。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      }
     },
     {
       "id": "7afaazl4ni",
@@ -68,6 +149,75 @@
       "dupOf": "1qjfurcfpb9"
     },
     {
+      "id": "1x2u4xikqv4",
+      "key": "url:qbitai.com/2026/11/511841.html",
+      "title": "8万条群聊消息做成考卷：腾讯元宝×KCL发布首个基于群聊构建的Agent记忆基准",
+      "url": "https://www.qbitai.com/2026/11/511841.html",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T11:40:11.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-21",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22,
+      "ai": {
+        "summary": "腾讯元宝与 KCL 发布首个基于群聊构建的 Agent 记忆基准。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
+    },
+    {
+      "id": "244z5uuf3jl",
+      "key": "url:qbitai.com/2026/11/511830.html",
+      "title": "全网疯传！Grok一姐教你如何月提交3000个PR",
+      "url": "https://www.qbitai.com/2026/11/511830.html",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T11:34:18.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-21",
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "Grok一姐分享高效提交PR的方法。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:07:55.247Z"
+      }
+    },
+    {
+      "id": "17pk0xjsmf3",
+      "key": "url:qbitai.com/2026/11/511791.html",
+      "title": "反超Gemini之后，Karpo新作再开源，浏览器Agent速效双赢",
+      "url": "https://www.qbitai.com/2026/11/511791.html",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-21T11:24:29.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-21",
+      "category": "opensource",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22,
+      "ai": {
+        "summary": "Karpo 新作开源，浏览器 Agent 速效双赢，反超 Gemini。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
+    },
+    {
       "id": "1sfy67ns708",
       "key": "url:the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft",
       "title": "Hours after Anthropic claims a Claude proof of the Riemann hypothesis, Stanford releases an all-human competing draft",
@@ -80,8 +230,16 @@
       "publishedAt": "2026-11-21T11:19:49.000Z",
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
-      "category": "industry",
-      "score": 19
+      "category": "paper",
+      "score": 19,
+      "ai": {
+        "title": "Stanford 发布人类独立完成的黎曼猜想草稿",
+        "summary": "Anthropic 宣称用 Claude 证明黎曼猜想，Stanford 随后发布人类独立草稿。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      },
+      "dupOf": "jsanp7b1i6"
     },
     {
       "id": "26dmkq8pqok",
@@ -97,7 +255,13 @@
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Flagship 布局伦敦，打造 AI 原生科学创业平台。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
     },
     {
       "id": "1qhxov6ml0x",
@@ -112,8 +276,8 @@
       "publishedAt": "2026-11-21T11:07:00.000Z",
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
-      "category": "industry",
-      "score": 26,
+      "category": "paper",
+      "score": 34,
       "related": [
         {
           "id": "1cyts9ya4pw",
@@ -122,15 +286,30 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
           "title": "Anthropic 数学家称用 Claude 解决千禧年大奖难题",
           "publishedAt": "2026-11-20T16:34:13.000Z"
+        },
+        {
+          "id": "tvrjwtnlzs",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/511870.html",
+          "title": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
+          "publishedAt": "2026-11-22T06:03:54.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "jiqizhixin",
-          "verge-ai"
+          "verge-ai",
+          "qbitai"
         ],
         "firstPublishedAt": "2026-11-20T16:34:13.000Z"
+      },
+      "ai": {
+        "summary": "OpenAI 与 Anthropic 围攻千禧年难题，七道题进展如何？",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
       }
     },
     {
@@ -146,8 +325,14 @@
       "publishedAt": "2026-11-21T11:01:00.000Z",
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
-      "category": "model",
-      "score": 24
+      "category": "multimodal",
+      "score": 18,
+      "ai": {
+        "summary": "Claude Opus 5 在 25 个大模型视频记忆大考中拿到 45.7 分。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
     },
     {
       "id": "13qpwhg3rp6",
@@ -179,8 +364,14 @@
       "publishedAt": "2026-11-21T10:55:00.000Z",
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
-      "category": "model",
-      "score": 28
+      "category": "opensource",
+      "score": 22,
+      "ai": {
+        "summary": "TML 开源新模型，采用循环 Transformer 架构，笔记本即可运行。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
     },
     {
       "id": "2dwg32ilol6",
@@ -196,7 +387,13 @@
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
       "category": "paper",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "西工大提出 ROSE：多模态终身知识编辑新范式。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
     },
     {
       "id": "qbfx3sqfg4",
@@ -212,7 +409,13 @@
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
       "category": "paper",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "视觉语言大模型不关注场景中的人类，反而靠物体大小判断谁更关键。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
     },
     {
       "id": "1apypzt6qdr",
@@ -244,8 +447,14 @@
       "publishedAt": "2026-11-21T10:38:00.000Z",
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "清华、北大研究从反向传播找到线索，解释大模型为何长出巨大激活。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
     },
     {
       "id": "20d2qaol6bg",
@@ -278,7 +487,14 @@
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "美股 AI 股遭遇疫情以来最大周跌幅",
+        "summary": "受 AI 疑虑、监管审查等因素影响，美股科技股遭遇疫情以来最大周跌幅。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      }
     },
     {
       "id": "y4d56m790o",
@@ -293,11 +509,18 @@
       "publishedAt": "2026-11-21T09:17:24.000Z",
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
-      "category": "agent",
+      "category": "opensource",
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "字节跳动发布 Axion 1.0 开源模型",
+        "summary": "字节跳动发布 Axion 1.0，宣称仅需三阶段训练即可媲美 OpenAI 和 Anthropic。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      }
     },
     {
       "id": "1rj86ft4d76",
@@ -366,12 +589,18 @@
       "publishedAt": "2026-11-21T06:32:31.000Z",
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
-      "category": "model",
+      "category": "agent",
       "keywords": [
         "Agent",
         "本地部署"
       ],
-      "score": 28
+      "score": 22,
+      "ai": {
+        "summary": "DeepSeek V1 作者创业项目曝光，专为本地部署而生的开源 Agent。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
     },
     {
       "id": "upu5q4c9zx",
@@ -386,8 +615,14 @@
       "publishedAt": "2026-11-21T06:30:55.000Z",
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
-      "category": "industry",
-      "score": 18
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "姚顺雨和混元团队上 Reddit 答网友，Hy 小模型已进路线图。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
     },
     {
       "id": "109h7wjgszu",
@@ -423,12 +658,19 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 24.4,
+      "score": 24.7,
       "metrics": {
-        "points": 159,
-        "comments": 51
+        "points": 166,
+        "comments": 52
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50586292"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50586292",
+      "ai": {
+        "title": "ClawDOS：AI 编码 Agent",
+        "summary": "介绍能在 DOS 环境运行的 AI 编码 Agent ClawDOS。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:00.036Z"
+      }
     },
     {
       "id": "1v7y8k9z5zm",
@@ -444,7 +686,13 @@
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
       "category": "paper",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "谷歌重磅论文：内部已实现 RSI，Opus 经验喂给 Gemini，AI 拥有进化记忆。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
     },
     {
       "id": "bjjuzjl11x",
@@ -504,7 +752,13 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Kling Image 4.0 具备自主出设计方案能力，生图门槛再次改变。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
     },
     {
       "id": "5nj0i472n2",
@@ -521,7 +775,7 @@
       "day": "2026-11-21",
       "category": "industry",
       "score": 18,
-      "dupOf": "2ahrlw0q4k5"
+      "dupOf": "jsanp7b1i6"
     },
     {
       "id": "2a1hr4stu2",
@@ -675,14 +929,6 @@
           "publishedAt": "2026-11-21T02:25:59.162Z"
         },
         {
-          "id": "5nj0i472n2",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4078902157185920",
-          "title": "25万页证明，黎曼猜想被AI“解决”了吗？",
-          "publishedAt": "2026-11-21T02:49:35.842Z"
-        },
-        {
           "id": "1apypzt6qdr",
           "sourceId": "jiqizhixin",
           "sourceName": "机器之心",
@@ -697,10 +943,34 @@
           "url": "https://www.jiqizhixin.com/articles/2026-11-21-6",
           "title": "没有AI，12年潜心研究！人类数学家紧急公开广义黎曼猜想证明",
           "publishedAt": "2026-11-21T10:58:00.000Z"
+        },
+        {
+          "id": "1xirhzssnu5",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4080260946875269",
+          "title": "Claude宣称攻克黎曼猜想数小时后，斯坦福数学家公布纯人类证明",
+          "publishedAt": "2026-11-22T03:15:54.000Z"
+        },
+        {
+          "id": "1ri6la2rk6y",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4080372197282948",
+          "title": "刚刚，Claude黎曼猜想证明通过验证！菲尔兹奖得主回应“数学研究不存在了？”",
+          "publishedAt": "2026-11-22T05:12:53.058Z"
+        },
+        {
+          "id": "26t5owh6rnm",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4080470183253125",
+          "title": "丘成桐回应AI辅助证明黎曼猜想",
+          "publishedAt": "2026-11-22T05:30:48.000Z"
         }
       ],
       "story": {
-        "reports": 6,
+        "reports": 8,
         "sources": [
           "36kr-ai",
           "qbitai",
@@ -831,17 +1101,24 @@
       "publishedAt": "2026-11-20T20:19:56.000Z",
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
-      "category": "opensource",
+      "category": "agent",
       "keywords": [
         "Agent",
         "AI 编程"
       ],
-      "score": 22.1,
+      "score": 22.2,
       "metrics": {
-        "points": 118,
+        "points": 120,
         "comments": 36
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50581403"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50581403",
+      "ai": {
+        "title": "OpenComputer：开源云端编码 Agent",
+        "summary": "OpenComputer 是一款开源云端编码 Agent，可在 AWS、GCP、Azure 上运行。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      }
     },
     {
       "id": "1q6w6q1dx9g",
@@ -860,10 +1137,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "Spotify 创始人 Daniel Ek 背票 AI 研究员创立的聚变能源初创公司。",
+        "title": "Daniel Ek 资助 AI 研究者创办聚变能源公司",
+        "summary": "Spotify 创始人 Daniel Ek 资助 AI 研究者创办的聚变能源公司 Europa Fusion。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-21T03:59:55.608Z"
+        "at": "2026-11-22T13:05:20.135Z"
       }
     },
     {
@@ -906,13 +1184,41 @@
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-21",
       "category": "paper",
-      "score": 15,
+      "score": 31,
       "aiAttempts": 1,
       "ai": {
-        "summary": "AI 和人类分别声称解决了 167 年的黎曼猜想。",
+        "title": "AI 与人类分别解决黎曼猜想",
+        "summary": "AI 和人类分别独立解决了黎曼猜想，引发数学界关注。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-11-21T03:59:55.608Z"
+        "at": "2026-11-22T13:05:20.135Z"
+      },
+      "related": [
+        {
+          "id": "5nj0i472n2",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4078902157185920",
+          "title": "25万页证明，黎曼猜想被AI“解决”了吗？",
+          "publishedAt": "2026-11-21T02:49:35.842Z"
+        },
+        {
+          "id": "1sfy67ns708",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/hours-after-anthropic-claims-a-claude-proof-of-the-riemann-hypothesis-stanford-releases-an-all-human-competing-draft/",
+          "title": "Stanford 发布人类独立完成的黎曼猜想草稿",
+          "publishedAt": "2026-11-21T11:19:49.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "techcrunch-ai",
+          "36kr-ai",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-11-20T19:32:08.000Z"
       }
     },
     {
@@ -995,18 +1301,19 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 25.6,
+      "score": 25.7,
       "metrics": {
         "points": 175,
-        "comments": 74
+        "comments": 76
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50579297",
       "aiAttempts": 1,
       "ai": {
-        "summary": "通过“Vibecoding”方式设计推理芯片。",
+        "title": "为推理芯片进行 vibe-coding",
+        "summary": "探讨为推理芯片进行 vibe-coding 的过程。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-21T03:59:55.608Z"
+        "at": "2026-11-22T13:05:00.036Z"
       }
     },
     {
@@ -1143,7 +1450,7 @@
       "dateOnly": true,
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-21",
-      "category": "agent",
+      "category": "opensource",
       "keywords": [
         "Agent",
         "MCP"
@@ -1151,10 +1458,11 @@
       "score": 30,
       "aiAttempts": 1,
       "ai": {
-        "summary": "介绍如何安全地将内部 Cloud Run MCP 服务器连接到 Gemini Enterprise。",
-        "category": "agent",
+        "title": "如何安全连接内部 Cloud Run MCP 服务器",
+        "summary": "介绍使用 Egress Agent Gateway 等技术安全连接内部 MCP 服务器。",
+        "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-21T03:59:55.608Z"
+        "at": "2026-11-22T13:05:00.036Z"
       }
     },
     {
@@ -1178,10 +1486,11 @@
       "score": 30,
       "aiAttempts": 1,
       "ai": {
-        "summary": "通过语义治理策略在执行前检查 AI Agent 的工具调用。",
+        "title": "使用语义治理策略检查 AI Agent 行为",
+        "summary": "通过语义治理策略在执行前评估 AI Agent 的工具调用。",
         "category": "agent",
         "model": "glm-4.7-flash",
-        "at": "2026-11-21T03:59:55.608Z"
+        "at": "2026-11-22T13:05:00.036Z"
       }
     },
     {
@@ -1198,17 +1507,18 @@
       "dateOnly": true,
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-21",
-      "category": "agent",
+      "category": "opensource",
       "keywords": [
         "Agent"
       ],
       "score": 30,
       "aiAttempts": 1,
       "ai": {
-        "summary": "介绍如何在自定义 UI 中处理 Gemini Enterprise 的用户、连接器和 Agent 认证。",
-        "category": "agent",
+        "title": "在 Gemini Enterprise 中处理认证",
+        "summary": "介绍在自定义企业 UI 中处理用户、连接器和 Agent 认证的方法。",
+        "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-21T03:59:55.608Z"
+        "at": "2026-11-22T13:05:00.036Z"
       }
     },
     {
@@ -1226,16 +1536,17 @@
       "category": "industry",
       "score": 31.3,
       "metrics": {
-        "points": 280,
-        "comments": 228
+        "points": 282,
+        "comments": 229
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50577901",
       "aiAttempts": 1,
       "ai": {
-        "summary": "谷歌员工呼吁雇主不要惩罚拒绝使用 AI 的学校。",
+        "title": "Google 员工反对惩罚拒用 AI 的学校",
+        "summary": "Google 员工呼吁雇主不要惩罚拒绝使用 AI 的学校。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-21T03:59:55.608Z"
+        "at": "2026-11-22T13:05:00.036Z"
       }
     },
     {
@@ -1251,12 +1562,19 @@
       "firstSeenAt": "2026-11-22T03:09:35.943Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 22.6,
+      "score": 22.9,
       "metrics": {
-        "points": 122,
-        "comments": 48
+        "points": 124,
+        "comments": 52
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50577872"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50577872",
+      "ai": {
+        "title": "AI 给每个人相同的建议",
+        "summary": "AI 正在向用户提供高度相似的通用建议。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:00.036Z"
+      }
     },
     {
       "id": "1cyts9ya4pw",
@@ -1297,8 +1615,8 @@
       "category": "paper",
       "score": 33.9,
       "metrics": {
-        "points": 481,
-        "comments": 142
+        "points": 487,
+        "comments": 143
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50577265",
       "aiAttempts": 2,
@@ -1323,7 +1641,13 @@
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
       "category": "paper",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "米哈游发布 8B 参数的 VLA 论文，模型具备 50 小时自主运行能力。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
     },
     {
       "id": "2b7wqpl7c33",

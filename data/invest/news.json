@@ -1,6 +1,536 @@
 {
-  "updatedAt": "2026-11-22T03:09:35.943Z",
+  "updatedAt": "2026-11-22T13:04:02.988Z",
   "items": [
+    {
+      "id": "50s8od1chv",
+      "key": "url:marketwatch.com/story/can-stocks-bounce-back-after-a-brutal-week-this-timing-model-says-history-is-on-the-markets-side-beff1753?mod=mw_rss_topstories",
+      "title": "Can stocks bounce back after a brutal week? This timing model says history is on the market’s side.",
+      "url": "https://www.marketwatch.com/story/can-stocks-bounce-back-after-a-brutal-week-this-timing-model-says-history-is-on-the-markets-side-beff1753?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-22T12:30:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Norm Fosback’s ‘Seasonality Timing System’ has one of the very best long-term track records, and suggests the market has an upside bias for the next two weeks",
+      "ai": {
+        "title": "股市能否反弹？历史表明下周看涨",
+        "summary": "Fosback季节性模型显示市场下周有上涨倾向。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:09:31.541Z"
+      }
+    },
+    {
+      "id": "1751wa5hep4",
+      "key": "url:cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
+      "title": "Top Wall Street analysts favor these 3 dividend stocks for strong returns",
+      "url": "https://www.cnbc.com/2026/11/22/top-wall-street-analysts-favor-these-stocks-for-strong-returns.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-22T12:13:56.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Wall Street analysts can help shortlist attractive dividend-paying stocks, as their recommendations are backed by thorough analysis of a company's financials.",
+      "ai": {
+        "title": "华尔街分析师看好这3只高股息股票",
+        "summary": "华尔街分析师推荐高股息股票，基于对公司财务的深入分析。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:09:31.541Z"
+      }
+    },
+    {
+      "id": "591wt9jkju",
+      "key": "url:cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html",
+      "title": "The Nasdaq is in freefall. Here's one stock to look at",
+      "url": "https://www.cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-22T12:10:39.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Elevated options premiums are creating an opportunity in Amazon",
+      "ai": {
+        "title": "Nasdaq暴跌，亚马逊成关注标的",
+        "summary": "亚马逊期权溢价高企，提供交易机会。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:09:31.541Z"
+      }
+    },
+    {
+      "id": "29u7rtlle1w",
+      "key": "wscn:3203741",
+      "title": "融资保证金比例下限降至80%，有望释放4000亿元增量资金",
+      "url": "https://wallstreetcn.com/livenews/3203741",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T10:44:06.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "11月22日，经中国证监会批准，沪深北交易所发布《关于调整融资保证金比例等相关安排的通知》，将融资保证金比例下限从100%降低至80%。据业内测算，融资保证金比例下限降至80%，有助于降低新增资金开仓成本、盘活融资合约存量资金，有望释放4000亿元增量资金。（上证报）",
+      "flag": 1,
+      "dupOf": "1p7cxykjzhz"
+    },
+    {
+      "id": "1iagk2bhm6f",
+      "key": "em:202611223936924891",
+      "title": "沪深交易所、中国结算推出一揽子降费措施",
+      "url": "https://finance.eastmoney.com/a/202611223936924891.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T10:41:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 22,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "记者11月22日从中国证监会了解到，沪深交易所推出新一批降费措施，包括免收交易单元使用费等，并将今年年初已实施的免收上市费、债券交易经手费等措施有效期再延长两年至2028年。中国结算明确，自2027年1月1日起至2028年12月31日，继续暂免收取绿色公司债券、科技创新公司债券和民营企业公司债券（不含可转换公司债券）发行人服务费及债券结算费。",
+      "flag": 1
+    },
+    {
+      "id": "1vjkt77jrkl",
+      "key": "cls:2540997",
+      "title": "中国结算：暂免收取部分债券登记结算费用",
+      "url": "https://www.cls.cn/detail/2540997",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T10:39:52.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "中国证券登记结算有限责任公司通知：为落实国务院和证监会有关部署，加大对绿色公司债券、科技创新公司债券、民营企业公司债券发行人支持力度，切实助力降低融资费用，降低交易所债券市场交易成本，中国证券登记结算有限责任公司决定暂免收取部分债券登记结算费用。现将有关事项通知如下： 一、自2027年1月1日起至2028年12月31日，继续暂免收取绿色公司债券、科技创新公司债券（不含可转换公司债券）的证券登记费、派息兑付手续费、赎回回售手续费。 二、自2027年1月1日起至2028年12月31日，继续暂免收取民营企业公司债券（不含可转换公司债",
+      "flag": 1
+    },
+    {
+      "id": "2e6wwh1sc23",
+      "key": "wscn:3203738",
+      "title": "深交所就创业板做市交易业务相关规则公开征求意见",
+      "url": "https://wallstreetcn.com/livenews/3203738",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T10:39:36.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "本次征求意见的《做市业务细则》，对创业板股票做市交易业务进行管理。一是明确做市服务申请备案要求。经中国证监会核准取得上市证券做市交易业务资格的证券公司，以备案方式向深交所申请为创业板股票提供做市服务。二是明确做市商权利与义务。做市商应通过做市专用证券账户开展做市交易业务。深交所定期对做市商做市服务进行评价，激励做市商积极履行做市义务。三是明确对做市商的监督管理要求。做市商应当建立风险防范与业务隔离机制，健全内部控制和风险管理制度，确保合规有序开展做市交易业务。",
+      "flag": 1
+    },
+    {
+      "id": "wrxuaaqmqa",
+      "key": "em:202611223936924279",
+      "title": "交易所降低融资保证金比例下限 可带来增量资金近4000亿元",
+      "url": "https://finance.eastmoney.com/a/202611223936924279.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T10:37:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "经证监会批准，沪深北交易所将融资保证金比例下限从100%降低至80%，此次调整将自2026年11月30日起实施。据测算，此次调整理论上可带来增量资金近4000亿元。",
+      "flag": 1,
+      "dupOf": "1p7cxykjzhz"
+    },
+    {
+      "id": "18pmzue3ccj",
+      "key": "cls:2540994",
+      "title": "沪深北交易所降低融资保证金比例下限至80% 理论上可带来增量资金近4000亿元",
+      "url": "https://www.cls.cn/detail/2540994",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T10:36:49.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "经证监会批准，沪深北交易所将融资保证金比例下限从100%降低至80%，此次调整将自2026年11月30日起实施。据测算，此次调整理论上可带来增量资金近4000亿元。",
+      "flag": 1,
+      "dupOf": "1p7cxykjzhz"
+    },
+    {
+      "id": "ydf42f9hr5",
+      "key": "wscn:3203736",
+      "title": "沪深北交易所调整融资保证金比例",
+      "url": "https://wallstreetcn.com/livenews/3203736",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T10:35:04.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "2026年11月22日，经中国证监会批准，沪深北交易所发布通知调整融资保证金比例，将投资者融资买入证券的最低保证金比例由100%调低至80%，相关规则调整自2026年11月30日起施行。近期，融资交易活跃度明显下降，整体杠杆水平不高，根据法定的逆周期调节安排，适当降低融资保证金比例，有助于适度提高杠杆比例、释放融资空间、提升市场流动性，促进市场长期稳定健康发展。",
+      "flag": 1,
+      "dupOf": "1p7cxykjzhz"
+    },
+    {
+      "id": "275xxo4xl1z",
+      "key": "em:202611223936924084",
+      "title": "深交所拟在创业板引入做市商制度",
+      "url": "https://finance.eastmoney.com/a/202611223936924084.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T10:35:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "为了贯彻落实中国证监会《关于深化创业板改革更好服务新质生产力发展的意见》，明确创业板股票做市交易业务相关安排，促进增强市场内在稳定性，提高市场定价效率，减少股价波动，提升市场韧性，深交所就《深圳证券交易所创业板股票做市交易业务细则（征求意见稿）》公开征求意见。",
+      "flag": 1
+    },
+    {
+      "id": "23yjguwbrjf",
+      "key": "cls:2540992",
+      "title": "沪深北交易所降低融资保证金比例下限至80% 自2026年11月30日起施行",
+      "url": "https://www.cls.cn/detail/2540992",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T10:33:34.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "2026年11月22日，经中国证监会批准，沪深北交易所发布通知调整融资保证金比例，将投资者融资买入证券的最低保证金比例由100%调低至80%，相关规则调整自2026年11月30日起施行。 今年1月，沪深北交易所根据当时的市场形势，将融资保证金比例由80%调高至100%，对于缓解杠杆风险顺周期累积、促进投资者理性交易起到了积极作用。近期，融资交易活跃度明显下降，整体杠杆水平不高，根据法定的逆周期调节安排，适当降低融资保证金比例，有助于适度提高杠杆比例、释放融资空间、提升市场流动性，促进市场长期稳定健康发展。对于本次调整前尚未了结的融资合约，证券公司可以按…",
+      "flag": 1,
+      "dupOf": "1p7cxykjzhz"
+    },
+    {
+      "id": "1p7cxykjzhz",
+      "key": "em:202611223936923898",
+      "title": "沪深北交易所降低融资保证金比例下限至80%",
+      "url": "https://finance.eastmoney.com/a/202611223936923898.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T10:33:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 34,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "2026年11月22日，经中国证监会批准，沪深北交易所发布通知调整融资保证金比例，将投资者融资买入证券的最低保证金比例由100%调低至80%，相关规则调整自2026年11月30日起施行。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "23yjguwbrjf",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2540992",
+          "title": "沪深北交易所降低融资保证金比例下限至80% 自2026年11月30日起施行",
+          "publishedAt": "2026-11-22T10:33:34.000Z"
+        },
+        {
+          "id": "ydf42f9hr5",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3203736",
+          "title": "沪深北交易所调整融资保证金比例",
+          "publishedAt": "2026-11-22T10:35:04.000Z"
+        },
+        {
+          "id": "18pmzue3ccj",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2540994",
+          "title": "沪深北交易所降低融资保证金比例下限至80% 理论上可带来增量资金近4000亿元",
+          "publishedAt": "2026-11-22T10:36:49.000Z"
+        },
+        {
+          "id": "wrxuaaqmqa",
+          "sourceId": "em-focus",
+          "sourceName": "东方财富",
+          "url": "https://finance.eastmoney.com/a/202611223936924279.html",
+          "title": "交易所降低融资保证金比例下限 可带来增量资金近4000亿元",
+          "publishedAt": "2026-11-22T10:37:00.000Z"
+        },
+        {
+          "id": "29u7rtlle1w",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3203741",
+          "title": "融资保证金比例下限降至80%，有望释放4000亿元增量资金",
+          "publishedAt": "2026-11-22T10:44:06.000Z"
+        }
+      ],
+      "story": {
+        "reports": 6,
+        "sources": [
+          "em-focus",
+          "cls",
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-11-22T10:33:00.000Z"
+      }
+    },
+    {
+      "id": "mftcq3vyj8",
+      "key": "em:202611223936922832",
+      "title": "十大机构论市：当前位置不必过度悲观 反弹总在逆境中诞生",
+      "url": "https://finance.eastmoney.com/a/202611223936922832.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T10:20:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "本周沪指下跌2.77%，深证成指下跌6.49%，创业板指下跌8.82%。下周A股将如何运行？我们汇总了各大机构的最新投资策略，供投资者参考。",
+      "flag": 1
+    },
+    {
+      "id": "27far7ujjrn",
+      "key": "sina:5230407",
+      "title": "中信建投： 建议紧盯微观流动性变化，关注政策出台情况，静待转机",
+      "url": "https://finance.sina.cn/7x24/2026-11-22/detail-inizraph1275830.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T10:03:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks",
+        "a-shares"
+      ],
+      "excerpt": "中信建投发布研报指出，当前A股面临交易结构恶化、外围波动加剧的内外双重考验，市场可能继续承压。短期看，美股大跌后有望迎来空头回补，A股也同样超跌有望在近期出现技术性反弹。从中期看，市场底部尚未探明，见底反弹需要海外市场稳定、A股微观流动性大幅改善和强力稳市政策同步出台。后续建议紧盯微观流动性变化，关注政策出台情况，静待转机。配置上以防御为先，建议精选高股息、低机构配置和低拥挤的品种，重点关注：银行、白电、白酒、家纺、保险、铁路公路、电信运营、航运港口等。在市场微观流动性大幅改善后，市场可能出现“V型底部”，届时修复行情中小微盘和科技成长、主题热点有望表…"
+    },
+    {
+      "id": "1gj21so25e0",
+      "key": "cls:2540927",
+      "title": "启迪设计：股票将被实施其他风险警示 11月23日停牌一天",
+      "url": "https://www.cls.cn/detail/2540927",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T07:35:40.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "启迪设计(300500.SZ)公告称，公司收到证监会江苏监管局《行政处罚事先告知书》，因原子公司虚增利润等事项，股票将被实施其他风险警示。公司股票于11月23日停牌一天，11月24日复牌并变更为“ST启设”，日涨跌幅限制仍为20%。公司已对相关年度财报进行追溯重述，将在证监会作出行政处罚决定书满12个月后申请撤销风险警示。",
+      "flag": 1
+    },
+    {
+      "id": "1aidzff05pv",
+      "key": "em:202611223936892719",
+      "title": "印度总理莫迪呼吁减少购买黄金",
+      "url": "https://finance.eastmoney.com/a/202611223936892719.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T07:27:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "印度总理莫迪21日在北方邦首府勒克瑙出席活动时表示，印度民众听从他此前减少购买黄金的建议，如今金价大幅下跌，许多人因此避免了损失。莫迪回忆，他曾呼吁国民，若非必要，请一年内不要购买黄金。"
+    },
+    {
+      "id": "1xw6izcmy1c",
+      "key": "sina:5230304",
+      "title": "纳指逼近技术性熊市 美股恐慌指数一度突破40",
+      "url": "https://finance.sina.cn/7x24/2026-11-22/detail-inizqwfk1300619.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T06:32:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "us-stocks"
+      ],
+      "excerpt": "本周美股大幅下挫，尽管英伟达财报强劲，人工智能新贵Anthropic创下了有史以来最大的IPO，仍未能抵消美联储的鹰派态度引发的担忧。 标普500指数和道琼斯工业平均指数进入回调区间，纳指则逼近技术性熊市，衡量市场波动性的恐慌指数VIX一度突破40关口，投资者在芯片制造商和软件基础设施股大幅抛售中寻求美债避难。下周公布的个人消费支出（PCE）数据或将进一步清晰反映美联储在上周10月通胀报告高于预期之后的货币政策走向，短线急跌后市场情绪的修复也许还需要时间。（第一财经）"
+    },
+    {
+      "id": "pdnc2y667a",
+      "key": "em:202611223936885472",
+      "title": "英特尔、SpaceX还是另起炉灶？围绕黄仁勋“下一站” 市场上猜测四起",
+      "url": "https://finance.eastmoney.com/a/202611223936885472.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T05:15:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "英伟达前CEO黄仁勋接下来的去向，目前已成为华尔街和硅谷的热议话题之一。这位AI行业大佬的未来去向不仅关乎他个人，更关乎全球AI算力格局的走向。",
+      "flag": 1
+    },
+    {
+      "id": "1iv2jlarsvl",
+      "key": "em:202611223936880690",
+      "title": "信用风波冲击债市！后市怎么走？机构这样看",
+      "url": "https://finance.eastmoney.com/a/202611223936880690.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T04:33:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cn-bonds"
+      ],
+      "excerpt": "近期，受点状信用风险事件、资金面边际收敛以及国债免税政策预期变化等多重因素交织影响，国内债券市场出现一轮明显波动，理财赎回、债基被动卖券的负反馈一度发酵，十年期国债收益率出现阶段性上行。多位机构人士接受记者采访时表示，本轮调整属于阶段性扰动，债市中期运行逻辑并未发生改变，展望后市，利率债大概率维持区间震荡格局，但仍需关注财政供给、监管政策等潜在变量。",
+      "flag": 1
+    },
+    {
+      "id": "2eak2uv2cz6",
+      "key": "em:202611223936880444",
+      "title": "美联储突传大消息！美股回吐2026年全部涨幅 加息或有变数？",
+      "url": "https://finance.eastmoney.com/a/202611223936880444.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T04:20:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "us-stocks"
+      ],
+      "excerpt": "美联储加息，或有变数？美银首席投资策略师Michael Hartnett在最新一期《Flow Show》周报中指出，阻止美联储继续加息的最快方式，是让美国股市回吐2026年的全部涨幅。这一目标位对应标普500指数6845点，而该指数上周五收于6910点，距离触发仅剩65点、约1%的空间。",
+      "flag": 1
+    },
+    {
+      "id": "2fdg4cqlogr",
+      "key": "sina:5230279",
+      "title": "美国股市或成美联储加息变数",
+      "url": "https://finance.sina.cn/7x24/2026-11-22/detail-inizqrxk9037030.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T04:19:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "us-stocks"
+      ],
+      "excerpt": "美银首席投资策略师Michael Hartnett在最新一期周报中指出，阻止美联储继续加息的最快方式，是让美国股市回吐2026年的全部涨幅。这一目标位对应标普500指数6845点，而该指数上周五收于6910点，距离触发仅剩65点、约1%的空间。此前，美联储理事丽莎·库克当地时间20日表示，美联储迫切需要加息以压低通胀，并警告称，如果延迟行动，未来可能不得不以更快速度将利率升至更高水平。上周，美股三大指数集体重挫，纳斯达克综合指数累计下跌10%，为2020年以来最大周跌幅；道指、标普500指数单周跌幅也超过8%。经历了一轮剧烈抛售后，美国三大股指均已跌入…"
+    },
+    {
+      "id": "1tv5l717pbk",
+      "key": "em:202611223936880354",
+      "title": "金价暴跌 莫迪开心：像我这样的普通人劝大家少买黄金 印度人就真的少买了 听我话的人钱保住了",
+      "url": "https://finance.eastmoney.com/a/202611223936880354.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T04:12:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "据印度新德里电视台报道，印度总理莫迪21日在北方邦首府勒克瑙出席活动时表示，印度民众听从他此前减少购买黄金的建议，如今金价大幅下跌，许多人因此避免了损失。"
+    },
     {
       "id": "21fgf5apmss",
       "key": "sina:5230266",
@@ -95,7 +625,13 @@
       "topics": [
         "policy-us"
       ],
-      "excerpt": "This would make the second recent intrusion into the FBI system."
+      "excerpt": "This would make the second recent intrusion into the FBI system.",
+      "ai": {
+        "title": "特朗普称FBI数据库黑客事件可能有积极解读",
+        "summary": "这是近期FBI系统遭到的第二次入侵。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:09:31.541Z"
+      }
     },
     {
       "id": "1whudebgwf7",
@@ -114,7 +650,13 @@
       "topics": [
         "us-stocks"
       ],
-      "excerpt": "Anthropic held its historic Nasdaq debut a day before Nvidia's stock closed out its longest weekly losing streak since 2008."
+      "excerpt": "Anthropic held its historic Nasdaq debut a day before Nvidia's stock closed out its longest weekly losing streak since 2008.",
+      "ai": {
+        "title": "Anthropic创纪录IPO遭遇科技股最差周",
+        "summary": "Anthropic在Nvidia创纪录连跌周前一日上市。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:09:31.541Z"
+      }
     },
     {
       "id": "z8d1ngmbtb",
@@ -304,7 +846,13 @@
       "topics": [
         "us-stocks"
       ],
-      "excerpt": "Bear Traps Report founder explains why he sees stagflation coming, how much artificial-intelligence risk sits in S&P 500 index funds and why he favors hard assets"
+      "excerpt": "Bear Traps Report founder explains why he sees stagflation coming, how much artificial-intelligence risk sits in S&P 500 index funds and why he favors hard assets",
+      "ai": {
+        "title": "Larry McDonald警告信贷市场预示股市增长冲击",
+        "summary": "他看好硬资产，并指出S&P 500指数基金中的AI风险。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:09:31.541Z"
+      }
     },
     {
       "id": "2cow3dv9ijp",
@@ -342,7 +890,13 @@
       "topics": [
         "policy-us"
       ],
-      "excerpt": "Acute Chinese shortage and high local premium create lucrative arbitrage"
+      "excerpt": "Acute Chinese shortage and high local premium create lucrative arbitrage",
+      "ai": {
+        "title": "贸易商将美国铜运往中国",
+        "summary": "中国供应短缺和本地溢价高企，创造套利机会。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:09:31.541Z"
+      }
     },
     {
       "id": "78ahpuqkst",
@@ -361,7 +915,13 @@
       "topics": [
         "us-stocks"
       ],
-      "excerpt": "Investors are now more focused on protecting their portfolios than looking for bargains"
+      "excerpt": "Investors are now more focused on protecting their portfolios than looking for bargains",
+      "ai": {
+        "title": "股市惨烈一周几乎抹平全年涨幅",
+        "summary": "投资者更关注保护投资组合而非寻找廉价股。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:09:31.541Z"
+      }
     },
     {
       "id": "1b9ehr06qbk",
@@ -33023,179 +33583,6 @@
       ],
       "excerpt": " 1、11月16日，国家统计局将公布10月社会消费品零售总额、工业增加值、固定资产投资等经济数据。同日，国家统计局公布70城住宅销售价格月度报告。 2、11月18日至19日，APEC第三十三次领导人非正式会议将在深圳举行。其中，APEC工商领导人峰会将于11月17日至18日在深圳举办。 3、阿里、腾讯、拼多多、京东、百度、网易等中概互联头牌集中发布财报。 4、英伟达财报预计于北京时间周三5时20分左右发布，电话会议于6时开始。 5、人工智能实验室Anthropic期",
       "flag": 1
-    },
-    {
-      "id": "a5sckkv83y",
-      "key": "url:cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html",
-      "title": "Rivian, Lucid, Scout CEOs aren’t counting on Democrats to restore EV federal support after midterm wins",
-      "url": "https://www.cnbc.com/2026/11/15/rivian-lucid-scout-arent-counting-on-dems-to-restore-ev-incentives.html",
-      "lang": "en",
-      "sourceId": "cnbc-top",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-15T13:00:02.000Z",
-      "firstSeenAt": "2026-11-15T13:03:46.546Z",
-      "day": "2026-11-15",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "EV makers have had to contend with flip-flopping regulatory support from Washington over the years."
-    },
-    {
-      "id": "n6jfax19wc",
-      "key": "url:cnbc.com/2026/11/15/top-wall-street-analysts-are-bullish-on-these-3-stocks-for-the-long-term.html",
-      "title": "Top Wall Street analysts are bullish on these 3 stocks for the long term",
-      "url": "https://www.cnbc.com/2026/11/15/top-wall-street-analysts-are-bullish-on-these-3-stocks-for-the-long-term.html",
-      "lang": "en",
-      "sourceId": "cnbc-top",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-15T12:49:07.000Z",
-      "firstSeenAt": "2026-11-16T02:44:10.077Z",
-      "day": "2026-11-15",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "Here are three stocks favored by some of Wall Street's top pros, according to TipRanks."
-    },
-    {
-      "id": "1m1431qwuv7",
-      "key": "url:marketwatch.com/story/gold-and-silver-are-supposed-to-protect-against-inflation-so-why-are-both-metals-tumbling-instead-1735eca7?mod=mw_rss_topstories",
-      "title": "Gold and silver are supposed to protect against inflation. So why are both metals tumbling instead?",
-      "url": "https://www.marketwatch.com/story/gold-and-silver-are-supposed-to-protect-against-inflation-so-why-are-both-metals-tumbling-instead-1735eca7?mod=mw_rss_topstories",
-      "lang": "en",
-      "sourceId": "marketwatch",
-      "sourceName": "MarketWatch",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-15T12:30:00.000Z",
-      "firstSeenAt": "2026-11-15T13:03:46.546Z",
-      "day": "2026-11-15",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "gold"
-      ],
-      "excerpt": "Charts show the potential for more pain ahead"
-    },
-    {
-      "id": "2a6ars6t5qb",
-      "key": "sina:5215690",
-      "title": "李强抵马尼拉出席中国－东盟领导人会议",
-      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyvrfu6204952.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-15T12:22:00.000Z",
-      "firstSeenAt": "2026-11-15T13:03:46.546Z",
-      "day": "2026-11-15",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "应东盟轮值主席国菲律宾总统马科斯邀请，国务院总理李强乘包机于11月15日晚抵达马尼拉尼诺伊·阿基诺国际机场，将出席中国－东盟领导人会议。菲律宾财政部长吴诗泽和中国驻菲律宾大使井泉、驻东盟大使王擎等到机场迎接。李强是在结束对泰国正式访问后赴马尼拉的。离开曼谷时，泰国副总理兼财政部长艾尼迪和中国驻泰国大使张建卫等到机场送行。（新华社）"
-    },
-    {
-      "id": "3ycaemk4z4",
-      "key": "em:202611153931463818",
-      "title": "十大机构论市：反弹窗口仍在延续 如何把握行业配置方向？",
-      "url": "https://finance.eastmoney.com/a/202611153931463818.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-15T10:40:00.000Z",
-      "firstSeenAt": "2026-11-15T13:03:46.546Z",
-      "day": "2026-11-15",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "本周沪指下跌0.41%，深证成指下跌1.85%，创业板指下跌1.59%。下周A股将如何运行？我们汇总了各大机构的最新投资策略，供投资者参考。",
-      "flag": 1
-    },
-    {
-      "id": "wjfhkhpcli",
-      "key": "sina:5215616",
-      "title": "陈茂波：香港金融与贸易正由“量”向“值”提升",
-      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyverz1903886.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-15T07:44:00.000Z",
-      "firstSeenAt": "2026-11-15T13:03:46.546Z",
-      "day": "2026-11-15",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "rates-fx"
-      ],
-      "excerpt": "香港特区政府财政司司长陈茂波15日发表网志表示，“香港海运周2026”当日揭幕，而香港交易所16日将举行“离岸人民币债券指数”发布仪式。两个活动指向同一个趋势：香港的金融与贸易，正由“量”的加速累积，朝向“值”的深度提升。陈茂波说，香港离岸人民币生态圈的“量”已有深厚累积：全球约七成半的离岸人民币支付经香港处理，跨境贸易结算全年总额连续4年高于10万亿元人民币；人民币资金池约1.3万亿元；“点心债”发行量连续两年达1万亿元；去年离岸人民币贷款余额创9350亿元新高，今年前9个月更超过1.1万亿元，同比上升超过两成。特区政府常态化发行人民币债券，国家财政…"
-    },
-    {
-      "id": "tdbbntcp94",
-      "key": "em:202611153931422385",
-      "title": "周末要闻汇总：吴清提出资本市场六个“进一步深化”",
-      "url": "https://finance.eastmoney.com/a/202611153931422385.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-15T07:00:00.000Z",
-      "firstSeenAt": "2026-11-15T13:03:46.546Z",
-      "day": "2026-11-15",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "pboc"
-      ],
-      "excerpt": "1、中美经贸磋商机制项下贸易理事会首次会议举行；2、央行公布10月金融统计数据报告；3、吴清提出资本市场六个“进一步深化”；4、两部门印发《“十五五”新型储能实施方案》。",
-      "flag": 1
-    },
-    {
-      "id": "x6wzd0olax",
-      "key": "sina:5215571",
-      "title": "韩国央行逢低买金 第三季度增持40%黄金ETF",
-      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyuyiy9649541.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-15T05:40:00.000Z",
-      "firstSeenAt": "2026-11-15T13:03:46.546Z",
-      "day": "2026-11-15",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "gold"
-      ],
-      "excerpt": "韩国央行在时隔13年、于二季度重新布局黄金投资后，三季度将一只黄金交易所交易基金（ETF）的持仓增持超40%。该行趁金价走低买入黄金，这是一项提升黄金中长期配置的计划。同时，韩国央行采购本土实物黄金的相关筹备工作预计将在年底前推进。 根据韩国央行15日向美国证券交易委员会提交的三季度13F文件，截至9月末，该行持有956869股在美上市的SPDR黄金信托（GLD），持仓市值3.6441亿美元，约合4883亿韩元。 相较于二季度末的679765股，本次增持277104股，增幅40.8%；持仓市值从2.5041亿美元上涨45.5%。市值涨幅高于持仓数量涨幅…"
-    },
-    {
-      "id": "2b9axycq60c",
-      "key": "sina:5215472",
-      "title": "广东省委书记黄坤明一行考察调研2026年APEC领导人会议周新闻中心",
-      "url": "https://finance.sina.cn/7x24/2026-11-15/detail-iniyuuae6500956.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-15T03:31:00.000Z",
-      "firstSeenAt": "2026-11-15T13:03:46.546Z",
-      "day": "2026-11-15",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "11月15日上午，中央政治局委员，广东省委书记黄坤明与广东省委常委、深圳市委书记靳磊，深圳市委副书记、市长李运一行走进位于深圳市福田会展中心的2026年APEC领导人会议周新闻中心驻地，在工作人员带领下，黄坤明仔细查看媒体工作区、技术支持区、新闻发布厅和茶歇区等场所，询问现场工作人员技术和后勤保障等工作，并向证券时报记者表示，新闻中心准备得“很好、很温馨”。他还叮嘱媒体记者“要工作好，休息好和吃好。”"
     }
   ]
 }

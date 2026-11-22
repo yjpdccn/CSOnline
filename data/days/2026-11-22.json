@@ -2,6 +2,440 @@
   "day": "2026-11-22",
   "items": [
     {
+      "id": "1e5pp7ww5o9",
+      "key": "url:the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns",
+      "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
+      "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+      "excerpt": "METR reports that leading AI models like Opus 5.5 and GPT-6 Astra are improving rapidly at research tasks but getting harder to measure. Current data can't rule out a dangerous acceleration in AI development, the organization warns, though it also says common tests may overestim…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-22T13:00:43.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "model",
+      "score": 21,
+      "ai": {
+        "title": "AI 进展快于安全测试",
+        "summary": "专家警告 AI 模型如 Opus 5.5 和 GPT-6 Astra 进展迅速，安全测试难以跟上。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:00.036Z"
+      }
+    },
+    {
+      "id": "106cm10qom2",
+      "key": "url:theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "title": "The vibe-coding revolution is coming to all the gadgets",
+      "url": "https://www.theverge.com/column/1039139/vibe-coding-gadgets-tv-camera",
+      "excerpt": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the vibe-hacking of everything, follow David Pierce. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Li…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-22T13:00:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Vibe-coding 革命将席卷所有设备",
+        "summary": "Vibe-coding 革命即将扩展到各类智能设备。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:00.036Z"
+      }
+    },
+    {
+      "id": "gdh7y73umb",
+      "key": "url:36kr.com/p/4080920403743624",
+      "title": "WISE2026「年度企业系列名册」正式发布丨成为自己的时代",
+      "url": "https://36kr.com/p/4080920403743624",
+      "excerpt": "我们记下这些名字，也记下它们被呼唤的缘由。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T12:53:31.725Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 22,
+      "dupOf": "1qjfurcfpb9"
+    },
+    {
+      "id": "zosn80gf7d",
+      "key": "url:the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users",
+      "title": "Security researchers show how cheap AI inference providers steal keys and snoop on users",
+      "url": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+      "excerpt": "Security researchers at Dragos used two million fake AI requests to uncover serious vulnerabilities in the AI supply chain, finding at least three compromised providers, hundreds of stolen AWS keys, and marketplace resellers who were simply reading customer requests. OpenRouter…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-22T12:07:56.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "廉价 AI 推理提供商窃取密钥",
+        "summary": "安全研究员发现廉价 AI 推理提供商存在窃取密钥和监听用户的风险。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:00.036Z"
+      }
+    },
+    {
+      "id": "15d38dgzqn8",
+      "key": "url:the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct",
+      "title": "Lean and Mathlib community officially confirms Levent Alpöge's proof of the Riemann hypothesis is correct",
+      "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+      "excerpt": "The Lean and Mathlib community has officially confirmed Levent Alpöge's proof of the Riemann hypothesis as correct. Dozens of independent verifiers checked the 17 million lines of computer code. The solution arrived years earlier than expected: Terence Tao had predicted it would…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-22T11:08:31.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "paper",
+      "score": 15,
+      "ai": {
+        "title": "Riemann 猜想证明获官方确认",
+        "summary": "Lean 和 Mathlib 社区确认 Levent Alpöge 的黎曼猜想证明正确。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:00.036Z"
+      }
+    },
+    {
+      "id": "1wt8pbh86l3",
+      "key": "url:leiphone.com/category/zaobao/qb1uol6hKvK6pRgF.html",
+      "title": "特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件；OpenAI被曝入局智能手机赛道；DeepSeek第二轮千亿融资落地，31家出资方入局",
+      "url": "https://www.leiphone.com/category/zaobao/qb1uol6hKvK6pRgF.html",
+      "excerpt": "要闻提示 1.OpenAI被曝入局智能手机赛道，富士康获组装订单 2.特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件 3.DeepSeek千亿融资落地，31家出资方入股梁文锋搭建的持股平台 4.马斯克自称“中国超级粉丝”：首次到访深圳被震撼，特斯拉将继续在华提高产量 5.字节跳动拟追加5亿美元微软云服务合同 6.西祠胡同创始人响马突发心梗：到急诊几分钟后心脏骤停，现已回家静养 7.黄仁勋继任者被曝已有人选！马斯克：英伟达把他赶走，堪比公牛队连胜时踢走乔丹 8.Anthropic完成史上最大规模IPO，上市估值达1.5万亿美元 今日头条…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T10:15:00.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "特朗普表态英伟达Blackwell芯片可对华销售；OpenAI入局智能手机赛道；DeepSeek获千亿融资。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
+    },
+    {
+      "id": "mnulrpkqb1",
+      "key": "url:infoq.cn/video/UUqekkOQ8haEXZ792UjU",
+      "title": "财务团队的 AI 蓝图",
+      "url": "https://www.infoq.cn/video/UUqekkOQ8haEXZ792UjU?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T09:54:58.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "探讨财务团队如何利用 AI 实现数字化转型。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
+    },
+    {
+      "id": "20jfs02r7np",
+      "key": "url:infoq.cn/video/mihBFvImttvJlSFUqC49",
+      "title": "打造 AI 优先的销售与营销运营体系",
+      "url": "https://www.infoq.cn/video/mihBFvImttvJlSFUqC49?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T09:41:49.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "构建以 AI 优先的销售与营销运营体系。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
+    },
+    {
+      "id": "1vuhtmk9f4d",
+      "key": "url:the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude",
+      "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+      "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+      "excerpt": "OpenAI's GPT-6.2 Astra and Sol give much shorter, more direct answers than their predecessors, but they are also less willing to admit uncertainty. Anthropic's Claude models score well ahead on transparency. The article GPT-6.2 Astra and Sol get to the point faster but score low…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-22T09:41:37.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "model",
+      "score": 21,
+      "dupOf": "25754w8325h"
+    },
+    {
+      "id": "189fysdevyy",
+      "key": "url:infoq.cn/video/Ly5HbhY4pNMCF04abkFo",
+      "title": "智能体企业新前沿：驱动高效智能",
+      "url": "https://www.infoq.cn/video/Ly5HbhY4pNMCF04abkFo?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T09:38:28.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "智能体企业新前沿：驱动高效智能。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
+    },
+    {
+      "id": "f832p6l2kh",
+      "key": "url:betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power",
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-22T08:57:34.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 30.6,
+      "metrics": {
+        "points": 225,
+        "comments": 326
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50597612",
+      "aiAttempts": 1
+    },
+    {
+      "id": "n3jzvhio4w",
+      "key": "url:36kr.com/p/4054107156419714",
+      "title": "8个AI 新术语，看懂领先90%的人",
+      "url": "https://36kr.com/p/4054107156419714",
+      "excerpt": "除了令牌、提示词、幻觉之外，还有这些 AI 术语值得了解。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T08:12:54.655Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "介绍除令牌、提示词、幻觉外的 8 个 AI 新术语。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      }
+    },
+    {
+      "id": "2bcwnorzyvt",
+      "key": "url:36kr.com/p/4080641504875396",
+      "title": "Anthropic开出2.7亿天价疯抢CS本科生！OpenAI迎史上最惨一周",
+      "url": "https://36kr.com/p/4080641504875396",
+      "excerpt": "OpenAI连遭重挫，AI行业轻松领先时代落幕",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T08:04:24.217Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "Anthropic 高薪抢人，OpenAI 遭遇行业挑战。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      }
+    },
+    {
+      "id": "6nqk0g77bd",
+      "key": "url:36kr.com/newsflashes/4080472194175876",
+      "title": "澳大利亚情报主管警示数据中心与AI潜藏风险",
+      "url": "https://36kr.com/newsflashes/4080472194175876",
+      "excerpt": "澳大利亚情报机构负责人表示，数据中心与人工智能可能让该国遭到外国势力干预，面临境外恶意主体的威胁。报道援引澳大利亚安全情报组织局长迈克・伯吉斯的说法，他提出数据中心存在隐性所有权的隐患，他国掌控这类基础设施，能够从物理或虚拟层面接触相关技术。伯吉斯称，AI与数据中心行业“热度、机遇和威胁并存”。这位安全主管此前已经警告过境外政府发起的网络威胁持续上升。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T06:30:50.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "澳大利亚情报主管警示数据中心与 AI 可能带来的国家安全风险。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      }
+    },
+    {
+      "id": "100o8a4gg87",
+      "key": "url:qbitai.com/2026/11/511904.html",
+      "title": "Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖",
+      "url": "https://www.qbitai.com/2026/11/511904.html",
+      "excerpt": "用葡萄糖发电控制血糖。",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T06:21:47.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "Nature 报道糖尿病大鼠通过电刺激迷走神经恢复正常血糖。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      }
+    },
+    {
+      "id": "iuyqgr9wlw",
+      "key": "url:36kr.com/newsflashes/4080471684600961",
+      "title": "AI芯片拉动出口破万亿，韩国出口冲刺全球第四，高度依赖半导体暗藏风险",
+      "url": "https://36kr.com/newsflashes/4080471684600961",
+      "excerpt": "周日公布的数据显示，韩国上周累计出口额首次突破 1 万亿美元，预计全年出口规模将跻身全球第四。根据世贸组织以及联合国贸易数据库 Comtrade 的数据，2026 年前 7 个月韩国出口额为 5953 亿美元，位列全球第五。韩国产业通商资源部表示，受 AI 热潮带动，半导体出口强劲，7 月之后韩国出口增速加快，已经超过荷兰。该部门预测，韩国全年出口额有望达到 1.17 万亿美元，年末位列全球第四大出口国。不过世贸组织与联合国数据显示，如果剔除半导体出口，韩国排名将降至全球第八。专家指出，对半导体依赖度持续走高，会让韩国更容易受到半导体周期下行等外部冲击…",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T06:15:20.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "AI芯片拉动出口破万亿，韩国出口冲刺全球第四，但高度依赖半导体暗藏风险。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
+    },
+    {
+      "id": "tvrjwtnlzs",
+      "key": "url:qbitai.com/2026/11/511870.html",
+      "title": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
+      "url": "https://www.qbitai.com/2026/11/511870.html",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T06:03:54.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "1qhxov6ml0x"
+    },
+    {
+      "id": "26t5owh6rnm",
+      "key": "url:36kr.com/newsflashes/4080470183253125",
+      "title": "丘成桐回应AI辅助证明黎曼猜想",
+      "url": "https://36kr.com/newsflashes/4080470183253125",
+      "excerpt": "近日，美国人工智能企业Anthropic的数学家，宣称与自家研发的大模型Claude合作，证明了黎曼猜想。对此，丘成桐在接受采访时回应：这是一个很兴奋的时代，也是很危险的时代，我认为还是数学家占主导的，将数学整个平台提升到另一个水平。找到真理有很多不同的方法，我们还是要鼓励的。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T05:30:48.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2ahrlw0q4k5"
+    },
+    {
+      "id": "1ri6la2rk6y",
+      "key": "url:36kr.com/p/4080372197282948",
+      "title": "刚刚，Claude黎曼猜想证明通过验证！菲尔兹奖得主回应“数学研究不存在了？”",
+      "url": "https://36kr.com/p/4080372197282948",
+      "excerpt": "两大权威组织祝贺：黎曼猜想证明正确！",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T05:12:53.058Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2ahrlw0q4k5"
+    },
+    {
+      "id": "lqcv4ebvwf",
+      "key": "url:36kr.com/newsflashes/4080468643320705",
+      "title": "AI新方法或有助优化败血症急诊救治流程",
+      "url": "https://36kr.com/newsflashes/4080468643320705",
+      "excerpt": "英国伦敦国王学院日前发布消息说，该校研究人员开发出一种新方法，可通过分析败血症患者的就诊记录，找出对人工智能（AI）模型预测影响较大的环节，有望帮助医院查找败血症急诊救治延误的可能原因。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T05:07:21.218Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "新方法通过分析就诊记录优化败血症急诊救治流程，有望找出延误原因。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:06:43.460Z"
+      }
+    },
+    {
+      "id": "1xirhzssnu5",
+      "key": "url:36kr.com/newsflashes/4080260946875269",
+      "title": "Claude宣称攻克黎曼猜想数小时后，斯坦福数学家公布纯人类证明",
+      "url": "https://36kr.com/newsflashes/4080260946875269",
+      "excerpt": "北京时间11月22日，据科技媒体The Decoder报道，围绕数学界最著名的未解难题之一——黎曼猜想，一场人工智能与人类数学家的“证明竞赛”正在上演。Anthropic数学家莱文特·阿尔佩格（Levent Alpge）宣布，他与Claude合作找到了广义黎曼猜想的证明。仅数小时后，斯坦福大学研究人员也公开了一份完全由人类独立完成的竞争性证明草稿。 不过，两项成果目前均有待数学界进一步验证。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T03:15:54.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2ahrlw0q4k5"
+    },
+    {
       "id": "eerp9i33hg",
       "key": "url:36kr.com/newsflashes/4080259398587267",
       "title": "国家中医药管理局认证中心：未与任何大模型企业合作 亦未开展测评",
@@ -15,7 +449,13 @@
       "firstSeenAt": "2026-11-22T03:09:35.943Z",
       "day": "2026-11-22",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "国家中医药管理局认证中心声明未与任何大模型企业合作或开展测评。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      }
     },
     {
       "id": "23pj1xl4ozy",
@@ -30,12 +470,18 @@
       "publishedAt": "2026-11-22T02:03:57.000Z",
       "firstSeenAt": "2026-11-22T03:09:35.943Z",
       "day": "2026-11-22",
-      "category": "multimodal",
+      "category": "industry",
       "keywords": [
         "视频生成",
         "AI 短剧"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "达瓦科技专注于重控制、轻渲染的 AI 视频工业路线。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      }
     },
     {
       "id": "betb9me774",
@@ -49,11 +495,17 @@
       "publishedAt": "2026-11-22T02:00:00.000Z",
       "firstSeenAt": "2026-11-22T03:09:35.943Z",
       "day": "2026-11-22",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "探讨智能体身份国际标准化的体系布局与研制实践。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      }
     },
     {
       "id": "5tawxe1f0c",
@@ -69,7 +521,13 @@
       "firstSeenAt": "2026-11-22T03:09:35.943Z",
       "day": "2026-11-22",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "腾讯 AI 资本开支大幅增长，净利润承压。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      }
     },
     {
       "id": "1c7wkmhy35c",
@@ -106,7 +564,13 @@
       "firstSeenAt": "2026-11-22T03:09:35.943Z",
       "day": "2026-11-22",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Anthropic 上市造就 2 万亿市值，25 位华人员工接住泼天富贵。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      }
     },
     {
       "id": "f0fnz4ks5f",
@@ -122,7 +586,14 @@
       "firstSeenAt": "2026-11-22T03:09:35.943Z",
       "day": "2026-11-22",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Signal 限制截图以对抗 AI 监控",
+        "summary": "Signal 为应对 AI 监控威胁，限制移动端截图功能。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:00.036Z"
+      }
     },
     {
       "id": "x3owaxdhfw",
@@ -138,7 +609,45 @@
       "firstSeenAt": "2026-11-22T03:09:35.943Z",
       "day": "2026-11-22",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Nvidia 的双面图景",
+        "summary": "Nvidia 最新财报与高管呼吁 Jensen Huang 回归形成鲜明对比。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:00.036Z"
+      }
+    },
+    {
+      "id": "22iu8ieazl2",
+      "key": "url:pandex.io/",
+      "title": "Pandex – Official European Law for AI Agents, over MCP",
+      "url": "https://www.pandex.io",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-21T20:47:41.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-22",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "MCP"
+      ],
+      "score": 21.2,
+      "metrics": {
+        "points": 108,
+        "comments": 28
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50593481",
+      "ai": {
+        "title": "Pandex：欧盟 AI Agent 法律草案",
+        "summary": "欧盟发布 AI Agent 法律草案，超越 MCP 标准。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:00.036Z"
+      }
     },
     {
       "id": "mjnpgwgt26",
@@ -154,7 +663,14 @@
       "firstSeenAt": "2026-11-22T03:09:35.943Z",
       "day": "2026-11-22",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "联合国未能就‘杀手机器人’达成规则",
+        "summary": "联合国日内瓦会议未能就自主武器监管达成一致。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:00.036Z"
+      }
     },
     {
       "id": "12oqhmvxob2",
@@ -173,7 +689,14 @@
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "能驻留短信的 AI Agent 列表",
+        "summary": "介绍能驻留短信的各类 AI Agent，涵盖通用助手及特定场景。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:00.036Z"
+      }
     },
     {
       "id": "tsdeyl03te",
@@ -188,8 +711,15 @@
       "publishedAt": "2026-11-21T16:23:45.000Z",
       "firstSeenAt": "2026-11-22T03:09:35.943Z",
       "day": "2026-11-22",
-      "category": "industry",
-      "score": 15
+      "category": "paper",
+      "score": 15,
+      "ai": {
+        "title": "Nvidia 研究员称大上下文窗口是死胡同",
+        "summary": "Nvidia 研究员认为大上下文窗口效率低，提出替代方案。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:00.036Z"
+      }
     },
     {
       "id": "1sl691pi8l1",
@@ -205,7 +735,14 @@
       "firstSeenAt": "2026-11-22T03:09:35.943Z",
       "day": "2026-11-22",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "硅谷对 AI 世界末日的痴迷",
+        "summary": "硅谷对 AI 世界末日的痴迷导致部分科技行业走向邪教式狂热。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:00.036Z"
+      }
     },
     {
       "id": "g72pr8jkw5",
@@ -221,7 +758,14 @@
       "firstSeenAt": "2026-11-22T03:09:35.943Z",
       "day": "2026-11-22",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "出售 AI 版面部肖像给微短剧公司",
+        "summary": "演员将面部肖像授权给微短剧公司，专家担忧长期后果。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:00.036Z"
+      }
     }
   ]
 }

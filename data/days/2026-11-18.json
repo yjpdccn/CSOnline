@@ -3958,7 +3958,7 @@
       ],
       "score": 23.7,
       "metrics": {
-        "stars": 18132,
+        "stars": 18273,
         "starsToday": 384
       },
       "ai": {
@@ -4018,7 +4018,7 @@
       "categoryLocked": true,
       "score": 29.5,
       "metrics": {
-        "stars": 68199,
+        "stars": 68401,
         "starsToday": 847
       },
       "ai": {
@@ -4424,10 +4424,18 @@
           "url": "https://the-decoder.com/openai-shares-new-prompting-tips-for-gpt-6-2-astra-and-sol-to-fix-brief-answers-and-unnecessary-questions/",
           "title": "OpenAI shares new prompting tips for GPT-6.2 Astra and Sol to fix brief answers and unnecessary questions",
           "publishedAt": "2026-11-21T13:32:35.000Z"
+        },
+        {
+          "id": "1vuhtmk9f4d",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+          "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
+          "publishedAt": "2026-11-22T09:41:37.000Z"
         }
       ],
       "story": {
-        "reports": 12,
+        "reports": 13,
         "sources": [
           "openai",
           "hackernews",

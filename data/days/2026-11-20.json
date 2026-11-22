@@ -52,6 +52,33 @@
       }
     },
     {
+      "id": "ruasrqwrc5",
+      "key": "gh:cocosgt/riemann-hypothesis-lean",
+      "title": "CocoSgt/riemann-hypothesis-lean",
+      "url": "https://github.com/CocoSgt/riemann-hypothesis-lean",
+      "excerpt": "Mirror of Levent Alpöge's Lean proof of the Riemann Hypothesis (with Claude). All credit to Levent Alpöge. Source: alpo.ge",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-20T14:59:14.000Z",
+      "firstSeenAt": "2026-11-22T13:04:02.988Z",
+      "day": "2026-11-20",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 17,
+      "metrics": {
+        "stars": 494
+      },
+      "ai": {
+        "title": "Levent Alpöge 的黎曼猜想 Lean 证明",
+        "summary": "Levent Alpöge 使用 Lean 工具和 Claude 完成的黎曼猜想证明。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
+      }
+    },
+    {
       "id": "moohzf6ys3",
       "key": "url:techcrunch.com/podcast/the-fallout-from-nvidias-jensen-huang-scandal-continues",
       "title": "The fallout from Nvidia’s Jensen Huang scandal continues",
@@ -198,8 +225,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 502,
-        "comments": 879
+        "points": 514,
+        "comments": 900
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50574383",
       "dupOf": "1lk17n35bwr"
@@ -612,7 +639,13 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "美国AI音乐巨头Suno推出视觉创作工具。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:07:55.247Z"
+      }
     },
     {
       "id": "o2qepnresr",
@@ -1005,8 +1038,8 @@
       "category": "paper",
       "score": 36,
       "metrics": {
-        "points": 668,
-        "comments": 355
+        "points": 671,
+        "comments": 360
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50572503",
       "aiAttempts": 2,
@@ -1106,16 +1139,17 @@
       ],
       "score": 35.9,
       "metrics": {
-        "points": 571,
-        "comments": 336
+        "points": 576,
+        "comments": 342
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50572348",
       "aiAttempts": 1,
       "ai": {
-        "summary": "讨论如何在移动操作系统平台上限制 AI Agent 捕获数据。",
+        "title": "限制移动操作系统平台 AI Agent 捕获数据",
+        "summary": "讨论限制移动操作系统平台 AI Agent 捕获数据的必要性。",
         "category": "agent",
         "model": "glm-4.7-flash",
-        "at": "2026-11-21T03:59:55.608Z"
+        "at": "2026-11-22T13:05:20.135Z"
       }
     },
     {
@@ -1277,7 +1311,13 @@
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-20",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "清华团队联合华为昇腾，打造最强国产Token工厂。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:07:55.247Z"
+      }
     },
     {
       "id": "1n76vz3ibb4",
@@ -1847,10 +1887,10 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-20",
       "category": "paper",
-      "score": 28.9,
+      "score": 29,
       "metrics": {
-        "points": 173,
-        "comments": 342
+        "points": 175,
+        "comments": 343
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50569519",
       "aiAttempts": 2,
@@ -1941,10 +1981,18 @@
           "url": "https://36kr.com/p/4079476599772038",
           "title": "WISE2026「年度人物·产业攻坚者」名册正式发布丨他们，向产业深处走去",
           "publishedAt": "2026-11-21T12:44:52.494Z"
+        },
+        {
+          "id": "gdh7y73umb",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4080920403743624",
+          "title": "WISE2026「年度企业系列名册」正式发布丨成为自己的时代",
+          "publishedAt": "2026-11-22T12:53:31.725Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "36kr-ai"
         ],
@@ -2334,7 +2382,7 @@
         ],
         "firstPublishedAt": "2026-11-17T00:26:57.000Z",
         "metrics": {
-          "likes": 3167
+          "likes": 3959
         }
       },
       "ai": {
@@ -2363,9 +2411,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 21.4,
+      "score": 21.5,
       "metrics": {
-        "upvotes": 53,
+        "upvotes": 54,
         "comments": 3
       },
       "ai": {
@@ -2394,10 +2442,17 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 21.2,
+      "score": 21.3,
       "metrics": {
-        "upvotes": 51,
+        "upvotes": 52,
         "comments": 4
+      },
+      "ai": {
+        "title": "Mind2Act World：机器人操作基准测试",
+        "summary": "Mind2Act World 评估机器人操作中身心与动作的组合能力。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-22T13:05:20.135Z"
       }
     },
     {
@@ -2557,9 +2612,9 @@
       "firstSeenAt": "2026-11-20T03:59:11.537Z",
       "day": "2026-11-20",
       "category": "model",
-      "score": 39.6,
+      "score": 39.7,
       "metrics": {
-        "points": 374,
+        "points": 375,
         "comments": 246
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50568130",
@@ -2870,7 +2925,7 @@
       ],
       "score": 27.3,
       "metrics": {
-        "stars": 69842,
+        "stars": 70066,
         "starsToday": 636
       },
       "ai": {
@@ -2902,7 +2957,7 @@
       ],
       "score": 29.7,
       "metrics": {
-        "stars": 3458,
+        "stars": 3707,
         "starsToday": 874
       },
       "ai": {
@@ -2930,7 +2985,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 12920,
+        "stars": 13175,
         "starsToday": 983
       },
       "ai": {
@@ -3151,7 +3206,7 @@
       "category": "model",
       "score": 41.4,
       "metrics": {
-        "points": 568,
+        "points": 572,
         "comments": 274
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50563148",
@@ -3201,8 +3256,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1139,
-        "comments": 2319
+        "points": 1140,
+        "comments": 2323
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50562754",
       "aiAttempts": 2,
@@ -3449,7 +3504,7 @@
       "score": 24.7,
       "metrics": {
         "points": 148,
-        "comments": 82
+        "comments": 83
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50562500",
       "aiAttempts": 2,

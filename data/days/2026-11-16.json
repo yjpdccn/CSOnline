@@ -120,9 +120,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 19.2,
+      "score": 19.3,
       "metrics": {
-        "stars": 778
+        "stars": 789
       },
       "ai": {
         "title": "boring-marketing-skills：AI Agent 营销技能库",
@@ -716,7 +716,7 @@
       "categoryLocked": true,
       "score": 28,
       "metrics": {
-        "stars": 7485
+        "stars": 7730
       },
       "aiAttempts": 1,
       "ai": {
@@ -725,6 +725,26 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T04:21:23.281Z"
+      },
+      "related": [
+        {
+          "id": "17q7kr6tgri",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/EL4CTEO/fast-anything",
+          "title": "EL4CTEO/fast-anything",
+          "publishedAt": "2026-11-21T14:40:27.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "github-new"
+        ],
+        "firstPublishedAt": "2026-11-16T12:10:36.000Z",
+        "metrics": {
+          "stars": 7730
+        }
       }
     },
     {
@@ -1958,9 +1978,9 @@
       "day": "2026-11-16",
       "category": "model",
       "categoryLocked": true,
-      "score": 32.9,
+      "score": 33,
       "metrics": {
-        "likes": 938
+        "likes": 953
       },
       "skipLlm": true,
       "dupOf": "27temos6bvw"
@@ -2183,7 +2203,7 @@
       "firstSeenAt": "2026-11-16T20:58:41.846Z",
       "day": "2026-11-16",
       "category": "model",
-      "score": 65.6,
+      "score": 65.8,
       "related": [
         {
           "id": "1fc1887ckv3",
@@ -2262,7 +2282,7 @@
         ],
         "firstPublishedAt": "2026-11-16T06:23:27.000Z",
         "metrics": {
-          "likes": 563
+          "likes": 577
         }
       },
       "ai": {
@@ -2712,7 +2732,7 @@
       ],
       "score": 26.1,
       "metrics": {
-        "stars": 11484,
+        "stars": 11722,
         "starsToday": 540
       },
       "ai": {
@@ -2771,7 +2791,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 16200,
+        "stars": 16894,
         "starsToday": 2322
       },
       "ai": {
