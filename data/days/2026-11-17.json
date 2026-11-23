@@ -1060,9 +1060,9 @@
       "day": "2026-11-17",
       "category": "model",
       "categoryLocked": true,
-      "score": 28.6,
+      "score": 29.5,
       "metrics": {
-        "likes": 476
+        "likes": 553
       },
       "skipLlm": true
     },
@@ -2111,9 +2111,9 @@
       "day": "2026-11-17",
       "category": "model",
       "categoryLocked": true,
-      "score": 29.8,
+      "score": 30.3,
       "metrics": {
-        "likes": 578
+        "likes": 623
       },
       "skipLlm": true,
       "dupOf": "26lkjazmagp"
@@ -2939,7 +2939,7 @@
       "categoryLocked": true,
       "score": 34,
       "metrics": {
-        "likes": 3994
+        "likes": 5053
       },
       "skipLlm": true,
       "dupOf": "29chgwcqphe"
@@ -3383,7 +3383,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 72398,
+        "stars": 72848,
         "starsToday": 1062
       },
       "ai": {
@@ -3765,6 +3765,30 @@
       "dupOf": "2etlf2tgwno"
     },
     {
+      "id": "27kq3c2jtoh",
+      "key": "gh:pierridotite/mobile-agent-testers",
+      "title": "pierridotite/mobile-agent-testers",
+      "url": "https://github.com/pierridotite/mobile-agent-testers",
+      "excerpt": "20 AI testers on 20 different phones, in parallel, on GitHub's free runners: Claude Code agents on iOS Simulators and Android emulators that find broken flows, translation, layout and accessibility bugs",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-16T19:11:44.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-17",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 18.5,
+      "metrics": {
+        "stars": 676
+      }
+    },
+    {
       "id": "1gveulbmysw",
       "key": "url:mihoyo-gamer.github.io/",
       "title": "miHoYo Gamer: A Generalist Game Agent",
@@ -3862,9 +3886,9 @@
         "Agent",
         "本地部署"
       ],
-      "score": 24.2,
+      "score": 24.6,
       "metrics": {
-        "stars": 1851
+        "stars": 1970
       },
       "ai": {
         "title": "推理优化技能：提升本地 LLM 服务速度",
@@ -3956,9 +3980,9 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 23,
+      "score": 23.4,
       "metrics": {
-        "likes": 510
+        "likes": 540
       },
       "skipLlm": true
     },

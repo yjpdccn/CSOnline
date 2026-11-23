@@ -2,6 +2,172 @@
   "day": "2026-11-22",
   "items": [
     {
+      "id": "1lp76ep5zp2",
+      "key": "url:the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace",
+      "title": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace",
+      "url": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
+      "excerpt": "A new real-world test puts AI coding agents in a simulated developer job with colleagues, project boards, and incomplete handoffs, where they have to keep developing software on their own and reliably close open tickets in a messy daily workflow. Even Opus 5.5 and Astra fall far…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-22T15:15:48.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-22",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 15,
+      "aiAttempts": 1
+    },
+    {
+      "id": "5f127sjfa8",
+      "key": "url:jiqizhixin.com/articles/2026-11-22-6",
+      "title": "让机器人从实验执行走向科学决策：BioMARS 2.0打造新一代机器人生物学家",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-22-6",
+      "excerpt": "作者丨论文团队编辑丨ScienceAI从文献到实验，研究者需要理解分散的证据、组织操作方案，并依据结果决定下一步：培养效果不理想，应该调整哪些条件？面对生物学问题，哪些干预假设值得验证？让 AI 参与这些判断，是生物实验智能化的重要方向。中国科学技术大学苏州高研院团队推出 BioMARS 2....",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T14:43:00.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-22",
+      "category": "paper",
+      "score": 18
+    },
+    {
+      "id": "1502loq8t2n",
+      "key": "url:jiqizhixin.com/articles/2026-11-22-5",
+      "title": "VLA/WAM已死，基模当立？Mind2Act World通用基准用「知行合一」角度为具身模型诊断进化方向",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-22-5",
+      "excerpt": "VLA/WAM 已死，基模当立？过去一个月，通用大模型以 Agent 的方式接连在机器人操作评测中拿到高分，端到端的 VLA 和 WAM 还要不要继续做，成了具身智能圈绕不开的话题。这场争论里，双方手里的证据都是成功率。成功率能说明谁做成得更多，却说明不了没做成的部分差在哪里：一条路线是走到了...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T14:41:00.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "keywords": [
+        "Agent",
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1uhnk5ete22",
+      "key": "url:jiqizhixin.com/articles/2026-11-22-4",
+      "title": "NeurIPS 2026 | F2G-Pose：一次前向预测物体位姿、尺寸与完整形状",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-22-4",
+      "excerpt": "机器人想要拿起桌上的杯子，首先需要知道什么？识别出「这是一个杯子」，显然还不够。它还需要判断杯子在哪里、朝向如何、实际有多大，才能为后续抓取和操作提供可靠的空间信息。对于人类，这些判断往往不需要刻意思考。但对于机器人，尤其是面对从未见过的物体实例时，问题远没有那么简单：物体可能被部分遮挡，深度...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T14:35:00.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-22",
+      "category": "paper",
+      "score": 18
+    },
+    {
+      "id": "1rfxayomuih",
+      "key": "url:jiqizhixin.com/articles/2026-11-22-3",
+      "title": "编程智能体指挥机器人，该怎么考？1156个任务、三种考法，把失败定位到每一步",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-22-3",
+      "excerpt": "让编程智能体控制机器人，该怎么考？EFE 的答案是：只规定结果，不规定做法；同一道题最多分三种模式考；不只打分，还要找出失败的原因。考编程智能体，难在它没有固定的做法。训练好的机器人策略只做一件事：把画面和传感器读数变成动作。编程智能体却可以直接操控机器人、编写控制程序，或者先训练一个策略再上...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T14:29:00.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-22",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "2blwp4lc05f",
+      "key": "url:jiqizhixin.com/articles/2026-11-22-2",
+      "title": "刚刚，Claude参与证明黎曼猜想，通过独立验证！",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-22-2",
+      "excerpt": "编辑｜Red Panda11 月 21 日，Lean 和 Mathlib 社区发表联合声明，正式确认 Anthropic 数学家 Levent Alpöge 与 Claude 合作完成的黎曼猜想证明，在形式化验证层面通过了全部关键检查。声明写道：我们完全相信 Alpöge 对黎曼猜想的证明是正...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T14:24:00.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2ahrlw0q4k5"
+    },
+    {
+      "id": "182lhi5brhx",
+      "key": "url:jiqizhixin.com/articles/2026-11-22",
+      "title": "NeurIPS 2026 | 大模型抗遗忘新范式：「先微调，后矫正」实现无遗忘等价条件",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-22",
+      "excerpt": "罗马神话中的时间之神 Janus，有两张面孔，能够同时望见过去和未来。可大模型学会了新技能，却往往忘了旧知识。这种现象被称为「灾难性遗忘」（Catastrophic Forgetting），是大模型微调面临的经典难题。长期以来，研究者一直试图在训练过程中为模型设置约束，让它学习新知识的同时，尽...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-22T14:21:00.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-22",
+      "category": "paper",
+      "score": 18
+    },
+    {
+      "id": "z95g9n2o4p",
+      "key": "url:the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog",
+      "title": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog",
+      "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+      "excerpt": "Perplexity is launching a Monitor API that searches the web on a schedule and alerts agents via webhook only when relevant changes occur. Its own decision model filters out unimportant results. For Perplexity, the API is part of a broader strategy to stand out from an increasing…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-22T14:20:28.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-22",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "aiAttempts": 1
+    },
+    {
+      "id": "5otqmamflx",
+      "key": "gh:gulivan/worker755",
+      "title": "Show HN: I built a game where you are an LLM's subagent",
+      "url": "https://github.com/gulivan/worker755",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-22T13:56:58.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-22",
+      "category": "opensource",
+      "score": 28.9,
+      "metrics": {
+        "points": 283,
+        "comments": 67
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50599762",
+      "aiAttempts": 1
+    },
+    {
       "id": "1e5pp7ww5o9",
       "key": "url:the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns",
       "title": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns",
@@ -64,6 +230,27 @@
       "category": "industry",
       "score": 22,
       "dupOf": "1qjfurcfpb9"
+    },
+    {
+      "id": "2bn3c4jwub9",
+      "key": "url:bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+      "title": "AI is becoming a disaster for the climate",
+      "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-22T12:19:46.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 21.9,
+      "metrics": {
+        "points": 109,
+        "comments": 47
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50598961",
+      "aiAttempts": 1
     },
     {
       "id": "zosn80gf7d",
@@ -230,10 +417,10 @@
       "firstSeenAt": "2026-11-22T13:04:02.988Z",
       "day": "2026-11-22",
       "category": "industry",
-      "score": 31.2,
+      "score": 36,
       "metrics": {
-        "points": 243,
-        "comments": 338
+        "points": 911,
+        "comments": 909
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50597612",
       "aiAttempts": 2,
@@ -406,6 +593,27 @@
       "dupOf": "2ahrlw0q4k5"
     },
     {
+      "id": "10g2knt8fjy",
+      "key": "url:dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "title": "AI Supply Chain Security: What Canary Tokens Found",
+      "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-22T05:11:43.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 20.7,
+      "metrics": {
+        "points": 103,
+        "comments": 22
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50596511",
+      "aiAttempts": 1
+    },
+    {
       "id": "lqcv4ebvwf",
       "key": "url:36kr.com/newsflashes/4080468643320705",
       "title": "AI新方法或有助优化败血症急诊救治流程",
@@ -465,6 +673,27 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:20.135Z"
       }
+    },
+    {
+      "id": "1m5wno8bja8",
+      "key": "url:noemamag.com/the-mythology-of-conscious-ai",
+      "title": "The Mythology of Conscious AI",
+      "url": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-22T02:10:02.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 28.9,
+      "metrics": {
+        "points": 171,
+        "comments": 490
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50595537",
+      "aiAttempts": 1
     },
     {
       "id": "23pj1xl4ozy",
@@ -583,6 +812,36 @@
       "dupOf": "11c399ac607"
     },
     {
+      "id": "ece6vvsmc4",
+      "key": "url:openai.com/index/perplexity-and-intelligence",
+      "title": "Perplexity and Intelligence",
+      "url": "https://openai.com/index/perplexity-and-intelligence",
+      "excerpt": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+      "lang": "en",
+      "sourceId": "openai",
+      "sourceName": "OpenAI",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-22T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-22",
+      "category": "industry",
+      "score": 64,
+      "metrics": {
+        "points": 515,
+        "comments": 355
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50601525",
+      "alsoOn": [
+        {
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50601525"
+        }
+      ],
+      "aiAttempts": 1
+    },
+    {
       "id": "f0fnz4ks5f",
       "key": "url:techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance",
       "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
@@ -647,10 +906,10 @@
         "Agent",
         "MCP"
       ],
-      "score": 21.3,
+      "score": 23,
       "metrics": {
-        "points": 109,
-        "comments": 29
+        "points": 139,
+        "comments": 33
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50593481",
       "ai": {

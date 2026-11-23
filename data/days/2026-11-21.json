@@ -44,9 +44,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 19.5,
+      "score": 24.9,
       "metrics": {
-        "stars": 819
+        "stars": 2059
       },
       "dupOf": "20mvx8qqa9a"
     },
@@ -278,7 +278,7 @@
       "firstSeenAt": "2026-11-21T13:04:47.547Z",
       "day": "2026-11-21",
       "category": "paper",
-      "score": 34,
+      "score": 42,
       "related": [
         {
           "id": "1cyts9ya4pw",
@@ -295,14 +295,23 @@
           "url": "https://www.qbitai.com/2026/11/511870.html",
           "title": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
           "publishedAt": "2026-11-22T06:03:54.000Z"
+        },
+        {
+          "id": "1bt3j6iy1sg",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4080373521322884",
+          "title": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
+          "publishedAt": "2026-11-22T23:55:24.450Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "jiqizhixin",
           "verge-ai",
-          "qbitai"
+          "qbitai",
+          "36kr-ai"
         ],
         "firstPublishedAt": "2026-11-20T16:34:13.000Z"
       },
@@ -541,6 +550,31 @@
       "dupOf": "20c4yjveot6"
     },
     {
+      "id": "p4oy5iq7tj",
+      "key": "gh:w01fb0ss/pibot",
+      "title": "w01fb0ss/PiBot",
+      "url": "https://github.com/w01fb0ss/PiBot",
+      "excerpt": "Open-source, local-first AI agent team for your desktop: multi-agent group chats, computer use, browser, MCP, routines and approvals. macOS, Windows, Linux + Android. Built on pi.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-21T06:54:24.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-21",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "MCP"
+      ],
+      "score": 16.3,
+      "metrics": {
+        "stars": 416
+      },
+      "aiAttempts": 1
+    },
+    {
       "id": "whzm6wcd0p",
       "key": "url:36kr.com/newsflashes/4079148232168323",
       "title": "沐曦股份曦云C系列GPU率先完成腾讯混元Hy4 Day 0适配",
@@ -660,9 +694,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 24.7,
+      "score": 25,
       "metrics": {
-        "points": 166,
+        "points": 174,
         "comments": 52
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50586292",
@@ -895,6 +929,31 @@
       }
     },
     {
+      "id": "1mot5sjkq0s",
+      "key": "gh:sybil-solutions/skill-distill",
+      "title": "sybil-solutions/skill-distill",
+      "url": "https://github.com/sybil-solutions/skill-distill",
+      "excerpt": "Distill a good Claude Code / Codex session into a skill an open-weight model can follow to reproduce the task",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-21T01:43:00.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-21",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程",
+        "开源模型"
+      ],
+      "score": 16.7,
+      "metrics": {
+        "stars": 462
+      },
+      "aiAttempts": 1
+    },
+    {
       "id": "2ahrlw0q4k5",
       "key": "url:36kr.com/p/4078708897092744",
       "title": "黎曼猜想真被Claude证明了？陶哲轩邓煜等菲尔兹奖得主回应！",
@@ -971,10 +1030,26 @@
           "url": "https://36kr.com/newsflashes/4080470183253125",
           "title": "丘成桐回应AI辅助证明黎曼猜想",
           "publishedAt": "2026-11-22T05:30:48.000Z"
+        },
+        {
+          "id": "2blwp4lc05f",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-22-2",
+          "title": "刚刚，Claude参与证明黎曼猜想，通过独立验证！",
+          "publishedAt": "2026-11-22T14:24:00.000Z"
+        },
+        {
+          "id": "237f5sh76ne",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4081725484881033",
+          "title": "验证AI，Claude与Lean的“科研大戏”",
+          "publishedAt": "2026-11-23T02:55:38.408Z"
         }
       ],
       "story": {
-        "reports": 8,
+        "reports": 10,
         "sources": [
           "36kr-ai",
           "qbitai",
@@ -1069,7 +1144,7 @@
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-21",
       "category": "agent",
-      "score": 75.3,
+      "score": 75.4,
       "ai": {
         "title": "Google Duplex 在 Gemini 中也能为企业拨打电话",
         "summary": "Google Duplex 进化，现在也能为企业拨打电话。",
@@ -1139,7 +1214,7 @@
         ],
         "firstPublishedAt": "2026-11-20T13:19:31.000Z",
         "metrics": {
-          "points": 282,
+          "points": 283,
           "comments": 229
         }
       }
@@ -1185,9 +1260,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 22.2,
+      "score": 22.4,
       "metrics": {
-        "points": 120,
+        "points": 125,
         "comments": 36
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50581403",
@@ -1214,7 +1289,7 @@
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 35.2,
+      "score": 35.4,
       "aiAttempts": 1,
       "ai": {
         "title": "Daniel Ek 资助 AI 研究者创办聚变能源公司",
@@ -1241,7 +1316,7 @@
         ],
         "firstPublishedAt": "2026-11-20T19:53:41.000Z",
         "metrics": {
-          "points": 120,
+          "points": 125,
           "comments": 36
         }
       }
@@ -1405,8 +1480,8 @@
         ],
         "firstPublishedAt": "2026-11-20T18:15:16.000Z",
         "metrics": {
-          "points": 175,
-          "comments": 76
+          "points": 176,
+          "comments": 77
         }
       }
     },
@@ -1424,7 +1499,7 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 52.7,
+      "score": 53,
       "aiAttempts": 1,
       "ai": {
         "title": "开源 AI 科学峰会：加速科学发现",
@@ -1451,7 +1526,7 @@
         ],
         "firstPublishedAt": "2026-11-20T18:30:45.000Z",
         "metrics": {
-          "points": 166,
+          "points": 174,
           "comments": 52
         }
       }
@@ -1474,8 +1549,8 @@
       ],
       "score": 25.7,
       "metrics": {
-        "points": 175,
-        "comments": 76
+        "points": 176,
+        "comments": 77
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50579297",
       "aiAttempts": 1,
@@ -1547,7 +1622,7 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 79.2,
+      "score": 84,
       "ai": {
         "title": "Anthropic 完成 IPO，超额认购",
         "summary": "Anthropic 完成首次公开募股，包括全额行使超额配售权。",
@@ -1611,10 +1686,18 @@
           "url": "https://news.ycombinator.com/item?id=50597612",
           "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
           "publishedAt": "2026-11-22T08:57:34.000Z"
+        },
+        {
+          "id": "h5ckdkz3k9",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4080938958214279",
+          "title": "史上最大IPO，14位中国年轻人暴富",
+          "publishedAt": "2026-11-22T23:33:54.866Z"
         }
       ],
       "story": {
-        "reports": 8,
+        "reports": 9,
         "sources": [
           "anthropic",
           "36kr-ai",
@@ -1624,8 +1707,8 @@
         ],
         "firstPublishedAt": "2026-11-18T09:53:00.945Z",
         "metrics": {
-          "points": 243,
-          "comments": 338
+          "points": 911,
+          "comments": 909
         }
       }
     },
@@ -1729,9 +1812,9 @@
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 31.3,
+      "score": 31.4,
       "metrics": {
-        "points": 282,
+        "points": 283,
         "comments": 229
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50577901",
@@ -1761,7 +1844,7 @@
       "score": 22.9,
       "metrics": {
         "points": 124,
-        "comments": 52
+        "comments": 53
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50577872",
       "ai": {
@@ -1811,8 +1894,8 @@
       "category": "paper",
       "score": 33.9,
       "metrics": {
-        "points": 488,
-        "comments": 143
+        "points": 491,
+        "comments": 145
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50577265",
       "aiAttempts": 2,

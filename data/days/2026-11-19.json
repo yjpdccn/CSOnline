@@ -132,7 +132,7 @@
       ],
       "score": 26.7,
       "metrics": {
-        "stars": 2740
+        "stars": 2753
       },
       "aiAttempts": 2,
       "ai": {
@@ -447,8 +447,8 @@
         ],
         "firstPublishedAt": "2026-11-19T12:38:12.302Z",
         "metrics": {
-          "points": 514,
-          "comments": 900
+          "points": 527,
+          "comments": 921
         }
       }
     },
@@ -929,9 +929,9 @@
       "keywords": [
         "本地部署"
       ],
-      "score": 24.6,
+      "score": 25,
       "metrics": {
-        "stars": 1965
+        "stars": 2115
       },
       "aiAttempts": 1,
       "ai": {
@@ -1740,6 +1740,30 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-20T04:00:37.460Z"
       }
+    },
+    {
+      "id": "rwud74g6rt",
+      "key": "gh:ink-q/agy-fast",
+      "title": "INK-Q/agy-fast",
+      "url": "https://github.com/INK-Q/agy-fast",
+      "excerpt": "Non-invasive MCP accelerator plugin for Google Antigravity (CLI/Desktop/IDE): cuts LLM turns (-34%), token quota (-31%), and upload traffic (-40%) without affecting native UI or diffs.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-19T04:58:46.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-19",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "MCP"
+      ],
+      "score": 17.8,
+      "metrics": {
+        "stars": 582
+      },
+      "dupOf": "1qg2nra39k"
     },
     {
       "id": "26sbvn1zily",
@@ -3542,7 +3566,7 @@
       "categoryLocked": true,
       "score": 20.7,
       "metrics": {
-        "stars": 12024,
+        "stars": 12116,
         "starsToday": 246
       },
       "ai": {

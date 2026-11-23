@@ -3128,7 +3128,7 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 36,
+      "score": 51.8,
       "metrics": {
         "points": 709,
         "comments": 564
@@ -3140,6 +3140,29 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T04:21:23.281Z"
+      },
+      "related": [
+        {
+          "id": "rwud74g6rt",
+          "sourceId": "github-new",
+          "sourceName": "GitHub 新星项目",
+          "url": "https://github.com/INK-Q/agy-fast",
+          "title": "INK-Q/agy-fast",
+          "publishedAt": "2026-11-19T04:58:46.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "hackernews",
+          "github-new"
+        ],
+        "firstPublishedAt": "2026-11-18T00:17:58.000Z",
+        "metrics": {
+          "points": 709,
+          "comments": 564,
+          "stars": 582
+        }
       }
     },
     {
@@ -3958,7 +3981,7 @@
       ],
       "score": 23.7,
       "metrics": {
-        "stars": 18280,
+        "stars": 18504,
         "starsToday": 384
       },
       "ai": {
@@ -4018,7 +4041,7 @@
       "categoryLocked": true,
       "score": 29.5,
       "metrics": {
-        "stars": 68404,
+        "stars": 68833,
         "starsToday": 847
       },
       "ai": {
@@ -4432,10 +4455,18 @@
           "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
           "title": "GPT-6.2 Astra and Sol get to the point faster but score lower on transparency than Claude",
           "publishedAt": "2026-11-22T09:41:37.000Z"
+        },
+        {
+          "id": "21rms0ihwb5",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4081732410610819",
+          "title": "GPT-6.2刚登顶游戏榜，Claude反手空降抢走第一",
+          "publishedAt": "2026-11-23T02:55:05.823Z"
         }
       ],
       "story": {
-        "reports": 13,
+        "reports": 14,
         "sources": [
           "openai",
           "hackernews",

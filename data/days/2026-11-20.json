@@ -66,9 +66,9 @@
       "day": "2026-11-20",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 17,
+      "score": 17.2,
       "metrics": {
-        "stars": 496
+        "stars": 518
       },
       "ai": {
         "title": "Levent Alpöge 的黎曼猜想 Lean 证明",
@@ -76,7 +76,8 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:20.135Z"
-      }
+      },
+      "dupOf": "ozv5ym7or7"
     },
     {
       "id": "moohzf6ys3",
@@ -135,6 +136,31 @@
         ],
         "firstPublishedAt": "2026-11-20T14:53:50.000Z"
       }
+    },
+    {
+      "id": "9z20sjsu2e",
+      "key": "gh:danielwh2/sprite-stacking",
+      "title": "danielwh2/sprite-stacking",
+      "url": "https://github.com/danielwh2/sprite-stacking",
+      "excerpt": "Agent skill: turn four pixel art views into fake-3D sprites you can spin. Works with Claude Code, Codex, Cursor, OpenCode, Gemini CLI, Pi.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-20T14:32:43.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-20",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "AI 编程"
+      ],
+      "score": 17,
+      "metrics": {
+        "stars": 492
+      },
+      "aiAttempts": 1
     },
     {
       "id": "cftzvra4t",
@@ -243,8 +269,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 514,
-        "comments": 900
+        "points": 527,
+        "comments": 921
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50574383",
       "dupOf": "1lk17n35bwr"
@@ -1057,8 +1083,8 @@
       "category": "paper",
       "score": 36,
       "metrics": {
-        "points": 671,
-        "comments": 360
+        "points": 678,
+        "comments": 362
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50572503",
       "aiAttempts": 2,
@@ -1156,10 +1182,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 35.9,
+      "score": 36,
       "metrics": {
-        "points": 576,
-        "comments": 342
+        "points": 578,
+        "comments": 346
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50572348",
       "aiAttempts": 1,
@@ -2271,6 +2297,29 @@
       }
     },
     {
+      "id": "2c5hlirmbn3",
+      "key": "gh:threatdefence/agentic-attack-detections",
+      "title": "ThreatDefence/agentic-attack-detections",
+      "url": "https://github.com/ThreatDefence/agentic-attack-detections",
+      "excerpt": "Detection rules and IOCs for AI agent attack frameworks: ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent, Agent Zero. KQL hunts for Microsoft Sentinel and Defender XDR, Sigma, Suricata, Zeek, YARA, Splunk, Elastic, STIX 2.1.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-20T00:06:24.000Z",
+      "firstSeenAt": "2026-11-23T03:43:04.188Z",
+      "day": "2026-11-20",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 16.4,
+      "metrics": {
+        "stars": 425
+      }
+    },
+    {
       "id": "1e75i900eqp",
       "key": "url:huggingface.co/blog/harness-adapters-at-scale",
       "title": "Introducing harness adapters: adapt your favorite model to your harness to improve performance and cost",
@@ -2401,7 +2450,7 @@
         ],
         "firstPublishedAt": "2026-11-17T00:26:57.000Z",
         "metrics": {
-          "likes": 3994
+          "likes": 5053
         }
       },
       "ai": {
@@ -2430,9 +2479,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 21.5,
+      "score": 21.9,
       "metrics": {
-        "upvotes": 54,
+        "upvotes": 58,
         "comments": 3
       },
       "ai": {
@@ -2461,9 +2510,9 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 21.3,
+      "score": 21.5,
       "metrics": {
-        "upvotes": 52,
+        "upvotes": 54,
         "comments": 4
       },
       "ai": {
@@ -2944,7 +2993,7 @@
       ],
       "score": 27.3,
       "metrics": {
-        "stars": 70071,
+        "stars": 70400,
         "starsToday": 636
       },
       "ai": {
@@ -2976,7 +3025,7 @@
       ],
       "score": 29.7,
       "metrics": {
-        "stars": 3714,
+        "stars": 4101,
         "starsToday": 874
       },
       "ai": {
@@ -3004,7 +3053,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 13183,
+        "stars": 13611,
         "starsToday": 983
       },
       "ai": {
