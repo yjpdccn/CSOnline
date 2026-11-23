@@ -1008,5 +1008,46 @@
         ]
       }
     ]
+  },
+  "2026-11-24": {
+    "day": "2026-11-24",
+    "generatedAt": "2026-11-23T22:37:56.587Z",
+    "itemCount": 120,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "GLM-5.4上线，黄仁勋重返英伟达CEO职位，Claude AI获自主代码审查修复能力。",
+    "points": [
+      {
+        "text": "GLM-5.4上线，全新Loop Transformer架构亮相。",
+        "refs": [
+          "234rtzqbc1g"
+        ]
+      },
+      {
+        "text": "黄仁勋重任英伟达CEO，恢复全部职位。",
+        "refs": [
+          "39sj51dajg",
+          "26x1e8a0pk"
+        ]
+      },
+      {
+        "text": "Claude AI 现可自主审查并修复代码。",
+        "refs": [
+          "1jplxl2f65m"
+        ]
+      },
+      {
+        "text": "OpenAI 更新 ChatGPT，默认使用 GPT-6.2 Sol。",
+        "refs": [
+          "gmu60rftcy"
+        ]
+      },
+      {
+        "text": "Google Search 推出更个性化的 AI 模式。",
+        "refs": [
+          "jazjbna9r7"
+        ]
+      }
+    ]
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T03:43:04.188Z",
+  "updatedAt": "2026-11-23T22:36:01.609Z",
   "events": [
     {
       "id": "wscn-15835",
@@ -162,6 +162,18 @@
       "source": "华尔街见闻",
       "previous": "4.1",
       "forecast": "4.1",
+      "unit": "%"
+    },
+    {
+      "id": "wscn-1599929",
+      "at": "2026-12-08T04:02:00.000Z",
+      "country": "中国",
+      "title": "11月进口同比(按美元计) · 11月出口同比(按美元计)",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "dateOnly": true,
+      "previous": "41.6",
       "unit": "%"
     }
   ],

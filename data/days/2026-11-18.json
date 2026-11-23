@@ -108,6 +108,26 @@
       }
     },
     {
+      "id": "1qz1ar4v1z5",
+      "key": "gh:hoangsvit/google-ai",
+      "title": "hoangsvit/google-ai",
+      "url": "https://github.com/hoangsvit/google-ai",
+      "excerpt": "A terminal toolkit for Windows and macOS to inspect Google AI Pro offers through Android, ADB, Frida and Google Play. The shared Textual dashboard uses a PowerShell/Python launcher on Windows and a native Python adapter on macOS.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-18T15:17:53.000Z",
+      "firstSeenAt": "2026-11-23T22:36:01.609Z",
+      "day": "2026-11-18",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.4,
+      "metrics": {
+        "stars": 428
+      }
+    },
+    {
       "id": "8e1circchh",
       "key": "url:huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
       "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
@@ -3128,7 +3148,7 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 51.8,
+      "score": 53.2,
       "metrics": {
         "points": 709,
         "comments": 564
@@ -3161,7 +3181,7 @@
         "metrics": {
           "points": 709,
           "comments": 564,
-          "stars": 582
+          "stars": 773
         }
       }
     },
@@ -3979,10 +3999,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 23.7,
+      "score": 23.8,
       "metrics": {
-        "stars": 18504,
-        "starsToday": 384
+        "stars": 18780,
+        "starsToday": 395
       },
       "ai": {
         "title": "Cursor 插件规范与官方插件发布",
@@ -4041,7 +4061,7 @@
       "categoryLocked": true,
       "score": 29.5,
       "metrics": {
-        "stars": 68833,
+        "stars": 69410,
         "starsToday": 847
       },
       "ai": {
@@ -4463,10 +4483,26 @@
           "url": "https://36kr.com/p/4081732410610819",
           "title": "GPT-6.2刚登顶游戏榜，Claude反手空降抢走第一",
           "publishedAt": "2026-11-23T02:55:05.823Z"
+        },
+        {
+          "id": "1ozy48pq338",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/ai/MR1Osv9r2Rtr4V7F.html",
+          "title": "深拆 GPT-6.2 Astra：性能涨了、价格降了，任务成本减少近一半，OpenAI 怎么做到的？",
+          "publishedAt": "2026-11-23T05:50:00.000Z"
+        },
+        {
+          "id": "1a80uybxrep",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
+          "title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
+          "publishedAt": "2026-11-23T12:17:01.000Z"
         }
       ],
       "story": {
-        "reports": 14,
+        "reports": 16,
         "sources": [
           "openai",
           "hackernews",
@@ -4474,7 +4510,8 @@
           "the-decoder",
           "simonw",
           "qbitai",
-          "jiqizhixin"
+          "jiqizhixin",
+          "leiphone"
         ],
         "firstPublishedAt": "2026-11-17T03:30:48.365Z",
         "metrics": {

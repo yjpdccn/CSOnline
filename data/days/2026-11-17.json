@@ -1060,9 +1060,9 @@
       "day": "2026-11-17",
       "category": "model",
       "categoryLocked": true,
-      "score": 29.5,
+      "score": 30.4,
       "metrics": {
-        "likes": 553
+        "likes": 641
       },
       "skipLlm": true
     },
@@ -1217,6 +1217,29 @@
       }
     },
     {
+      "id": "wcwxyo5x8b",
+      "key": "gh:nkjdslcvanv/antigravity-codex-theme",
+      "title": "nkjDSLcvanv/antigravity-codex-theme",
+      "url": "https://github.com/nkjDSLcvanv/antigravity-codex-theme",
+      "excerpt": "Google Antigravity 桌面端增强插件：Codex 昼夜双主题、原生设置页与一键热更新、1,900+ 中文汉化、四态状态灯与实时用量监控（含旁路提问 / SSH 远端）、可选 Tab 下一句预测。不改安装包，模块化按需安装。",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-17T08:38:53.000Z",
+      "firstSeenAt": "2026-11-23T22:36:01.609Z",
+      "day": "2026-11-17",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 16.8,
+      "metrics": {
+        "stars": 474
+      }
+    },
+    {
       "id": "4bprgvq47x",
       "key": "url:leiphone.com/category/aijuejinzhi/KPwGklj93OeTbkrg.html",
       "title": "智源悟界·PhysCapBench：首个跨领域的世界模型“物理数据量尺”",
@@ -1350,6 +1373,26 @@
       "category": "industry",
       "score": 18,
       "dupOf": "vn3wc0ifwb"
+    },
+    {
+      "id": "2ddxdaqfcr6",
+      "key": "gh:hovocope135-tech/dsh-projects",
+      "title": "hovocope135-tech/DSH-projects",
+      "url": "https://github.com/hovocope135-tech/DSH-projects",
+      "excerpt": "探索人与 AI 的最佳协作方式 · Exploring the best way for people and AI to work together. DSH-projects is an open-source plugin for DeepSeek Harness: state a goal in one sentence, it asks what is unclear, runs the tasks in parallel, and brings finished work back to you.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-17T07:42:18.000Z",
+      "firstSeenAt": "2026-11-23T22:36:01.609Z",
+      "day": "2026-11-17",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 16.2,
+      "metrics": {
+        "stars": 410
+      }
     },
     {
       "id": "h6zam27axx",
@@ -2111,9 +2154,9 @@
       "day": "2026-11-17",
       "category": "model",
       "categoryLocked": true,
-      "score": 30.3,
+      "score": 30.5,
       "metrics": {
-        "likes": 623
+        "likes": 649
       },
       "skipLlm": true,
       "dupOf": "26lkjazmagp"
@@ -2425,6 +2468,29 @@
       "category": "industry",
       "score": 18,
       "dupOf": "14lmagbuxfg"
+    },
+    {
+      "id": "38ul0c2mmj",
+      "key": "gh:jimliu/open-artifact",
+      "title": "JimLiu/open-artifact",
+      "url": "https://github.com/JimLiu/open-artifact",
+      "excerpt": "Open, agent- and model-agnostic artifacts, all saved locally as plain files — edit, comment on, and export slides, UI designs, design systems, whiteboards, sheets, dashboards, docs, and motion.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-17T02:25:25.000Z",
+      "firstSeenAt": "2026-11-23T22:36:01.609Z",
+      "day": "2026-11-17",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 16.5,
+      "metrics": {
+        "stars": 434
+      }
     },
     {
       "id": "min56f22p6",
@@ -2939,7 +3005,7 @@
       "categoryLocked": true,
       "score": 34,
       "metrics": {
-        "likes": 5053
+        "likes": 5469
       },
       "skipLlm": true,
       "dupOf": "29chgwcqphe"
@@ -3383,7 +3449,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 72848,
+        "stars": 73400,
         "starsToday": 1062
       },
       "ai": {

@@ -106,29 +106,7 @@
       "firstSeenAt": "2026-11-12T18:52:29.627Z",
       "day": "2026-11-12",
       "category": "industry",
-      "score": 38,
-      "related": [
-        {
-          "id": "j26cfhmny",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50437106",
-          "title": "Fireworks AI security breach impacts Notion and their customers",
-          "publishedAt": "2026-11-10T07:19:38.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "techcrunch-ai",
-          "hackernews"
-        ],
-        "firstPublishedAt": "2026-11-10T07:19:38.000Z",
-        "metrics": {
-          "points": 164,
-          "comments": 65
-        }
-      },
+      "score": 15,
       "aiAttempts": 1,
       "ai": {
         "title": "Fireworks AI 遭黑客攻击，Notion 客户聊天记录泄露",

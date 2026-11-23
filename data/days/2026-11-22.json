@@ -20,7 +20,14 @@
         "AI 编程"
       ],
       "score": 15,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "AI 编程 Agent 在模拟职场中任务完成率不足一成",
+        "summary": "AI 编程 Agent 在模拟职场测试中表现不佳，难以处理复杂工作流。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-23T22:37:16.829Z"
+      }
     },
     {
       "id": "5f127sjfa8",
@@ -144,7 +151,14 @@
         "Agent"
       ],
       "score": 15,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "Perplexity 推出 Monitor API，实现持续网页监控",
+        "summary": "Perplexity 发布 Monitor API，将网页搜索变为持续监控工具。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-23T22:37:16.829Z"
+      }
     },
     {
       "id": "5otqmamflx",
@@ -158,14 +172,20 @@
       "publishedAt": "2026-11-22T13:56:58.000Z",
       "firstSeenAt": "2026-11-23T03:43:04.188Z",
       "day": "2026-11-22",
-      "category": "opensource",
-      "score": 28.9,
+      "category": "agent",
+      "score": 31,
       "metrics": {
-        "points": 283,
-        "comments": 67
+        "points": 356,
+        "comments": 87
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50599762",
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "开发者展示一个扮演 LLM 子代理的游戏。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-23T22:37:09.358Z"
+      }
     },
     {
       "id": "1e5pp7ww5o9",
@@ -244,13 +264,19 @@
       "firstSeenAt": "2026-11-23T03:43:04.188Z",
       "day": "2026-11-22",
       "category": "industry",
-      "score": 21.9,
+      "score": 23.7,
       "metrics": {
-        "points": 109,
-        "comments": 47
+        "points": 134,
+        "comments": 64
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50598961",
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "AI 训练和运行消耗大量能源，对环境造成负面影响。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-23T22:37:16.829Z"
+      }
     },
     {
       "id": "zosn80gf7d",
@@ -419,8 +445,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 911,
-        "comments": 909
+        "points": 1023,
+        "comments": 999
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50597612",
       "aiAttempts": 2,
@@ -605,13 +631,19 @@
       "firstSeenAt": "2026-11-23T03:43:04.188Z",
       "day": "2026-11-22",
       "category": "industry",
-      "score": 20.7,
+      "score": 20.8,
       "metrics": {
-        "points": 103,
+        "points": 104,
         "comments": 22
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50596511",
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "AI 供应链安全受威胁，Canary Tokens 发现了潜在风险。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-23T22:37:16.829Z"
+      }
     },
     {
       "id": "lqcv4ebvwf",
@@ -686,14 +718,20 @@
       "publishedAt": "2026-11-22T02:10:02.000Z",
       "firstSeenAt": "2026-11-23T03:43:04.188Z",
       "day": "2026-11-22",
-      "category": "industry",
-      "score": 28.9,
+      "category": "paper",
+      "score": 29.2,
       "metrics": {
-        "points": 171,
-        "comments": 490
+        "points": 180,
+        "comments": 543
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50595537",
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "探讨关于意识 AI 的神话。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-23T22:37:09.358Z"
+      }
     },
     {
       "id": "23pj1xl4ozy",
@@ -825,11 +863,11 @@
       "dateOnly": true,
       "firstSeenAt": "2026-11-23T03:43:04.188Z",
       "day": "2026-11-22",
-      "category": "industry",
+      "category": "paper",
       "score": 64,
       "metrics": {
-        "points": 515,
-        "comments": 355
+        "points": 693,
+        "comments": 440
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50601525",
       "alsoOn": [
@@ -839,7 +877,13 @@
           "url": "https://news.ycombinator.com/item?id=50601525"
         }
       ],
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "OpenAI 探讨如何利用 perplexity 评估 AI 模型进展。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-23T22:37:09.358Z"
+      }
     },
     {
       "id": "f0fnz4ks5f",
@@ -906,10 +950,10 @@
         "Agent",
         "MCP"
       ],
-      "score": 23,
+      "score": 23.1,
       "metrics": {
-        "points": 139,
-        "comments": 33
+        "points": 140,
+        "comments": 36
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50593481",
       "ai": {

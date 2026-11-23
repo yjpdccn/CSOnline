@@ -44,9 +44,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 24.9,
+      "score": 27.5,
       "metrics": {
-        "stars": 2059
+        "stars": 3076
       },
       "dupOf": "20mvx8qqa9a"
     },
@@ -568,11 +568,18 @@
         "Agent",
         "MCP"
       ],
-      "score": 16.3,
+      "score": 17,
       "metrics": {
-        "stars": 416
+        "stars": 497
       },
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "PiBot：本地优先的桌面 AI Agent 团队协作工具",
+        "summary": "PiBot 是开源的桌面 AI Agent 团队协作工具，支持多模态交互。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-23T22:37:16.829Z"
+      }
     },
     {
       "id": "whzm6wcd0p",
@@ -694,9 +701,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 25,
+      "score": 25.1,
       "metrics": {
-        "points": 174,
+        "points": 175,
         "comments": 52
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50586292",
@@ -947,11 +954,18 @@
         "AI 编程",
         "开源模型"
       ],
-      "score": 16.7,
+      "score": 17.2,
       "metrics": {
-        "stars": 462
+        "stars": 513
       },
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "skill-distill：将 Claude 会话蒸馏为可复用技能",
+        "summary": "开源项目 skill-distill 将 Claude 会话转化为通用技能。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-23T22:37:16.829Z"
+      }
     },
     {
       "id": "2ahrlw0q4k5",
@@ -1046,10 +1060,18 @@
           "url": "https://36kr.com/p/4081725484881033",
           "title": "验证AI，Claude与Lean的“科研大戏”",
           "publishedAt": "2026-11-23T02:55:38.408Z"
+        },
+        {
+          "id": "1e4shwcfoej",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4082133433390211",
+          "title": "写在黎曼猜想被证明之后",
+          "publishedAt": "2026-11-23T10:46:32.151Z"
         }
       ],
       "story": {
-        "reports": 10,
+        "reports": 11,
         "sources": [
           "36kr-ai",
           "qbitai",
@@ -1095,7 +1117,7 @@
       "firstSeenAt": "2026-11-21T03:58:30.074Z",
       "day": "2026-11-21",
       "category": "model",
-      "score": 40,
+      "score": 48,
       "ai": {
         "summary": "下一代混元模型露出冰山一角。",
         "category": "model",
@@ -1118,14 +1140,31 @@
           "url": "http://www.geekpark.net/news/374301",
           "title": "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切",
           "publishedAt": "2026-11-22T01:56:28.000Z"
+        },
+        {
+          "id": "1bugr1bp9o8",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/511921.html",
+          "title": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
+          "publishedAt": "2026-11-23T02:09:59.000Z"
+        },
+        {
+          "id": "2c34rb6rr6u",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/b4QKbFZaXvbK9hzcBhZV?utm_source=rss&utm_medium=article",
+          "title": "姚顺雨团队回应一切：下一代混元将大幅扩参，RSI 仍处早期，最难解决的是“想太多”",
+          "publishedAt": "2026-11-23T06:10:06.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 5,
         "sources": [
           "36kr-ai",
           "qbitai",
-          "geekpark"
+          "geekpark",
+          "infoq-cn"
         ],
         "firstPublishedAt": "2026-11-21T01:04:22.454Z"
       }
@@ -1394,10 +1433,18 @@
           "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
           "title": "Riemann 猜想证明获官方确认",
           "publishedAt": "2026-11-22T11:08:31.000Z"
+        },
+        {
+          "id": "25ekgx54zws",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4082281855193992",
+          "title": "斯坦福博士零AI苦研黎曼猜想12年，公开8小时反遭AI挑错",
+          "publishedAt": "2026-11-23T12:43:42.066Z"
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 5,
         "sources": [
           "techcrunch-ai",
           "36kr-ai",
@@ -1499,7 +1546,7 @@
       "firstSeenAt": "2026-11-20T19:05:07.339Z",
       "day": "2026-11-21",
       "category": "industry",
-      "score": 53,
+      "score": 53.1,
       "aiAttempts": 1,
       "ai": {
         "title": "开源 AI 科学峰会：加速科学发现",
@@ -1526,7 +1573,7 @@
         ],
         "firstPublishedAt": "2026-11-20T18:30:45.000Z",
         "metrics": {
-          "points": 174,
+          "points": 175,
           "comments": 52
         }
       }
@@ -1707,8 +1754,8 @@
         ],
         "firstPublishedAt": "2026-11-18T09:53:00.945Z",
         "metrics": {
-          "points": 911,
-          "comments": 909
+          "points": 1023,
+          "comments": 999
         }
       }
     },
