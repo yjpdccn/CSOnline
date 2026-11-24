@@ -27,7 +27,8 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-23T22:37:16.829Z"
-      }
+      },
+      "dupOf": "1yj509geq5j"
     },
     {
       "id": "5f127sjfa8",
@@ -43,7 +44,13 @@
       "firstSeenAt": "2026-11-23T03:43:04.188Z",
       "day": "2026-11-22",
       "category": "paper",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "BioMARS 2.0 打造新一代机器人生物学家。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "1502loq8t2n",
@@ -58,12 +65,18 @@
       "publishedAt": "2026-11-22T14:41:00.000Z",
       "firstSeenAt": "2026-11-23T03:43:04.188Z",
       "day": "2026-11-22",
-      "category": "industry",
+      "category": "paper",
       "keywords": [
         "Agent",
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Mind2Act 基准测试具身模型，探讨 VLA 与基模之争。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "1uhnk5ete22",
@@ -79,7 +92,13 @@
       "firstSeenAt": "2026-11-23T03:43:04.188Z",
       "day": "2026-11-22",
       "category": "paper",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "F2G-Pose 模型可一次前向预测物体位姿与形状。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "1rfxayomuih",
@@ -94,11 +113,17 @@
       "publishedAt": "2026-11-22T14:29:00.000Z",
       "firstSeenAt": "2026-11-23T03:43:04.188Z",
       "day": "2026-11-22",
-      "category": "agent",
+      "category": "paper",
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "EFE 提出编程智能体考核新方法，定位失败原因。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "2blwp4lc05f",
@@ -131,7 +156,13 @@
       "firstSeenAt": "2026-11-23T03:43:04.188Z",
       "day": "2026-11-22",
       "category": "paper",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "大模型抗遗忘新范式：「先微调，后矫正」。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "z95g9n2o4p",
@@ -173,10 +204,10 @@
       "firstSeenAt": "2026-11-23T03:43:04.188Z",
       "day": "2026-11-22",
       "category": "agent",
-      "score": 31,
+      "score": 31.1,
       "metrics": {
-        "points": 356,
-        "comments": 87
+        "points": 357,
+        "comments": 89
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50599762",
       "aiAttempts": 2,
@@ -299,7 +330,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:00.036Z"
-      }
+      },
+      "dupOf": "1yj509geq5j"
     },
     {
       "id": "15d38dgzqn8",
@@ -445,8 +477,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1023,
-        "comments": 999
+        "points": 1026,
+        "comments": 1003
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50597612",
       "aiAttempts": 2,
@@ -781,7 +813,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:20.135Z"
-      }
+      },
+      "dupOf": "1yj509geq5j"
     },
     {
       "id": "5tawxe1f0c",
@@ -866,7 +899,7 @@
       "category": "paper",
       "score": 64,
       "metrics": {
-        "points": 693,
+        "points": 695,
         "comments": 440
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50601525",

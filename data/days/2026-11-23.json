@@ -15,7 +15,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "字节或造手机，首款产品或于2027年底或2028年面市。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "24itq4gg4ay",
@@ -220,7 +226,7 @@
       "day": "2026-11-23",
       "category": "industry",
       "score": 15,
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "中国军方担忧 AI 可能帮助美国定位并摧毁核导弹。",
         "category": "industry",
@@ -243,7 +249,7 @@
       "day": "2026-11-23",
       "category": "industry",
       "score": 15,
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Sierra 获 17.5 亿美元融资，估值翻倍至 300 亿美元。",
         "category": "industry",
@@ -307,7 +313,7 @@
       "day": "2026-11-23",
       "category": "industry",
       "score": 15,
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Meta 首席 AI 官警告 AI 行业未准备好应对黎曼猜想突破后的未来。",
         "category": "industry",
@@ -330,7 +336,7 @@
       "day": "2026-11-23",
       "category": "industry",
       "score": 15,
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "美国情报机构追踪 Nvidia 高管与中方情报机构的联系。",
         "category": "industry",
@@ -546,7 +552,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "人形机器人板块爆火，主力资金加仓多只概念股。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "1twpa7l81sg",
@@ -564,7 +576,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "企业 AI 发展新趋势：推动 AI Agent 迈向规模化应用的新阶段。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "dw15q5olf7",
@@ -578,8 +596,14 @@
       "publishedAt": "2026-11-23T11:40:31.000Z",
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "AI 时代的数据工程：如何打造 AI 原生团队。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "l2cly07umz",
@@ -618,8 +642,14 @@
       "publishedAt": "2026-11-23T11:33:50.000Z",
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "重塑财务职能：引领 AI 时代的转型。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "nfbmuzzh5n",
@@ -655,11 +685,17 @@
       "publishedAt": "2026-11-23T11:16:30.000Z",
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
-      "category": "agent",
+      "category": "paper",
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "当你的下一位客户是 AI Agent：企业营销与销售的 AI 发展前景。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "19ypf1c4zlt",
@@ -673,8 +709,14 @@
       "publishedAt": "2026-11-23T11:08:40.000Z",
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "构建主权 AI 技术栈：开放权重、前沿模型与企业控制平面。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "1afupjym69u",
@@ -759,7 +801,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "行云科技签署2.99亿元算力服务合同，提供32套GPU算力。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "1e4shwcfoej",
@@ -791,8 +839,14 @@
       "publishedAt": "2026-11-23T10:41:36.484Z",
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
-      "category": "agent",
-      "score": 18
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "蜂助手签署16.64亿元算力服务器采购合同。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "234rtzqbc1g",
@@ -811,7 +865,7 @@
       "keywords": [
         "开源模型"
       ],
-      "score": 63.8,
+      "score": 71.9,
       "related": [
         {
           "id": "c97swjjt8z",
@@ -828,19 +882,28 @@
           "url": "https://the-decoder.com/z-ai-follows-openai-into-loop-transformer-territory-with-its-new-750b-flagship-model/",
           "title": "Z.ai 发布 750B 循环架构旗舰模型 GLM-5.4",
           "publishedAt": "2026-11-23T15:13:03.000Z"
+        },
+        {
+          "id": "1cjhxptbof1",
+          "sourceId": "simonw",
+          "sourceName": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+          "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+          "publishedAt": "2026-11-23T23:40:49.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "jiqizhixin",
           "hackernews",
-          "the-decoder"
+          "the-decoder",
+          "simonw"
         ],
         "firstPublishedAt": "2026-11-23T10:06:43.000Z",
         "metrics": {
-          "points": 993,
-          "comments": 326
+          "points": 1031,
+          "comments": 334
         }
       },
       "ai": {
@@ -863,12 +926,18 @@
       "publishedAt": "2026-11-23T10:40:00.000Z",
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
-      "category": "model",
+      "category": "opensource",
       "keywords": [
         "开源模型"
       ],
-      "score": 28,
-      "aiAttempts": 1
+      "score": 22,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "微信开源新模型，旨在打造面向端侧应用的瑞士军刀。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "1zwj0fkkqmq",
@@ -884,7 +953,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "华为星芒限时5499元起，英伟达H200芯片不卖中国引争议。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "2bvemjvngkx",
@@ -939,7 +1014,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI服务器临交付暴涨45%，台积电收紧账期要现款。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "fckwe1n80s",
@@ -955,7 +1036,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "一笔浮盈400亿人民币，好莱坞第一VC。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "1tav625mcuj",
@@ -970,8 +1057,14 @@
       "publishedAt": "2026-11-23T10:13:05.985Z",
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "悬赏百万美元的难题被AI破解，全世界的数学家都睡不着了。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "13qwg56bpab",
@@ -986,8 +1079,14 @@
       "publishedAt": "2026-11-23T10:11:13.415Z",
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
-      "category": "industry",
-      "score": 18
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "当AI接管网购，年轻人迷上外包砍价。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "c97swjjt8z",
@@ -1002,10 +1101,10 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "model",
-      "score": 41.8,
+      "score": 41.9,
       "metrics": {
-        "points": 993,
-        "comments": 326
+        "points": 1031,
+        "comments": 334
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50609685",
       "dupOf": "234rtzqbc1g"
@@ -1024,7 +1123,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "苦战三个月，AI办公经得起财报检验吗？",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "24ifdxyk220",
@@ -1040,7 +1145,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "定投纳斯达克的人，被狠狠上了一课。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "1620dg0lm8t",
@@ -1056,7 +1167,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "免费AI的好日子，到头了？AI从全免走向限免。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:19.674Z"
+      }
     },
     {
       "id": "1qoe4sbu3n1",
@@ -1072,7 +1189,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "OpenAI对旗舰GPU进行深度优化，再次榨取性能。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "1lhxuouw4m3",
@@ -1194,7 +1317,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Anthropic CEO称AGI有概率毁灭人类，引发关注。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "qhzsagdmpn",
@@ -1208,11 +1337,17 @@
       "publishedAt": "2026-11-23T09:00:00.000Z",
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "A2A"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Java 近期迎来 TornadoVM、A2A Java 等多项更新。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "32cs8l8pvi",
@@ -1228,7 +1363,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "腾讯与字节在AI办公领域展开存量生态竞争。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "1uih8v4pqt1",
@@ -1244,7 +1385,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "OpenAI发布MedChemBench，通用大模型逼近药物化学专家。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "1vupfbdnykl",
@@ -1260,7 +1407,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI成为情绪外包工具，深夜话疗人数超过问诊。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "4f5bkf1mrh",
@@ -1276,7 +1429,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "OpenAI预训练指标曝光，预测2027年AI将爆发。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "1cjnqov06jx",
@@ -1293,7 +1452,7 @@
       "day": "2026-11-23",
       "category": "agent",
       "score": 30,
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "OpenAI 探讨 AI 如何帮助内部法律团队连接业务背景、构建可复用工作流。",
         "category": "agent",
@@ -1359,11 +1518,17 @@
       "publishedAt": "2026-11-23T07:55:51.000Z",
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "百度智能云分享企业级 Agent 安全落地实践。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "18lv1q2hn4",
@@ -1379,7 +1544,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Anthropic 被视为全球 AI 牛市的潜在风险因素。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "221lyvguo7i",
@@ -1395,7 +1566,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI 抛售潮与互联网泡沫对比，历史是否重演？",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "dtoxmj88b1",
@@ -1450,8 +1627,14 @@
       "publishedAt": "2026-11-23T06:39:00.000Z",
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
-      "category": "multimodal",
-      "score": 18
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "首届 AI 音乐视觉黑客松举办，剪映 Hub 展示 AI 视觉能力。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "11kqc55nfuz",
@@ -1542,11 +1725,17 @@
       "publishedAt": "2026-11-23T05:36:00.000Z",
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "加州起诉 OpenAI，指控其 Agent 缺乏监管。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "zws4yr1yr1",
@@ -1562,7 +1751,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "蚂蚁 CEO 韩歆毅：AI 正在拓宽健康自塑边界。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "2fvexl7lz9o",
@@ -1641,7 +1836,13 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "「AI 圈有局」活动汇总，寻找同路人。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "16uc437xzph",
@@ -2176,7 +2377,13 @@
       "keywords": [
         "语音"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "中通快递与阿里云伶鹊合作，AI 客服提升服务体验。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:17:39.806Z"
+      }
     },
     {
       "id": "2fsc8rzh9k7",
@@ -2459,6 +2666,23 @@
       }
     },
     {
+      "id": "14jwz4uss3",
+      "key": "url:simonwillison.net/2026/Nov/23/datasette-charts",
+      "title": "datasette-charts 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
+      "excerpt": "Release: datasette-charts 0.1a0 I've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin. You can try it out in Datasette Lite here. It lo…",
+      "lang": "en",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "sourceGroup": "blogger",
+      "publishedAt": "2026-11-23T00:37:20.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-23",
+      "category": "industry",
+      "score": 14,
+      "aiAttempts": 1
+    },
+    {
       "id": "27dso4kde5m",
       "key": "url:36kr.com/p/4081531539723397",
       "title": "中国AI刷爆全球纪录，比Claude快四万倍，多个密码学难题被破解",
@@ -2498,7 +2722,7 @@
         "Agent"
       ],
       "score": 30,
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Hugging Face 博客分享如何构建和维护代理评估。",
         "category": "paper",
@@ -2526,7 +2750,7 @@
         "upvotes": 54,
         "comments": 2
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "论文提出基于扩散 Transformer 的非穿透世界模型。",
         "category": "paper",
@@ -2554,7 +2778,7 @@
         "upvotes": 88,
         "comments": 2
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "论文介绍通过几何收缩平衡超连接中的流混合。",
         "category": "paper",
@@ -2766,8 +2990,8 @@
       "category": "opensource",
       "score": 35.6,
       "metrics": {
-        "points": 735,
-        "comments": 295
+        "points": 743,
+        "comments": 297
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50603845",
       "aiAttempts": 1,
@@ -2843,9 +3067,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 16.8,
+      "score": 17,
       "metrics": {
-        "stars": 470
+        "stars": 489
       },
       "ai": {
         "title": "safe-anything：Rust 编写的漏洞扫描器",

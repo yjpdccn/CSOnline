@@ -1011,11 +1011,11 @@
   },
   "2026-11-24": {
     "day": "2026-11-24",
-    "generatedAt": "2026-11-23T22:37:56.587Z",
-    "itemCount": 120,
+    "generatedAt": "2026-11-24T00:19:04.007Z",
+    "itemCount": 121,
     "mode": "ai",
     "model": "glm-4.7-flash",
-    "overview": "GLM-5.4上线，黄仁勋重返英伟达CEO职位，Claude AI获自主代码审查修复能力。",
+    "overview": "GLM-5.4发布，黄仁勋重返英伟达，Google Search升级AI模式。",
     "points": [
       {
         "text": "GLM-5.4上线，全新Loop Transformer架构亮相。",
@@ -1024,28 +1024,28 @@
         ]
       },
       {
-        "text": "黄仁勋重任英伟达CEO，恢复全部职位。",
+        "text": "黄仁勋恢复英伟达CEO职务，Elon Musk称错误已纠正。",
         "refs": [
           "39sj51dajg",
           "26x1e8a0pk"
         ]
       },
       {
-        "text": "Claude AI 现可自主审查并修复代码。",
-        "refs": [
-          "1jplxl2f65m"
-        ]
-      },
-      {
-        "text": "OpenAI 更新 ChatGPT，默认使用 GPT-6.2 Sol。",
-        "refs": [
-          "gmu60rftcy"
-        ]
-      },
-      {
-        "text": "Google Search 推出更个性化的 AI 模式。",
+        "text": "Google Search推出更个性化AI模式，可连接Wallet和Drive。",
         "refs": [
           "jazjbna9r7"
+        ]
+      },
+      {
+        "text": "Google DeepMind利用代理和形式验证寻找更快量子算法。",
+        "refs": [
+          "1b3b5ycpskn"
+        ]
+      },
+      {
+        "text": "OpenAI与Cisco推出开源运行时Shirudo，保护部署系统。",
+        "refs": [
+          "1yj509geq5j"
         ]
       }
     ]

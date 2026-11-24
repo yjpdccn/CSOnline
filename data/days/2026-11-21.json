@@ -46,7 +46,7 @@
       ],
       "score": 27.5,
       "metrics": {
-        "stars": 3076
+        "stars": 3114
       },
       "dupOf": "20mvx8qqa9a"
     },
@@ -568,9 +568,9 @@
         "Agent",
         "MCP"
       ],
-      "score": 17,
+      "score": 17.1,
       "metrics": {
-        "stars": 497
+        "stars": 499
       },
       "aiAttempts": 1,
       "ai": {
@@ -956,7 +956,7 @@
       ],
       "score": 17.2,
       "metrics": {
-        "stars": 513
+        "stars": 515
       },
       "aiAttempts": 1,
       "ai": {
@@ -1068,10 +1068,18 @@
           "url": "https://36kr.com/p/4082133433390211",
           "title": "写在黎曼猜想被证明之后",
           "publishedAt": "2026-11-23T10:46:32.151Z"
+        },
+        {
+          "id": "1fwbybesvpy",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4082374576117380",
+          "title": "AI破解黎曼猜想的真正核心，“Lean”到底是什么？",
+          "publishedAt": "2026-11-24T00:09:13.540Z"
         }
       ],
       "story": {
-        "reports": 11,
+        "reports": 12,
         "sources": [
           "36kr-ai",
           "qbitai",
@@ -1754,8 +1762,8 @@
         ],
         "firstPublishedAt": "2026-11-18T09:53:00.945Z",
         "metrics": {
-          "points": 1023,
-          "comments": 999
+          "points": 1026,
+          "comments": 1003
         }
       }
     },

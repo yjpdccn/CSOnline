@@ -1,13 +1,13 @@
 {
   "sent": {
-    "alert:move:spx:2026-11-20": {
-      "hash": "move:spx:2026-11-20",
-      "label": "标普500 11月20日下跌 3.7%",
+    "alert:move:ndx:2026-11-23": {
+      "hash": "move:ndx:2026-11-23",
+      "label": "纳斯达克100 11月23日上涨 6.9%",
       "kind": "event"
     },
-    "alert:move:ndx:2026-11-20": {
-      "hash": "move:ndx:2026-11-20",
-      "label": "纳斯达克100 11月20日下跌 3.8%",
+    "alert:move:spx:2026-11-23": {
+      "hash": "move:spx:2026-11-23",
+      "label": "标普500 11月23日上涨 4.7%",
       "kind": "event"
     },
     "alert:replace:008702:008701": {
@@ -53,6 +53,5 @@
   },
   "issueNumber": 1,
   "channel": "serverchan",
-  "lastSentAt": "2026-11-21T03:58:30.074Z",
-  "held": "2026-11-23T22:36:01.609Z"
+  "lastSentAt": "2026-11-24T00:16:26.480Z"
 }

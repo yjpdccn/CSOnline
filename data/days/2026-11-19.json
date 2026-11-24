@@ -931,7 +931,7 @@
       ],
       "score": 25.6,
       "metrics": {
-        "stars": 2302
+        "stars": 2305
       },
       "aiAttempts": 1,
       "ai": {
@@ -1759,9 +1759,9 @@
       "keywords": [
         "MCP"
       ],
-      "score": 19.2,
+      "score": 19.3,
       "metrics": {
-        "stars": 773
+        "stars": 782
       },
       "dupOf": "1qg2nra39k"
     },
@@ -3566,7 +3566,7 @@
       "categoryLocked": true,
       "score": 20.7,
       "metrics": {
-        "stars": 12270,
+        "stars": 12277,
         "starsToday": 246
       },
       "ai": {
@@ -3861,6 +3861,26 @@
         "category": "multimodal",
         "model": "glm-4.7-flash",
         "at": "2026-11-18T19:25:07.930Z"
+      }
+    },
+    {
+      "id": "1igxr9zph5u",
+      "key": "gh:lukendeasy/open-diagram",
+      "title": "lukendeasy/open-diagram",
+      "url": "https://github.com/lukendeasy/open-diagram",
+      "excerpt": "Python building blocks for dense architecture diagrams that check their own layout",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-18T17:34:59.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-19",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 15.6,
+      "metrics": {
+        "stars": 348
       }
     },
     {

@@ -1,6 +1,658 @@
 {
-  "updatedAt": "2026-11-23T22:36:01.609Z",
+  "updatedAt": "2026-11-24T00:16:26.480Z",
   "items": [
+    {
+      "id": "13rjb8nxbml",
+      "key": "em:202611243938009431",
+      "title": "连跌数日后 国际金价重新站上每盎司3600美元",
+      "url": "https://finance.eastmoney.com/a/202611243938009431.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T00:12:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "纽约商品交易所黄金期货市场交投最活跃的2026年12月黄金期价23日上涨119.0美元，收于每盎司3634.4美元，涨幅为3.39%。"
+    },
+    {
+      "id": "dhtua3ghrf",
+      "key": "sina:5233751",
+      "title": "美国国债期货下跌 美股大涨提振风险情绪",
+      "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutph5165623.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T23:57:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "受美国股市上涨提振，市场风险情绪改善，美国国债期货下跌。另外，澳大利亚将发行2037年到期债券。美国10年期国债期货下跌6/32至106 17/32。美国2年期国债收益率在纽约交易时段上涨5个基点，此前美国股市上涨，交易员们重新押注美联储的鹰派立场。黄仁勋重返英伟达担任CEO提振了风险资产。"
+    },
+    {
+      "id": "agln7zv8z6",
+      "key": "em:202611243937884947",
+      "title": "特朗普推动黄仁勋回归 所持英伟达股票价值最高上涨1亿元",
+      "url": "https://finance.eastmoney.com/a/202611243937884947.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T23:47:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 34,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "北京时间11月24日，据《金融时报》报道，当地时间周一，随着黄仁勋意外被恢复英伟达CEO职务的消息传出，英伟达股价飙升。美国总统特朗普持有的英伟达股票价值最高上涨1500万美元(约合1亿元人民币)。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "23zm4f2e9w8",
+          "sourceId": "cnbc-top",
+          "sourceName": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo-market-rally.html",
+          "title": "黄仁勋回归或止住市场抛售",
+          "publishedAt": "2026-11-23T18:00:47.000Z"
+        },
+        {
+          "id": "jxwb3bgx8v",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/these-stocks-are-the-biggest-gainers-after-jensen-huangs-return-to-nvidia-bb886140?mod=mw_rss_topstories",
+          "title": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia",
+          "publishedAt": "2026-11-23T21:36:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "em-focus",
+          "cnbc-top",
+          "marketwatch"
+        ],
+        "firstPublishedAt": "2026-11-23T18:00:47.000Z"
+      }
+    },
+    {
+      "id": "2ah59jvvb1x",
+      "key": "sina:5233722",
+      "title": "城堡证券警告市场恐重蹈2018年复辙 苦日子还没有结束",
+      "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutph5151642.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T23:34:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "城堡证券策略师警告称，金融市场正释放经济增长前景恶化的讯号，而美联储此时却日益转向鹰派，这与2018年底风险资产大幅抛售前的情势如出一辙。城堡证券宏观策略主管Frank Flight在11月20日的报告中写道，目前的背景与八年前有相似之处。当时美国经济表现强韧，掩盖了经济前景恶化，直到疲弱迹象开始蔓延至各个市场。他表示，与当时一样，如今美元走强、周期性股票持续下跌，而美联储决意维持紧缩货币政策，也使债券收益率维持高位。交易员预期，美联储下月将升息以抑制通胀；在周一市场大幅反弹之前，这种升息预期在过去三个月一直拖累工业、原材料和能源等与经济增长密切相关的…"
+    },
+    {
+      "id": "go8b8vwt5s",
+      "key": "url:cnbc.com/2026/11/23/nvidia-sets-options-trading-record-after-ceo-comeback-here-are-the-big-trades.html",
+      "title": "Nvidia sets options-trading record after CEO comeback. Here are the big trades",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-sets-options-trading-record-after-ceo-comeback-here-are-the-big-trades.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-23T23:24:02.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Nvidia break record for single stock options volume",
+      "ai": {
+        "title": "英伟达CEO回归创下单股期权交易量纪录",
+        "summary": "英伟达创下单股期权交易量纪录。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:19:45.003Z"
+      }
+    },
+    {
+      "id": "6sje1dv4tj",
+      "key": "sina:5233710",
+      "title": "美联储高官遭内部调查：监管副主席鲍曼被指违反“静默期”规定",
+      "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutph5145282.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T23:24:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "美联储监察长办公室（OIG）正在对美联储负责金融监管的副主席米歇尔·鲍曼（Michelle Bowman）展开调查，核实她是否因在2026年6月出席一场华尔街私人晚宴而违反了央行的沟通“静默期”（blackout period）规定。2026年6月17日——即联邦公开市场委员会结束货币政策会议仅数小时后——鲍曼在纽约出席了由美国银行主办的一场仅限受邀者参加的晚宴，与会者包括20多位对冲基金及华尔街高管。根据联邦公开市场委员会对外沟通政策，在静默期内（该次会议的静默期为6月6日至6月18日），政策制定者严禁就经济形势或货币政策发表公开评论或接受采访。批评…"
+    },
+    {
+      "id": "1gb1cgqsda4",
+      "key": "url:marketwatch.com/story/the-newest-addition-to-the-s-p-500-is-a-maker-of-viral-ice-cream-machines-5c6e209a?mod=mw_rss_topstories",
+      "title": "The newest addition to the S&P 500 is a maker of viral ice-cream machines",
+      "url": "https://www.marketwatch.com/story/the-newest-addition-to-the-s-p-500-is-a-maker-of-viral-ice-cream-machines-5c6e209a?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-23T23:18:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "SharkNinja will join the S&P 500, replacing AES.",
+      "ai": {
+        "title": "病毒式冰淇淋机制造商加入标普500",
+        "summary": "SharkNinja将加入标普500，取代AES。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:19:45.003Z"
+      }
+    },
+    {
+      "id": "16icrzy6pdn",
+      "key": "url:cnbc.com/2026/11/23/jim-cramer-nvidia-jensen-huang-ceo-return.html",
+      "title": "Jim Cramer sees more upside for Nvidia stock with Jensen Huang back as CEO",
+      "url": "https://www.cnbc.com/2026/11/23/jim-cramer-nvidia-jensen-huang-ceo-return.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-23T23:14:34.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "CNBC's Jim Cramer said Jensen Huang's return as Nvidia CEO could help revive the chipmaker's battered stock.",
+      "ai": {
+        "title": "吉姆·克莱默看好黄仁勋回归后的英伟达股价",
+        "summary": "克莱默认为黄仁勋回归有助于提振英伟达股价。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:19:45.003Z"
+      }
+    },
+    {
+      "id": "131tilx9yw6",
+      "key": "em:202611243937787068",
+      "title": "黄仁勋回来了 英伟达一天涨出一个“摩根大通” 半导体指数狂飙14%",
+      "url": "https://finance.eastmoney.com/a/202611243937787068.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T23:09:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "当地时间11月23日，美三大股指大幅收涨，道琼斯指数涨3.01%，标普500指数涨4.74%，纳斯达克综合指数涨6.51%。黄仁勋复职带动AI相关股票普涨，费城半导体指数大涨14%，创2025年以来单日涨幅纪录。英伟达暴涨超31%，报165.05美元/股，单日市值增加创纪录的9520亿美元，市值重返全球第二位，总市值超3.98万亿。美光科技涨19%，英特尔涨超16%，台积电涨14%。",
+      "flag": 1
+    },
+    {
+      "id": "28jje6572nd",
+      "key": "cls:2542399",
+      "title": "美联储威廉姆斯称，如有需要，不会排除连续加息的可能性。数据将决定利率行动的时机和步伐",
+      "url": "https://www.cls.cn/detail/2542399",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T22:57:08.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "flag": 1,
+      "dupOf": "15ezitlhk8w"
+    },
+    {
+      "id": "15ezitlhk8w",
+      "key": "em:202611243937783918",
+      "title": "美联储威廉姆斯：如有需要不会排除连续加息的可能性",
+      "url": "https://finance.eastmoney.com/a/202611243937783918.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T22:57:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 42,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "美联储威廉姆斯称，如有需要，不会排除连续加息的可能性。数据将决定利率行动的时机和步伐。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "1735iiavdq6",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfk5190625.d.html",
+          "title": "美联储威廉姆斯：就业市场一直保持稳定。失业率到明年应降至4%",
+          "publishedAt": "2026-11-23T21:00:00.000Z"
+        },
+        {
+          "id": "251i8w5otur",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfn1966929.d.html",
+          "title": "美联储威廉姆斯表示，我们必须保持前瞻性，不能过度关注过去的通胀路径，这一点至关重要",
+          "publishedAt": "2026-11-23T21:00:00.000Z"
+        },
+        {
+          "id": "8j1ulmxttm",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfk5190365.d.html",
+          "title": "美联储威廉姆斯：没有迹象显示劳动力市场显著再加速",
+          "publishedAt": "2026-11-23T21:00:00.000Z"
+        },
+        {
+          "id": "b1zyi917hx",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfk5190571.d.html",
+          "title": "美联储威廉姆斯表示，高通胀正被证明具有持续性",
+          "publishedAt": "2026-11-23T21:00:00.000Z"
+        },
+        {
+          "id": "dkrkq68ecp",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfn1966884.d.html",
+          "title": "美联储威廉姆斯：我们必须及时且持续地将通胀恢复到2%的目标水平",
+          "publishedAt": "2026-11-23T21:00:00.000Z"
+        },
+        {
+          "id": "2db1ptwe4ux",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfk5190891.d.html",
+          "title": "美联储威廉姆斯：将继续关注数据以判断经济未来走向",
+          "publishedAt": "2026-11-23T21:01:00.000Z"
+        },
+        {
+          "id": "ayz3u0uvx6",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfk5190767.d.html",
+          "title": "美联储威廉姆斯：美国经济在2026年和2027年均将增长2.75%",
+          "publishedAt": "2026-11-23T21:01:00.000Z"
+        },
+        {
+          "id": "lzw2755ene",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfq7917686.d.html",
+          "title": "美联储威廉姆斯：通胀仍然过高，风险偏向上行",
+          "publishedAt": "2026-11-23T21:01:00.000Z"
+        },
+        {
+          "id": "zsbftnr0g6",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfk5190707.d.html",
+          "title": "美联储威廉姆斯表示，人工智能对经济的影响尚不确定",
+          "publishedAt": "2026-11-23T21:01:00.000Z"
+        },
+        {
+          "id": "xuu0edd3rl",
+          "sourceId": "cnbc-top",
+          "sourceName": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
+          "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
+          "publishedAt": "2026-11-23T21:02:17.000Z"
+        },
+        {
+          "id": "17ygudok1ht",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfn1979854.d.html",
+          "title": "美联储威廉姆斯表示，强劲增长的基础面临一些挑战",
+          "publishedAt": "2026-11-23T21:25:00.000Z"
+        },
+        {
+          "id": "x4whv7smvt",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfn1980400.d.html",
+          "title": "美联储威廉姆斯：我们一直在非常努力地降低通胀，已经取得了进展",
+          "publishedAt": "2026-11-23T21:26:00.000Z"
+        },
+        {
+          "id": "1gacxyl4401",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfk5206485.d.html",
+          "title": "美联储威廉姆斯：美联储将政治因素排除在其政策辩论之外",
+          "publishedAt": "2026-11-23T21:30:00.000Z"
+        },
+        {
+          "id": "kptlnjapnw",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfs0259987.d.html",
+          "title": "美联储威廉姆斯：面对诸多重大挑战，经济一直保持韧性",
+          "publishedAt": "2026-11-23T21:34:00.000Z"
+        },
+        {
+          "id": "19hjko1h02f",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfn1986092.d.html",
+          "title": "美联储威廉姆斯：近期推动通胀上升的是一些不寻常的因素",
+          "publishedAt": "2026-11-23T21:35:00.000Z"
+        },
+        {
+          "id": "2dm66gjcwvw",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfn1986496.d.html",
+          "title": "美联储威廉姆斯：2027年将是通胀率较低的一年",
+          "publishedAt": "2026-11-23T21:36:00.000Z"
+        },
+        {
+          "id": "13ilqk1huz5",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfq7933018.d.html",
+          "title": "美联储威廉姆斯表示，企业有招聘意愿，但态度谨慎",
+          "publishedAt": "2026-11-23T21:40:00.000Z"
+        },
+        {
+          "id": "10v7ksqkglg",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfq7936609.d.html",
+          "title": "美联储威廉姆斯：各方普遍认为，独立的央行能带来更好的经济成果",
+          "publishedAt": "2026-11-23T21:51:00.000Z"
+        },
+        {
+          "id": "1c3nrvj4zw",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutpq0162034.d.html",
+          "title": "美联储威廉姆斯：如有需要，不会排除连续加息的可能性",
+          "publishedAt": "2026-11-23T22:55:00.000Z"
+        },
+        {
+          "id": "1frt5nt9m0h",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutpq0161915.d.html",
+          "title": "美联储威廉姆斯：对市场波动并不感到意外",
+          "publishedAt": "2026-11-23T22:55:00.000Z"
+        },
+        {
+          "id": "1wxg7cy3mm8",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutpk1896016.d.html",
+          "title": "美联储威廉姆斯：科技板块的波动并未颠覆积极的经济前景",
+          "publishedAt": "2026-11-23T22:55:00.000Z"
+        },
+        {
+          "id": "28r78a2zhpn",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutpk1896248.d.html",
+          "title": "美联储威廉姆斯：如果通胀压力不缓解，美联储将作出回应",
+          "publishedAt": "2026-11-23T22:55:00.000Z"
+        },
+        {
+          "id": "8p645msykg",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutph5119990.d.html",
+          "title": "美联储威廉姆斯：如果市场情绪大幅恶化，可能会影响对经济的看法",
+          "publishedAt": "2026-11-23T22:55:00.000Z"
+        },
+        {
+          "id": "23fck8aywnh",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutph5120153.d.html",
+          "title": "美联储威廉姆斯：数据将决定未来行动，尚未确定利率政策路径",
+          "publishedAt": "2026-11-23T22:56:00.000Z"
+        },
+        {
+          "id": "28jje6572nd",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2542399",
+          "title": "美联储威廉姆斯称，如有需要，不会排除连续加息的可能性。数据将决定利率行动的时机和步伐",
+          "publishedAt": "2026-11-23T22:57:08.000Z"
+        }
+      ],
+      "story": {
+        "reports": 26,
+        "sources": [
+          "em-focus",
+          "sina",
+          "cnbc-top",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-11-23T21:00:00.000Z"
+      }
+    },
+    {
+      "id": "8n55jokbbk",
+      "key": "wscn:3204546",
+      "title": "美联储三把手：如有需要，不排除连续加息的可能性",
+      "url": "https://wallstreetcn.com/livenews/3204546",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T22:56:25.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "美国纽约联储主席（享有FOMC永久投票权，号称美联储三把手）威廉姆斯：不排除FOMC在必要时连续加息的可能性。 针对未来（多次）会议都不排除任何选项。 数据将决定利率行动的时机和步伐。 市场走势可能会在短期内逆转。 金融条件的持续变化可能会影响需求。 对增长前景仍然非常乐观。",
+      "flag": 1,
+      "dupOf": "71ntcvxx5a"
+    },
+    {
+      "id": "23fck8aywnh",
+      "key": "sina:5233693",
+      "title": "美联储威廉姆斯：数据将决定未来行动，尚未确定利率政策路径",
+      "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutph5120153.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T22:56:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "flag": 1,
+      "dupOf": "15ezitlhk8w"
+    },
+    {
+      "id": "1c3nrvj4zw",
+      "key": "sina:5233692",
+      "title": "美联储威廉姆斯：如有需要，不会排除连续加息的可能性",
+      "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutpq0162034.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T22:55:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "flag": 1,
+      "dupOf": "15ezitlhk8w"
+    },
+    {
+      "id": "8p645msykg",
+      "key": "sina:5233691",
+      "title": "美联储威廉姆斯：如果市场情绪大幅恶化，可能会影响对经济的看法",
+      "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutph5119990.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T22:55:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "dupOf": "15ezitlhk8w"
+    },
+    {
+      "id": "1frt5nt9m0h",
+      "key": "sina:5233690",
+      "title": "美联储威廉姆斯：对市场波动并不感到意外",
+      "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutpq0161915.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T22:55:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "dupOf": "15ezitlhk8w"
+    },
+    {
+      "id": "28r78a2zhpn",
+      "key": "sina:5233689",
+      "title": "美联储威廉姆斯：如果通胀压力不缓解，美联储将作出回应",
+      "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutpk1896248.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T22:55:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "macro-us"
+      ],
+      "dupOf": "15ezitlhk8w"
+    },
+    {
+      "id": "1wxg7cy3mm8",
+      "key": "sina:5233687",
+      "title": "美联储威廉姆斯：科技板块的波动并未颠覆积极的经济前景",
+      "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutpk1896016.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T22:55:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "dupOf": "15ezitlhk8w"
+    },
+    {
+      "id": "7pnwnhtx8m",
+      "key": "url:cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html",
+      "title": "Nvidia surge: What investors should do with the stock and the AI trade now",
+      "url": "https://www.cnbc.com/2026/11/23/nvidia-stock-jensen-huang-ai-trade.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-23T22:43:38.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "The market is loving the return of Jensen Huang, but investors and lawmakers have their guards up.",
+      "ai": {
+        "title": "英伟达大涨：投资者应如何应对股票和AI交易",
+        "summary": "市场欢迎黄仁勋回归，但投资者和立法者保持警惕。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:19:45.003Z"
+      }
+    },
+    {
+      "id": "218ite53pzo",
+      "key": "sina:5233681",
+      "title": "11月24日隔夜要闻一览",
+      "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizutph5110451.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T22:37:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "1、特朗普透露曾直接与英伟达董事会沟通，极力敦促推动，黄仁勋重掌英伟达。 2、英伟达收涨31%，创2003年5月9日以来最大单日百分比涨幅，市值单日增长9520亿美元，创下纪录。 3、美股三大股指集体收涨。道指涨3.01%，标普500指数涨4.74%，纳指涨6.52%。Astera Labs Inc涨23.11%，CoreWeave涨22.06%，戴尔涨20.52%，NBIS涨20.16%。特斯拉涨11.46%，Meta涨6.55%，谷歌涨5.89%，亚马逊涨3.48%，苹果涨1.91%，微软涨1.66%。 4、国际铜业研究组织（ICSG）：2026年…"
+    },
     {
       "id": "22ht0lcoxud",
       "key": "url:cnbc.com/2026/11/23/stocks-moving-the-most-today-live-updates.html",
@@ -24,6 +676,31 @@
         "summary": "CNBC报道当日最大股票变动情况。",
         "model": "glm-4.7-flash",
         "at": "2026-11-23T22:38:08.801Z"
+      }
+    },
+    {
+      "id": "1yfmz6hupvw",
+      "key": "url:ft.com/content/67b0a070-c2a9-4229-885a-383cca657763?syn-25a6b1a6=1",
+      "title": "Trump made up to $15mn on Nvidia shares after Huang’s return",
+      "url": "https://www.ft.com/content/67b0a070-c2a9-4229-885a-383cca657763?syn-25a6b1a6=1",
+      "lang": "en",
+      "sourceId": "ft-markets",
+      "sourceName": "FT",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-23T22:21:44.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "Profit on 30% jump in chip group’s share price based on maximum amount US president could have owned in latest disclosure",
+      "ai": {
+        "title": "特朗普因黄仁勋回归获利高达1500万美元",
+        "summary": "基于最新披露，特朗普因英伟达股价大涨获利1500万美元。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T00:19:45.003Z"
       }
     },
     {
@@ -65,6 +742,26 @@
       ]
     },
     {
+      "id": "1etq1o6yw1s",
+      "key": "em:202611243937772219",
+      "title": "美联储12月加息25个基点的概率为95.9%",
+      "url": "https://finance.eastmoney.com/a/202611243937772219.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-23T22:07:00.000Z",
+      "firstSeenAt": "2026-11-24T00:16:26.480Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed"
+      ],
+      "excerpt": "据CME“美联储观察”：美联储12月加息25个基点的概率为95.9%，加息50个基点的概率为4.1%。美联储到明年1月加息25个基点的概率33.2%，累计加息50个基点的概率为64.2%，累计加息75个基点的概率为2.7%。",
+      "dupOf": "1lh0lvpnvt5"
+    },
+    {
       "id": "ia5k5x70ha",
       "key": "url:marketwatch.com/story/nvidias-stock-is-surging-again-what-to-know-before-chasing-the-ai-rally-226688d7?mod=mw_rss_topstories",
       "title": "Nvidia’s stock is surging again. What to know before chasing the AI rally.",
@@ -102,11 +799,29 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-24",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "topics": [
         "fed"
       ],
-      "excerpt": "据CME“美联储观察”：美联储12月加息25个基点的概率为95.9%，加息50个基点的概率为4.1%。美联储到明年1月累计加息25个基点的概率33.2%，累计加息50个基点的概率为64.2%，累计加息75个基点的概率为2.7%。"
+      "excerpt": "据CME“美联储观察”：美联储12月加息25个基点的概率为95.9%，加息50个基点的概率为4.1%。美联储到明年1月累计加息25个基点的概率33.2%，累计加息50个基点的概率为64.2%，累计加息75个基点的概率为2.7%。",
+      "related": [
+        {
+          "id": "1etq1o6yw1s",
+          "sourceId": "em-commodity",
+          "sourceName": "东方财富·商品",
+          "url": "https://finance.eastmoney.com/a/202611243937772219.html",
+          "title": "美联储12月加息25个基点的概率为95.9%",
+          "publishedAt": "2026-11-23T22:07:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "sina",
+          "em-commodity"
+        ],
+        "firstPublishedAt": "2026-11-23T22:00:00.000Z"
+      }
     },
     {
       "id": "10v7ksqkglg",
@@ -126,7 +841,7 @@
         "fed",
         "pboc"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "bz7sz9npc6",
@@ -146,7 +861,7 @@
         "us-stocks"
       ],
       "excerpt": "Jensen Huang’s return as CEO of Nvidia powered a massive bounce in the U.S. stock market on Monday by helping to restore faith in the artificial-intelligence trade.",
-      "dupOf": "20sss3o8i8"
+      "dupOf": "4cz79hnzio"
     },
     {
       "id": "1cme7vroz3b",
@@ -190,7 +905,7 @@
       "topics": [
         "fed"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "2dm66gjcwvw",
@@ -210,7 +925,7 @@
         "fed",
         "macro-us"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "jxwb3bgx8v",
@@ -230,7 +945,7 @@
         "us-stocks"
       ],
       "excerpt": "Huang’s comeback offers relief to the battered AI trade and drives major boosts across the tech sector.",
-      "dupOf": "23zm4f2e9w8"
+      "dupOf": "agln7zv8z6"
     },
     {
       "id": "19hjko1h02f",
@@ -250,7 +965,7 @@
         "fed",
         "macro-us"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "kptlnjapnw",
@@ -269,7 +984,7 @@
       "topics": [
         "fed"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "1gacxyl4401",
@@ -288,7 +1003,7 @@
       "topics": [
         "fed"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "18vezp2s2td",
@@ -333,7 +1048,7 @@
         "fed",
         "macro-us"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "136btolsi9v",
@@ -373,7 +1088,7 @@
       "topics": [
         "fed"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "1ug6sgt03tb",
@@ -407,35 +1122,18 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-24",
       "category": "industry",
-      "score": 23,
+      "score": 15,
       "topics": [
         "us-stocks"
       ],
       "excerpt": "The Nasdaq slid 10% last week in its worst week since the early days of Covid in 2020.",
-      "related": [
-        {
-          "id": "bz7sz9npc6",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/u-s-stocks-see-best-day-in-more-than-a-year-as-return-of-jensen-huang-revives-ai-enthusiasm-c3b9d274?mod=mw_rss_topstories",
-          "title": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm",
-          "publishedAt": "2026-11-23T21:51:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "cnbc-top",
-          "marketwatch"
-        ],
-        "firstPublishedAt": "2026-11-23T21:22:13.000Z"
-      },
       "ai": {
         "title": "黄仁勋回归后科技股大涨",
         "summary": "Nasdaq上周下跌10%，黄仁勋回归提振市场信心。",
         "model": "glm-4.7-flash",
         "at": "2026-11-23T22:38:08.801Z"
-      }
+      },
+      "dupOf": "4cz79hnzio"
     },
     {
       "id": "191ptsork0d",
@@ -579,7 +1277,7 @@
         "fed"
       ],
       "excerpt": "The influential central banker expressed confidence that inflation will get closer to the Fed's 2% target in 2027.",
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "2fs1p8dlnwm",
@@ -656,7 +1354,7 @@
       "topics": [
         "fed"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "lzw2755ene",
@@ -676,7 +1374,7 @@
         "fed",
         "macro-us"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "ayz3u0uvx6",
@@ -695,7 +1393,7 @@
       "topics": [
         "fed"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "zsbftnr0g6",
@@ -714,7 +1412,7 @@
       "topics": [
         "fed"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "1b4gizw6rg8",
@@ -760,7 +1458,24 @@
         "macro-us"
       ],
       "excerpt": "美国纽约联储主席（享有FOMC永久投票权，号称美联储三把手）威廉姆斯表示，面对持续居高不下的通胀，美联储仍有“工作要做”。我们必须在未来一段时间内采取行动，确保通胀及时且持续地回落到我们2%的目标水平。要完成这项任务，我们仍有工作要做。”自上次会议以来收到的数据表明，价格压力仍在持续，经济依然强劲，通胀继续处于过高水平。",
-      "flag": 1
+      "flag": 1,
+      "related": [
+        {
+          "id": "8n55jokbbk",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3204546",
+          "title": "美联储三把手：如有需要，不排除连续加息的可能性",
+          "publishedAt": "2026-11-23T22:56:25.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-11-23T21:00:36.000Z"
+      }
     },
     {
       "id": "1p1b4ewu392",
@@ -833,157 +1548,12 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-24",
       "category": "industry",
-      "score": 26,
+      "score": 18,
       "topics": [
         "fed",
         "macro-us"
       ],
-      "related": [
-        {
-          "id": "251i8w5otur",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfn1966929.d.html",
-          "title": "美联储威廉姆斯表示，我们必须保持前瞻性，不能过度关注过去的通胀路径，这一点至关重要",
-          "publishedAt": "2026-11-23T21:00:00.000Z"
-        },
-        {
-          "id": "8j1ulmxttm",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfk5190365.d.html",
-          "title": "美联储威廉姆斯：没有迹象显示劳动力市场显著再加速",
-          "publishedAt": "2026-11-23T21:00:00.000Z"
-        },
-        {
-          "id": "b1zyi917hx",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfk5190571.d.html",
-          "title": "美联储威廉姆斯表示，高通胀正被证明具有持续性",
-          "publishedAt": "2026-11-23T21:00:00.000Z"
-        },
-        {
-          "id": "dkrkq68ecp",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfn1966884.d.html",
-          "title": "美联储威廉姆斯：我们必须及时且持续地将通胀恢复到2%的目标水平",
-          "publishedAt": "2026-11-23T21:00:00.000Z"
-        },
-        {
-          "id": "2db1ptwe4ux",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfk5190891.d.html",
-          "title": "美联储威廉姆斯：将继续关注数据以判断经济未来走向",
-          "publishedAt": "2026-11-23T21:01:00.000Z"
-        },
-        {
-          "id": "ayz3u0uvx6",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfk5190767.d.html",
-          "title": "美联储威廉姆斯：美国经济在2026年和2027年均将增长2.75%",
-          "publishedAt": "2026-11-23T21:01:00.000Z"
-        },
-        {
-          "id": "lzw2755ene",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfq7917686.d.html",
-          "title": "美联储威廉姆斯：通胀仍然过高，风险偏向上行",
-          "publishedAt": "2026-11-23T21:01:00.000Z"
-        },
-        {
-          "id": "zsbftnr0g6",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfk5190707.d.html",
-          "title": "美联储威廉姆斯表示，人工智能对经济的影响尚不确定",
-          "publishedAt": "2026-11-23T21:01:00.000Z"
-        },
-        {
-          "id": "xuu0edd3rl",
-          "sourceId": "cnbc-top",
-          "sourceName": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html",
-          "title": "Fed's John Williams indicates higher interest rates likely 'over time' to address inflation",
-          "publishedAt": "2026-11-23T21:02:17.000Z"
-        },
-        {
-          "id": "17ygudok1ht",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfn1979854.d.html",
-          "title": "美联储威廉姆斯表示，强劲增长的基础面临一些挑战",
-          "publishedAt": "2026-11-23T21:25:00.000Z"
-        },
-        {
-          "id": "x4whv7smvt",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfn1980400.d.html",
-          "title": "美联储威廉姆斯：我们一直在非常努力地降低通胀，已经取得了进展",
-          "publishedAt": "2026-11-23T21:26:00.000Z"
-        },
-        {
-          "id": "1gacxyl4401",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfk5206485.d.html",
-          "title": "美联储威廉姆斯：美联储将政治因素排除在其政策辩论之外",
-          "publishedAt": "2026-11-23T21:30:00.000Z"
-        },
-        {
-          "id": "kptlnjapnw",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfs0259987.d.html",
-          "title": "美联储威廉姆斯：面对诸多重大挑战，经济一直保持韧性",
-          "publishedAt": "2026-11-23T21:34:00.000Z"
-        },
-        {
-          "id": "19hjko1h02f",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfn1986092.d.html",
-          "title": "美联储威廉姆斯：近期推动通胀上升的是一些不寻常的因素",
-          "publishedAt": "2026-11-23T21:35:00.000Z"
-        },
-        {
-          "id": "2dm66gjcwvw",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfn1986496.d.html",
-          "title": "美联储威廉姆斯：2027年将是通胀率较低的一年",
-          "publishedAt": "2026-11-23T21:36:00.000Z"
-        },
-        {
-          "id": "13ilqk1huz5",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfq7933018.d.html",
-          "title": "美联储威廉姆斯表示，企业有招聘意愿，但态度谨慎",
-          "publishedAt": "2026-11-23T21:40:00.000Z"
-        },
-        {
-          "id": "10v7ksqkglg",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-24/detail-inizupfq7936609.d.html",
-          "title": "美联储威廉姆斯：各方普遍认为，独立的央行能带来更好的经济成果",
-          "publishedAt": "2026-11-23T21:51:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 18,
-        "sources": [
-          "sina",
-          "cnbc-top"
-        ],
-        "firstPublishedAt": "2026-11-23T21:00:00.000Z"
-      }
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "b1zyi917hx",
@@ -1003,7 +1573,7 @@
         "fed",
         "macro-us"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "251i8w5otur",
@@ -1023,7 +1593,7 @@
         "fed",
         "macro-us"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "dkrkq68ecp",
@@ -1043,7 +1613,7 @@
         "fed",
         "macro-us"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "8j1ulmxttm",
@@ -1062,7 +1632,7 @@
       "topics": [
         "fed"
       ],
-      "dupOf": "1735iiavdq6"
+      "dupOf": "15ezitlhk8w"
     },
     {
       "id": "wfqcde3olo",
@@ -1269,35 +1839,18 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-24",
       "category": "industry",
-      "score": 23,
+      "score": 15,
       "topics": [
         "us-stocks"
       ],
       "excerpt": "Wall Street strategists say Jensen Huang’s return to Nvidia could steady the AI trade, though spending and data-center risks remain.",
-      "related": [
-        {
-          "id": "jxwb3bgx8v",
-          "sourceId": "marketwatch",
-          "sourceName": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/these-stocks-are-the-biggest-gainers-after-jensen-huangs-return-to-nvidia-bb886140?mod=mw_rss_topstories",
-          "title": "These stocks are the biggest gainers after Jensen Huang’s return to Nvidia",
-          "publishedAt": "2026-11-23T21:36:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "cnbc-top",
-          "marketwatch"
-        ],
-        "firstPublishedAt": "2026-11-23T18:00:47.000Z"
-      },
       "ai": {
         "title": "黄仁勋回归或止住市场抛售",
         "summary": "华尔街策略师认为黄仁勋回归有助于稳定AI交易。",
         "model": "glm-4.7-flash",
         "at": "2026-11-23T22:38:08.801Z"
-      }
+      },
+      "dupOf": "agln7zv8z6"
     },
     {
       "id": "czmq46tbjx",
@@ -4323,7 +4876,7 @@
       "firstSeenAt": "2026-11-23T03:43:04.188Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 34,
+      "score": 42,
       "topics": [
         "policy-us"
       ],
@@ -4377,14 +4930,32 @@
           "url": "https://finance.eastmoney.com/a/202611243937745232.html",
           "title": "特朗普亲口承认：是我促成了“黄仁勋的回归”",
           "publishedAt": "2026-11-23T18:41:00.000Z"
+        },
+        {
+          "id": "20sss3o8i8",
+          "sourceId": "cnbc-top",
+          "sourceName": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/23/anthropic-nvidia-shares.html",
+          "title": "黄仁勋回归后科技股大涨",
+          "publishedAt": "2026-11-23T21:22:13.000Z"
+        },
+        {
+          "id": "bz7sz9npc6",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/u-s-stocks-see-best-day-in-more-than-a-year-as-return-of-jensen-huang-revives-ai-enthusiasm-c3b9d274?mod=mw_rss_topstories",
+          "title": "U.S. stocks see best day in more than a year, as return of Jensen Huang revives AI enthusiasm",
+          "publishedAt": "2026-11-23T21:51:00.000Z"
         }
       ],
       "story": {
-        "reports": 7,
+        "reports": 9,
         "sources": [
           "cls",
           "em-focus",
-          "wscn-global"
+          "wscn-global",
+          "cnbc-top",
+          "marketwatch"
         ],
         "firstPublishedAt": "2026-11-23T03:09:30.000Z"
       }
@@ -33622,236 +34193,6 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-17T05:13:04.970Z"
       }
-    },
-    {
-      "id": "18mmzawwvph",
-      "key": "sina:5218748",
-      "title": "美国财政部长质疑英伟达公司的营收，其股价再度下跌",
-      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyyvsm1934352.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-17T00:12:00.000Z",
-      "firstSeenAt": "2026-11-17T05:05:03.313Z",
-      "day": "2026-11-17",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us",
-        "us-stocks"
-      ],
-      "excerpt": "英伟达股价于11月16日（周一）再次大幅下挫4.1%，收盘报156.14美元。 律所HBSS认为，此次下跌的直接导火索是美国财政部长斯科特·贝森特公开质疑英伟达的营收真实性与合规性，并要求该公司进行“剧烈的领导层改组”。"
-    },
-    {
-      "id": "1jskkr10kb6",
-      "key": "em:202611173932391413",
-      "title": "前白宫经济顾问警告：若AI泡沫破裂，基准情形标普500或下跌25%",
-      "url": "https://finance.eastmoney.com/a/202611173932391413.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-16T23:53:00.000Z",
-      "firstSeenAt": "2026-11-17T05:05:03.313Z",
-      "day": "2026-11-17",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us",
-        "us-stocks"
-      ],
-      "excerpt": "曾任美国白宫经济顾问委员会主席的杰森·福尔曼在一篇文章中写道，理解经济所面临风险的关键，是要对“如果AI是即将破裂的泡沫，股市可能跌多深”心里有数。福尔曼表示，如果AI是一个即将破裂的泡沫，基准情形下标普500指数或下跌25%；更悲观的情形是下跌35%，最坏但可能性极低的情形是下跌50%。",
-      "flag": 1
-    },
-    {
-      "id": "ynbhqpnwrq",
-      "key": "em:202611173932207946",
-      "title": "金价下探金饰消费升温 小克重产品走俏",
-      "url": "https://finance.eastmoney.com/a/202611173932207946.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-16T23:53:00.000Z",
-      "firstSeenAt": "2026-11-17T05:05:03.313Z",
-      "day": "2026-11-17",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "gold",
-        "cb-gold"
-      ],
-      "excerpt": "金价下调带动部分消费者到店选购金饰。11月16日，记者在北京菜市口百货商场走访时发现，尽管时值工作日，黄金首饰专区内依然人头攒动，不少消费者驻足询价、挑选款式。结账柜台前已排起了队伍。"
-    },
-    {
-      "id": "qzaywf40aw",
-      "key": "em:202611173932251112",
-      "title": "美联储加息新信号",
-      "url": "https://finance.eastmoney.com/a/202611173932251112.html",
-      "lang": "zh",
-      "sourceId": "em-cb",
-      "sourceName": "东方财富·全球央行",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-16T23:40:00.000Z",
-      "firstSeenAt": "2026-11-17T05:05:03.313Z",
-      "day": "2026-11-17",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed"
-      ],
-      "excerpt": "当地时间11月16日，美联储主席凯文·沃什发表主题为科技对生产力和就业影响的演讲。沃什表示，美联储工作人员已开始就AI对美国经济的潜在影响制定应急预案，涵盖从生产力繁荣、大规模失业、技术泡沫破裂的三种截然不同的路径。此外，克利夫兰联储主席哈马克表示，倾向于稳步、缓慢地逐步加息。如果通胀顽固，可能需要采取更大幅度的措施。"
-    },
-    {
-      "id": "1akymrmdyzz",
-      "key": "url:marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories",
-      "title": "Stanley Druckenmiller dumped these chip stocks while buying into SpaceX and Palantir",
-      "url": "https://www.marketwatch.com/story/stanley-druckenmiller-dumped-these-chip-stocks-while-buying-into-spacex-and-palantir-9ae1f078?mod=mw_rss_topstories",
-      "lang": "en",
-      "sourceId": "marketwatch",
-      "sourceName": "MarketWatch",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-16T23:28:00.000Z",
-      "firstSeenAt": "2026-11-17T05:05:03.313Z",
-      "day": "2026-11-17",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "Druckenmiller’s family office unloaded AMD and Sandisk shares in the third quarter.",
-      "ai": {
-        "title": "Stanley Druckenmiller减持芯片股，买入SpaceX和Pal…",
-        "summary": "其家族办公室在第三季度清仓AMD和SanDisk股份。",
-        "model": "glm-4.7-flash",
-        "at": "2026-11-17T05:13:04.970Z"
-      }
-    },
-    {
-      "id": "2db5xlfx5zr",
-      "key": "sina:5218702",
-      "title": "多重因素压制金价上涨 机构对后市看法产生分歧",
-      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyyvsm1910303.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-16T23:20:00.000Z",
-      "firstSeenAt": "2026-11-17T05:05:03.313Z",
-      "day": "2026-11-17",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed",
-        "gold",
-        "rates-fx",
-        "macro-us"
-      ],
-      "excerpt": "美国最新通胀数据公布后，国际金价近期再起波澜。美元走强、美债收益率上行以及市场对美联储进一步加息的预期，共同压制金价表现。Wind数据显示，11月16日，伦敦金现货价格盘中一度跌至3832.23美元/盎司，创2025年10月3日以来新低。近期，国际机构对金价走势作出最新研判。高盛下调今明两年年末金价预测，瑞银则继续看好黄金中长期配置价值。机构认为，较高的利率和强势美元仍是黄金面临的短期压力，央行购金与储备多元化需求则构成中长期支撑。（中国证券报）"
-    },
-    {
-      "id": "14knnregq4j",
-      "key": "em:202611173932212417",
-      "title": "债市盘中波动明显 配置资金入场承接",
-      "url": "https://finance.eastmoney.com/a/202611173932212417.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-16T23:14:00.000Z",
-      "firstSeenAt": "2026-11-17T05:05:03.313Z",
-      "day": "2026-11-17",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cn-bonds"
-      ],
-      "excerpt": "11月16日，信用债、利率债同步承压，多只信用债ETF近5个交易日累计跌逾1%，国债期货各期限主力合约全线收跌。令市场欣慰的是，当天，侨银转债到期兑付资金已足额交付，银行、保险资金也在债市调整中买入国债、地方债等品种。",
-      "flag": 1
-    },
-    {
-      "id": "ryh4g2ht3",
-      "key": "url:cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
-      "title": "Berkshire Hathaway raised its stake in Delta in the third quarter. It also trimmed a key bank holding",
-      "url": "https://www.cnbc.com/2026/11/16/berkshire-hathaway-raised-its-stake-in-delta-air-in-the-third-quarter.html",
-      "lang": "en",
-      "sourceId": "cnbc-top",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-16T23:01:19.000Z",
-      "firstSeenAt": "2026-11-17T05:05:03.313Z",
-      "day": "2026-11-17",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "Berkshire Hathaway added to several stock positions in the third quarter while trimming others, including Bank of America."
-    },
-    {
-      "id": "110n507av0f",
-      "key": "url:marketwatch.com/story/u-s-dollars-ai-driven-breakout-could-become-a-stock-market-wrecking-ball-18199b95?mod=mw_rss_topstories",
-      "title": "U.S. dollar’s AI-driven breakout could become a stock-market wrecking ball",
-      "url": "https://www.marketwatch.com/story/u-s-dollars-ai-driven-breakout-could-become-a-stock-market-wrecking-ball-18199b95?mod=mw_rss_topstories",
-      "lang": "en",
-      "sourceId": "marketwatch",
-      "sourceName": "MarketWatch",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-16T22:46:00.000Z",
-      "firstSeenAt": "2026-11-17T05:05:03.313Z",
-      "day": "2026-11-17",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "us-stocks",
-        "rates-fx"
-      ],
-      "excerpt": "The dollar recently climbed to its strongest level in a year and a half.",
-      "ai": {
-        "title": "美元AI驱动突破或成股市破坏性利器",
-        "summary": "美元近期升至一年半以来最强水平。",
-        "model": "glm-4.7-flash",
-        "at": "2026-11-17T05:13:04.970Z"
-      }
-    },
-    {
-      "id": "1yhtvycf79z",
-      "key": "sina:5218665",
-      "title": "美国国务院：鲁比奥在与巴林外交大臣通话中谴责伊朗对巴林的袭击，并重申对巴林安全的承诺",
-      "url": "https://finance.sina.cn/7x24/2026-11-17/detail-iniyyvsp5537681.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-16T22:42:00.000Z",
-      "firstSeenAt": "2026-11-17T05:05:03.313Z",
-      "day": "2026-11-17",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ]
-    },
-    {
-      "id": "17kq31su9tf",
-      "key": "url:cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
-      "title": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
-      "url": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
-      "lang": "en",
-      "sourceId": "cnbc-top",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-16T22:37:45.000Z",
-      "firstSeenAt": "2026-11-17T05:05:03.313Z",
-      "day": "2026-11-17",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "policy-us",
-        "us-stocks"
-      ],
-      "excerpt": "Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy."
     }
   ]
 }
