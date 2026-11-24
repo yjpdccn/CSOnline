@@ -206,7 +206,7 @@
       "category": "agent",
       "score": 31.1,
       "metrics": {
-        "points": 357,
+        "points": 358,
         "comments": 89
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50599762",
@@ -477,8 +477,8 @@
       "category": "industry",
       "score": 36,
       "metrics": {
-        "points": 1026,
-        "comments": 1003
+        "points": 1034,
+        "comments": 1007
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50597612",
       "aiAttempts": 2,
@@ -753,8 +753,8 @@
       "category": "paper",
       "score": 29.2,
       "metrics": {
-        "points": 180,
-        "comments": 543
+        "points": 181,
+        "comments": 551
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50595537",
       "aiAttempts": 2,
@@ -899,8 +899,8 @@
       "category": "paper",
       "score": 64,
       "metrics": {
-        "points": 695,
-        "comments": 440
+        "points": 709,
+        "comments": 447
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50601525",
       "alsoOn": [
@@ -983,10 +983,10 @@
         "Agent",
         "MCP"
       ],
-      "score": 23.1,
+      "score": 23.2,
       "metrics": {
         "points": 140,
-        "comments": 36
+        "comments": 37
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50593481",
       "ai": {
@@ -995,6 +995,36 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:00.036Z"
+      }
+    },
+    {
+      "id": "240gfanb2qg",
+      "key": "gh:developing-gamer/agent-sim",
+      "title": "Developing-Gamer/agent-sim",
+      "url": "https://github.com/Developing-Gamer/agent-sim",
+      "excerpt": "iOS simulators for AI agents, on Linux",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-21T20:26:12.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-22",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 16,
+      "metrics": {
+        "stars": 391
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Developing-Gamer/agent-sim 是一个在 Linux 上运行的 AI 代理 iOS 模拟器。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
       }
     },
     {

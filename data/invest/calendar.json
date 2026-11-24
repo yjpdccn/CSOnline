@@ -1,16 +1,6 @@
 {
-  "updatedAt": "2026-11-24T00:16:26.480Z",
+  "updatedAt": "2026-11-24T13:08:53.051Z",
   "events": [
-    {
-      "id": "wscn-15835",
-      "at": "2026-11-24T04:02:00.000Z",
-      "country": "中国",
-      "title": "中国央行：将招标发行2026年第十期和第十一期中央银行票据",
-      "importance": 3,
-      "kind": "event",
-      "source": "华尔街见闻",
-      "dateOnly": true
-    },
     {
       "id": "wscn-15836",
       "at": "2026-11-25T04:02:00.000Z",
@@ -174,6 +164,29 @@
       "source": "华尔街见闻",
       "dateOnly": true,
       "previous": "41.6",
+      "unit": "%"
+    },
+    {
+      "id": "wscn-1599940",
+      "at": "2026-12-09T01:30:00.000Z",
+      "country": "中国",
+      "title": "11月CPI同比 · 11月PPI同比",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "0.7",
+      "unit": "%"
+    },
+    {
+      "id": "wscn-1599951",
+      "at": "2026-12-09T04:02:00.000Z",
+      "country": "中国",
+      "title": "11月M2货币供应同比 · 1至11月社会融资规模增量(亿人民币) · 1至11月新增人民币贷款(亿人民币)",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "dateOnly": true,
+      "previous": "7.1",
       "unit": "%"
     }
   ],

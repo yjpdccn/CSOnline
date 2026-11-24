@@ -1011,41 +1011,41 @@
   },
   "2026-11-24": {
     "day": "2026-11-24",
-    "generatedAt": "2026-11-24T00:19:04.007Z",
-    "itemCount": 121,
+    "generatedAt": "2026-11-24T13:12:09.107Z",
+    "itemCount": 111,
     "mode": "ai",
     "model": "glm-4.7-flash",
-    "overview": "GLM-5.4发布，黄仁勋重返英伟达，Google Search升级AI模式。",
+    "overview": "文心5.5 Flash开源，Meta推出个人AI代理Muse，OpenAI与Anthropic员工担忧模型安全。",
     "points": [
       {
-        "text": "GLM-5.4上线，全新Loop Transformer架构亮相。",
+        "text": "文心5.5 Flash Preview正式开源，采用Apache 2.0协议。",
         "refs": [
-          "234rtzqbc1g"
+          "37nnqriud2"
         ]
       },
       {
-        "text": "黄仁勋恢复英伟达CEO职务，Elon Musk称错误已纠正。",
+        "text": "Meta推出个人AI代理Muse，用户可控制其完成任务。",
         "refs": [
-          "39sj51dajg",
-          "26x1e8a0pk"
+          "7l6n5n10ij",
+          "2bkl9ltj1x2"
         ]
       },
       {
-        "text": "Google Search推出更个性化AI模式，可连接Wallet和Drive。",
+        "text": "OpenAI与Anthropic员工警告内部模型能力过强，可能无法安全发布。",
         "refs": [
-          "jazjbna9r7"
+          "xeegtjrjcu"
         ]
       },
       {
-        "text": "Google DeepMind利用代理和形式验证寻找更快量子算法。",
+        "text": "蚂蚁OceanBase发布AI数据平台OceanLake，统一管理多模态数据。",
         "refs": [
-          "1b3b5ycpskn"
+          "1p08vh6huk1"
         ]
       },
       {
-        "text": "OpenAI与Cisco推出开源运行时Shirudo，保护部署系统。",
+        "text": "网易灵动与柳工达成战略合作，率先落地工程机械世界动作模型。",
         "refs": [
-          "1yj509geq5j"
+          "236jjd7cvyn"
         ]
       }
     ]

@@ -2,6 +2,1688 @@
   "day": "2026-11-24",
   "items": [
     {
+      "id": "1etl6m5c26n",
+      "key": "url:36kr.com/newsflashes/4083764431776385",
+      "title": "小鹏发布图灵世界模型 WorldGPT",
+      "url": "https://36kr.com/newsflashes/4083764431776385",
+      "excerpt": "36氪获悉，据小鹏汽车官微，近日，小鹏图灵世界模型家族新添一员——世界动作模型 WorldGPT。它在小鹏物理AI体系中作为云端teacher model，依托基座模型实现跨本体能力蒸馏和迁移，降低新本体的开发边际成本。同时，给它历史画面和指令，它会规划动作，预演世界随之发生的变化，看懂场景的语义与结构并用语言进行推理决策。据目前所知，这是首个能够在水、陆、空三栖六类本体完成预测与行动规划的世界模型。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T13:00:00.181Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "multimodal",
+      "score": 22
+    },
+    {
+      "id": "1zwy5fo40n5",
+      "key": "url:36kr.com/newsflashes/4083752835639683",
+      "title": "美股大型科技股盘前普跌，英伟达跌超4%",
+      "url": "https://36kr.com/newsflashes/4083752835639683",
+      "excerpt": "36氪获悉，美股大型科技股盘前普跌，截至发稿，SK海力士、英特尔跌超5%，英伟达、Anthropic跌超4%，Meta跌超1%，亚马逊跌0.86%，谷歌跌0.55%，微软跌0.43%，奈飞跌0.31%，特斯拉跌0.29%，苹果跌0.11%。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T12:48:12.409Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2b2kxif9t7",
+      "key": "url:36kr.com/p/4083749704116616",
+      "title": "最前线丨联想擎天发布敦煌城市超级智能体，统一多模态交互入口",
+      "url": "https://36kr.com/p/4083749704116616",
+      "excerpt": "到2027年中国70%的城市将在各系统与数据中部署AI智能体",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T12:45:19.548Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22
+    },
+    {
+      "id": "1440xcl62hm",
+      "key": "url:36kr.com/p/4083655386917251",
+      "title": "翻完11307次AI购物测试，我发现消费品牌的赚钱逻辑变了",
+      "url": "https://36kr.com/p/4083655386917251",
+      "excerpt": "AI入场，消费市场迎来新秩序",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T12:39:31.614Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1me7hviumd1",
+      "key": "url:36kr.com/newsflashes/4083736984152710",
+      "title": "谷歌计划收购伦敦国王十字区办公楼，进一步扩大英国AI研发中心",
+      "url": "https://36kr.com/newsflashes/4083736984152710",
+      "excerpt": "11月24日，谷歌宣布，公司计划收购位于伦敦国王十字区的6 Pancras Square大楼，以扩大其在伦敦的办公园区。谷歌表示，此次投资将与公司在伦敦的Central Saint Giles办公楼及即将启用的Platform 37项目共同构成重要的AI研发中心，预计相关办公场所将容纳数千名员工，参与Gemini、搜索和YouTube等产品的开发。（界面）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T12:32:04.911Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "u1rvho2ar",
+      "key": "url:the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science",
+      "title": "German researchers call for computer science to reinvent itself as \"Computer and AI Science\"",
+      "url": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
+      "excerpt": "In a position paper, TU Darmstadt researchers call for redefining computer science as \"Computer and AI Science.\" Their biggest concern is code generated on the fly at runtime, which they say upends today's safety and correctness guarantees. The article German researchers call fo…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-24T12:30:49.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "德国研究人员呼吁计算机科学更名为“计算机与 AI 科学”",
+        "summary": "德国研究人员呼吁将计算机科学更名为“计算机与 AI Science”。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
+    },
+    {
+      "id": "1c4ia6ducq1",
+      "key": "url:36kr.com/p/4083731217148545",
+      "title": "百度智能云等发起香港前沿科技产业发展联盟，助力具身智能企业拓展全球市场",
+      "url": "https://36kr.com/p/4083731217148545",
+      "excerpt": "百度智能云参与发起香港前沿科技联盟并获表彰",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T12:26:34.962Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18,
+      "dupOf": "1srl4chmmlm"
+    },
+    {
+      "id": "20idgjunji1",
+      "key": "url:36kr.com/p/4083642989848969",
+      "title": "公司买了Claude他偏不用，新人入职3个月却拒用AI，主管崩溃发帖：都2026年了，他还坚持“手搓代码”？",
+      "url": "https://36kr.com/p/4083642989848969",
+      "excerpt": "网友吵翻了：新人到底该不该用 AI？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T12:24:39.820Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1aeic61c38c",
+      "key": "url:36kr.com/p/4083727232625280",
+      "title": "12月9日，来MEET2027！听AI前沿实践者交出“判断”",
+      "url": "https://36kr.com/p/4083727232625280",
+      "excerpt": "MEET2027智能未来大会12月9日北京举办邀共探AI落地新局",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T12:22:44.025Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "11fwi6rj84j"
+    },
+    {
+      "id": "pngv47yj84",
+      "key": "url:36kr.com/p/4083642845615751",
+      "title": "字节“小豆”开启公测，大厂Personal Agent之战正式打响",
+      "url": "https://36kr.com/p/4083642845615751",
+      "excerpt": "服务生态先行布局，豆包开始试水Personal Agent",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T12:22:41.351Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "q4aymcxmxe",
+      "key": "url:infoq.cn/article/qEXNRNufkiFkiUEU9aae",
+      "title": "OceanBase发布AI数据平OceanLake！CEO杨冰：我们赌多模态，就像当年赌分布式一样",
+      "url": "https://www.infoq.cn/article/qEXNRNufkiFkiUEU9aae?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T12:21:09.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "multimodal",
+      "score": 22,
+      "dupOf": "1p08vh6huk1"
+    },
+    {
+      "id": "21odc4id2zu",
+      "key": "url:36kr.com/p/4083616236164741",
+      "title": "全网热议，月播放破6000万，“猫界李子柒”凭啥火遍海内外？",
+      "url": "https://36kr.com/p/4083616236164741",
+      "excerpt": "三只AI猫真挺萌的。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T12:12:11.512Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1665qlcsfgr",
+      "key": "url:36kr.com/p/4083614191921799",
+      "title": "史诗级逼空之后，AI交易狂欢能撑几天？",
+      "url": "https://36kr.com/p/4083614191921799",
+      "excerpt": "后劲貌似有点不足",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T12:09:57.890Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "cyjx8vyyrg",
+      "key": "url:36kr.com/p/4083682848827778",
+      "title": "Bonus独家｜小鹏机器人强化学习负责人陈杰已于10月底离职",
+      "url": "https://36kr.com/p/4083682848827778",
+      "excerpt": "量产倒计时已经开始。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T12:06:06.404Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1lv6ugsthn7",
+      "key": "url:36kr.com/p/4083606809193096",
+      "title": "杨幂的前老板，投了梁文锋",
+      "url": "https://36kr.com/p/4083606809193096",
+      "excerpt": "花1.5亿挤进DeepSeek。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T12:01:18.766Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "28krud05in0",
+      "key": "url:36kr.com/newsflashes/4083697698974342",
+      "title": "广东省新增36款已完成备案的生成式人工智能服务",
+      "url": "https://36kr.com/newsflashes/4083697698974342",
+      "excerpt": "36氪获悉，据网信广东，截至11月24日，广东省新增36款已完成备案的生成式人工智能服务，累计已完成266款生成式人工智能服务备案。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T11:52:07.134Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "ag04tuhoo8",
+      "key": "url:the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own",
+      "title": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own",
+      "url": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/",
+      "excerpt": "Anthropic has introduced Claude Ship, a new tool currently in beta that automatically reviews, corrects, and approves suggestions for code changes in accordance with team guidelines. The article Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on the…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-24T11:26:23.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "dupOf": "1yj509geq5j"
+    },
+    {
+      "id": "1jbxj4z27yh",
+      "key": "url:36kr.com/newsflashes/4083662425156229",
+      "title": "小米CFO林世伟：小米AI相关收入持续增加，今年160亿元AI投入正稳健落地",
+      "url": "https://36kr.com/newsflashes/4083662425156229",
+      "excerpt": "11月24日晚，小米集团CFO林世伟在财报电话会上表示，小米对AI的投入非常坚决，今年将在AI领域投入160亿元，目前正在沿着规划稳健落地，小米MiMo大模型的API调用量和AI相关收入都在持续增加。林世伟介绍称，小米AI业务现在还处于大规模投入期，除了持续投入基座模型的研发，还在加快推动AI落地“人车家全生态”，例如小米18 Fold就搭载了MiMo端侧大模型，澎湃OS 4的“超级小爱2.0”也深度集成了MiMo大模型。（证券时报）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T11:16:14.191Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "4hwnk2m4d6",
+      "key": "url:36kr.com/newsflashes/4083657973049992",
+      "title": "Anthropic盘前价格跌破发行价",
+      "url": "https://36kr.com/newsflashes/4083657973049992",
+      "excerpt": "36氪获悉，Anthropic美股盘前跌幅扩大至5%，跌破83美元的IPO发行价。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T11:11:42.456Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "15fluv55nvc",
+      "key": "url:36kr.com/p/4083605815044489",
+      "title": "谷歌Gemini 4破解量子计算“天书”，核聚变进度条拉满了",
+      "url": "https://36kr.com/p/4083605815044489",
+      "excerpt": "量子计算的天书开始有了译本",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T11:11:16.920Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "model",
+      "score": 24
+    },
+    {
+      "id": "1zh6yn4hm75",
+      "key": "url:36kr.com/p/4083605367761538",
+      "title": "黎曼猜想证明两天砍掉240万行，全球接力压缩，马斯克在线围观",
+      "url": "https://36kr.com/p/4083605367761538",
+      "excerpt": "DeepSeek、GPT、Gemini全上了",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T11:08:52.128Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2ahrlw0q4k5"
+    },
+    {
+      "id": "14sbn8upvbu",
+      "key": "url:36kr.com/newsflashes/4083654955772290",
+      "title": "长华集团：不从事人形机器人整机业务",
+      "url": "https://36kr.com/newsflashes/4083654955772290",
+      "excerpt": "36氪获悉，长华集团发布股票交易风险提示，公司为汽车零部件上市公司，主要从事汽车金属零部件的研发、生产与销售，核心产品为紧固件、冲焊件，不从事人形机器人整机业务，仅为客户提供执行器专用结构件等相关部件产品，截至目前实现营业收入约8.8万元，上述产品是基于公司主营业务产品应用场景的拓展，占公司总营业收入的比例极小，对净利润无重大影响。关于行星滚柱丝杠产品，目前仍处于研发阶段，尚未获得客户定点，也未实现营业收入，对业绩不构成影响。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T11:08:38.296Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1btuohx9zqv",
+      "key": "url:jiqizhixin.com/articles/2026-11-24-13",
+      "title": "看一遍就会，60ms出手，最强生产力模型来了",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-24-13",
+      "excerpt": "编辑｜Clio这几天 AI 圈最热闹的事，莫过于数学家与 AI 合作完成黎曼猜想证明所引发的世纪大讨论。从连乘法都算不明白，到拿下数学竞赛金牌，再到向困扰数学界百余年的黎曼猜想发起挑战，AI 似乎总在刷新人类对其能力边界的认知。照这个势头发展下去，《终结者》《黑客帝国》要从科幻片变成纪录片了…...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T11:06:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "72puxqqh52",
+      "key": "url:36kr.com/p/4083538774333061",
+      "title": "谷歌又出新招，AI搜索接入消费记录，连你花了多少钱都知道",
+      "url": "https://36kr.com/p/4083538774333061",
+      "excerpt": "个人数据或影响广告推荐，这次有点吓人了。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T11:03:30.632Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1dbcww2gksi",
+      "key": "url:jiqizhixin.com/articles/2026-11-24-12",
+      "title": "EMNLP 2026杰出论文 | 统一多模态模型，想对了却画错了？UCSD、USC、UIUC与CMU提出UReason",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-24-12",
+      "excerpt": "如今，许多统一多模态模型（Unified Multimodal Models，UMMs）在生成图像时采用「先想后画」策略（[1-7]）：模型先用文字进行推理，再根据推理结果进行图像生成。但一个很少被大家追问的问题是：模型在文字里已经想清楚的东西，是否真的会被画出来？比如下面的这个例子。给定一段...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T10:58:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "paper",
+      "keywords": [
+        "图像生成"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1ny6vhyfzv8",
+      "key": "url:36kr.com/p/4083520759600768",
+      "title": "具身智能48小时三笔亿元级融资：热钱全绕开了“人形整机”",
+      "url": "https://36kr.com/p/4083520759600768",
+      "excerpt": "2026年末具身智能热钱逃离整机，转向务实赛道",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T10:56:25.702Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "xeegtjrjcu",
+      "key": "url:36kr.com/newsflashes/4083638440356233",
+      "title": "OpenAI与Anthropic员工警告：内部AI模型能力过于强大，可能已无法安全发布",
+      "url": "https://36kr.com/newsflashes/4083638440356233",
+      "excerpt": "二十余名知情人士透露，OpenAI和Anthropic尚未公开发布的AI模型能力正迅速提升，部分内部研究人员认为，现有安全技术已难以有效控制这些模型，其能力增长速度正在超过人类监控和约束它们的能力。新一代模型在数学、科学、网络安全及AI研究等领域取得重大突破，但内部测试也发现，模型越来越善于利用奖励机制漏洞绕过安全限制，甚至能够隐藏真实推理过程，或向监控人员提供具有误导性的推理记录。相关问题已在两家公司内部引发激烈争论，部分研究人员主张停止公开发布未来的前沿模型，仅允许有限的内部部署，另有人员甚至呼吁暂停训练更先进的模型。OpenAI表示已采用可能延缓…",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T10:51:50.275Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 30,
+      "related": [
+        {
+          "id": "zmarvwnsp2",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/openai-warns-that-upcoming-ai-systems-could-outpace-safety-checks-and-urges-rivals-to-agree-on-shared-limits/",
+          "title": "OpenAI 警告 AI 系统可能超越安全检查",
+          "publishedAt": "2026-11-23T18:42:38.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-11-23T18:42:38.000Z"
+      },
+      "ai": {
+        "summary": "OpenAI 与 Anthropic 员工警告内部 AI 模型能力过于强大，可能无法安全发布。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
+    },
+    {
+      "id": "t5u6hjnexg",
+      "key": "url:36kr.com/p/4083506567206788",
+      "title": "AI 办公入口之争：字节 20 亿元 vs 腾讯 5 亿美元",
+      "url": "https://36kr.com/p/4083506567206788",
+      "excerpt": "字节腾讯AI办公走不同路径，入口之争刚启",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T10:42:59.562Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1s5t4cwj2bo",
+      "key": "url:36kr.com/p/4083617474833031",
+      "title": "为什么华为云需要Soul？",
+      "url": "https://36kr.com/p/4083617474833031",
+      "excerpt": "中国版“Muse-Muse Charm”的完整生态，可能会先从Soul身上长出来。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T10:31:21.629Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "269qdparqqj",
+      "key": "url:36kr.com/p/4083348830393988",
+      "title": "中国脑机加速 距离赛博飞升更进一步",
+      "url": "https://36kr.com/p/4083348830393988",
+      "excerpt": "中国植入式脑机接口手部功能设备已正式进入临床诊疗。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T10:14:03.715Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "293nak0m3ja",
+      "key": "url:jiqizhixin.com/articles/2026-11-24-11",
+      "title": "具身智能商业化提速！网易灵动与柳工达成战略合作，单季作业量超去年全年",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-24-11",
+      "excerpt": "11月24日，上海宝马工程机械展（bauma CHINA 2026）现场，网易旗下具身智能品牌网易灵动与柳工集团正式签署战略合作，计划推进AI原生挖掘机规模量产与出海，并真机演示了首款多模态交互AI挖掘机的自动装车全流程。同时，网易灵动率先推出面向工程机械工况的世界动作模型（WAM，World...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T10:05:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18,
+      "dupOf": "236jjd7cvyn"
+    },
+    {
+      "id": "236jjd7cvyn",
+      "key": "url:36kr.com/newsflashes/4083586155833729",
+      "title": "网易灵动与柳工达成战略合作，率先落地工程机械世界动作模型",
+      "url": "https://36kr.com/newsflashes/4083586155833729",
+      "excerpt": "36氪获悉，上海宝马工程机械展现场，网易旗下具身智能品牌网易灵动与柳工集团正式签署战略合作，计划推进AI原生挖掘机规模量产与出海，并真机演示了首款多模态交互AI挖掘机的自动装车全流程。同时，网易灵动率先推出面向工程机械工况的世界动作模型，在作业中实时预判料堆坍塌、碰撞风险与车斗料面变化，还同步披露了装载机器人在核电、港口等国家级核心场景的规模化运营成绩，单季度作业量更超越去年全年总和，AI承担核心生产任务超85%。灵动已率先实现工程机械具身智能的批量化商业落地。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T09:58:39.081Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 26,
+      "related": [
+        {
+          "id": "293nak0m3ja",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-24-11",
+          "title": "具身智能商业化提速！网易灵动与柳工达成战略合作，单季作业量超去年全年",
+          "publishedAt": "2026-11-24T10:05:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-24T09:58:39.081Z"
+      },
+      "ai": {
+        "summary": "网易灵动与柳工达成战略合作，率先落地工程机械世界动作模型。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
+    },
+    {
+      "id": "wpvk8c64c3",
+      "key": "url:jiqizhixin.com/articles/2026-11-24-10",
+      "title": "迈向具身智能的GPT时刻！Einsia AI开源首个万级具身RL环境RoboUniverse-10K",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-24-10",
+      "excerpt": "大模型依靠互联网海量文本，跑通了 Scaling Law，实现了通用智能的涌现。代码模型靠 SWE-Gym、SWE-smith、SWE-Universe 把真实的 GitHub 仓库和 PR 批量做成可执行环境，一路用 RL 打上了 SWE-bench 前列。今天，具身智能正站在同样的拐点。但...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T09:54:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "opensource",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 22,
+      "ai": {
+        "summary": "Einsia AI 开源首个万级具身 RL 环境 RoboUniverse-10K。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
+    },
+    {
+      "id": "u259wv6xza",
+      "key": "url:jiqizhixin.com/articles/2026-11-24-9",
+      "title": "多教师LLM蒸馏新突破：从参数更新几何出发，PMOPD让模型同时学好数学、推理与代码",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-24-9",
+      "excerpt": "大模型训练中的能力聚合让同一个大语言模型兼具处理多种任务的复合能力，是后训练的重要目标。在在线策略蒸馏（OPD）出现之前，SFT 和 RL 阶段的能力聚合主要依靠两类方法：1. 数据聚合，即混合不同任务的训练数据。2. 参数合并，即分别训练领域模型，再合并其参数。这些方法能够整合多领域能力，但...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T09:49:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "PMOPD 让模型同时学好数学、推理与代码。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
+    },
+    {
+      "id": "16c8ylt7s2k",
+      "key": "url:36kr.com/p/4083517608814984",
+      "title": "字节在巴西找到乌兰察布",
+      "url": "https://36kr.com/p/4083517608814984",
+      "excerpt": "算力出海，布局巴西。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T09:33:28.191Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1zr49kukcs6",
+      "key": "url:36kr.com/p/4083401679738497",
+      "title": "AI公司的控制权，不再写在股权里",
+      "url": "https://36kr.com/p/4083401679738497",
+      "excerpt": "资本层面的控制权，只是博弈的上半场",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T08:55:52.919Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2ghbq13riqk",
+      "key": "url:36kr.com/p/4083452353664896",
+      "title": "阿莫迪让 AI自己“长”出道德，终于见效了？",
+      "url": "https://36kr.com/p/4083452353664896",
+      "excerpt": "OpenAI为安全暂停训练，证明Anthropic的“装神弄鬼”更有效。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T08:47:32.212Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1rkb3eszq3w",
+      "key": "url:leiphone.com/category/industrynews/b7Pw487MPHsDMSyR.html",
+      "title": "蚂蚁OceanBase交出六年政企成绩单：服务22个省级数字政府、三分之一央企核心系统",
+      "url": "https://www.leiphone.com/category/industrynews/b7Pw487MPHsDMSyR.html",
+      "excerpt": "随着人工智能加速进入政务与央国企核心业务，数据底座不仅要稳定承载关键系统，也开始支撑生产级AI应用。 11月24日，蚂蚁OceanBase在北京举办AI数据大会，正式发布湖库一体的OceanLake AI数据平台，并披露2026年经营进展。2026年，OceanBase专有云金融和政企客户总数增长50%，其中政企客户数首次与金融客户数持平，成为专有云业务的重要增长力量。 目前，OceanBase已服务22个省级数字政府和数百家央国企，进入约三分之一央企的核心业务系统，覆盖通信、能源、交通等关键行业，并为服务10亿人的医保“一码通”提供数据底座。从政务和…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T08:36:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1srl4chmmlm",
+      "key": "url:leiphone.com/category/industrynews/uFuwhvMHGUY0Qeu0.html",
+      "title": "百度智能云等发起香港前沿科技产业发展联盟，助力具身智能企业拓展全球市场",
+      "url": "https://www.leiphone.com/category/industrynews/uFuwhvMHGUY0Qeu0.html",
+      "excerpt": "11月23日，第十六届香港国际金融论坛暨第七届领航“9+2”粤港澳大湾区发展论坛举办。作为论坛重要活动，香港国际具身智能领袖峰会同期举行，并正式发布香港前沿科技产业发展联盟。该联盟由百度智能云、香港特区政府商务及经济发展局、香港特区政府创新科技署、投资家网，以及智平方、零次方、众擎、地瓜机器人、帕西尼、贝塔无限、零次方、破壳、亮源新创、松应、智动未来等企业共同发起，将依托大湾区产业基础和香港国际化优势，聚焦人工智能、智能装备、数字经济等领域，搭建技术、场景、资本与国际资源的对接平台，推动具身智能等企业开展技术验证、场景落地和海外合作。 香港前沿科技产业…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T08:33:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 26,
+      "related": [
+        {
+          "id": "1c4ia6ducq1",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4083731217148545",
+          "title": "百度智能云等发起香港前沿科技产业发展联盟，助力具身智能企业拓展全球市场",
+          "publishedAt": "2026-11-24T12:26:34.962Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "leiphone",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-24T08:33:00.000Z"
+      },
+      "ai": {
+        "summary": "百度智能云等发起香港前沿科技产业发展联盟，助力具身智能企业拓展全球市场。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
+    },
+    {
+      "id": "sfs70w30lj",
+      "key": "url:leiphone.com/category/industrynews/ubwFeDsrkrcQf1BB.html",
+      "title": "华金证券接入千问办公，73个技能重塑投研风控全流程",
+      "url": "https://www.leiphone.com/category/industrynews/ubwFeDsrkrcQf1BB.html",
+      "excerpt": "近日，华金证券股份有限公司（以下简称\"华金证券\"）正式接入千问办公，围绕权益投资的事前研究、事中管理、事后监控三大核心环节，打造\"投研、投管、投监\"三位一体AI工作台。该工作台已沉淀73个成熟的专业AI技能，将盘前研究准备时间从2小时压缩至10分钟以内，推动证券自营业务从\"人工搬数据\"迈向\"AI驱动判断\"的新阶段。 华金证券是珠海华发集团重要成员企业，总部位于上海自贸区，拥有全牌照业务资格。证券自营业务对数据时效性、口径一致性和合规留痕要求极高，研究员与风控岗的大量时间长期消耗在多系统对接数据和手工计算上，专业经验散落在个人Excel与制度附件中，难以…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T08:01:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "sqkvamghhq",
+      "key": "url:36kr.com/p/4083291055248517",
+      "title": "都在用AI了，治理反而更难",
+      "url": "https://36kr.com/p/4083291055248517",
+      "excerpt": "都在用AI了，治理反而更难",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T07:50:55.363Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2abqkw3tvn4",
+      "key": "url:geekpark.net/news/374417",
+      "title": "华为星芒O1 Pro，如何把手机 AI 再往前努一小步",
+      "url": "http://www.geekpark.net/news/374417",
+      "excerpt": "随着 iOS 27.2 的更新，中国大陆用户日盼夜盼的苹果智能，终于露出了一小手，但各种原因吧，仍然是犹抱琵琶半遮面。 如果对消费电子看得比较多的同学，可能会感到现在手机 AI 比较割裂。既有大厂在一点点摸索，上了 AI，但是散落在键盘、录音、文字记录、笔记等等各个功能之中；然后也有来自字节、阶跃这样的挑战者，走的是 Rabbit R1 的路子，想用一个 AI 助手，一杆子捅到底，然后被互联网大厂南墙撞得头破血流。 星芒 OSTA O1 Pro 采用了阔直板形式｜图片来源：极客公园 历史肯定是要发展的，但道路无疑注定是曲折的，先进的技术，未必总是一开始…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T07:47:16.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "dc7yqby0uf",
+      "key": "url:leiphone.com/category/industrynews/HXbRi8ascVBkUsJP.html",
+      "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，CTO杨传辉解读三大能力",
+      "url": "https://www.leiphone.com/category/industrynews/HXbRi8ascVBkUsJP.html",
+      "excerpt": "11月24日，蚂蚁OceanBase AI数据大会在北京召开。OceanBase正式发布湖库一体AI数据平台OceanLake，并宣布开源其核心引擎AI数据库OceanSeek。OceanBase CTO杨传辉在大会分享中透露了背后的技术思考，他认为，面向AI时代，数据基础设施需要具备湖库一体、在离线一体、Agent友好和多模混合搜索等关键能力，为企业AI应用提供统一的数据底座。 Agent访问量半年增长13倍，传统架构难以支撑 杨传辉的判断来自蚂蚁真实业务及OceanBase自身的AI实践，大会披露的一组数据显示：主要面向Agent调用的MCP访问量…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T07:38:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "MCP"
+      ],
+      "score": 22,
+      "dupOf": "1p08vh6huk1"
+    },
+    {
+      "id": "209trtoi4uz",
+      "key": "url:36kr.com/p/4083271642126210",
+      "title": "AI人才进产业，难的不是技术，是孤独感",
+      "url": "https://36kr.com/p/4083271642126210",
+      "excerpt": "AI人才不是越顶级越好。适合你的，才有可能留下来。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T07:35:31.792Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1nue43kph4",
+      "key": "url:36kr.com/p/4083253957842820",
+      "title": "困惑度，为什么成了衡量RSI进度的“度量衡”？",
+      "url": "https://36kr.com/p/4083253957842820",
+      "excerpt": "2027年就能实现RSI？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T07:30:40.638Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "6dwq1djfmb",
+      "key": "url:36kr.com/p/4083379220130183",
+      "title": "黄仁勋回归16小时：全球科技股疯涨，硅谷AI圈狂欢，董事会曝大瓜",
+      "url": "https://36kr.com/p/4083379220130183",
+      "excerpt": "老黄“休假11天”后回归，网友玩梗：GTA 6通关了。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T07:25:33.159Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "khivgwknz7"
+    },
+    {
+      "id": "13f98zy4x4r",
+      "key": "url:jiqizhixin.com/articles/2026-11-24-8",
+      "title": "Manifold AI 流形空间联合清华等开源手部世界模型评测基准 HandWorldBench：从指尖出发的世界模型标尺",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-24-8",
+      "excerpt": "世界模型既能为机器人提供模拟环境，也能作为决策核心参与任务规划，帮助机器人预判动作后果。随着机器人任务从移动、搬运延伸到拧瓶盖、装零件，准确预测手与物体的交互越来越重要。然而，现有评测有的看画质，有的看任务成败，有的测手部姿态误差，手部世界模型至今仍缺少统一的评测标准。难点在于：不仅要看手的动...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T07:25:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "multimodal",
+      "score": 22
+    },
+    {
+      "id": "1p08vh6huk1",
+      "key": "url:leiphone.com/category/industrynews/vo7BI6hIy3wL6Mi4.html",
+      "title": "蚂蚁OceanBase发布AI数据平台：统一管理多模态数据，为Agent提供业务上下文",
+      "url": "https://www.leiphone.com/category/industrynews/vo7BI6hIy3wL6Mi4.html",
+      "excerpt": "11月24日，蚂蚁OceanBase AI数据大会在北京召开。OceanBase CEO杨冰在会上表示，当模型越来越先进，Agent基建越来越成熟，挑战终将回归数据。面向这一变化，AI时代的数据基础设施应坚持“湖库一体、多模融合、Agent友好、开源开放”四大原则。围绕这一方向，OceanBase正式发布AI战略产品——湖库一体AI数据平台OceanLake，并宣布向全球开源其核心引擎AI数据库，邀请开发者和产业伙伴共同建设面向AI的数据基础设施。 杨冰认为，当前企业的智能化转型远不及预期。其一，模型能力的商品化已经完成，能力迅速提升、成本持续下降，模…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T07:18:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 38,
+      "related": [
+        {
+          "id": "zbzviisgdn",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/512330.html",
+          "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源",
+          "publishedAt": "2026-11-24T03:30:46.000Z"
+        },
+        {
+          "id": "dc7yqby0uf",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/HXbRi8ascVBkUsJP.html",
+          "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，CTO杨传辉解读三大能力",
+          "publishedAt": "2026-11-24T07:38:00.000Z"
+        },
+        {
+          "id": "q4aymcxmxe",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/qEXNRNufkiFkiUEU9aae?utm_source=rss&utm_medium=article",
+          "title": "OceanBase发布AI数据平OceanLake！CEO杨冰：我们赌多模态，就像当年赌分布式一样",
+          "publishedAt": "2026-11-24T12:21:09.000Z"
+        }
+      ],
+      "story": {
+        "reports": 4,
+        "sources": [
+          "leiphone",
+          "qbitai",
+          "infoq-cn"
+        ],
+        "firstPublishedAt": "2026-11-24T03:30:46.000Z"
+      },
+      "ai": {
+        "summary": "蚂蚁 OceanBase 发布 AI 数据平台 OceanLake，统一管理多模态数据。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
+    },
+    {
+      "id": "xlhe4ciaf1",
+      "key": "url:36kr.com/p/4083298663420806",
+      "title": "“试用期”已到，苹果开始给 AI 收费了",
+      "url": "https://36kr.com/p/4083298663420806",
+      "excerpt": "两年之期已到",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T07:17:05.180Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "s871k5ne5t",
+      "key": "url:leiphone.com/category/medigital/P6Ota0mqLwk8wsN2.html",
+      "title": "从“望闻问切”到开源模型，蚂蚁阿福加速打通AI健康服务闭环",
+      "url": "https://www.leiphone.com/category/medigital/P6Ota0mqLwk8wsN2.html",
+      "excerpt": "大模型进入医疗健康行业后，最先被改变的是“问”。 健康问答、报告解读、预问诊、挂号导诊，用户只需输入一段文字，AI就能迅速给出看似专业的回答。但健康服务真正漫长的部分，往往发生在提问之后：患者描述的信息是否完整，AI的建议能否得到医生确认，院外数据能否持续沉淀，健康方案能否长期执行，最终又由谁为健康改善付费。 这些问题，决定了医疗AI能否从一种新型交互工具，变成真正可持续的健康服务。 11月23日，2026蚂蚁阿福医疗健康生态大会在广州举行。蚂蚁阿福发布新版App，上线实时视频“看健康”功能，升级面向全家人的“AI健康管家”，并推出AI健康手环和AI健…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T07:13:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "model",
+      "keywords": [
+        "开源模型"
+      ],
+      "score": 28,
+      "dupOf": "2a3smb2g3b9"
+    },
+    {
+      "id": "cfr9whcl4a",
+      "key": "url:qbitai.com/2026/11/512370.html",
+      "title": "Google Cloud 出海峰会报名开启",
+      "url": "https://www.qbitai.com/2026/11/512370.html",
+      "excerpt": "2027 Google Cloud 出海峰会将于 1 月 14 日在北京中关村国际创新中心举行",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T06:52:29.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1w2g3c0317w",
+      "key": "url:qbitai.com/2026/11/512362.html",
+      "title": "业界首提“端侧超节点”，让端侧AI组队计算：AI效率暴涨270%，不用换芯片或模型",
+      "url": "https://www.qbitai.com/2026/11/512362.html",
+      "excerpt": "端侧老炮辛米尔，打通物理AI规模化落地之路",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T06:35:06.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "pt40nyvwhq",
+      "key": "url:jiqizhixin.com/articles/2026-11-24-7",
+      "title": "豆包个人AI助理产品“小豆”开启邀请制公测",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-24-7",
+      "excerpt": "11月24日，豆包旗下个人AI助理产品“小豆”开启公测。小豆是豆包在个人智能体（Personal Agent）方向推出的一款探索性产品，目前采用邀请制开放体验。豆包方面透露，小豆的相关能力和体验未来也将逐步放开，在豆包主端推出，为更多豆包用户提供服务。据介绍，在问答、信息检索的基础上，小豆更侧...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T06:31:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "rld48whnm6",
+      "key": "url:jiqizhixin.com/articles/2026-11-24-6",
+      "title": "从识别疾病到预测风险，蚂蚁百灵开源医疗健康预测模型LingSante Pulse",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-24-6",
+      "excerpt": "AI在医疗健康领域的应用，正在从疾病识别、健康咨询向更长期的健康风险预测延伸。11 月 24 日，蚂蚁百灵宣布开源医疗健康预测模型 LingSante Pulse，可通过理解人体日常产生的生理信号，预测未来六年内150种疾病表型的发生风险。不同于传统模型主要针对某一种生理信号或特定疾病进行训练...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T06:25:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "opensource",
+      "score": 22,
+      "dupOf": "2efqava3t57"
+    },
+    {
+      "id": "156r8wj7yfe",
+      "key": "url:qbitai.com/2026/11/512354.html",
+      "title": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议",
+      "url": "https://www.qbitai.com/2026/11/512354.html",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T06:22:28.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "opensource",
+      "score": 22,
+      "dupOf": "37nnqriud2"
+    },
+    {
+      "id": "2frn7abglbj",
+      "key": "url:qbitai.com/2026/11/512348.html",
+      "title": "八年研发，首搭方程豹钛9，全球首个折叠方向盘量产上车",
+      "url": "https://www.qbitai.com/2026/11/512348.html",
+      "excerpt": "11月19日，方程豹钛9上市，售价27.99万元起",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T06:15:38.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "o6kpqbqy9l",
+      "key": "url:infoq.cn/article/iRm9lBSQj0OCvDdgLQrO",
+      "title": "当 AI 改变一切，下一步如何构建？",
+      "url": "https://www.infoq.cn/article/iRm9lBSQj0OCvDdgLQrO?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T06:12:36.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1x9r1jmfa54",
+      "key": "url:qbitai.com/2026/11/512343.html",
+      "title": "巴新总理见证，仰望U8交付巴布亚新几内亚市场",
+      "url": "https://www.qbitai.com/2026/11/512343.html",
+      "excerpt": "2026年11月18日，中国深圳——APEC会议期间，比亚迪仰望U8正式交付巴布亚新几内亚市场",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T06:12:16.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "7l6n5n10ij",
+      "key": "url:about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control",
+      "title": "Introducing Muse in the UK: A Personal AI Agent You Control",
+      "url": "https://about.fb.com/news/2026/11/introducing-muse-in-the-uk-a-personal-ai-agent-you-control/",
+      "excerpt": "Muse is now in the UK: a personal AI agent that doesn't just answer questions, but one that you can task to get things done on your behalf The post Introducing Muse in the UK: A Personal AI Agent You Control appeared first on Meta Newsroom.",
+      "lang": "en",
+      "sourceId": "meta",
+      "sourceName": "Meta",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-24T06:00:40.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 34,
+      "ai": {
+        "title": "Meta 推出个人 AI 代理 Muse，用户可控制其完成任务",
+        "summary": "Meta 在英国推出个人 AI 代理 Muse，用户可将其连接应用并指派任务。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
+    },
+    {
+      "id": "2bkl9ltj1x2",
+      "key": "url:about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control",
+      "title": "Muse Now Available in the UK: Muse Does the Work, You Stay in Control",
+      "url": "https://about.fb.com/news/2026/11/muse-now-available-in-the-uk-muse-does-the-work-you-stay-in-control/",
+      "excerpt": "Muse, Meta’s personal AI agent, is now available to adults in the UK. Think of it as a helping hand for the jobs that pile up, like chasing a refund, renewing car insurance or keeping on top of the school calendar. To get those jobs done you can connect Muse to the apps you alre…",
+      "lang": "en",
+      "sourceId": "meta",
+      "sourceName": "Meta",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-24T06:00:04.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 30,
+      "ai": {
+        "title": "Meta 的个人 AI 代理 Muse 现已登陆英国，用户保持控制权",
+        "summary": "Meta 的个人 AI 代理 Muse 现已面向英国成年人开放，可帮助处理退款、续保等任务。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
+    },
+    {
+      "id": "21z6h0jvxku",
+      "key": "url:infoq.cn/article/sFmubmDWkulIOTBLX0Dr",
+      "title": "谷歌发现，技术债务会通过“智能体分心”导致编码智能体偏离正轨",
+      "url": "https://www.infoq.cn/article/sFmubmDWkulIOTBLX0Dr?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T05:00:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "1v2i6g5gqfp",
+      "key": "url:jiqizhixin.com/articles/2026-11-24-5",
+      "title": "Gemini智能体寻找更快的量子算法，DeepMind引入形式化验证",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-24-5",
+      "excerpt": "编辑丨&量子计算能否真正解决复杂的科学问题，不仅取决于量子芯片能够容纳多少量子比特，也取决于算法本身是否足够高效。对于聚变模拟、分子动力学和药物代谢研究，现有量子算法仍然需要大量经过纠错的逻辑量子比特和量子门操作，远超早期容错量子计算机可能提供的资源。11 月 23 日，Google ...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T04:41:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "dupOf": "1b3b5ycpskn"
+    },
+    {
+      "id": "172i33ni21p",
+      "key": "url:infoq.cn/video/Q0rXqh3OmSAhcePiDjh2",
+      "title": "数据分析的下一站：智能体分析",
+      "url": "https://www.infoq.cn/video/Q0rXqh3OmSAhcePiDjh2?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T04:40:02.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "13ns4jh5n66",
+      "key": "url:infoq.cn/video/UU3P37LW5IE6Xg4O0cSN",
+      "title": "超越试点：销售管理者的 AI 转型行动指南",
+      "url": "https://www.infoq.cn/video/UU3P37LW5IE6Xg4O0cSN?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T04:36:05.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1xrdpo8jhl7",
+      "key": "url:36kr.com/p/4083259280561031",
+      "title": "国产大模型的黄仁勋变量",
+      "url": "https://36kr.com/p/4083259280561031",
+      "excerpt": "黄仁勋回归了，可国产大模型的天就亮了吗？",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T04:26:25.884Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "37nnqriud2",
+      "key": "url:leiphone.com/category/industrynews/X2LHtIreyiO6depw.html",
+      "title": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议",
+      "url": "https://www.leiphone.com/category/industrynews/X2LHtIreyiO6depw.html",
+      "excerpt": "11 月 24 日，文心 5.5 Flash Preview（ERNIE 5.5 Flash Preview）正式开源，采用 Apache 2.0 协议面向全球开源社区开放。开发者可在 Hugging Face、ModelScope 平台获取模型权重与配套资源，进行本地部署与二次开发，支持 vLLM、SGLang 等主流推理框架进行部署。 文心 5.5 Flash Preview总参数量达 2800 亿，每个 Token 激活 140 亿参数，支持最长 100 万 Token 的上下文，在编程、3D 建模、知识工作、内容创作等方面表现突出，在Termi…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T04:10:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "opensource",
+      "keywords": [
+        "本地部署"
+      ],
+      "score": 30,
+      "related": [
+        {
+          "id": "156r8wj7yfe",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/512354.html",
+          "title": "文心 5.5 Flash Preview正式开源，采用 Apache 2.0 协议",
+          "publishedAt": "2026-11-24T06:22:28.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "leiphone",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-11-24T04:10:00.000Z"
+      },
+      "ai": {
+        "summary": "文心 5.5 Flash Preview 正式开源，采用 Apache 2.0 协议。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
+    },
+    {
+      "id": "14rrmnts0jm",
+      "key": "url:36kr.com/p/4083223643542401",
+      "title": "GPT、Claude、Gemini同台竞技，最新成绩来了",
+      "url": "https://36kr.com/p/4083223643542401",
+      "excerpt": "复杂柔性操作难倒一众大模型。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T03:55:15.197Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "model",
+      "score": 24
+    },
+    {
+      "id": "i8mododbvn",
+      "key": "url:simonwillison.net/2026/Nov/24/datasette-agent",
+      "title": "datasette-agent 0.7a1",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+      "excerpt": "Release: datasette-agent 0.7a1 I small improvement to Datasette Agent: chat sessions can open an iframe side panel, and that panel can then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that…",
+      "lang": "en",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "sourceGroup": "blogger",
+      "publishedAt": "2026-11-24T03:45:57.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "opensource",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 14,
+      "ai": {
+        "title": "datasette-agent 0.7a1 发布",
+        "summary": "datasette-agent 0.7a1 版本发布，改进了会话侧边栏导航。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
+    },
+    {
+      "id": "11fwi6rj84j",
+      "key": "url:qbitai.com/2026/11/512329.html",
+      "title": "报名从速｜来MEET2027！听AI前沿实践者交出“判断”",
+      "url": "https://www.qbitai.com/2026/11/512329.html",
+      "excerpt": "12.9 北京，来MEET2027现场",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T03:33:48.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 26,
+      "related": [
+        {
+          "id": "1aeic61c38c",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4083727232625280",
+          "title": "12月9日，来MEET2027！听AI前沿实践者交出“判断”",
+          "publishedAt": "2026-11-24T12:22:44.025Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "qbitai",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-24T03:33:48.000Z"
+      },
+      "ai": {
+        "summary": "报名从速｜来 MEET2027！听 AI 前沿实践者交出“判断”。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
+    },
+    {
+      "id": "zbzviisgdn",
+      "key": "url:qbitai.com/2026/11/512330.html",
+      "title": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，核心引擎向全球开源",
+      "url": "https://www.qbitai.com/2026/11/512330.html",
+      "excerpt": "中国AI数据平台加速崛起",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T03:30:46.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "model",
+      "score": 28,
+      "dupOf": "1p08vh6huk1"
+    },
+    {
+      "id": "19ps5s2nzrz",
+      "key": "url:jiqizhixin.com/articles/2026-11-24-4",
+      "title": "560B开源，医疗健康版DeepSeek来了！",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-24-4",
+      "excerpt": "编辑｜杜伟、冷猫现在，只需要说出一句「我头疼」，AI 就可以迅速列出偏头痛、紧张性头痛等一系列可能的病因。但在真实的医疗场景中，医生通常会先追问：头疼多长时间了？怎么个疼法？还有没有其他症状？最近有没有发生特殊情况？只有一一厘清这些信息，医生才能分析可能的病因，判断后续是否需要检查或转诊。这套...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T03:24:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "opensource",
+      "score": 22,
+      "dupOf": "2efqava3t57"
+    },
+    {
+      "id": "2316uq9znv7",
+      "key": "url:qbitai.com/2026/11/512305.html",
+      "title": "释放AI与出海强预期，近1500人参与亿邦产业互联网年会暨首届产业智能体大会",
+      "url": "https://www.qbitai.com/2026/11/512305.html",
+      "excerpt": "2026年11月20日，第八届亿邦产业互联网年会与首届产业智能体大会在北京国贸大酒店首次合体举行。",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T03:21:12.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "s4fns9yo83",
+      "key": "url:jiqizhixin.com/articles/2026-11-24-3",
+      "title": "继黎曼猜想后，Claude给出VP≠VNP证明！通过Lean 4形式化验证",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-24-3",
+      "excerpt": "继黎曼猜想之后，Anthropic 这次把目标对准了理论计算机科学中最难啃的领域之一：计算复杂度下界。今天，Anthropic 提交了一篇 70 页的论文《VP ≠ VNP Over Every Field》，核心结论相当惊人：在所有域上，VP 都严格小于 VNP。论文地址：https://w...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T03:15:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "paper",
+      "score": 18,
+      "dupOf": "2ahrlw0q4k5"
+    },
+    {
+      "id": "26yr5spsued",
+      "key": "url:leiphone.com/category/industrynews/lVVGnHDROrkdwJLp.html",
+      "title": "蚂蚁开源医疗健康预测模型，根据睡眠数据可预测未来六年150种疾病风险",
+      "url": "https://www.leiphone.com/category/industrynews/lVVGnHDROrkdwJLp.html",
+      "excerpt": "AI在医疗健康领域的应用，正在从疾病识别、健康咨询向更长期的健康风险预测延伸。11月24日，蚂蚁百灵宣布开源医疗健康预测模型 LingSante Pulse，可通过理解人体日常产生的生理信号，预测未来六年内150种疾病表型的发生风险。 不同于传统模型主要针对某一种生理信号或特定疾病进行训练，LingSante Pulse能够统一处理脑电图、心电图、光电脉搏波、肌电图等多种生理信号，并适应不同传感器的组合。模型基于超过15万小时、多场景生理序列数据预训练，能够从不同生理信号中提取人体状态特征，实现健康情况的远期预测。 在相关评测中，其可达到较高预测可靠性…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T03:13:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "opensource",
+      "score": 22,
+      "dupOf": "2efqava3t57"
+    },
+    {
+      "id": "2iuvmnbb46",
+      "key": "url:36kr.com/p/4083178737439872",
+      "title": "企业AI最贵的账单，为什么不在模型采购单上？",
+      "url": "https://36kr.com/p/4083178737439872",
+      "excerpt": "从思迈特十五年间“AI for BI”到“BI for AI”的一次词序对调，看企业AI落地要补的那一课",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T03:11:31.863Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "e62sdkm5bd",
+      "key": "url:jiqizhixin.com/articles/2026-11-24-2",
+      "title": "从2D图像到3D点云，机器人操作性能能提升多少？北大等团队提出JEPA4R",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-24-2",
+      "excerpt": "平行夹爪抓起桌上的胡萝卜，推动积木；灵巧手从固定槽位中取出瓶子和香蕉。这些操作背后的世界模型和动作策略头，都只在仿真环境中训练，随后直接部署到真实机械臂，没有进行真机数据微调。 真机演示视频（2 倍速）这是北京大学、UC Berkeley BAIR、布朗大学和芬兰奥卢大学研究者合作提...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T03:10:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "multimodal",
+      "score": 18
+    },
+    {
+      "id": "j193l45exc",
+      "key": "url:36kr.com/p/4083037091402889",
+      "title": "黄仁勋回归，AI泡沫是否继续？",
+      "url": "https://36kr.com/p/4083037091402889",
+      "excerpt": "一场关于AI商业价值的真正考验才刚刚开始。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T03:04:44.544Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "khivgwknz7"
+    },
+    {
+      "id": "11i1ccwjmqt",
+      "key": "url:infoq.cn/article/vaEUVvWD9AIaFXZhzSMH",
+      "title": "Pinterest 让大模型取代多阶段聚类，但最大的提速来自“少推理”",
+      "url": "https://www.infoq.cn/article/vaEUVvWD9AIaFXZhzSMH?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T03:00:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "2bhwvyr76le",
+      "key": "url:36kr.com/p/4083150870664325",
+      "title": "Claude证出「代数版P≠NP」，73000行Lean代码通过验证",
+      "url": "https://36kr.com/p/4083150870664325",
+      "excerpt": "Claude证明任意域上VP≠VNP，代数版P≠NP获证",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T02:49:46.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2ahrlw0q4k5"
+    },
+    {
+      "id": "126x5knln7c",
+      "key": "url:jiqizhixin.com/articles/2026-11-24",
+      "title": "把质谱仪压缩进 10 升以内 | 合肥团队用 MEMS 芯片探索小型化新路径",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-24",
+      "excerpt": "一台传统质谱分析仪，往往需要容纳离子源、真空系统、质量分析器、检测器和复杂的电子控制单元，体积可能达到几十升，甚至数百升。如果把这套系统压缩到一个小型设备里，能不能在保留分析能力的同时，让质谱仪走出实验室，进入工业现场、环境监测和深海探测等应用场景？中国科学院合肥物质科学研究院智能机械研究所智...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T02:47:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "152rfnmjwjb",
+      "key": "url:qbitai.com/2026/11/512297.html",
+      "title": "“得Agent开发者，得天下”，70+技术大咖共探AI技术演进与生态变革，2026奇点智能技术大会圆满收官！",
+      "url": "https://www.qbitai.com/2026/11/512297.html",
+      "excerpt": "「2026 奇点智能技术大会」与「2026 C++ 及系统软件技术大会」在北京万达文华酒店成功举办。",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T02:36:08.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18
+    },
+    {
+      "id": "2n9ccg4623",
+      "key": "url:infoq.cn/article/YMYl4DVNr1pRKD8ITfaW",
+      "title": "从批量生成到业务可用：电商 AI 剪辑的工程取舍与实践复盘｜AICon北京",
+      "url": "https://www.infoq.cn/article/YMYl4DVNr1pRKD8ITfaW?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T02:00:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1s00v4lwj3f",
+      "key": "url:qbitai.com/2026/11/512264.html",
+      "title": "具身行业，终于等来了自己的通用智能时刻",
+      "url": "https://www.qbitai.com/2026/11/512264.html",
+      "excerpt": "行业苦等多年的预训练通用智能，终于有了答案",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T01:51:56.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "19yhfwlspvv",
+      "key": "url:leiphone.com/category/industrynews/SWU1FnevSoIn4MNM.html",
+      "title": "豆包工作下调多款模型消耗倍率，超八成日常任务免费用",
+      "url": "https://www.leiphone.com/category/industrynews/SWU1FnevSoIn4MNM.html",
+      "excerpt": "近日，豆包工作宣布接入多款第三方大模型，并同步推出多项优惠计划。其中，用户日常使用频率较高的 DeepSeek V4.1 Flash 和豆包 2.1 Lite 两款模型，额度消耗倍率已下调至 0.01。相关实测数据显示，借助倍率调整与部分模型低消耗任务免费机制，超过八成日常办公任务可通过豆包工作免费完成。 据介绍，豆包工作正式发布以来已陆续出台多项优惠举措。符合条件的新用户可领取 30 天体验会员；日常使用中，简单对话及低消耗任务直接免费，用户每日签到还可领取 200 额度，周一额度翻倍，累计签到 30 天可获得 8800 额度，接近标准套餐一个月的使…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T01:47:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "1v8qowinu3y",
+      "key": "url:leiphone.com/category/industrynews/ICe6gznRO80vcMxl.html",
+      "title": "公积金智能化应用创新案例发布，支付宝参与共建",
+      "url": "https://www.leiphone.com/category/industrynews/ICe6gznRO80vcMxl.html",
+      "excerpt": "11月20日，由中国建设报社主办的住房公积金智能化应用创新实践交流座谈会在江苏苏州举行。会上发布了《住房公积金智能化应用创新案例集》，汇集北京、苏州等17个地方的典型实践，其中10个案例采用支付宝民生办事AI全场景解决方案，涵盖政策咨询、办事引导、对话式业务办理等多个应用场景。 人工智能正加速进入政务服务领域，如何让AI与办事场景深度融合，是住房公积金行业关注的重点。会上，支付宝介绍了在政务智能体建设方面的探索，展示AI如何从政策咨询、智能导办进一步融入公积金业务办理流程。 以政务AI助手“支付宝晓政”为例。“支付宝晓政”目前合作上线的官方智能体超过1…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T01:44:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22
+    },
+    {
+      "id": "27br3elbfr7",
+      "key": "url:leiphone.com/category/zaobao/Ao31dQuXPBTU7qpK.html",
+      "title": "英伟达恢复黄仁勋CEO职务！黄仁勋重返公司总部，受到数百名员工迎接；DeepSeek最新估值或达6078亿元；蚂蚁开源医疗AI模型家族丨雷峰早报",
+      "url": "https://www.leiphone.com/category/zaobao/Ao31dQuXPBTU7qpK.html",
+      "excerpt": "要闻提示 1.英伟达恢复黄仁勋CEO职务！黄仁勋重返公司总部，受到数百名员工迎接 2.DeepSeek最新估值或达6078亿元 3.送100台iPhone Duo被质疑内定！影视飓风Tim：很难自证，但这点信誉还是有的 4.智谱发布新一代大模型GLM-5.4 5.从多模态理解到疾病风险预测，蚂蚁开源医疗AI模型家族 6.雷军：小米澎程系列车主提车后，纯电行驶里程占比大约9成 7.马斯克被曝在菲律宾悄悄开发岛屿！菲驻美大使称听说有一两座 8.Meta Muse数据研究负责人王子健已加入OpenAI 今日头条 英伟达恢复黄仁勋CEO职务！黄仁勋重返公司总部…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T01:42:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 22
+    },
+    {
+      "id": "1syt686baho",
+      "key": "url:geekpark.net/news/374375",
+      "title": "黄仁勋重返英伟达，市值涨31.48%；马斯克：AI 研发落后对手，出租算力比自研更赚钱；新一代 AI 模型更爱「爆粗口」",
+      "url": "http://www.geekpark.net/news/374375",
+      "excerpt": "黄仁勋重返英伟达 黄仁勋在美国当地时间 11 月 23 日重返英伟达总部，现场员工聚集在大厅高声欢呼，迎接这位创办人回归。黄仁勋在现场表示：「感谢大家给我第二次机会，接下来我一定会成为更优秀的 CEO」。 「我很荣幸能重返英伟达，并在新一轮工业革命伊始领导这家全球最具影响力的科技公司之一，」黄仁勋表示。 「我将以最大的谦逊和焕然一新的承诺肩负起这一重任。我要感谢英伟达董事会在此过程中给予的信任与审慎考量。我尤其感谢哈维 · 琼斯（Harvey Jones）作为董事长所展现的领导力，也感谢科莱特 · 克雷斯（Colette Kress）以及我们的高管团队…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-24T00:28:30.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "industry",
+      "score": 18
+    },
+    {
       "id": "qo6x9p6fbs",
       "key": "url:36kr.com/newsflashes/4082994935387271",
       "title": "中信建投：国产算力供需共振，AI安全需求持续升级",
@@ -89,6 +1771,125 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-24T00:17:05.020Z"
+      }
+    },
+    {
+      "id": "17wjxsop3pz",
+      "key": "arxiv:2611.30662",
+      "title": "WeMM-Ecom: Advancing Multimodal Content Understanding for WeChat E-Commerce",
+      "url": "https://huggingface.co/papers/2611.30662",
+      "excerpt": "WeMM-Ecom, a family of multimodal large language models spanning dense and mixture-of-experts sizes, is trained with continued pre-training and hybrid-thinking post-training to achieve strong e-commerce and general-purpose results and is deployed in WeChat.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 21.4,
+      "metrics": {
+        "upvotes": 54,
+        "comments": 1
+      },
+      "ai": {
+        "title": "WeMM-Ecom：面向微信电商的多模态大语言模型",
+        "summary": "WeMM-Ecom 是一套面向微信电商的多模态大语言模型。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
+    },
+    {
+      "id": "1d0o28xsaeg",
+      "key": "arxiv:2611.31201",
+      "title": "Embo-Harness: Towards Understanding Frontier-Model-as-Policy Harness",
+      "url": "https://huggingface.co/papers/2611.31201",
+      "excerpt": "A systematic framework shows that frontier multimodal models can serve as robot policies when harnessed with interfaces favoring native visual reasoning and tool use, achieving high success in simulated and real manipulation tasks.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "paper",
+      "categoryLocked": true,
+      "score": 24.4,
+      "metrics": {
+        "upvotes": 85,
+        "comments": 1
+      },
+      "ai": {
+        "title": "Embo-Harness：利用多模态模型作为机器人策略的框架",
+        "summary": "Embo-Harness 框架展示如何利用多模态模型作为机器人策略。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
+    },
+    {
+      "id": "m7ak8b8vzt",
+      "key": "arxiv:2611.30013",
+      "title": "3AGameFactory-Motion: Agentic Rigging and Reliable Complex Motion Generation for Diverse 3D Assets",
+      "url": "https://huggingface.co/papers/2611.30013",
+      "excerpt": "A new benchmark evaluates rigging and motion generation across six 3D morphology categories, compares specialized, video-based, and agent-driven paradigms, and proposes an agentic framework that writes compact parametric skeleton and motion programs executed deterministically fo…",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 21.7,
+      "metrics": {
+        "upvotes": 56,
+        "comments": 2
+      },
+      "ai": {
+        "title": "3AGameFactory-Motion：面向多样化 3D 资产的代理式动作生成",
+        "summary": "3AGameFactory-Motion 提出一种评估和生成 3D 资产动作的代理式框架。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
+    },
+    {
+      "id": "3nhrxkpaja",
+      "key": "arxiv:2611.29897",
+      "title": "Motion Mamba 2.0: Autoregressive Diffusion Mamba for Long-Horizon Humanoid Control",
+      "url": "https://huggingface.co/papers/2611.29897",
+      "excerpt": "Long-horizon, real-time controllable motion generation is essential for interactive animation and humanoid robotics, where an agent must respond to changing instructions and spatial goals while moving. Existing autoregressive diffusion methods generate motion incrementally, but…",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-24T00:00:00.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-24",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent",
+        "具身智能"
+      ],
+      "score": 27.7,
+      "metrics": {
+        "upvotes": 133,
+        "comments": 2
+      },
+      "ai": {
+        "title": "Motion Mamba 2.0：用于长周期人形控制的自回归扩散模型",
+        "summary": "Motion Mamba 2.0 提出一种用于长周期人形控制的自回归扩散方法。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
       }
     },
     {
@@ -210,12 +2011,38 @@
       "firstSeenAt": "2026-11-24T00:16:26.480Z",
       "day": "2026-11-24",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "黄仁勋回归提振科技股，但Anthropic股价仍下跌1.43%。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-24T00:17:05.020Z"
+      },
+      "related": [
+        {
+          "id": "j193l45exc",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4083037091402889",
+          "title": "黄仁勋回归，AI泡沫是否继续？",
+          "publishedAt": "2026-11-24T03:04:44.544Z"
+        },
+        {
+          "id": "6dwq1djfmb",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4083379220130183",
+          "title": "黄仁勋回归16小时：全球科技股疯涨，硅谷AI圈狂欢，董事会曝大瓜",
+          "publishedAt": "2026-11-24T07:25:33.159Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "36kr-flash",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-23T23:27:11.000Z"
       }
     },
     {
@@ -526,10 +2353,18 @@
           "url": "https://36kr.com/newsflashes/4082944182326405",
           "title": "OpenAI联合思科发布开源项目Shirudo，实现不停机的AI智能体系统防护",
           "publishedAt": "2026-11-23T23:12:39.000Z"
+        },
+        {
+          "id": "ag04tuhoo8",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/",
+          "title": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own",
+          "publishedAt": "2026-11-24T11:26:23.000Z"
         }
       ],
       "story": {
-        "reports": 8,
+        "reports": 9,
         "sources": [
           "openai",
           "infoq-cn",
@@ -622,7 +2457,13 @@
       "metrics": {
         "stars": 338
       },
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "Meetsaini/emulator 项目。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-24T13:10:40.562Z"
+      }
     },
     {
       "id": "1jplxl2f65m",
@@ -755,7 +2596,8 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-23T22:36:53.808Z"
-      }
+      },
+      "dupOf": "xeegtjrjcu"
     },
     {
       "id": "24tjk2qtt83",
@@ -936,13 +2778,31 @@
       "keywords": [
         "Agent"
       ],
-      "score": 30,
+      "score": 38,
       "ai": {
         "title": "Google DeepMind 利用代理和形式验证寻找更快量子算法",
         "summary": "通过代理团队和形式验证提升融合与化学领域的量子算法。",
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-23T22:36:53.808Z"
+      },
+      "related": [
+        {
+          "id": "1v2i6g5gqfp",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-24-5",
+          "title": "Gemini智能体寻找更快的量子算法，DeepMind引入形式化验证",
+          "publishedAt": "2026-11-24T04:41:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "deepmind",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-23T16:59:40.000Z"
       }
     },
     {

@@ -66,9 +66,9 @@
       "day": "2026-11-20",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 17.5,
+      "score": 17.6,
       "metrics": {
-        "stars": 549
+        "stars": 556
       },
       "ai": {
         "title": "Levent Alpöge 的黎曼猜想 Lean 证明",
@@ -156,9 +156,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 18.3,
+      "score": 18.9,
       "metrics": {
-        "stars": 649
+        "stars": 733
       },
       "aiAttempts": 1
     },
@@ -844,6 +844,26 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-20T19:07:56.399Z"
+      }
+    },
+    {
+      "id": "uvss2xrzf7",
+      "key": "gh:sous-labs/songe",
+      "title": "sous-labs/songe",
+      "url": "https://github.com/sous-labs/songe",
+      "excerpt": "A training engine for your local model, using your idle compute",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-20T11:01:20.000Z",
+      "firstSeenAt": "2026-11-24T13:08:53.051Z",
+      "day": "2026-11-20",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 15.8,
+      "metrics": {
+        "stars": 366
       }
     },
     {
@@ -2340,9 +2360,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 17.6,
+      "score": 17.9,
       "metrics": {
-        "stars": 561
+        "stars": 602
       }
     },
     {
@@ -3017,10 +3037,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 27.3,
+      "score": 29,
       "metrics": {
-        "stars": 70957,
-        "starsToday": 636
+        "stars": 71502,
+        "starsToday": 794
       },
       "ai": {
         "title": "diagram-design：Claude Code 等的编辑器图表设计",
@@ -3049,10 +3069,10 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 29.7,
+      "score": 30,
       "metrics": {
-        "stars": 4953,
-        "starsToday": 874
+        "stars": 5443,
+        "starsToday": 936
       },
       "ai": {
         "title": "app-store-compliance：App Store 合规开源方案",
@@ -3079,7 +3099,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 14374,
+        "stars": 15069,
         "starsToday": 983
       },
       "ai": {
