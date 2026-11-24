@@ -152,7 +152,7 @@ export const MACRO: MacroConfig[] = [
   { id: "xau", name: "现货黄金", source: { kind: "eastmoney", secid: "122.XAU" }, sina: "hf_XAU", unit: "美元/盎司", decimals: 2 },
   { id: "shau", name: "上海金", source: { kind: "eastmoney", secid: "118.SHAU" }, unit: "元/克", decimals: 2 },
   { id: "dxy", name: "美元指数", source: { kind: "eastmoney", secid: "100.UDI" }, sina: "DINIW", decimals: 2 },
-  { id: "us10y", name: "美债10年期收益率", source: { kind: "eastmoney", secid: "171.US10Y" }, yieldSeries: true, unit: "%", decimals: 2 },
+  { id: "us10y", name: "美债10年期收益率", source: { kind: "eastmoney", secid: "171.US10Y" }, sina: "globalbd_us10yt", yieldSeries: true, unit: "%", decimals: 2 },
   { id: "real10y", name: "美债10年期实际利率", source: { kind: "treasury-real" }, yieldSeries: true, unit: "%", decimals: 2 },
   { id: "usdcnh", name: "美元/离岸人民币", source: { kind: "eastmoney", secid: "133.USDCNH" }, sina: "fx_susdcnh", decimals: 4 },
 ];

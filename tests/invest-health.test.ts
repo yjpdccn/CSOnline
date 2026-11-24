@@ -109,23 +109,47 @@ describe("data health", () => {
   it("takes a closure missing from the holiday list when the market's figures agree, but not a lone series", () => {
     const data = currentData();
     for (const id of ["ndx", "spx", "spxew"] as const) data.market.series[id]!.closes = closes("2026-10-28");
-    data.market.series.real10y!.closes = closes("2026-10-27", 1.65, 1.63);
+    data.market.series.real10y!.closes = closes("2026-10-26", 1.65, 1.63);
     const health = checkHealth(data, allFresh(), null, NOW);
     expect(health.issues.map((i) => i.key)).toEqual(["stale:macro"]);
     expect(health.issues[0].items).toEqual(["美债10年期实际利率"]);
   });
 
-  it("lists figures that got no fresh data but are still current as a minor issue", () => {
+  it("lists figures that got no fresh data but are still current as a minor issue, except rates, FX and gold", () => {
     const fresh = allFresh();
     fresh.series.delete("shau");
     fresh.navs.delete("019172");
     const health = checkHealth(currentData(), fresh, null, NOW);
-    expect(health.issues.map((i) => [i.key, i.severity])).toEqual([
-      ["failed:gold", "minor"],
-      ["failed:nav", "minor"],
-    ]);
-    expect(health.groups.gold.ok).toBe(true);
-    expect(health.groups.gold.lastSuccess).toBeUndefined();
+    expect(health.issues.map((i) => [i.key, i.severity])).toEqual([["failed:nav", "minor"]]);
+    expect(health.groups.gold).toMatchObject({ ok: true, lastSuccess: NOW.toISOString() });
+    expect(health.groups.gold.items.find((i) => i.key === "shau")).toMatchObject({ refreshed: false, stale: false });
+  });
+
+  it("flags rates, FX and gold only once a value has been due for about 36 hours on their market's calendar", () => {
+    const data = currentData();
+    data.market.series.us10y!.closes = closes("2026-10-28", 4.1, 4.0);
+    const fresh = allFresh();
+    fresh.series.delete("us10y");
+    const us10y = (at: string) => checkHealth(data, fresh, null, new Date(at)).groups.macro.items.find((i) => i.key === "us10y")!.stale;
+    // Friday 08:00 New York: Thursday's value has been due only since Thursday evening.
+    expect(us10y("2026-10-30T12:00:00Z")).toBe(false);
+    // Saturday: Thursday's value has now been due for more than 36 hours.
+    expect(us10y("2026-10-31T12:00:00Z")).toBe(true);
+    expect(checkHealth(data, fresh, null, new Date("2026-10-31T12:00:00Z")).issues.find((i) => i.key === "stale:macro")).toMatchObject({
+      severity: "warn",
+      items: ["美债10年期收益率"],
+      message: "利率与汇率超过 36 小时没有更新：美债10年期收益率（停在 10月28日）",
+    });
+    // Monday before the New York close: Friday's value is the newest one due, whatever the weekend brought.
+    data.market.series.us10y!.closes = closes("2026-10-30", 4.1, 4.0);
+    expect(us10y("2026-11-02T10:00:00Z")).toBe(false);
+
+    // 上海金 on the first trading day after the National Day holiday: September 30th is still the last one due.
+    const holiday = currentData();
+    holiday.market.series.shau!.closes = closes("2026-09-30");
+    const unread = allFresh();
+    unread.series.delete("shau");
+    expect(checkHealth(holiday, unread, null, new Date("2026-10-08T10:00:00Z")).groups.gold.items.find((i) => i.key === "shau")!.stale).toBe(false);
   });
 
   it("reports rejected data and implausible moves", () => {

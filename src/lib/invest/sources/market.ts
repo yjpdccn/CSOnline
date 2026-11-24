@@ -99,6 +99,7 @@ const SINA_FIELDS: Record<string, { value: number; date: number; time?: number }
   DINIW: { value: 1, date: 10, time: 0 },
   fx_susdcnh: { value: 1, date: 17, time: 0 },
   globalbd_cn10yt: { value: 1, date: 12 },
+  globalbd_us10yt: { value: 1, date: 12, time: 13 },
 };
 
 /** 新浪 quote lines (`var hq_str_X="…";`), Beijing date and time converted to the New York day where `time` is given. */

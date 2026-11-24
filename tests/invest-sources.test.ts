@@ -49,11 +49,14 @@ describe("market sources", () => {
       'var hq_str_DINIW="05:41:42,101.9669,101.9669,101.8857,5052,101.9016,102.0903,101.5851,101.9669,美元指数,2026-10-31";',
       'var hq_str_globalbd_cn10yt="中国10年期国债,1.609,1.640,1.638,1.646,1.597,0,-0.1220,-0.0020,0,0,1793359095,2026-10-30,07:18:15";',
       'var hq_str_SGE_SHAU="SHAU,上海金,SHAU,--,--,--,--,--,--,--,--,--,--,--,--,--,2026-10-30 19:50:17,NaN%";',
+      'var hq_str_globalbd_us10yt="美国10年期国债,4.944,4.924,4.891,4.944,4.888,0,-0.6655,-0.0328,0,0,1795525301,2026-11-24,08:01:41,2036-11-15,5.000,1年2次,100.852,美国";',
     ].join("\n");
     const map = parseSinaLatest(text);
     expect(map.get("hf_XAU")).toEqual({ date: "2026-10-30", value: 3876.69 });
     expect(map.get("DINIW")).toEqual({ date: "2026-10-30", value: 101.9669 });
     expect(map.get("globalbd_cn10yt")).toEqual({ date: "2026-10-30", value: 1.609 });
+    // Stamped 08:01 Beijing on the 24th: Monday evening in New York, so the US 10-year's day is the 23rd.
+    expect(map.get("globalbd_us10yt")).toEqual({ date: "2026-11-23", value: 4.944 });
     expect(map.has("SGE_SHAU")).toBe(false);
   });
 

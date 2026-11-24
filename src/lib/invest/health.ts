@@ -145,6 +145,13 @@ const named = (list: { name: string; latest?: string }[]) =>
 /** Status and fees are read every run and a miss keeps the last good read; this old means about three runs failed. */
 const INFO_MAX_AGE_MS = 36 * 3600_000;
 
+/**
+ * Rates, FX and gold have retries and backup sources, and a miss keeps the last value: they are flagged once a
+ * value has been due this long, counted on their market's calendar so weekends and holidays expect nothing.
+ */
+const GRACE_GROUPS = new Set<HealthGroupId>(["macro", "gold"]);
+const GRACE_MS = 36 * 3600_000;
+
 type Checked = Figure & { expected: string };
 
 /**
@@ -181,11 +188,13 @@ export function checkHealth(
   const missed = new Map<HealthGroupId, Checked[]>();
   const add = (map: Map<HealthGroupId, Checked[]>, f: Checked) => map.set(f.group, [...(map.get(f.group) ?? []), f]);
   for (const f of all) {
-    const isStale = !f.latest || (f.latest < f.expected && !marketClosed(f));
+    const grace = GRACE_GROUPS.has(f.group);
+    const due = grace ? expectedDate(f.avail, new Date(now.getTime() - GRACE_MS)) : f.expected;
+    const isStale = !f.latest || (f.latest < due && !marketClosed(f));
     items.get(f.group)!.push({ key: f.key, name: f.name, latest: f.latest, expected: f.expected, refreshed: f.refreshed, stale: isStale });
     const rejected = fresh.implausible.get(f.key);
     if (isStale) add(stale, f);
-    else if (!f.refreshed && !rejected) add(missed, f);
+    else if (!f.refreshed && !rejected && !grace) add(missed, f);
     if (rejected) {
       issues.push({ key: `implausible:${f.key}`, group: f.group, kind: "implausible", severity: "warn", message: `${f.name}：${rejected}，未采用，页面显示上次的数据`, items: [f.name] });
     } else if (f.move !== undefined && Math.abs(f.move) > f.maxMove) {
@@ -194,7 +203,8 @@ export function checkHealth(
     }
   }
   for (const [group, list] of stale) {
-    issues.push({ key: `stale:${group}`, group, kind: "stale", severity: "warn", message: `${HEALTH_GROUPS[group]}没有更新到最新交易日：${named(list)}`, items: list.map((f) => f.name) });
+    const what = GRACE_GROUPS.has(group) ? "超过 36 小时没有更新" : "没有更新到最新交易日";
+    issues.push({ key: `stale:${group}`, group, kind: "stale", severity: "warn", message: `${HEALTH_GROUPS[group]}${what}：${named(list)}`, items: list.map((f) => f.name) });
   }
   for (const [group, list] of missed) {
     issues.push({

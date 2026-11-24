@@ -56,6 +56,8 @@ import type {
 
 const CONCURRENCY = 6;
 const US_INDICES = new Set(INDICES.filter((i) => i.market === "us").map((i) => i.id));
+/** The health check's rates-and-FX and gold groups. */
+const RATES_FX_GOLD = new Set<IndexId | MacroId>(["gold", "cnbond", ...MACRO.map((m) => m.id)]);
 /** The 基金概况 page (tracked index, benchmark) rarely changes. */
 const PROFILE_MAX_AGE_MS = 7 * 86_400_000;
 /** English stories given a Chinese title per run, in one request. */
@@ -292,6 +294,27 @@ export async function fetchInvest(now = new Date()): Promise<InvestFetch> {
     (code) => fetchFeePage(code, 0),
   );
   for (const [code, page] of feeRead.values) out.feePages[code] = page;
+
+  // Rates, FX and gold that the burst missed get a paced retry before falling back to a latest value.
+  const missedQuotes = [...eastmoney.entries()].filter(([i, s]) => RATES_FX_GOLD.has(s.id) && !quoteSettled[i]?.ok);
+  if (missedQuotes.length) {
+    const retried = await readPaced(
+      missedQuotes.map(([, s]) => s.id),
+      async (id) => {
+        const s = eastmoney.find((e) => e.id === id)!;
+        const r = await fetchDaily(s.secid, s.tencent, 120);
+        if (!r.ok) throw new Error(r.error);
+        return { ...r.value, fetchedAt: new Date().toISOString() };
+      },
+    );
+    for (const [i, s] of missedQuotes) {
+      const value = retried.values.get(s.id);
+      if (!value) continue;
+      out.series[s.id] = { name: value.name, closes: value.closes, source: value.source, fetchedAt: value.fetchedAt };
+      quoteSettled[i] = { ok: true, value: value.closes, ms: retried.ms };
+      if (value.source !== "东方财富") fallbacks.push(`${s.label}（${value.source}）`);
+    }
+  }
 
   // Backups for what the K-line sources could not give: 中证指数's own closes for its indices, then the
   // latest value from 东方财富's delayed host or 新浪, which extends the stored history.
