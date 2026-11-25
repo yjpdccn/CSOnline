@@ -15,7 +15,14 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-24",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "亚马逊收购 Decart 是押注用软件缩小与英伟达的硅差距",
+        "summary": "亚马逊收购 Decart 是为了提升 Trainium 芯片效率，缩小与英伟达的差距。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:30:08.557Z"
+      }
     },
     {
       "id": "1zji3wa3amw",
@@ -32,7 +39,7 @@
       "category": "industry",
       "score": 21.2,
       "metrics": {
-        "points": 128,
+        "points": 129,
         "comments": 3
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50628932",
@@ -52,7 +59,15 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-24",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Anthropic 研究员为其 AI 辅助的黎曼猜想证明辩护",
+        "summary": "Anthropic 研究员 Levent Alpöge 为其 AI 辅助的黎曼猜想证明辩护，承认代码有瑕疵。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:30:08.557Z"
+      },
+      "dupOf": "2ahrlw0q4k5"
     },
     {
       "id": "14p8asdhwgs",
@@ -68,7 +83,14 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-24",
       "category": "industry",
-      "score": 19
+      "score": 19,
+      "ai": {
+        "title": "数十名内部人士称 OpenAI 和 Anthropic 的未发布模型已超出安全…",
+        "summary": "OpenAI 和 Anthropic 员工担忧未发布的前沿模型已无法被安全控制。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:30:08.557Z"
+      }
     },
     {
       "id": "1gggnvazobe",
@@ -118,12 +140,19 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-24",
       "category": "industry",
-      "score": 34.5,
+      "score": 35.4,
       "metrics": {
-        "points": 373,
-        "comments": 730
+        "points": 418,
+        "comments": 788
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50627836"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50627836",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Anthropic 股价跌破 IPO 价格 83 美元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:29:32.274Z"
+      }
     },
     {
       "id": "1ttxxhf96c5",
@@ -140,6 +169,29 @@
       "day": "2026-11-24",
       "category": "industry",
       "score": 18
+    },
+    {
+      "id": "ynhqsj1idr",
+      "key": "url:deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity",
+      "title": "From spectrum to structure: Identifying molecules with Mass Spec Skills for Google Antigravity",
+      "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/",
+      "excerpt": "Mass Spec Skills empowers scientists using Google Antigravity to interpret tandem mass spectra.",
+      "lang": "en",
+      "sourceId": "deepmind",
+      "sourceName": "Google DeepMind",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-24T13:07:53.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-24",
+      "category": "model",
+      "score": 36,
+      "ai": {
+        "title": "Google Antigravity 利用 Mass Spec Skills…",
+        "summary": "Mass Spec Skills 帮助科学家使用 Google Antigravity 解读串联质谱。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:30:08.557Z"
+      }
     },
     {
       "id": "1etl6m5c26n",
@@ -171,10 +223,10 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-24",
       "category": "model",
-      "score": 69.1,
+      "score": 72.9,
       "metrics": {
-        "points": 221,
-        "comments": 68
+        "points": 345,
+        "comments": 94
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50634658",
       "alsoOn": [
@@ -203,9 +255,16 @@
         ],
         "firstPublishedAt": "2026-11-24T13:00:00.000Z",
         "metrics": {
-          "points": 221,
-          "comments": 68
+          "points": 345,
+          "comments": 94
         }
+      },
+      "ai": {
+        "title": "GPT-6 模型展现内在蛋白质设计能力",
+        "summary": "GPT-6 模型通过推理和代码设计蛋白质结构，实验显示有结合活性。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:29:32.274Z"
       }
     },
     {
@@ -255,16 +314,23 @@
       "publishedAt": "2026-11-24T12:40:15.000Z",
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-24",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "Agent"
       ],
       "score": 36,
       "metrics": {
-        "points": 952,
-        "comments": 393
+        "points": 997,
+        "comments": 409
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50627340"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50627340",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "LLM Agent 为母公司工作，而非为用户工作。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:29:32.274Z"
+      }
     },
     {
       "id": "1440xcl62hm",
@@ -655,11 +721,18 @@
       "publishedAt": "2026-11-24T11:00:00.000Z",
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-24",
-      "category": "industry",
+      "category": "agent",
       "keywords": [
         "AI 编程"
       ],
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "使用 Astra 寻找遥远行星",
+        "summary": "业余天文学家使用 Codex 和 Astra 在 NASA 数据中寻找潜在系外行星。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:29:32.274Z"
+      }
     },
     {
       "id": "1dbcww2gksi",
@@ -1180,10 +1253,18 @@
           "url": "https://www.infoq.cn/article/qEXNRNufkiFkiUEU9aae?utm_source=rss&utm_medium=article",
           "title": "OceanBase发布AI数据平OceanLake！CEO杨冰：我们赌多模态，就像当年赌分布式一样",
           "publishedAt": "2026-11-24T12:21:09.000Z"
+        },
+        {
+          "id": "2g9rtes8v77",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/2YvROKs0CHz1yR4Wi02o?utm_source=rss&utm_medium=article",
+          "title": "做了 16 年数据库，蚂蚁 OceanBase 为什么要再造一个 AI 数据平台？",
+          "publishedAt": "2026-11-25T09:21:31.000Z"
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 5,
         "sources": [
           "leiphone",
           "qbitai",
@@ -1301,6 +1382,33 @@
       "category": "opensource",
       "score": 22,
       "dupOf": "2efqava3t57"
+    },
+    {
+      "id": "gd52305xre",
+      "key": "url:jayd.ml/2026/11/14/rockbox-on-yp3.html",
+      "title": "Porting Rockbox to an undocumented $9 AliExpress 'YP3' MP3 player with LLMs",
+      "url": "https://jayd.ml/2026/11/14/rockbox-on-yp3.html",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-24T06:22:36.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-24",
+      "category": "opensource",
+      "score": 24.6,
+      "metrics": {
+        "points": 154,
+        "comments": 66
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50624446",
+      "ai": {
+        "title": "使用 LLMs 将 Rockbox 移植到未公开的 $9 MP3 播放器",
+        "summary": "开发者利用 LLMs 将 Rockbox 移植到一款未公开的廉价 MP3 播放器。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:30:08.557Z"
+      }
     },
     {
       "id": "156r8wj7yfe",
@@ -1825,13 +1933,20 @@
       "publishedAt": "2026-11-24T02:36:56.000Z",
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-24",
-      "category": "industry",
-      "score": 23.1,
+      "category": "opensource",
+      "score": 23.3,
       "metrics": {
-        "points": 110,
-        "comments": 92
+        "points": 114,
+        "comments": 94
       },
-      "discussionUrl": "https://news.ycombinator.com/item?id=50622854"
+      "discussionUrl": "https://news.ycombinator.com/item?id=50622854",
+      "ai": {
+        "title": "Declare 是一种面向你和 AI 的 UI 语言",
+        "summary": "Declare 是一种旨在供人类和 AI 共同使用的 UI 语言。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:30:08.557Z"
+      }
     },
     {
       "id": "152rfnmjwjb",
@@ -2058,9 +2173,9 @@
       "day": "2026-11-24",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.5,
+      "score": 21.6,
       "metrics": {
-        "upvotes": 55,
+        "upvotes": 56,
         "comments": 1
       },
       "ai": {
@@ -2086,9 +2201,9 @@
       "day": "2026-11-24",
       "category": "paper",
       "categoryLocked": true,
-      "score": 24.9,
+      "score": 25.8,
       "metrics": {
-        "upvotes": 90,
+        "upvotes": 103,
         "comments": 2
       },
       "ai": {
@@ -2176,8 +2291,15 @@
       "dateOnly": true,
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-24",
-      "category": "industry",
-      "score": 30
+      "category": "agent",
+      "score": 30,
+      "ai": {
+        "title": "Intentful 使用 dots 提升研究效率",
+        "summary": "dot Aria 帮助研究网站、构建提案并主动解决问题。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:29:32.274Z"
+      }
     },
     {
       "id": "2di5lob8k7t",
@@ -2197,7 +2319,14 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "iFood 如何在 15,000 个代码库中扩展编码 Agent",
+        "summary": "iFood 分享了利用编码 Agent 扩展到大规模代码库的实践。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:30:08.557Z"
+      }
     },
     {
       "id": "15wjw8hbwai",
@@ -2217,7 +2346,14 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 30
+      "score": 30,
+      "ai": {
+        "title": "Clay 利用 Codex 和 ChatGPT 帮助销售团队赢得交易",
+        "summary": "Clay 通过 ChatGPT 和 Codex 集成，利用 GPT-6 模型帮助销售团队处理数据和制定市场策略。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:30:08.557Z"
+      }
     },
     {
       "id": "ybmpgnuonn",
@@ -2238,10 +2374,17 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 21.3,
+      "score": 22.2,
       "metrics": {
-        "upvotes": 52,
+        "upvotes": 60,
         "comments": 4
+      },
+      "ai": {
+        "title": "让修复者决定：从修复者似然性训练代码定位器",
+        "summary": "通过加权监督微调，利用冻结修复者的评分训练代码定位器。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:30:08.557Z"
       }
     },
     {
@@ -2263,6 +2406,13 @@
       "metrics": {
         "upvotes": 124,
         "comments": 2
+      },
+      "ai": {
+        "title": "WorldLeague 基准测试 13 个 AI 系统的物理自主性",
+        "summary": "WorldLeague 基准测试评估 13 个 AI 系统在 60 个模拟机器人任务中的表现。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:30:08.557Z"
       }
     },
     {
@@ -2284,6 +2434,13 @@
       "metrics": {
         "upvotes": 54,
         "comments": 2
+      },
+      "ai": {
+        "title": "VLMs 作为机器人操作基础模型的训练一瞥",
+        "summary": "nanoAstra 结合语义动作建模与能力保持微调，训练通用机器人操作的 VLM。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:30:08.557Z"
       }
     },
     {

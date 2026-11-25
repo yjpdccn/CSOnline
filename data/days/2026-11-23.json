@@ -197,10 +197,26 @@
           "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
           "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
           "publishedAt": "2026-11-24T22:27:52.000Z"
+        },
+        {
+          "id": "10jaq0zyhxg",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+          "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+          "publishedAt": "2026-11-25T13:00:00.000Z"
+        },
+        {
+          "id": "16gambqd4un",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+          "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+          "publishedAt": "2026-11-25T19:54:57.000Z"
         }
       ],
       "story": {
-        "reports": 15,
+        "reports": 17,
         "sources": [
           "jiqizhixin",
           "techcrunch-ai",
@@ -803,12 +819,30 @@
       "firstSeenAt": "2026-11-23T22:36:01.609Z",
       "day": "2026-11-23",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "Rails之父DHH批评Windows，认为AI能大幅提升开发效率。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-23T22:37:29.646Z"
+      },
+      "related": [
+        {
+          "id": "ruxd9zv36y",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/ApVrOK0hv1rmmoz2mfGM?utm_source=rss&utm_medium=article",
+          "title": "“Windows该淘汰了！”Rails之父DHH开炮：微软上万工程师干不过一个人带着AI干活",
+          "publishedAt": "2026-11-25T05:30:16.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "infoq-cn"
+        ],
+        "firstPublishedAt": "2026-11-23T11:00:20.953Z"
       }
     },
     {
@@ -914,20 +948,29 @@
           "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
           "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
           "publishedAt": "2026-11-23T23:40:49.000Z"
+        },
+        {
+          "id": "1rz07017lj0",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/gXU31yBa9HMEe19PxHVB?utm_source=rss&utm_medium=article",
+          "title": "GLM-5.4 编程能力暴涨、3D惊艳，但推理变久了？智谱押注双路线：首发Loop架构，下一代继续 Scaling",
+          "publishedAt": "2026-11-25T05:27:15.000Z"
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 5,
         "sources": [
           "jiqizhixin",
           "hackernews",
           "the-decoder",
-          "simonw"
+          "simonw",
+          "infoq-cn"
         ],
         "firstPublishedAt": "2026-11-23T10:06:43.000Z",
         "metrics": {
-          "points": 1170,
-          "comments": 380
+          "points": 1175,
+          "comments": 384
         }
       },
       "ai": {
@@ -1127,8 +1170,8 @@
       "category": "model",
       "score": 42,
       "metrics": {
-        "points": 1170,
-        "comments": 380
+        "points": 1175,
+        "comments": 384
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50609685",
       "dupOf": "234rtzqbc1g"
@@ -1762,6 +1805,33 @@
       }
     },
     {
+      "id": "ovl8ohtqry",
+      "key": "url:micjm.com/blog/lowering-perplexity-without-scaling",
+      "title": "Lowering Perplexity Without Scaling",
+      "url": "https://micjm.com/blog/lowering-perplexity-without-scaling/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-23T04:33:50.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-23",
+      "category": "paper",
+      "score": 20.6,
+      "metrics": {
+        "points": 100,
+        "comments": 24
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50607512",
+      "ai": {
+        "title": "在不扩展的情况下降低困惑度",
+        "summary": "探讨在不增加模型规模的情况下降低困惑度的方法。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:30:08.557Z"
+      }
+    },
+    {
       "id": "zws4yr1yr1",
       "key": "url:leiphone.com/category/industrynews/VK4viDe2WQp64rON.html",
       "title": "蚂蚁CEO韩歆毅：AI拓宽人类健康自塑边界，1.5亿人已用阿福管健康",
@@ -1820,9 +1890,9 @@
       "day": "2026-11-23",
       "category": "model",
       "categoryLocked": true,
-      "score": 23.5,
+      "score": 24.6,
       "metrics": {
-        "likes": 184
+        "likes": 231
       },
       "skipLlm": true
     },
@@ -1993,7 +2063,7 @@
         "Agent",
         "开源模型"
       ],
-      "score": 38,
+      "score": 53.7,
       "ai": {
         "summary": "蚂蚁开源医疗模型LingSante-3.1-flash，在多项评测中达SOTA。",
         "category": "opensource",
@@ -2001,6 +2071,14 @@
         "at": "2026-11-23T03:44:20.384Z"
       },
       "related": [
+        {
+          "id": "3of725e352",
+          "sourceId": "hf-models",
+          "sourceName": "HF 热门模型",
+          "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+          "title": "inclusionAI/LingSante-3.1-flash",
+          "publishedAt": "2026-11-19T04:30:30.000Z"
+        },
         {
           "id": "26yr5spsued",
           "sourceId": "leiphone",
@@ -2027,13 +2105,17 @@
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 5,
         "sources": [
           "36kr-flash",
+          "hf-models",
           "leiphone",
           "jiqizhixin"
         ],
-        "firstPublishedAt": "2026-11-23T03:17:19.852Z"
+        "firstPublishedAt": "2026-11-19T04:30:30.000Z",
+        "metrics": {
+          "likes": 189
+        }
       }
     },
     {
@@ -2313,15 +2395,24 @@
           "url": "https://www.leiphone.com/category/medigital/P6Ota0mqLwk8wsN2.html",
           "title": "从“望闻问切”到开源模型，蚂蚁阿福加速打通AI健康服务闭环",
           "publishedAt": "2026-11-24T07:13:00.000Z"
+        },
+        {
+          "id": "10cvwy7eam1",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/V7VOeFvEPLrHAN2EFmUa?utm_source=rss&utm_medium=article",
+          "title": "阿福学会“望闻问切”背后，真实医疗需求正在重塑百灵大模型",
+          "publishedAt": "2026-11-25T10:22:30.000Z"
         }
       ],
       "story": {
-        "reports": 5,
+        "reports": 6,
         "sources": [
           "36kr-flash",
           "leiphone",
           "jiqizhixin",
-          "qbitai"
+          "qbitai",
+          "infoq-cn"
         ],
         "firstPublishedAt": "2026-11-23T02:39:18.230Z"
       },
@@ -2487,12 +2578,30 @@
       "firstSeenAt": "2026-11-23T03:43:04.188Z",
       "day": "2026-11-23",
       "category": "agent",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "Claude 修复系统崩溃，验证被高估。",
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-23T22:37:23.191Z"
+      },
+      "related": [
+        {
+          "id": "1ren9e6kdrx",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/ExbJjrItIlc9KLfQ2UeT?utm_source=rss&utm_medium=article",
+          "title": "Pi创始人曝现代开发奇观：系统崩了，一屋子工程师都在问Claude怎么修",
+          "publishedAt": "2026-11-25T10:22:07.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "infoq-cn"
+        ],
+        "firstPublishedAt": "2026-11-23T02:19:24.157Z"
       }
     },
     {
@@ -2978,7 +3087,7 @@
       "firstSeenAt": "2026-11-23T03:43:04.188Z",
       "day": "2026-11-23",
       "category": "paper",
-      "score": 33.6,
+      "score": 33.7,
       "related": [
         {
           "id": "ruasrqwrc5",
@@ -2997,7 +3106,7 @@
         ],
         "firstPublishedAt": "2026-11-20T14:59:14.000Z",
         "metrics": {
-          "stars": 562
+          "stars": 569
         }
       },
       "ai": {
@@ -3162,9 +3271,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18.2,
+      "score": 18.7,
       "metrics": {
-        "stars": 641
+        "stars": 696
       },
       "ai": {
         "title": "safe-anything：Rust 编写的漏洞扫描器",

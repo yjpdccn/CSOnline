@@ -4044,29 +4044,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 49,
-      "related": [
-        {
-          "id": "3wkl9ibf8k",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50458900",
-          "title": "联合航空禁止 AI 代理代为订票",
-          "publishedAt": "2026-11-11T21:24:35.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "techcrunch-ai",
-          "hackernews"
-        ],
-        "firstPublishedAt": "2026-11-11T21:24:35.000Z",
-        "metrics": {
-          "points": 677,
-          "comments": 702
-        }
-      },
+      "score": 15,
       "aiAttempts": 1,
       "ai": {
         "title": "联合航空禁止 AI Agent 预订航班",

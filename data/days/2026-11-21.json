@@ -19,9 +19,9 @@
       "keywords": [
         "MCP"
       ],
-      "score": 18.8,
+      "score": 20.3,
       "metrics": {
-        "stars": 710
+        "stars": 945
       },
       "ai": {
         "title": "KuroCat：开源桌面打字猫伴侣",
@@ -76,7 +76,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 3685
+        "stars": 3916
       },
       "dupOf": "20mvx8qqa9a"
     },
@@ -598,9 +598,9 @@
         "Agent",
         "MCP"
       ],
-      "score": 17.6,
+      "score": 17.8,
       "metrics": {
-        "stars": 565
+        "stars": 589
       },
       "aiAttempts": 1,
       "ai": {
@@ -984,9 +984,9 @@
         "AI 编程",
         "开源模型"
       ],
-      "score": 19,
+      "score": 19.4,
       "metrics": {
-        "stars": 743
+        "stars": 802
       },
       "aiAttempts": 1,
       "ai": {
@@ -1132,6 +1132,14 @@
           "publishedAt": "2026-11-24T11:08:52.128Z"
         },
         {
+          "id": "bij5q2ye4m",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-researcher-stands-by-his-ai-assisted-riemann-proof-but-owns-up-to-stupid-things-in-the-rollout/",
+          "title": "Anthropic 研究员为其 AI 辅助的黎曼猜想证明辩护",
+          "publishedAt": "2026-11-24T14:28:41.000Z"
+        },
+        {
           "id": "1vb4e4rycc6",
           "sourceId": "36kr-ai",
           "sourceName": "36氪 AI",
@@ -1146,15 +1154,24 @@
           "url": "https://36kr.com/p/4084524180482436",
           "title": "突发，证明黎曼猜想之后，Anthropic未发布AI模型强到令人恐惧",
           "publishedAt": "2026-11-25T02:21:53.802Z"
+        },
+        {
+          "id": "10d0tj5ylh6",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4084831473080192",
+          "title": "黎曼猜想证明后，AI还会给数学研究带来哪些“惊喜”？",
+          "publishedAt": "2026-11-25T09:54:06.486Z"
         }
       ],
       "story": {
-        "reports": 17,
+        "reports": 19,
         "sources": [
           "36kr-ai",
           "qbitai",
           "36kr-flash",
-          "jiqizhixin"
+          "jiqizhixin",
+          "the-decoder"
         ],
         "firstPublishedAt": "2026-11-20T16:07:39.000Z"
       }

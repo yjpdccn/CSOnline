@@ -929,9 +929,9 @@
       "keywords": [
         "本地部署"
       ],
-      "score": 26.2,
+      "score": 26.4,
       "metrics": {
-        "stars": 2516
+        "stars": 2615
       },
       "aiAttempts": 1,
       "ai": {
@@ -1759,9 +1759,9 @@
       "keywords": [
         "MCP"
       ],
-      "score": 21.9,
+      "score": 22.9,
       "metrics": {
-        "stars": 1271
+        "stars": 1496
       },
       "dupOf": "1qg2nra39k"
     },
@@ -1930,6 +1930,28 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-19T19:30:40.037Z"
       }
+    },
+    {
+      "id": "3of725e352",
+      "key": "hf:inclusionai/lingsante-3.1-flash",
+      "title": "inclusionAI/LingSante-3.1-flash",
+      "url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+      "excerpt": "Hugging Face 趋势榜第 12 名 · 文本生成 · 189 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-19T04:30:30.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-19",
+      "category": "model",
+      "categoryLocked": true,
+      "score": 23.7,
+      "metrics": {
+        "likes": 189
+      },
+      "skipLlm": true,
+      "dupOf": "2efqava3t57"
     },
     {
       "id": "20t8vgpo65l",
@@ -3566,7 +3588,7 @@
       "categoryLocked": true,
       "score": 20.7,
       "metrics": {
-        "stars": 12501,
+        "stars": 12625,
         "starsToday": 246
       },
       "ai": {

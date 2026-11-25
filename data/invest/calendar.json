@@ -1,28 +1,6 @@
 {
-  "updatedAt": "2026-11-25T05:26:35.172Z",
+  "updatedAt": "2026-11-25T20:27:54.042Z",
   "events": [
-    {
-      "id": "wscn-15836",
-      "at": "2026-11-25T04:02:00.000Z",
-      "country": "欧元区",
-      "title": "报道：欧洲央行将讨论将银行最低准备金要求从1%提高至2%",
-      "importance": 3,
-      "kind": "event",
-      "source": "华尔街见闻",
-      "dateOnly": true
-    },
-    {
-      "id": "wscn-1599680",
-      "at": "2026-11-25T13:30:00.000Z",
-      "country": "美国",
-      "title": "10月核心PCE物价指数环比 · 10月PCE物价指数环比 · 三季度实际GDP年化季环比修正值 等 4 项",
-      "importance": 4,
-      "kind": "data",
-      "source": "华尔街见闻",
-      "previous": "0.3",
-      "forecast": "0.3",
-      "unit": "%"
-    },
     {
       "id": "wscn-15783",
       "at": "2026-11-25T16:00:00.000Z",
@@ -89,7 +67,8 @@
       "importance": 3,
       "kind": "data",
       "source": "华尔街见闻",
-      "previous": "49.3"
+      "previous": "49.3",
+      "forecast": "49.2"
     },
     {
       "id": "wscn-1599782",
@@ -110,7 +89,7 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "55.5",
-      "forecast": "54.9"
+      "forecast": "55"
     },
     {
       "id": "wscn-1599818",
@@ -121,6 +100,7 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "8.6",
+      "forecast": "8",
       "unit": "万人"
     },
     {
@@ -131,6 +111,8 @@
       "importance": 3,
       "kind": "data",
       "source": "华尔街见闻",
+      "previous": "20.2",
+      "forecast": "20",
       "unit": "万人"
     },
     {
@@ -142,7 +124,7 @@
       "kind": "data",
       "source": "华尔街见闻",
       "previous": "54.5",
-      "forecast": "54.7"
+      "forecast": "54.5"
     },
     {
       "id": "wscn-1599880",
@@ -167,14 +149,24 @@
     },
     {
       "id": "wscn-1599929",
-      "at": "2026-12-08T04:02:00.000Z",
+      "at": "2026-12-07T16:00:00.000Z",
       "country": "中国",
       "title": "11月进口同比(按美元计) · 11月出口同比(按美元计)",
       "importance": 3,
       "kind": "data",
       "source": "华尔街见闻",
-      "dateOnly": true,
       "previous": "41.6",
+      "unit": "%"
+    },
+    {
+      "id": "wscn-1605547",
+      "at": "2026-12-08T16:00:00.000Z",
+      "country": "中国",
+      "title": "10月M2货币供应同比 · 1至10月新增人民币贷款(亿人民币) · 1至10月社会融资规模增量(亿人民币)",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "7.1",
       "unit": "%"
     },
     {
@@ -211,6 +203,16 @@
       "previous": "3.75",
       "forecast": "4",
       "unit": "%"
+    },
+    {
+      "id": "wscn-1599972",
+      "at": "2026-12-10T13:30:00.000Z",
+      "country": "美国",
+      "title": "12月5日当周首次申请失业救济人数(万人) · 11月核心CPI同比 · 11月CPI同比",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "unit": "万人"
     }
   ],
   "fomc": [

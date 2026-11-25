@@ -1,0 +1,308 @@
+{
+  "day": "2026-11-26",
+  "items": [
+    {
+      "id": "23lh1dkmong",
+      "key": "url:the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea",
+      "title": "Anthropic CEO Dario Amodei says letting AI govern society would be \"a bad idea\"",
+      "url": "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/",
+      "excerpt": "Anthropic CEO Dario Amodei is pushing back on an Axios report saying some employees believe humanity will hand power to superintelligent systems. Amodei says \"turning over governance to AI is a bad idea.\" The article Anthropic CEO Dario Amodei says letting AI govern society woul…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-25T20:15:50.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "1pt28k4dc76"
+    },
+    {
+      "id": "25kzqvsegop",
+      "key": "url:techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "excerpt": "OpenAI will introduce a single usage meter across ChatGPT as it combines the Chat and Work experiences.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-25T20:03:27.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "OpenAI 合并 ChatGPT 聊天与工作模式",
+        "summary": "OpenAI 将合并 ChatGPT 的聊天和工作体验，统一使用量计费。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:28:55.316Z"
+      }
+    },
+    {
+      "id": "16gambqd4un",
+      "key": "url:techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it",
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "excerpt": "Most codes of conduct serve as a reflection of corporate culture. In Nvidia's case, that could have consequences.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-25T19:54:57.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 15,
+      "dupOf": "39sj51dajg"
+    },
+    {
+      "id": "1pt28k4dc76",
+      "key": "url:techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd",
+      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "excerpt": "Anthropic CEO Dario Amodei pushes back against rivals’ accusations that he favors surrendering human agency to AI, even as leading AI companies increasingly automate their own research and model development.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-25T19:44:24.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 23,
+      "related": [
+        {
+          "id": "23lh1dkmong",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/anthropic-ceo-dario-amodei-says-letting-ai-govern-society-would-be-a-bad-idea/",
+          "title": "Anthropic CEO Dario Amodei says letting AI govern society would be \"a bad idea\"",
+          "publishedAt": "2026-11-25T20:15:50.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "techcrunch-ai",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-11-25T19:44:24.000Z"
+      },
+      "ai": {
+        "title": "Anthropic CEO 否认放弃对 AI 的人权控制",
+        "summary": "Anthropic CEO 反驳竞争对手关于其放弃人类控制权的指责。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:28:55.316Z"
+      }
+    },
+    {
+      "id": "wf12d09ekh",
+      "key": "url:huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "title": "Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-25T18:52:55.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-26",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 30,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "科学家讨论 AI Agent 的伦理边界。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:28:55.316Z"
+      }
+    },
+    {
+      "id": "27rd03ahkbl",
+      "key": "url:the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data",
+      "title": "OpenAI wants companies to trust it with sensitive work by promising not to look at their data",
+      "url": "https://the-decoder.com/openai-wants-companies-to-trust-it-with-sensitive-work-by-promising-not-to-look-at-their-data/",
+      "excerpt": "OpenAI is testing a new feature called \"Private Inference\" that lets companies run queries on its most powerful models without OpenAI being able to access the data. The article OpenAI wants companies to trust it with sensitive work by promising not to look at their data appeared…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-25T18:22:02.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "OpenAI 推出私有推理功能",
+        "summary": "OpenAI 推出“Private Inference”功能，允许企业在不泄露数据的情况下使用其模型。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:28:55.316Z"
+      }
+    },
+    {
+      "id": "xftjwm974o",
+      "key": "url:techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "excerpt": "New York has banned AI chatbot toys for five years as new research from Common Sense Media reveals troubling safety failures, including exposure to inappropriate content and risks to emotional development.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-25T18:11:46.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "纽约禁止 AI 聊天玩具销售",
+        "summary": "纽约因安全风险禁止 AI 聊天玩具销售五年。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:28:55.316Z"
+      }
+    },
+    {
+      "id": "1z68j4i8u3r",
+      "key": "url:theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+      "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+      "excerpt": "In an announcement on Wednesday, the FCC says it authorized SpaceX to deploy up to 1 million AI chip-equipped satellites as part of the Elon Musk-owned company's \"Starmind\" initiative. With several others also pursuing the idea of putting AI data centers in space, including Goog…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-25T17:44:51.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "FCC 批准 SpaceX 发射百万颗 AI 卫星",
+        "summary": "FCC 批准 SpaceX 发射百万颗配备 AI 芯片的卫星。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:28:55.316Z"
+      }
+    },
+    {
+      "id": "ebfzcu6ncn",
+      "key": "url:techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats",
+      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "excerpt": "The proposed Character.ai bankruptcy sale includes sensitive personal data from more than 21 million U.S. accounts, including 2.1 million registered to minors, the state AGs said.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-25T17:35:58.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Character.AI 用户聊天数据拍卖计划受阻",
+        "summary": "Character.AI 计划拍卖用户私人聊天数据，遭州总检察长挑战。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:28:55.316Z"
+      }
+    },
+    {
+      "id": "1q1up4yfjgg",
+      "key": "url:research.google/blog/verifiable-social-reasoning-for-llm-assistants",
+      "title": "Verifiable Social Reasoning for LLM Assistants",
+      "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+      "excerpt": "Generative AI",
+      "lang": "en",
+      "sourceId": "google-research",
+      "sourceName": "Google Research",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-25T17:10:27.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-26",
+      "category": "paper",
+      "score": 30,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Google Research 探索 LLM 助手的可验证社交推理。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:28:55.316Z"
+      }
+    },
+    {
+      "id": "tvyljb4wlr",
+      "key": "url:the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store",
+      "title": "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store.",
+      "url": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
+      "excerpt": "Amazon and Meta are in talks to bring back Muse, Meta's AI shopping agent that Amazon kicked off its platform in September. The two sides are stuck on ad revenue and who gets to control search results. That matters because Amazon's ad business generates $68.6 billion a year, and…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-25T16:44:37.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-26",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "dupOf": "c4fgfpd2qz"
+    },
+    {
+      "id": "es5yf2vtzj",
+      "key": "url:qbitai.com/2026/11/512748.html",
+      "title": "我以为这是摄影作品，你告诉我这是最新的国产AI？！",
+      "url": "https://www.qbitai.com/2026/11/512748.html",
+      "excerpt": "商汤SenseNova U1.6",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-25T16:34:09.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "商汤 SenseNova U1.6 模型生成的图像引发讨论。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:30:08.557Z"
+      }
+    },
+    {
+      "id": "gj2e64xh3d",
+      "key": "url:theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "title": "Nothing offers a full look at its AI earbuds and charging case",
+      "url": "https://www.theverge.com/gadgets/1042162/nothing-ear-note-ai-earbuds-reveal",
+      "excerpt": "Nothing is showing off a much more detailed look at its upcoming AI earbuds ahead of their December 8th release. The Ear Note buds can record your calls, while their charging case can record, transcribe, and summarize your conversations. Like the Ear 3, the Ear Note's microphone…",
+      "lang": "en",
+      "sourceId": "verge-ai",
+      "sourceName": "The Verge AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-25T16:00:59.000Z",
+      "firstSeenAt": "2026-11-25T20:27:54.042Z",
+      "day": "2026-11-26",
+      "category": "multimodal",
+      "score": 15,
+      "ai": {
+        "title": "Nothing 展示 AI 耳机与充电盒",
+        "summary": "Nothing 展示其 AI 耳机，可录音、转写和总结对话。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-25T20:28:55.316Z"
+      }
+    }
+  ]
+}

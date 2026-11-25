@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25T05:26:35.172Z",
+  "updatedAt": "2026-11-25T20:27:54.042Z",
   "bands": {
     "ndx": "low",
     "spx": "mid",
@@ -8,6 +8,22 @@
     "divlowvol": "high"
   },
   "events": [
+    {
+      "id": "policy:xfx4l5xpxm",
+      "kind": "policy",
+      "at": "2026-11-25T13:18:00.000Z",
+      "title": "美国提议对日本和韩国加征15%关税 对欧盟商品征收最高20%关税",
+      "detail": "东方财富 等 4 家来源报道",
+      "url": "https://finance.eastmoney.com/a/202611253939785990.html"
+    },
+    {
+      "id": "policy:12zagfqk1es",
+      "kind": "policy",
+      "at": "2026-11-25T07:24:00.000Z",
+      "title": "美国将宣布对中国商品加征关税，外交部：反对借口“产能过剩”进行政治操弄",
+      "detail": "新浪财经 等 4 家来源报道",
+      "url": "https://finance.sina.cn/7x24/2026-11-25/detail-inizxtsf1803450.d.html"
+    },
     {
       "id": "move:ndx:2026-11-23",
       "kind": "move",
@@ -35,13 +51,6 @@
       "at": "2026-11-20T15:59:00.000Z",
       "title": "纳斯达克100 11月20日下跌 5.6%",
       "detail": "单日变动超过 3%，收于 25,028.98。"
-    },
-    {
-      "id": "move:xau:2026-11-18",
-      "kind": "move",
-      "at": "2026-11-18T15:59:00.000Z",
-      "title": "现货黄金 11月18日下跌 3.2%",
-      "detail": "单日变动超过 3%，收于 3,724.91。"
     }
   ]
 }
