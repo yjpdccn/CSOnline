@@ -3372,29 +3372,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 49,
-      "related": [
-        {
-          "id": "285uj67aa6k",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50452455",
-          "title": "My AI agents found an unmapped Maya site?",
-          "publishedAt": "2026-11-11T12:05:22.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "verge-ai",
-          "hackernews"
-        ],
-        "firstPublishedAt": "2026-11-11T12:05:22.000Z",
-        "metrics": {
-          "points": 1033,
-          "comments": 392
-        }
-      },
+      "score": 15,
       "ai": {
         "title": "AI Agent 并未发现未知玛雅遗址",
         "summary": "Google 研究员 Pietro Miotti 称 AI Agent 发现的形状并非未知玛雅遗址。",

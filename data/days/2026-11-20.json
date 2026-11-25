@@ -68,7 +68,7 @@
       "categoryLocked": true,
       "score": 17.6,
       "metrics": {
-        "stars": 556
+        "stars": 562
       },
       "ai": {
         "title": "Levent Alpöge 的黎曼猜想 Lean 证明",
@@ -156,9 +156,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 18.9,
+      "score": 19.4,
       "metrics": {
-        "stars": 733
+        "stars": 811
       },
       "aiAttempts": 1
     },
@@ -861,10 +861,20 @@
       "day": "2026-11-20",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 15.8,
+      "score": 43.4,
       "metrics": {
-        "stars": 366
-      }
+        "stars": 735,
+        "points": 206,
+        "comments": 64
+      },
+      "alsoOn": [
+        {
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50629231"
+        }
+      ],
+      "discussionUrl": "https://news.ycombinator.com/item?id=50629231"
     },
     {
       "id": "lmygui8mks",
@@ -2360,9 +2370,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 17.9,
+      "score": 18.2,
       "metrics": {
-        "stars": 602
+        "stars": 640
       }
     },
     {
@@ -3039,8 +3049,8 @@
       ],
       "score": 29,
       "metrics": {
-        "stars": 71502,
-        "starsToday": 794
+        "stars": 72251,
+        "starsToday": 802
       },
       "ai": {
         "title": "diagram-design：Claude Code 等的编辑器图表设计",
@@ -3071,7 +3081,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 5443,
+        "stars": 5986,
         "starsToday": 936
       },
       "ai": {
@@ -3099,7 +3109,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 15069,
+        "stars": 15571,
         "starsToday": 983
       },
       "ai": {

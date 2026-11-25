@@ -173,10 +173,34 @@
           "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated",
           "title": "Trump engineered a risky comeback for Jensen Huang",
           "publishedAt": "2026-11-23T22:25:12.000Z"
+        },
+        {
+          "id": "150yasonasw",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1041222/jensen-huang-nvidia-scandal-deepfakes",
+          "title": "Jensen Huang deepfakes are the hot new AI slop",
+          "publishedAt": "2026-11-24T16:30:00.000Z"
+        },
+        {
+          "id": "28xo2de6x1w",
+          "sourceId": "verge-ai",
+          "sourceName": "The Verge AI",
+          "url": "https://www.theverge.com/tech/1041571/jensen-huang-all-hands-nvidia-apology",
+          "title": "Jensen Huang reportedly tells Nvidia staff it’s ‘not true’ Trump got him rehired",
+          "publishedAt": "2026-11-24T20:02:03.000Z"
+        },
+        {
+          "id": "k0cifqkif7",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+          "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+          "publishedAt": "2026-11-24T22:27:52.000Z"
         }
       ],
       "story": {
-        "reports": 12,
+        "reports": 15,
         "sources": [
           "jiqizhixin",
           "techcrunch-ai",
@@ -902,8 +926,8 @@
         ],
         "firstPublishedAt": "2026-11-23T10:06:43.000Z",
         "metrics": {
-          "points": 1141,
-          "comments": 374
+          "points": 1170,
+          "comments": 380
         }
       },
       "ai": {
@@ -1103,8 +1127,8 @@
       "category": "model",
       "score": 42,
       "metrics": {
-        "points": 1141,
-        "comments": 374
+        "points": 1170,
+        "comments": 380
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50609685",
       "dupOf": "234rtzqbc1g"
@@ -1796,9 +1820,9 @@
       "day": "2026-11-23",
       "category": "model",
       "categoryLocked": true,
-      "score": 22.6,
+      "score": 23.5,
       "metrics": {
-        "likes": 149
+        "likes": 184
       },
       "skipLlm": true
     },
@@ -2973,7 +2997,7 @@
         ],
         "firstPublishedAt": "2026-11-20T14:59:14.000Z",
         "metrics": {
-          "stars": 556
+          "stars": 562
         }
       },
       "ai": {
@@ -3061,8 +3085,8 @@
       "category": "opensource",
       "score": 35.7,
       "metrics": {
-        "points": 762,
-        "comments": 310
+        "points": 773,
+        "comments": 313
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50603845",
       "aiAttempts": 1,
@@ -3138,9 +3162,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 17.7,
+      "score": 18.2,
       "metrics": {
-        "stars": 577
+        "stars": 641
       },
       "ai": {
         "title": "safe-anything：Rust 编写的漏洞扫描器",

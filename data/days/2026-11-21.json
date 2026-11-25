@@ -19,9 +19,9 @@
       "keywords": [
         "MCP"
       ],
-      "score": 17.5,
+      "score": 18.8,
       "metrics": {
-        "stars": 544
+        "stars": 710
       },
       "ai": {
         "title": "KuroCat：开源桌面打字猫伴侣",
@@ -76,7 +76,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 3446
+        "stars": 3685
       },
       "dupOf": "20mvx8qqa9a"
     },
@@ -598,9 +598,9 @@
         "Agent",
         "MCP"
       ],
-      "score": 17.4,
+      "score": 17.6,
       "metrics": {
-        "stars": 541
+        "stars": 565
       },
       "aiAttempts": 1,
       "ai": {
@@ -984,9 +984,9 @@
         "AI 编程",
         "开源模型"
       ],
-      "score": 17.9,
+      "score": 19,
       "metrics": {
-        "stars": 594
+        "stars": 743
       },
       "aiAttempts": 1,
       "ai": {
@@ -1130,10 +1130,26 @@
           "url": "https://36kr.com/p/4083605367761538",
           "title": "黎曼猜想证明两天砍掉240万行，全球接力压缩，马斯克在线围观",
           "publishedAt": "2026-11-24T11:08:52.128Z"
+        },
+        {
+          "id": "1vb4e4rycc6",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4084522222611072",
+          "title": "黎曼猜想之后，代数版P≠NP证明了",
+          "publishedAt": "2026-11-25T01:56:44.452Z"
+        },
+        {
+          "id": "293wema5d9",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4084524180482436",
+          "title": "突发，证明黎曼猜想之后，Anthropic未发布AI模型强到令人恐惧",
+          "publishedAt": "2026-11-25T02:21:53.802Z"
         }
       ],
       "story": {
-        "reports": 15,
+        "reports": 17,
         "sources": [
           "36kr-ai",
           "qbitai",
@@ -1816,8 +1832,8 @@
         ],
         "firstPublishedAt": "2026-11-18T09:53:00.945Z",
         "metrics": {
-          "points": 1034,
-          "comments": 1007
+          "points": 1039,
+          "comments": 1008
         }
       }
     },

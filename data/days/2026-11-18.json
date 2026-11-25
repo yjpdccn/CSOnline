@@ -122,9 +122,9 @@
       "day": "2026-11-18",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 16.7,
+      "score": 17.3,
       "metrics": {
-        "stars": 460
+        "stars": 522
       }
     },
     {
@@ -3148,7 +3148,7 @@
       "firstSeenAt": "2026-11-18T04:18:35.310Z",
       "day": "2026-11-18",
       "category": "industry",
-      "score": 54,
+      "score": 55.9,
       "metrics": {
         "points": 709,
         "comments": 564
@@ -3181,7 +3181,7 @@
         "metrics": {
           "points": 709,
           "comments": 564,
-          "stars": 895
+          "stars": 1271
         }
       }
     },
@@ -4001,7 +4001,7 @@
       ],
       "score": 23.9,
       "metrics": {
-        "stars": 19026,
+        "stars": 19303,
         "starsToday": 397
       },
       "ai": {
@@ -4061,7 +4061,7 @@
       "categoryLocked": true,
       "score": 29.5,
       "metrics": {
-        "stars": 69936,
+        "stars": 70438,
         "starsToday": 847
       },
       "ai": {
@@ -4499,10 +4499,18 @@
           "url": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
           "title": "GPT-6.2 Astra solved a math theorem no other AI could crack, then invented its own proof strategy",
           "publishedAt": "2026-11-23T12:17:01.000Z"
+        },
+        {
+          "id": "1250igb1ai3",
+          "sourceId": "simonw",
+          "sourceName": "Simon Willison",
+          "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+          "title": "GPT 6.2 Astra Solves a Historical Mystery",
+          "publishedAt": "2026-11-24T16:53:59.000Z"
         }
       ],
       "story": {
-        "reports": 16,
+        "reports": 17,
         "sources": [
           "openai",
           "hackernews",

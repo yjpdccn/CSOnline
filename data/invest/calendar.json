@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-24T13:08:53.051Z",
+  "updatedAt": "2026-11-25T05:26:35.172Z",
   "events": [
     {
       "id": "wscn-15836",
@@ -109,7 +109,8 @@
       "importance": 3,
       "kind": "data",
       "source": "华尔街见闻",
-      "previous": "55.5"
+      "previous": "55.5",
+      "forecast": "54.9"
     },
     {
       "id": "wscn-1599818",
@@ -140,7 +141,8 @@
       "importance": 3,
       "kind": "data",
       "source": "华尔街见闻",
-      "previous": "54.5"
+      "previous": "54.5",
+      "forecast": "54.7"
     },
     {
       "id": "wscn-1599880",
@@ -153,6 +155,15 @@
       "previous": "4.1",
       "forecast": "4.1",
       "unit": "%"
+    },
+    {
+      "id": "wscn-15849",
+      "at": "2026-12-07T16:00:00.000Z",
+      "country": "美国",
+      "title": "12月8日–9日：美联储FOMC议息会议",
+      "importance": 4,
+      "kind": "event",
+      "source": "华尔街见闻"
     },
     {
       "id": "wscn-1599929",
@@ -187,6 +198,18 @@
       "source": "华尔街见闻",
       "dateOnly": true,
       "previous": "7.1",
+      "unit": "%"
+    },
+    {
+      "id": "wscn-1599955",
+      "at": "2026-12-09T19:00:00.000Z",
+      "country": "美国",
+      "title": "FOMC利率决策(下限) · FOMC利率决策(上限)",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "3.75",
+      "forecast": "4",
       "unit": "%"
     }
   ],
