@@ -68,7 +68,7 @@ export function StrategyPanel({ strategy, asOf, since }: { strategy: InvestPageD
         </div>
       )}
       <p className="mt-3 text-xs leading-relaxed text-muted-foreground">
-        替换：每周日比较同一指数（黄金按同样跟踪 Au99.99）的场外基金，只选 A 类（个人养老金看 Y 类）、名称不含「增强」、费率符合规则四、开放申购且日限额不低于现有、规模 {minSize / 1e8}{" "}
+        替换：每周日比较同一指数（黄金按同样跟踪 Au99.99）的场外基金，只选 A 类、名称不含「增强」、费率符合规则四、开放申购且日限额不低于现有、规模 {minSize / 1e8}{" "}
         亿元以上的，每年费用（管理费、托管费和销售服务费）低 {minSaving}% 以上才列出，成立不满一年的会注明；C 类份额也和同一基金的 A 类比较。停止：每次更新检查暂停申购或定投、费率上调超过规则、规模低于 5000
         万元、清盘或转型等公告、跟踪误差明显偏大和场内溢价。加大：海外基金恢复申购或额度放开（同类基金的日限额是现有的 {quotaFactor} 倍以上）、场内 QDII ETF 溢价回到 2% 以内。
       </p>

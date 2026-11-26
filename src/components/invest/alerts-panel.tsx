@@ -37,7 +37,6 @@ function daysUntil(day: string, now: Date): number {
 
 function KeyDates({ now }: { now: Date }) {
   const year = Number(dayKey(now).slice(0, 4));
-  const pensionDays = daysUntil(`${year}-12-31`, now);
   const taxStart = daysUntil(`${year}-03-01`, now);
   const taxEnd = daysUntil(`${year}-06-30`, now);
   const taxOpen = taxStart <= 0 && taxEnd >= 0;
@@ -45,12 +44,6 @@ function KeyDates({ now }: { now: Date }) {
   const nextTaxStart = taxEnd < 0 ? daysUntil(`${year + 1}-03-01`, now) : taxStart;
   return (
     <ul className="mt-2 grid gap-2 text-sm sm:grid-cols-2">
-      <li className="rounded-lg border bg-background/60 px-3 py-2">
-        <div className="text-xs text-muted-foreground">个人养老金 · 本年度缴存截止</div>
-        <div className="mt-0.5 font-medium">
-          {year}年12月31日 <span className="ml-1 text-amber-600 tabular-nums dark:text-amber-400">还有 {pensionDays} 天</span>
-        </div>
-      </li>
       <li className="rounded-lg border bg-background/60 px-3 py-2">
         <div className="text-xs text-muted-foreground">个税年度汇算（{taxYear - 1} 年度）</div>
         <div className="mt-0.5 font-medium">

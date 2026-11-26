@@ -8,23 +8,22 @@
  * - 新指数：在 INDICES 加一行（东方财富 secid 可在 quote.eastmoney.com 的网址里找到）。
  */
 
-export type FundGroup = "dca" | "pension" | "later" | "groupA" | "groupB";
+export type FundGroup = "dca" | "later" | "groupA" | "groupB";
 
 export const FUND_GROUPS: { id: FundGroup; label: string; hint: string }[] = [
   { id: "dca", label: "正在定投", hint: "净值、跟踪指数、申购状态与费率" },
-  { id: "pension", label: "个人养老金", hint: "中证A500 / 沪深300 的 Y 份额候选" },
   { id: "later", label: "以后再买", hint: "场外基金与场内 ETF" },
   { id: "groupA", label: "A组", hint: "净值、跟踪指数、申购状态与费率" },
   { id: "groupB", label: "B组", hint: "净值、跟踪指数、申购状态与费率" },
 ];
 
 /** Groups whose 定投 plans the alerts refer to; the other groups get neutral wording. */
-export const PLAN_GROUPS: FundGroup[] = ["dca", "pension", "later"];
+export const PLAN_GROUPS: FundGroup[] = ["dca", "later"];
 
 /** How a fund is used, which decides the wording of suggestions: 定投 now, held without buying more, or planned. */
 export type FundRole = "dca" | "held" | "planned";
 
-export const GROUP_ROLE: Record<FundGroup, FundRole> = { dca: "dca", pension: "planned", later: "planned", groupA: "held", groupB: "held" };
+export const GROUP_ROLE: Record<FundGroup, FundRole> = { dca: "dca", later: "planned", groupA: "held", groupB: "held" };
 
 export type IndexId = "ndx" | "spx" | "spxew" | "a500" | "csi300" | "cicc300" | "divlowvol" | "gold" | "cnbond";
 
@@ -61,10 +60,6 @@ export const FUNDS: FundConfig[] = [
   { code: "096001", name: "大成标普500等权重指数(QDII)A人民币", group: "dca", index: "spxew", watchLimit: true, addOnReopen: true },
   { code: "008701", name: "华夏黄金ETF联接A", group: "dca", index: "gold" },
   { code: "008702", name: "华夏黄金ETF联接C", group: "dca", index: "gold", tag: "继续持有", role: "held" },
-  // 个人养老金
-  { code: "022930", name: "易方达中证A500ETF联接Y", group: "pension", index: "a500" },
-  { code: "022918", name: "南方中证A500ETF联接Y", group: "pension", index: "a500" },
-  { code: "022928", name: "易方达沪深300ETF联接Y", group: "pension", index: "csi300" },
   // 以后再买
   { code: "022459", name: "易方达中证A500ETF联接A", group: "later", index: "a500", tag: "A股宽基 · 首选", watchLimit: true },
   { code: "022434", name: "南方中证A500ETF联接A", group: "later", index: "a500", tag: "A股宽基 · 备选", watchLimit: true },

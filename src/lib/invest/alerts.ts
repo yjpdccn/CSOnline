@@ -57,11 +57,12 @@ export function diffAlerts(prev: AlertsFile | null, views: FundView[], now: Date
   const at = now.toISOString();
   const cutoff = now.getTime() - EVENT_RETENTION_DAYS * 86_400_000;
   const events = (prev?.events ?? []).filter((e) => Date.parse(e.at) >= cutoff);
-  const lastSeen: Record<string, LastSeen> = { ...prev?.lastSeen };
+  // Only funds still on the page: one taken off leaves nothing behind.
+  const lastSeen: Record<string, LastSeen> = {};
   const push = (event: Omit<AlertEvent, "id" | "at">) => events.push({ ...event, id: `${event.kind}:${event.code}:${at}`, at });
 
   for (const view of views) {
-    const seen = lastSeen[view.code];
+    const seen = prev?.lastSeen[view.code];
     const next: LastSeen = { ...seen, at };
 
     if (view.watchLimit && view.status) {

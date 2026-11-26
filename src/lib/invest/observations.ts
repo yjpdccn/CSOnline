@@ -136,10 +136,7 @@ export function buildObservations(events: AlertEvent[], views: FundView[], now: 
   if (today.day <= INVEST_RULES.monthlyCheckDays) {
     reminder(`monthly:${today.year}-${String(today.month).padStart(2, "0")}`, `${today.month}月定投扣款核对`, "到购买平台确认本月各项定投都已扣款成功（本站看不到账户，只能自己核对）。");
   }
-  // The only dates shown are generic ones: the 个人养老金 deadline and the 个税 annual filing window.
-  if (today.month === 12) {
-    reminder(`pension:${today.year}${today.day >= 24 ? ":final" : ""}`, "个人养老金本年度缴存截止", `${today.year}年12月31日截止，还有 ${31 - today.day} 天。`);
-  }
+  // The only dates shown are generic ones: the 个税 annual filing window.
   if (today.month === 3 && today.day <= 7) reminder(`tax:${today.year}:start`, "个税年度汇算开始", "3月1日至6月30日办理上一年度的个税年度汇算。");
   if (today.month === 6 && today.day >= 20) reminder(`tax:${today.year}:end`, "个税年度汇算 6月30日截止", `还有 ${30 - today.day} 天。`);
   return items;

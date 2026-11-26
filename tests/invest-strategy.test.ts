@@ -330,12 +330,6 @@ describe("strategy suggestions", () => {
     expect(buildSuggestions([gold[2]], close, [], NOW)).toEqual([]);
   });
 
-  it("compares Y shares only with Y shares", () => {
-    const pension = view("022930", { tracking: "中证A500指数", fees: fees(0.15, 0.05) });
-    const peers = { 中证A500指数: [peer("099001", "某某中证A500ETF联接A", { fees: { management: 0.05, custody: 0.02, service: 0 } }), peer("099002", "某某中证A500ETF联接Y", { fees: { management: 0.05, custody: 0.02, service: 0 } })] };
-    expect(buildSuggestions([pension], strategy({ peers }), [], NOW).map((i) => i.key)).toEqual(["replace:022930:099002"]);
-  });
-
   it("waits for a planned overseas fund's quota, and suggests a cheaper open one meanwhile", () => {
     const planned = view("050025", { tracking: "标准普尔500指数", fees: fees(0.6, 0.2), status: status("暂停申购", 100, "不支持") });
     const items = buildSuggestions([planned], strategy(), [], NOW);

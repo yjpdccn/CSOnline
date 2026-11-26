@@ -72,7 +72,7 @@ function peersOf(v: FundView, strategy: StrategyFile): PeerFund[] {
 /** QDII funds already bought by 定投 have no daily quota to spare. */
 const DCA_CODES = new Set(FUNDS.filter((f) => (f.role ?? GROUP_ROLE[f.group]) === "dca").map((f) => f.code));
 
-/** A candidate that fits the rules: same share class family (Y for pension shares), open, big enough. */
+/** A candidate that fits the rules: same share class family (Y for Y shares), open, big enough. */
 function usable(v: FundView, p: PeerFund): boolean {
   if (p.code === v.code || (p.qdii && DCA_CODES.has(p.code))) return false;
   return (p.cls === "Y") === (shareClass(v.name).cls === "Y") && capacity(p.status) > 0 && (p.size ?? 0) >= ALT.minSize;

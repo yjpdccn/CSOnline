@@ -159,7 +159,8 @@ describe("pushes and the alert strip", () => {
       ["申购变化", "019172 申购额度收紧：限大额 · 10 元/日 → 暂停申购"],
       ["可以考虑停止", "A组 · 022502 暂停申购"],
     ]);
-    expect(buildStrip(null, [], new Date("2026-12-20T02:00:00Z")).map((i) => i.text)).toEqual(["个人养老金本年度缴存 12月31日截止，还有 11 天"]);
+    expect(buildStrip(null, [], new Date("2026-06-20T02:00:00Z")).map((i) => i.text)).toEqual(["个税年度汇算 6月30日截止，还有 10 天"]);
+    expect(buildStrip(null, [], new Date("2026-12-20T02:00:00Z"))).toEqual([]);
   });
 
   it("loads the newest weekly note", async () => {

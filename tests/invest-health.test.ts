@@ -333,8 +333,9 @@ describe("notifications", () => {
     const gone = diffNotifications(first.next, [], alerts);
     expect(gone.resolved).toEqual(["指数行情没有更新到最新交易日"]);
     expect(formatMessage(gone, "https://x/invest/")?.title).toBe("投资日报：数据已恢复");
-    const reminder = buildObservations([], [], new Date("2026-12-24T01:00:00Z"));
-    expect(diffNotifications(first.next, [issue("stale:indices", ["标普500"])], [...alerts, ...reminder]).reminders.map((r) => r.key)).toEqual(["pension:2026:final"]);
+    const reminder = buildObservations([], [], new Date("2026-06-24T01:00:00Z"));
+    expect(diffNotifications(first.next, [issue("stale:indices", ["标普500"])], [...alerts, ...reminder]).reminders.map((r) => r.key)).toEqual(["tax:2026:end"]);
+    expect(buildObservations([], [], new Date("2026-12-24T01:00:00Z")).filter((o) => o.kind === "reminder")).toEqual([]);
   });
 
   it("groups one message by action, each suggestion ending with the disclaimer", () => {

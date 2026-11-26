@@ -154,8 +154,6 @@ export function buildStrip(health: PageHealth | null, observations: PageAlert[],
     }
   }
   const year = Number(dayKey(asOf).slice(0, 4));
-  const pension = daysUntil(`${year}-12-31`, asOf);
-  if (pension >= 0 && pension <= 14) items.push({ key: `deadline:pension:${year}`, tone: "amber", label: "截止日", text: `个人养老金本年度缴存 12月31日截止，还有 ${pension} 天` });
   const tax = daysUntil(`${year}-06-30`, asOf);
   if (tax >= 0 && tax <= 14) items.push({ key: `deadline:tax:${year}`, tone: "amber", label: "截止日", text: `个税年度汇算 6月30日截止，还有 ${tax} 天` });
   return items;

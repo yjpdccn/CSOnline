@@ -54,6 +54,9 @@ const ON_EXCHANGE = /^(?:15[89]|5[1-26-8]\d)/;
 /** The scan runs on Sundays (Beijing time), and whenever the last one is missing or more than eight days old. */
 export function scanDue(file: StrategyFile, now: Date): boolean {
   if (!file.checkedAt) return true;
+  // A fund added to or taken off FUNDS changes which peers are compared: rescan at once.
+  const compared = Object.keys(file.tracked);
+  if (compared.length && compared.sort().join() !== FUNDS.map((f) => f.code).sort().join()) return true;
   const age = now.getTime() - Date.parse(file.checkedAt);
   const sunday = new Date(`${dayKey(now)}T00:00:00Z`).getUTCDay() === 0;
   return age > 8 * 86_400_000 || (sunday && age > 20 * 3600_000);
@@ -94,7 +97,7 @@ export interface ScanResult {
 
 /**
  * The weekly comparison. Every off-exchange fund whose name suggests a tracked index is read once (基本概况:
- * 跟踪标的, fees, size, inception); those on the same index, in the A class (Y for pension shares), without
+ * 跟踪标的, fees, size, inception); those on the same index, in the A class (Y for Y shares), without
  * 增强 and within the fee rule get their purchase status read too. Share classes are added up for size.
  */
 export async function scanPeers(funds: FundsFile, now: Date, deps: ScanDeps): Promise<ScanResult> {
@@ -259,7 +262,8 @@ async function readNotices(file: StrategyFile, now: Date, deps: RefreshDeps): Pr
     deps.notices,
     deps,
   );
-  const notices = { ...file.notices };
+  // Only funds still on the list: one taken off leaves nothing behind.
+  const notices: StrategyFile["notices"] = Object.fromEntries(Object.entries(file.notices).filter(([code]) => code in known));
   const reads: Record<string, string> = Object.fromEntries(Object.entries(known).filter((e): e is [string, string] => Boolean(e[1])));
   for (const [code, list] of read.values) {
     notices[code] = list.filter((n) => Date.parse(n.date) >= cutoff);
