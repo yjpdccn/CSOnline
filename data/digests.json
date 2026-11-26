@@ -1091,20 +1091,26 @@
   },
   "2026-11-26": {
     "day": "2026-11-26",
-    "generatedAt": "2026-11-26T12:35:03.311Z",
+    "generatedAt": "2026-11-26T12:46:33.308Z",
     "itemCount": 123,
     "mode": "ai",
     "model": "glm-4.7-flash",
-    "overview": "Anthropic发布GRH Lean验证简化版，国产模型破译密码学悬案，谷歌推出面向Agent的命令行工具。",
+    "overview": "GPT-6 Astra或发现大一统理论，Anthropic发布GRH Lean验证，国产模型破译18年密码学悬案。",
     "points": [
       {
-        "text": "Anthropic发布GRH Lean验证简化版，降低安全研究门槛。",
+        "text": "GPT-6 Astra或发现大一统理论，物理论文引热议。",
+        "refs": [
+          "xqtxqe6h39"
+        ]
+      },
+      {
+        "text": "Anthropic发布GRH Lean验证简化版。",
         "refs": [
           "1qa3sjj5ou9"
         ]
       },
       {
-        "text": "国产模型攻破尘封18年密码学悬案，效率提升43400倍。",
+        "text": "国产模型攻破密码学悬案，破译效率提升43400倍。",
         "refs": [
           "1kos2xido2j"
         ]
@@ -1116,9 +1122,9 @@
         ]
       },
       {
-        "text": "钛虎机器人发布轻量化关节模组Lite-1系列，助力人形机器人量产。",
+        "text": "llama.cpp推出AMD Ryzen和Radeon基准测试仪表板。",
         "refs": [
-          "15qnuxw8tam"
+          "1fzqjcz6j8i"
         ]
       }
     ]

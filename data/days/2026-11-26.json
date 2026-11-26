@@ -2,6 +2,22 @@
   "day": "2026-11-26",
   "items": [
     {
+      "id": "14776t09izf",
+      "key": "url:jiqizhixin.com/articles/2026-11-26-11",
+      "title": "SteerSound：迈向更可靠的音频编辑",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-26-11",
+      "excerpt": "音频编辑，就是用一句文字指令去改一段已有的录音：加一段雨声，把钢琴换成小提琴，去掉背景音乐，或者把某个人的声音调低几个半音。这里面很多操作只针对录音里的某一个声音，其余部分要原样保留，它们统称为选择性编辑。要做好这类编辑，模型需要先认出指令说的是哪个声音。近日，中国人民大学 GeWu-Lab ...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T12:42:00.000Z",
+      "firstSeenAt": "2026-11-26T12:44:31.311Z",
+      "day": "2026-11-26",
+      "category": "multimodal",
+      "score": 18
+    },
+    {
       "id": "15qnuxw8tam",
       "key": "url:jiqizhixin.com/articles/2026-11-26-10",
       "title": "钛虎机器人推出轻量化关节模组 Lite-1系列，为人形机器人量产释放设计空间",
@@ -18,7 +34,8 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 22
+      "score": 22,
+      "aiAttempts": 1
     },
     {
       "id": "1t6io8hsh9o",
@@ -34,7 +51,8 @@
       "firstSeenAt": "2026-11-26T12:32:50.070Z",
       "day": "2026-11-26",
       "category": "paper",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1fzqjcz6j8i",
@@ -48,11 +66,18 @@
       "publishedAt": "2026-11-26T11:37:17.000Z",
       "firstSeenAt": "2026-11-26T12:32:50.070Z",
       "day": "2026-11-26",
-      "category": "model",
+      "category": "opensource",
       "keywords": [
         "本地部署"
       ],
-      "score": 40
+      "score": 34,
+      "ai": {
+        "title": "llama.cpp 推出 AMD Ryzen 和 Radeon 基准测试仪表板",
+        "summary": "Hugging Face 博客发布 llama.cpp 基准测试仪表板，支持 AMD 硬件。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T12:45:05.093Z"
+      }
     },
     {
       "id": "1bydlsev2uc",
@@ -71,7 +96,14 @@
       "keywords": [
         "Agent"
       ],
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "微软详解 ARTEX AI 框架如何被黑客自动化攻击",
+        "summary": "微软披露 ARTEX 框架架构，指出其被黑客用于自动化网络攻击。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T12:45:05.093Z"
+      }
     },
     {
       "id": "285ohs38wzj",
@@ -87,7 +119,8 @@
       "firstSeenAt": "2026-11-26T12:32:50.070Z",
       "day": "2026-11-26",
       "category": "agent",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "eemg2bxy8m",
@@ -103,7 +136,8 @@
       "firstSeenAt": "2026-11-26T12:32:50.070Z",
       "day": "2026-11-26",
       "category": "opensource",
-      "score": 22
+      "score": 22,
+      "aiAttempts": 1
     },
     {
       "id": "1wle9cney1j",
@@ -119,7 +153,14 @@
       "firstSeenAt": "2026-11-26T12:32:50.070Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 15
+      "score": 15,
+      "ai": {
+        "title": "Nvidia 停止向东南亚四国发货服务器",
+        "summary": "受美国新出口管制影响，Nvidia 停止向马来西亚等四国发货。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T12:45:05.093Z"
+      }
     },
     {
       "id": "278awmi5v8w",
@@ -138,7 +179,8 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "vms6iuuuec",
@@ -191,7 +233,8 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1o9f9vxqj1t",
@@ -207,7 +250,8 @@
       "firstSeenAt": "2026-11-26T12:32:50.070Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "25gg4h21ki",
@@ -223,7 +267,8 @@
       "firstSeenAt": "2026-11-26T12:32:50.070Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1bba1b7lbw4",
@@ -239,7 +284,8 @@
       "firstSeenAt": "2026-11-26T12:32:50.070Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "20j1faynejw",
@@ -255,7 +301,8 @@
       "firstSeenAt": "2026-11-26T12:32:50.070Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "2jju83bkei",
@@ -306,7 +353,7 @@
       "day": "2026-11-26",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 2
     },
     {
       "id": "1n481erdhz3",
@@ -323,7 +370,7 @@
       "day": "2026-11-26",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 2
     },
     {
       "id": "puceduqqw1",
@@ -394,7 +441,7 @@
         ],
         "firstPublishedAt": "2026-11-26T09:20:00.000Z"
       },
-      "aiAttempts": 1
+      "aiAttempts": 2
     },
     {
       "id": "1fi6p5eyxgt",
@@ -1282,10 +1329,10 @@
       "firstSeenAt": "2026-11-26T06:51:18.241Z",
       "day": "2026-11-26",
       "category": "model",
-      "score": 37.5,
+      "score": 37.6,
       "metrics": {
-        "points": 311,
-        "comments": 176
+        "points": 315,
+        "comments": 177
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50651117",
       "dupOf": "25754w8325h"
@@ -2191,9 +2238,9 @@
         "AI 编程",
         "视频生成"
       ],
-      "score": 21.3,
+      "score": 21.4,
       "metrics": {
-        "upvotes": 52,
+        "upvotes": 53,
         "comments": 4
       },
       "ai": {
@@ -2223,6 +2270,13 @@
       "metrics": {
         "upvotes": 54,
         "comments": 1
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "论文介绍 Mixture-of-Loops Transformer，通过重用记忆提升训练效率。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T12:45:05.093Z"
       }
     },
     {
@@ -2248,6 +2302,13 @@
       "metrics": {
         "upvotes": 83,
         "comments": 2
+      },
+      "ai": {
+        "title": "Real2SimLab：统一真实到模拟转换平台",
+        "summary": "HF 每日论文介绍 Real2SimLab，用于从真实世界观察构建模拟。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T12:45:05.093Z"
       }
     },
     {
@@ -2265,10 +2326,17 @@
       "day": "2026-11-26",
       "category": "paper",
       "categoryLocked": true,
-      "score": 23.8,
+      "score": 23.9,
       "metrics": {
-        "upvotes": 78,
+        "upvotes": 79,
         "comments": 1
+      },
+      "ai": {
+        "title": "Sage-Med：医疗多模态智能扩展研究",
+        "summary": "HF 每日论文提出 Sage-Med，旨在解决医疗多模态大模型扩展难题。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T12:45:05.093Z"
       }
     },
     {
@@ -2401,10 +2469,10 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "paper",
-      "score": 35.2,
+      "score": 35.3,
       "metrics": {
-        "points": 476,
-        "comments": 258
+        "points": 479,
+        "comments": 262
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50648050",
       "aiAttempts": 1,

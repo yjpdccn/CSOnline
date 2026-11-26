@@ -1578,7 +1578,7 @@
       "categoryLocked": true,
       "score": 43.2,
       "metrics": {
-        "stars": 991,
+        "stars": 1000,
         "points": 174,
         "comments": 39
       },
@@ -3262,6 +3262,13 @@
       "metrics": {
         "upvotes": 51,
         "comments": 2
+      },
+      "ai": {
+        "title": "CUA-SEE：计算机使用 Agent 自我进化评估环境",
+        "summary": "HF 每日论文发布 CUA-SEE，用于自适应评估计算机使用 Agent 能力。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T12:45:05.093Z"
       }
     },
     {
@@ -3980,7 +3987,7 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 48.6,
+      "score": 48.8,
       "ai": {
         "title": "纽约时报警告勿更新 Photoshop",
         "summary": "纽约时报建议自由摄影师不要更新 Photoshop，因新版本 AI 功能可能存在风险。",
@@ -3996,8 +4003,8 @@
         }
       ],
       "metrics": {
-        "points": 431,
-        "comments": 360
+        "points": 440,
+        "comments": 364
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50647673"
     },
