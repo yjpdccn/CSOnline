@@ -1,6 +1,38 @@
 {
   "history": [
     {
+      "startedAt": "2026-11-26T05:01:06.443Z",
+      "finishedAt": "2026-11-26T05:08:31.522Z",
+      "durationMs": 445079,
+      "trigger": "schedule",
+      "scheduledFor": "2026-11-25T23:13:00.000Z",
+      "delayMinutes": 348,
+      "news": {
+        "fetched": 829,
+        "relevant": 364,
+        "added": 71
+      },
+      "ai": {
+        "enabled": true,
+        "titles": 0,
+        "overview": "fallback",
+        "requests": 3,
+        "error": "英文标题：模型繁忙：HTTP 429 · 1305 该模型当前访问量过大，请您稍后再试；市场概览：模型繁忙：HTTP 429 · 1305 该模型当前访问量过大，请您稍后再试"
+      },
+      "health": {
+        "ok": true,
+        "warn": 0,
+        "minor": 0
+      },
+      "alerts": 20,
+      "suggestions": 10,
+      "notify": {
+        "result": "sent",
+        "channel": "serverchan",
+        "title": "投资日报：2 项重大事件，4 条策略建议"
+      }
+    },
+    {
       "startedAt": "2026-11-25T20:27:54.043Z",
       "finishedAt": "2026-11-25T20:32:29.576Z",
       "durationMs": 275533,
@@ -1736,72 +1768,32 @@
       "notify": {
         "result": "nothing-new"
       }
-    },
-    {
-      "startedAt": "2026-10-31T10:39:25.584Z",
-      "finishedAt": "2026-10-31T10:46:23.977Z",
-      "durationMs": 418393,
-      "trigger": "push",
-      "news": {
-        "fetched": 855,
-        "relevant": 411,
-        "added": 5
-      },
-      "ai": {
-        "enabled": true,
-        "titles": 0,
-        "overview": "fallback",
-        "requests": 3,
-        "error": "英文标题：模型繁忙：150 秒内没有响应；市场概览：模型繁忙：HTTP 429 · 1305 该模型当前访问量过大，请您稍后再试"
-      },
-      "health": {
-        "ok": true,
-        "warn": 0,
-        "minor": 2
-      },
-      "alerts": 12,
-      "suggestions": 8,
-      "notify": {
-        "result": "sent",
-        "channel": "serverchan",
-        "title": "投资日报：8 条策略建议"
-      }
     }
   ],
   "lastRun": {
-    "startedAt": "2026-11-25T20:27:54.043Z",
-    "finishedAt": "2026-11-25T20:32:29.576Z",
-    "durationMs": 275533,
+    "startedAt": "2026-11-26T05:01:06.443Z",
+    "finishedAt": "2026-11-26T05:08:31.522Z",
+    "durationMs": 445079,
     "trigger": "schedule",
-    "scheduledFor": "2026-11-25T11:13:00.000Z",
-    "delayMinutes": 555,
+    "scheduledFor": "2026-11-25T23:13:00.000Z",
+    "delayMinutes": 348,
     "sources": [
       {
         "id": "eastmoney-quotes",
         "name": "东方财富行情",
         "kind": "行情",
         "ok": true,
-        "count": 20,
+        "count": 21,
         "total": 21,
-        "ms": 19486,
-        "error": "上海金：网络错误（UND_ERR_SOCKET）"
-      },
-      {
-        "id": "fallback-quotes",
-        "name": "备用行情来源",
-        "kind": "行情",
-        "ok": true,
-        "count": 20,
-        "ms": 0,
-        "error": "东方财富未响应，改用：标普500（腾讯行情）、标普500等权重（腾讯行情）、纳斯达克100（腾讯行情）、中证A500（腾讯行情）、沪深300（腾讯行情）、510300（腾讯行情）、512890（腾讯行情）、518850（腾讯行情）、518880（腾讯行情）、513500（腾讯行情）、513100（腾讯行情）、501060（腾讯行情）、中证中金优选300（中证指数）、中证红利低波动（中证指数）、黄金9999（东方财富延时行情，最新值）、中国10年期国债收益率（东方财富延时行情，最新值）、现货黄金（东方财富延时行情，最新值）、美元指数（东方财富延时行情，最新值）、美债10年期收益率（东方财富延时行情，最新值）、美元/离岸人民币（东方财富延时行情，最新值）"
+        "ms": 1000
       },
       {
         "id": "treasury",
         "name": "美国财政部实际利率",
         "kind": "行情",
         "ok": true,
-        "count": 225,
-        "ms": 342
+        "count": 226,
+        "ms": 550
       },
       {
         "id": "danjuan",
@@ -1809,7 +1801,7 @@
         "kind": "估值",
         "ok": true,
         "count": 63,
-        "ms": 599
+        "ms": 875
       },
       {
         "id": "csindex",
@@ -1818,7 +1810,7 @@
         "ok": true,
         "count": 2,
         "total": 2,
-        "ms": 90933
+        "ms": 3320
       },
       {
         "id": "fund-nav",
@@ -1827,7 +1819,7 @@
         "ok": true,
         "count": 26,
         "total": 26,
-        "ms": 1200
+        "ms": 2774
       },
       {
         "id": "fund-fees",
@@ -1836,15 +1828,15 @@
         "ok": true,
         "count": 26,
         "total": 26,
-        "ms": 5591
+        "ms": 44741
       },
       {
         "id": "wscn-global",
         "name": "华尔街见闻",
         "kind": "新闻",
         "ok": true,
-        "count": 121,
-        "ms": 5721
+        "count": 136,
+        "ms": 15057
       },
       {
         "id": "wscn-gold",
@@ -1852,15 +1844,15 @@
         "kind": "新闻",
         "ok": true,
         "count": 100,
-        "ms": 2941
+        "ms": 1102
       },
       {
         "id": "wscn-us",
         "name": "华尔街见闻·美股",
         "kind": "新闻",
         "ok": true,
-        "count": 22,
-        "ms": 3117
+        "count": 14,
+        "ms": 1826
       },
       {
         "id": "cls",
@@ -1868,7 +1860,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 100,
-        "ms": 3380
+        "ms": 1766
       },
       {
         "id": "em-focus",
@@ -1876,7 +1868,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 100,
-        "ms": 1302
+        "ms": 1400
       },
       {
         "id": "em-pboc",
@@ -1884,7 +1876,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 50,
-        "ms": 1113
+        "ms": 1463
       },
       {
         "id": "em-cb",
@@ -1892,7 +1884,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 50,
-        "ms": 985
+        "ms": 1022
       },
       {
         "id": "em-commodity",
@@ -1900,15 +1892,15 @@
         "kind": "新闻",
         "ok": true,
         "count": 50,
-        "ms": 1078
+        "ms": 950
       },
       {
         "id": "sina",
         "name": "新浪财经",
         "kind": "新闻",
         "ok": true,
-        "count": 150,
-        "ms": 4353
+        "count": 101,
+        "ms": 2592
       },
       {
         "id": "cnbc-economy",
@@ -1916,7 +1908,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 30,
-        "ms": 333
+        "ms": 280
       },
       {
         "id": "cnbc-top",
@@ -1924,7 +1916,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 30,
-        "ms": 186
+        "ms": 269
       },
       {
         "id": "ft-markets",
@@ -1932,7 +1924,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 25,
-        "ms": 555
+        "ms": 345
       },
       {
         "id": "marketwatch",
@@ -1940,7 +1932,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 10,
-        "ms": 90
+        "ms": 132
       },
       {
         "id": "fed",
@@ -1948,7 +1940,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 15,
-        "ms": 98
+        "ms": 111
       },
       {
         "id": "ecb",
@@ -1956,7 +1948,7 @@
         "kind": "新闻",
         "ok": true,
         "count": 3,
-        "ms": 611
+        "ms": 538
       },
       {
         "id": "nbs",
@@ -1964,15 +1956,15 @@
         "kind": "新闻",
         "ok": true,
         "count": 15,
-        "ms": 3201
+        "ms": 4232
       },
       {
         "id": "wscn-calendar",
         "name": "华尔街见闻财经日历",
         "kind": "日历",
         "ok": true,
-        "count": 20,
-        "ms": 319
+        "count": 18,
+        "ms": 2184
       },
       {
         "id": "fomc",
@@ -1980,7 +1972,7 @@
         "kind": "日历",
         "ok": true,
         "count": 4,
-        "ms": 116
+        "ms": 82
       },
       {
         "id": "fund-notices",
@@ -1989,7 +1981,7 @@
         "ok": true,
         "count": 26,
         "total": 26,
-        "ms": 3751
+        "ms": 5920
       },
       {
         "id": "peer-status",
@@ -1998,29 +1990,31 @@
         "ok": true,
         "count": 19,
         "total": 19,
-        "ms": 3106
+        "ms": 33283
       }
     ],
     "news": {
-      "fetched": 871,
-      "relevant": 451,
-      "added": 168
+      "fetched": 829,
+      "relevant": 364,
+      "added": 71
     },
     "ai": {
       "enabled": true,
-      "titles": 11,
-      "overview": "ai",
-      "requests": 2
+      "titles": 0,
+      "overview": "fallback",
+      "requests": 3,
+      "error": "英文标题：模型繁忙：HTTP 429 · 1305 该模型当前访问量过大，请您稍后再试；市场概览：模型繁忙：HTTP 429 · 1305 该模型当前访问量过大，请您稍后再试"
     },
     "health": {
       "ok": true,
       "warn": 0,
-      "minor": 1
+      "minor": 0
     },
     "alerts": 20,
     "suggestions": 10,
     "notify": {
-      "result": "held",
+      "result": "sent",
+      "channel": "serverchan",
       "title": "投资日报：2 项重大事件，4 条策略建议"
     }
   }

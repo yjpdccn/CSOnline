@@ -1,5 +1,15 @@
 {
   "sent": {
+    "alert:policy:xfx4l5xpxm": {
+      "hash": "policy:xfx4l5xpxm",
+      "label": "美国提议对日本和韩国加征15%关税 对欧盟商品征收最高20%关税",
+      "kind": "event"
+    },
+    "alert:policy:12zagfqk1es": {
+      "hash": "policy:12zagfqk1es",
+      "label": "美国将宣布对中国商品加征关税，外交部：反对借口“产能过剩”进行政治操弄",
+      "kind": "event"
+    },
     "alert:move:ndx:2026-11-23": {
       "hash": "move:ndx:2026-11-23",
       "label": "纳斯达克100 11月23日上涨 6.9%",
@@ -10,6 +20,21 @@
       "label": "标普500 11月23日上涨 4.7%",
       "kind": "event"
     },
+    "alert:stop:paused:019172": {
+      "hash": "stop:paused:019172",
+      "label": "摩根纳斯达克100指数(QDII)人民币A（019172）暂停申购",
+      "kind": "suggestion"
+    },
+    "alert:stop:paused:016452": {
+      "hash": "stop:paused:016452",
+      "label": "南方纳斯达克100指数发起(QDII)A（016452）暂停申购",
+      "kind": "suggestion"
+    },
+    "alert:stop:paused:096001": {
+      "hash": "stop:paused:096001",
+      "label": "大成标普500等权重指数(QDII)A人民币（096001）暂停申购",
+      "kind": "suggestion"
+    },
     "alert:replace:008702:008701": {
       "hash": "replace:008702:008701",
       "label": "华夏黄金ETF联接C（008702）",
@@ -18,11 +43,6 @@
     "alert:replace:007466:020602": {
       "hash": "replace:007466:020602",
       "label": "华泰柏瑞中证红利低波ETF联接A（007466）",
-      "kind": "suggestion"
-    },
-    "alert:replace:050025:017641": {
-      "hash": "replace:050025:017641",
-      "label": "博时标普500ETF联接A（050025）",
       "kind": "suggestion"
     },
     "alert:stop:premium:513500": {
@@ -40,9 +60,9 @@
       "label": "A组 · 国泰黄金ETF联接E（022502）",
       "kind": "suggestion"
     },
-    "alert:replace:021277:270023": {
-      "hash": "replace:021277:270023",
-      "label": "B组 · 广发全球精选股票(QDII)人民币C（021277）",
+    "alert:stop:paused:021277": {
+      "hash": "stop:paused:021277",
+      "label": "B组 · 广发全球精选股票(QDII)人民币C（021277）暂停申购",
       "kind": "suggestion"
     },
     "alert:replace:000218:008701": {
@@ -53,6 +73,5 @@
   },
   "issueNumber": 1,
   "channel": "serverchan",
-  "lastSentAt": "2026-11-24T00:16:26.480Z",
-  "held": "2026-11-25T20:27:54.042Z"
+  "lastSentAt": "2026-11-26T05:01:06.441Z"
 }

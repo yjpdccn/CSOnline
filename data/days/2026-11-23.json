@@ -1890,9 +1890,9 @@
       "day": "2026-11-23",
       "category": "model",
       "categoryLocked": true,
-      "score": 24.6,
+      "score": 24.8,
       "metrics": {
-        "likes": 231
+        "likes": 238
       },
       "skipLlm": true
     },
@@ -3106,7 +3106,7 @@
         ],
         "firstPublishedAt": "2026-11-20T14:59:14.000Z",
         "metrics": {
-          "stars": 569
+          "stars": 576
         }
       },
       "ai": {
@@ -3271,9 +3271,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18.7,
+      "score": 18.9,
       "metrics": {
-        "stars": 696
+        "stars": 726
       },
       "ai": {
         "title": "safe-anything：Rust 编写的漏洞扫描器",

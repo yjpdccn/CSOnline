@@ -19,9 +19,9 @@
       "keywords": [
         "MCP"
       ],
-      "score": 20.3,
+      "score": 21,
       "metrics": {
-        "stars": 945
+        "stars": 1071
       },
       "ai": {
         "title": "KuroCat：开源桌面打字猫伴侣",
@@ -76,7 +76,7 @@
       ],
       "score": 28,
       "metrics": {
-        "stars": 3916
+        "stars": 4037
       },
       "dupOf": "20mvx8qqa9a"
     },
@@ -598,9 +598,9 @@
         "Agent",
         "MCP"
       ],
-      "score": 17.8,
+      "score": 18,
       "metrics": {
-        "stars": 589
+        "stars": 610
       },
       "aiAttempts": 1,
       "ai": {
@@ -984,9 +984,9 @@
         "AI 编程",
         "开源模型"
       ],
-      "score": 19.4,
+      "score": 19.5,
       "metrics": {
-        "stars": 802
+        "stars": 818
       },
       "aiAttempts": 1,
       "ai": {
@@ -1162,10 +1162,26 @@
           "url": "https://36kr.com/p/4084831473080192",
           "title": "黎曼猜想证明后，AI还会给数学研究带来哪些“惊喜”？",
           "publishedAt": "2026-11-25T09:54:06.486Z"
+        },
+        {
+          "id": "j8y144y0ej",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/512819.html",
+          "title": "刚刚，黎曼猜想证明代码暴砍了99.5%！只剩7.6万行",
+          "publishedAt": "2026-11-26T00:40:37.000Z"
+        },
+        {
+          "id": "gr9vtmbtzc",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4085937380043398",
+          "title": "刚刚，黎曼猜想证明代码暴砍了99.5%！只剩7.6万行",
+          "publishedAt": "2026-11-26T01:51:01.956Z"
         }
       ],
       "story": {
-        "reports": 19,
+        "reports": 21,
         "sources": [
           "36kr-ai",
           "qbitai",

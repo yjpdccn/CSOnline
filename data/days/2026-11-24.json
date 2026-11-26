@@ -37,9 +37,9 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-24",
       "category": "industry",
-      "score": 21.2,
+      "score": 21.3,
       "metrics": {
-        "points": 129,
+        "points": 130,
         "comments": 3
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50628932",
@@ -140,13 +140,13 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-24",
       "category": "industry",
-      "score": 35.4,
+      "score": 35.5,
       "metrics": {
-        "points": 418,
-        "comments": 788
+        "points": 425,
+        "comments": 793
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50627836",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Anthropic 股价跌破 IPO 价格 83 美元。",
         "category": "industry",
@@ -223,10 +223,10 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-24",
       "category": "model",
-      "score": 72.9,
+      "score": 81.2,
       "metrics": {
-        "points": 345,
-        "comments": 94
+        "points": 353,
+        "comments": 97
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50634658",
       "alsoOn": [
@@ -244,19 +244,28 @@
           "url": "https://36kr.com/p/4084646296562055",
           "title": "GPT-6，能设计蛋白质了",
           "publishedAt": "2026-11-25T04:09:48.351Z"
+        },
+        {
+          "id": "7nt7vjrviy",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-26-3",
+          "title": "OpenAI：GPT-6就能设计蛋白质，多任务媲美专业模型，实验室验证结合成功",
+          "publishedAt": "2026-11-26T02:53:00.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "openai",
           "hackernews",
-          "36kr-ai"
+          "36kr-ai",
+          "jiqizhixin"
         ],
         "firstPublishedAt": "2026-11-24T13:00:00.000Z",
         "metrics": {
-          "points": 345,
-          "comments": 94
+          "points": 353,
+          "comments": 97
         }
       },
       "ai": {
@@ -320,11 +329,11 @@
       ],
       "score": 36,
       "metrics": {
-        "points": 997,
-        "comments": 409
+        "points": 1008,
+        "comments": 410
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50627340",
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "LLM Agent 为母公司工作，而非为用户工作。",
         "category": "industry",
@@ -1396,10 +1405,10 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-24",
       "category": "opensource",
-      "score": 24.6,
+      "score": 28.4,
       "metrics": {
-        "points": 154,
-        "comments": 66
+        "points": 242,
+        "comments": 96
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50624446",
       "ai": {
@@ -1934,10 +1943,10 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-24",
       "category": "opensource",
-      "score": 23.3,
+      "score": 23.5,
       "metrics": {
-        "points": 114,
-        "comments": 94
+        "points": 117,
+        "comments": 95
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50622854",
       "ai": {
