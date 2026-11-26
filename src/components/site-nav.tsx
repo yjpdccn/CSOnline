@@ -6,8 +6,8 @@ import { cn } from "@/lib/utils";
 const PAGES = [
   { id: "ai", href: "/", label: "AI 日报" },
   { id: "invest", href: "/invest", label: "投资日报" },
-  { id: "guide", href: "/ktk3ar3rp2f6vv92/", label: "成长指南", locked: true },
   { id: "trip", href: "/mmmtewmfb0aa1zg0/", label: "出行计划", locked: true },
+  { id: "guide", href: "/ktk3ar3rp2f6vv92/", label: "成长指南", locked: true },
 ] as const;
 
 export type PageId = (typeof PAGES)[number]["id"];
