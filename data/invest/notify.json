@@ -1,5 +1,10 @@
 {
   "sent": {
+    "alert:policy:1lrb1o6djuh": {
+      "hash": "policy:1lrb1o6djuh",
+      "label": "商务部：坚决反对美对中国等经济体加征301关税",
+      "kind": "event"
+    },
     "alert:policy:xfx4l5xpxm": {
       "hash": "policy:xfx4l5xpxm",
       "label": "美国提议对日本和韩国加征15%关税 对欧盟商品征收最高20%关税",
@@ -20,19 +25,34 @@
       "label": "标普500 11月23日上涨 4.7%",
       "kind": "event"
     },
-    "alert:stop:paused:019172": {
-      "hash": "stop:paused:019172",
-      "label": "摩根纳斯达克100指数(QDII)人民币A（019172）暂停申购",
+    "alert:increase:reopen:limit-up:019172:2026-11-26T08:58:11.754Z": {
+      "hash": "increase:reopen:limit-up:019172:2026-11-26T08:58:11.754Z",
+      "label": "摩根纳斯达克100指数(QDII)人民币A（019172）恢复申购",
       "kind": "suggestion"
     },
-    "alert:stop:paused:016452": {
-      "hash": "stop:paused:016452",
-      "label": "南方纳斯达克100指数发起(QDII)A（016452）暂停申购",
+    "alert:stop:limit:limit-down:019172:2026-11-25T20:27:54.042Z": {
+      "hash": "stop:limit:limit-down:019172:2026-11-25T20:27:54.042Z",
+      "label": "摩根纳斯达克100指数(QDII)人民币A（019172）日限额下调",
       "kind": "suggestion"
     },
-    "alert:stop:paused:096001": {
-      "hash": "stop:paused:096001",
-      "label": "大成标普500等权重指数(QDII)A人民币（096001）暂停申购",
+    "alert:increase:reopen:limit-up:016452:2026-11-26T08:58:11.754Z": {
+      "hash": "increase:reopen:limit-up:016452:2026-11-26T08:58:11.754Z",
+      "label": "南方纳斯达克100指数发起(QDII)A（016452）恢复申购",
+      "kind": "suggestion"
+    },
+    "alert:stop:limit:limit-down:016452:2026-11-25T20:27:54.042Z": {
+      "hash": "stop:limit:limit-down:016452:2026-11-25T20:27:54.042Z",
+      "label": "南方纳斯达克100指数发起(QDII)A（016452）日限额下调",
+      "kind": "suggestion"
+    },
+    "alert:increase:reopen:limit-up:096001:2026-11-26T08:58:11.754Z": {
+      "hash": "increase:reopen:limit-up:096001:2026-11-26T08:58:11.754Z",
+      "label": "大成标普500等权重指数(QDII)A人民币（096001）恢复申购",
+      "kind": "suggestion"
+    },
+    "alert:stop:limit:limit-down:096001:2026-11-25T20:27:54.042Z": {
+      "hash": "stop:limit:limit-down:096001:2026-11-25T20:27:54.042Z",
+      "label": "大成标普500等权重指数(QDII)A人民币（096001）日限额下调",
       "kind": "suggestion"
     },
     "alert:replace:008702:008701": {
@@ -60,18 +80,28 @@
       "label": "A组 · 国泰黄金ETF联接E（022502）",
       "kind": "suggestion"
     },
-    "alert:stop:paused:021277": {
-      "hash": "stop:paused:021277",
-      "label": "B组 · 广发全球精选股票(QDII)人民币C（021277）暂停申购",
+    "alert:replace:021277:270023": {
+      "hash": "replace:021277:270023",
+      "label": "B组 · 广发全球精选股票(QDII)人民币C（021277）",
       "kind": "suggestion"
     },
     "alert:replace:000218:008701": {
       "hash": "replace:000218:008701",
       "label": "B组 · 国泰黄金ETF联接A（000218）",
       "kind": "suggestion"
+    },
+    "fees:2026-11": {
+      "hash": "fees:2026-11",
+      "label": "费率小建议",
+      "kind": "reminder"
+    },
+    "alert:replace:050025:017641": {
+      "hash": "replace:050025:017641",
+      "label": "博时标普500ETF联接A（050025）",
+      "kind": "suggestion"
     }
   },
   "issueNumber": 1,
   "channel": "serverchan",
-  "lastSentAt": "2026-11-26T05:01:06.441Z"
+  "lastSentAt": "2026-11-26T08:58:11.754Z"
 }

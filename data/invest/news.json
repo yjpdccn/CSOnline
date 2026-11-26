@@ -1,6 +1,710 @@
 {
-  "updatedAt": "2026-11-26T06:51:18.241Z",
+  "updatedAt": "2026-11-26T08:58:11.754Z",
   "items": [
+    {
+      "id": "20vmqxxbu8n",
+      "key": "url:cnbc.com/2026/11/26/stock-markets-today-.html",
+      "title": "Global stocks rally as investors shrug off U.S. tariffs and AI jitters",
+      "url": "https://www.cnbc.com/2026/11/26/stock-markets-today-.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-26T08:42:26.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us",
+        "us-stocks"
+      ],
+      "excerpt": "Investors appeared to have shrugged off a fresh set of tariffs unveiled by the White House on Wednesday, targeting more than a dozen major trading partners.",
+      "ai": {
+        "title": "全球股市因投资者无视关税和AI焦虑而上涨",
+        "summary": "投资者无视白宫新关税，全球股市上涨。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:03:58.865Z"
+      }
+    },
+    {
+      "id": "z2kegxzq1u",
+      "key": "sina:5240353",
+      "title": "爱沙尼亚总理：希望欧洲央行今天做出决定，但还要看情况",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaaxc1406611.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T08:32:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ]
+    },
+    {
+      "id": "1cti6rrqkkf",
+      "key": "url:ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679?syn-25a6b1a6=1",
+      "title": "Global stocks steady after volatile US trading over AI risks",
+      "url": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679?syn-25a6b1a6=1",
+      "lang": "en",
+      "sourceId": "ft-markets",
+      "sourceName": "FT",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-26T08:31:48.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Tech shares hit this month by fears over whether an AI boom can be sustained",
+      "dupOf": "5gpdd4iwme"
+    },
+    {
+      "id": "yzs5k135yb",
+      "key": "wscn:3206262",
+      "title": "商务部：中国和墨西哥将成立工作组 围绕降低关税问题开展对话",
+      "url": "https://wallstreetcn.com/livenews/3206262",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T08:30:53.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "在商务部今天举行的例行新闻发布会上，新闻发言人介绍说，11月23日，中国和墨西哥高层发展会议第十一次会议举行，双方同意成立相关的工作组，围绕降低关税问题开展对话。 商务部新闻发言人 何亚东：中方在会上明确提出，我们一贯主张通过对话协商解决经贸分歧，反对各种形式的单边加税措施，希望墨方审慎使用贸易救济措施，免受第三方的干扰，希望墨方理性、客观、全面地看待贸易平衡问题，与中方共同努力，促进双边贸易提质升级，双方同意成立相关的工作组，围绕降低关税问题开展对话，进一步推动双边经贸关系健康、稳定、可持续发展。（央视）",
+      "flag": 1
+    },
+    {
+      "id": "1ycl2kvryax",
+      "key": "em:202611263940640386",
+      "title": "在岸人民币兑美元收盘报6.6600",
+      "url": "https://finance.eastmoney.com/a/202611263940640386.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T08:30:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "rates-fx"
+      ],
+      "excerpt": "在岸人民币兑美元收盘报6.6600，较上一交易日上涨136点。"
+    },
+    {
+      "id": "k36z0mkbad",
+      "key": "sina:5240316",
+      "title": "五部门部署推进技工教育高质量特色发展 将建设100个优质专业",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaaxc1396143.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T08:20:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "人力资源社会保障部、国家发展改革委、教育部、财政部、国务院国资委等五部门日前联合印发《关于推进技工教育高质量特色发展的意见》，对“十五五”时期技工教育改革发展作出部署。《意见》明确，“十五五”时期，全国技工院校在校生规模和职业培训规模力争保持总体稳定，毕业生毕业去向落实率97%以上，累计培养培训高技能人才达到200万人以上。“十五五”期间，我国将建设一批优质技师学院、100个优质专业，支持产教融合实训基地建设与实训设备更新，鼓励有条件的地区制定技师学院、高级技工学校分类分档生均拨款标准。统筹用好中央、地方各类资金，多渠道加大技工教育投入。加强教材资源建…"
+    },
+    {
+      "id": "1708fbkbmbz",
+      "key": "url:cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
+      "title": "U.S. tariff-hike threats pile pressure on partners to sign trade deals",
+      "url": "https://www.cnbc.com/2026/11/26/us-tariffs-hike-trade-agreement.html",
+      "lang": "en",
+      "sourceId": "cnbc-economy",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-26T08:09:39.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "The U.S. planned a fresh tariff salvo on 14 trading partners, while offering some countries lower rates if they secure trade deals with Washington.",
+      "ai": {
+        "title": "美国关税威胁施压伙伴签署贸易协议",
+        "summary": "美国威胁对14个贸易伙伴加征关税，以换取贸易协议。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:03:58.865Z"
+      }
+    },
+    {
+      "id": "1fl98kkni96",
+      "key": "sina:5240237",
+      "title": "日本央行9月末ETF持仓规模达100万亿日元",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaaxi3685755.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:54:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "日本央行今年上半年最新财务报表显示，截至9月末，该行交易所交易基金持仓总价值达到113.1万亿日元（合7100亿美元）。财报显示，其中ETF持仓未实现收益扩大至76.2万亿日元。同期日本央行出售ETF实现利润3234亿日元。日本央行净利润同比减少1620亿日元，降至1.6万亿日元。日本央行国债持仓未实现亏损从半年前的45.4万亿日元增至55.2万亿日元。"
+    },
+    {
+      "id": "1ezd801djfh",
+      "key": "sina:5240206",
+      "title": "消息人士：美国饥荒预警机构因资金短缺将裁员",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaaxc1353522.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:38:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "多名消息人士称，受资金短缺影响，美国国务院下属机构“饥荒早期预警系统网”超半数外勤人员将在年底前被裁。据路透社25日援引多名消息人士的话报道，数十名外勤人员将于12月1日收到解雇通知，30天后正式离职。该机构24日发给人道主义援助官员的一封电子邮件显示，由于美国国务院尚未确认始于10月的本财政年度拨款，该机构被迫“启动应急关闭程序”，不再按计划于12月发布粮食安全更新报告。（新华社）"
+    },
+    {
+      "id": "tgv4x0xym",
+      "key": "em:202611263940589483",
+      "title": "高盛：预计沪深300明年上涨10% 上调港股至高配",
+      "url": "https://finance.eastmoney.com/a/202611263940589483.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:37:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "“未来一年，港股的盈利同比增速有可能达到15%左右。”11月25日，高盛首席中国股票策略分析师刘劲津在该行年度经济与股市展望媒体会上表示，高盛将港股由中性上调至高配。",
+      "flag": 1
+    },
+    {
+      "id": "qdk202n5iy",
+      "key": "sina:5240196",
+      "title": "欧洲央行：欧洲央行与瑞典央行达成协议，瑞典将加入T2系统",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inkaaaxi3666115.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:33:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ]
+    },
+    {
+      "id": "1tgoc2958cc",
+      "key": "sina:5240177",
+      "title": "铜价银价大幅回落 白银连缺5年今年或过剩",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrh8244119.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:25:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "近期，黄金价格承压，铜价也大幅回落。今年9月，伦敦金属交易所三个月期铜价格曾一度升至每吨14800美元上方，创下历史新高；如今却在隔夜盘中触及11个月低点，本月累计跌幅近18%。除了美联储加息预期升温，市场对AI基础设施投资前景的担忧也是铜价承压的因素之一。行业人士表示，数据中心在铜需求中的占比相对有限，电网投资和更广泛的电气化进程，才是支撑铜需求的主要驱动力。 另外，银价也大幅回落。摩根大通预计，随着光伏领域用银需求下滑，以及高银价抑制珠宝首饰消费，白银将在今年从连续五年的短缺转为约3000万盎司的过剩，明年过剩规模或进一步扩大至约5400万盎司。（…"
+    },
+    {
+      "id": "muwv6esuuc",
+      "key": "url:cnbc.com/2026/11/26/wealthy-europeans-alternative-investments-ai.html",
+      "title": "Wealthy Europeans look beyond stocks amid AI selloff. Here’s where they’re investing",
+      "url": "https://www.cnbc.com/2026/11/26/wealthy-europeans-alternative-investments-ai.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-26T07:23:42.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Goldman Sachs Alternatives' inaugural survey of high-net-worth investors found they're increasingly looking to alternatives amid turbulent markets.",
+      "ai": {
+        "title": "富裕欧洲人避开股票，转向其他投资",
+        "summary": "高净值投资者在市场动荡中寻求替代投资。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:03:58.865Z"
+      }
+    },
+    {
+      "id": "c69hshkss7",
+      "key": "cls:2545302",
+      "title": "外交部回应美方提高中国商品税率：双方应共同落实好两国元首达成的重要共识",
+      "url": "https://www.cls.cn/detail/2545302",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:17:29.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "外交部发言人郭嘉昆主持例行记者会。彭博社记者提问，美国宣布计划对产自中国及其他经济体的商品加征新一轮关税。据美国贸易代表办公室称，对华进口商品的税率将提高至 20%，这与此前中美双方的协议一致。但美方还提到，如果两国谈判破裂，该税率可能翻倍至 40%。请问外交部对此有何评论？ “昨天我们已经阐明了中方立场。”郭嘉昆强调，关税战、贸易战不符合任何一方利益，中美双方应在平等、尊重、互惠的基础上协商解决有关问题。所谓“产能过剩”是一个伪命题，中方反对以此为借口进行政治操弄，双方应当共同落实好两国元首达成的重要共识，维护中美经",
+      "flag": 1,
+      "dupOf": "j0wsw8kqh6"
+    },
+    {
+      "id": "189dl74nvor",
+      "key": "wscn:3206202",
+      "title": "外交部回应美方提高中国商品税率：双方应共同落实好两国元首达成的重要共识",
+      "url": "https://wallstreetcn.com/livenews/3206202",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:17:24.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "外交部发言人郭嘉昆主持例行记者会。彭博社记者提问，美国宣布计划对产自中国及其他经济体的商品加征新一轮关税。据美国贸易代表办公室称，对华进口商品的税率将提高至 20%，这与此前中美双方的协议一致。但美方还提到，如果两国谈判破裂，该税率可能翻倍至 40%。请问外交部对此有何评论？ “昨天我们已经阐明了中方立场。”郭嘉昆强调，关税战、贸易战不符合任何一方利益，中美双方应在平等、尊重、互惠的基础上协商解决有关问题。所谓“产能过剩”是一个伪命题，中方反对以此为借口进行政治操弄，双方应当共同落实好两国元首达成的重要共识，维护中美经贸关系稳定发展态势。 “中方将继续…",
+      "flag": 1,
+      "dupOf": "j0wsw8kqh6"
+    },
+    {
+      "id": "j0wsw8kqh6",
+      "key": "em:202611263940580417",
+      "title": "外交部回应美方提高中国商品税率：双方应共同落实好两国元首达成的重要共识",
+      "url": "https://finance.eastmoney.com/a/202611263940580417.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:17:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 34,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "11月26日，外交部发言人郭嘉昆主持例行记者会。彭博社记者提问，美国宣布计划对产自中国及其他经济体的商品加征新一轮关税。据美国贸易代表办公室称，对华进口商品的税率将提高至20%，这与此前中美双方的协议一致。但美方还提到，如果两国谈判破裂，该税率可能翻倍至40%。请问外交部对此有何评论？“中方将继续采取必要措施捍卫自身正当权益。”郭嘉昆说。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "189dl74nvor",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3206202",
+          "title": "外交部回应美方提高中国商品税率：双方应共同落实好两国元首达成的重要共识",
+          "publishedAt": "2026-11-26T07:17:24.000Z"
+        },
+        {
+          "id": "c69hshkss7",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2545302",
+          "title": "外交部回应美方提高中国商品税率：双方应共同落实好两国元首达成的重要共识",
+          "publishedAt": "2026-11-26T07:17:29.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "em-focus",
+          "wscn-global",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-11-26T07:17:00.000Z"
+      }
+    },
+    {
+      "id": "1io3nblt4fw",
+      "key": "url:marketwatch.com/story/is-the-stock-market-open-for-thanksgiving-the-answer-might-surprise-you-e68114d4?mod=mw_rss_topstories",
+      "title": "Is the stock market open for Thanksgiving? The answer might surprise you.",
+      "url": "https://www.marketwatch.com/story/is-the-stock-market-open-for-thanksgiving-the-answer-might-surprise-you-e68114d4?mod=mw_rss_topstories",
+      "lang": "en",
+      "sourceId": "marketwatch",
+      "sourceName": "MarketWatch",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-26T07:16:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "The answer to the question of whether the stock market is open on Thanksgiving isn’t a simple yes or no, as the major exchanges are closed, but trading of equity futures is open for part of the day."
+    },
+    {
+      "id": "2g4p3tucvnj",
+      "key": "cls:2545290",
+      "title": "商务部：坚决反对美对中国等经济体加征301关税",
+      "url": "https://www.cls.cn/detail/2545290",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:11:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "针对美国贸易代表办公室日前宣布“产能过剩”301调查结果，发布拟议措施，提出对包括中国在内的14个经济体加征301关税，商务部新闻发言人何亚东在26日举行的例行新闻发布会上表示，美方301调查是典型的单边主义行为，严重破坏国际经济秩序，严重违反世贸组织规则，中方对此坚决反对。中方敦促美方纠正错误做法，回到通过对话协商解决问题的正确轨道上来。中方将密切关注事态进展，保留采取必要措施的权利，坚决捍卫自身正当权益。",
+      "flag": 1,
+      "dupOf": "1lrb1o6djuh"
+    },
+    {
+      "id": "1ssad75sylf",
+      "key": "wscn:3206197",
+      "title": "商务部：坚决反对美对中国等经济体加征301关税",
+      "url": "https://wallstreetcn.com/livenews/3206197",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:10:42.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "针对美国贸易代表办公室日前宣布“产能过剩”301调查结果，发布拟议措施，提出对包括中国在内的14个经济体加征301关税，商务部新闻发言人何亚东在26日举行的例行新闻发布会上表示，美方301调查是典型的单边主义行为，严重破坏国际经济秩序，严重违反世贸组织规则，中方对此坚决反对。中方敦促美方纠正错误做法，回到通过对话协商解决问题的正确轨道上来。中方将密切关注事态进展，保留采取必要措施的权利，坚决捍卫自身正当权益。（新华社）",
+      "flag": 1,
+      "dupOf": "1lrb1o6djuh"
+    },
+    {
+      "id": "26793xt50xg",
+      "key": "em:202611263940576143",
+      "title": "商务部：坚决反对美对中国等经济体加征301关税",
+      "url": "https://finance.eastmoney.com/a/202611263940576143.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:10:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "针对美国贸易代表办公室日前宣布“产能过剩”301调查结果，发布拟议措施，提出对包括中国在内的14个经济体加征301关税，商务部新闻发言人何亚东在26日举行的例行新闻发布会上表示，美方301调查是典型的单边主义行为，严重破坏国际经济秩序，严重违反世贸组织规则，中方对此坚决反对。中方敦促美方纠正错误做法，回到通过对话协商解决问题的正确轨道上来。中方将密切关注事态进展，保留采取必要措施的权利，坚决捍卫自身正当权益。",
+      "flag": 1,
+      "dupOf": "1lrb1o6djuh"
+    },
+    {
+      "id": "1lrb1o6djuh",
+      "key": "sina:5240141",
+      "title": "商务部：坚决反对美对中国等经济体加征301关税",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrm3774734.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:10:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 42,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "针对美国贸易代表办公室日前宣布“产能过剩”301调查结果，发布拟议措施，提出对包括中国在内的14个经济体加征301关税，商务部新闻发言人何亚东在26日举行的例行新闻发布会上表示，美方301调查是典型的单边主义行为，严重破坏国际经济秩序，严重违反世贸组织规则，中方对此坚决反对。中方敦促美方纠正错误做法，回到通过对话协商解决问题的正确轨道上来。中方将密切关注事态进展，保留采取必要措施的权利，坚决捍卫自身正当权益。(新华社)",
+      "flag": 1,
+      "related": [
+        {
+          "id": "26793xt50xg",
+          "sourceId": "em-focus",
+          "sourceName": "东方财富",
+          "url": "https://finance.eastmoney.com/a/202611263940576143.html",
+          "title": "商务部：坚决反对美对中国等经济体加征301关税",
+          "publishedAt": "2026-11-26T07:10:00.000Z"
+        },
+        {
+          "id": "1ssad75sylf",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3206197",
+          "title": "商务部：坚决反对美对中国等经济体加征301关税",
+          "publishedAt": "2026-11-26T07:10:42.000Z"
+        },
+        {
+          "id": "2g4p3tucvnj",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2545290",
+          "title": "商务部：坚决反对美对中国等经济体加征301关税",
+          "publishedAt": "2026-11-26T07:11:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 4,
+        "sources": [
+          "sina",
+          "em-focus",
+          "wscn-global",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-11-26T07:10:00.000Z"
+      }
+    },
+    {
+      "id": "uuqfm8sim7",
+      "key": "cls:2545276",
+      "title": "收评：深成指微跌0.02%险守万点大关 PCB概念股走强",
+      "url": "https://www.cls.cn/detail/2545276",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:03:53.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "市场冲高回落后，尾盘小幅回升，深成指险守万点大关，沪指、创业板指收红。沪深两市成交额1.32万亿，较上一个交易日缩量657亿。全市场超3600只个股下跌。盘面上，银行板块逆势走强，南京银行、成都银行、交通银行、中信银行、江苏银行均创历史新高；PCB概念走强，金百泽、金禄电子涨超15%，骏亚科技、贤丰控股、崇达技术、澳弘电子涨停；先进封装盛合晶微涨超18%，三佳科技、快克智能涨停；化工板块震荡反弹，金牛化工3连板，泸天化、善水科技、金正大、江南化工涨停；冰雪产业概念反复活跃，冰山冷热5天3板，雪人集团涨停。下跌方面",
+      "flag": 1
+    },
+    {
+      "id": "13ry8j715k7",
+      "key": "wscn:3206194",
+      "title": "创业板指冲高回落涨0.29%，PCB、化工股集体走强",
+      "url": "https://wallstreetcn.com/livenews/3206194",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:02:04.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "1，整体走势：沪指全天宽幅震荡，创业板指冲高回落，集合竞价上证50急拉。个股跌多涨少，沪深京三市超3600股飘绿，今日成交1.33万亿。截止收盘沪指涨0.01%，深成指跌0.02%，创业板指涨0.29%。 2，行业板块：贵金属、PCB、煤炭、化工等板块涨幅居前，民航机场、医药医疗、教育、猪肉等板块跌幅居前。 3，热门概念：算力硬件股反弹，中京电子5连板，崇达技术、澳弘电子、骏亚科技、共进股份等多股涨停。化工板块集体拉升，善水科技、金牛化工、赤天化、泸天化等涨停。贵金属板块走高，盛达资源涨停。下跌方面，民航板块下挫，华夏航空跌超7%，中国东航跌近5%。",
+      "flag": 1
+    },
+    {
+      "id": "19egeve0m2x",
+      "key": "sina:5240122",
+      "title": "A股收评：沪指震荡收涨0.01%，贵金属、元件、煤炭概念板块涨幅居前",
+      "url": "https://finance.sina.com.cn/7x24/",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:01:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares",
+        "gold"
+      ],
+      "excerpt": "A股三大指数今日涨跌不一，截至收盘，上证指数涨0.01%，深证成指跌0.02%，创业板指涨0.29%，北证50跌0.45%，科创50指数跌1.36%。全市场成交额13260亿元，较上日缩量667亿元，全市场超3600只个股下跌。板块题材上，贵金属、元件、煤炭开采加工、油气开采及服务、造纸板块涨幅居前；生物制品、机场航运、教育、医药商业、电机板块跌幅居前。盘面上，贵金属板块表现强势，招金黄金、晓程科技、湖南白银、赤峰黄金涨幅居前。元件板块高开高走，东晶电子、崇达技术、骏亚科技、澳弘电子、贤丰控股触及涨停，金百泽、金禄电子、奥士康、中京电子涨幅居前。煤化工…",
+      "flag": 1,
+      "dupOf": "nusvn883lv"
+    },
+    {
+      "id": "fnjl9fkepw",
+      "key": "cls:2545272",
+      "title": "国家发改委：自11月26日24时起 国内汽、柴油（标准品）价格每吨分别下调440元、425元",
+      "url": "https://www.cls.cn/detail/2545272",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:00:45.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "据国家发改委消息，11月12日国内成品油价格调整以来，国际市场原油价格震荡下行后近日又有所回升，本次调价的前10个工作日平均价格低于上次调价前10个工作日平均价格。根据国际市场油价变化情况，自11月26日24时起，国内汽、柴油（标准品）价格每吨分别下调440元、425元。",
+      "flag": 1,
+      "dupOf": "1grs6lb6vb3"
+    },
+    {
+      "id": "1xm50vkhn4r",
+      "key": "wscn:3206188",
+      "title": "国家发改委：自11月26日24时起，国内汽、柴油（标准品）价格每吨分别下调440元、425元",
+      "url": "https://wallstreetcn.com/livenews/3206188",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:00:26.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-cn"
+      ],
+      "flag": 1,
+      "dupOf": "1grs6lb6vb3"
+    },
+    {
+      "id": "nusvn883lv",
+      "key": "em:202611263940572011",
+      "title": "A股三大指数涨跌不一 贵金属、元件、煤炭板块领涨",
+      "url": "https://finance.eastmoney.com/a/202611263940572011.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T07:00:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "a-shares",
+        "gold"
+      ],
+      "excerpt": "沪指涨0.01%，深证成指跌0.02%，创业板指涨0.29%。成交额超1.3万亿，贵金属、元件、煤炭板块涨幅居前，航空机场、生物制品、机器人、医疗器械、乘用车板块跌幅居前。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "19egeve0m2x",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.com.cn/7x24/",
+          "title": "A股收评：沪指震荡收涨0.01%，贵金属、元件、煤炭概念板块涨幅居前",
+          "publishedAt": "2026-11-26T07:01:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "em-focus",
+          "sina"
+        ],
+        "firstPublishedAt": "2026-11-26T07:00:00.000Z"
+      }
+    },
+    {
+      "id": "1grs6lb6vb3",
+      "key": "sina:5240113",
+      "title": "国家发改委：明起国内汽、柴油（标准品）价格每吨分别下调440元、425元",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrm3763116.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:59:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 34,
+      "topics": [
+        "policy-cn"
+      ],
+      "excerpt": "国家发改委11月26日消息，11月12日国内成品油价格调整以来，国际市场原油价格震荡下行后近日又有所回升，本次调价的前10个工作日平均价格低于上次调价前10个工作日平均价格。根据国际市场油价变化情况，自11月26日24时起，国内汽、柴油（标准品）价格每吨分别下调440元、425元。中石油、中石化、中海油公司及其他原油加工企业要组织好成品油生产和调运，确保市场稳定供应，严格执行国家价格政策。各地相关部门要加大市场监督检查力度，严厉查处不执行国家价格政策的行为，维护正常市场秩序。消费者可通过12315平台举报价格违法行为。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "1xm50vkhn4r",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3206188",
+          "title": "国家发改委：自11月26日24时起，国内汽、柴油（标准品）价格每吨分别下调440元、425元",
+          "publishedAt": "2026-11-26T07:00:26.000Z"
+        },
+        {
+          "id": "fnjl9fkepw",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2545272",
+          "title": "国家发改委：自11月26日24时起 国内汽、柴油（标准品）价格每吨分别下调440元、425元",
+          "publishedAt": "2026-11-26T07:00:45.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "sina",
+          "wscn-global",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-11-26T06:59:00.000Z"
+      }
+    },
+    {
+      "id": "24k0a9avv4x",
+      "key": "sina:5240112",
+      "title": "金价大跌后震荡，交易员权衡美联储政策路径与AI行情风险",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrc8981988.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:57:00.000Z",
+      "firstSeenAt": "2026-11-26T08:58:11.754Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "fed",
+        "gold",
+        "macro-us"
+      ],
+      "excerpt": "金价在近15个月低点上方震荡。尽管大盘情绪有所平复，但投资者仍担心美联储会加息来抑制通胀。黄金小幅走低，交投于3570美元附近。周三行情震荡，金价盘中触及2025年8月以来低点，收盘小幅回升。美国多数市场周四因感恩节休市，市场流动性或将收紧。澳新银行分析师索尼·库马里表示：“在昨日剧烈波动后金价有所修复，但市场情绪依旧偏空。FOMC会议前夕，加息预期正在推紧金融条件。”"
+    },
     {
       "id": "27wy80d976e",
       "key": "cls:2545232",
@@ -772,6 +1476,23 @@
         "summary": "受AI繁荣可持续性担忧影响，科技股本月承压，亚洲市场随后上涨。",
         "model": "glm-4.7-flash",
         "at": "2026-11-26T06:57:18.428Z"
+      },
+      "related": [
+        {
+          "id": "1cti6rrqkkf",
+          "sourceId": "ft-markets",
+          "sourceName": "FT",
+          "url": "https://www.ft.com/content/6e217409-9fbb-456c-b405-2eb15bb69679?syn-25a6b1a6=1",
+          "title": "Global stocks steady after volatile US trading over AI risks",
+          "publishedAt": "2026-11-26T08:31:48.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "ft-markets"
+        ],
+        "firstPublishedAt": "2026-11-26T03:28:45.000Z"
       }
     },
     {
@@ -1442,7 +2163,7 @@
         "policy-us"
       ],
       "excerpt": "SpaceX said it will donate one share of the company's class A stock to every active Trump Account, and CEO Elon Musk would match it.",
-      "dupOf": "1s6dcz1dxi"
+      "dupOf": "z662sg1k31"
     },
     {
       "id": "1qdt9qjnlx9",
@@ -1622,11 +2343,38 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18,
+      "score": 34,
       "topics": [
         "policy-us"
       ],
-      "excerpt": "SpaceX周三成为最新一家宣布将向“特朗普账户”捐赠的公司，捐赠方式是将其股票纳入数千万美国年轻人的投资组合。这家航空航天公司承诺，向“每个目前处于活跃状态的”特朗普账户各捐赠一股新发行的A类股。SpaceX表示，首席执行官埃隆.马斯克将进行等额捐赠。马斯克上个月曾承诺捐出部分股票。按SpaceX周三127.44美元的收盘价计算，若向整整7,000万个账户捐赠，SpaceX和马斯克的捐赠价值将各为89亿美元，合计约178亿美元。据美国财政部一名官员提供的数据，这将超过截至10月特朗普账户所获捐赠总额的两倍。"
+      "excerpt": "SpaceX周三成为最新一家宣布将向“特朗普账户”捐赠的公司，捐赠方式是将其股票纳入数千万美国年轻人的投资组合。这家航空航天公司承诺，向“每个目前处于活跃状态的”特朗普账户各捐赠一股新发行的A类股。SpaceX表示，首席执行官埃隆.马斯克将进行等额捐赠。马斯克上个月曾承诺捐出部分股票。按SpaceX周三127.44美元的收盘价计算，若向整整7,000万个账户捐赠，SpaceX和马斯克的捐赠价值将各为89亿美元，合计约178亿美元。据美国财政部一名官员提供的数据，这将超过截至10月特朗普账户所获捐赠总额的两倍。",
+      "related": [
+        {
+          "id": "1s6dcz1dxi",
+          "sourceId": "marketwatch",
+          "sourceName": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1?mod=mw_rss_topstories",
+          "title": "马斯克和SpaceX拟向特朗普账户捐赠约178亿美元",
+          "publishedAt": "2026-11-25T21:50:00.000Z"
+        },
+        {
+          "id": "10q48uq81qn",
+          "sourceId": "cnbc-top",
+          "sourceName": "CNBC",
+          "url": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html",
+          "title": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
+          "publishedAt": "2026-11-26T00:27:52.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "sina",
+          "marketwatch",
+          "cnbc-top"
+        ],
+        "firstPublishedAt": "2026-11-25T21:50:00.000Z"
+      }
     },
     {
       "id": "8gcl3q96su",
@@ -1883,35 +2631,18 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 23,
+      "score": 15,
       "topics": [
         "policy-us"
       ],
       "excerpt": "SpaceX to provide one newly issued Class A share to every active ‘Trump account,’ and CEO Musk will match that gift.",
-      "related": [
-        {
-          "id": "10q48uq81qn",
-          "sourceId": "cnbc-top",
-          "sourceName": "CNBC",
-          "url": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html",
-          "title": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
-          "publishedAt": "2026-11-26T00:27:52.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "marketwatch",
-          "cnbc-top"
-        ],
-        "firstPublishedAt": "2026-11-25T21:50:00.000Z"
-      },
       "ai": {
         "title": "马斯克和SpaceX拟向特朗普账户捐赠约178亿美元",
         "summary": "SpaceX将向每位活跃的特朗普账户提供新股，马斯克将匹配该捐赠。",
         "model": "glm-4.7-flash",
         "at": "2026-11-26T06:57:18.428Z"
-      }
+      },
+      "dupOf": "z662sg1k31"
     },
     {
       "id": "1q4o82p6ens",
@@ -27239,8 +27970,7 @@
       "topics": [
         "policy-us"
       ],
-      "flag": 1,
-      "dupOf": "1yofd8kkkwm"
+      "flag": 1
     },
     {
       "id": "4t4jkemsx6",
@@ -27874,8 +28604,7 @@
         "us-stocks"
       ],
       "excerpt": "纳斯达克100指数跌幅扩大至2%，成分股AMD目前跌9.2%，Nebius集团跌8.2%，CoreWeave跌5.3%，SpaceX跌4.5%，亚马逊跌4%，核电股CEG跌3.7%，Lumentum、汤森路透跌3.4%，Meta、英伟达跌2.7%，Diamondback涨1%，英特尔、希捷科技、Axon、莫德纳、CrowdStrike至多涨1.6%，西部数据涨2.7%，派拓网络PANW涨5.3%，拼多多涨10.4%。 标普跌超1.8%，道指狂泄超千点、跌幅2.1%，纳指跌2.1%，半导体指数跌2.2%，银行指数跌1.7%。 Anthropic美国IPO…",
-      "flag": 1,
-      "dupOf": "g3jalnty4a"
+      "flag": 1
     },
     {
       "id": "2ed9jvxbtjo",
@@ -29718,7 +30447,7 @@
         "policy-cn"
       ],
       "excerpt": "11月19日晚，中共中央政治局委员、外交部长王毅在2026年亚太经合组织（APEC）领导人会议周新闻中心举行的记者会上表示，中俄美元首会晤发布和平宣言，凝聚三方共识，对更有效应对全球性挑战、维护好世界和平与稳定具有重大和积极意义。接下来，中方将同俄美两国一道，全力高效落实此次会晤成果，并通过工作层保持沟通和协调。（中国青年报）",
-      "dupOf": "f01qh89xpw"
+      "dupOf": "198xezqlt61"
     },
     {
       "id": "djuj7nkhtx",
@@ -29777,7 +30506,7 @@
         "policy-cn"
       ],
       "excerpt": "11月19日晚，中共中央政治局委员、外交部长王毅在2026年亚太经合组织（APEC）领导人会议周新闻中心举行记者会。“大家都很关心中俄美元首会晤。”王毅表示，这是三国元首历史上首次举行会晤，意义重大，影响深远，是载入史册的标志性事件。会晤气氛坦诚友好，富有建设性。（中国青年报）",
-      "dupOf": "f01qh89xpw"
+      "dupOf": "198xezqlt61"
     },
     {
       "id": "1w3tyzhzlhm",
@@ -30307,7 +31036,7 @@
       ],
       "excerpt": "11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。三国元首围绕“维护世界和平，促进大国关系战略稳定”主题进行深入讨论。",
       "flag": 1,
-      "dupOf": "f01qh89xpw"
+      "dupOf": "198xezqlt61"
     },
     {
       "id": "fvfp0bpdyb",
@@ -30328,7 +31057,7 @@
       ],
       "excerpt": "11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。三国元首围绕“维护世界和平，促进大国关系战略稳定”主题进行深入讨论。 习近平指出，中俄美三国最高领导人有史以来首次聚首，具有开创性意义。历史告诉我们，大国和则世界安，大国斗则世界乱。和平是人类社会的永恒期盼。我们这个星球曾爆发过1万多次战争，当下世界上仍有60多场地区冲突延宕不止。80多年前，作为世界反法西斯的中坚力量，中俄美三国并肩奋战，取得伟大胜利，为世界赢得和平和安宁。历史是最好的教科书。我们要铭记历史，以史为鉴，开创未来。 习近平强调，人类生活在同一个地球…",
       "flag": 1,
-      "dupOf": "f01qh89xpw"
+      "dupOf": "198xezqlt61"
     },
     {
       "id": "1ex5ktiage5",
@@ -30349,7 +31078,7 @@
       ],
       "excerpt": "11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。三国元首围绕“维护世界和平，促进大国关系战略稳定”主题进行深入讨论。",
       "flag": 1,
-      "dupOf": "f01qh89xpw"
+      "dupOf": "198xezqlt61"
     },
     {
       "id": "kncuuhs8g2",
@@ -30462,7 +31191,7 @@
         "us-stocks"
       ],
       "flag": 1,
-      "dupOf": "1bsyr97ug4s"
+      "dupOf": "qz2am1ry5g"
     },
     {
       "id": "1p0ysi546jt",
@@ -30725,7 +31454,7 @@
       ],
       "excerpt": " 中国国家主席习近平、俄罗斯总统普京、美国总统特朗普于2026年11月19日在深圳举行会晤。俄美领导人感谢中方主办此次历史性会晤。三国元首就当前国际形势深入交换了意见，致力于维护战略稳定和国际安全。 一、中国、俄罗斯、美国作为联合国安理会常任理事国，致力于推动联合国改革，使之更有效应对全球性挑战，并履行其维护国际和平与安全的基本使命。 二、三国计划增加精炼石油产品的生产和供应，以造福世界各国。三国重申能源稳定流动的重要性。 三、三国元首认可国家同意原则和尊重国家官员享有豁免至关重要，一致认为国际刑事法院以及其他类似机构不得滥用管辖权。 四、三国元首重申…",
       "flag": 1,
-      "dupOf": "f01qh89xpw"
+      "dupOf": "198xezqlt61"
     },
     {
       "id": "1dghpr5qxvy",
@@ -30746,7 +31475,7 @@
       ],
       "excerpt": "中国国家主席习近平、俄罗斯总统普京、美国总统特朗普于2026年11月19日在深圳举行会晤。俄美领导人感谢中方主办此次历史性会晤。三国元首就当前国际形势深入交换了意见，致力于维护战略稳定和国际安全。 一、中国、俄罗斯、美国作为联合国安理会常任理事国，致力于推动联合国改革，使之更有效应对全球性挑战，并履行其维护国际和平与安全的基本使命。 二、三国计划增加精炼石油产品的生产和供应，以造福世界各国。三国重申能源稳定流动的重要性。 三、三国元首认可国家同意原则和尊重国家官员享有豁免至关重要，一致认为国际刑事法院以及其他类似机构不得滥用管辖权。 四、三国元首重申核…",
       "flag": 1,
-      "dupOf": "f01qh89xpw"
+      "dupOf": "198xezqlt61"
     },
     {
       "id": "qi8e2lozab",
@@ -30786,7 +31515,7 @@
       ],
       "excerpt": "中国国家主席习近平、俄罗斯总统普京、美国总统特朗普于2026年11月19日在深圳举行会晤。俄美领导人感谢中方主办此次历史性会晤。三国元首就当前国际形势深入交换了意见，致力于维护战略稳定和国际安全。",
       "flag": 1,
-      "dupOf": "f01qh89xpw"
+      "dupOf": "198xezqlt61"
     },
     {
       "id": "231c9sx26to",
@@ -31129,894 +31858,13 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 18,
+      "score": 42,
       "topics": [
         "policy-us"
       ],
       "excerpt": "11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。目前，会晤已结束。（央视新闻）",
       "flag": 1,
-      "dupOf": "f01qh89xpw"
-    },
-    {
-      "id": "214y1w1xz5o",
-      "key": "sina:5225278",
-      "title": "欧洲央行管委穆兰：欧洲央行需保持警惕",
-      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7699270.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T09:43:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb"
-      ],
-      "dupOf": "125u8l6of9o"
-    },
-    {
-      "id": "2cf2rwho40x",
-      "key": "sina:5225277",
-      "title": "欧洲央行管委穆兰：目前尚未看到第二轮效应",
-      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7699145.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T09:43:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb"
-      ],
-      "dupOf": "125u8l6of9o"
-    },
-    {
-      "id": "145xgfvjlph",
-      "key": "em:202611193935085182",
-      "title": "加息风暴来袭！黄金一度失守3700美元 不再是避险天堂？",
-      "url": "https://finance.eastmoney.com/a/202611193935085182.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T09:11:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "gold"
-      ],
-      "excerpt": "周四，国际金价延续疲软走势，一度失守3700美元关口，为14个月来首次。",
-      "flag": 1,
-      "dupOf": "1evvqlsfd40"
-    },
-    {
-      "id": "1fpuffyo4ee",
-      "key": "sina:5225194",
-      "title": "欧洲央行：96%受监管银行在操作与IT风险方面获中高评级",
-      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7805868.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T09:06:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb"
-      ],
-      "excerpt": "- 欧洲央行对14家银行实施额外杠杆率要求，并向5家银行发布指引- 欧洲央行：2027年整体核心一级资本（CET1）要求为11.3%，高于2026年的11.2%- 欧洲央行2027至2029年首要任务将是审慎的信贷承保标准及基于风险的贷款定价"
-    },
-    {
-      "id": "3q7zh3jsb1",
-      "key": "wscn:3202471",
-      "title": "习近平就大国如何正确相处提出4点看法",
-      "url": "https://wallstreetcn.com/livenews/3202471",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T09:05:38.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "据新华社，11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。习近平就大国如何正确相处、共同为世界和平托底提出4点看法：",
-      "flag": 1,
-      "dupOf": "ejb3fxu6c"
-    },
-    {
-      "id": "ixmpywkvoh",
-      "key": "cls:2539073",
-      "title": "习近平就大国如何正确相处提出4点看法",
-      "url": "https://www.cls.cn/detail/2539073",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T09:04:36.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。习近平就大国如何正确相处、共同为世界和平托底提出4点看法： 第一，坚持相互尊重。相互尊重是大国交往的基本准则。中俄美三国国情不同，谁也改变不了谁，这是历史形成的，也是各自人民的自主选择。正确的态度是彼此尊重、求同存异、共同发展。要尊重彼此主权和领土完整，尊重各自选择的社会制度和发展道路，尊重彼此核心利益和重大关切。要坚持不干涉别国内政，不干涉彼此内部事务。在涉及对方的重大敏感问题上，提前沟通、换位思考、谨慎行事，特别是不能触碰对方的底线。 第二，坚持和平共处。“",
-      "flag": 1,
-      "dupOf": "ejb3fxu6c"
-    },
-    {
-      "id": "23aknal0st1",
-      "key": "em:202611193935080795",
-      "title": "习近平就大国如何正确相处提出4点看法",
-      "url": "https://finance.eastmoney.com/a/202611193935080795.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T09:03:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。习近平就大国如何正确相处、共同为世界和平托底提出4点看法。",
-      "flag": 1,
-      "dupOf": "ejb3fxu6c"
-    },
-    {
-      "id": "133zzb4pv9r",
-      "key": "cls:2539066",
-      "title": "美股存储股盘前普涨 SK海力士涨超5%",
-      "url": "https://www.cls.cn/detail/2539066",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T09:02:23.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "美股存储股盘前普涨，SK海力士涨超5%，闪迪、美光科技涨超4%，西部数据、希捷科技涨超3%。",
-      "flag": 1,
-      "dupOf": "1bsyr97ug4s"
-    },
-    {
-      "id": "b176g8vqgc",
-      "key": "em:202611193935079371",
-      "title": "沪金跌至7字头 品牌金饰克价回撤超三成",
-      "url": "https://finance.eastmoney.com/a/202611193935079371.html",
-      "lang": "zh",
-      "sourceId": "em-commodity",
-      "sourceName": "东方财富·商品",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T09:02:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "gold"
-      ],
-      "excerpt": "11月19日，伦敦现货黄金盘中跌破3700美元/盎司。受国际金价下跌影响，上海黄金交易所Au99.99开盘价报810元/克，盘中最低跌至793.44元/克，较其年内高点回调约30%，进入“7字头”区间。"
-    },
-    {
-      "id": "p7l7z5a9qk",
-      "key": "url:cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html",
-      "title": "Trump praises ‘great relationship’ with Putin after meeting, as Ukraine war takes center stage",
-      "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html",
-      "lang": "en",
-      "sourceId": "cnbc-top",
-      "sourceName": "CNBC",
-      "sourceGroup": "media-en",
-      "publishedAt": "2026-11-19T09:02:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 15,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "U.S. President Donald Trump met individually on Thursday with Russian President Vladimir Putin, as well as Chinese President Xi Jinping."
-    },
-    {
-      "id": "qz2am1ry5g",
-      "key": "wscn:3202467",
-      "title": "美股盘前：英伟达涨约1%，存储芯片股、光通信股普涨",
-      "url": "https://wallstreetcn.com/livenews/3202467",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T09:01:20.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "美股盘前，存储芯片股普涨，SK海力士涨约5%，闪迪涨约4%，美光科技涨约4%，希捷科技涨约4%。 光通信股普涨，Coherent涨约4%，Credo涨约5%，Lumentum涨约4%，迈威尔科技涨约4%，康宁涨约3%。",
-      "flag": 1,
-      "dupOf": "1bsyr97ug4s"
-    },
-    {
-      "id": "ldxnymlsae",
-      "key": "sina:5225176",
-      "title": "欧洲央行执委施泰恩·科赫尔表示，可能需要进一步加息",
-      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7802054.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T09:00:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb"
-      ],
-      "flag": 1
-    },
-    {
-      "id": "26gek0yfubh",
-      "key": "sina:5225159",
-      "title": "2027届全国普通高校毕业生就业创业工作会议召开",
-      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7799957.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T08:57:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "11月19日，中央教育工作领导小组秘书组、教育部、人力资源社会保障部、工业和信息化部、国务院国资委在京联合召开2027届全国普通高校毕业生就业创业工作会议。会议强调，要提高政治站位，准确把握推进中国式现代化背景下高校毕业生就业工作的意义和使命，把思想和行动统一到党中央决策部署上来，全力确保2027届高校毕业生就业总体稳定。中央教育工作领导小组秘书组组长，教育部党组书记、部长怀进鹏，人力资源社会保障部副部长吴秀章，工业和信息化部总工程师钟志红，国务院国有资产监督管理委员会有关负责同志出席会议并讲话。教育部党组成员、副部长熊四皓主持会议。 会议指出，202…"
-    },
-    {
-      "id": "2adutesd5vn",
-      "key": "sina:5225145",
-      "title": "欧洲央行行长拉加德：信任是制度、社会及货币体系的基石。在信任稀缺的当下，我们必须竭尽全力维护并强化这一基础",
-      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7795783.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T08:52:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb"
-      ]
-    },
-    {
-      "id": "1rc8rvcph6p",
-      "key": "sina:5225133",
-      "title": "全国预算与会计研究会第六届会员代表大会在北京召开",
-      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4568347.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T08:47:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-cn"
-      ],
-      "excerpt": "10月29日，全国预算与会计研究会第六届会员代表大会在北京召开。财政部党组成员、副部长宋其超强调，当前是“十五五”开局之年、高质量发展纵深推进的关键阶段，预算研究工作必须准确把握新形势新要求。希望新一届理事会坚持以习近平新时代中国特色社会主义思想为指导，紧扣财政中心工作，提升服务决策研究能力、提高宣传阵地水平、夯实持续发展坚实根基，为健全预算制度、提升财政治理效能、服务经济社会高质量发展贡献更大力量。（财政部）"
-    },
-    {
-      "id": "jk2gsxpj9d",
-      "key": "wscn:3202455",
-      "title": "习近平：大国良性互动不是选择题，而是必答题",
-      "url": "https://wallstreetcn.com/livenews/3202455",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T08:39:22.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。",
-      "flag": 1,
-      "dupOf": "1bocyi0zyl8"
-    },
-    {
-      "id": "1bocyi0zyl8",
-      "key": "cls:2539028",
-      "title": "习近平：大国良性互动不是选择题，而是必答题",
-      "url": "https://www.cls.cn/detail/2539028",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T08:38:11.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 26,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。 习近平指出，当今世界早已不是彼此隔绝的孤岛。人类生活在同一个地球村，大家一荣俱荣、一损俱损，是一个命运共同体。在这个地球村里，大国肩负着特殊责任。大国良性互动不是选择题，而是必答题。近年来，中国推进中俄新时代全面战略协作伙伴关系，积极构建中美建设性战略稳定关系，推动形成和平共处、总体稳定、均衡发展的大国关系格局，既惠及彼此，又造福世界。当前，世界百年变局加速演进，天下并不太平。风雨见担当。作为世界主要大国和联合国安理会常任理事国，中俄美应该当好表率，合作应",
-      "flag": 1,
       "related": [
-        {
-          "id": "jk2gsxpj9d",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202455",
-          "title": "习近平：大国良性互动不是选择题，而是必答题",
-          "publishedAt": "2026-11-19T08:39:22.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "cls",
-          "wscn-global"
-        ],
-        "firstPublishedAt": "2026-11-19T08:38:11.000Z"
-      }
-    },
-    {
-      "id": "ejb3fxu6c",
-      "key": "cls:2539022",
-      "title": "习近平：大国和，则世界安；大国斗，则世界乱",
-      "url": "https://www.cls.cn/detail/2539022",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T08:36:01.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 34,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。 习近平：大国和，则世界安；大国斗，则世界乱。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "23aknal0st1",
-          "sourceId": "em-focus",
-          "sourceName": "东方财富",
-          "url": "https://finance.eastmoney.com/a/202611193935080795.html",
-          "title": "习近平就大国如何正确相处提出4点看法",
-          "publishedAt": "2026-11-19T09:03:00.000Z"
-        },
-        {
-          "id": "ixmpywkvoh",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2539073",
-          "title": "习近平就大国如何正确相处提出4点看法",
-          "publishedAt": "2026-11-19T09:04:36.000Z"
-        },
-        {
-          "id": "3q7zh3jsb1",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202471",
-          "title": "习近平就大国如何正确相处提出4点看法",
-          "publishedAt": "2026-11-19T09:05:38.000Z"
-        }
-      ],
-      "story": {
-        "reports": 4,
-        "sources": [
-          "cls",
-          "em-focus",
-          "wscn-global"
-        ],
-        "firstPublishedAt": "2026-11-19T08:36:01.000Z"
-      }
-    },
-    {
-      "id": "1ltuolzxvxk",
-      "key": "cls:2539008",
-      "title": "习近平主持中俄美元首会晤",
-      "url": "https://www.cls.cn/detail/2539008",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T08:26:50.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。",
-      "flag": 1,
-      "dupOf": "f01qh89xpw"
-    },
-    {
-      "id": "ucnn0yrx76",
-      "key": "em:202611193935053683",
-      "title": "习近平主持中俄美元首会晤",
-      "url": "https://finance.eastmoney.com/a/202611193935053683.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T08:26:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。习近平指出，中俄美三国最高领导人有史以来首次聚首，具有开创性意义。",
-      "flag": 1,
-      "dupOf": "f01qh89xpw"
-    },
-    {
-      "id": "ry4my3k4g6",
-      "key": "cls:2538997",
-      "title": "习近平会见美国总统特朗普",
-      "url": "https://www.cls.cn/detail/2538997",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T08:15:01.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日下午，国家主席习近平在深圳会见来华出席亚太经合组织领导人非正式会议的美国总统特朗普。 习近平指出，过去几个月，从北京到华盛顿，我和特朗普总统共同探索中美两个大国正确相处之道，确立了“中美建设性战略稳定关系”的新定位，并赋予其“基于尊重、公平、对等”的新内涵，受到中美两国人民认可和国际社会欢迎。中美关系总体稳定向好，给两国人民带来实实在在的利益，也给世界注入稳定性和确定性。我期待同特朗普总统一道，继续为中美关系领航掌舵，确保这艘大船始终沿着正确航线扬帆远航。 习近平强调，构建中美建设性战略稳定关系是前无古人的开创性事业，需要敢闯敢试、脚踏实地…",
-      "flag": 1,
-      "dupOf": "1yofd8kkkwm"
-    },
-    {
-      "id": "uznafo6jto",
-      "key": "wscn:3202434",
-      "title": "习近平会见美国总统特朗普",
-      "url": "https://wallstreetcn.com/livenews/3202434",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T08:14:57.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "据新华社，11月19日下午，国家主席习近平在深圳会见来华出席亚太经合组织领导人非正式会议的美国总统特朗普。",
-      "flag": 2,
-      "dupOf": "1yofd8kkkwm"
-    },
-    {
-      "id": "1evvqlsfd40",
-      "key": "em:202611193935049216",
-      "title": "现货黄金跌破3700美元！金饰克价高点下调近600元",
-      "url": "https://finance.eastmoney.com/a/202611193935049216.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T08:14:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "gold"
-      ],
-      "excerpt": "贵金属市场的跌势仍在持续，资金持续撤出。11月19日，国际黄金价格跳水，伦敦现货黄金盘中跌破3700美元/盎司。上海黄金交易所现货黄金（Au99.99）一度跌破800元/克，触及793元/克。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "145xgfvjlph",
-          "sourceId": "em-focus",
-          "sourceName": "东方财富",
-          "url": "https://finance.eastmoney.com/a/202611193935085182.html",
-          "title": "加息风暴来袭！黄金一度失守3700美元 不再是避险天堂？",
-          "publishedAt": "2026-11-19T09:11:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "em-focus"
-        ],
-        "firstPublishedAt": "2026-11-19T08:14:00.000Z"
-      }
-    },
-    {
-      "id": "12r05p82whu",
-      "key": "cls:2538994",
-      "title": "特朗普说美国不支持“台独”",
-      "url": "https://www.cls.cn/detail/2538994",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T08:13:52.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "特朗普说美国不支持台独。",
-      "flag": 1
-    },
-    {
-      "id": "1yofd8kkkwm",
-      "key": "em:202611193935046942",
-      "title": "习近平会见美国总统特朗普",
-      "url": "https://finance.eastmoney.com/a/202611193935046942.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T08:13:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 34,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日下午，国家主席习近平在深圳会见来华出席亚太经合组织领导人非正式会议的美国总统特朗普。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "uznafo6jto",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202434",
-          "title": "习近平会见美国总统特朗普",
-          "publishedAt": "2026-11-19T08:14:57.000Z"
-        },
-        {
-          "id": "ry4my3k4g6",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2538997",
-          "title": "习近平会见美国总统特朗普",
-          "publishedAt": "2026-11-19T08:15:01.000Z"
-        },
-        {
-          "id": "279xmohhdbs",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202834",
-          "title": "美国总统特朗普的网络安全主管Cairncross将离职。 其将在民主党于2027年年初接管国会参众两院之前就离开。（Axios）",
-          "publishedAt": "2026-11-19T22:16:58.000Z"
-        }
-      ],
-      "story": {
-        "reports": 4,
-        "sources": [
-          "em-focus",
-          "wscn-global",
-          "cls"
-        ],
-        "firstPublishedAt": "2026-11-19T08:13:00.000Z"
-      }
-    },
-    {
-      "id": "125u8l6of9o",
-      "key": "sina:5225056",
-      "title": "欧洲央行穆兰：受油价影响，通胀水平依旧过高",
-      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6235698.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T08:12:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb"
-      ],
-      "excerpt": "欧洲央行管委会成员埃马纽埃尔·穆兰表示，受能源价格持续抬升物价影响，欧元区通胀仍然“过高”。这位法国央行行长在接受采访时称：“欧元区通胀大约在4%，明显高于我们2%的目标，达到目标值的两倍。目前，石油仍在推高通胀。”穆兰还重申观点：高债务与财政赤字问题需要法国自行解决；近期债市抛售推高融资成本之后，现阶段并不适合由欧洲央行出手干预。他表示：“欧洲央行拥有相关工具，但工具启用有明确标准，当前条件并未达标。法国现在面临的是财政问题，应当由法国国内有权处置的机构——议会与政府来解决。”",
-      "related": [
-        {
-          "id": "jhadq8b3t1",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0325841.d.html",
-          "title": "欧洲央行管委穆兰：通胀水平仍然过高",
-          "publishedAt": "2026-11-19T07:32:00.000Z"
-        },
-        {
-          "id": "1gsrt310mpj",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0326006.d.html",
-          "title": "欧洲央行管委穆兰：石油仍在推高通胀",
-          "publishedAt": "2026-11-19T07:33:00.000Z"
-        },
-        {
-          "id": "22d0ie8d8je",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6223245.d.html",
-          "title": "欧洲央行管委穆兰：法国不能忽视高债务和高赤字的现实",
-          "publishedAt": "2026-11-19T07:53:00.000Z"
-        },
-        {
-          "id": "1wcrmlu1kdo",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4532480.d.html",
-          "title": "欧洲央行管委穆兰：目前尚未达到欧洲央行针对法国启用相关工具的标准",
-          "publishedAt": "2026-11-19T07:56:00.000Z"
-        },
-        {
-          "id": "214y1w1xz5o",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7699270.d.html",
-          "title": "欧洲央行管委穆兰：欧洲央行需保持警惕",
-          "publishedAt": "2026-11-19T09:43:00.000Z"
-        },
-        {
-          "id": "2cf2rwho40x",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7699145.d.html",
-          "title": "欧洲央行管委穆兰：目前尚未看到第二轮效应",
-          "publishedAt": "2026-11-19T09:43:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 7,
-        "sources": [
-          "sina"
-        ],
-        "firstPublishedAt": "2026-11-19T07:32:00.000Z"
-      }
-    },
-    {
-      "id": "1wcrmlu1kdo",
-      "key": "sina:5225006",
-      "title": "欧洲央行管委穆兰：目前尚未达到欧洲央行针对法国启用相关工具的标准",
-      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfah4532480.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:56:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb"
-      ],
-      "dupOf": "125u8l6of9o"
-    },
-    {
-      "id": "22d0ie8d8je",
-      "key": "sina:5225002",
-      "title": "欧洲央行管委穆兰：法国不能忽视高债务和高赤字的现实",
-      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfac6223245.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:53:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb"
-      ],
-      "dupOf": "125u8l6of9o"
-    },
-    {
-      "id": "2et19nmjmr8",
-      "key": "em:202611193935019234",
-      "title": "特朗普：请中国继续保持强大",
-      "url": "https://finance.eastmoney.com/a/202611193935019234.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:39:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日，在同习近平主席会见时，美国总统特朗普表示，从贸易投资到世界和平，中美都是领航的，中美都很强大，请中国继续保持强大。",
-      "flag": 1
-    },
-    {
-      "id": "1gsrt310mpj",
-      "key": "sina:5224955",
-      "title": "欧洲央行管委穆兰：石油仍在推高通胀",
-      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0326006.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:33:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb"
-      ],
-      "dupOf": "125u8l6of9o"
-    },
-    {
-      "id": "jhadq8b3t1",
-      "key": "sina:5224953",
-      "title": "欧洲央行管委穆兰：通胀水平仍然过高",
-      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhezx0325841.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:32:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "cb"
-      ],
-      "dupOf": "125u8l6of9o"
-    },
-    {
-      "id": "fvqcuau0ca",
-      "key": "wscn:3202391",
-      "title": "习近平将主持中俄美元首会晤",
-      "url": "https://wallstreetcn.com/livenews/3202391",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:05:02.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日下午，国家主席习近平将在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。 (央视新闻)",
-      "flag": 1,
-      "dupOf": "f01qh89xpw"
-    },
-    {
-      "id": "20f4rzhonf1",
-      "key": "cls:2538880",
-      "title": "习近平将主持中俄美元首会晤",
-      "url": "https://www.cls.cn/detail/2538880",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:04:11.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日下午，国家主席习近平将在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。",
-      "flag": 1,
-      "dupOf": "f01qh89xpw"
-    },
-    {
-      "id": "f01qh89xpw",
-      "key": "em:202611193935000020",
-      "title": "习近平将主持中俄美元首会晤",
-      "url": "https://finance.eastmoney.com/a/202611193935000020.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:04:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 42,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日下午，国家主席习近平将在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "20f4rzhonf1",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2538880",
-          "title": "习近平将主持中俄美元首会晤",
-          "publishedAt": "2026-11-19T07:04:11.000Z"
-        },
-        {
-          "id": "fvqcuau0ca",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202391",
-          "title": "习近平将主持中俄美元首会晤",
-          "publishedAt": "2026-11-19T07:05:02.000Z"
-        },
-        {
-          "id": "ucnn0yrx76",
-          "sourceId": "em-focus",
-          "sourceName": "东方财富",
-          "url": "https://finance.eastmoney.com/a/202611193935053683.html",
-          "title": "习近平主持中俄美元首会晤",
-          "publishedAt": "2026-11-19T08:26:00.000Z"
-        },
-        {
-          "id": "1ltuolzxvxk",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2539008",
-          "title": "习近平主持中俄美元首会晤",
-          "publishedAt": "2026-11-19T08:26:50.000Z"
-        },
-        {
-          "id": "198xezqlt61",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202501",
-          "title": "中俄美元首会晤结束",
-          "publishedAt": "2026-11-19T09:56:23.000Z"
-        },
         {
           "id": "1y8nveeq90a",
           "sourceId": "em-focus",
@@ -32083,85 +31931,277 @@
         }
       ],
       "story": {
-        "reports": 14,
+        "reports": 9,
         "sources": [
+          "wscn-global",
           "em-focus",
           "cls",
-          "wscn-global",
           "sina"
         ],
-        "firstPublishedAt": "2026-11-19T07:04:00.000Z"
+        "firstPublishedAt": "2026-11-19T09:56:23.000Z"
       }
     },
     {
-      "id": "1o1bkvzrd83",
-      "key": "wscn:3202390",
-      "title": "美股期货涨幅扩大，纳斯达克100指数期货涨2%，Anthropic将挂牌交易",
-      "url": "https://wallstreetcn.com/livenews/3202390",
+      "id": "214y1w1xz5o",
+      "key": "sina:5225278",
+      "title": "欧洲央行管委穆兰：欧洲央行需保持警惕",
+      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7699270.d.html",
       "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
       "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:03:11.000Z",
+      "publishedAt": "2026-11-19T09:43:00.000Z",
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
       "score": 18,
       "topics": [
-        "us-stocks"
+        "cb"
       ],
-      "excerpt": "美股期货涨幅扩大，纳斯达克100指数期货涨2%，标普500指数期货涨1.1%，道指期货涨0.7%。Anthropic即将挂牌上市，该公司扩大IPO和私募配售规模，融资1073亿美元。",
-      "flag": 1,
-      "dupOf": "g3jalnty4a"
+      "related": [
+        {
+          "id": "2cf2rwho40x",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7699145.d.html",
+          "title": "欧洲央行管委穆兰：目前尚未看到第二轮效应",
+          "publishedAt": "2026-11-19T09:43:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "sina"
+        ],
+        "firstPublishedAt": "2026-11-19T09:43:00.000Z"
+      }
     },
     {
-      "id": "ecz2673cz6",
-      "key": "cls:2538868",
-      "title": "收评：上证50指数探底回升涨0.32% 沪深两市成交额仅1.31万亿",
-      "url": "https://www.cls.cn/detail/2538868",
+      "id": "2cf2rwho40x",
+      "key": "sina:5225277",
+      "title": "欧洲央行管委穆兰：目前尚未看到第二轮效应",
+      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhmka7699145.d.html",
       "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
       "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:02:42.000Z",
+      "publishedAt": "2026-11-19T09:43:00.000Z",
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
       "score": 18,
       "topics": [
-        "a-shares"
+        "cb"
       ],
-      "excerpt": "市场尾盘震荡拉升，上证50指数探底回升涨0.32%，三大指数跌幅有所收窄。科创50ETF易方达(588080)、中证500ETF南方(510500)、科创50ETF华夏(588000)、创业板ETF易方达(159915)、沪深300ETF华泰柏瑞（510300）成交额突破100亿。沪深两市成交额1.31万亿，较上一个交易日缩量646亿。全市场超4800只个股下跌，超70只个股跌停。盘面上，光刻胶、先进封装概念表现活跃，格林达、红宝丽、大港股份涨停，蓝箭电子20CM涨停，盛剑科技3连板。下跌方面，算力芯",
-      "flag": 1
+      "dupOf": "214y1w1xz5o"
     },
     {
-      "id": "1bsyr97ug4s",
-      "key": "em:202611193934999952",
-      "title": "美股大型科技股盘前集体上涨 光通信板块盘前普涨",
-      "url": "https://finance.eastmoney.com/a/202611193934999952.html",
+      "id": "145xgfvjlph",
+      "key": "em:202611193935085182",
+      "title": "加息风暴来袭！黄金一度失守3700美元 不再是避险天堂？",
+      "url": "https://finance.eastmoney.com/a/202611193935085182.html",
       "lang": "zh",
       "sourceId": "em-focus",
       "sourceName": "东方财富",
       "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:02:00.000Z",
+      "publishedAt": "2026-11-19T09:11:00.000Z",
+      "firstSeenAt": "2026-11-19T19:28:42.947Z",
+      "day": "2026-11-19",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "周四，国际金价延续疲软走势，一度失守3700美元关口，为14个月来首次。",
+      "flag": 1
+    },
+    {
+      "id": "1fpuffyo4ee",
+      "key": "sina:5225194",
+      "title": "欧洲央行：96%受监管银行在操作与IT风险方面获中高评级",
+      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7805868.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T09:06:00.000Z",
+      "firstSeenAt": "2026-11-19T19:28:42.947Z",
+      "day": "2026-11-19",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "- 欧洲央行对14家银行实施额外杠杆率要求，并向5家银行发布指引- 欧洲央行：2027年整体核心一级资本（CET1）要求为11.3%，高于2026年的11.2%- 欧洲央行2027至2029年首要任务将是审慎的信贷承保标准及基于风险的贷款定价"
+    },
+    {
+      "id": "3q7zh3jsb1",
+      "key": "wscn:3202471",
+      "title": "习近平就大国如何正确相处提出4点看法",
+      "url": "https://wallstreetcn.com/livenews/3202471",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T09:05:38.000Z",
+      "firstSeenAt": "2026-11-19T19:28:42.947Z",
+      "day": "2026-11-19",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "据新华社，11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。习近平就大国如何正确相处、共同为世界和平托底提出4点看法：",
+      "flag": 1,
+      "dupOf": "23aknal0st1"
+    },
+    {
+      "id": "ixmpywkvoh",
+      "key": "cls:2539073",
+      "title": "习近平就大国如何正确相处提出4点看法",
+      "url": "https://www.cls.cn/detail/2539073",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T09:04:36.000Z",
+      "firstSeenAt": "2026-11-19T19:28:42.947Z",
+      "day": "2026-11-19",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。习近平就大国如何正确相处、共同为世界和平托底提出4点看法： 第一，坚持相互尊重。相互尊重是大国交往的基本准则。中俄美三国国情不同，谁也改变不了谁，这是历史形成的，也是各自人民的自主选择。正确的态度是彼此尊重、求同存异、共同发展。要尊重彼此主权和领土完整，尊重各自选择的社会制度和发展道路，尊重彼此核心利益和重大关切。要坚持不干涉别国内政，不干涉彼此内部事务。在涉及对方的重大敏感问题上，提前沟通、换位思考、谨慎行事，特别是不能触碰对方的底线。 第二，坚持和平共处。“",
+      "flag": 1,
+      "dupOf": "23aknal0st1"
+    },
+    {
+      "id": "23aknal0st1",
+      "key": "em:202611193935080795",
+      "title": "习近平就大国如何正确相处提出4点看法",
+      "url": "https://finance.eastmoney.com/a/202611193935080795.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T09:03:00.000Z",
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
       "score": 34,
       "topics": [
-        "us-stocks"
+        "policy-us"
       ],
-      "excerpt": "11月19日美股盘前，三大股指期货集体上涨。截至发稿，道指期货涨0.64%，纳斯达克100指数期货涨1.82%，标普500指数期货涨1.04%。美股大型科技股盘前集体上涨，其中，SpaceX盘前涨超2%，报146.49美元/股。",
+      "excerpt": "11月19日下午，国家主席习近平在深圳同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤。习近平就大国如何正确相处、共同为世界和平托底提出4点看法。",
       "flag": 1,
       "related": [
         {
-          "id": "qz2am1ry5g",
+          "id": "ixmpywkvoh",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2539073",
+          "title": "习近平就大国如何正确相处提出4点看法",
+          "publishedAt": "2026-11-19T09:04:36.000Z"
+        },
+        {
+          "id": "3q7zh3jsb1",
           "sourceId": "wscn-global",
           "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202467",
-          "title": "美股盘前：英伟达涨约1%，存储芯片股、光通信股普涨",
-          "publishedAt": "2026-11-19T09:01:20.000Z"
-        },
+          "url": "https://wallstreetcn.com/livenews/3202471",
+          "title": "习近平就大国如何正确相处提出4点看法",
+          "publishedAt": "2026-11-19T09:05:38.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "em-focus",
+          "cls",
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-11-19T09:03:00.000Z"
+      }
+    },
+    {
+      "id": "133zzb4pv9r",
+      "key": "cls:2539066",
+      "title": "美股存储股盘前普涨 SK海力士涨超5%",
+      "url": "https://www.cls.cn/detail/2539066",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T09:02:23.000Z",
+      "firstSeenAt": "2026-11-19T19:28:42.947Z",
+      "day": "2026-11-19",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "美股存储股盘前普涨，SK海力士涨超5%，闪迪、美光科技涨超4%，西部数据、希捷科技涨超3%。",
+      "flag": 1,
+      "dupOf": "qz2am1ry5g"
+    },
+    {
+      "id": "b176g8vqgc",
+      "key": "em:202611193935079371",
+      "title": "沪金跌至7字头 品牌金饰克价回撤超三成",
+      "url": "https://finance.eastmoney.com/a/202611193935079371.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T09:02:00.000Z",
+      "firstSeenAt": "2026-11-19T19:28:42.947Z",
+      "day": "2026-11-19",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "gold"
+      ],
+      "excerpt": "11月19日，伦敦现货黄金盘中跌破3700美元/盎司。受国际金价下跌影响，上海黄金交易所Au99.99开盘价报810元/克，盘中最低跌至793.44元/克，较其年内高点回调约30%，进入“7字头”区间。"
+    },
+    {
+      "id": "p7l7z5a9qk",
+      "key": "url:cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html",
+      "title": "Trump praises ‘great relationship’ with Putin after meeting, as Ukraine war takes center stage",
+      "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-china-apec-.html",
+      "lang": "en",
+      "sourceId": "cnbc-top",
+      "sourceName": "CNBC",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-19T09:02:00.000Z",
+      "firstSeenAt": "2026-11-19T19:28:42.947Z",
+      "day": "2026-11-19",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "U.S. President Donald Trump met individually on Thursday with Russian President Vladimir Putin, as well as Chinese President Xi Jinping."
+    },
+    {
+      "id": "qz2am1ry5g",
+      "key": "wscn:3202467",
+      "title": "美股盘前：英伟达涨约1%，存储芯片股、光通信股普涨",
+      "url": "https://wallstreetcn.com/livenews/3202467",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-19T09:01:20.000Z",
+      "firstSeenAt": "2026-11-19T19:28:42.947Z",
+      "day": "2026-11-19",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "美股盘前，存储芯片股普涨，SK海力士涨约5%，闪迪涨约4%，美光科技涨约4%，希捷科技涨约4%。 光通信股普涨，Coherent涨约4%，Credo涨约5%，Lumentum涨约4%，迈威尔科技涨约4%，康宁涨约3%。",
+      "flag": 1,
+      "related": [
         {
           "id": "133zzb4pv9r",
           "sourceId": "cls",
@@ -32180,266 +32220,32 @@
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 3,
         "sources": [
-          "em-focus",
           "wscn-global",
           "cls"
         ],
-        "firstPublishedAt": "2026-11-19T07:02:00.000Z"
+        "firstPublishedAt": "2026-11-19T09:01:20.000Z"
       }
     },
     {
-      "id": "1yne82gwkbv",
-      "key": "wscn:3202389",
-      "title": "A股收盘：三大指数小幅下跌，两市成交仅1.3万亿",
-      "url": "https://wallstreetcn.com/livenews/3202389",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:01:49.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "1、市场全天震荡调整，三大指数小幅下跌。光刻机、光刻胶概念逆势活跃，盛剑科技3连板，兴业股份、格林达、江化微等涨停。先进封装、存储芯片板块盘中拉升，蓝箭电子、时空科技、大港股份等涨停。下跌方面，AI漫剧概念下挫，慈文传媒、横店影视、文投控股3连跌停；算力芯片股下挫，燧原科技20cm跌停，沐曦股份跌超10%。个股呈现普跌态势，沪深京三市超4800股飘绿，今日成交1.31万亿。截止收盘沪指跌0.28%，深成指跌0.71%，创业板跌0.79%。 2、板块概念方面，民航机场、光刻机、大硅片、券商等板块逆势走强；家电、AI漫剧、游戏、冰雪经济等板块领跌； 3、两…",
-      "flag": 1,
-      "dupOf": "x3gqg1ayis"
-    },
-    {
-      "id": "g3jalnty4a",
-      "key": "cls:2538864",
-      "title": "纳斯达克100指数期货涨幅扩大至2%",
-      "url": "https://www.cls.cn/detail/2538864",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:01:15.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 26,
-      "topics": [
-        "us-stocks"
-      ],
-      "excerpt": "道琼斯指数期货涨0.70%，标普500指数期货涨1.13%，纳斯达克100指数期货涨2.01%。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "1o1bkvzrd83",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202390",
-          "title": "美股期货涨幅扩大，纳斯达克100指数期货涨2%，Anthropic将挂牌交易",
-          "publishedAt": "2026-11-19T07:03:11.000Z"
-        },
-        {
-          "id": "mzbo43jaey",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202790",
-          "title": "纳斯达克100指数跌幅扩大至2%，成分股AMD目前跌9.2%，Nebius集团跌8.2%，CoreWeave跌5.3%，SpaceX跌4.…",
-          "publishedAt": "2026-11-19T20:01:24.000Z"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "cls",
-          "wscn-global"
-        ],
-        "firstPublishedAt": "2026-11-19T07:01:15.000Z"
-      }
-    },
-    {
-      "id": "1kaef7o7hwi",
-      "key": "sina:5224881",
-      "title": "A股收评：沪指震荡收跌0.28%，厨卫电器、影视院线、游戏板块重挫",
-      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuf6315161.d.html",
+      "id": "ldxnymlsae",
+      "key": "sina:5225176",
+      "title": "欧洲央行执委施泰恩·科赫尔表示，可能需要进一步加息",
+      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizhfae7802054.d.html",
       "lang": "zh",
       "sourceId": "sina",
       "sourceName": "新浪财经",
       "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:01:00.000Z",
+      "publishedAt": "2026-11-19T09:00:00.000Z",
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
       "score": 18,
       "topics": [
-        "a-shares"
+        "cb"
       ],
-      "excerpt": "A股三大指数今日集体下跌，截至收盘，上证指数跌0.28%，深证成指跌0.71%，创业板指跌0.79%，北证50跌3.99%，科创50指数涨1.83%。全市场成交额13146亿元，较上日缩量654亿元，全市场超4800只个股下跌。板块题材上，厨卫电器、影视院线、短剧游戏、文化传媒、游戏板块跌幅居前。盘面上，半导体板块走势分化明显，蓝箭电子、灿芯股份、燕东微、大港股份盘中触及涨停，晶合集成、华虹宏力、粤芯半导涨幅居前；燧原科技触及20cm跌停，沫曦股份、盛科通信、利扬芯片、摩尔线程重挫。光刻胶板块局部活跃，兴业股份、格林达、盛剑科技、江化微触及涨停，国林科…",
-      "flag": 1,
-      "dupOf": "x3gqg1ayis"
-    },
-    {
-      "id": "15onhdifgmu",
-      "key": "em:202611193934999564",
-      "title": "多只热门宽基ETF尾盘爆量",
-      "url": "https://finance.eastmoney.com/a/202611193934999564.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:00:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "尾盘多只热门宽基ETF较昨日大幅放量：沪深300ETF嘉实（159919）成交额96亿，较昨日放量8倍；科创50ETF易方达（588080）成交额127亿元，较昨日放量4倍；中证500ETF南方（510500）成交额103亿元，较昨日放量3.6倍；沪深300ETF华夏（510330）成交额104亿元，较昨日放量1.7倍。",
-      "flag": 1,
-      "dupOf": "sosl5jpnh4"
-    },
-    {
-      "id": "x3gqg1ayis",
-      "key": "em:202611193934998824",
-      "title": "科创50指数收盘涨近2% 三市成交额1.31万亿",
-      "url": "https://finance.eastmoney.com/a/202611193934998824.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T07:00:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 34,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "沪指跌0.28%，深证成指跌0.71%，创业板指跌0.79%，科创50指数涨1.83%。成交额超1.3万亿，稀土、航空机场、电子化学品板块上涨，影视院线、广告营销、传媒、游戏跌幅居前。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "1kaef7o7hwi",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuf6315161.d.html",
-          "title": "A股收评：沪指震荡收跌0.28%，厨卫电器、影视院线、游戏板块重挫",
-          "publishedAt": "2026-11-19T07:01:00.000Z"
-        },
-        {
-          "id": "1yne82gwkbv",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202389",
-          "title": "A股收盘：三大指数小幅下跌，两市成交仅1.3万亿",
-          "publishedAt": "2026-11-19T07:01:49.000Z"
-        }
-      ],
-      "story": {
-        "reports": 3,
-        "sources": [
-          "em-focus",
-          "sina",
-          "wscn-global"
-        ],
-        "firstPublishedAt": "2026-11-19T07:00:00.000Z"
-      }
-    },
-    {
-      "id": "1wqfy6t8ce8",
-      "key": "em:202611193934995182",
-      "title": "四只热门宽基ETF均破百亿成交",
-      "url": "https://finance.eastmoney.com/a/202611193934995182.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T06:54:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "科创50ETF易方达（588080）、中证500ETF南方（510500）、科创50ETF华夏（588000）、创业板ETF易方达（159915）四只宽基ETF成交额均突破100亿元。",
-      "flag": 1,
-      "dupOf": "sosl5jpnh4"
-    },
-    {
-      "id": "22k535vtk1q",
-      "key": "em:202611193934994893",
-      "title": "临近尾盘宽基ETF持续放量 2只ETF成交超100亿",
-      "url": "https://finance.eastmoney.com/a/202611193934994893.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T06:52:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "临近尾盘，多只宽基ETF持续放量，科创50ETF易方达（588080）、中证500ETF南方（510500）成交额突破100亿，均较昨日全天成交额增超3倍，创业板ETF易方达（159915）、沪深300ETF华泰柏瑞（510300）、沪深300ETF华夏（510330）、沪深300ETF嘉实（159919）尾盘20分钟均成交超25亿。",
-      "flag": 1,
-      "dupOf": "sosl5jpnh4"
-    },
-    {
-      "id": "sosl5jpnh4",
-      "key": "cls:2538856",
-      "title": "临近尾盘宽基ETF持续放量 2只ETF成交超100亿",
-      "url": "https://www.cls.cn/detail/2538856",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T06:51:46.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 26,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "临近尾盘，多只宽基ETF持续放量，科创50ETF易方达（588080）、中证500ETF南方（510500）成交额突破100亿，均较昨日全天成交额增超3倍，创业板ETF易方达（159915）、沪深300ETF华泰柏瑞（510300）、沪深300ETF华夏（510330）、沪深300ETF嘉实（159919）20分钟内均成交超25亿。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "22k535vtk1q",
-          "sourceId": "em-focus",
-          "sourceName": "东方财富",
-          "url": "https://finance.eastmoney.com/a/202611193934994893.html",
-          "title": "临近尾盘宽基ETF持续放量 2只ETF成交超100亿",
-          "publishedAt": "2026-11-19T06:52:00.000Z"
-        },
-        {
-          "id": "1wqfy6t8ce8",
-          "sourceId": "em-focus",
-          "sourceName": "东方财富",
-          "url": "https://finance.eastmoney.com/a/202611193934995182.html",
-          "title": "四只热门宽基ETF均破百亿成交",
-          "publishedAt": "2026-11-19T06:54:00.000Z"
-        },
-        {
-          "id": "15onhdifgmu",
-          "sourceId": "em-focus",
-          "sourceName": "东方财富",
-          "url": "https://finance.eastmoney.com/a/202611193934999564.html",
-          "title": "多只热门宽基ETF尾盘爆量",
-          "publishedAt": "2026-11-19T07:00:00.000Z"
-        }
-      ],
-      "story": {
-        "reports": 4,
-        "sources": [
-          "cls",
-          "em-focus"
-        ],
-        "firstPublishedAt": "2026-11-19T06:51:46.000Z"
-      }
+      "flag": 1
     }
   ]
 }

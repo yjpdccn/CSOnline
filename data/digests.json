@@ -1091,40 +1091,39 @@
   },
   "2026-11-26": {
     "day": "2026-11-26",
-    "generatedAt": "2026-11-26T06:54:50.274Z",
-    "itemCount": 125,
-    "mode": "ai",
-    "model": "glm-4.7-flash",
-    "overview": "Anthropic发布GRH Lean验证简化版，OpenAI破解数学悬案，九章云极发布物理AI工厂。",
+    "generatedAt": "2026-11-26T08:59:39.987Z",
+    "itemCount": 127,
+    "mode": "fallback",
+    "overview": "过去 24 小时共收录 127 条 AI 资讯：产品与行业 97 条、Agent 与工具 11 条、论文 7 条、多模态与视频 6 条、开源项目 4 条、模型发布 2 条。以下为按重要性排序的前 5 条。",
     "points": [
       {
-        "text": "Anthropic发布GRH Lean验证简化版，降低模型安全验证成本。",
+        "text": "【论文】Anthropic 发布 GRH Lean 验证简化版",
         "refs": [
           "1qa3sjj5ou9"
         ]
       },
       {
-        "text": "OpenAI破解矩阵乘法指数，连破八大理论计算机数学世纪悬案。",
+        "text": "【Agent】Amazon 和 Meta 讨论解除 AI Agent Muse 封锁",
         "refs": [
-          "1rjtklt5kli"
+          "c4fgfpd2qz"
         ]
       },
       {
-        "text": "九章云极发布物理AI工厂与生态开放计划，推动AI落地。",
+        "text": "【行业】Anthropic CEO 否认放弃对 AI 的人权控制",
         "refs": [
-          "cm9j7lm26v"
+          "1pt28k4dc76"
         ]
       },
       {
-        "text": "Anthropic前员工Tibo加盟OpenAI，三人组异地团圆。",
+        "text": "【行业】高盛研判：美国数据中心建设热潮将持续至2028年",
         "refs": [
-          "new3fftw09"
+          "naktb6gi74"
         ]
       },
       {
-        "text": "Siri AI开发者预览版发布，支持iOS、iPadOS和macOS应用集成。",
+        "text": "【行业】97%的识别准确率，DeepMind让AI从质谱碎片中识别未知分子",
         "refs": [
-          "1h5nbf0m144"
+          "17u7fb7lv5s"
         ]
       }
     ]

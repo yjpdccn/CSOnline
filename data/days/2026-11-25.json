@@ -520,12 +520,30 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 22,
+      "score": 30,
       "ai": {
         "summary": "摩尔线程全功能 GPU 承载 MAGI-2 首发上线，提供国产算力支撑。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-25T20:30:27.867Z"
+      },
+      "related": [
+        {
+          "id": "oiidj3z2kj",
+          "sourceId": "geekpark",
+          "sourceName": "极客公园",
+          "url": "http://www.geekpark.net/news/374532",
+          "title": "成本低九成、开源权重：MAGI-2 带动视频模型进入大掀桌时代",
+          "publishedAt": "2026-11-26T08:38:54.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "geekpark"
+        ],
+        "firstPublishedAt": "2026-11-25T12:30:16.000Z"
       }
     },
     {
@@ -1362,7 +1380,25 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 18
+      "score": 26,
+      "related": [
+        {
+          "id": "1lnfp0z84ul",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/z9IwzAY8hP15oDa2VKi6?utm_source=rss&utm_medium=article",
+          "title": "破发不算最疼，Claude Code核心班底被OpenAI疯狂收割才是：Anthropic的编程王座悬了？",
+          "publishedAt": "2026-11-26T07:35:51.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "infoq-cn"
+        ],
+        "firstPublishedAt": "2026-11-25T07:39:55.220Z"
+      }
     },
     {
       "id": "22yshnluk6l",
@@ -1401,11 +1437,11 @@
       "day": "2026-11-25",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 37.5,
+      "score": 40.2,
       "metrics": {
-        "stars": 607,
-        "points": 116,
-        "comments": 25
+        "stars": 763,
+        "points": 141,
+        "comments": 34
       },
       "aiAttempts": 1,
       "ai": {
@@ -1765,10 +1801,10 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 23.9,
+      "score": 24,
       "metrics": {
-        "points": 151,
-        "comments": 46
+        "points": 152,
+        "comments": 47
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50638647",
       "aiAttempts": 2,
@@ -1895,10 +1931,10 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "agent",
-      "score": 28.7,
+      "score": 28.8,
       "metrics": {
-        "points": 216,
-        "comments": 170
+        "points": 217,
+        "comments": 171
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50638320",
       "aiAttempts": 2,
@@ -2244,7 +2280,7 @@
       "category": "agent",
       "score": 34.6,
       "metrics": {
-        "points": 456,
+        "points": 458,
         "comments": 199
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50637686",
@@ -2587,8 +2623,8 @@
         ],
         "firstPublishedAt": "2026-11-24T16:45:44.000Z",
         "metrics": {
-          "points": 449,
-          "comments": 344
+          "points": 450,
+          "comments": 347
         }
       },
       "ai": {
@@ -2892,10 +2928,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25.7,
+      "score": 25.8,
       "metrics": {
         "upvotes": 98,
-        "comments": 6
+        "comments": 8
       },
       "ai": {
         "title": "强化学习让 Agent 延迟回答",
@@ -2924,9 +2960,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 22.4,
+      "score": 22.5,
       "metrics": {
-        "upvotes": 62,
+        "upvotes": 63,
         "comments": 3
       },
       "ai": {
@@ -2955,9 +2991,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25.5,
+      "score": 25.6,
       "metrics": {
-        "upvotes": 98,
+        "upvotes": 100,
         "comments": 2
       },
       "ai": {
@@ -2983,9 +3019,9 @@
       "day": "2026-11-25",
       "category": "paper",
       "categoryLocked": true,
-      "score": 24.9,
+      "score": 25.1,
       "metrics": {
-        "upvotes": 90,
+        "upvotes": 92,
         "comments": 3
       },
       "ai": {
@@ -3011,9 +3047,9 @@
       "day": "2026-11-25",
       "category": "paper",
       "categoryLocked": true,
-      "score": 26.1,
+      "score": 26.2,
       "metrics": {
-        "upvotes": 106,
+        "upvotes": 107,
         "comments": 3
       },
       "ai": {
@@ -3086,9 +3122,9 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-25",
       "category": "paper",
-      "score": 21.4,
+      "score": 21.5,
       "metrics": {
-        "points": 122,
+        "points": 124,
         "comments": 13
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50635783",
@@ -3630,8 +3666,8 @@
       "category": "industry",
       "score": 35.9,
       "metrics": {
-        "points": 449,
-        "comments": 344
+        "points": 450,
+        "comments": 347
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50630809",
       "ai": {
@@ -3740,7 +3776,7 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 45.4,
+      "score": 47,
       "ai": {
         "title": "纽约时报警告勿更新 Photoshop",
         "summary": "纽约时报建议自由摄影师不要更新 Photoshop，因新版本 AI 功能可能存在风险。",
@@ -3756,8 +3792,8 @@
         }
       ],
       "metrics": {
-        "points": 308,
-        "comments": 269
+        "points": 363,
+        "comments": 313
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50647673"
     },
