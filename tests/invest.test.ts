@@ -1,12 +1,12 @@
 import { describe, expect, it, vi } from "vitest";
 import { FUNDS } from "@/config/invest";
 import { INVEST_SOURCES } from "@/config/invest-news";
-import { compareStatus, diffAlerts } from "@/lib/invest/alerts";
+import { compareStatus, diffAlerts, holidayPause } from "@/lib/invest/alerts";
 import { checkFeeRule, computeDomesticPremium, computePremium, domesticBand, largestMove, mergeCloses, premiumBand, weekChange } from "@/lib/invest/funds";
 import { INVEST_CLUSTER_WINDOW_MS, mergeNews, rankNews, toInvestItem } from "@/lib/invest/news";
 import { buildAutoOverview, generateAiOverview, translateHeadlines } from "@/lib/invest/overview";
 import { investTopics, isCompanyFiling } from "@/lib/invest/topics";
-import type { FundView, InvestNewsItem, QuoteView } from "@/lib/invest/types";
+import type { AlertsFile, FundView, InvestNewsItem, QuoteView } from "@/lib/invest/types";
 import { LlmClient, summarizeItems, type LlmConfig } from "@/lib/pipeline/llm";
 
 const NOW = new Date("2026-10-29T11:30:00Z");
@@ -136,6 +136,42 @@ describe("alerts", () => {
     ]);
     const third = diffAlerts(second, [view("019172", { status: status("限大额", 50), fees: { management: 0.4, custody: 0.1, asOf: "" } })], new Date(later.getTime() + 3600_000));
     expect(third.events).toHaveLength(2);
+  });
+
+  it("takes a pause on a US market holiday for a holiday pause, not a quota cut and a reopening", () => {
+    const seen = (iso: string, purchase: string, limit?: number | null, dca = "支持") => ({ purchase, limit, dca, asOf: iso });
+    const open = diffAlerts(null, [view("019172", { status: seen("2026-11-25T08:58:00Z", "限大额", 10) })], new Date("2026-11-25T08:58:00Z"));
+    // 04:27 in Beijing on the 26th: that day's orders fall on US Thanksgiving.
+    const paused = diffAlerts(open, [view("019172", { status: seen("2026-11-25T20:27:00Z", "暂停申购", 100, "不支持") })], new Date("2026-11-25T20:27:00Z"));
+    expect(paused.events.map((e) => [e.kind, e.holiday, e.from])).toEqual([["holiday-pause", "2026-11-26", "限大额 · 10 元/日"]]);
+    expect(paused.lastSeen["019172"]).toMatchObject({ purchase: "限大额", limit: 10, dca: "支持" });
+    expect(holidayPause("019172", seen("2026-11-25T20:27:00Z", "暂停申购"), paused.lastSeen["019172"])).toBe("2026-11-26");
+
+    const reopened = diffAlerts(paused, [view("019172", { status: seen("2026-11-26T08:58:00Z", "限大额", 10) })], new Date("2026-11-26T08:58:00Z"));
+    expect(reopened.events.map((e) => e.kind)).toEqual(["holiday-pause"]);
+    // Reopening at another limit is a real change, measured against the status before the holiday.
+    const cut = diffAlerts(paused, [view("019172", { status: seen("2026-11-26T08:58:00Z", "限大额", 5) })], new Date("2026-11-26T08:58:00Z"));
+    expect(cut.events.map((e) => [e.kind, e.from, e.to])).toEqual([
+      ["limit-down", "限大额 · 10 元/日", "限大额 · 5 元/日"],
+      ["holiday-pause", "限大额 · 10 元/日", undefined],
+    ]);
+    // A pause on an ordinary day is still a cut.
+    const ordinary = diffAlerts(open, [view("019172", { status: seen("2026-11-24T02:00:00Z", "暂停申购") })], new Date("2026-11-24T02:00:00Z"));
+    expect(ordinary.events.map((e) => e.kind)).toEqual(["limit-down"]);
+  });
+
+  it("turns a holiday pause already recorded as a cut and a reopening into one holiday pause", () => {
+    const prev: AlertsFile = {
+      updatedAt: "",
+      lastSeen: { "019172": { purchase: "限大额", limit: 10, dca: "支持", at: "" } },
+      events: [
+        { id: "limit-up:019172:2026-11-26T08:58:11.754Z", kind: "limit-up", code: "019172", at: "2026-11-26T08:58:11.754Z", from: "暂停申购 · 定投不支持", to: "限大额 · 10 元/日", severity: "good" },
+        { id: "limit-down:019172:2026-11-25T20:27:54.042Z", kind: "limit-down", code: "019172", at: "2026-11-25T20:27:54.042Z", from: "限大额 · 10 元/日", to: "暂停申购 · 定投不支持", severity: "bad" },
+      ],
+    };
+    const now = new Date("2026-11-26T12:00:00Z");
+    const next = diffAlerts(prev, [view("019172", { status: { purchase: "限大额", limit: 10, dca: "支持", asOf: now.toISOString() } })], now);
+    expect(next.events.map((e) => [e.kind, e.holiday, e.at])).toEqual([["holiday-pause", "2026-11-26", "2026-11-25T20:27:54.042Z"]]);
   });
 
   it("keeps the last-seen state when a fetch fails, so a gap is not a change", () => {

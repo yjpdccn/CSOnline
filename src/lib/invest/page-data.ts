@@ -109,8 +109,8 @@ function watchRows(views: FundView[], events: AlertEvent[]): WatchRow[] {
       const row: WatchRow = {
         code: v.code,
         name: v.name,
-        status: describeStatus(v.status!),
-        rank: statusRank(v.status!.purchase),
+        status: v.holidayPause ? `暂停申购 · ${Number(v.holidayPause.slice(5, 7))}月${Number(v.holidayPause.slice(8, 10))}日境外节假日` : describeStatus(v.status!),
+        rank: v.holidayPause ? -1 : statusRank(v.status!.purchase),
         qdii: isQdii(v.code),
         group: v.group,
       };
@@ -187,7 +187,7 @@ export async function loadInvestPageData(): Promise<InvestPageData> {
   const run = store.meta.lastRun ?? null;
   const status = store.status;
   const asOf = new Date(run?.startedAt ?? store.news.updatedAt ?? Date.now());
-  const views = buildFundViews(store.funds.funds, store.market);
+  const views = buildFundViews(store.funds.funds, store.market, store.alerts?.lastSeen);
   const ranked = rankNews(store.news.items, asOf);
   const recentMs = asOf.getTime() - 72 * 3600_000;
   const recent = ranked.filter((c) => Date.parse(c.item.publishedAt) >= recentMs);

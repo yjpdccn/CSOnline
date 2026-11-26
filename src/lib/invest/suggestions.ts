@@ -166,7 +166,7 @@ export function buildSuggestions(views: FundView[], strategy: StrategyFile, even
     }
 
     // On-exchange ETFs trade whatever their creation status; a QDII fund waiting for quota is expected to be paused.
-    if (!v.etf && v.status && !(role === "planned" && fund.addOnReopen)) {
+    if (!v.etf && v.status && !v.holidayPause && !(role === "planned" && fund.addOnReopen)) {
       const paused = statusRank(v.status.purchase) === 0;
       const noDca = role === "dca" && v.status.dca !== undefined && v.status.dca !== "支持";
       if (paused || noDca) {

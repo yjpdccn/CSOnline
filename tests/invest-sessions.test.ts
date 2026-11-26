@@ -1,13 +1,24 @@
 import { describe, expect, it } from "vitest";
 import { detectEvents, eventObservations, type EventsFile } from "@/lib/invest/events";
 import { diffNotifications } from "@/lib/invest/notify";
-import { settledUsCloses, usCloseAt } from "@/lib/invest/sessions";
+import { orderDay, settledUsCloses, usCloseAt, usHolidayOrder } from "@/lib/invest/sessions";
 import type { Close, MarketFile } from "@/lib/invest/types";
 
 const market = (closes: Close[]): MarketFile => ({ updatedAt: "", valuations: {}, series: { ndx: { name: "纳斯达克100", closes, source: "test", fetchedAt: "" } } });
 const empty: EventsFile = { updatedAt: "", bands: {}, events: [] };
 
 describe("US closes", () => {
+  it("finds the China order day and whether US markets are closed on it", () => {
+    // 04:27 in Beijing: before the 15:00 cut-off, so the 26th, US Thanksgiving.
+    expect(orderDay("2026-11-25T20:27:00Z")).toBe("2026-11-26");
+    expect(usHolidayOrder("2026-11-25T20:27:00Z")).toBe("2026-11-26");
+    // 16:58 in Beijing on the 26th: past the cut-off, orders are for the 27th, a US trading day.
+    expect(orderDay("2026-11-26T08:58:00Z")).toBe("2026-11-27");
+    expect(usHolidayOrder("2026-11-26T08:58:00Z")).toBeUndefined();
+    // Friday evening in Beijing: the next order day is Monday.
+    expect(orderDay("2026-11-27T10:00:00Z")).toBe("2026-11-30");
+  });
+
   it("knows when a New York session ends, across DST and early closes", () => {
     expect(usCloseAt("2026-11-20").toISOString()).toBe("2026-11-20T21:00:00.000Z");
     expect(usCloseAt("2026-07-15").toISOString()).toBe("2026-07-15T20:00:00.000Z");

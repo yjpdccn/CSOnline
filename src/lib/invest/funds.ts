@@ -1,6 +1,7 @@
 import { FUNDS, INDICES, INVEST_RULES, type FundConfig } from "@/config/invest";
 import { shiftDay } from "@/lib/time";
-import type { Close, FeeRuleCheck, FundData, FundFees, FundView, MarketFile, NavPoint, Premium, PremiumBand } from "./types";
+import { holidayPause } from "./alerts";
+import type { Close, FeeRuleCheck, FundData, FundFees, FundView, LastSeen, MarketFile, NavPoint, Premium, PremiumBand } from "./types";
 
 export function premiumBand(value: number): PremiumBand {
   const { low, high } = INVEST_RULES.premium;
@@ -114,7 +115,7 @@ export function weekChange(points: { date: string; value: number }[]): number | 
   return base ? Math.round((latest.value / base.value - 1) * 10_000) / 100 : undefined;
 }
 
-export function buildFundViews(funds: Record<string, FundData>, market: MarketFile): FundView[] {
+export function buildFundViews(funds: Record<string, FundData>, market: MarketFile, lastSeen: Record<string, LastSeen> = {}): FundView[] {
   return FUNDS.map((fund) => {
     const data = funds[fund.code];
     const index = INDICES.find((i) => i.id === fund.index)!;
@@ -148,7 +149,11 @@ export function buildFundViews(funds: Record<string, FundData>, market: MarketFi
     // ETFs are bought at the traded price; everything else, LOFs included, at NAV.
     if (fund.etf && data?.prices?.length) view.weekPct = weekChange(data.prices.map(([d, v]) => ({ date: d, value: v })));
     else if (navs.length) view.weekPct = weekChange([...navs].reverse().map((n) => ({ date: n.date, value: n.nav })));
-    if (data?.status) view.status = data.status;
+    if (data?.status) {
+      view.status = data.status;
+      const holiday = holidayPause(fund.code, data.status, lastSeen[fund.code]);
+      if (holiday) view.holidayPause = holiday;
+    }
     if (data?.fees) {
       const total = data.fees.management !== undefined && data.fees.custody !== undefined ? Math.round((data.fees.management + data.fees.custody) * 100) / 100 : undefined;
       view.fees = { ...data.fees, total };

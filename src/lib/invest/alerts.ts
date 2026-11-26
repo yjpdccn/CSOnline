@@ -1,7 +1,35 @@
+import { FUNDS, INDICES } from "@/config/invest";
+import { usHolidayOrder } from "./sessions";
 import type { AlertEvent, AlertsFile, FundFees, FundStatus, FundView, LastSeen, PremiumBand } from "./types";
 
 /** Change events are kept this long in data/invest/alerts.json; the page shows the recent ones. */
 const EVENT_RETENTION_DAYS = 30;
+
+const US_FUNDS = new Set(FUNDS.filter((f) => INDICES.find((i) => i.id === f.index)?.market === "us").map((f) => f.code));
+
+/**
+ * The US market holiday a fund on US markets is paused for, when it was open before: each such QDII pauses
+ * purchases and 定投 on overseas market holidays under its annual 境外主要市场节假日 notice, then reopens as before.
+ */
+export function holidayPause(code: string, status: Pick<FundStatus, "purchase"> & { asOf: string }, seen: LastSeen | undefined): string | undefined {
+  if (!US_FUNDS.has(code) || statusRank(status.purchase) !== 0 || !seen || statusRank(seen.purchase) <= 0) return undefined;
+  return usHolidayOrder(status.asOf);
+}
+
+/** A holiday pause recorded as a quota cut and then a reopening to the same status becomes one holiday pause. */
+function mergeHolidayPairs(events: AlertEvent[]): AlertEvent[] {
+  const merged = new Set<string>();
+  const pauses: AlertEvent[] = [];
+  for (const down of events) {
+    if (down.kind !== "limit-down" || !US_FUNDS.has(down.code) || statusRank(down.to) !== 0) continue;
+    const holiday = usHolidayOrder(down.at);
+    const up = holiday && events.find((e) => e.kind === "limit-up" && e.code === down.code && e.from === down.to && e.to === down.from && e.at > down.at && Date.parse(e.at) - Date.parse(down.at) < 3 * 86_400_000);
+    if (!up) continue;
+    merged.add(down.id).add(up.id);
+    pauses.push({ id: `holiday-pause:${down.code}:${down.at}`, kind: "holiday-pause", code: down.code, at: down.at, from: down.from, holiday, severity: "info" });
+  }
+  return [...events.filter((e) => !merged.has(e.id)), ...pauses];
+}
 
 /** 暂停申购 < 限大额 < 开放申购; -1 for states that say nothing about capacity (认购期, 封闭期…). */
 export function statusRank(purchase: string | undefined): number {
@@ -56,7 +84,7 @@ const QDII_BANDS = new Set<PremiumBand>(["low", "mid", "high"]);
 export function diffAlerts(prev: AlertsFile | null, views: FundView[], now: Date): AlertsFile {
   const at = now.toISOString();
   const cutoff = now.getTime() - EVENT_RETENTION_DAYS * 86_400_000;
-  const events = (prev?.events ?? []).filter((e) => Date.parse(e.at) >= cutoff);
+  const events = mergeHolidayPairs((prev?.events ?? []).filter((e) => Date.parse(e.at) >= cutoff));
   // Only funds still on the page: one taken off leaves nothing behind.
   const lastSeen: Record<string, LastSeen> = {};
   const push = (event: Omit<AlertEvent, "id" | "at">) => events.push({ ...event, id: `${event.kind}:${event.code}:${at}`, at });
@@ -65,7 +93,13 @@ export function diffAlerts(prev: AlertsFile | null, views: FundView[], now: Date
     const seen = prev?.lastSeen[view.code];
     const next: LastSeen = { ...seen, at };
 
-    if (view.watchLimit && view.status) {
+    const holiday = view.watchLimit && view.status ? holidayPause(view.code, view.status, seen) : undefined;
+    if (holiday) {
+      // The last status stays, so reopening as before is no change and reopening differently is one.
+      if (!events.some((e) => e.kind === "holiday-pause" && e.code === view.code && e.holiday === holiday)) {
+        push({ kind: "holiday-pause", code: view.code, from: describeStatus(seen!), holiday, severity: "info" });
+      }
+    } else if (view.watchLimit && view.status) {
       const cur = { purchase: view.status.purchase, limit: view.status.limit, dca: view.status.dca };
       const change = seen?.purchase ? compareStatus(seen, cur) : null;
       if (change && seen) {

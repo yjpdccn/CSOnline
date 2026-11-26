@@ -538,7 +538,7 @@ export async function processInvest(fetched: InvestFetch, opts: InvestProcessOpt
   };
 
   store.strategy = syncTrackedStatus(fetched.strategy, store.funds);
-  const views = buildFundViews(store.funds.funds, store.market);
+  const views = buildFundViews(store.funds.funds, store.market, store.alerts?.lastSeen);
   store.alerts = diffAlerts(store.alerts, views, now);
   const suggestions = buildSuggestions(views, store.strategy, store.alerts.events, now);
   store.events = detectEvents({ market: store.market, ranked, previous: store.events, now });

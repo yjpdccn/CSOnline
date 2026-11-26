@@ -115,7 +115,7 @@ export interface CalendarFile {
 
 export type AlertSeverity = "bad" | "warn" | "good" | "info";
 
-export type AlertKind = "limit-down" | "limit-up" | "fee-change" | "premium-low" | "premium-high" | "premium-unusual";
+export type AlertKind = "limit-down" | "limit-up" | "fee-change" | "premium-low" | "premium-high" | "premium-unusual" | "holiday-pause";
 
 /** A change seen between two runs; kept for a while so it stays visible. */
 export interface AlertEvent {
@@ -125,6 +125,8 @@ export interface AlertEvent {
   at: string;
   from?: string;
   to?: string;
+  /** holiday-pause: the US market holiday the purchase pause covers. */
+  holiday?: string;
   severity: AlertSeverity;
 }
 
@@ -269,6 +271,8 @@ export interface FundView {
   price?: { close: number; date: string; changePct?: number };
   premium?: Premium;
   status?: FundStatus & { asOf: string };
+  /** The US market holiday a purchase pause is for: not a quota change. */
+  holidayPause?: string;
   fees?: FundFees & { asOf: string; total?: number };
   feeRule?: FeeRuleCheck;
   tracking?: string;
