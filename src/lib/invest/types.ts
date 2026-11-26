@@ -1,5 +1,6 @@
 import type { FundGroup, IndexId, MacroId, Market } from "@/config/invest";
 import type { InvestTopic } from "@/config/invest-news";
+import type { HolidayMarket } from "@/config/market-calendar";
 import type { NewsItem } from "@/lib/types";
 
 /** One daily close: [YYYY-MM-DD, value]. */
@@ -125,8 +126,9 @@ export interface AlertEvent {
   at: string;
   from?: string;
   to?: string;
-  /** holiday-pause: the US market holiday the purchase pause covers. */
+  /** holiday-pause: the overseas market holiday the purchase pause covers, and its market (US when missing). */
   holiday?: string;
+  market?: HolidayMarket;
   severity: AlertSeverity;
 }
 
@@ -271,8 +273,8 @@ export interface FundView {
   price?: { close: number; date: string; changePct?: number };
   premium?: Premium;
   status?: FundStatus & { asOf: string };
-  /** The US market holiday a purchase pause is for: not a quota change. */
-  holidayPause?: string;
+  /** The overseas market holiday a purchase pause is for: not a quota change. */
+  holidayPause?: { day: string; market: HolidayMarket };
   fees?: FundFees & { asOf: string; total?: number };
   feeRule?: FeeRuleCheck;
   tracking?: string;

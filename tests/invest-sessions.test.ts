@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { detectEvents, eventObservations, type EventsFile } from "@/lib/invest/events";
 import { diffNotifications } from "@/lib/invest/notify";
-import { orderDay, settledUsCloses, usCloseAt, usHolidayOrder } from "@/lib/invest/sessions";
+import { holidayOrder, orderDay, settledUsCloses, usCloseAt } from "@/lib/invest/sessions";
 import type { Close, MarketFile } from "@/lib/invest/types";
 
 const market = (closes: Close[]): MarketFile => ({ updatedAt: "", valuations: {}, series: { ndx: { name: "纳斯达克100", closes, source: "test", fetchedAt: "" } } });
@@ -11,12 +11,22 @@ describe("US closes", () => {
   it("finds the China order day and whether US markets are closed on it", () => {
     // 04:27 in Beijing: before the 15:00 cut-off, so the 26th, US Thanksgiving.
     expect(orderDay("2026-11-25T20:27:00Z")).toBe("2026-11-26");
-    expect(usHolidayOrder("2026-11-25T20:27:00Z")).toBe("2026-11-26");
+    expect(holidayOrder("2026-11-25T20:27:00Z", ["us"])).toEqual({ day: "2026-11-26", market: "us" });
     // 16:58 in Beijing on the 26th: past the cut-off, orders are for the 27th, a US trading day.
     expect(orderDay("2026-11-26T08:58:00Z")).toBe("2026-11-27");
-    expect(usHolidayOrder("2026-11-26T08:58:00Z")).toBeUndefined();
+    expect(holidayOrder("2026-11-26T08:58:00Z", ["us"])).toBeUndefined();
     // Friday evening in Beijing: the next order day is Monday.
     expect(orderDay("2026-11-27T10:00:00Z")).toBe("2026-11-30");
+  });
+
+  it("counts only the markets a fund's holiday notice lists, through 2027", () => {
+    // 2026-04-07, the day after Easter Monday, closes Hong Kong but not New York.
+    expect(holidayOrder("2026-04-07T02:00:00Z", ["hk"])).toEqual({ day: "2026-04-07", market: "hk" });
+    expect(holidayOrder("2026-04-07T02:00:00Z", ["us"])).toBeUndefined();
+    expect(holidayOrder("2026-04-07T02:00:00Z", ["us", "hk"])).toEqual({ day: "2026-04-07", market: "hk" });
+    expect(holidayOrder("2027-11-25T02:00:00Z", ["us"])).toEqual({ day: "2027-11-25", market: "us" });
+    expect(holidayOrder("2027-12-27T02:00:00Z", ["hk"])).toEqual({ day: "2027-12-27", market: "hk" });
+    expect(holidayOrder("2027-02-10T02:00:00Z", ["hk"])).toBeUndefined();
   });
 
   it("knows when a New York session ends, across DST and early closes", () => {

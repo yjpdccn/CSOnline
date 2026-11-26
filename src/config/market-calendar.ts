@@ -6,8 +6,10 @@
  *   history). The 2027 schedule is published around November 2026; until it is added, an unlisted holiday is
  *   recognised when the figures fetched in the run stop on the same day (at least two, none newer).
  * - US (NYSE): 2026 and 2027.
+ * - Hong Kong (HKEX): the weekday general holidays gazetted for 2026 and 2027 (gov.hk), for funds whose annual
+ *   境外节假日 notice lists Hong Kong.
  */
-export const HOLIDAYS: Record<"cn" | "us", string[]> = {
+export const HOLIDAYS: Record<"cn" | "us" | "hk", string[]> = {
   cn: [
     "2026-01-01", "2026-01-02",
     "2026-02-16", "2026-02-17", "2026-02-18", "2026-02-19", "2026-02-20", "2026-02-23",
@@ -22,7 +24,16 @@ export const HOLIDAYS: Record<"cn" | "us", string[]> = {
     "2026-01-01", "2026-01-19", "2026-02-16", "2026-04-03", "2026-05-25", "2026-06-19", "2026-07-03", "2026-09-07", "2026-11-26", "2026-12-25",
     "2027-01-01", "2027-01-18", "2027-02-15", "2027-03-26", "2027-05-31", "2027-06-18", "2027-07-05", "2027-09-06", "2027-11-25", "2027-12-24",
   ],
+  hk: [
+    "2026-01-01", "2026-02-17", "2026-02-18", "2026-02-19", "2026-04-03", "2026-04-06", "2026-04-07", "2026-05-01", "2026-05-25", "2026-06-19", "2026-07-01", "2026-10-01", "2026-10-19", "2026-12-25",
+    "2027-01-01", "2027-02-08", "2027-02-09", "2027-03-26", "2027-03-29", "2027-04-05", "2027-05-13", "2027-06-09", "2027-07-01", "2027-09-16", "2027-10-01", "2027-10-08", "2027-12-27",
+  ],
 };
+
+/** Overseas markets whose holidays can pause a QDII's purchases. */
+export type HolidayMarket = "us" | "hk";
+
+export const HOLIDAY_MARKET_NAMES: Record<HolidayMarket, string> = { us: "美国", hk: "香港" };
 
 /** NYSE closes at 13:00 New York time on these days (the day after Thanksgiving, Christmas Eve). */
 export const EARLY_CLOSES: Record<"us", string[]> = {

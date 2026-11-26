@@ -109,7 +109,7 @@ function watchRows(views: FundView[], events: AlertEvent[]): WatchRow[] {
       const row: WatchRow = {
         code: v.code,
         name: v.name,
-        status: v.holidayPause ? `暂停申购 · ${Number(v.holidayPause.slice(5, 7))}月${Number(v.holidayPause.slice(8, 10))}日境外节假日` : describeStatus(v.status!),
+        status: v.holidayPause ? `暂停申购 · ${Number(v.holidayPause.day.slice(5, 7))}月${Number(v.holidayPause.day.slice(8, 10))}日境外节假日` : describeStatus(v.status!),
         rank: v.holidayPause ? -1 : statusRank(v.status!.purchase),
         qdii: isQdii(v.code),
         group: v.group,

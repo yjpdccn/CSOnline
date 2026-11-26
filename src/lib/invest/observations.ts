@@ -1,4 +1,5 @@
 import { FUNDS, INDICES, INVEST_RULES, INVEST_SITE, PLAN_GROUPS } from "@/config/invest";
+import { HOLIDAY_MARKET_NAMES } from "@/config/market-calendar";
 import { zonedParts } from "@/lib/time";
 import type { AlertEvent, AlertSeverity, FundView, Premium } from "./types";
 
@@ -66,7 +67,7 @@ function changeObservation(event: ChangeEvent, views: FundView[]): Observation {
       return { ...base, title: `${name} 费率调整`, detail: `${event.from} → ${event.to}` };
     case "holiday-pause": {
       const day = event.holiday ? `${Number(event.holiday.slice(5, 7))}月${Number(event.holiday.slice(8, 10))}日` : "";
-      return { ...base, title: `${name} 境外节假日暂停申购`, detail: `${day}美国市场休市，基金按年度境外节假日安排暂停申购和定投，节后照常，额度没有变化${event.from ? `（${event.from}）` : ""}。` };
+      return { ...base, title: `${name} 境外节假日暂停申购`, detail: `${day}${HOLIDAY_MARKET_NAMES[event.market ?? "us"]}市场休市，基金按年度境外节假日安排暂停申购和定投，节后照常，额度没有变化${event.from ? `（${event.from}）` : ""}。` };
     }
   }
 }

@@ -1,4 +1,5 @@
 import { CircleCheck, CircleX } from "lucide-react";
+import { HOLIDAY_MARKET_NAMES } from "@/config/market-calendar";
 import { formatLimit, statusRank } from "@/lib/invest/alerts";
 import type { InvestPageData } from "@/lib/invest/page-data";
 import { formatClock } from "@/lib/time";
@@ -52,8 +53,12 @@ function StatusLine({ fund }: { fund: Fund }) {
     return statusRank(status.purchase) === 0 ? <span>一级市场暂停申购</span> : null;
   }
   if (fund.holidayPause) {
-    const day = `${Number(fund.holidayPause.slice(5, 7))}月${Number(fund.holidayPause.slice(8, 10))}日`;
-    return <span>申购 暂停（{day}美国市场休市，节后照常）</span>;
+    const { day, market } = fund.holidayPause;
+    return (
+      <span>
+        申购 暂停（{Number(day.slice(5, 7))}月{Number(day.slice(8, 10))}日{HOLIDAY_MARKET_NAMES[market]}市场休市，节后照常）
+      </span>
+    );
   }
   const rank = statusRank(status.purchase);
   const limit = rank === 1 && typeof status.limit === "number" ? `（${formatLimit(status.limit)}）` : "";

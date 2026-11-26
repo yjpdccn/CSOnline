@@ -1,3 +1,5 @@
+import type { HolidayMarket } from "./market-calendar";
+
 /**
  * 投资日报的配置：关注的基金、它们跟踪的指数、宏观指标和提醒规则。
  *
@@ -51,13 +53,18 @@ export interface FundConfig {
   role?: FundRole;
   /** QDII fund whose quota reopening or rising is the cue to add to the overseas part (可以加大). */
   addOnReopen?: boolean;
+  /**
+   * Markets whose holidays pause the fund's purchases and 定投, as listed in its annual 境外主要市场节假日 notice;
+   * such a pause is a holiday pause, not a quota change.
+   */
+  holidayMarkets?: HolidayMarket[];
 }
 
 export const FUNDS: FundConfig[] = [
   // 正在定投
-  { code: "019172", name: "摩根纳斯达克100指数(QDII)人民币A", group: "dca", index: "ndx", watchLimit: true, addOnReopen: true },
-  { code: "016452", name: "南方纳斯达克100指数发起(QDII)A", group: "dca", index: "ndx", watchLimit: true, addOnReopen: true },
-  { code: "096001", name: "大成标普500等权重指数(QDII)A人民币", group: "dca", index: "spxew", watchLimit: true, addOnReopen: true },
+  { code: "019172", name: "摩根纳斯达克100指数(QDII)人民币A", group: "dca", index: "ndx", watchLimit: true, addOnReopen: true, holidayMarkets: ["us"] },
+  { code: "016452", name: "南方纳斯达克100指数发起(QDII)A", group: "dca", index: "ndx", watchLimit: true, addOnReopen: true, holidayMarkets: ["us"] },
+  { code: "096001", name: "大成标普500等权重指数(QDII)A人民币", group: "dca", index: "spxew", watchLimit: true, addOnReopen: true, holidayMarkets: ["us"] },
   { code: "008701", name: "华夏黄金ETF联接A", group: "dca", index: "gold" },
   { code: "008702", name: "华夏黄金ETF联接C", group: "dca", index: "gold", tag: "继续持有", role: "held" },
   // 以后再买
@@ -66,7 +73,7 @@ export const FUNDS: FundConfig[] = [
   { code: "110020", name: "易方达沪深300ETF联接A", group: "later", index: "csi300", tag: "A股宽基 · 备选", watchLimit: true },
   { code: "007466", name: "华泰柏瑞中证红利低波ETF联接A", group: "later", index: "divlowvol", tag: "红利", watchLimit: true },
   { code: "110051", name: "易方达安和中短债A", group: "later", index: "cnbond", tag: "固收", watchLimit: true },
-  { code: "050025", name: "博时标普500ETF联接A", group: "later", index: "spx", tag: "海外", watchLimit: true, addOnReopen: true },
+  { code: "050025", name: "博时标普500ETF联接A", group: "later", index: "spx", tag: "海外", watchLimit: true, addOnReopen: true, holidayMarkets: ["us"] },
   { code: "510300", name: "华泰柏瑞沪深300ETF", group: "later", index: "csi300", etf: true, watchPremium: true },
   { code: "512890", name: "华泰柏瑞红利低波ETF", group: "later", index: "divlowvol", etf: true, watchPremium: true },
   { code: "518850", name: "华夏黄金ETF", group: "later", index: "gold", etf: true, watchPremium: true },
@@ -79,7 +86,7 @@ export const FUNDS: FundConfig[] = [
   { code: "022502", name: "国泰黄金ETF联接E", group: "groupA", index: "gold", watchLimit: true },
   // B组（021277 是主动管理的 QDII，没有跟踪指数，挂在标普500 下只为相关新闻）
   { code: "015530", name: "鹏华稳福中短债债券A", group: "groupB", index: "cnbond", watchLimit: true },
-  { code: "021277", name: "广发全球精选股票(QDII)人民币C", group: "groupB", index: "spx", watchLimit: true },
+  { code: "021277", name: "广发全球精选股票(QDII)人民币C", group: "groupB", index: "spx", watchLimit: true, holidayMarkets: ["us"] },
   { code: "000218", name: "国泰黄金ETF联接A", group: "groupB", index: "gold", watchLimit: true },
 ];
 

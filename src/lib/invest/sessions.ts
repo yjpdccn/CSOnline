@@ -1,4 +1,4 @@
-import { EARLY_CLOSES, HOLIDAYS } from "@/config/market-calendar";
+import { EARLY_CLOSES, HOLIDAYS, type HolidayMarket } from "@/config/market-calendar";
 import { dayKey, shiftDay, zonedParts, zonedTimeToUtc } from "@/lib/time";
 import type { Close } from "./types";
 
@@ -17,10 +17,16 @@ export function orderDay(at: Date | string): string {
   return day;
 }
 
-/** The US market holiday an order placed at `at` falls on: QDII on US markets pause for it under their annual 境外节假日 notices. */
-export function usHolidayOrder(at: Date | string): string | undefined {
+export interface OverseasHoliday {
+  day: string;
+  market: HolidayMarket;
+}
+
+/** The holiday in one of `markets` that an order placed at `at` falls on, if any. */
+export function holidayOrder(at: Date | string, markets: readonly HolidayMarket[]): OverseasHoliday | undefined {
   const day = orderDay(at);
-  return HOLIDAYS.us.includes(day) ? day : undefined;
+  const market = markets.find((m) => HOLIDAYS[m].includes(day));
+  return market ? { day, market } : undefined;
 }
 
 /** Vendors post the closing value a little after the bell, and their delayed US quotes lag up to 15 minutes. */

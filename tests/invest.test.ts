@@ -145,7 +145,7 @@ describe("alerts", () => {
     const paused = diffAlerts(open, [view("019172", { status: seen("2026-11-25T20:27:00Z", "暂停申购", 100, "不支持") })], new Date("2026-11-25T20:27:00Z"));
     expect(paused.events.map((e) => [e.kind, e.holiday, e.from])).toEqual([["holiday-pause", "2026-11-26", "限大额 · 10 元/日"]]);
     expect(paused.lastSeen["019172"]).toMatchObject({ purchase: "限大额", limit: 10, dca: "支持" });
-    expect(holidayPause("019172", seen("2026-11-25T20:27:00Z", "暂停申购"), paused.lastSeen["019172"])).toBe("2026-11-26");
+    expect(holidayPause("019172", seen("2026-11-25T20:27:00Z", "暂停申购"), paused.lastSeen["019172"])).toEqual({ day: "2026-11-26", market: "us" });
 
     const reopened = diffAlerts(paused, [view("019172", { status: seen("2026-11-26T08:58:00Z", "限大额", 10) })], new Date("2026-11-26T08:58:00Z"));
     expect(reopened.events.map((e) => e.kind)).toEqual(["holiday-pause"]);
@@ -158,6 +158,10 @@ describe("alerts", () => {
     // A pause on an ordinary day is still a cut.
     const ordinary = diffAlerts(open, [view("019172", { status: seen("2026-11-24T02:00:00Z", "暂停申购") })], new Date("2026-11-24T02:00:00Z"));
     expect(ordinary.events.map((e) => e.kind)).toEqual(["limit-down"]);
+    // 021277's own notice lists only US holidays, so a pause on a Hong Kong-only holiday is still a cut.
+    const gf = diffAlerts(null, [view("021277", { status: seen("2026-04-06T08:00:00Z", "限大额", 2000) })], new Date("2026-04-06T08:00:00Z"));
+    const hkOnly = diffAlerts(gf, [view("021277", { status: seen("2026-04-07T02:00:00Z", "暂停申购") })], new Date("2026-04-07T02:00:00Z"));
+    expect(hkOnly.events.map((e) => e.kind)).toEqual(["limit-down"]);
   });
 
   it("turns a holiday pause already recorded as a cut and a reopening into one holiday pause", () => {

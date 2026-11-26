@@ -333,7 +333,7 @@ describe("strategy suggestions", () => {
   it("does not suggest stopping a fund that is only paused for an overseas market holiday", () => {
     const paused = view("019172", { status: status("暂停申购", 100, "不支持") });
     expect(buildSuggestions([paused], strategy(), [], NOW).map((i) => i.key)).toContain("stop:paused:019172");
-    expect(buildSuggestions([{ ...paused, holidayPause: "2026-11-26" }], strategy(), [], NOW).map((i) => i.key)).not.toContain("stop:paused:019172");
+    expect(buildSuggestions([{ ...paused, holidayPause: { day: "2026-11-26", market: "us" } }], strategy(), [], NOW).map((i) => i.key)).not.toContain("stop:paused:019172");
   });
 
   it("waits for a planned overseas fund's quota, and suggests a cheaper open one meanwhile", () => {
