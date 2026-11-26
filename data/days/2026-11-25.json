@@ -84,7 +84,13 @@
         "Agent",
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "智元灵心平台一年孵化超3万个机器人智能体。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "1yrc8cxdue0",
@@ -117,7 +123,13 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "逐际动力与商汤大装置合作，支撑机器人仿真训练。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "cm9j7lm26v",
@@ -246,7 +258,13 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "九章云极启动中国算力采购信心指数，共建市场先行指标。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "1w8rlemm98x",
@@ -262,7 +280,13 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "九章云极携手多方签署物理AI工厂项目战略合作协议。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "23xldfw69j5",
@@ -1376,7 +1400,7 @@
       "publishedAt": "2026-11-25T07:39:55.220Z",
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
-      "category": "agent",
+      "category": "industry",
       "keywords": [
         "AI 编程"
       ],
@@ -1398,6 +1422,12 @@
           "infoq-cn"
         ],
         "firstPublishedAt": "2026-11-25T07:39:55.220Z"
+      },
+      "ai": {
+        "summary": "Anthropic IPO热度消退，Claude Code核心班底被OpenAI挖角。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
       }
     },
     {
@@ -1437,11 +1467,11 @@
       "day": "2026-11-25",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 40.2,
+      "score": 40.4,
       "metrics": {
-        "stars": 763,
-        "points": 141,
-        "comments": 34
+        "stars": 778,
+        "points": 143,
+        "comments": 35
       },
       "aiAttempts": 1,
       "ai": {
@@ -2693,7 +2723,7 @@
       "category": "model",
       "score": 37.7,
       "metrics": {
-        "points": 399,
+        "points": 400,
         "comments": 77
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50637056",
@@ -3776,7 +3806,7 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 47,
+      "score": 47.2,
       "ai": {
         "title": "纽约时报警告勿更新 Photoshop",
         "summary": "纽约时报建议自由摄影师不要更新 Photoshop，因新版本 AI 功能可能存在风险。",
@@ -3792,8 +3822,8 @@
         }
       ],
       "metrics": {
-        "points": 363,
-        "comments": 313
+        "points": 371,
+        "comments": 316
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50647673"
     },

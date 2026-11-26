@@ -65,6 +65,11 @@
       "label": "华泰柏瑞中证红利低波ETF联接A（007466）",
       "kind": "suggestion"
     },
+    "alert:replace:050025:017641": {
+      "hash": "replace:050025:017641",
+      "label": "博时标普500ETF联接A（050025）",
+      "kind": "suggestion"
+    },
     "alert:stop:premium:513500": {
       "hash": "stop:premium:513500",
       "label": "场内 标普500ETF博时（513500） 溢价 9.41%",
@@ -94,11 +99,6 @@
       "hash": "fees:2026-11",
       "label": "费率小建议",
       "kind": "reminder"
-    },
-    "alert:replace:050025:017641": {
-      "hash": "replace:050025:017641",
-      "label": "博时标普500ETF联接A（050025）",
-      "kind": "suggestion"
     }
   },
   "issueNumber": 1,

@@ -1091,39 +1091,40 @@
   },
   "2026-11-26": {
     "day": "2026-11-26",
-    "generatedAt": "2026-11-26T08:59:39.987Z",
-    "itemCount": 127,
-    "mode": "fallback",
-    "overview": "过去 24 小时共收录 127 条 AI 资讯：产品与行业 97 条、Agent 与工具 11 条、论文 7 条、多模态与视频 6 条、开源项目 4 条、模型发布 2 条。以下为按重要性排序的前 5 条。",
+    "generatedAt": "2026-11-26T09:17:06.058Z",
+    "itemCount": 130,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "Anthropic发布GRH Lean验证简化版，DeepMind分子识别准确率达97%，谷歌推出Agent命令行工具。",
     "points": [
       {
-        "text": "【论文】Anthropic 发布 GRH Lean 验证简化版",
+        "text": "Anthropic发布GRH Lean验证简化版，简化模型安全验证流程。",
         "refs": [
           "1qa3sjj5ou9"
         ]
       },
       {
-        "text": "【Agent】Amazon 和 Meta 讨论解除 AI Agent Muse 封锁",
+        "text": "DeepMind AI从质谱碎片中识别未知分子，准确率达97%。",
         "refs": [
-          "c4fgfpd2qz"
+          "17u7fb7lv5s"
         ]
       },
       {
-        "text": "【行业】Anthropic CEO 否认放弃对 AI 的人权控制",
+        "text": "谷歌推出面向Agent的命令行工具gemini-api，赋能AI自主操作。",
+        "refs": [
+          "stne4udtae"
+        ]
+      },
+      {
+        "text": "Anthropic CEO否认放弃对AI的人权控制，反驳竞争对手指责。",
         "refs": [
           "1pt28k4dc76"
         ]
       },
       {
-        "text": "【行业】高盛研判：美国数据中心建设热潮将持续至2028年",
+        "text": "Siri AI开发者预览版发布，支持iOS、iPadOS和macOS应用集成。",
         "refs": [
-          "naktb6gi74"
-        ]
-      },
-      {
-        "text": "【行业】97%的识别准确率，DeepMind让AI从质谱碎片中识别未知分子",
-        "refs": [
-          "17u7fb7lv5s"
+          "1h5nbf0m144"
         ]
       }
     ]

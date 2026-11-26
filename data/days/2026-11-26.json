@@ -2,6 +2,57 @@
   "day": "2026-11-26",
   "items": [
     {
+      "id": "2ec9opzbosh",
+      "key": "url:geekpark.net/news/374536",
+      "title": "好消息，AI 可以替你打客服电话了；坏消息，电话那头也是 AI",
+      "url": "http://www.geekpark.net/news/374536",
+      "excerpt": "麻烦交给 AI，生活还给用户。 网上冲浪这么多年，你一定有过这样的经历：想取消一项自动续费，却怎么都找不到入口；明明是商家多扣了钱，申请退款却要层层转接；为了几十块钱，和客服解释半个小时，最后听到一句「非常抱歉，暂时无法为您处理」。 钱不一定很多，但就是咽不下这口气。更憋屈的是，你明明有道理，却没时间跟它耗。企业有一整套客服系统，而你可能只有一个午休时间。 现在，这种不对称的关系，终于迎来改变了。 AI，尤其是 Personal AI 的出现，让消费者可以把这些生活琐事，交给 AI 来处理，无论是邮件往来，或者是 App 上的申诉，Agent 都能一键…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T09:04:47.000Z",
+      "firstSeenAt": "2026-11-26T09:13:14.985Z",
+      "day": "2026-11-26",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "AI可以替你打客服电话，但电话那头也是AI。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
+    },
+    {
+      "id": "stne4udtae",
+      "key": "url:36kr.com/p/4086346072517257",
+      "title": "谷歌开始给AI写命令行",
+      "url": "https://36kr.com/p/4086346072517257",
+      "excerpt": "谷歌推出面向Agent的命令行工具gemini-api，软件的主要用户正在从人变成Agent，MCP、Agent Skills和各家CLI争的都是被Agent调用的入口。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T09:01:12.511Z",
+      "firstSeenAt": "2026-11-26T09:13:14.985Z",
+      "day": "2026-11-26",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "MCP"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "谷歌推出面向Agent的命令行工具gemini-api。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
+    },
+    {
       "id": "17yt6tcxf1d",
       "key": "url:36kr.com/p/4086339490064774",
       "title": "破解AI时代的智力产能过剩",
@@ -15,7 +66,13 @@
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "探讨AI时代智力产能过剩的挑战与应对。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "oiidj3z2kj",
@@ -38,6 +95,28 @@
       "dupOf": "1jms41wej8x"
     },
     {
+      "id": "2cagde40kkt",
+      "key": "url:qbitai.com/2026/11/512952.html",
+      "title": "极客公园创新大会 2027 全议程公布！",
+      "url": "https://www.qbitai.com/2026/11/512952.html",
+      "excerpt": "今天，IF 2027 全议程揭晓。",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T08:19:20.000Z",
+      "firstSeenAt": "2026-11-26T09:13:14.985Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "极客公园创新大会2027全议程公布。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
+    },
+    {
       "id": "9jilezz9b1",
       "key": "url:36kr.com/p/4086113452255878",
       "title": "11月25日，“全民公敌”达里奥发了篇小作文炮轰同行",
@@ -51,7 +130,13 @@
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Anthropic CEO达里奥发文炮轰同行，引发舆论关注。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "a9fhxmiwa8",
@@ -67,7 +152,13 @@
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "广东发布规划，鼓励算力中心优先使用国产芯片。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "1putc21lxx2",
@@ -83,7 +174,13 @@
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "顶级华人研究员离职引发OpenAI内部动荡讨论。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "2fhb680gnoe",
@@ -99,7 +196,13 @@
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "广东规划到2028年智算规模突破1000EFlops。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "18olvp8tcbc",
@@ -115,7 +218,13 @@
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "港股科技股大涨，智谱、理想汽车涨超8%。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "1vqdxvtd6uv",
@@ -130,11 +239,17 @@
       "publishedAt": "2026-11-26T08:00:17.809Z",
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
-      "category": "industry",
+      "category": "agent",
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "具身智能在真实工地上取得突破性成果。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "pr26m17q53",
@@ -150,7 +265,13 @@
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "三星重组存储芯片业务，以增强AI芯片竞争力。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "bqzwydmfk1",
@@ -166,7 +287,13 @@
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "上海新增14款生成式AI服务登记，累计达278款。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "27bqoww9fp0",
@@ -182,7 +309,13 @@
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI玩具面临监管，禁售5年最高罚10万元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "awpmzofax5",
@@ -198,7 +331,13 @@
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "欧洲富裕投资者转向另类资产布局AI主题。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "xemziu71h8",
@@ -214,7 +353,13 @@
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "WAIC峰会将聚焦“创造未来的人”。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "1lnfp0z84ul",
@@ -249,7 +394,13 @@
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "博登智能完成数亿元B轮融资，加速AI落地。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "saidbfj7nq",
@@ -268,7 +419,13 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "海马云接入MAGI-2视频模型，会员价低至0.17元/秒。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "1djasurhd0p",
@@ -283,8 +440,14 @@
       "publishedAt": "2026-11-26T06:41:23.000Z",
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
-      "category": "multimodal",
-      "score": 22
+      "category": "opensource",
+      "score": 22,
+      "ai": {
+        "summary": "中国开源新势力推出商用级AI视频生成模型，每秒成本仅0.5元。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "srfxiucvj3",
@@ -406,7 +569,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "凯龙高科中标人形机器人桌面级灵巧手检测项目。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "17u7fb7lv5s",
@@ -421,8 +590,14 @@
       "publishedAt": "2026-11-26T05:32:00.000Z",
       "firstSeenAt": "2026-11-26T06:51:18.241Z",
       "day": "2026-11-26",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "DeepMind AI从质谱碎片中识别未知分子，准确率达97%。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "18q8ekienf6",
@@ -437,11 +612,17 @@
       "publishedAt": "2026-11-26T05:20:00.000Z",
       "firstSeenAt": "2026-11-26T06:51:18.241Z",
       "day": "2026-11-26",
-      "category": "industry",
+      "category": "agent",
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "智源REAL开放日探讨具身智能从仿真到真机的挑战。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "2f9d1jkals9",
@@ -669,10 +850,10 @@
       "firstSeenAt": "2026-11-26T06:51:18.241Z",
       "day": "2026-11-26",
       "category": "model",
-      "score": 33.8,
+      "score": 34.1,
       "metrics": {
-        "points": 215,
-        "comments": 108
+        "points": 222,
+        "comments": 113
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50651117",
       "dupOf": "25754w8325h"
@@ -759,7 +940,13 @@
       "day": "2026-11-26",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "沈向洋分享对AI非共识观点的思考。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "89am1fk6pg",
@@ -776,7 +963,13 @@
       "day": "2026-11-26",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "库卡在合肥新增智能制造创新中心。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:13:47.459Z"
+      }
     },
     {
       "id": "givrwv329h",
@@ -809,7 +1002,13 @@
       "day": "2026-11-26",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "行业洗牌预期升温，机器人瞄准零售Offer。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "ggtvixmfke",
@@ -826,7 +1025,13 @@
       "day": "2026-11-26",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI影视高地崛起，海淀搭好「一人制片厂」基建。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "7nt7vjrviy",
@@ -860,7 +1065,13 @@
       "day": "2026-11-26",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "韩国高考舞弊风波引发危机，AI正在冲击东亚应试秩序。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "u0t990f1nn",
@@ -877,7 +1088,13 @@
       "day": "2026-11-26",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI看病只能辅助看懂，不能替你做决定。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "jry7wix7t6",
@@ -893,7 +1110,13 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "智谱涨超15%，大模型股带动恒生科技指数大涨。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "a1nzlrb5no",
@@ -908,9 +1131,15 @@
       "publishedAt": "2026-11-26T02:47:07.328Z",
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
-      "category": "industry",
-      "score": 18,
-      "aiAttempts": 1
+      "category": "model",
+      "score": 24,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Anthropic CEO发文，Claude推出自定义App新功能。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "16j02w7qrn4",
@@ -925,9 +1154,15 @@
       "publishedAt": "2026-11-26T02:46:52.811Z",
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
-      "category": "industry",
+      "category": "paper",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "谷歌发布6篇数学大结果，整数分解算法获34年新突破。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "ljj077v2fp",
@@ -947,7 +1182,13 @@
         "具身智能"
       ],
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "中美具身智能发展逻辑迥异，中国风口难起。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "290e51govww",
@@ -964,7 +1205,13 @@
       "day": "2026-11-26",
       "category": "opensource",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "381个AI直播验证P=NP，GitHub因负载过高崩溃。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "1qjw0m0add2",
@@ -980,7 +1227,13 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "酷赛智能拥抱AI，致力于实现提质提效。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "8kh8wg8dbr",
@@ -994,9 +1247,15 @@
       "publishedAt": "2026-11-26T02:43:00.000Z",
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
-      "category": "paper",
+      "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "蚂蚁向全球AI人才发出邀约，NeurIPS 2026将在悉尼举行。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "1vkdkxbm2ta",
@@ -1017,7 +1276,13 @@
         "AI 编程"
       ],
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "RepoFactory推动长程编程环境递归改进，降低代理指标成本。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "2frivwozekc",
@@ -1031,11 +1296,17 @@
       "publishedAt": "2026-11-26T02:29:57.000Z",
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
-      "category": "multimodal",
+      "category": "model",
       "keywords": [
         "语音"
       ],
-      "score": 18
+      "score": 24,
+      "ai": {
+        "summary": "讯飞语音大模型能力全解，从基座到应用。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "2fkvxkiaed2",
@@ -1051,7 +1322,13 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "算力硬件领涨，创业板指涨超2%。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "1kos2xido2j",
@@ -1066,8 +1343,14 @@
       "publishedAt": "2026-11-26T02:23:00.000Z",
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
-      "category": "industry",
-      "score": 18
+      "category": "model",
+      "score": 24,
+      "ai": {
+        "summary": "国产模型攻破密码学悬案，破译效率提升43400倍。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "3khidt35ui",
@@ -1084,7 +1367,13 @@
       "day": "2026-11-26",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "笔记本装下三甲医院「最强大脑」，技术回归普惠。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "1ivgppx0brw",
@@ -1117,7 +1406,13 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "八部门发文，稳妥有序推动大模型等服务出海。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "11vttn2n7ok",
@@ -1132,7 +1427,13 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "清华大学教授李宁将出席AICon北京，分享生成式AI组织变革。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "gr9vtmbtzc",
@@ -1164,9 +1465,15 @@
       "publishedAt": "2026-11-26T01:45:10.558Z",
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
-      "category": "industry",
+      "category": "multimodal",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "红果上的AI演员批量成为「偶像练习生」。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "226q559mqtx",
@@ -1182,7 +1489,13 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "68元的小豆，谁会买单？",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:14:19.202Z"
+      }
     },
     {
       "id": "8cq9mzp39v",
@@ -1198,7 +1511,13 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "千亿公司CEO判断一年内需用AI重写老系统，以提升性能。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "lmpoiqnc8t",
@@ -1214,7 +1533,13 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "Meta高管预警AI极速进化，可能脱离人类掌控。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "shrmrtdp9t",
@@ -1233,7 +1558,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "物理AI产业兴起，组织分散研发资源成新机会。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "p0ay870y9g",
@@ -1252,7 +1583,13 @@
       "keywords": [
         "AI 短剧"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "奥迪中国工厂产能利用率低，Anthropic创始人兄妹套现37亿。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "1jli35ygv2",
@@ -1268,7 +1605,13 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "华源智因获过亿元天使轮融资，落地药效预测合作。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "1n5qodaoa78",
@@ -1284,7 +1627,13 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "美银预测AI投资将主导未来两年美国经济与货币政策。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "j8y144y0ej",
@@ -1320,7 +1669,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "字节入局具身机器人赛道，机器人IPO预期升温。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "1olb9oudhiy",
@@ -1336,7 +1691,13 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "A社曝光AI整顿职场实录，强调AI节省的时间归公司。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "1y0cy51njax",
@@ -1352,7 +1713,13 @@
       "firstSeenAt": "2026-11-26T06:51:18.241Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "黄仁勋复职后首次主持全员大会并道歉，承认管理方式问题。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "4znyta4020",
@@ -1368,7 +1735,13 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI热潮中，高性能材料仍是算力性能的关键。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "9vrc5bc0xd",
@@ -1387,7 +1760,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "贾跃亭做机器人，教育成商业化突破口。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "eeaczjq7uj",
@@ -1403,7 +1782,13 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "英伟达押注的AI实验室，探索虚拟人教学。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:15:39.926Z"
+      }
     },
     {
       "id": "1z2c1e3ny60",
@@ -1466,9 +1851,9 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "paper",
-      "score": 34.7,
+      "score": 34.8,
       "metrics": {
-        "points": 442,
+        "points": 445,
         "comments": 225
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50648050",
