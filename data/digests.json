@@ -1091,16 +1091,22 @@
   },
   "2026-11-26": {
     "day": "2026-11-26",
-    "generatedAt": "2026-11-26T10:01:05.759Z",
-    "itemCount": 132,
+    "generatedAt": "2026-11-26T12:35:03.311Z",
+    "itemCount": 123,
     "mode": "ai",
     "model": "glm-4.7-flash",
-    "overview": "Anthropic发布GRH Lean验证，谷歌推Agent命令行工具，DeepMind分子识别准确率97%。",
+    "overview": "Anthropic发布GRH Lean验证简化版，国产模型破译密码学悬案，谷歌推出面向Agent的命令行工具。",
     "points": [
       {
-        "text": "Anthropic发布GRH Lean验证简化版。",
+        "text": "Anthropic发布GRH Lean验证简化版，降低安全研究门槛。",
         "refs": [
           "1qa3sjj5ou9"
+        ]
+      },
+      {
+        "text": "国产模型攻破尘封18年密码学悬案，效率提升43400倍。",
+        "refs": [
+          "1kos2xido2j"
         ]
       },
       {
@@ -1110,21 +1116,9 @@
         ]
       },
       {
-        "text": "DeepMind AI从质谱碎片中识别未知分子，准确率达97%。",
+        "text": "钛虎机器人发布轻量化关节模组Lite-1系列，助力人形机器人量产。",
         "refs": [
-          "17u7fb7lv5s"
-        ]
-      },
-      {
-        "text": "Siri AI开发者预览版让iOS、iPadOS和macOS应用能与Siri集成。",
-        "refs": [
-          "1h5nbf0m144"
-        ]
-      },
-      {
-        "text": "九章云极发布物理AI工厂与生态开放计划。",
-        "refs": [
-          "cm9j7lm26v"
+          "15qnuxw8tam"
         ]
       }
     ]

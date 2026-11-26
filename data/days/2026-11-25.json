@@ -1576,10 +1576,10 @@
       "day": "2026-11-25",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 41.2,
+      "score": 43.2,
       "metrics": {
-        "stars": 828,
-        "points": 150,
+        "stars": 991,
+        "points": 174,
         "comments": 39
       },
       "aiAttempts": 1,
@@ -1619,6 +1619,23 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-26T09:59:43.638Z"
+      },
+      "related": [
+        {
+          "id": "vms6iuuuec",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4086411482229124",
+          "title": "马斯克脑机接口上市在即，关键临床试验获批，意念玩《GTA 6》已成真",
+          "publishedAt": "2026-11-26T10:58:29.699Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-25T07:20:38.577Z"
       }
     },
     {
@@ -1966,7 +1983,7 @@
       ],
       "score": 24,
       "metrics": {
-        "points": 152,
+        "points": 153,
         "comments": 47
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50638647",
@@ -2097,7 +2114,7 @@
       "score": 28.8,
       "metrics": {
         "points": 218,
-        "comments": 171
+        "comments": 172
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50638320",
       "aiAttempts": 2,
@@ -2228,9 +2245,9 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "opensource",
-      "score": 27.4,
+      "score": 27.5,
       "metrics": {
-        "points": 220,
+        "points": 221,
         "comments": 83
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50638220",
@@ -2444,7 +2461,7 @@
       "score": 34.7,
       "metrics": {
         "points": 458,
-        "comments": 201
+        "comments": 207
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50637686",
       "aiAttempts": 2,
@@ -2767,7 +2784,7 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 51.9,
+      "score": 52,
       "related": [
         {
           "id": "1ouugqfuvad",
@@ -2786,8 +2803,8 @@
         ],
         "firstPublishedAt": "2026-11-24T16:45:44.000Z",
         "metrics": {
-          "points": 451,
-          "comments": 348
+          "points": 454,
+          "comments": 350
         }
       },
       "ai": {
@@ -3091,10 +3108,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25.8,
+      "score": 25.9,
       "metrics": {
         "upvotes": 98,
-        "comments": 8
+        "comments": 10
       },
       "ai": {
         "title": "强化学习让 Agent 延迟回答",
@@ -3123,9 +3140,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 22.5,
+      "score": 22.6,
       "metrics": {
-        "upvotes": 63,
+        "upvotes": 64,
         "comments": 3
       },
       "ai": {
@@ -3182,9 +3199,9 @@
       "day": "2026-11-25",
       "category": "paper",
       "categoryLocked": true,
-      "score": 25.1,
+      "score": 25.2,
       "metrics": {
-        "upvotes": 92,
+        "upvotes": 93,
         "comments": 3
       },
       "ai": {
@@ -3221,6 +3238,30 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-25T20:28:55.316Z"
+      }
+    },
+    {
+      "id": "ljfzzj5t80",
+      "key": "arxiv:2611.30962",
+      "title": "Self-Evolving Evaluation Environments for Computer-Use Agents",
+      "url": "https://huggingface.co/papers/2611.30962",
+      "excerpt": "CUA-SEE is a closed-loop evaluation environment that co-evolves tasks and executable verifiers to adaptively measure computer-use agents’ capabilities, boundaries, and progress reliability.",
+      "lang": "en",
+      "sourceId": "hf-papers",
+      "sourceName": "HF 每日论文",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "firstSeenAt": "2026-11-26T12:32:50.070Z",
+      "day": "2026-11-25",
+      "category": "paper",
+      "categoryLocked": true,
+      "keywords": [
+        "Agent"
+      ],
+      "score": 21.1,
+      "metrics": {
+        "upvotes": 51,
+        "comments": 2
       }
     },
     {
@@ -3287,7 +3328,7 @@
       "category": "paper",
       "score": 21.5,
       "metrics": {
-        "points": 124,
+        "points": 125,
         "comments": 13
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50635783",
@@ -3429,7 +3470,7 @@
       "score": 27.1,
       "metrics": {
         "points": 106,
-        "comments": 104
+        "comments": 105
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50634426",
       "ai": {
@@ -3678,7 +3719,7 @@
       "score": 28.5,
       "metrics": {
         "points": 223,
-        "comments": 135
+        "comments": 140
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50631210",
       "ai": {
@@ -3827,10 +3868,10 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 35.9,
+      "score": 36,
       "metrics": {
-        "points": 451,
-        "comments": 348
+        "points": 454,
+        "comments": 350
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50630809",
       "ai": {
@@ -3939,7 +3980,7 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 47.5,
+      "score": 48.6,
       "ai": {
         "title": "纽约时报警告勿更新 Photoshop",
         "summary": "纽约时报建议自由摄影师不要更新 Photoshop，因新版本 AI 功能可能存在风险。",
@@ -3955,8 +3996,8 @@
         }
       ],
       "metrics": {
-        "points": 385,
-        "comments": 323
+        "points": 431,
+        "comments": 360
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50647673"
     },

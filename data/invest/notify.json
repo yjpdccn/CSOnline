@@ -25,36 +25,6 @@
       "label": "标普500 11月23日上涨 4.7%",
       "kind": "event"
     },
-    "alert:increase:reopen:limit-up:019172:2026-11-26T08:58:11.754Z": {
-      "hash": "increase:reopen:limit-up:019172:2026-11-26T08:58:11.754Z",
-      "label": "摩根纳斯达克100指数(QDII)人民币A（019172）恢复申购",
-      "kind": "suggestion"
-    },
-    "alert:stop:limit:limit-down:019172:2026-11-25T20:27:54.042Z": {
-      "hash": "stop:limit:limit-down:019172:2026-11-25T20:27:54.042Z",
-      "label": "摩根纳斯达克100指数(QDII)人民币A（019172）日限额下调",
-      "kind": "suggestion"
-    },
-    "alert:increase:reopen:limit-up:016452:2026-11-26T08:58:11.754Z": {
-      "hash": "increase:reopen:limit-up:016452:2026-11-26T08:58:11.754Z",
-      "label": "南方纳斯达克100指数发起(QDII)A（016452）恢复申购",
-      "kind": "suggestion"
-    },
-    "alert:stop:limit:limit-down:016452:2026-11-25T20:27:54.042Z": {
-      "hash": "stop:limit:limit-down:016452:2026-11-25T20:27:54.042Z",
-      "label": "南方纳斯达克100指数发起(QDII)A（016452）日限额下调",
-      "kind": "suggestion"
-    },
-    "alert:increase:reopen:limit-up:096001:2026-11-26T08:58:11.754Z": {
-      "hash": "increase:reopen:limit-up:096001:2026-11-26T08:58:11.754Z",
-      "label": "大成标普500等权重指数(QDII)A人民币（096001）恢复申购",
-      "kind": "suggestion"
-    },
-    "alert:stop:limit:limit-down:096001:2026-11-25T20:27:54.042Z": {
-      "hash": "stop:limit:limit-down:096001:2026-11-25T20:27:54.042Z",
-      "label": "大成标普500等权重指数(QDII)A人民币（096001）日限额下调",
-      "kind": "suggestion"
-    },
     "alert:replace:008702:008701": {
       "hash": "replace:008702:008701",
       "label": "华夏黄金ETF联接C（008702）",
