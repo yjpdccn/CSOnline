@@ -4001,7 +4001,7 @@
       ],
       "score": 24.2,
       "metrics": {
-        "stars": 19590,
+        "stars": 19603,
         "starsToday": 416
       },
       "ai": {
@@ -4061,7 +4061,7 @@
       "categoryLocked": true,
       "score": 29.5,
       "metrics": {
-        "stars": 71140,
+        "stars": 71205,
         "starsToday": 847
       },
       "ai": {
@@ -4509,6 +4509,14 @@
           "publishedAt": "2026-11-24T16:53:59.000Z"
         },
         {
+          "id": "d8yksdazy3",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50651117",
+          "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+          "publishedAt": "2026-11-26T03:36:58.000Z"
+        },
+        {
           "id": "1brb8qmhu96",
           "sourceId": "36kr-ai",
           "sourceName": "36氪 AI",
@@ -4518,7 +4526,7 @@
         }
       ],
       "story": {
-        "reports": 18,
+        "reports": 19,
         "sources": [
           "openai",
           "hackernews",

@@ -2,6 +2,185 @@
   "day": "2026-11-26",
   "items": [
     {
+      "id": "srfxiucvj3",
+      "key": "url:36kr.com/p/4086154043009413",
+      "title": "OBSBOT寻影发布三款新品，加速AI影像自动化落地｜最前线",
+      "url": "https://36kr.com/p/4086154043009413",
+      "excerpt": "从“被动记录工具”向“主动协作助手”演进。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:34:16.131Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 22,
+      "ai": {
+        "summary": "OBSBOT 寻影发布三款新品，加速 AI 影像自动化落地。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:53:20.988Z"
+      }
+    },
+    {
+      "id": "naktb6gi74",
+      "key": "url:36kr.com/newsflashes/4086196682222209",
+      "title": "高盛研判：美国数据中心建设热潮将持续至2028年",
+      "url": "https://36kr.com/newsflashes/4086196682222209",
+      "excerpt": "尽管随着人工智能（AI）数据中心对电力、水资源和土地的需求快速增加，抵制数据中心建设的声浪在美国愈演愈烈，但高盛认为，美国数据中心建设热潮有望持续至2028年。高盛日前表示，受人工智能热潮推动，美国数据中心电力容量的强劲增长态势有望持续至2028年。随着数据中心在数量、规模及电力密度方面的不断提升，这将对电力和天然气需求构成上行风险。高盛指出，到2028年，美国数据中心电力容量有望新增52吉瓦。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:20:47.953Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 26,
+      "related": [
+        {
+          "id": "20zr7t9nv3h",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+          "title": "AI 数据中心建设难度增加，新云厂商受影响",
+          "publishedAt": "2026-11-25T15:41:43.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "techcrunch-ai"
+        ],
+        "firstPublishedAt": "2026-11-25T15:41:43.000Z"
+      },
+      "ai": {
+        "summary": "高盛研判美国数据中心建设热潮将持续至2028年。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:53:20.988Z"
+      }
+    },
+    {
+      "id": "27k9nseph3f",
+      "key": "url:36kr.com/newsflashes/4086186841401729",
+      "title": "铠侠与英伟达合作探索扩展GPU内存容量",
+      "url": "https://36kr.com/newsflashes/4086186841401729",
+      "excerpt": "铠侠美国子公司和英伟达将合作研究将GPU内存容量扩展到PB级（petabyte）的可能性。测试系统基于英伟达GB200 NVL72机架式系统，配备铠侠XD8系列固态硬盘。合作旨在展示一种突破高带宽内存（HBM）容量限制、让AI能够处理更大规模数据集的方法。（界面）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:04:12.331Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "xffi69uh5w"
+    },
+    {
+      "id": "1pdd3tvg2jt",
+      "key": "url:infoq.cn/article/xA3g2i0VtTZIOVePMedY",
+      "title": "Uber 推出安全 AI 框架：对 AI 智能体进行全生命周期治理",
+      "url": "https://www.infoq.cn/article/xA3g2i0VtTZIOVePMedY?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:00:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22,
+      "ai": {
+        "summary": "Uber 推出安全 AI 框架，对 AI 智能体进行全生命周期治理。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:53:20.988Z"
+      }
+    },
+    {
+      "id": "o9o3lytams",
+      "key": "url:36kr.com/newsflashes/4086148701350530",
+      "title": "凯龙高科：中标人形机器人桌面级灵巧手检测设备项目",
+      "url": "https://36kr.com/newsflashes/4086148701350530",
+      "excerpt": "36氪获悉，据凯龙高科消息，近日，凯龙高科旗下子公司无锡市凯奇具身智能机器人科技有限公司中标浙江人形机器人股份有限公司桌面级灵巧手检测设备项目，将为其提供灵巧手力学测试设备与灵巧手耐久测试设备两台核心检测装备。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T05:55:16.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "17u7fb7lv5s",
+      "key": "url:jiqizhixin.com/articles/2026-11-26-7",
+      "title": "97%的识别准确率，DeepMind让AI从质谱碎片中识别未知分子",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-26-7",
+      "excerpt": "编辑丨&一滴血液、一份土壤提取物，甚至一片植物组织，都可能包含成千上万种小分子。它们可能是激素、药物及其代谢产物，也可能是污染物或具有潜在药用价值的天然产物。现代质谱仪已经能够从微量样本中检测出大量分子信号，但仪器测到的质量峰并不会直接告诉研究者：这些信号究竟来自什么分子。11 月 2...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T05:32:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18
+    },
+    {
+      "id": "18q8ekienf6",
+      "key": "url:jiqizhixin.com/articles/2026-11-26-6",
+      "title": "智源REAL开放日：物理AI从跑分表演到真实世界的一场大考",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-26-6",
+      "excerpt": "整个具身智能行业正站在一个十字路口。11 月中旬，OpenAI 第二次解散了机器人团队。距离奥特曼亲自发帖招人，只过了五个月。一个非常简单的理由，GPT-6 Astra 在英伟达的仿真测试中拿到 74.8% 的操作成功率，碾压了那些在真机上苦练出来的专用模型。也就是，在 OpenAI 眼里，机...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T05:20:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18
+    },
+    {
+      "id": "2f9d1jkals9",
+      "key": "url:huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "lang": "en",
+      "sourceId": "hf-blog",
+      "sourceName": "Hugging Face 博客",
+      "sourceGroup": "official",
+      "publishedAt": "2026-11-26T05:05:36.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "opensource",
+      "score": 30,
+      "ai": {
+        "title": "基于 Nemotron 3.5 Parse：开放数据、微调与更快的推理",
+        "summary": "Hugging Face 博客介绍基于 Nemotron 3.5 Parse 的技术特性。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:53:20.988Z"
+      }
+    },
+    {
       "id": "xffi69uh5w",
       "key": "url:36kr.com/newsflashes/4086093032417669",
       "title": "铠侠将与英伟达合作扩展GPU内存容量",
@@ -15,7 +194,30 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "related": [
+        {
+          "id": "27k9nseph3f",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4086186841401729",
+          "title": "铠侠与英伟达合作探索扩展GPU内存容量",
+          "publishedAt": "2026-11-26T06:04:12.331Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash"
+        ],
+        "firstPublishedAt": "2026-11-26T04:57:37.000Z"
+      },
+      "ai": {
+        "summary": "铠侠将与英伟达合作扩展 GPU 内存容量。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:53:20.988Z"
+      }
     },
     {
       "id": "128h701amkt",
@@ -54,7 +256,13 @@
       "day": "2026-11-26",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "AI 热钱正在撞上拐点，需警惕压制消费的尾部风险。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:53:20.988Z"
+      }
     },
     {
       "id": "1h5nbf0m144",
@@ -68,8 +276,14 @@
       "publishedAt": "2026-11-26T04:00:00.000Z",
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
-      "category": "industry",
-      "score": 18
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "Siri AI 开发者预览版让 iOS、iPadOS 和 macOS 应用能与 Siri 集成。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:53:20.988Z"
+      }
     },
     {
       "id": "160i8s7lboa",
@@ -84,9 +298,15 @@
       "publishedAt": "2026-11-26T03:56:21.666Z",
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
-      "category": "industry",
-      "score": 18,
-      "aiAttempts": 1
+      "category": "model",
+      "score": 24,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI 和 Anthropic 的最强模型，员工已不相信模型安全。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:53:20.988Z"
+      }
     },
     {
       "id": "1d22s6fo8y4",
@@ -103,7 +323,13 @@
       "day": "2026-11-26",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "硅谷三巨头公开交锋，探讨超级智能时代人类的命运。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:53:20.988Z"
+      }
     },
     {
       "id": "1rjtklt5kli",
@@ -118,9 +344,15 @@
       "publishedAt": "2026-11-26T03:52:35.745Z",
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
-      "category": "industry",
+      "category": "paper",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI 携 AI 连破八大理论计算机数学世纪悬案。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:53:20.988Z"
+      }
     },
     {
       "id": "1brb8qmhu96",
@@ -140,6 +372,27 @@
       "dupOf": "25754w8325h"
     },
     {
+      "id": "d8yksdazy3",
+      "key": "url:twitter.com/thsottiaux/status/2125784147889393806",
+      "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+      "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-26T03:36:58.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "model",
+      "score": 30.2,
+      "metrics": {
+        "points": 139,
+        "comments": 75
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50651117",
+      "dupOf": "25754w8325h"
+    },
+    {
       "id": "dahkphsr8w",
       "key": "url:infoq.cn/video/zrq9NZI5eJVetI8kA5kW",
       "title": "AI写代码，谁来交付？",
@@ -151,8 +404,14 @@
       "publishedAt": "2026-11-26T03:28:47.000Z",
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
-      "category": "industry",
-      "score": 18
+      "category": "agent",
+      "score": 18,
+      "ai": {
+        "summary": "讨论 AI 写代码的交付责任问题。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:53:20.988Z"
+      }
     },
     {
       "id": "1wzht095vxx",
@@ -167,9 +426,15 @@
       "publishedAt": "2026-11-26T03:23:35.000Z",
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
-      "category": "multimodal",
-      "score": 18,
-      "aiAttempts": 1
+      "category": "model",
+      "score": 24,
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "任少卿带来世界模型 3.0，蔚来智驾训练提效 5 倍。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:53:20.988Z"
+      }
     },
     {
       "id": "110q7ms3sr2",
@@ -184,9 +449,15 @@
       "publishedAt": "2026-11-26T03:17:15.337Z",
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
-      "category": "industry",
+      "category": "agent",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI 解散机器人团队，机器人行业或迎变天。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:53:20.988Z"
+      }
     },
     {
       "id": "1tbhxg3eo9l",
@@ -783,6 +1054,22 @@
       "score": 18
     },
     {
+      "id": "1y0cy51njax",
+      "key": "url:geekpark.net/news/374500",
+      "title": "黄仁勋复职后首次主持全员大会：向员工道歉；iPhone Duo 零部件成本创历代 iPhone 新高；Anthropic 跌破发行价｜极客早知道",
+      "url": "http://www.geekpark.net/news/374500",
+      "excerpt": "黄仁勋复职后首次主持全员大会：向员工道歉，称将调整管理方式 当地时间 11 月 24 日，英伟达 CEO 黄仁勋在复职后首次召开的公司全员大会上向员工道歉，承认自己违反了公司行为准则，并表示已经开始接受每日一个半小时的心理治疗。 他称自己犯下了「非常严重的个人错误」，伤害了家人，也辜负了员工，并感谢公司董事会给予自己第二次机会。 黄仁勋承认，以往过于强势的管理方式有时影响员工发挥主动性，今后将征求同事反馈，并接受针对自己的 360 度绩效评估。对于继任安排，他表示不认同传统接班人计划，认为董事会可以在需要时从管理团队中选择人选。 黄仁勋称，复职决定由董…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T00:19:57.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18
+    },
+    {
       "id": "4znyta4020",
       "key": "url:36kr.com/p/4085169946159492",
       "title": "AI最火的时候，最赚钱的是一块布",
@@ -850,10 +1137,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
+        "title": "标普考虑下调英伟达信用评级",
         "summary": "标普因治理和关键人物风险考虑下调英伟达信用评级。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-26T05:03:24.052Z"
+        "at": "2026-11-26T06:53:20.988Z"
       }
     },
     {
@@ -873,10 +1161,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "Google 的个性化 AI 视频流专利被拒，引发对未来娱乐的担忧。",
+        "title": "谷歌专利被拒：AI 视频流或成娱乐未来",
+        "summary": "谷歌 My Channel 专利被拒，但 AI 个性化视频流仍具争议。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-26T05:03:24.052Z"
+        "at": "2026-11-26T06:53:20.988Z"
       }
     },
     {
@@ -892,18 +1181,19 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-26",
       "category": "paper",
-      "score": 32.5,
+      "score": 33.7,
       "metrics": {
-        "points": 357,
-        "comments": 179
+        "points": 403,
+        "comments": 202
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50648050",
       "aiAttempts": 1,
       "ai": {
-        "summary": "Anthropic 推出 GRH Lean 验证方法的更短版本。",
+        "title": "Anthropic 发布 GRH Lean 验证简化版",
+        "summary": "Hacker News 报道 Anthropic 发布了 GRH Lean 验证的简化版本。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-11-26T05:03:24.052Z"
+        "at": "2026-11-26T06:53:20.988Z"
       }
     },
     {
@@ -923,10 +1213,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "美国芯片限制和反蒸馏措施正在减缓中国 AI 实验室的发展。",
+        "title": "美芯片限制与反蒸馏措施拖累中国 AI 实验室",
+        "summary": "芯片限制和反蒸馏措施导致中国 AI 实验室落后美国模型约九个月。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-26T05:03:24.052Z"
+        "at": "2026-11-26T06:53:20.988Z"
       }
     },
     {

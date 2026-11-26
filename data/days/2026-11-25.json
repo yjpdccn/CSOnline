@@ -22,7 +22,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-25T20:29:32.274Z"
-      }
+      },
+      "dupOf": "naktb6gi74"
     },
     {
       "id": "xplnwgu6ab",
@@ -1400,17 +1401,28 @@
       "day": "2026-11-25",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 16.9,
+      "score": 37.5,
       "metrics": {
-        "stars": 484
+        "stars": 607,
+        "points": 116,
+        "comments": 25
       },
       "aiAttempts": 1,
       "ai": {
-        "summary": "llm.asm 项目提供纯汇编实现的 Qwen3-0.6B 推理和训练。",
+        "title": "llm.asm：纯汇编实现的 Qwen3-0.6B 推理与 Mini-GPT…",
+        "summary": "GitHub 新星项目展示 100% 纯 x86-64 NASM 汇编实现的 AI 工具。",
         "category": "opensource",
         "model": "glm-4.7-flash",
-        "at": "2026-11-26T05:03:24.052Z"
-      }
+        "at": "2026-11-26T06:53:20.988Z"
+      },
+      "alsoOn": [
+        {
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50648365"
+        }
+      ],
+      "discussionUrl": "https://news.ycombinator.com/item?id=50648365"
     },
     {
       "id": "86hvaz84np",
@@ -1753,9 +1765,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 23.8,
+      "score": 23.9,
       "metrics": {
-        "points": 149,
+        "points": 151,
         "comments": 46
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50638647",
@@ -1885,7 +1897,7 @@
       "category": "agent",
       "score": 28.7,
       "metrics": {
-        "points": 215,
+        "points": 216,
         "comments": 170
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50638320",
@@ -2202,18 +2214,19 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-25",
       "category": "paper",
-      "score": 21.7,
+      "score": 21.8,
       "metrics": {
         "points": 103,
-        "comments": 52
+        "comments": 53
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50637871",
       "aiAttempts": 1,
       "ai": {
-        "summary": "LLM 评估的数学开放问题排名。",
+        "title": "LLM 评估的数学开放问题排名",
+        "summary": "Hacker News 讨论由 LLM 评估的数学开放问题排名。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-11-26T05:03:24.052Z"
+        "at": "2026-11-26T06:53:20.988Z"
       }
     },
     {
@@ -2231,8 +2244,8 @@
       "category": "agent",
       "score": 34.6,
       "metrics": {
-        "points": 454,
-        "comments": 198
+        "points": 456,
+        "comments": 199
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50637686",
       "aiAttempts": 2,
@@ -2555,7 +2568,7 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 51.8,
+      "score": 51.9,
       "related": [
         {
           "id": "1ouugqfuvad",
@@ -2574,8 +2587,8 @@
         ],
         "firstPublishedAt": "2026-11-24T16:45:44.000Z",
         "metrics": {
-          "points": 447,
-          "comments": 343
+          "points": 449,
+          "comments": 344
         }
       },
       "ai": {
@@ -2644,7 +2657,7 @@
       "category": "model",
       "score": 37.7,
       "metrics": {
-        "points": 397,
+        "points": 399,
         "comments": 77
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50637056",
@@ -2942,9 +2955,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25.4,
+      "score": 25.5,
       "metrics": {
-        "upvotes": 97,
+        "upvotes": 98,
         "comments": 2
       },
       "ai": {
@@ -2970,9 +2983,9 @@
       "day": "2026-11-25",
       "category": "paper",
       "categoryLocked": true,
-      "score": 24.8,
+      "score": 24.9,
       "metrics": {
-        "upvotes": 89,
+        "upvotes": 90,
         "comments": 3
       },
       "ai": {
@@ -3073,18 +3086,19 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-25",
       "category": "paper",
-      "score": 21.2,
+      "score": 21.4,
       "metrics": {
-        "points": 119,
-        "comments": 12
+        "points": 122,
+        "comments": 13
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50635783",
       "aiAttempts": 1,
       "ai": {
-        "summary": "预测任意数据集的 LoRA 模型大小。",
+        "title": "预测任意数据集的 LoRA 大小",
+        "summary": "Hacker News 分享关于预测 LoRA 大小的讨论。",
         "category": "paper",
         "model": "glm-4.7-flash",
-        "at": "2026-11-26T05:03:24.052Z"
+        "at": "2026-11-26T06:53:20.988Z"
       }
     },
     {
@@ -3215,7 +3229,7 @@
       ],
       "score": 27,
       "metrics": {
-        "points": 104,
+        "points": 105,
         "comments": 103
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50634426",
@@ -3614,10 +3628,10 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 35.8,
+      "score": 35.9,
       "metrics": {
-        "points": 447,
-        "comments": 343
+        "points": 449,
+        "comments": 344
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50630809",
       "ai": {
@@ -3726,7 +3740,7 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 44.1,
+      "score": 45.4,
       "ai": {
         "title": "纽约时报警告勿更新 Photoshop",
         "summary": "纽约时报建议自由摄影师不要更新 Photoshop，因新版本 AI 功能可能存在风险。",
@@ -3742,8 +3756,8 @@
         }
       ],
       "metrics": {
-        "points": 268,
-        "comments": 237
+        "points": 308,
+        "comments": 269
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50647673"
     },

@@ -1,6 +1,569 @@
 {
-  "updatedAt": "2026-11-26T05:01:06.441Z",
+  "updatedAt": "2026-11-26T06:51:18.241Z",
   "items": [
+    {
+      "id": "27wy80d976e",
+      "key": "cls:2545232",
+      "title": "午后2只宽基ETF显著放量 创业板ETF易方达（159915）成交额突破110亿",
+      "url": "https://www.cls.cn/detail/2545232",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:35:59.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "据财联社盯盘数据显示，午后2只宽基ETF显著放量，20分钟内均成交超30亿元，截至发稿，创业板ETF易方达（159915）成交额突破110亿，中证1000ETF南方（512100）成交超60亿。",
+      "flag": 1,
+      "dupOf": "3hmucg3bcj"
+    },
+    {
+      "id": "1eugz9sxu5n",
+      "key": "wscn:3206169",
+      "title": "午后创业板ETF易方达放量，成交额达到100亿元",
+      "url": "https://wallstreetcn.com/livenews/3206169",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:32:39.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "午后创业板ETF易方达（159915）放量，成交额达到100亿元，当前涨幅为0.27%，中证1000ETF南方（512100）当前成交额为63亿元，较上一日同一时刻放量1.46倍。",
+      "flag": 1,
+      "dupOf": "3hmucg3bcj"
+    },
+    {
+      "id": "3hmucg3bcj",
+      "key": "em:202611263940550041",
+      "title": "部分宽基ETF午后放量",
+      "url": "https://finance.eastmoney.com/a/202611263940550041.html",
+      "lang": "zh",
+      "sourceId": "em-focus",
+      "sourceName": "东方财富",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:27:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 34,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "部分宽基ETF午后放量，创业板ETF易方达（159915）、中证1000ETF南方(512100)等成交均明显放量。",
+      "flag": 1,
+      "related": [
+        {
+          "id": "1eugz9sxu5n",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3206169",
+          "title": "午后创业板ETF易方达放量，成交额达到100亿元",
+          "publishedAt": "2026-11-26T06:32:39.000Z"
+        },
+        {
+          "id": "27wy80d976e",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2545232",
+          "title": "午后2只宽基ETF显著放量 创业板ETF易方达（159915）成交额突破110亿",
+          "publishedAt": "2026-11-26T06:35:59.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "em-focus",
+          "wscn-global",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-11-26T06:27:00.000Z"
+      }
+    },
+    {
+      "id": "1mryd5zpckl",
+      "key": "em:202611263940546816",
+      "title": "美媒曝库什纳敦促内塔尼亚胡落实“加沙和平计划”",
+      "url": "https://finance.eastmoney.com/a/202611263940546816.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:21:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "据美国媒体报道，美国总统特朗普的女婿库什纳24日与以色列看守政府总理内塔尼亚胡通电话，敦促后者落实所谓“加沙和平计划”。库什纳25日接受采访时表示，以色列应摆脱持续的战时思维，专注于经济外交。"
+    },
+    {
+      "id": "2arebuht84a",
+      "key": "cls:2545190",
+      "title": "创业板指跌逾1% 早盘一度涨超2%",
+      "url": "https://www.cls.cn/detail/2545190",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:12:05.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "指数走弱，创业板指下挫跌逾1.00%，沪指跌0.22%，深成指跌0.75%，芬太尼概念、物理AI、民航等板块指数跌幅居前，贵金属、煤炭采选、煤炭等板块指数涨幅居前。",
+      "flag": 1,
+      "dupOf": "276zxcztpl5"
+    },
+    {
+      "id": "vdl3ad4sdr",
+      "key": "cls:2545191",
+      "title": "深成指跌破1万点",
+      "url": "https://www.cls.cn/detail/2545191",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:11:56.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "指数持续走低，深证成指盘中跌破10000点，自2026年6月23日高点至今，107个交易日跌幅近39%。",
+      "flag": 1
+    },
+    {
+      "id": "mo6qwcq78i",
+      "key": "wscn:3206160",
+      "title": "创业板指午后跌超1%，早盘一度涨超2%，深成指跌破10000点，自2026年6月23日高点至今，107个交易日跌幅近39%",
+      "url": "https://wallstreetcn.com/livenews/3206160",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:11:06.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "flag": 1,
+      "dupOf": "276zxcztpl5"
+    },
+    {
+      "id": "2fio4cm47hy",
+      "key": "em:202611263940538365",
+      "title": "特朗普与吕特会晤 喊话俄“避免扩大战事”",
+      "url": "https://finance.eastmoney.com/a/202611263940538365.html",
+      "lang": "zh",
+      "sourceId": "em-commodity",
+      "sourceName": "东方财富·商品",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:07:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "policy-us"
+      ],
+      "excerpt": "美国总统特朗普和北约秘书长吕特25日晚在美国佛罗里达州海湖庄园举行会晤，会后发表联合声明喊话俄罗斯“避免扩大战事”。"
+    },
+    {
+      "id": "f79bxdqmig",
+      "key": "wscn:3206157",
+      "title": "A股银行板块逆势走强 南京银行等多股创历史新高",
+      "url": "https://wallstreetcn.com/livenews/3206157",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:05:30.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "A股银行板块逆势走强，南京银行涨近3%，成都银行、交通银行、中信银行、江苏银行涨超1%，均创历史新高。",
+      "flag": 1
+    },
+    {
+      "id": "1toc2sbq5t8",
+      "key": "cls:2545167",
+      "title": "沪深两市成交额突破1万亿 较上一日此时放量超90亿",
+      "url": "https://www.cls.cn/detail/2545167",
+      "lang": "zh",
+      "sourceId": "cls",
+      "sourceName": "财联社",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T06:03:59.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "a-shares"
+      ],
+      "excerpt": "据财联社盯盘数据显示，沪深两市成交额突破1万亿，较上一日此时放量超90亿，预计全天成交金额约1.3万亿。",
+      "flag": 1
+    },
+    {
+      "id": "170pok6c8b2",
+      "key": "sina:5240000",
+      "title": "日本央行田村：如果风险显现，可能需要增加加息频率",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrc8939312.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T05:52:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "ygp72vi91d"
+    },
+    {
+      "id": "23y90o6leyz",
+      "key": "sina:5239958",
+      "title": "日本央行审议委员田村直树：与人工智能相关的资本支出可能会有所放缓，但不认为这会对日本经济造成巨大损害",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrh8145726.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T05:35:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "tqd2w7glxe"
+    },
+    {
+      "id": "25nmr7xlr1r",
+      "key": "sina:5239944",
+      "title": "日本央行审议委员田村直树表示，下调食品销售税可能有助于提振经济增长",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrf1366536.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T05:31:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ]
+    },
+    {
+      "id": "5c3m4j89t4",
+      "key": "sina:5239940",
+      "title": "日本央行审议委员田村直树：设想是每隔几个月加息一次 每次加息25个基点",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrh8141456.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T05:27:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "日本央行审议委员田村直树称，我设想的是每隔几个月加息一次，每次加息25个基点。若通胀风险兑现，日本央行可能需要加快升息步伐，甚至一次升息50个基点。日本央行在评估金融状况时，将把股市及资产价格走势等因素纳入考量。日本中性利率水平大约在2%左右。在某些情况下，我们在三个月内就能够评估一次加息的影响。如果家庭和企业的通胀预期进一步上升，这可能成为加快加息步伐的理由。只要潜在通胀率维持在2%左右且金融环境保持宽松，无论价格存在上行还是下行风险，我们都必须继续加息。",
+      "dupOf": "tqd2w7glxe"
+    },
+    {
+      "id": "ygp72vi91d",
+      "key": "sina:5239939",
+      "title": "日本央行委员田村：认为消费具有韧性，第三季度疲软是由于生活成本上升和恶劣天气",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrf1363628.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T05:24:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "related": [
+        {
+          "id": "170pok6c8b2",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrc8939312.d.html",
+          "title": "日本央行田村：如果风险显现，可能需要增加加息频率",
+          "publishedAt": "2026-11-26T05:52:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "sina"
+        ],
+        "firstPublishedAt": "2026-11-26T05:24:00.000Z"
+      }
+    },
+    {
+      "id": "171kka6xjf1",
+      "key": "sina:5239936",
+      "title": "日本央行审议委员田村直树：如果家庭和企业的通胀预期进一步升温，可能成为加快加息步伐的理由",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrf1362342.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T05:22:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "tqd2w7glxe"
+    },
+    {
+      "id": "1nnjc9qthsg",
+      "key": "sina:5239935",
+      "title": "日本央行审议委员田村直树：可能存在这样的情况，即我们能在3个月内评估加息的影响",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrh8138375.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T05:22:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "tqd2w7glxe"
+    },
+    {
+      "id": "15kj3vhv6vf",
+      "key": "sina:5239931",
+      "title": "日本央行审议委员田村直树：预计日本中性利率在2%左右",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrf1359651.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T05:19:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "tqd2w7glxe"
+    },
+    {
+      "id": "mj5efl9aum",
+      "key": "sina:5239927",
+      "title": "日本央行审议委员田村直树：我们将审查数据，并在12月的会议上做出适当的决定",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrc8919772.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T05:16:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "tqd2w7glxe"
+    },
+    {
+      "id": "fb64gy90r7",
+      "key": "sina:5239926",
+      "title": "日本央行审议委员田村：股市和资产价格走势是日本央行衡量金融状况时将考虑的因素之一",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrm3699298.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T05:15:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ]
+    },
+    {
+      "id": "tqd2w7glxe",
+      "key": "wscn:3206128",
+      "title": "日本央行审议委员田村直树：中东局势走向仍不明朗，将继续关注其对经济和物价的影响",
+      "url": "https://wallstreetcn.com/livenews/3206128",
+      "lang": "zh",
+      "sourceId": "wscn-global",
+      "sourceName": "华尔街见闻",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T05:13:11.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 26,
+      "topics": [
+        "cb"
+      ],
+      "excerpt": "日本央行审议委员田村直树：中东局势走向仍不明朗，将继续关注其对经济和物价的影响。 如果通胀风险成真，日本央行可能需要加快加息步伐或一次性上调50个基点。 需避免潜在通胀超调。 股市和资产价格走势是日本央行衡量金融状况时将考虑的因素之一。 关于市场波动如何影响货币政策，我将结合数据以及12月的下次货币政策会议前的经济与金融形势发展来做出决定。 预计日本的中性利率水平在约2%。 在某些情况下，我们可以在3个月内评估出加息的影响。 通胀是导致消费者支出下降的重要因素，难以期待消费支出出现强劲趋势。 如果家庭和企业的通胀预期进一步升温，这可能成为加快加息步伐的…",
+      "flag": 1,
+      "related": [
+        {
+          "id": "1gvm7e9dn46",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzsif9048509.d.html",
+          "title": "日本央行审议委员田村直树：我设想的是每隔几个月加息一次，每次加息25个基点",
+          "publishedAt": "2026-11-26T05:13:00.000Z"
+        },
+        {
+          "id": "mj5efl9aum",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrc8919772.d.html",
+          "title": "日本央行审议委员田村直树：我们将审查数据，并在12月的会议上做出适当的决定",
+          "publishedAt": "2026-11-26T05:16:00.000Z"
+        },
+        {
+          "id": "15kj3vhv6vf",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrf1359651.d.html",
+          "title": "日本央行审议委员田村直树：预计日本中性利率在2%左右",
+          "publishedAt": "2026-11-26T05:19:00.000Z"
+        },
+        {
+          "id": "171kka6xjf1",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrf1362342.d.html",
+          "title": "日本央行审议委员田村直树：如果家庭和企业的通胀预期进一步升温，可能成为加快加息步伐的理由",
+          "publishedAt": "2026-11-26T05:22:00.000Z"
+        },
+        {
+          "id": "1nnjc9qthsg",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrh8138375.d.html",
+          "title": "日本央行审议委员田村直树：可能存在这样的情况，即我们能在3个月内评估加息的影响",
+          "publishedAt": "2026-11-26T05:22:00.000Z"
+        },
+        {
+          "id": "5c3m4j89t4",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrh8141456.d.html",
+          "title": "日本央行审议委员田村直树：设想是每隔几个月加息一次 每次加息25个基点",
+          "publishedAt": "2026-11-26T05:27:00.000Z"
+        },
+        {
+          "id": "23y90o6leyz",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzwrh8145726.d.html",
+          "title": "日本央行审议委员田村直树：与人工智能相关的资本支出可能会有所放缓，但不认为这会对日本经济造成巨大损害",
+          "publishedAt": "2026-11-26T05:35:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 8,
+        "sources": [
+          "wscn-global",
+          "sina"
+        ],
+        "firstPublishedAt": "2026-11-26T05:13:00.000Z"
+      }
+    },
+    {
+      "id": "1gvm7e9dn46",
+      "key": "sina:5239921",
+      "title": "日本央行审议委员田村直树：我设想的是每隔几个月加息一次，每次加息25个基点",
+      "url": "https://finance.sina.cn/7x24/2026-11-26/detail-inizzsif9048509.d.html",
+      "lang": "zh",
+      "sourceId": "sina",
+      "sourceName": "新浪财经",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-26T05:13:00.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 18,
+      "topics": [
+        "cb"
+      ],
+      "dupOf": "tqd2w7glxe"
+    },
+    {
+      "id": "w0fnemgrk7",
+      "key": "url:ft.com/content/90b82a64-4f58-45d7-8a6a-4c2730545b65?syn-25a6b1a6=1",
+      "title": "Software stocks spared in tech rout as AI narrative shifts",
+      "url": "https://www.ft.com/content/90b82a64-4f58-45d7-8a6a-4c2730545b65?syn-25a6b1a6=1",
+      "lang": "en",
+      "sourceId": "ft-markets",
+      "sourceName": "FT",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-26T05:00:29.000Z",
+      "firstSeenAt": "2026-11-26T06:51:18.241Z",
+      "day": "2026-11-26",
+      "category": "industry",
+      "score": 15,
+      "topics": [
+        "us-stocks"
+      ],
+      "excerpt": "Semiconductor and software shares now neck-and-neck in 2026 as investors think again about the technology’s winners and losers",
+      "ai": {
+        "title": "AI叙事转变，软件股在科技股抛售中幸免",
+        "summary": "投资者重新评估科技赢家与输家，半导体与软件股表现接近。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:57:18.428Z"
+      }
+    },
     {
       "id": "19olvs3avo5",
       "key": "sina:5239904",
@@ -76,7 +639,13 @@
       "topics": [
         "policy-us"
       ],
-      "excerpt": "Proposed tariffs of 18% on Bangladesh, Cambodia, Thailand, and 20% on China and Vietnam, subject to their respective trade deals, offer India a competitive advantage."
+      "excerpt": "Proposed tariffs of 18% on Bangladesh, Cambodia, Thailand, and 20% on China and Vietnam, subject to their respective trade deals, offer India a competitive advantage.",
+      "ai": {
+        "title": "特朗普关税政策助印度在亚洲出口商中胜出",
+        "summary": "对孟加拉、柬埔寨、泰国征收18%关税，对中国和越南征收20%关税，为印度提供竞争优势。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:57:18.428Z"
+      }
     },
     {
       "id": "168fkmag4tf",
@@ -197,7 +766,13 @@
       "topics": [
         "us-stocks"
       ],
-      "excerpt": "Tech shares hit this month by fears over whether an AI boom can be sustained"
+      "excerpt": "Tech shares hit this month by fears over whether an AI boom can be sustained",
+      "ai": {
+        "title": "亚洲股市在美国AI风险交易后上涨",
+        "summary": "受AI繁荣可持续性担忧影响，科技股本月承压，亚洲市场随后上涨。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:57:18.428Z"
+      }
     },
     {
       "id": "1emjo4k2zm3",
@@ -508,10 +1083,26 @@
           "url": "https://www.cls.cn/detail/2545046",
           "title": "创业板指翻绿 此前一度涨超2%",
           "publishedAt": "2026-11-26T03:25:45.000Z"
+        },
+        {
+          "id": "mo6qwcq78i",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3206160",
+          "title": "创业板指午后跌超1%，早盘一度涨超2%，深成指跌破10000点，自2026年6月23日高点至今，107个交易日跌幅近39%",
+          "publishedAt": "2026-11-26T06:11:06.000Z"
+        },
+        {
+          "id": "2arebuht84a",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2545190",
+          "title": "创业板指跌逾1% 早盘一度涨超2%",
+          "publishedAt": "2026-11-26T06:12:05.000Z"
         }
       ],
       "story": {
-        "reports": 5,
+        "reports": 7,
         "sources": [
           "em-focus",
           "wscn-global",
@@ -1250,7 +1841,13 @@
       "topics": [
         "fed"
       ],
-      "excerpt": "Alan Greenspan famously held the line on interest rates because he believed in the productivity promise of the internet boom. Why can't Kevin Warsh do the same?"
+      "excerpt": "Alan Greenspan famously held the line on interest rates because he believed in the productivity promise of the internet boom. Why can't Kevin Warsh do the same?",
+      "ai": {
+        "title": "格林斯潘押注生产力，沃什需加息",
+        "summary": "格林斯潘曾因互联网生产力预期而坚持低利率，沃什为何不能效仿？",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:57:18.428Z"
+      }
     },
     {
       "id": "2fs7z2s8294",
@@ -1308,6 +1905,12 @@
           "cnbc-top"
         ],
         "firstPublishedAt": "2026-11-25T21:50:00.000Z"
+      },
+      "ai": {
+        "title": "马斯克和SpaceX拟向特朗普账户捐赠约178亿美元",
+        "summary": "SpaceX将向每位活跃的特朗普账户提供新股，马斯克将匹配该捐赠。",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T06:57:18.428Z"
       }
     },
     {
@@ -26637,7 +27240,7 @@
         "policy-us"
       ],
       "flag": 1,
-      "dupOf": "1i37ezm1cfc"
+      "dupOf": "1yofd8kkkwm"
     },
     {
       "id": "4t4jkemsx6",
@@ -31005,7 +31608,7 @@
       ],
       "excerpt": "11月19日下午，国家主席习近平在深圳会见来华出席亚太经合组织领导人非正式会议的美国总统特朗普。 习近平指出，过去几个月，从北京到华盛顿，我和特朗普总统共同探索中美两个大国正确相处之道，确立了“中美建设性战略稳定关系”的新定位，并赋予其“基于尊重、公平、对等”的新内涵，受到中美两国人民认可和国际社会欢迎。中美关系总体稳定向好，给两国人民带来实实在在的利益，也给世界注入稳定性和确定性。我期待同特朗普总统一道，继续为中美关系领航掌舵，确保这艘大船始终沿着正确航线扬帆远航。 习近平强调，构建中美建设性战略稳定关系是前无古人的开创性事业，需要敢闯敢试、脚踏实地…",
       "flag": 1,
-      "dupOf": "1i37ezm1cfc"
+      "dupOf": "1yofd8kkkwm"
     },
     {
       "id": "uznafo6jto",
@@ -31026,7 +31629,7 @@
       ],
       "excerpt": "据新华社，11月19日下午，国家主席习近平在深圳会见来华出席亚太经合组织领导人非正式会议的美国总统特朗普。",
       "flag": 2,
-      "dupOf": "1i37ezm1cfc"
+      "dupOf": "1yofd8kkkwm"
     },
     {
       "id": "1evvqlsfd40",
@@ -31098,13 +31701,47 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 18,
+      "score": 34,
       "topics": [
         "policy-us"
       ],
       "excerpt": "11月19日下午，国家主席习近平在深圳会见来华出席亚太经合组织领导人非正式会议的美国总统特朗普。",
       "flag": 1,
-      "dupOf": "1i37ezm1cfc"
+      "related": [
+        {
+          "id": "uznafo6jto",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3202434",
+          "title": "习近平会见美国总统特朗普",
+          "publishedAt": "2026-11-19T08:14:57.000Z"
+        },
+        {
+          "id": "ry4my3k4g6",
+          "sourceId": "cls",
+          "sourceName": "财联社",
+          "url": "https://www.cls.cn/detail/2538997",
+          "title": "习近平会见美国总统特朗普",
+          "publishedAt": "2026-11-19T08:15:01.000Z"
+        },
+        {
+          "id": "279xmohhdbs",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3202834",
+          "title": "美国总统特朗普的网络安全主管Cairncross将离职。 其将在民主党于2027年年初接管国会参众两院之前就离开。（Axios）",
+          "publishedAt": "2026-11-19T22:16:58.000Z"
+        }
+      ],
+      "story": {
+        "reports": 4,
+        "sources": [
+          "em-focus",
+          "wscn-global",
+          "cls"
+        ],
+        "firstPublishedAt": "2026-11-19T08:13:00.000Z"
+      }
     },
     {
       "id": "125u8l6of9o",
@@ -31571,7 +32208,7 @@
       ],
       "excerpt": "1、市场全天震荡调整，三大指数小幅下跌。光刻机、光刻胶概念逆势活跃，盛剑科技3连板，兴业股份、格林达、江化微等涨停。先进封装、存储芯片板块盘中拉升，蓝箭电子、时空科技、大港股份等涨停。下跌方面，AI漫剧概念下挫，慈文传媒、横店影视、文投控股3连跌停；算力芯片股下挫，燧原科技20cm跌停，沐曦股份跌超10%。个股呈现普跌态势，沪深京三市超4800股飘绿，今日成交1.31万亿。截止收盘沪指跌0.28%，深成指跌0.71%，创业板跌0.79%。 2、板块概念方面，民航机场、光刻机、大硅片、券商等板块逆势走强；家电、AI漫剧、游戏、冰雪经济等板块领跌； 3、两…",
       "flag": 1,
-      "dupOf": "w9lqqpp9bf"
+      "dupOf": "x3gqg1ayis"
     },
     {
       "id": "g3jalnty4a",
@@ -31638,7 +32275,7 @@
       ],
       "excerpt": "A股三大指数今日集体下跌，截至收盘，上证指数跌0.28%，深证成指跌0.71%，创业板指跌0.79%，北证50跌3.99%，科创50指数涨1.83%。全市场成交额13146亿元，较上日缩量654亿元，全市场超4800只个股下跌。板块题材上，厨卫电器、影视院线、短剧游戏、文化传媒、游戏板块跌幅居前。盘面上，半导体板块走势分化明显，蓝箭电子、灿芯股份、燕东微、大港股份盘中触及涨停，晶合集成、华虹宏力、粤芯半导涨幅居前；燧原科技触及20cm跌停，沫曦股份、盛科通信、利扬芯片、摩尔线程重挫。光刻胶板块局部活跃，兴业股份、格林达、盛剑科技、江化微触及涨停，国林科…",
       "flag": 1,
-      "dupOf": "w9lqqpp9bf"
+      "dupOf": "x3gqg1ayis"
     },
     {
       "id": "15onhdifgmu",
@@ -31659,7 +32296,7 @@
       ],
       "excerpt": "尾盘多只热门宽基ETF较昨日大幅放量：沪深300ETF嘉实（159919）成交额96亿，较昨日放量8倍；科创50ETF易方达（588080）成交额127亿元，较昨日放量4倍；中证500ETF南方（510500）成交额103亿元，较昨日放量3.6倍；沪深300ETF华夏（510330）成交额104亿元，较昨日放量1.7倍。",
       "flag": 1,
-      "dupOf": "nw3cjcm0ck"
+      "dupOf": "sosl5jpnh4"
     },
     {
       "id": "x3gqg1ayis",
@@ -31674,13 +32311,39 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 18,
+      "score": 34,
       "topics": [
         "a-shares"
       ],
       "excerpt": "沪指跌0.28%，深证成指跌0.71%，创业板指跌0.79%，科创50指数涨1.83%。成交额超1.3万亿，稀土、航空机场、电子化学品板块上涨，影视院线、广告营销、传媒、游戏跌幅居前。",
       "flag": 1,
-      "dupOf": "w9lqqpp9bf"
+      "related": [
+        {
+          "id": "1kaef7o7hwi",
+          "sourceId": "sina",
+          "sourceName": "新浪财经",
+          "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuf6315161.d.html",
+          "title": "A股收评：沪指震荡收跌0.28%，厨卫电器、影视院线、游戏板块重挫",
+          "publishedAt": "2026-11-19T07:01:00.000Z"
+        },
+        {
+          "id": "1yne82gwkbv",
+          "sourceId": "wscn-global",
+          "sourceName": "华尔街见闻",
+          "url": "https://wallstreetcn.com/livenews/3202389",
+          "title": "A股收盘：三大指数小幅下跌，两市成交仅1.3万亿",
+          "publishedAt": "2026-11-19T07:01:49.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "em-focus",
+          "sina",
+          "wscn-global"
+        ],
+        "firstPublishedAt": "2026-11-19T07:00:00.000Z"
+      }
     },
     {
       "id": "1wqfy6t8ce8",
@@ -31701,7 +32364,7 @@
       ],
       "excerpt": "科创50ETF易方达（588080）、中证500ETF南方（510500）、科创50ETF华夏（588000）、创业板ETF易方达（159915）四只宽基ETF成交额均突破100亿元。",
       "flag": 1,
-      "dupOf": "nw3cjcm0ck"
+      "dupOf": "sosl5jpnh4"
     },
     {
       "id": "22k535vtk1q",
@@ -31722,7 +32385,7 @@
       ],
       "excerpt": "临近尾盘，多只宽基ETF持续放量，科创50ETF易方达（588080）、中证500ETF南方（510500）成交额突破100亿，均较昨日全天成交额增超3倍，创业板ETF易方达（159915）、沪深300ETF华泰柏瑞（510300）、沪深300ETF华夏（510330）、沪深300ETF嘉实（159919）尾盘20分钟均成交超25亿。",
       "flag": 1,
-      "dupOf": "nw3cjcm0ck"
+      "dupOf": "sosl5jpnh4"
     },
     {
       "id": "sosl5jpnh4",
@@ -31737,90 +32400,13 @@
       "firstSeenAt": "2026-11-19T19:28:42.947Z",
       "day": "2026-11-19",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "topics": [
         "a-shares"
       ],
       "excerpt": "临近尾盘，多只宽基ETF持续放量，科创50ETF易方达（588080）、中证500ETF南方（510500）成交额突破100亿，均较昨日全天成交额增超3倍，创业板ETF易方达（159915）、沪深300ETF华泰柏瑞（510300）、沪深300ETF华夏（510330）、沪深300ETF嘉实（159919）20分钟内均成交超25亿。",
       "flag": 1,
-      "dupOf": "nw3cjcm0ck"
-    },
-    {
-      "id": "1wuyx60kyle",
-      "key": "sina:5224853",
-      "title": "首创期货：加息预期升温叠加AI叙事降温，有色金属集体暴跌",
-      "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuh7827088.d.html",
-      "lang": "zh",
-      "sourceId": "sina",
-      "sourceName": "新浪财经",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T06:47:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "fed"
-      ],
-      "excerpt": "有色金属（铜铝锌锡镍）集体崩盘，今日铜锡跌幅一度超过5%，其他金属大多跌幅也超2%，市场一片惨淡。尽管导火索可能是美联储10月会议纪要，进一步抬升12月加息预期，但核心在于AI叙事的退潮以及庞大的债务风险，最终担忧从下游传导至上游行业。实际上国庆假期前后，有色金属就进入到普跌的状态，我司也提醒大家随着AI周期进入下半阶段，有色金属将面临高位承压的风险。随着大逻辑的转变，哪怕市场现货偏紧也难提振价格，目前来看下跌氛围仍然强劲，切勿抄底追多。（首创期货）"
-    },
-    {
-      "id": "2519ecewe9s",
-      "key": "wscn:3202383",
-      "title": "部分宽基ETF持续放量，中证500ETF南方(510500)成交超100亿元，已超昨日4倍，科创50ETF易方达（588080）成交超66…",
-      "url": "https://wallstreetcn.com/livenews/3202383",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T06:37:11.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "部分宽基ETF持续放量，中证500ETF南方(510500)成交超100亿元，已超昨日4倍，科创50ETF易方达（588080）成交超66亿元，超昨日1.5倍，创业板ETF易方达（159915）、沪深300ETF华泰柏瑞(510300)、中证1000ETF南方(512100)等均明显放量。",
-      "flag": 1,
-      "dupOf": "nw3cjcm0ck"
-    },
-    {
-      "id": "nw3cjcm0ck",
-      "key": "em:202611193934989383",
-      "title": "部分宽基ETF持续放量 中证500ETF南方(510500)成交超100亿元",
-      "url": "https://finance.eastmoney.com/a/202611193934989383.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T06:37:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 34,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "部分宽基ETF持续放量，中证500ETF南方(510500)成交超100亿元，已超昨日3倍，科创50ETF易方达（588080）成交超66亿元，超昨日1.5倍。",
-      "flag": 1,
       "related": [
-        {
-          "id": "2519ecewe9s",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202383",
-          "title": "部分宽基ETF持续放量，中证500ETF南方(510500)成交超100亿元，已超昨日4倍，科创50ETF易方达（588080）成交超66…",
-          "publishedAt": "2026-11-19T06:37:11.000Z"
-        },
-        {
-          "id": "sosl5jpnh4",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2538856",
-          "title": "临近尾盘宽基ETF持续放量 2只ETF成交超100亿",
-          "publishedAt": "2026-11-19T06:51:46.000Z"
-        },
         {
           "id": "22k535vtk1q",
           "sourceId": "em-focus",
@@ -31847,329 +32433,12 @@
         }
       ],
       "story": {
-        "reports": 6,
-        "sources": [
-          "em-focus",
-          "wscn-global",
-          "cls"
-        ],
-        "firstPublishedAt": "2026-11-19T06:37:00.000Z"
-      }
-    },
-    {
-      "id": "sy425aexwt",
-      "key": "wscn:3202381",
-      "title": "中美元首会见结束",
-      "url": "https://wallstreetcn.com/livenews/3202381",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T06:35:25.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日下午，国家主席习近平在深圳会见来华出席亚太经合组织领导人非正式会议的美国总统特朗普。活动结束后，特朗普来到休息室。（央视新闻）",
-      "flag": 1,
-      "dupOf": "14uqh7uwqe4"
-    },
-    {
-      "id": "14uqh7uwqe4",
-      "key": "em:202611193934986866",
-      "title": "中美元首会见结束",
-      "url": "https://finance.eastmoney.com/a/202611193934986866.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T06:35:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 26,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日下午，国家主席习近平在深圳会见来华出席亚太经合组织领导人非正式会议的美国总统特朗普。活动结束后，特朗普来到休息室。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "sy425aexwt",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202381",
-          "title": "中美元首会见结束",
-          "publishedAt": "2026-11-19T06:35:25.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "em-focus",
-          "wscn-global"
-        ],
-        "firstPublishedAt": "2026-11-19T06:35:00.000Z"
-      }
-    },
-    {
-      "id": "26fqq9t1kc7",
-      "key": "cls:2538777",
-      "title": "沪深两市成交额突破1万亿 较上一日此时缩量近1000亿",
-      "url": "https://www.cls.cn/detail/2538777",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T05:55:26.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "据财联社盯盘数据显示，沪深两市成交额突破1万亿，较上一日此时缩量近1000亿，预计全天成交金额不足1.3万亿。",
-      "flag": 1
-    },
-    {
-      "id": "nh8je1onqh",
-      "key": "em:202611193934958754",
-      "title": "华尔街多家投行唱多美元：AI热潮还将持续 强劲支撑美元走高",
-      "url": "https://finance.eastmoney.com/a/202611193934958754.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T05:40:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us",
-        "us-stocks"
-      ],
-      "excerpt": "尽管在美国中期选举后，市场愈发担忧美国科技巨头的AI开支可能放缓，且有可能拖累美元，但华尔街至少三家银行认为，AI支出前景仍然强劲，美元涨势有望延续至2027年。",
-      "flag": 1
-    },
-    {
-      "id": "63rr4y0d9d",
-      "key": "wscn:3202360",
-      "title": "习近平会见美国总统特朗普",
-      "url": "https://wallstreetcn.com/livenews/3202360",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T05:33:50.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日中午，国家主席习近平在深圳会见来华出席亚太经合组织领导人非正式会议的美国总统特朗普。（央视新闻）",
-      "flag": 1,
-      "dupOf": "1i37ezm1cfc"
-    },
-    {
-      "id": "1i37ezm1cfc",
-      "key": "em:202611193934957344",
-      "title": "习近平会见美国总统特朗普",
-      "url": "https://finance.eastmoney.com/a/202611193934957344.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T05:30:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 34,
-      "topics": [
-        "policy-us"
-      ],
-      "excerpt": "11月19日中午，国家主席习近平在深圳会见来华出席亚太经合组织领导人非正式会议的美国总统特朗普。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "63rr4y0d9d",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202360",
-          "title": "习近平会见美国总统特朗普",
-          "publishedAt": "2026-11-19T05:33:50.000Z"
-        },
-        {
-          "id": "1yofd8kkkwm",
-          "sourceId": "em-focus",
-          "sourceName": "东方财富",
-          "url": "https://finance.eastmoney.com/a/202611193935046942.html",
-          "title": "习近平会见美国总统特朗普",
-          "publishedAt": "2026-11-19T08:13:00.000Z"
-        },
-        {
-          "id": "uznafo6jto",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202434",
-          "title": "习近平会见美国总统特朗普",
-          "publishedAt": "2026-11-19T08:14:57.000Z"
-        },
-        {
-          "id": "ry4my3k4g6",
-          "sourceId": "cls",
-          "sourceName": "财联社",
-          "url": "https://www.cls.cn/detail/2538997",
-          "title": "习近平会见美国总统特朗普",
-          "publishedAt": "2026-11-19T08:15:01.000Z"
-        },
-        {
-          "id": "279xmohhdbs",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202834",
-          "title": "美国总统特朗普的网络安全主管Cairncross将离职。 其将在民主党于2027年年初接管国会参众两院之前就离开。（Axios）",
-          "publishedAt": "2026-11-19T22:16:58.000Z"
-        }
-      ],
-      "story": {
-        "reports": 6,
-        "sources": [
-          "em-focus",
-          "wscn-global",
-          "cls"
-        ],
-        "firstPublishedAt": "2026-11-19T05:30:00.000Z"
-      }
-    },
-    {
-      "id": "1ypbfuh2cgj",
-      "key": "wscn:3202355",
-      "title": "国产算力板块暴跌，业界称“市场传闻不准确！”",
-      "url": "https://wallstreetcn.com/livenews/3202355",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T05:19:59.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "据上证报，11月19日，A股市场AI芯片概念股纷纷下跌，燧原科技、沐曦股份、摩尔线程等公司股价大幅下挫。消息面上，11月18日晚有传闻称，三星开始穿透严查代工；19日一则相关概念股受影响的“小作文”开始流传。记者向晶圆代工、芯片设计公司等多方求证获悉，三星开始穿透严查代工的市场传闻不准确。",
-      "flag": 1
-    },
-    {
-      "id": "2d0bbq7i0nq",
-      "key": "wscn:3202354",
-      "title": "创业板指拉升翻红，此前一度跌超1.5%",
-      "url": "https://wallstreetcn.com/livenews/3202354",
-      "lang": "zh",
-      "sourceId": "wscn-global",
-      "sourceName": "华尔街见闻",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T05:12:22.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "flag": 1
-    },
-    {
-      "id": "19nwz0lwev5",
-      "key": "em:202611193934941368",
-      "title": "创业板指翻红 科创50涨近2%",
-      "url": "https://finance.eastmoney.com/a/202611193934941368.html",
-      "lang": "zh",
-      "sourceId": "em-focus",
-      "sourceName": "东方财富",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T05:12:00.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 18,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "指数午后大幅回升，创业板指拉升翻红，科创50指数拉升涨近2%，半导体芯片股领涨市场。",
-      "flag": 1,
-      "dupOf": "w9lqqpp9bf"
-    },
-    {
-      "id": "w9lqqpp9bf",
-      "key": "cls:2538742",
-      "title": "创业板指翻红 科创50涨近2%",
-      "url": "https://www.cls.cn/detail/2538742",
-      "lang": "zh",
-      "sourceId": "cls",
-      "sourceName": "财联社",
-      "sourceGroup": "media-zh",
-      "publishedAt": "2026-11-19T05:11:40.000Z",
-      "firstSeenAt": "2026-11-19T19:28:42.947Z",
-      "day": "2026-11-19",
-      "category": "industry",
-      "score": 42,
-      "topics": [
-        "a-shares"
-      ],
-      "excerpt": "指数午后大幅回升，创业板指拉升翻红，科创50指数拉升涨近2%，半导体芯片股领涨市场。",
-      "flag": 1,
-      "related": [
-        {
-          "id": "19nwz0lwev5",
-          "sourceId": "em-focus",
-          "sourceName": "东方财富",
-          "url": "https://finance.eastmoney.com/a/202611193934941368.html",
-          "title": "创业板指翻红 科创50涨近2%",
-          "publishedAt": "2026-11-19T05:12:00.000Z"
-        },
-        {
-          "id": "x3gqg1ayis",
-          "sourceId": "em-focus",
-          "sourceName": "东方财富",
-          "url": "https://finance.eastmoney.com/a/202611193934998824.html",
-          "title": "科创50指数收盘涨近2% 三市成交额1.31万亿",
-          "publishedAt": "2026-11-19T07:00:00.000Z"
-        },
-        {
-          "id": "1kaef7o7hwi",
-          "sourceId": "sina",
-          "sourceName": "新浪财经",
-          "url": "https://finance.sina.cn/7x24/2026-11-19/detail-inizfyuf6315161.d.html",
-          "title": "A股收评：沪指震荡收跌0.28%，厨卫电器、影视院线、游戏板块重挫",
-          "publishedAt": "2026-11-19T07:01:00.000Z"
-        },
-        {
-          "id": "1yne82gwkbv",
-          "sourceId": "wscn-global",
-          "sourceName": "华尔街见闻",
-          "url": "https://wallstreetcn.com/livenews/3202389",
-          "title": "A股收盘：三大指数小幅下跌，两市成交仅1.3万亿",
-          "publishedAt": "2026-11-19T07:01:49.000Z"
-        }
-      ],
-      "story": {
-        "reports": 5,
+        "reports": 4,
         "sources": [
           "cls",
-          "em-focus",
-          "sina",
-          "wscn-global"
+          "em-focus"
         ],
-        "firstPublishedAt": "2026-11-19T05:11:40.000Z"
+        "firstPublishedAt": "2026-11-19T06:51:46.000Z"
       }
     }
   ]
