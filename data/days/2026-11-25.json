@@ -302,7 +302,8 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "7c1ewvfxk9",
@@ -410,7 +411,8 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "5x3ve4kdv8",
@@ -493,7 +495,8 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "9kibdj7lvd",
@@ -509,7 +512,8 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "2ayzgyy4y8u",
@@ -525,7 +529,8 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1jms41wej8x",
@@ -584,7 +589,8 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "24zgs0juz2s",
@@ -628,7 +634,8 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1dyv1dvlkfp",
@@ -661,7 +668,8 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "2fu0949tkre",
@@ -677,7 +685,8 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1nphj45ozw0",
@@ -693,7 +702,8 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "lrjqajkzao",
@@ -775,7 +785,8 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "1zl6s884h1s",
@@ -793,7 +804,8 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "57pti1dz63",
@@ -853,7 +865,8 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "aiAttempts": 1
     },
     {
       "id": "i3p7dzfo6o",
@@ -868,7 +881,13 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "企业安全防线应关注AI合法操作带来的风险，而非仅防范黑客入侵。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "s5jgdftnx",
@@ -887,7 +906,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "克来机电澄清不涉及人形机器人产品，相关业务营收占比极低。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "1fldr8xvwq4",
@@ -942,7 +967,13 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "李斌预测AI能为汽车产业创造超1.2万亿美元价值，汽车需成为AI原生组织。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "10cvwy7eam1",
@@ -1019,7 +1050,13 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "沐曦与火山引擎合作，将科学计算迁移至云上，提升芯片研发测试效率。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "1ks15dcduou",
@@ -1060,7 +1097,13 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "WISE2026商业之王大会即将开幕，邀请各界参与。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "1z33ubs1uqu",
@@ -1076,7 +1119,13 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "中国AI原生出海迎来关键窗口期，交付底座是核心。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "1csfd4sg5zk",
@@ -1142,7 +1191,13 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "外资大厂抢投中国具身智能公司，日韩资本表现活跃。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "10d0tj5ylh6",
@@ -1175,7 +1230,13 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI算力需求重心从训练侧全面转移至推理侧，推理算力占比破七成。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "jfgviz0yt7",
@@ -1191,7 +1252,13 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "黄仁勋重返英伟达次日，美AI信贷市场剧烈震荡。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "ephsijp33o",
@@ -1207,7 +1274,13 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "AI硬件圈告别爽文叙事，转向具体生活场景，健康可穿戴成新方向。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "9ncswri7vh",
@@ -1264,7 +1337,13 @@
       "keywords": [
         "视频生成"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "视频模型黑马杀到全球第一，30秒长镜头一次生成，价格打到Seedance 1/10。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "1c7z6p25lx0",
@@ -1279,8 +1358,14 @@
       "publishedAt": "2026-11-25T08:49:37.565Z",
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "探讨AI驯化人是否是人驯化狗的下一集，引发关于人类自主性的思考。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "2c9cyocwnxh",
@@ -1295,8 +1380,14 @@
       "publishedAt": "2026-11-25T08:23:24.000Z",
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
-      "category": "industry",
-      "score": 18
+      "category": "model",
+      "score": 24,
+      "ai": {
+        "summary": "Anthropic还藏着2个最强模型，Fable5.2已显老旧。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "d2oux6tjzy",
@@ -1312,7 +1403,13 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "第二十一届中国IDC产业年度大典即将举办，聚焦数字基础设施。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "1c1as4xx4u",
@@ -1326,11 +1423,17 @@
       "publishedAt": "2026-11-25T07:54:18.000Z",
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
-      "category": "industry",
+      "category": "paper",
       "keywords": [
         "具身智能"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "具身智能从70%到99.999%的准确率提升，机器人走出实验室仍需时日。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "new3fftw09",
@@ -1384,8 +1487,14 @@
       "publishedAt": "2026-11-25T07:44:25.000Z",
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
-      "category": "industry",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "IDEA大会探讨AI时代编程语言对软件能力交付上限的影响。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "1cgz6mnplic",
@@ -1467,11 +1576,11 @@
       "day": "2026-11-25",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 40.4,
+      "score": 41.2,
       "metrics": {
-        "stars": 778,
-        "points": 143,
-        "comments": 35
+        "stars": 828,
+        "points": 150,
+        "comments": 39
       },
       "aiAttempts": 1,
       "ai": {
@@ -1503,8 +1612,14 @@
       "publishedAt": "2026-11-25T07:20:38.577Z",
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
-      "category": "multimodal",
-      "score": 18
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "建议世界模型公司向游戏公司学习，通过GTA6等虚拟世界理解物理世界。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "1h46h91d87l",
@@ -1519,11 +1634,17 @@
       "publishedAt": "2026-11-25T07:12:00.000Z",
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
-      "category": "agent",
+      "category": "paper",
       "keywords": [
         "Agent"
       ],
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "DeepMind提出从AGI迈向ASI的框架，设想AI自己开公司并进化。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "ttxo4l1gxm",
@@ -1539,7 +1660,13 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "OpenAI联手AMD，让AI直接改写芯片电路，在旗舰GPU中抠出14%物理极限。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "1ktqdzvhn1y",
@@ -1555,7 +1682,13 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 18
+      "score": 18,
+      "ai": {
+        "summary": "新希望乳业全面接入千问办公，牛群结构预测时间由一周缩短至分钟级。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-26T09:59:43.638Z"
+      }
     },
     {
       "id": "1x1wyxd5e8u",
@@ -1963,7 +2096,7 @@
       "category": "agent",
       "score": 28.8,
       "metrics": {
-        "points": 217,
+        "points": 218,
         "comments": 171
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50638320",
@@ -2097,7 +2230,7 @@
       "category": "opensource",
       "score": 27.4,
       "metrics": {
-        "points": 219,
+        "points": 220,
         "comments": 83
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50638220",
@@ -2308,10 +2441,10 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "agent",
-      "score": 34.6,
+      "score": 34.7,
       "metrics": {
         "points": 458,
-        "comments": 199
+        "comments": 201
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50637686",
       "aiAttempts": 2,
@@ -2653,8 +2786,8 @@
         ],
         "firstPublishedAt": "2026-11-24T16:45:44.000Z",
         "metrics": {
-          "points": 450,
-          "comments": 347
+          "points": 451,
+          "comments": 348
         }
       },
       "ai": {
@@ -3293,10 +3426,10 @@
       "keywords": [
         "MCP"
       ],
-      "score": 27,
+      "score": 27.1,
       "metrics": {
-        "points": 105,
-        "comments": 103
+        "points": 106,
+        "comments": 104
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50634426",
       "ai": {
@@ -3696,8 +3829,8 @@
       "category": "industry",
       "score": 35.9,
       "metrics": {
-        "points": 450,
-        "comments": 347
+        "points": 451,
+        "comments": 348
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50630809",
       "ai": {
@@ -3806,7 +3939,7 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-25",
       "category": "industry",
-      "score": 47.2,
+      "score": 47.5,
       "ai": {
         "title": "纽约时报警告勿更新 Photoshop",
         "summary": "纽约时报建议自由摄影师不要更新 Photoshop，因新版本 AI 功能可能存在风险。",
@@ -3822,8 +3955,8 @@
         }
       ],
       "metrics": {
-        "points": 371,
-        "comments": 316
+        "points": 385,
+        "comments": 323
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50647673"
     },
