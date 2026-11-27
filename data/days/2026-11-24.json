@@ -167,6 +167,27 @@
       }
     },
     {
+      "id": "ns2fufyeay",
+      "key": "hf:krafton/raon-1-mini",
+      "title": "KRAFTON/Raon-1-mini",
+      "url": "https://huggingface.co/KRAFTON/Raon-1-mini",
+      "excerpt": "Hugging Face 趋势榜第 12 名 · 文本生成 · 190 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-24T13:17:11.000Z",
+      "firstSeenAt": "2026-11-27T19:55:44.684Z",
+      "day": "2026-11-24",
+      "category": "model",
+      "categoryLocked": true,
+      "score": 23.7,
+      "metrics": {
+        "likes": 190
+      },
+      "skipLlm": true
+    },
+    {
       "id": "1ttxxhf96c5",
       "key": "url:36kr.com/p/4083688535419270",
       "title": "免费AI，我们还能用多久？",
@@ -1042,9 +1063,9 @@
       "day": "2026-11-24",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 18.8,
+      "score": 21.6,
       "metrics": {
-        "stars": 719
+        "stars": 1204
       },
       "aiAttempts": 1
     },
@@ -1079,6 +1100,27 @@
       "day": "2026-11-24",
       "category": "industry",
       "score": 18
+    },
+    {
+      "id": "1a3fd0ts11e",
+      "key": "hf:kandinskylab/kandinsky-imagesr-2.0",
+      "title": "kandinskylab/Kandinsky-ImageSR-2.0",
+      "url": "https://huggingface.co/kandinskylab/Kandinsky-ImageSR-2.0",
+      "excerpt": "Hugging Face 趋势榜第 11 名 · 图像编辑 · 173 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-24T08:51:19.000Z",
+      "firstSeenAt": "2026-11-27T19:55:44.684Z",
+      "day": "2026-11-24",
+      "category": "multimodal",
+      "categoryLocked": true,
+      "score": 17.2,
+      "metrics": {
+        "likes": 173
+      },
+      "skipLlm": true
     },
     {
       "id": "2ghbq13riqk",

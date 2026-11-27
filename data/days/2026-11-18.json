@@ -1632,7 +1632,7 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "dupOf": "20c4yjveot6"
+      "dupOf": "95ptsd50mt"
     },
     {
       "id": "1egwoyacct2",
@@ -2912,7 +2912,7 @@
       "day": "2026-11-18",
       "category": "industry",
       "score": 18,
-      "dupOf": "20c4yjveot6"
+      "dupOf": "95ptsd50mt"
     },
     {
       "id": "agao0kgrjv",
@@ -4001,7 +4001,7 @@
       ],
       "score": 24.2,
       "metrics": {
-        "stars": 19830,
+        "stars": 19973,
         "starsToday": 416
       },
       "ai": {
@@ -4061,7 +4061,7 @@
       "categoryLocked": true,
       "score": 29.5,
       "metrics": {
-        "stars": 71802,
+        "stars": 72162,
         "starsToday": 847
       },
       "ai": {
@@ -4531,10 +4531,18 @@
           "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
           "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
           "publishedAt": "2026-11-26T17:28:56.000Z"
+        },
+        {
+          "id": "1mdp4p8wvp0",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50667744",
+          "title": "GPT 6.2 Astra Solves a Historical Mystery",
+          "publishedAt": "2026-11-27T15:03:17.000Z"
         }
       ],
       "story": {
-        "reports": 20,
+        "reports": 21,
         "sources": [
           "openai",
           "hackernews",

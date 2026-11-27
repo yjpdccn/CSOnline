@@ -2683,8 +2683,60 @@
       "firstSeenAt": "2026-11-17T05:05:03.313Z",
       "day": "2026-11-17",
       "category": "industry",
-      "score": 18,
-      "dupOf": "20c4yjveot6"
+      "score": 42,
+      "related": [
+        {
+          "id": "1ybmpr4wld2",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/510726.html",
+          "title": "黄仁勋不再沉默：我愿重掌英伟达！董事会：不考虑",
+          "publishedAt": "2026-11-18T01:03:42.000Z"
+        },
+        {
+          "id": "ea4v9l4ovq",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4074882755416969",
+          "title": "黄仁勋不再沉默：我愿重掌英伟达，董事会：不考虑",
+          "publishedAt": "2026-11-18T07:47:29.808Z"
+        },
+        {
+          "id": "1m87aga9avg",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+          "title": "马斯克称黄仁勋不可或缺",
+          "publishedAt": "2026-11-18T23:25:17.000Z"
+        },
+        {
+          "id": "2fqo1zzlk7t",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4076477976990601",
+          "title": "马斯克在深圳力挺黄仁勋",
+          "publishedAt": "2026-11-19T11:12:57.881Z"
+        },
+        {
+          "id": "1rj86ft4d76",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4079212995089289",
+          "title": "马斯克称FSD V15下个月将全面推送",
+          "publishedAt": "2026-11-21T07:50:02.532Z"
+        }
+      ],
+      "story": {
+        "reports": 6,
+        "sources": [
+          "jiqizhixin",
+          "qbitai",
+          "36kr-ai",
+          "techcrunch-ai",
+          "36kr-flash"
+        ],
+        "firstPublishedAt": "2026-11-17T02:10:00.000Z"
+      }
     },
     {
       "id": "qrxn3x28m7",
@@ -3449,7 +3501,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 75896,
+        "stars": 76285,
         "starsToday": 1062
       },
       "ai": {
@@ -4532,14 +4584,6 @@
       },
       "related": [
         {
-          "id": "zf8dgzqg12",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4069009439871873",
-          "title": "“让黄仁勋回归”，马斯克带头，超2万人请愿",
-          "publishedAt": "2026-11-14T03:10:33.443Z"
-        },
-        {
           "id": "1mhmasbvb",
           "sourceId": "techcrunch-ai",
           "sourceName": "TechCrunch AI",
@@ -4610,68 +4654,18 @@
           "url": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
           "title": "NVIDIA Vera Rubin 平台在 MLPerf 获胜",
           "publishedAt": "2026-11-16T16:00:25.000Z"
-        },
-        {
-          "id": "95ptsd50mt",
-          "sourceId": "jiqizhixin",
-          "sourceName": "机器之心",
-          "url": "https://www.jiqizhixin.com/articles/2026-11-17",
-          "title": "英伟达董事会被曝尚未考虑黄仁勋回归",
-          "publishedAt": "2026-11-17T02:10:00.000Z"
-        },
-        {
-          "id": "1ybmpr4wld2",
-          "sourceId": "qbitai",
-          "sourceName": "量子位",
-          "url": "https://www.qbitai.com/2026/11/510726.html",
-          "title": "黄仁勋不再沉默：我愿重掌英伟达！董事会：不考虑",
-          "publishedAt": "2026-11-18T01:03:42.000Z"
-        },
-        {
-          "id": "ea4v9l4ovq",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4074882755416969",
-          "title": "黄仁勋不再沉默：我愿重掌英伟达，董事会：不考虑",
-          "publishedAt": "2026-11-18T07:47:29.808Z"
-        },
-        {
-          "id": "1m87aga9avg",
-          "sourceId": "techcrunch-ai",
-          "sourceName": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
-          "title": "马斯克称黄仁勋不可或缺",
-          "publishedAt": "2026-11-18T23:25:17.000Z"
-        },
-        {
-          "id": "2fqo1zzlk7t",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4076477976990601",
-          "title": "马斯克在深圳力挺黄仁勋",
-          "publishedAt": "2026-11-19T11:12:57.881Z"
-        },
-        {
-          "id": "1rj86ft4d76",
-          "sourceId": "36kr-flash",
-          "sourceName": "36氪快讯",
-          "url": "https://36kr.com/newsflashes/4079212995089289",
-          "title": "马斯克称FSD V15下个月将全面推送",
-          "publishedAt": "2026-11-21T07:50:02.532Z"
         }
       ],
       "story": {
-        "reports": 17,
+        "reports": 10,
         "sources": [
           "nvidia",
-          "36kr-ai",
           "techcrunch-ai",
           "jiqizhixin",
-          "verge-ai",
-          "qbitai",
-          "36kr-flash"
+          "36kr-ai",
+          "verge-ai"
         ],
-        "firstPublishedAt": "2026-11-14T03:10:33.443Z"
+        "firstPublishedAt": "2026-11-14T21:41:22.000Z"
       }
     }
   ]

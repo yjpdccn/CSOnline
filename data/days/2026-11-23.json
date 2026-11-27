@@ -759,6 +759,29 @@
       }
     },
     {
+      "id": "143i4hwuxup",
+      "key": "gh:deadinternetstudios/100x-engineer-skill",
+      "title": "DeadInternetStudios/100x-engineer-skill",
+      "url": "https://github.com/DeadInternetStudios/100x-engineer-skill",
+      "excerpt": "100x is a skill by a former Cursor engineer that turns prompts into formally verified, production-ready code",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-23T11:06:07.000Z",
+      "firstSeenAt": "2026-11-27T19:55:44.684Z",
+      "day": "2026-11-23",
+      "category": "opensource",
+      "categoryLocked": true,
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 18.5,
+      "metrics": {
+        "stars": 671
+      }
+    },
+    {
       "id": "1afupjym69u",
       "key": "url:36kr.com/p/4082235748586633",
       "title": "倒计时十天！2026甲子引力年终盛典嘉宾重磅来袭｜甲子引力",
@@ -1890,9 +1913,9 @@
       "day": "2026-11-23",
       "category": "model",
       "categoryLocked": true,
-      "score": 25.5,
+      "score": 25.8,
       "metrics": {
-        "likes": 273
+        "likes": 288
       },
       "skipLlm": true
     },
@@ -3271,9 +3294,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 19.3,
+      "score": 19.5,
       "metrics": {
-        "stars": 796
+        "stars": 823
       },
       "ai": {
         "title": "safe-anything：Rust 编写的漏洞扫描器",

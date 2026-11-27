@@ -1667,7 +1667,7 @@
       "keywords": [
         "语音"
       ],
-      "score": 38.9,
+      "score": 19.3,
       "metrics": {
         "stars": 796
       },
@@ -1677,28 +1677,6 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-16T21:02:45.938Z"
-      },
-      "related": [
-        {
-          "id": "bz2okcj1m9",
-          "sourceId": "hf-models",
-          "sourceName": "HF 热门模型",
-          "url": "https://huggingface.co/n4ze3m/tiny-voca",
-          "title": "n4ze3m/tiny-voca",
-          "publishedAt": "2026-11-14T15:46:27.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "github-new",
-          "hf-models"
-        ],
-        "firstPublishedAt": "2026-11-14T15:46:27.000Z",
-        "metrics": {
-          "stars": 796,
-          "likes": 393
-        }
       }
     }
   ]

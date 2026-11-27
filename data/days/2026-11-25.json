@@ -1072,11 +1072,17 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 22,
+      "score": 25,
       "metrics": {
-        "stars": 1291
+        "stars": 2114
       },
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "开源项目 opengame 提供多种 AI 编码 Agent，用于构建和发布游戏。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-27T19:56:56.158Z"
+      }
     },
     {
       "id": "10cvwy7eam1",
@@ -1680,11 +1686,11 @@
       "day": "2026-11-25",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 48.6,
+      "score": 50.1,
       "metrics": {
-        "stars": 1654,
-        "points": 229,
-        "comments": 58
+        "stars": 2043,
+        "points": 233,
+        "comments": 60
       },
       "aiAttempts": 1,
       "ai": {
@@ -1717,7 +1723,7 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "paper",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "建议世界模型公司向游戏公司学习，通过GTA6等虚拟世界理解物理世界。",
         "category": "paper",
@@ -1732,12 +1738,21 @@
           "url": "https://36kr.com/p/4086411482229124",
           "title": "马斯克脑机接口上市在即，关键临床试验获批，意念玩《GTA 6》已成真",
           "publishedAt": "2026-11-26T10:58:29.699Z"
+        },
+        {
+          "id": "1i08cnce7hb",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/rockstars-ai-dilemma-can-gta-6s-staggered-release-model-survive-coding-agents/",
+          "title": "Rockstar's AI dilemma: Can GTA 6's staggered release model survive coding agents?",
+          "publishedAt": "2026-11-27T15:37:47.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
-          "36kr-ai"
+          "36kr-ai",
+          "the-decoder"
         ],
         "firstPublishedAt": "2026-11-25T07:20:38.577Z"
       }
@@ -1953,12 +1968,34 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "paper",
-      "score": 18,
+      "score": 41.7,
       "ai": {
         "summary": "Infrathon 推出首个 Long Horizon AI Infra 优化 Benchmark。",
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-25T20:30:27.867Z"
+      },
+      "related": [
+        {
+          "id": "1t5zhecphsh",
+          "sourceId": "hf-papers",
+          "sourceName": "HF 每日论文",
+          "url": "https://huggingface.co/papers/2611.34232",
+          "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+          "publishedAt": "2026-11-27T00:00:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "hf-papers"
+        ],
+        "firstPublishedAt": "2026-11-25T06:37:00.000Z",
+        "metrics": {
+          "upvotes": 101,
+          "comments": 2
+        }
       }
     },
     {
@@ -2363,7 +2400,7 @@
       "category": "opensource",
       "score": 27.6,
       "metrics": {
-        "points": 223,
+        "points": 224,
         "comments": 85
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50638220",
@@ -2453,9 +2490,9 @@
       "firstSeenAt": "2026-11-25T20:27:54.042Z",
       "day": "2026-11-25",
       "category": "opensource",
-      "score": 22.2,
+      "score": 22.3,
       "metrics": {
-        "points": 133,
+        "points": 135,
         "comments": 20
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50638070",
@@ -2546,9 +2583,9 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-25",
       "category": "paper",
-      "score": 21.8,
+      "score": 21.9,
       "metrics": {
-        "points": 104,
+        "points": 105,
         "comments": 53
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50637871",
@@ -2576,7 +2613,7 @@
       "category": "agent",
       "score": 34.8,
       "metrics": {
-        "points": 465,
+        "points": 467,
         "comments": 217
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50637686",
@@ -2987,9 +3024,9 @@
       "firstSeenAt": "2026-11-25T05:26:35.172Z",
       "day": "2026-11-25",
       "category": "model",
-      "score": 37.8,
+      "score": 37.9,
       "metrics": {
-        "points": 405,
+        "points": 407,
         "comments": 78
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50637056",
@@ -3450,9 +3487,9 @@
       "firstSeenAt": "2026-11-26T05:01:06.441Z",
       "day": "2026-11-25",
       "category": "paper",
-      "score": 21.7,
+      "score": 21.8,
       "metrics": {
-        "points": 128,
+        "points": 130,
         "comments": 13
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50635783",
@@ -3591,10 +3628,10 @@
       "keywords": [
         "MCP"
       ],
-      "score": 27.2,
+      "score": 27.4,
       "metrics": {
-        "points": 106,
-        "comments": 108
+        "points": 110,
+        "comments": 111
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50634426",
       "ai": {
@@ -4120,8 +4157,8 @@
         }
       ],
       "metrics": {
-        "points": 661,
-        "comments": 525
+        "points": 678,
+        "comments": 543
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50647673",
       "related": [
@@ -4143,8 +4180,8 @@
         ],
         "firstPublishedAt": "2026-11-24T16:09:23.000Z",
         "metrics": {
-          "points": 661,
-          "comments": 525
+          "points": 678,
+          "comments": 543
         }
       }
     },

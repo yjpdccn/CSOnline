@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-11-27T05:02:31.151Z",
+  "updatedAt": "2026-11-27T19:55:44.684Z",
   "events": [
-    {
-      "id": "wscn-1599708",
-      "at": "2026-11-27T01:30:00.000Z",
-      "country": "中国",
-      "title": "10月规模以上工业企业利润同比",
-      "importance": 3,
-      "kind": "data",
-      "source": "华尔街见闻",
-      "previous": "14.4",
-      "actual": "20.1",
-      "unit": "%"
-    },
     {
       "id": "wscn-15862",
       "at": "2026-11-27T16:00:00.000Z",
@@ -23,13 +11,185 @@
       "source": "华尔街见闻"
     },
     {
-      "id": "wscn-15872",
+      "id": "wscn-15396",
       "at": "2026-11-28T16:00:00.000Z",
       "country": "西班牙",
       "title": "西班牙举行大选",
       "importance": 3,
       "kind": "event",
       "source": "华尔街见闻"
+    },
+    {
+      "id": "wscn-15639",
+      "at": "2026-11-29T04:02:00.000Z",
+      "country": "沙特阿拉伯",
+      "title": "OPEC+会议",
+      "importance": 3,
+      "kind": "event",
+      "source": "华尔街见闻",
+      "dateOnly": true
+    },
+    {
+      "id": "wscn-15863",
+      "at": "2026-11-29T16:00:00.000Z",
+      "country": "美国",
+      "title": "12月议息会议前，美联储静默期已开始",
+      "importance": 3,
+      "kind": "event",
+      "source": "华尔街见闻"
+    },
+    {
+      "id": "wscn-15865",
+      "at": "2026-11-30T01:05:00.000Z",
+      "country": "日本",
+      "title": "日本央行行长植田和男公开讲话",
+      "importance": 3,
+      "kind": "event",
+      "source": "华尔街见闻"
+    },
+    {
+      "id": "wscn-1599741",
+      "at": "2026-11-30T01:30:00.000Z",
+      "country": "中国",
+      "title": "11月官方制造业PMI",
+      "importance": 4,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "49.3",
+      "forecast": "49.4"
+    },
+    {
+      "id": "wscn-15870",
+      "at": "2026-11-30T04:02:00.000Z",
+      "country": "欧元区",
+      "title": "欧洲央行行长拉加德出席公开听证会",
+      "importance": 3,
+      "kind": "event",
+      "source": "华尔街见闻",
+      "dateOnly": true
+    },
+    {
+      "id": "wscn-1599782",
+      "at": "2026-12-01T01:45:00.000Z",
+      "country": "中国",
+      "title": "11月RatingDog制造业PMI",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "52",
+      "forecast": "51.7"
+    },
+    {
+      "id": "wscn-1599799",
+      "at": "2026-12-01T15:00:00.000Z",
+      "country": "美国",
+      "title": "11月ISM制造业指数",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "55.5",
+      "forecast": "55"
+    },
+    {
+      "id": "wscn-1599818",
+      "at": "2026-12-02T13:15:00.000Z",
+      "country": "美国",
+      "title": "11月ADP就业人数变动(万人)",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "8.6",
+      "forecast": "7.95",
+      "unit": "万人"
+    },
+    {
+      "id": "wscn-1599849",
+      "at": "2026-12-03T13:30:00.000Z",
+      "country": "美国",
+      "title": "11月28日当周首次申请失业救济人数(万人)",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "18.9",
+      "forecast": "19.25",
+      "unit": "万人"
+    },
+    {
+      "id": "wscn-1599853",
+      "at": "2026-12-03T15:00:00.000Z",
+      "country": "美国",
+      "title": "11月ISM非制造业指数",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "54.5",
+      "forecast": "54.5"
+    },
+    {
+      "id": "wscn-1599869",
+      "at": "2026-12-04T13:30:00.000Z",
+      "country": "美国",
+      "title": "11月非农就业人口变动(万人) · 11月失业率",
+      "importance": 4,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "16.5",
+      "forecast": "9",
+      "unit": "万人"
+    },
+    {
+      "id": "wscn-15849",
+      "at": "2026-12-07T16:00:00.000Z",
+      "country": "美国",
+      "title": "12月8日–9日：美联储FOMC议息会议",
+      "importance": 4,
+      "kind": "event",
+      "source": "华尔街见闻"
+    },
+    {
+      "id": "wscn-1599940",
+      "at": "2026-12-09T01:30:00.000Z",
+      "country": "中国",
+      "title": "11月CPI同比 · 11月PPI同比",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "0.7",
+      "unit": "%"
+    },
+    {
+      "id": "wscn-1599951",
+      "at": "2026-12-09T04:02:00.000Z",
+      "country": "中国",
+      "title": "11月M2货币供应同比 · 1至11月社会融资规模增量(亿人民币) · 1至11月新增人民币贷款(亿人民币)",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "dateOnly": true,
+      "previous": "7.1",
+      "unit": "%"
+    },
+    {
+      "id": "wscn-1599955",
+      "at": "2026-12-09T19:00:00.000Z",
+      "country": "美国",
+      "title": "FOMC利率决策(下限) · FOMC利率决策(上限)",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "previous": "3.75",
+      "forecast": "4",
+      "unit": "%"
+    },
+    {
+      "id": "wscn-1599972",
+      "at": "2026-12-10T13:30:00.000Z",
+      "country": "美国",
+      "title": "12月5日当周首次申请失业救济人数(万人) · 11月核心CPI同比 · 11月CPI同比",
+      "importance": 3,
+      "kind": "data",
+      "source": "华尔街见闻",
+      "unit": "万人"
     }
   ],
   "fomc": [

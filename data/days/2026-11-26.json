@@ -16,7 +16,13 @@
       "day": "2026-11-26",
       "category": "industry",
       "score": 15,
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "OpenAI 和 Anthropic 关闭数据后，中国 AI 开发者转向 Google 和 Meta 寻求数据。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-27T19:56:56.158Z"
+      }
     },
     {
       "id": "10905u5o5yx",
@@ -33,7 +39,13 @@
       "day": "2026-11-26",
       "category": "industry",
       "score": 14,
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "AI 导致内容同质化严重，用户在不同平台听到或看到相同的声音和面孔。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-27T19:56:56.158Z"
+      }
     },
     {
       "id": "1ss4zzp8jz4",
@@ -812,13 +824,19 @@
         "Agent",
         "MCP"
       ],
-      "score": 31.7,
+      "score": 35.1,
       "metrics": {
-        "points": 292,
-        "comments": 243
+        "points": 415,
+        "comments": 329
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50653477",
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "Google 将要求 AI Agent 使用其 MCP 服务器，但 Gmail Agent 无法发送邮件。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-27T19:56:56.158Z"
+      }
     },
     {
       "id": "puceduqqw1",
@@ -907,10 +925,18 @@
           "url": "https://36kr.com/p/4087282603932297",
           "title": "相对论和量子力学统一有戏了？GPT-6 Astra参与，83页论文让物理圈炸锅",
           "publishedAt": "2026-11-27T01:44:07.709Z"
+        },
+        {
+          "id": "1xtui55b73w",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4087817299573129",
+          "title": "AI发现物理学“大一统理论”？斯坦福学者联手GPT-6 Astra，提出量子引力新框架",
+          "publishedAt": "2026-11-27T10:28:34.389Z"
         }
       ],
       "story": {
-        "reports": 4,
+        "reports": 5,
         "sources": [
           "jiqizhixin",
           "36kr-ai"
@@ -1378,13 +1404,19 @@
       "firstSeenAt": "2026-11-27T05:02:31.151Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 32.8,
+      "score": 34.1,
       "metrics": {
-        "points": 307,
-        "comments": 316
+        "points": 354,
+        "comments": 355
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50652527",
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "OpenAI 可能正进入成本控制模式。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-27T19:56:56.158Z"
+      }
     },
     {
       "id": "27rp2ctz76h",
@@ -1873,10 +1905,10 @@
       "firstSeenAt": "2026-11-26T06:51:18.241Z",
       "day": "2026-11-26",
       "category": "model",
-      "score": 41.3,
+      "score": 41.4,
       "metrics": {
-        "points": 475,
-        "comments": 263
+        "points": 505,
+        "comments": 272
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50651117",
       "dupOf": "25754w8325h"
@@ -2382,10 +2414,18 @@
           "url": "https://36kr.com/p/4086423162333832",
           "title": "AI证明黎曼猜想，为AI4S指明了什么方向？",
           "publishedAt": "2026-11-26T10:57:48.004Z"
+        },
+        {
+          "id": "19tqwp4jr2m",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/ai/c8sG7O6YKz3vKB6a.html",
+          "title": "第二十八届高交会科学智能分论坛：从理解科学到自主实验，AI4S如何跨越产业化拐点？",
+          "publishedAt": "2026-11-27T06:26:00.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "leiphone",
           "36kr-ai"
@@ -2782,9 +2822,9 @@
         "AI 编程",
         "视频生成"
       ],
-      "score": 21.7,
+      "score": 21.9,
       "metrics": {
-        "upvotes": 55,
+        "upvotes": 57,
         "comments": 5
       },
       "ai": {
@@ -2810,9 +2850,9 @@
       "day": "2026-11-26",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.7,
+      "score": 23.5,
       "metrics": {
-        "upvotes": 66,
+        "upvotes": 74,
         "comments": 2
       },
       "aiAttempts": 2,
@@ -2901,7 +2941,13 @@
         "Agent"
       ],
       "score": 30,
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "Hugging Face 博客探讨如何构建、训练和评估多智能体系统。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-27T19:56:56.158Z"
+      }
     },
     {
       "id": "1yhhj4zbz25",
@@ -2921,12 +2967,18 @@
       "keywords": [
         "图像生成"
       ],
-      "score": 21.9,
+      "score": 22.6,
       "metrics": {
-        "upvotes": 57,
+        "upvotes": 64,
         "comments": 4
       },
-      "aiAttempts": 1
+      "aiAttempts": 2,
+      "ai": {
+        "summary": "DyLoMo-DiT 通过动态循环混合专家机制提升图像生成质量。",
+        "category": "multimodal",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-27T19:56:56.158Z"
+      }
     },
     {
       "id": "4znyta4020",
@@ -3060,8 +3112,8 @@
       "category": "paper",
       "score": 36,
       "metrics": {
-        "points": 552,
-        "comments": 349
+        "points": 559,
+        "comments": 357
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50648050",
       "aiAttempts": 1,
