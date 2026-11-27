@@ -3449,7 +3449,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 75461,
+        "stars": 75896,
         "starsToday": 1062
       },
       "ai": {
@@ -4540,6 +4540,14 @@
           "publishedAt": "2026-11-14T03:10:33.443Z"
         },
         {
+          "id": "1mhmasbvb",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+          "title": "马斯克等科技高管签署请愿书要求恢复黄仁勋职务",
+          "publishedAt": "2026-11-14T21:41:22.000Z"
+        },
+        {
           "id": "rd3k958kbt",
           "sourceId": "jiqizhixin",
           "sourceName": "机器之心",
@@ -4554,6 +4562,14 @@
           "url": "https://36kr.com/p/4067755181003654",
           "title": "黄仁勋吃了上市太早的亏",
           "publishedAt": "2026-11-15T12:41:58.177Z"
+        },
+        {
+          "id": "90qusvnnx8",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4071587047675015",
+          "title": "马斯克怒斥英伟达董事会：卖快餐、卖汽水的人，正在决定万亿AI帝国的命运？",
+          "publishedAt": "2026-11-16T00:22:30.599Z"
         },
         {
           "id": "27zctff497y",
@@ -4645,14 +4661,14 @@
         }
       ],
       "story": {
-        "reports": 15,
+        "reports": 17,
         "sources": [
           "nvidia",
           "36kr-ai",
+          "techcrunch-ai",
           "jiqizhixin",
           "verge-ai",
           "qbitai",
-          "techcrunch-ai",
           "36kr-flash"
         ],
         "firstPublishedAt": "2026-11-14T03:10:33.443Z"

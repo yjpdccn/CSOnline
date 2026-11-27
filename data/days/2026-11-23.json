@@ -1890,9 +1890,9 @@
       "day": "2026-11-23",
       "category": "model",
       "categoryLocked": true,
-      "score": 24.8,
+      "score": 25.5,
       "metrics": {
-        "likes": 241
+        "likes": 273
       },
       "skipLlm": true
     },
@@ -3087,7 +3087,7 @@
       "firstSeenAt": "2026-11-23T03:43:04.188Z",
       "day": "2026-11-23",
       "category": "paper",
-      "score": 33.7,
+      "score": 33.8,
       "related": [
         {
           "id": "ruasrqwrc5",
@@ -3106,7 +3106,7 @@
         ],
         "firstPublishedAt": "2026-11-20T14:59:14.000Z",
         "metrics": {
-          "stars": 577
+          "stars": 586
         }
       },
       "ai": {
@@ -3271,9 +3271,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 19,
+      "score": 19.3,
       "metrics": {
-        "stars": 749
+        "stars": 796
       },
       "ai": {
         "title": "safe-anything：Rust 编写的漏洞扫描器",

@@ -1015,9 +1015,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 18,
+      "score": 18.1,
       "metrics": {
-        "stars": 608
+        "stars": 616
       },
       "aiAttempts": 1,
       "ai": {
@@ -1049,6 +1049,28 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-22T13:05:00.036Z"
       }
+    },
+    {
+      "id": "7jb6m56xlm",
+      "key": "hf:strata-engine/inkling-2-mini-strata",
+      "title": "strata-engine/Inkling-2-Mini-Strata",
+      "url": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
+      "excerpt": "Hugging Face 趋势榜第 9 名 · 图文理解 · 239 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-21T18:46:06.000Z",
+      "firstSeenAt": "2026-11-27T05:02:31.151Z",
+      "day": "2026-11-22",
+      "category": "model",
+      "categoryLocked": true,
+      "score": 24.8,
+      "metrics": {
+        "likes": 239
+      },
+      "skipLlm": true,
+      "dupOf": "29chgwcqphe"
     },
     {
       "id": "12oqhmvxob2",

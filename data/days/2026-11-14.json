@@ -890,35 +890,14 @@
       "firstSeenAt": "2026-11-14T17:01:04.343Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 41.8,
-      "related": [
-        {
-          "id": "2ap7u6vz1xm",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50487184",
-          "title": "OpenAI 解散机器人团队",
-          "publishedAt": "2026-11-13T17:55:23.000Z"
-        }
-      ],
-      "story": {
-        "reports": 2,
-        "sources": [
-          "jiqizhixin",
-          "hackernews"
-        ],
-        "firstPublishedAt": "2026-11-13T17:55:23.000Z",
-        "metrics": {
-          "points": 179,
-          "comments": 73
-        }
-      },
+      "score": 18,
       "ai": {
         "summary": "OpenAI 解散独立机器人团队，相关研究人员被重新分配。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-14T17:04:32.632Z"
-      }
+      },
+      "dupOf": "1w60c0rd3qf"
     },
     {
       "id": "d7fopedytn",
@@ -1789,16 +1768,8 @@
       "firstSeenAt": "2026-11-13T18:30:05.440Z",
       "day": "2026-11-14",
       "category": "industry",
-      "score": 54.4,
+      "score": 23,
       "related": [
-        {
-          "id": "te5yvsklut",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50474883",
-          "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
-          "publishedAt": "2026-11-12T21:56:11.000Z"
-        },
         {
           "id": "24sg1sro854",
           "sourceId": "techcrunch-ai",
@@ -1809,17 +1780,12 @@
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 2,
         "sources": [
           "the-decoder",
-          "hackernews",
           "techcrunch-ai"
         ],
-        "firstPublishedAt": "2026-11-12T21:56:11.000Z",
-        "metrics": {
-          "points": 404,
-          "comments": 176
-        }
+        "firstPublishedAt": "2026-11-13T18:01:53.000Z"
       },
       "ai": {
         "title": "银行因美国出口管制禁止中港投资者参与 Anthropic IPO",
@@ -1881,7 +1847,7 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-14T03:13:59.836Z"
       },
-      "dupOf": "ih4xwfgfrd"
+      "dupOf": "1w60c0rd3qf"
     },
     {
       "id": "d04t5nraol",

@@ -66,9 +66,9 @@
       "day": "2026-11-20",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 17.7,
+      "score": 17.8,
       "metrics": {
-        "stars": 577
+        "stars": 586
       },
       "ai": {
         "title": "Levent Alpöge 的黎曼猜想 Lean 证明",
@@ -156,9 +156,9 @@
         "Agent",
         "AI 编程"
       ],
-      "score": 20.6,
+      "score": 20.8,
       "metrics": {
-        "stars": 1003
+        "stars": 1047
       },
       "aiAttempts": 1
     },
@@ -861,10 +861,10 @@
       "day": "2026-11-20",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 45.7,
+      "score": 45.9,
       "metrics": {
-        "stars": 894,
-        "points": 235,
+        "stars": 909,
+        "points": 238,
         "comments": 75
       },
       "alsoOn": [
@@ -1389,6 +1389,27 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-21T04:00:39.452Z"
       }
+    },
+    {
+      "id": "21exx4eabzo",
+      "key": "hf:aleph-alpha/kolibri-1.1",
+      "title": "Aleph-Alpha/Kolibri-1.1",
+      "url": "https://huggingface.co/Aleph-Alpha/Kolibri-1.1",
+      "excerpt": "Hugging Face 趋势榜第 11 名 · 文本生成 · 190 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-20T09:01:10.000Z",
+      "firstSeenAt": "2026-11-27T05:02:31.151Z",
+      "day": "2026-11-20",
+      "category": "model",
+      "categoryLocked": true,
+      "score": 23.7,
+      "metrics": {
+        "likes": 190
+      },
+      "skipLlm": true
     },
     {
       "id": "2ac4s1egq38",
@@ -2495,10 +2516,26 @@
           "url": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
           "title": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop",
           "publishedAt": "2026-11-21T10:33:02.000Z"
+        },
+        {
+          "id": "7jb6m56xlm",
+          "sourceId": "hf-models",
+          "sourceName": "HF 热门模型",
+          "url": "https://huggingface.co/strata-engine/Inkling-2-Mini-Strata",
+          "title": "strata-engine/Inkling-2-Mini-Strata",
+          "publishedAt": "2026-11-21T18:46:06.000Z"
+        },
+        {
+          "id": "epcxl58bmu",
+          "sourceId": "hf-blog",
+          "sourceName": "Hugging Face 博客",
+          "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+          "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+          "publishedAt": "2026-11-25T00:00:00.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 5,
         "sources": [
           "hf-blog",
           "hf-models",
@@ -3049,7 +3086,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 73520,
+        "stars": 73997,
         "starsToday": 1141
       },
       "ai": {
@@ -3081,7 +3118,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 6789,
+        "stars": 7122,
         "starsToday": 936
       },
       "ai": {
@@ -3109,7 +3146,7 @@
       "categoryLocked": true,
       "score": 30,
       "metrics": {
-        "stars": 16662,
+        "stars": 17108,
         "starsToday": 983
       },
       "ai": {

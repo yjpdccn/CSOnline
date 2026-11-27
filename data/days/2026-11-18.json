@@ -4001,7 +4001,7 @@
       ],
       "score": 24.2,
       "metrics": {
-        "stars": 19671,
+        "stars": 19830,
         "starsToday": 416
       },
       "ai": {
@@ -4061,7 +4061,7 @@
       "categoryLocked": true,
       "score": 29.5,
       "metrics": {
-        "stars": 71416,
+        "stars": 71802,
         "starsToday": 847
       },
       "ai": {
@@ -4523,10 +4523,18 @@
           "url": "https://36kr.com/p/4086048701721220",
           "title": "GPT-6.2正式接班，OpenAI官宣淘汰GPT-5.6",
           "publishedAt": "2026-11-26T03:52:11.829Z"
+        },
+        {
+          "id": "7tbs1np25v",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/gpt-6-2-astra-users-now-hit-limits-40-faster-after-openai-patched-a-pricing-error/",
+          "title": "GPT-6.2 Astra users now hit limits 40% faster after OpenAI patched a pricing error",
+          "publishedAt": "2026-11-26T17:28:56.000Z"
         }
       ],
       "story": {
-        "reports": 19,
+        "reports": 20,
         "sources": [
           "openai",
           "hackernews",

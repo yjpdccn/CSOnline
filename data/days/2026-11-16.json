@@ -1459,7 +1459,7 @@
       "firstSeenAt": "2026-11-16T20:58:41.846Z",
       "day": "2026-11-16",
       "category": "industry",
-      "score": 50,
+      "score": 42,
       "ai": {
         "title": "LVMH 媒体部门与 OpenAI 达成战略合作",
         "summary": "LVMH 与 OpenAI 合作，利用 ChatGPT 提升新闻出版的可访问性。",
@@ -1468,14 +1468,6 @@
         "at": "2026-11-16T21:02:00.789Z"
       },
       "related": [
-        {
-          "id": "1vooh908k8n",
-          "sourceId": "leiphone",
-          "sourceName": "雷峰网",
-          "url": "https://www.leiphone.com/category/industrynews/U7WtbV9kyb90UuZ0.html",
-          "title": "中金公司与蚂蚁集团达成战略合作 共探AI赋能财富管理",
-          "publishedAt": "2026-11-13T09:05:00.000Z"
-        },
         {
           "id": "14zo7seudeq",
           "sourceId": "36kr-flash",
@@ -1486,13 +1478,12 @@
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 2,
         "sources": [
           "openai",
-          "leiphone",
           "36kr-flash"
         ],
-        "firstPublishedAt": "2026-11-13T09:05:00.000Z"
+        "firstPublishedAt": "2026-11-14T07:49:22.411Z"
       }
     },
     {
@@ -2775,7 +2766,7 @@
       ],
       "score": 26.1,
       "metrics": {
-        "stars": 13148,
+        "stars": 13347,
         "starsToday": 540
       },
       "ai": {
@@ -2834,7 +2825,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 23833,
+        "stars": 24874,
         "starsToday": 2322
       },
       "ai": {
@@ -3788,49 +3779,14 @@
       "firstSeenAt": "2026-11-16T02:44:10.077Z",
       "day": "2026-11-16",
       "category": "industry",
-      "score": 42,
+      "score": 18,
       "ai": {
         "summary": "马斯克怒斥英伟达董事会，质疑其决定万亿帝国命运。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-16T02:48:58.393Z"
       },
-      "related": [
-        {
-          "id": "19xcwoky764",
-          "sourceId": "reddit-localllama",
-          "sourceName": "r/LocalLLaMA",
-          "url": "https://www.reddit.com/r/LocalLLaMA/comments/1xuxxmb/bring_back_the_boss_nvidia_employees_petition_for/",
-          "title": "Nvidia 员工请愿请回 Jensen Huang",
-          "publishedAt": "2026-11-13T04:03:28.000Z"
-        },
-        {
-          "id": "1mhmasbvb",
-          "sourceId": "techcrunch-ai",
-          "sourceName": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-          "title": "马斯克等科技高管签署请愿书要求恢复黄仁勋职务",
-          "publishedAt": "2026-11-14T21:41:22.000Z"
-        },
-        {
-          "id": "1zch6p2lfw9",
-          "sourceId": "verge-ai",
-          "sourceName": "The Verge AI",
-          "url": "https://www.theverge.com/tech/1033999/jensen-huang-return-nvidia-megaspeed",
-          "title": "Jensen Huang might be plotting a return and more of the latest Nvidia drama",
-          "publishedAt": "2026-11-15T20:43:49.000Z"
-        }
-      ],
-      "story": {
-        "reports": 4,
-        "sources": [
-          "36kr-ai",
-          "reddit-localllama",
-          "techcrunch-ai",
-          "verge-ai"
-        ],
-        "firstPublishedAt": "2026-11-13T04:03:28.000Z"
-      }
+      "dupOf": "20c4yjveot6"
     },
     {
       "id": "coad34quga",
@@ -4365,7 +4321,7 @@
       "firstSeenAt": "2026-11-16T02:44:10.077Z",
       "day": "2026-11-16",
       "category": "paper",
-      "score": 54,
+      "score": 69.8,
       "ai": {
         "title": "OpenAI 利用 GPT-6 Astra 推进标准模型格点定义",
         "summary": "OpenAI 利用 GPT-6 Astra 推进标准模型格点定义，探索非微扰性定义。",
@@ -4375,20 +4331,20 @@
       },
       "related": [
         {
-          "id": "1oxs0863i04",
-          "sourceId": "jiqizhixin",
-          "sourceName": "机器之心",
-          "url": "https://www.jiqizhixin.com/articles/2026-11-13-5",
-          "title": "斯坦福让GPT-6 Astra直接修改机器人参数：只动65行词嵌入，修复一类指令失灵",
-          "publishedAt": "2026-11-13T06:49:00.000Z"
+          "id": "2ap7u6vz1xm",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50487184",
+          "title": "OpenAI 解散机器人团队",
+          "publishedAt": "2026-11-13T17:55:23.000Z"
         },
         {
-          "id": "1hru80t2eee",
-          "sourceId": "qbitai",
-          "sourceName": "量子位",
-          "url": "https://www.qbitai.com/2026/11/509663.html",
-          "title": "高难盲测超越GPT-6-Astra与Opus-5！无界前沿开源Fx-Bio-1031，把RSI带进生命科学",
-          "publishedAt": "2026-11-13T07:06:32.000Z"
+          "id": "ih4xwfgfrd",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-14-2",
+          "title": "突发｜OpenAI解散独立机器人团队",
+          "publishedAt": "2026-11-14T08:56:00.000Z"
         },
         {
           "id": "1auvz9wr9u7",
@@ -4451,12 +4407,16 @@
         "reports": 10,
         "sources": [
           "openai",
+          "hackernews",
           "jiqizhixin",
-          "qbitai",
           "36kr-ai",
           "the-decoder"
         ],
-        "firstPublishedAt": "2026-11-13T06:49:00.000Z"
+        "firstPublishedAt": "2026-11-13T17:55:23.000Z",
+        "metrics": {
+          "points": 179,
+          "comments": 73
+        }
       }
     },
     {
@@ -4542,8 +4502,7 @@
       "firstSeenAt": "2026-11-16T02:44:10.077Z",
       "day": "2026-11-16",
       "category": "industry",
-      "score": 15,
-      "dupOf": "90qusvnnx8"
+      "score": 15
     },
     {
       "id": "1h81en1en5u",
