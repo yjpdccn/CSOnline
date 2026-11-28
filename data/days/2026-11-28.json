@@ -2,6 +2,362 @@
   "day": "2026-11-28",
   "items": [
     {
+      "id": "20txbv99awd",
+      "key": "url:36kr.com/p/4088895210158473",
+      "title": "卡帕西用Claude搓出“美国版《文明》”，网友直接玩成全球接力赛",
+      "url": "https://36kr.com/p/4088895210158473",
+      "excerpt": "卡帕西带火AI造国家",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T04:08:42.866Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1,
+      "dupOf": "2f8bk2nhsr4"
+    },
+    {
+      "id": "17u8of1em1d",
+      "key": "url:infoq.cn/article/vD2gdB9ER7QgjD0W5wds",
+      "title": "十年：谷歌更新 SRE 著作，拥抱 AI 时代",
+      "url": "https://www.infoq.cn/article/vD2gdB9ER7QgjD0W5wds?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T03:00:00.000Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 59.6,
+      "ai": {
+        "summary": "谷歌更新 SRE 著作，拥抱 AI 时代。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:53.901Z"
+      },
+      "related": [
+        {
+          "id": "1l03a7e06ys",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50664325",
+          "title": "Claude 是否在破坏机器学习研究任务？",
+          "publishedAt": "2026-11-27T08:28:08.000Z"
+        },
+        {
+          "id": "1vzrpx2fplx",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4088741898058371",
+          "title": "Claude暗中破坏AI研究？开发者怒了",
+          "publishedAt": "2026-11-28T01:52:17.099Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "infoq-cn",
+          "hackernews",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-27T08:28:08.000Z",
+        "metrics": {
+          "points": 647,
+          "comments": 298
+        }
+      }
+    },
+    {
+      "id": "1elxap450h6",
+      "key": "url:leiphone.com/category/industrynews/mFpSlgs8pnwUk320.html",
+      "title": "双城联动首发｜共绩算力云平台，一站式跑通 AI 训推全流程",
+      "url": "https://www.leiphone.com/category/industrynews/mFpSlgs8pnwUk320.html",
+      "excerpt": "一个AI应用从想法到落地，往往要跨过不少门槛：从开发环境搭建、数据预处理，到模型训练微调、推理部署上线，每一步都离不开算力的支撑，也需要计算资源、运行环境、数据存储和任务调度的协同配合。 但对很多企业和开发者来说，这些环节往往分散在不同的平台和系统中：开发环境需要反复配置，数据需要在集群之间迁移，训练任务需要协调资源，模型上线后还要重新部署和管理。研发与运维的时间，常常消耗在环境对齐、资源协调和系统切换上。 能不能让AI开发的每一步，都在同一个平台完成？ 能！共绩科技持续升级平台产品能力，将底层算力调度与上层 AI 训推服务深度结合。11月27日，在深…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T02:40:00.000Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 26,
+      "ai": {
+        "summary": "共绩科技发布共绩算力云平台，一站式完成 AI 训练与推理。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:53.901Z"
+      },
+      "related": [
+        {
+          "id": "2a8k63514dg",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4081887385817988",
+          "title": "水面智能驾驶公司获数千万融资，加速近海无人作业平台落地｜硬氪首发",
+          "publishedAt": "2026-11-28T02:00:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "leiphone",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-28T02:00:00.000Z"
+      }
+    },
+    {
+      "id": "bp9pd1sfo3",
+      "key": "url:36kr.com/newsflashes/4088761430686338",
+      "title": "迪士尼首席技术官在AI初创公司破产案中收到传票",
+      "url": "https://36kr.com/newsflashes/4088761430686338",
+      "excerpt": "Character Technologies的债权人委员会拟向该公司前首席执行官（现任华特迪士尼首席技术官）发出传票，这家传媒巨头正计划从这家娱乐AI初创企业授权部分知识产权。无担保债权人官方委员会周五向美国特拉华州破产法院提交通知，拟在12月4日听证会前传唤卡兰迪普·阿南德作证。阿南德于9月出任迪士尼首任首席技术官。领英信息显示，他在加入迪士尼前，曾在Character.ai任职两年。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T02:04:03.000Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "2a8k63514dg",
+      "key": "url:36kr.com/p/4081887385817988",
+      "title": "水面智能驾驶公司获数千万融资，加速近海无人作业平台落地｜硬氪首发",
+      "url": "https://36kr.com/p/4081887385817988",
+      "excerpt": "累计交付客户近百家。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T02:00:00.000Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1,
+      "dupOf": "1elxap450h6"
+    },
+    {
+      "id": "xnva0lopil",
+      "key": "url:infoq.cn/article/SfAOlgtjHYikEQUKrRVT",
+      "title": "华映资本董事总经理李岩已确认出席 AICon北京，分享AI 落地中值得持续积累的能力",
+      "url": "https://www.infoq.cn/article/SfAOlgtjHYikEQUKrRVT?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T02:00:00.000Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "华映资本李岩将出席 AICon 北京，分享 AI 落地经验。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:53.901Z"
+      }
+    },
+    {
+      "id": "181g9wdkyi3",
+      "key": "url:36kr.com/newsflashes/4088759406836358",
+      "title": "我国加快构建汽车行业智能制造标准体系",
+      "url": "https://36kr.com/newsflashes/4088759406836358",
+      "excerpt": "汽车行业智能制造标准体系建设指南（2026版）征求意见稿27日向行业正式公开。这将有力支撑我国汽车产业迈向新一代智能制造。新指南以汽车智能制造基础共性、关键技术、应用场景、新模式创新、细分行业适配五层架构为骨架，聚焦智能装备互联、工艺管理智能化、高质量数据集、工业大模型与具身智能、物流与供应链协同等重点方向。（央视新闻）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T01:56:00.000Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18,
+      "aiAttempts": 1
+    },
+    {
+      "id": "1vzrpx2fplx",
+      "key": "url:36kr.com/p/4088741898058371",
+      "title": "Claude暗中破坏AI研究？开发者怒了",
+      "url": "https://36kr.com/p/4088741898058371",
+      "excerpt": "Claude，正在暗中破坏你的AI研究！",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T01:52:17.099Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "aiAttempts": 1,
+      "dupOf": "17u8of1em1d"
+    },
+    {
+      "id": "1biqdrz36kw",
+      "key": "url:drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+      "title": "Woman evicted after landlord's AI assistant told her she could delay rent",
+      "url": "https://drmahfouz.substack.com/p/woman-evicted-after-landlords-ai",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-28T01:32:56.000Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 23,
+      "metrics": {
+        "points": 112,
+        "comments": 85
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50673521",
+      "ai": {
+        "title": "房东 AI 助手建议租客推迟交租，租客被驱逐",
+        "summary": "房东的 AI 助手建议租客推迟交租，导致租客最终被驱逐。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:27.276Z"
+      },
+      "dupOf": "1wle9cney1j"
+    },
+    {
+      "id": "1al0vwvxn2s",
+      "key": "url:36kr.com/newsflashes/4088717934950787",
+      "title": "OpenAI反诉苹果窃取商业秘密",
+      "url": "https://36kr.com/newsflashes/4088717934950787",
+      "excerpt": "当地时间11月27日，据报道，OpenAI对苹果提起反诉，指控这家大型科技巨头窃取其商业秘密，并劝阻硬件供应商不要参与OpenAI未来设备的研发。此前，苹果已起诉OpenAI，称其涉嫌挖角苹果员工以获取技术。OpenAI在加利福尼亚州联邦法院提交反诉请求，该公司在法庭文件中表示，苹果通过重新聘用一名曾在OpenAI工作六个月的员工获取了机密信息。报道称，苹果否认利用这名返聘员工获取OpenAI的机密信息，也否认试图抑制人工智能设备制造领域的竞争。苹果在一份声明中表示，OpenAI的反诉是转移对苹果诉讼实质内容注意力的明显企图。（界面）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T01:04:51.000Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 26,
+      "related": [
+        {
+          "id": "1r5dzi30egg",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers/",
+          "title": "OpenAI 反诉苹果窃取商业机密",
+          "publishedAt": "2026-11-27T19:38:37.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-11-27T19:38:37.000Z"
+      },
+      "aiAttempts": 1
+    },
+    {
+      "id": "2asu55jw61c",
+      "key": "url:geekpark.net/news/374621",
+      "title": "AI 硬件竞争白热化，OpenAI 反诉苹果窃密；iPhone 18 量产再度推迟；王兴回应美团与小微试点合作",
+      "url": "http://www.geekpark.net/news/374621",
+      "excerpt": "OpenAI 转守为攻：反诉苹果窃密，喊话「不公平竞争」 当地时间周五（27 日），OpenAI 在美国加利福尼亚州圣何塞联邦法院对苹果提起反诉，指控苹果窃取其商业机密，并阻挠其与硬件供应商合作。 今年 7 月，苹果曾以窃取商业机密为由起诉 OpenAI。随着 OpenAI 反诉，这场官司从苹果一方起诉变成了双方互诉。 据报道，OpenAI 正准备推出一系列新的个人设备，并称这些设备有望「在苹果视为自家地盘的领域胜过苹果」。 据报道，OpenAI 在诉状中称，苹果这样做是为了「不择手段地进行不公平竞争」。OpenAI 还指控苹果利用自身的「规模和财力来…",
+      "lang": "zh",
+      "sourceId": "geekpark",
+      "sourceName": "极客公园",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T00:53:50.000Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "OpenAI 反诉苹果窃密，iPhone 18 量产推迟，王兴回应美团合作。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:53.901Z"
+      }
+    },
+    {
+      "id": "1trr55r4nk5",
+      "key": "url:infoq.cn/article/MrxlyksI1KxvEKLuCg5P",
+      "title": "谷歌发布新一代 TPU，开发者：真正重要的不是芯片",
+      "url": "https://www.infoq.cn/article/MrxlyksI1KxvEKLuCg5P?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T00:00:00.000Z",
+      "dateOnly": true,
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 22,
+      "aiAttempts": 1
+    },
+    {
+      "id": "1l36xmz5tl0",
+      "key": "url:simonwillison.net/2026/Nov/27/datasette-charts",
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "excerpt": "Release: datasette-charts 0.4a0 The new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up w…",
+      "lang": "en",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "sourceGroup": "blogger",
+      "publishedAt": "2026-11-27T23:57:17.000Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-28",
+      "category": "opensource",
+      "score": 14,
+      "ai": {
+        "title": "datasette-charts 0.4a0 发布",
+        "summary": "datasette-charts 插件发布新版本，支持自定义图表类型。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:27.276Z"
+      }
+    },
+    {
+      "id": "1ekxq1kdkx9",
+      "key": "url:oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+      "title": "States sue SpaceX to stop Grok from generating child sex images, revenge porn",
+      "url": "https://www.oag.state.va.us/media-center/news-releases/jay-jones/3162-attorneys-general-jones-and-rayfield-file-suit-against-spacex-parent-company-of-x-xai-and-grok-over-creation-and-promotion-of-child-exploitation-and-non-consensual-images-on-platform",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-27T19:42:25.000Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 31.6,
+      "metrics": {
+        "points": 317,
+        "comments": 176
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50670855",
+      "ai": {
+        "title": "多州起诉 SpaceX 停止 Grok 生成不当内容",
+        "summary": "多州起诉 SpaceX，要求停止 Grov 生成儿童性虐待图像和复仇色情内容。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:27.276Z"
+      }
+    },
+    {
       "id": "1r5dzi30egg",
       "key": "url:the-decoder.com/openai-countersues-apple-over-trade-secret-theft-and-alleged-coercion-of-shared-suppliers",
       "title": "OpenAI countersues Apple over trade secret theft and alleged coercion of shared suppliers",
@@ -22,6 +378,29 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:56:22.876Z"
+      },
+      "dupOf": "1al0vwvxn2s"
+    },
+    {
+      "id": "xp4qo197zx",
+      "key": "url:leiphone.com/category/ai/ilqJyKclWkhaWIps.html",
+      "title": "独家丨瞄准 AI 算力天花板，「闪科光联」完成数千万融资",
+      "url": "https://www.leiphone.com/category/ai/ilqJyKclWkhaWIps.html",
+      "excerpt": "“AI算力的成本中心正在从‘计算’转向‘连接’。” 雷峰网·鲸犀独家获悉，MicroLED 高速光互连芯片与光引擎研发商「闪科光联」近日完成数千万元人民币天使轮融资。 种子轮由励石创投独家投资，天使轮由商汤国香、长石资本、厚雪资本联合领投，险峰长青（K2）、磐霖资本、小苗朗程、柯熙创投等多家产业基金共同跟投。 鲸犀进一步获悉，闪科光联成立于 2026 年 9 月，创始人周秋桂博士毕业于美国弗吉尼亚大学，师从“全球 APD 之父” Joe C. Campbell 院士，回国后任职于华工科技，并从零组建了硅光团队。 此后，周秋桂共同参与创立了熹联光芯，主导…",
+      "lang": "zh",
+      "sourceId": "leiphone",
+      "sourceName": "雷峰网",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-27T19:14:00.000Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "AI 算力连接技术公司「闪科光联」完成数千万元融资。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:53.901Z"
       }
     },
     {
@@ -60,13 +439,20 @@
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-28",
       "category": "industry",
-      "score": 27.9,
+      "score": 29.2,
       "metrics": {
-        "points": 182,
-        "comments": 194
+        "points": 206,
+        "comments": 244
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50669561",
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "我对 AI 感到恐惧",
+        "summary": "作者表达了对人工智能的普遍恐惧和担忧。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:27.276Z"
+      }
     },
     {
       "id": "g4vxtp6me6",

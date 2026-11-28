@@ -1166,39 +1166,40 @@
   },
   "2026-11-28": {
     "day": "2026-11-28",
-    "generatedAt": "2026-11-27T20:02:15.197Z",
-    "itemCount": 110,
-    "mode": "fallback",
-    "overview": "过去 24 小时共收录 110 条 AI 资讯：产品与行业 76 条、Agent 与工具 13 条、论文 10 条、模型发布 8 条、开源项目 2 条、多模态与视频 1 条。以下为按重要性排序的前 5 条。",
+    "generatedAt": "2026-11-28T04:46:38.533Z",
+    "itemCount": 65,
+    "mode": "ai",
+    "model": "glm-4.7-flash",
+    "overview": "谷歌更新SRE著作拥抱AI，OpenAI反诉苹果窃密，商汤大装置获最高评级。",
     "points": [
       {
-        "text": "【模型】腾讯混元发布3D大模型Hy3D 3.6",
+        "text": "谷歌更新SRE著作拥抱AI时代。",
         "refs": [
-          "hyjvu73kyg"
+          "17u8of1em1d"
         ]
       },
       {
-        "text": "【行业】Kimi for Science: More scientific ideas, made possible",
+        "text": "OpenAI反诉苹果窃取商业秘密。",
         "refs": [
-          "by4r2ktedt"
+          "1al0vwvxn2s"
         ]
       },
       {
-        "text": "【Agent】大神Karpathy又整活！Claude 7小时把真实美国搬进《文明》",
+        "text": "商汤大装置获智算能力最高评级。",
+        "refs": [
+          "1p0spvk28rv"
+        ]
+      },
+      {
+        "text": "港科大与混元开源Rosetta解决基模退化。",
+        "refs": [
+          "283azeedcs4"
+        ]
+      },
+      {
+        "text": "Claude 7小时把真实美国搬进《文明》。",
         "refs": [
           "2f8bk2nhsr4"
-        ]
-      },
-      {
-        "text": "【行业】DeepSeek APP突然更新账单，网友：要收费了？",
-        "refs": [
-          "11gbimq2dll"
-        ]
-      },
-      {
-        "text": "【行业】OpenAI 反诉苹果窃取商业机密",
-        "refs": [
-          "1r5dzi30egg"
         ]
       }
     ]

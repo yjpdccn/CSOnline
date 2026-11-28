@@ -23,6 +23,33 @@
       "dupOf": "86hvaz84np"
     },
     {
+      "id": "1v1hac2hzfn",
+      "key": "gh:red2076-arch/waifu2x-image-upscaler-windows",
+      "title": "Red2076-arch/waifu2x-image-upscaler-windows",
+      "url": "https://github.com/Red2076-arch/waifu2x-image-upscaler-windows",
+      "excerpt": "Free AI image upscaler and photo denoiser for Windows powered by Vulkan GPU acceleration and ncnn neural networks.",
+      "lang": "en",
+      "sourceId": "github-new",
+      "sourceName": "GitHub 新星项目",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-27T15:17:56.000Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-27",
+      "category": "opensource",
+      "categoryLocked": true,
+      "score": 19,
+      "metrics": {
+        "stars": 746
+      },
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Windows 平台免费 AI 图像放大和降噪工具。",
+        "category": "opensource",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:27.276Z"
+      }
+    },
+    {
       "id": "1mdp4p8wvp0",
       "key": "url:generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
       "title": "GPT 6.2 Astra Solves a Historical Mystery",
@@ -35,10 +62,10 @@
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
       "category": "model",
-      "score": 30.8,
+      "score": 39.6,
       "metrics": {
-        "points": 161,
-        "comments": 64
+        "points": 375,
+        "comments": 236
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50667744",
       "dupOf": "25754w8325h"
@@ -60,10 +87,11 @@
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "SAP 计划裁员至少 1 万人以进行 AI 转型重组。",
+        "title": "SAP 计划裁员至少 1 万人以转向 AI",
+        "summary": "SAP 计划裁员至少 1 万人，作为其向 AI 转型的一部分。",
         "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-27T19:56:56.158Z"
+        "at": "2026-11-28T04:45:27.276Z"
       }
     },
     {
@@ -104,14 +132,15 @@
       "publishedAt": "2026-11-27T14:00:00.000Z",
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
-      "category": "agent",
+      "category": "industry",
       "score": 15,
       "aiAttempts": 1,
       "ai": {
-        "summary": "Android DIY 小部件功能让用户能自定义界面，AI 可帮助实时查询公交信息。",
-        "category": "agent",
+        "title": "Android DIY 小部件是 vibe-coding 的乐趣",
+        "summary": "介绍 Android 平台上 DIY 小部件的乐趣。",
+        "category": "industry",
         "model": "glm-4.7-flash",
-        "at": "2026-11-27T19:56:56.158Z"
+        "at": "2026-11-28T04:45:27.276Z"
       }
     },
     {
@@ -278,14 +307,22 @@
       "publishedAt": "2026-11-27T12:03:11.000Z",
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
-      "category": "industry",
-      "score": 26.8,
+      "category": "model",
+      "score": 33.4,
       "metrics": {
-        "points": 173,
-        "comments": 140
+        "points": 182,
+        "comments": 155
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50665920",
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "Kimi for Science：让更多科学想法成为可能",
+        "summary": "Kimi for Science 平台旨在促进更多科学想法的产生。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:27.276Z"
+      },
+      "dupOf": "1osnbnvr6s1"
     },
     {
       "id": "mmd2484cwg",
@@ -306,7 +343,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:59:32.231Z"
-      }
+      },
+      "dupOf": "1p0spvk28rv"
     },
     {
       "id": "1p0spvk28rv",
@@ -322,12 +360,30 @@
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "商汤大装置获Token工厂智算能力最高评级。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:58:02.731Z"
+      },
+      "related": [
+        {
+          "id": "mmd2484cwg",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/FDR8k5bNu9eWklHh9NmI?utm_source=rss&utm_medium=article",
+          "title": "股价破发、用户抱怨、创始人套现，Anthropic CEO 深夜回应：我从没想过让 AI 统治人类",
+          "publishedAt": "2026-11-27T11:56:26.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "qbitai",
+          "infoq-cn"
+        ],
+        "firstPublishedAt": "2026-11-27T11:18:24.000Z"
       }
     },
     {
@@ -350,7 +406,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:58:44.869Z"
-      }
+      },
+      "dupOf": "1ip00zh0kzz"
     },
     {
       "id": "1ip00zh0kzz",
@@ -366,12 +423,30 @@
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "AI算力基础设施盈利分化加剧，不同主体盈利模式差异明显。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:58:02.731Z"
+      },
+      "related": [
+        {
+          "id": "jya6ygk2pe",
+          "sourceId": "36kr-flash",
+          "sourceName": "36氪快讯",
+          "url": "https://36kr.com/newsflashes/4087899696298369",
+          "title": "明阳智能：终止发行股份购买德华芯片100%股权",
+          "publishedAt": "2026-11-27T11:17:42.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "36kr-flash"
+        ],
+        "firstPublishedAt": "2026-11-27T11:15:15.017Z"
       }
     },
     {
@@ -388,10 +463,10 @@
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
       "category": "industry",
-      "score": 23.8,
+      "score": 24.6,
       "metrics": {
-        "points": 108,
-        "comments": 140
+        "points": 118,
+        "comments": 155
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50665488",
       "ai": {
@@ -400,7 +475,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:56:22.876Z"
-      }
+      },
+      "dupOf": "1we2ucwxvcq"
     },
     {
       "id": "1we2ucwxvcq",
@@ -416,12 +492,34 @@
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
       "category": "industry",
-      "score": 18,
+      "score": 40.6,
       "ai": {
         "summary": "字节跳动澄清与三人行AI合作被夸大。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:58:44.869Z"
+      },
+      "related": [
+        {
+          "id": "4qzmc39stj",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50665488",
+          "title": "AI 即将使在线安全变得无用，数学家担忧",
+          "publishedAt": "2026-11-27T11:09:04.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-27T11:05:12.900Z",
+        "metrics": {
+          "points": 118,
+          "comments": 155
+        }
       }
     },
     {
@@ -447,10 +545,18 @@
           "url": "https://36kr.com/p/4087901307353735",
           "title": "大神Karpathy又整活，Claude 7小时把真实美国搬进《文明》",
           "publishedAt": "2026-11-27T12:33:56.015Z"
+        },
+        {
+          "id": "20txbv99awd",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4088895210158473",
+          "title": "卡帕西用Claude搓出“美国版《文明》”，网友直接玩成全球接力赛",
+          "publishedAt": "2026-11-28T04:08:42.866Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "jiqizhixin",
           "36kr-ai"
@@ -530,7 +636,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:59:32.231Z"
-      }
+      },
+      "dupOf": "1xlhg8ounak"
     },
     {
       "id": "eiqpvaen5e",
@@ -638,7 +745,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:58:44.869Z"
-      }
+      },
+      "dupOf": "283azeedcs4"
     },
     {
       "id": "1xlhg8ounak",
@@ -654,12 +762,30 @@
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "OpenAI和Anthropic对AI设限的对象和方式存在差异。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:58:02.731Z"
+      },
+      "related": [
+        {
+          "id": "1bset3s3afd",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/deKZOTSuqBy0T3VYMpTE?utm_source=rss&utm_medium=article",
+          "title": "“观测未来大会”前瞻 | AI 时代，可观测性将迎来怎样的进化？",
+          "publishedAt": "2026-11-27T10:53:18.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "infoq-cn"
+        ],
+        "firstPublishedAt": "2026-11-27T10:24:29.741Z"
       }
     },
     {
@@ -836,7 +962,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:58:44.869Z"
-      }
+      },
+      "dupOf": "5204lwwwyp"
     },
     {
       "id": "5204lwwwyp",
@@ -855,12 +982,30 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "具身智能公司推出新产品，解决机器人精细操作难题。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:58:02.731Z"
+      },
+      "related": [
+        {
+          "id": "avonsl93eq",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4087750298244745",
+          "title": "13家人形机器人企业上市最新进展",
+          "publishedAt": "2026-11-27T09:13:52.871Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "36kr-ai"
+        ],
+        "firstPublishedAt": "2026-11-27T09:00:00.000Z"
       }
     },
     {
@@ -880,12 +1025,30 @@
       "keywords": [
         "图像生成"
       ],
-      "score": 22,
+      "score": 30,
       "ai": {
         "summary": "港科大与混元开源 Rosetta，旨在解决基模重训时能力退化的问题。",
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:56:56.158Z"
+      },
+      "related": [
+        {
+          "id": "1lgndmilk0k",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/industrynews/iJ0tw7k1kHDs5zjT.html",
+          "title": "美团2026年三季报：营收1156亿元，AI经营工作台“妙手”已服务200万商家",
+          "publishedAt": "2026-11-27T10:28:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "leiphone"
+        ],
+        "firstPublishedAt": "2026-11-27T09:00:00.000Z"
       }
     },
     {
@@ -991,14 +1154,22 @@
       "publishedAt": "2026-11-27T08:28:08.000Z",
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
-      "category": "industry",
-      "score": 34.4,
+      "category": "agent",
+      "score": 35.6,
       "metrics": {
-        "points": 428,
-        "comments": 218
+        "points": 647,
+        "comments": 298
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50664325",
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "Claude 是否在破坏机器学习研究任务？",
+        "summary": "开发者质疑 Claude 在机器学习研究任务中存在破坏行为。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:27.276Z"
+      },
+      "dupOf": "17u8of1em1d"
     },
     {
       "id": "1qwf1v96tik",
@@ -1041,7 +1212,8 @@
         "category": "model",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:56:56.158Z"
-      }
+      },
+      "dupOf": "fm65xy6b4f"
     },
     {
       "id": "x9tnfix6v6",
@@ -1315,14 +1487,22 @@
       "publishedAt": "2026-11-27T06:44:34.000Z",
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
-      "category": "industry",
-      "score": 35.3,
+      "category": "agent",
+      "score": 35.5,
       "metrics": {
-        "points": 621,
-        "comments": 262
+        "points": 692,
+        "comments": 286
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50663595",
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "你的 AI 在背后议论你的群聊",
+        "summary": "介绍一个 AI 可以在背后议论用户的群聊应用。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:27.276Z"
+      },
+      "dupOf": "6j4y2vuaxm"
     },
     {
       "id": "bh4b5ck16l",
@@ -1515,14 +1695,22 @@
       "publishedAt": "2026-11-27T04:56:18.000Z",
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
-      "category": "industry",
-      "score": 25.4,
+      "category": "agent",
+      "score": 27.9,
       "metrics": {
-        "points": 149,
-        "comments": 117
+        "points": 189,
+        "comments": 180
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50662933",
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "Claude 的拟人化形象是什么？及其他问题",
+        "summary": "讨论关于 Claude 拟人化形象的问题。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:27.276Z"
+      },
+      "dupOf": "1sl8hm54d7y"
     },
     {
       "id": "1ixcrtcj9lw",
@@ -1662,7 +1850,7 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 32,
+      "score": 40,
       "ai": {
         "summary": "蚂蚁灵波发布空间记忆模型，提升机器人学习效率。",
         "category": "model",
@@ -1677,13 +1865,22 @@
           "url": "https://www.qbitai.com/2026/11/513211.html",
           "title": "蚂蚁灵波发布LingBot-Map 2.0，模型自己修正“空间记忆”，把地图画更准",
           "publishedAt": "2026-11-27T04:05:18.000Z"
+        },
+        {
+          "id": "ckv2scs1y0",
+          "sourceId": "infoq-cn",
+          "sourceName": "InfoQ 中文",
+          "url": "https://www.infoq.cn/article/zRubhYcrBMTrOvzjlPQN?utm_source=rss&utm_medium=article",
+          "title": "瞄准“走偏”与“健忘”两道难题：蚂蚁灵波发布两大模型，补齐机器人空间导航能力",
+          "publishedAt": "2026-11-27T08:15:06.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 3,
         "sources": [
           "jiqizhixin",
-          "qbitai"
+          "qbitai",
+          "infoq-cn"
         ],
         "firstPublishedAt": "2026-11-27T04:01:00.000Z"
       }
@@ -1774,12 +1971,34 @@
       "firstSeenAt": "2026-11-27T05:02:31.151Z",
       "day": "2026-11-27",
       "category": "paper",
-      "score": 18,
+      "score": 51.5,
       "ai": {
         "summary": "Anthropic 研究揭示 AI 假遗忘现象，知识常被隐藏。",
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T05:04:01.232Z"
+      },
+      "related": [
+        {
+          "id": "1n0nw0cshbm",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50663595",
+          "title": "你的 AI 在背后议论你的群聊",
+          "publishedAt": "2026-11-27T06:44:34.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-27T03:55:55.634Z",
+        "metrics": {
+          "points": 692,
+          "comments": 286
+        }
       }
     },
     {
@@ -1796,12 +2015,34 @@
       "firstSeenAt": "2026-11-27T05:02:31.151Z",
       "day": "2026-11-27",
       "category": "paper",
-      "score": 18,
+      "score": 43.9,
       "ai": {
         "summary": "NeurIPS 2026 论文探讨自动驾驶 VLA 轨迹模仿学习目标。",
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T05:04:01.232Z"
+      },
+      "related": [
+        {
+          "id": "28ozhqgluvp",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50662933",
+          "title": "Claude 的拟人化形象是什么？及其他问题",
+          "publishedAt": "2026-11-27T04:56:18.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-27T03:55:00.000Z",
+        "metrics": {
+          "points": 189,
+          "comments": 180
+        }
       }
     },
     {
@@ -2267,12 +2508,34 @@
       "firstSeenAt": "2026-11-27T05:02:31.151Z",
       "day": "2026-11-27",
       "category": "industry",
-      "score": 18,
+      "score": 43.4,
       "ai": {
         "summary": "月之暗面宣布Kimi科研支持计划开放申请。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T05:04:41.656Z"
+      },
+      "related": [
+        {
+          "id": "by4r2ktedt",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50665920",
+          "title": "Kimi for Science：让更多科学想法成为可能",
+          "publishedAt": "2026-11-27T12:03:11.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-27T02:31:35.059Z",
+        "metrics": {
+          "points": 182,
+          "comments": 155
+        }
       }
     },
     {
@@ -2543,12 +2806,30 @@
       "firstSeenAt": "2026-11-27T05:02:31.151Z",
       "day": "2026-11-27",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "美国年轻人恋爱新观：宁可单身，也不和搞AI的处对象。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T05:04:41.656Z"
+      },
+      "related": [
+        {
+          "id": "1bydlsev2uc",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/microsoft-details-how-state-backed-hackers-use-the-artex-ai-framework-to-automate-cyberattacks/",
+          "title": "微软详解 ARTEX AI 框架如何被黑客自动化攻击",
+          "publishedAt": "2026-11-26T11:30:06.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "the-decoder"
+        ],
+        "firstPublishedAt": "2026-11-26T11:30:06.000Z"
       }
     },
     {
@@ -2649,10 +2930,10 @@
       "day": "2026-11-27",
       "category": "paper",
       "categoryLocked": true,
-      "score": 27.3,
+      "score": 27.5,
       "metrics": {
-        "upvotes": 126,
-        "comments": 2
+        "upvotes": 128,
+        "comments": 3
       },
       "aiAttempts": 1,
       "ai": {
@@ -2684,7 +2965,8 @@
         "category": "multimodal",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:56:22.876Z"
-      }
+      },
+      "dupOf": "1fzqjcz6j8i"
     },
     {
       "id": "1ll4n05ja28",
@@ -2701,10 +2983,10 @@
       "day": "2026-11-27",
       "category": "paper",
       "categoryLocked": true,
-      "score": 21.9,
+      "score": 22.1,
       "metrics": {
-        "upvotes": 57,
-        "comments": 4
+        "upvotes": 58,
+        "comments": 5
       },
       "ai": {
         "title": "预测排行榜能建立什么：零样本时间序列模型的分辨率报告",
@@ -2732,10 +3014,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 25.7,
+      "score": 26,
       "metrics": {
-        "upvotes": 101,
-        "comments": 2
+        "upvotes": 104,
+        "comments": 3
       },
       "dupOf": "1sz1qw9aa41"
     },
@@ -2759,10 +3041,10 @@
         "AI 编程",
         "视频生成"
       ],
-      "score": 21.1,
+      "score": 22.3,
       "metrics": {
-        "upvotes": 50,
-        "comments": 4
+        "upvotes": 60,
+        "comments": 5
       },
       "ai": {
         "title": "用代码解决视觉问题：编码 Agent 比视频模型更擅长视觉推理",
@@ -2809,8 +3091,8 @@
       "category": "opensource",
       "score": 36,
       "metrics": {
-        "points": 1028,
-        "comments": 488
+        "points": 1107,
+        "comments": 509
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50660180",
       "aiAttempts": 2
@@ -2837,7 +3119,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:56:22.876Z"
-      }
+      },
+      "dupOf": "1wle9cney1j"
     },
     {
       "id": "1n86ke1tr9s",
@@ -2874,14 +3157,21 @@
       "publishedAt": "2026-11-26T19:04:50.000Z",
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
-      "category": "industry",
-      "score": 26.1,
+      "category": "paper",
+      "score": 26.4,
       "metrics": {
-        "points": 138,
+        "points": 144,
         "comments": 13
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50658498",
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "title": "机器学习中的不确定性介绍",
+        "summary": "介绍机器学习中的不确定性概念。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:27.276Z"
+      }
     },
     {
       "id": "7tbs1np25v",
@@ -2913,10 +3203,10 @@
       "firstSeenAt": "2026-11-27T05:02:31.151Z",
       "day": "2026-11-27",
       "category": "industry",
-      "score": 31.8,
+      "score": 31.9,
       "metrics": {
-        "points": 317,
-        "comments": 192
+        "points": 321,
+        "comments": 195
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50657307",
       "aiAttempts": 2
@@ -2937,10 +3227,10 @@
       "keywords": [
         "本地部署"
       ],
-      "score": 32.8,
+      "score": 33.1,
       "metrics": {
-        "points": 428,
-        "comments": 103
+        "points": 440,
+        "comments": 107
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50657265",
       "aiAttempts": 1,
@@ -2950,7 +3240,8 @@
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:56:22.876Z"
-      }
+      },
+      "dupOf": "1fzqjcz6j8i"
     },
     {
       "id": "4ljs70a1s",

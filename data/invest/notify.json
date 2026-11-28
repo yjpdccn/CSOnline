@@ -1,5 +1,20 @@
 {
   "sent": {
+    "alert:move:a500:2026-11-27": {
+      "hash": "move:a500:2026-11-27",
+      "label": "中证A500 11月27日上涨 5.2%",
+      "kind": "event"
+    },
+    "alert:move:csi300:2026-11-27": {
+      "hash": "move:csi300:2026-11-27",
+      "label": "沪深300 11月27日上涨 4.2%",
+      "kind": "event"
+    },
+    "alert:policy:1rn6olw5t57": {
+      "hash": "policy:1rn6olw5t57",
+      "label": "中国人民银行发布《中国金融稳定报告（2026）》",
+      "kind": "event"
+    },
     "alert:policy:1lrb1o6djuh": {
       "hash": "policy:1lrb1o6djuh",
       "label": "商务部：坚决反对美对中国等经济体加征301关税",
@@ -63,6 +78,5 @@
   },
   "issueNumber": 1,
   "channel": "serverchan",
-  "lastSentAt": "2026-11-26T08:58:11.754Z",
-  "held": "2026-11-27T19:55:44.684Z"
+  "lastSentAt": "2026-11-28T04:44:30.684Z"
 }

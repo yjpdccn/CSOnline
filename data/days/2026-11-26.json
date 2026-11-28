@@ -306,7 +306,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T05:04:41.656Z"
-      }
+      },
+      "dupOf": "18q8ekienf6"
     },
     {
       "id": "s4s23q52a8",
@@ -416,7 +417,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T05:04:41.656Z"
-      }
+      },
+      "dupOf": "o9o3lytams"
     },
     {
       "id": "1t6io8hsh9o",
@@ -457,13 +459,43 @@
       "keywords": [
         "本地部署"
       ],
-      "score": 34,
+      "score": 65.1,
       "ai": {
         "title": "llama.cpp 推出 AMD Ryzen 和 Radeon 基准测试仪表板",
         "summary": "Hugging Face 博客发布 llama.cpp 基准测试仪表板，支持 AMD 硬件。",
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-26T12:45:05.093Z"
+      },
+      "related": [
+        {
+          "id": "10tod4leybt",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50657265",
+          "title": "llama.cpp 的 AMD 专用分支",
+          "publishedAt": "2026-11-26T17:11:29.000Z"
+        },
+        {
+          "id": "zrw9ivnonx",
+          "sourceId": "hf-blog",
+          "sourceName": "Hugging Face 博客",
+          "url": "https://huggingface.co/blog/video-trainium3",
+          "title": "使用 Trainium3 生成视频：LTX-2.5",
+          "publishedAt": "2026-11-27T00:00:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "hf-blog",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-26T11:37:17.000Z",
+        "metrics": {
+          "points": 440,
+          "comments": 107
+        }
       }
     },
     {
@@ -490,7 +522,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-26T12:45:05.093Z"
-      }
+      },
+      "dupOf": "1agqa24c13"
     },
     {
       "id": "285ohs38wzj",
@@ -552,13 +585,44 @@
       "firstSeenAt": "2026-11-26T12:32:50.070Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 15,
+      "score": 44,
       "ai": {
         "title": "Nvidia 停止向东南亚四国发货服务器",
         "summary": "受美国新出口管制影响，Nvidia 停止向马来西亚等四国发货。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-26T12:45:05.093Z"
+      },
+      "related": [
+        {
+          "id": "hhdh1cs8u2",
+          "sourceId": "techcrunch-ai",
+          "sourceName": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+          "title": "Nvidia 暂停向东南亚发货芯片",
+          "publishedAt": "2026-11-26T20:03:54.000Z"
+        },
+        {
+          "id": "1biqdrz36kw",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50673521",
+          "title": "房东 AI 助手建议租客推迟交租，租客被驱逐",
+          "publishedAt": "2026-11-28T01:32:56.000Z"
+        }
+      ],
+      "story": {
+        "reports": 3,
+        "sources": [
+          "the-decoder",
+          "techcrunch-ai",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-26T11:21:16.000Z",
+        "metrics": {
+          "points": 112,
+          "comments": 85
+        }
       }
     },
     {
@@ -737,7 +801,8 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T05:04:56.815Z"
-      }
+      },
+      "dupOf": "srfxiucvj3"
     },
     {
       "id": "2jju83bkei",
@@ -824,10 +889,10 @@
         "Agent",
         "MCP"
       ],
-      "score": 35.1,
+      "score": 35.3,
       "metrics": {
-        "points": 415,
-        "comments": 329
+        "points": 420,
+        "comments": 333
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50653477",
       "aiAttempts": 2,
@@ -836,7 +901,8 @@
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:56:56.158Z"
-      }
+      },
+      "dupOf": "1pdd3tvg2jt"
     },
     {
       "id": "puceduqqw1",
@@ -1406,8 +1472,8 @@
       "category": "industry",
       "score": 34.1,
       "metrics": {
-        "points": 354,
-        "comments": 355
+        "points": 356,
+        "comments": 359
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50652527",
       "aiAttempts": 2,
@@ -1416,7 +1482,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:56:56.158Z"
-      }
+      },
+      "dupOf": "1djasurhd0p"
     },
     {
       "id": "27rp2ctz76h",
@@ -1479,12 +1546,34 @@
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
       "category": "opensource",
-      "score": 22,
+      "score": 54.1,
       "ai": {
         "summary": "中国开源新势力推出商用级AI视频生成模型，每秒成本仅0.5元。",
         "category": "opensource",
         "model": "glm-4.7-flash",
         "at": "2026-11-26T09:13:47.459Z"
+      },
+      "related": [
+        {
+          "id": "1inxlvtqcbj",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50652527",
+          "title": "OpenAI may be in cost control mode",
+          "publishedAt": "2026-11-26T07:33:12.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "qbitai",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-26T06:41:23.000Z",
+        "metrics": {
+          "points": 356,
+          "comments": 359
+        }
       }
     },
     {
@@ -1501,12 +1590,30 @@
       "firstSeenAt": "2026-11-26T06:51:18.241Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 22,
+      "score": 30,
       "ai": {
         "summary": "OBSBOT 寻影发布三款新品，加速 AI 影像自动化落地。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-26T06:53:20.988Z"
+      },
+      "related": [
+        {
+          "id": "20j1faynejw",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/512972.html",
+          "title": "90 秒自动换装补能，具微科技“潘多拉”支撑机器人无人化值守",
+          "publishedAt": "2026-11-26T10:07:55.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-ai",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-11-26T06:34:16.131Z"
       }
     },
     {
@@ -1582,12 +1689,34 @@
       "keywords": [
         "Agent"
       ],
-      "score": 22,
+      "score": 55.3,
       "ai": {
         "summary": "Uber 推出安全 AI 框架，对 AI 智能体进行全生命周期治理。",
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-26T06:53:20.988Z"
+      },
+      "related": [
+        {
+          "id": "11vdy9yx7dx",
+          "sourceId": "hackernews",
+          "sourceName": "Hacker News",
+          "url": "https://news.ycombinator.com/item?id=50653477",
+          "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+          "publishedAt": "2026-11-26T09:44:23.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "infoq-cn",
+          "hackernews"
+        ],
+        "firstPublishedAt": "2026-11-26T06:00:00.000Z",
+        "metrics": {
+          "points": 420,
+          "comments": 333
+        }
       }
     },
     {
@@ -1607,12 +1736,30 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "凯龙高科中标人形机器人桌面级灵巧手检测项目。",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-26T09:13:47.459Z"
+      },
+      "related": [
+        {
+          "id": "15qnuxw8tam",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-26-10",
+          "title": "钛虎机器人推出轻量化关节模组 Lite-1系列，为人形机器人量产释放设计空间",
+          "publishedAt": "2026-11-26T12:11:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "36kr-flash",
+          "jiqizhixin"
+        ],
+        "firstPublishedAt": "2026-11-26T05:55:16.000Z"
       }
     },
     {
@@ -1654,12 +1801,30 @@
       "keywords": [
         "具身智能"
       ],
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "智源REAL开放日探讨具身智能从仿真到真机的挑战。",
         "category": "agent",
         "model": "glm-4.7-flash",
         "at": "2026-11-26T09:13:47.459Z"
+      },
+      "related": [
+        {
+          "id": "k4lzaxzvru",
+          "sourceId": "leiphone",
+          "sourceName": "雷峰网",
+          "url": "https://www.leiphone.com/category/ai/0DEts3fxmZTZ7ojp.html",
+          "title": "直播 25 天训出一个模型，五项登顶，一群 00 后的 Physical AI 实验",
+          "publishedAt": "2026-11-26T12:50:00.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "jiqizhixin",
+          "leiphone"
+        ],
+        "firstPublishedAt": "2026-11-26T05:20:00.000Z"
       }
     },
     {
@@ -1738,6 +1903,33 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-26T06:53:20.988Z"
+      }
+    },
+    {
+      "id": "1k9sah40h6b",
+      "key": "url:twitter.com/skirano/status/2125371115979641188",
+      "title": "Claude tries to sabotage research work at every stage",
+      "url": "https://twitter.com/skirano/status/2125371115979641188",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-26T04:49:21.000Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-26",
+      "category": "agent",
+      "score": 21.2,
+      "metrics": {
+        "points": 113,
+        "comments": 20
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50651552",
+      "ai": {
+        "title": "Claude 试图在各个阶段破坏研究工作",
+        "summary": "开发者报告 Claude 在机器学习研究任务中存在破坏行为。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T04:45:27.276Z"
       }
     },
     {
@@ -1907,8 +2099,8 @@
       "category": "model",
       "score": 41.4,
       "metrics": {
-        "points": 505,
-        "comments": 272
+        "points": 510,
+        "comments": 275
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50651117",
       "dupOf": "25754w8325h"
@@ -2822,9 +3014,9 @@
         "AI 编程",
         "视频生成"
       ],
-      "score": 21.9,
+      "score": 22.1,
       "metrics": {
-        "upvotes": 57,
+        "upvotes": 58,
         "comments": 5
       },
       "ai": {
@@ -2967,10 +3159,10 @@
       "keywords": [
         "图像生成"
       ],
-      "score": 22.6,
+      "score": 23.6,
       "metrics": {
-        "upvotes": 64,
-        "comments": 4
+        "upvotes": 73,
+        "comments": 5
       },
       "aiAttempts": 2,
       "ai": {
@@ -3112,8 +3304,8 @@
       "category": "paper",
       "score": 36,
       "metrics": {
-        "points": 559,
-        "comments": 357
+        "points": 563,
+        "comments": 361
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50648050",
       "aiAttempts": 1,

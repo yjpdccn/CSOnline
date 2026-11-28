@@ -776,9 +776,9 @@
       "keywords": [
         "AI 编程"
       ],
-      "score": 18.5,
+      "score": 20.6,
       "metrics": {
-        "stars": 671
+        "stars": 998
       }
     },
     {
@@ -1392,6 +1392,27 @@
         "model": "glm-4.7-flash",
         "at": "2026-11-23T22:37:29.646Z"
       }
+    },
+    {
+      "id": "1ngh48nm14u",
+      "key": "hf:baidu/ernie-5.5-flash-preview",
+      "title": "baidu/ERNIE-5.5-Flash-Preview",
+      "url": "https://huggingface.co/baidu/ERNIE-5.5-Flash-Preview",
+      "excerpt": "Hugging Face 趋势榜第 12 名 · 文本生成 · 393 个赞",
+      "lang": "zh",
+      "sourceId": "hf-models",
+      "sourceName": "HF 热门模型",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-23T09:00:29.000Z",
+      "firstSeenAt": "2026-11-28T04:44:30.684Z",
+      "day": "2026-11-23",
+      "category": "model",
+      "categoryLocked": true,
+      "score": 27.5,
+      "metrics": {
+        "likes": 393
+      },
+      "skipLlm": true
     },
     {
       "id": "24fd8lt5jbr",
@@ -3294,9 +3315,9 @@
       "keywords": [
         "Agent"
       ],
-      "score": 19.5,
+      "score": 19.6,
       "metrics": {
-        "stars": 823
+        "stars": 836
       },
       "ai": {
         "title": "safe-anything：Rust 编写的漏洞扫描器",
