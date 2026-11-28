@@ -413,8 +413,7 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-16T21:03:08.255Z"
-      },
-      "dupOf": "20c4yjveot6"
+      }
     },
     {
       "id": "13stzzcet10",
@@ -1225,7 +1224,7 @@
       "firstSeenAt": "2026-11-16T20:58:41.846Z",
       "day": "2026-11-16",
       "category": "industry",
-      "score": 64,
+      "score": 30,
       "ai": {
         "summary": "开发者对AI生成代码开源产生分歧，Anthropic对此表示反对。",
         "category": "industry",
@@ -1233,14 +1232,6 @@
         "at": "2026-11-16T21:03:08.255Z"
       },
       "related": [
-        {
-          "id": "27a1f2en6j1",
-          "sourceId": "hackernews",
-          "sourceName": "Hacker News",
-          "url": "https://news.ycombinator.com/item?id=50507303",
-          "title": "所有 AI 生成的代码都应开源",
-          "publishedAt": "2026-11-15T14:46:58.000Z"
-        },
         {
           "id": "s1bbl6ms8z",
           "sourceId": "infoq-cn",
@@ -1251,17 +1242,12 @@
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 2,
         "sources": [
           "36kr-ai",
-          "hackernews",
           "infoq-cn"
         ],
-        "firstPublishedAt": "2026-11-15T14:46:58.000Z",
-        "metrics": {
-          "points": 1278,
-          "comments": 665
-        }
+        "firstPublishedAt": "2026-11-16T10:00:11.526Z"
       }
     },
     {
@@ -2748,7 +2734,7 @@
       ],
       "score": 26.1,
       "metrics": {
-        "stars": 13637,
+        "stars": 13838,
         "starsToday": 540
       },
       "ai": {
@@ -2807,7 +2793,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 26295,
+        "stars": 27072,
         "starsToday": 2322
       },
       "ai": {
@@ -3760,8 +3746,7 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-16T02:48:58.393Z"
-      },
-      "dupOf": "20c4yjveot6"
+      }
     },
     {
       "id": "coad34quga",
@@ -3777,16 +3762,8 @@
       "firstSeenAt": "2026-11-16T02:44:10.077Z",
       "day": "2026-11-16",
       "category": "industry",
-      "score": 26,
+      "score": 18,
       "related": [
-        {
-          "id": "1gmduu0gxxs",
-          "sourceId": "the-decoder",
-          "sourceName": "The Decoder",
-          "url": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
-          "title": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them",
-          "publishedAt": "2026-11-15T15:42:03.000Z"
-        },
         {
           "id": "hqi4r47zku",
           "sourceId": "36kr-ai",
@@ -3797,12 +3774,11 @@
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 2,
         "sources": [
-          "36kr-ai",
-          "the-decoder"
+          "36kr-ai"
         ],
-        "firstPublishedAt": "2026-11-15T15:42:03.000Z"
+        "firstPublishedAt": "2026-11-16T00:22:09.950Z"
       },
       "aiAttempts": 1,
       "ai": {
@@ -4306,22 +4282,6 @@
       },
       "related": [
         {
-          "id": "1auvz9wr9u7",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4069381314303105",
-          "title": "OpenAI机器人团队突然解散，GPT-6 Astra把行业一锅端了",
-          "publishedAt": "2026-11-15T06:00:57.000Z"
-        },
-        {
-          "id": "dn57hjadmu",
-          "sourceId": "jiqizhixin",
-          "sourceName": "机器之心",
-          "url": "https://www.jiqizhixin.com/articles/2026-11-15-7",
-          "title": "逼近GPT-6 Astra！韩松团队让Qwen3.8-27B在5090上操作机械臂，现已开源",
-          "publishedAt": "2026-11-15T08:58:00.000Z"
-        },
-        {
           "id": "228btmsidl2",
           "sourceId": "36kr-ai",
           "sourceName": "36氪 AI",
@@ -4363,14 +4323,14 @@
         }
       ],
       "story": {
-        "reports": 8,
+        "reports": 6,
         "sources": [
           "openai",
           "36kr-ai",
-          "jiqizhixin",
-          "the-decoder"
+          "the-decoder",
+          "jiqizhixin"
         ],
-        "firstPublishedAt": "2026-11-15T06:00:57.000Z"
+        "firstPublishedAt": "2026-11-15T22:00:01.000Z"
       }
     },
     {

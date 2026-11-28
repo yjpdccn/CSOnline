@@ -37,11 +37,11 @@
       "day": "2026-11-27",
       "category": "opensource",
       "categoryLocked": true,
-      "score": 19,
+      "score": 21.2,
       "metrics": {
-        "stars": 746
+        "stars": 1117
       },
-      "aiAttempts": 1,
+      "aiAttempts": 2,
       "ai": {
         "summary": "Windows 平台免费 AI 图像放大和降噪工具。",
         "category": "opensource",
@@ -308,10 +308,10 @@
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
       "category": "model",
-      "score": 33.4,
+      "score": 33.6,
       "metrics": {
-        "points": 182,
-        "comments": 155
+        "points": 187,
+        "comments": 160
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50665920",
       "aiAttempts": 1,
@@ -463,10 +463,10 @@
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
       "category": "industry",
-      "score": 24.6,
+      "score": 24.7,
       "metrics": {
-        "points": 118,
-        "comments": 155
+        "points": 119,
+        "comments": 164
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50665488",
       "ai": {
@@ -492,7 +492,7 @@
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
       "category": "industry",
-      "score": 40.6,
+      "score": 40.7,
       "ai": {
         "summary": "字节跳动澄清与三人行AI合作被夸大。",
         "category": "industry",
@@ -517,8 +517,8 @@
         ],
         "firstPublishedAt": "2026-11-27T11:05:12.900Z",
         "metrics": {
-          "points": 118,
-          "comments": 155
+          "points": 119,
+          "comments": 164
         }
       }
     },
@@ -536,7 +536,7 @@
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
       "category": "agent",
-      "score": 26,
+      "score": 34,
       "related": [
         {
           "id": "kxaqi7zyeu",
@@ -553,13 +553,22 @@
           "url": "https://36kr.com/p/4088895210158473",
           "title": "卡帕西用Claude搓出“美国版《文明》”，网友直接玩成全球接力赛",
           "publishedAt": "2026-11-28T04:08:42.866Z"
+        },
+        {
+          "id": "14bghvpjva2",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/513428.html",
+          "title": "亏贼！卡帕西用Claude搓出“美国版《文明》”，网友直接玩成全球接力赛",
+          "publishedAt": "2026-11-28T05:54:46.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "jiqizhixin",
-          "36kr-ai"
+          "36kr-ai",
+          "qbitai"
         ],
         "firstPublishedAt": "2026-11-27T11:01:00.000Z"
       },
@@ -1155,10 +1164,10 @@
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
       "category": "agent",
-      "score": 35.6,
+      "score": 35.9,
       "metrics": {
-        "points": 647,
-        "comments": 298
+        "points": 764,
+        "comments": 334
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50664325",
       "aiAttempts": 1,
@@ -1490,8 +1499,8 @@
       "category": "agent",
       "score": 35.5,
       "metrics": {
-        "points": 692,
-        "comments": 286
+        "points": 727,
+        "comments": 292
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50663595",
       "aiAttempts": 1,
@@ -1696,10 +1705,10 @@
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
       "category": "agent",
-      "score": 27.9,
+      "score": 28.9,
       "metrics": {
-        "points": 189,
-        "comments": 180
+        "points": 207,
+        "comments": 205
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50662933",
       "aiAttempts": 1,
@@ -1996,8 +2005,8 @@
         ],
         "firstPublishedAt": "2026-11-27T03:55:55.634Z",
         "metrics": {
-          "points": 692,
-          "comments": 286
+          "points": 727,
+          "comments": 292
         }
       }
     },
@@ -2015,7 +2024,7 @@
       "firstSeenAt": "2026-11-27T05:02:31.151Z",
       "day": "2026-11-27",
       "category": "paper",
-      "score": 43.9,
+      "score": 44.9,
       "ai": {
         "summary": "NeurIPS 2026 论文探讨自动驾驶 VLA 轨迹模仿学习目标。",
         "category": "paper",
@@ -2040,8 +2049,8 @@
         ],
         "firstPublishedAt": "2026-11-27T03:55:00.000Z",
         "metrics": {
-          "points": 189,
-          "comments": 180
+          "points": 207,
+          "comments": 205
         }
       }
     },
@@ -2330,12 +2339,30 @@
       "firstSeenAt": "2026-11-27T05:02:31.151Z",
       "day": "2026-11-27",
       "category": "industry",
-      "score": 18,
+      "score": 26,
       "ai": {
         "summary": "xAI 三杰造出“互联网时光机”，AI能预测未来才是真正的智能？",
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T05:04:41.656Z"
+      },
+      "related": [
+        {
+          "id": "151ung0s3sa",
+          "sourceId": "qbitai",
+          "sourceName": "量子位",
+          "url": "https://www.qbitai.com/2026/11/513507.html",
+          "title": "xAI联创张国栋戴自航创业，90天搓出互联网时光机",
+          "publishedAt": "2026-11-28T12:53:02.000Z"
+        }
+      ],
+      "story": {
+        "reports": 2,
+        "sources": [
+          "leiphone",
+          "qbitai"
+        ],
+        "firstPublishedAt": "2026-11-27T02:58:00.000Z"
       }
     },
     {
@@ -2448,7 +2475,8 @@
         "category": "industry",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T05:03:20.185Z"
-      }
+      },
+      "dupOf": "2ae918nrnhy"
     },
     {
       "id": "r7up6ry00t",
@@ -2508,7 +2536,7 @@
       "firstSeenAt": "2026-11-27T05:02:31.151Z",
       "day": "2026-11-27",
       "category": "industry",
-      "score": 43.4,
+      "score": 43.6,
       "ai": {
         "summary": "月之暗面宣布Kimi科研支持计划开放申请。",
         "category": "industry",
@@ -2533,8 +2561,8 @@
         ],
         "firstPublishedAt": "2026-11-27T02:31:35.059Z",
         "metrics": {
-          "points": 182,
-          "comments": 155
+          "points": 187,
+          "comments": 160
         }
       }
     },
@@ -2693,6 +2721,30 @@
       }
     },
     {
+      "id": "2aonbtkayce",
+      "key": "url:infoq.cn/article/UHAMyAekF5XtgIXbiLBL",
+      "title": "让数据跟上 AI 的步伐：智能体时代的数据工程革新 ｜ 技术趋势",
+      "url": "https://www.infoq.cn/article/UHAMyAekF5XtgIXbiLBL?utm_source=rss&utm_medium=article",
+      "lang": "zh",
+      "sourceId": "infoq-cn",
+      "sourceName": "InfoQ 中文",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-27T02:00:00.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-27",
+      "category": "paper",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "智能体时代数据工程面临革新，需解决数据与 AI 发展不匹配的问题。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:10.439Z"
+      }
+    },
+    {
       "id": "150gbg7cpuc",
       "key": "url:36kr.com/p/4087315146963588",
       "title": "Karpathy点燃LLM Wiki，中国公司率先做成了企业级产品",
@@ -2749,8 +2801,16 @@
       "firstSeenAt": "2026-11-27T05:02:31.151Z",
       "day": "2026-11-27",
       "category": "industry",
-      "score": 26,
+      "score": 34,
       "related": [
+        {
+          "id": "1n86ke1tr9s",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/former-openai-researcher-says-the-riemann-proof-matters-less-than-the-fact-that-an-ai-system-can-produce-it/",
+          "title": "Former OpenAI researcher says the Riemann proof matters less than the fact that an AI system can produce it",
+          "publishedAt": "2026-11-26T19:31:46.000Z"
+        },
         {
           "id": "21p0l80910p",
           "sourceId": "qbitai",
@@ -2758,15 +2818,32 @@
           "url": "https://www.qbitai.com/2026/11/513075.html",
           "title": "陶哲轩下场验证黎曼猜想！“AI批量吐证明就像发电厂排核废料”",
           "publishedAt": "2026-11-27T02:03:10.000Z"
+        },
+        {
+          "id": "106g14oqnot",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4087355247540614",
+          "title": "Gemini 4 Carbon点亮8颗太阳，70年几何悬案告破，只用6页神级证明",
+          "publishedAt": "2026-11-27T02:33:32.007Z"
+        },
+        {
+          "id": "kqwb8wvhye",
+          "sourceId": "the-decoder",
+          "sourceName": "The Decoder",
+          "url": "https://the-decoder.com/terence-tao-sees-ai-ushering-in-big-math-but-calls-major-tech-firms-proofs-toxic-waste/",
+          "title": "Terence Tao 称大厂 AI 证明为“有毒废料”",
+          "publishedAt": "2026-11-28T14:45:01.000Z"
         }
       ],
       "story": {
-        "reports": 2,
+        "reports": 5,
         "sources": [
           "36kr-ai",
+          "the-decoder",
           "qbitai"
         ],
-        "firstPublishedAt": "2026-11-27T01:44:19.438Z"
+        "firstPublishedAt": "2026-11-26T19:31:46.000Z"
       },
       "ai": {
         "summary": "AI系统生成数学证明引发担忧，陶哲轩比喻其后果如发电厂排核废料。",
@@ -2930,10 +3007,10 @@
       "day": "2026-11-27",
       "category": "paper",
       "categoryLocked": true,
-      "score": 27.5,
+      "score": 27.9,
       "metrics": {
-        "upvotes": 128,
-        "comments": 3
+        "upvotes": 135,
+        "comments": 4
       },
       "aiAttempts": 1,
       "ai": {
@@ -2983,9 +3060,9 @@
       "day": "2026-11-27",
       "category": "paper",
       "categoryLocked": true,
-      "score": 22.1,
+      "score": 22.2,
       "metrics": {
-        "upvotes": 58,
+        "upvotes": 59,
         "comments": 5
       },
       "ai": {
@@ -3014,10 +3091,10 @@
       "keywords": [
         "Agent"
       ],
-      "score": 26,
+      "score": 26.7,
       "metrics": {
-        "upvotes": 104,
-        "comments": 3
+        "upvotes": 114,
+        "comments": 4
       },
       "dupOf": "1sz1qw9aa41"
     },
@@ -3041,9 +3118,9 @@
         "AI 编程",
         "视频生成"
       ],
-      "score": 22.3,
+      "score": 22.6,
       "metrics": {
-        "upvotes": 60,
+        "upvotes": 63,
         "comments": 5
       },
       "ai": {
@@ -3091,8 +3168,8 @@
       "category": "opensource",
       "score": 36,
       "metrics": {
-        "points": 1107,
-        "comments": 509
+        "points": 1141,
+        "comments": 530
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50660180",
       "aiAttempts": 2
@@ -3143,7 +3220,8 @@
         "category": "paper",
         "model": "glm-4.7-flash",
         "at": "2026-11-27T19:56:56.158Z"
-      }
+      },
+      "dupOf": "2ae918nrnhy"
     },
     {
       "id": "1o10v219mc5",
@@ -3158,10 +3236,10 @@
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-27",
       "category": "paper",
-      "score": 26.4,
+      "score": 26.5,
       "metrics": {
-        "points": 144,
-        "comments": 13
+        "points": 146,
+        "comments": 14
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50658498",
       "aiAttempts": 1,
@@ -3203,10 +3281,10 @@
       "firstSeenAt": "2026-11-27T05:02:31.151Z",
       "day": "2026-11-27",
       "category": "industry",
-      "score": 31.9,
+      "score": 32.1,
       "metrics": {
-        "points": 321,
-        "comments": 195
+        "points": 325,
+        "comments": 199
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50657307",
       "aiAttempts": 2
@@ -3227,10 +3305,10 @@
       "keywords": [
         "本地部署"
       ],
-      "score": 33.1,
+      "score": 33.2,
       "metrics": {
-        "points": 440,
-        "comments": 107
+        "points": 445,
+        "comments": 110
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50657265",
       "aiAttempts": 1,

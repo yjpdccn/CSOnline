@@ -1,0 +1,104 @@
+{
+  "day": "2026-11-29",
+  "items": [
+    {
+      "id": "1f2patvgbhy",
+      "key": "url:the-decoder.com/new-study-casts-doubt-on-how-ai-companies-test-the-safety-systems-meant-to-keep-their-agents-in-check",
+      "title": "New study casts doubt on how AI companies test the safety systems meant to keep their agents in check",
+      "url": "https://the-decoder.com/new-study-casts-doubt-on-how-ai-companies-test-the-safety-systems-meant-to-keep-their-agents-in-check/",
+      "excerpt": "The UK AI Security Institute is questioning whether simulated sabotage tests for AI monitors actually prove anything. In a new study, a former OpenAI monitor built on GPT-5.4 missed only 0.2 to 0.5 percent of harmful actions under standard attacks but nearly 23 percent when rese…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-28T18:46:09.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-29",
+      "category": "paper",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "新研究质疑 AI 安全测试的有效性",
+        "summary": "英国 AI 安全研究所质疑模拟破坏测试是否能证明 AI 监控系统的有效性。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
+    },
+    {
+      "id": "b6yulkp6y5",
+      "key": "url:cs.stanford.edu/~knuth/moratorium.html",
+      "title": "Donald Knuth suspends error bounties due to an influx of AI-generated reports",
+      "url": "https://cs.stanford.edu/~knuth/moratorium.html",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-28T17:53:02.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-29",
+      "category": "industry",
+      "score": 22.6,
+      "metrics": {
+        "points": 145,
+        "comments": 16
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50680168",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Donald Knuth 暂停错误悬赏，因收到大量 AI 生成的报告。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
+    },
+    {
+      "id": "1bd8bt7vmnj",
+      "key": "url:techcrunch.com/2026/11/28/openais-new-countersuit-accuses-apple-of-unlawfully-pressuring-vendors",
+      "title": "OpenAI’s new countersuit accuses Apple of ‘unlawfully pressuring vendors’",
+      "url": "https://techcrunch.com/2026/11/28/openais-new-countersuit-accuses-apple-of-unlawfully-pressuring-vendors/",
+      "excerpt": "After Apple sued OpenAI this summer, OpenAI has fired back with a countersuit of its own.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-28T17:46:47.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-29",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "OpenAI 反诉苹果非法施压供应商",
+        "summary": "OpenAI 起诉苹果非法施压供应商，回应苹果此前对其的诉讼。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
+    },
+    {
+      "id": "21gk7ujba8w",
+      "key": "url:simonwillison.net/2026/Nov/28/code-driven-ai-illustrations",
+      "title": "Code-driven AI illustrations are more useful than images from dedicated image models",
+      "url": "https://simonwillison.net/2026/Nov/28/code-driven-ai-illustrations/",
+      "excerpt": "An interesting trend in frontier LLMs released in the second half of 2026 is that they tend to be much better at visual reasoning and creative \"design\" than their predecessors. If you ask these text-output models to create a 2D image (or a 3D model, as discussed here previously)…",
+      "lang": "en",
+      "sourceId": "simonw",
+      "sourceName": "Simon Willison",
+      "sourceGroup": "blogger",
+      "publishedAt": "2026-11-28T17:45:40.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-29",
+      "category": "model",
+      "score": 20,
+      "ai": {
+        "title": "代码驱动的 AI 图像生成更实用",
+        "summary": "前沿大模型在视觉推理和创意设计上表现优于传统图像模型。",
+        "category": "model",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
+    }
+  ]
+}

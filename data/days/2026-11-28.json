@@ -2,6 +2,647 @@
   "day": "2026-11-28",
   "items": [
     {
+      "id": "kqwb8wvhye",
+      "key": "url:the-decoder.com/terence-tao-sees-ai-ushering-in-big-math-but-calls-major-tech-firms-proofs-toxic-waste",
+      "title": "Terence Tao sees AI ushering in \"Big Math,\" but calls major tech firms' proofs \"toxic waste\"",
+      "url": "https://the-decoder.com/terence-tao-sees-ai-ushering-in-big-math-but-calls-major-tech-firms-proofs-toxic-waste/",
+      "excerpt": "Terence Tao outlines his vision of \"Big Math\" on the Hard Fork podcast. Instead of solo work, human-AI teams would systematically map thousands of problems. He also calls AI proofs from major tech companies \"toxic waste,\" saying the models solve problems but can't explain their…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-28T14:45:01.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "paper",
+      "score": 15,
+      "ai": {
+        "title": "Terence Tao 称大厂 AI 证明为“有毒废料”",
+        "summary": "数学家 Terence Tao 称大厂 AI 证明为“有毒废料”，呼吁建立人机协作的“大数学”体系。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      },
+      "dupOf": "2ae918nrnhy"
+    },
+    {
+      "id": "k21xp472u1",
+      "key": "url:qbitai.com/2026/11/513577.html",
+      "title": "200亿美元…史上最贵AI自媒体",
+      "url": "https://www.qbitai.com/2026/11/513577.html",
+      "excerpt": "这可能是有史以来，ROI（投资回报率）最高的个人博客。",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T14:38:56.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "马斯克称谷歌有意从 SpaceX 租用算力，SpaceX 算力租赁价格呈上行趋势。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:10.439Z"
+      }
+    },
+    {
+      "id": "253mcp5jyqx",
+      "key": "url:qbitai.com/2026/11/513555.html",
+      "title": "谷歌Tibo亲授Gemini 4 Neon内部打开方式！第一步：删光旧规则",
+      "url": "https://www.qbitai.com/2026/11/513555.html",
+      "excerpt": "这两天转投Gemini的有福了！",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T14:29:15.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "谷歌 Tibo 分享 Gemini 4 Neon 内部使用技巧。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
+    },
+    {
+      "id": "v2th7qplkz",
+      "key": "url:qbitai.com/2026/11/513535.html",
+      "title": "刚刚，8192张昇腾训出285B大模型！权重开源，32页训练手册全公开",
+      "url": "https://www.qbitai.com/2026/11/513535.html",
+      "excerpt": "国产芯片训千亿大模型，终于有人把施工图纸摊开了",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T14:12:50.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 22,
+      "ai": {
+        "summary": "国产芯片训出 285B 大模型，权重开源。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
+    },
+    {
+      "id": "cw61jdvj1r",
+      "key": "url:techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security",
+      "title": "Sakana AI’s CEO says its homegrown models are about more than Japan’s national security",
+      "url": "https://techcrunch.com/2026/11/28/sakana-ais-ceo-says-its-homegrown-models-are-about-more-than-japans-national-security/",
+      "excerpt": "Sakana AI aims to strengthen Japan’s industrial competitiveness with homegrown AI models.",
+      "lang": "en",
+      "sourceId": "techcrunch-ai",
+      "sourceName": "TechCrunch AI",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-28T14:00:00.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "Sakana AI CEO 称本土模型不仅关乎日本国家安全",
+        "summary": "Sakana AI CEO 表示，其本土模型旨在增强日本的工业竞争力。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
+    },
+    {
+      "id": "1ogckov7ej",
+      "key": "url:the-decoder.com/uk-parliament-demands-unredacted-metr-safety-report-after-anthropic-redacts-most-of-the-evidence",
+      "title": "UK Parliament demands unredacted METR safety report after Anthropic redacts most of the evidence",
+      "url": "https://the-decoder.com/uk-parliament-demands-unredacted-metr-safety-report-after-anthropic-redacts-most-of-the-evidence/",
+      "excerpt": "The UK Parliament is turning up the pressure on Anthropic. Committee chair Liam Byrne is demanding the unredacted METR safety report on AI acceleration by December 4. METR criticized Anthropic for cutting \"most informative\" evidence before publication. The episode raises broader…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-28T13:42:00.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 15,
+      "ai": {
+        "title": "英国议会要求 Anthropic 公开未删减的安全报告",
+        "summary": "英国议会要求 Anthropic 公开未删减的 METR 安全报告，以解决证据缺失问题。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
+    },
+    {
+      "id": "151ung0s3sa",
+      "key": "url:qbitai.com/2026/11/513507.html",
+      "title": "xAI联创张国栋戴自航创业，90天搓出互联网时光机",
+      "url": "https://www.qbitai.com/2026/11/513507.html",
+      "excerpt": "这还只是热身",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T12:53:02.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "xy0i1vn49b"
+    },
+    {
+      "id": "he1k18likd",
+      "key": "url:qbitai.com/2026/11/513484.html",
+      "title": "最新：黎曼猜想证明通过独立验证！",
+      "url": "https://www.qbitai.com/2026/11/513484.html",
+      "excerpt": "六种检查全通过",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T12:42:37.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2ahrlw0q4k5"
+    },
+    {
+      "id": "1xs63703zqj",
+      "key": "url:qbitai.com/2026/11/513463.html",
+      "title": "用Claude证明黎曼猜想的90后数学家，收到了致命威胁",
+      "url": "https://www.qbitai.com/2026/11/513463.html",
+      "excerpt": "为了证明黎曼猜想，他已经准备了十几年",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T12:25:48.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2ahrlw0q4k5"
+    },
+    {
+      "id": "2cjzf7hbm4p",
+      "key": "url:malspark.com/blog/malicious-gguf-models-hugging-face",
+      "title": "GGUF LLM Models with Hidden Malware on Hugging Face Reached 2400 Victims",
+      "url": "https://malspark.com/blog/malicious-gguf-models-hugging-face/",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-28T11:57:04.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "keywords": [
+        "开源模型"
+      ],
+      "score": 24.8,
+      "metrics": {
+        "points": 165,
+        "comments": 58
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50676752",
+      "ai": {
+        "title": "Hugging Face 上含恶意软件的 GGUF 模型已致 2400 人受害",
+        "summary": "Hugging Face 上含有隐藏恶意软件的 GGUF 模型已造成 2400 人受害。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
+    },
+    {
+      "id": "52yyoen77n",
+      "key": "url:the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs",
+      "title": "Google Deepmind's \"Humanity's First Exam\" shows top AI models still fail simple everyday tasks under repeated runs",
+      "url": "https://the-decoder.com/google-deepminds-humanitys-first-exam-shows-top-ai-models-still-fail-simple-everyday-tasks-under-repeated-runs/",
+      "excerpt": "Google Deepmind tests the reliability of 18 AI models with \"Humanity's First Exam.\" Top models solve nearly every task family at least once, but even leaders like OpenAI's GPT-6.2 Astra stumble when asked for 16 straight correct answers. Visual perception accounts for 73 percent…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-28T11:12:30.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "paper",
+      "score": 15,
+      "ai": {
+        "title": "Google DeepMind 测试显示顶级 AI 模型仍会失败",
+        "summary": "Google DeepMind 测试显示，顶级 AI 模型在重复任务中仍会失败。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
+    },
+    {
+      "id": "1053vpoz8tq",
+      "key": "url:jiqizhixin.com/articles/2026-11-28-9",
+      "title": "350万人读过的深度学习教材，被作者亲手下架",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-28-9",
+      "excerpt": "一个曾经帮助数百万人学习 AI 的人，决定不再教人如何开发 AI。近日，量子计算领域知名科学家 Michael Nielsen 宣布，撤下自己编写的经典在线教材《Neural Networks and Deep Learning》（《神经网络与深度学习》）。这本书曾被全球 350 万用户阅读，...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T11:09:00.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "《神经网络与深度学习》作者下架经典教材，不再继续教授AI开发。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:10.439Z"
+      }
+    },
+    {
+      "id": "1u5jcwyxwer",
+      "key": "url:jiqizhixin.com/articles/2026-11-28-8",
+      "title": "Karpo开源快思考浏览器Agent：旗舰性能，两倍速度，只用8%成本",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-28-8",
+      "excerpt": "编辑｜泽南Agent 最值钱的地方是判断力。今年 9 月，Jev 模型震动了 AI 圈，它不像大模型那样输出完整句子，只能做「选择题」。这个被称作「决策模型」的品类迅速升温，成为了全球大厂的发展方向。决策模型瞄准 Agent 链条里的高频环节：内容分类、请求路由、工具选择，还管 Agent 浏...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T11:06:00.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 22,
+      "ai": {
+        "summary": "Karpo 开源快思考浏览器 Agent，性能旗舰且成本低。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
+    },
+    {
+      "id": "1aupchlaktx",
+      "key": "url:jiqizhixin.com/articles/2026-11-28-7",
+      "title": "NeurIPS 2026｜预算越宽松，大模型路由为何越爱选贵的？",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-28-7",
+      "excerpt": "大模型越来越多，如何选模型也成了一门学问。一项 NeurIPS 2026 研究发现，路由系统可能因为偏爱强模型，让推理账单悄悄变贵。近日，南京大学与香港科技大学联合研究团队的论文《When LLM Routers Overpay: The Cost of Strong-Model Prefer...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T11:02:00.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "paper",
+      "score": 18,
+      "ai": {
+        "summary": "NeurIPS 2026研究指出，大模型路由系统偏爱强模型，可能导致推理成本上升。",
+        "category": "paper",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:10.439Z"
+      }
+    },
+    {
+      "id": "q5t3i26xbb",
+      "key": "url:the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots",
+      "title": "Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots",
+      "url": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
+      "excerpt": "Embo raised $110 million in seed funding to build a universal robot brain with world models. Its AI learns how the physical world works from internet video and practices motor skills in simulation. Google Deepmind, Meta, and MIT researchers are behind the startup as the race for…",
+      "lang": "en",
+      "sourceId": "the-decoder",
+      "sourceName": "The Decoder",
+      "sourceGroup": "media-en",
+      "publishedAt": "2026-11-28T10:48:18.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 15,
+      "ai": {
+        "title": "机器人初创公司 Embo 融资 1.1 亿美元",
+        "summary": "机器人初创公司 Embo 融资 1.1 亿美元，致力于开发机器人的世界模型。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
+    },
+    {
+      "id": "258irjo5jvi",
+      "key": "url:xinyadu.github.io/blog/claude-code-sabotage.html",
+      "title": "Claude Code sabotage: preliminary benchmarking",
+      "url": "https://xinyadu.github.io/blog/claude-code-sabotage.html",
+      "lang": "en",
+      "sourceId": "hackernews",
+      "sourceName": "Hacker News",
+      "sourceGroup": "community",
+      "publishedAt": "2026-11-28T10:37:40.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "agent",
+      "keywords": [
+        "AI 编程"
+      ],
+      "score": 34.9,
+      "metrics": {
+        "points": 652,
+        "comments": 221
+      },
+      "discussionUrl": "https://news.ycombinator.com/item?id=50676390",
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "Claude Code 恶意破坏初步基准测试。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
+    },
+    {
+      "id": "gzlx0bpqke",
+      "key": "url:36kr.com/p/4089197345421957",
+      "title": "融资数千万元，律动造物想让材料AI从实验室走进工厂",
+      "url": "https://36kr.com/p/4089197345421957",
+      "excerpt": "大模型的训练系统未必适合AI for Science。",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T09:10:20.468Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "律动造物获数千万元融资，致力于推动材料 AI 从实验室走向工厂。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:10.439Z"
+      }
+    },
+    {
+      "id": "2edwparnnk5",
+      "key": "url:36kr.com/newsflashes/4089017756629633",
+      "title": "鑫科材料：XKC70385产品研发取得关键阶段性突破",
+      "url": "https://36kr.com/newsflashes/4089017756629633",
+      "excerpt": "36氪获悉，据鑫科材料消息，面向AI算力中心与新能源汽车行业对高端连接器用高强高导、抗应力松弛、无铍环保材料的迫切需求，公司成功开发出具有自主知识产权的铜镍硅钴系合金XKC70385，并获授权发明专利“一种高强度耐高温铜合金带材及其在AI算力中心的应用”。",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T08:59:49.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "鑫科材料研发出 XKC70385 高强高导铜合金，获授权发明专利。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:10.439Z"
+      }
+    },
+    {
+      "id": "2d3ksxgxt5d",
+      "key": "url:36kr.com/newsflashes/4089015464737153",
+      "title": "《AIGC内容生产行业自律公约》发布",
+      "url": "https://36kr.com/newsflashes/4089015464737153",
+      "excerpt": "在2026中国文化产业发展大会上，《AIGC内容生产行业自律公约》正式发布。《公约》引导市场主体在拥抱技术创新的同时，坚守价值导向，严守版权保护底线，厘清人机创作边界，防范技术滥用风险。中国民营文化产业商会会长吴建荣表示，在积极拥抱AI技术的同时，我们也需要推动相关法律法规和行业规范的完善，进一步明确原创作品的知识产权归属、使用边界及利益分配机制，让原创者的价值得到充分尊重和合理回报。（界面）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T08:23:27.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 22,
+      "ai": {
+        "summary": "《AIGC 内容生产行业自律公约》发布。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
+    },
+    {
+      "id": "1kcmb0yws9y",
+      "key": "url:36kr.com/newsflashes/4089093439715968",
+      "title": "马斯克：谷歌已表示有兴趣从SpaceX租用更多算力",
+      "url": "https://36kr.com/newsflashes/4089093439715968",
+      "excerpt": "马斯克表示，谷歌已表示有兴趣从SpaceX租用更多算力。用于高带宽训练、大规模连续算力集群的租赁价格正在上涨，部分时段涨幅十分明显；而小规模算力（约 5000 块 GPU 以内）的价格则在走低。整体来看，SpaceX 算力业务的单 GPU 平均租赁价格呈上行趋势。”此前，马斯克近已在SpaceX内部向员工摊牌：公司自家的AI模型开发落后于竞争对手，与其拿GPU训练Grok，不如直接把算力租给对手，赚得更多。这意味着马斯克已经将AI业务的重心转向打造超算中心出租算力，而不是在大模型战线上与OpenAI和Anthropic正面竞争。（新浪财经）",
+      "lang": "zh",
+      "sourceId": "36kr-flash",
+      "sourceName": "36氪快讯",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T07:50:48.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "马斯克透露谷歌有意从 SpaceX 租用算力，SpaceX 算力租赁价格整体上涨。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:10.439Z"
+      }
+    },
+    {
+      "id": "1m8ms2i5iaq",
+      "key": "url:36kr.com/p/4088895506971012",
+      "title": "用Claude证明黎曼猜想的90后数学家，收到了致命威胁",
+      "url": "https://36kr.com/p/4088895506971012",
+      "excerpt": "为了解决黎曼猜想，他准备了十几年",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T07:39:47.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2ahrlw0q4k5"
+    },
+    {
+      "id": "sx2k8h0dvg",
+      "key": "url:jiqizhixin.com/articles/2026-11-28-6",
+      "title": "Ansa Biotechnologies完成7150万美元C轮融资，扩大长链DNA制造",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-28-6",
+      "excerpt": "编辑丨^Y^11 月 18 日，美国合成生物学公司 Ansa Biotechnologies 宣布完成 7150 万美元的超额认购 C 轮融资，由 Blue Water Life Science Advisors 领投，Illumina Ventures、BEVC等机构参与，原有投资者继续跟投...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T06:51:00.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "Ansa Biotechnologies 完成超 7150 万美元 C 轮融资，扩大长链 DNA 制造。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:10.439Z"
+      }
+    },
+    {
+      "id": "fsvamnl2uo",
+      "key": "url:jiqizhixin.com/articles/2026-11-28-5",
+      "title": "具身寒冬里，投资人还在给什么样的公司打钱？00后中科大团队白泽通境四个月融近亿",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-28-5",
+      "excerpt": "今年一入秋，具身智能的融资账本明显薄了。一边是单月融资额从上半年的月均 150 亿元以上，跌到刚过 100 亿；另一边，合肥一支成立不到半年的中科大 “00 后” 团队，却用四个月连续完成了种子轮和种子加轮，合计近亿元。这家公司叫白泽通境（BAIZ），是一家场景驱动的通用具身大脑公司。它不造机...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T06:47:00.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "keywords": [
+        "具身智能"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "具身智能融资降温，中科大“00后”团队白泽通境四个月融近亿元。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:10.439Z"
+      }
+    },
+    {
+      "id": "ujwr41vzyx",
+      "key": "url:jiqizhixin.com/articles/2026-11-28-4",
+      "title": "「兄弟，法庭见！」OpenAI反诉苹果窃密",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-28-4",
+      "excerpt": "400 多名苹果员工已经跳槽去了 OpenAI。但其中有一名员工，在 OpenAI 工作了短短半年后，又回到了苹果。按照 OpenAI 的说法，窃取商业机密可能就是他最初加入 OpenAI 的目的。当地时间 11 月 27 日，OpenAI 正式反诉苹果，向美国加州北区联邦地区法院提交了一份长...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T06:37:00.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "ai": {
+        "summary": "OpenAI 反诉苹果窃密，称部分员工跳槽目的不纯。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:10.439Z"
+      }
+    },
+    {
+      "id": "1trv1v4d63i",
+      "key": "url:jiqizhixin.com/articles/2026-11-28-3",
+      "title": "AI自主优化昇腾Kernel：探索自己的RSI路径，引起Anthropic联合创始人Jack Clark关注",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-28-3",
+      "excerpt": "深圳河套学院联合华为 GTS AI 团队，从垂域真实训推负载出发，探索让 Agent 自主优化昇腾底层算子，为国产算力释放更大价值。这项研究源于 GTS 在实际业务中面临的一个挑战：如何在有限的国产算力资源下，高效开展垂域模型后训练，并以更低成本提供生产级推理服务？团队把目光投向运行模型的底层...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T06:33:00.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "agent",
+      "keywords": [
+        "Agent"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "深圳河套学院与华为 GTS 团队探索 Agent 自主优化昇腾算子。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:10.439Z"
+      }
+    },
+    {
+      "id": "prtjlzywqm",
+      "key": "url:jiqizhixin.com/articles/2026-11-28-2",
+      "title": "突发｜Claude被指蓄意破坏AI研究",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-28-2",
+      "excerpt": "Claude 真的会暗中给项目「使绊子」吗？近日，多名开发者公开指控 Anthropic 旗下的 Claude 模型在执行机器学习研究任务时，出现了违背用户指令、暗中修改代码，甚至拖慢训练进程的行为。一时在 AI 社区引发热烈讨论。不过，Anthropic 员工 Edwin Arbus 否认公...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T06:24:00.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "17u8of1em1d"
+    },
+    {
+      "id": "1v4fy5ged7z",
+      "key": "url:jiqizhixin.com/articles/2026-11-28",
+      "title": "具身操控双双封0！这份考卷把Fable、Astra丢进真实职场「做奶茶、打咖啡、当收银」",
+      "url": "https://www.jiqizhixin.com/articles/2026-11-28",
+      "excerpt": "11 月 28 日，Robots' Last Exam（RLE）正式面向公众发布，展示首批 10 个真实工作场景，向全球 Agent 及机器人社区发出共建邀请。上周，GPT-6.2 Astra 与 Claude Fable 5.2 相继发布。随着前沿通用模型越来越多地被直接用作机器人的 “大脑...",
+      "lang": "zh",
+      "sourceId": "jiqizhixin",
+      "sourceName": "机器之心",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T06:21:00.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "agent",
+      "keywords": [
+        "Agent",
+        "具身智能"
+      ],
+      "score": 18,
+      "ai": {
+        "summary": "Robots' Last Exam 展示真实职场场景，测试 Fable、Astra 等具身智能体。",
+        "category": "agent",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:10.439Z"
+      }
+    },
+    {
+      "id": "14bghvpjva2",
+      "key": "url:qbitai.com/2026/11/513428.html",
+      "title": "亏贼！卡帕西用Claude搓出“美国版《文明》”，网友直接玩成全球接力赛",
+      "url": "https://www.qbitai.com/2026/11/513428.html",
+      "excerpt": "这种大模型现做的即时交互工具，能不能来一波知识付费？",
+      "lang": "zh",
+      "sourceId": "qbitai",
+      "sourceName": "量子位",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T05:54:46.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "industry",
+      "score": 18,
+      "dupOf": "2f8bk2nhsr4"
+    },
+    {
+      "id": "198z2s42e66",
+      "key": "url:36kr.com/p/4088907395070594",
+      "title": "奥特曼宣布：OpenAI推出隐私推理，GPT-6.2修正额度错误，开发者却怒了",
+      "url": "https://36kr.com/p/4088907395070594",
+      "excerpt": "给你一次重置，但“额度扣快40%”",
+      "lang": "zh",
+      "sourceId": "36kr-ai",
+      "sourceName": "36氪 AI",
+      "sourceGroup": "media-zh",
+      "publishedAt": "2026-11-28T05:30:27.000Z",
+      "firstSeenAt": "2026-11-28T18:53:29.395Z",
+      "day": "2026-11-28",
+      "category": "model",
+      "score": 28,
+      "dupOf": "25754w8325h"
+    },
+    {
       "id": "20txbv99awd",
       "key": "url:36kr.com/p/4088895210158473",
       "title": "卡帕西用Claude搓出“美国版《文明》”，网友直接玩成全球接力赛",
@@ -32,7 +673,7 @@
       "firstSeenAt": "2026-11-28T04:44:30.684Z",
       "day": "2026-11-28",
       "category": "industry",
-      "score": 59.6,
+      "score": 67.9,
       "ai": {
         "summary": "谷歌更新 SRE 著作，拥抱 AI 时代。",
         "category": "industry",
@@ -55,19 +696,28 @@
           "url": "https://36kr.com/p/4088741898058371",
           "title": "Claude暗中破坏AI研究？开发者怒了",
           "publishedAt": "2026-11-28T01:52:17.099Z"
+        },
+        {
+          "id": "prtjlzywqm",
+          "sourceId": "jiqizhixin",
+          "sourceName": "机器之心",
+          "url": "https://www.jiqizhixin.com/articles/2026-11-28-2",
+          "title": "突发｜Claude被指蓄意破坏AI研究",
+          "publishedAt": "2026-11-28T06:24:00.000Z"
         }
       ],
       "story": {
-        "reports": 3,
+        "reports": 4,
         "sources": [
           "infoq-cn",
           "hackernews",
-          "36kr-ai"
+          "36kr-ai",
+          "jiqizhixin"
         ],
         "firstPublishedAt": "2026-11-27T08:28:08.000Z",
         "metrics": {
-          "points": 647,
-          "comments": 298
+          "points": 764,
+          "comments": 334
         }
       }
     },
@@ -126,7 +776,13 @@
       "day": "2026-11-28",
       "category": "industry",
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "迪士尼 CTO 在 AI 初创公司破产案中收到传票。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
     },
     {
       "id": "2a8k63514dg",
@@ -185,7 +841,13 @@
         "具身智能"
       ],
       "score": 18,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "我国加快构建汽车行业智能制造标准体系。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
     },
     {
       "id": "1vzrpx2fplx",
@@ -218,10 +880,10 @@
       "firstSeenAt": "2026-11-28T04:44:30.684Z",
       "day": "2026-11-28",
       "category": "industry",
-      "score": 23,
+      "score": 28.6,
       "metrics": {
-        "points": 112,
-        "comments": 85
+        "points": 210,
+        "comments": 171
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50673521",
       "ai": {
@@ -266,7 +928,13 @@
         ],
         "firstPublishedAt": "2026-11-27T19:38:37.000Z"
       },
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "OpenAI 反诉苹果窃取商业秘密。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
     },
     {
       "id": "2asu55jw61c",
@@ -305,7 +973,13 @@
       "day": "2026-11-28",
       "category": "industry",
       "score": 22,
-      "aiAttempts": 1
+      "aiAttempts": 1,
+      "ai": {
+        "summary": "谷歌发布新一代 TPU，开发者认为芯片并非关键。",
+        "category": "industry",
+        "model": "glm-4.7-flash",
+        "at": "2026-11-28T18:54:03.283Z"
+      }
     },
     {
       "id": "1l36xmz5tl0",
@@ -343,10 +1017,10 @@
       "firstSeenAt": "2026-11-28T04:44:30.684Z",
       "day": "2026-11-28",
       "category": "industry",
-      "score": 31.6,
+      "score": 35.5,
       "metrics": {
-        "points": 317,
-        "comments": 176
+        "points": 439,
+        "comments": 320
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50670855",
       "ai": {
@@ -439,10 +1113,10 @@
       "firstSeenAt": "2026-11-27T19:55:44.684Z",
       "day": "2026-11-28",
       "category": "industry",
-      "score": 29.2,
+      "score": 29.7,
       "metrics": {
-        "points": 206,
-        "comments": 244
+        "points": 218,
+        "comments": 250
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50669561",
       "aiAttempts": 1,

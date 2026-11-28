@@ -459,7 +459,7 @@
       "keywords": [
         "本地部署"
       ],
-      "score": 65.1,
+      "score": 65.2,
       "ai": {
         "title": "llama.cpp 推出 AMD Ryzen 和 Radeon 基准测试仪表板",
         "summary": "Hugging Face 博客发布 llama.cpp 基准测试仪表板，支持 AMD 硬件。",
@@ -493,8 +493,8 @@
         ],
         "firstPublishedAt": "2026-11-26T11:37:17.000Z",
         "metrics": {
-          "points": 440,
-          "comments": 107
+          "points": 445,
+          "comments": 110
         }
       }
     },
@@ -585,7 +585,7 @@
       "firstSeenAt": "2026-11-26T12:32:50.070Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 44,
+      "score": 49.6,
       "ai": {
         "title": "Nvidia 停止向东南亚四国发货服务器",
         "summary": "受美国新出口管制影响，Nvidia 停止向马来西亚等四国发货。",
@@ -620,8 +620,8 @@
         ],
         "firstPublishedAt": "2026-11-26T11:21:16.000Z",
         "metrics": {
-          "points": 112,
-          "comments": 85
+          "points": 210,
+          "comments": 171
         }
       }
     },
@@ -891,7 +891,7 @@
       ],
       "score": 35.3,
       "metrics": {
-        "points": 420,
+        "points": 422,
         "comments": 333
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50653477",
@@ -1470,9 +1470,9 @@
       "firstSeenAt": "2026-11-27T05:02:31.151Z",
       "day": "2026-11-26",
       "category": "industry",
-      "score": 34.1,
+      "score": 34.2,
       "metrics": {
-        "points": 356,
+        "points": 358,
         "comments": 359
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50652527",
@@ -1546,7 +1546,7 @@
       "firstSeenAt": "2026-11-26T08:58:11.754Z",
       "day": "2026-11-26",
       "category": "opensource",
-      "score": 54.1,
+      "score": 54.2,
       "ai": {
         "summary": "中国开源新势力推出商用级AI视频生成模型，每秒成本仅0.5元。",
         "category": "opensource",
@@ -1571,7 +1571,7 @@
         ],
         "firstPublishedAt": "2026-11-26T06:41:23.000Z",
         "metrics": {
-          "points": 356,
+          "points": 358,
           "comments": 359
         }
       }
@@ -1714,7 +1714,7 @@
         ],
         "firstPublishedAt": "2026-11-26T06:00:00.000Z",
         "metrics": {
-          "points": 420,
+          "points": 422,
           "comments": 333
         }
       }
@@ -1918,9 +1918,9 @@
       "firstSeenAt": "2026-11-28T04:44:30.684Z",
       "day": "2026-11-26",
       "category": "agent",
-      "score": 21.2,
+      "score": 21.9,
       "metrics": {
-        "points": 113,
+        "points": 126,
         "comments": 20
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50651552",
@@ -2099,8 +2099,8 @@
       "category": "model",
       "score": 41.4,
       "metrics": {
-        "points": 510,
-        "comments": 275
+        "points": 511,
+        "comments": 276
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50651117",
       "dupOf": "25754w8325h"
@@ -3042,9 +3042,9 @@
       "day": "2026-11-26",
       "category": "paper",
       "categoryLocked": true,
-      "score": 23.5,
+      "score": 23.7,
       "metrics": {
-        "upvotes": 74,
+        "upvotes": 76,
         "comments": 2
       },
       "aiAttempts": 2,
@@ -3304,8 +3304,8 @@
       "category": "paper",
       "score": 36,
       "metrics": {
-        "points": 563,
-        "comments": 361
+        "points": 568,
+        "comments": 369
       },
       "discussionUrl": "https://news.ycombinator.com/item?id=50648050",
       "aiAttempts": 1,

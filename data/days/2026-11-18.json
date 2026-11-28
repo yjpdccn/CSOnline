@@ -4001,7 +4001,7 @@
       ],
       "score": 24.2,
       "metrics": {
-        "stars": 20044,
+        "stars": 20149,
         "starsToday": 416
       },
       "ai": {
@@ -4061,7 +4061,7 @@
       "categoryLocked": true,
       "score": 29.5,
       "metrics": {
-        "stars": 72277,
+        "stars": 72516,
         "starsToday": 847
       },
       "ai": {
@@ -4539,10 +4539,18 @@
           "url": "https://news.ycombinator.com/item?id=50667744",
           "title": "GPT 6.2 Astra Solves a Historical Mystery",
           "publishedAt": "2026-11-27T15:03:17.000Z"
+        },
+        {
+          "id": "198z2s42e66",
+          "sourceId": "36kr-ai",
+          "sourceName": "36氪 AI",
+          "url": "https://36kr.com/p/4088907395070594",
+          "title": "奥特曼宣布：OpenAI推出隐私推理，GPT-6.2修正额度错误，开发者却怒了",
+          "publishedAt": "2026-11-28T05:30:27.000Z"
         }
       ],
       "story": {
-        "reports": 21,
+        "reports": 22,
         "sources": [
           "openai",
           "hackernews",

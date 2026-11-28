@@ -3501,7 +3501,7 @@
       ],
       "score": 30,
       "metrics": {
-        "stars": 76437,
+        "stars": 76753,
         "starsToday": 1062
       },
       "ai": {
@@ -4574,7 +4574,7 @@
       "keywords": [
         "Agent"
       ],
-      "score": 64,
+      "score": 56,
       "ai": {
         "title": "NVIDIA 发布 Rubin HPC GPU 以加速 Agent",
         "summary": "NVIDIA 在 SC26 上推出 Rubin HPC GPU，旨在加速科学、工程和分析领域的 Agent 工作流。",
@@ -4584,52 +4584,12 @@
       },
       "related": [
         {
-          "id": "1mhmasbvb",
-          "sourceId": "techcrunch-ai",
-          "sourceName": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
-          "title": "马斯克等科技高管签署请愿书要求恢复黄仁勋职务",
-          "publishedAt": "2026-11-14T21:41:22.000Z"
-        },
-        {
-          "id": "rd3k958kbt",
-          "sourceId": "jiqizhixin",
-          "sourceName": "机器之心",
-          "url": "https://www.jiqizhixin.com/articles/2026-11-15-2",
-          "title": "刚刚，黄仁勋回归请愿书签名者突破12万",
-          "publishedAt": "2026-11-15T08:40:00.000Z"
-        },
-        {
-          "id": "1oxi0ozjfia",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4067755181003654",
-          "title": "黄仁勋吃了上市太早的亏",
-          "publishedAt": "2026-11-15T12:41:58.177Z"
-        },
-        {
-          "id": "90qusvnnx8",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4071587047675015",
-          "title": "马斯克怒斥英伟达董事会：卖快餐、卖汽水的人，正在决定万亿AI帝国的命运？",
-          "publishedAt": "2026-11-16T00:22:30.599Z"
-        },
-        {
           "id": "27zctff497y",
           "sourceId": "36kr-ai",
           "sourceName": "36氪 AI",
           "url": "https://36kr.com/p/4072182051362693",
           "title": "黄仁勋要夺回英伟达？",
           "publishedAt": "2026-11-16T10:11:09.147Z"
-        },
-        {
-          "id": "2aw74utxeam",
-          "sourceId": "36kr-ai",
-          "sourceName": "36氪 AI",
-          "url": "https://36kr.com/p/4072379146277765",
-          "title": "逼退黄仁勋，谁正在失去算力王座？",
-          "publishedAt": "2026-11-16T12:50:48.129Z"
         },
         {
           "id": "2gb80mo54e7",
@@ -4657,15 +4617,13 @@
         }
       ],
       "story": {
-        "reports": 10,
+        "reports": 5,
         "sources": [
           "nvidia",
-          "techcrunch-ai",
-          "jiqizhixin",
           "36kr-ai",
           "verge-ai"
         ],
-        "firstPublishedAt": "2026-11-14T21:41:22.000Z"
+        "firstPublishedAt": "2026-11-16T10:11:09.147Z"
       }
     }
   ]
